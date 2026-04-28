@@ -1244,18 +1244,137 @@ def write_atom_feed(items, hero_item=None):
     FEED_PATH.write_text(content, encoding="utf-8")
 
 
+_DASH_RE = re.compile(r"\s*[—–]\s*")
+_TITLE_NORM_RE = re.compile(r"\W+")
+_PARA_RE = re.compile(r"<p\b[^>]*>(.*?)</p>", re.DOTALL | re.IGNORECASE)
+_SENT_SPLIT_RE = re.compile(r"(?<=[.!?])\s+(?=[A-Z0-9\"'“])")
+_BOILERPLATE = (
+    "follow us", "sign up for", "subscribe to", "all rights reserved",
+    "cookie policy", "privacy policy", "newsletter", "click here",
+    "read more at", "this article was", "advertisement", "share this",
+    "get the latest", "you can read", "originally appeared", "view comments",
+)
+
+
+def _strip_dashes(text):
+    """Replace em dashes / en dashes with comma + space. Hyphens in compound
+    words like 'data-dependent' are left alone."""
+    if not text:
+        return text
+    return _DASH_RE.sub(", ", text).strip()
+
+
+def _smart_truncate(text, max_len):
+    """Truncate to <= max_len ending cleanly at sentence or word boundary —
+    never with a trailing ellipsis or partial word."""
+    if len(text) <= max_len:
+        return text
+    candidate = text[:max_len]
+    # Prefer last sentence end (.!?) followed by space
+    last_sent = max(
+        candidate.rfind(". "), candidate.rfind("! "), candidate.rfind("? ")
+    )
+    if last_sent >= int(max_len * 0.55):
+        return candidate[: last_sent + 1].rstrip()
+    # Else cut at last word boundary
+    last_space = candidate.rfind(" ")
+    if last_space > 0:
+        cut = candidate[:last_space].rstrip(" ,;:")
+    else:
+        cut = candidate.rstrip(" ,;:")
+    if cut and not cut.endswith((".", "!", "?")):
+        cut += "."
+    return cut
+
+
+def _title_norm_prefix(title, n=30):
+    """First n chars of normalized (alphanumeric-only, lowercased) title.
+    Used to detect when a paragraph just rephrases the headline."""
+    norm = _TITLE_NORM_RE.sub("", (title or "").lower())
+    return norm[:n]
+
+
+def _paragraph_too_similar(text, title_prefix):
+    """True if `text` starts with the same first ~30 alphanumeric chars as
+    the title — i.e., the paragraph is essentially restating the headline."""
+    if not title_prefix:
+        return False
+    text_norm = _TITLE_NORM_RE.sub("", text.lower())
+    return text_norm.startswith(title_prefix)
+
+
 def _is_substantive_summary(summary, title):
-    """True if the RSS summary adds info beyond the title (>= 80 chars and not
-    just the title with a tail). Used to decide whether to fetch og:description."""
+    """True if the RSS summary adds info beyond the title."""
     if not summary or len(summary) < 80:
         return False
-    s = summary.strip().lower()
-    t = title.strip().lower()
-    if s.startswith(t):
-        rest = s[len(t):].strip(" -—:.|·")
-        if len(rest) < 40:
+    title_prefix = _title_norm_prefix(title)
+    if _paragraph_too_similar(summary, title_prefix):
+        # First 30 chars match — likely just a title reword. Bail.
+        text_norm = _TITLE_NORM_RE.sub("", summary.lower())
+        rest = text_norm[len(title_prefix):]
+        if len(rest) < 50:
             return False
     return True
+
+
+def fetch_article_briefing(url, title, timeout=8):
+    """Fetch the article and return 1-2 sentences of body text that go
+    *beyond* the headline. Falls back to og:description, but only if it
+    isn't just a title reword. Returns None on failure or if everything
+    we find duplicates the title."""
+    try:
+        req = urllib.request.Request(url, headers={
+            "User-Agent": "Mozilla/5.0 (compatible; HowlStreet/1.0; +https://howlstreet.github.io)",
+            "Accept": "text/html,application/xhtml+xml",
+        })
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            charset = resp.headers.get_content_charset() or "utf-8"
+            page = resp.read(600_000).decode(charset, errors="replace")
+    except Exception as e:
+        print(f"    ! briefing fetch failed: {e}", file=sys.stderr)
+        return None
+
+    title_prefix = _title_norm_prefix(title)
+
+    # Strategy 1: scrape <p> tags from body, skip boilerplate + title rewords
+    candidates = []
+    for raw in _PARA_RE.findall(page):
+        text = _clean_summary(raw)
+        if len(text) < 80:
+            continue
+        low = text.lower()
+        if any(j in low for j in _BOILERPLATE):
+            continue
+        if _paragraph_too_similar(text, title_prefix):
+            continue
+        candidates.append(text)
+        if len(candidates) >= 3:
+            break
+
+    if candidates:
+        combined = " ".join(candidates)
+        sentences = _SENT_SPLIT_RE.split(combined)
+        if sentences:
+            briefing = " ".join(s.strip() for s in sentences[:2]).strip()
+            if 80 <= len(briefing) <= 400:
+                return _strip_dashes(briefing)
+
+    # Strategy 2: og:description / meta description (one-shot, no second fetch)
+    meta_patterns = (
+        r'<meta[^>]+property=["\']og:description["\'][^>]*content=["\']([^"\']+)["\']',
+        r'<meta[^>]+content=["\']([^"\']+)["\'][^>]*property=["\']og:description["\']',
+        r'<meta[^>]+name=["\']twitter:description["\'][^>]*content=["\']([^"\']+)["\']',
+        r'<meta[^>]+content=["\']([^"\']+)["\'][^>]*name=["\']twitter:description["\']',
+        r'<meta[^>]+name=["\']description["\'][^>]*content=["\']([^"\']+)["\']',
+        r'<meta[^>]+content=["\']([^"\']+)["\'][^>]*name=["\']description["\']',
+    )
+    for pattern in meta_patterns:
+        m = re.search(pattern, page, re.IGNORECASE)
+        if m:
+            desc = html.unescape(m.group(1)).strip()
+            if len(desc) > 50 and not _paragraph_too_similar(desc, title_prefix):
+                return _strip_dashes(desc)
+    return None
 
 
 def write_queue_html(items, hero_item=None):
@@ -1291,23 +1410,24 @@ def write_queue_html(items, hero_item=None):
         if len(queue) >= 20:
             break
 
-    # Briefing per item: RSS summary if substantive, else fetch og:description.
+    # Briefing per item: RSS summary if substantive (and not a title reword),
+    # else scrape the article body for a real briefing.
     briefings = {}
-    needs_fetch = []
+    needs_fetch = []  # list of (url, title)
     for category, item in queue:
         rss = _clean_summary(item.get("summary", ""))
         if _is_substantive_summary(rss, item["title"]):
-            briefings[item["link"]] = rss
+            briefings[item["link"]] = _strip_dashes(rss)
         else:
-            needs_fetch.append(item["link"])
+            needs_fetch.append((item["link"], item["title"]))
 
     if needs_fetch:
-        print(f"  fetching og:description for {len(needs_fetch)} queue items...")
+        print(f"  fetching article body for {len(needs_fetch)} queue items...")
         with ThreadPoolExecutor(max_workers=10) as ex:
-            results = list(ex.map(fetch_article_summary, needs_fetch))
-        for link, briefing in zip(needs_fetch, results):
-            if briefing and len(briefing) > 50:
-                briefings[link] = _clean_summary(briefing)
+            results = list(ex.map(lambda p: fetch_article_briefing(p[0], p[1]), needs_fetch))
+        for (link, _t), briefing in zip(needs_fetch, results):
+            if briefing and len(briefing) > 60:
+                briefings[link] = briefing  # already dash-stripped
 
     # Subtle Pack-themed leads sprinkled on every 4th wire post (rotating).
     # Howl of the Day always stays "Howl of the Day:". Most wire posts get
@@ -1326,30 +1446,28 @@ def write_queue_html(items, hero_item=None):
             else:
                 prefix = ""
             wire_idx += 1
-        title = item["title"]
+        title = _strip_dashes(item["title"])
         link = item["link"]
 
         if len(title) > TITLE_CAP:
-            title = title[: TITLE_CAP - 1].rstrip() + "…"
+            title = _smart_truncate(title, TITLE_CAP)
 
         briefing = briefings.get(item["link"])
 
         # Format: {prefix}{title}. {briefing}\n\n{url} {hashtags}
-        # Cost ledger: prefix + title + ". " + briefing + "\n\n" + URL + " " + hashtags
         title_punct = title.rstrip()
-        if not title_punct.endswith(('.', '!', '?', ':', ';', '—', '…', '"', "'", ')')):
+        if not title_punct.endswith(('.', '!', '?', ':', ';', '"', "'", ')')):
             title_punct += '.'
 
         if briefing:
             fixed = len(prefix) + len(title_punct) + 1 + 2 + URL_LEN + 1 + HASHTAGS_LEN
             briefing_budget = MAX - fixed
-            if briefing_budget < 50:
-                # Not enough room — drop briefing
+            if briefing_budget < 60:
                 tweet = f"{prefix}{title}\n\n{link} {HASHTAGS}"
                 counted_len = len(prefix) + len(title) + 2 + URL_LEN + 1 + HASHTAGS_LEN
             else:
                 if len(briefing) > briefing_budget:
-                    briefing = briefing[: briefing_budget - 1].rstrip(' ,;:-—.!?') + "…"
+                    briefing = _smart_truncate(briefing, briefing_budget)
                 tweet = f"{prefix}{title_punct} {briefing}\n\n{link} {HASHTAGS}"
                 counted_len = len(prefix) + len(title_punct) + 1 + len(briefing) + 2 + URL_LEN + 1 + HASHTAGS_LEN
         else:
