@@ -5,18 +5,23 @@ Runs on GitHub Actions on a schedule.
 """
 
 import os
+import socket
 import sys
 import html
 import json
 import re
 import time
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone, date
 from pathlib import Path
 
 import yfinance as yf
 import feedparser
 from zoneinfo import ZoneInfo
+
+# Cap per-feed network wait so one slow source can't stall the build
+socket.setdefaulttimeout(15)
 
 # ----------------------------------------------------------------------------
 # CONFIG
@@ -122,34 +127,164 @@ TICKER_BAR = [
 
 RSS_FEEDS = [
     # Official institutions — highest signal, primary sources
-    ("FED",          "https://www.federalreserve.gov/feeds/press_all.xml"),
-    ("TREASURY",     "https://home.treasury.gov/news/press-releases/feed"),
-    ("BIS",          "https://www.bis.org/rss/home.rss"),
-    ("IMF",          "https://www.imf.org/en/News/RSS?Language=ENG"),
+    ("FED",            "https://www.federalreserve.gov/feeds/press_all.xml"),
+    ("TREASURY",       "https://home.treasury.gov/news/press-releases/feed"),
+    ("BIS",            "https://www.bis.org/rss/home.rss"),
+    ("IMF",            "https://www.imf.org/en/News/RSS?Language=ENG"),
+
     # Major global wires
-    ("REUTERS",      "https://news.google.com/rss/search?q=site%3Areuters.com+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen"),
-    ("AP",           "https://news.google.com/rss/search?q=site%3Aapnews.com+business+OR+economy+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen"),
-    ("BLOOMBERG",    "https://news.google.com/rss/search?q=site%3Abloomberg.com+markets+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen"),
-    ("WSJ",          "https://feeds.a.dj.com/rss/RSSMarketsMain.xml"),
-    # Major regional / international outlets — diverse framings
-    ("BBC",          "https://feeds.bbci.co.uk/news/business/rss.xml"),
-    ("GUARDIAN",     "https://www.theguardian.com/business/rss"),
-    ("AL JAZEERA",   "https://www.aljazeera.com/xml/rss/all.xml"),
-    ("NIKKEI",       "https://news.google.com/rss/search?q=site%3Aasia.nikkei.com+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen"),
-    ("DW",           "https://rss.dw.com/rdf/rss-en-bus"),
-    ("SCMP",         "https://news.google.com/rss/search?q=site%3Ascmp.com+business+OR+economy+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen"),
-    # Right-leaning business / contrarian — for spectrum balance
-    ("FOX BUSINESS", "https://moxie.foxbusiness.com/google-publisher/markets.xml"),
-    ("NY POST",      "https://nypost.com/business/feed/"),
-    ("ZEROHEDGE",    "https://www.zerohedge.com/fullrss.xml"),
-    # Specialized — gold / energy / FX matter for the macro themes
-    ("KITCO",        "https://www.kitco.com/rss/KitcoNews.xml"),
-    ("OILPRICE",     "https://oilprice.com/rss/main"),
-    # Center / left for balance
-    ("NPR",          "https://feeds.npr.org/1006/rss.xml"),
-    # US retail — noisy but sometimes useful
-    ("CNBC",         "https://www.cnbc.com/id/10001147/device/rss/rss.html"),
-    ("MARKETWATCH",  "https://feeds.content.dowjones.io/public/rss/mw_topstories"),
+    ("REUTERS",        "https://news.google.com/rss/search?q=site%3Areuters.com+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen"),
+    ("AP",             "https://news.google.com/rss/search?q=site%3Aapnews.com+business+OR+economy+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen"),
+    ("BLOOMBERG",      "https://news.google.com/rss/search?q=site%3Abloomberg.com+markets+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen"),
+    ("WSJ",            "https://feeds.a.dj.com/rss/RSSMarketsMain.xml"),
+
+    # UK / Europe
+    ("BBC",            "https://feeds.bbci.co.uk/news/business/rss.xml"),
+    ("GUARDIAN",       "https://www.theguardian.com/business/rss"),
+    ("TELEGRAPH",      "https://www.telegraph.co.uk/business/rss.xml"),
+    ("DW",             "https://rss.dw.com/rdf/rss-en-bus"),
+    ("EURONEWS",       "https://www.euronews.com/rss?level=vertical&name=business"),
+
+    # Asia / Pacific
+    ("NIKKEI",         "https://news.google.com/rss/search?q=site%3Aasia.nikkei.com+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen"),
+    ("SCMP",           "https://news.google.com/rss/search?q=site%3Ascmp.com+business+OR+economy+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen"),
+    ("CAIXIN",         "https://www.caixinglobal.com/rss/"),
+    ("ASIA TIMES",     "https://asiatimes.com/feed/"),
+    ("KOREA HERALD",   "https://news.google.com/rss/search?q=site%3Akoreaherald.com+business+OR+economy+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen"),
+    ("ECON TIMES IN",  "https://economictimes.indiatimes.com/news/economy/rssfeeds/1373380680.cms"),
+    ("TIMES INDIA",    "https://timesofindia.indiatimes.com/rssfeeds/1898055.cms"),
+    ("ABC AUSTRALIA",  "https://www.abc.net.au/news/feed/51892/rss.xml"),
+    ("SMH",            "https://www.smh.com.au/rss/business.xml"),
+
+    # Middle East
+    ("AL JAZEERA",     "https://www.aljazeera.com/xml/rss/all.xml"),
+    ("TIMES ISRAEL",   "https://www.timesofisrael.com/feed/"),
+
+    # Russia (independent, not state propaganda)
+    ("MOSCOW TIMES",   "https://www.themoscowtimes.com/rss/news"),
+
+    # Americas (non-US)
+    ("GLOBE & MAIL",   "https://www.theglobeandmail.com/business/rss/"),
+
+    # More US — broader business coverage
+    ("YAHOO FINANCE",  "https://finance.yahoo.com/news/rssindex"),
+    ("FORBES",         "https://www.forbes.com/business/feed/"),
+    ("BUSINESS INSIDER","https://www.businessinsider.com/rss"),
+    ("FORTUNE",        "https://fortune.com/feed/"),
+    ("AXIOS",          "https://api.axios.com/feed/markets"),
+    ("THE HILL",       "https://thehill.com/policy/finance/feed/"),
+    ("POLITICO US",    "https://www.politico.com/rss/economy.xml"),
+
+    # More Europe
+    ("FRANCE 24",      "https://www.france24.com/en/business-economic/rss"),
+    ("SKY NEWS",       "https://feeds.skynews.com/feeds/rss/business.xml"),
+    ("POLITICO EU",    "https://www.politico.eu/feed/"),
+    ("SPIEGEL",        "https://www.spiegel.de/international/index.rss"),
+
+    # More Asia
+    ("CHANNEL NEWS",   "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=6936"),
+    ("JAPAN TIMES",    "https://www.japantimes.co.jp/category/business/feed/"),
+    ("STRAITS TIMES",  "https://www.straitstimes.com/news/business/rss.xml"),
+    ("MINT INDIA",     "https://www.livemint.com/rss/markets"),
+    ("BIZ STD INDIA",  "https://www.business-standard.com/rss/markets-106.rss"),
+    ("HINDU BIZLINE",  "https://www.thehindubusinessline.com/economy/feeder/default.rss"),
+
+    # More Middle East
+    ("ARAB NEWS",      "https://www.arabnews.com/rss.xml"),
+    ("GULF NEWS",      "https://gulfnews.com/business/rss-feeds"),
+    ("THE NATIONAL",   "https://www.thenationalnews.com/business/rss/"),
+
+    # Africa
+    ("ALL AFRICA",     "https://allafrica.com/tools/headlines/rdf/business/headlines.rdf"),
+    ("BIZNEWS SA",     "https://www.biznews.com/feed"),
+
+    # Latin America
+    ("MERCOPRESS",     "https://en.mercopress.com/rss"),
+
+    # More Canada
+    ("CBC BUSINESS",   "https://rss.cbc.ca/lineup/business.xml"),
+    ("FINANCIAL POST", "https://financialpost.com/feed"),
+
+    # Crypto-specific (relevant for digital currency / CBDC themes)
+    ("COINDESK",       "https://www.coindesk.com/arc/outboundfeeds/rss/"),
+    ("COINTELEGRAPH",  "https://cointelegraph.com/rss"),
+    ("THE BLOCK",      "https://www.theblock.co/rss.xml"),
+
+    # Specialized markets / commodities / FX
+    ("INVESTING",      "https://www.investing.com/rss/news.rss"),
+    ("MINING",         "https://www.mining.com/feed/"),
+    ("FOREXLIVE",      "https://www.forexlive.com/feed/news"),
+
+    # Macro / geopolitics specialty
+    ("FOREIGN POLICY", "https://foreignpolicy.com/feed/"),
+    ("PROJECT SYND",   "https://www.project-syndicate.org/rss"),
+
+    # US right-leaning / contrarian
+    ("FOX BUSINESS",   "https://moxie.foxbusiness.com/google-publisher/markets.xml"),
+    ("NY POST",        "https://nypost.com/business/feed/"),
+    ("ZEROHEDGE",      "https://www.zerohedge.com/fullrss.xml"),
+    ("EPOCH TIMES",    "https://www.theepochtimes.com/c-business/feed"),
+    ("FREE PRESS",     "https://www.thefp.com/feed"),
+
+    # Specialized — gold / energy / FX matter for macro themes
+    ("KITCO",          "https://www.kitco.com/rss/KitcoNews.xml"),
+    ("OILPRICE",       "https://oilprice.com/rss/main"),
+
+    # US center / left
+    ("NPR",            "https://feeds.npr.org/1006/rss.xml"),
+
+    # US retail
+    ("CNBC",           "https://www.cnbc.com/id/10001147/device/rss/rss.html"),
+    ("MARKETWATCH",    "https://feeds.content.dowjones.io/public/rss/mw_topstories"),
+
+    # ── Round 2 expansion: more US national ──
+    ("USA TODAY",      "https://rssfeeds.usatoday.com/usatoday-newstopstories"),
+    ("LA TIMES",       "https://www.latimes.com/business/rss2.0.xml"),
+    ("WAPO",           "https://feeds.washingtonpost.com/rss/business"),
+    ("WASH TIMES",     "https://www.washingtontimes.com/rss/headlines/business/"),
+    ("DAILY CALLER",   "https://dailycaller.com/section/business/feed/"),
+    ("REALCLEAR",      "https://www.realclearmarkets.com/index.xml"),
+    ("BENZINGA",       "https://www.benzinga.com/feed"),
+
+    # Think tanks / policy shops (broad spectrum)
+    ("AEI",            "https://www.aei.org/feed/"),
+    ("CATO",           "https://www.cato.org/rss/recent-content"),
+    ("ATLANTIC CNCL",  "https://www.atlanticcouncil.org/feed/"),
+    ("CSIS",           "https://www.csis.org/analysis/rss.xml"),
+
+    # Europe additions
+    ("LE MONDE",       "https://www.lemonde.fr/en/rss/une.xml"),
+    ("SWISSINFO",      "https://www.swissinfo.ch/eng/rss-news"),
+    ("ANSA ITALY",     "https://www.ansa.it/english/news/business_economy/business_economy_rss.xml"),
+
+    # Asia additions
+    ("BANGKOK POST",   "https://www.bangkokpost.com/rss/data/business.xml"),
+    ("INQUIRER PH",    "https://business.inquirer.net/feed/"),
+    ("MAINICHI JP",    "https://mainichi.jp/english/rss/etc/etc-business.rss"),
+    ("YONHAP",         "https://en.yna.co.kr/RSS/economy.xml"),
+
+    # Middle East additions
+    ("HAARETZ",        "https://www.haaretz.com/cmlink/1.4605045"),
+    ("AL ARABIYA",     "https://english.alarabiya.net/.mrss/en.xml"),
+
+    # Africa additions
+    ("DAILY MAVERICK", "https://www.dailymaverick.co.za/dmrss/"),
+    ("EAST AFRICAN",   "https://www.theeastafrican.co.ke/rss/business/index.xml"),
+    ("PREMIUM TIMES",  "https://www.premiumtimesng.com/feed"),
+
+    # Latin America additions
+    ("BA TIMES",       "https://www.batimes.com.ar/rss/news.xml"),
+    ("RIO TIMES",      "https://www.riotimesonline.com/feed/"),
+
+    # Specialized markets / FX / shipping (highly relevant to macro themes)
+    ("TRADING ECON",   "https://tradingeconomics.com/calendar/rss"),
+    ("DAILYFX",        "https://www.dailyfx.com/feeds/market-news"),
+    ("FXSTREET",       "https://www.fxstreet.com/rss/news"),
+    ("HELLENIC SHIP",  "https://www.hellenicshippingnews.com/feed/"),
+
+    # More crypto (CBDC + digital currency themes)
+    ("BITCOIN MAG",    "https://bitcoinmagazine.com/feed"),
+    ("DECRYPT",        "https://decrypt.co/feed"),
 ]
 
 # Used by the auto Loudest Howl picker. Weighted by signal quality (institutional
@@ -160,17 +295,52 @@ SOURCE_WEIGHT = {
     "FED":          6, "TREASURY":     6, "BIS":          6, "IMF":          6,
     # Major global wires
     "REUTERS":      5, "AP":           5, "BLOOMBERG":    5, "WSJ":          5,
-    # Major regional / international
-    "BBC":          4, "GUARDIAN":     4, "AL JAZEERA":   4, "NIKKEI":       4,
-    "DW":           3, "SCMP":         3,
-    # Spectrum balance — right-leaning business / contrarian
-    "FOX BUSINESS": 3, "NY POST":      2, "ZEROHEDGE":    2,
+    # UK / Europe
+    "BBC":          4, "GUARDIAN":     4, "TELEGRAPH":    3, "DW":           3,
+    "EURONEWS":     3, "FRANCE 24":    3, "SKY NEWS":     3, "POLITICO EU":  3, "SPIEGEL":     3,
+    # Asia / Pacific
+    "NIKKEI":       4, "SCMP":         3, "CAIXIN":       4, "ASIA TIMES":   3,
+    "KOREA HERALD": 3, "ECON TIMES IN":4, "TIMES INDIA":  2, "ABC AUSTRALIA":4, "SMH":          3,
+    "CHANNEL NEWS": 4, "JAPAN TIMES":  3, "STRAITS TIMES":3, "MINT INDIA":   3,
+    "BIZ STD INDIA":3, "HINDU BIZLINE":3,
+    # Middle East
+    "AL JAZEERA":   4, "TIMES ISRAEL": 3, "ARAB NEWS":    3, "GULF NEWS":    3, "THE NATIONAL": 3,
+    # Russia (independent)
+    "MOSCOW TIMES": 3,
+    # Africa
+    "ALL AFRICA":   3, "BIZNEWS SA":   2,
+    # Latin America
+    "MERCOPRESS":   2,
+    # Americas (non-US)
+    "GLOBE & MAIL": 4, "CBC BUSINESS": 4, "FINANCIAL POST":3,
+    # Crypto / digital currency
+    "COINDESK":     3, "COINTELEGRAPH":2, "THE BLOCK":    3,
+    # Specialized markets / commodities / FX
+    "INVESTING":    2, "MINING":       3, "FOREXLIVE":    3,
+    # Macro / geopolitics specialty
+    "FOREIGN POLICY":4, "PROJECT SYND":3,
+    # US right-leaning / contrarian
+    "FOX BUSINESS": 3, "NY POST":      2, "ZEROHEDGE":    2, "EPOCH TIMES":  2, "FREE PRESS":   3,
     # Specialized commodity / energy
     "KITCO":        3, "OILPRICE":     3,
-    # Center / left
+    # US center / left
     "NPR":          3,
-    # US retail (kept for variety in the wire panel; rarely wins Loudest Howl)
+    # US broader business
+    "YAHOO FINANCE":2, "FORBES":       2, "BUSINESS INSIDER":2, "FORTUNE":   2,
+    "AXIOS":        3, "THE HILL":     2, "POLITICO US":  3,
+    # US retail (kept for variety; rarely wins Loudest Howl)
     "CNBC":         1, "MARKETWATCH":  1,
+    # Round 2 expansion
+    "USA TODAY":    2, "LA TIMES":     3, "WAPO":         4, "WASH TIMES":   2,
+    "DAILY CALLER": 1, "REALCLEAR":    2, "BENZINGA":     1,
+    "AEI":          3, "CATO":         3, "ATLANTIC CNCL":4, "CSIS":         4,
+    "LE MONDE":     4, "SWISSINFO":    3, "ANSA ITALY":   3,
+    "BANGKOK POST": 3, "INQUIRER PH":  3, "MAINICHI JP":  3, "YONHAP":       3,
+    "HAARETZ":      3, "AL ARABIYA":   3,
+    "DAILY MAVERICK":3, "EAST AFRICAN":3, "PREMIUM TIMES":3,
+    "BA TIMES":     2, "RIO TIMES":    2,
+    "TRADING ECON": 4, "DAILYFX":      3, "FXSTREET":     3, "HELLENIC SHIP":3,
+    "BITCOIN MAG":  2, "DECRYPT":      2,
 }
 
 # Keyword score boosts (lowercase, substring match against title).
@@ -232,21 +402,46 @@ KEYWORD_PENALTIES = {
 # Sources whose feed is finance/markets-focused — items always pass the
 # relevance gate even without explicit keyword matches.
 FINANCIAL_SOURCES = {
-    "FED", "TREASURY", "BIS", "IMF",       # institutional
-    "BLOOMBERG", "WSJ", "MARKETWATCH",     # markets-only feeds
-    "AP",                                   # query pre-filtered to business/economy
-    "KITCO", "OILPRICE", "ZEROHEDGE",      # commodities/macro focused
+    # Institutional
+    "FED", "TREASURY", "BIS", "IMF",
+    # Markets-only / business-section-only feeds
+    "BLOOMBERG", "WSJ", "MARKETWATCH",
+    "AP",
+    "BBC", "GUARDIAN", "TELEGRAPH", "DW", "EURONEWS", "FRANCE 24", "SKY NEWS",
+    "SMH", "ECON TIMES IN", "MINT INDIA", "BIZ STD INDIA", "HINDU BIZLINE",
+    "JAPAN TIMES", "STRAITS TIMES", "CHANNEL NEWS",
+    "GLOBE & MAIL", "CBC BUSINESS", "FINANCIAL POST",
+    "GULF NEWS", "THE NATIONAL",
+    "ALL AFRICA", "BIZNEWS SA",
+    "CAIXIN", "FOX BUSINESS", "NY POST", "EPOCH TIMES",
+    "YAHOO FINANCE", "FORBES", "BUSINESS INSIDER", "FORTUNE",
+    "INVESTING", "MINING", "FOREXLIVE",
+    "COINDESK", "COINTELEGRAPH", "THE BLOCK",
+    "AXIOS", "THE HILL", "POLITICO US", "POLITICO EU", "FREE PRESS",
+    # Round 2: business-section feeds
+    "LA TIMES", "WAPO", "WASH TIMES", "DAILY CALLER", "REALCLEAR", "BENZINGA",
+    "ANSA ITALY", "BANGKOK POST", "INQUIRER PH", "MAINICHI JP", "YONHAP",
+    "HAARETZ", "EAST AFRICAN", "TRADING ECON", "DAILYFX", "FXSTREET",
+    "HELLENIC SHIP", "BITCOIN MAG", "DECRYPT",
+    # Commodities/macro focused
+    "KITCO", "OILPRICE", "ZEROHEDGE",
 }
 
 # Mixed-content sources. Items must have at least one financial-keyword hit
-# (in title or summary) to make it into the wire panel — this is what filters
-# out the cartel/general-news/lifestyle drift.
+# (in title or summary) to make it into the wire panel — this filters out
+# general-news drift (cartel violence, lifestyle, sports, etc.).
 MIXED_CONTENT_SOURCES = {
-    "REUTERS",       # broad Google News query
-    "BBC", "GUARDIAN", "AL JAZEERA", "NIKKEI", "DW", "SCMP", "NPR",
-    "FOX BUSINESS",  # business section but includes lifestyle
-    "NY POST",       # business section drifts into consumer/operations
-    "CNBC",          # top-news feed is broader than just markets
+    "REUTERS",
+    "AL JAZEERA", "ARAB NEWS", "TIMES ISRAEL", "MOSCOW TIMES", "AL ARABIYA",
+    "NIKKEI", "SCMP", "ASIA TIMES", "KOREA HERALD", "TIMES INDIA",
+    "ABC AUSTRALIA",
+    "MERCOPRESS", "BA TIMES", "RIO TIMES",
+    "SPIEGEL", "LE MONDE", "SWISSINFO",
+    "FOREIGN POLICY", "PROJECT SYND",
+    "AEI", "CATO", "ATLANTIC CNCL", "CSIS",
+    "DAILY MAVERICK", "PREMIUM TIMES",
+    "USA TODAY",
+    "NPR", "CNBC",
 }
 
 # ----------------------------------------------------------------------------
@@ -506,33 +701,42 @@ def _clean_summary(raw):
     return text
 
 
+def _fetch_one_feed(source_url):
+    """Worker for ThreadPoolExecutor. Returns a list of item dicts."""
+    source, url = source_url
+    epoch_min = datetime(2000, 1, 1, tzinfo=NY)
+    out = []
+    try:
+        feed = feedparser.parse(url)
+        for entry in feed.entries[:6]:
+            title = _clean_title(entry.get("title") or "", source)
+            if not title:
+                continue
+            summary = _clean_summary(entry.get("summary") or "")
+            published = entry.get("published_parsed") or entry.get("updated_parsed")
+            if published:
+                ts = datetime(*published[:6], tzinfo=timezone.utc).astimezone(NY)
+            else:
+                ts = epoch_min
+            out.append({
+                "source": source,
+                "title": title,
+                "summary": summary,
+                "link": entry.get("link", "#"),
+                "ts": ts,
+            })
+    except Exception as e:
+        print(f"  ! RSS {source}: {e}", file=sys.stderr)
+    return out
+
+
 def fetch_all_headlines():
-    """Fetch every RSS feed once and return a flat list of items.
+    """Fetch every RSS feed in parallel and return a flat list of items.
     Each item: {source, title, summary, link, ts (NY tz)}."""
     items = []
-    epoch_min = datetime(2000, 1, 1, tzinfo=NY)  # sentinel for items missing a timestamp
-    for source, url in RSS_FEEDS:
-        try:
-            feed = feedparser.parse(url)
-            for entry in feed.entries[:6]:  # pull more so the picker has options
-                title = _clean_title(entry.get("title") or "", source)
-                if not title:
-                    continue
-                summary = _clean_summary(entry.get("summary") or "")
-                published = entry.get("published_parsed") or entry.get("updated_parsed")
-                if published:
-                    ts = datetime(*published[:6], tzinfo=timezone.utc).astimezone(NY)
-                else:
-                    ts = epoch_min
-                items.append({
-                    "source": source,
-                    "title": title,
-                    "summary": summary,
-                    "link": entry.get("link", "#"),
-                    "ts": ts,
-                })
-        except Exception as e:
-            print(f"  ! RSS {source}: {e}", file=sys.stderr)
+    with ThreadPoolExecutor(max_workers=20) as ex:
+        for chunk in ex.map(_fetch_one_feed, RSS_FEEDS):
+            items.extend(chunk)
     return items
 
 
