@@ -8,6 +8,7 @@
 <meta name="theme-color" content="#0a0a0a" />
 <link rel="canonical" href="https://howlstreet.github.io/" />
 <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="alternate" type="application/atom+xml" title="Howl Street — Loudest Howls + Wire" href="/feed.xml" />
 
 <!-- Open Graph / social cards -->
 <meta property="og:type" content="website" />
@@ -89,9 +90,22 @@
 
   .brand {
     display: flex;
-    align-items: baseline;
-    gap: clamp(8px, 1vw, 14px);
+    align-items: center;
+    gap: clamp(10px, 1.2vw, 16px);
     flex-wrap: wrap;
+  }
+
+  .brand-logo {
+    width: clamp(36px, 3.5vw, 52px);
+    height: auto;
+    display: block;
+    flex-shrink: 0;
+  }
+
+  .brand-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
   }
 
   .brand h1 {
@@ -109,8 +123,6 @@
     font-size: clamp(9px, 0.7vw, 11px);
     letter-spacing: 0.25em;
     text-transform: uppercase;
-    padding-left: 14px;
-    border-left: 1px solid var(--border-bright);
   }
 
   .live-status {
@@ -536,10 +548,13 @@
 
 <header class="top-bar">
   <div class="brand-row">
-    <div class="brand">
-      <h1>HOWL <span>STREET</span></h1>
-      <div class="brand-tag">Global Markets · Heard First</div>
-    </div>
+    <a href="/" class="brand" style="text-decoration:none;color:inherit;">
+      <img src="logo.png" class="brand-logo" alt="Howl Street wolf logo" />
+      <div class="brand-text">
+        <h1>HOWL <span>STREET</span></h1>
+        <div class="brand-tag">Global Markets · Heard First</div>
+      </div>
+    </a>
     <form class="ticker-search" onsubmit="event.preventDefault();var t=(this.q.value||'').trim().toUpperCase();if(t){window.open('https://www.tradingview.com/symbols/'+encodeURIComponent(t)+'/','_blank','noopener');this.q.value='';this.q.blur();}return false;">
       <input name="q" type="text" placeholder="▸ Lookup ticker · AAPL · press /" autocomplete="off" spellcheck="false" aria-label="Ticker lookup">
     </form>
@@ -767,7 +782,12 @@
 
 <footer class="footer-strip">
   <div>HOWL STREET · No BS 24/7 Global Financial News</div>
-  <div>DATA: YFINANCE · RSS WIRES &nbsp;·&nbsp; UPDATED: <span style="color: var(--green);">{{TIMESTAMP}}</span></div>
+  <div>
+    <a href="https://x.com/HowlStreet" target="_blank" rel="noopener">@HowlStreet</a>
+    &nbsp;·&nbsp; <a href="/feed.xml">FEED</a>
+    &nbsp;·&nbsp; DATA: YFINANCE · RSS WIRES
+    &nbsp;·&nbsp; UPDATED: <span style="color: var(--green);">{{TIMESTAMP}}</span>
+  </div>
 </footer>
 
 <script>

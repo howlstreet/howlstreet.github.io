@@ -32,6 +32,8 @@ TEMPLATE_PATH = REPO_ROOT / "template.html"
 OUTPUT_PATH = REPO_ROOT / "index.html"
 HERO_PATH = REPO_ROOT / "hero.md"
 SITEMAP_PATH = REPO_ROOT / "sitemap.xml"
+FEED_PATH = REPO_ROOT / "feed.xml"
+SITE_URL = "https://howlstreet.github.io"
 
 NY = ZoneInfo("America/New_York")
 LONDON = ZoneInfo("Europe/London")
@@ -912,21 +914,26 @@ def score_item(item):
 HERO_MIN_SCORE = 4.0
 
 
-def build_hero_auto(items):
-    """Pick the highest-scoring recent item and render it as hero.
-    Returns empty string if nothing clears the quality threshold."""
+def pick_top_story(items):
+    """Highest-scoring recent (last 24h) item that clears the quality threshold.
+    Returns the item dict or None. Shared by the auto-hero renderer and the feed."""
     if not items:
-        return ""
-
+        return None
     now = datetime.now(NY)
-    # Limit to last 24h; if nothing recent, don't promote anything
     recent = [i for i in items if (now - i["ts"]).total_seconds() < 24 * 3600]
     if not recent:
-        return ""
-
+        return None
     scored = sorted(((score_item(i), i) for i in recent), key=lambda x: x[0], reverse=True)
     top_score, top = scored[0]
     if top_score < HERO_MIN_SCORE:
+        return None
+    return top
+
+
+def build_hero_auto(items):
+    """Render the picked top story as hero HTML. Empty string if no winner."""
+    top = pick_top_story(items)
+    if not top:
         return ""
 
     # Summary already cleaned in fetch_all_headlines. Strip the source name
@@ -1172,6 +1179,66 @@ def build_economic_calendar(items):
     return "\n".join(rows)
 
 
+def write_atom_feed(items, hero_item=None):
+    """Emit /feed.xml — an Atom feed of the Loudest Howl + top wire items.
+    Used by external services (dlvr.it, Buffer, Zapier) to auto-post to X / social.
+
+    hero_item: optional dict (same shape as wire items) for the auto-Loudest-Howl
+               so it appears as the first feed entry, tagged 'LOUDEST HOWL'.
+    """
+    now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+    pool = [i for i in items if is_financially_relevant(i)]
+    pool.sort(key=lambda x: x["ts"], reverse=True)
+
+    feed_items = []
+    seen_links = set()
+    if hero_item:
+        feed_items.append(("LOUDEST HOWL", hero_item))
+        seen_links.add(hero_item["link"])
+    for item in pool:
+        if item["link"] in seen_links:
+            continue
+        feed_items.append(("WIRE", item))
+        seen_links.add(item["link"])
+        if len(feed_items) >= 20:
+            break
+
+    entries_xml = []
+    for category, item in feed_items:
+        ts_iso = item["ts"].astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        title = html.escape(f"[{category}] {item['title']}" if category == "LOUDEST HOWL" else item["title"])
+        link = html.escape(item["link"], quote=True)
+        summary = html.escape(item.get("summary", "") or item["title"])
+        source_label = html.escape(item["source"])
+        entries_xml.append(
+            "  <entry>\n"
+            f"    <title>{title}</title>\n"
+            f'    <link href="{link}" />\n'
+            f"    <id>{link}</id>\n"
+            f"    <updated>{ts_iso}</updated>\n"
+            f"    <summary>{summary}</summary>\n"
+            f'    <category term="{category}" />\n'
+            f'    <category term="{source_label}" />\n'
+            "  </entry>"
+        )
+
+    content = (
+        '<?xml version="1.0" encoding="utf-8"?>\n'
+        '<feed xmlns="http://www.w3.org/2005/Atom">\n'
+        '  <title>Howl Street — Global Financial Wire</title>\n'
+        '  <subtitle>Loudest Howls and the Pack — auto-curated from 100+ global sources.</subtitle>\n'
+        f'  <link href="{SITE_URL}/" />\n'
+        f'  <link rel="self" type="application/atom+xml" href="{SITE_URL}/feed.xml" />\n'
+        f'  <id>{SITE_URL}/</id>\n'
+        f"  <updated>{now_utc}</updated>\n"
+        '  <author><name>Howl Street</name></author>\n'
+        + "\n".join(entries_xml) + "\n"
+        '</feed>\n'
+    )
+    FEED_PATH.write_text(content, encoding="utf-8")
+
+
 def write_sitemap():
     today = datetime.now(NY).strftime("%Y-%m-%d")
     content = (
@@ -1271,16 +1338,15 @@ def main():
     print("  Hero (Loudest Howl)...")
     hero_html = build_hero_from_md()
     hero_link = None
+    auto_hero_item = None
     if hero_html:
         print("    (manual override from hero.md)")
     else:
-        hero_html = build_hero_auto(all_items)
-        if hero_html:
-            # extract link to dedupe from wire panel
-            m = re.search(r'class="hero-link"\s+href="([^"]+)"', hero_html)
-            if m:
-                hero_link = html.unescape(m.group(1))
-            print(f"    (auto-picked from wires)")
+        auto_hero_item = pick_top_story(all_items)
+        if auto_hero_item:
+            hero_html = build_hero_auto(all_items)
+            hero_link = auto_hero_item["link"]
+            print(f"    (auto-picked from wires: {auto_hero_item['source']})")
         else:
             print("    (nothing cleared the quality threshold — hero hidden)")
 
@@ -1333,7 +1399,9 @@ def main():
 
     OUTPUT_PATH.write_text(output, encoding="utf-8")
     write_sitemap()
+    write_atom_feed(all_items, hero_item=auto_hero_item)
     print(f"  Wrote {OUTPUT_PATH} ({len(output):,} bytes)")
+    print(f"  Wrote {FEED_PATH}")
     print(f"  Updated at {ts_str}")
 
 
