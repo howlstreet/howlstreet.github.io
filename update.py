@@ -36,6 +36,10 @@ SITEMAP_PATH = REPO_ROOT / "sitemap.xml"
 NY = ZoneInfo("America/New_York")
 LONDON = ZoneInfo("Europe/London")
 TOKYO = ZoneInfo("Asia/Tokyo")
+BERLIN = ZoneInfo("Europe/Berlin")
+PARIS = ZoneInfo("Europe/Paris")
+HONG_KONG = ZoneInfo("Asia/Hong_Kong")
+SHANGHAI = ZoneInfo("Asia/Shanghai")
 
 FRED_API_KEY = os.environ.get("FRED_API_KEY", "").strip()
 
@@ -740,22 +744,32 @@ def _exchange_open(tz, open_hm, close_hm, lunch=None, holidays=None):
     return True
 
 
-def any_global_index_open():
-    """True if any of the major non-US indices (FTSE/DAX/CAC/Nikkei/Hang Seng/
-    Shanghai) is currently in session. Used for the Global Indices panel meta.
-    Holiday lists not maintained for these exchanges — weekend-aware only."""
-    BERLIN = ZoneInfo("Europe/Berlin")
-    PARIS = ZoneInfo("Europe/Paris")
-    HONG_KONG = ZoneInfo("Asia/Hong_Kong")
-    SHANGHAI = ZoneInfo("Asia/Shanghai")
-    return any([
-        _exchange_open(LONDON,    (8, 0),  (16, 30)),                                       # LSE
-        _exchange_open(BERLIN,    (9, 0),  (17, 30)),                                       # XETRA
-        _exchange_open(PARIS,     (9, 0),  (17, 30)),                                       # Euronext Paris
-        _exchange_open(TOKYO,     (9, 0),  (15, 0),  lunch=((11, 30), (12, 30))),           # TSE
-        _exchange_open(HONG_KONG, (9, 30), (16, 0),  lunch=((12, 0),  (13, 0))),            # HKEX
-        _exchange_open(SHANGHAI,  (9, 30), (15, 0),  lunch=((11, 30), (13, 0))),            # SSE
-    ])
+def global_indices_status_label():
+    """Compose a label naming which non-US regions are currently trading.
+    Examples: 'CLOSED', 'EU LIVE', 'JP·HK·CN LIVE'.
+    Holiday lists not maintained for non-US exchanges — weekend-aware only."""
+    eu_open = (
+        _exchange_open(LONDON, (8, 0), (16, 30))                                # LSE / FTSE
+        or _exchange_open(BERLIN, (9, 0), (17, 30))                             # XETRA / DAX
+        or _exchange_open(PARIS,  (9, 0), (17, 30))                             # Euronext / CAC
+    )
+    jp_open = _exchange_open(TOKYO, (9, 0), (15, 0), lunch=((11, 30), (12, 30)))  # TSE / Nikkei
+    cn_hk_open = (
+        _exchange_open(HONG_KONG, (9, 30), (16, 0), lunch=((12, 0), (13, 0)))   # HKEX / Hang Seng
+        or _exchange_open(SHANGHAI, (9, 30), (15, 0), lunch=((11, 30), (13, 0)))  # SSE / Shanghai
+    )
+
+    open_regions = []
+    if eu_open:
+        open_regions.append("EU")
+    if jp_open:
+        open_regions.append("JP")
+    if cn_hk_open:
+        open_regions.append("HK·CN")
+
+    if not open_regions:
+        return "CLOSED"
+    return "·".join(open_regions) + " LIVE"
 
 
 def is_us_treasury_open():
@@ -1250,7 +1264,7 @@ def main():
 
     print("  Market sessions...")
     sessions_html = build_market_sessions()
-    global_indices_status = "LIVE" if any_global_index_open() else "CLOSE"
+    global_indices_status = global_indices_status_label()
     treasury_status = "LIVE" if is_us_treasury_open() else "CLOSED"
     live_indicator_html = build_live_indicator()
 
