@@ -367,7 +367,7 @@ def build_hero():
 
     if not label:
         now_ny = datetime.now(NY)
-        label = "TOP STORY · " + now_ny.strftime("%b %d %H:%M ") + now_ny.tzname()
+        label = "LOUDEST HOWL · " + now_ny.strftime("%b %d %H:%M ") + now_ny.tzname()
 
     return (
         '<section class="hero">\n'
