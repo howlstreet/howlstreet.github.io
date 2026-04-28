@@ -588,6 +588,99 @@
     </table>
   </div>
 
+  <!-- SECTOR PERFORMANCE -->
+  <div class="panel panel-wide">
+    <div class="panel-head">
+      <div class="panel-title">Sector Performance</div>
+      <div class="panel-meta">S&amp;P SECTOR ETFS</div>
+    </div>
+    <table>
+      <thead>
+        <tr><th>Sector</th><th class="r">Last</th><th class="r">Chg</th><th class="r">%</th></tr>
+      </thead>
+      <tbody>
+        {{SECTORS}}
+      </tbody>
+    </table>
+  </div>
+
+  <!-- MEGA-CAP WATCHLIST -->
+  <div class="panel panel-wide">
+    <div class="panel-head">
+      <div class="panel-title">Mega-Cap Watch</div>
+      <div class="panel-meta">{{TIMESTAMP_SHORT}}</div>
+    </div>
+    <table>
+      <thead>
+        <tr><th>Name</th><th class="r">Last</th><th class="r">Chg</th><th class="r">%</th></tr>
+      </thead>
+      <tbody>
+        {{MEGACAPS}}
+      </tbody>
+    </table>
+  </div>
+
+  <!-- REGIONAL DESK HEADER (full-width visual divider) -->
+  <div class="panel panel-full" style="min-height:0;padding:18px clamp(14px,1.4vw,22px);background:linear-gradient(90deg,#0d0d0d 0%,#0a0a0a 100%);border-top:1px solid var(--green);border-bottom:1px solid var(--border-bright);">
+    <div style="font-family:'Bebas Neue',sans-serif;font-size:clamp(16px,1.4vw,22px);letter-spacing:0.28em;color:var(--text);">
+      ▸ <span style="color:var(--green);">GLOBAL DESK</span> &nbsp;·&nbsp; <span style="color:var(--text-dim);font-size:0.7em;">FROM EVERY CORNER OF THE MARKET</span>
+    </div>
+  </div>
+
+  <!-- REGIONAL: UNITED STATES (wide) -->
+  <div class="panel panel-wide">
+    <div class="panel-head">
+      <div class="panel-title">United States</div>
+      <div class="panel-meta">DOMESTIC WIRE</div>
+    </div>
+    {{REGIONAL_US}}
+  </div>
+
+  <!-- REGIONAL: EUROPE -->
+  <div class="panel">
+    <div class="panel-head">
+      <div class="panel-title">Europe</div>
+      <div class="panel-meta">EU / UK</div>
+    </div>
+    {{REGIONAL_EU}}
+  </div>
+
+  <!-- REGIONAL: ASIA / PACIFIC -->
+  <div class="panel">
+    <div class="panel-head">
+      <div class="panel-title">Asia / Pacific</div>
+      <div class="panel-meta">APAC</div>
+    </div>
+    {{REGIONAL_ASIA}}
+  </div>
+
+  <!-- REGIONAL: MIDDLE EAST -->
+  <div class="panel">
+    <div class="panel-head">
+      <div class="panel-title">Middle East</div>
+      <div class="panel-meta">GULF / LEVANT</div>
+    </div>
+    {{REGIONAL_ME}}
+  </div>
+
+  <!-- REGIONAL: AFRICA -->
+  <div class="panel">
+    <div class="panel-head">
+      <div class="panel-title">Africa</div>
+      <div class="panel-meta">CONTINENTAL</div>
+    </div>
+    {{REGIONAL_AF}}
+  </div>
+
+  <!-- REGIONAL: AMERICAS (Canada + Latin America) -->
+  <div class="panel">
+    <div class="panel-head">
+      <div class="panel-title">Americas</div>
+      <div class="panel-meta">CANADA / LATAM</div>
+    </div>
+    {{REGIONAL_AMERICAS}}
+  </div>
+
 
 </main>
 

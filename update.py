@@ -116,6 +116,35 @@ CRYPTO = [
     ("XRP",      "XRP-USD", "price"),
 ]
 
+# S&P sector ETFs — quick read on where money is moving today
+SECTORS = [
+    ("Technology",     "XLK",  "price"),
+    ("Financials",     "XLF",  "price"),
+    ("Energy",         "XLE",  "price"),
+    ("Health Care",    "XLV",  "price"),
+    ("Industrials",    "XLI",  "price"),
+    ("Materials",      "XLB",  "price"),
+    ("Utilities",      "XLU",  "price"),
+    ("Staples",        "XLP",  "price"),
+    ("Discretionary",  "XLY",  "price"),
+    ("Real Estate",    "XLRE", "price"),
+    ("Comm Services",  "XLC",  "price"),
+]
+
+# The names that drive the index
+MEGACAPS = [
+    ("Apple",        "AAPL",  "price"),
+    ("Microsoft",    "MSFT",  "price"),
+    ("Nvidia",       "NVDA",  "price"),
+    ("Alphabet",     "GOOGL", "price"),
+    ("Amazon",       "AMZN",  "price"),
+    ("Meta",         "META",  "price"),
+    ("Tesla",        "TSLA",  "price"),
+    ("Berkshire B",  "BRK-B", "price"),
+    ("JPMorgan",     "JPM",   "price"),
+    ("UnitedHealth", "UNH",   "price"),
+]
+
 TICKER_BAR = [
     ("SPX", "^GSPC"), ("NDX", "^NDX"), ("DJIA", "^DJI"), ("RUT", "^RUT"),
     ("VIX", "^VIX"), ("US10Y", "^TNX"), ("US2Y", "^IRX"),
@@ -425,6 +454,57 @@ FINANCIAL_SOURCES = {
     "HELLENIC SHIP", "BITCOIN MAG", "DECRYPT",
     # Commodities/macro focused
     "KITCO", "OILPRICE", "ZEROHEDGE",
+}
+
+# Region classification for the per-region wire cap and regional desk panels.
+SOURCE_REGION = {
+    # United States
+    "FED": "US", "TREASURY": "US", "IMF": "US",
+    "BLOOMBERG": "US", "WSJ": "US", "AP": "US", "MARKETWATCH": "US",
+    "CNBC": "US", "NPR": "US", "NY POST": "US", "FOX BUSINESS": "US",
+    "ZEROHEDGE": "US", "EPOCH TIMES": "US", "KITCO": "US", "OILPRICE": "US",
+    "FREE PRESS": "US", "YAHOO FINANCE": "US", "FORBES": "US",
+    "BUSINESS INSIDER": "US", "FORTUNE": "US", "AXIOS": "US",
+    "THE HILL": "US", "POLITICO US": "US", "USA TODAY": "US",
+    "LA TIMES": "US", "WAPO": "US", "WASH TIMES": "US", "DAILY CALLER": "US",
+    "REALCLEAR": "US", "BENZINGA": "US", "AEI": "US", "CATO": "US",
+    "ATLANTIC CNCL": "US", "CSIS": "US", "INVESTING": "US",
+    "BITCOIN MAG": "US", "DECRYPT": "US", "COINDESK": "US",
+    "COINTELEGRAPH": "US", "THE BLOCK": "US", "FOREXLIVE": "US",
+    "FOREIGN POLICY": "US", "DAILYFX": "US",
+    # Europe (incl. UK + international institutions HQ'd there)
+    "BIS": "EU", "REUTERS": "EU", "BBC": "EU", "GUARDIAN": "EU",
+    "TELEGRAPH": "EU", "DW": "EU", "EURONEWS": "EU", "FRANCE 24": "EU",
+    "SKY NEWS": "EU", "POLITICO EU": "EU", "SPIEGEL": "EU", "LE MONDE": "EU",
+    "SWISSINFO": "EU", "ANSA ITALY": "EU", "MOSCOW TIMES": "EU",
+    "PROJECT SYND": "EU", "TRADING ECON": "EU", "FXSTREET": "EU",
+    "HELLENIC SHIP": "EU",
+    # Asia / Pacific
+    "NIKKEI": "ASIA", "SCMP": "ASIA", "CAIXIN": "ASIA", "ASIA TIMES": "ASIA",
+    "KOREA HERALD": "ASIA", "ECON TIMES IN": "ASIA", "TIMES INDIA": "ASIA",
+    "ABC AUSTRALIA": "ASIA", "SMH": "ASIA", "CHANNEL NEWS": "ASIA",
+    "JAPAN TIMES": "ASIA", "STRAITS TIMES": "ASIA", "MINT INDIA": "ASIA",
+    "BIZ STD INDIA": "ASIA", "HINDU BIZLINE": "ASIA", "BANGKOK POST": "ASIA",
+    "INQUIRER PH": "ASIA", "MAINICHI JP": "ASIA", "YONHAP": "ASIA",
+    # Middle East
+    "AL JAZEERA": "ME", "TIMES ISRAEL": "ME", "ARAB NEWS": "ME",
+    "GULF NEWS": "ME", "THE NATIONAL": "ME", "HAARETZ": "ME", "AL ARABIYA": "ME",
+    # Africa
+    "ALL AFRICA": "AF", "BIZNEWS SA": "AF", "DAILY MAVERICK": "AF",
+    "EAST AFRICAN": "AF", "PREMIUM TIMES": "AF",
+    # Americas (non-US: Canada + Latin America)
+    "GLOBE & MAIL": "AMERICAS", "CBC BUSINESS": "AMERICAS",
+    "FINANCIAL POST": "AMERICAS", "MERCOPRESS": "AMERICAS",
+    "BA TIMES": "AMERICAS", "RIO TIMES": "AMERICAS",
+}
+
+REGION_LABEL = {
+    "US": "United States",
+    "EU": "Europe",
+    "ASIA": "Asia / Pacific",
+    "ME": "Middle East",
+    "AF": "Africa",
+    "AMERICAS": "Americas (Non-US)",
 }
 
 # Mixed-content sources. Items must have at least one financial-keyword hit
@@ -912,22 +992,30 @@ def build_hero_from_md():
     )
 
 
-def build_headlines_from_items(items, exclude_link=None, max_per_source=2, total=10):
+def build_headlines_from_items(items, exclude_link=None, exclude_sources=None,
+                                max_per_source=2, max_per_region=3, total=10):
     """Render the wire panel from already-fetched items, sorted recency-first.
-    Filters to financially-relevant items, caps each source so one busy outlet
-    can't dominate, and skips the hero story to avoid double-promotion."""
+    Filters to financially-relevant items; caps both per-source and per-region
+    so the panel stays globally diverse instead of US-dominated."""
     pool = [i for i in items if is_financially_relevant(i)]
+    if exclude_sources:
+        pool = [i for i in pool if i["source"] not in exclude_sources]
     if exclude_link:
         pool = [i for i in pool if i["link"] != exclude_link]
     pool.sort(key=lambda x: x["ts"], reverse=True)
 
     selected = []
     per_source_count = {}
+    per_region_count = {}
     for item in pool:
         if per_source_count.get(item["source"], 0) >= max_per_source:
             continue
+        region = SOURCE_REGION.get(item["source"], "OTHER")
+        if per_region_count.get(region, 0) >= max_per_region:
+            continue
         selected.append(item)
         per_source_count[item["source"]] = per_source_count.get(item["source"], 0) + 1
+        per_region_count[region] = per_region_count.get(region, 0) + 1
         if len(selected) >= total:
             break
 
@@ -942,6 +1030,93 @@ def build_headlines_from_items(items, exclude_link=None, max_per_source=2, total
             f'</div></a>'
         )
     return "\n".join(html_parts) if html_parts else '<div class="headline"><div class="headline-text" style="color:var(--text-dim)">Headlines unavailable.</div></div>'
+
+
+def build_regional_panels(items, exclude_link=None):
+    """Per-continent wire panels for the regional desk.
+    Returns dict: region_code → rendered HTML for that panel's body."""
+    panels = {}
+    for region in REGION_LABEL:
+        region_items = [
+            i for i in items
+            if SOURCE_REGION.get(i["source"]) == region
+            and is_financially_relevant(i)
+            and i["source"] != "TRADING ECON"  # calendar handled separately
+            and (not exclude_link or i["link"] != exclude_link)
+        ]
+        region_items.sort(key=lambda x: x["ts"], reverse=True)
+
+        # 1 per source for diversity in small panels; cap at 4 items
+        selected = []
+        seen_sources = set()
+        for item in region_items:
+            if item["source"] in seen_sources:
+                continue
+            selected.append(item)
+            seen_sources.add(item["source"])
+            if len(selected) >= 4:
+                break
+
+        if not selected:
+            panels[region] = (
+                '<div class="headline"><div class="headline-text" '
+                'style="color:var(--text-dim)">No recent items.</div></div>'
+            )
+            continue
+
+        html_parts = []
+        for item in selected:
+            time_str = item["ts"].strftime("%b %d %H:%M") if item["ts"].year > 2001 else ""
+            html_parts.append(
+                f'<a href="{html.escape(item["link"])}" target="_blank" rel="noopener" '
+                f'style="text-decoration:none;color:inherit;">'
+                f'<div class="headline">'
+                f'<div class="headline-meta">'
+                f'<span class="source-tag">{html.escape(item["source"])}</span>'
+                f'<span>{html.escape(time_str)}</span>'
+                f'</div>'
+                f'<div class="headline-text">{html.escape(item["title"])}</div>'
+                f'</div></a>'
+            )
+        panels[region] = "\n".join(html_parts)
+    return panels
+
+
+def build_economic_calendar(items):
+    """Render Trading Economics RSS items as a calendar list.
+    Most recent calendar entries first; max 12 rows."""
+    cal_items = [i for i in items if i["source"] == "TRADING ECON"]
+    cal_items.sort(key=lambda x: x["ts"], reverse=True)
+    cal_items = cal_items[:12]
+
+    if not cal_items:
+        return (
+            '<div class="headline"><div class="headline-text" '
+            'style="color:var(--text-dim)">Calendar feed unavailable.</div></div>'
+        )
+
+    rows = []
+    for item in cal_items:
+        time_str = item["ts"].strftime("%b %d %H:%M") if item["ts"].year > 2001 else "—"
+        # Trading Economics often packs the full event description in title;
+        # if there's a useful summary, append it.
+        desc = item["summary"]
+        desc_html = (
+            f'<div style="color:var(--text-dim);font-size:0.85em;margin-top:2px;">'
+            f'{html.escape(desc[:140])}</div>' if desc and desc.lower() != item["title"].lower() else ""
+        )
+        rows.append(
+            f'<a href="{html.escape(item["link"])}" target="_blank" rel="noopener" '
+            f'style="text-decoration:none;color:inherit;">'
+            f'<div class="headline">'
+            f'<div class="headline-meta">'
+            f'<span class="source-tag" style="color:var(--green);">{html.escape(time_str)}</span>'
+            f'</div>'
+            f'<div class="headline-text">{html.escape(item["title"])}</div>'
+            f'{desc_html}'
+            f'</div></a>'
+        )
+    return "\n".join(rows)
 
 
 def write_sitemap():
@@ -1014,6 +1189,18 @@ def main():
         last, chg, pct = fetch_quote(sym)
         crypto_rows.append(build_table_row_3col(name, last, pct, kind))
 
+    print("  Sectors...")
+    sector_rows = []
+    for name, sym, kind in SECTORS:
+        last, chg, pct = fetch_quote(sym)
+        sector_rows.append(build_table_row(name, last, chg, pct, kind))
+
+    print("  Mega-caps...")
+    megacap_rows = []
+    for name, sym, kind in MEGACAPS:
+        last, chg, pct = fetch_quote(sym)
+        megacap_rows.append(build_table_row(name, last, chg, pct, kind))
+
     print("  Ticker bar...")
     ticker_items = [build_ticker_item(lbl, sym) for lbl, sym in TICKER_BAR]
     ticker_html = "\n".join(t for t in ticker_items if t)
@@ -1042,7 +1229,15 @@ def main():
             print("    (nothing cleared the quality threshold — hero hidden)")
 
     print("  Wire panel...")
-    headlines_html = build_headlines_from_items(all_items, exclude_link=hero_link)
+    headlines_html = build_headlines_from_items(
+        all_items, exclude_link=hero_link, exclude_sources={"TRADING ECON"},
+    )
+
+    print("  Regional desk...")
+    regional = build_regional_panels(all_items, exclude_link=hero_link)
+
+    print("  Economic calendar...")
+    calendar_html = build_economic_calendar(all_items)
 
     # Timestamp — actual NY tz so DST is handled (EST winter / EDT summer)
     now_ny = datetime.now(NY)
@@ -1063,6 +1258,15 @@ def main():
         .replace("{{COMMODITIES}}", "\n".join(cmdty_rows))
         .replace("{{CRYPTO}}", "\n".join(crypto_rows))
         .replace("{{HEADLINES}}", headlines_html)
+        .replace("{{SECTORS}}", "\n".join(sector_rows))
+        .replace("{{MEGACAPS}}", "\n".join(megacap_rows))
+        .replace("{{REGIONAL_US}}", regional.get("US", ""))
+        .replace("{{REGIONAL_EU}}", regional.get("EU", ""))
+        .replace("{{REGIONAL_ASIA}}", regional.get("ASIA", ""))
+        .replace("{{REGIONAL_ME}}", regional.get("ME", ""))
+        .replace("{{REGIONAL_AF}}", regional.get("AF", ""))
+        .replace("{{REGIONAL_AMERICAS}}", regional.get("AMERICAS", ""))
+        .replace("{{ECONOMIC_CALENDAR}}", calendar_html)
         .replace("{{MARKET_SESSIONS}}", sessions_html)
         .replace("{{TIMESTAMP}}", ts_str)
         .replace("{{TIMESTAMP_SHORT}}", ts_short)
