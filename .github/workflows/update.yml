@@ -37,7 +37,7 @@ jobs:
         run: |
           git config user.name "howlstreet-bot"
           git config user.email "bot@howlstreet.local"
-          git add index.html sitemap.xml feed.xml queue.html hero_lock.json signal_state.json charts/
+          git add index.html sitemap.xml feed.xml queue.html hero_lock.json signal_state.json signal_posts.json charts/
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else

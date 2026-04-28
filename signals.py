@@ -36,6 +36,8 @@ import yfinance as yf
 REPO_ROOT = Path(__file__).parent
 CHARTS_DIR = REPO_ROOT / "charts"
 SIGNAL_STATE_PATH = REPO_ROOT / "signal_state.json"
+SIGNAL_POSTS_PATH = REPO_ROOT / "signal_posts.json"
+SIGNAL_POST_TTL_HOURS = 24  # how long a fired signal stays visible in queue.html
 NY = ZoneInfo("America/New_York")
 
 FRED_API_KEY = os.environ.get("FRED_API_KEY", "").strip()
@@ -447,24 +449,61 @@ def render_chart(signal):
 # ENTRY POINT
 # ----------------------------------------------------------------------------
 
+def _load_recent_posts():
+    """Load the persisted signal posts and drop any older than TTL. Returns
+    a dict keyed by signal_id."""
+    if not SIGNAL_POSTS_PATH.exists():
+        return {}
+    try:
+        data = json.loads(SIGNAL_POSTS_PATH.read_text())
+    except Exception:
+        return {}
+    cutoff = datetime.utcnow() - timedelta(hours=SIGNAL_POST_TTL_HOURS)
+    out = {}
+    for sig_id, post in data.items():
+        try:
+            ts = datetime.fromisoformat(post.get("fired_at", ""))
+        except (TypeError, ValueError):
+            continue
+        if ts > cutoff and post.get("chart_path"):
+            # Verify chart file still exists on disk
+            if (REPO_ROOT / post["chart_path"]).exists():
+                out[sig_id] = post
+    return out
+
+
+def _save_recent_posts(posts_by_id):
+    try:
+        SIGNAL_POSTS_PATH.write_text(json.dumps(posts_by_id, indent=2))
+    except Exception as e:
+        print(f"  ! signal posts save failed: {e}", file=sys.stderr)
+
+
 def collect_signal_posts():
     """Top-level call from update.py. Returns list of dicts ready to render
-    as queue cards. Each dict has: headline, matters, source, chart_path,
-    signal_id, current_str."""
+    as queue cards.
+
+    Posts persist for SIGNAL_POST_TTL_HOURS (24h) — once a signal fires
+    it stays visible in queue.html until the user gets a chance to post it,
+    even though the cooldown logic prevents re-firing the same headline."""
     print("  signals: detecting...")
     fired = detect_all_signals()
     print(f"    {len(fired)} candidate signals before cooldown")
     fresh = filter_with_cooldown(fired)
     print(f"    {len(fresh)} after cooldown")
 
-    posts = []
+    # Load existing recent posts (still within TTL).
+    recent = _load_recent_posts()
+    print(f"    {len(recent)} carryover signals still in TTL window")
+
+    now_iso = datetime.utcnow().isoformat()
     for sig in fresh:
         try:
             sig.chart_path = render_chart(sig)
         except Exception as e:
             print(f"  ! chart render {sig.signal_id}: {e}", file=sys.stderr)
             continue
-        posts.append({
+        recent[sig.signal_id] = {
             "headline": sig.headline,
             "matters": sig.matters,
             "source": sig.series.source,
@@ -472,5 +511,12 @@ def collect_signal_posts():
             "signal_id": sig.signal_id,
             "current_str": _format_value(sig.current, sig.series),
             "label": sig.series.label,
-        })
+            "fired_at": now_iso,
+        }
+
+    _save_recent_posts(recent)
+
+    # Most recent first
+    posts = list(recent.values())
+    posts.sort(key=lambda p: p.get("fired_at", ""), reverse=True)
     return posts
