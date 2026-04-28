@@ -21,6 +21,8 @@ import yfinance as yf
 import feedparser
 from zoneinfo import ZoneInfo
 
+import signals  # phase 2: macro signal detector + chart engine
+
 # Cap per-feed network wait so one slow source can't stall the build
 socket.setdefaulttimeout(15)
 
@@ -1755,7 +1757,7 @@ def fetch_article_briefing(url, title, timeout=8):
     return None
 
 
-def write_queue_html(items, hero_item=None):
+def write_queue_html(items, hero_item=None, signal_posts=None):
     """Emit /queue.html — a hidden, noindex page listing the top 20 stories as
     pre-built tweets ready to copy-paste or one-click open in X's compose window.
 
@@ -1819,6 +1821,52 @@ def write_queue_html(items, hero_item=None):
     WIRE_LEADS = ["Pack alert: ", "From the Pack: ", "Tracked by the Pack: "]
 
     cards = []
+
+    # ── Phase 2: macro signal cards ──
+    # Show first (above wire) so the most newsworthy original signal is the
+    # first thing a poster sees when they open the queue. Each signal card
+    # has a branded chart image attached and its own tweet template.
+    site_url_for_signals = "howlstreet.github.io"
+    for sp in (signal_posts or []):
+        sig_id = sp["signal_id"]
+        chart_path = sp["chart_path"]
+        headline = sp["headline"]
+        matters = sp["matters"]
+        source = sp["source"]
+        # Tweet text: headline + why it matters + site link + hashtags.
+        # X auto-shortens the URL to 23 chars, so total counted length ~=
+        # len(headline) + 2 + len(matters) + 2 + 23 + 1 + len(HASHTAGS).
+        signal_tweet = f"{headline}\n\n{matters}\n\n{site_url_for_signals} {HASHTAGS}"
+        signal_counted = len(headline) + 2 + len(matters) + 2 + URL_LEN + 1 + HASHTAGS_LEN
+        if signal_counted > MAX:
+            # Trim 'matters' to fit budget while keeping the headline whole.
+            budget = MAX - (len(headline) + 2 + 2 + URL_LEN + 1 + HASHTAGS_LEN)
+            matters_trim = _smart_truncate(matters, budget) if budget > 50 else ""
+            signal_tweet = f"{headline}\n\n{matters_trim}\n\n{site_url_for_signals} {HASHTAGS}".strip()
+            signal_counted = len(headline) + 2 + len(matters_trim) + 2 + URL_LEN + 1 + HASHTAGS_LEN
+
+        intent_url = "https://twitter.com/intent/tweet?text=" + urllib.parse.quote(signal_tweet, safe="")
+        sig_dom_id = re.sub(r"[^A-Za-z0-9_-]", "_", sig_id)
+
+        cards.append(
+            f'<div class="card card-signal">'
+            f'  <div class="card-head">'
+            f'    <span class="badge badge-signal">MACRO SIGNAL</span>'
+            f'    <span class="meta">{html.escape(source)}</span>'
+            f'    <span class="counter">{signal_counted}/280</span>'
+            f'  </div>'
+            f'  <div class="signal-headline">{html.escape(headline)}</div>'
+            f'  <div class="signal-matters">{html.escape(matters)}</div>'
+            f'  <img class="signal-chart" src="{html.escape(chart_path)}" alt="{html.escape(sp["label"])} chart" loading="lazy">'
+            f'  <textarea id="s{sig_dom_id}" readonly>{html.escape(signal_tweet)}</textarea>'
+            f'  <div class="actions">'
+            f'    <a class="btn btn-x" href="{html.escape(intent_url, quote=True)}" target="_blank" rel="noopener">Open on X</a>'
+            f'    <button class="btn btn-copy" onclick="copySignal(\'{sig_dom_id}\', this)">Copy</button>'
+            f'    <a class="btn btn-link" href="{html.escape(chart_path)}" download>Download chart</a>'
+            f'  </div>'
+            f'</div>'
+        )
+
     wire_idx = 0
     for i, (category, item) in enumerate(queue):
         is_top = category == "HOWL_OF_THE_DAY"
@@ -1915,6 +1963,11 @@ def write_queue_html(items, hero_item=None):
   .badge {{ padding: 2px 6px; border-radius: 3px; font-weight: bold; letter-spacing: 0.5px; font-size: 10px; }}
   .badge-howl {{ background: var(--green); color: #000; }}
   .badge-wire {{ background: #1a1a1a; color: var(--green); border: 1px solid var(--green); }}
+  .badge-signal {{ background: #ffaa00; color: #000; }}
+  .card-signal {{ border-color: #ffaa00; }}
+  .signal-headline {{ color: var(--fg); font-size: 15px; font-weight: bold; line-height: 1.4; margin-bottom: 6px; }}
+  .signal-matters {{ color: var(--dim); font-size: 13px; line-height: 1.5; margin-bottom: 10px; }}
+  .signal-chart {{ display: block; width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 10px; border: 1px solid var(--border); }}
   .meta {{ color: var(--dim); flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }}
   .counter {{ color: var(--dim); font-variant-numeric: tabular-nums; }}
   textarea {{ width: 100%; min-height: 110px; background: #050505; color: var(--fg); border: 1px solid var(--border); border-radius: 4px; padding: 8px; font: 13px/1.5 -apple-system, monospace; resize: vertical; white-space: pre-wrap; }}
@@ -1932,12 +1985,20 @@ def write_queue_html(items, hero_item=None):
 <body>
 <div class="wrap">
   <h1>HOWL STREET — POST QUEUE</h1>
-  <div class="sub">Generated {now_str} · Top 20 · Click "Open on X" to compose, or Copy and paste manually. Page is noindex; not linked from the public site.</div>
+  <div class="sub">Generated {now_str} · Macro signals (with charts) and top wire posts. Click "Open on X" to compose. For signal posts, also click "Download chart" and attach the image when posting. Page is noindex; not linked from the public site.</div>
   {chr(10).join(cards)}
 </div>
 <script>
 function copyTweet(i, btn) {{
   const ta = document.getElementById('t' + i);
+  navigator.clipboard.writeText(ta.value).then(() => {{
+    btn.textContent = 'Copied';
+    btn.classList.add('copied');
+    setTimeout(() => {{ btn.textContent = 'Copy'; btn.classList.remove('copied'); }}, 1500);
+  }});
+}}
+function copySignal(id, btn) {{
+  const ta = document.getElementById('s' + id);
   navigator.clipboard.writeText(ta.value).then(() => {{
     btn.textContent = 'Copied';
     btn.classList.add('copied');
@@ -2112,7 +2173,17 @@ def main():
     OUTPUT_PATH.write_text(output, encoding="utf-8")
     write_sitemap()
     write_atom_feed(all_items, hero_item=auto_hero_item)
-    write_queue_html(all_items, hero_item=auto_hero_item)
+
+    # Phase 2: detect macro signals (multi-year highs/lows, big moves) and
+    # render branded charts. Defensive — any failure in the signal pipeline
+    # must not break the wire/queue build.
+    try:
+        signal_posts = signals.collect_signal_posts()
+    except Exception as e:
+        print(f"  ! signals pipeline failed: {e}", file=sys.stderr)
+        signal_posts = []
+
+    write_queue_html(all_items, hero_item=auto_hero_item, signal_posts=signal_posts)
     print(f"  Wrote {OUTPUT_PATH} ({len(output):,} bytes)")
     print(f"  Wrote {FEED_PATH}")
     print(f"  Updated at {ts_str}")
