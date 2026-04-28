@@ -933,6 +933,34 @@ def pick_top_story(items):
     return top
 
 
+def _pick_finance_relevant_hero(items):
+    """Among the top-scored candidates, return the first whose RSS summary
+    or article body has a concrete finance signal (price, percentage, market
+    term, central bank, etc.). Returns None if the top 5 candidates all
+    fail — caller should fall back to pick_top_story so the X account
+    still gets a flagship even on a slow news day."""
+    if not items:
+        return None
+    now = datetime.now(NY)
+    recent = [i for i in items if (now - i["ts"]).total_seconds() < 24 * 3600]
+    if not recent:
+        return None
+    scored = sorted(((score_item(i), i) for i in recent), key=lambda x: x[0], reverse=True)
+    candidates = [i for s, i in scored[:5] if s >= HERO_MIN_SCORE]
+
+    for cand in candidates:
+        rss = _clean_summary(cand.get("summary", ""))
+        if rss and _has_financial_signal(rss):
+            print(f"    finance-relevant hero candidate (RSS): {cand['source']}")
+            return cand
+        briefing = fetch_article_briefing(cand["link"], cand["title"])
+        if briefing and _has_financial_signal(briefing):
+            print(f"    finance-relevant hero candidate (body): {cand['source']}")
+            return cand
+        print(f"    skipped {cand['source']}: no finance signal in RSS or body")
+    return None
+
+
 def pick_locked_hero(items):
     """Howl of the Day for the X feed/queue — locked once per NY-calendar
     day so @HowlStreet has one consistent flagship story. Subsequent builds
@@ -973,8 +1001,10 @@ def pick_locked_hero(items):
         except Exception as e:
             print(f"  ! hero lock read failed: {e}", file=sys.stderr)
 
-    # No valid lock for today — pick fresh and persist.
-    new_hero = pick_top_story(items)
+    # No valid lock for today — pick fresh, preferring stories with a clear
+    # finance angle so we don't lock in a "big headline" that doesn't actually
+    # tie to markets.
+    new_hero = _pick_finance_relevant_hero(items) or pick_top_story(items)
     if new_hero:
         try:
             ts = new_hero["ts"]
@@ -1012,11 +1042,16 @@ def build_hero_auto(items):
     # If the summary is just the title repeated (Google News pattern), discard it.
     if summary_text.strip().lower() == top["title"].strip().lower():
         summary_text = ""
-    # If still nothing useful, follow the article URL and grab og:description.
-    if not summary_text:
-        fetched = fetch_article_summary(top["link"])
-        if fetched and fetched.strip().lower() != top["title"].strip().lower():
+    # If still nothing useful, OR the summary lacks any finance signal, fetch
+    # a body briefing — that fetcher prefers sentences with prices/percentages/
+    # market terms so the hero's subtext makes the finance angle clear.
+    if not summary_text or not _has_financial_signal(summary_text):
+        fetched = fetch_article_briefing(top["link"], top["title"])
+        if fetched:
             summary_text = _clean_summary(fetched)
+    # Strip wire datelines / editorial prefixes too so the subtext leads clean.
+    if summary_text:
+        summary_text = _clean_briefing_lead(summary_text)
     # Trim to first sentence — terminal-feel, scannable.
     if summary_text:
         m = re.match(r"^(.{30,}?[.!?])(?:\s|$)", summary_text)
