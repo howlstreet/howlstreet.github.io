@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>HOWL STREET — Global Financial Terminal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0a0a;
+    --bg-panel: #111111;
+    --bg-row: #161616;
+    --border: #1f1f1f;
+    --border-bright: #2a2a2a;
+    --text: #e8e8e8;
+    --text-dim: #6a6a6a;
+    --text-mid: #9a9a9a;
+    --green: #00ff9d;
+    --green-glow: rgba(0,255,157,0.15);
+    --red: #ff3b3b;
+    --red-glow: rgba(255,59,59,0.15);
+    --amber: #ffb800;
+    --cyan: #00d9ff;
+    --magenta: #ff2bd6;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: clamp(12px, 0.78vw + 9px, 14px);
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  body {
+    background-image:
+      radial-gradient(circle at 20% 0%, rgba(0,255,157,0.04) 0%, transparent 40%),
+      radial-gradient(circle at 80% 100%, rgba(255,43,214,0.03) 0%, transparent 40%),
+      linear-gradient(rgba(255,255,255,0.012) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.012) 1px, transparent 1px);
+    background-size: 100% 100%, 100% 100%, 32px 32px, 32px 32px;
+    min-height: 100vh;
+    width: 100%;
+  }
+
+  /* HEADER / TICKER */
+  .top-bar {
+    border-bottom: 1px solid var(--border-bright);
+    background: #050505;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .brand-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: clamp(10px, 1.2vw, 16px) clamp(14px, 2vw, 28px);
+    border-bottom: 1px solid var(--border);
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .brand {
+    display: flex;
+    align-items: baseline;
+    gap: clamp(8px, 1vw, 14px);
+    flex-wrap: wrap;
+  }
+
+  .brand h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(22px, 2.2vw, 32px);
+    letter-spacing: 0.18em;
+    color: var(--text);
+    line-height: 1;
+  }
+
+  .brand h1 span { color: var(--green); }
+
+  .brand-tag {
+    color: var(--text-dim);
+    font-size: clamp(9px, 0.7vw, 11px);
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    padding-left: 14px;
+    border-left: 1px solid var(--border-bright);
+  }
+
+  .live-status {
+    display: flex;
+    align-items: center;
+    gap: clamp(10px, 1.4vw, 20px);
+    font-size: clamp(10px, 0.75vw, 12px);
+    color: var(--text-mid);
+    flex-wrap: wrap;
+  }
+
+  .live-dot {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--green);
+    font-weight: 600;
+    letter-spacing: 0.1em;
+  }
+
+  .live-dot::before {
+    content: '';
+    width: 8px; height: 8px; border-radius: 50%;
+    background: var(--green);
+    box-shadow: 0 0 8px var(--green);
+    animation: pulse 1.4s infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+  }
+
+  /* On small screens hide the per-exchange labels — keep just LIVE dot */
+  @media (max-width: 600px) {
+    .brand-tag { display: none; }
+    .live-status > span:not(.live-dot) { display: none; }
+  }
+
+  /* SCROLLING TICKER */
+  .ticker {
+    overflow: hidden;
+    white-space: nowrap;
+    padding: clamp(8px, 0.8vw, 12px) 0;
+    background: #080808;
+  }
+
+  .ticker-track {
+    display: inline-block;
+    animation: scroll 90s linear infinite;
+    padding-left: 100%;
+  }
+
+  @media (max-width: 700px) {
+    .ticker-track { animation-duration: 60s; }
+  }
+
+  @keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+  }
+
+  .ticker-item {
+    display: inline-block;
+    padding: 0 clamp(14px, 1.6vw, 26px);
+    font-size: clamp(11px, 0.85vw, 13px);
+    letter-spacing: 0.05em;
+  }
+
+  .ticker-item .sym { color: var(--text-mid); margin-right: 8px; font-weight: 600; }
+  .ticker-item .px  { color: var(--text); margin-right: 8px; }
+  .up   { color: var(--green); }
+  .down { color: var(--red); }
+
+  /* MAIN GRID — auto-fit so it scales naturally from huge monitors to phones */
+  .main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+    gap: 1px;
+    background: var(--border);
+    padding: 1px;
+  }
+
+  .panel {
+    background: var(--bg-panel);
+    padding: clamp(14px, 1.4vw, 22px);
+    min-height: 240px;
+    overflow: hidden;
+  }
+
+  /* On wide screens, let certain panels span 2 columns */
+  @media (min-width: 1100px) {
+    .panel-wide { grid-column: span 2; }
+  }
+  .panel-full { grid-column: 1 / -1; }
+
+  .panel-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 12px;
+    margin-bottom: 14px;
+    border-bottom: 1px solid var(--border-bright);
+    gap: 10px;
+  }
+
+  .panel-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(14px, 1.1vw, 18px);
+    letter-spacing: 0.22em;
+    color: var(--text);
+  }
+
+  .panel-title::before {
+    content: '▸ ';
+    color: var(--green);
+  }
+
+  .panel-meta {
+    color: var(--text-dim);
+    font-size: clamp(9px, 0.7vw, 11px);
+    letter-spacing: 0.15em;
+    white-space: nowrap;
+  }
+
+  /* DATA TABLES */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: clamp(11px, 0.85vw, 13px);
+  }
+
+  th {
+    text-align: left;
+    color: var(--text-dim);
+    font-weight: 500;
+    padding: 6px 8px;
+    border-bottom: 1px solid var(--border);
+    font-size: clamp(9px, 0.7vw, 11px);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  th.r, td.r { text-align: right; }
+
+  td {
+    padding: clamp(6px, 0.6vw, 10px) 8px;
+    border-bottom: 1px solid var(--border);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+
+  tr:hover td { background: var(--bg-row); }
+
+  .sym-cell {
+    color: var(--text);
+    font-weight: 600;
+    letter-spacing: 0.05em;
+  }
+
+  .pct-pill {
+    display: inline-block;
+    padding: 2px clamp(5px, 0.6vw, 9px);
+    border-radius: 2px;
+    font-size: clamp(10px, 0.78vw, 12px);
+    font-weight: 600;
+    min-width: clamp(54px, 5vw, 68px);
+    text-align: right;
+  }
+
+  .pct-pill.up { background: var(--green-glow); color: var(--green); }
+  .pct-pill.down { background: var(--red-glow); color: var(--red); }
+
+  /* HEADLINES */
+  .headline {
+    padding: clamp(10px, 1vw, 14px) 0;
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    transition: padding-left 0.15s;
+  }
+
+  .headline:hover { padding-left: 6px; }
+  .headline:last-child { border-bottom: none; }
+
+  .headline-meta {
+    display: flex;
+    gap: 10px;
+    font-size: clamp(9px, 0.7vw, 11px);
+    color: var(--text-dim);
+    letter-spacing: 0.08em;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+  }
+
+  .source-tag {
+    color: var(--amber);
+    font-weight: 600;
+  }
+
+  .headline-text {
+    color: var(--text);
+    font-size: clamp(12px, 0.9vw, 14px);
+    line-height: 1.45;
+  }
+
+  .headline-text strong {
+    color: var(--green);
+    font-weight: 600;
+  }
+
+  /* HERO QUOTE BLOCK */
+  .hero {
+    background: linear-gradient(135deg, #0d0d0d 0%, #050505 100%);
+    border: 1px solid var(--border-bright);
+    padding: clamp(20px, 2.4vw, 36px);
+    margin: 1px 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--green), transparent);
+  }
+
+  .hero-label {
+    color: var(--green);
+    font-size: clamp(9px, 0.75vw, 11px);
+    letter-spacing: 0.3em;
+    margin-bottom: clamp(10px, 1vw, 16px);
+    font-weight: 600;
+  }
+
+  .hero-headline {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(26px, 3.4vw, 48px);
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    margin-bottom: clamp(10px, 1vw, 16px);
+  }
+
+  .hero-headline br { display: none; }
+  @media (min-width: 900px) {
+    .hero-headline br { display: inline; }
+  }
+
+  .hero-headline em {
+    color: var(--amber);
+    font-style: normal;
+  }
+
+  .hero-body {
+    color: var(--text-mid);
+    font-size: clamp(12px, 0.9vw, 14px);
+    max-width: 70ch;
+    line-height: 1.6;
+  }
+
+  /* MINI CHARTS */
+  .mini-chart {
+    height: 32px;
+    width: 80px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  /* ECONOMIC CALENDAR */
+  .calendar-row {
+    display: grid;
+    grid-template-columns: 56px 1fr 70px 70px 70px;
+    gap: clamp(8px, 1vw, 14px);
+    padding: clamp(7px, 0.7vw, 10px) 4px;
+    border-bottom: 1px solid var(--border);
+    align-items: center;
+    font-size: clamp(11px, 0.85vw, 13px);
+  }
+
+  /* On phones, collapse forecast/prior into a single line under the event */
+  @media (max-width: 600px) {
+    .calendar-row {
+      grid-template-columns: 50px 1fr 70px;
+    }
+    .calendar-row .cal-num:nth-of-type(1),
+    .calendar-row .cal-num:nth-of-type(2) {
+      display: none;
+    }
+  }
+
+  .calendar-row:hover { background: var(--bg-row); }
+
+  .cal-time { color: var(--green); font-weight: 600; }
+  .cal-event { color: var(--text); }
+  .cal-num { text-align: right; font-variant-numeric: tabular-nums; color: var(--text-mid); }
+  .cal-num.actual { color: var(--text); font-weight: 600; }
+
+  /* FOOTER STRIP */
+  .footer-strip {
+    background: #050505;
+    border-top: 1px solid var(--border-bright);
+    padding: clamp(14px, 1.4vw, 22px) clamp(14px, 2vw, 28px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: clamp(9px, 0.7vw, 11px);
+    color: var(--text-dim);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .footer-strip a { color: var(--green); text-decoration: none; }
+
+  /* IMPACT TAGS */
+  .impact { font-size: clamp(9px, 0.7vw, 11px); padding: 1px 6px; border-radius: 2px; letter-spacing: 0.1em; font-weight: 600; }
+  .impact-h { background: rgba(255,59,59,0.15); color: var(--red); }
+  .impact-m { background: rgba(255,184,0,0.15); color: var(--amber); }
+  .impact-l { background: rgba(154,154,154,0.1); color: var(--text-mid); }
+</style>
+</head>
+<body>
+
+<header class="top-bar">
+  <div class="brand-row">
+    <div class="brand">
+      <h1>HOWL <span>STREET</span></h1>
+      <div class="brand-tag">Global Financial Terminal</div>
+    </div>
+    <div class="live-status">
+      <span>NYSE: <span class="up">OPEN</span></span>
+      <span>LSE: <span class="up">OPEN</span></span>
+      <span>TSE: <span class="down">CLOSED</span></span>
+      <span class="live-dot">LIVE</span>
+    </div>
+  </div>
+
+  <div class="ticker">
+    <div class="ticker-track">
+      <span class="ticker-item"><span class="sym">SPX</span><span class="px">5,847.32</span><span class="up">+0.42%</span></span>
+      <span class="ticker-item"><span class="sym">NDX</span><span class="px">20,412.18</span><span class="up">+0.71%</span></span>
+      <span class="ticker-item"><span class="sym">DJIA</span><span class="px">42,891.00</span><span class="up">+0.18%</span></span>
+      <span class="ticker-item"><span class="sym">RUT</span><span class="px">2,318.44</span><span class="down">-0.34%</span></span>
+      <span class="ticker-item"><span class="sym">VIX</span><span class="px">14.82</span><span class="down">-2.11%</span></span>
+      <span class="ticker-item"><span class="sym">US10Y</span><span class="px">4.624%</span><span class="up">+3.2bp</span></span>
+      <span class="ticker-item"><span class="sym">US2Y</span><span class="px">4.118%</span><span class="up">+1.8bp</span></span>
+      <span class="ticker-item"><span class="sym">DXY</span><span class="px">104.21</span><span class="down">-0.18%</span></span>
+      <span class="ticker-item"><span class="sym">EURUSD</span><span class="px">1.0823</span><span class="up">+0.21%</span></span>
+      <span class="ticker-item"><span class="sym">USDJPY</span><span class="px">155.42</span><span class="down">-0.31%</span></span>
+      <span class="ticker-item"><span class="sym">BTC</span><span class="px">94,210</span><span class="up">+1.84%</span></span>
+      <span class="ticker-item"><span class="sym">ETH</span><span class="px">3,287.50</span><span class="up">+0.92%</span></span>
+      <span class="ticker-item"><span class="sym">WTI</span><span class="px">71.82</span><span class="down">-0.94%</span></span>
+      <span class="ticker-item"><span class="sym">BRENT</span><span class="px">75.41</span><span class="down">-0.71%</span></span>
+      <span class="ticker-item"><span class="sym">GOLD</span><span class="px">2,712.40</span><span class="up">+0.51%</span></span>
+      <span class="ticker-item"><span class="sym">SILVER</span><span class="px">31.84</span><span class="up">+0.83%</span></span>
+      <span class="ticker-item"><span class="sym">COPPER</span><span class="px">4.18</span><span class="down">-0.42%</span></span>
+      <span class="ticker-item"><span class="sym">NAT GAS</span><span class="px">3.12</span><span class="up">+2.41%</span></span>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-label">▸ TOP STORY · APR 27 14:32 EST</div>
+  <h2 class="hero-headline">FED'S POWELL HINTS AT <em>EXTENDED PAUSE</em>—<br>YIELDS RIP, EQUITIES SHRUG OFF HAWKISH TILT</h2>
+  <p class="hero-body">10Y treasury yield jumps to 4.624%, highest level in three weeks, after Powell's remarks at the Economic Club emphasized "patience" on rate cuts amid sticky services inflation. Equities held gains anyway — SPX +0.42%, breadth positive across 9 of 11 sectors. Rate-cut odds for June meeting fell to 28% from 41% pre-speech.</p>
+</section>
+
+<!-- MAIN GRID -->
+<main class="main">
+
+  <!-- US INDICES -->
+  <div class="panel">
+    <div class="panel-head">
+      <div class="panel-title">US Equities</div>
+      <div class="panel-meta">14:32 EST</div>
+    </div>
+    <table>
+      <thead>
+        <tr><th>Index</th><th class="r">Last</th><th class="r">Chg</th><th class="r">%</th></tr>
+      </thead>
+      <tbody>
+        <tr><td class="sym-cell">S&amp;P 500</td><td class="r">5,847.32</td><td class="r up">+24.41</td><td class="r"><span class="pct-pill up">+0.42%</span></td></tr>
+        <tr><td class="sym-cell">Nasdaq 100</td><td class="r">20,412.18</td><td class="r up">+143.82</td><td class="r"><span class="pct-pill up">+0.71%</span></td></tr>
+        <tr><td class="sym-cell">Dow Jones</td><td class="r">42,891.00</td><td class="r up">+77.18</td><td class="r"><span class="pct-pill up">+0.18%</span></td></tr>
+        <tr><td class="sym-cell">Russell 2000</td><td class="r">2,318.44</td><td class="r down">-7.91</td><td class="r"><span class="pct-pill down">-0.34%</span></td></tr>
+        <tr><td class="sym-cell">VIX</td><td class="r">14.82</td><td class="r down">-0.32</td><td class="r"><span class="pct-pill down">-2.11%</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- GLOBAL INDICES -->
+  <div class="panel">
+    <div class="panel-head">
+      <div class="panel-title">Global Indices</div>
+      <div class="panel-meta">CLOSE / LIVE</div>
+    </div>
+    <table>
+      <thead>
+        <tr><th>Index</th><th class="r">Last</th><th class="r">%</th></tr>
+      </thead>
+      <tbody>
+        <tr><td class="sym-cell">FTSE 100</td><td class="r">8,412.30</td><td class="r"><span class="pct-pill up">+0.31%</span></td></tr>
+        <tr><td class="sym-cell">DAX</td><td class="r">19,847.21</td><td class="r"><span class="pct-pill up">+0.62%</span></td></tr>
+        <tr><td class="sym-cell">CAC 40</td><td class="r">7,521.18</td><td class="r"><span class="pct-pill down">-0.18%</span></td></tr>
+        <tr><td class="sym-cell">Nikkei 225</td><td class="r">38,128.40</td><td class="r"><span class="pct-pill down">-0.83%</span></td></tr>
+        <tr><td class="sym-cell">Hang Seng</td><td class="r">20,418.32</td><td class="r"><span class="pct-pill up">+1.42%</span></td></tr>
+        <tr><td class="sym-cell">Shanghai</td><td class="r">3,247.10</td><td class="r"><span class="pct-pill up">+0.71%</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- BONDS -->
+  <div class="panel">
+    <div class="panel-head">
+      <div class="panel-title">Treasuries / Yields</div>
+      <div class="panel-meta">LIVE</div>
+    </div>
+    <table>
+      <thead>
+        <tr><th>Tenor</th><th class="r">Yield</th><th class="r">Δ bp</th></tr>
+      </thead>
+      <tbody>
+        <tr><td class="sym-cell">US 2Y</td><td class="r">4.118%</td><td class="r up">+1.8</td></tr>
+        <tr><td class="sym-cell">US 5Y</td><td class="r">4.328%</td><td class="r up">+2.4</td></tr>
+        <tr><td class="sym-cell">US 10Y</td><td class="r">4.624%</td><td class="r up">+3.2</td></tr>
+        <tr><td class="sym-cell">US 30Y</td><td class="r">4.812%</td><td class="r up">+3.8</td></tr>
+        <tr><td class="sym-cell">DE 10Y</td><td class="r">2.418%</td><td class="r up">+1.1</td></tr>
+        <tr><td class="sym-cell">JP 10Y</td><td class="r">1.082%</td><td class="r down">-0.4</td></tr>
+        <tr><td class="sym-cell">UK 10Y</td><td class="r">4.521%</td><td class="r up">+2.1</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- HEADLINES (WIDE) -->
+  <div class="panel panel-wide">
+    <div class="panel-head">
+      <div class="panel-title">Wire / Breaking</div>
+      <div class="panel-meta">LAST 6 HOURS</div>
+    </div>
+    <div class="headline">
+      <div class="headline-meta"><span class="source-tag">REUTERS</span><span>14:21 EST</span></div>
+      <div class="headline-text">Powell at Economic Club: <strong>"We can be patient"</strong> on policy as services inflation proves sticky; market pricing 28% odds of June cut, down from 41%.</div>
+    </div>
+    <div class="headline">
+      <div class="headline-meta"><span class="source-tag">BLOOMBERG</span><span>13:48 EST</span></div>
+      <div class="headline-text">ECB's Lagarde signals <strong>another 25bp cut "very likely"</strong> at June meeting; EURUSD spikes to 1.0823.</div>
+    </div>
+    <div class="headline">
+      <div class="headline-meta"><span class="source-tag">WSJ</span><span>12:15 EST</span></div>
+      <div class="headline-text">US Treasury auctions $58B 5-year notes at 4.318%, <strong>strongest demand since November</strong>; bid-to-cover 2.62x.</div>
+    </div>
+    <div class="headline">
+      <div class="headline-meta"><span class="source-tag">FT</span><span>11:42 EST</span></div>
+      <div class="headline-text">China industrial profits <strong>fall 4.3% YoY in March</strong>, deepening from -0.3% prior; copper drops to $4.18/lb.</div>
+    </div>
+    <div class="headline">
+      <div class="headline-meta"><span class="source-tag">CNBC</span><span>10:18 EST</span></div>
+      <div class="headline-text">BoJ holds rates steady at 0.50%, governor Ueda flags <strong>"data-dependent" path</strong>; yen weakens 0.31% vs dollar.</div>
+    </div>
+    <div class="headline">
+      <div class="headline-meta"><span class="source-tag">REUTERS</span><span>09:32 EST</span></div>
+      <div class="headline-text">OPEC+ committee meeting concludes with <strong>no policy change</strong>; output cuts maintained through Q3. Brent -0.71%.</div>
+    </div>
+  </div>
+
+  <!-- FX -->
+  <div class="panel">
+    <div class="panel-head">
+      <div class="panel-title">FX</div>
+      <div class="panel-meta">SPOT</div>
+    </div>
+    <table>
+      <thead>
+        <tr><th>Pair</th><th class="r">Last</th><th class="r">%</th></tr>
+      </thead>
+      <tbody>
+        <tr><td class="sym-cell">DXY</td><td class="r">104.21</td><td class="r"><span class="pct-pill down">-0.18%</span></td></tr>
+        <tr><td class="sym-cell">EUR/USD</td><td class="r">1.0823</td><td class="r"><span class="pct-pill up">+0.21%</span></td></tr>
+        <tr><td class="sym-cell">GBP/USD</td><td class="r">1.2641</td><td class="r"><span class="pct-pill up">+0.14%</span></td></tr>
+        <tr><td class="sym-cell">USD/JPY</td><td class="r">155.42</td><td class="r"><span class="pct-pill down">-0.31%</span></td></tr>
+        <tr><td class="sym-cell">USD/CNH</td><td class="r">7.2431</td><td class="r"><span class="pct-pill up">+0.08%</span></td></tr>
+        <tr><td class="sym-cell">AUD/USD</td><td class="r">0.6587</td><td class="r"><span class="pct-pill up">+0.32%</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- COMMODITIES -->
+  <div class="panel">
+    <div class="panel-head">
+      <div class="panel-title">Commodities</div>
+      <div class="panel-meta">FUTURES</div>
+    </div>
+    <table>
+      <thead>
+        <tr><th>Contract</th><th class="r">Last</th><th class="r">%</th></tr>
+      </thead>
+      <tbody>
+        <tr><td class="sym-cell">WTI Crude</td><td class="r">71.82</td><td class="r"><span class="pct-pill down">-0.94%</span></td></tr>
+        <tr><td class="sym-cell">Brent</td><td class="r">75.41</td><td class="r"><span class="pct-pill down">-0.71%</span></td></tr>
+        <tr><td class="sym-cell">Nat Gas</td><td class="r">3.12</td><td class="r"><span class="pct-pill up">+2.41%</span></td></tr>
+        <tr><td class="sym-cell">Gold</td><td class="r">2,712.40</td><td class="r"><span class="pct-pill up">+0.51%</span></td></tr>
+        <tr><td class="sym-cell">Silver</td><td class="r">31.84</td><td class="r"><span class="pct-pill up">+0.83%</span></td></tr>
+        <tr><td class="sym-cell">Copper</td><td class="r">4.18</td><td class="r"><span class="pct-pill down">-0.42%</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- CRYPTO -->
+  <div class="panel">
+    <div class="panel-head">
+      <div class="panel-title">Crypto</div>
+      <div class="panel-meta">24H</div>
+    </div>
+    <table>
+      <thead>
+        <tr><th>Asset</th><th class="r">USD</th><th class="r">%</th></tr>
+      </thead>
+      <tbody>
+        <tr><td class="sym-cell">Bitcoin</td><td class="r">94,210</td><td class="r"><span class="pct-pill up">+1.84%</span></td></tr>
+        <tr><td class="sym-cell">Ethereum</td><td class="r">3,287.50</td><td class="r"><span class="pct-pill up">+0.92%</span></td></tr>
+        <tr><td class="sym-cell">Solana</td><td class="r">218.40</td><td class="r"><span class="pct-pill up">+3.21%</span></td></tr>
+        <tr><td class="sym-cell">XRP</td><td class="r">2.41</td><td class="r"><span class="pct-pill down">-1.18%</span></td></tr>
+        <tr><td class="sym-cell">Total MCap</td><td class="r">3.21T</td><td class="r"><span class="pct-pill up">+1.42%</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ECON CALENDAR -->
+  <div class="panel panel-full">
+    <div class="panel-head">
+      <div class="panel-title">Economic Calendar — Today</div>
+      <div class="panel-meta">ALL TIMES EST</div>
+    </div>
+    <div class="calendar-row" style="border-bottom: 1px solid var(--border-bright); color: var(--text-dim); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase;">
+      <div>Time</div><div>Event</div><div class="cal-num">Forecast</div><div class="cal-num">Prior</div><div class="cal-num">Actual</div>
+    </div>
+    <div class="calendar-row">
+      <div class="cal-time">08:30</div>
+      <div class="cal-event">US Durable Goods Orders MoM <span class="impact impact-h">HIGH</span></div>
+      <div class="cal-num">+0.5%</div>
+      <div class="cal-num">+0.2%</div>
+      <div class="cal-num actual up">+0.8%</div>
+    </div>
+    <div class="calendar-row">
+      <div class="cal-time">10:00</div>
+      <div class="cal-event">US Consumer Confidence (Apr) <span class="impact impact-m">MED</span></div>
+      <div class="cal-num">104.5</div>
+      <div class="cal-num">103.2</div>
+      <div class="cal-num actual down">102.8</div>
+    </div>
+    <div class="calendar-row">
+      <div class="cal-time">13:00</div>
+      <div class="cal-event">US 5Y Treasury Auction <span class="impact impact-m">MED</span></div>
+      <div class="cal-num">—</div>
+      <div class="cal-num">4.398%</div>
+      <div class="cal-num actual">4.318%</div>
+    </div>
+    <div class="calendar-row">
+      <div class="cal-time">14:30</div>
+      <div class="cal-event">Fed Chair Powell — Economic Club <span class="impact impact-h">HIGH</span></div>
+      <div class="cal-num">—</div>
+      <div class="cal-num">—</div>
+      <div class="cal-num actual">LIVE</div>
+    </div>
+    <div class="calendar-row">
+      <div class="cal-time">19:30</div>
+      <div class="cal-event">Japan Tokyo CPI YoY <span class="impact impact-m">MED</span></div>
+      <div class="cal-num">+2.1%</div>
+      <div class="cal-num">+2.4%</div>
+      <div class="cal-num">—</div>
+    </div>
+  </div>
+
+</main>
+
+<!-- ARCHIVE PREVIEW -->
+<section class="hero" style="margin-top: 1px;">
+  <div class="hero-label">▸ ARCHIVE · RECENT POSTS</div>
+  <table style="margin-top: 8px;">
+    <thead>
+      <tr><th>Date</th><th>Title</th><th class="r">Slug</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Apr 26 16:05</td><td>Market Close: SPX taps 5,823 on tech-led rally</td><td class="r" style="color: var(--cyan);">/2026-04-26-close</td></tr>
+      <tr><td>Apr 26 08:30</td><td>Q1 GDP advance: +2.4%, beats +2.1% est.</td><td class="r" style="color: var(--cyan);">/2026-04-26-gdp</td></tr>
+      <tr><td>Apr 25 16:00</td><td>Friday Wrap: Yields rise on hot PCE</td><td class="r" style="color: var(--cyan);">/2026-04-25-wrap</td></tr>
+      <tr><td>Apr 25 08:30</td><td>Core PCE +2.8% YoY — sticky as advertised</td><td class="r" style="color: var(--cyan);">/2026-04-25-pce</td></tr>
+      <tr><td>Apr 24 16:00</td><td>BoJ holds; Yen weakens; Nikkei -0.83%</td><td class="r" style="color: var(--cyan);">/2026-04-24-boj</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<footer class="footer-strip">
+  <div>HOWL STREET · No BS Global Financial News</div>
+  <div>DATA: YFINANCE · FRED · RSS WIRES &nbsp;·&nbsp; UPDATED: <span style="color: var(--green);">14:32:18 EST</span></div>
+</footer>
+
+</body>
+</html>
