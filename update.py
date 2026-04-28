@@ -1272,6 +1272,36 @@ _FILLER_PHRASES = (
 # that we strip to avoid double-colon when prefixing with 'Howl of the Day:'.
 _LABEL_PREFIX_RE = re.compile(r"^([A-Z][\w']+(?:\s+[A-Z][\w']+){0,2}):\s+")
 
+# All-caps editorial markers that some publishers prepend to article body
+# ("UPDATED FOR AFTERNOON TRADING", "BREAKING:", "EXCLUSIVE"). Strip from
+# the start of briefings so they lead with actual content.
+_EDITORIAL_PREFIX_RE = re.compile(
+    r"^(?:"
+    r"UPDATED(?:\s+(?:FOR|AFTER)\s+[A-Z\s]+(?:TRADING|SESSION|HOURS|UPDATE))?"
+    r"|UPDATE"
+    r"|BREAKING(?:\s+NEWS)?"
+    r"|EXCLUSIVE"
+    r"|DEVELOPING(?:\s+STORY)?"
+    r"|LIVE(?:\s+UPDATES?)?"
+    r"|TIMELINE"
+    r"|ANALYSIS"
+    r"|EXPLAINER"
+    r"|WATCH"
+    r"|OPINION"
+    r")[:\s]+(?=[A-Z])"
+)
+
+# News datelines: "MANILA, Philippines,", "NEW YORK (Reuters),",
+# "WASHINGTON, May 28," etc. Strip so the briefing leads with the
+# actual lede sentence.
+_DATELINE_RE = re.compile(
+    r"^[A-Z][A-Z]+(?:\s+[A-Z][A-Z]+)*"   # ALL CAPS city (one or more words)
+    r"(?:\s*\([^)]+\))?"                  # optional "(Reuters)" or similar
+    r",\s*"                                # mandatory comma
+    r"(?:[\w\s\.\(\)]{0,50}?,\s*)?"       # optional country/date/source + comma
+    r"(?=[A-Z])"                           # content begins with capital
+)
+
 
 def _strip_dashes(text):
     """Replace em dashes / en dashes with comma + space. Hyphens in compound
@@ -1339,6 +1369,18 @@ def _is_filler_sentence(sentence):
     conference') rather than a substantive fact."""
     s = sentence.lower()
     return any(p in s for p in _FILLER_PHRASES)
+
+
+def _clean_briefing_lead(text):
+    """Strip editorial prefixes and news datelines from the start of a
+    briefing so it opens with actual content instead of wire-service noise.
+    Examples stripped: 'UPDATED FOR AFTERNOON TRADING ', 'MANILA, Philippines, ',
+    'NEW YORK (Reuters), '."""
+    if not text:
+        return text
+    cleaned = _EDITORIAL_PREFIX_RE.sub("", text, count=1)
+    cleaned = _DATELINE_RE.sub("", cleaned, count=1).strip()
+    return cleaned or text
 
 
 def _is_substantive_summary(summary, title):
@@ -1464,7 +1506,11 @@ def write_queue_html(items, hero_item=None):
     for category, item in queue:
         rss = _clean_summary(item.get("summary", ""))
         if _is_substantive_summary(rss, item["title"]):
-            briefings[item["link"]] = _strip_trailing_seps(_strip_dashes(rss))
+            cleaned = _clean_briefing_lead(_strip_trailing_seps(_strip_dashes(rss)))
+            if len(cleaned) >= 60:
+                briefings[item["link"]] = cleaned
+            else:
+                needs_fetch.append((item["link"], item["title"]))
         else:
             needs_fetch.append((item["link"], item["title"]))
 
@@ -1473,8 +1519,10 @@ def write_queue_html(items, hero_item=None):
         with ThreadPoolExecutor(max_workers=10) as ex:
             results = list(ex.map(lambda p: fetch_article_briefing(p[0], p[1]), needs_fetch))
         for (link, _t), briefing in zip(needs_fetch, results):
-            if briefing and len(briefing) > 60:
-                briefings[link] = _strip_trailing_seps(briefing)
+            if briefing:
+                cleaned = _clean_briefing_lead(_strip_trailing_seps(briefing))
+                if len(cleaned) >= 60:
+                    briefings[link] = cleaned
 
     # Subtle Pack-themed leads sprinkled on every 4th wire post (rotating).
     # Howl of the Day always stays "Howl of the Day:". Most wire posts get
@@ -1519,20 +1567,20 @@ def write_queue_html(items, hero_item=None):
         if not title_punct.endswith(('.', '!', '?', ':', ';', '"', "'", ')')):
             title_punct += '.'
 
+        # Format: {prefix}{title}\n\n{briefing}\n\n{url} {hashtags}
+        # Paragraph break between title and briefing makes posts scan-able.
         if briefing:
-            fixed = len(prefix) + len(title_punct) + 1 + 2 + URL_LEN + 1 + HASHTAGS_LEN
+            fixed = len(prefix) + len(title_punct) + 2 + 2 + URL_LEN + 1 + HASHTAGS_LEN
             briefing_budget = MAX - fixed
             if briefing_budget >= 60 and len(briefing) > briefing_budget:
-                # Require a full sentence to fit; if not, drop the briefing
-                # rather than emit a half-thought with a fake period.
                 briefing = _smart_truncate(briefing, briefing_budget, require_full_sentence=True)
 
         if briefing:
-            tweet = f"{prefix}{title_punct} {briefing}\n\n{link} {HASHTAGS}"
-            counted_len = len(prefix) + len(title_punct) + 1 + len(briefing) + 2 + URL_LEN + 1 + HASHTAGS_LEN
+            tweet = f"{prefix}{title_punct}\n\n{briefing}\n\n{link} {HASHTAGS}"
+            counted_len = len(prefix) + len(title_punct) + 2 + len(briefing) + 2 + URL_LEN + 1 + HASHTAGS_LEN
         else:
-            tweet = f"{prefix}{title}\n\n{link} {HASHTAGS}"
-            counted_len = len(prefix) + len(title) + 2 + URL_LEN + 1 + HASHTAGS_LEN
+            tweet = f"{prefix}{title_punct}\n\n{link} {HASHTAGS}"
+            counted_len = len(prefix) + len(title_punct) + 2 + URL_LEN + 1 + HASHTAGS_LEN
 
         ts_str = item["ts"].astimezone(NY).strftime("%H:%M EDT · %b %d")
         source_label = html.escape(item["source"])
