@@ -1071,12 +1071,19 @@ HERO_MIN_SCORE = 4.0
 
 
 def pick_top_story(items):
-    """Highest-scoring recent (last 24h) item that clears the quality threshold.
-    Returns the item dict or None. Shared by the auto-hero renderer and the feed."""
+    """Highest-scoring recent (last 24h) item that clears the quality threshold
+    AND has a concrete finance signal in title or summary. Returns the item
+    dict or None. Shared by the auto-hero renderer and the feed.
+
+    Strict finance gate is enforced here so the Howl of the Day can never be
+    a Trump-poll / war / pure-politics piece even if it scores well on the
+    headline-keyword booster."""
     if not items:
         return None
     now = datetime.now(NY)
-    recent = [i for i in items if (now - i["ts"]).total_seconds() < 24 * 3600]
+    recent = [i for i in items
+              if (now - i["ts"]).total_seconds() < 24 * 3600
+              and is_financially_relevant(i)]
     if not recent:
         return None
     scored = sorted(((score_item(i), i) for i in recent), key=lambda x: x[0], reverse=True)
@@ -1525,6 +1532,29 @@ _FILLER_PHRASES = (
 # that we strip to avoid double-colon when prefixing with 'Howl of the Day:'.
 _LABEL_PREFIX_RE = re.compile(r"^([A-Z][\w']+(?:\s+[A-Z][\w']+){0,2}):\s+")
 
+# Earnings-release title patterns. PR Newswire / Business Wire / GlobeNewswire
+# items that match here become EARNINGS-tagged queue cards with a "JUST IN:
+# $TICKER reports earnings" lede instead of the standard wire format.
+_EARNINGS_TITLE_RE = re.compile(
+    r"\b(?:Q[1-4]|first[- ]?quarter|second[- ]?quarter|third[- ]?quarter|fourth[- ]?quarter|full[- ]?year|fiscal[- ]?year|FY\d*)\s+"
+    r"(?:results|earnings|financial\s+results|revenue|profit|loss)"
+    r"|\bReports?\s+(?:Q[1-4]|first|second|third|fourth)\s+(?:Quarter|Year)"
+    r"|\b(?:just\s+)?(?:reports|posts|announces|delivers|reported|announced|posted|delivered)\s+"
+    r"(?:its\s+|their\s+|record\s+|strong\s+|Q[1-4]\s+|first[- ]?quarter\s+|second[- ]?quarter\s+|third[- ]?quarter\s+|fourth[- ]?quarter\s+|fiscal\s+|full[- ]?year\s+)*"
+    r"(?:earnings|results|revenue|profit|EPS|loss)"
+    r"|\bbeats?\s+(?:on|earnings|EPS|estimates|consensus|expectations|street|profit|revenue)"
+    r"|\bmisses?\s+(?:on|earnings|EPS|estimates|consensus|expectations|street|profit|revenue)"
+    r"|\b(?:tops|exceeds|trails)\s+(?:Wall\s+Street|consensus|estimates|expectations|forecasts)"
+    r"|\bearnings\s+(?:beat|miss)\b",
+    re.IGNORECASE,
+)
+# Cashtag detector: $AAPL style tickers. Used to extract the ticker from
+# earnings titles so we can prefix tweets with "$TICKER reports earnings".
+_CASHTAG_RE = re.compile(r"\$([A-Z]{1,5})\b")
+# Fallback ticker detector: ALL-CAPS standalone words 2-5 chars in title that
+# look like tickers (e.g. "Apple Inc. (AAPL) reports..."). Loose, last resort.
+_TICKER_PAREN_RE = re.compile(r"\(([A-Z]{2,5})(?:[:\.][A-Z]+)?\)")
+
 # Sentences/items with concrete financial signals (prices, percentages,
 # market terms, central banks, rating agencies, etc.). Used both to prefer
 # substantive briefing sentences AND as the strict gate that drops items
@@ -1657,6 +1687,26 @@ def _is_filler_sentence(sentence):
     return any(p in s for p in _FILLER_PHRASES)
 
 
+def _is_earnings_title(title):
+    """True if the title looks like an earnings release / report."""
+    if not title:
+        return False
+    return bool(_EARNINGS_TITLE_RE.search(title))
+
+
+def _extract_ticker(title, summary=""):
+    """Pull a stock ticker out of a title or summary. Returns the ticker
+    string (with $ prefix) or empty string if none found."""
+    text = title + " " + (summary or "")
+    m = _CASHTAG_RE.search(text)
+    if m:
+        return f"${m.group(1)}"
+    m = _TICKER_PAREN_RE.search(text)
+    if m:
+        return f"${m.group(1)}"
+    return ""
+
+
 def _clean_briefing_lead(text):
     """Strip editorial prefixes and news datelines from the start of a
     briefing so it opens with actual content instead of wire-service noise.
@@ -1674,12 +1724,24 @@ def _is_substantive_summary(summary, title):
     process-y filler ('is addressing the press conference')."""
     if not summary or len(summary) < 80:
         return False
+
+    title_norm = _TITLE_NORM_RE.sub("", (title or "").lower())
+    summary_norm = _TITLE_NORM_RE.sub("", summary.lower())
+
+    # Catch the "Exclusive: {title} Reuters" wrapper pattern: if the full
+    # normalized title sits inside the normalized summary, the summary is
+    # just the title with some chrome (publisher tag, "Exclusive:", etc.).
+    if title_norm and len(title_norm) >= 30 and title_norm in summary_norm:
+        leftover = summary_norm.replace(title_norm, "", 1)
+        if len(leftover) < 60:
+            return False
+
     title_prefix = _title_norm_prefix(title)
     if _paragraph_too_similar(summary, title_prefix):
-        text_norm = _TITLE_NORM_RE.sub("", summary.lower())
-        rest = text_norm[len(title_prefix):]
+        rest = summary_norm[len(title_prefix):]
         if len(rest) < 50:
             return False
+
     # Reject filler-heavy summaries so we fall through to article-body fetch.
     sentences = [s.strip() for s in _SENT_SPLIT_RE.split(summary) if s.strip()]
     if sentences:
@@ -1735,8 +1797,10 @@ def fetch_article_briefing(url, title, timeout=8):
             # "Brent crude rose 1.2%" over "Trump met advisers").
             financial = [s for s in substantive if _has_financial_signal(s)]
             picked = financial if financial else substantive
-            briefing = " ".join(picked[:2]).strip()
-            if 80 <= len(briefing) <= 400:
+            # X Premium gives us 4000 chars, so we can fit 3-4 substantive
+            # sentences instead of cutting at 2.
+            briefing = " ".join(picked[:4]).strip()
+            if 80 <= len(briefing) <= 800:
                 return _strip_dashes(briefing)
 
     # Strategy 2: og:description / meta description (one-shot, no second fetch)
@@ -1771,23 +1835,45 @@ def write_queue_html(items, hero_item=None, signal_posts=None):
     HASHTAGS = "#HowlStreet #Markets"
     HASHTAGS_LEN = len(HASHTAGS)  # 20
     URL_LEN = 23  # X auto-shortens URLs to 23 (t.co)
-    MAX = 280
+    # X Premium: 4000 char limit per tweet (vs 280 on free tier).
+    # We still cap titles tightly so the briefing has room to lead with substance.
+    MAX = 4000
     TITLE_CAP = 110
 
     pool = [i for i in items if is_financially_relevant(i)]
     pool.sort(key=lambda x: x["ts"], reverse=True)
+
+    # Classify each item into a card category. Priority: HOWL_OF_THE_DAY
+    # (the picked hero) → EARNINGS (PR-wire / news items reporting Q-results)
+    # → JUST_IN (very fresh + high signal) → WIRE (default).
+    now_ny = datetime.now(NY)
+    JUST_IN_WINDOW_MIN = 60  # items younger than this and substantive get JUST IN
+
+    def classify(item):
+        if _is_earnings_title(item.get("title", "")):
+            return "EARNINGS"
+        age_min = (now_ny - item["ts"]).total_seconds() / 60
+        if age_min < JUST_IN_WINDOW_MIN:
+            return "JUST_IN"
+        return "WIRE"
 
     queue = []
     seen_links = set()
     if hero_item:
         queue.append(("HOWL_OF_THE_DAY", hero_item))
         seen_links.add(hero_item["link"])
-    for item in pool:
+    # Surface earnings cards first so they're easy to grab when filing.
+    earnings_pool = [i for i in pool if i["link"] not in seen_links and _is_earnings_title(i.get("title", ""))]
+    rest_pool = [i for i in pool if i["link"] not in seen_links and not _is_earnings_title(i.get("title", ""))]
+    for item in earnings_pool[:6]:
+        queue.append(("EARNINGS", item))
+        seen_links.add(item["link"])
+    for item in rest_pool:
         if item["link"] in seen_links:
             continue
-        queue.append(("WIRE", item))
+        queue.append((classify(item), item))
         seen_links.add(item["link"])
-        if len(queue) >= 20:
+        if len(queue) >= 25:
             break
 
     # Briefing per item: RSS summary if substantive (and not a title reword),
@@ -1857,7 +1943,7 @@ def write_queue_html(items, hero_item=None, signal_posts=None):
             f'  <div class="card-head">'
             f'    <span class="badge badge-signal">MACRO SIGNAL</span>'
             f'    <span class="meta">{html.escape(source)}</span>'
-            f'    <span class="counter">{signal_counted}/280</span>'
+            f'    <span class="counter">{signal_counted}/4000</span>'
             f'  </div>'
             f'  <div class="signal-headline">{html.escape(headline)}</div>'
             f'  <div class="signal-matters">{html.escape(matters)}</div>'
@@ -1874,8 +1960,17 @@ def write_queue_html(items, hero_item=None, signal_posts=None):
     wire_idx = 0
     for i, (category, item) in enumerate(queue):
         is_top = category == "HOWL_OF_THE_DAY"
+        is_earnings = category == "EARNINGS"
+        is_just_in = category == "JUST_IN"
+        ticker = _extract_ticker(item.get("title", ""), item.get("summary", ""))
         if is_top:
             prefix = "Howl of the Day: "
+        elif is_earnings:
+            # "JUST IN: $TICKER reports earnings — " or "JUST IN: " if no ticker.
+            prefix = (f"JUST IN: {ticker} reports earnings — "
+                      if ticker else "JUST IN: Earnings — ")
+        elif is_just_in:
+            prefix = "JUST IN: "
         else:
             if wire_idx % 4 == 0:
                 prefix = WIRE_LEADS[(wire_idx // 4) % len(WIRE_LEADS)]
@@ -1927,15 +2022,26 @@ def write_queue_html(items, hero_item=None, signal_posts=None):
         source_label = html.escape(item["source"])
         intent_url = "https://twitter.com/intent/tweet?text=" + urllib.parse.quote(tweet, safe="")
 
-        badge_class = "badge-howl" if is_top else "badge-wire"
-        badge_text = "HOWL OF THE DAY" if is_top else "WIRE"
+        if is_top:
+            badge_class, badge_text = "badge-howl", "HOWL OF THE DAY"
+        elif is_earnings:
+            badge_class, badge_text = "badge-earnings", "EARNINGS"
+        elif is_just_in:
+            badge_class, badge_text = "badge-justin", "JUST IN"
+        else:
+            badge_class, badge_text = "badge-wire", "WIRE"
 
+        card_extra_class = ""
+        if is_earnings:
+            card_extra_class = " card-earnings"
+        elif is_just_in:
+            card_extra_class = " card-justin"
         cards.append(
-            f'<div class="card">'
+            f'<div class="card{card_extra_class}">'
             f'  <div class="card-head">'
             f'    <span class="badge {badge_class}">{badge_text}</span>'
             f'    <span class="meta">{source_label} · {html.escape(ts_str)}</span>'
-            f'    <span class="counter">{counted_len}/280</span>'
+            f'    <span class="counter">{counted_len}/4000</span>'
             f'  </div>'
             f'  <textarea id="t{i}" readonly>{html.escape(tweet)}</textarea>'
             f'  <div class="actions">'
@@ -1968,6 +2074,10 @@ def write_queue_html(items, hero_item=None, signal_posts=None):
   .badge-howl {{ background: var(--green); color: #000; }}
   .badge-wire {{ background: #1a1a1a; color: var(--green); border: 1px solid var(--green); }}
   .badge-signal {{ background: #ffaa00; color: #000; }}
+  .badge-earnings {{ background: #00bfff; color: #000; }}
+  .badge-justin {{ background: #ff4d4d; color: #fff; }}
+  .card-earnings {{ border-color: #00bfff; }}
+  .card-justin {{ border-color: #ff4d4d; }}
   .card-signal {{ border-color: #ffaa00; }}
   .signal-headline {{ color: var(--fg); font-size: 15px; font-weight: bold; line-height: 1.4; margin-bottom: 6px; }}
   .signal-matters {{ color: var(--dim); font-size: 13px; line-height: 1.5; margin-bottom: 10px; }}
