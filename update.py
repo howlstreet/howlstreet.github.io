@@ -35,6 +35,7 @@ HERO_PATH = REPO_ROOT / "hero.md"
 SITEMAP_PATH = REPO_ROOT / "sitemap.xml"
 FEED_PATH = REPO_ROOT / "feed.xml"
 QUEUE_PATH = REPO_ROOT / "queue.html"
+HERO_LOCK_PATH = REPO_ROOT / "hero_lock.json"
 SITE_URL = "https://howlstreet.github.io"
 
 NY = ZoneInfo("America/New_York")
@@ -932,6 +933,70 @@ def pick_top_story(items):
     return top
 
 
+def pick_locked_hero(items):
+    """Howl of the Day for the X feed/queue — locked once per NY-calendar
+    day so @HowlStreet has one consistent flagship story. Subsequent builds
+    in the same day return the same hero. The site's LOUDEST HOWL stays on
+    pick_top_story() = live rotation.
+
+    State persisted to hero_lock.json so the lock survives across cron runs.
+    Returns None if nothing has cleared the quality threshold yet today."""
+    today = datetime.now(NY).strftime("%Y-%m-%d")
+
+    if HERO_LOCK_PATH.exists():
+        try:
+            data = json.loads(HERO_LOCK_PATH.read_text(encoding="utf-8"))
+            if data.get("lock_date") == today and data.get("hero_link"):
+                stored_link = data["hero_link"]
+                # Prefer current pool entry — has a fresh ts and the latest
+                # summary if the source updated the article.
+                for it in items:
+                    if it["link"] == stored_link:
+                        return it
+                # Story rolled out of the 24h pool. Reconstruct from saved data.
+                stored = data.get("hero_data") or {}
+                if stored.get("link") and stored.get("title"):
+                    ts_iso = stored.get("ts")
+                    try:
+                        ts = datetime.fromisoformat(ts_iso) if ts_iso else datetime.now(NY)
+                        if ts.tzinfo is None:
+                            ts = ts.replace(tzinfo=NY)
+                    except (TypeError, ValueError):
+                        ts = datetime.now(NY)
+                    return {
+                        "title": stored["title"],
+                        "link": stored["link"],
+                        "source": stored.get("source", ""),
+                        "summary": stored.get("summary", ""),
+                        "ts": ts,
+                    }
+        except Exception as e:
+            print(f"  ! hero lock read failed: {e}", file=sys.stderr)
+
+    # No valid lock for today — pick fresh and persist.
+    new_hero = pick_top_story(items)
+    if new_hero:
+        try:
+            ts = new_hero["ts"]
+            ts_iso = ts.isoformat() if hasattr(ts, "isoformat") else str(ts)
+            payload = {
+                "lock_date": today,
+                "hero_link": new_hero["link"],
+                "hero_data": {
+                    "title": new_hero["title"],
+                    "link": new_hero["link"],
+                    "source": new_hero["source"],
+                    "summary": new_hero.get("summary", ""),
+                    "ts": ts_iso,
+                },
+            }
+            HERO_LOCK_PATH.write_text(json.dumps(payload, indent=2), encoding="utf-8")
+            print(f"    locked Howl of the Day for {today}: {new_hero['source']}")
+        except Exception as e:
+            print(f"  ! hero lock save failed: {e}", file=sys.stderr)
+    return new_hero
+
+
 def build_hero_auto(items):
     """Render the picked top story as hero HTML. Empty string if no winner."""
     top = pick_top_story(items)
@@ -1272,6 +1337,28 @@ _FILLER_PHRASES = (
 # that we strip to avoid double-colon when prefixing with 'Howl of the Day:'.
 _LABEL_PREFIX_RE = re.compile(r"^([A-Z][\w']+(?:\s+[A-Z][\w']+){0,2}):\s+")
 
+# Sentences with concrete financial signals (prices, percentages, market terms)
+# get preferred when picking briefing copy, so the briefing makes the financial
+# relevance clear instead of stopping at "Trump met advisers".
+_FINANCE_SIGNAL_RE = re.compile(
+    r"\$\s?\d|€\s?\d|£\s?\d|¥\s?\d"
+    r"|\b\d+(?:[\.,]\d+)?\s*(?:percent|%|bps|basis\s+points)\b"
+    r"|\b\d+(?:[\.,]\d+)?\s*(?:billion|trillion|million)\b"
+    r"|\b(?:up|down|rose|fell|jumped|dropped|gained|lost|surged|plunged|climbed|declined|slipped|advanced|tumbled|rallied)\s+(?:to\s+)?\$?\d"
+    r"|\b(?:stock|stocks|shares|equit(?:y|ies)|bond|yield|treasur(?:y|ies)|index|futures|crude|oil|brent|wti|gold|silver|copper|natgas)\b"
+    r"|\b(?:Fed|Federal\s+Reserve|ECB|BoJ|PBOC|BOE|BOC|RBA|RBNZ|SNB|IMF)\b"
+    r"|\b(?:earnings|revenue|EPS|guidance|forecast|profit|loss|dividend|buyback|IPO|merger|acquisition)\b"
+    r"|\b(?:CPI|PPI|GDP|PCE|nonfarm|payrolls|jobless\s+claims|inflation|deflation)\b",
+    re.IGNORECASE,
+)
+
+
+def _has_financial_signal(sentence):
+    """True if sentence contains a price, percentage, market term, central
+    bank, or financial-data keyword. Used to prefer concrete-fact sentences
+    over scene-setting ones when picking briefing copy."""
+    return bool(_FINANCE_SIGNAL_RE.search(sentence))
+
 # All-caps editorial markers that some publishers prepend to article body
 # ("UPDATED FOR AFTERNOON TRADING", "BREAKING:", "EXCLUSIVE"). Strip from
 # the start of briefings so they lead with actual content.
@@ -1444,7 +1531,12 @@ def fetch_article_briefing(url, title, timeout=8):
         # to og:description rather than emit filler.
         substantive = [s for s in sentences if not _is_filler_sentence(s)]
         if substantive:
-            briefing = " ".join(substantive[:2]).strip()
+            # Prefer sentences with concrete financial signals so the
+            # briefing makes the market relevance clear (e.g., surfaces
+            # "Brent crude rose 1.2%" over "Trump met advisers").
+            financial = [s for s in substantive if _has_financial_signal(s)]
+            picked = financial if financial else substantive
+            briefing = " ".join(picked[:2]).strip()
             if 80 <= len(briefing) <= 400:
                 return _strip_dashes(briefing)
 
@@ -1761,17 +1853,22 @@ def main():
     print("  Hero (Loudest Howl)...")
     hero_html = build_hero_from_md()
     hero_link = None
-    auto_hero_item = None
+    auto_hero_item = None  # site's LIVE Loudest Howl (rotates every cron tick)
+    locked_hero_item = None  # X feed/queue Howl of the Day (locked daily)
     if hero_html:
-        print("    (manual override from hero.md)")
+        print("    (manual override from hero.md — X feed will skip Howl of the Day)")
     else:
         auto_hero_item = pick_top_story(all_items)
         if auto_hero_item:
             hero_html = build_hero_auto(all_items)
             hero_link = auto_hero_item["link"]
-            print(f"    (auto-picked from wires: {auto_hero_item['source']})")
+            print(f"    (site Loudest Howl: {auto_hero_item['source']})")
         else:
             print("    (nothing cleared the quality threshold — hero hidden)")
+        # Independent daily-locked pick for X posts. May match the live
+        # Loudest Howl on the first build of the day, then diverge as the
+        # live spot rotates while the X flagship stays put.
+        locked_hero_item = pick_locked_hero(all_items)
 
     print("  Wire panel...")
     headlines_html = build_headlines_from_items(
@@ -1822,8 +1919,8 @@ def main():
 
     OUTPUT_PATH.write_text(output, encoding="utf-8")
     write_sitemap()
-    write_atom_feed(all_items, hero_item=auto_hero_item)
-    write_queue_html(all_items, hero_item=auto_hero_item)
+    write_atom_feed(all_items, hero_item=locked_hero_item)
+    write_queue_html(all_items, hero_item=locked_hero_item)
     print(f"  Wrote {OUTPUT_PATH} ({len(output):,} bytes)")
     print(f"  Wrote {FEED_PATH}")
     print(f"  Updated at {ts_str}")
