@@ -329,10 +329,11 @@ def build_market_sessions():
 
 
 def build_hero():
-    """Read hero.md and render the hero <section>. Empty string if hero.md is missing or empty.
+    """Read hero.md and render the hero <section>. Empty string if missing or empty.
 
     Format:
-        LABEL: TOP STORY · APR 27 14:32 EDT   (optional; auto-generated if missing)
+        LABEL: LOUDEST HOWL          (optional — auto-generated if missing)
+        LINK:  https://example.com   (optional — wraps hero in clickable link)
         # Headline goes here
 
         Body paragraph goes here. Markdown *emphasis* becomes <em>.
@@ -344,18 +345,23 @@ def build_hero():
         return ""
 
     label = None
+    link = None
     headline = None
     body_lines = []
     in_body = False
     for line in text.splitlines():
-        if not in_body and line.startswith("LABEL:"):
-            label = line[len("LABEL:"):].strip()
-            continue
-        if not in_body and line.lstrip().startswith("#"):
-            headline = line.lstrip("# ").strip()
-            in_body = True
-            continue
-        if in_body:
+        if not in_body:
+            if line.startswith("LABEL:"):
+                label = line[len("LABEL:"):].strip()
+                continue
+            if line.startswith("LINK:"):
+                link = line[len("LINK:"):].strip()
+                continue
+            if line.lstrip().startswith("#"):
+                headline = line.lstrip("# ").strip()
+                in_body = True
+                continue
+        else:
             body_lines.append(line)
 
     if not headline:
@@ -369,11 +375,28 @@ def build_hero():
         now_ny = datetime.now(NY)
         label = "LOUDEST HOWL · " + now_ny.strftime("%b %d %H:%M ") + now_ny.tzname()
 
-    return (
-        '<section class="hero">\n'
-        f'  <div class="hero-label">▸ {html.escape(label)}</div>\n'
+    label_html = f'<div class="hero-label">▸ {html.escape(label)}'
+    if link:
+        label_html += ' <span class="hero-arrow">↗</span>'
+    label_html += '</div>'
+
+    inner = (
+        f'  {label_html}\n'
         f'  <h2 class="hero-headline">{headline_html}</h2>\n'
         f'  <p class="hero-body">{body_html}</p>\n'
+    )
+
+    if link:
+        return (
+            f'<a class="hero-link" href="{html.escape(link)}" target="_blank" rel="noopener">\n'
+            '<section class="hero">\n'
+            f'{inner}'
+            '</section>\n'
+            '</a>'
+        )
+    return (
+        '<section class="hero">\n'
+        f'{inner}'
         '</section>'
     )
 

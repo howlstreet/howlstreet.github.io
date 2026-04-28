@@ -365,6 +365,28 @@
     font-style: normal;
   }
 
+  /* Linked hero (LOUDEST HOWL → external story) */
+  .hero-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+  }
+  .hero-link .hero { transition: border-color 0.2s; }
+  .hero-link:hover .hero { border-color: var(--green); }
+  .hero-link:hover .hero-headline { color: var(--green); }
+  .hero-arrow {
+    color: var(--green);
+    font-weight: 700;
+    margin-left: 6px;
+    opacity: 0.7;
+    transition: opacity 0.2s, transform 0.2s;
+    display: inline-block;
+  }
+  .hero-link:hover .hero-arrow {
+    opacity: 1;
+    transform: translate(2px, -2px);
+  }
+
   .hero-body {
     color: var(--text-mid);
     font-size: clamp(12px, 0.9vw, 14px);
@@ -459,27 +481,29 @@
 <span class="ticker-item"><span class="sym">VIX</span><span class="px">18.02</span><span class="down">-3.69%</span></span>
 <span class="ticker-item"><span class="sym">US10Y</span><span class="px">4.336%</span><span class="up">+2.6bp</span></span>
 <span class="ticker-item"><span class="sym">US2Y</span><span class="px">3.590%</span><span class="down">-0.3bp</span></span>
-<span class="ticker-item"><span class="sym">DXY</span><span class="px">98.50</span><span class="up">+0.02%</span></span>
-<span class="ticker-item"><span class="sym">EURUSD</span><span class="px">1.17</span><span class="up">+0.11%</span></span>
-<span class="ticker-item"><span class="sym">USDJPY</span><span class="px">158.99</span><span class="down">-0.37%</span></span>
-<span class="ticker-item"><span class="sym">BTC</span><span class="px">76,917</span><span class="down">-0.58%</span></span>
-<span class="ticker-item"><span class="sym">ETH</span><span class="px">2,290</span><span class="down">-0.58%</span></span>
-<span class="ticker-item"><span class="sym">WTI</span><span class="px">97.42</span><span class="up">+1.09%</span></span>
-<span class="ticker-item"><span class="sym">BRENT</span><span class="px">102.62</span><span class="down">-5.18%</span></span>
-<span class="ticker-item"><span class="sym">GOLD</span><span class="px">4,682.20</span><span class="up">+0.15%</span></span>
+<span class="ticker-item"><span class="sym">DXY</span><span class="px">98.49</span><span class="up">+0.01%</span></span>
+<span class="ticker-item"><span class="sym">EURUSD</span><span class="px">1.17</span><span class="up">+0.10%</span></span>
+<span class="ticker-item"><span class="sym">USDJPY</span><span class="px">159.00</span><span class="down">-0.36%</span></span>
+<span class="ticker-item"><span class="sym">BTC</span><span class="px">76,912</span><span class="down">-0.59%</span></span>
+<span class="ticker-item"><span class="sym">ETH</span><span class="px">2,290</span><span class="down">-0.59%</span></span>
+<span class="ticker-item"><span class="sym">WTI</span><span class="px">97.41</span><span class="up">+1.08%</span></span>
+<span class="ticker-item"><span class="sym">BRENT</span><span class="px">102.63</span><span class="down">-5.17%</span></span>
+<span class="ticker-item"><span class="sym">GOLD</span><span class="px">4,682.90</span><span class="up">+0.16%</span></span>
 <span class="ticker-item"><span class="sym">SILVER</span><span class="px">74.48</span><span class="down">-0.70%</span></span>
-<span class="ticker-item"><span class="sym">COPPER</span><span class="px">6.07</span><span class="up">+0.91%</span></span>
+<span class="ticker-item"><span class="sym">COPPER</span><span class="px">6.07</span><span class="up">+0.94%</span></span>
 <span class="ticker-item"><span class="sym">NAT GAS</span><span class="px">2.72</span><span class="up">+6.55%</span></span>
     </div>
   </div>
 </header>
 
 <!-- HERO (rendered from hero.md if present) -->
+<a class="hero-link" href="https://github.com/howlstreet/howlstreet.github.io" target="_blank" rel="noopener">
 <section class="hero">
-  <div class="hero-label">▸ LOUDEST HOWL</div>
+  <div class="hero-label">▸ LOUDEST HOWL <span class="hero-arrow">↗</span></div>
   <h2 class="hero-headline">HOWL STREET goes live with auto-updating market data</h2>
-  <p class="hero-body">The pack now reads live market data from yfinance, headlines from a half-dozen wires, and rebuilds itself on a cron. Edit `hero.md` in the repo to change this story — next workflow run picks it up. Use `<em>asterisks</em>` for <em>emphasis</em>. Delete or empty the file to hide the section.</p>
+  <p class="hero-body">The pack now reads live market data from yfinance, headlines from a half-dozen wires, and rebuilds itself on a cron. Edit `hero.md` in the repo to change this story — next workflow run picks it up. Add a `LINK:` line to make the whole block clickable; use `<em>asterisks</em>` for <em>emphasis</em>. Delete or empty the file to hide the section.</p>
 </section>
+</a>
 
 <!-- MAIN GRID -->
 <main class="main">
@@ -488,7 +512,7 @@
   <div class="panel">
     <div class="panel-head">
       <div class="panel-title">US Equities</div>
-      <div class="panel-meta">00:53 EDT</div>
+      <div class="panel-meta">00:56 EDT</div>
     </div>
     <table>
       <thead>
@@ -518,7 +542,7 @@
         <tr><td class="sym-cell">FTSE 100</td><td class="r">10,321.10</td><td class="r"><span class="pct-pill down">-0.56%</span></td></tr>
 <tr><td class="sym-cell">DAX</td><td class="r">24,083.53</td><td class="r"><span class="pct-pill down">-0.19%</span></td></tr>
 <tr><td class="sym-cell">CAC 40</td><td class="r">8,141.92</td><td class="r"><span class="pct-pill down">-0.19%</span></td></tr>
-<tr><td class="sym-cell">Nikkei 225</td><td class="r">59,906.20</td><td class="r"><span class="pct-pill down">-1.04%</span></td></tr>
+<tr><td class="sym-cell">Nikkei 225</td><td class="r">59,944.66</td><td class="r"><span class="pct-pill down">-0.98%</span></td></tr>
 <tr><td class="sym-cell">Hang Seng</td><td class="r">25,752.60</td><td class="r"><span class="pct-pill down">-0.67%</span></td></tr>
 <tr><td class="sym-cell">Shanghai</td><td class="r">4,083.47</td><td class="r"><span class="pct-pill down">-0.07%</span></td></tr>
       </tbody>
@@ -548,7 +572,7 @@
   <div class="panel panel-wide">
     <div class="panel-head">
       <div class="panel-title">From the Pack</div>
-      <div class="panel-meta">00:53 EDT</div>
+      <div class="panel-meta">00:56 EDT</div>
     </div>
     <a href="https://www.cnbc.com/2026/04/28/general-motors-gm-earnings-q1-2026.html" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">CNBC</span><span>Apr 28 00:01</span></div><div class="headline-text">General Motors is set to report earnings before the bell. Here&#x27;s what Wall Street expects</div></div></a>
 <a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxOWTIydTVfTWRVbUxTWFVkeld0SmtuU3UzX1BTcUNnV3hYd3czTTBGTFpLVmZfcmc3Y3RILWpNQTNkcmFwcE1TbXNic01ZajJ4WXY0NTBrdkQ3U2FUcmlJREtJWE92TkU3c09DU0xPMDNEZi1KLUV3c1QwN0xCZi1DeG1LSm9ydnV0WUFpNFJ2MWNteGRDY3pob0NkdkdhNDh2akNud3YyOE42ZXh4enhFWlN3?oc=5" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">BLOOMBERG</span><span>Apr 27 20:58</span></div><div class="headline-text">Korea Passes UK to Become World’s Eighth-Largest Stock Market - Bloomberg.com</div></div></a>
@@ -571,12 +595,12 @@
         <tr><th>Pair</th><th class="r">Last</th><th class="r">%</th></tr>
       </thead>
       <tbody>
-        <tr><td class="sym-cell">DXY</td><td class="r">98.50</td><td class="r"><span class="pct-pill up">+0.02%</span></td></tr>
-<tr><td class="sym-cell">EUR/USD</td><td class="r">1.1719</td><td class="r"><span class="pct-pill up">+0.11%</span></td></tr>
+        <tr><td class="sym-cell">DXY</td><td class="r">98.49</td><td class="r"><span class="pct-pill up">+0.01%</span></td></tr>
+<tr><td class="sym-cell">EUR/USD</td><td class="r">1.1718</td><td class="r"><span class="pct-pill up">+0.10%</span></td></tr>
 <tr><td class="sym-cell">GBP/USD</td><td class="r">1.3534</td><td class="r"><span class="pct-pill up">+0.14%</span></td></tr>
-<tr><td class="sym-cell">USD/JPY</td><td class="r">158.99</td><td class="r"><span class="pct-pill down">-0.37%</span></td></tr>
-<tr><td class="sym-cell">USD/CNH</td><td class="r">6.8290</td><td class="r"><span class="pct-pill up">+0.08%</span></td></tr>
-<tr><td class="sym-cell">AUD/USD</td><td class="r">0.7189</td><td class="r"><span class="pct-pill up">+0.63%</span></td></tr>
+<tr><td class="sym-cell">USD/JPY</td><td class="r">159.00</td><td class="r"><span class="pct-pill down">-0.36%</span></td></tr>
+<tr><td class="sym-cell">USD/CNH</td><td class="r">6.8292</td><td class="r"><span class="pct-pill up">+0.08%</span></td></tr>
+<tr><td class="sym-cell">AUD/USD</td><td class="r">0.7188</td><td class="r"><span class="pct-pill up">+0.62%</span></td></tr>
       </tbody>
     </table>
   </div>
@@ -592,12 +616,12 @@
         <tr><th>Contract</th><th class="r">Last</th><th class="r">%</th></tr>
       </thead>
       <tbody>
-        <tr><td class="sym-cell">WTI Crude</td><td class="r">97.42</td><td class="r"><span class="pct-pill up">+1.09%</span></td></tr>
-<tr><td class="sym-cell">Brent</td><td class="r">102.62</td><td class="r"><span class="pct-pill down">-5.18%</span></td></tr>
+        <tr><td class="sym-cell">WTI Crude</td><td class="r">97.41</td><td class="r"><span class="pct-pill up">+1.08%</span></td></tr>
+<tr><td class="sym-cell">Brent</td><td class="r">102.63</td><td class="r"><span class="pct-pill down">-5.17%</span></td></tr>
 <tr><td class="sym-cell">Nat Gas</td><td class="r">2.72</td><td class="r"><span class="pct-pill up">+6.55%</span></td></tr>
-<tr><td class="sym-cell">Gold</td><td class="r">4,682.20</td><td class="r"><span class="pct-pill up">+0.15%</span></td></tr>
+<tr><td class="sym-cell">Gold</td><td class="r">4,682.90</td><td class="r"><span class="pct-pill up">+0.16%</span></td></tr>
 <tr><td class="sym-cell">Silver</td><td class="r">74.48</td><td class="r"><span class="pct-pill down">-0.70%</span></td></tr>
-<tr><td class="sym-cell">Copper</td><td class="r">6.07</td><td class="r"><span class="pct-pill up">+0.91%</span></td></tr>
+<tr><td class="sym-cell">Copper</td><td class="r">6.07</td><td class="r"><span class="pct-pill up">+0.94%</span></td></tr>
       </tbody>
     </table>
   </div>
@@ -613,10 +637,10 @@
         <tr><th>Asset</th><th class="r">USD</th><th class="r">%</th></tr>
       </thead>
       <tbody>
-        <tr><td class="sym-cell">Bitcoin</td><td class="r">76,917</td><td class="r"><span class="pct-pill down">-0.58%</span></td></tr>
-<tr><td class="sym-cell">Ethereum</td><td class="r">2,290.00</td><td class="r"><span class="pct-pill down">-0.58%</span></td></tr>
+        <tr><td class="sym-cell">Bitcoin</td><td class="r">76,912</td><td class="r"><span class="pct-pill down">-0.59%</span></td></tr>
+<tr><td class="sym-cell">Ethereum</td><td class="r">2,289.80</td><td class="r"><span class="pct-pill down">-0.59%</span></td></tr>
 <tr><td class="sym-cell">Solana</td><td class="r">84.13</td><td class="r"><span class="pct-pill down">-0.82%</span></td></tr>
-<tr><td class="sym-cell">XRP</td><td class="r">1.39</td><td class="r"><span class="pct-pill down">-0.54%</span></td></tr>
+<tr><td class="sym-cell">XRP</td><td class="r">1.39</td><td class="r"><span class="pct-pill down">-0.55%</span></td></tr>
       </tbody>
     </table>
   </div>
@@ -626,7 +650,7 @@
 
 <footer class="footer-strip">
   <div>HOWL STREET · No BS 24/7 Global Financial News</div>
-  <div>DATA: YFINANCE · RSS WIRES &nbsp;·&nbsp; UPDATED: <span style="color: var(--green);">Apr 28 00:53 EDT</span></div>
+  <div>DATA: YFINANCE · RSS WIRES &nbsp;·&nbsp; UPDATED: <span style="color: var(--green);">Apr 28 00:56 EDT</span></div>
 </footer>
 
 </body>
