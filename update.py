@@ -1420,6 +1420,50 @@ def build_headlines_from_items(items, exclude_link=None, exclude_sources=None,
     return "\n".join(html_parts) if html_parts else '<div class="headline"><div class="headline-text" style="color:var(--text-dim)">Headlines unavailable.</div></div>'
 
 
+def build_corruption_watch(items, exclude_link=None, total=8):
+    """Render the Corruption Watch panel — items from accountability-focused
+    sources OR matching corruption keywords (fraud, indicted, SEC charges,
+    insider trading, etc.). The brand's differentiator on the home page."""
+    pool = [i for i in items if _is_corruption_item(i)]
+    if exclude_link:
+        pool = [i for i in pool if i["link"] != exclude_link]
+    pool.sort(key=lambda x: x["ts"], reverse=True)
+
+    seen = set()
+    selected = []
+    per_source = {}
+    for item in pool:
+        if item["link"] in seen:
+            continue
+        if per_source.get(item["source"], 0) >= 2:
+            continue
+        selected.append(item)
+        seen.add(item["link"])
+        per_source[item["source"]] = per_source.get(item["source"], 0) + 1
+        if len(selected) >= total:
+            break
+
+    if not selected:
+        return ('<div class="headline"><div class="headline-text" '
+                'style="color:var(--text-dim)">No flagged corruption items right now '
+                '— the pack is watching.</div></div>')
+
+    parts = []
+    for item in selected:
+        time_str = item["ts"].strftime("%b %d %H:%M") if item["ts"].year > 2001 else ""
+        parts.append(
+            f'<a href="{html.escape(item["link"])}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">'
+            f'<div class="headline">'
+            f'<div class="headline-meta">'
+            f'<span class="source-tag" style="color:#b042ff;">{html.escape(item["source"])}</span>'
+            f'<span>{html.escape(time_str)}</span>'
+            f'</div>'
+            f'<div class="headline-text">{html.escape(item["title"])}</div>'
+            f'</div></a>'
+        )
+    return "\n".join(parts)
+
+
 def build_regional_panels(items, exclude_link=None):
     """Per-continent wire panels for the regional desk.
     Returns dict: region_code → rendered HTML for that panel's body."""
@@ -1601,6 +1645,43 @@ _LABEL_PREFIX_RE = re.compile(r"^([A-Z][\w']+(?:\s+[A-Z][\w']+){0,2}):\s+")
 # Earnings-release title patterns. PR Newswire / Business Wire / GlobeNewswire
 # items that match here become EARNINGS-tagged queue cards with a "JUST IN:
 # $TICKER reports earnings" lede instead of the standard wire format.
+_CORRUPTION_RE = re.compile(
+    r"\b(?:"
+    r"fraud|fraudulent|defraud"
+    r"|indicted|indictment|charged|charges|guilty\s+plea|pleaded\s+guilty"
+    r"|insider\s+trading|stock\s+manipulation|market\s+manipulation"
+    r"|money\s+laundering|laundered|wire\s+fraud|securities\s+fraud|accounting\s+fraud"
+    r"|bribery|bribed|kickback|kickbacks"
+    r"|conflict\s+of\s+interest|self[- ]dealing|self[- ]enrich"
+    r"|whistleblower|whistle[- ]blower|leaked\s+documents"
+    r"|SEC\s+(?:probe|investigation|charges|fines|enforcement|complaint|settlement|sued|files)"
+    r"|DOJ\s+(?:probe|investigation|charges|fines|settlement|sued)"
+    r"|FTC\s+(?:probe|investigation|charges|sued)"
+    r"|CFTC\s+(?:probe|investigation|charges|fines)"
+    r"|FINRA\s+(?:probe|investigation|fines)"
+    r"|class[- ]action\s+(?:lawsuit|suit)"
+    r"|tax\s+evasion|tax\s+fraud|offshore\s+accounts|panama\s+papers|paradise\s+papers|pandora\s+papers"
+    r"|ponzi\s+scheme|pump[- ]and[- ]dump"
+    r"|cooked\s+the\s+books|earnings\s+manipulation"
+    r"|corruption|corrupt"
+    r"|insider\s+trade(?:r|d|s)?|insider\s+selling|insider\s+buying"
+    r"|dark\s+money|shell\s+company|shell\s+companies"
+    r"|crony|cronyism|self[- ]dealing"
+    r"|too\s+big\s+to\s+(?:fail|jail)"
+    r"|regulatory\s+capture|revolving\s+door"
+    r"|mass\s+layoff(?:s)?|stock\s+buyback\s+(?:while|despite)"
+    r")\b",
+    re.IGNORECASE,
+)
+# Sources whose entire mission is corruption / accountability journalism.
+# Items from these always classify as CORRUPTION even without keyword match.
+_CORRUPTION_SOURCES = {"PROPUBLICA", "WALL ST PARADE", "NAKED CAPITAL", "INTERCEPT"}
+
+_BREAKING_RE = re.compile(
+    r"\b(?:breaking|urgent|developing|just\s+in|live[- ]update|live\s+blog|alert)\b",
+    re.IGNORECASE,
+)
+
 _EARNINGS_TITLE_RE = re.compile(
     r"\b(?:Q[1-4]|first[- ]?quarter|second[- ]?quarter|third[- ]?quarter|fourth[- ]?quarter|full[- ]?year|fiscal[- ]?year|FY\d*)\s+"
     r"(?:results|earnings|financial\s+results|revenue|profit|loss)"
@@ -1760,6 +1841,24 @@ def _is_earnings_title(title):
     return bool(_EARNINGS_TITLE_RE.search(title))
 
 
+def _is_corruption_item(item):
+    """True if the item is from a corruption-focused source OR matches
+    corruption / accountability keywords (fraud, indicted, SEC charges,
+    insider trading, etc.). This is the brand's bread and butter — the
+    'Wolf of Wall Street for the people' angle."""
+    if item.get("source") in _CORRUPTION_SOURCES:
+        return True
+    text = (item.get("title", "") or "") + " " + (item.get("summary", "") or "")
+    return bool(_CORRUPTION_RE.search(text))
+
+
+def _is_breaking_title(title):
+    """True if the title self-flags as breaking / urgent / developing."""
+    if not title:
+        return False
+    return bool(_BREAKING_RE.search(title))
+
+
 def _extract_ticker(title, summary=""):
     """Pull a stock ticker out of a title or summary. Returns the ticker
     string (with $ prefix) or empty string if none found."""
@@ -1909,15 +2008,20 @@ def write_queue_html(items, hero_item=None, signal_posts=None):
     pool = [i for i in items if is_financially_relevant(i)]
     pool.sort(key=lambda x: x["ts"], reverse=True)
 
-    # Classify each item into a card category. Priority: HOWL_OF_THE_DAY
-    # (the picked hero) → EARNINGS (PR-wire / news items reporting Q-results)
-    # → JUST_IN (very fresh + high signal) → WIRE (default).
+    # Classify each item into a card category, then round-robin them so the
+    # queue shows VARIETY at the top instead of clumping (e.g. 6 EARNINGS
+    # in a row). Priority order tries CORRUPTION → EARNINGS → BREAKING →
+    # JUST_IN → WIRE on each pass.
     now_ny = datetime.now(NY)
-    JUST_IN_WINDOW_MIN = 60  # items younger than this and substantive get JUST IN
+    JUST_IN_WINDOW_MIN = 60
 
     def classify(item):
+        if _is_corruption_item(item):
+            return "CORRUPTION"
         if _is_earnings_title(item.get("title", "")):
             return "EARNINGS"
+        if _is_breaking_title(item.get("title", "")):
+            return "BREAKING"
         age_min = (now_ny - item["ts"]).total_seconds() / 60
         if age_min < JUST_IN_WINDOW_MIN:
             return "JUST_IN"
@@ -1928,18 +2032,30 @@ def write_queue_html(items, hero_item=None, signal_posts=None):
     if hero_item:
         queue.append(("HOWL_OF_THE_DAY", hero_item))
         seen_links.add(hero_item["link"])
-    # Surface earnings cards first so they're easy to grab when filing.
-    earnings_pool = [i for i in pool if i["link"] not in seen_links and _is_earnings_title(i.get("title", ""))]
-    rest_pool = [i for i in pool if i["link"] not in seen_links and not _is_earnings_title(i.get("title", ""))]
-    for item in earnings_pool[:6]:
-        queue.append(("EARNINGS", item))
-        seen_links.add(item["link"])
-    for item in rest_pool:
+
+    buckets = {"CORRUPTION": [], "EARNINGS": [], "BREAKING": [], "JUST_IN": [], "WIRE": []}
+    for item in pool:
         if item["link"] in seen_links:
             continue
-        queue.append((classify(item), item))
-        seen_links.add(item["link"])
-        if len(queue) >= 25:
+        cat = classify(item)
+        buckets[cat].append(item)
+
+    # Round-robin pull in priority order; CORRUPTION first because it's the
+    # brand differentiator. Cap total queue at 30 (X Premium = no shortage
+    # of room for posts).
+    priority = ["CORRUPTION", "EARNINGS", "BREAKING", "JUST_IN", "WIRE"]
+    QUEUE_CAP = 30
+    while len(queue) < QUEUE_CAP:
+        progress = False
+        for cat in priority:
+            if buckets[cat]:
+                item = buckets[cat].pop(0)
+                queue.append((cat, item))
+                seen_links.add(item["link"])
+                progress = True
+                if len(queue) >= QUEUE_CAP:
+                    break
+        if not progress:
             break
 
     # Briefing per item: RSS summary if substantive (and not a title reword),
@@ -2028,13 +2144,18 @@ def write_queue_html(items, hero_item=None, signal_posts=None):
         is_top = category == "HOWL_OF_THE_DAY"
         is_earnings = category == "EARNINGS"
         is_just_in = category == "JUST_IN"
+        is_breaking = category == "BREAKING"
+        is_corruption = category == "CORRUPTION"
         ticker = _extract_ticker(item.get("title", ""), item.get("summary", ""))
         if is_top:
             prefix = "Howl of the Day: "
+        elif is_corruption:
+            prefix = "Corruption uncovered: "
         elif is_earnings:
-            # "JUST IN: $TICKER reports earnings — " or "JUST IN: " if no ticker.
             prefix = (f"JUST IN: {ticker} reports earnings — "
                       if ticker else "JUST IN: Earnings — ")
+        elif is_breaking:
+            prefix = "BREAKING: "
         elif is_just_in:
             prefix = "JUST IN: "
         else:
@@ -2090,16 +2211,24 @@ def write_queue_html(items, hero_item=None, signal_posts=None):
 
         if is_top:
             badge_class, badge_text = "badge-howl", "HOWL OF THE DAY"
+        elif is_corruption:
+            badge_class, badge_text = "badge-corrupt", "CORRUPTION"
         elif is_earnings:
             badge_class, badge_text = "badge-earnings", "EARNINGS"
+        elif is_breaking:
+            badge_class, badge_text = "badge-breaking", "BREAKING"
         elif is_just_in:
             badge_class, badge_text = "badge-justin", "JUST IN"
         else:
             badge_class, badge_text = "badge-wire", "WIRE"
 
         card_extra_class = ""
-        if is_earnings:
+        if is_corruption:
+            card_extra_class = " card-corrupt"
+        elif is_earnings:
             card_extra_class = " card-earnings"
+        elif is_breaking:
+            card_extra_class = " card-breaking"
         elif is_just_in:
             card_extra_class = " card-justin"
         cards.append(
@@ -2142,8 +2271,13 @@ def write_queue_html(items, hero_item=None, signal_posts=None):
   .badge-signal {{ background: #ffaa00; color: #000; }}
   .badge-earnings {{ background: #00bfff; color: #000; }}
   .badge-justin {{ background: #ff4d4d; color: #fff; }}
+  .badge-breaking {{ background: #ff4d4d; color: #fff; animation: pulse 2s infinite; }}
+  .badge-corrupt {{ background: #b042ff; color: #fff; }}
   .card-earnings {{ border-color: #00bfff; }}
   .card-justin {{ border-color: #ff4d4d; }}
+  .card-breaking {{ border-color: #ff4d4d; }}
+  .card-corrupt {{ border-color: #b042ff; }}
+  @keyframes pulse {{ 0% {{ opacity: 1; }} 50% {{ opacity: 0.6; }} 100% {{ opacity: 1; }} }}
   .card-signal {{ border-color: #ffaa00; }}
   .signal-headline {{ color: var(--fg); font-size: 15px; font-weight: bold; line-height: 1.4; margin-bottom: 6px; }}
   .signal-matters {{ color: var(--dim); font-size: 13px; line-height: 1.5; margin-bottom: 10px; }}
@@ -2308,6 +2442,9 @@ def main():
         all_items, exclude_link=hero_link, exclude_sources={"TRADING ECON"},
     )
 
+    print("  Corruption Watch...")
+    corruption_html = build_corruption_watch(all_items, exclude_link=hero_link)
+
     print("  Regional desk...")
     regional = build_regional_panels(all_items, exclude_link=hero_link)
 
@@ -2333,6 +2470,7 @@ def main():
         .replace("{{COMMODITIES}}", "\n".join(cmdty_rows))
         .replace("{{CRYPTO}}", "\n".join(crypto_rows))
         .replace("{{HEADLINES}}", headlines_html)
+        .replace("{{CORRUPTION_WATCH}}", corruption_html)
         .replace("{{SECTORS}}", "\n".join(sector_rows))
         .replace("{{MEGACAPS}}", "\n".join(megacap_rows))
         .replace("{{REGIONAL_US}}", regional.get("US", ""))
