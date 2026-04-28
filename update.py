@@ -398,10 +398,31 @@ RSS_FEEDS = [
     ("CRYPTO BRIEFING","https://cryptobriefing.com/feed/"),
 
     # ── Investigative / corruption watchdog (the populist-wolf angle) ──
+    # The brand's core. Mix left-leaning and right-leaning investigative
+    # outlets so we never drift partisan. The strict mega-cap-OR-corruption
+    # gate filters out any non-finance content from any of these, so we
+    # can use general feeds without polluting the queue with culture-war.
+
+    # Left-leaning / centrist investigative
     ("PROPUBLICA",     "https://www.propublica.org/feeds/propublica/main"),
     ("WALL ST PARADE", "https://wallstreetonparade.com/feed/"),
     ("NAKED CAPITAL",  "https://www.nakedcapitalism.com/feed"),
     ("INTERCEPT",      "https://theintercept.com/feed/?lang=en"),
+    ("MOTHER JONES",   "https://www.motherjones.com/feed/"),
+    ("FOREIGN POLICY", "https://foreignpolicy.com/feed/"),
+    ("REVEAL",         "https://revealnews.org/feed/"),
+    ("ICIJ",           "https://www.icij.org/feed/"),
+
+    # Right-leaning / contrarian — finance-leaning where possible
+    ("BREITBART",      "https://feeds.feedburner.com/breitbart"),
+    ("WASH EXAMINER",  "https://www.washingtonexaminer.com/section/policy/economy/feed/"),
+    ("TOWNHALL FIN",   "https://townhall.com/finance/feed"),
+    ("AM SPECTATOR",   "https://spectator.org/feed/"),
+    ("JUST THE NEWS",  "https://justthenews.com/rss.xml"),
+    ("THE BLAZE",      "https://www.theblaze.com/feeds/feed.rss"),
+    ("WND",            "https://www.wnd.com/feed/"),
+    ("PJ MEDIA",       "https://pjmedia.com/feed/"),
+    ("HOT AIR",        "https://hotair.com/feed"),
 ]
 
 # Used by the auto Loudest Howl picker. Weighted by signal quality (institutional
@@ -467,8 +488,13 @@ SOURCE_WEIGHT = {
     "CRYPTOSLATE":   2, "BEINCRYPTO":   2, "THE DEFIANT":  3, "CRYPTO BRIEFING": 2,
     # Phase 1: Congressional trades from Senate/House Stock Watcher (primary STOCK Act data)
     "CONGRESS":      6,
-    # Investigative / corruption watchdog (the populist-wolf angle)
+    # Investigative / corruption watchdog — left & center leaning
     "PROPUBLICA":    5, "WALL ST PARADE": 4, "NAKED CAPITAL": 3, "INTERCEPT":    3,
+    "MOTHER JONES":  3, "FOREIGN POLICY": 4, "REVEAL":        4, "ICIJ":         5,
+    # Investigative / contrarian — right leaning
+    "BREITBART":     2, "WASH EXAMINER": 3, "TOWNHALL FIN": 3, "AM SPECTATOR": 2,
+    "JUST THE NEWS": 2, "THE BLAZE":     2, "WND":          1, "PJ MEDIA":     2,
+    "HOT AIR":       2,
 }
 
 # Keyword score boosts (lowercase, substring match against title).
@@ -1732,7 +1758,10 @@ _CORRUPTION_RE = re.compile(
 )
 # Sources whose entire mission is corruption / accountability journalism.
 # Items from these always classify as CORRUPTION even without keyword match.
-_CORRUPTION_SOURCES = {"PROPUBLICA", "WALL ST PARADE", "NAKED CAPITAL", "INTERCEPT"}
+_CORRUPTION_SOURCES = {
+    "PROPUBLICA", "WALL ST PARADE", "NAKED CAPITAL", "INTERCEPT",
+    "MOTHER JONES", "REVEAL", "ICIJ",
+}
 
 _BREAKING_RE = re.compile(
     r"\b(?:breaking|urgent|developing|just\s+in|live[- ]update|live\s+blog|alert)\b",
