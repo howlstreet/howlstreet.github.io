@@ -70,10 +70,12 @@ class Series:
     """A monitored data series (FRED or yfinance)."""
     key: str              # internal id, e.g. "MORTGAGE30US"
     label: str            # user-facing, e.g. "U.S. 30Y Mortgage Rate"
+    short_label: str      # punchy, used in headlines, e.g. "30Y mortgage"
     unit: str             # "%" or "$" or "" — appended to numbers in headlines
     source: str           # "FRED · MORTGAGE30US" or "Yahoo Finance · ^VIX"
     fetcher: str          # "fred" or "yahoo"
     matters_template: str # one-line "why this matters" copy
+    hashtags: str         # signal-specific X tags, e.g. "#Oil #WTI #Commodities"
     decimals: int = 2     # display precision
 
 
@@ -86,6 +88,9 @@ class Signal:
     history: list = field(default_factory=list)  # [(datetime, float)]
     chart_path: str = ""
     signal_id: str = ""   # unique id used for cooldown dedupe
+    kind: str = ""        # "high" | "low" | "move_up" | "move_down"
+    badge: str = ""       # short overlay text for chart, e.g. "+19.5%" or "8Y HIGH"
+    extreme_years: float = 0.0  # for high/low: how many years since last match
 
 
 # ----------------------------------------------------------------------------
@@ -94,76 +99,76 @@ class Signal:
 
 SERIES_CATALOG = [
     # ── FRED macro ──
-    Series("MORTGAGE30US", "U.S. 30-year mortgage rate",  "%", "FRED · MORTGAGE30US",
+    Series("MORTGAGE30US", "U.S. 30-year mortgage rate", "30Y mortgage rate", "%", "FRED · MORTGAGE30US",
            "fred",
            "Housing affordability moves directly with this rate. Every 1% higher cuts buyer purchasing power by ~10%.",
-           decimals=2),
-    Series("DGS10",        "U.S. 10-year Treasury yield", "%", "FRED · DGS10",
+           "#Housing #Mortgage #Rates", decimals=2),
+    Series("DGS10", "U.S. 10-year Treasury yield", "10Y yield", "%", "FRED · DGS10",
            "fred",
-           "The 10-year is the global benchmark for risk-free rates. Stocks, mortgages, and corporate debt are all priced off this.",
-           decimals=2),
-    Series("DGS2",         "U.S. 2-year Treasury yield",  "%", "FRED · DGS2",
+           "The 10Y is the global benchmark for risk-free rates. Stocks, mortgages, and corporate debt are all priced off this.",
+           "#Bonds #Yields #Treasury #Rates", decimals=2),
+    Series("DGS2", "U.S. 2-year Treasury yield", "2Y yield", "%", "FRED · DGS2",
            "fred",
-           "The 2-year tracks Fed expectations. When it inverts versus the 10-year, recession has historically followed within 18 months.",
-           decimals=2),
-    Series("DFF",          "U.S. Federal funds rate",     "%", "FRED · DFF",
+           "The 2Y tracks Fed expectations. When it inverts vs the 10Y, recession has followed within 18 months in every cycle since 1980.",
+           "#Bonds #Yields #Fed", decimals=2),
+    Series("DFF", "U.S. Federal funds rate", "Fed funds rate", "%", "FRED · DFF",
            "fred",
            "The Fed's policy rate sets the floor for every other interest rate in the economy.",
-           decimals=2),
-    Series("UNRATE",       "U.S. unemployment rate",      "%", "FRED · UNRATE",
+           "#Fed #FOMC #Rates", decimals=2),
+    Series("UNRATE", "U.S. unemployment rate", "unemployment", "%", "FRED · UNRATE",
            "fred",
            "Sahm rule: when unemployment rises 0.5pp from cycle low, recession has started in every cycle since 1953.",
-           decimals=1),
-    Series("ICSA",         "U.S. weekly jobless claims",  "",  "FRED · ICSA",
+           "#Jobs #Recession #Macro", decimals=1),
+    Series("ICSA", "U.S. weekly jobless claims", "jobless claims", "", "FRED · ICSA",
            "fred",
            "Initial claims are the highest-frequency labor market signal. Persistent moves above 250K historically mark cycle turns.",
-           decimals=0),
-    Series("CPIAUCSL_YOY", "U.S. CPI year-over-year",     "%", "FRED · CPIAUCSL",
+           "#Jobs #Labor #Macro", decimals=0),
+    Series("CPIAUCSL_YOY", "U.S. CPI year-over-year", "CPI YoY", "%", "FRED · CPIAUCSL",
            "fred",
            "Headline CPI is what the Fed targets at 2%. Anything well above forces tighter policy; anything below opens the door to cuts.",
-           decimals=1),
-    Series("UMCSENT",      "U.S. consumer sentiment",     "",  "FRED · UMCSENT",
+           "#CPI #Inflation #Fed", decimals=1),
+    Series("UMCSENT", "U.S. consumer sentiment", "consumer sentiment", "", "FRED · UMCSENT",
            "fred",
            "Sentiment leads consumer spending, which is 70% of U.S. GDP.",
-           decimals=1),
-    Series("DCOILWTICO",   "WTI crude oil price",         "$", "FRED · DCOILWTICO",
+           "#Consumer #Macro", decimals=1),
+    Series("DCOILWTICO", "WTI crude oil price", "WTI crude", "$", "FRED · DCOILWTICO",
            "fred",
            "Oil flows through inflation, transport costs, and energy-stock earnings. A 10% move shifts every CPI forecast.",
-           decimals=2),
+           "#Oil #WTI #Energy #Commodities", decimals=2),
 
     # ── yfinance market ──
-    Series("^VIX",   "VIX (S&P 500 volatility)",          "",  "CBOE · ^VIX",
+    Series("^VIX", "VIX (S&P 500 volatility)", "VIX", "", "CBOE · ^VIX",
            "yahoo",
-           "VIX is the market's fear gauge. Above 30 signals stress; above 40 is panic. Below 12 is complacency.",
-           decimals=2),
-    Series("^GSPC",  "S&P 500",                           "",  "Yahoo Finance · ^GSPC",
+           "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+           "#VIX #Volatility #Markets", decimals=2),
+    Series("^GSPC", "S&P 500", "S&P 500", "", "Yahoo Finance · ^GSPC",
            "yahoo",
            "The benchmark of U.S. equities. Watched globally as the proxy for risk-on / risk-off.",
-           decimals=2),
-    Series("^IXIC",  "Nasdaq Composite",                  "",  "Yahoo Finance · ^IXIC",
+           "#SPX #SP500 #Stocks #Markets", decimals=2),
+    Series("^IXIC", "Nasdaq Composite", "Nasdaq", "", "Yahoo Finance · ^IXIC",
            "yahoo",
-           "Tech-heavy index — leads risk appetite and is most sensitive to rate moves.",
-           decimals=2),
-    Series("^DJI",   "Dow Jones Industrial Average",      "",  "Yahoo Finance · ^DJI",
+           "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
+           "#Nasdaq #Tech #Stocks", decimals=2),
+    Series("^DJI", "Dow Jones Industrial Average", "Dow", "", "Yahoo Finance · ^DJI",
            "yahoo",
            "30 large U.S. industrials. Slower-moving than the S&P but the headline number retail readers track.",
-           decimals=2),
-    Series("DX-Y.NYB", "U.S. dollar index (DXY)",         "",  "ICE · DX-Y.NYB",
+           "#Dow #Stocks #Markets", decimals=2),
+    Series("DX-Y.NYB", "U.S. dollar index (DXY)", "DXY", "", "ICE · DX-Y.NYB",
            "yahoo",
            "DXY measures the dollar against six major peers. Higher dollar pressures emerging markets and commodities.",
-           decimals=2),
-    Series("GC=F",   "Gold futures",                      "$", "COMEX · GC=F",
+           "#DXY #Dollar #FX #Macro", decimals=2),
+    Series("GC=F", "Gold futures", "Gold", "$", "COMEX · GC=F",
            "yahoo",
            "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
-           decimals=2),
-    Series("BTC-USD", "Bitcoin",                          "$", "Yahoo Finance · BTC-USD",
+           "#Gold #PreciousMetals #Commodities", decimals=2),
+    Series("BTC-USD", "Bitcoin", "Bitcoin", "$", "Yahoo Finance · BTC-USD",
            "yahoo",
-           "Bitcoin is now widely treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
-           decimals=0),
-    Series("CL=F",   "WTI crude oil futures",             "$", "NYMEX · CL=F",
+           "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
+           "#Bitcoin #BTC #Crypto", decimals=0),
+    Series("CL=F", "WTI crude oil futures", "WTI crude", "$", "NYMEX · CL=F",
            "yahoo",
            "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-           decimals=2),
+           "#Oil #WTI #Energy #Commodities", decimals=2),
 ]
 
 SERIES_BY_KEY = {s.key: s for s in SERIES_CATALOG}
@@ -270,23 +275,41 @@ def _years_since_match(history, current, comparator):
     return (today - history[0][0]).days / 365.25
 
 
+def _move_verb(pct):
+    """Pick a punchier verb based on move magnitude. Wolf-vibe but reads
+    like financial news, not parody."""
+    a = abs(pct)
+    if pct > 0:
+        if a >= 15: return "rips"
+        if a >= 10: return "surges"
+        if a >= 7:  return "jumps"
+        return "climbs"
+    else:
+        if a >= 15: return "craters"
+        if a >= 10: return "tumbles"
+        if a >= 7:  return "slides"
+        return "drops"
+
+
 def detect_signals_for_series(series, history):
     """Apply the multi-year high/low and big-move detectors. Returns a list
     of zero or more Signal candidates (caller dedupes with cooldown)."""
     if len(history) < 60:
         return []
     current_d, current = history[-1]
+    cur_str = _format_value(current, series)
     signals = []
 
     # ── multi-year high ──
     yrs_since_higher = _years_since_match(history, current, lambda v, c: v > c)
     if yrs_since_higher is not None and yrs_since_higher >= HIGH_LOW_YEARS:
+        yrs = int(yrs_since_higher)
         signals.append(Signal(
-            series=series,
-            current=current,
-            history=history,
-            headline=f"{series.label} hits {_format_value(current, series)}, "
-                     f"highest in over {int(yrs_since_higher)} years",
+            series=series, current=current, history=history,
+            kind="high",
+            extreme_years=yrs_since_higher,
+            badge=f"{yrs}Y HIGH",
+            headline=f"{series.short_label.capitalize()} just hit {cur_str} — highest in {yrs}+ years",
             matters=series.matters_template,
             signal_id=f"{series.key}:high:{current_d.strftime('%Y-%m-%d')}",
         ))
@@ -294,31 +317,32 @@ def detect_signals_for_series(series, history):
     # ── multi-year low ──
     yrs_since_lower = _years_since_match(history, current, lambda v, c: v < c)
     if yrs_since_lower is not None and yrs_since_lower >= HIGH_LOW_YEARS:
+        yrs = int(yrs_since_lower)
         signals.append(Signal(
-            series=series,
-            current=current,
-            history=history,
-            headline=f"{series.label} drops to {_format_value(current, series)}, "
-                     f"lowest in over {int(yrs_since_lower)} years",
+            series=series, current=current, history=history,
+            kind="low",
+            extreme_years=yrs_since_lower,
+            badge=f"{yrs}Y LOW",
+            headline=f"{series.short_label.capitalize()} just dropped to {cur_str} — lowest in {yrs}+ years",
             matters=series.matters_template,
             signal_id=f"{series.key}:low:{current_d.strftime('%Y-%m-%d')}",
         ))
 
     # ── big short-window move ──
-    cutoff = current_d - timedelta(days=BIG_MOVE_DAYS * 2)  # cushion for weekends
+    cutoff = current_d - timedelta(days=BIG_MOVE_DAYS * 2)
     earlier = [(d, v) for d, v in history if d <= cutoff]
     if earlier:
         prior = earlier[-1][1]
         if prior:
             pct = (current - prior) / prior * 100.0
             if abs(pct) >= BIG_MOVE_PCT:
-                direction = "surges" if pct > 0 else "drops"
+                verb = _move_verb(pct)
+                sign = "+" if pct > 0 else ""
                 signals.append(Signal(
-                    series=series,
-                    current=current,
-                    history=history,
-                    headline=f"{series.label} {direction} {abs(pct):.1f}% "
-                             f"in {BIG_MOVE_DAYS} sessions to {_format_value(current, series)}",
+                    series=series, current=current, history=history,
+                    kind="move_up" if pct > 0 else "move_down",
+                    badge=f"{sign}{pct:.1f}%",
+                    headline=f"{series.short_label.capitalize()} {verb} {abs(pct):.1f}% in {BIG_MOVE_DAYS} sessions to {cur_str}",
                     matters=series.matters_template,
                     signal_id=f"{series.key}:move:{current_d.strftime('%Y-%m-%d')}",
                 ))
@@ -402,21 +426,22 @@ def render_chart(signal):
     fig.patch.set_facecolor(BRAND_BG)
     ax.set_facecolor(BRAND_BG)
 
-    is_drop = "drops" in signal.headline.lower() or "lowest" in signal.headline.lower()
-    line_color = BRAND_RED if is_drop else BRAND_GREEN
+    is_bearish = signal.kind in ("low", "move_down")
+    line_color = BRAND_RED if is_bearish else BRAND_GREEN
 
-    ax.plot(dates, values, color=line_color, linewidth=2.0)
-    ax.fill_between(dates, values, min(values), color=line_color, alpha=0.08)
+    ax.plot(dates, values, color=line_color, linewidth=2.2)
+    ax.fill_between(dates, values, min(values), color=line_color, alpha=0.10)
 
-    # Highlight current value
-    ax.scatter([dates[-1]], [values[-1]], color=line_color, s=80, zorder=5,
-               edgecolors=BRAND_BG, linewidths=2)
+    # Highlight current value with a marker + label
+    ax.scatter([dates[-1]], [values[-1]], color=line_color, s=120, zorder=5,
+               edgecolors=BRAND_BG, linewidths=2.5)
     ax.annotate(_format_value(values[-1], signal.series),
                 xy=(dates[-1], values[-1]),
-                xytext=(8, 0), textcoords="offset points",
-                color=line_color, fontsize=14, fontweight="bold",
+                xytext=(10, 0), textcoords="offset points",
+                color=line_color, fontsize=15, fontweight="bold",
                 va="center")
 
+    # Axes / grid styling
     ax.spines["top"].set_visible(False)
     ax.spines["right"].set_visible(False)
     ax.spines["bottom"].set_color(BRAND_DIM)
@@ -426,20 +451,37 @@ def render_chart(signal):
     ax.xaxis.set_major_locator(mdates.YearLocator(2))
     ax.xaxis.set_major_formatter(mdates.DateFormatter("%Y"))
 
-    ax.set_title(signal.series.label, color=BRAND_FG, fontsize=18,
-                 fontweight="bold", loc="left", pad=20)
-    fig.text(0.99, 0.97, "HOWL STREET",
-             ha="right", va="top", color=BRAND_GREEN,
-             fontsize=14, fontweight="bold",
-             family="monospace")
-    fig.text(0.99, 0.94, signal.series.source,
-             ha="right", va="top", color=BRAND_DIM, fontsize=9,
-             family="monospace")
-    fig.text(0.01, 0.01, "howlstreet.github.io · The Real Wolves of Wall Street",
-             ha="left", va="bottom", color=BRAND_DIM, fontsize=9,
+    # Big title (full label) + small kicker (short label) for context
+    ax.set_title(signal.series.label, color=BRAND_FG, fontsize=20,
+                 fontweight="bold", loc="left", pad=24)
+
+    # Big BADGE overlay top-right (e.g. "+19.5%" or "8Y HIGH")
+    if signal.badge:
+        badge_color = BRAND_RED if is_bearish else BRAND_GREEN
+        fig.text(0.985, 0.93, signal.badge,
+                 ha="right", va="top",
+                 color="#000", fontsize=24, fontweight="bold",
+                 family="monospace",
+                 bbox=dict(boxstyle="round,pad=0.5", facecolor=badge_color,
+                           edgecolor="none"))
+
+    # HOWL STREET handle, top-left under title area, prominent
+    fig.text(0.01, 0.965, "HOWL STREET",
+             ha="left", va="top", color=BRAND_GREEN,
+             fontsize=15, fontweight="bold", family="monospace")
+    fig.text(0.01, 0.93, "@HowlStreet · Your Wolf of Wall Street",
+             ha="left", va="top", color=BRAND_DIM, fontsize=10,
              family="monospace")
 
-    plt.tight_layout(rect=(0.01, 0.04, 0.99, 0.94))
+    # Source attribution + site URL bottom strip
+    fig.text(0.99, 0.02, signal.series.source,
+             ha="right", va="bottom", color=BRAND_DIM, fontsize=10,
+             family="monospace")
+    fig.text(0.01, 0.02, "howlstreet.github.io",
+             ha="left", va="bottom", color=BRAND_DIM, fontsize=10,
+             family="monospace")
+
+    plt.tight_layout(rect=(0.01, 0.05, 0.99, 0.91))
     plt.savefig(out_path, facecolor=BRAND_BG, dpi=100, bbox_inches="tight")
     plt.close(fig)
     return str(out_path.relative_to(REPO_ROOT))
@@ -511,6 +553,9 @@ def collect_signal_posts():
             "signal_id": sig.signal_id,
             "current_str": _format_value(sig.current, sig.series),
             "label": sig.series.label,
+            "hashtags": sig.series.hashtags,
+            "kind": sig.kind,
+            "badge": sig.badge,
             "fired_at": now_iso,
         }
 

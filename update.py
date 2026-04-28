@@ -1825,7 +1825,8 @@ def write_queue_html(items, hero_item=None, signal_posts=None):
     # ── Phase 2: macro signal cards ──
     # Show first (above wire) so the most newsworthy original signal is the
     # first thing a poster sees when they open the queue. Each signal card
-    # has a branded chart image attached and its own tweet template.
+    # has a branded chart image attached and its own tweet template with
+    # signal-specific hashtags (#Oil for WTI, #Bitcoin for BTC, etc.).
     site_url_for_signals = "howlstreet.github.io"
     for sp in (signal_posts or []):
         sig_id = sp["signal_id"]
@@ -1833,17 +1834,20 @@ def write_queue_html(items, hero_item=None, signal_posts=None):
         headline = sp["headline"]
         matters = sp["matters"]
         source = sp["source"]
-        # Tweet text: headline + why it matters + site link + hashtags.
-        # X auto-shortens the URL to 23 chars, so total counted length ~=
-        # len(headline) + 2 + len(matters) + 2 + 23 + 1 + len(HASHTAGS).
-        signal_tweet = f"{headline}\n\n{matters}\n\n{site_url_for_signals} {HASHTAGS}"
-        signal_counted = len(headline) + 2 + len(matters) + 2 + URL_LEN + 1 + HASHTAGS_LEN
+        # Per-signal hashtags (preferred), with #HowlStreet as the brand anchor
+        sig_tags = sp.get("hashtags") or "#Markets"
+        sig_hashtags = f"#HowlStreet {sig_tags}"
+        sig_hashtags_len = len(sig_hashtags)
+
+        # Tweet text: headline + why it matters + site link + signal-specific tags.
+        signal_tweet = f"{headline}\n\n{matters}\n\n{site_url_for_signals} {sig_hashtags}"
+        signal_counted = len(headline) + 2 + len(matters) + 2 + URL_LEN + 1 + sig_hashtags_len
         if signal_counted > MAX:
             # Trim 'matters' to fit budget while keeping the headline whole.
-            budget = MAX - (len(headline) + 2 + 2 + URL_LEN + 1 + HASHTAGS_LEN)
+            budget = MAX - (len(headline) + 2 + 2 + URL_LEN + 1 + sig_hashtags_len)
             matters_trim = _smart_truncate(matters, budget) if budget > 50 else ""
-            signal_tweet = f"{headline}\n\n{matters_trim}\n\n{site_url_for_signals} {HASHTAGS}".strip()
-            signal_counted = len(headline) + 2 + len(matters_trim) + 2 + URL_LEN + 1 + HASHTAGS_LEN
+            signal_tweet = f"{headline}\n\n{matters_trim}\n\n{site_url_for_signals} {sig_hashtags}".strip()
+            signal_counted = len(headline) + 2 + len(matters_trim) + 2 + URL_LEN + 1 + sig_hashtags_len
 
         intent_url = "https://twitter.com/intent/tweet?text=" + urllib.parse.quote(signal_tweet, safe="")
         sig_dom_id = re.sub(r"[^A-Za-z0-9_-]", "_", sig_id)
