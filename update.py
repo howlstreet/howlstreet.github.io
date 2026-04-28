@@ -1791,9 +1791,16 @@ _CONTINUE_READING_RE = re.compile(
     r"\s*[\.\-—|·:]?\s*"
     r"(?:continue\s+reading|read\s+(?:more|the\s+full\s+(?:story|article|piece)|on)"
     r"|click\s+here(?:\s+to\s+(?:read|continue|learn))?"
-    r"|see\s+more|view\s+(?:more|original)|the\s+post\s+\w+\s+appeared"
+    r"|see\s+more|view\s+(?:more|original)"
     r"|appeared\s+first\s+on|originally\s+published|via\s+\w+)"
     r"[^.!?]*\.?\s*$",
+    re.IGNORECASE,
+)
+# WordPress feed boilerplate: "The post {headline} appeared first on Site."
+# Strip the entire clause as one unit, otherwise we leave a dangling
+# "The post {headline}" sentence with no end.
+_WP_BOILERPLATE_RE = re.compile(
+    r"\s*[\.!?]?\s*The\s+post\s+[^.!?]{1,300}\bappeared\s+first\s+on\b[^.!?]*\.?\s*$",
     re.IGNORECASE,
 )
 
@@ -1809,13 +1816,15 @@ def _strip_trailing_ellipsis(text):
 
 def _strip_continue_reading(text):
     """Strip 'continue reading' / 'read more' style tails that RSS feeds
-    and og:descriptions tack on. Also strips 'appeared first on Source'
-    boilerplate."""
+    and og:descriptions tack on. Also strips WordPress 'The post X
+    appeared first on Y' boilerplate as a whole clause so we don't leave
+    a dangling 'The post X' sentence."""
     if not text:
         return text
+    # WordPress boilerplate first (matches the whole clause).
+    out = _WP_BOILERPLATE_RE.sub("", text).rstrip()
     prev = None
-    out = text
-    # Apply repeatedly in case multiple CTAs are stacked.
+    # Then iterate continue-reading / read-more / etc. CTAs in case stacked.
     while out != prev:
         prev = out
         out = _CONTINUE_READING_RE.sub("", out).rstrip()
