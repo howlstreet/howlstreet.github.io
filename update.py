@@ -121,13 +121,113 @@ TICKER_BAR = [
 ]
 
 RSS_FEEDS = [
-    ("CNBC",        "https://www.cnbc.com/id/10001147/device/rss/rss.html"),
-    ("FED",         "https://www.federalreserve.gov/feeds/press_all.xml"),
-    ("TREASURY",    "https://home.treasury.gov/news/press-releases/feed"),
-    ("BBC",         "https://feeds.bbci.co.uk/news/business/rss.xml"),
-    ("MARKETWATCH", "https://feeds.content.dowjones.io/public/rss/mw_topstories"),
-    ("BLOOMBERG",   "https://news.google.com/rss/search?q=site%3Abloomberg.com+markets&hl=en-US&gl=US&ceid=US%3Aen"),
+    # Official institutions — highest signal, primary sources
+    ("FED",          "https://www.federalreserve.gov/feeds/press_all.xml"),
+    ("TREASURY",     "https://home.treasury.gov/news/press-releases/feed"),
+    ("BIS",          "https://www.bis.org/rss/home.rss"),
+    ("IMF",          "https://www.imf.org/en/News/RSS?Language=ENG"),
+    # Major global wires
+    ("REUTERS",      "https://news.google.com/rss/search?q=site%3Areuters.com+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen"),
+    ("AP",           "https://news.google.com/rss/search?q=site%3Aapnews.com+business+OR+economy+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen"),
+    ("BLOOMBERG",    "https://news.google.com/rss/search?q=site%3Abloomberg.com+markets+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen"),
+    ("WSJ",          "https://feeds.a.dj.com/rss/RSSMarketsMain.xml"),
+    # Major regional / international outlets — diverse framings
+    ("BBC",          "https://feeds.bbci.co.uk/news/business/rss.xml"),
+    ("GUARDIAN",     "https://www.theguardian.com/business/rss"),
+    ("AL JAZEERA",   "https://www.aljazeera.com/xml/rss/all.xml"),
+    ("NIKKEI",       "https://news.google.com/rss/search?q=site%3Aasia.nikkei.com+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen"),
+    ("DW",           "https://rss.dw.com/rdf/rss-en-bus"),
+    ("SCMP",         "https://news.google.com/rss/search?q=site%3Ascmp.com+business+OR+economy+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen"),
+    # Right-leaning business / contrarian — for spectrum balance
+    ("FOX BUSINESS", "https://moxie.foxbusiness.com/google-publisher/markets.xml"),
+    ("NY POST",      "https://nypost.com/business/feed/"),
+    ("ZEROHEDGE",    "https://www.zerohedge.com/fullrss.xml"),
+    # Specialized — gold / energy / FX matter for the macro themes
+    ("KITCO",        "https://www.kitco.com/rss/KitcoNews.xml"),
+    ("OILPRICE",     "https://oilprice.com/rss/main"),
+    # Center / left for balance
+    ("NPR",          "https://feeds.npr.org/1006/rss.xml"),
+    # US retail — noisy but sometimes useful
+    ("CNBC",         "https://www.cnbc.com/id/10001147/device/rss/rss.html"),
+    ("MARKETWATCH",  "https://feeds.content.dowjones.io/public/rss/mw_topstories"),
 ]
+
+# Used by the auto Loudest Howl picker. Weighted by signal quality (institutional
+# credibility + reporting depth), NOT by political slant. Diverse perspectives are
+# included on purpose — the picker rewards substance, the wire panel shows breadth.
+SOURCE_WEIGHT = {
+    # Official primary sources
+    "FED":          6, "TREASURY":     6, "BIS":          6, "IMF":          6,
+    # Major global wires
+    "REUTERS":      5, "AP":           5, "BLOOMBERG":    5, "WSJ":          5,
+    # Major regional / international
+    "BBC":          4, "GUARDIAN":     4, "AL JAZEERA":   4, "NIKKEI":       4,
+    "DW":           3, "SCMP":         3,
+    # Spectrum balance — right-leaning business / contrarian
+    "FOX BUSINESS": 3, "NY POST":      2, "ZEROHEDGE":    2,
+    # Specialized commodity / energy
+    "KITCO":        3, "OILPRICE":     3,
+    # Center / left
+    "NPR":          3,
+    # US retail (kept for variety in the wire panel; rarely wins Loudest Howl)
+    "CNBC":         1, "MARKETWATCH":  1,
+}
+
+# Keyword score boosts (lowercase, substring match against title).
+# Heavily weights hard-data releases, central bank action, real-world events with
+# financial impact, and macro/monetary-system shifts.
+KEYWORD_BOOSTS = {
+    # Central banks / rate decisions
+    "fomc": 5, "fed ": 3, "powell": 3, "ecb": 4, "lagarde": 3, "boj": 4, "ueda": 3,
+    "boe": 3, "pboc": 4, "rba": 3, "snb": 2, "rate cut": 4, "rate hike": 4,
+    "rate decision": 4, "interest rate": 3, "monetary policy": 3, "qe": 2, "qt": 2,
+    # Hard-data releases
+    "cpi": 4, "ppi": 3, "pce": 4, "core inflation": 3, "inflation": 2,
+    "gdp": 3, "jobs report": 4, "nonfarm": 3, "payrolls": 4, "unemployment": 3,
+    "retail sales": 2, "ism": 2, "pmi": 2, "consumer confidence": 2,
+    # Trade / sanctions / geopolitics with market impact
+    "tariff": 4, "sanction": 3, "embargo": 3, "trade war": 4, "export control": 3,
+    "war": 3, "invasion": 3, "ceasefire": 2, "missile": 2, "strike": 2,
+    # Specific shipping / energy chokepoints
+    "strait of hormuz": 5, "hormuz": 4, "red sea": 4, "houthi": 4, "suez": 3,
+    "panama canal": 3, "shipping": 1,
+    # Energy / commodities
+    "opec": 4, "opec+": 4, "saudi": 2, "crude": 2, "natural gas": 2, "lng": 2,
+    "oil price": 3, "gas price": 2,
+    # Crisis / systemic
+    "crisis": 3, "default": 4, "bailout": 4, "downgrade": 3, "credit rating": 3,
+    "bank failure": 4, "liquidity": 2, "contagion": 3, "systemic": 3,
+    # Monetary-system shifts (CBDCs, de-dollarization, reserve regime)
+    "cbdc": 5, "central bank digital": 5, "digital dollar": 5, "digital euro": 4,
+    "digital yuan": 4, "e-cny": 4, "digital pound": 3,
+    "brics": 4, "de-dollarization": 5, "dedollarization": 5, "petroyuan": 4,
+    "reserve currency": 4, "dollar hegemony": 4, "dollar dominance": 3,
+    "imf": 3, "sdr": 4, "special drawing rights": 5, "world bank": 2, "bis ": 3,
+    "mbridge": 5, "swift alternative": 4, "cross-border payment": 4,
+    "wef": 3, "davos": 3, "g7": 2, "g20": 2,
+    # Digital-ID / surveillance-finance intersection
+    "digital id": 4, "digital identity": 4, "biometric": 2, "social credit": 3,
+    # Corporate / M&A
+    "earnings": 1, "guidance": 1, "ipo": 2, "merger": 2, "acquisition": 2,
+    "buyout": 2, "lbo": 2, "spinoff": 2, "bankruptcy": 3,
+    # Regions
+    "china": 1, "russia": 2, "ukraine": 2, "iran": 3, "israel": 2, "gaza": 2,
+    "taiwan": 2, "north korea": 2, "venezuela": 1, "argentina": 1,
+    # Magnitude / movement
+    "trillion": 2, "billion": 1, "record high": 2, "record low": 2, "all-time": 2,
+    "selloff": 2, "crash": 3, "rout": 2,
+}
+
+# Penalize click-bait + pundit content + speculation framing
+KEYWORD_PENALTIES = {
+    "stocks to buy": -5, "stocks to watch": -4, "watchlist": -4, "best stocks": -4,
+    "what to know": -4, "things to know": -4, "what to watch": -3,
+    "wall street loves": -4, "10 things": -4, "5 things": -4, "3 things": -3,
+    "here's what": -2, "here's why": -2,
+    "cramer": -3, "jim cramer": -3,
+    "could": -1, "might": -1,  # mild speculation penalty
+    "should you": -3, "is it time": -3,
+}
 
 # ----------------------------------------------------------------------------
 # DATA FETCH
@@ -328,8 +428,137 @@ def build_market_sessions():
     return "\n      ".join(parts)
 
 
-def build_hero():
-    """Read hero.md and render the hero <section>. Empty string if missing or empty.
+def _clean_title(title, source):
+    """Strip ' - SourceName' / ' | SourceName' / ' — SourceName' suffixes that
+    Google News appends, and decode HTML entities."""
+    title = html.unescape(title).strip()
+    # Common suffix patterns
+    for sep in (" - ", " — ", " | "):
+        idx = title.rfind(sep)
+        if idx > 0 and idx >= len(title) - 60:
+            tail = title[idx + len(sep):].strip()
+            # If the tail looks like a publisher/byline (short-ish, mostly letters), strip it
+            if 0 < len(tail) <= 40 and re.match(r"^[A-Za-z0-9 .&'\-]+$", tail):
+                title = title[:idx].strip()
+                break
+    return title
+
+
+def _clean_summary(raw):
+    """Decode entities, strip HTML tags, collapse whitespace."""
+    text = html.unescape(raw or "")
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+
+def fetch_all_headlines():
+    """Fetch every RSS feed once and return a flat list of items.
+    Each item: {source, title, summary, link, ts (NY tz)}."""
+    items = []
+    epoch_min = datetime(2000, 1, 1, tzinfo=NY)  # sentinel for items missing a timestamp
+    for source, url in RSS_FEEDS:
+        try:
+            feed = feedparser.parse(url)
+            for entry in feed.entries[:6]:  # pull more so the picker has options
+                title = _clean_title(entry.get("title") or "", source)
+                if not title:
+                    continue
+                summary = _clean_summary(entry.get("summary") or "")
+                published = entry.get("published_parsed") or entry.get("updated_parsed")
+                if published:
+                    ts = datetime(*published[:6], tzinfo=timezone.utc).astimezone(NY)
+                else:
+                    ts = epoch_min
+                items.append({
+                    "source": source,
+                    "title": title,
+                    "summary": summary,
+                    "link": entry.get("link", "#"),
+                    "ts": ts,
+                })
+        except Exception as e:
+            print(f"  ! RSS {source}: {e}", file=sys.stderr)
+    return items
+
+
+def score_item(item):
+    """Score a wire item for Loudest Howl candidacy. Higher = more newsworthy."""
+    score = SOURCE_WEIGHT.get(item["source"], 1)
+
+    # Recency — lose 1 point per hour, capped at -12
+    now = datetime.now(NY)
+    age_hours = max(0, (now - item["ts"]).total_seconds() / 3600)
+    score -= min(age_hours, 12)
+
+    title_lower = item["title"].lower()
+    for kw, bonus in KEYWORD_BOOSTS.items():
+        if kw in title_lower:
+            score += bonus
+    for phrase, penalty in KEYWORD_PENALTIES.items():
+        if phrase in title_lower:
+            score += penalty
+
+    return score
+
+
+# Minimum score for an auto-picked Loudest Howl. Below this, hero stays hidden.
+HERO_MIN_SCORE = 4.0
+
+
+def build_hero_auto(items):
+    """Pick the highest-scoring recent item and render it as hero.
+    Returns empty string if nothing clears the quality threshold."""
+    if not items:
+        return ""
+
+    now = datetime.now(NY)
+    # Limit to last 24h; if nothing recent, don't promote anything
+    recent = [i for i in items if (now - i["ts"]).total_seconds() < 24 * 3600]
+    if not recent:
+        return ""
+
+    scored = sorted(((score_item(i), i) for i in recent), key=lambda x: x[0], reverse=True)
+    top_score, top = scored[0]
+    if top_score < HERO_MIN_SCORE:
+        return ""
+
+    # Summary already cleaned in fetch_all_headlines. Strip the source name
+    # if Google News duplicated it at the end.
+    summary_text = top["summary"]
+    src_lower = top["source"].lower()
+    while summary_text.lower().endswith(src_lower):
+        summary_text = summary_text[: -len(src_lower)].rstrip(" ,.;:|—-")
+    if len(summary_text) > 320:
+        summary_text = summary_text[:317].rstrip(" ,.;:") + "…"
+    # If the summary is just the title repeated (common with Google News),
+    # drop it — better to show no body than redundant text.
+    if summary_text.strip().lower() == top["title"].strip().lower():
+        summary_text = ""
+
+    label = (
+        "LOUDEST HOWL · "
+        + top["source"]
+        + " · "
+        + top["ts"].strftime("%b %d %H:%M ")
+        + top["ts"].tzname()
+    )
+
+    body_tag = f'  <p class="hero-body">{html.escape(summary_text)}</p>\n' if summary_text else ""
+
+    return (
+        f'<a class="hero-link" href="{html.escape(top["link"])}" target="_blank" rel="noopener">\n'
+        '<section class="hero">\n'
+        f'  <div class="hero-label">▸ {html.escape(label)} <span class="hero-arrow">↗</span></div>\n'
+        f'  <h2 class="hero-headline">{html.escape(top["title"])}</h2>\n'
+        f'{body_tag}'
+        '</section>\n'
+        '</a>'
+    )
+
+
+def build_hero_from_md():
+    """Read hero.md and render the hero <section>. Empty string if missing or has no headline.
 
     Format:
         LABEL: LOUDEST HOWL          (optional — auto-generated if missing)
@@ -401,37 +630,31 @@ def build_hero():
     )
 
 
-def build_headlines():
-    items = []
-    for source, url in RSS_FEEDS:
-        try:
-            feed = feedparser.parse(url)
-            for entry in feed.entries[:2]:
-                title = entry.get("title", "").strip()
-                published = entry.get("published_parsed") or entry.get("updated_parsed")
-                if published:
-                    # feedparser gives UTC struct_time — convert to NY for display
-                    ts_utc = datetime(*published[:6], tzinfo=timezone.utc)
-                    ts = ts_utc.astimezone(NY)
-                    time_str = ts.strftime("%b %d %H:%M")
-                else:
-                    ts = datetime.min.replace(tzinfo=timezone.utc).astimezone(NY)
-                    time_str = ""
-                if title:
-                    items.append((ts, source, time_str, title, entry.get("link", "#")))
-        except Exception as e:
-            print(f"  ! RSS {source}: {e}", file=sys.stderr)
+def build_headlines_from_items(items, exclude_link=None, max_per_source=2, total=10):
+    """Render the wire panel from already-fetched items, sorted recency-first.
+    Caps each source so one busy outlet can't dominate the list.
+    Skips the item with link == exclude_link so the hero doesn't double up."""
+    pool = [i for i in items if i["link"] != exclude_link] if exclude_link else list(items)
+    pool.sort(key=lambda x: x["ts"], reverse=True)
 
-    items.sort(key=lambda x: x[0], reverse=True)
-    items = items[:8]
+    selected = []
+    per_source_count = {}
+    for item in pool:
+        if per_source_count.get(item["source"], 0) >= max_per_source:
+            continue
+        selected.append(item)
+        per_source_count[item["source"]] = per_source_count.get(item["source"], 0) + 1
+        if len(selected) >= total:
+            break
 
     html_parts = []
-    for _, source, time_str, title, link in items:
+    for item in selected:
+        time_str = item["ts"].strftime("%b %d %H:%M") if item["ts"].year > 2001 else ""
         html_parts.append(
-            f'<a href="{html.escape(link)}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">'
+            f'<a href="{html.escape(item["link"])}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">'
             f'<div class="headline">'
-            f'<div class="headline-meta"><span class="source-tag">{html.escape(source)}</span><span>{html.escape(time_str)}</span></div>'
-            f'<div class="headline-text">{html.escape(title)}</div>'
+            f'<div class="headline-meta"><span class="source-tag">{html.escape(item["source"])}</span><span>{html.escape(time_str)}</span></div>'
+            f'<div class="headline-text">{html.escape(item["title"])}</div>'
             f'</div></a>'
         )
     return "\n".join(html_parts) if html_parts else '<div class="headline"><div class="headline-text" style="color:var(--text-dim)">Headlines unavailable.</div></div>'
@@ -511,16 +734,31 @@ def main():
     ticker_items = [build_ticker_item(lbl, sym) for lbl, sym in TICKER_BAR]
     ticker_html = "\n".join(t for t in ticker_items if t)
 
-    print("  Headlines...")
-    headlines_html = build_headlines()
+    print("  Wires (all feeds)...")
+    all_items = fetch_all_headlines()
+    print(f"    fetched {len(all_items)} items from {len(RSS_FEEDS)} sources")
 
     print("  Market sessions...")
     sessions_html = build_market_sessions()
 
-    print("  Hero...")
-    hero_html = build_hero()
-    if not hero_html:
-        print("    (no hero.md — section hidden)")
+    print("  Hero (Loudest Howl)...")
+    hero_html = build_hero_from_md()
+    hero_link = None
+    if hero_html:
+        print("    (manual override from hero.md)")
+    else:
+        hero_html = build_hero_auto(all_items)
+        if hero_html:
+            # extract link to dedupe from wire panel
+            m = re.search(r'class="hero-link"\s+href="([^"]+)"', hero_html)
+            if m:
+                hero_link = html.unescape(m.group(1))
+            print(f"    (auto-picked from wires)")
+        else:
+            print("    (nothing cleared the quality threshold — hero hidden)")
+
+    print("  Wire panel...")
+    headlines_html = build_headlines_from_items(all_items, exclude_link=hero_link)
 
     # Timestamp — actual NY tz so DST is handled (EST winter / EDT summer)
     now_ny = datetime.now(NY)

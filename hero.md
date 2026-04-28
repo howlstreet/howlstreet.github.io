@@ -1,5 +1,14 @@
-LABEL: LOUDEST HOWL
-LINK:  https://github.com/howlstreet/howlstreet.github.io
-# HOWL STREET goes live with auto-updating market data
-
-The pack now reads live market data from yfinance, headlines from a half-dozen wires, and rebuilds itself on a cron. Edit `hero.md` in the repo to change this story — next workflow run picks it up. Add a `LINK:` line to make the whole block clickable; use `*asterisks*` for *emphasis*. Delete or empty the file to hide the section.
+[ This file controls the Loudest Howl hero block.                       ]
+[                                                                       ]
+[ AUTO MODE (default): leave this file as-is and the top story is       ]
+[   auto-selected from incoming wires using a quality-weighted rubric.  ]
+[                                                                       ]
+[ MANUAL OVERRIDE: replace this entire file with the format below to    ]
+[ pin a specific story. Manual mode wins whenever a "#" headline is     ]
+[ present.                                                              ]
+[                                                                       ]
+[   LABEL: LOUDEST HOWL                                                 ]
+[   LINK:  https://example.com/your-story                               ]
+[   # Your headline here                                                ]
+[                                                                       ]
+[   Body paragraph. Use *asterisks* for *emphasis*.                     ]
