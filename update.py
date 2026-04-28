@@ -345,6 +345,12 @@ RSS_FEEDS = [
     ("BEINCRYPTO",     "https://beincrypto.com/feed/"),
     ("THE DEFIANT",    "https://thedefiant.io/feed/"),
     ("CRYPTO BRIEFING","https://cryptobriefing.com/feed/"),
+
+    # ── Investigative / corruption watchdog (the populist-wolf angle) ──
+    ("PROPUBLICA",     "https://www.propublica.org/feeds/propublica/main"),
+    ("WALL ST PARADE", "https://wallstreetonparade.com/feed/"),
+    ("NAKED CAPITAL",  "https://www.nakedcapitalism.com/feed"),
+    ("INTERCEPT",      "https://theintercept.com/feed/?lang=en"),
 ]
 
 # Used by the auto Loudest Howl picker. Weighted by signal quality (institutional
@@ -410,6 +416,8 @@ SOURCE_WEIGHT = {
     "CRYPTOSLATE":   2, "BEINCRYPTO":   2, "THE DEFIANT":  3, "CRYPTO BRIEFING": 2,
     # Phase 1: Congressional trades from Senate/House Stock Watcher (primary STOCK Act data)
     "CONGRESS":      6,
+    # Investigative / corruption watchdog (the populist-wolf angle)
+    "PROPUBLICA":    5, "WALL ST PARADE": 4, "NAKED CAPITAL": 3, "INTERCEPT":    3,
 }
 
 # Keyword score boosts (lowercase, substring match against title).
@@ -918,9 +926,55 @@ def _fetch_one_feed(source_url):
     return out
 
 
+_TRENDS_CACHE = {"set": None, "fetched_at": None}
+
+
+def fetch_trending_topics():
+    """Scrape current X (Twitter) trending topics from trends24.in (US).
+    Returns a set of normalized lowercase tokens. Defensive — any HTTP or
+    parse failure returns an empty set so the rest of the pipeline keeps
+    working. Cached for the lifetime of the python process so we don't
+    refetch within a single update run.
+
+    X's official trends API is locked behind their $5k/mo Pro tier;
+    trends24 publishes a free public mirror with ~30 min lag, which is
+    plenty fresh for our 30-min cron cadence."""
+    if _TRENDS_CACHE["set"] is not None:
+        return _TRENDS_CACHE["set"]
+    try:
+        req = urllib.request.Request(
+            "https://trends24.in/united-states/",
+            headers={
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+                "Accept": "text/html,application/xhtml+xml",
+            },
+        )
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            page = resp.read(400_000).decode("utf-8", errors="replace")
+    except Exception as e:
+        print(f"  ! trending topics fetch failed: {e}", file=sys.stderr)
+        _TRENDS_CACHE["set"] = set()
+        return _TRENDS_CACHE["set"]
+
+    raw = re.findall(
+        r'<a[^>]+href="https://twitter\.com/search\?q=[^"]*"[^>]*>([^<]+)</a>',
+        page,
+    )
+    out = set()
+    for t in raw[:60]:  # current-window trends, ignore older hourly snapshots
+        clean = t.strip().lstrip("#").lower()
+        if 3 <= len(clean) <= 40 and not clean.isdigit():
+            out.add(clean)
+    print(f"  trending now ({len(out)} topics): {', '.join(sorted(out)[:8])}…")
+    _TRENDS_CACHE["set"] = out
+    return out
+
+
 def fetch_all_headlines():
     """Fetch every RSS feed in parallel and return a flat list of items.
     Each item: {source, title, summary, link, ts (NY tz)}."""
+    # Pre-fetch X trends so they're available to score_item during ranking.
+    fetch_trending_topics()
     items = []
     with ThreadPoolExecutor(max_workers=20) as ex:
         for chunk in ex.map(_fetch_one_feed, RSS_FEEDS):
@@ -1062,6 +1116,18 @@ def score_item(item):
     for phrase, penalty in KEYWORD_PENALTIES.items():
         if _kw_match(title_lower, phrase):
             score += penalty
+
+    # X-trends boost: if the title contains a topic that's currently trending
+    # on X, bump the score so timely takes rise to the top. Only applied to
+    # items that already passed the finance-relevance gate, so we never push
+    # off-topic political trends — only the financial-angle stories on a
+    # trending topic (e.g., when "OPEC" trends, oil stories rise).
+    trends = _TRENDS_CACHE.get("set")
+    if trends:
+        for trend in trends:
+            if trend and _kw_match(title_lower, trend):
+                score += 3
+                break
 
     return score
 
