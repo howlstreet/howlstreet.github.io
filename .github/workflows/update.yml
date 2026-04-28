@@ -1,0 +1,44 @@
+name: Update Howl Street
+
+on:
+  schedule:
+    # Every 30 min during US market hours (M-F, ~9am-5pm ET = 13:00-21:00 UTC)
+    - cron: '*/30 13-21 * * 1-5'
+    # Hourly outside market hours / weekends so global markets + headlines stay fresh
+    - cron: '0 0-12,22-23 * * *'
+  workflow_dispatch:  # lets you trigger manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run updater
+        run: python update.py
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "howlstreet-bot"
+          git config user.email "bot@howlstreet.local"
+          git add index.html
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "auto: update $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

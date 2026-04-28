@@ -433,24 +433,7 @@
 
   <div class="ticker">
     <div class="ticker-track">
-      <span class="ticker-item"><span class="sym">SPX</span><span class="px">7,173.91</span><span class="up">+0.12%</span></span>
-<span class="ticker-item"><span class="sym">NDX</span><span class="px">27,305.68</span><span class="up">+0.01%</span></span>
-<span class="ticker-item"><span class="sym">DJIA</span><span class="px">49,167.79</span><span class="down">-0.13%</span></span>
-<span class="ticker-item"><span class="sym">RUT</span><span class="px">2,788.19</span><span class="up">+0.04%</span></span>
-<span class="ticker-item"><span class="sym">VIX</span><span class="px">18.02</span><span class="down">-3.69%</span></span>
-<span class="ticker-item"><span class="sym">US10Y</span><span class="px">0.434%</span><span class="up">+0.3bp</span></span>
-<span class="ticker-item"><span class="sym">US2Y</span><span class="px">0.359%</span><span class="down">-0.0bp</span></span>
-<span class="ticker-item"><span class="sym">DXY</span><span class="px">98.52</span><span class="up">+0.04%</span></span>
-<span class="ticker-item"><span class="sym">EURUSD</span><span class="px">1.17</span><span class="up">+0.09%</span></span>
-<span class="ticker-item"><span class="sym">USDJPY</span><span class="px">159.03</span><span class="down">-0.34%</span></span>
-<span class="ticker-item"><span class="sym">BTC</span><span class="px">76,882</span><span class="down">-0.63%</span></span>
-<span class="ticker-item"><span class="sym">ETH</span><span class="px">2,292</span><span class="down">-0.50%</span></span>
-<span class="ticker-item"><span class="sym">WTI</span><span class="px">97.70</span><span class="up">+1.38%</span></span>
-<span class="ticker-item"><span class="sym">BRENT</span><span class="px">102.78</span><span class="down">-5.04%</span></span>
-<span class="ticker-item"><span class="sym">GOLD</span><span class="px">4,681.90</span><span class="up">+0.14%</span></span>
-<span class="ticker-item"><span class="sym">SILVER</span><span class="px">74.50</span><span class="down">-0.67%</span></span>
-<span class="ticker-item"><span class="sym">COPPER</span><span class="px">6.07</span><span class="up">+0.94%</span></span>
-<span class="ticker-item"><span class="sym">NAT GAS</span><span class="px">2.72</span><span class="up">+6.63%</span></span>
+      {{TICKER_BAR}}
     </div>
   </div>
 </header>
@@ -476,11 +459,7 @@
         <tr><th>Index</th><th class="r">Last</th><th class="r">Chg</th><th class="r">%</th></tr>
       </thead>
       <tbody>
-        <tr><td class="sym-cell">S&amp;P 500</td><td class="r">7,173.91</td><td class="r up">+8.83</td><td class="r"><span class="pct-pill up">+0.12%</span></td></tr>
-<tr><td class="sym-cell">Nasdaq 100</td><td class="r">27,305.68</td><td class="r up">+2.01</td><td class="r"><span class="pct-pill up">+0.01%</span></td></tr>
-<tr><td class="sym-cell">Dow Jones</td><td class="r">49,167.79</td><td class="r down">-62.92</td><td class="r"><span class="pct-pill down">-0.13%</span></td></tr>
-<tr><td class="sym-cell">Russell 2000</td><td class="r">2,788.19</td><td class="r up">+1.19</td><td class="r"><span class="pct-pill up">+0.04%</span></td></tr>
-<tr><td class="sym-cell">VIX</td><td class="r">18.02</td><td class="r down">-0.690</td><td class="r"><span class="pct-pill down">-3.69%</span></td></tr>
+        {{US_EQUITIES}}
       </tbody>
     </table>
   </div>
@@ -496,12 +475,7 @@
         <tr><th>Index</th><th class="r">Last</th><th class="r">%</th></tr>
       </thead>
       <tbody>
-        <tr><td class="sym-cell">FTSE 100</td><td class="r">10,321.10</td><td class="r"><span class="pct-pill down">-0.56%</span></td></tr>
-<tr><td class="sym-cell">DAX</td><td class="r">24,083.53</td><td class="r"><span class="pct-pill down">-0.19%</span></td></tr>
-<tr><td class="sym-cell">CAC 40</td><td class="r">8,141.92</td><td class="r"><span class="pct-pill down">-0.19%</span></td></tr>
-<tr><td class="sym-cell">Nikkei 225</td><td class="r">59,974.40</td><td class="r"><span class="pct-pill down">-0.93%</span></td></tr>
-<tr><td class="sym-cell">Hang Seng</td><td class="r">25,751.97</td><td class="r"><span class="pct-pill down">-0.67%</span></td></tr>
-<tr><td class="sym-cell">Shanghai</td><td class="r">4,083.47</td><td class="r"><span class="pct-pill down">-0.07%</span></td></tr>
+        {{GLOBAL_INDICES}}
       </tbody>
     </table>
   </div>
@@ -517,10 +491,7 @@
         <tr><th>Tenor</th><th class="r">Yield</th><th class="r">Δ bp</th></tr>
       </thead>
       <tbody>
-        <tr><td class="sym-cell">US 2Y</td><td class="r">0.359%</td><td class="r down">-0.0</td></tr>
-<tr><td class="sym-cell">US 5Y</td><td class="r">0.395%</td><td class="r up">+0.3</td></tr>
-<tr><td class="sym-cell">US 10Y</td><td class="r">0.434%</td><td class="r up">+0.3</td></tr>
-<tr><td class="sym-cell">US 30Y</td><td class="r">0.494%</td><td class="r up">+0.3</td></tr>
+        {{TREASURIES}}
       </tbody>
     </table>
   </div>
@@ -531,10 +502,7 @@
       <div class="panel-title">Wire / Breaking</div>
       <div class="panel-meta">LAST 6 HOURS</div>
     </div>
-    <a href="https://www.cnbc.com/2026/04/28/general-motors-gm-earnings-q1-2026.html" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">CNBC</span><span>Apr 28 04:01</span></div><div class="headline-text">General Motors is set to report earnings before the bell. Here&#x27;s what Wall Street expects</div></div></a>
-<a href="https://www.cnbc.com/2026/04/27/lpa-drugs-from-novartis-amgen-and-eli-lilly-aim-to-prevent-heart-attacks.html" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">CNBC</span><span>Apr 27 19:28</span></div><div class="headline-text">Pharma bets a little-known form of cholesterol will underpin its next blockbuster heart drugs</div></div></a>
-<a href="https://www.federalreserve.gov/newsevents/pressreleases/orders20260424a.htm" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">FED</span><span>Apr 24 20:00</span></div><div class="headline-text">Federal Reserve Board announces approval of application by OceanFirst Financial Corp.</div></div></a>
-<a href="https://www.federalreserve.gov/newsevents/pressreleases/orders20260424b.htm" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">FED</span><span>Apr 24 20:00</span></div><div class="headline-text">Federal Reserve Board announces approval of application by Banco de Credito del Peru</div></div></a>
+    {{HEADLINES}}
   </div>
 
   <!-- FX -->
@@ -548,12 +516,7 @@
         <tr><th>Pair</th><th class="r">Last</th><th class="r">%</th></tr>
       </thead>
       <tbody>
-        <tr><td class="sym-cell">DXY</td><td class="r">98.52</td><td class="r"><span class="pct-pill up">+0.04%</span></td></tr>
-<tr><td class="sym-cell">EUR/USD</td><td class="r">1.1716</td><td class="r"><span class="pct-pill up">+0.09%</span></td></tr>
-<tr><td class="sym-cell">GBP/USD</td><td class="r">1.3531</td><td class="r"><span class="pct-pill up">+0.12%</span></td></tr>
-<tr><td class="sym-cell">USD/JPY</td><td class="r">159.03</td><td class="r"><span class="pct-pill down">-0.34%</span></td></tr>
-<tr><td class="sym-cell">USD/CNH</td><td class="r">6.8290</td><td class="r"><span class="pct-pill up">+0.08%</span></td></tr>
-<tr><td class="sym-cell">AUD/USD</td><td class="r">0.7188</td><td class="r"><span class="pct-pill up">+0.62%</span></td></tr>
+        {{FX}}
       </tbody>
     </table>
   </div>
@@ -569,12 +532,7 @@
         <tr><th>Contract</th><th class="r">Last</th><th class="r">%</th></tr>
       </thead>
       <tbody>
-        <tr><td class="sym-cell">WTI Crude</td><td class="r">97.70</td><td class="r"><span class="pct-pill up">+1.38%</span></td></tr>
-<tr><td class="sym-cell">Brent</td><td class="r">102.78</td><td class="r"><span class="pct-pill down">-5.04%</span></td></tr>
-<tr><td class="sym-cell">Nat Gas</td><td class="r">2.72</td><td class="r"><span class="pct-pill up">+6.63%</span></td></tr>
-<tr><td class="sym-cell">Gold</td><td class="r">4,681.90</td><td class="r"><span class="pct-pill up">+0.14%</span></td></tr>
-<tr><td class="sym-cell">Silver</td><td class="r">74.50</td><td class="r"><span class="pct-pill down">-0.67%</span></td></tr>
-<tr><td class="sym-cell">Copper</td><td class="r">6.07</td><td class="r"><span class="pct-pill up">+0.94%</span></td></tr>
+        {{COMMODITIES}}
       </tbody>
     </table>
   </div>
@@ -590,10 +548,7 @@
         <tr><th>Asset</th><th class="r">USD</th><th class="r">%</th></tr>
       </thead>
       <tbody>
-        <tr><td class="sym-cell">Bitcoin</td><td class="r">76,882</td><td class="r"><span class="pct-pill down">-0.63%</span></td></tr>
-<tr><td class="sym-cell">Ethereum</td><td class="r">2,291.82</td><td class="r"><span class="pct-pill down">-0.50%</span></td></tr>
-<tr><td class="sym-cell">Solana</td><td class="r">84.20</td><td class="r"><span class="pct-pill down">-0.74%</span></td></tr>
-<tr><td class="sym-cell">XRP</td><td class="r">1.39</td><td class="r"><span class="pct-pill down">-0.53%</span></td></tr>
+        {{CRYPTO}}
       </tbody>
     </table>
   </div>
@@ -665,7 +620,7 @@
 
 <footer class="footer-strip">
   <div>HOWL STREET · No BS Global Financial News</div>
-  <div>DATA: YFINANCE · FRED · RSS WIRES &nbsp;·&nbsp; UPDATED: <span style="color: var(--green);">Apr 27 23:14 EST</span></div>
+  <div>DATA: YFINANCE · FRED · RSS WIRES &nbsp;·&nbsp; UPDATED: <span style="color: var(--green);">{{TIMESTAMP}}</span></div>
 </footer>
 
 </body>
