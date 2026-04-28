@@ -1,1 +1,28 @@
-{}
+{
+  "GC=F:move:2026-04-28": {
+    "headline": "Gold drops 5.0% in 5 sessions to $4,613.30",
+    "matters": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
+    "source": "COMEX \u00b7 GC=F",
+    "chart_path": "charts/GC_F_move_2026-04-28.png",
+    "signal_id": "GC=F:move:2026-04-28",
+    "current_str": "$4,613.30",
+    "label": "Gold futures",
+    "hashtags": "#Gold #PreciousMetals #Commodities",
+    "kind": "move_down",
+    "badge": "-5.0%",
+    "fired_at": "2026-04-28T18:40:10.451163"
+  },
+  "CL=F:move:2026-04-28": {
+    "headline": "Wti crude rips 19.2% in 5 sessions to $99.97",
+    "matters": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "source": "NYMEX \u00b7 CL=F",
+    "chart_path": "charts/CL_F_move_2026-04-28.png",
+    "signal_id": "CL=F:move:2026-04-28",
+    "current_str": "$99.97",
+    "label": "WTI crude oil futures",
+    "hashtags": "#Oil #WTI #Energy #Commodities",
+    "kind": "move_up",
+    "badge": "+19.2%",
+    "fired_at": "2026-04-28T18:40:10.451163"
+  }
+}
