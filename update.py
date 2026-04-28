@@ -12,6 +12,7 @@ import json
 import re
 import time
 import urllib.request
+import urllib.parse
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone, date
 from pathlib import Path
@@ -33,6 +34,7 @@ OUTPUT_PATH = REPO_ROOT / "index.html"
 HERO_PATH = REPO_ROOT / "hero.md"
 SITEMAP_PATH = REPO_ROOT / "sitemap.xml"
 FEED_PATH = REPO_ROOT / "feed.xml"
+QUEUE_PATH = REPO_ROOT / "queue.html"
 SITE_URL = "https://howlstreet.github.io"
 
 NY = ZoneInfo("America/New_York")
@@ -1242,6 +1244,128 @@ def write_atom_feed(items, hero_item=None):
     FEED_PATH.write_text(content, encoding="utf-8")
 
 
+def write_queue_html(items, hero_item=None):
+    """Emit /queue.html — a hidden, noindex page listing the top 20 stories as
+    pre-built tweets ready to copy-paste or one-click open in X's compose window.
+
+    Not linked from the main site. Accessible only by direct URL. Disallowed in
+    robots.txt and tagged noindex,nofollow.
+    """
+    HASHTAGS = "#HowlStreet #GlobalMarkets"
+    # X auto-shortens URLs to 23 chars (t.co). 280 cap.
+    URL_LEN = 23
+    MAX = 280
+
+    pool = [i for i in items if is_financially_relevant(i)]
+    pool.sort(key=lambda x: x["ts"], reverse=True)
+
+    queue = []
+    seen_links = set()
+    if hero_item:
+        queue.append(("LOUDEST HOWL", hero_item))
+        seen_links.add(hero_item["link"])
+    for item in pool:
+        if item["link"] in seen_links:
+            continue
+        queue.append(("WIRE", item))
+        seen_links.add(item["link"])
+        if len(queue) >= 20:
+            break
+
+    cards = []
+    for i, (category, item) in enumerate(queue):
+        prefix = "[LOUDEST HOWL] " if category == "LOUDEST HOWL" else ""
+        title = item["title"]
+        link = item["link"]
+        # Char budget for title: MAX - prefix - title - " " - URL - " " - hashtags
+        fixed = len(prefix) + 1 + URL_LEN + 1 + len(HASHTAGS)
+        title_budget = MAX - fixed
+        if len(title) > title_budget:
+            title = title[: title_budget - 1].rstrip() + "…"
+        tweet = f"{prefix}{title} {link} {HASHTAGS}"
+        # On X the displayed/counted length uses the t.co URL length, not raw URL
+        counted_len = len(prefix) + len(title) + 1 + URL_LEN + 1 + len(HASHTAGS)
+
+        ts_str = item["ts"].astimezone(NY).strftime("%H:%M EDT · %b %d")
+        source_label = html.escape(item["source"])
+        intent_url = "https://twitter.com/intent/tweet?text=" + urllib.parse.quote(tweet, safe="")
+
+        badge_class = "badge-howl" if category == "LOUDEST HOWL" else "badge-wire"
+        badge_text = "LOUDEST HOWL" if category == "LOUDEST HOWL" else "WIRE"
+
+        cards.append(
+            f'<div class="card">'
+            f'  <div class="card-head">'
+            f'    <span class="badge {badge_class}">{badge_text}</span>'
+            f'    <span class="meta">{source_label} · {html.escape(ts_str)}</span>'
+            f'    <span class="counter">{counted_len}/280</span>'
+            f'  </div>'
+            f'  <textarea id="t{i}" readonly>{html.escape(tweet)}</textarea>'
+            f'  <div class="actions">'
+            f'    <a class="btn btn-x" href="{html.escape(intent_url, quote=True)}" target="_blank" rel="noopener">Open on X</a>'
+            f'    <button class="btn btn-copy" onclick="copyTweet({i}, this)">Copy</button>'
+            f'    <a class="btn btn-link" href="{html.escape(link, quote=True)}" target="_blank" rel="noopener">Article</a>'
+            f'  </div>'
+            f'</div>'
+        )
+
+    now_str = datetime.now(NY).strftime("%H:%M EDT · %b %d, %Y")
+
+    page = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Howl Street — Post Queue</title>
+<style>
+  :root {{ --green: #00ff88; --bg: #000; --fg: #ccc; --dim: #666; --card: #0a0a0a; --border: #1a1a1a; }}
+  * {{ box-sizing: border-box; }}
+  body {{ background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", monospace; margin: 0; padding: 24px; }}
+  .wrap {{ max-width: 720px; margin: 0 auto; }}
+  h1 {{ color: var(--green); font-size: 22px; margin: 0 0 4px; letter-spacing: 1px; }}
+  .sub {{ color: var(--dim); font-size: 12px; margin-bottom: 24px; }}
+  .card {{ background: var(--card); border: 1px solid var(--border); border-radius: 6px; padding: 14px; margin-bottom: 14px; }}
+  .card-head {{ display: flex; align-items: center; gap: 10px; font-size: 11px; margin-bottom: 8px; }}
+  .badge {{ padding: 2px 6px; border-radius: 3px; font-weight: bold; letter-spacing: 0.5px; font-size: 10px; }}
+  .badge-howl {{ background: var(--green); color: #000; }}
+  .badge-wire {{ background: #1a1a1a; color: var(--green); border: 1px solid var(--green); }}
+  .meta {{ color: var(--dim); flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }}
+  .counter {{ color: var(--dim); font-variant-numeric: tabular-nums; }}
+  textarea {{ width: 100%; min-height: 70px; background: #050505; color: var(--fg); border: 1px solid var(--border); border-radius: 4px; padding: 8px; font: 13px/1.4 -apple-system, monospace; resize: vertical; }}
+  .actions {{ display: flex; gap: 8px; margin-top: 8px; }}
+  .btn {{ font-size: 12px; padding: 6px 12px; border-radius: 4px; cursor: pointer; border: none; text-decoration: none; display: inline-block; font-weight: bold; letter-spacing: 0.5px; }}
+  .btn-x {{ background: var(--green); color: #000; }}
+  .btn-x:hover {{ filter: brightness(1.1); }}
+  .btn-copy {{ background: #1a1a1a; color: var(--fg); border: 1px solid var(--border); }}
+  .btn-copy:hover {{ border-color: var(--green); color: var(--green); }}
+  .btn-copy.copied {{ background: var(--green); color: #000; }}
+  .btn-link {{ background: transparent; color: var(--dim); border: 1px solid var(--border); }}
+  .btn-link:hover {{ color: var(--fg); }}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>HOWL STREET — POST QUEUE</h1>
+  <div class="sub">Generated {now_str} · Top 20 · Click "Open on X" to compose, or Copy and paste manually. Page is noindex; not linked from the public site.</div>
+  {chr(10).join(cards)}
+</div>
+<script>
+function copyTweet(i, btn) {{
+  const ta = document.getElementById('t' + i);
+  navigator.clipboard.writeText(ta.value).then(() => {{
+    btn.textContent = 'Copied';
+    btn.classList.add('copied');
+    setTimeout(() => {{ btn.textContent = 'Copy'; btn.classList.remove('copied'); }}, 1500);
+  }});
+}}
+</script>
+</body>
+</html>
+"""
+    QUEUE_PATH.write_text(page, encoding="utf-8")
+
+
 def write_sitemap():
     today = datetime.now(NY).strftime("%Y-%m-%d")
     content = (
@@ -1403,6 +1527,7 @@ def main():
     OUTPUT_PATH.write_text(output, encoding="utf-8")
     write_sitemap()
     write_atom_feed(all_items, hero_item=auto_hero_item)
+    write_queue_html(all_items, hero_item=auto_hero_item)
     print(f"  Wrote {OUTPUT_PATH} ({len(output):,} bytes)")
     print(f"  Wrote {FEED_PATH}")
     print(f"  Updated at {ts_str}")
