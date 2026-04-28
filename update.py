@@ -1244,17 +1244,36 @@ def write_atom_feed(items, hero_item=None):
     FEED_PATH.write_text(content, encoding="utf-8")
 
 
+def _is_substantive_summary(summary, title):
+    """True if the RSS summary adds info beyond the title (>= 80 chars and not
+    just the title with a tail). Used to decide whether to fetch og:description."""
+    if not summary or len(summary) < 80:
+        return False
+    s = summary.strip().lower()
+    t = title.strip().lower()
+    if s.startswith(t):
+        rest = s[len(t):].strip(" -—:.|·")
+        if len(rest) < 40:
+            return False
+    return True
+
+
 def write_queue_html(items, hero_item=None):
     """Emit /queue.html — a hidden, noindex page listing the top 20 stories as
     pre-built tweets ready to copy-paste or one-click open in X's compose window.
+
+    Each tweet is a real briefing: '{Howl of the Day: }{Title}. {1-2 sentence
+    summary}' followed by the URL + hashtags. Briefing comes from the RSS
+    summary when substantive, otherwise og:description fetched from the article.
 
     Not linked from the main site. Accessible only by direct URL. Disallowed in
     robots.txt and tagged noindex,nofollow.
     """
     HASHTAGS = "#HowlStreet #GlobalMarkets"
-    # X auto-shortens URLs to 23 chars (t.co). 280 cap.
-    URL_LEN = 23
+    HASHTAGS_LEN = len(HASHTAGS)  # 26
+    URL_LEN = 23  # X auto-shortens URLs to 23 (t.co)
     MAX = 280
+    TITLE_CAP = 110
 
     pool = [i for i in items if is_financially_relevant(i)]
     pool.sort(key=lambda x: x["ts"], reverse=True)
@@ -1262,7 +1281,7 @@ def write_queue_html(items, hero_item=None):
     queue = []
     seen_links = set()
     if hero_item:
-        queue.append(("LOUDEST HOWL", hero_item))
+        queue.append(("HOWL_OF_THE_DAY", hero_item))
         seen_links.add(hero_item["link"])
     for item in pool:
         if item["link"] in seen_links:
@@ -1272,26 +1291,77 @@ def write_queue_html(items, hero_item=None):
         if len(queue) >= 20:
             break
 
+    # Briefing per item: RSS summary if substantive, else fetch og:description.
+    briefings = {}
+    needs_fetch = []
+    for category, item in queue:
+        rss = _clean_summary(item.get("summary", ""))
+        if _is_substantive_summary(rss, item["title"]):
+            briefings[item["link"]] = rss
+        else:
+            needs_fetch.append(item["link"])
+
+    if needs_fetch:
+        print(f"  fetching og:description for {len(needs_fetch)} queue items...")
+        with ThreadPoolExecutor(max_workers=10) as ex:
+            results = list(ex.map(fetch_article_summary, needs_fetch))
+        for link, briefing in zip(needs_fetch, results):
+            if briefing and len(briefing) > 50:
+                briefings[link] = _clean_summary(briefing)
+
+    # Subtle Pack-themed leads sprinkled on every 4th wire post (rotating).
+    # Howl of the Day always stays "Howl of the Day:". Most wire posts get
+    # no prefix at all — keeps the feed feeling like real news, not a bot.
+    WIRE_LEADS = ["Pack alert: ", "From the Pack: ", "Tracked by the Pack: "]
+
     cards = []
+    wire_idx = 0
     for i, (category, item) in enumerate(queue):
-        prefix = "[LOUDEST HOWL] " if category == "LOUDEST HOWL" else ""
+        is_top = category == "HOWL_OF_THE_DAY"
+        if is_top:
+            prefix = "Howl of the Day: "
+        else:
+            if wire_idx % 4 == 0:
+                prefix = WIRE_LEADS[(wire_idx // 4) % len(WIRE_LEADS)]
+            else:
+                prefix = ""
+            wire_idx += 1
         title = item["title"]
         link = item["link"]
-        # Char budget for title: MAX - prefix - title - " " - URL - " " - hashtags
-        fixed = len(prefix) + 1 + URL_LEN + 1 + len(HASHTAGS)
-        title_budget = MAX - fixed
-        if len(title) > title_budget:
-            title = title[: title_budget - 1].rstrip() + "…"
-        tweet = f"{prefix}{title} {link} {HASHTAGS}"
-        # On X the displayed/counted length uses the t.co URL length, not raw URL
-        counted_len = len(prefix) + len(title) + 1 + URL_LEN + 1 + len(HASHTAGS)
+
+        if len(title) > TITLE_CAP:
+            title = title[: TITLE_CAP - 1].rstrip() + "…"
+
+        briefing = briefings.get(item["link"])
+
+        # Format: {prefix}{title}. {briefing}\n\n{url} {hashtags}
+        # Cost ledger: prefix + title + ". " + briefing + "\n\n" + URL + " " + hashtags
+        title_punct = title.rstrip()
+        if not title_punct.endswith(('.', '!', '?', ':', ';', '—', '…', '"', "'", ')')):
+            title_punct += '.'
+
+        if briefing:
+            fixed = len(prefix) + len(title_punct) + 1 + 2 + URL_LEN + 1 + HASHTAGS_LEN
+            briefing_budget = MAX - fixed
+            if briefing_budget < 50:
+                # Not enough room — drop briefing
+                tweet = f"{prefix}{title}\n\n{link} {HASHTAGS}"
+                counted_len = len(prefix) + len(title) + 2 + URL_LEN + 1 + HASHTAGS_LEN
+            else:
+                if len(briefing) > briefing_budget:
+                    briefing = briefing[: briefing_budget - 1].rstrip(' ,;:-—.!?') + "…"
+                tweet = f"{prefix}{title_punct} {briefing}\n\n{link} {HASHTAGS}"
+                counted_len = len(prefix) + len(title_punct) + 1 + len(briefing) + 2 + URL_LEN + 1 + HASHTAGS_LEN
+        else:
+            tweet = f"{prefix}{title}\n\n{link} {HASHTAGS}"
+            counted_len = len(prefix) + len(title) + 2 + URL_LEN + 1 + HASHTAGS_LEN
 
         ts_str = item["ts"].astimezone(NY).strftime("%H:%M EDT · %b %d")
         source_label = html.escape(item["source"])
         intent_url = "https://twitter.com/intent/tweet?text=" + urllib.parse.quote(tweet, safe="")
 
-        badge_class = "badge-howl" if category == "LOUDEST HOWL" else "badge-wire"
-        badge_text = "LOUDEST HOWL" if category == "LOUDEST HOWL" else "WIRE"
+        badge_class = "badge-howl" if is_top else "badge-wire"
+        badge_text = "HOWL OF THE DAY" if is_top else "WIRE"
 
         cards.append(
             f'<div class="card">'
@@ -1332,7 +1402,7 @@ def write_queue_html(items, hero_item=None):
   .badge-wire {{ background: #1a1a1a; color: var(--green); border: 1px solid var(--green); }}
   .meta {{ color: var(--dim); flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }}
   .counter {{ color: var(--dim); font-variant-numeric: tabular-nums; }}
-  textarea {{ width: 100%; min-height: 70px; background: #050505; color: var(--fg); border: 1px solid var(--border); border-radius: 4px; padding: 8px; font: 13px/1.4 -apple-system, monospace; resize: vertical; }}
+  textarea {{ width: 100%; min-height: 110px; background: #050505; color: var(--fg); border: 1px solid var(--border); border-radius: 4px; padding: 8px; font: 13px/1.5 -apple-system, monospace; resize: vertical; white-space: pre-wrap; }}
   .actions {{ display: flex; gap: 8px; margin-top: 8px; }}
   .btn {{ font-size: 12px; padding: 6px 12px; border-radius: 4px; cursor: pointer; border: none; text-decoration: none; display: inline-block; font-weight: bold; letter-spacing: 0.5px; }}
   .btn-x {{ background: var(--green); color: #000; }}
