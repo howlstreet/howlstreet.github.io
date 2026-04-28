@@ -1783,6 +1783,62 @@ def _strip_trailing_seps(text):
     return _TRAIL_SEP_RE.sub("", text).rstrip()
 
 
+_TRAIL_ELLIPSIS_RE = re.compile(r"\s*(?:\.{2,}|…)+\s*$")
+# "Continue reading", "Read more", "Read the full article", etc. that RSS
+# summaries and og:descriptions append. Strip from the END so we don't ship
+# a tweet whose last words are a CTA to leave the post.
+_CONTINUE_READING_RE = re.compile(
+    r"\s*[\.\-—|·:]?\s*"
+    r"(?:continue\s+reading|read\s+(?:more|the\s+full\s+(?:story|article|piece)|on)"
+    r"|click\s+here(?:\s+to\s+(?:read|continue|learn))?"
+    r"|see\s+more|view\s+(?:more|original)|the\s+post\s+\w+\s+appeared"
+    r"|appeared\s+first\s+on|originally\s+published|via\s+\w+)"
+    r"[^.!?]*\.?\s*$",
+    re.IGNORECASE,
+)
+
+
+def _strip_trailing_ellipsis(text):
+    """Strip any trailing "..." / "…" so X posts never end on a half-thought.
+    User-facing rule: every word that's in the tweet should be complete."""
+    if not text:
+        return text
+    cleaned = _TRAIL_ELLIPSIS_RE.sub("", text).rstrip()
+    return cleaned or text
+
+
+def _strip_continue_reading(text):
+    """Strip 'continue reading' / 'read more' style tails that RSS feeds
+    and og:descriptions tack on. Also strips 'appeared first on Source'
+    boilerplate."""
+    if not text:
+        return text
+    prev = None
+    out = text
+    # Apply repeatedly in case multiple CTAs are stacked.
+    while out != prev:
+        prev = out
+        out = _CONTINUE_READING_RE.sub("", out).rstrip()
+    return _strip_trailing_ellipsis(out)
+
+
+def _format_briefing_as_bullets(briefing):
+    """When a briefing has 2+ sentences, render as "- " bullets with spacing
+    between them. Makes long posts scan-able on X (especially the long
+    corruption / deep-dive items)."""
+    if not briefing:
+        return briefing
+    sentences = [s.strip() for s in _SENT_SPLIT_RE.split(briefing) if s.strip()]
+    if len(sentences) < 2:
+        return briefing
+    bullets = []
+    for s in sentences:
+        # Drop the trailing period — bullets read cleaner without one
+        s = s.rstrip(" .")
+        bullets.append(f"- {s}")
+    return "\n".join(bullets)
+
+
 def _smart_truncate(text, max_len, require_full_sentence=False):
     """Truncate to <= max_len ending cleanly at a sentence boundary.
     If require_full_sentence and no full sentence fits, return None so the
@@ -2065,7 +2121,7 @@ def write_queue_html(items, hero_item=None, signal_posts=None):
     for category, item in queue:
         rss = _clean_summary(item.get("summary", ""))
         if _is_substantive_summary(rss, item["title"]):
-            cleaned = _clean_briefing_lead(_strip_trailing_seps(_strip_dashes(rss)))
+            cleaned = _strip_continue_reading(_clean_briefing_lead(_strip_trailing_seps(_strip_dashes(rss))))
             if len(cleaned) >= 60:
                 briefings[item["link"]] = cleaned
             else:
@@ -2079,7 +2135,7 @@ def write_queue_html(items, hero_item=None, signal_posts=None):
             results = list(ex.map(lambda p: fetch_article_briefing(p[0], p[1]), needs_fetch))
         for (link, _t), briefing in zip(needs_fetch, results):
             if briefing:
-                cleaned = _clean_briefing_lead(_strip_trailing_seps(briefing))
+                cleaned = _strip_trailing_ellipsis(_clean_briefing_lead(_strip_trailing_seps(briefing)))
                 if len(cleaned) >= 60:
                     briefings[link] = cleaned
 
@@ -2152,19 +2208,23 @@ def write_queue_html(items, hero_item=None, signal_posts=None):
         elif is_corruption:
             prefix = "Corruption uncovered: "
         elif is_earnings:
-            prefix = (f"JUST IN: {ticker} reports earnings — "
-                      if ticker else "JUST IN: Earnings — ")
+            # "Earnings Howl:" — brand-tied. Inject the ticker if it's not
+            # already in the title so the cashtag is always visible.
+            if ticker and ticker.lower() not in item.get("title", "").lower():
+                prefix = f"Earnings Howl: {ticker} — "
+            else:
+                prefix = "Earnings Howl: "
         elif is_breaking:
             prefix = "BREAKING: "
         elif is_just_in:
-            prefix = "JUST IN: "
+            prefix = "Fresh Howl: "
         else:
             if wire_idx % 4 == 0:
                 prefix = WIRE_LEADS[(wire_idx // 4) % len(WIRE_LEADS)]
             else:
                 prefix = ""
             wire_idx += 1
-        title = _strip_trailing_seps(_strip_dashes(item["title"]))
+        title = _strip_continue_reading(_strip_trailing_seps(_strip_dashes(item["title"])))
         link = item["link"]
 
         # Strip leading "BREAKING:" / "Ueda Speech:" labels so we don't get
@@ -2184,6 +2244,14 @@ def write_queue_html(items, hero_item=None, signal_posts=None):
         title = _strip_trailing_seps(title)
 
         briefing = briefings.get(item["link"])
+        # One more pass on the briefing to drop "continue reading" tails and
+        # "..." that may have sat in the persisted RSS summary.
+        if briefing:
+            briefing = _strip_continue_reading(briefing)
+        # Bullet-format briefings with 2+ sentences so long posts (especially
+        # corruption + earnings) read scan-ably with proper spacing.
+        if briefing:
+            briefing = _format_briefing_as_bullets(briefing)
 
         # Format: {prefix}{title}. {briefing}\n\n{url} {hashtags}
         title_punct = title.rstrip()
@@ -2214,11 +2282,11 @@ def write_queue_html(items, hero_item=None, signal_posts=None):
         elif is_corruption:
             badge_class, badge_text = "badge-corrupt", "CORRUPTION"
         elif is_earnings:
-            badge_class, badge_text = "badge-earnings", "EARNINGS"
+            badge_class, badge_text = "badge-earnings", "EARNINGS HOWL"
         elif is_breaking:
             badge_class, badge_text = "badge-breaking", "BREAKING"
         elif is_just_in:
-            badge_class, badge_text = "badge-justin", "JUST IN"
+            badge_class, badge_text = "badge-justin", "FRESH HOWL"
         else:
             badge_class, badge_text = "badge-wire", "WIRE"
 
