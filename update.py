@@ -1463,7 +1463,7 @@ def write_atom_feed(items, hero_item=None):
     content = (
         '<?xml version="1.0" encoding="utf-8"?>\n'
         '<feed xmlns="http://www.w3.org/2005/Atom">\n'
-        '  <title>Howl Street — Wolves for the People</title>\n'
+        '  <title>Howl Street — The Real Wolves of Wall Street</title>\n'
         '  <subtitle>They howl for themselves. We howl for you. No-BS finance signals from 100+ sources.</subtitle>\n'
         f'  <link href="{SITE_URL}/" />\n'
         f'  <link rel="self" type="application/atom+xml" href="{SITE_URL}/feed.xml" />\n'
