@@ -1245,6 +1245,10 @@ def write_atom_feed(items, hero_item=None):
 
 
 _DASH_RE = re.compile(r"\s*[—–]\s*")
+# Trailing junk separators left behind when RSS feeds append "- Source" / "| Site"
+# attributions and the source name gets stripped elsewhere. We strip the
+# orphan separator to avoid output like "in March -." after we add a period.
+_TRAIL_SEP_RE = re.compile(r"\s*[\-–—|·:,;]+\s*$")
 _TITLE_NORM_RE = re.compile(r"\W+")
 _PARA_RE = re.compile(r"<p\b[^>]*>(.*?)</p>", re.DOTALL | re.IGNORECASE)
 _SENT_SPLIT_RE = re.compile(r"(?<=[.!?])\s+(?=[A-Z0-9\"'“])")
@@ -1254,6 +1258,19 @@ _BOILERPLATE = (
     "read more at", "this article was", "advertisement", "share this",
     "get the latest", "you can read", "originally appeared", "view comments",
 )
+# Sentences containing these phrases are process-y filler ("Ueda is addressing
+# the press conference") and get deprioritized when picking briefing copy.
+_FILLER_PHRASES = (
+    "is addressing", "is speaking", "will speak", "spoke about",
+    "is discussing", "will discuss", "discussing the",
+    "press conference", "press briefing", "addressing the press",
+    "explaining the reason", "explaining the rationale",
+    "holding a press", "gave remarks", "made remarks", "told reporters",
+    "is set to speak", "is expected to discuss", "is delivering remarks",
+)
+# Pattern: leading editorial label like 'BREAKING:', 'Ueda Speech:', 'ANALYSIS:'
+# that we strip to avoid double-colon when prefixing with 'Howl of the Day:'.
+_LABEL_PREFIX_RE = re.compile(r"^([A-Z][\w']+(?:\s+[A-Z][\w']+){0,2}):\s+")
 
 
 def _strip_dashes(text):
@@ -1262,6 +1279,15 @@ def _strip_dashes(text):
     if not text:
         return text
     return _DASH_RE.sub(", ", text).strip()
+
+
+def _strip_trailing_seps(text):
+    """Remove orphan trailing separators (- — | · : etc.) that RSS feeds
+    leave behind after source-name stripping. Called before we append our
+    own punctuation to a title or briefing."""
+    if not text:
+        return text
+    return _TRAIL_SEP_RE.sub("", text).rstrip()
 
 
 def _smart_truncate(text, max_len):
@@ -1301,6 +1327,19 @@ def _paragraph_too_similar(text, title_prefix):
         return False
     text_norm = _TITLE_NORM_RE.sub("", text.lower())
     return text_norm.startswith(title_prefix)
+
+
+def _strip_label_prefix(title):
+    """Drop a leading editorial label like 'BREAKING:', 'Ueda Speech:',
+    'ANALYSIS:' so it doesn't collide with our 'Howl of the Day:' prefix."""
+    return _LABEL_PREFIX_RE.sub("", title or "", count=1)
+
+
+def _is_filler_sentence(sentence):
+    """True if the sentence is process-y filler ('is addressing the press
+    conference') rather than a substantive fact."""
+    s = sentence.lower()
+    return any(p in s for p in _FILLER_PHRASES)
 
 
 def _is_substantive_summary(summary, title):
@@ -1353,9 +1392,12 @@ def fetch_article_briefing(url, title, timeout=8):
 
     if candidates:
         combined = " ".join(candidates)
-        sentences = _SENT_SPLIT_RE.split(combined)
-        if sentences:
-            briefing = " ".join(s.strip() for s in sentences[:2]).strip()
+        sentences = [s.strip() for s in _SENT_SPLIT_RE.split(combined) if s.strip()]
+        # Drop filler sentences first; if all are filler, keep them as fallback.
+        substantive = [s for s in sentences if not _is_filler_sentence(s)]
+        picked = substantive if substantive else sentences
+        if picked:
+            briefing = " ".join(picked[:2]).strip()
             if 80 <= len(briefing) <= 400:
                 return _strip_dashes(briefing)
 
@@ -1417,7 +1459,7 @@ def write_queue_html(items, hero_item=None):
     for category, item in queue:
         rss = _clean_summary(item.get("summary", ""))
         if _is_substantive_summary(rss, item["title"]):
-            briefings[item["link"]] = _strip_dashes(rss)
+            briefings[item["link"]] = _strip_trailing_seps(_strip_dashes(rss))
         else:
             needs_fetch.append((item["link"], item["title"]))
 
@@ -1427,7 +1469,7 @@ def write_queue_html(items, hero_item=None):
             results = list(ex.map(lambda p: fetch_article_briefing(p[0], p[1]), needs_fetch))
         for (link, _t), briefing in zip(needs_fetch, results):
             if briefing and len(briefing) > 60:
-                briefings[link] = briefing  # already dash-stripped
+                briefings[link] = _strip_trailing_seps(briefing)
 
     # Subtle Pack-themed leads sprinkled on every 4th wire post (rotating).
     # Howl of the Day always stays "Howl of the Day:". Most wire posts get
@@ -1446,11 +1488,24 @@ def write_queue_html(items, hero_item=None):
             else:
                 prefix = ""
             wire_idx += 1
-        title = _strip_dashes(item["title"])
+        title = _strip_trailing_seps(_strip_dashes(item["title"]))
         link = item["link"]
 
-        if len(title) > TITLE_CAP:
-            title = _smart_truncate(title, TITLE_CAP)
+        # Strip leading "BREAKING:" / "Ueda Speech:" labels so we don't get
+        # "Howl of the Day: Ueda Speech: ..." double-colons. Only strip when
+        # we're prepending our own labeled prefix.
+        if prefix and prefix.endswith(": "):
+            stripped = _strip_label_prefix(title)
+            if len(stripped) >= 30:
+                title = stripped
+
+        # Howl of the Day gets a tighter title cap so the briefing has more
+        # room to breathe and lead with substance.
+        cap = 90 if is_top else TITLE_CAP
+        if len(title) > cap:
+            title = _smart_truncate(title, cap)
+        # Re-strip trailing seps in case truncation surfaced one
+        title = _strip_trailing_seps(title)
 
         briefing = briefings.get(item["link"])
 
