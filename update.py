@@ -1290,27 +1290,26 @@ def _strip_trailing_seps(text):
     return _TRAIL_SEP_RE.sub("", text).rstrip()
 
 
-def _smart_truncate(text, max_len):
-    """Truncate to <= max_len ending cleanly at sentence or word boundary —
-    never with a trailing ellipsis or partial word."""
+def _smart_truncate(text, max_len, require_full_sentence=False):
+    """Truncate to <= max_len ending cleanly at a sentence boundary.
+    If require_full_sentence and no full sentence fits, return None so the
+    caller can drop the content rather than emit a half-thought with a
+    fake period. With require_full_sentence=False (titles), falls back to
+    a clean word-boundary cut and does NOT append a fake period."""
     if len(text) <= max_len:
         return text
     candidate = text[:max_len]
-    # Prefer last sentence end (.!?) followed by space
     last_sent = max(
         candidate.rfind(". "), candidate.rfind("! "), candidate.rfind("? ")
     )
-    if last_sent >= int(max_len * 0.55):
+    if last_sent >= int(max_len * 0.4):
         return candidate[: last_sent + 1].rstrip()
-    # Else cut at last word boundary
+    if require_full_sentence:
+        return None
     last_space = candidate.rfind(" ")
     if last_space > 0:
-        cut = candidate[:last_space].rstrip(" ,;:")
-    else:
-        cut = candidate.rstrip(" ,;:")
-    if cut and not cut.endswith((".", "!", "?")):
-        cut += "."
-    return cut
+        return candidate[:last_space].rstrip(" ,;:")
+    return candidate.rstrip(" ,;:")
 
 
 def _title_norm_prefix(title, n=30):
@@ -1343,15 +1342,21 @@ def _is_filler_sentence(sentence):
 
 
 def _is_substantive_summary(summary, title):
-    """True if the RSS summary adds info beyond the title."""
+    """True if the RSS summary adds info beyond the title and isn't all
+    process-y filler ('is addressing the press conference')."""
     if not summary or len(summary) < 80:
         return False
     title_prefix = _title_norm_prefix(title)
     if _paragraph_too_similar(summary, title_prefix):
-        # First 30 chars match — likely just a title reword. Bail.
         text_norm = _TITLE_NORM_RE.sub("", summary.lower())
         rest = text_norm[len(title_prefix):]
         if len(rest) < 50:
+            return False
+    # Reject filler-heavy summaries so we fall through to article-body fetch.
+    sentences = [s.strip() for s in _SENT_SPLIT_RE.split(summary) if s.strip()]
+    if sentences:
+        substantive = [s for s in sentences if not _is_filler_sentence(s)]
+        if not substantive:
             return False
     return True
 
@@ -1387,17 +1392,17 @@ def fetch_article_briefing(url, title, timeout=8):
         if _paragraph_too_similar(text, title_prefix):
             continue
         candidates.append(text)
-        if len(candidates) >= 3:
+        if len(candidates) >= 5:
             break
 
     if candidates:
         combined = " ".join(candidates)
         sentences = [s.strip() for s in _SENT_SPLIT_RE.split(combined) if s.strip()]
-        # Drop filler sentences first; if all are filler, keep them as fallback.
+        # Only keep substantive (non-filler) sentences. If none, fall through
+        # to og:description rather than emit filler.
         substantive = [s for s in sentences if not _is_filler_sentence(s)]
-        picked = substantive if substantive else sentences
-        if picked:
-            briefing = " ".join(picked[:2]).strip()
+        if substantive:
+            briefing = " ".join(substantive[:2]).strip()
             if 80 <= len(briefing) <= 400:
                 return _strip_dashes(briefing)
 
@@ -1517,14 +1522,14 @@ def write_queue_html(items, hero_item=None):
         if briefing:
             fixed = len(prefix) + len(title_punct) + 1 + 2 + URL_LEN + 1 + HASHTAGS_LEN
             briefing_budget = MAX - fixed
-            if briefing_budget < 60:
-                tweet = f"{prefix}{title}\n\n{link} {HASHTAGS}"
-                counted_len = len(prefix) + len(title) + 2 + URL_LEN + 1 + HASHTAGS_LEN
-            else:
-                if len(briefing) > briefing_budget:
-                    briefing = _smart_truncate(briefing, briefing_budget)
-                tweet = f"{prefix}{title_punct} {briefing}\n\n{link} {HASHTAGS}"
-                counted_len = len(prefix) + len(title_punct) + 1 + len(briefing) + 2 + URL_LEN + 1 + HASHTAGS_LEN
+            if briefing_budget >= 60 and len(briefing) > briefing_budget:
+                # Require a full sentence to fit; if not, drop the briefing
+                # rather than emit a half-thought with a fake period.
+                briefing = _smart_truncate(briefing, briefing_budget, require_full_sentence=True)
+
+        if briefing:
+            tweet = f"{prefix}{title_punct} {briefing}\n\n{link} {HASHTAGS}"
+            counted_len = len(prefix) + len(title_punct) + 1 + len(briefing) + 2 + URL_LEN + 1 + HASHTAGS_LEN
         else:
             tweet = f"{prefix}{title}\n\n{link} {HASHTAGS}"
             counted_len = len(prefix) + len(title) + 2 + URL_LEN + 1 + HASHTAGS_LEN
