@@ -309,7 +309,7 @@ def detect_signals_for_series(series, history):
             kind="high",
             extreme_years=yrs_since_higher,
             badge=f"{yrs}Y HIGH",
-            headline=f"{series.short_label.capitalize()} just hit {cur_str} — highest in {yrs}+ years",
+            headline=f"{(series.short_label[0].upper() + series.short_label[1:])} just hit {cur_str} — highest in {yrs}+ years",
             matters=series.matters_template,
             signal_id=f"{series.key}:high:{current_d.strftime('%Y-%m-%d')}",
         ))
@@ -323,7 +323,7 @@ def detect_signals_for_series(series, history):
             kind="low",
             extreme_years=yrs_since_lower,
             badge=f"{yrs}Y LOW",
-            headline=f"{series.short_label.capitalize()} just dropped to {cur_str} — lowest in {yrs}+ years",
+            headline=f"{(series.short_label[0].upper() + series.short_label[1:])} just dropped to {cur_str} — lowest in {yrs}+ years",
             matters=series.matters_template,
             signal_id=f"{series.key}:low:{current_d.strftime('%Y-%m-%d')}",
         ))
@@ -342,7 +342,7 @@ def detect_signals_for_series(series, history):
                     series=series, current=current, history=history,
                     kind="move_up" if pct > 0 else "move_down",
                     badge=f"{sign}{pct:.1f}%",
-                    headline=f"{series.short_label.capitalize()} {verb} {abs(pct):.1f}% in {BIG_MOVE_DAYS} sessions to {cur_str}",
+                    headline=f"{(series.short_label[0].upper() + series.short_label[1:])} {verb} {abs(pct):.1f}% in {BIG_MOVE_DAYS} sessions to {cur_str}",
                     matters=series.matters_template,
                     signal_id=f"{series.key}:move:{current_d.strftime('%Y-%m-%d')}",
                 ))

@@ -186,6 +186,117 @@ def _first_sentence(text, max_chars=240):
     return text[:max_chars].rsplit(" ", 1)[0] + "." if len(text) > max_chars else text
 
 
+_BODY_BOILERPLATE = (
+    "follow us", "sign up for", "subscribe to", "all rights reserved",
+    "cookie policy", "privacy policy", "newsletter", "click here",
+    "read more at", "this article was", "advertisement", "share this",
+    "originally appeared", "view comments", "the post ", "appeared first",
+    "©", "browser to view", "javascript", "enable javascript",
+)
+_BODY_FILLER = (
+    "is addressing", "press conference", "press briefing",
+    "told reporters", "spokesperson", "sources said",
+    "sources familiar", "according to people familiar",
+)
+# Sentences with these signals get prioritized — concrete facts beat
+# scene-setting filler.
+_BODY_FACT_SIGNAL = re.compile(
+    r"\$\s?\d|€\s?\d|£\s?\d|¥\s?\d"
+    r"|\b\d+(?:[\.,]\d+)?\s*(?:percent|%|bps|basis\s+points|pct)\b"
+    r"|\b\d+(?:[\.,]\d+)?\s*(?:billion|trillion|million|bn|tn|mn)\b"
+    r"|\b(?:rose|fell|jumped|dropped|gained|lost|surged|plunged|climbed|"
+    r"declined|slipped|advanced|tumbled|rallied|cut|raised|hiked|held)\b"
+    r"|\b(?:Fed|FOMC|ECB|BoJ|PBOC|BOE|Treasury|SEC|DOJ|FTC|CFTC)\b"
+    r"|\b(?:CPI|PPI|GDP|EPS|revenue|guidance|earnings|yield|"
+    r"unemployment|jobless\s+claims|payrolls)\b",
+    re.IGNORECASE,
+)
+
+
+def _fetch_article_body(url, timeout=8):
+    """Pull the article HTML and return a list of substantive paragraph
+    strings — boilerplate/filler stripped, prioritized by fact-signal
+    density. Returns [] on any failure (cookie walls, paywalls, 403).
+
+    Used by every format function that has a source_url, to fill the
+    draft body with real article content instead of [FILL] placeholders."""
+    if not url or not url.startswith("http"):
+        return []
+    try:
+        req = urllib.request.Request(url, headers={
+            "User-Agent": "Mozilla/5.0 (compatible; HowlStreet/1.0; +https://howlstreet.github.io)",
+            "Accept": "text/html,application/xhtml+xml",
+        })
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            charset = resp.headers.get_content_charset() or "utf-8"
+            page = resp.read(600_000).decode(charset, errors="replace")
+    except Exception:
+        return []
+    raw_paras = re.findall(r"<p\b[^>]*>(.*?)</p>", page, re.DOTALL | re.IGNORECASE)
+    out = []
+    for raw in raw_paras:
+        text = re.sub(r"<[^>]+>", " ", raw)
+        text = html_lib.unescape(text)
+        text = re.sub(r"\s+", " ", text).strip()
+        if len(text) < 80:
+            continue
+        low = text.lower()
+        if any(b in low for b in _BODY_BOILERPLATE):
+            continue
+        if any(f in low for f in _BODY_FILLER):
+            continue
+        out.append(text)
+        if len(out) >= 8:
+            break
+    return out
+
+
+def _split_sentences(paragraph):
+    """Split a paragraph into sentences. Handles common abbreviations
+    (Mr., Mrs., Inc., Co., U.S., etc.) so we don't cut at every period."""
+    # Protect common abbreviations
+    p = re.sub(r"\b(Mr|Mrs|Ms|Dr|Inc|Co|Corp|Ltd|Jr|Sr|St|U\.S|U\.K|E\.U)\.\s",
+               r"\1<DOT> ", paragraph)
+    parts = re.split(r"(?<=[.!?])\s+(?=[A-Z0-9\"'“])", p)
+    return [s.replace("<DOT>", ".").strip() for s in parts if s.strip()]
+
+
+def _pick_body_sentences(body_paras, title="", max_sentences=4, min_chars=200):
+    """From article body paragraphs, pick up to max_sentences that are:
+      - complete (end in . ! or ?)
+      - not a verbatim restatement of the title
+      - prioritized: ones with fact signals first
+    Returns a list of complete sentence strings."""
+    sentences = []
+    for p in body_paras:
+        sentences.extend(_split_sentences(p))
+    # Drop sentences that don't end in punctuation (incomplete)
+    sentences = [s for s in sentences if s.endswith((".", "!", "?"))]
+    # Drop sentences that just restate the title
+    title_norm = re.sub(r"\W+", "", title.lower())[:40]
+    if title_norm:
+        sentences = [s for s in sentences
+                     if not re.sub(r"\W+", "", s.lower())[:40].startswith(title_norm[:30])]
+    # Sort: fact-signal sentences first, preserving original order within group
+    fact_idx = []
+    other_idx = []
+    for i, s in enumerate(sentences):
+        if _BODY_FACT_SIGNAL.search(s):
+            fact_idx.append(i)
+        else:
+            other_idx.append(i)
+    ordered = [sentences[i] for i in fact_idx] + [sentences[i] for i in other_idx]
+    # Take up to max_sentences, respecting a min total char count target.
+    picked = []
+    total = 0
+    for s in ordered:
+        picked.append(s)
+        total += len(s)
+        if len(picked) >= max_sentences and total >= min_chars:
+            break
+    return picked
+
+
 _OG_IMAGE_PATTERNS = [
     re.compile(r'<meta[^>]+property=["\']og:image["\'][^>]*content=["\']([^"\']+)["\']', re.IGNORECASE),
     re.compile(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]*property=["\']og:image["\']', re.IGNORECASE),
@@ -289,6 +400,48 @@ def _save_drafts(drafts):
 # Pure functions: no global state mutation, no I/O.
 # ────────────────────────────────────────────────────────────────────
 
+def _compose_body_from_article(title, summary, body_paras, want_sentences=4):
+    """Build the multi-sentence draft body from title + RSS summary +
+    fetched article body. Drops [FILL] placeholders — we either have
+    real article content or we use the summary verbatim. With X Premium
+    (4000 chars) we can afford 3-4 substantive sentences per draft."""
+    out = []
+    seen_norm = set()
+
+    def _take(text):
+        if not text or not text.strip():
+            return False
+        n = re.sub(r"\W+", "", text.lower())[:60]
+        if n in seen_norm or not n:
+            return False
+        seen_norm.add(n)
+        out.append(text.strip())
+        return True
+
+    # 1. Always lead with the headline (title) as-is.
+    if title:
+        _take(_first_sentence(title) or title.strip()[:240])
+
+    # 2. Pull substantive body sentences when available — these have the
+    # numbers, the central-bank moves, the dollar amounts, etc.
+    if body_paras:
+        body_sents = _pick_body_sentences(
+            body_paras, title=title, max_sentences=want_sentences,
+            min_chars=200,
+        )
+        for s in body_sents:
+            if not _take(s):
+                continue
+            if len(out) >= want_sentences + 1:  # +1 because title counts
+                break
+
+    # 3. Fall back to the RSS summary if we got nothing from the body.
+    if len(out) < 2 and summary:
+        _take(_first_sentence(summary, max_chars=300))
+
+    return out
+
+
 def _make_draft(*, fmt, body, primary_source, source_url,
                 source_title, source_summary, image_path=None, data=None):
     """Common draft-dict builder. Strips banned phrases, computes hash.
@@ -318,11 +471,11 @@ def _make_draft(*, fmt, body, primary_source, source_url,
 
 
 def draft_market_move(signal_post):
-    """A) MARKET MOVE — fed by signals.collect_signal_posts() entries
-    where kind in ('move_up', 'move_down', 'high', 'low').
+    """A) MARKET MOVE — fed by signals.collect_signal_posts() entries.
 
-    Lead with the move. Cause line pulled from series matters_template,
-    cleaned. Implication left as a [FILL] hint when we don't have one."""
+    Voice: punchy. Lead with the move. Follow with the SHARPEST sentence
+    from the matters template (the one with concrete groups affected,
+    not the generic 'this is the live X market' filler)."""
     if not signal_post:
         return None
     kind = signal_post.get("kind", "")
@@ -330,23 +483,29 @@ def draft_market_move(signal_post):
         return None
     headline = signal_post.get("headline", "")
     matters = signal_post.get("matters", "")
-    label = signal_post.get("label", "")
-    if not headline or not matters:
+    if not headline:
         return None
 
-    body = (
-        f"{headline}\n\n"
-        f"{_first_sentence(matters)}\n\n"
-        f"Watch: {label} reaction across rate-sensitive equities and FX."
-    )
+    parts = [headline]
+    if matters:
+        # Split matters into sentences and pick the most concrete one —
+        # the one with named groups, percentages, or dollar amounts. The
+        # first sentence is often a generic "X is the live Y market" filler.
+        sents = _split_sentences(matters)
+        sents = [s for s in sents if s.endswith((".", "!", "?"))]
+        if sents:
+            scored = [(s, len(_BODY_FACT_SIGNAL.findall(s))) for s in sents]
+            scored.sort(key=lambda x: x[1], reverse=True)
+            best = scored[0][0] if scored else sents[0]
+            parts.append(best)
+    body = "\n\n".join(p for p in parts if p)
     return _make_draft(
         fmt="MARKET_MOVE",
         body=body,
         primary_source=signal_post.get("source", ""),
         source_url="",
-        source_title=label,
+        source_title=signal_post.get("label", ""),
         source_summary=matters,
-        image_path=signal_post.get("chart_path"),
         data={
             "signal_id": signal_post.get("signal_id"),
             "kind": kind,
@@ -377,8 +536,6 @@ def draft_policy_read(item):
     if is_policy_source:
         actor = source
     else:
-        # Pull the matched central-bank name out of the title for a real
-        # actor label instead of generic "Central bank".
         bank_m = re.search(
             r"\b(Fed|FOMC|Federal\s+Reserve|ECB|BoJ|Bank\s+of\s+Japan|"
             r"Bank\s+of\s+England|BoE|PBOC|People'?s\s+Bank\s+of\s+China|"
@@ -386,18 +543,11 @@ def draft_policy_read(item):
             title, re.IGNORECASE,
         )
         actor = bank_m.group(1) if bank_m else "Central bank"
-    lead = _first_sentence(title) or "Policy update."
-    context = _first_sentence(summary, max_chars=180)
-    # Drop context if it just restates the lead (RSS summary often = title)
-    if context and re.sub(r"\W+", "", context.lower())[:50] == \
-                  re.sub(r"\W+", "", lead.lower())[:50]:
-        context = ""
 
-    body_parts = [lead]
-    if context:
-        body_parts.append(context)
-    body_parts.append("[FILL: rate change vs prior, vote split, or specific guidance shift]")
-    body = "\n\n".join(body_parts)
+    body_paras = item.get("_body_paras") or []
+    sentences = _compose_body_from_article(title, summary, body_paras,
+                                            want_sentences=4)
+    body = "\n\n".join(sentences) if sentences else (title or "Policy update.")
     return _make_draft(
         fmt="POLICY_READ",
         body=body,
@@ -440,7 +590,7 @@ def draft_corruption_watch_from_insider(insider_post):
         f"{sign}{pct_since:.1f}% since the {noun}."
     )
     return _make_draft(
-        fmt="CORRUPTION_WATCH",
+        fmt="CORRUPTION_WATCH_INSIDER",
         body=body,
         primary_source="SEC Form 4 via openinsider",
         source_url=f"http://openinsider.com/screener?s={ticker}",
@@ -464,13 +614,10 @@ def draft_corruption_watch_from_rss(item):
     title = item.get("title", "") or ""
     summary = item.get("summary", "") or ""
     source = item.get("source", "")
-    lead = _first_sentence(title)
-    context = _first_sentence(summary, max_chars=180)
-    body = (
-        f"{lead}\n\n"
-        f"{context}\n\n"
-        f"[FILL: who profits, who pays, regulator response]"
-    )
+    body_paras = item.get("_body_paras") or []
+    sentences = _compose_body_from_article(title, summary, body_paras,
+                                            want_sentences=4)
+    body = "\n\n".join(sentences) if sentences else title
     return _make_draft(
         fmt="CORRUPTION_WATCH",
         body=body,
@@ -493,13 +640,10 @@ def draft_global_desk(item):
     if not GLOBAL_DESK_REGION_HINTS.search(blob):
         return None
     source = item.get("source", "")
-    lead = _first_sentence(title)
-    context = _first_sentence(summary, max_chars=180)
-    body = (
-        f"{lead}\n\n"
-        f"{context}\n\n"
-        f"[FILL: US-market read-through — which sectors / tickers move on this]"
-    )
+    body_paras = item.get("_body_paras") or []
+    sentences = _compose_body_from_article(title, summary, body_paras,
+                                            want_sentences=4)
+    body = "\n\n".join(sentences) if sentences else title
     return _make_draft(
         fmt="GLOBAL_DESK",
         body=body,
@@ -521,13 +665,10 @@ def draft_data_drop(item):
     if not DATA_DROP_KEYWORDS.search(title + " " + summary):
         return None
     source = item.get("source", "")
-    lead = _first_sentence(title)
-    context = _first_sentence(summary, max_chars=180)
-    body = (
-        f"{lead}\n\n"
-        f"{context}\n\n"
-        f"[FILL: actual vs expected, internals breakdown, market reaction]"
-    )
+    body_paras = item.get("_body_paras") or []
+    sentences = _compose_body_from_article(title, summary, body_paras,
+                                            want_sentences=4)
+    body = "\n\n".join(sentences) if sentences else title
     return _make_draft(
         fmt="DATA_DROP",
         body=body,
@@ -552,17 +693,10 @@ def draft_loud_howl(top_item):
     title = top_item.get("title", "") or ""
     summary = top_item.get("summary", "") or ""
     source = top_item.get("source", "")
-    lead = _first_sentence(title) or "Today's loudest howl."
-    context = _first_sentence(summary, max_chars=200)
-    if context and re.sub(r"\W+", "", context.lower())[:50] == \
-                  re.sub(r"\W+", "", lead.lower())[:50]:
-        context = ""
-
-    body_parts = [lead]
-    if context:
-        body_parts.append(context)
-    body_parts.append("[FILL: the implication for markets, the people, or the pack]")
-    body = "\n\n".join(body_parts)
+    body_paras = top_item.get("_body_paras") or []
+    sentences = _compose_body_from_article(title, summary, body_paras,
+                                            want_sentences=4)
+    body = "\n\n".join(sentences) if sentences else (title or "Today's loudest howl.")
     return _make_draft(
         fmt="LOUD_HOWL",
         body=body,
@@ -619,6 +753,30 @@ def collect_drafts(items, signal_posts=None, insider_posts=None,
 
     posted = _load_posted()
     drafts = []
+
+    # Pre-fetch article bodies for items likely to produce drafts so each
+    # format function can compose multi-sentence content from real article
+    # text instead of [FILL] placeholders. Parallel fetch.
+    fetch_targets = []
+    seen_urls = set()
+    for it in (items or []):
+        url = it.get("link", "")
+        if url and url not in seen_urls:
+            seen_urls.add(url)
+            fetch_targets.append(it)
+    if top_item and top_item.get("link") and top_item["link"] not in seen_urls:
+        fetch_targets.append(top_item)
+        seen_urls.add(top_item["link"])
+    # Cap the body-fetch budget so a busy day doesn't stall the run.
+    fetch_targets = fetch_targets[:60]
+    if fetch_targets:
+        urls = [t["link"] for t in fetch_targets]
+        with ThreadPoolExecutor(max_workers=12) as ex:
+            results = list(ex.map(_fetch_article_body, urls))
+        for t, body in zip(fetch_targets, results):
+            t["_body_paras"] = body
+        with_body = sum(1 for t in fetch_targets if t.get("_body_paras"))
+        print(f"  drafter body-fetch: {with_body}/{len(fetch_targets)} articles")
 
     def _take(format_name, candidates):
         kept = []
@@ -720,7 +878,7 @@ _FORMAT_LABELS = {
     "MARKET_MOVE": ("MARKET MOVE", "#00bfff"),
     "POLICY_READ": ("POLICY READ", "#ffaa00"),
     "CORRUPTION_WATCH": ("CORRUPTION WATCH", "#b042ff"),
-    "CORRUPTION_WATCH_INSIDER": ("CORRUPTION WATCH", "#b042ff"),
+    "CORRUPTION_WATCH_INSIDER": ("INSIDER TRADING ALERT", "#ff66c4"),
     "GLOBAL_DESK": ("GLOBAL DESK", "#cccccc"),
     "DATA_DROP":   ("DATA DROP", "#ff4d4d"),
     "THE_TAKE":    ("THE TAKE", "#ffffff"),
