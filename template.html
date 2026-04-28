@@ -185,13 +185,29 @@
   .up   { color: var(--green); }
   .down { color: var(--red); }
 
-  /* MAIN GRID — auto-fit so it scales naturally from huge monitors to phones */
-  .main {
+  /* ROW-BASED LAYOUT — explicit column counts per row, no dead space */
+  main { display: block; }
+
+  .row {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
     gap: 1px;
     background: var(--border);
-    padding: 1px;
+    padding: 1px 1px 0 1px;
+  }
+  .row + .row { padding-top: 0; }
+
+  .row-3 { grid-template-columns: repeat(3, 1fr); }
+  .row-2 { grid-template-columns: repeat(2, 1fr); }
+  .row-1 { grid-template-columns: 1fr; }
+
+  /* Tablet: collapse 3-col rows to 2-col, 2-col stays */
+  @media (max-width: 1100px) and (min-width: 701px) {
+    .row-3 { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  /* Mobile: everything stacks */
+  @media (max-width: 700px) {
+    .row-3, .row-2 { grid-template-columns: 1fr; }
   }
 
   .panel {
@@ -201,11 +217,30 @@
     overflow: hidden;
   }
 
-  /* On wide screens, let certain panels span 2 columns */
-  @media (min-width: 1100px) {
-    .panel-wide { grid-column: span 2; }
+  /* Section divider used between major page regions (e.g. Global Desk header) */
+  .desk-divider {
+    background: linear-gradient(90deg, #0d0d0d 0%, #0a0a0a 100%);
+    border-top: 1px solid var(--green);
+    border-bottom: 1px solid var(--border-bright);
+    padding: 18px clamp(14px, 1.4vw, 22px);
+    min-height: 0;
   }
-  .panel-full { grid-column: 1 / -1; }
+  .desk-divider-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(16px, 1.4vw, 22px);
+    letter-spacing: 0.28em;
+    color: var(--text);
+  }
+  .desk-divider-title em {
+    color: var(--green);
+    font-style: normal;
+  }
+  .desk-divider-title small {
+    color: var(--text-dim);
+    font-size: 0.7em;
+    letter-spacing: 0.18em;
+    margin-left: 12px;
+  }
 
   .panel-head {
     display: flex;
@@ -480,207 +515,209 @@
 <!-- HERO (rendered from hero.md if present) -->
 {{HERO_SECTION}}
 
-<!-- MAIN GRID -->
-<main class="main">
+<main>
 
-  <!-- US INDICES -->
-  <div class="panel">
-    <div class="panel-head">
-      <div class="panel-title">US Equities</div>
-      <div class="panel-meta">{{TIMESTAMP_SHORT}}</div>
+  <!-- ── MARKETS AT A GLANCE ── -->
+  <section class="row row-3">
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title">US Equities</div>
+        <div class="panel-meta">{{TIMESTAMP_SHORT}}</div>
+      </div>
+      <table>
+        <thead>
+          <tr><th>Index</th><th class="r">Last</th><th class="r">Chg</th><th class="r">%</th></tr>
+        </thead>
+        <tbody>
+          {{US_EQUITIES}}
+        </tbody>
+      </table>
     </div>
-    <table>
-      <thead>
-        <tr><th>Index</th><th class="r">Last</th><th class="r">Chg</th><th class="r">%</th></tr>
-      </thead>
-      <tbody>
-        {{US_EQUITIES}}
-      </tbody>
-    </table>
-  </div>
 
-  <!-- GLOBAL INDICES -->
-  <div class="panel">
-    <div class="panel-head">
-      <div class="panel-title">Global Indices</div>
-      <div class="panel-meta">CLOSE / LIVE</div>
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title">Global Indices</div>
+        <div class="panel-meta">CLOSE / LIVE</div>
+      </div>
+      <table>
+        <thead>
+          <tr><th>Index</th><th class="r">Last</th><th class="r">%</th></tr>
+        </thead>
+        <tbody>
+          {{GLOBAL_INDICES}}
+        </tbody>
+      </table>
     </div>
-    <table>
-      <thead>
-        <tr><th>Index</th><th class="r">Last</th><th class="r">%</th></tr>
-      </thead>
-      <tbody>
-        {{GLOBAL_INDICES}}
-      </tbody>
-    </table>
-  </div>
 
-  <!-- BONDS -->
-  <div class="panel">
-    <div class="panel-head">
-      <div class="panel-title">Treasuries / Yields</div>
-      <div class="panel-meta">LIVE</div>
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title">Treasuries / Yields</div>
+        <div class="panel-meta">LIVE</div>
+      </div>
+      <table>
+        <thead>
+          <tr><th>Tenor</th><th class="r">Yield</th><th class="r">Δ bp</th></tr>
+        </thead>
+        <tbody>
+          {{TREASURIES}}
+        </tbody>
+      </table>
     </div>
-    <table>
-      <thead>
-        <tr><th>Tenor</th><th class="r">Yield</th><th class="r">Δ bp</th></tr>
-      </thead>
-      <tbody>
-        {{TREASURIES}}
-      </tbody>
-    </table>
-  </div>
+  </section>
 
-  <!-- HEADLINES (WIDE) -->
-  <div class="panel panel-wide">
-    <div class="panel-head">
-      <div class="panel-title">From the Pack</div>
-      <div class="panel-meta">{{TIMESTAMP_SHORT}}</div>
+  <!-- ── GLOBAL DESK DIVIDER ── -->
+  <section class="row row-1">
+    <div class="panel desk-divider">
+      <div class="desk-divider-title">
+        ▸ <em>GLOBAL DESK</em> <small>FROM EVERY CORNER OF THE MARKET</small>
+      </div>
     </div>
-    {{HEADLINES}}
-  </div>
+  </section>
 
-  <!-- FX -->
-  <div class="panel">
-    <div class="panel-head">
-      <div class="panel-title">FX</div>
-      <div class="panel-meta">SPOT</div>
+  <!-- ── FROM THE PACK (full-width global wire) ── -->
+  <section class="row row-1">
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title">From the Pack</div>
+        <div class="panel-meta">{{TIMESTAMP_SHORT}}</div>
+      </div>
+      {{HEADLINES}}
     </div>
-    <table>
-      <thead>
-        <tr><th>Pair</th><th class="r">Last</th><th class="r">%</th></tr>
-      </thead>
-      <tbody>
-        {{FX}}
-      </tbody>
-    </table>
-  </div>
+  </section>
 
-  <!-- COMMODITIES -->
-  <div class="panel">
-    <div class="panel-head">
-      <div class="panel-title">Commodities</div>
-      <div class="panel-meta">FUTURES</div>
+  <!-- ── REGIONAL DRILL-DOWN ── -->
+  <section class="row row-3">
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title">United States</div>
+        <div class="panel-meta">DOMESTIC WIRE</div>
+      </div>
+      {{REGIONAL_US}}
     </div>
-    <table>
-      <thead>
-        <tr><th>Contract</th><th class="r">Last</th><th class="r">%</th></tr>
-      </thead>
-      <tbody>
-        {{COMMODITIES}}
-      </tbody>
-    </table>
-  </div>
 
-  <!-- CRYPTO -->
-  <div class="panel">
-    <div class="panel-head">
-      <div class="panel-title">Crypto</div>
-      <div class="panel-meta">24H</div>
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title">Europe</div>
+        <div class="panel-meta">EU / UK</div>
+      </div>
+      {{REGIONAL_EU}}
     </div>
-    <table>
-      <thead>
-        <tr><th>Asset</th><th class="r">USD</th><th class="r">%</th></tr>
-      </thead>
-      <tbody>
-        {{CRYPTO}}
-      </tbody>
-    </table>
-  </div>
 
-  <!-- SECTOR PERFORMANCE -->
-  <div class="panel panel-wide">
-    <div class="panel-head">
-      <div class="panel-title">Sector Performance</div>
-      <div class="panel-meta">S&amp;P SECTOR ETFS</div>
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title">Asia / Pacific</div>
+        <div class="panel-meta">APAC</div>
+      </div>
+      {{REGIONAL_ASIA}}
     </div>
-    <table>
-      <thead>
-        <tr><th>Sector</th><th class="r">Last</th><th class="r">Chg</th><th class="r">%</th></tr>
-      </thead>
-      <tbody>
-        {{SECTORS}}
-      </tbody>
-    </table>
-  </div>
+  </section>
 
-  <!-- MEGA-CAP WATCHLIST -->
-  <div class="panel panel-wide">
-    <div class="panel-head">
-      <div class="panel-title">Mega-Cap Watch</div>
-      <div class="panel-meta">{{TIMESTAMP_SHORT}}</div>
+  <section class="row row-3">
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title">Middle East</div>
+        <div class="panel-meta">GULF / LEVANT</div>
+      </div>
+      {{REGIONAL_ME}}
     </div>
-    <table>
-      <thead>
-        <tr><th>Name</th><th class="r">Last</th><th class="r">Chg</th><th class="r">%</th></tr>
-      </thead>
-      <tbody>
-        {{MEGACAPS}}
-      </tbody>
-    </table>
-  </div>
 
-  <!-- REGIONAL DESK HEADER (full-width visual divider) -->
-  <div class="panel panel-full" style="min-height:0;padding:18px clamp(14px,1.4vw,22px);background:linear-gradient(90deg,#0d0d0d 0%,#0a0a0a 100%);border-top:1px solid var(--green);border-bottom:1px solid var(--border-bright);">
-    <div style="font-family:'Bebas Neue',sans-serif;font-size:clamp(16px,1.4vw,22px);letter-spacing:0.28em;color:var(--text);">
-      ▸ <span style="color:var(--green);">GLOBAL DESK</span> &nbsp;·&nbsp; <span style="color:var(--text-dim);font-size:0.7em;">FROM EVERY CORNER OF THE MARKET</span>
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title">Africa</div>
+        <div class="panel-meta">CONTINENTAL</div>
+      </div>
+      {{REGIONAL_AF}}
     </div>
-  </div>
 
-  <!-- REGIONAL: UNITED STATES (wide) -->
-  <div class="panel panel-wide">
-    <div class="panel-head">
-      <div class="panel-title">United States</div>
-      <div class="panel-meta">DOMESTIC WIRE</div>
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title">Americas</div>
+        <div class="panel-meta">CANADA / LATAM</div>
+      </div>
+      {{REGIONAL_AMERICAS}}
     </div>
-    {{REGIONAL_US}}
-  </div>
+  </section>
 
-  <!-- REGIONAL: EUROPE -->
-  <div class="panel">
-    <div class="panel-head">
-      <div class="panel-title">Europe</div>
-      <div class="panel-meta">EU / UK</div>
+  <!-- ── ASSET-CLASS DETAIL ── -->
+  <section class="row row-3">
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title">FX</div>
+        <div class="panel-meta">SPOT</div>
+      </div>
+      <table>
+        <thead>
+          <tr><th>Pair</th><th class="r">Last</th><th class="r">%</th></tr>
+        </thead>
+        <tbody>
+          {{FX}}
+        </tbody>
+      </table>
     </div>
-    {{REGIONAL_EU}}
-  </div>
 
-  <!-- REGIONAL: ASIA / PACIFIC -->
-  <div class="panel">
-    <div class="panel-head">
-      <div class="panel-title">Asia / Pacific</div>
-      <div class="panel-meta">APAC</div>
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title">Commodities</div>
+        <div class="panel-meta">FUTURES</div>
+      </div>
+      <table>
+        <thead>
+          <tr><th>Contract</th><th class="r">Last</th><th class="r">%</th></tr>
+        </thead>
+        <tbody>
+          {{COMMODITIES}}
+        </tbody>
+      </table>
     </div>
-    {{REGIONAL_ASIA}}
-  </div>
 
-  <!-- REGIONAL: MIDDLE EAST -->
-  <div class="panel">
-    <div class="panel-head">
-      <div class="panel-title">Middle East</div>
-      <div class="panel-meta">GULF / LEVANT</div>
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title">Crypto</div>
+        <div class="panel-meta">24H</div>
+      </div>
+      <table>
+        <thead>
+          <tr><th>Asset</th><th class="r">USD</th><th class="r">%</th></tr>
+        </thead>
+        <tbody>
+          {{CRYPTO}}
+        </tbody>
+      </table>
     </div>
-    {{REGIONAL_ME}}
-  </div>
+  </section>
 
-  <!-- REGIONAL: AFRICA -->
-  <div class="panel">
-    <div class="panel-head">
-      <div class="panel-title">Africa</div>
-      <div class="panel-meta">CONTINENTAL</div>
+  <!-- ── DEEP DIVES ── -->
+  <section class="row row-2">
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title">Sector Performance</div>
+        <div class="panel-meta">S&amp;P SECTOR ETFS</div>
+      </div>
+      <table>
+        <thead>
+          <tr><th>Sector</th><th class="r">Last</th><th class="r">Chg</th><th class="r">%</th></tr>
+        </thead>
+        <tbody>
+          {{SECTORS}}
+        </tbody>
+      </table>
     </div>
-    {{REGIONAL_AF}}
-  </div>
 
-  <!-- REGIONAL: AMERICAS (Canada + Latin America) -->
-  <div class="panel">
-    <div class="panel-head">
-      <div class="panel-title">Americas</div>
-      <div class="panel-meta">CANADA / LATAM</div>
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title">Mega-Cap Watch</div>
+        <div class="panel-meta">{{TIMESTAMP_SHORT}}</div>
+      </div>
+      <table>
+        <thead>
+          <tr><th>Name</th><th class="r">Last</th><th class="r">Chg</th><th class="r">%</th></tr>
+        </thead>
+        <tbody>
+          {{MEGACAPS}}
+        </tbody>
+      </table>
     </div>
-    {{REGIONAL_AMERICAS}}
-  </div>
-
+  </section>
 
 </main>
 

@@ -185,13 +185,29 @@
   .up   { color: var(--green); }
   .down { color: var(--red); }
 
-  /* MAIN GRID — auto-fit so it scales naturally from huge monitors to phones */
-  .main {
+  /* ROW-BASED LAYOUT — explicit column counts per row, no dead space */
+  main { display: block; }
+
+  .row {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
     gap: 1px;
     background: var(--border);
-    padding: 1px;
+    padding: 1px 1px 0 1px;
+  }
+  .row + .row { padding-top: 0; }
+
+  .row-3 { grid-template-columns: repeat(3, 1fr); }
+  .row-2 { grid-template-columns: repeat(2, 1fr); }
+  .row-1 { grid-template-columns: 1fr; }
+
+  /* Tablet: collapse 3-col rows to 2-col, 2-col stays */
+  @media (max-width: 1100px) and (min-width: 701px) {
+    .row-3 { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  /* Mobile: everything stacks */
+  @media (max-width: 700px) {
+    .row-3, .row-2 { grid-template-columns: 1fr; }
   }
 
   .panel {
@@ -201,11 +217,30 @@
     overflow: hidden;
   }
 
-  /* On wide screens, let certain panels span 2 columns */
-  @media (min-width: 1100px) {
-    .panel-wide { grid-column: span 2; }
+  /* Section divider used between major page regions (e.g. Global Desk header) */
+  .desk-divider {
+    background: linear-gradient(90deg, #0d0d0d 0%, #0a0a0a 100%);
+    border-top: 1px solid var(--green);
+    border-bottom: 1px solid var(--border-bright);
+    padding: 18px clamp(14px, 1.4vw, 22px);
+    min-height: 0;
   }
-  .panel-full { grid-column: 1 / -1; }
+  .desk-divider-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(16px, 1.4vw, 22px);
+    letter-spacing: 0.28em;
+    color: var(--text);
+  }
+  .desk-divider-title em {
+    color: var(--green);
+    font-style: normal;
+  }
+  .desk-divider-title small {
+    color: var(--text-dim);
+    font-size: 0.7em;
+    letter-spacing: 0.18em;
+    margin-left: 12px;
+  }
 
   .panel-head {
     display: flex;
@@ -467,7 +502,7 @@
     <div class="live-status">
       <span>NYSE: <span class="down">CLOSED</span></span>
       <span>LSE: <span class="down">CLOSED</span></span>
-      <span>TSE: <span class="up">OPEN</span></span>
+      <span>TSE: <span class="down">CLOSED</span></span>
       <span class="live-dot">LIVE</span>
     </div>
   </div>
@@ -481,17 +516,17 @@
 <span class="ticker-item"><span class="sym">VIX</span><span class="px">18.02</span><span class="down">-3.69%</span></span>
 <span class="ticker-item"><span class="sym">US10Y</span><span class="px">4.336%</span><span class="up">+2.6bp</span></span>
 <span class="ticker-item"><span class="sym">US2Y</span><span class="px">3.590%</span><span class="down">-0.3bp</span></span>
-<span class="ticker-item"><span class="sym">DXY</span><span class="px">98.56</span><span class="up">+0.08%</span></span>
-<span class="ticker-item"><span class="sym">EURUSD</span><span class="px">1.17</span><span class="up">+0.04%</span></span>
-<span class="ticker-item"><span class="sym">USDJPY</span><span class="px">159.21</span><span class="down">-0.23%</span></span>
-<span class="ticker-item"><span class="sym">BTC</span><span class="px">76,964</span><span class="down">-0.52%</span></span>
-<span class="ticker-item"><span class="sym">ETH</span><span class="px">2,290</span><span class="down">-0.59%</span></span>
-<span class="ticker-item"><span class="sym">WTI</span><span class="px">98.49</span><span class="up">+2.20%</span></span>
-<span class="ticker-item"><span class="sym">BRENT</span><span class="px">103.83</span><span class="down">-4.07%</span></span>
-<span class="ticker-item"><span class="sym">GOLD</span><span class="px">4,642.70</span><span class="down">-0.70%</span></span>
-<span class="ticker-item"><span class="sym">SILVER</span><span class="px">73.35</span><span class="down">-2.21%</span></span>
-<span class="ticker-item"><span class="sym">COPPER</span><span class="px">6.05</span><span class="up">+0.56%</span></span>
-<span class="ticker-item"><span class="sym">NAT GAS</span><span class="px">2.72</span><span class="up">+6.59%</span></span>
+<span class="ticker-item"><span class="sym">DXY</span><span class="px">98.62</span><span class="up">+0.14%</span></span>
+<span class="ticker-item"><span class="sym">EURUSD</span><span class="px">1.17</span><span class="up">+0.02%</span></span>
+<span class="ticker-item"><span class="sym">USDJPY</span><span class="px">159.17</span><span class="down">-0.26%</span></span>
+<span class="ticker-item"><span class="sym">BTC</span><span class="px">77,017</span><span class="down">-0.45%</span></span>
+<span class="ticker-item"><span class="sym">ETH</span><span class="px">2,291</span><span class="down">-0.56%</span></span>
+<span class="ticker-item"><span class="sym">WTI</span><span class="px">98.12</span><span class="up">+1.82%</span></span>
+<span class="ticker-item"><span class="sym">BRENT</span><span class="px">103.39</span><span class="down">-4.47%</span></span>
+<span class="ticker-item"><span class="sym">GOLD</span><span class="px">4,641.30</span><span class="down">-0.73%</span></span>
+<span class="ticker-item"><span class="sym">SILVER</span><span class="px">73.32</span><span class="down">-2.24%</span></span>
+<span class="ticker-item"><span class="sym">COPPER</span><span class="px">6.05</span><span class="up">+0.60%</span></span>
+<span class="ticker-item"><span class="sym">NAT GAS</span><span class="px">2.72</span><span class="up">+6.78%</span></span>
     </div>
   </div>
 </header>
@@ -505,160 +540,238 @@
 </section>
 </a>
 
-<!-- MAIN GRID -->
-<main class="main">
+<main>
 
-  <!-- US INDICES -->
-  <div class="panel">
-    <div class="panel-head">
-      <div class="panel-title">US Equities</div>
-      <div class="panel-meta">01:58 EDT</div>
-    </div>
-    <table>
-      <thead>
-        <tr><th>Index</th><th class="r">Last</th><th class="r">Chg</th><th class="r">%</th></tr>
-      </thead>
-      <tbody>
-        <tr><td class="sym-cell">S&amp;P 500</td><td class="r">7,173.91</td><td class="r up">+8.83</td><td class="r"><span class="pct-pill up">+0.12%</span></td></tr>
+  <!-- ── MARKETS AT A GLANCE ── -->
+  <section class="row row-3">
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title">US Equities</div>
+        <div class="panel-meta">02:12 EDT</div>
+      </div>
+      <table>
+        <thead>
+          <tr><th>Index</th><th class="r">Last</th><th class="r">Chg</th><th class="r">%</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="sym-cell">S&amp;P 500</td><td class="r">7,173.91</td><td class="r up">+8.83</td><td class="r"><span class="pct-pill up">+0.12%</span></td></tr>
 <tr><td class="sym-cell">Nasdaq 100</td><td class="r">27,305.68</td><td class="r up">+2.01</td><td class="r"><span class="pct-pill up">+0.01%</span></td></tr>
 <tr><td class="sym-cell">Dow Jones</td><td class="r">49,167.79</td><td class="r down">-62.92</td><td class="r"><span class="pct-pill down">-0.13%</span></td></tr>
 <tr><td class="sym-cell">Russell 2000</td><td class="r">2,788.19</td><td class="r up">+1.19</td><td class="r"><span class="pct-pill up">+0.04%</span></td></tr>
 <tr><td class="sym-cell">VIX</td><td class="r">18.02</td><td class="r down">-0.690</td><td class="r"><span class="pct-pill down">-3.69%</span></td></tr>
-      </tbody>
-    </table>
-  </div>
-
-  <!-- GLOBAL INDICES -->
-  <div class="panel">
-    <div class="panel-head">
-      <div class="panel-title">Global Indices</div>
-      <div class="panel-meta">CLOSE / LIVE</div>
+        </tbody>
+      </table>
     </div>
-    <table>
-      <thead>
-        <tr><th>Index</th><th class="r">Last</th><th class="r">%</th></tr>
-      </thead>
-      <tbody>
-        <tr><td class="sym-cell">FTSE 100</td><td class="r">10,321.10</td><td class="r"><span class="pct-pill down">-0.56%</span></td></tr>
+
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title">Global Indices</div>
+        <div class="panel-meta">CLOSE / LIVE</div>
+      </div>
+      <table>
+        <thead>
+          <tr><th>Index</th><th class="r">Last</th><th class="r">%</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="sym-cell">FTSE 100</td><td class="r">10,321.10</td><td class="r"><span class="pct-pill down">-0.56%</span></td></tr>
 <tr><td class="sym-cell">DAX</td><td class="r">24,083.53</td><td class="r"><span class="pct-pill down">-0.19%</span></td></tr>
 <tr><td class="sym-cell">CAC 40</td><td class="r">8,141.92</td><td class="r"><span class="pct-pill down">-0.19%</span></td></tr>
-<tr><td class="sym-cell">Nikkei 225</td><td class="r">59,799.26</td><td class="r"><span class="pct-pill down">-1.22%</span></td></tr>
-<tr><td class="sym-cell">Hang Seng</td><td class="r">25,670.02</td><td class="r"><span class="pct-pill down">-0.99%</span></td></tr>
-<tr><td class="sym-cell">Shanghai</td><td class="r">4,068.78</td><td class="r"><span class="pct-pill down">-0.43%</span></td></tr>
-      </tbody>
-    </table>
-  </div>
-
-  <!-- BONDS -->
-  <div class="panel">
-    <div class="panel-head">
-      <div class="panel-title">Treasuries / Yields</div>
-      <div class="panel-meta">LIVE</div>
+<tr><td class="sym-cell">Nikkei 225</td><td class="r">59,831.85</td><td class="r"><span class="pct-pill down">-1.17%</span></td></tr>
+<tr><td class="sym-cell">Hang Seng</td><td class="r">25,657.47</td><td class="r"><span class="pct-pill down">-1.03%</span></td></tr>
+<tr><td class="sym-cell">Shanghai</td><td class="r">4,069.35</td><td class="r"><span class="pct-pill down">-0.42%</span></td></tr>
+        </tbody>
+      </table>
     </div>
-    <table>
-      <thead>
-        <tr><th>Tenor</th><th class="r">Yield</th><th class="r">Δ bp</th></tr>
-      </thead>
-      <tbody>
-        <tr><td class="sym-cell">US 2Y</td><td class="r">3.590%</td><td class="r down">-0.3</td></tr>
+
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title">Treasuries / Yields</div>
+        <div class="panel-meta">LIVE</div>
+      </div>
+      <table>
+        <thead>
+          <tr><th>Tenor</th><th class="r">Yield</th><th class="r">Δ bp</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="sym-cell">US 2Y</td><td class="r">3.590%</td><td class="r down">-0.3</td></tr>
 <tr><td class="sym-cell">US 5Y</td><td class="r">3.947%</td><td class="r up">+2.7</td></tr>
 <tr><td class="sym-cell">US 10Y</td><td class="r">4.336%</td><td class="r up">+2.6</td></tr>
 <tr><td class="sym-cell">US 30Y</td><td class="r">4.942%</td><td class="r up">+2.6</td></tr>
-      </tbody>
-    </table>
-  </div>
-
-  <!-- HEADLINES (WIDE) -->
-  <div class="panel panel-wide">
-    <div class="panel-head">
-      <div class="panel-title">From the Pack</div>
-      <div class="panel-meta">01:58 EDT</div>
+        </tbody>
+      </table>
     </div>
-    <a href="https://business.inquirer.net/587542/atlas-mining-turns-around-with-p645-m-profit-in-q1" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">INQUIRER PH</span><span>Apr 28 08:43</span></div><div class="headline-text">Atlas Mining turns around with P645-M profit in Q1</div></div></a>
+  </section>
+
+  <!-- ── GLOBAL DESK DIVIDER ── -->
+  <section class="row row-1">
+    <div class="panel desk-divider">
+      <div class="desk-divider-title">
+        ▸ <em>GLOBAL DESK</em> <small>FROM EVERY CORNER OF THE MARKET</small>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FROM THE PACK (full-width global wire) ── -->
+  <section class="row row-1">
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title">From the Pack</div>
+        <div class="panel-meta">02:12 EDT</div>
+      </div>
+      <a href="https://business.inquirer.net/587542/atlas-mining-turns-around-with-p645-m-profit-in-q1" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">INQUIRER PH</span><span>Apr 28 08:43</span></div><div class="headline-text">Atlas Mining turns around with P645-M profit in Q1</div></div></a>
 <a href="https://business.inquirer.net/587538/peso-touches-new-record-low-of-60-971-in-morning-trade" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">INQUIRER PH</span><span>Apr 28 07:53</span></div><div class="headline-text">Peso touches new record low of 60.97:$1 in morning trade</div></div></a>
+<a href="https://www.smh.com.au/business/companies/true-north-launches-drilling-blitz-in-qld-to-grow-copper-discovery-20260428-p5zrss.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">SMH</span><span>Apr 28 02:08</span></div><div class="headline-text">True North launches drilling blitz in Qld to grow copper discovery</div></div></a>
+<a href="https://www.investing.com/news/stock-market-news/google-signs-classified-ai-deal-with-pentagon-the-information-reports-4640272" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">INVESTING</span><span>Apr 28 02:06</span></div><div class="headline-text">Google signs classified AI deal with Pentagon, The Information reports</div></div></a>
+<a href="https://www.investing.com/news/world-news/iran-war-is-latest-blow-to-somalias-malnourished-children-4640301" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">INVESTING</span><span>Apr 28 02:06</span></div><div class="headline-text">Iran war is latest blow to Somalia’s malnourished children</div></div></a>
+<a href="https://financialpost.com/globe-newswire/boehringer-ingelheims-novel-glucagon-glp-1-dual-agonist-survodutide-achieved-significant-weight-loss-of-16-6-delivering-meaningful-metabolic-improvement-in-people-with-obesity-or-overweight-in-phase" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">FINANCIAL POST</span><span>Apr 28 02:05</span></div><div class="headline-text">Boehringer Ingelheim’s novel glucagon/GLP-1 dual agonist survodutide achieved significant weight loss of 16.6% delivering meaningful metabolic improvement in people with obesity or overweight in Phase III trial</div></div></a>
+<a href="https://financialpost.com/globe-newswire/results-of-updated-mineral-resource-and-reserves-increases-consolidated-mi-to-731koz-au-and-inferred-resource-to-653koz-au" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">FINANCIAL POST</span><span>Apr 28 02:05</span></div><div class="headline-text">Results of Updated Mineral Resource and Reserves; Increases Consolidated M&amp;I to 731koz Au and Inferred Resource to 653koz Au</div></div></a>
+<a href="http://www.euronews.com/business/2026/04/28/exclusive-fintech-giant-revolut-is-opening-first-physical-store-in-barcelona" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">EURONEWS</span><span>Apr 28 02:00</span></div><div class="headline-text">Exclusive: Fintech giant Revolut to open first physical store in Barcelona</div></div></a>
 <a href="https://www.benzinga.com/money/how-to-get-free-stocks-august-2024" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">BENZINGA</span><span>Apr 28 01:57</span></div><div class="headline-text">How to Get Free Stocks in April 2026</div></div></a>
-<a href="https://financialpost.com/pmn/business-pmn/india-heat-wave-creates-new-inflation-risks-after-oil-surge" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">FINANCIAL POST</span><span>Apr 28 01:53</span></div><div class="headline-text">India Heat Wave Creates New Inflation Risks After Oil Surge</div></div></a>
-<a href="https://financialpost.com/pmn/business-pmn/yuan-gains-weigh-on-chinese-earnings-as-forex-losses-mount" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">FINANCIAL POST</span><span>Apr 28 01:53</span></div><div class="headline-text">Yuan Gains Weigh on Chinese Earnings as Forex Losses Mount</div></div></a>
-<a href="https://www.livemint.com/market/stock-market-news/maruti-suzuki-q4-results-2026-live-maruti-suzuki-share-price-maruti-suzuki-q4-earnings-profit-dividend-29-april-2026-11777355118123.html" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">MINT INDIA</span><span>Apr 28 01:49</span></div><div class="headline-text">Maruti Suzuki Q4 Results 2026 LIVE: Net profit may rise 12%, revenue growth seen at 26% YoY led by volumes, higher ASPs</div></div></a>
-<a href="https://www.investing.com/news/earnings/telenor-q1-net-income-triples-on-true-corp-gain-but-outlook-cut-on-war-impact-4640283" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">INVESTING</span><span>Apr 28 01:44</span></div><div class="headline-text">Telenor Q1 net income triples on True Corp gain but outlook cut on war impact</div></div></a>
-<a href="https://www.investing.com/news/stock-market-news/balco-group-reports-flat-q1-profit-as-sales-decline-order-backlog-jumps-93CH-4640282" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">INVESTING</span><span>Apr 28 01:41</span></div><div class="headline-text">Balco Group reports flat Q1 profit as sales decline, order backlog jumps</div></div></a>
 <a href="https://www.fxstreet.com/news/australian-dollar-trades-mixed-in-countdown-to-the-aussie-cpi-fed-policy-202604280540" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">FXSTREET</span><span>Apr 28 01:40</span></div><div class="headline-text">Australian Dollar trades mixed in countdown to the Aussie CPI, Fed policy</div></div></a>
-<a href="https://www.timesofisrael.com/around-20000-seafarers-stranded-in-persian-gulf-as-hormuz-stays-shut-despite-ceasefire/" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">TIMES ISRAEL</span><span>Apr 28 01:23</span></div><div class="headline-text">Around 20,000 seafarers stranded in Persian Gulf as Hormuz stays shut despite ceasefire</div></div></a>
-  </div>
-
-  <!-- FX -->
-  <div class="panel">
-    <div class="panel-head">
-      <div class="panel-title">FX</div>
-      <div class="panel-meta">SPOT</div>
     </div>
-    <table>
-      <thead>
-        <tr><th>Pair</th><th class="r">Last</th><th class="r">%</th></tr>
-      </thead>
-      <tbody>
-        <tr><td class="sym-cell">DXY</td><td class="r">98.56</td><td class="r"><span class="pct-pill up">+0.08%</span></td></tr>
-<tr><td class="sym-cell">EUR/USD</td><td class="r">1.1711</td><td class="r"><span class="pct-pill up">+0.04%</span></td></tr>
-<tr><td class="sym-cell">GBP/USD</td><td class="r">1.3521</td><td class="r"><span class="pct-pill up">+0.04%</span></td></tr>
-<tr><td class="sym-cell">USD/JPY</td><td class="r">159.58</td><td class="r"><span class="pct-pill up">+0.00%</span></td></tr>
-<tr><td class="sym-cell">USD/CNH</td><td class="r">6.8327</td><td class="r"><span class="pct-pill up">+0.13%</span></td></tr>
-<tr><td class="sym-cell">AUD/USD</td><td class="r">0.7181</td><td class="r"><span class="pct-pill up">+0.52%</span></td></tr>
-      </tbody>
-    </table>
-  </div>
+  </section>
 
-  <!-- COMMODITIES -->
-  <div class="panel">
-    <div class="panel-head">
-      <div class="panel-title">Commodities</div>
-      <div class="panel-meta">FUTURES</div>
+  <!-- ── REGIONAL DRILL-DOWN ── -->
+  <section class="row row-3">
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title">United States</div>
+        <div class="panel-meta">DOMESTIC WIRE</div>
+      </div>
+      <a href="https://www.investing.com/news/stock-market-news/google-signs-classified-ai-deal-with-pentagon-the-information-reports-4640272" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">INVESTING</span><span>Apr 28 02:06</span></div><div class="headline-text">Google signs classified AI deal with Pentagon, The Information reports</div></div></a>
+<a href="https://www.benzinga.com/money/how-to-get-free-stocks-august-2024" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">BENZINGA</span><span>Apr 28 01:57</span></div><div class="headline-text">How to Get Free Stocks in April 2026</div></div></a>
+<a href="https://investinglive.com/news/chinas-top-leadership-body-vows-to-continue-to-expand-domestic-demand-20260428/" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">FOREXLIVE</span><span>Apr 28 01:40</span></div><div class="headline-text">China&#x27;s top leadership body vows to continue to expand domestic demand</div></div></a>
+<a href="https://cointelegraph.com/news/solana-introduces-post-quantum-solution-falcon-on-two-validator-clients?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">COINTELEGRAPH</span><span>Apr 28 01:24</span></div><div class="headline-text">Solana clients Anza and Firedancer introduce post-quantum solution Falcon</div></div></a>
     </div>
-    <table>
-      <thead>
-        <tr><th>Contract</th><th class="r">Last</th><th class="r">%</th></tr>
-      </thead>
-      <tbody>
-        <tr><td class="sym-cell">WTI Crude</td><td class="r">98.49</td><td class="r"><span class="pct-pill up">+2.20%</span></td></tr>
-<tr><td class="sym-cell">Brent</td><td class="r">103.83</td><td class="r"><span class="pct-pill down">-4.07%</span></td></tr>
-<tr><td class="sym-cell">Nat Gas</td><td class="r">2.72</td><td class="r"><span class="pct-pill up">+6.59%</span></td></tr>
-<tr><td class="sym-cell">Gold</td><td class="r">4,642.70</td><td class="r"><span class="pct-pill down">-0.70%</span></td></tr>
-<tr><td class="sym-cell">Silver</td><td class="r">73.35</td><td class="r"><span class="pct-pill down">-2.21%</span></td></tr>
-<tr><td class="sym-cell">Copper</td><td class="r">6.05</td><td class="r"><span class="pct-pill up">+0.56%</span></td></tr>
-      </tbody>
-    </table>
-  </div>
 
-  <!-- CRYPTO -->
-  <div class="panel">
-    <div class="panel-head">
-      <div class="panel-title">Crypto</div>
-      <div class="panel-meta">24H</div>
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title">Europe</div>
+        <div class="panel-meta">EU / UK</div>
+      </div>
+      <a href="http://www.euronews.com/business/2026/04/28/exclusive-fintech-giant-revolut-is-opening-first-physical-store-in-barcelona" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">EURONEWS</span><span>Apr 28 02:00</span></div><div class="headline-text">Exclusive: Fintech giant Revolut to open first physical store in Barcelona</div></div></a>
+<a href="https://www.fxstreet.com/news/australian-dollar-trades-mixed-in-countdown-to-the-aussie-cpi-fed-policy-202604280540" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">FXSTREET</span><span>Apr 28 01:40</span></div><div class="headline-text">Australian Dollar trades mixed in countdown to the Aussie CPI, Fed policy</div></div></a>
+<a href="https://news.sky.com/story/oil-giant-bp-announces-huge-rise-in-profits-in-first-results-since-iran-war-13537444" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">SKY NEWS</span><span>Apr 28 01:16</span></div><div class="headline-text">Oil giant BP announces huge rise in profits in first results since Iran war</div></div></a>
+<a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSWdEcWtxT1pxaGxwMmc3bHE1elRLZlNOZHlvNWQtWG94NTZ0RzB3STJ3NmQxT0ZMUVhKYWYwWVZjbGhyMkdLaDZ1VEZHT3ZGdTB6cTFXdlV3MzRUT0s0N0JFZV9OUk9sRGNiS2NNeDlGa1czbGgxeGhhOV9BT09qcURMcDNRb3Q2SnE4Y1NSU2JzOXNyX0Q4eFl4My1SNVU1NWJITm43aUc?oc=5" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">REUTERS</span><span>Apr 28 00:08</span></div><div class="headline-text">Oil prices rise 1% as no end to Iran war stand-off seems in sight</div></div></a>
     </div>
-    <table>
-      <thead>
-        <tr><th>Asset</th><th class="r">USD</th><th class="r">%</th></tr>
-      </thead>
-      <tbody>
-        <tr><td class="sym-cell">Bitcoin</td><td class="r">76,964</td><td class="r"><span class="pct-pill down">-0.52%</span></td></tr>
-<tr><td class="sym-cell">Ethereum</td><td class="r">2,289.79</td><td class="r"><span class="pct-pill down">-0.59%</span></td></tr>
-<tr><td class="sym-cell">Solana</td><td class="r">84.21</td><td class="r"><span class="pct-pill down">-0.72%</span></td></tr>
-<tr><td class="sym-cell">XRP</td><td class="r">1.39</td><td class="r"><span class="pct-pill down">-0.46%</span></td></tr>
-      </tbody>
-    </table>
-  </div>
 
-  <!-- SECTOR PERFORMANCE -->
-  <div class="panel panel-wide">
-    <div class="panel-head">
-      <div class="panel-title">Sector Performance</div>
-      <div class="panel-meta">S&amp;P SECTOR ETFS</div>
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title">Asia / Pacific</div>
+        <div class="panel-meta">APAC</div>
+      </div>
+      <a href="https://business.inquirer.net/587542/atlas-mining-turns-around-with-p645-m-profit-in-q1" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">INQUIRER PH</span><span>Apr 28 08:43</span></div><div class="headline-text">Atlas Mining turns around with P645-M profit in Q1</div></div></a>
+<a href="https://www.smh.com.au/business/companies/true-north-launches-drilling-blitz-in-qld-to-grow-copper-discovery-20260428-p5zrss.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">SMH</span><span>Apr 28 02:08</span></div><div class="headline-text">True North launches drilling blitz in Qld to grow copper discovery</div></div></a>
+<a href="https://timesofindia.indiatimes.com/business/india-business/gold-price-prediction-today-where-are-gold-rates-headed-on-april-28-2026-and-in-the-near-term-mcx-gold-silver-prices/articleshow/130570979.cms" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">TIMES INDIA</span><span>Apr 28 01:56</span></div><div class="headline-text">Gold price prediction today: Will upside in gold be capped due to rising oil prices? Check April 28, 2026 outlook</div></div></a>
+<a href="https://www.livemint.com/market/stock-market-news/maruti-suzuki-q4-results-2026-live-maruti-suzuki-share-price-maruti-suzuki-q4-earnings-profit-dividend-29-april-2026-11777355118123.html" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">MINT INDIA</span><span>Apr 28 01:49</span></div><div class="headline-text">Maruti Suzuki Q4 Results 2026 LIVE: Net profit may rise 12%, revenue growth seen at 26% YoY led by volumes, higher ASPs</div></div></a>
     </div>
-    <table>
-      <thead>
-        <tr><th>Sector</th><th class="r">Last</th><th class="r">Chg</th><th class="r">%</th></tr>
-      </thead>
-      <tbody>
-        <tr><td class="sym-cell">Technology</td><td class="r">160.57</td><td class="r up">+0.350</td><td class="r"><span class="pct-pill up">+0.22%</span></td></tr>
+  </section>
+
+  <section class="row row-3">
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title">Middle East</div>
+        <div class="panel-meta">GULF / LEVANT</div>
+      </div>
+      <a href="https://www.timesofisrael.com/around-20000-seafarers-stranded-in-persian-gulf-as-hormuz-stays-shut-despite-ceasefire/" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">TIMES ISRAEL</span><span>Apr 28 01:23</span></div><div class="headline-text">Around 20,000 seafarers stranded in Persian Gulf as Hormuz stays shut despite ceasefire</div></div></a>
+<a href="https://www.arabnews.com/node/2635410/middle-east" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">ARAB NEWS</span><span></span></div><div class="headline-text">El-Sisi says Egypt in ‘state of near-emergency’ as war threatens economy</div></div></a>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title">Africa</div>
+        <div class="panel-meta">CONTINENTAL</div>
+      </div>
+      <a href="https://allafrica.com/stories/202604280001.html" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">ALL AFRICA</span><span>Apr 28 00:57</span></div><div class="headline-text">Central Africa: Internet Shutdowns Won&#x27;t Solve Central Africa&#x27;s Political Crises</div></div></a>
+<a href="https://www.dailymaverick.co.za/article/2026-04-28-trump-unhappy-with-iranian-proposal-us-official-says/" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">DAILY MAVERICK</span><span>Apr 28 00:34</span></div><div class="headline-text">Trump unhappy with Iranian proposal, US official says</div></div></a>
+<a href="https://www.biznews.com/wealth-advisors/evolving-framework-offshore-investment" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">BIZNEWS SA</span><span>Apr 27 23:00</span></div><div class="headline-text">Externalising capital: The evolving framework for offshore investment by SA residents</div></div></a>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title">Americas</div>
+        <div class="panel-meta">CANADA / LATAM</div>
+      </div>
+      <a href="https://financialpost.com/globe-newswire/boehringer-ingelheims-novel-glucagon-glp-1-dual-agonist-survodutide-achieved-significant-weight-loss-of-16-6-delivering-meaningful-metabolic-improvement-in-people-with-obesity-or-overweight-in-phase" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">FINANCIAL POST</span><span>Apr 28 02:05</span></div><div class="headline-text">Boehringer Ingelheim’s novel glucagon/GLP-1 dual agonist survodutide achieved significant weight loss of 16.6% delivering meaningful metabolic improvement in people with obesity or overweight in Phase III trial</div></div></a>
+<a href="https://en.mercopress.com/2026/04/28/argentine-vp-tells-islanders-to-go-back-to-england-as-us-presses-uk-over-f-16-jets?utm_source=feed&amp;utm_medium=rss&amp;utm_content=main&amp;utm_campaign=rss" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">MERCOPRESS</span><span>Apr 28 00:10</span></div><div class="headline-text">Argentine VP tells islanders to &#x27;go back to England&#x27; as US presses UK over F-16 jets</div></div></a>
+<a href="https://www.riotimesonline.com/colombia-remittances-march-2026-trump-tax-banrep/" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">RIO TIMES</span><span>Apr 27 14:11</span></div><div class="headline-text">Colombian Migrants Sent Home US$1.23 Billion in March, Up 12.5%</div></div></a>
+    </div>
+  </section>
+
+  <!-- ── ASSET-CLASS DETAIL ── -->
+  <section class="row row-3">
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title">FX</div>
+        <div class="panel-meta">SPOT</div>
+      </div>
+      <table>
+        <thead>
+          <tr><th>Pair</th><th class="r">Last</th><th class="r">%</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="sym-cell">DXY</td><td class="r">98.62</td><td class="r"><span class="pct-pill up">+0.14%</span></td></tr>
+<tr><td class="sym-cell">EUR/USD</td><td class="r">1.1708</td><td class="r"><span class="pct-pill up">+0.02%</span></td></tr>
+<tr><td class="sym-cell">GBP/USD</td><td class="r">1.3519</td><td class="r"><span class="pct-pill up">+0.03%</span></td></tr>
+<tr><td class="sym-cell">USD/JPY</td><td class="r">159.17</td><td class="r"><span class="pct-pill down">-0.26%</span></td></tr>
+<tr><td class="sym-cell">USD/CNH</td><td class="r">6.8325</td><td class="r"><span class="pct-pill up">+0.13%</span></td></tr>
+<tr><td class="sym-cell">AUD/USD</td><td class="r">0.7178</td><td class="r"><span class="pct-pill up">+0.49%</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title">Commodities</div>
+        <div class="panel-meta">FUTURES</div>
+      </div>
+      <table>
+        <thead>
+          <tr><th>Contract</th><th class="r">Last</th><th class="r">%</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="sym-cell">WTI Crude</td><td class="r">98.12</td><td class="r"><span class="pct-pill up">+1.82%</span></td></tr>
+<tr><td class="sym-cell">Brent</td><td class="r">103.39</td><td class="r"><span class="pct-pill down">-4.47%</span></td></tr>
+<tr><td class="sym-cell">Nat Gas</td><td class="r">2.72</td><td class="r"><span class="pct-pill up">+6.78%</span></td></tr>
+<tr><td class="sym-cell">Gold</td><td class="r">4,641.30</td><td class="r"><span class="pct-pill down">-0.73%</span></td></tr>
+<tr><td class="sym-cell">Silver</td><td class="r">73.32</td><td class="r"><span class="pct-pill down">-2.24%</span></td></tr>
+<tr><td class="sym-cell">Copper</td><td class="r">6.05</td><td class="r"><span class="pct-pill up">+0.60%</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title">Crypto</div>
+        <div class="panel-meta">24H</div>
+      </div>
+      <table>
+        <thead>
+          <tr><th>Asset</th><th class="r">USD</th><th class="r">%</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="sym-cell">Bitcoin</td><td class="r">77,017</td><td class="r"><span class="pct-pill down">-0.45%</span></td></tr>
+<tr><td class="sym-cell">Ethereum</td><td class="r">2,290.53</td><td class="r"><span class="pct-pill down">-0.56%</span></td></tr>
+<tr><td class="sym-cell">Solana</td><td class="r">84.31</td><td class="r"><span class="pct-pill down">-0.61%</span></td></tr>
+<tr><td class="sym-cell">XRP</td><td class="r">1.40</td><td class="r"><span class="pct-pill down">-0.31%</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ── DEEP DIVES ── -->
+  <section class="row row-2">
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title">Sector Performance</div>
+        <div class="panel-meta">S&amp;P SECTOR ETFS</div>
+      </div>
+      <table>
+        <thead>
+          <tr><th>Sector</th><th class="r">Last</th><th class="r">Chg</th><th class="r">%</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="sym-cell">Technology</td><td class="r">160.57</td><td class="r up">+0.350</td><td class="r"><span class="pct-pill up">+0.22%</span></td></tr>
 <tr><td class="sym-cell">Financials</td><td class="r">51.81</td><td class="r up">+0.390</td><td class="r"><span class="pct-pill up">+0.76%</span></td></tr>
 <tr><td class="sym-cell">Energy</td><td class="r">56.77</td><td class="r down">-0.100</td><td class="r"><span class="pct-pill down">-0.18%</span></td></tr>
 <tr><td class="sym-cell">Health Care</td><td class="r">143.46</td><td class="r down">-0.720</td><td class="r"><span class="pct-pill down">-0.50%</span></td></tr>
@@ -669,22 +782,21 @@
 <tr><td class="sym-cell">Discretionary</td><td class="r">117.84</td><td class="r down">-0.850</td><td class="r"><span class="pct-pill down">-0.72%</span></td></tr>
 <tr><td class="sym-cell">Real Estate</td><td class="r">43.49</td><td class="r down">-0.340</td><td class="r"><span class="pct-pill down">-0.78%</span></td></tr>
 <tr><td class="sym-cell">Comm Services</td><td class="r">115.81</td><td class="r up">+0.270</td><td class="r"><span class="pct-pill up">+0.23%</span></td></tr>
-      </tbody>
-    </table>
-  </div>
-
-  <!-- MEGA-CAP WATCHLIST -->
-  <div class="panel panel-wide">
-    <div class="panel-head">
-      <div class="panel-title">Mega-Cap Watch</div>
-      <div class="panel-meta">01:58 EDT</div>
+        </tbody>
+      </table>
     </div>
-    <table>
-      <thead>
-        <tr><th>Name</th><th class="r">Last</th><th class="r">Chg</th><th class="r">%</th></tr>
-      </thead>
-      <tbody>
-        <tr><td class="sym-cell">Apple</td><td class="r">267.61</td><td class="r down">-3.45</td><td class="r"><span class="pct-pill down">-1.27%</span></td></tr>
+
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title">Mega-Cap Watch</div>
+        <div class="panel-meta">02:12 EDT</div>
+      </div>
+      <table>
+        <thead>
+          <tr><th>Name</th><th class="r">Last</th><th class="r">Chg</th><th class="r">%</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="sym-cell">Apple</td><td class="r">267.61</td><td class="r down">-3.45</td><td class="r"><span class="pct-pill down">-1.27%</span></td></tr>
 <tr><td class="sym-cell">Microsoft</td><td class="r">424.82</td><td class="r up">+0.200</td><td class="r"><span class="pct-pill up">+0.05%</span></td></tr>
 <tr><td class="sym-cell">Nvidia</td><td class="r">216.61</td><td class="r up">+8.34</td><td class="r"><span class="pct-pill up">+4.00%</span></td></tr>
 <tr><td class="sym-cell">Alphabet</td><td class="r">350.34</td><td class="r up">+5.94</td><td class="r"><span class="pct-pill up">+1.72%</span></td></tr>
@@ -694,91 +806,16 @@
 <tr><td class="sym-cell">Berkshire B</td><td class="r">472.81</td><td class="r up">+3.49</td><td class="r"><span class="pct-pill up">+0.74%</span></td></tr>
 <tr><td class="sym-cell">JPMorgan</td><td class="r">311.63</td><td class="r up">+3.35</td><td class="r"><span class="pct-pill up">+1.09%</span></td></tr>
 <tr><td class="sym-cell">UnitedHealth</td><td class="r">354.69</td><td class="r down">-0.230</td><td class="r"><span class="pct-pill down">-0.06%</span></td></tr>
-      </tbody>
-    </table>
-  </div>
-
-  <!-- REGIONAL DESK HEADER (full-width visual divider) -->
-  <div class="panel panel-full" style="min-height:0;padding:18px clamp(14px,1.4vw,22px);background:linear-gradient(90deg,#0d0d0d 0%,#0a0a0a 100%);border-top:1px solid var(--green);border-bottom:1px solid var(--border-bright);">
-    <div style="font-family:'Bebas Neue',sans-serif;font-size:clamp(16px,1.4vw,22px);letter-spacing:0.28em;color:var(--text);">
-      ▸ <span style="color:var(--green);">GLOBAL DESK</span> &nbsp;·&nbsp; <span style="color:var(--text-dim);font-size:0.7em;">FROM EVERY CORNER OF THE MARKET</span>
+        </tbody>
+      </table>
     </div>
-  </div>
-
-  <!-- REGIONAL: UNITED STATES (wide) -->
-  <div class="panel panel-wide">
-    <div class="panel-head">
-      <div class="panel-title">United States</div>
-      <div class="panel-meta">DOMESTIC WIRE</div>
-    </div>
-    <a href="https://www.benzinga.com/money/how-to-get-free-stocks-august-2024" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">BENZINGA</span><span>Apr 28 01:57</span></div><div class="headline-text">How to Get Free Stocks in April 2026</div></div></a>
-<a href="https://www.investing.com/news/earnings/telenor-q1-net-income-triples-on-true-corp-gain-but-outlook-cut-on-war-impact-4640283" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">INVESTING</span><span>Apr 28 01:44</span></div><div class="headline-text">Telenor Q1 net income triples on True Corp gain but outlook cut on war impact</div></div></a>
-<a href="https://investinglive.com/news/chinas-top-leadership-body-vows-to-continue-to-expand-domestic-demand-20260428/" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">FOREXLIVE</span><span>Apr 28 01:40</span></div><div class="headline-text">China&#x27;s top leadership body vows to continue to expand domestic demand</div></div></a>
-<a href="https://cointelegraph.com/news/solana-introduces-post-quantum-solution-falcon-on-two-validator-clients?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">COINTELEGRAPH</span><span>Apr 28 01:24</span></div><div class="headline-text">Solana clients Anza and Firedancer introduce post-quantum solution Falcon</div></div></a>
-  </div>
-
-  <!-- REGIONAL: EUROPE -->
-  <div class="panel">
-    <div class="panel-head">
-      <div class="panel-title">Europe</div>
-      <div class="panel-meta">EU / UK</div>
-    </div>
-    <a href="https://www.fxstreet.com/news/australian-dollar-trades-mixed-in-countdown-to-the-aussie-cpi-fed-policy-202604280540" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">FXSTREET</span><span>Apr 28 01:40</span></div><div class="headline-text">Australian Dollar trades mixed in countdown to the Aussie CPI, Fed policy</div></div></a>
-<a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSWdEcWtxT1pxaGxwMmc3bHE1elRLZlNOZHlvNWQtWG94NTZ0RzB3STJ3NmQxT0ZMUVhKYWYwWVZjbGhyMkdLaDZ1VEZHT3ZGdTB6cTFXdlV3MzRUT0s0N0JFZV9OUk9sRGNiS2NNeDlGa1czbGgxeGhhOV9BT09qcURMcDNRb3Q2SnE4Y1NSU2JzOXNyX0Q4eFl4My1SNVU1NWJITm43aUc?oc=5" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">REUTERS</span><span>Apr 28 00:08</span></div><div class="headline-text">Oil prices rise 1% as no end to Iran war stand-off seems in sight</div></div></a>
-<a href="https://www.politico.eu/podcast/brussels-playbook-podcast/the-e1-8-trillion-standoff/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">POLITICO EU</span><span>Apr 28 00:05</span></div><div class="headline-text">The €1.8 trillion standoff</div></div></a>
-<a href="https://www.bbc.com/news/articles/c30r5z3vdydo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">BBC</span><span>Apr 27 19:56</span></div><div class="headline-text">My tenant owes £15,000 in rent, but I can&#x27;t get them out of the property</div></div></a>
-  </div>
-
-  <!-- REGIONAL: ASIA / PACIFIC -->
-  <div class="panel">
-    <div class="panel-head">
-      <div class="panel-title">Asia / Pacific</div>
-      <div class="panel-meta">APAC</div>
-    </div>
-    <a href="https://business.inquirer.net/587542/atlas-mining-turns-around-with-p645-m-profit-in-q1" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">INQUIRER PH</span><span>Apr 28 08:43</span></div><div class="headline-text">Atlas Mining turns around with P645-M profit in Q1</div></div></a>
-<a href="https://www.livemint.com/market/stock-market-news/maruti-suzuki-q4-results-2026-live-maruti-suzuki-share-price-maruti-suzuki-q4-earnings-profit-dividend-29-april-2026-11777355118123.html" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">MINT INDIA</span><span>Apr 28 01:49</span></div><div class="headline-text">Maruti Suzuki Q4 Results 2026 LIVE: Net profit may rise 12%, revenue growth seen at 26% YoY led by volumes, higher ASPs</div></div></a>
-<a href="https://www.smh.com.au/business/companies/lindian-locks-in-cheap-kazakh-acid-supply-as-china-export-ban-looms-20260428-p5zrsj.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">SMH</span><span>Apr 28 01:44</span></div><div class="headline-text">Lindian locks in cheap Kazakh acid supply as China export ban looms</div></div></a>
-<a href="https://www.straitstimes.com/business/companies-markets/chinas-state-refiners-seek-to-resume-fuel-exports-after-halt" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">STRAITS TIMES</span><span>Apr 28 01:32</span></div><div class="headline-text">China’s state refiners seek to resume fuel exports after halt</div></div></a>
-  </div>
-
-  <!-- REGIONAL: MIDDLE EAST -->
-  <div class="panel">
-    <div class="panel-head">
-      <div class="panel-title">Middle East</div>
-      <div class="panel-meta">GULF / LEVANT</div>
-    </div>
-    <a href="https://www.timesofisrael.com/around-20000-seafarers-stranded-in-persian-gulf-as-hormuz-stays-shut-despite-ceasefire/" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">TIMES ISRAEL</span><span>Apr 28 01:23</span></div><div class="headline-text">Around 20,000 seafarers stranded in Persian Gulf as Hormuz stays shut despite ceasefire</div></div></a>
-<a href="https://www.arabnews.com/node/2635410/middle-east" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">ARAB NEWS</span><span></span></div><div class="headline-text">El-Sisi says Egypt in ‘state of near-emergency’ as war threatens economy</div></div></a>
-  </div>
-
-  <!-- REGIONAL: AFRICA -->
-  <div class="panel">
-    <div class="panel-head">
-      <div class="panel-title">Africa</div>
-      <div class="panel-meta">CONTINENTAL</div>
-    </div>
-    <a href="https://allafrica.com/stories/202604280001.html" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">ALL AFRICA</span><span>Apr 28 00:57</span></div><div class="headline-text">Central Africa: Internet Shutdowns Won&#x27;t Solve Central Africa&#x27;s Political Crises</div></div></a>
-<a href="https://www.dailymaverick.co.za/article/2026-04-28-trump-unhappy-with-iranian-proposal-us-official-says/" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">DAILY MAVERICK</span><span>Apr 28 00:34</span></div><div class="headline-text">Trump unhappy with Iranian proposal, US official says</div></div></a>
-<a href="https://www.biznews.com/wealth-advisors/evolving-framework-offshore-investment" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">BIZNEWS SA</span><span>Apr 27 23:00</span></div><div class="headline-text">Externalising capital: The evolving framework for offshore investment by SA residents</div></div></a>
-  </div>
-
-  <!-- REGIONAL: AMERICAS (Canada + Latin America) -->
-  <div class="panel">
-    <div class="panel-head">
-      <div class="panel-title">Americas</div>
-      <div class="panel-meta">CANADA / LATAM</div>
-    </div>
-    <a href="https://financialpost.com/pmn/business-pmn/india-heat-wave-creates-new-inflation-risks-after-oil-surge" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">FINANCIAL POST</span><span>Apr 28 01:53</span></div><div class="headline-text">India Heat Wave Creates New Inflation Risks After Oil Surge</div></div></a>
-<a href="https://en.mercopress.com/2026/04/28/argentine-vp-tells-islanders-to-go-back-to-england-as-us-presses-uk-over-f-16-jets?utm_source=feed&amp;utm_medium=rss&amp;utm_content=main&amp;utm_campaign=rss" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">MERCOPRESS</span><span>Apr 28 00:10</span></div><div class="headline-text">Argentine VP tells islanders to &#x27;go back to England&#x27; as US presses UK over F-16 jets</div></div></a>
-<a href="https://www.riotimesonline.com/colombia-remittances-march-2026-trump-tax-banrep/" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">RIO TIMES</span><span>Apr 27 14:11</span></div><div class="headline-text">Colombian Migrants Sent Home US$1.23 Billion in March, Up 12.5%</div></div></a>
-  </div>
-
+  </section>
 
 </main>
 
 <footer class="footer-strip">
   <div>HOWL STREET · No BS 24/7 Global Financial News</div>
-  <div>DATA: YFINANCE · RSS WIRES &nbsp;·&nbsp; UPDATED: <span style="color: var(--green);">Apr 28 01:58 EDT</span></div>
+  <div>DATA: YFINANCE · RSS WIRES &nbsp;·&nbsp; UPDATED: <span style="color: var(--green);">Apr 28 02:12 EDT</span></div>
 </footer>
 
 </body>
