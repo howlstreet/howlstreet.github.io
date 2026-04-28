@@ -764,6 +764,23 @@ def is_us_treasury_open():
     return _exchange_open(NY, (8, 0), (17, 0), holidays=NYSE_HOLIDAYS)
 
 
+def is_any_major_market_open():
+    """True if any of NYSE / LSE / TSE is currently in regular session.
+    Drives the header LIVE/STANDBY indicator."""
+    return (
+        _exchange_open(NY,     (9, 30), (16, 0), holidays=NYSE_HOLIDAYS)
+        or _exchange_open(LONDON, (8, 0),  (16, 30))
+        or _exchange_open(TOKYO,  (9, 0),  (15, 0), lunch=((11, 30), (12, 30)))
+    )
+
+
+def build_live_indicator():
+    """LIVE pulse when a major market is open, STANDBY (dim, no animation) otherwise."""
+    if is_any_major_market_open():
+        return '<span class="live-dot">LIVE</span>'
+    return '<span class="live-dot standby">STANDBY</span>'
+
+
 def build_market_sessions():
     """NYSE / LSE / TSE open-or-closed indicator for the header."""
     sessions = [
@@ -1235,6 +1252,7 @@ def main():
     sessions_html = build_market_sessions()
     global_indices_status = "LIVE" if any_global_index_open() else "CLOSE"
     treasury_status = "LIVE" if is_us_treasury_open() else "CLOSED"
+    live_indicator_html = build_live_indicator()
 
     print("  Hero (Loudest Howl)...")
     hero_html = build_hero_from_md()
@@ -1292,6 +1310,7 @@ def main():
         .replace("{{REGIONAL_AMERICAS}}", regional.get("AMERICAS", ""))
         .replace("{{ECONOMIC_CALENDAR}}", calendar_html)
         .replace("{{MARKET_SESSIONS}}", sessions_html)
+        .replace("{{LIVE_INDICATOR}}", live_indicator_html)
         .replace("{{GLOBAL_INDICES_STATUS}}", global_indices_status)
         .replace("{{TREASURY_STATUS}}", treasury_status)
         .replace("{{TIMESTAMP}}", ts_str)

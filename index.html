@@ -139,9 +139,50 @@
     animation: pulse 1.4s infinite;
   }
 
+  /* When all major markets are closed: dim, static, no pulse */
+  .live-dot.standby {
+    color: var(--text-mid);
+  }
+  .live-dot.standby::before {
+    background: var(--text-dim);
+    box-shadow: none;
+    animation: none;
+  }
+
   @keyframes pulse {
     0%, 100% { opacity: 1; }
     50% { opacity: 0.3; }
+  }
+
+  /* TICKER LOOKUP */
+  .ticker-search {
+    flex: 0 1 260px;
+    margin: 0 12px;
+    min-width: 180px;
+  }
+  .ticker-search input {
+    width: 100%;
+    background: #050505;
+    border: 1px solid var(--border-bright);
+    color: var(--text);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: clamp(11px, 0.78vw, 13px);
+    padding: 8px 12px;
+    letter-spacing: 0.05em;
+    outline: none;
+    transition: border-color 0.18s, box-shadow 0.18s;
+    border-radius: 0;
+  }
+  .ticker-search input:focus {
+    border-color: var(--green);
+    box-shadow: 0 0 0 1px var(--green), 0 0 12px rgba(0,255,157,0.15);
+  }
+  .ticker-search input::placeholder {
+    color: var(--text-dim);
+    letter-spacing: 0.05em;
+  }
+  @media (max-width: 600px) {
+    .ticker-search { flex: 1 1 100%; margin: 4px 0 0 0; }
   }
 
   /* On small screens hide the per-exchange labels — keep just LIVE dot */
@@ -499,11 +540,14 @@
       <h1>HOWL <span>STREET</span></h1>
       <div class="brand-tag">Global Markets · Heard First</div>
     </div>
+    <form class="ticker-search" onsubmit="event.preventDefault();var t=(this.q.value||'').trim().toUpperCase();if(t){window.open('https://www.tradingview.com/symbols/'+encodeURIComponent(t)+'/','_blank','noopener');this.q.value='';this.q.blur();}return false;">
+      <input name="q" type="text" placeholder="▸ Lookup ticker · AAPL · press /" autocomplete="off" spellcheck="false" aria-label="Ticker lookup">
+    </form>
     <div class="live-status">
       <span>NYSE: <span class="down">CLOSED</span></span>
       <span>LSE: <span class="down">CLOSED</span></span>
       <span>TSE: <span class="down">CLOSED</span></span>
-      <span class="live-dot">LIVE</span>
+      <span class="live-dot standby">STANDBY</span>
     </div>
   </div>
 
@@ -516,17 +560,17 @@
 <span class="ticker-item"><span class="sym">VIX</span><span class="px">18.02</span><span class="down">-3.69%</span></span>
 <span class="ticker-item"><span class="sym">US10Y</span><span class="px">4.336%</span><span class="up">+2.6bp</span></span>
 <span class="ticker-item"><span class="sym">US2Y</span><span class="px">3.590%</span><span class="down">-0.3bp</span></span>
-<span class="ticker-item"><span class="sym">DXY</span><span class="px">98.57</span><span class="up">+0.09%</span></span>
-<span class="ticker-item"><span class="sym">EURUSD</span><span class="px">1.17</span><span class="up">+0.00%</span></span>
-<span class="ticker-item"><span class="sym">USDJPY</span><span class="px">159.20</span><span class="down">-0.24%</span></span>
-<span class="ticker-item"><span class="sym">BTC</span><span class="px">76,968</span><span class="down">-0.52%</span></span>
-<span class="ticker-item"><span class="sym">ETH</span><span class="px">2,288</span><span class="down">-0.66%</span></span>
-<span class="ticker-item"><span class="sym">WTI</span><span class="px">97.85</span><span class="up">+1.54%</span></span>
-<span class="ticker-item"><span class="sym">BRENT</span><span class="px">103.09</span><span class="down">-4.75%</span></span>
-<span class="ticker-item"><span class="sym">GOLD</span><span class="px">4,654.50</span><span class="down">-0.45%</span></span>
-<span class="ticker-item"><span class="sym">SILVER</span><span class="px">73.61</span><span class="down">-1.86%</span></span>
-<span class="ticker-item"><span class="sym">COPPER</span><span class="px">6.07</span><span class="up">+0.81%</span></span>
-<span class="ticker-item"><span class="sym">NAT GAS</span><span class="px">2.72</span><span class="up">+6.55%</span></span>
+<span class="ticker-item"><span class="sym">DXY</span><span class="px">98.58</span><span class="up">+0.11%</span></span>
+<span class="ticker-item"><span class="sym">EURUSD</span><span class="px">1.17</span><span class="down">-0.01%</span></span>
+<span class="ticker-item"><span class="sym">USDJPY</span><span class="px">159.24</span><span class="down">-0.21%</span></span>
+<span class="ticker-item"><span class="sym">BTC</span><span class="px">76,850</span><span class="down">-0.67%</span></span>
+<span class="ticker-item"><span class="sym">ETH</span><span class="px">2,285</span><span class="down">-0.80%</span></span>
+<span class="ticker-item"><span class="sym">WTI</span><span class="px">97.80</span><span class="up">+1.48%</span></span>
+<span class="ticker-item"><span class="sym">BRENT</span><span class="px">103.14</span><span class="down">-4.70%</span></span>
+<span class="ticker-item"><span class="sym">GOLD</span><span class="px">4,654.80</span><span class="down">-0.44%</span></span>
+<span class="ticker-item"><span class="sym">SILVER</span><span class="px">73.58</span><span class="down">-1.89%</span></span>
+<span class="ticker-item"><span class="sym">COPPER</span><span class="px">6.06</span><span class="up">+0.75%</span></span>
+<span class="ticker-item"><span class="sym">NAT GAS</span><span class="px">2.72</span><span class="up">+6.51%</span></span>
     </div>
   </div>
 </header>
@@ -547,7 +591,7 @@
     <div class="panel">
       <div class="panel-head">
         <div class="panel-title">US Equities</div>
-        <div class="panel-meta">02:20 EDT</div>
+        <div class="panel-meta">02:25 EDT</div>
       </div>
       <table>
         <thead>
@@ -576,9 +620,9 @@
           <tr><td class="sym-cell">FTSE 100</td><td class="r">10,321.10</td><td class="r"><span class="pct-pill down">-0.56%</span></td></tr>
 <tr><td class="sym-cell">DAX</td><td class="r">24,083.53</td><td class="r"><span class="pct-pill down">-0.19%</span></td></tr>
 <tr><td class="sym-cell">CAC 40</td><td class="r">8,141.92</td><td class="r"><span class="pct-pill down">-0.19%</span></td></tr>
-<tr><td class="sym-cell">Nikkei 225</td><td class="r">59,853.80</td><td class="r"><span class="pct-pill down">-1.13%</span></td></tr>
-<tr><td class="sym-cell">Hang Seng</td><td class="r">25,650.08</td><td class="r"><span class="pct-pill down">-1.06%</span></td></tr>
-<tr><td class="sym-cell">Shanghai</td><td class="r">4,070.74</td><td class="r"><span class="pct-pill down">-0.38%</span></td></tr>
+<tr><td class="sym-cell">Nikkei 225</td><td class="r">59,849.75</td><td class="r"><span class="pct-pill down">-1.14%</span></td></tr>
+<tr><td class="sym-cell">Hang Seng</td><td class="r">25,659.53</td><td class="r"><span class="pct-pill down">-1.03%</span></td></tr>
+<tr><td class="sym-cell">Shanghai</td><td class="r">4,076.69</td><td class="r"><span class="pct-pill down">-0.24%</span></td></tr>
         </tbody>
       </table>
     </div>
@@ -616,14 +660,14 @@
     <div class="panel">
       <div class="panel-head">
         <div class="panel-title">From the Pack</div>
-        <div class="panel-meta">02:20 EDT</div>
+        <div class="panel-meta">02:25 EDT</div>
       </div>
       <a href="https://business.inquirer.net/587547/pal-profit-up-2-6-in-turbulent-first-quarter" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">INQUIRER PH</span><span>Apr 28 10:15</span></div><div class="headline-text">PAL profit up 2.6% in turbulent first quarter</div></div></a>
 <a href="https://business.inquirer.net/587542/atlas-mining-turns-around-with-p645-m-profit-in-q1" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">INQUIRER PH</span><span>Apr 28 08:43</span></div><div class="headline-text">Atlas Mining turns around with P645-M profit in Q1</div></div></a>
+<a href="https://economictimes.indiatimes.com/news/economy/foreign-trade/india-fta-push-2026-uk-oman-new-zealand-execution-challenges-global-trade-risks/articleshow/130570771.cms" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">ECON TIMES IN</span><span>Apr 28 02:16</span></div><div class="headline-text">India’s trade deal roadmap walks into a world that’s threatened by missiles &amp; bombs</div></div></a>
 <a href="https://financialpost.com/globe-newswire/jay-mondo-and-aa-sports-group-llc-unveil-visionary-summer-music-campaign" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">FINANCIAL POST</span><span>Apr 28 02:15</span></div><div class="headline-text">Jay Mondo and A&amp;A Sports Group LLC Unveil Visionary Summer Music Campaign</div></div></a>
 <a href="https://www.timesofisrael.com/outgoing-mossad-chief-reportedly-says-qatargate-affair-didnt-seem-to-harm-state-security/" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">TIMES ISRAEL</span><span>Apr 28 02:14</span></div><div class="headline-text">Outgoing Mossad chief reportedly says Qatargate affair didn’t seem to harm state security</div></div></a>
 <a href="https://investinglive.com/news/what-are-the-main-events-for-today-20260428/" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">FOREXLIVE</span><span>Apr 28 02:12</span></div><div class="headline-text">What are the main events for today?</div></div></a>
-<a href="https://www.smh.com.au/business/companies/true-north-launches-drilling-blitz-in-qld-to-grow-copper-discovery-20260428-p5zrss.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">SMH</span><span>Apr 28 02:08</span></div><div class="headline-text">True North launches drilling blitz in Qld to grow copper discovery</div></div></a>
 <a href="https://www.investing.com/news/company-news/zealand-pharmas-survodutide-achieves-166-weight-loss-in-trial-93CH-4640299" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">INVESTING</span><span>Apr 28 02:05</span></div><div class="headline-text">Zealand Pharma’s survodutide achieves 16.6% weight loss in trial</div></div></a>
 <a href="https://financialpost.com/globe-newswire/boehringer-ingelheims-novel-glucagon-glp-1-dual-agonist-survodutide-achieved-significant-weight-loss-of-16-6-delivering-meaningful-metabolic-improvement-in-people-with-obesity-or-overweight-in-phase" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">FINANCIAL POST</span><span>Apr 28 02:05</span></div><div class="headline-text">Boehringer Ingelheim’s novel glucagon/GLP-1 dual agonist survodutide achieved significant weight loss of 16.6% delivering meaningful metabolic improvement in people with obesity or overweight in Phase III trial</div></div></a>
 <a href="https://www.investing.com/news/company-news/atalaya-mining-grants-share-awards-to-executives-and-employees-93CH-4640298" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">INVESTING</span><span>Apr 28 02:03</span></div><div class="headline-text">Atalaya Mining grants share awards to executives and employees</div></div></a>
@@ -652,7 +696,7 @@
       <a href="http://www.euronews.com/business/2026/04/28/exclusive-fintech-giant-revolut-is-opening-first-physical-store-in-barcelona" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">EURONEWS</span><span>Apr 28 02:00</span></div><div class="headline-text">Exclusive: Fintech giant Revolut to open first physical store in Barcelona</div></div></a>
 <a href="https://www.fxstreet.com/news/australian-dollar-trades-mixed-in-countdown-to-the-aussie-cpi-fed-policy-202604280540" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">FXSTREET</span><span>Apr 28 01:40</span></div><div class="headline-text">Australian Dollar trades mixed in countdown to the Aussie CPI, Fed policy</div></div></a>
 <a href="https://news.sky.com/story/oil-giant-bp-announces-huge-rise-in-profits-in-first-results-since-iran-war-13537444" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">SKY NEWS</span><span>Apr 28 01:16</span></div><div class="headline-text">Oil giant BP announces huge rise in profits in first results since Iran war</div></div></a>
-<a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSWdEcWtxT1pxaGxwMmc3bHE1elRLZlNOZHlvNWQtWG94NTZ0RzB3STJ3NmQxT0ZMUVhKYWYwWVZjbGhyMkdLaDZ1VEZHT3ZGdTB6cTFXdlV3MzRUT0s0N0JFZV9OUk9sRGNiS2NNeDlGa1czbGgxeGhhOV9BT09qcURMcDNRb3Q2SnE4Y1NSU2JzOXNyX0Q4eFl4My1SNVU1NWJITm43aUc?oc=5" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">REUTERS</span><span>Apr 28 00:08</span></div><div class="headline-text">Oil prices rise 1% as no end to Iran war stand-off seems in sight</div></div></a>
+<a href="https://www.politico.eu/podcast/brussels-playbook-podcast/the-e1-8-trillion-standoff/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">POLITICO EU</span><span>Apr 28 00:05</span></div><div class="headline-text">The €1.8 trillion standoff</div></div></a>
     </div>
 
     <div class="panel">
@@ -661,9 +705,9 @@
         <div class="panel-meta">APAC</div>
       </div>
       <a href="https://business.inquirer.net/587547/pal-profit-up-2-6-in-turbulent-first-quarter" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">INQUIRER PH</span><span>Apr 28 10:15</span></div><div class="headline-text">PAL profit up 2.6% in turbulent first quarter</div></div></a>
+<a href="https://economictimes.indiatimes.com/news/economy/foreign-trade/india-fta-push-2026-uk-oman-new-zealand-execution-challenges-global-trade-risks/articleshow/130570771.cms" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">ECON TIMES IN</span><span>Apr 28 02:16</span></div><div class="headline-text">India’s trade deal roadmap walks into a world that’s threatened by missiles &amp; bombs</div></div></a>
 <a href="https://www.smh.com.au/business/companies/true-north-launches-drilling-blitz-in-qld-to-grow-copper-discovery-20260428-p5zrss.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">SMH</span><span>Apr 28 02:08</span></div><div class="headline-text">True North launches drilling blitz in Qld to grow copper discovery</div></div></a>
 <a href="https://timesofindia.indiatimes.com/business/india-business/gold-price-prediction-today-where-are-gold-rates-headed-on-april-28-2026-and-in-the-near-term-mcx-gold-silver-prices/articleshow/130570979.cms" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">TIMES INDIA</span><span>Apr 28 01:56</span></div><div class="headline-text">Gold price prediction today: Will upside in gold be capped due to rising oil prices? Check April 28, 2026 outlook</div></div></a>
-<a href="https://www.livemint.com/market/stock-market-news/maruti-suzuki-q4-results-2026-live-maruti-suzuki-share-price-maruti-suzuki-q4-earnings-profit-dividend-29-april-2026-11777355118123.html" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="headline"><div class="headline-meta"><span class="source-tag">MINT INDIA</span><span>Apr 28 01:49</span></div><div class="headline-text">Maruti Suzuki Q4 Results 2026 LIVE: Net profit may rise 12%, revenue growth seen at 26% YoY led by volumes, higher ASPs</div></div></a>
     </div>
   </section>
 
@@ -710,12 +754,12 @@
           <tr><th>Pair</th><th class="r">Last</th><th class="r">%</th></tr>
         </thead>
         <tbody>
-          <tr><td class="sym-cell">DXY</td><td class="r">98.57</td><td class="r"><span class="pct-pill up">+0.09%</span></td></tr>
-<tr><td class="sym-cell">EUR/USD</td><td class="r">1.1707</td><td class="r"><span class="pct-pill up">+0.00%</span></td></tr>
-<tr><td class="sym-cell">GBP/USD</td><td class="r">1.3516</td><td class="r"><span class="pct-pill up">+0.01%</span></td></tr>
-<tr><td class="sym-cell">USD/JPY</td><td class="r">159.20</td><td class="r"><span class="pct-pill down">-0.24%</span></td></tr>
-<tr><td class="sym-cell">USD/CNH</td><td class="r">6.8334</td><td class="r"><span class="pct-pill up">+0.14%</span></td></tr>
-<tr><td class="sym-cell">AUD/USD</td><td class="r">0.7176</td><td class="r"><span class="pct-pill up">+0.46%</span></td></tr>
+          <tr><td class="sym-cell">DXY</td><td class="r">98.58</td><td class="r"><span class="pct-pill up">+0.11%</span></td></tr>
+<tr><td class="sym-cell">EUR/USD</td><td class="r">1.1705</td><td class="r"><span class="pct-pill down">-0.01%</span></td></tr>
+<tr><td class="sym-cell">GBP/USD</td><td class="r">1.3514</td><td class="r"><span class="pct-pill down">-0.01%</span></td></tr>
+<tr><td class="sym-cell">USD/JPY</td><td class="r">159.24</td><td class="r"><span class="pct-pill down">-0.21%</span></td></tr>
+<tr><td class="sym-cell">USD/CNH</td><td class="r">6.8330</td><td class="r"><span class="pct-pill up">+0.13%</span></td></tr>
+<tr><td class="sym-cell">AUD/USD</td><td class="r">0.7176</td><td class="r"><span class="pct-pill up">+0.45%</span></td></tr>
         </tbody>
       </table>
     </div>
@@ -730,12 +774,12 @@
           <tr><th>Contract</th><th class="r">Last</th><th class="r">%</th></tr>
         </thead>
         <tbody>
-          <tr><td class="sym-cell">WTI Crude</td><td class="r">97.85</td><td class="r"><span class="pct-pill up">+1.54%</span></td></tr>
-<tr><td class="sym-cell">Brent</td><td class="r">103.09</td><td class="r"><span class="pct-pill down">-4.75%</span></td></tr>
-<tr><td class="sym-cell">Nat Gas</td><td class="r">2.72</td><td class="r"><span class="pct-pill up">+6.55%</span></td></tr>
-<tr><td class="sym-cell">Gold</td><td class="r">4,654.50</td><td class="r"><span class="pct-pill down">-0.45%</span></td></tr>
-<tr><td class="sym-cell">Silver</td><td class="r">73.61</td><td class="r"><span class="pct-pill down">-1.86%</span></td></tr>
-<tr><td class="sym-cell">Copper</td><td class="r">6.07</td><td class="r"><span class="pct-pill up">+0.81%</span></td></tr>
+          <tr><td class="sym-cell">WTI Crude</td><td class="r">97.80</td><td class="r"><span class="pct-pill up">+1.48%</span></td></tr>
+<tr><td class="sym-cell">Brent</td><td class="r">103.14</td><td class="r"><span class="pct-pill down">-4.70%</span></td></tr>
+<tr><td class="sym-cell">Nat Gas</td><td class="r">2.72</td><td class="r"><span class="pct-pill up">+6.51%</span></td></tr>
+<tr><td class="sym-cell">Gold</td><td class="r">4,654.80</td><td class="r"><span class="pct-pill down">-0.44%</span></td></tr>
+<tr><td class="sym-cell">Silver</td><td class="r">73.58</td><td class="r"><span class="pct-pill down">-1.89%</span></td></tr>
+<tr><td class="sym-cell">Copper</td><td class="r">6.06</td><td class="r"><span class="pct-pill up">+0.75%</span></td></tr>
         </tbody>
       </table>
     </div>
@@ -750,10 +794,10 @@
           <tr><th>Asset</th><th class="r">USD</th><th class="r">%</th></tr>
         </thead>
         <tbody>
-          <tr><td class="sym-cell">Bitcoin</td><td class="r">76,968</td><td class="r"><span class="pct-pill down">-0.52%</span></td></tr>
-<tr><td class="sym-cell">Ethereum</td><td class="r">2,288.16</td><td class="r"><span class="pct-pill down">-0.66%</span></td></tr>
-<tr><td class="sym-cell">Solana</td><td class="r">84.17</td><td class="r"><span class="pct-pill down">-0.77%</span></td></tr>
-<tr><td class="sym-cell">XRP</td><td class="r">1.39</td><td class="r"><span class="pct-pill down">-0.47%</span></td></tr>
+          <tr><td class="sym-cell">Bitcoin</td><td class="r">76,850</td><td class="r"><span class="pct-pill down">-0.67%</span></td></tr>
+<tr><td class="sym-cell">Ethereum</td><td class="r">2,284.80</td><td class="r"><span class="pct-pill down">-0.80%</span></td></tr>
+<tr><td class="sym-cell">Solana</td><td class="r">84.07</td><td class="r"><span class="pct-pill down">-0.89%</span></td></tr>
+<tr><td class="sym-cell">XRP</td><td class="r">1.39</td><td class="r"><span class="pct-pill down">-0.63%</span></td></tr>
         </tbody>
       </table>
     </div>
@@ -789,7 +833,7 @@
     <div class="panel">
       <div class="panel-head">
         <div class="panel-title">Mega-Cap Watch</div>
-        <div class="panel-meta">02:20 EDT</div>
+        <div class="panel-meta">02:25 EDT</div>
       </div>
       <table>
         <thead>
@@ -815,8 +859,22 @@
 
 <footer class="footer-strip">
   <div>HOWL STREET · No BS 24/7 Global Financial News</div>
-  <div>DATA: YFINANCE · RSS WIRES &nbsp;·&nbsp; UPDATED: <span style="color: var(--green);">Apr 28 02:20 EDT</span></div>
+  <div>DATA: YFINANCE · RSS WIRES &nbsp;·&nbsp; UPDATED: <span style="color: var(--green);">Apr 28 02:25 EDT</span></div>
 </footer>
 
+<script>
+// "/" focuses the ticker lookup; Esc blurs it
+document.addEventListener('keydown', function(e) {
+  var inp = document.querySelector('.ticker-search input');
+  if (!inp) return;
+  var tag = (document.activeElement && document.activeElement.tagName) || '';
+  if (e.key === '/' && tag !== 'INPUT' && tag !== 'TEXTAREA') {
+    e.preventDefault();
+    inp.focus();
+  } else if (e.key === 'Escape' && document.activeElement === inp) {
+    inp.blur();
+  }
+});
+</script>
 </body>
 </html>

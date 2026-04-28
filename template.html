@@ -139,9 +139,50 @@
     animation: pulse 1.4s infinite;
   }
 
+  /* When all major markets are closed: dim, static, no pulse */
+  .live-dot.standby {
+    color: var(--text-mid);
+  }
+  .live-dot.standby::before {
+    background: var(--text-dim);
+    box-shadow: none;
+    animation: none;
+  }
+
   @keyframes pulse {
     0%, 100% { opacity: 1; }
     50% { opacity: 0.3; }
+  }
+
+  /* TICKER LOOKUP */
+  .ticker-search {
+    flex: 0 1 260px;
+    margin: 0 12px;
+    min-width: 180px;
+  }
+  .ticker-search input {
+    width: 100%;
+    background: #050505;
+    border: 1px solid var(--border-bright);
+    color: var(--text);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: clamp(11px, 0.78vw, 13px);
+    padding: 8px 12px;
+    letter-spacing: 0.05em;
+    outline: none;
+    transition: border-color 0.18s, box-shadow 0.18s;
+    border-radius: 0;
+  }
+  .ticker-search input:focus {
+    border-color: var(--green);
+    box-shadow: 0 0 0 1px var(--green), 0 0 12px rgba(0,255,157,0.15);
+  }
+  .ticker-search input::placeholder {
+    color: var(--text-dim);
+    letter-spacing: 0.05em;
+  }
+  @media (max-width: 600px) {
+    .ticker-search { flex: 1 1 100%; margin: 4px 0 0 0; }
   }
 
   /* On small screens hide the per-exchange labels — keep just LIVE dot */
@@ -499,9 +540,12 @@
       <h1>HOWL <span>STREET</span></h1>
       <div class="brand-tag">Global Markets · Heard First</div>
     </div>
+    <form class="ticker-search" onsubmit="event.preventDefault();var t=(this.q.value||'').trim().toUpperCase();if(t){window.open('https://www.tradingview.com/symbols/'+encodeURIComponent(t)+'/','_blank','noopener');this.q.value='';this.q.blur();}return false;">
+      <input name="q" type="text" placeholder="▸ Lookup ticker · AAPL · press /" autocomplete="off" spellcheck="false" aria-label="Ticker lookup">
+    </form>
     <div class="live-status">
       {{MARKET_SESSIONS}}
-      <span class="live-dot">LIVE</span>
+      {{LIVE_INDICATOR}}
     </div>
   </div>
 
@@ -726,5 +770,19 @@
   <div>DATA: YFINANCE · RSS WIRES &nbsp;·&nbsp; UPDATED: <span style="color: var(--green);">{{TIMESTAMP}}</span></div>
 </footer>
 
+<script>
+// "/" focuses the ticker lookup; Esc blurs it
+document.addEventListener('keydown', function(e) {
+  var inp = document.querySelector('.ticker-search input');
+  if (!inp) return;
+  var tag = (document.activeElement && document.activeElement.tagName) || '';
+  if (e.key === '/' && tag !== 'INPUT' && tag !== 'TEXTAREA') {
+    e.preventDefault();
+    inp.focus();
+  } else if (e.key === 'Escape' && document.activeElement === inp) {
+    inp.blur();
+  }
+});
+</script>
 </body>
 </html>
