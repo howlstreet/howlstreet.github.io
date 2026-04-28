@@ -14,7 +14,7 @@ import time
 import urllib.request
 import urllib.parse
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime, timezone, date
+from datetime import datetime, timezone, date, timedelta
 from pathlib import Path
 
 import yfinance as yf
@@ -323,6 +323,26 @@ RSS_FEEDS = [
     # More crypto (CBDC + digital currency themes)
     ("BITCOIN MAG",    "https://bitcoinmagazine.com/feed"),
     ("DECRYPT",        "https://decrypt.co/feed"),
+
+    # ── Phase 1: stock-specific outlets (cashtag-style, retail trader audience) ──
+    ("SEEKING ALPHA",  "https://seekingalpha.com/market_currents.xml"),
+    ("MARKETBEAT",     "https://www.marketbeat.com/feed/"),
+    ("MOTLEY FOOL",    "https://www.fool.com/feeds/index.aspx"),
+    ("INVESTORPLACE",  "https://investorplace.com/feed/"),
+    ("247 WALL ST",    "https://247wallst.com/feed/"),
+    ("IBD",            "https://www.investors.com/feed/"),
+
+    # ── Phase 1: earnings-first wires (companies file here within minutes) ──
+    ("PR NEWSWIRE",    "https://www.prnewswire.com/rss/financial-services-latest-news/financial-services-latest-news-list.rss"),
+    ("BUSINESS WIRE",  "https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJfXltfWAo5"),
+    ("GLOBENEWSWIRE",  "https://www.globenewswire.com/RssFeed/orgclass/1/feedTitle/GlobeNewswire%20-%20News%20about%20Public%20Companies"),
+    # SEC 8-K returns 403 to default UAs — re-enable when we wire a custom UA fetcher.
+
+    # ── Phase 1: more crypto / DeFi ──
+    ("CRYPTOSLATE",    "https://cryptoslate.com/feed/"),
+    ("BEINCRYPTO",     "https://beincrypto.com/feed/"),
+    ("THE DEFIANT",    "https://thedefiant.io/feed/"),
+    ("CRYPTO BRIEFING","https://cryptobriefing.com/feed/"),
 ]
 
 # Used by the auto Loudest Howl picker. Weighted by signal quality (institutional
@@ -379,6 +399,15 @@ SOURCE_WEIGHT = {
     "BA TIMES":     2, "RIO TIMES":    2,
     "TRADING ECON": 4, "DAILYFX":      3, "FXSTREET":     3, "HELLENIC SHIP":3,
     "BITCOIN MAG":  2, "DECRYPT":      2,
+    # Phase 1: stock-specific outlets (high signal for individual tickers)
+    "SEEKING ALPHA": 4, "MARKETBEAT":   3, "MOTLEY FOOL":  2,
+    "INVESTORPLACE": 2, "247 WALL ST":  2, "IBD":          3,
+    # Phase 1: earnings-first PR wires (raw company filings, highest signal for breaking earnings)
+    "PR NEWSWIRE":   5, "BUSINESS WIRE":5, "GLOBENEWSWIRE":5,
+    # Phase 1: more crypto
+    "CRYPTOSLATE":   2, "BEINCRYPTO":   2, "THE DEFIANT":  3, "CRYPTO BRIEFING": 2,
+    # Phase 1: Congressional trades from Senate/House Stock Watcher (primary STOCK Act data)
+    "CONGRESS":      6,
 }
 
 # Keyword score boosts (lowercase, substring match against title).
@@ -875,7 +904,106 @@ def fetch_all_headlines():
     with ThreadPoolExecutor(max_workers=20) as ex:
         for chunk in ex.map(_fetch_one_feed, RSS_FEEDS):
             items.extend(chunk)
+    # Congressional trades fetcher exists (fetch_congress_trades) but the
+    # public Stock Watcher S3 dumps went 403. Re-enable when we wire a
+    # working data source (Capitol Trades scrape, Quiver Quant, or a
+    # successor project to housestockwatcher.com).
     return items
+
+
+# Senate / House Stock Watcher publish public JSON of every Congressional
+# stock transaction (filed under the STOCK Act). Surfacing these on the wire
+# gives @HowlStreet "Pelosi tracker" style insider-trading transparency.
+_CONGRESS_FEEDS = (
+    ("HOUSE", "https://house-stock-watcher-data.s3-us-west-2.amazonaws.com/data/all_transactions.json"),
+    ("SENATE", "https://senate-stock-watcher-data.s3-us-west-2.amazonaws.com/aggregate/all_transactions.json"),
+)
+
+
+def _amount_label(raw):
+    """Stock Act discloses amounts as bands ('$1,001 - $15,000'). Normalize
+    to a clean label or fall back to the raw value."""
+    if not raw:
+        return ""
+    s = str(raw).replace("$", "").replace(",", "").strip()
+    return f"${str(raw).strip()}" if "$" not in str(raw) else str(raw).strip()
+
+
+def _fetch_one_congress(source_url):
+    """Worker: pull the JSON dump, parse the last ~30 days of trades into
+    wire-item dicts. Defensive — bad data, schema change, or HTTP error
+    silently returns []."""
+    source, url = source_url
+    out = []
+    try:
+        req = urllib.request.Request(url, headers={
+            "User-Agent": "Mozilla/5.0 (compatible; HowlStreet/1.0)",
+            "Accept": "application/json",
+        })
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            data = json.loads(resp.read().decode("utf-8", errors="replace"))
+    except Exception as e:
+        print(f"  ! Congress {source}: {e}", file=sys.stderr)
+        return out
+
+    if not isinstance(data, list):
+        return out
+
+    cutoff = datetime.now(NY) - timedelta(days=14)
+    for row in data:
+        if not isinstance(row, dict):
+            continue
+        person = row.get("senator") or row.get("representative") or row.get("name") or ""
+        ticker = (row.get("ticker") or "").strip()
+        asset = row.get("asset_description") or row.get("asset") or ticker
+        ttype = (row.get("type") or row.get("transaction_type") or "").lower()
+        amount = row.get("amount") or ""
+        date_str = row.get("transaction_date") or row.get("disclosure_date") or ""
+        link = row.get("ptr_link") or row.get("link") or ""
+
+        if not person or not (ticker or asset):
+            continue
+
+        try:
+            ts = datetime.strptime(date_str[:10], "%Y-%m-%d").replace(tzinfo=NY)
+        except (ValueError, TypeError):
+            continue
+        if ts < cutoff:
+            continue
+
+        verb = "bought" if "purchase" in ttype or "buy" in ttype else (
+               "sold" if "sale" in ttype or "sell" in ttype else ttype or "traded")
+        ticker_tag = f"${ticker.upper()}" if ticker and ticker not in ("--", "N/A") else asset
+        amt = _amount_label(amount)
+        chamber = "Sen." if source == "SENATE" else "Rep."
+        title = f"{chamber} {person} {verb} {ticker_tag}" + (f" ({amt})" if amt else "")
+        summary = (
+            f"Disclosed Congressional trade. Person: {person}. "
+            f"Asset: {asset}. Type: {ttype or 'unspecified'}. "
+            f"Amount: {amt or 'undisclosed'}. Filed: {date_str[:10]}."
+        )
+        out.append({
+            "source": "CONGRESS",
+            "title": title,
+            "summary": summary,
+            "link": link or "https://efdsearch.senate.gov/search/",
+            "ts": ts,
+        })
+
+    # Sort newest first, cap to 25 to avoid drowning the wire
+    out.sort(key=lambda x: x["ts"], reverse=True)
+    return out[:25]
+
+
+def fetch_congress_trades():
+    """Combined House + Senate trades from the Stock Watcher S3 dumps."""
+    out = []
+    with ThreadPoolExecutor(max_workers=2) as ex:
+        for chunk in ex.map(_fetch_one_congress, _CONGRESS_FEEDS):
+            out.extend(chunk)
+    if out:
+        print(f"  fetched {len(out)} Congressional trades")
+    return out
 
 
 def _kw_match(text, keyword):
