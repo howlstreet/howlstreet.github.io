@@ -1204,10 +1204,13 @@ def write_atom_feed(items, hero_item=None):
         if len(feed_items) >= 20:
             break
 
+    HASHTAGS = "#HowlStreet #GlobalMarkets"
+
     entries_xml = []
     for category, item in feed_items:
         ts_iso = item["ts"].astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-        title = html.escape(f"[{category}] {item['title']}" if category == "LOUDEST HOWL" else item["title"])
+        prefix = "[LOUDEST HOWL] " if category == "LOUDEST HOWL" else ""
+        title = html.escape(f"{prefix}{item['title']} {HASHTAGS}")
         link = html.escape(item["link"], quote=True)
         summary = html.escape(item.get("summary", "") or item["title"])
         source_label = html.escape(item["source"])
