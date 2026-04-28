@@ -22,6 +22,7 @@ import feedparser
 from zoneinfo import ZoneInfo
 
 import signals  # phase 2: macro signal detector + chart engine
+import insider_trades  # phase 3: corporate insider trades (Form 4 data)
 
 # Cap per-feed network wait so one slow source can't stall the build
 socket.setdefaulttimeout(15)
@@ -49,6 +50,109 @@ HONG_KONG = ZoneInfo("Asia/Hong_Kong")
 SHANGHAI = ZoneInfo("Asia/Shanghai")
 
 FRED_API_KEY = os.environ.get("FRED_API_KEY", "").strip()
+
+# Mega-cap watchlist. The queue surfaces ONLY items that mention one of
+# these names or tickers (plus macro-signal posts and CORRUPTION items,
+# which already cross-aisle by their nature). The point: posts on @HowlStreet
+# need to be about names everyone on FinTwit recognizes, otherwise they
+# don't generate engagement. Curate aggressively, expand if a name keeps
+# coming up that's missing.
+MEGA_CAP_TICKERS = {
+    # FAANGM + extras
+    "AAPL", "MSFT", "GOOGL", "GOOG", "AMZN", "META", "NVDA", "TSLA",
+    # Top US by market cap
+    "BRK.A", "BRK.B", "BRK", "JPM", "V", "MA", "UNH", "XOM", "JNJ", "WMT",
+    "PG", "HD", "AVGO", "KO", "PEP", "COST", "NFLX", "ABBV", "BAC",
+    "TMO", "PFE", "ADBE", "CSCO", "CRM", "ORCL", "AMD", "INTC", "BA",
+    "DIS", "GS", "MS", "C", "WFC", "T", "VZ", "CMCSA", "CVX",
+    # Hot semis / AI
+    "TSM", "ASML", "MU", "QCOM", "ARM", "PLTR", "SMCI", "AI",
+    # China megacaps
+    "BABA", "NIO", "BIDU", "JD", "PDD",
+    # Tech / consumer
+    "SPOT", "UBER", "ABNB", "DASH", "SHOP", "SNOW", "ZM",
+    # Fintech
+    "PYPL", "SQ", "BLOCK", "AFRM", "SOFI",
+    # Autos
+    "F", "GM", "RIVN", "LCID",
+    # Pharma
+    "MRK", "LLY", "MRNA", "BMY", "GILD", "AMGN",
+    # Consumer
+    "NKE", "SBUX", "MCD", "CMG",
+    # Airlines
+    "AAL", "DAL", "UAL", "LUV",
+    # More banks
+    "PNC", "COF", "USB",
+    # Crypto-exposed equities
+    "COIN", "MSTR", "HOOD", "MARA", "RIOT",
+    # Defense / energy / industrial
+    "LMT", "RTX", "GE", "OXY", "DVN", "EOG", "CAT", "DE",
+    # Big retail / restaurant
+    "TGT", "LOW", "TJX", "BBY", "DIS",
+    # Notable single-issue tickers
+    "GME", "AMC", "DJT", "TWLO",
+}
+
+# Lowercase company names that count as a mega-cap mention even without
+# a cashtag in the headline. Used by _matches_megacap.
+MEGA_CAP_NAMES = (
+    "apple", "microsoft", "google", "alphabet", "amazon", "meta platforms", "facebook",
+    "nvidia", "tesla", "spacex", "berkshire hathaway", "berkshire", "jpmorgan",
+    "jp morgan", "visa", "mastercard", "unitedhealth", "exxonmobil", "exxon",
+    "johnson & johnson", "walmart", "broadcom", "coca-cola", "coca cola", "pepsico",
+    "costco", "netflix", "abbvie", "bank of america", "thermo fisher", "pfizer",
+    "adobe", "cisco", "salesforce", "oracle", "amd ", "intel", "boeing", "disney",
+    "goldman sachs", "morgan stanley", "verizon", "comcast", "chevron",
+    "alibaba", "spotify", "uber", "airbnb", "doordash", "paypal", "square inc",
+    "block inc", "ford motor", "general motors", "rivian", "lucid motors",
+    "merck", "eli lilly", "moderna", "nike", "starbucks", "mcdonald",
+    "chipotle", "american airlines", "delta air", "united airlines",
+    "coinbase", "microstrategy", "robinhood", "lockheed", "raytheon",
+    "occidental petroleum", "devon energy", "caterpillar", "deere",
+    "target ", "lowe's", "best buy",
+    # Crypto majors
+    "bitcoin", "ethereum", "solana", "polygon network",
+    # Notable individuals (often more searchable than ticker)
+    "elon musk", "warren buffett", "jamie dimon", "jensen huang", "tim cook",
+    "satya nadella", "sundar pichai", "andy jassy", "mark zuckerberg",
+    "powell ", "yellen ", "lagarde",
+    # Mega-themes — events that move every mega-cap (oil, Fed, geopolitics)
+    "opec", "opec+", "saudi aramco", "strait of hormuz",
+    "fed meeting", "fomc decision", "fomc minutes", "rate cut", "rate hike",
+    "rate decision", "fed cuts", "fed holds", "fed raises",
+    "us cpi", "us inflation report", "nonfarm payrolls", "jobs report",
+    "gdp report", "retail sales report",
+    "ai chip", "chip ban", "chip export", "chip war",
+    "russia sanctions", "china tariff", "trade war",
+)
+
+
+def _matches_megacap(item):
+    """True if title or summary mentions a mega-cap ticker (cashtag or
+    parenthesized) or a mega-cap company / executive name. Aggressive
+    filter — most foreign-small-cap content will fail this and drop out
+    of the queue."""
+    title = item.get("title", "") or ""
+    summary = item.get("summary", "") or ""
+    blob = title + " " + summary
+    # Cashtag / paren-ticker match
+    for m in re.finditer(r"\$([A-Z]{1,6})\b", blob):
+        if m.group(1).upper() in MEGA_CAP_TICKERS:
+            return True
+    for m in re.finditer(r"\(([A-Z]{1,6})(?:[:\.][A-Z]+)?\)", blob):
+        if m.group(1).upper() in MEGA_CAP_TICKERS:
+            return True
+    # Plain ticker match in title (Apple-style "GOOG up 2%")
+    title_upper_tokens = re.findall(r"\b([A-Z]{2,6})\b", title)
+    for t in title_upper_tokens:
+        if t in MEGA_CAP_TICKERS:
+            return True
+    # Company name match (case-insensitive)
+    blob_lower = blob.lower()
+    for name in MEGA_CAP_NAMES:
+        if name in blob_lower:
+            return True
+    return False
 
 # NYSE holidays. Hardcoded list — extend as years go on.
 NYSE_HOLIDAYS = {
@@ -185,25 +289,18 @@ RSS_FEEDS = [
     ("DW",             "https://rss.dw.com/rdf/rss-en-bus"),
     ("EURONEWS",       "https://www.euronews.com/rss?level=vertical&name=business"),
 
-    # Asia / Pacific
+    # Asia / Pacific (kept only the mega-cap-relevant Asia outlets — Nikkei
+    # covers TSMC/SoftBank/Sony, SCMP covers Alibaba/Tencent/Baidu, Caixin
+    # covers China megas. Pruned the Indian / Australian small-cap feeds.)
     ("NIKKEI",         "https://news.google.com/rss/search?q=site%3Aasia.nikkei.com+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen"),
     ("SCMP",           "https://news.google.com/rss/search?q=site%3Ascmp.com+business+OR+economy+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen"),
     ("CAIXIN",         "https://www.caixinglobal.com/rss/"),
-    ("ASIA TIMES",     "https://asiatimes.com/feed/"),
-    ("KOREA HERALD",   "https://news.google.com/rss/search?q=site%3Akoreaherald.com+business+OR+economy+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen"),
-    ("ECON TIMES IN",  "https://economictimes.indiatimes.com/news/economy/rssfeeds/1373380680.cms"),
-    ("TIMES INDIA",    "https://timesofindia.indiatimes.com/rssfeeds/1898055.cms"),
-    ("ABC AUSTRALIA",  "https://www.abc.net.au/news/feed/51892/rss.xml"),
-    ("SMH",            "https://www.smh.com.au/rss/business.xml"),
 
-    # Middle East
+    # Middle East (Al Jazeera kept for OPEC / Saudi / Iran energy stories
+    # that move oil markets; rest pruned)
     ("AL JAZEERA",     "https://www.aljazeera.com/xml/rss/all.xml"),
-    ("TIMES ISRAEL",   "https://www.timesofisrael.com/feed/"),
 
-    # Russia (independent, not state propaganda)
-    ("MOSCOW TIMES",   "https://www.themoscowtimes.com/rss/news"),
-
-    # Americas (non-US)
+    # Americas (non-US) — Canada is mega-cap-adjacent (Brookfield, Shopify, etc.)
     ("GLOBE & MAIL",   "https://www.theglobeandmail.com/business/rss/"),
 
     # More US — broader business coverage
@@ -221,28 +318,7 @@ RSS_FEEDS = [
     ("POLITICO EU",    "https://www.politico.eu/feed/"),
     ("SPIEGEL",        "https://www.spiegel.de/international/index.rss"),
 
-    # More Asia
-    ("CHANNEL NEWS",   "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=6936"),
-    ("JAPAN TIMES",    "https://www.japantimes.co.jp/category/business/feed/"),
-    ("STRAITS TIMES",  "https://www.straitstimes.com/news/business/rss.xml"),
-    ("MINT INDIA",     "https://www.livemint.com/rss/markets"),
-    ("BIZ STD INDIA",  "https://www.business-standard.com/rss/markets-106.rss"),
-    ("HINDU BIZLINE",  "https://www.thehindubusinessline.com/economy/feeder/default.rss"),
-
-    # More Middle East
-    ("ARAB NEWS",      "https://www.arabnews.com/rss.xml"),
-    ("GULF NEWS",      "https://gulfnews.com/business/rss-feeds"),
-    ("THE NATIONAL",   "https://www.thenationalnews.com/business/rss/"),
-
-    # Africa
-    ("ALL AFRICA",     "https://allafrica.com/tools/headlines/rdf/business/headlines.rdf"),
-    ("BIZNEWS SA",     "https://www.biznews.com/feed"),
-
-    # Latin America
-    ("MERCOPRESS",     "https://en.mercopress.com/rss"),
-
-    # More Canada
-    ("CBC BUSINESS",   "https://rss.cbc.ca/lineup/business.xml"),
+    # More Canada (kept — Canadian outlets cover Shopify, Brookfield, etc.)
     ("FINANCIAL POST", "https://financialpost.com/feed"),
 
     # Crypto-specific (relevant for digital currency / CBDC themes)
@@ -292,35 +368,9 @@ RSS_FEEDS = [
     ("ATLANTIC CNCL",  "https://www.atlanticcouncil.org/feed/"),
     ("CSIS",           "https://www.csis.org/analysis/rss.xml"),
 
-    # Europe additions
-    ("LE MONDE",       "https://www.lemonde.fr/en/rss/une.xml"),
-    ("SWISSINFO",      "https://www.swissinfo.ch/eng/rss-news"),
-    ("ANSA ITALY",     "https://www.ansa.it/english/news/business_economy/business_economy_rss.xml"),
-
-    # Asia additions
-    ("BANGKOK POST",   "https://www.bangkokpost.com/rss/data/business.xml"),
-    ("INQUIRER PH",    "https://business.inquirer.net/feed/"),
-    ("MAINICHI JP",    "https://mainichi.jp/english/rss/etc/etc-business.rss"),
-    ("YONHAP",         "https://en.yna.co.kr/RSS/economy.xml"),
-
-    # Middle East additions
-    ("HAARETZ",        "https://www.haaretz.com/cmlink/1.4605045"),
-    ("AL ARABIYA",     "https://english.alarabiya.net/.mrss/en.xml"),
-
-    # Africa additions
-    ("DAILY MAVERICK", "https://www.dailymaverick.co.za/dmrss/"),
-    ("EAST AFRICAN",   "https://www.theeastafrican.co.ke/rss/business/index.xml"),
-    ("PREMIUM TIMES",  "https://www.premiumtimesng.com/feed"),
-
-    # Latin America additions
-    ("BA TIMES",       "https://www.batimes.com.ar/rss/news.xml"),
-    ("RIO TIMES",      "https://www.riotimesonline.com/feed/"),
-
-    # Specialized markets / FX / shipping (highly relevant to macro themes)
-    ("TRADING ECON",   "https://tradingeconomics.com/calendar/rss"),
+    # Specialized macro / FX (covers Fed / ECB / BoJ moves that affect mega-caps)
     ("DAILYFX",        "https://www.dailyfx.com/feeds/market-news"),
     ("FXSTREET",       "https://www.fxstreet.com/rss/news"),
-    ("HELLENIC SHIP",  "https://www.hellenicshippingnews.com/feed/"),
 
     # More crypto (CBDC + digital currency themes)
     ("BITCOIN MAG",    "https://bitcoinmagazine.com/feed"),
@@ -1137,19 +1187,21 @@ HERO_MIN_SCORE = 4.0
 
 
 def pick_top_story(items):
-    """Highest-scoring recent (last 24h) item that clears the quality threshold
-    AND has a concrete finance signal in title or summary. Returns the item
-    dict or None. Shared by the auto-hero renderer and the feed.
+    """Highest-scoring recent (last 24h) item that clears the quality
+    threshold AND has a concrete finance signal AND mentions a mega-cap
+    ticker / company / executive. Returns the item dict or None.
 
-    Strict finance gate is enforced here so the Howl of the Day can never be
-    a Trump-poll / war / pure-politics piece even if it scores well on the
-    headline-keyword booster."""
+    Triple gate enforced here so the Loudest Howl on the site and the
+    Howl of the Day in the queue can NEVER be a political poll, regional
+    small-cap, or off-topic piece. Names everyone on FinTwit recognizes
+    only — that's the whole point of the brand."""
     if not items:
         return None
     now = datetime.now(NY)
     recent = [i for i in items
               if (now - i["ts"]).total_seconds() < 24 * 3600
-              and is_financially_relevant(i)]
+              and is_financially_relevant(i)
+              and _matches_megacap(i)]
     if not recent:
         return None
     scored = sorted(((score_item(i), i) for i in recent), key=lambda x: x[0], reverse=True)
@@ -1383,9 +1435,11 @@ def build_hero_from_md():
 def build_headlines_from_items(items, exclude_link=None, exclude_sources=None,
                                 max_per_source=2, max_per_region=3, total=10):
     """Render the wire panel from already-fetched items, sorted recency-first.
-    Filters to financially-relevant items; caps both per-source and per-region
-    so the panel stays globally diverse instead of US-dominated."""
-    pool = [i for i in items if is_financially_relevant(i)]
+    Filters to mega-cap mentions OR corruption items; caps per-source and
+    per-region so no single outlet or region dominates."""
+    pool = [i for i in items
+            if is_financially_relevant(i)
+            and (_matches_megacap(i) or _is_corruption_item(i))]
     if exclude_sources:
         pool = [i for i in pool if i["source"] not in exclude_sources]
     if exclude_link:
@@ -1560,7 +1614,9 @@ def write_atom_feed(items, hero_item=None):
     """
     now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
-    pool = [i for i in items if is_financially_relevant(i)]
+    pool = [i for i in items
+            if is_financially_relevant(i)
+            and (_matches_megacap(i) or _is_corruption_item(i))]
     pool.sort(key=lambda x: x["ts"], reverse=True)
 
     feed_items = []
@@ -2051,7 +2107,7 @@ def fetch_article_briefing(url, title, timeout=8):
     return None
 
 
-def write_queue_html(items, hero_item=None, signal_posts=None):
+def write_queue_html(items, hero_item=None, signal_posts=None, insider_posts=None):
     """Emit /queue.html — a hidden, noindex page listing the top 20 stories as
     pre-built tweets ready to copy-paste or one-click open in X's compose window.
 
@@ -2070,7 +2126,11 @@ def write_queue_html(items, hero_item=None, signal_posts=None):
     MAX = 4000
     TITLE_CAP = 110
 
-    pool = [i for i in items if is_financially_relevant(i)]
+    # Queue surfaces only mega-cap mentions OR corruption items (the brand's
+    # cross-aisle "expose the rats" content). Everything else dropped.
+    pool = [i for i in items
+            if is_financially_relevant(i)
+            and (_matches_megacap(i) or _is_corruption_item(i))]
     pool.sort(key=lambda x: x["ts"], reverse=True)
 
     # Classify each item into a card category, then round-robin them so the
@@ -2578,7 +2638,15 @@ def main():
         print(f"  ! signals pipeline failed: {e}", file=sys.stderr)
         signal_posts = []
 
-    write_queue_html(all_items, hero_item=auto_hero_item, signal_posts=signal_posts)
+    # Phase 3: corporate insider trades from openinsider (SEC Form 4 data).
+    try:
+        insider_posts = insider_trades.collect_insider_posts()
+    except Exception as e:
+        print(f"  ! insider trades pipeline failed: {e}", file=sys.stderr)
+        insider_posts = []
+
+    write_queue_html(all_items, hero_item=auto_hero_item,
+                     signal_posts=signal_posts, insider_posts=insider_posts)
     print(f"  Wrote {OUTPUT_PATH} ({len(output):,} bytes)")
     print(f"  Wrote {FEED_PATH}")
     print(f"  Updated at {ts_str}")
