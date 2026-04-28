@@ -23,6 +23,7 @@ from zoneinfo import ZoneInfo
 
 import signals  # phase 2: macro signal detector + chart engine
 import insider_trades  # phase 3: corporate insider trades (Form 4 data)
+import cards as card_renderer  # phase 4: image cards for image-first X posts
 
 # Cap per-feed network wait so one slow source can't stall the build
 socket.setdefaulttimeout(15)
@@ -2327,20 +2328,22 @@ def write_queue_html(items, hero_item=None, signal_posts=None, insider_posts=Non
         if not title_punct.endswith(('.', '!', '?', ':', ';', '"', "'", ')')):
             title_punct += '.'
 
-        # Format: {prefix}{title}\n\n{briefing}\n\n{url} {hashtags}
-        # Paragraph break between title and briefing makes posts scan-able.
+        # Image-first format: {prefix}{title}\n\n{briefing}\n\n{hashtags}
+        # No external link in the tweet body — the rendered image card is
+        # the centerpiece (Polymarket Money / Bull Theory style). The user
+        # downloads the image from the queue and attaches it when posting.
         if briefing:
-            fixed = len(prefix) + len(title_punct) + 2 + 2 + URL_LEN + 1 + HASHTAGS_LEN
+            fixed = len(prefix) + len(title_punct) + 2 + 2 + HASHTAGS_LEN
             briefing_budget = MAX - fixed
             if briefing_budget >= 60 and len(briefing) > briefing_budget:
                 briefing = _smart_truncate(briefing, briefing_budget, require_full_sentence=True)
 
         if briefing:
-            tweet = f"{prefix}{title_punct}\n\n{briefing}\n\n{link} {HASHTAGS}"
-            counted_len = len(prefix) + len(title_punct) + 2 + len(briefing) + 2 + URL_LEN + 1 + HASHTAGS_LEN
+            tweet = f"{prefix}{title_punct}\n\n{briefing}\n\n{HASHTAGS}"
+            counted_len = len(prefix) + len(title_punct) + 2 + len(briefing) + 2 + HASHTAGS_LEN
         else:
-            tweet = f"{prefix}{title_punct}\n\n{link} {HASHTAGS}"
-            counted_len = len(prefix) + len(title_punct) + 2 + URL_LEN + 1 + HASHTAGS_LEN
+            tweet = f"{prefix}{title_punct}\n\n{HASHTAGS}"
+            counted_len = len(prefix) + len(title_punct) + 2 + HASHTAGS_LEN
 
         ts_str = item["ts"].astimezone(NY).strftime("%H:%M EDT · %b %d")
         source_label = html.escape(item["source"])
@@ -2368,6 +2371,34 @@ def write_queue_html(items, hero_item=None, signal_posts=None, insider_posts=Non
             card_extra_class = " card-breaking"
         elif is_just_in:
             card_extra_class = " card-justin"
+
+        # Phase 4: render an image card so the X post is image-first.
+        # The tweet text + image carry the post; the link is optional.
+        post_image_path = None
+        try:
+            post_image_path = card_renderer.render_card(
+                category=category,
+                headline=f"{prefix}{title_punct}".strip(),
+                briefing=briefing or "",
+                ticker=ticker or "",
+                source=item.get("source", ""),
+                ts_label=ts_str,
+                post_id=f"{category.lower()}_{i}_{item['link'][-40:]}",
+            )
+        except Exception as e:
+            print(f"  ! card render skipped: {e}", file=sys.stderr)
+        img_block = ""
+        download_btn = ""
+        if post_image_path:
+            img_block = (
+                f'  <img class="signal-chart" src="{html.escape(post_image_path)}"'
+                f' alt="{html.escape(badge_text)} card" loading="lazy">'
+            )
+            download_btn = (
+                f'    <a class="btn btn-link" href="{html.escape(post_image_path)}"'
+                f' download>Download image</a>'
+            )
+
         cards.append(
             f'<div class="card{card_extra_class}">'
             f'  <div class="card-head">'
@@ -2375,10 +2406,12 @@ def write_queue_html(items, hero_item=None, signal_posts=None, insider_posts=Non
             f'    <span class="meta">{source_label} · {html.escape(ts_str)}</span>'
             f'    <span class="counter">{counted_len}/4000</span>'
             f'  </div>'
+            f'{img_block}'
             f'  <textarea id="t{i}" readonly>{html.escape(tweet)}</textarea>'
             f'  <div class="actions">'
             f'    <a class="btn btn-x" href="{html.escape(intent_url, quote=True)}" target="_blank" rel="noopener">Open on X</a>'
             f'    <button class="btn btn-copy" onclick="copyTweet({i}, this)">Copy</button>'
+            f'{download_btn}'
             f'    <a class="btn btn-link" href="{html.escape(link, quote=True)}" target="_blank" rel="noopener">Article</a>'
             f'  </div>'
             f'</div>'
