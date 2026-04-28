@@ -1206,7 +1206,7 @@ def write_atom_feed(items, hero_item=None):
         if len(feed_items) >= 20:
             break
 
-    HASHTAGS = "#HowlStreet #GlobalMarkets"
+    HASHTAGS = "#HowlStreet #Markets"
 
     entries_xml = []
     for category, item in feed_items:
@@ -1477,8 +1477,8 @@ def write_queue_html(items, hero_item=None):
     Not linked from the main site. Accessible only by direct URL. Disallowed in
     robots.txt and tagged noindex,nofollow.
     """
-    HASHTAGS = "#HowlStreet #GlobalMarkets"
-    HASHTAGS_LEN = len(HASHTAGS)  # 26
+    HASHTAGS = "#HowlStreet #Markets"
+    HASHTAGS_LEN = len(HASHTAGS)  # 20
     URL_LEN = 23  # X auto-shortens URLs to 23 (t.co)
     MAX = 280
     TITLE_CAP = 110
