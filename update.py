@@ -829,17 +829,36 @@ def build_live_indicator():
     return '<span class="live-dot standby">STANDBY</span>'
 
 
+def _nyse_status():
+    """Granular NYSE state: PRE (4-9:30 ET), OPEN (regular), POST (16-20 ET),
+    or CLOSED. Pre-market and after-hours are real trading windows that
+    matter to traders watching the tape — calling them "CLOSED" hides
+    activity that's actually happening."""
+    if _exchange_open(NY, (9, 30), (16, 0), holidays=NYSE_HOLIDAYS):
+        return "OPEN"
+    if _exchange_open(NY, (4, 0), (9, 30), holidays=NYSE_HOLIDAYS):
+        return "PRE"
+    if _exchange_open(NY, (16, 0), (20, 0), holidays=NYSE_HOLIDAYS):
+        return "POST"
+    return "CLOSED"
+
+
 def build_market_sessions():
-    """NYSE / LSE / TSE open-or-closed indicator for the header."""
+    """NYSE / LSE / TSE state indicator for the header. NYSE reports PRE /
+    OPEN / POST / CLOSED so pre- and after-market activity reads as live;
+    LSE and TSE stay simple OPEN / CLOSED."""
+    nyse = _nyse_status()
+    lse_open = _exchange_open(LONDON, (8, 0), (16, 30))
+    tse_open = _exchange_open(TOKYO, (9, 0), (15, 0), lunch=((11, 30), (12, 30)))
+
     sessions = [
-        ("NYSE", _exchange_open(NY,     (9, 30), (16, 0), holidays=NYSE_HOLIDAYS)),
-        ("LSE",  _exchange_open(LONDON, (8, 0),  (16, 30))),
-        ("TSE",  _exchange_open(TOKYO,  (9, 0),  (15, 0), lunch=((11, 30), (12, 30)))),
+        ("NYSE", nyse, nyse != "CLOSED"),
+        ("LSE", "OPEN" if lse_open else "CLOSED", lse_open),
+        ("TSE", "OPEN" if tse_open else "CLOSED", tse_open),
     ]
     parts = []
-    for name, open_now in sessions:
-        cls = "up" if open_now else "down"
-        label = "OPEN" if open_now else "CLOSED"
+    for name, label, is_active in sessions:
+        cls = "up" if is_active else "down"
         parts.append(f'<span>{name}: <span class="{cls}">{label}</span></span>')
     return "\n      ".join(parts)
 
@@ -1463,7 +1482,7 @@ def write_atom_feed(items, hero_item=None):
     content = (
         '<?xml version="1.0" encoding="utf-8"?>\n'
         '<feed xmlns="http://www.w3.org/2005/Atom">\n'
-        '  <title>Howl Street — The Real Wolves of Wall Street</title>\n'
+        '  <title>Howl Street — Your Wolf of Wall Street</title>\n'
         '  <subtitle>They howl for themselves. We howl for you. No-BS finance signals from 100+ sources.</subtitle>\n'
         f'  <link href="{SITE_URL}/" />\n'
         f'  <link rel="self" type="application/atom+xml" href="{SITE_URL}/feed.xml" />\n'
