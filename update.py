@@ -219,14 +219,34 @@ KEYWORD_BOOSTS = {
 }
 
 # Penalize click-bait + pundit content + speculation framing
+# Specific phrases only — broad ones like "here's what" caught legitimate
+# earnings-preview reporting ("Here's what Wall Street expects").
 KEYWORD_PENALTIES = {
     "stocks to buy": -5, "stocks to watch": -4, "watchlist": -4, "best stocks": -4,
     "what to know": -4, "things to know": -4, "what to watch": -3,
     "wall street loves": -4, "10 things": -4, "5 things": -4, "3 things": -3,
-    "here's what": -2, "here's why": -2,
     "cramer": -3, "jim cramer": -3,
-    "could": -1, "might": -1,  # mild speculation penalty
     "should you": -3, "is it time": -3,
+}
+
+# Sources whose feed is finance/markets-focused — items always pass the
+# relevance gate even without explicit keyword matches.
+FINANCIAL_SOURCES = {
+    "FED", "TREASURY", "BIS", "IMF",       # institutional
+    "BLOOMBERG", "WSJ", "MARKETWATCH",     # markets-only feeds
+    "AP",                                   # query pre-filtered to business/economy
+    "KITCO", "OILPRICE", "ZEROHEDGE",      # commodities/macro focused
+}
+
+# Mixed-content sources. Items must have at least one financial-keyword hit
+# (in title or summary) to make it into the wire panel — this is what filters
+# out the cartel/general-news/lifestyle drift.
+MIXED_CONTENT_SOURCES = {
+    "REUTERS",       # broad Google News query
+    "BBC", "GUARDIAN", "AL JAZEERA", "NIKKEI", "DW", "SCMP", "NPR",
+    "FOX BUSINESS",  # business section but includes lifestyle
+    "NY POST",       # business section drifts into consumer/operations
+    "CNBC",          # top-news feed is broader than just markets
 }
 
 # ----------------------------------------------------------------------------
@@ -260,6 +280,40 @@ def fetch_quote(symbol, retries=1):
                 time.sleep(1)
     print(f"  ! {symbol}: {last_err}", file=sys.stderr)
     return None, None, None
+
+
+def fetch_article_summary(url, timeout=8):
+    """Fetch the article URL and pull og:description / meta description.
+    Used to populate the Loudest Howl body when the RSS summary is empty
+    or just repeats the title (common with Google News-sourced items).
+    Returns the description string or None on failure."""
+    try:
+        req = urllib.request.Request(url, headers={
+            "User-Agent": "Mozilla/5.0 (compatible; HowlStreet/1.0; +https://howlstreet.github.io)",
+            "Accept": "text/html,application/xhtml+xml",
+        })
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            charset = resp.headers.get_content_charset() or "utf-8"
+            page = resp.read(400_000).decode(charset, errors="replace")
+    except Exception as e:
+        print(f"    ! summary fetch failed: {e}", file=sys.stderr)
+        return None
+
+    patterns = (
+        r'<meta[^>]+property=["\']og:description["\'][^>]*content=["\']([^"\']+)["\']',
+        r'<meta[^>]+content=["\']([^"\']+)["\'][^>]*property=["\']og:description["\']',
+        r'<meta[^>]+name=["\']twitter:description["\'][^>]*content=["\']([^"\']+)["\']',
+        r'<meta[^>]+content=["\']([^"\']+)["\'][^>]*name=["\']twitter:description["\']',
+        r'<meta[^>]+name=["\']description["\'][^>]*content=["\']([^"\']+)["\']',
+        r'<meta[^>]+content=["\']([^"\']+)["\'][^>]*name=["\']description["\']',
+    )
+    for pattern in patterns:
+        m = re.search(pattern, page, re.IGNORECASE)
+        if m:
+            desc = html.unescape(m.group(1)).strip()
+            if desc and len(desc) > 30:
+                return desc
+    return None
 
 
 def fetch_treasury_fred(series_id):
@@ -482,6 +536,21 @@ def fetch_all_headlines():
     return items
 
 
+def _kw_match(text, keyword):
+    """Word-boundary match so 'war' doesn't hit 'ward'.
+    Multi-word keywords ('strait of hormuz') still match — \b handles each end."""
+    return re.search(r'\b' + re.escape(keyword) + r'\b', text) is not None
+
+
+def is_financially_relevant(item):
+    """Gate for the wire panel. Always-finance sources pass automatically; mixed
+    sources must have at least one financial keyword in title or summary."""
+    if item["source"] in FINANCIAL_SOURCES:
+        return True
+    text = (item["title"] + " " + item["summary"]).lower()
+    return any(_kw_match(text, kw) for kw in KEYWORD_BOOSTS)
+
+
 def score_item(item):
     """Score a wire item for Loudest Howl candidacy. Higher = more newsworthy."""
     score = SOURCE_WEIGHT.get(item["source"], 1)
@@ -493,10 +562,10 @@ def score_item(item):
 
     title_lower = item["title"].lower()
     for kw, bonus in KEYWORD_BOOSTS.items():
-        if kw in title_lower:
+        if _kw_match(title_lower, kw):
             score += bonus
     for phrase, penalty in KEYWORD_PENALTIES.items():
-        if phrase in title_lower:
+        if _kw_match(title_lower, phrase):
             score += penalty
 
     return score
@@ -529,12 +598,21 @@ def build_hero_auto(items):
     src_lower = top["source"].lower()
     while summary_text.lower().endswith(src_lower):
         summary_text = summary_text[: -len(src_lower)].rstrip(" ,.;:|—-")
-    if len(summary_text) > 320:
-        summary_text = summary_text[:317].rstrip(" ,.;:") + "…"
-    # If the summary is just the title repeated (common with Google News),
-    # drop it — better to show no body than redundant text.
+    # If the summary is just the title repeated (Google News pattern), discard it.
     if summary_text.strip().lower() == top["title"].strip().lower():
         summary_text = ""
+    # If still nothing useful, follow the article URL and grab og:description.
+    if not summary_text:
+        fetched = fetch_article_summary(top["link"])
+        if fetched and fetched.strip().lower() != top["title"].strip().lower():
+            summary_text = _clean_summary(fetched)
+    # Trim to first sentence — terminal-feel, scannable.
+    if summary_text:
+        m = re.match(r"^(.{30,}?[.!?])(?:\s|$)", summary_text)
+        if m:
+            summary_text = m.group(1)
+        elif len(summary_text) > 200:
+            summary_text = summary_text[:197].rstrip(" ,.;:") + "…"
 
     label = (
         "LOUDEST HOWL · "
@@ -632,9 +710,11 @@ def build_hero_from_md():
 
 def build_headlines_from_items(items, exclude_link=None, max_per_source=2, total=10):
     """Render the wire panel from already-fetched items, sorted recency-first.
-    Caps each source so one busy outlet can't dominate the list.
-    Skips the item with link == exclude_link so the hero doesn't double up."""
-    pool = [i for i in items if i["link"] != exclude_link] if exclude_link else list(items)
+    Filters to financially-relevant items, caps each source so one busy outlet
+    can't dominate, and skips the hero story to avoid double-promotion."""
+    pool = [i for i in items if is_financially_relevant(i)]
+    if exclude_link:
+        pool = [i for i in pool if i["link"] != exclude_link]
     pool.sort(key=lambda x: x["ts"], reverse=True)
 
     selected = []
