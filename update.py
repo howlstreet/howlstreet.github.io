@@ -725,29 +725,51 @@ def build_ticker_item(label, symbol):
     )
 
 
+def _exchange_open(tz, open_hm, close_hm, lunch=None, holidays=None):
+    """True if the given exchange is currently within its regular session."""
+    local = datetime.now(timezone.utc).astimezone(tz)
+    if local.weekday() >= 5:
+        return False
+    if holidays and local.date() in holidays:
+        return False
+    hm = (local.hour, local.minute)
+    if not (open_hm <= hm < close_hm):
+        return False
+    if lunch and lunch[0] <= hm < lunch[1]:
+        return False
+    return True
+
+
+def any_global_index_open():
+    """True if any of the major non-US indices (FTSE/DAX/CAC/Nikkei/Hang Seng/
+    Shanghai) is currently in session. Used for the Global Indices panel meta.
+    Holiday lists not maintained for these exchanges — weekend-aware only."""
+    BERLIN = ZoneInfo("Europe/Berlin")
+    PARIS = ZoneInfo("Europe/Paris")
+    HONG_KONG = ZoneInfo("Asia/Hong_Kong")
+    SHANGHAI = ZoneInfo("Asia/Shanghai")
+    return any([
+        _exchange_open(LONDON,    (8, 0),  (16, 30)),                                       # LSE
+        _exchange_open(BERLIN,    (9, 0),  (17, 30)),                                       # XETRA
+        _exchange_open(PARIS,     (9, 0),  (17, 30)),                                       # Euronext Paris
+        _exchange_open(TOKYO,     (9, 0),  (15, 0),  lunch=((11, 30), (12, 30))),           # TSE
+        _exchange_open(HONG_KONG, (9, 30), (16, 0),  lunch=((12, 0),  (13, 0))),            # HKEX
+        _exchange_open(SHANGHAI,  (9, 30), (15, 0),  lunch=((11, 30), (13, 0))),            # SSE
+    ])
+
+
+def is_us_treasury_open():
+    """US Treasury cash market — SIFMA recommended hours: 8am-5pm ET, Mon-Fri.
+    Honors NYSE holidays as a proxy (Treasury usually follows NYSE closings)."""
+    return _exchange_open(NY, (8, 0), (17, 0), holidays=NYSE_HOLIDAYS)
+
+
 def build_market_sessions():
-    """Compute open/closed for NYSE, LSE, TSE.
-    Honors weekends, NYSE holidays, and TSE lunch break (11:30-12:30 JST).
-    LSE holidays not handled."""
-    now_utc = datetime.now(timezone.utc)
-
-    def is_open(tz, open_hm, close_hm, lunch=None, holidays=None):
-        local = now_utc.astimezone(tz)
-        if local.weekday() >= 5:
-            return False
-        if holidays and local.date() in holidays:
-            return False
-        hm = (local.hour, local.minute)
-        if not (open_hm <= hm < close_hm):
-            return False
-        if lunch and lunch[0] <= hm < lunch[1]:
-            return False
-        return True
-
+    """NYSE / LSE / TSE open-or-closed indicator for the header."""
     sessions = [
-        ("NYSE", is_open(NY,     (9, 30), (16, 0), holidays=NYSE_HOLIDAYS)),
-        ("LSE",  is_open(LONDON, (8, 0),  (16, 30))),
-        ("TSE",  is_open(TOKYO,  (9, 0),  (15, 0), lunch=((11, 30), (12, 30)))),
+        ("NYSE", _exchange_open(NY,     (9, 30), (16, 0), holidays=NYSE_HOLIDAYS)),
+        ("LSE",  _exchange_open(LONDON, (8, 0),  (16, 30))),
+        ("TSE",  _exchange_open(TOKYO,  (9, 0),  (15, 0), lunch=((11, 30), (12, 30)))),
     ]
     parts = []
     for name, open_now in sessions:
@@ -1211,6 +1233,8 @@ def main():
 
     print("  Market sessions...")
     sessions_html = build_market_sessions()
+    global_indices_status = "LIVE" if any_global_index_open() else "CLOSE"
+    treasury_status = "LIVE" if is_us_treasury_open() else "CLOSED"
 
     print("  Hero (Loudest Howl)...")
     hero_html = build_hero_from_md()
@@ -1268,6 +1292,8 @@ def main():
         .replace("{{REGIONAL_AMERICAS}}", regional.get("AMERICAS", ""))
         .replace("{{ECONOMIC_CALENDAR}}", calendar_html)
         .replace("{{MARKET_SESSIONS}}", sessions_html)
+        .replace("{{GLOBAL_INDICES_STATUS}}", global_indices_status)
+        .replace("{{TREASURY_STATUS}}", treasury_status)
         .replace("{{TIMESTAMP}}", ts_str)
         .replace("{{TIMESTAMP_SHORT}}", ts_short)
     )
