@@ -885,12 +885,16 @@ def _kw_match(text, keyword):
 
 
 def is_financially_relevant(item):
-    """Gate for the wire panel. Always-finance sources pass automatically; mixed
-    sources must have at least one financial keyword in title or summary."""
-    if item["source"] in FINANCIAL_SOURCES:
-        return True
-    text = (item["title"] + " " + item["summary"]).lower()
-    return any(_kw_match(text, kw) for kw in KEYWORD_BOOSTS)
+    """Strict gate: title + RSS summary must contain at least one concrete
+    finance signal — a price, percentage, market term, central bank,
+    rating agency, ticker, or finance acronym. Pure geopolitical, sports,
+    entertainment, or general news without a market hook gets dropped,
+    even when the source is a 'financial' outlet.
+
+    Howl Street is a finance terminal; if the article doesn't tie to
+    markets, it doesn't belong on the wire."""
+    text = (item.get("title", "") or "") + " " + (item.get("summary", "") or "")
+    return _has_financial_signal(text)
 
 
 def score_item(item):
@@ -1372,18 +1376,29 @@ _FILLER_PHRASES = (
 # that we strip to avoid double-colon when prefixing with 'Howl of the Day:'.
 _LABEL_PREFIX_RE = re.compile(r"^([A-Z][\w']+(?:\s+[A-Z][\w']+){0,2}):\s+")
 
-# Sentences with concrete financial signals (prices, percentages, market terms)
-# get preferred when picking briefing copy, so the briefing makes the financial
-# relevance clear instead of stopping at "Trump met advisers".
+# Sentences/items with concrete financial signals (prices, percentages,
+# market terms, central banks, rating agencies, etc.). Used both to prefer
+# substantive briefing sentences AND as the strict gate that drops items
+# without any finance content from the wire panel and hero pool.
 _FINANCE_SIGNAL_RE = re.compile(
-    r"\$\s?\d|€\s?\d|£\s?\d|¥\s?\d"
-    r"|\b\d+(?:[\.,]\d+)?\s*(?:percent|%|bps|basis\s+points)\b"
-    r"|\b\d+(?:[\.,]\d+)?\s*(?:billion|trillion|million)\b"
+    r"\$\s?\d|€\s?\d|£\s?\d|¥\s?\d|₹\s?\d"
+    r"|\b\d+(?:[\.,]\d+)?\s*(?:percent|%|bps|basis\s+points|pct)\b"
+    r"|\b\d+(?:[\.,]\d+)?\s*(?:billion|trillion|million|bn|tn|mn)\b"
     r"|\b(?:up|down|rose|fell|jumped|dropped|gained|lost|surged|plunged|climbed|declined|slipped|advanced|tumbled|rallied)\s+(?:to\s+)?\$?\d"
-    r"|\b(?:stock|stocks|shares|equit(?:y|ies)|bond|yield|treasur(?:y|ies)|index|futures|crude|oil|brent|wti|gold|silver|copper|natgas)\b"
-    r"|\b(?:Fed|Federal\s+Reserve|ECB|BoJ|PBOC|BOE|BOC|RBA|RBNZ|SNB|IMF)\b"
-    r"|\b(?:earnings|revenue|EPS|guidance|forecast|profit|loss|dividend|buyback|IPO|merger|acquisition)\b"
-    r"|\b(?:CPI|PPI|GDP|PCE|nonfarm|payrolls|jobless\s+claims|inflation|deflation)\b",
+    r"|\b(?:stock|stocks|shares|equit(?:y|ies)|bond|bonds|yield|yields|treasur(?:y|ies)|index|indices|futures|crude|oil|brent|wti|gold|silver|copper|natgas|nasdaq|s&p|dow\s+jones|ftse|dax|cac|nikkei|hang\s+seng|sensex|nifty)\b"
+    r"|\b(?:Fed|Federal\s+Reserve|FOMC|ECB|BoJ|PBOC|BOE|BoE|BOC|RBA|RBNZ|SNB|IMF|World\s+Bank|BIS)\b"
+    r"|\b(?:Fitch|Moody'?s|S&P\s+Global|Standard\s+Chartered|Goldman|Morgan\s+Stanley|JPMorgan|Citi|Barclays|UBS|HSBC|Wells\s+Fargo|BlackRock|Vanguard)\b"
+    r"|\b(?:earnings|revenue|EPS|guidance|forecast|profit|profits|loss|losses|dividend|buyback|IPO|merger|acquisition|valuation|capex|opex)\b"
+    r"|\b(?:CPI|PPI|GDP|PCE|NFP|nonfarm|payrolls|jobless\s+claims|inflation|deflation|recession|stagflation|disinflation)\b"
+    r"|\b(?:FII|FDI|FPI|FOMC|OECD|OPEC|G7|G20|WTO)\b"
+    r"|\b(?:downgrade|upgrade|rating|ratings|outlook|hawkish|dovish|tightening|easing|pivot)\b"
+    r"|\b(?:peso|dollar|euro|yen|pound\s+sterling|yuan|renminbi|rupee|ruble|won|franc|krona|krone|real|rand|lira|baht|ringgit|dirham|riyal|forex|fx)\b"
+    r"|\b(?:bank|banks|banking|hedge\s+fund|private\s+equity|asset\s+manager|fund\s+manager|broker|brokerage|venture\s+capital|VC)\b"
+    r"|\b(?:rate\s+(?:cut|hike|hold|decision|move)|interest\s+rate|policy\s+rate|benchmark\s+rate|repo\s+rate|prime\s+rate)\b"
+    r"|\b(?:bullish|bearish|rally|sell-?off|correction|drawdown|breakout|short\s+squeeze|margin\s+call)\b"
+    r"|\b(?:bitcoin|ethereum|crypto|cryptocurrency|stablecoin|defi|blockchain\s+(?:fund|etf))\b"
+    r"|\b(?:Treasury\s+(?:Secretary|yields?|note|bond|bill)|Powell|Yellen|Lagarde|Ueda|Bailey)\b"
+    r"|\b(?:bond\s+market|stock\s+market|equity\s+market|fx\s+market|credit\s+market|commodity\s+market)\b",
     re.IGNORECASE,
 )
 
@@ -1888,22 +1903,17 @@ def main():
     print("  Hero (Loudest Howl)...")
     hero_html = build_hero_from_md()
     hero_link = None
-    auto_hero_item = None  # site's LIVE Loudest Howl (rotates every cron tick)
-    locked_hero_item = None  # X feed/queue Howl of the Day (locked daily)
+    auto_hero_item = None
     if hero_html:
-        print("    (manual override from hero.md — X feed will skip Howl of the Day)")
+        print("    (manual override from hero.md)")
     else:
         auto_hero_item = pick_top_story(all_items)
         if auto_hero_item:
             hero_html = build_hero_auto(all_items)
             hero_link = auto_hero_item["link"]
-            print(f"    (site Loudest Howl: {auto_hero_item['source']})")
+            print(f"    (Loudest Howl + Howl of the Day: {auto_hero_item['source']})")
         else:
             print("    (nothing cleared the quality threshold — hero hidden)")
-        # Independent daily-locked pick for X posts. May match the live
-        # Loudest Howl on the first build of the day, then diverge as the
-        # live spot rotates while the X flagship stays put.
-        locked_hero_item = pick_locked_hero(all_items)
 
     print("  Wire panel...")
     headlines_html = build_headlines_from_items(
@@ -1954,8 +1964,8 @@ def main():
 
     OUTPUT_PATH.write_text(output, encoding="utf-8")
     write_sitemap()
-    write_atom_feed(all_items, hero_item=locked_hero_item)
-    write_queue_html(all_items, hero_item=locked_hero_item)
+    write_atom_feed(all_items, hero_item=auto_hero_item)
+    write_queue_html(all_items, hero_item=auto_hero_item)
     print(f"  Wrote {OUTPUT_PATH} ({len(output):,} bytes)")
     print(f"  Wrote {FEED_PATH}")
     print(f"  Updated at {ts_str}")
