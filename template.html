@@ -424,9 +424,7 @@
       <div class="brand-tag">Global Financial Terminal</div>
     </div>
     <div class="live-status">
-      <span>NYSE: <span class="up">OPEN</span></span>
-      <span>LSE: <span class="up">OPEN</span></span>
-      <span>TSE: <span class="down">CLOSED</span></span>
+      {{MARKET_SESSIONS}}
       <span class="live-dot">LIVE</span>
     </div>
   </div>
@@ -452,7 +450,7 @@
   <div class="panel">
     <div class="panel-head">
       <div class="panel-title">US Equities</div>
-      <div class="panel-meta">14:32 EST</div>
+      <div class="panel-meta">{{TIMESTAMP_SHORT}}</div>
     </div>
     <table>
       <thead>
@@ -620,7 +618,7 @@
 
 <footer class="footer-strip">
   <div>HOWL STREET · No BS Global Financial News</div>
-  <div>DATA: YFINANCE · FRED · RSS WIRES &nbsp;·&nbsp; UPDATED: <span style="color: var(--green);">{{TIMESTAMP}}</span></div>
+  <div>DATA: YFINANCE · RSS WIRES &nbsp;·&nbsp; UPDATED: <span style="color: var(--green);">{{TIMESTAMP}}</span></div>
 </footer>
 
 </body>

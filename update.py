@@ -12,6 +12,7 @@ from pathlib import Path
 
 import yfinance as yf
 import feedparser
+from zoneinfo import ZoneInfo
 
 # ----------------------------------------------------------------------------
 # CONFIG
@@ -21,7 +22,9 @@ REPO_ROOT = Path(__file__).parent
 TEMPLATE_PATH = REPO_ROOT / "template.html"
 OUTPUT_PATH = REPO_ROOT / "index.html"
 
-EST = timezone(timedelta(hours=-5))  # rough; site shows "EST" label regardless
+NY = ZoneInfo("America/New_York")
+LONDON = ZoneInfo("Europe/London")
+TOKYO = ZoneInfo("Asia/Tokyo")
 
 # Tickers we pull. Format: (display_name, yfinance_symbol, format_type)
 # format_type: "price" (2dp), "yield" (3dp%), "bp" (basis points)
@@ -127,7 +130,7 @@ def fmt_price(v, kind="price"):
     if v is None:
         return "—"
     if kind == "yield":
-        return f"{v/10:.3f}%" if v > 50 else f"{v:.3f}%"  # ^TNX returns e.g. 46.24 for 4.624%
+        return f"{v:.3f}%"  # yfinance returns ^TNX/^FVX/^IRX/^TYX as percent already
     if kind == "fx":
         return f"{v:.4f}"
     if kind == "fx2":
@@ -153,8 +156,8 @@ def fmt_chg(c, kind="price"):
     cls = "up" if c >= 0 else "down"
     sign = "+" if c >= 0 else ""
     if kind == "yield":
-        # convert to basis points
-        return (f"{sign}{c*10:.1f}bp" if abs(c) < 5 else f"{sign}{c:.1f}bp", cls)
+        # 1 percentage point = 100 basis points
+        return (f"{sign}{c*100:.1f}bp", cls)
     if abs(c) < 1:
         return (f"{sign}{c:.3f}", cls)
     return (f"{sign}{c:,.2f}", cls)
@@ -194,8 +197,8 @@ def build_yield_row(name, last, chg):
     """Yield row: tenor, yield, bp change"""
     if last is None:
         return f'<tr><td class="sym-cell">{html.escape(name)}</td><td class="r">—</td><td class="r">—</td></tr>'
-    yield_pct = last / 10  # ^TNX returns 46.24 → 4.624%
-    chg_bp_val = (chg or 0) * 10
+    yield_pct = last
+    chg_bp_val = (chg or 0) * 100
     chg_cls = "up" if chg_bp_val >= 0 else "down"
     chg_sign = "+" if chg_bp_val >= 0 else ""
     return (
@@ -211,8 +214,8 @@ def build_ticker_item(label, symbol):
         return ""
     if symbol in ("^TNX", "^FVX", "^IRX", "^TYX"):
         # show as yield
-        last_str = f"{last/10:.3f}%"
-        chg_bp = (chg or 0) * 10
+        last_str = f"{last:.3f}%"
+        chg_bp = (chg or 0) * 100
         cls = "up" if chg_bp >= 0 else "down"
         sign = "+" if chg_bp >= 0 else ""
         chg_str = f"{sign}{chg_bp:.1f}bp"
@@ -227,6 +230,31 @@ def build_ticker_item(label, symbol):
         f'<span class="{cls}">{chg_str}</span>'
         f'</span>'
     )
+
+
+def build_market_sessions():
+    """Compute open/closed for NYSE, LSE, TSE based on each exchange's local hours.
+    Holidays are not handled — weekend-aware only."""
+    now_utc = datetime.now(timezone.utc)
+
+    def is_open(tz, open_hm, close_hm):
+        local = now_utc.astimezone(tz)
+        if local.weekday() >= 5:  # Sat/Sun
+            return False
+        hm = (local.hour, local.minute)
+        return open_hm <= hm < close_hm
+
+    sessions = [
+        ("NYSE", is_open(NY,     (9, 30), (16, 0))),
+        ("LSE",  is_open(LONDON, (8, 0),  (16, 30))),
+        ("TSE",  is_open(TOKYO,  (9, 0),  (15, 0))),
+    ]
+    parts = []
+    for name, open_now in sessions:
+        cls = "up" if open_now else "down"
+        label = "OPEN" if open_now else "CLOSED"
+        parts.append(f'<span>{name}: <span class="{cls}">{label}</span></span>')
+    return "\n      ".join(parts)
 
 
 def build_headlines():
@@ -323,10 +351,14 @@ def main():
     print("  Headlines...")
     headlines_html = build_headlines()
 
-    # Timestamp
-    now_utc = datetime.now(timezone.utc)
-    now_est = now_utc.astimezone(EST)
-    ts_str = now_est.strftime("%b %d %H:%M EST")
+    print("  Market sessions...")
+    sessions_html = build_market_sessions()
+
+    # Timestamp — use actual America/New_York tz so DST is handled (EST in winter, EDT in summer)
+    now_ny = datetime.now(NY)
+    tz_label = now_ny.tzname()  # "EST" or "EDT"
+    ts_str = now_ny.strftime("%b %d %H:%M ") + tz_label
+    ts_short = now_ny.strftime("%H:%M ") + tz_label
 
     # Load template, fill placeholders
     print("  Building HTML...")
@@ -341,7 +373,9 @@ def main():
         .replace("{{COMMODITIES}}", "\n".join(cmdty_rows))
         .replace("{{CRYPTO}}", "\n".join(crypto_rows))
         .replace("{{HEADLINES}}", headlines_html)
+        .replace("{{MARKET_SESSIONS}}", sessions_html)
         .replace("{{TIMESTAMP}}", ts_str)
+        .replace("{{TIMESTAMP_SHORT}}", ts_short)
     )
 
     OUTPUT_PATH.write_text(output, encoding="utf-8")
