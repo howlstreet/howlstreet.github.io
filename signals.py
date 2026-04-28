@@ -540,16 +540,15 @@ def collect_signal_posts():
 
     now_iso = datetime.utcnow().isoformat()
     for sig in fresh:
-        try:
-            sig.chart_path = render_chart(sig)
-        except Exception as e:
-            print(f"  ! chart render {sig.signal_id}: {e}", file=sys.stderr)
-            continue
+        # Chart rendering disabled — user wants only real article photos in
+        # tweets. Macro signal data still flows as text-only drafts; no PNG
+        # gets written. Re-enable by setting sig.chart_path = render_chart(sig).
+        sig.chart_path = None
         recent[sig.signal_id] = {
             "headline": sig.headline,
             "matters": sig.matters,
             "source": sig.series.source,
-            "chart_path": sig.chart_path,
+            "chart_path": None,
             "signal_id": sig.signal_id,
             "current_str": _format_value(sig.current, sig.series),
             "label": sig.series.label,

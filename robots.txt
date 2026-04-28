@@ -1,5 +1,8 @@
 User-agent: *
 Allow: /
-Disallow: /queue.html
+Disallow: /review.html
+Disallow: /drafts.json
+Disallow: /posted.json
+Disallow: /the_take.md
 
 Sitemap: https://howlstreet.github.io/sitemap.xml

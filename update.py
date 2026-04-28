@@ -21,9 +21,9 @@ import yfinance as yf
 import feedparser
 from zoneinfo import ZoneInfo
 
-import signals  # phase 2: macro signal detector + chart engine
-import insider_trades  # phase 3: corporate insider trades (Form 4 data)
-import cards as card_renderer  # phase 4: image cards for image-first X posts
+import signals  # macro signal detector + chart engine
+import insider_trades  # corporate insider trades (Form 4 data)
+import drafter  # editorial drafter — replaces queue.html / feed.xml / cards.py
 
 # Cap per-feed network wait so one slow source can't stall the build
 socket.setdefaulttimeout(15)
@@ -37,8 +37,6 @@ TEMPLATE_PATH = REPO_ROOT / "template.html"
 OUTPUT_PATH = REPO_ROOT / "index.html"
 HERO_PATH = REPO_ROOT / "hero.md"
 SITEMAP_PATH = REPO_ROOT / "sitemap.xml"
-FEED_PATH = REPO_ROOT / "feed.xml"
-QUEUE_PATH = REPO_ROOT / "queue.html"
 HERO_LOCK_PATH = REPO_ROOT / "hero_lock.json"
 SITE_URL = "https://howlstreet.github.io"
 
@@ -1502,10 +1500,15 @@ def build_headlines_from_items(items, exclude_link=None, exclude_sources=None,
 
 
 def build_corruption_watch(items, exclude_link=None, total=8):
-    """Render the Corruption Watch panel — items from accountability-focused
-    sources OR matching corruption keywords (fraud, indicted, SEC charges,
-    insider trading, etc.). The brand's differentiator on the home page."""
-    pool = [i for i in items if _is_corruption_item(i)]
+    """Render The Hunt panel — strict financial-corruption only.
+    Items must be classified as corruption (financial-fraud signal in
+    title OR a corruption-focused source with a finance signal anywhere)
+    AND independently pass the financial-relevance gate. Two-stage filter
+    keeps political indictments, violent-crime stories, and Royal-family
+    opinion pieces out of a finance terminal."""
+    pool = [i for i in items
+            if _is_corruption_item(i)
+            and is_financially_relevant(i)]
     if exclude_link:
         pool = [i for i in pool if i["link"] != exclude_link]
     pool.sort(key=lambda x: x["ts"], reverse=True)
@@ -1632,71 +1635,6 @@ def build_economic_calendar(items):
     return "\n".join(rows)
 
 
-def write_atom_feed(items, hero_item=None):
-    """Emit /feed.xml — an Atom feed of the Loudest Howl + top wire items.
-    Used by external services (dlvr.it, Buffer, Zapier) to auto-post to X / social.
-
-    hero_item: optional dict (same shape as wire items) for the auto-Loudest-Howl
-               so it appears as the first feed entry, tagged 'LOUDEST HOWL'.
-    """
-    now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-
-    pool = [i for i in items
-            if is_financially_relevant(i)
-            and (_matches_megacap(i) or _is_corruption_item(i))]
-    pool.sort(key=lambda x: x["ts"], reverse=True)
-
-    feed_items = []
-    seen_links = set()
-    if hero_item:
-        feed_items.append(("LOUDEST HOWL", hero_item))
-        seen_links.add(hero_item["link"])
-    for item in pool:
-        if item["link"] in seen_links:
-            continue
-        feed_items.append(("WIRE", item))
-        seen_links.add(item["link"])
-        if len(feed_items) >= 20:
-            break
-
-    HASHTAGS = "#HowlStreet #Markets"
-
-    entries_xml = []
-    for category, item in feed_items:
-        ts_iso = item["ts"].astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-        prefix = "[LOUDEST HOWL] " if category == "LOUDEST HOWL" else ""
-        title = html.escape(f"{prefix}{item['title']} {HASHTAGS}")
-        link = html.escape(item["link"], quote=True)
-        summary = html.escape(item.get("summary", "") or item["title"])
-        source_label = html.escape(item["source"])
-        entries_xml.append(
-            "  <entry>\n"
-            f"    <title>{title}</title>\n"
-            f'    <link href="{link}" />\n'
-            f"    <id>{link}</id>\n"
-            f"    <updated>{ts_iso}</updated>\n"
-            f"    <summary>{summary}</summary>\n"
-            f'    <category term="{category}" />\n'
-            f'    <category term="{source_label}" />\n'
-            "  </entry>"
-        )
-
-    content = (
-        '<?xml version="1.0" encoding="utf-8"?>\n'
-        '<feed xmlns="http://www.w3.org/2005/Atom">\n'
-        '  <title>Howl Street — Your Wolf of Wall Street</title>\n'
-        '  <subtitle>They howl for themselves. We howl for you. No-BS finance signals from 100+ sources.</subtitle>\n'
-        f'  <link href="{SITE_URL}/" />\n'
-        f'  <link rel="self" type="application/atom+xml" href="{SITE_URL}/feed.xml" />\n'
-        f'  <id>{SITE_URL}/</id>\n'
-        f"  <updated>{now_utc}</updated>\n"
-        '  <author><name>Howl Street</name></author>\n'
-        + "\n".join(entries_xml) + "\n"
-        '</feed>\n'
-    )
-    FEED_PATH.write_text(content, encoding="utf-8")
-
-
 _DASH_RE = re.compile(r"\s*[—–]\s*")
 # Trailing junk separators left behind when RSS feeds append "- Source" / "| Site"
 # attributions and the source name gets stripped elsewhere. We strip the
@@ -1730,29 +1668,37 @@ _LABEL_PREFIX_RE = re.compile(r"^([A-Z][\w']+(?:\s+[A-Z][\w']+){0,2}):\s+")
 # $TICKER reports earnings" lede instead of the standard wire format.
 _CORRUPTION_RE = re.compile(
     r"\b(?:"
-    r"fraud|fraudulent|defraud"
-    r"|indicted|indictment|charged|charges|guilty\s+plea|pleaded\s+guilty"
+    # Financial fraud — must explicitly tie to money / markets
+    r"fraud|fraudulent|defraud|scam|scammed"
+    r"|ponzi|pyramid\s+scheme|pump[- ]and[- ]dump"
     r"|insider\s+trading|stock\s+manipulation|market\s+manipulation"
-    r"|money\s+laundering|laundered|wire\s+fraud|securities\s+fraud|accounting\s+fraud"
-    r"|bribery|bribed|kickback|kickbacks"
-    r"|conflict\s+of\s+interest|self[- ]dealing|self[- ]enrich"
-    r"|whistleblower|whistle[- ]blower|leaked\s+documents"
+    r"|money\s+laundering|laundered|wire\s+fraud|securities\s+fraud"
+    r"|accounting\s+fraud|cooked\s+the\s+books|earnings\s+manipulation"
+    r"|bribery|bribed|kickback|kickbacks|embezzle(?:d|ment)?"
+    r"|tax\s+evasion|tax\s+fraud|offshore\s+accounts"
+    r"|panama\s+papers|paradise\s+papers|pandora\s+papers|leaked\s+(?:financial|tax)"
+    # Regulatory enforcement (financial regulators only)
     r"|SEC\s+(?:probe|investigation|charges|fines|enforcement|complaint|settlement|sued|files)"
-    r"|DOJ\s+(?:probe|investigation|charges|fines|settlement|sued)"
+    r"|DOJ\s+(?:probe|investigation|charges|fines|settlement)\s+(?:against|of|into)\s+(?:bank|hedge|firm|corp|exec|CEO|trader)"
     r"|FTC\s+(?:probe|investigation|charges|sued)"
     r"|CFTC\s+(?:probe|investigation|charges|fines)"
     r"|FINRA\s+(?:probe|investigation|fines)"
-    r"|class[- ]action\s+(?:lawsuit|suit)"
-    r"|tax\s+evasion|tax\s+fraud|offshore\s+accounts|panama\s+papers|paradise\s+papers|pandora\s+papers"
-    r"|ponzi\s+scheme|pump[- ]and[- ]dump"
-    r"|cooked\s+the\s+books|earnings\s+manipulation"
-    r"|corruption|corrupt"
-    r"|insider\s+trade(?:r|d|s)?|insider\s+selling|insider\s+buying"
-    r"|dark\s+money|shell\s+company|shell\s+companies"
-    r"|crony|cronyism|self[- ]dealing"
-    r"|too\s+big\s+to\s+(?:fail|jail)"
+    r"|FDIC\s+(?:investigation|action)"
+    r"|class[- ]action\s+(?:lawsuit|suit)|shareholder\s+(?:suit|lawsuit|complaint)"
+    # Insider activity (financial)
+    r"|insider\s+sale(?:s)?|insider\s+purchase(?:s)?|insider\s+selling|insider\s+buying"
+    r"|stock\s+buyback\s+(?:while|despite|after)"
+    # Corporate / banking corruption frames
+    r"|too\s+big\s+to\s+(?:fail|jail)|bank\s+bailout|systemic\s+risk"
     r"|regulatory\s+capture|revolving\s+door"
-    r"|mass\s+layoff(?:s)?|stock\s+buyback\s+(?:while|despite)"
+    r"|dark\s+money|shell\s+company|shell\s+companies|hidden\s+ownership"
+    r"|grant\s+fraud|federal\s+contract\s+fraud|no[- ]bid\s+contract"
+    # Specifically money-tied conflicts (avoid pure-political indictments)
+    r"|self[- ]dealing|self[- ]enrich(?:ment|ed)?"
+    r"|conflict\s+of\s+interest\s+(?:in|over|with)"
+    r"|insider\s+(?:enriched|profited)"
+    # ESG / corporate accountability
+    r"|greenwashing|esg\s+fraud"
     r")\b",
     re.IGNORECASE,
 )
@@ -1813,6 +1759,7 @@ _FINANCE_SIGNAL_RE = re.compile(
     r"|\b(?:bond\s+market|stock\s+market|equity\s+market|fx\s+market|credit\s+market|commodity\s+market)\b",
     re.IGNORECASE,
 )
+
 
 
 def _has_financial_signal(sentence):
@@ -1993,14 +1940,25 @@ def _is_earnings_title(title):
 
 
 def _is_corruption_item(item):
-    """True if the item is from a corruption-focused source OR matches
-    corruption / accountability keywords (fraud, indicted, SEC charges,
-    insider trading, etc.). This is the brand's bread and butter — the
-    'Wolf of Wall Street for the people' angle."""
-    if item.get("source") in _CORRUPTION_SOURCES:
+    """True if the item is FINANCIAL corruption — strict gate.
+    Title must match a financial-corruption pattern (fraud / SEC / insider
+    trading / etc.) OR the source must be a dedicated investigative outlet
+    AND the item must independently have a finance signal somewhere.
+
+    This rules out pure-political indictments (Fauci, Comey, FBI raids
+    that aren't financial), violent-crime stories from right-leaning
+    outlets, and Royal-family opinion pieces from Mother Jones —
+    everything the user has flagged as not belonging on a finance terminal."""
+    title = item.get("title", "") or ""
+    summary = item.get("summary", "") or ""
+    text = title + " " + summary
+    # Title-level financial-corruption signal — strongest match
+    if _CORRUPTION_RE.search(title):
         return True
-    text = (item.get("title", "") or "") + " " + (item.get("summary", "") or "")
-    return bool(_CORRUPTION_RE.search(text))
+    # Dedicated investigative source AND has a finance signal anywhere
+    if item.get("source") in _CORRUPTION_SOURCES and _has_financial_signal(text):
+        return True
+    return False
 
 
 def _is_breaking_title(title):
@@ -2135,394 +2093,6 @@ def fetch_article_briefing(url, title, timeout=8):
             if len(desc) > 50 and not _paragraph_too_similar(desc, title_prefix):
                 return _strip_dashes(desc)
     return None
-
-
-def write_queue_html(items, hero_item=None, signal_posts=None, insider_posts=None):
-    """Emit /queue.html — a hidden, noindex page listing the top 20 stories as
-    pre-built tweets ready to copy-paste or one-click open in X's compose window.
-
-    Each tweet is a real briefing: '{Howl of the Day: }{Title}. {1-2 sentence
-    summary}' followed by the URL + hashtags. Briefing comes from the RSS
-    summary when substantive, otherwise og:description fetched from the article.
-
-    Not linked from the main site. Accessible only by direct URL. Disallowed in
-    robots.txt and tagged noindex,nofollow.
-    """
-    HASHTAGS = "#HowlStreet #Markets"
-    HASHTAGS_LEN = len(HASHTAGS)  # 20
-    URL_LEN = 23  # X auto-shortens URLs to 23 (t.co)
-    # X Premium: 4000 char limit per tweet (vs 280 on free tier).
-    # We still cap titles tightly so the briefing has room to lead with substance.
-    MAX = 4000
-    TITLE_CAP = 110
-
-    # Queue surfaces only mega-cap mentions OR corruption items (the brand's
-    # cross-aisle "expose the rats" content). Everything else dropped.
-    pool = [i for i in items
-            if is_financially_relevant(i)
-            and (_matches_megacap(i) or _is_corruption_item(i))]
-    pool.sort(key=lambda x: x["ts"], reverse=True)
-
-    # Classify each item into a card category, then round-robin them so the
-    # queue shows VARIETY at the top instead of clumping (e.g. 6 EARNINGS
-    # in a row). Priority order tries CORRUPTION → EARNINGS → BREAKING →
-    # JUST_IN → WIRE on each pass.
-    now_ny = datetime.now(NY)
-    JUST_IN_WINDOW_MIN = 60
-
-    def classify(item):
-        if _is_corruption_item(item):
-            return "CORRUPTION"
-        if _is_earnings_title(item.get("title", "")):
-            return "EARNINGS"
-        if _is_breaking_title(item.get("title", "")):
-            return "BREAKING"
-        age_min = (now_ny - item["ts"]).total_seconds() / 60
-        if age_min < JUST_IN_WINDOW_MIN:
-            return "JUST_IN"
-        return "WIRE"
-
-    queue = []
-    seen_links = set()
-    if hero_item:
-        queue.append(("HOWL_OF_THE_DAY", hero_item))
-        seen_links.add(hero_item["link"])
-
-    buckets = {"CORRUPTION": [], "EARNINGS": [], "BREAKING": [], "JUST_IN": [], "WIRE": []}
-    for item in pool:
-        if item["link"] in seen_links:
-            continue
-        cat = classify(item)
-        buckets[cat].append(item)
-
-    # Round-robin pull in priority order; CORRUPTION first because it's the
-    # brand differentiator. Cap total queue at 30 (X Premium = no shortage
-    # of room for posts).
-    priority = ["CORRUPTION", "EARNINGS", "BREAKING", "JUST_IN", "WIRE"]
-    QUEUE_CAP = 30
-    while len(queue) < QUEUE_CAP:
-        progress = False
-        for cat in priority:
-            if buckets[cat]:
-                item = buckets[cat].pop(0)
-                queue.append((cat, item))
-                seen_links.add(item["link"])
-                progress = True
-                if len(queue) >= QUEUE_CAP:
-                    break
-        if not progress:
-            break
-
-    # Briefing per item: RSS summary if substantive (and not a title reword),
-    # else scrape the article body for a real briefing.
-    briefings = {}
-    needs_fetch = []  # list of (url, title)
-    for category, item in queue:
-        rss = _clean_summary(item.get("summary", ""))
-        if _is_substantive_summary(rss, item["title"]):
-            cleaned = _strip_continue_reading(_clean_briefing_lead(_strip_trailing_seps(_strip_dashes(rss))))
-            if len(cleaned) >= 60:
-                briefings[item["link"]] = cleaned
-            else:
-                needs_fetch.append((item["link"], item["title"]))
-        else:
-            needs_fetch.append((item["link"], item["title"]))
-
-    if needs_fetch:
-        print(f"  fetching article body for {len(needs_fetch)} queue items...")
-        with ThreadPoolExecutor(max_workers=10) as ex:
-            results = list(ex.map(lambda p: fetch_article_briefing(p[0], p[1]), needs_fetch))
-        for (link, _t), briefing in zip(needs_fetch, results):
-            if briefing:
-                cleaned = _strip_trailing_ellipsis(_clean_briefing_lead(_strip_trailing_seps(briefing)))
-                if len(cleaned) >= 60:
-                    briefings[link] = cleaned
-
-    # Subtle Pack-themed leads sprinkled on every 4th wire post (rotating).
-    # Howl of the Day always stays "Howl of the Day:". Most wire posts get
-    # no prefix at all — keeps the feed feeling like real news, not a bot.
-    WIRE_LEADS = ["Pack alert: ", "From the Pack: ", "Tracked by the Pack: "]
-
-    cards = []
-
-    # ── Phase 2: macro signal cards ──
-    # Show first (above wire) so the most newsworthy original signal is the
-    # first thing a poster sees when they open the queue. Each signal card
-    # has a branded chart image attached and its own tweet template with
-    # signal-specific hashtags (#Oil for WTI, #Bitcoin for BTC, etc.).
-    site_url_for_signals = "howlstreet.github.io"
-    for sp in (signal_posts or []):
-        sig_id = sp["signal_id"]
-        chart_path = sp["chart_path"]
-        headline = sp["headline"]
-        matters = sp["matters"]
-        source = sp["source"]
-        # Per-signal hashtags (preferred), with #HowlStreet as the brand anchor
-        sig_tags = sp.get("hashtags") or "#Markets"
-        sig_hashtags = f"#HowlStreet {sig_tags}"
-        sig_hashtags_len = len(sig_hashtags)
-
-        # Tweet text: headline + why it matters + site link + signal-specific tags.
-        signal_tweet = f"{headline}\n\n{matters}\n\n{site_url_for_signals} {sig_hashtags}"
-        signal_counted = len(headline) + 2 + len(matters) + 2 + URL_LEN + 1 + sig_hashtags_len
-        if signal_counted > MAX:
-            # Trim 'matters' to fit budget while keeping the headline whole.
-            budget = MAX - (len(headline) + 2 + 2 + URL_LEN + 1 + sig_hashtags_len)
-            matters_trim = _smart_truncate(matters, budget) if budget > 50 else ""
-            signal_tweet = f"{headline}\n\n{matters_trim}\n\n{site_url_for_signals} {sig_hashtags}".strip()
-            signal_counted = len(headline) + 2 + len(matters_trim) + 2 + URL_LEN + 1 + sig_hashtags_len
-
-        intent_url = "https://twitter.com/intent/tweet?text=" + urllib.parse.quote(signal_tweet, safe="")
-        sig_dom_id = re.sub(r"[^A-Za-z0-9_-]", "_", sig_id)
-
-        cards.append(
-            f'<div class="card card-signal">'
-            f'  <div class="card-head">'
-            f'    <span class="badge badge-signal">MACRO SIGNAL</span>'
-            f'    <span class="meta">{html.escape(source)}</span>'
-            f'    <span class="counter">{signal_counted}/4000</span>'
-            f'  </div>'
-            f'  <div class="signal-headline">{html.escape(headline)}</div>'
-            f'  <div class="signal-matters">{html.escape(matters)}</div>'
-            f'  <img class="signal-chart" src="{html.escape(chart_path)}" alt="{html.escape(sp["label"])} chart" loading="lazy">'
-            f'  <textarea id="s{sig_dom_id}" readonly>{html.escape(signal_tweet)}</textarea>'
-            f'  <div class="actions">'
-            f'    <a class="btn btn-x" href="{html.escape(intent_url, quote=True)}" target="_blank" rel="noopener">Open on X</a>'
-            f'    <button class="btn btn-copy" onclick="copySignal(\'{sig_dom_id}\', this)">Copy</button>'
-            f'    <a class="btn btn-link" href="{html.escape(chart_path)}" download>Download chart</a>'
-            f'  </div>'
-            f'</div>'
-        )
-
-    wire_idx = 0
-    for i, (category, item) in enumerate(queue):
-        is_top = category == "HOWL_OF_THE_DAY"
-        is_earnings = category == "EARNINGS"
-        is_just_in = category == "JUST_IN"
-        is_breaking = category == "BREAKING"
-        is_corruption = category == "CORRUPTION"
-        ticker = _extract_ticker(item.get("title", ""), item.get("summary", ""))
-        if is_top:
-            prefix = "Howl of the Day: "
-        elif is_corruption:
-            prefix = "Corruption uncovered: "
-        elif is_earnings:
-            # "Earnings Howl:" — brand-tied. Inject the ticker if it's not
-            # already in the title so the cashtag is always visible.
-            if ticker and ticker.lower() not in item.get("title", "").lower():
-                prefix = f"Earnings Howl: {ticker} — "
-            else:
-                prefix = "Earnings Howl: "
-        elif is_breaking:
-            prefix = "BREAKING: "
-        elif is_just_in:
-            prefix = "Fresh Howl: "
-        else:
-            if wire_idx % 4 == 0:
-                prefix = WIRE_LEADS[(wire_idx // 4) % len(WIRE_LEADS)]
-            else:
-                prefix = ""
-            wire_idx += 1
-        title = _strip_continue_reading(_strip_trailing_seps(_strip_dashes(item["title"])))
-        link = item["link"]
-
-        # Strip leading "BREAKING:" / "Ueda Speech:" labels so we don't get
-        # "Howl of the Day: Ueda Speech: ..." double-colons. Only strip when
-        # we're prepending our own labeled prefix.
-        if prefix and prefix.endswith(": "):
-            stripped = _strip_label_prefix(title)
-            if len(stripped) >= 30:
-                title = stripped
-
-        # Howl of the Day gets a tighter title cap so the briefing has more
-        # room to breathe and lead with substance.
-        cap = 90 if is_top else TITLE_CAP
-        if len(title) > cap:
-            title = _smart_truncate(title, cap)
-        # Re-strip trailing seps in case truncation surfaced one
-        title = _strip_trailing_seps(title)
-
-        briefing = briefings.get(item["link"])
-        # One more pass on the briefing to drop "continue reading" tails and
-        # "..." that may have sat in the persisted RSS summary.
-        if briefing:
-            briefing = _strip_continue_reading(briefing)
-        # Bullet-format briefings with 2+ sentences so long posts (especially
-        # corruption + earnings) read scan-ably with proper spacing.
-        if briefing:
-            briefing = _format_briefing_as_bullets(briefing)
-
-        # Format: {prefix}{title}. {briefing}\n\n{url} {hashtags}
-        title_punct = title.rstrip()
-        if not title_punct.endswith(('.', '!', '?', ':', ';', '"', "'", ')')):
-            title_punct += '.'
-
-        # Image-first format: {prefix}{title}\n\n{briefing}\n\n{hashtags}
-        # No external link in the tweet body — the rendered image card is
-        # the centerpiece (Polymarket Money / Bull Theory style). The user
-        # downloads the image from the queue and attaches it when posting.
-        if briefing:
-            fixed = len(prefix) + len(title_punct) + 2 + 2 + HASHTAGS_LEN
-            briefing_budget = MAX - fixed
-            if briefing_budget >= 60 and len(briefing) > briefing_budget:
-                briefing = _smart_truncate(briefing, briefing_budget, require_full_sentence=True)
-
-        if briefing:
-            tweet = f"{prefix}{title_punct}\n\n{briefing}\n\n{HASHTAGS}"
-            counted_len = len(prefix) + len(title_punct) + 2 + len(briefing) + 2 + HASHTAGS_LEN
-        else:
-            tweet = f"{prefix}{title_punct}\n\n{HASHTAGS}"
-            counted_len = len(prefix) + len(title_punct) + 2 + HASHTAGS_LEN
-
-        ts_str = item["ts"].astimezone(NY).strftime("%H:%M EDT · %b %d")
-        source_label = html.escape(item["source"])
-        intent_url = "https://twitter.com/intent/tweet?text=" + urllib.parse.quote(tweet, safe="")
-
-        if is_top:
-            badge_class, badge_text = "badge-howl", "HOWL OF THE DAY"
-        elif is_corruption:
-            badge_class, badge_text = "badge-corrupt", "CORRUPTION"
-        elif is_earnings:
-            badge_class, badge_text = "badge-earnings", "EARNINGS HOWL"
-        elif is_breaking:
-            badge_class, badge_text = "badge-breaking", "BREAKING"
-        elif is_just_in:
-            badge_class, badge_text = "badge-justin", "FRESH HOWL"
-        else:
-            badge_class, badge_text = "badge-wire", "WIRE"
-
-        card_extra_class = ""
-        if is_corruption:
-            card_extra_class = " card-corrupt"
-        elif is_earnings:
-            card_extra_class = " card-earnings"
-        elif is_breaking:
-            card_extra_class = " card-breaking"
-        elif is_just_in:
-            card_extra_class = " card-justin"
-
-        # Phase 4: render an image card so the X post is image-first.
-        # The tweet text + image carry the post; the link is optional.
-        post_image_path = None
-        try:
-            post_image_path = card_renderer.render_card(
-                category=category,
-                headline=f"{prefix}{title_punct}".strip(),
-                briefing=briefing or "",
-                ticker=ticker or "",
-                source=item.get("source", ""),
-                ts_label=ts_str,
-                post_id=f"{category.lower()}_{i}_{item['link'][-40:]}",
-            )
-        except Exception as e:
-            print(f"  ! card render skipped: {e}", file=sys.stderr)
-        img_block = ""
-        download_btn = ""
-        if post_image_path:
-            img_block = (
-                f'  <img class="signal-chart" src="{html.escape(post_image_path)}"'
-                f' alt="{html.escape(badge_text)} card" loading="lazy">'
-            )
-            download_btn = (
-                f'    <a class="btn btn-link" href="{html.escape(post_image_path)}"'
-                f' download>Download image</a>'
-            )
-
-        cards.append(
-            f'<div class="card{card_extra_class}">'
-            f'  <div class="card-head">'
-            f'    <span class="badge {badge_class}">{badge_text}</span>'
-            f'    <span class="meta">{source_label} · {html.escape(ts_str)}</span>'
-            f'    <span class="counter">{counted_len}/4000</span>'
-            f'  </div>'
-            f'{img_block}'
-            f'  <textarea id="t{i}" readonly>{html.escape(tweet)}</textarea>'
-            f'  <div class="actions">'
-            f'    <a class="btn btn-x" href="{html.escape(intent_url, quote=True)}" target="_blank" rel="noopener">Open on X</a>'
-            f'    <button class="btn btn-copy" onclick="copyTweet({i}, this)">Copy</button>'
-            f'{download_btn}'
-            f'    <a class="btn btn-link" href="{html.escape(link, quote=True)}" target="_blank" rel="noopener">Article</a>'
-            f'  </div>'
-            f'</div>'
-        )
-
-    now_str = datetime.now(NY).strftime("%H:%M EDT · %b %d, %Y")
-
-    page = f"""<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex,nofollow">
-<title>Howl Street — Post Queue</title>
-<style>
-  :root {{ --green: #00ff88; --bg: #000; --fg: #ccc; --dim: #666; --card: #0a0a0a; --border: #1a1a1a; }}
-  * {{ box-sizing: border-box; }}
-  body {{ background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", monospace; margin: 0; padding: 24px; }}
-  .wrap {{ max-width: 720px; margin: 0 auto; }}
-  h1 {{ color: var(--green); font-size: 22px; margin: 0 0 4px; letter-spacing: 1px; }}
-  .sub {{ color: var(--dim); font-size: 12px; margin-bottom: 24px; }}
-  .card {{ background: var(--card); border: 1px solid var(--border); border-radius: 6px; padding: 14px; margin-bottom: 14px; }}
-  .card-head {{ display: flex; align-items: center; gap: 10px; font-size: 11px; margin-bottom: 8px; }}
-  .badge {{ padding: 2px 6px; border-radius: 3px; font-weight: bold; letter-spacing: 0.5px; font-size: 10px; }}
-  .badge-howl {{ background: var(--green); color: #000; }}
-  .badge-wire {{ background: #1a1a1a; color: var(--green); border: 1px solid var(--green); }}
-  .badge-signal {{ background: #ffaa00; color: #000; }}
-  .badge-earnings {{ background: #00bfff; color: #000; }}
-  .badge-justin {{ background: #ff4d4d; color: #fff; }}
-  .badge-breaking {{ background: #ff4d4d; color: #fff; animation: pulse 2s infinite; }}
-  .badge-corrupt {{ background: #b042ff; color: #fff; }}
-  .card-earnings {{ border-color: #00bfff; }}
-  .card-justin {{ border-color: #ff4d4d; }}
-  .card-breaking {{ border-color: #ff4d4d; }}
-  .card-corrupt {{ border-color: #b042ff; }}
-  @keyframes pulse {{ 0% {{ opacity: 1; }} 50% {{ opacity: 0.6; }} 100% {{ opacity: 1; }} }}
-  .card-signal {{ border-color: #ffaa00; }}
-  .signal-headline {{ color: var(--fg); font-size: 15px; font-weight: bold; line-height: 1.4; margin-bottom: 6px; }}
-  .signal-matters {{ color: var(--dim); font-size: 13px; line-height: 1.5; margin-bottom: 10px; }}
-  .signal-chart {{ display: block; width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 10px; border: 1px solid var(--border); }}
-  .meta {{ color: var(--dim); flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }}
-  .counter {{ color: var(--dim); font-variant-numeric: tabular-nums; }}
-  textarea {{ width: 100%; min-height: 110px; background: #050505; color: var(--fg); border: 1px solid var(--border); border-radius: 4px; padding: 8px; font: 13px/1.5 -apple-system, monospace; resize: vertical; white-space: pre-wrap; }}
-  .actions {{ display: flex; gap: 8px; margin-top: 8px; }}
-  .btn {{ font-size: 12px; padding: 6px 12px; border-radius: 4px; cursor: pointer; border: none; text-decoration: none; display: inline-block; font-weight: bold; letter-spacing: 0.5px; }}
-  .btn-x {{ background: var(--green); color: #000; }}
-  .btn-x:hover {{ filter: brightness(1.1); }}
-  .btn-copy {{ background: #1a1a1a; color: var(--fg); border: 1px solid var(--border); }}
-  .btn-copy:hover {{ border-color: var(--green); color: var(--green); }}
-  .btn-copy.copied {{ background: var(--green); color: #000; }}
-  .btn-link {{ background: transparent; color: var(--dim); border: 1px solid var(--border); }}
-  .btn-link:hover {{ color: var(--fg); }}
-</style>
-</head>
-<body>
-<div class="wrap">
-  <h1>HOWL STREET — POST QUEUE</h1>
-  <div class="sub">Generated {now_str} · Macro signals (with charts) and top wire posts. Click "Open on X" to compose. For signal posts, also click "Download chart" and attach the image when posting. Page is noindex; not linked from the public site.</div>
-  {chr(10).join(cards)}
-</div>
-<script>
-function copyTweet(i, btn) {{
-  const ta = document.getElementById('t' + i);
-  navigator.clipboard.writeText(ta.value).then(() => {{
-    btn.textContent = 'Copied';
-    btn.classList.add('copied');
-    setTimeout(() => {{ btn.textContent = 'Copy'; btn.classList.remove('copied'); }}, 1500);
-  }});
-}}
-function copySignal(id, btn) {{
-  const ta = document.getElementById('s' + id);
-  navigator.clipboard.writeText(ta.value).then(() => {{
-    btn.textContent = 'Copied';
-    btn.classList.add('copied');
-    setTimeout(() => {{ btn.textContent = 'Copy'; btn.classList.remove('copied'); }}, 1500);
-  }});
-}}
-</script>
-</body>
-</html>
-"""
-    QUEUE_PATH.write_text(page, encoding="utf-8")
 
 
 def write_sitemap():
@@ -2689,28 +2259,37 @@ def main():
 
     OUTPUT_PATH.write_text(output, encoding="utf-8")
     write_sitemap()
-    write_atom_feed(all_items, hero_item=auto_hero_item)
 
-    # Phase 2: detect macro signals (multi-year highs/lows, big moves) and
-    # render branded charts. Defensive — any failure in the signal pipeline
-    # must not break the wire/queue build.
+    # Macro signals (FRED + yfinance, multi-year highs/lows, big moves).
     try:
         signal_posts = signals.collect_signal_posts()
     except Exception as e:
         print(f"  ! signals pipeline failed: {e}", file=sys.stderr)
         signal_posts = []
 
-    # Phase 3: corporate insider trades from openinsider (SEC Form 4 data).
+    # Corporate insider trades from openinsider (SEC Form 4 data).
     try:
         insider_posts = insider_trades.collect_insider_posts()
     except Exception as e:
         print(f"  ! insider trades pipeline failed: {e}", file=sys.stderr)
         insider_posts = []
 
-    write_queue_html(all_items, hero_item=auto_hero_item,
-                     signal_posts=signal_posts, insider_posts=insider_posts)
+    # Editorial drafter — produces drafts.json + review.html for human
+    # review. Replaces the old queue.html / feed.xml / cards.py pipeline.
+    rss_corruption = [i for i in all_items if _is_corruption_item(i)]
+    try:
+        drafter.collect_drafts(
+            items=all_items,
+            signal_posts=signal_posts,
+            insider_posts=insider_posts,
+            rss_corruption_items=rss_corruption,
+            megacap_filter=_matches_megacap,
+            top_item=auto_hero_item,  # LOUD HOWL = same pick as site's Loudest Howl
+        )
+    except Exception as e:
+        print(f"  ! drafter pipeline failed: {e}", file=sys.stderr)
+
     print(f"  Wrote {OUTPUT_PATH} ({len(output):,} bytes)")
-    print(f"  Wrote {FEED_PATH}")
     print(f"  Updated at {ts_str}")
 
 

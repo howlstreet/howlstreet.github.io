@@ -358,15 +358,9 @@ def collect_insider_posts():
     for tr in trades:
         post_id = f"{tr['ticker']}_{tr['type']}_{tr['trade_date']}"
         if post_id in recent:
-            continue  # already rendered
-        try:
-            chart_path = render_trade_chart(tr)
-        except Exception as e:
-            print(f"  ! chart render {post_id}: {e}", file=sys.stderr)
             continue
-        if not chart_path:
-            continue
-        # Calculate pct since the trade (from chart's last close vs trade price)
+        # Chart rendering disabled — user wants only real article photos.
+        # Trade data still flows as text-only drafts.
         try:
             ticker_obj = yf.Ticker(tr["ticker"])
             cur = float(ticker_obj.history(period="5d")["Close"].dropna().iloc[-1])
@@ -376,7 +370,7 @@ def collect_insider_posts():
         recent[post_id] = {
             **tr,
             "post_id": post_id,
-            "chart_path": chart_path,
+            "chart_path": None,
             "pct_since": pct_since,
             "fired_at": now_iso,
         }
