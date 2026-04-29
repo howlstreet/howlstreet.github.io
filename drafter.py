@@ -213,24 +213,40 @@ _BODY_FACT_SIGNAL = re.compile(
 )
 
 
-def _fetch_article_body(url, timeout=8):
+_BROWSER_UA = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0 Safari/537.36"
+)
+
+
+def _fetch_article_body(url, timeout=15):
     """Pull the article HTML and return a list of substantive paragraph
     strings — boilerplate/filler stripped, prioritized by fact-signal
     density. Returns [] on any failure (cookie walls, paywalls, 403).
 
     Used by every format function that has a source_url, to fill the
-    draft body with real article content instead of [FILL] placeholders."""
+    draft body with real article content. Retries once on failure since
+    a single transient timeout was leaving good articles with no body."""
     if not url or not url.startswith("http"):
         return []
-    try:
-        req = urllib.request.Request(url, headers={
-            "User-Agent": "Mozilla/5.0 (compatible; HowlStreet/1.0; +https://howlstreet.github.io)",
-            "Accept": "text/html,application/xhtml+xml",
-        })
-        with urllib.request.urlopen(req, timeout=timeout) as resp:
-            charset = resp.headers.get_content_charset() or "utf-8"
-            page = resp.read(600_000).decode(charset, errors="replace")
-    except Exception:
+    page = None
+    for attempt in (1, 2):
+        try:
+            req = urllib.request.Request(url, headers={
+                "User-Agent": _BROWSER_UA,
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Accept-Encoding": "identity",
+            })
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                charset = resp.headers.get_content_charset() or "utf-8"
+                page = resp.read(800_000).decode(charset, errors="replace")
+            break
+        except Exception:
+            if attempt == 2:
+                return []
+            continue
+    if not page:
         return []
     raw_paras = re.findall(r"<p\b[^>]*>(.*?)</p>", page, re.DOTALL | re.IGNORECASE)
     out = []
