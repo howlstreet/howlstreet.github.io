@@ -439,10 +439,9 @@ def _compose_body_from_article(title, summary, body_paras, want_sentences=4):
     if not out and summary:
         _take(_first_sentence(summary, max_chars=300))
 
-    # 3. Last-resort fallback: if neither body nor summary yielded
-    # anything, use the title so we never emit an empty draft.
-    if not out and title:
-        _take(_first_sentence(title) or title.strip()[:240])
+    # No title fallback — X's link card already shows the headline.
+    # If we couldn't get a body or summary, skip the draft entirely
+    # rather than ship a tweet that just repeats what the card shows.
 
     return out
 
@@ -562,7 +561,9 @@ def draft_policy_read(item):
     body_paras = item.get("_body_paras") or []
     sentences = _compose_body_from_article(title, summary, body_paras,
                                             want_sentences=4)
-    body = "\n\n".join(sentences) if sentences else (title or "Policy update.")
+    if not sentences:
+        return None  # No body or summary content — skip rather than ship the title.
+    body = "\n\n".join(sentences)
     return _make_draft(
         fmt="POLICY_READ",
         body=body,
@@ -632,7 +633,9 @@ def draft_corruption_watch_from_rss(item):
     body_paras = item.get("_body_paras") or []
     sentences = _compose_body_from_article(title, summary, body_paras,
                                             want_sentences=4)
-    body = "\n\n".join(sentences) if sentences else title
+    if not sentences:
+        return None
+    body = "\n\n".join(sentences)
     return _make_draft(
         fmt="CORRUPTION_WATCH",
         body=body,
@@ -658,7 +661,9 @@ def draft_global_desk(item):
     body_paras = item.get("_body_paras") or []
     sentences = _compose_body_from_article(title, summary, body_paras,
                                             want_sentences=4)
-    body = "\n\n".join(sentences) if sentences else title
+    if not sentences:
+        return None
+    body = "\n\n".join(sentences)
     return _make_draft(
         fmt="GLOBAL_DESK",
         body=body,
@@ -683,7 +688,9 @@ def draft_data_drop(item):
     body_paras = item.get("_body_paras") or []
     sentences = _compose_body_from_article(title, summary, body_paras,
                                             want_sentences=4)
-    body = "\n\n".join(sentences) if sentences else title
+    if not sentences:
+        return None
+    body = "\n\n".join(sentences)
     return _make_draft(
         fmt="DATA_DROP",
         body=body,
@@ -711,7 +718,9 @@ def draft_loud_howl(top_item):
     body_paras = top_item.get("_body_paras") or []
     sentences = _compose_body_from_article(title, summary, body_paras,
                                             want_sentences=4)
-    body = "\n\n".join(sentences) if sentences else (title or "Today's loudest howl.")
+    if not sentences:
+        return None
+    body = "\n\n".join(sentences)
     return _make_draft(
         fmt="LOUD_HOWL",
         body=body,
