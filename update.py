@@ -1583,7 +1583,7 @@ def build_insider_wire(insider_posts, total=10):
         ticker = p.get("ticker", "")
         ttype = p.get("type", "")
         verb = "BOUGHT" if ttype == "P" else "SOLD"
-        verb_color = "#00ff9d" if ttype == "P" else "#ff3b3b"
+        verb_color = "#ff66c4"  # match the Insider Wire panel title color
         dollar = p.get("dollar_value", 0) or 0
         if dollar >= 1_000_000_000:
             dollar_str = f"${dollar/1_000_000_000:.1f}B"
