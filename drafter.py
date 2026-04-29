@@ -192,6 +192,20 @@ _BODY_BOILERPLATE = (
     "read more at", "this article was", "advertisement", "share this",
     "originally appeared", "view comments", "the post ", "appeared first",
     "©", "browser to view", "javascript", "enable javascript",
+    # .gov / official-website chrome that appears on every federal page
+    "official websites use .gov", "a .gov website belongs",
+    ".gov website belongs to", "an official government organization",
+    "secure .gov websites use https", "secure.gov websites use https",
+    "lock locked padlock", "lock ( locked padlock",
+    "share sensitive information only on official",
+    "an official website of the united states",
+    # Generic CMS / paywall chrome
+    "you have read", "to continue reading", "subscribe now",
+    "create a free account", "log in to read", "sign in to continue",
+    # Fed / Treasury press-release marketing boilerplate
+    "the central bank of the united states, provides",
+    "provides the nation with a safe, flexible, and stable",
+    "for release at", "for immediate release",
 )
 _BODY_FILLER = (
     "is addressing", "press conference", "press briefing",
@@ -552,9 +566,15 @@ def _compose_body_from_article(title, summary, body_paras, want_sentences=4):
             if len(out) >= want_sentences:
                 break
 
-    # 2. Fall back to the RSS summary when we couldn't fetch the body.
+    # 2. Fall back to the RSS summary when we couldn't fetch the body —
+    # but only if the summary actually differs from the title. Many
+    # press releases (Fed approvals, etc.) ship a summary that's just
+    # the title repeated; that adds nothing the link card doesn't show.
     if not out and summary:
-        _take(_first_sentence(summary, max_chars=300))
+        title_norm = re.sub(r"\W+", "", title.lower())[:80]
+        summary_norm = re.sub(r"\W+", "", summary.lower())[:80]
+        if title_norm and summary_norm and not summary_norm.startswith(title_norm):
+            _take(_first_sentence(summary, max_chars=300))
 
     # No title fallback — X's link card already shows the headline.
     # If we couldn't get a body or summary, skip the draft entirely
