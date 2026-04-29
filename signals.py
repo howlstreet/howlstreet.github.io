@@ -544,6 +544,14 @@ def collect_signal_posts():
         # tweets. Macro signal data still flows as text-only drafts; no PNG
         # gets written. Re-enable by setting sig.chart_path = render_chart(sig).
         sig.chart_path = None
+        # Build a public data URL so drafts can link to a chartable page.
+        # Yahoo for market data, FRED for macro — both have og:images.
+        if sig.series.fetcher == "yahoo":
+            from urllib.parse import quote as _q
+            data_url = f"https://finance.yahoo.com/quote/{_q(sig.series.key, safe='')}"
+        else:
+            real_key = "CPIAUCSL" if sig.series.key == "CPIAUCSL_YOY" else sig.series.key
+            data_url = f"https://fred.stlouisfed.org/series/{real_key}"
         recent[sig.signal_id] = {
             "headline": sig.headline,
             "matters": sig.matters,
@@ -555,6 +563,7 @@ def collect_signal_posts():
             "hashtags": sig.series.hashtags,
             "kind": sig.kind,
             "badge": sig.badge,
+            "data_url": data_url,
             "fired_at": now_iso,
         }
 

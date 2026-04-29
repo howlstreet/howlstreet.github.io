@@ -513,7 +513,7 @@ def draft_market_move(signal_post):
         fmt="MARKET_MOVE",
         body=body,
         primary_source=signal_post.get("source", ""),
-        source_url="",
+        source_url=signal_post.get("data_url", ""),
         source_title=signal_post.get("label", ""),
         source_summary=matters,
         data={
@@ -923,6 +923,7 @@ def write_review_html(drafts):
             f'    <span class="badge" style="background:{color};color:#000;">{html_lib.escape(label)}</span>'
             f'    <span class="meta">{html_lib.escape(d.get("primary_source", ""))}</span>'
             f'    <span class="status-pill" data-status="pending">PENDING</span>'
+            f'    <span class="check" aria-hidden="true">✓ POSTED</span>'
             f'  </header>'
             f'  {source_block}'
             f'  <textarea class="draft-text">{html_lib.escape(d["draft_text"])}</textarea>'
@@ -931,9 +932,7 @@ def write_review_html(drafts):
             f'  <div class="actions">'
             f'    <button class="btn btn-postx" onclick="postOnX(this)">Post on X ↗</button>'
             f'    <button class="btn btn-copy" onclick="copyDraft(this)">Copy</button>'
-            f'    <button class="btn btn-approve" onclick="setStatus(this,\'approved\')">Approve</button>'
-            f'    <button class="btn btn-reject" onclick="setStatus(this,\'rejected\')">Reject</button>'
-            f'    <button class="btn btn-posted" onclick="setStatus(this,\'posted\')">Mark posted</button>'
+            f'    <button class="btn btn-posted" onclick="markPosted(this)">Mark posted</button>'
             f'  </div>'
             f'</article>'
         )
@@ -953,17 +952,16 @@ def write_review_html(drafts):
   h1 {{ color:var(--green); font-size:22px; margin:0 0 4px; letter-spacing:1px; }}
   .summary {{ color:var(--dim); font-size:12px; margin-bottom:16px; }}
   .top-actions {{ position:sticky; top:0; background:var(--bg); padding:8px 0 16px; border-bottom:1px solid var(--border); margin-bottom:24px; z-index:10; }}
-  .draft {{ background:var(--card); border:1px solid var(--border); border-radius:8px; padding:16px; margin-bottom:18px; }}
-  .draft.approved {{ border-color: var(--green); }}
-  .draft.rejected {{ opacity: 0.4; }}
-  .draft.posted {{ border-color: #444; opacity: 0.6; }}
+  .draft {{ background:var(--card); border:1px solid var(--border); border-radius:8px; padding:16px; margin-bottom:18px; transition: opacity 0.2s, border-color 0.2s; }}
+  .draft.posted {{ border-color: var(--green); opacity: 0.55; }}
+  .draft.posted textarea.draft-text {{ opacity: 0.7; }}
   .draft-head {{ display:flex; align-items:center; gap:10px; font-size:11px; margin-bottom:10px; }}
   .badge {{ padding:3px 8px; border-radius:3px; font-weight:bold; letter-spacing:0.5px; font-size:10px; }}
   .meta {{ color:var(--dim); flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }}
   .status-pill {{ font-size:10px; color:var(--dim); padding:2px 6px; border:1px solid var(--border); border-radius:3px; }}
-  .status-pill[data-status="approved"] {{ color: var(--green); border-color: var(--green); }}
-  .status-pill[data-status="rejected"] {{ color: #ff4d4d; border-color: #ff4d4d; }}
-  .status-pill[data-status="posted"] {{ color: #888; border-color: #444; }}
+  .check {{ display:none; font-size:11px; color:var(--green); font-weight:bold; letter-spacing:0.5px; }}
+  .draft.posted .status-pill {{ display:none; }}
+  .draft.posted .check {{ display:inline; }}
   .source-block {{ background:#050505; border:1px dashed #222; border-radius:4px; padding:10px; margin-bottom:12px; font-size:12px; }}
   .source-label {{ color:var(--dim); font-size:10px; letter-spacing:0.5px; margin-bottom:4px; }}
   .source-headline {{ color:#bbb; font-weight:bold; margin-bottom:4px; }}
@@ -973,15 +971,12 @@ def write_review_html(drafts):
   .char-counter {{ color:var(--dim); font-size:10px; text-align:right; margin-top:4px; }}
   .actions {{ display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; }}
   .btn {{ font-size:12px; padding:7px 14px; border-radius:4px; cursor:pointer; border:none; font-weight:bold; letter-spacing:0.4px; }}
-  .btn-postx {{ background:#1d9bf0; color:#fff; }}
-  .btn-postx:hover {{ background:#1a8cd8; }}
+  .btn-postx {{ background:#000; color:#fff; border:1px solid #fff; }}
+  .btn-postx:hover {{ background:#fff; color:#000; }}
   .btn-copy {{ background:var(--green); color:#000; }}
-  .btn-approve {{ background:#1a1a1a; color:var(--green); border:1px solid var(--green); }}
-  .btn-approve.active {{ background:var(--green); color:#000; }}
-  .btn-reject {{ background:#1a1a1a; color:#ff4d4d; border:1px solid #ff4d4d; }}
-  .btn-reject.active {{ background:#ff4d4d; color:#000; }}
-  .btn-posted {{ background:#1a1a1a; color:#888; border:1px solid #333; }}
-  .btn-posted.active {{ background:#444; color:#fff; }}
+  .btn-posted {{ background:#1a1a1a; color:var(--green); border:1px solid var(--green); }}
+  .btn-posted:hover {{ background:var(--green); color:#000; }}
+  .draft.posted .btn-posted {{ background:var(--green); color:#000; }}
   .btn-state {{ background:#1a1a1a; color:#fff; border:1px solid var(--border); padding:8px 16px; }}
   .btn-state:hover {{ border-color: var(--green); color: var(--green); }}
 </style>
@@ -994,14 +989,16 @@ def write_review_html(drafts):
   </header>
   <div class="top-actions">
     <button class="btn btn-state" onclick="copyStateBlob()">Copy state blob to clipboard</button>
-    <span class="meta" style="margin-left:12px;font-size:11px;">paste output into posted.json (approved+posted only) and commit</span>
+    <span class="meta" style="margin-left:12px;font-size:11px;">paste output into posted.json and commit so the cron stops re-drafting</span>
   </div>
   <main>
 {chr(10).join(cards_html) if cards_html else '<div class="meta">No pending drafts. Nothing surfaced this run.</div>'}
   </main>
 </div>
 <script>
-const STORAGE_KEY = 'howlstreet_review_state_v1';
+// State keyed by content_hash (stable across cron re-draft of the same
+// story) so a post stays marked posted even when drafts.json regenerates.
+const STORAGE_KEY = 'howlstreet_review_state_v2';
 
 function loadState() {{
   try {{ return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{{}}'); }}
@@ -1016,31 +1013,27 @@ document.querySelectorAll('textarea.draft-text').forEach(ta => {{
   ta.addEventListener('input', () => {{
     update();
     const card = ta.closest('.draft');
-    const id = card.dataset.id;
-    if (STATE[id]) {{
-      STATE[id].edited_text = ta.value;
+    const hash = card.dataset.hash;
+    if (STATE[hash]) {{
+      STATE[hash].edited_text = ta.value;
       saveState(STATE);
     }}
   }});
   update();
 }});
 
-// Rehydrate any saved status on page load
+// Rehydrate posted state on page load — keyed by content_hash so the
+// same story stays marked even after a re-draft.
 document.querySelectorAll('article.draft').forEach(card => {{
-  const id = card.dataset.id;
-  const saved = STATE[id];
+  const hash = card.dataset.hash;
+  const saved = STATE[hash];
   if (!saved) return;
   if (saved.edited_text) {{
     card.querySelector('textarea.draft-text').value = saved.edited_text;
     card.querySelector('.char-counter').textContent = saved.edited_text.length + ' chars';
   }}
-  if (saved.status) {{
-    card.classList.add(saved.status);
-    const pill = card.querySelector('.status-pill');
-    pill.dataset.status = saved.status;
-    pill.textContent = saved.status.toUpperCase();
-    const btn = card.querySelector('.btn-' + (saved.status === 'posted' ? 'posted' : saved.status === 'approved' ? 'approve' : 'reject'));
-    if (btn) btn.classList.add('active');
+  if (saved.status === 'posted') {{
+    card.classList.add('posted');
   }}
 }});
 
@@ -1059,35 +1052,31 @@ function postOnX(btn) {{
   const ta = card.querySelector('textarea.draft-text');
   const url = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(ta.value);
   window.open(url, '_blank', 'noopener');
+  // Auto-mark as posted — the user is going to send the tweet now.
+  markPosted(btn);
 }}
 
-function setStatus(btn, status) {{
+function markPosted(btn) {{
   const card = btn.closest('.draft');
-  const id = card.dataset.id;
+  const hash = card.dataset.hash;
   const ta = card.querySelector('textarea.draft-text');
-  STATE[id] = {{
-    status,
+  STATE[hash] = {{
+    status: 'posted',
     format: card.dataset.format,
-    content_hash: card.dataset.hash,
+    content_hash: hash,
     source_url: card.dataset.url || '',
     edited_text: ta.value,
     ts: new Date().toISOString(),
   }};
   saveState(STATE);
-  card.classList.remove('approved', 'rejected', 'posted');
-  card.classList.add(status);
-  card.querySelector('.status-pill').dataset.status = status;
-  card.querySelector('.status-pill').textContent = status.toUpperCase();
-  // Toggle the active highlight on the right button
-  card.querySelectorAll('.btn-approve, .btn-reject, .btn-posted').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
+  card.classList.add('posted');
 }}
 
 function copyStateBlob() {{
-  // Emit only approved + posted entries — these are what go into posted.json.
+  // Emit only posted entries — these are what go into posted.json.
   const out = [];
-  for (const [id, s] of Object.entries(STATE)) {{
-    if (s.status === 'approved' || s.status === 'posted') {{
+  for (const [hash, s] of Object.entries(STATE)) {{
+    if (s.status === 'posted') {{
       out.push({{
         content_hash: s.content_hash,
         source_url: s.source_url,
@@ -1098,7 +1087,7 @@ function copyStateBlob() {{
     }}
   }}
   if (out.length === 0) {{
-    alert('Nothing approved or posted yet.');
+    alert('Nothing posted yet.');
     return;
   }}
   const blob = JSON.stringify(out, null, 2);
