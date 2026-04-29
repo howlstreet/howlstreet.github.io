@@ -451,8 +451,22 @@ def _make_draft(*, fmt, body, primary_source, source_url,
     text (same info twice). Article og:image fetching is a separate
     decision (see review.html behavior)."""
     body = _strip_banned_phrases(body)
-    if body and not body.rstrip().endswith(("howlstreet.github.io",)):
-        body = body.rstrip() + "\n\nvia " + (primary_source or "primary source") + ". howlstreet.github.io"
+    # Trailer:
+    #   - With source URL: include it so X auto-renders the article's
+    #     og:image as the link card; ALSO include howlstreet.github.io so
+    #     readers can find us.
+    #   - Without source URL (data-only drafts): just our site.
+    if body:
+        body = body.rstrip()
+        # Skip if a trailer is already there
+        already_trailed = (body.endswith("howlstreet.github.io") or
+                           (source_url and body.endswith(source_url)))
+        if not already_trailed:
+            src_label = primary_source or "primary source"
+            if source_url:
+                body = f"{body}\n\nvia {src_label}. {source_url}\nhowlstreet.github.io"
+            else:
+                body = f"{body}\n\nvia {src_label}. howlstreet.github.io"
     return {
         "id": str(uuid.uuid4())[:8],
         "format": fmt,
@@ -907,10 +921,10 @@ def write_review_html(drafts):
             img_block = (
                 f'<a class="og-image-link" href="{html_lib.escape(og_url, quote=True)}" '
                 f'target="_blank" rel="noopener" '
-                f'title="Right-click → Save image as… then drag into X compose">'
+                f'title="Preview of the og:image X will auto-render from the source URL">'
                 f'<img class="draft-img" src="{html_lib.escape(og_url, quote=True)}" '
                 f'alt="article photo" loading="lazy">'
-                f'<div class="og-hint">Right-click → Save image, then drag into X</div>'
+                f'<div class="og-hint">X auto-renders this image from the source URL when you post</div>'
                 f'</a>'
             )
         source_block = (
