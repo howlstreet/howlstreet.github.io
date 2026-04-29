@@ -1917,6 +1917,9 @@ def write_review_html(drafts):
   .draft.posted .btn-posted {{ background:var(--green); color:#000; }}
   .btn-state {{ background:#1a1a1a; color:#fff; border:1px solid var(--border); padding:8px 16px; }}
   .btn-state:hover {{ border-color: var(--green); color: var(--green); }}
+  .btn-refresh {{ background:var(--green); color:#000; padding:8px 16px; font-weight:bold; }}
+  .btn-refresh:hover {{ background:#00cc70; }}
+  .btn-refresh.loading {{ background:#1a1a1a; color:var(--green); border:1px solid var(--green); }}
   /* PIN gate */
   #pin-gate {{ position:fixed; inset:0; background:#000; z-index:9999; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:18px; }}
   #pin-gate.hidden {{ display:none; }}
@@ -1942,8 +1945,9 @@ def write_review_html(drafts):
     <div class="summary" id="summary">{len(drafts)} drafts pending across {len(formats_present)} formats — last updated {now_str}</div>
   </header>
   <div class="top-actions">
-    <button class="btn btn-state" onclick="copyStateBlob()">Copy state blob to clipboard</button>
-    <span class="meta" style="margin-left:12px;font-size:11px;">paste output into posted.json and commit so the cron stops re-drafting</span>
+    <button class="btn btn-refresh" onclick="hardRefresh()">↻ Refresh</button>
+    <button class="btn btn-state" onclick="copyStateBlob()">Copy state blob</button>
+    <span class="meta" style="margin-left:12px;font-size:11px;" id="refresh-status">last fetch: page-load</span>
   </div>
   <main>
 {chr(10).join(cards_html) if cards_html else '<div class="meta">No pending drafts. Nothing surfaced this run.</div>'}
@@ -1951,6 +1955,21 @@ def write_review_html(drafts):
 </div>
 </div>
 <script>
+// Hard refresh — bypasses GitHub Pages CDN cache by appending a
+// fresh cache-buster query param. Works without CORS since we're
+// re-loading the same origin.
+function hardRefresh() {{
+  const btn = document.querySelector('.btn-refresh');
+  const status = document.getElementById('refresh-status');
+  btn.classList.add('loading');
+  btn.textContent = 'Refreshing...';
+  status.textContent = 'fetching latest review.html...';
+  // Build a URL with a cache-buster and force-reload
+  const url = new URL(window.location.href);
+  url.searchParams.set('_t', Date.now().toString());
+  window.location.replace(url.toString());
+}}
+
 // PIN gate — required to view the queue. Once unlocked in this browser,
 // stays unlocked (sessionStorage so a fresh browser session re-prompts).
 const PIN_KEY = 'howlstreet_review_pin_unlocked';
