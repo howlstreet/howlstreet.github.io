@@ -338,12 +338,15 @@ def _split_sentences(paragraph):
     return [s.replace("<DOT>", ".").strip() for s in parts if s.strip()]
 
 
-def _pick_body_sentences(body_paras, title="", max_sentences=6, min_chars=400):
-    """From article body paragraphs, pick up to max_sentences that are:
-      - complete (end in . ! or ?)
-      - not a verbatim restatement of the title
-      - prioritized: ones with fact signals first
-    Returns a list of complete sentence strings."""
+def _pick_body_sentences(body_paras, title="", max_sentences=8,
+                         min_chars=600, min_sentences=3):
+    """From article body paragraphs, pick complete sentences that are
+    not verbatim restatements of the title. Prioritized: fact-signal
+    sentences first, then narrative sentences for context.
+
+    Targets a substantial body — at least min_sentences AND min_chars,
+    capped at max_sentences. Result reads as 3-5 substantive paragraphs
+    in the queue, which the user wants for engagement."""
     sentences = []
     for p in body_paras:
         sentences.extend(_split_sentences(p))
@@ -363,13 +366,16 @@ def _pick_body_sentences(body_paras, title="", max_sentences=6, min_chars=400):
         else:
             other_idx.append(i)
     ordered = [sentences[i] for i in fact_idx] + [sentences[i] for i in other_idx]
-    # Take up to max_sentences, respecting a min total char count target.
+    # Pick: cap at max_sentences hard. Keep going until we hit at least
+    # min_sentences AND min_chars. Prevents one-sentence drafts.
     picked = []
     total = 0
     for s in ordered:
+        if len(picked) >= max_sentences:
+            break
         picked.append(s)
         total += len(s)
-        if len(picked) >= max_sentences and total >= min_chars:
+        if len(picked) >= min_sentences and total >= min_chars:
             break
     return picked
 
@@ -1027,7 +1033,7 @@ def _decorate_rss_body(sentences, fmt, item):
     return sentences
 
 
-def _compose_body_from_article(title, summary, body_paras, want_sentences=6):
+def _compose_body_from_article(title, summary, body_paras, want_sentences=8):
     """Build the multi-sentence draft body from title + RSS summary +
     fetched article body. Drops [FILL] placeholders — we either have
     real article content or we use the summary verbatim. With X Premium
@@ -1054,7 +1060,7 @@ def _compose_body_from_article(title, summary, body_paras, want_sentences=6):
     if body_paras:
         body_sents = _pick_body_sentences(
             body_paras, title=title, max_sentences=want_sentences,
-            min_chars=200,
+            min_chars=600, min_sentences=3,
         )
         for s in body_sents:
             if not _take(s):
@@ -1277,7 +1283,7 @@ def draft_policy_read(item):
 
     body_paras = item.get("_body_paras") or []
     sentences = _compose_body_from_article(title, summary, body_paras,
-                                            want_sentences=4)
+                                            want_sentences=8)
     if not sentences:
         return None  # No body or summary content — skip rather than ship the title.
     sentences = _decorate_rss_body(sentences, "POLICY_READ", item)
@@ -1438,7 +1444,7 @@ def draft_corruption_watch_from_rss(item):
     source = item.get("source", "")
     body_paras = item.get("_body_paras") or []
     sentences = _compose_body_from_article(title, summary, body_paras,
-                                            want_sentences=4)
+                                            want_sentences=8)
     if not sentences:
         return None
     sentences = _decorate_rss_body(sentences, "CORRUPTION_WATCH", item)
@@ -1467,7 +1473,7 @@ def draft_global_desk(item):
     source = item.get("source", "")
     body_paras = item.get("_body_paras") or []
     sentences = _compose_body_from_article(title, summary, body_paras,
-                                            want_sentences=4)
+                                            want_sentences=8)
     if not sentences:
         return None
     sentences = _decorate_rss_body(sentences, "GLOBAL_DESK", item)
@@ -1495,7 +1501,7 @@ def draft_data_drop(item):
     source = item.get("source", "")
     body_paras = item.get("_body_paras") or []
     sentences = _compose_body_from_article(title, summary, body_paras,
-                                            want_sentences=4)
+                                            want_sentences=8)
     if not sentences:
         return None
     sentences = _decorate_rss_body(sentences, "DATA_DROP", item)
@@ -1526,7 +1532,7 @@ def draft_loud_howl(top_item):
     source = top_item.get("source", "")
     body_paras = top_item.get("_body_paras") or []
     sentences = _compose_body_from_article(title, summary, body_paras,
-                                            want_sentences=4)
+                                            want_sentences=8)
     if not sentences:
         return None
     sentences = _decorate_rss_body(sentences, "LOUD_HOWL", top_item)
