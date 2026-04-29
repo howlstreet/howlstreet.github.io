@@ -1355,13 +1355,24 @@ def build_hero_auto(items):
     # Strip wire datelines / editorial prefixes too so the subtext leads clean.
     if summary_text:
         summary_text = _clean_briefing_lead(summary_text)
-    # Trim to first sentence — terminal-feel, scannable.
+    # Trim subtitle to short + concise. HARD CAP at 180 chars. The
+    # previous logic looked for a sentence-ending [.!?] + space, but
+    # aggregator-style summaries (forexlive's "Americas Market News"
+    # dumps) have no real sentence breaks and would leak the whole
+    # 500+ char wall of text. Cap first, then trim to the last
+    # sentence-end or word boundary inside the cap.
     if summary_text:
-        m = re.match(r"^(.{30,}?[.!?])(?:\s|$)", summary_text)
-        if m:
-            summary_text = m.group(1)
-        elif len(summary_text) > 200:
-            summary_text = summary_text[:197].rstrip(" ,.;:") + "…"
+        SUBTITLE_MAX = 180
+        if len(summary_text) > SUBTITLE_MAX:
+            cut = summary_text[:SUBTITLE_MAX]
+            # Prefer last sentence end if we have one
+            last_sent = max(cut.rfind(". "), cut.rfind("! "), cut.rfind("? "))
+            if last_sent >= int(SUBTITLE_MAX * 0.5):
+                summary_text = cut[: last_sent + 1].rstrip()
+            else:
+                # No good sentence break — trim at last word boundary
+                last_space = cut.rfind(" ")
+                summary_text = cut[:last_space].rstrip(" ,.;:") + "…" if last_space > 0 else cut
 
     label = (
         "LOUDEST HOWL · "
