@@ -1510,16 +1510,18 @@ def build_headlines_from_items(items, exclude_link=None, exclude_sources=None,
     return "\n".join(html_parts) if html_parts else '<div class="headline"><div class="headline-text" style="color:var(--text-dim)">Headlines unavailable.</div></div>'
 
 
-def build_corruption_watch(items, exclude_link=None, total=18):
-    """Render The Hunt panel — strict financial-corruption only.
-    Items must be classified as corruption (financial-fraud signal in
-    title OR a corruption-focused source with a finance signal anywhere)
-    AND independently pass the financial-relevance gate. Two-stage filter
-    keeps political indictments, violent-crime stories, and Royal-family
-    opinion pieces out of a finance terminal."""
+def build_corruption_watch(items, exclude_link=None, total=18, max_age_days=7):
+    """Render The Hunt panel — strict financial-corruption only, recent.
+    Items must match the financial-corruption keyword pattern AND pass
+    the financial-relevance gate AND be within max_age_days. Old items
+    from feeds that retain stale entries (Wall St Parade, etc.) used to
+    bubble to the top — the age cutoff keeps the panel a feed, not an
+    archive."""
+    cutoff = datetime.now(NY).replace(tzinfo=None) - timedelta(days=max_age_days)
     pool = [i for i in items
             if _is_corruption_item(i)
-            and is_financially_relevant(i)]
+            and is_financially_relevant(i)
+            and (i["ts"].replace(tzinfo=None) if i.get("ts") else cutoff) >= cutoff]
     if exclude_link:
         pool = [i for i in pool if i["link"] != exclude_link]
     pool.sort(key=lambda x: x["ts"], reverse=True)
@@ -2038,26 +2040,43 @@ def _is_earnings_title(title):
     return bool(_EARNINGS_TITLE_RE.search(title))
 
 
+_POLITICAL_VETO_RE = re.compile(
+    r"\b(?:"
+    # Politically-loaded opinion phrasing — these are signals of partisan
+    # framing, not financial reporting.
+    r"grotesque|grotesquely|disgrace|disgraceful|"
+    r"giveaway\s+to|sweetheart\s+deal\s+to|"
+    r"big\s+beautiful\s+bill|"
+    r"fossil[- ]fuel\s+billionaire|"
+    r"epstein\s+files|"
+    r"national\s+security\s+law|"
+    r"forest\s+service|park\s+service|national\s+park|"
+    r"upheaval|"
+    r"trump'?s\s+(?:forest|park|education|environmental|fossil|climate|legacy|war\s+on)|"
+    r"biden'?s\s+(?:legacy|war\s+on|climate|environmental)|"
+    # Naked-capital / wall-st-parade rhetorical headline shapes
+    r"revenge\s+is\s+a\s+dish|impeccably\s+timed|"
+    r"it'?s\s+time\s+to\s+(?:name|expose|reveal)"
+    r")\b",
+    re.IGNORECASE,
+)
+
+
 def _is_corruption_item(item):
     """True if the item is FINANCIAL corruption — strict gate.
     Title must match a financial-corruption pattern (fraud / SEC / insider
-    trading / etc.) OR the source must be a dedicated investigative outlet
-    AND the item must independently have a finance signal somewhere.
+    trading / etc.). The old source-whitelist allowance was letting
+    political opinion pieces from Mother Jones / Wall St Parade /
+    Naked Capital through whenever they happened to mention a dollar
+    amount, which wrecked The Hunt with non-financial partisan content.
 
-    This rules out pure-political indictments (Fauci, Comey, FBI raids
-    that aren't financial), violent-crime stories from right-leaning
-    outlets, and Royal-family opinion pieces from Mother Jones —
-    everything the user has flagged as not belonging on a finance terminal."""
+    Also rejects items matching the political-veto regex even when the
+    keyword pattern hits — catches headlines that use 'fraud' or
+    'tax evasion' but are really partisan opinion on a public policy."""
     title = item.get("title", "") or ""
-    summary = item.get("summary", "") or ""
-    text = title + " " + summary
-    # Title-level financial-corruption signal — strongest match
-    if _CORRUPTION_RE.search(title):
-        return True
-    # Dedicated investigative source AND has a finance signal anywhere
-    if item.get("source") in _CORRUPTION_SOURCES and _has_financial_signal(text):
-        return True
-    return False
+    if _POLITICAL_VETO_RE.search(title):
+        return False
+    return bool(_CORRUPTION_RE.search(title))
 
 
 def _is_breaking_title(title):
