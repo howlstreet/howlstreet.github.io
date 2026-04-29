@@ -291,7 +291,7 @@ def _split_sentences(paragraph):
     return [s.replace("<DOT>", ".").strip() for s in parts if s.strip()]
 
 
-def _pick_body_sentences(body_paras, title="", max_sentences=4, min_chars=200):
+def _pick_body_sentences(body_paras, title="", max_sentences=6, min_chars=400):
     """From article body paragraphs, pick up to max_sentences that are:
       - complete (end in . ! or ?)
       - not a verbatim restatement of the title
@@ -943,28 +943,27 @@ def _pick_corruption_question(title, summary, seed):
 
 
 _HOWLSTREET_CTA = (
-    "Check out our 24/7 global market feed, corruption watch, and "
-    "insider news here: howlstreet.github.io"
+    "24/7 global market feed, corruption watch, and insider news "
+    "here: http://howlstreet.github.io"
 )
 
 
 def _decorate_rss_body(sentences, fmt, item):
     """Wrap body sentences with a topic-aware opener (prepended to first
-    sentence) and the howlstreet CTA at the end. The opener is selected
-    based on format + content (Fed vs ECB for POLICY_READ, CPI vs NFP
-    for DATA_DROP, region for GLOBAL_DESK, justice vs threat for
-    CORRUPTION_WATCH, etc.) so the lead actually fits the article."""
+    sentence). _make_draft handles the trailer (article URL + CTA) so
+    the article URL lands before the CTA URL — X renders the FIRST URL
+    as the link card, so this ordering ensures the article's og:image
+    shows up, not howlstreet.github.io's."""
     if not sentences:
         return sentences
     seed = item.get("link") or item.get("title", "")
     opener = _pick_authentic_opener(fmt, item, seed)
     sentences = list(sentences)
     sentences[0] = f"{opener} {sentences[0]}"
-    sentences.append(_HOWLSTREET_CTA)
     return sentences
 
 
-def _compose_body_from_article(title, summary, body_paras, want_sentences=4):
+def _compose_body_from_article(title, summary, body_paras, want_sentences=6):
     """Build the multi-sentence draft body from title + RSS summary +
     fetched article body. Drops [FILL] placeholders — we either have
     real article content or we use the summary verbatim. With X Premium
@@ -1025,14 +1024,22 @@ def _make_draft(*, fmt, body, primary_source, source_url,
     text (same info twice). Article og:image fetching is a separate
     decision (see review.html behavior)."""
     body = _strip_banned_phrases(body)
-    # Trailer: just the article URL at the very end. The CTA line
-    # ('Check out our 24/7 global market feed…') is added by callers
-    # before this function (see _decorate_rss_body). Source URL goes
-    # last so X auto-renders the article's og:image as the link card.
+    # Trailer order matters for X's card rendering — X picks the FIRST
+    # URL in the tweet body to render as the link card. So:
+    #   1. body sentences
+    #   2. article URL (so X renders the article's og:image)
+    #   3. howlstreet CTA (with our site URL — X ignores it as a card
+    #      because the article URL came first)
     if body:
         body = body.rstrip()
+        # Drop any pre-existing CTA fragment — we re-attach below in
+        # the correct order (article URL first so X uses its og:image).
+        cta_marker = "24/7 global market feed"
+        if cta_marker in body:
+            body = body.split(cta_marker)[0].rstrip()
         if source_url and not body.endswith(source_url):
             body = f"{body}\n\n{source_url}"
+        body = f"{body}\n\n{_HOWLSTREET_CTA}"
     return {
         "id": str(uuid.uuid4())[:8],
         "format": fmt,
@@ -1157,7 +1164,7 @@ def draft_market_move(signal_post):
     kicker = _MARKET_KICKERS.get(kind)
     if kicker:
         parts.append(kicker)
-    parts.append(_HOWLSTREET_CTA)
+    # CTA is appended by _make_draft so it lands AFTER the source URL.
     body = "\n\n".join(p for p in parts if p)
     return _make_draft(
         fmt="MARKET_MOVE",
@@ -1333,12 +1340,12 @@ def draft_corruption_watch_from_insider(insider_post):
     opener = _pick_insider_opener(seed)
     kicker = _build_insider_kicker(ttype, num_insiders, dv, pct_since)
 
+    # CTA is appended by _make_draft so it lands AFTER the source URL.
     body = (
         f"{opener} ${ticker} insider {verb} ${dv:,.0f} on {trade_date}{cluster_note}. \U0001f440\n\n"
         f"{company}. {qty:,.0f} shares at ${price:,.2f}.\n\n"
         f"{sign}{pct_since:.1f}% since the {noun}.\n\n"
-        f"{kicker}\n\n"
-        f"{_HOWLSTREET_CTA}"
+        f"{kicker}"
     )
     return _make_draft(
         fmt="CORRUPTION_WATCH_INSIDER",
