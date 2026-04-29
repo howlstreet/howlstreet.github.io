@@ -500,12 +500,40 @@ def _make_draft(*, fmt, body, primary_source, source_url,
     }
 
 
+_MARKET_OPENERS = [
+    "The pack is watching.",
+    "Heads up, pack.",
+    "Caught a move.",
+    "On the prowl.",
+    "Eyes up.",
+    "Tracks in the snow.",
+    "Sniff this.",
+    "Don't sleep on this.",
+    "Worth a look.",
+    "Howl on this.",
+]
+
+_MARKET_KICKERS = {
+    "high": "Multi-year high. The pack remembers what comes after these.",
+    "low": "Multi-year low. Pressure has somewhere to go.",
+    "move_up": "Sharpest move on this tape in a while. Stay sharp.",
+    "move_down": "Sharpest drop on this tape in a while. Stay nimble.",
+}
+
+
+def _pick_market_opener(seed):
+    """Deterministic opener selection so the same signal always gets the
+    same line on refresh."""
+    h = sum(ord(c) for c in str(seed)) if seed else 0
+    return _MARKET_OPENERS[h % len(_MARKET_OPENERS)]
+
+
 def draft_market_move(signal_post):
     """A) MARKET MOVE — fed by signals.collect_signal_posts() entries.
 
-    Voice: punchy. Lead with the move. Follow with the SHARPEST sentence
-    from the matters template (the one with concrete groups affected,
-    not the generic 'this is the live X market' filler)."""
+    Voice: pack opener, the move, the matters sentence, a kicker that
+    reads off the signal kind (high/low/move). Same wolf voice as the
+    insider drafts so the queue reads consistently."""
     if not signal_post:
         return None
     kind = signal_post.get("kind", "")
@@ -516,7 +544,12 @@ def draft_market_move(signal_post):
     if not headline:
         return None
 
-    parts = [headline]
+    opener = _pick_market_opener(signal_post.get("signal_id", "") or headline)
+    # Glue the opener to the headline as one lead line — feels less
+    # robotic than a standalone interjection on its own paragraph.
+    lead = f"{opener} {headline.rstrip('.').rstrip()}."
+
+    parts = [lead]
     if matters:
         # Split matters into sentences and pick the most concrete one —
         # the one with named groups, percentages, or dollar amounts. The
@@ -528,6 +561,9 @@ def draft_market_move(signal_post):
             scored.sort(key=lambda x: x[1], reverse=True)
             best = scored[0][0] if scored else sents[0]
             parts.append(best)
+    kicker = _MARKET_KICKERS.get(kind)
+    if kicker:
+        parts.append(kicker)
     body = "\n\n".join(p for p in parts if p)
     return _make_draft(
         fmt="MARKET_MOVE",
