@@ -943,7 +943,7 @@ def _pick_corruption_question(title, summary, seed):
 
 
 _HOWLSTREET_CTA = (
-    "24/7 global market feed, corruption watch, and insider news "
+    "24/7 global market terminal, corruption watch, and insider news "
     "here: http://howlstreet.github.io"
 )
 
@@ -1034,7 +1034,7 @@ def _make_draft(*, fmt, body, primary_source, source_url,
         body = body.rstrip()
         # Drop any pre-existing CTA fragment — we re-attach below in
         # the correct order (article URL first so X uses its og:image).
-        cta_marker = "24/7 global market feed"
+        cta_marker = "24/7 global market"
         if cta_marker in body:
             body = body.split(cta_marker)[0].rstrip()
         if source_url and not body.endswith(source_url):
