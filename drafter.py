@@ -929,7 +929,8 @@ def write_review_html(drafts):
             f'  <div class="char-counter">— chars</div>'
             f'  {img_block}'
             f'  <div class="actions">'
-            f'    <button class="btn btn-copy" onclick="copyDraft(this)">Copy to clipboard</button>'
+            f'    <button class="btn btn-postx" onclick="postOnX(this)">Post on X ↗</button>'
+            f'    <button class="btn btn-copy" onclick="copyDraft(this)">Copy</button>'
             f'    <button class="btn btn-approve" onclick="setStatus(this,\'approved\')">Approve</button>'
             f'    <button class="btn btn-reject" onclick="setStatus(this,\'rejected\')">Reject</button>'
             f'    <button class="btn btn-posted" onclick="setStatus(this,\'posted\')">Mark posted</button>'
@@ -972,10 +973,15 @@ def write_review_html(drafts):
   .char-counter {{ color:var(--dim); font-size:10px; text-align:right; margin-top:4px; }}
   .actions {{ display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; }}
   .btn {{ font-size:12px; padding:7px 14px; border-radius:4px; cursor:pointer; border:none; font-weight:bold; letter-spacing:0.4px; }}
+  .btn-postx {{ background:#1d9bf0; color:#fff; }}
+  .btn-postx:hover {{ background:#1a8cd8; }}
   .btn-copy {{ background:var(--green); color:#000; }}
   .btn-approve {{ background:#1a1a1a; color:var(--green); border:1px solid var(--green); }}
+  .btn-approve.active {{ background:var(--green); color:#000; }}
   .btn-reject {{ background:#1a1a1a; color:#ff4d4d; border:1px solid #ff4d4d; }}
+  .btn-reject.active {{ background:#ff4d4d; color:#000; }}
   .btn-posted {{ background:#1a1a1a; color:#888; border:1px solid #333; }}
+  .btn-posted.active {{ background:#444; color:#fff; }}
   .btn-state {{ background:#1a1a1a; color:#fff; border:1px solid var(--border); padding:8px 16px; }}
   .btn-state:hover {{ border-color: var(--green); color: var(--green); }}
 </style>
@@ -995,13 +1001,47 @@ def write_review_html(drafts):
   </main>
 </div>
 <script>
-const STATE = {{}}; // id -> {{ status, edited_text, content_hash, source_url, ts }}
+const STORAGE_KEY = 'howlstreet_review_state_v1';
+
+function loadState() {{
+  try {{ return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{{}}'); }}
+  catch (e) {{ return {{}}; }}
+}}
+function saveState(s) {{ localStorage.setItem(STORAGE_KEY, JSON.stringify(s)); }}
+const STATE = loadState();
 
 document.querySelectorAll('textarea.draft-text').forEach(ta => {{
   const counter = ta.parentElement.querySelector('.char-counter');
   function update() {{ counter.textContent = ta.value.length + ' chars'; }}
-  ta.addEventListener('input', update);
+  ta.addEventListener('input', () => {{
+    update();
+    const card = ta.closest('.draft');
+    const id = card.dataset.id;
+    if (STATE[id]) {{
+      STATE[id].edited_text = ta.value;
+      saveState(STATE);
+    }}
+  }});
   update();
+}});
+
+// Rehydrate any saved status on page load
+document.querySelectorAll('article.draft').forEach(card => {{
+  const id = card.dataset.id;
+  const saved = STATE[id];
+  if (!saved) return;
+  if (saved.edited_text) {{
+    card.querySelector('textarea.draft-text').value = saved.edited_text;
+    card.querySelector('.char-counter').textContent = saved.edited_text.length + ' chars';
+  }}
+  if (saved.status) {{
+    card.classList.add(saved.status);
+    const pill = card.querySelector('.status-pill');
+    pill.dataset.status = saved.status;
+    pill.textContent = saved.status.toUpperCase();
+    const btn = card.querySelector('.btn-' + (saved.status === 'posted' ? 'posted' : saved.status === 'approved' ? 'approve' : 'reject'));
+    if (btn) btn.classList.add('active');
+  }}
 }});
 
 function copyDraft(btn) {{
@@ -1012,6 +1052,13 @@ function copyDraft(btn) {{
     btn.textContent = 'Copied';
     setTimeout(() => {{ btn.textContent = orig; }}, 1500);
   }});
+}}
+
+function postOnX(btn) {{
+  const card = btn.closest('.draft');
+  const ta = card.querySelector('textarea.draft-text');
+  const url = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(ta.value);
+  window.open(url, '_blank', 'noopener');
 }}
 
 function setStatus(btn, status) {{
@@ -1026,10 +1073,14 @@ function setStatus(btn, status) {{
     edited_text: ta.value,
     ts: new Date().toISOString(),
   }};
+  saveState(STATE);
   card.classList.remove('approved', 'rejected', 'posted');
   card.classList.add(status);
   card.querySelector('.status-pill').dataset.status = status;
   card.querySelector('.status-pill').textContent = status.toUpperCase();
+  // Toggle the active highlight on the right button
+  card.querySelectorAll('.btn-approve, .btn-reject, .btn-posted').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
 }}
 
 function copyStateBlob() {{
