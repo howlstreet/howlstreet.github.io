@@ -478,36 +478,37 @@ def _pick_rss_opener(seed):
 
 
 _ENGAGEMENT_QUESTIONS = [
+    # Universal — fit any framing (positive, negative, neutral)
     "What do you think?",
-    "Where does this go from here?",
-    "Bullish or bearish?",
     "What's your read?",
-    "How does this play out?",
-    "Calm before the storm, or just noise?",
-    "When does the other shoe drop?",
-    "Whose desk does this hit first?",
-    "Real consequence, or headline noise?",
-    "Buying opportunity, or just the start?",
-    "Smart money's call?",
-    "Does this hold?",
-    "Anyone else watching this?",
-    "Who pays the price?",
-    "How are you positioned for it?",
-    "Is this priced in already?",
+    "How do you see this playing out?",
+    "Where does this go from here?",
+    "Worth watching?",
+    "Following this one?",
+    "Thoughts?",
     "Tell me what I'm missing.",
-    "Worth the rotation?",
+    "Anyone else watching this?",
+    "Pack — sound off.",
     "Why is no one talking about this?",
-    "Genuine signal, or noise?",
-    "What gets hit next?",
-    "Where's your conviction sit?",
-    "Sustained, or short squeeze?",
-    "Risk-on or risk-off after this?",
-    "Which sector eats this first?",
-    "Does the Fed flinch?",
-    "Pack — sound off, what's the play?",
-    "Are you fading this or riding it?",
     "Wolves see this. Do you?",
-    "Bigger story, or one-day blip?",
+    "Bigger deal than it looks?",
+    "Sleeper story, or noise?",
+    "Reading between the lines — what's actually going on?",
+    "Did you see this coming?",
+    "Is this the start of something?",
+    "Worth the attention?",
+    "Smart move, or smoke and mirrors?",
+    "How big does this get?",
+    "Are we paying attention to this enough?",
+    "What does the timeline look like from here?",
+    "Reply with your take.",
+    "Quiet story, loud implications?",
+    "Two months from now — what's the headline?",
+    "Long overdue, or too little too late?",
+    "Where do we go next?",
+    "Does this matter, or no?",
+    "How does this land for you?",
+    "Should this be bigger news?",
 ]
 
 
@@ -516,6 +517,99 @@ def _pick_engagement_question(seed):
     the same prompt on refresh. Seed off the source URL or title."""
     h = sum(ord(c) for c in str(seed)) if seed else 0
     return _ENGAGEMENT_QUESTIONS[h % len(_ENGAGEMENT_QUESTIONS)]
+
+
+# Sentiment-tuned questions for CORRUPTION WATCH. Two cases:
+#   1. Justice served — indictment, conviction, ban, raid, shutdown.
+#      Celebratory / "about time" framing.
+#   2. Ongoing threat — active scam, exploit, hack, victims rising.
+#      Protective / "how did this happen" framing.
+_JUSTICE_SERVED_QUESTIONS = [
+    "Justice served, or just the start?",
+    "Does this set a precedent?",
+    "About time?",
+    "Long overdue?",
+    "More to come, or one-and-done?",
+    "Who else should be next?",
+    "Pack — celebrating this one?",
+    "Real deterrent, or symbolic?",
+    "Does this slow the next one down?",
+    "Will the punishment fit the crime?",
+    "Should this be bigger news?",
+    "Why isn't this on every front page?",
+    "Other regulators watching?",
+    "Should other countries follow?",
+    "Score one for the good guys?",
+    "Who's the next domino?",
+]
+
+_ONGOING_THREAT_QUESTIONS = [
+    "How did this get this far?",
+    "Who's next on the list?",
+    "How do regular people protect themselves?",
+    "Where were the regulators?",
+    "Who's really to blame here?",
+    "How big is this actually?",
+    "How do we stop this from spreading?",
+    "Pack — anyone else seeing this in the wild?",
+    "Tell me what I'm missing.",
+    "What gets exposed next?",
+    "Why isn't this front-page news?",
+    "Who's accountable here?",
+    "When does action get taken?",
+    "How many more victims before something happens?",
+    "What's the pack's defense play?",
+    "Is anyone watching out for retail?",
+]
+
+
+_JUSTICE_RE = re.compile(
+    r"\b(?:"
+    r"sentenced|sentencing|jailed|imprisoned|convicted|conviction|"
+    r"indicted|indictment|charged\s+with|pleads?\s+guilty|guilty\s+(?:plea|verdict)|"
+    r"arrested|arrest|raided|raid|seized|frozen|froze|"
+    r"shut\s+down|shuts\s+down|shutdown|"
+    r"bans?\b|banned|moves?\s+to\s+ban|"
+    r"halts?\b|halted|suspends?\b|suspended|"
+    r"settles?\b|settled|settlement|"
+    r"fines?\b|fined|ordered\s+to\s+pay|"
+    r"cracks?\s+down|crackdown|"
+    r"verdict|disgorge|barred\s+from|disbarred|"
+    r"recovered|claws?\s+back|clawback"
+    r")\b",
+    re.IGNORECASE,
+)
+
+_THREAT_RE = re.compile(
+    r"\b(?:"
+    r"victims|scammed|scammers?|drained|stolen|losses?\s+(?:to|from)|"
+    r"exploit(?:s|ed|ing)?|hack(?:s|ed|ing)?|breach(?:es|ed)?|"
+    r"warns?\s+of|warning|alert|"
+    r"spreads?|spreading|surge\s+in|wave\s+of|spree|"
+    r"rising|rises|soar(?:s|ed|ing)?|soaring|"
+    r"active\s+scam|new\s+scam|growing\s+(?:fraud|scam)"
+    r")\b",
+    re.IGNORECASE,
+)
+
+
+def _pick_corruption_question(title, summary, seed):
+    """Pick a sentiment-aware question for CORRUPTION WATCH. If the
+    article reads as justice-being-served, pull from the celebratory
+    pool. If it reads as an ongoing-threat exposé, pull from the
+    protective pool. Mixed signal (action against a threat) — treat
+    as justice, since the action is the news."""
+    blob = f"{title} {summary}"
+    is_justice = bool(_JUSTICE_RE.search(blob))
+    is_threat = bool(_THREAT_RE.search(blob))
+    if is_justice:
+        pool = _JUSTICE_SERVED_QUESTIONS
+    elif is_threat:
+        pool = _ONGOING_THREAT_QUESTIONS
+    else:
+        pool = _ENGAGEMENT_QUESTIONS
+    h = sum(ord(c) for c in str(seed)) if seed else 0
+    return pool[h % len(pool)]
 
 
 def _decorate_rss_body(sentences, seed):
@@ -944,7 +1038,12 @@ def draft_corruption_watch_from_rss(item):
                                             want_sentences=4)
     if not sentences:
         return None
-    sentences = _decorate_rss_body(sentences, item.get("link") or title)
+    seed = item.get("link") or title
+    # Custom decorate: sentiment-aware question instead of generic one.
+    opener = _pick_rss_opener(seed)
+    sentences = list(sentences)
+    sentences[0] = f"{opener} {sentences[0]}"
+    sentences.append(_pick_corruption_question(title, summary, seed))
     body = "\n\n".join(sentences)
     return _make_draft(
         fmt="CORRUPTION_WATCH",
