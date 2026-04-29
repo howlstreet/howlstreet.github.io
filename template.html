@@ -319,6 +319,9 @@
     color: var(--green);
   }
 
+  .panel-title.no-arrow::before { content: ''; }
+  .panel-title.yellow-arrow::before { color: var(--amber); }
+
   .panel-meta {
     color: var(--text-dim);
     font-size: clamp(9px, 0.7vw, 11px);
@@ -630,7 +633,7 @@
   <section class="row row-1">
     <div class="panel desk-divider">
       <div class="desk-divider-title">
-        ▸ <em>PREDATOR DESK</em> <small>THE HUNT &amp; LIVE INSIDER WIRE</small>
+        <em>PREDATOR DESK</em> <small>THE HUNT &amp; LIVE INSIDER WIRE</small>
       </div>
     </div>
   </section>
@@ -638,7 +641,7 @@
   <section class="row row-2">
     <div class="panel panel-corrupt">
       <div class="panel-head">
-        <div class="panel-title" style="color: #b042ff;">▸ The Hunt</div>
+        <div class="panel-title no-arrow" style="color: #b042ff;">▸ The Hunt</div>
         <div class="panel-meta">EXPOSING THE CORRUPT · {{TIMESTAMP_SHORT}}</div>
       </div>
       {{CORRUPTION_WATCH}}
@@ -646,7 +649,7 @@
 
     <div class="panel panel-insider">
       <div class="panel-head">
-        <div class="panel-title" style="color: #ff66c4;">▸ Insider Wire</div>
+        <div class="panel-title no-arrow" style="color: #ff66c4;">▸ Insider Wire</div>
         <div class="panel-meta">SEC FORM 4 · LIVE · {{TIMESTAMP_SHORT}}</div>
       </div>
       {{INSIDER_WIRE}}
@@ -657,7 +660,7 @@
   <section class="row row-1">
     <div class="panel desk-divider">
       <div class="desk-divider-title">
-        ▸ <em>CONTINENTAL DESK</em> <small>THE WIRE, BY REGION</small>
+        <em>CONTINENTAL DESK</em> <small>THE WIRE, BY REGION</small>
       </div>
     </div>
   </section>
@@ -665,7 +668,7 @@
   <section class="row row-3">
     <div class="panel">
       <div class="panel-head">
-        <div class="panel-title">United States</div>
+        <div class="panel-title yellow-arrow">United States</div>
         <div class="panel-meta">DOMESTIC WIRE</div>
       </div>
       {{REGIONAL_US}}
@@ -673,7 +676,7 @@
 
     <div class="panel">
       <div class="panel-head">
-        <div class="panel-title">Europe</div>
+        <div class="panel-title yellow-arrow">Europe</div>
         <div class="panel-meta">EU / UK</div>
       </div>
       {{REGIONAL_EU}}
@@ -681,7 +684,7 @@
 
     <div class="panel">
       <div class="panel-head">
-        <div class="panel-title">Asia / Pacific</div>
+        <div class="panel-title yellow-arrow">Asia / Pacific</div>
         <div class="panel-meta">APAC</div>
       </div>
       {{REGIONAL_ASIA}}
@@ -691,7 +694,7 @@
   <section class="row row-3">
     <div class="panel">
       <div class="panel-head">
-        <div class="panel-title">Middle East</div>
+        <div class="panel-title yellow-arrow">Middle East</div>
         <div class="panel-meta">GULF / LEVANT</div>
       </div>
       {{REGIONAL_ME}}
@@ -699,7 +702,7 @@
 
     <div class="panel">
       <div class="panel-head">
-        <div class="panel-title">Africa</div>
+        <div class="panel-title yellow-arrow">Africa</div>
         <div class="panel-meta">CONTINENTAL</div>
       </div>
       {{REGIONAL_AF}}
@@ -707,7 +710,7 @@
 
     <div class="panel">
       <div class="panel-head">
-        <div class="panel-title">Americas</div>
+        <div class="panel-title yellow-arrow">Americas</div>
         <div class="panel-meta">CANADA / LATAM</div>
       </div>
       {{REGIONAL_AMERICAS}}

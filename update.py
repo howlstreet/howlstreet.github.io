@@ -1510,7 +1510,7 @@ def build_headlines_from_items(items, exclude_link=None, exclude_sources=None,
     return "\n".join(html_parts) if html_parts else '<div class="headline"><div class="headline-text" style="color:var(--text-dim)">Headlines unavailable.</div></div>'
 
 
-def build_corruption_watch(items, exclude_link=None, total=8):
+def build_corruption_watch(items, exclude_link=None, total=18):
     """Render The Hunt panel — strict financial-corruption only.
     Items must be classified as corruption (financial-fraud signal in
     title OR a corruption-focused source with a finance signal anywhere)
@@ -1530,7 +1530,7 @@ def build_corruption_watch(items, exclude_link=None, total=8):
     for item in pool:
         if item["link"] in seen:
             continue
-        if per_source.get(item["source"], 0) >= 2:
+        if per_source.get(item["source"], 0) >= 3:
             continue
         selected.append(item)
         seen.add(item["link"])
@@ -1742,22 +1742,48 @@ _LABEL_PREFIX_RE = re.compile(r"^([A-Z][\w']+(?:\s+[A-Z][\w']+){0,2}):\s+")
 _CORRUPTION_RE = re.compile(
     r"\b(?:"
     # Financial fraud — must explicitly tie to money / markets
-    r"fraud|fraudulent|defraud|scam|scammed"
-    r"|ponzi|pyramid\s+scheme|pump[- ]and[- ]dump"
+    r"fraud|fraudulent|defraud|scam|scammed|scammer|scammers"
+    r"|ponzi|pyramid\s+scheme|pump[- ]and[- ]dump|short[- ]and[- ]distort"
     r"|insider\s+trading|stock\s+manipulation|market\s+manipulation"
-    r"|money\s+laundering|laundered|wire\s+fraud|securities\s+fraud"
+    r"|spoofing|wash\s+trading|front[- ]running|layering"
+    r"|money\s+laundering|laundered|wire\s+fraud|securities\s+fraud|mail\s+fraud"
     r"|accounting\s+fraud|cooked\s+the\s+books|earnings\s+manipulation"
     r"|bribery|bribed|kickback|kickbacks|embezzle(?:d|ment)?"
     r"|tax\s+evasion|tax\s+fraud|offshore\s+accounts"
     r"|panama\s+papers|paradise\s+papers|pandora\s+papers|leaked\s+(?:financial|tax)"
-    # Regulatory enforcement (financial regulators only)
-    r"|SEC\s+(?:probe|investigation|charges|fines|enforcement|complaint|settlement|sued|files)"
-    r"|DOJ\s+(?:probe|investigation|charges|fines|settlement)\s+(?:against|of|into)\s+(?:bank|hedge|firm|corp|exec|CEO|trader)"
-    r"|FTC\s+(?:probe|investigation|charges|sued)"
+    # Crypto / Web3 corruption
+    r"|crypto\s+(?:fraud|scam|theft|hack|heist|exploit|rug)"
+    r"|token\s+(?:fraud|scam|rug|exploit)"
+    r"|rug[- ]pull(?:s|ed)?|exit\s+scam|honey[- ]?pot"
+    r"|wallet\s+drainer|drained\s+(?:wallet|users|investors)"
+    r"|(?:exchange|defi|protocol|bridge)\s+(?:hack|hacked|exploit|exploited|breach|drained)"
+    r"|nft\s+(?:scam|fraud|rug|wash)"
+    r"|stablecoin\s+(?:fraud|collapse)"
+    r"|memecoin\s+(?:scam|rug)"
+    r"|crypto\s+(?:ponzi|laundering)|launder(?:ed|ing)\s+(?:through|via)\s+crypto"
+    # Retail-investor predator scams (call centers, pig butchering, etc.)
+    r"|pig[- ]?butchering|romance\s+scam|investment\s+scam|investment\s+fraud"
+    r"|scam\s+call\s+(?:center|centre)|boiler\s+room|cold[- ]call(?:ing)?\s+scam"
+    r"|broker\s+fraud|broker[- ]dealer\s+fraud|registered\s+rep\s+fraud"
+    r"|elder(?:ly)?\s+(?:fraud|scam|abuse)|senior\s+(?:fraud|scam)"
+    r"|retirement\s+(?:fraud|scam)|401k\s+(?:fraud|scam)|ira\s+(?:fraud|scam)"
+    r"|advance[- ]fee\s+(?:fraud|scam)|prime\s+bank\s+(?:fraud|scam)"
+    r"|affinity\s+fraud|micro[- ]cap\s+fraud|penny\s+stock\s+(?:fraud|scam)"
+    r"|telemarket(?:ing|er)\s+(?:fraud|scam)"
+    # Regulatory enforcement (financial regulators)
+    r"|SEC\s+(?:probe|investigation|investigates|charges|fines|enforcement|complaint|settlement|sued|files|cracks\s+down|halts|suspends)"
+    r"|DOJ\s+(?:probe|investigation|charges|fines|settlement|indicts|indicted)"
+    r"|FTC\s+(?:probe|investigation|charges|sued|action)"
     r"|CFTC\s+(?:probe|investigation|charges|fines)"
-    r"|FINRA\s+(?:probe|investigation|fines)"
+    r"|FINRA\s+(?:probe|investigation|fines|bars|suspends)"
     r"|FDIC\s+(?:investigation|action)"
+    r"|OFAC\s+(?:sanctions|action)"
+    r"|FBI\s+(?:probes?|charges?|investigates?)\s+(?:investment|crypto|fraud|broker|hedge|fund)"
     r"|class[- ]action\s+(?:lawsuit|suit)|shareholder\s+(?:suit|lawsuit|complaint)"
+    r"|charged\s+(?:with|in)\s+(?:fraud|securities|wire|insider)"
+    r"|indicted\s+(?:on|in|for)\s+(?:fraud|securities|wire|insider|crypto)"
+    r"|pleads?\s+guilty\s+(?:to|in)\s+(?:fraud|securities|wire|insider|crypto)"
+    r"|sentenced\s+(?:to|for)\s+(?:fraud|securities|wire|insider|crypto)"
     # Insider activity (financial)
     r"|insider\s+sale(?:s)?|insider\s+purchase(?:s)?|insider\s+selling|insider\s+buying"
     r"|stock\s+buyback\s+(?:while|despite|after)"
