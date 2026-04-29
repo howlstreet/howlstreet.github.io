@@ -451,22 +451,18 @@ def _make_draft(*, fmt, body, primary_source, source_url,
     text (same info twice). Article og:image fetching is a separate
     decision (see review.html behavior)."""
     body = _strip_banned_phrases(body)
-    # Trailer:
-    #   - With source URL: include it so X auto-renders the article's
-    #     og:image as the link card; ALSO include howlstreet.github.io so
-    #     readers can find us.
-    #   - Without source URL (data-only drafts): just our site.
+    # Trailer is URLs only — no "via Source" text. Source URL first so X
+    # auto-renders the article's og:image as the link card; site URL
+    # second so the brand still gets a link.
     if body:
         body = body.rstrip()
-        # Skip if a trailer is already there
         already_trailed = (body.endswith("howlstreet.github.io") or
                            (source_url and body.endswith(source_url)))
         if not already_trailed:
-            src_label = primary_source or "primary source"
             if source_url:
-                body = f"{body}\n\nvia {src_label}. {source_url}\nhowlstreet.github.io"
+                body = f"{body}\n\n{source_url}\nhowlstreet.github.io"
             else:
-                body = f"{body}\n\nvia {src_label}. howlstreet.github.io"
+                body = f"{body}\n\nhowlstreet.github.io"
     return {
         "id": str(uuid.uuid4())[:8],
         "format": fmt,
@@ -861,17 +857,8 @@ def collect_drafts(items, signal_posts=None, insider_posts=None,
     if take and not _is_already_posted(take["content_hash"], take.get("source_url"), posted):
         drafts.append(take)
 
-    # Parallel og:image fetch — drafts get the article's social-card
-    # photo so the user can right-click → save and attach when posting.
-    drafts_with_url = [d for d in drafts if d.get("source_url")]
-    if drafts_with_url:
-        urls = [d["source_url"] for d in drafts_with_url]
-        with ThreadPoolExecutor(max_workers=10) as ex:
-            results = list(ex.map(fetch_og_image, urls))
-        for d, og in zip(drafts_with_url, results):
-            d["og_image_url"] = og
-        with_image = sum(1 for d in drafts_with_url if d.get("og_image_url"))
-        print(f"  og:image fetched for {with_image}/{len(drafts_with_url)} drafts")
+    # No og:image fetch — X auto-renders the article card from the
+    # source URL embedded in the tweet body. The review queue is text-only.
 
     # Persist + render
     _save_drafts(drafts)
@@ -911,22 +898,9 @@ def write_review_html(drafts):
     for d in drafts:
         label, color = _FORMAT_LABELS.get(
             d["format"], (d["format"], "#888"))
+        # No image preview — X handles the article card from the URL in
+        # the tweet body. Review queue is text-only, just the draft text.
         img_block = ""
-        og_url = d.get("og_image_url")
-        if og_url:
-            # Right-click → "Save image as…" then drag to X. The image
-            # is hosted by the source (Reuters/Bloomberg/etc.), so the
-            # browser respects their CORS policy for downloads — that's
-            # why we don't try a programmatic download here.
-            img_block = (
-                f'<a class="og-image-link" href="{html_lib.escape(og_url, quote=True)}" '
-                f'target="_blank" rel="noopener" '
-                f'title="Preview of the og:image X will auto-render from the source URL">'
-                f'<img class="draft-img" src="{html_lib.escape(og_url, quote=True)}" '
-                f'alt="article photo" loading="lazy">'
-                f'<div class="og-hint">X auto-renders this image from the source URL when you post</div>'
-                f'</a>'
-            )
         source_block = (
             f'<div class="source-block">'
             f'  <div class="source-label">SOURCE — fact-check before approving</div>'
@@ -996,9 +970,6 @@ def write_review_html(drafts):
   .source-link {{ color:var(--green); font-size:11px; text-decoration:none; display:inline-block; margin-top:4px; }}
   textarea.draft-text {{ width:100%; min-height:140px; background:#050505; color:var(--fg); border:1px solid var(--border); border-radius:4px; padding:10px; font:13px/1.5 -apple-system,monospace; resize:vertical; white-space:pre-wrap; }}
   .char-counter {{ color:var(--dim); font-size:10px; text-align:right; margin-top:4px; }}
-  .draft-img {{ display:block; width:100%; max-width:100%; height:auto; border-radius:4px; margin-top:10px; border:1px solid var(--border); }}
-  .og-image-link {{ text-decoration:none; color:inherit; display:block; }}
-  .og-hint {{ color:var(--dim); font-size:10px; margin-top:4px; text-align:center; letter-spacing:0.4px; }}
   .actions {{ display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; }}
   .btn {{ font-size:12px; padding:7px 14px; border-radius:4px; cursor:pointer; border:none; font-weight:bold; letter-spacing:0.4px; }}
   .btn-copy {{ background:var(--green); color:#000; }}
