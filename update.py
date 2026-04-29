@@ -1518,9 +1518,12 @@ def build_corruption_watch(items, exclude_link=None, total=18, max_age_days=7):
     bubble to the top — the age cutoff keeps the panel a feed, not an
     archive."""
     cutoff = datetime.now(NY).replace(tzinfo=None) - timedelta(days=max_age_days)
+    # _is_corruption_item already requires explicit financial-corruption
+    # keywords in title+summary, so the secondary is_financially_relevant
+    # gate was over-filtering legit crypto-corruption items (e.g. exchange
+    # hacks, AML chief hires) that don't trip the broader finance regex.
     pool = [i for i in items
             if _is_corruption_item(i)
-            and is_financially_relevant(i)
             and (i["ts"].replace(tzinfo=None) if i.get("ts") else cutoff) >= cutoff]
     if exclude_link:
         pool = [i for i in pool if i["link"] != exclude_link]
@@ -2051,7 +2054,6 @@ _POLITICAL_VETO_RE = re.compile(
     r"epstein\s+files|"
     r"national\s+security\s+law|"
     r"forest\s+service|park\s+service|national\s+park|"
-    r"upheaval|"
     r"trump'?s\s+(?:forest|park|education|environmental|fossil|climate|legacy|war\s+on)|"
     r"biden'?s\s+(?:legacy|war\s+on|climate|environmental)|"
     # Naked-capital / wall-st-parade rhetorical headline shapes
@@ -2061,22 +2063,105 @@ _POLITICAL_VETO_RE = re.compile(
     re.IGNORECASE,
 )
 
+# Loosened set of corruption signals — matches against title+summary.
+# Generic verbs (arrested / convicted / breach / exploit / crackdown) are
+# only accepted when paired with a financial-context noun, otherwise
+# they trip on violent crime, drug arrests, AI 'exploits', high-conviction
+# investment commentary, etc.
+_CORRUPTION_LOOSE_RE = re.compile(
+    r"(?:"
+    # 1. Strong, unambiguous financial-corruption keywords (always count)
+    r"\b(?:"
+    r"fraud|fraudulent|defraud|"
+    r"\$\d+[KMB]?\s+(?:scam|fraud|theft|stolen|laundered)|"
+    r"ponzi|pyramid\s+scheme|pump[- ]and[- ]dump|short[- ]and[- ]distort|"
+    r"insider\s+trading|stock\s+manipulation|market\s+manipulation|"
+    r"spoofing|wash\s+trading|front[- ]running|"
+    r"money\s+laundering|laundered|wire\s+fraud|securities\s+fraud|mail\s+fraud|"
+    r"accounting\s+fraud|cooked\s+the\s+books|earnings\s+manipulation|"
+    r"bribery|bribed|kickback|kickbacks|embezzle(?:d|ment)?|"
+    r"tax\s+evasion|tax\s+fraud|offshore\s+accounts|"
+    r"panama\s+papers|paradise\s+papers|pandora\s+papers|"
+    r"rug[- ]pull(?:s|ed)?|exit\s+scam|wallet\s+drainer|"
+    r"crypto\s+(?:fraud|scam|theft|hack|heist|exploit|laundering|ponzi)|"
+    r"token\s+(?:fraud|scam|rug|exploit)|"
+    r"(?:exchange|defi|protocol|bridge|smart\s+contract)\s+(?:hack|hacked|exploit|exploited|breach|drained)|"
+    r"nft\s+(?:scam|fraud|rug|wash)|stablecoin\s+(?:fraud|collapse)|"
+    r"memecoin\s+(?:scam|rug)|"
+    r"pig[- ]?butchering|romance\s+scam|investment\s+(?:scam|fraud)|"
+    r"boiler\s+room|cold[- ]call(?:ing)?\s+scam|broker\s+fraud|"
+    r"elder(?:ly)?\s+(?:fraud|scam)|senior\s+(?:fraud|scam)|"
+    r"retirement\s+(?:fraud|scam)|401k\s+(?:fraud|scam)|ira\s+(?:fraud|scam)|"
+    r"penny\s+stock\s+(?:fraud|scam)|micro[- ]cap\s+(?:fraud|scam)|affinity\s+fraud|"
+    r"advance[- ]fee\s+(?:fraud|scam)|prime\s+bank\s+(?:fraud|scam)|"
+    r"greenwashing|esg\s+fraud|"
+    r"shell\s+company|shell\s+companies|hidden\s+ownership|"
+    r"self[- ]dealing|self[- ]enrich(?:ment|ed)?|"
+    r"anti[- ]?fraud|anti[- ]?money[- ]laundering|"
+    r"aml\s+(?:violation|breach|chief|failure)|"
+    r"sanctions?\s+(?:violation|breach|evasion)"
+    r")\b"
+    # 2. Financial-regulator actions (strong)
+    r"|\b(?:"
+    r"sec\s+(?:probe|investigation|investigates|charges|fines|complaint|sues|halts|suspends|cracks\s+down)|"
+    r"doj\s+(?:probe|investigation|charges|indicts|indicted|fines|settlement)|"
+    r"finra\s+(?:probe|investigation|fines|bars|suspends)|"
+    r"cftc\s+(?:probe|investigation|charges|fines)|"
+    r"ftc\s+(?:probe|investigation|charges|sued|action)|"
+    r"ofac\s+(?:sanctions|action)|"
+    r"fbi\s+(?:probes?|charges?|investigates?)\s+(?:investment|crypto|fraud|broker|hedge|fund)"
+    r")\b"
+    # 3. Generic enforcement verbs ONLY when paired with financial context.
+    #    Catches 'charged with fraud', 'pleads guilty to wire fraud',
+    #    'sentenced for securities fraud', etc — without grabbing
+    #    drug arrests or violent-crime indictments.
+    r"|\b(?:charged|indicted|sentenced|jailed|imprisoned|arrested|pleads?\s+guilty|"
+    r"convicted|raided|settled|fined|barred|disbarred|"
+    r"clawback|disgorge|cracks?\s+down|crackdown)\b"
+    r"\s+(?:on|in|for|with|of|to|over|against)?"
+    r"\s*(?:[A-Z][a-z]+\s+)*"  # optional noun phrase chunk
+    r"(?:fraud|scam|securities|insider|wire|investment|crypto|token|"
+    r"laundering|tax\s+evasion|bribery|embezzle|kickback|"
+    r"ponzi|pyramid|sec\b|doj\b|finra|cftc|ftc|sanctions?|"
+    r"investor|trader|hedge\s+fund|broker|firm|exchange|bank|"
+    r"defi|nft|stablecoin|memecoin|atm)"
+    # 4. Crypto/financial bans + class actions
+    r"|\b(?:atm|crypto|token|nft)\s+ban|"
+    r"\bclass[- ]action\s+(?:lawsuit|suit)|"
+    r"\bshareholder\s+(?:suit|lawsuit|complaint)|"
+    r"\bdark\s+web\s+(?:hack|drain|leak|exploit|claim)"
+    r")",
+    re.IGNORECASE,
+)
+
 
 def _is_corruption_item(item):
-    """True if the item is FINANCIAL corruption — strict gate.
-    Title must match a financial-corruption pattern (fraud / SEC / insider
-    trading / etc.). The old source-whitelist allowance was letting
-    political opinion pieces from Mother Jones / Wall St Parade /
-    Naked Capital through whenever they happened to mention a dollar
-    amount, which wrecked The Hunt with non-financial partisan content.
+    """True if the item is FINANCIAL corruption — recall-tuned.
+    Checks title+summary against a broad financial-corruption pattern,
+    rejects items that match the political-veto regex anywhere in
+    title+summary, and re-admits items from dedicated investigative
+    outlets (ICIJ, ProPublica, Wall St Parade, etc.) when they have
+    a financial signal AND aren't politically vetoed.
 
-    Also rejects items matching the political-veto regex even when the
-    keyword pattern hits — catches headlines that use 'fraud' or
-    'tax evasion' but are really partisan opinion on a public policy."""
+    Tightening the gate to title-only with no source-whitelist over-
+    filtered The Hunt down to 2-3 items per run. The new design keeps
+    the political content out via _POLITICAL_VETO_RE while letting
+    real corruption stories surface even when the headline writer
+    used 'ban' / 'hack' / 'indicted' instead of 'fraud'."""
     title = item.get("title", "") or ""
-    if _POLITICAL_VETO_RE.search(title):
+    summary = item.get("summary", "") or ""
+    blob = f"{title} {summary}"
+    # Veto first — political opinion stays out regardless of keywords
+    if _POLITICAL_VETO_RE.search(blob):
         return False
-    return bool(_CORRUPTION_RE.search(title))
+    # Loosened keyword match against title+summary
+    if _CORRUPTION_LOOSE_RE.search(blob):
+        return True
+    # Source-whitelist allowance: dedicated investigative outlets that
+    # have a finance signal, post-veto.
+    if item.get("source") in _CORRUPTION_SOURCES and _has_financial_signal(blob):
+        return True
+    return False
 
 
 def _is_breaking_title(title):

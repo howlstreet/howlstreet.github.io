@@ -612,16 +612,23 @@ def _pick_corruption_question(title, summary, seed):
     return pool[h % len(pool)]
 
 
+_HOWLSTREET_CTA = (
+    "Check out our 24/7 global market feed, corruption watch, and "
+    "insider news here: howlstreet.github.io"
+)
+
+
 def _decorate_rss_body(sentences, seed):
     """Wrap body sentences with a witty opener (prepended to first
-    sentence) and an engagement question (final paragraph). Every RSS-
-    fed format runs through this so the queue reads consistently."""
+    sentence) and the howlstreet CTA at the end. Every RSS-fed format
+    runs through this so the queue reads consistently. The CTA replaces
+    the old engagement question — direct traffic to the site."""
     if not sentences:
         return sentences
     opener = _pick_rss_opener(seed)
     sentences = list(sentences)
     sentences[0] = f"{opener} {sentences[0]}"
-    sentences.append(_pick_engagement_question(seed))
+    sentences.append(_HOWLSTREET_CTA)
     return sentences
 
 
@@ -686,18 +693,14 @@ def _make_draft(*, fmt, body, primary_source, source_url,
     text (same info twice). Article og:image fetching is a separate
     decision (see review.html behavior)."""
     body = _strip_banned_phrases(body)
-    # Trailer is URLs only — no "via Source" text. Source URL first so X
-    # auto-renders the article's og:image as the link card; site URL
-    # second so the brand still gets a link.
+    # Trailer: just the article URL at the very end. The CTA line
+    # ('Check out our 24/7 global market feed…') is added by callers
+    # before this function (see _decorate_rss_body). Source URL goes
+    # last so X auto-renders the article's og:image as the link card.
     if body:
         body = body.rstrip()
-        already_trailed = (body.endswith("howlstreet.github.io") or
-                           (source_url and body.endswith(source_url)))
-        if not already_trailed:
-            if source_url:
-                body = f"{body}\n\n{source_url}\nhowlstreet.github.io"
-            else:
-                body = f"{body}\n\nhowlstreet.github.io"
+        if source_url and not body.endswith(source_url):
+            body = f"{body}\n\n{source_url}"
     return {
         "id": str(uuid.uuid4())[:8],
         "format": fmt,
@@ -822,9 +825,7 @@ def draft_market_move(signal_post):
     kicker = _MARKET_KICKERS.get(kind)
     if kicker:
         parts.append(kicker)
-    question = _MARKET_QUESTIONS.get(kind)
-    if question:
-        parts.append(question)
+    parts.append(_HOWLSTREET_CTA)
     body = "\n\n".join(p for p in parts if p)
     return _make_draft(
         fmt="MARKET_MOVE",
@@ -999,14 +1000,13 @@ def draft_corruption_watch_from_insider(insider_post):
     seed = f"{ticker}_{trade_date}_{ttype}"
     opener = _pick_insider_opener(seed)
     kicker = _build_insider_kicker(ttype, num_insiders, dv, pct_since)
-    question = _pick_engagement_question(seed)
 
     body = (
         f"{opener} ${ticker} insider {verb} ${dv:,.0f} on {trade_date}{cluster_note}. \U0001f440\n\n"
         f"{company}. {qty:,.0f} shares at ${price:,.2f}.\n\n"
         f"{sign}{pct_since:.1f}% since the {noun}.\n\n"
         f"{kicker}\n\n"
-        f"{question}"
+        f"{_HOWLSTREET_CTA}"
     )
     return _make_draft(
         fmt="CORRUPTION_WATCH_INSIDER",
@@ -1038,12 +1038,7 @@ def draft_corruption_watch_from_rss(item):
                                             want_sentences=4)
     if not sentences:
         return None
-    seed = item.get("link") or title
-    # Custom decorate: sentiment-aware question instead of generic one.
-    opener = _pick_rss_opener(seed)
-    sentences = list(sentences)
-    sentences[0] = f"{opener} {sentences[0]}"
-    sentences.append(_pick_corruption_question(title, summary, seed))
+    sentences = _decorate_rss_body(sentences, item.get("link") or title)
     body = "\n\n".join(sentences)
     return _make_draft(
         fmt="CORRUPTION_WATCH",
@@ -1405,9 +1400,25 @@ def write_review_html(drafts):
   .draft.posted .btn-posted {{ background:var(--green); color:#000; }}
   .btn-state {{ background:#1a1a1a; color:#fff; border:1px solid var(--border); padding:8px 16px; }}
   .btn-state:hover {{ border-color: var(--green); color: var(--green); }}
+  /* PIN gate */
+  #pin-gate {{ position:fixed; inset:0; background:#000; z-index:9999; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:18px; }}
+  #pin-gate.hidden {{ display:none; }}
+  #pin-gate h2 {{ color:var(--green); font-size:18px; letter-spacing:3px; margin:0; font-family:-apple-system,monospace; }}
+  #pin-gate .pin-sub {{ color:var(--dim); font-size:12px; letter-spacing:1px; }}
+  #pin-input {{ background:#050505; border:1px solid var(--border); color:var(--fg); font:24px/1 -apple-system,monospace; padding:14px 18px; width:200px; text-align:center; letter-spacing:8px; border-radius:4px; outline:none; }}
+  #pin-input:focus {{ border-color:var(--green); box-shadow:0 0 0 1px var(--green); }}
+  #pin-error {{ color:#ff4d4d; font-size:11px; height:14px; letter-spacing:1px; }}
+  #app-content.hidden {{ display:none; }}
 </style>
 </head>
 <body>
+<div id="pin-gate">
+  <h2>HOWL STREET — REVIEW QUEUE</h2>
+  <div class="pin-sub">Enter PIN to access</div>
+  <input id="pin-input" type="password" inputmode="numeric" maxlength="4" autocomplete="off" autofocus />
+  <div id="pin-error"></div>
+</div>
+<div id="app-content" class="hidden">
 <div class="wrap">
   <header>
     <h1>HOWL STREET — REVIEW QUEUE</h1>
@@ -1421,7 +1432,37 @@ def write_review_html(drafts):
 {chr(10).join(cards_html) if cards_html else '<div class="meta">No pending drafts. Nothing surfaced this run.</div>'}
   </main>
 </div>
+</div>
 <script>
+// PIN gate — required to view the queue. Once unlocked in this browser,
+// stays unlocked (sessionStorage so a fresh browser session re-prompts).
+const PIN_KEY = 'howlstreet_review_pin_unlocked';
+const PIN_VALUE = '0470';
+
+function unlockApp() {{
+  document.getElementById('pin-gate').classList.add('hidden');
+  document.getElementById('app-content').classList.remove('hidden');
+}}
+
+if (sessionStorage.getItem(PIN_KEY) === '1') {{
+  unlockApp();
+}} else {{
+  const input = document.getElementById('pin-input');
+  const errEl = document.getElementById('pin-error');
+  input.addEventListener('input', () => {{
+    if (input.value.length === 4) {{
+      if (input.value === PIN_VALUE) {{
+        sessionStorage.setItem(PIN_KEY, '1');
+        unlockApp();
+      }} else {{
+        errEl.textContent = 'Wrong PIN';
+        input.value = '';
+        setTimeout(() => {{ errEl.textContent = ''; }}, 1500);
+      }}
+    }}
+  }});
+}}
+
 // State keyed by content_hash (stable across cron re-draft of the same
 // story) so a post stays marked posted even when drafts.json regenerates.
 const STORAGE_KEY = 'howlstreet_review_state_v2';
