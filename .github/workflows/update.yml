@@ -37,10 +37,22 @@ jobs:
         run: |
           git config user.name "howlstreet-bot"
           git config user.email "bot@howlstreet.local"
+          git config pull.rebase true
           git add index.html sitemap.xml hero_lock.json signal_state.json signal_posts.json insider_posts.json drafts.json review.html
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
             git commit -m "auto: update $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git push
+            # Retry up to 3 times: rebase against any new pushes that landed
+            # while we were generating, then push. Prevents the race where a
+            # human pushes mid-cron and the bot's push gets rejected.
+            for attempt in 1 2 3; do
+              if git push; then
+                exit 0
+              fi
+              echo "Push rejected (attempt $attempt) — pulling --rebase and retrying."
+              git pull --rebase --autostash
+            done
+            echo "Push still failing after 3 attempts."
+            exit 1
           fi
