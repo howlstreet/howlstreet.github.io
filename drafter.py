@@ -1024,22 +1024,20 @@ def _make_draft(*, fmt, body, primary_source, source_url,
     text (same info twice). Article og:image fetching is a separate
     decision (see review.html behavior)."""
     body = _strip_banned_phrases(body)
-    # Trailer order matters for X's card rendering — X picks the FIRST
-    # URL in the tweet body to render as the link card. So:
-    #   1. body sentences
-    #   2. article URL (so X renders the article's og:image)
-    #   3. howlstreet CTA (with our site URL — X ignores it as a card
-    #      because the article URL came first)
+    # Trailer is just the article URL. No CTA, no site link — X uses the
+    # article's og:image as the card and the body carries the editorial
+    # voice. The user wanted the queue posts to be punchy without the
+    # 'visit our site' boilerplate at the bottom.
     if body:
         body = body.rstrip()
-        # Drop any pre-existing CTA fragment — we re-attach below in
-        # the correct order (article URL first so X uses its og:image).
-        cta_marker = "24/7 global market"
-        if cta_marker in body:
-            body = body.split(cta_marker)[0].rstrip()
+        # Strip any leftover CTA fragments from older runs that might
+        # still be cached in drafts via content_hash dedup.
+        for marker in ("24/7 global market", "Check out our 24/7",
+                       "howlstreet.github.io"):
+            if marker in body:
+                body = body.split(marker)[0].rstrip()
         if source_url and not body.endswith(source_url):
             body = f"{body}\n\n{source_url}"
-        body = f"{body}\n\n{_HOWLSTREET_CTA}"
     return {
         "id": str(uuid.uuid4())[:8],
         "format": fmt,
@@ -1151,20 +1149,22 @@ def draft_market_move(signal_post):
 
     parts = [lead]
     if matters:
-        # Split matters into sentences and pick the most concrete one —
-        # the one with named groups, percentages, or dollar amounts. The
-        # first sentence is often a generic "X is the live Y market" filler.
+        # Pull every complete sentence from the matters template — these
+        # are hand-curated 'why this matters' lines, so all of them
+        # belong in the post. Order them concrete-first so the fact-laden
+        # sentence leads the explanation.
         sents = _split_sentences(matters)
         sents = [s for s in sents if s.endswith((".", "!", "?"))]
         if sents:
-            scored = [(s, len(_BODY_FACT_SIGNAL.findall(s))) for s in sents]
-            scored.sort(key=lambda x: x[1], reverse=True)
-            best = scored[0][0] if scored else sents[0]
-            parts.append(best)
+            scored = [(i, s, len(_BODY_FACT_SIGNAL.findall(s)))
+                      for i, s in enumerate(sents)]
+            # Concrete first, but keep relative order within tie groups.
+            scored.sort(key=lambda x: (-x[2], x[0]))
+            for _, s, _ in scored[:3]:
+                parts.append(s)
     kicker = _MARKET_KICKERS.get(kind)
     if kicker:
         parts.append(kicker)
-    # CTA is appended by _make_draft so it lands AFTER the source URL.
     body = "\n\n".join(p for p in parts if p)
     return _make_draft(
         fmt="MARKET_MOVE",
