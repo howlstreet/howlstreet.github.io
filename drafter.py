@@ -1542,6 +1542,101 @@ def draft_loud_howl(top_item):
     )
 
 
+# Curated pool of witty, politically-neutral one-liners. Finance/markets/
+# trading-psych focused. No partisan content — neutral on every public
+# figure. The pack speaks to the universal absurdities of money.
+_PACK_TAKES = [
+    # Trading psych
+    "Day traders are gamblers with Bloomberg terminals.",
+    "The chart is right until you bet on it. Then it remembers.",
+    "Diversification is just admitting you don't know which stock will win.",
+    "If you can't explain the trade in one sentence, you're the exit liquidity.",
+    "Risk is what's left over after you think you've covered everything.",
+    "Every bull market has someone who 'knew' it would end. They're wrong about the next one too.",
+    "Your conviction is just your stop-loss in a tuxedo.",
+    "Buy the rumor, sell the news, and apologize to your family later.",
+    "A position you can't sleep with isn't a position. It's a bet.",
+    "FOMO is the most expensive emotion on Wall Street.",
+    # Insider / corruption observations
+    "Insiders don't tweet their convictions. They file them.",
+    "Smart money doesn't whisper. Smart money signs Form 4.",
+    "If a CEO is selling, ask why he isn't telling you to.",
+    "The boring SEC filing beat the news again.",
+    "When five executives buy on the same Tuesday, that's not a coincidence — that's a meeting.",
+    "Disclosure is the price of admission. Some companies pay it; some buy it.",
+    "Watch what they do with their own money. The press release is for you.",
+    # Market mechanics
+    "Markets price in everything except what's actually about to happen.",
+    "The Fed's job is to take away the punch bowl. The punch bowl spikes itself anyway.",
+    "If a bank is too big to fail, it's also too big to be a bank.",
+    "Liquidity is everywhere until you need it. Then it's somewhere else.",
+    "Volatility is just velocity rebranded for shareholders.",
+    "Every panic is rational right up until it's over.",
+    "The yield curve is the tape's confessional booth.",
+    "Earnings season is just a 90-day audit of who lied better.",
+    "Price doesn't lie. Forward guidance does.",
+    "The market is forward-looking, except when it's wrong, which is most of the time.",
+    # Crypto-specific
+    "Crypto is forex with worse fundamentals and better marketing.",
+    "Every rug pull was a 'community' yesterday.",
+    "If your token has a roadmap, ask where the off-ramp is.",
+    "Decentralized until something goes wrong. Then it has a CEO.",
+    "Bitcoin doesn't care about your weekend. The exchanges might.",
+    # Wall Street culture
+    "Wall Street invented 'long-term investing' to keep you from selling at the top.",
+    "Suit and tie is a costume. The real uniform is a Bloomberg login.",
+    "The lobby has marble. The exit has a settlement.",
+    "Banker hours are 9 to 9, and the 9 in the morning was overtime.",
+    "Wall Street doesn't have a heart. It has a clearinghouse.",
+    "If they're calling you, they need you. Not the other way around.",
+    "Compliance is the speed bump finance built around its own inertia.",
+    # The pack / wolf voice
+    "The pack hunts before the headline. The headline hunts the herd.",
+    "Wolves don't day trade. Wolves stalk.",
+    "Watching insiders is just learning to read the snow.",
+    "The herd panics together. The pack profits quietly.",
+    "Your alerts didn't go off because the pack got there first.",
+    "Information is free. Conviction is rare. Patience is rarer.",
+    # Macro observations
+    "Inflation is a tax that doesn't show up on your W-2.",
+    "Real rates eat sentiment for breakfast.",
+    "The strong dollar makes everything cheaper for someone who isn't you.",
+    "Recessions are obvious in retrospect and invisible in real time.",
+    "Soft landing is the most dangerous phrase in central banking.",
+    "When everyone's positioned for a crash, the crash takes a vacation.",
+    "Gold doesn't pay a dividend. Neither does a fire extinguisher.",
+    # Retail / scam awareness
+    "If the call comes from a stranger and the return looks like a stairway, it's a stairway down.",
+    "Pump-and-dumps still work because greed never updates.",
+    "If your uncle's WhatsApp signal is hot, it's already cold.",
+    "The most expensive 'guaranteed return' is the one you actually trusted.",
+    # Brand / values
+    "We howl for the people, not the prospectus.",
+    "The wolves the suits warned you about are the ones reading SEC filings.",
+    "If it sounds like financial advice from your cousin, it is. Verify.",
+]
+
+
+def draft_pack_take(seed):
+    """G) PACK TAKE — a single witty one-liner, no source URL, no
+    article context. Politically neutral; focused on markets, trading
+    psychology, and the wolves theme. Picks deterministically per
+    seed so same seed → same take on refresh."""
+    if not _PACK_TAKES:
+        return None
+    h = sum(ord(c) for c in str(seed)) if seed else 0
+    take = _PACK_TAKES[h % len(_PACK_TAKES)]
+    return _make_draft(
+        fmt="PACK_TAKE",
+        body=take,
+        primary_source="Howl Street",
+        source_url="",  # No URL — pure original commentary
+        source_title="PACK TAKE",
+        source_summary=take,
+        data={"take_seed": str(seed)},
+    )
+
+
 def draft_the_take():
     """F) THE TAKE — manual only. Reads the_take.md if present.
     Format: first non-empty line is the lede, rest is the body."""
@@ -1681,6 +1776,18 @@ def collect_drafts(items, signal_posts=None, insider_posts=None,
     if take and not _is_already_posted(take["content_hash"], take.get("source_url"), posted):
         drafts.append(take)
 
+    # G) PACK TAKE — 2 evergreen one-liners per run, deterministic by
+    # the day so the same takes don't churn every 30 minutes. Different
+    # day → different takes; same day → stable picks.
+    today = datetime.utcnow().strftime("%Y-%m-%d")
+    pack_takes = []
+    for slot in (1, 2):
+        seed = f"{today}-pack-{slot}"
+        t = draft_pack_take(seed)
+        if t and not _is_already_posted(t["content_hash"], t.get("source_url"), posted):
+            pack_takes.append(t)
+    drafts += _take("PACK_TAKE", pack_takes)
+
     # No og:image fetch — X auto-renders the article card from the
     # source URL embedded in the tweet body. The review queue is text-only.
 
@@ -1707,6 +1814,7 @@ _FORMAT_LABELS = {
     "GLOBAL_DESK": ("GLOBAL DESK", "#cccccc"),
     "DATA_DROP":   ("DATA DROP", "#ff4d4d"),
     "THE_TAKE":    ("THE TAKE", "#ffffff"),
+    "PACK_TAKE":   ("PACK TAKE", "#ffd966"),
 }
 
 
