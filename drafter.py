@@ -591,6 +591,51 @@ def draft_policy_read(item):
     )
 
 
+_INSIDER_OPENERS = [
+    "Did you know this?",
+    "The pack is watching.",
+    "Heads up, pack.",
+    "Tracks in the snow.",
+    "Sniff this out.",
+    "Caught one.",
+    "Don't sleep on this.",
+    "While you weren't looking,",
+    "Worth a look.",
+    "Howl on this.",
+]
+
+
+def _pick_insider_opener(seed):
+    """Deterministic opener selection so the same trade always gets the
+    same line (stable across cron runs, no jitter on refresh)."""
+    h = sum(ord(c) for c in str(seed)) if seed else 0
+    return _INSIDER_OPENERS[h % len(_INSIDER_OPENERS)]
+
+
+def _build_insider_kicker(ttype, num_insiders, dollar_value, pct_since):
+    """A single line of pack-voice interpretation that reads on the
+    strongest signal in the data — cluster size, dollar magnitude, or
+    post-trade move. Returns one line, no period spam."""
+    is_buy = ttype == "P"
+    # Post-trade move is the sharpest tell when it's big.
+    if is_buy and pct_since >= 15:
+        return f"Stock already up {pct_since:.0f}% since they bought. They knew."
+    if not is_buy and pct_since <= -15:
+        return f"Stock down {abs(pct_since):.0f}% since they sold. Convenient timing."
+    # Cluster buying/selling — multiple insiders moving together.
+    if num_insiders >= 5:
+        return f"{num_insiders} insiders moving together. That's not a coincidence."
+    if num_insiders >= 2:
+        verb = "buy" if is_buy else "exit"
+        return f"Cluster {verb} — {num_insiders} insiders on the same day."
+    # Pure dollar magnitude — solo but huge.
+    if dollar_value >= 50_000_000:
+        return f"${dollar_value/1_000_000:.0f}M from one insider. Not a routine trim."
+    if dollar_value >= 10_000_000:
+        return f"${dollar_value/1_000_000:.1f}M solo. Worth tracking."
+    return "The kind of trade that pays attention to itself."
+
+
 def draft_corruption_watch_from_insider(insider_post):
     """C-1) CORRUPTION WATCH from corporate insider trade (Form 4).
 
@@ -616,10 +661,14 @@ def draft_corruption_watch_from_insider(insider_post):
     cluster_note = f", {num_insiders} insiders" if num_insiders > 1 else ""
     sign = "+" if pct_since >= 0 else ""
 
+    opener = _pick_insider_opener(f"{ticker}_{trade_date}_{ttype}")
+    kicker = _build_insider_kicker(ttype, num_insiders, dv, pct_since)
+
     body = (
-        f"${ticker} insider {verb} ${dv:,.0f} on {trade_date}{cluster_note}. \U0001f440\n\n"
+        f"{opener} ${ticker} insider {verb} ${dv:,.0f} on {trade_date}{cluster_note}. \U0001f440\n\n"
         f"{company}. {qty:,.0f} shares at ${price:,.2f}.\n\n"
-        f"{sign}{pct_since:.1f}% since the {noun}."
+        f"{sign}{pct_since:.1f}% since the {noun}.\n\n"
+        f"{kicker}"
     )
     return _make_draft(
         fmt="CORRUPTION_WATCH_INSIDER",
