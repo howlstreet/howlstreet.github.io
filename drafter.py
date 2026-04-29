@@ -418,12 +418,12 @@ def _compose_body_from_article(title, summary, body_paras, want_sentences=4):
         out.append(text.strip())
         return True
 
-    # 1. Always lead with the headline (title) as-is.
-    if title:
-        _take(_first_sentence(title) or title.strip()[:240])
+    # Skip the headline — X's link card already shows the title from the
+    # source URL. Repeating it in the tweet body wastes a sentence and
+    # reads as redundant. We lead straight with the substance.
 
-    # 2. Pull substantive body sentences when available — these have the
-    # numbers, the central-bank moves, the dollar amounts, etc.
+    # 1. Pull substantive body sentences — numbers, central-bank moves,
+    # dollar amounts, etc.
     if body_paras:
         body_sents = _pick_body_sentences(
             body_paras, title=title, max_sentences=want_sentences,
@@ -432,12 +432,17 @@ def _compose_body_from_article(title, summary, body_paras, want_sentences=4):
         for s in body_sents:
             if not _take(s):
                 continue
-            if len(out) >= want_sentences + 1:  # +1 because title counts
+            if len(out) >= want_sentences:
                 break
 
-    # 3. Fall back to the RSS summary if we got nothing from the body.
-    if len(out) < 2 and summary:
+    # 2. Fall back to the RSS summary when we couldn't fetch the body.
+    if not out and summary:
         _take(_first_sentence(summary, max_chars=300))
+
+    # 3. Last-resort fallback: if neither body nor summary yielded
+    # anything, use the title so we never emit an empty draft.
+    if not out and title:
+        _take(_first_sentence(title) or title.strip()[:240])
 
     return out
 
