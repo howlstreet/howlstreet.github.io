@@ -472,9 +472,339 @@ _RSS_OPENERS = [
 
 def _pick_rss_opener(seed):
     """Deterministic opener for RSS-fed drafts. Same article always gets
-    the same opener on refresh."""
+    the same opener on refresh. Generic pool — used as fallback when no
+    topic-specific opener applies."""
     h = sum(ord(c) for c in str(seed)) if seed else 0
     return _RSS_OPENERS[h % len(_RSS_OPENERS)]
+
+
+# ────────────────────────────────────────────────────────────────────
+# TOPIC-AWARE OPENERS — different pools per topic so the lead actually
+# fits what the article is about. Selection is deterministic per item.
+# ────────────────────────────────────────────────────────────────────
+
+# POLICY READ — split by central-bank actor.
+_POLICY_OPENERS_BY_ACTOR = {
+    "FED": [
+        "FED WATCH:",
+        "FOMC update.",
+        "Powell on the wire.",
+        "From the Eccles Building:",
+        "The Fed just spoke. Here's what matters:",
+        "RATE-PATH READ:",
+        "Live from the Federal Reserve:",
+        "If you trade rates, read this:",
+        "FOMC desk:",
+        "POWELL POSTCARD:",
+    ],
+    "ECB": [
+        "ECB DESK:",
+        "Lagarde on the wire.",
+        "From Frankfurt:",
+        "The ECB just moved.",
+        "EURO RATES READ:",
+        "ECB POSTCARD:",
+        "Eurozone policy update:",
+    ],
+    "BOJ": [
+        "BOJ DESK:",
+        "Ueda on the wire.",
+        "From Tokyo:",
+        "BoJ just printed.",
+        "Yen-watchers, this is for you:",
+        "JAPAN POLICY READ:",
+    ],
+    "BOE": [
+        "BOE DESK:",
+        "Bailey on the wire.",
+        "From Threadneedle Street:",
+        "UK rates read:",
+        "BoE update:",
+    ],
+    "PBOC": [
+        "PBOC DESK:",
+        "From Beijing's central bank:",
+        "China policy update:",
+        "PBOC postcard:",
+    ],
+    "TREASURY": [
+        "TREASURY WIRE:",
+        "From the Treasury building:",
+        "Yellen on the wire.",
+        "Fiscal policy update:",
+        "TREASURY DESK:",
+    ],
+    "DEFAULT": [
+        "POLICY READ:",
+        "Central bank corner:",
+        "Rate-path desk:",
+        "If you watch rates, read this:",
+        "Policy update for the pack:",
+    ],
+}
+
+# DATA DROP — split by economic release type.
+_DATA_OPENERS_BY_TOPIC = {
+    "CPI": [
+        "INFLATION READ:",
+        "CPI just printed.",
+        "The CPI scoreboard:",
+        "Inflation update:",
+        "CPI POSTCARD:",
+        "From the inflation desk:",
+        "How sticky is inflation? Let's see:",
+    ],
+    "PPI": [
+        "PRODUCER-PRICE READ:",
+        "PPI just dropped.",
+        "Wholesale inflation update:",
+        "PPI desk:",
+    ],
+    "JOBS": [
+        "JOBS DAY.",
+        "NFP just dropped.",
+        "LABOR MARKET READ:",
+        "Payrolls hit the wire.",
+        "From the BLS desk:",
+        "Hiring scoreboard:",
+        "EMPLOYMENT POSTCARD:",
+    ],
+    "JOBLESS": [
+        "JOBLESS-CLAIMS READ:",
+        "Weekly claims just printed.",
+        "Labor-market thermometer:",
+        "From the unemployment desk:",
+    ],
+    "GDP": [
+        "GDP DAY.",
+        "Growth read just printed.",
+        "GROWTH POSTCARD:",
+        "How fast is the economy moving? Now we know:",
+        "From the BEA desk:",
+    ],
+    "RETAIL": [
+        "RETAIL-SALES READ:",
+        "Consumer scoreboard:",
+        "From the consumption desk:",
+        "How is the consumer holding up? Let's see:",
+    ],
+    "HOUSING": [
+        "HOUSING READ:",
+        "From the housing desk:",
+        "Affordability scoreboard:",
+        "Mortgage-rate corner:",
+    ],
+    "DEFAULT": [
+        "DATA DROP:",
+        "Numbers just hit:",
+        "From the data desk:",
+        "Fresh print:",
+        "Scoreboard update:",
+    ],
+}
+
+# GLOBAL DESK — split by region.
+_GLOBAL_OPENERS_BY_REGION = {
+    "ASIA": [
+        "ASIA DESK:",
+        "From Tokyo to Hong Kong:",
+        "APAC wire:",
+        "Asia overnight:",
+        "PACK BRIEFING — ASIA:",
+    ],
+    "EUROPE": [
+        "EUROPE DESK:",
+        "From Brussels and beyond:",
+        "EU/UK wire:",
+        "Continental update:",
+        "PACK BRIEFING — EUROPE:",
+    ],
+    "MIDDLE_EAST": [
+        "MIDDLE EAST DESK:",
+        "Gulf wire:",
+        "From the Gulf:",
+        "PACK BRIEFING — MIDDLE EAST:",
+        "Levant update:",
+    ],
+    "AFRICA": [
+        "AFRICA DESK:",
+        "Continental wire:",
+        "From the African desk:",
+        "PACK BRIEFING — AFRICA:",
+    ],
+    "AMERICAS": [
+        "LATAM DESK:",
+        "From the Americas:",
+        "Canada/LatAm wire:",
+        "PACK BRIEFING — AMERICAS:",
+    ],
+    "CHINA": [
+        "CHINA DESK:",
+        "From Beijing:",
+        "Mainland wire:",
+        "PACK BRIEFING — CHINA:",
+    ],
+    "DEFAULT": [
+        "GLOBAL DESK:",
+        "From the international wire:",
+        "Cross-border read:",
+        "World wire:",
+    ],
+}
+
+# CORRUPTION WATCH — split by sentiment (justice served vs ongoing threat).
+_CORRUPTION_OPENERS_BY_SENTIMENT = {
+    "JUSTICE": [
+        "JUSTICE SERVED:",
+        "Score one for the good guys.",
+        "Caught.",
+        "Pack — got one.",
+        "About damn time.",
+        "FRAUDSTER DOWN:",
+        "The wolves howled, the regulators listened.",
+        "FROM THE COURTHOUSE:",
+        "Indictment of the day:",
+        "One off the streets:",
+    ],
+    "THREAT": [
+        "PACK ALERT — SCAM:",
+        "RETAIL BEWARE:",
+        "Heads up, the wolves at the door.",
+        "Watch your wallets:",
+        "If you're invested, you'll want to read this:",
+        "ACTIVE THREAT:",
+        "New scam vector:",
+        "PROTECTION BRIEFING:",
+        "Pack — defensive read:",
+    ],
+    "DEFAULT": [
+        "CORRUPTION DESK:",
+        "From the corruption desk:",
+        "FRAUD WATCH:",
+        "On the trail:",
+        "Pack — eyes up:",
+    ],
+}
+
+# LOUD HOWL — flagship daily pick. Just generic, since the topic varies.
+_LOUD_HOWL_OPENERS = [
+    "TODAY'S LOUDEST HOWL:",
+    "FRONT-PAGE FOR THE PACK:",
+    "THE BIG ONE:",
+    "If you read one thing today:",
+    "The story the pack is talking about:",
+    "FLAGSHIP READ:",
+    "PACK FRONT-PAGE:",
+]
+
+# Topic detection regexes
+_FED_NAMES_RE = re.compile(r"\b(?:fed|fomc|federal\s+reserve|powell|jerome\s+powell)\b", re.IGNORECASE)
+_ECB_NAMES_RE = re.compile(r"\b(?:ecb|european\s+central\s+bank|lagarde|christine\s+lagarde)\b", re.IGNORECASE)
+_BOJ_NAMES_RE = re.compile(r"\b(?:boj|bank\s+of\s+japan|ueda|kazuo\s+ueda)\b", re.IGNORECASE)
+_BOE_NAMES_RE = re.compile(r"\b(?:boe|bank\s+of\s+england|bailey|andrew\s+bailey)\b", re.IGNORECASE)
+_PBOC_NAMES_RE = re.compile(r"\b(?:pboc|people'?s\s+bank\s+of\s+china)\b", re.IGNORECASE)
+_TREASURY_NAMES_RE = re.compile(r"\b(?:treasury|yellen|janet\s+yellen|bessent)\b", re.IGNORECASE)
+
+_CPI_RE = re.compile(r"\b(?:cpi|inflation|consumer\s+price)\b", re.IGNORECASE)
+_PPI_RE = re.compile(r"\b(?:ppi|producer\s+price)\b", re.IGNORECASE)
+_JOBS_RE = re.compile(r"\b(?:nfp|nonfarm|payrolls?|jobs\s+report|employment\s+report)\b", re.IGNORECASE)
+_JOBLESS_RE = re.compile(r"\b(?:jobless\s+claims|initial\s+claims|unemployment\s+claims)\b", re.IGNORECASE)
+_GDP_RE = re.compile(r"\bgdp\b", re.IGNORECASE)
+_RETAIL_SALES_RE = re.compile(r"\bretail\s+sales\b", re.IGNORECASE)
+_HOUSING_RE = re.compile(r"\b(?:housing|mortgage|home\s+sales|new\s+home|existing\s+home)\b", re.IGNORECASE)
+
+_REGION_ASIA_RE = re.compile(
+    r"\b(?:japan|tokyo|south\s+korea|seoul|taiwan|taipei|singapore|hong\s+kong|"
+    r"vietnam|thailand|bangkok|philippines|indonesia|jakarta|malaysia|"
+    r"asia|asian|apac)\b", re.IGNORECASE)
+_REGION_CHINA_RE = re.compile(r"\b(?:china|chinese|beijing|shanghai|shenzhen)\b", re.IGNORECASE)
+_REGION_EUROPE_RE = re.compile(
+    r"\b(?:germany|berlin|france|paris|italy|rome|spain|madrid|uk|britain|london|"
+    r"eurozone|europe|european\s+union|brussels|netherlands|amsterdam|switzerland|"
+    r"poland|warsaw|sweden|stockholm)\b", re.IGNORECASE)
+_REGION_ME_RE = re.compile(
+    r"\b(?:saudi|uae|qatar|israel|iran|tehran|jordan|kuwait|bahrain|"
+    r"middle\s+east|gulf|opec|levant|lebanon|syria)\b", re.IGNORECASE)
+_REGION_AFRICA_RE = re.compile(
+    r"\b(?:africa|african|nigeria|south\s+africa|kenya|egypt|morocco|ethiopia)\b",
+    re.IGNORECASE)
+_REGION_AMERICAS_RE = re.compile(
+    r"\b(?:canada|canadian|toronto|mexico|brazil|argentina|chile|colombia|"
+    r"latin\s+america|latam)\b", re.IGNORECASE)
+
+
+def _pick_from(pool, seed):
+    """Deterministic pick from a pool list."""
+    h = sum(ord(c) for c in str(seed)) if seed else 0
+    return pool[h % len(pool)]
+
+
+def _pick_authentic_opener(fmt, item, seed=None):
+    """Topic-aware opener selection. Each format reads the item's
+    title+summary, detects topic/actor/region, and picks from the
+    matching sub-pool. Falls back to format-default → generic if no
+    topic match. Result is deterministic per item."""
+    title = item.get("title", "") or ""
+    summary = item.get("summary", "") or ""
+    blob = f"{title} {summary}"
+    seed = seed or item.get("link") or title
+
+    if fmt == "POLICY_READ":
+        # Title-first match (more specific) — actor names in title beat
+        # mentions in summary.
+        for re_, key in [
+            (_FED_NAMES_RE, "FED"),
+            (_ECB_NAMES_RE, "ECB"),
+            (_BOJ_NAMES_RE, "BOJ"),
+            (_BOE_NAMES_RE, "BOE"),
+            (_PBOC_NAMES_RE, "PBOC"),
+            (_TREASURY_NAMES_RE, "TREASURY"),
+        ]:
+            if re_.search(title) or re_.search(summary):
+                return _pick_from(_POLICY_OPENERS_BY_ACTOR[key], seed)
+        return _pick_from(_POLICY_OPENERS_BY_ACTOR["DEFAULT"], seed)
+
+    if fmt == "DATA_DROP":
+        for re_, key in [
+            (_CPI_RE, "CPI"),
+            (_PPI_RE, "PPI"),
+            (_JOBLESS_RE, "JOBLESS"),
+            (_JOBS_RE, "JOBS"),
+            (_GDP_RE, "GDP"),
+            (_RETAIL_SALES_RE, "RETAIL"),
+            (_HOUSING_RE, "HOUSING"),
+        ]:
+            if re_.search(blob):
+                return _pick_from(_DATA_OPENERS_BY_TOPIC[key], seed)
+        return _pick_from(_DATA_OPENERS_BY_TOPIC["DEFAULT"], seed)
+
+    if fmt == "GLOBAL_DESK":
+        for re_, key in [
+            (_REGION_CHINA_RE, "CHINA"),
+            (_REGION_ME_RE, "MIDDLE_EAST"),
+            (_REGION_AFRICA_RE, "AFRICA"),
+            (_REGION_AMERICAS_RE, "AMERICAS"),
+            (_REGION_ASIA_RE, "ASIA"),
+            (_REGION_EUROPE_RE, "EUROPE"),
+        ]:
+            if re_.search(blob):
+                return _pick_from(_GLOBAL_OPENERS_BY_REGION[key], seed)
+        return _pick_from(_GLOBAL_OPENERS_BY_REGION["DEFAULT"], seed)
+
+    if fmt == "CORRUPTION_WATCH":
+        is_justice = bool(_JUSTICE_RE.search(blob))
+        is_threat = bool(_THREAT_RE.search(blob))
+        if is_justice:
+            return _pick_from(_CORRUPTION_OPENERS_BY_SENTIMENT["JUSTICE"], seed)
+        if is_threat:
+            return _pick_from(_CORRUPTION_OPENERS_BY_SENTIMENT["THREAT"], seed)
+        return _pick_from(_CORRUPTION_OPENERS_BY_SENTIMENT["DEFAULT"], seed)
+
+    if fmt == "LOUD_HOWL":
+        return _pick_from(_LOUD_HOWL_OPENERS, seed)
+
+    # Unknown format — generic pool
+    return _pick_rss_opener(seed)
 
 
 _ENGAGEMENT_QUESTIONS = [
@@ -618,14 +948,16 @@ _HOWLSTREET_CTA = (
 )
 
 
-def _decorate_rss_body(sentences, seed):
-    """Wrap body sentences with a witty opener (prepended to first
-    sentence) and the howlstreet CTA at the end. Every RSS-fed format
-    runs through this so the queue reads consistently. The CTA replaces
-    the old engagement question — direct traffic to the site."""
+def _decorate_rss_body(sentences, fmt, item):
+    """Wrap body sentences with a topic-aware opener (prepended to first
+    sentence) and the howlstreet CTA at the end. The opener is selected
+    based on format + content (Fed vs ECB for POLICY_READ, CPI vs NFP
+    for DATA_DROP, region for GLOBAL_DESK, justice vs threat for
+    CORRUPTION_WATCH, etc.) so the lead actually fits the article."""
     if not sentences:
         return sentences
-    opener = _pick_rss_opener(seed)
+    seed = item.get("link") or item.get("title", "")
+    opener = _pick_authentic_opener(fmt, item, seed)
     sentences = list(sentences)
     sentences[0] = f"{opener} {sentences[0]}"
     sentences.append(_HOWLSTREET_CTA)
@@ -877,7 +1209,7 @@ def draft_policy_read(item):
                                             want_sentences=4)
     if not sentences:
         return None  # No body or summary content — skip rather than ship the title.
-    sentences = _decorate_rss_body(sentences, item.get("link") or title)
+    sentences = _decorate_rss_body(sentences, "POLICY_READ", item)
     body = "\n\n".join(sentences)
     return _make_draft(
         fmt="POLICY_READ",
@@ -1038,7 +1370,7 @@ def draft_corruption_watch_from_rss(item):
                                             want_sentences=4)
     if not sentences:
         return None
-    sentences = _decorate_rss_body(sentences, item.get("link") or title)
+    sentences = _decorate_rss_body(sentences, "CORRUPTION_WATCH", item)
     body = "\n\n".join(sentences)
     return _make_draft(
         fmt="CORRUPTION_WATCH",
@@ -1067,7 +1399,7 @@ def draft_global_desk(item):
                                             want_sentences=4)
     if not sentences:
         return None
-    sentences = _decorate_rss_body(sentences, item.get("link") or title)
+    sentences = _decorate_rss_body(sentences, "GLOBAL_DESK", item)
     body = "\n\n".join(sentences)
     return _make_draft(
         fmt="GLOBAL_DESK",
@@ -1095,7 +1427,7 @@ def draft_data_drop(item):
                                             want_sentences=4)
     if not sentences:
         return None
-    sentences = _decorate_rss_body(sentences, item.get("link") or title)
+    sentences = _decorate_rss_body(sentences, "DATA_DROP", item)
     body = "\n\n".join(sentences)
     return _make_draft(
         fmt="DATA_DROP",
@@ -1126,7 +1458,7 @@ def draft_loud_howl(top_item):
                                             want_sentences=4)
     if not sentences:
         return None
-    sentences = _decorate_rss_body(sentences, top_item.get("link") or title)
+    sentences = _decorate_rss_body(sentences, "LOUD_HOWL", top_item)
     body = "\n\n".join(sentences)
     return _make_draft(
         fmt="LOUD_HOWL",
