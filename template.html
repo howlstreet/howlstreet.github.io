@@ -554,7 +554,7 @@
       <img src="logo.png" class="brand-logo" alt="Howl Street wolf logo" />
       <div class="brand-text">
         <h1>HOWL <span>STREET</span></h1>
-        <div class="brand-tag">Your wolf on Wall Street and the globe</div>
+        <div class="brand-tag">your wolf on wall street and the globe</div>
       </div>
     </a>
     <form class="ticker-search" onsubmit="event.preventDefault();var t=(this.q.value||'').trim().toUpperCase();if(t){window.open('https://www.tradingview.com/symbols/'+encodeURIComponent(t)+'/','_blank','noopener');this.q.value='';this.q.blur();}return false;">
@@ -626,28 +626,16 @@
     </div>
   </section>
 
-  <!-- ── GLOBAL DESK DIVIDER ── -->
+  <!-- ── PREDATOR ROW: The Hunt + Insider Wire side-by-side ── -->
   <section class="row row-1">
     <div class="panel desk-divider">
       <div class="desk-divider-title">
-        ▸ <em>GLOBAL DESK</em> <small>FROM EVERY CORNER OF THE MARKET</small>
+        ▸ <em>PREDATOR DESK</em> <small>THE HUNT &amp; LIVE INSIDER WIRE</small>
       </div>
     </div>
   </section>
 
-  <!-- ── FROM THE PACK (full-width global wire) ── -->
-  <section class="row row-1">
-    <div class="panel">
-      <div class="panel-head">
-        <div class="panel-title">From the Pack</div>
-        <div class="panel-meta">{{TIMESTAMP_SHORT}}</div>
-      </div>
-      {{HEADLINES}}
-    </div>
-  </section>
-
-  <!-- ── CORRUPTION WATCH (the brand differentiator — howling at the rats) ── -->
-  <section class="row row-1">
+  <section class="row row-2">
     <div class="panel panel-corrupt">
       <div class="panel-head">
         <div class="panel-title" style="color: #b042ff;">▸ The Hunt</div>
@@ -655,9 +643,25 @@
       </div>
       {{CORRUPTION_WATCH}}
     </div>
+
+    <div class="panel panel-insider">
+      <div class="panel-head">
+        <div class="panel-title" style="color: #ff66c4;">▸ Insider Wire</div>
+        <div class="panel-meta">SEC FORM 4 · LIVE · {{TIMESTAMP_SHORT}}</div>
+      </div>
+      {{INSIDER_WIRE}}
+    </div>
   </section>
 
-  <!-- ── REGIONAL DRILL-DOWN ── -->
+  <!-- ── CONTINENTAL DESK: regional drill-down ── -->
+  <section class="row row-1">
+    <div class="panel desk-divider">
+      <div class="desk-divider-title">
+        ▸ <em>CONTINENTAL DESK</em> <small>THE WIRE, BY REGION</small>
+      </div>
+    </div>
+  </section>
+
   <section class="row row-3">
     <div class="panel">
       <div class="panel-head">

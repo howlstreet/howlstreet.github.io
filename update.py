@@ -1559,6 +1559,68 @@ def build_corruption_watch(items, exclude_link=None, total=8):
     return "\n".join(parts)
 
 
+def build_insider_wire(insider_posts, total=10):
+    """Render the live INSIDER WIRE panel — Form 4 trades (not articles).
+
+    Each row shows: ticker, BOUGHT/SOLD verb, $ value, trade date, cluster
+    size, and % move since the trade. This is the data feed counterpart
+    to The Hunt's article feed. Click-through hits openinsider's screener
+    page for the ticker."""
+    if not insider_posts:
+        return ('<div class="headline"><div class="headline-text" '
+                'style="color:var(--text-dim)">No insider trades flagged in the '
+                'last 14 days.</div></div>')
+
+    # Sort by trade_date desc, fall back to fired_at — most recent first
+    posts = sorted(
+        insider_posts,
+        key=lambda p: (p.get("trade_date", ""), p.get("fired_at", "")),
+        reverse=True,
+    )[:total]
+
+    parts = []
+    for p in posts:
+        ticker = p.get("ticker", "")
+        ttype = p.get("type", "")
+        verb = "BOUGHT" if ttype == "P" else "SOLD"
+        verb_color = "#00ff9d" if ttype == "P" else "#ff3b3b"
+        dollar = p.get("dollar_value", 0) or 0
+        if dollar >= 1_000_000_000:
+            dollar_str = f"${dollar/1_000_000_000:.1f}B"
+        elif dollar >= 1_000_000:
+            dollar_str = f"${dollar/1_000_000:.1f}M"
+        else:
+            dollar_str = f"${dollar:,.0f}"
+        trade_date = p.get("trade_date", "")
+        try:
+            d = datetime.strptime(trade_date, "%Y-%m-%d").strftime("%b %d")
+        except (ValueError, TypeError):
+            d = trade_date
+        n = p.get("num_insiders", 1) or 1
+        cluster = f"{n} insiders" if n > 1 else "1 insider"
+        pct = p.get("pct_since", 0) or 0
+        pct_sign = "+" if pct >= 0 else ""
+        pct_color = "#00ff9d" if pct >= 0 else "#ff3b3b"
+        company = p.get("company", "") or ""
+        link = p.get("link", "") or f"http://openinsider.com/screener?s={ticker}"
+
+        parts.append(
+            f'<a href="{html.escape(link)}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">'
+            f'<div class="headline">'
+            f'<div class="headline-meta">'
+            f'<span class="source-tag" style="color:{verb_color};">${html.escape(ticker)} · {verb}</span>'
+            f'<span style="color:{pct_color};">{pct_sign}{pct:.1f}%</span>'
+            f'</div>'
+            f'<div class="headline-text">{html.escape(company)}</div>'
+            f'<div class="headline-meta" style="margin-top:4px;">'
+            f'<span>{html.escape(dollar_str)} · {html.escape(cluster)}</span>'
+            f'<span>{html.escape(d)}</span>'
+            f'</div>'
+            f'</div></a>'
+        )
+    return "\n".join(parts)
+
+
 def build_regional_panels(items, exclude_link=None):
     """Per-continent wire panels for the regional desk.
     Returns dict: region_code → rendered HTML for that panel's body."""
@@ -2225,6 +2287,16 @@ def main():
     print("  Corruption Watch...")
     corruption_html = build_corruption_watch(all_items, exclude_link=hero_link)
 
+    # Pull insider trades up here (was: after site render) so the wire panel
+    # has live data on the homepage, not just in the X drafter pipeline.
+    print("  Insider Wire (Form 4 data)...")
+    try:
+        insider_posts = insider_trades.collect_insider_posts()
+    except Exception as e:
+        print(f"  ! insider trades pipeline failed: {e}", file=sys.stderr)
+        insider_posts = []
+    insider_wire_html = build_insider_wire(insider_posts)
+
     print("  Regional desk...")
     regional = build_regional_panels(all_items, exclude_link=hero_link)
 
@@ -2251,6 +2323,7 @@ def main():
         .replace("{{CRYPTO}}", "\n".join(crypto_rows))
         .replace("{{HEADLINES}}", headlines_html)
         .replace("{{CORRUPTION_WATCH}}", corruption_html)
+        .replace("{{INSIDER_WIRE}}", insider_wire_html)
         .replace("{{SECTORS}}", "\n".join(sector_rows))
         .replace("{{MEGACAPS}}", "\n".join(megacap_rows))
         .replace("{{REGIONAL_US}}", regional.get("US", ""))
@@ -2278,12 +2351,8 @@ def main():
         print(f"  ! signals pipeline failed: {e}", file=sys.stderr)
         signal_posts = []
 
-    # Corporate insider trades from openinsider (SEC Form 4 data).
-    try:
-        insider_posts = insider_trades.collect_insider_posts()
-    except Exception as e:
-        print(f"  ! insider trades pipeline failed: {e}", file=sys.stderr)
-        insider_posts = []
+    # insider_posts is collected up above (before site render) so the
+    # Insider Wire panel can use the same data the drafter consumes.
 
     # Editorial drafter — produces drafts.json + review.html for human
     # review. Replaces the old queue.html / feed.xml / cards.py pipeline.
