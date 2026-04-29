@@ -1806,11 +1806,15 @@ _CORRUPTION_RE = re.compile(
     r")\b",
     re.IGNORECASE,
 )
-# Sources whose entire mission is corruption / accountability journalism.
-# Items from these always classify as CORRUPTION even without keyword match.
+# Sources that produce rigorous financial-fraud investigative journalism.
+# Items from these get a softer keyword threshold, but every other
+# whitelisted source (Mother Jones / Wall St Parade / Naked Capital /
+# Intercept / Reveal) was previously letting partisan opinion pieces
+# pass as 'corruption'. Stripped down to outlets whose work actually
+# centers on fraud/financial-crime — ICIJ (Panama/Pandora/Paradise
+# Papers et al.) and ProPublica (corporate-accountability investigations).
 _CORRUPTION_SOURCES = {
-    "PROPUBLICA", "WALL ST PARADE", "NAKED CAPITAL", "INTERCEPT",
-    "MOTHER JONES", "REVEAL", "ICIJ",
+    "PROPUBLICA", "ICIJ",
 }
 
 _BREAKING_RE = re.compile(
@@ -2045,8 +2049,7 @@ def _is_earnings_title(title):
 
 _POLITICAL_VETO_RE = re.compile(
     r"\b(?:"
-    # Politically-loaded opinion phrasing — these are signals of partisan
-    # framing, not financial reporting.
+    # Politically-loaded opinion phrasing — partisan framing, not financial
     r"grotesque|grotesquely|disgrace|disgraceful|"
     r"giveaway\s+to|sweetheart\s+deal\s+to|"
     r"big\s+beautiful\s+bill|"
@@ -2054,11 +2057,26 @@ _POLITICAL_VETO_RE = re.compile(
     r"epstein\s+files|"
     r"national\s+security\s+law|"
     r"forest\s+service|park\s+service|national\s+park|"
-    r"trump'?s\s+(?:forest|park|education|environmental|fossil|climate|legacy|war\s+on)|"
-    r"biden'?s\s+(?:legacy|war\s+on|climate|environmental)|"
+    r"trump'?s\s+(?:forest|park|education|environmental|fossil|climate|legacy|war\s+on|plan|tariff|administration)|"
+    r"biden'?s\s+(?:legacy|war\s+on|climate|environmental|plan|administration)|"
+    # Politicians/officials by name — political stories about them are
+    # not the kind of financial corruption The Hunt is for.
+    r"hegseth|secretary\s+of\s+war|secretary\s+of\s+defense|defense\s+secretary|"
+    r"pentagon|military\s+leadership|joint\s+chiefs|"
+    r"congress(?:ional)?\s+(?:committee|testimony|hearing|panel|subcommittee)|"
+    r"house\s+armed\s+services|senate\s+armed\s+services|"
+    r"impeach(?:ment|ed)?|"
+    r"oval\s+office|white\s+house\s+(?:said|claims|announces|issues)|"
+    # Foreign-policy / war reporting (financial coverage of war can
+    # still pass via fraud / sanctions keywords, but the bare 'no Iran
+    # plan' / 'bombing campaign' framing belongs on a politics feed)
+    r"iran\s+(?:plan|war|deal|nuclear)|war\s+plan|peace\s+plan|"
+    r"bombing\s+(?:iran|campaign|raid)|gaza|ukraine\s+(?:war|aid)|"
     # Naked-capital / wall-st-parade rhetorical headline shapes
     r"revenge\s+is\s+a\s+dish|impeccably\s+timed|"
-    r"it'?s\s+time\s+to\s+(?:name|expose|reveal)"
+    r"it'?s\s+time\s+to\s+(?:name|expose|reveal)|"
+    # 'But give us X anyway' = political opinion shape
+    r"but\s+give\s+us|but\s+gives?\s+them"
     r")\b",
     re.IGNORECASE,
 )
