@@ -595,7 +595,7 @@ def draft_corruption_watch_from_insider(insider_post):
     sign = "+" if pct_since >= 0 else ""
 
     body = (
-        f"${ticker} insider {verb} ${dv:,.0f} on {trade_date}{cluster_note}.\n\n"
+        f"${ticker} insider {verb} ${dv:,.0f} on {trade_date}{cluster_note}. \U0001f440\n\n"
         f"{company}. {qty:,.0f} shares at ${price:,.2f}.\n\n"
         f"{sign}{pct_since:.1f}% since the {noun}."
     )

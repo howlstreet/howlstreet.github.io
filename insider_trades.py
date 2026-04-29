@@ -165,15 +165,21 @@ def _fetch_one_openinsider(category_url):
     return out
 
 
+RECENT_TRADE_WINDOW_DAYS = 14
+
+
 def fetch_insider_trades():
     """Pull cluster-buys + big-sales pages in parallel, dedupe by
-    (ticker, trade_date, type), return at most 12 highest-signal trades.
+    (ticker, trade_date, type), return at most 12 highest-signal trades
+    from the last RECENT_TRADE_WINDOW_DAYS.
 
-    Ranking: dollar_value desc, then num_insiders desc."""
+    Ranking inside the window: dollar_value desc, then num_insiders desc.
+    Trades older than the window are dropped — stale Form 4s aren't news."""
     out = []
     with ThreadPoolExecutor(max_workers=2) as ex:
         for chunk in ex.map(_fetch_one_openinsider, _OPENINSIDER_SOURCES):
             out.extend(chunk)
+    cutoff = (datetime.utcnow() - timedelta(days=RECENT_TRADE_WINDOW_DAYS)).date()
     seen = set()
     deduped = []
     for tr in out:
@@ -181,6 +187,12 @@ def fetch_insider_trades():
         if key in seen:
             continue
         seen.add(key)
+        try:
+            td = datetime.strptime(tr["trade_date"], "%Y-%m-%d").date()
+        except ValueError:
+            continue
+        if td < cutoff:
+            continue
         deduped.append(tr)
     deduped.sort(key=lambda t: (t["dollar_value"], t["num_insiders"]), reverse=True)
     return deduped[:12]
