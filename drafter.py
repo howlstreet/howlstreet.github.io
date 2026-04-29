@@ -174,16 +174,47 @@ def _trim_ws(s):
     return re.sub(r"\s+", " ", s or "").strip()
 
 
+_FS_ABBREV_RE = re.compile(
+    r"\b(Mr|Mrs|Ms|Dr|Inc|Co|Corp|Ltd|Jr|Sr|St|U\.S|U\.K|E\.U|"
+    r"vs|i\.e|e\.g|etc|approx|incl|excl|et\s+al|"
+    r"a\.m|p\.m|Q[1-4])\.\s",
+    re.IGNORECASE,
+)
+
+
 def _first_sentence(text, max_chars=240):
-    """Return the first complete sentence, capped at max_chars."""
+    """Return the first complete sentence, capped at max_chars.
+    Avoids splitting at abbreviations ('vs.', 'i.e.', 'Q1.') and
+    inside parentheses ('March (vs. $83.5B in Feb)' stays together)."""
     if not text:
         return ""
     text = _trim_ws(text)
-    m = re.match(r"^(.{20,}?[.!?])(?:\s|$)", text)
+    # Mask abbreviations so their periods don't trigger a sentence break.
+    masked = _FS_ABBREV_RE.sub(lambda m: m.group(0).replace(".", "<DOT>"), text)
+    # Mask periods inside parenthetical chunks too.
+    def _mask_parens(s):
+        out = []
+        depth = 0
+        for ch in s:
+            if ch == "(":
+                depth += 1
+                out.append(ch)
+            elif ch == ")":
+                if depth > 0:
+                    depth -= 1
+                out.append(ch)
+            elif ch == "." and depth > 0:
+                out.append("<DOT>")
+            else:
+                out.append(ch)
+        return "".join(out)
+    masked = _mask_parens(masked)
+    m = re.match(r"^(.{20,}?[.!?])(?:\s|$)", masked)
     if m:
-        s = m.group(1)
+        s = m.group(1).replace("<DOT>", ".")
         return s if len(s) <= max_chars else s[:max_chars].rsplit(" ", 1)[0] + "."
-    return text[:max_chars].rsplit(" ", 1)[0] + "." if len(text) > max_chars else text
+    out = text[:max_chars].rsplit(" ", 1)[0]
+    return (out + ".") if len(text) > max_chars else text
 
 
 _BODY_BOILERPLATE = (
@@ -283,10 +314,26 @@ def _fetch_article_body(url, timeout=15):
 
 def _split_sentences(paragraph):
     """Split a paragraph into sentences. Handles common abbreviations
-    (Mr., Mrs., Inc., Co., U.S., etc.) so we don't cut at every period."""
-    # Protect common abbreviations
-    p = re.sub(r"\b(Mr|Mrs|Ms|Dr|Inc|Co|Corp|Ltd|Jr|Sr|St|U\.S|U\.K|E\.U)\.\s",
-               r"\1<DOT> ", paragraph)
+    (Mr., Mrs., Inc., Co., U.S., vs., i.e., etc.) and never splits
+    inside parens — '(vs. $83.5B)' stays as one chunk."""
+    # Protect abbreviations
+    p = _FS_ABBREV_RE.sub(lambda m: m.group(0).replace(".", "<DOT>"), paragraph)
+    # Protect periods inside parens
+    out = []
+    depth = 0
+    for ch in p:
+        if ch == "(":
+            depth += 1
+            out.append(ch)
+        elif ch == ")":
+            if depth > 0:
+                depth -= 1
+            out.append(ch)
+        elif ch == "." and depth > 0:
+            out.append("<DOT>")
+        else:
+            out.append(ch)
+    p = "".join(out)
     parts = re.split(r"(?<=[.!?])\s+(?=[A-Z0-9\"'“])", p)
     return [s.replace("<DOT>", ".").strip() for s in parts if s.strip()]
 
@@ -594,6 +641,13 @@ _DATA_OPENERS_BY_TOPIC = {
         "Affordability scoreboard:",
         "Mortgage-rate corner:",
     ],
+    "TRADE": [
+        "TRADE-BALANCE READ:",
+        "From the trade desk:",
+        "Imports vs. exports scoreboard:",
+        "Goods-flow update:",
+        "Trade-deficit corner:",
+    ],
     "DEFAULT": [
         "DATA DROP:",
         "Numbers just hit:",
@@ -712,6 +766,7 @@ _JOBLESS_RE = re.compile(r"\b(?:jobless\s+claims|initial\s+claims|unemployment\s
 _GDP_RE = re.compile(r"\bgdp\b", re.IGNORECASE)
 _RETAIL_SALES_RE = re.compile(r"\bretail\s+sales\b", re.IGNORECASE)
 _HOUSING_RE = re.compile(r"\b(?:housing|mortgage|home\s+sales|new\s+home|existing\s+home)\b", re.IGNORECASE)
+_TRADE_RE = re.compile(r"\b(?:trade\s+(?:balance|deficit|surplus|gap)|imports?|exports?|tariffs?)\b", re.IGNORECASE)
 
 _REGION_ASIA_RE = re.compile(
     r"\b(?:japan|tokyo|south\s+korea|seoul|taiwan|taipei|singapore|hong\s+kong|"
@@ -765,16 +820,25 @@ def _pick_authentic_opener(fmt, item, seed=None):
         return _pick_from(_POLICY_OPENERS_BY_ACTOR["DEFAULT"], seed)
 
     if fmt == "DATA_DROP":
-        for re_, key in [
+        topics = [
             (_CPI_RE, "CPI"),
             (_PPI_RE, "PPI"),
             (_JOBLESS_RE, "JOBLESS"),
             (_JOBS_RE, "JOBS"),
-            (_GDP_RE, "GDP"),
+            (_TRADE_RE, "TRADE"),
             (_RETAIL_SALES_RE, "RETAIL"),
             (_HOUSING_RE, "HOUSING"),
-        ]:
-            if re_.search(blob):
+            (_GDP_RE, "GDP"),
+        ]
+        # Title-only first — most specific. A passing 'GDP' mention in
+        # the summary of a trade-balance article shouldn't beat the
+        # actual topic from the title.
+        for re_, key in topics:
+            if re_.search(title):
+                return _pick_from(_DATA_OPENERS_BY_TOPIC[key], seed)
+        # Fallback to summary
+        for re_, key in topics:
+            if re_.search(summary):
                 return _pick_from(_DATA_OPENERS_BY_TOPIC[key], seed)
         return _pick_from(_DATA_OPENERS_BY_TOPIC["DEFAULT"], seed)
 
