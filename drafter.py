@@ -1421,16 +1421,13 @@ def draft_corruption_watch_from_insider(insider_post):
     cluster_note = f", {num_insiders} insiders" if num_insiders > 1 else ""
     sign = "+" if pct_since >= 0 else ""
 
-    seed = f"{ticker}_{trade_date}_{ttype}"
-    opener = _pick_insider_opener(seed)
-    kicker = _build_insider_kicker(ttype, num_insiders, dv, pct_since)
-
-    # CTA is appended by _make_draft so it lands AFTER the source URL.
+    # Insider drafts are facts-only per user — no opener, no kicker.
+    # The data is the story: who bought how much, when, and how the
+    # stock moved since.
     body = (
-        f"{opener} ${ticker} insider {verb} ${dv:,.0f} on {trade_date}{cluster_note}. \U0001f440\n\n"
+        f"${ticker} insider {verb} ${dv:,.0f} on {trade_date}{cluster_note}. \U0001f440\n\n"
         f"{company}. {qty:,.0f} shares at ${price:,.2f}.\n\n"
-        f"{sign}{pct_since:.1f}% since the {noun}.\n\n"
-        f"{kicker}"
+        f"{sign}{pct_since:.1f}% since the {noun}."
     )
     return _make_draft(
         fmt="CORRUPTION_WATCH_INSIDER",
