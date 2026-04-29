@@ -1643,6 +1643,109 @@ def draft_pack_take(seed):
     )
 
 
+MANUAL_NEWS_PATH = REPO_ROOT / "manual_news.md"
+
+
+def _parse_manual_news_entries(raw):
+    """Parse manual_news.md into entry dicts.
+
+    Format per entry (separated by '---ENTRY---' on its own line):
+
+        ---ENTRY---
+        title: Headline of the story
+        source_url: https://...   (optional)
+        source: SOURCE NAME       (optional, defaults to 'Howl Street')
+        format: LOUD_HOWL         (optional, defaults to LOUD_HOWL)
+
+        Body paragraph one.
+
+        Body paragraph two.
+
+    Returns a list of entry dicts ready for draft_manual_news()."""
+    entries = []
+    chunks = re.split(r"^\s*---ENTRY---\s*$", raw, flags=re.MULTILINE)
+    for chunk in chunks:
+        chunk = chunk.strip()
+        if not chunk:
+            continue
+        lines = chunk.split("\n")
+        meta = {}
+        body_start = 0
+        for i, line in enumerate(lines):
+            stripped = line.strip()
+            if not stripped:
+                body_start = i + 1
+                break
+            if ":" not in stripped:
+                body_start = i
+                break
+            key, _, val = stripped.partition(":")
+            key = key.strip().lower()
+            val = val.strip()
+            if key in ("title", "source_url", "source", "format"):
+                meta[key] = val
+            else:
+                body_start = i
+                break
+        body = "\n".join(lines[body_start:]).strip()
+        if not body:
+            continue
+        entries.append({
+            "title": meta.get("title", ""),
+            "source_url": meta.get("source_url", ""),
+            "source": meta.get("source", "Howl Street"),
+            "format": meta.get("format", "LOUD_HOWL"),
+            "body": body,
+        })
+    return entries
+
+
+def draft_manual_news():
+    """Manual viral-news injection. Reads manual_news.md if present,
+    parses each entry, returns a list of drafts. Built so the user can
+    catch news that breaks on X (Kobeissi, Watcher Guru, etc.) before
+    it hits the RSS feeds we scrape — drop the headline + body in the
+    file and it surfaces in the queue on the next cron tick."""
+    if not MANUAL_NEWS_PATH.exists():
+        return []
+    try:
+        raw = MANUAL_NEWS_PATH.read_text(encoding="utf-8").strip()
+    except Exception:
+        return []
+    if not raw:
+        return []
+    entries = _parse_manual_news_entries(raw)
+    drafts = []
+    for entry in entries:
+        # Build a fake item the existing RSS-fed pipeline can decorate
+        item = {
+            "title": entry["title"],
+            "summary": entry["body"][:400],
+            "link": entry["source_url"],
+            "source": entry["source"],
+            "_body_paras": [entry["body"]],
+        }
+        sentences = _compose_body_from_article(
+            entry["title"], entry["body"], [entry["body"]],
+            want_sentences=8,
+        )
+        if not sentences:
+            sentences = [entry["body"]]
+        sentences = _decorate_rss_body(sentences, entry["format"], item)
+        body = "\n\n".join(sentences)
+        d = _make_draft(
+            fmt=entry["format"],
+            body=body,
+            primary_source=entry["source"],
+            source_url=entry["source_url"],
+            source_title=entry["title"],
+            source_summary=entry["body"][:400],
+            data={"manual": True, "via": "manual_news.md"},
+        )
+        drafts.append(d)
+    return drafts
+
+
 def draft_the_take():
     """F) THE TAKE — manual only. Reads the_take.md if present.
     Format: first non-empty line is the lede, rest is the body."""
@@ -1781,6 +1884,12 @@ def collect_drafts(items, signal_posts=None, insider_posts=None,
     take = draft_the_take()
     if take and not _is_already_posted(take["content_hash"], take.get("source_url"), posted):
         drafts.append(take)
+
+    # F-2) MANUAL NEWS — catch viral X-only news the cron missed.
+    manual = draft_manual_news()
+    for m in manual:
+        if not _is_already_posted(m["content_hash"], m.get("source_url"), posted):
+            drafts.append(m)
 
     # G) PACK TAKE — 2 evergreen one-liners per run, deterministic by
     # the day so the same takes don't churn every 30 minutes. Different
