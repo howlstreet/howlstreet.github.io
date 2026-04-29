@@ -20,19 +20,8 @@
 #
 # When you're done with an entry, delete it (or move to a "posted"
 # section below the active entries) so the cron stops re-drafting.
-
----ENTRY---
-title: SpaceX board approves Elon Musk's record compensation package ahead of IPO
-source_url: https://twitter.com/KobeissiLetter
-source: KOBEISSI LETTER
-format: LOUD_HOWL
-
-SpaceX's board has approved a new compensation package for Elon Musk ahead of its record-setting IPO.
-
-The package includes 200 million super-voting shares if SpaceX hits a $7.5 trillion valuation and establishes a permanent Mars colony with at least 1 million people.
-
-Additional 60.4 million shares are awarded if SpaceX reaches certain valuation goals and operates data centers in space delivering 100 terawatts of compute.
-
-Elon Musk will not receive a single share if the company fails to reach the board's valuation targets.
-
-Musk has received a salary from SpaceX of $54,080 per year since 2019.
+#
+# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly
+# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,
+# so most viral-finance news should surface automatically. Use this
+# file only for stories that those feeds miss.

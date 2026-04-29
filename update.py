@@ -341,6 +341,15 @@ RSS_FEEDS = [
     ("EPOCH TIMES",    "https://www.theepochtimes.com/c-business/feed"),
     ("FREE PRESS",     "https://www.thefp.com/feed"),
 
+    # Viral-finance / breaking-news newsletters and aggregators that
+    # tend to break stories on X first. RSS via their substack/site
+    # feeds catches the same content the cron was missing.
+    ("KOBEISSI",       "https://thekobeissiletter.substack.com/feed"),
+    ("WATCHER GURU",   "https://watcher.guru/news/feed"),
+    ("TLDR FINANCE",   "https://tldr.tech/api/rss/finance"),
+    ("THE TRANSCRIPT", "https://thetranscript.substack.com/feed"),
+    ("BESPOKE",        "https://www.bespokepremium.com/feed/"),
+
     # Specialized — gold / energy / FX matter for macro themes
     ("KITCO",          "https://www.kitco.com/rss/KitcoNews.xml"),
     ("OILPRICE",       "https://oilprice.com/rss/main"),
@@ -457,6 +466,7 @@ SOURCE_WEIGHT = {
     "FOREIGN POLICY":4, "PROJECT SYND":3,
     # US right-leaning / contrarian
     "FOX BUSINESS": 3, "NY POST":      2, "ZEROHEDGE":    2, "EPOCH TIMES":  2, "FREE PRESS":   3,
+    "KOBEISSI":     5, "WATCHER GURU": 4, "TLDR FINANCE": 3, "THE TRANSCRIPT":4, "BESPOKE":     3,
     # Specialized commodity / energy
     "KITCO":        3, "OILPRICE":     3,
     # US center / left

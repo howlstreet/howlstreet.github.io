@@ -1068,15 +1068,30 @@ def _compose_body_from_article(title, summary, body_paras, want_sentences=8):
             if len(out) >= want_sentences:
                 break
 
-    # 2. Fall back to the RSS summary when we couldn't fetch the body —
-    # but only if the summary actually differs from the title. Many
-    # press releases (Fed approvals, etc.) ship a summary that's just
-    # the title repeated; that adds nothing the link card doesn't show.
-    if not out and summary:
-        title_norm = re.sub(r"\W+", "", title.lower())[:80]
-        summary_norm = re.sub(r"\W+", "", summary.lower())[:80]
-        if title_norm and summary_norm and not summary_norm.startswith(title_norm):
-            _take(_first_sentence(summary, max_chars=300))
+    # 2. Top up with the RSS summary if we still don't have enough.
+    # Many sources are paywalled or JS-only so the body fetch returns
+    # 0-1 substantive sentences; the RSS summary almost always has more
+    # context that we can use. Skip if the summary is just a title
+    # repeat (Fed press releases ship those).
+    title_norm = re.sub(r"\W+", "", title.lower())[:80]
+    summary_norm = re.sub(r"\W+", "", (summary or "").lower())[:80]
+    summary_is_title_repeat = (title_norm and summary_norm
+                               and summary_norm.startswith(title_norm))
+    if summary and not summary_is_title_repeat and len(out) < 3:
+        # Split summary into sentences too — it often contains 2-4
+        # decent ones in feeds like Reuters, BI, FT excerpts.
+        for s in _split_sentences(summary):
+            if s.endswith((".", "!", "?")) and len(s) >= 40:
+                if _take(s):
+                    if len(out) >= want_sentences:
+                        break
+        # Final fallback: take the whole summary as one chunk (no
+        # split required) up to 400 chars. Better one long block than
+        # a one-sentence draft.
+        if len(out) < 2:
+            cleaned = re.sub(r"\s+", " ", summary).strip()[:400]
+            if cleaned:
+                _take(cleaned)
 
     # No title fallback — X's link card already shows the headline.
     # If we couldn't get a body or summary, skip the draft entirely
