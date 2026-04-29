@@ -416,6 +416,107 @@ def _save_drafts(drafts):
 # Pure functions: no global state mutation, no I/O.
 # ────────────────────────────────────────────────────────────────────
 
+_RSS_OPENERS = [
+    # Label-style — leans into the bit
+    "FOR THE WOLF PACK NERDS:",
+    "PACK BRIEFING:",
+    "FIELD REPORT:",
+    "PACK MEMO:",
+    "HOT OFF THE WIRE:",
+    "FOR THE READERS:",
+    "FILED UNDER 'PAY ATTENTION':",
+    "TRADING DESK READ:",
+    "WOLVES ONLY:",
+    "TONIGHT'S PACK BRIEFING:",
+    # Conversational with colon
+    "Hey wolves, read this:",
+    "Worth your two minutes:",
+    "The boring stuff that actually matters:",
+    "Quietly, this matters:",
+    "Listen up, pack:",
+    "Real talk for the pack:",
+    "From the trenches:",
+    "The pack should know this:",
+    "Skip CNBC, read this:",
+    "Two minutes that beat your scroll:",
+    "Smart take incoming:",
+    "Pour a coffee and read this:",
+    "Long read worth your time:",
+    "Save this one:",
+    "Bookmark this:",
+    "Heads-up wolves:",
+    "If you read one thing tonight:",
+    "Sharp take ahead:",
+    "A couple things worth knowing:",
+    "For the curious wolves:",
+    "Wolves who read win:",
+    "Cliff notes for the pack:",
+    "Brief on the desk:",
+    "The kind of read that pays:",
+]
+
+
+def _pick_rss_opener(seed):
+    """Deterministic opener for RSS-fed drafts. Same article always gets
+    the same opener on refresh."""
+    h = sum(ord(c) for c in str(seed)) if seed else 0
+    return _RSS_OPENERS[h % len(_RSS_OPENERS)]
+
+
+_ENGAGEMENT_QUESTIONS = [
+    "What do you think?",
+    "Where does this go from here?",
+    "Bullish or bearish?",
+    "What's your read?",
+    "How does this play out?",
+    "Calm before the storm, or just noise?",
+    "When does the other shoe drop?",
+    "Whose desk does this hit first?",
+    "Real consequence, or headline noise?",
+    "Buying opportunity, or just the start?",
+    "Smart money's call?",
+    "Does this hold?",
+    "Anyone else watching this?",
+    "Who pays the price?",
+    "How are you positioned for it?",
+    "Is this priced in already?",
+    "Tell me what I'm missing.",
+    "Worth the rotation?",
+    "Why is no one talking about this?",
+    "Genuine signal, or noise?",
+    "What gets hit next?",
+    "Where's your conviction sit?",
+    "Sustained, or short squeeze?",
+    "Risk-on or risk-off after this?",
+    "Which sector eats this first?",
+    "Does the Fed flinch?",
+    "Pack — sound off, what's the play?",
+    "Are you fading this or riding it?",
+    "Wolves see this. Do you?",
+    "Bigger story, or one-day blip?",
+]
+
+
+def _pick_engagement_question(seed):
+    """Deterministic question selection — same draft always closes with
+    the same prompt on refresh. Seed off the source URL or title."""
+    h = sum(ord(c) for c in str(seed)) if seed else 0
+    return _ENGAGEMENT_QUESTIONS[h % len(_ENGAGEMENT_QUESTIONS)]
+
+
+def _decorate_rss_body(sentences, seed):
+    """Wrap body sentences with a witty opener (prepended to first
+    sentence) and an engagement question (final paragraph). Every RSS-
+    fed format runs through this so the queue reads consistently."""
+    if not sentences:
+        return sentences
+    opener = _pick_rss_opener(seed)
+    sentences = list(sentences)
+    sentences[0] = f"{opener} {sentences[0]}"
+    sentences.append(_pick_engagement_question(seed))
+    return sentences
+
+
 def _compose_body_from_article(title, summary, body_paras, want_sentences=4):
     """Build the multi-sentence draft body from title + RSS summary +
     fetched article body. Drops [FILL] placeholders — we either have
@@ -555,6 +656,14 @@ _MARKET_KICKERS = {
     "move_down": "Sharpest drop on this tape in a while. Stay nimble.",
 }
 
+# Direction-aware engagement question per signal kind. Pop + wonder.
+_MARKET_QUESTIONS = {
+    "high": "Last time we saw this level, what came next?",
+    "low": "Where does the floor sit from here?",
+    "move_up": "Sustained run, or short squeeze unwinding?",
+    "move_down": "Buying opportunity, or just the start?",
+}
+
 
 def _pick_market_opener(seed):
     """Deterministic opener selection so the same signal always gets the
@@ -599,6 +708,9 @@ def draft_market_move(signal_post):
     kicker = _MARKET_KICKERS.get(kind)
     if kicker:
         parts.append(kicker)
+    question = _MARKET_QUESTIONS.get(kind)
+    if question:
+        parts.append(question)
     body = "\n\n".join(p for p in parts if p)
     return _make_draft(
         fmt="MARKET_MOVE",
@@ -650,6 +762,7 @@ def draft_policy_read(item):
                                             want_sentences=4)
     if not sentences:
         return None  # No body or summary content — skip rather than ship the title.
+    sentences = _decorate_rss_body(sentences, item.get("link") or title)
     body = "\n\n".join(sentences)
     return _make_draft(
         fmt="POLICY_READ",
@@ -769,14 +882,17 @@ def draft_corruption_watch_from_insider(insider_post):
     cluster_note = f", {num_insiders} insiders" if num_insiders > 1 else ""
     sign = "+" if pct_since >= 0 else ""
 
-    opener = _pick_insider_opener(f"{ticker}_{trade_date}_{ttype}")
+    seed = f"{ticker}_{trade_date}_{ttype}"
+    opener = _pick_insider_opener(seed)
     kicker = _build_insider_kicker(ttype, num_insiders, dv, pct_since)
+    question = _pick_engagement_question(seed)
 
     body = (
         f"{opener} ${ticker} insider {verb} ${dv:,.0f} on {trade_date}{cluster_note}. \U0001f440\n\n"
         f"{company}. {qty:,.0f} shares at ${price:,.2f}.\n\n"
         f"{sign}{pct_since:.1f}% since the {noun}.\n\n"
-        f"{kicker}"
+        f"{kicker}\n\n"
+        f"{question}"
     )
     return _make_draft(
         fmt="CORRUPTION_WATCH_INSIDER",
@@ -808,6 +924,7 @@ def draft_corruption_watch_from_rss(item):
                                             want_sentences=4)
     if not sentences:
         return None
+    sentences = _decorate_rss_body(sentences, item.get("link") or title)
     body = "\n\n".join(sentences)
     return _make_draft(
         fmt="CORRUPTION_WATCH",
@@ -836,6 +953,7 @@ def draft_global_desk(item):
                                             want_sentences=4)
     if not sentences:
         return None
+    sentences = _decorate_rss_body(sentences, item.get("link") or title)
     body = "\n\n".join(sentences)
     return _make_draft(
         fmt="GLOBAL_DESK",
@@ -863,6 +981,7 @@ def draft_data_drop(item):
                                             want_sentences=4)
     if not sentences:
         return None
+    sentences = _decorate_rss_body(sentences, item.get("link") or title)
     body = "\n\n".join(sentences)
     return _make_draft(
         fmt="DATA_DROP",
@@ -893,6 +1012,7 @@ def draft_loud_howl(top_item):
                                             want_sentences=4)
     if not sentences:
         return None
+    sentences = _decorate_rss_body(sentences, top_item.get("link") or title)
     body = "\n\n".join(sentences)
     return _make_draft(
         fmt="LOUD_HOWL",
