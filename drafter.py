@@ -312,6 +312,46 @@ def _fetch_article_body(url, timeout=15):
     return out
 
 
+_ATTR_SPLIT_RE = re.compile(
+    r"(?<=[.!?])\s+(?=[A-Z])"
+    # OR before "Name: ..." attribution markers (Powell: / Trump: / Bessent:).
+    # Requires the previous char to be end-of-word (lowercase letter or
+    # closing punctuation) so we don't split inside 'GOOG, MSFT, META:'.
+    r"|(?<=[a-z.!?\)])\s+(?=(?:Powell|Trump|Bessent|Yellen|Lagarde|Bailey"
+    r"|Ueda|Biden|Daly|Bostic|Goolsbee|Williams|Bowman|Cook|Waller"
+    r"|Jefferson|Schmid|Logan|Hammack|Kashkari|Barr|Musalem|Harker"
+    r"|Mester|Kugler|Barkin|Collins|FOMC|ECB|BOJ|BOE|PBOC):\s)"
+)
+
+
+def _split_summary_aggressive(text):
+    """Break a run-on aggregator summary into multiple paragraphs.
+
+    Strategy: try the standard sentence split first. If that yields
+    only one chunk, fall back to splitting at attribution markers
+    (Powell:/Trump:/etc.), ticker-prefix bullets ('GOOG, MSFT, META:'),
+    and category prefixes ('CPI:', 'GDP:'). Always returns at least
+    one chunk."""
+    text = _trim_ws(text)
+    if not text:
+        return []
+    sentence_splits = _split_sentences(text)
+    if len(sentence_splits) >= 2:
+        return [s for s in sentence_splits if s.strip()]
+    # Fall back to aggressive split on attribution markers
+    parts = _ATTR_SPLIT_RE.split(text)
+    cleaned = []
+    for p in parts:
+        p = p.strip()
+        if not p:
+            continue
+        # Add a period if the chunk doesn't already terminate
+        if not p.endswith((".", "!", "?")):
+            p = p.rstrip(".:") + "."
+        cleaned.append(p)
+    return cleaned if cleaned else [text]
+
+
 def _split_sentences(paragraph):
     """Split a paragraph into sentences. Handles common abbreviations
     (Mr., Mrs., Inc., Co., U.S., vs., i.e., etc.) and never splits
@@ -868,7 +908,10 @@ def _pick_authentic_opener(fmt, item, seed=None):
             return _pick_from(_CORRUPTION_OPENERS_BY_SENTIMENT["JUSTICE"], seed)
         if is_threat:
             return _pick_from(_CORRUPTION_OPENERS_BY_SENTIMENT["THREAT"], seed)
-        return _pick_from(_CORRUPTION_OPENERS_BY_SENTIMENT["DEFAULT"], seed)
+        # No clear sentiment — return None so the body leads naked.
+        # The user explicitly asked us not to slap 'CORRUPTION DESK:' on
+        # ambiguous corruption stories where the framing might not fit.
+        return None
 
     if fmt == "LOUD_HOWL":
         return _pick_from(_LOUD_HOWL_OPENERS, seed)
@@ -1020,16 +1063,17 @@ _HOWLSTREET_CTA = (
 
 def _decorate_rss_body(sentences, fmt, item):
     """Wrap body sentences with a topic-aware opener (prepended to first
-    sentence). _make_draft handles the trailer (article URL + CTA) so
-    the article URL lands before the CTA URL — X renders the FIRST URL
-    as the link card, so this ordering ensures the article's og:image
-    shows up, not howlstreet.github.io's."""
+    sentence). _make_draft handles the trailer (article URL). When the
+    opener picker returns None (e.g. CORRUPTION_WATCH with no clear
+    sentiment), the body leads naked — no forced 'CORRUPTION DESK:'
+    prefix that doesn't fit the article."""
     if not sentences:
         return sentences
     seed = item.get("link") or item.get("title", "")
     opener = _pick_authentic_opener(fmt, item, seed)
     sentences = list(sentences)
-    sentences[0] = f"{opener} {sentences[0]}"
+    if opener:
+        sentences[0] = f"{opener} {sentences[0]}"
     return sentences
 
 
@@ -1078,17 +1122,21 @@ def _compose_body_from_article(title, summary, body_paras, want_sentences=8):
     summary_is_title_repeat = (title_norm and summary_norm
                                and summary_norm.startswith(title_norm))
     if summary and not summary_is_title_repeat and len(out) < 3:
-        # Split summary into sentences too — it often contains 2-4
-        # decent ones in feeds like Reuters, BI, FT excerpts.
-        for s in _split_sentences(summary):
-            if s.endswith((".", "!", "?")) and len(s) >= 40:
-                if _take(s):
+        # Aggressive paragraph extraction from summary. ForexLive,
+        # MarketWatch, and similar aggregators ship bullet-style summaries
+        # without proper sentence punctuation — 'Trump: It is a good
+        # time to cut rates Powell says he will remain...'. Split at
+        # attribution markers and ticker-prefix bullets so we get
+        # multiple paragraphs out of one block.
+        chunks = _split_summary_aggressive(summary)
+        for c in chunks:
+            if len(c) >= 40:
+                if _take(c):
                     if len(out) >= want_sentences:
                         break
-        # Final fallback: take the whole summary as one chunk (no
-        # split required) up to 400 chars. Better one long block than
-        # a one-sentence draft.
-        if len(out) < 2:
+        # Final fallback: take the whole summary as one chunk if
+        # aggressive split yielded nothing usable.
+        if not out:
             cleaned = re.sub(r"\s+", " ", summary).strip()[:400]
             if cleaned:
                 _take(cleaned)
