@@ -1,16 +1,16 @@
 {
-  "^VIX:move:2026-04-30": {
-    "headline": "VIX drops 5.8% in 5 sessions to 17.78",
-    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "source": "CBOE \u00b7 ^VIX",
+  "^GSPC:high:2026-04-30": {
+    "headline": "S&P 500 just hit 7,190.45 \u2014 highest in 9+ years",
+    "matters": "The benchmark of U.S. equities. Watched globally as the proxy for risk-on / risk-off.",
+    "source": "Yahoo Finance \u00b7 ^GSPC",
     "chart_path": null,
-    "signal_id": "^VIX:move:2026-04-30",
-    "current_str": "17.78",
-    "label": "VIX (S&P 500 volatility)",
-    "hashtags": "#VIX #Volatility #Markets",
-    "kind": "move_down",
-    "badge": "-5.8%",
-    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "fired_at": "2026-04-30T13:10:33.759784"
+    "signal_id": "^GSPC:high:2026-04-30",
+    "current_str": "7,190.45",
+    "label": "S&P 500",
+    "hashtags": "#SPX #SP500 #Stocks #Markets",
+    "kind": "high",
+    "badge": "9Y HIGH",
+    "data_url": "https://finance.yahoo.com/quote/%5EGSPC",
+    "fired_at": "2026-04-30T17:53:42.321007"
   }
 }

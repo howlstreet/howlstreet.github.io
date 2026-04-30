@@ -1,93 +1,76 @@
 [
   {
-    "id": "6d280c53",
+    "id": "1f0d7a12",
+    "format": "LOUD_HOWL",
+    "status": "pending",
+    "draft_text": "If you read one thing today: The global oil price hit $126 a barrel on Thursday, its highest level since 2022, after Donald Trump said the US blockade of Iranian ports could last for months and peace talks remained stalled.\n\nNot since Russia\u2019s 2022 invasion of Ukraine has Brent topped $120, with the price then peaking at $139.\n\nOil later fell back from its four-year high, to about $114 a barrel on Thursday afternoon.\n\nAfter surging more than 13% in 24 hours, the price of Brent crude futures reached its highest price since the war began on 28 February.\n\nOil markets have been spooked this week as Trump appeared willing to maintain the US navy\u2019s blockade of Iranian ports, with Iran responding by keeping the strait of Hormuz all but shut to other oil tankers.\n\nhttps://www.theguardian.com/world/2026/apr/30/oil-price-news-highest-since-2022-us-iran-ceasefire-strait-of-hormuz",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "GUARDIAN",
+    "source_url": "https://www.theguardian.com/world/2026/apr/30/oil-price-news-highest-since-2022-us-iran-ceasefire-strait-of-hormuz",
+    "source_title": "Oil price tops $126 a barrel after Trump warns Iran blockade could last \u2018months\u2019",
+    "source_summary": "Markets spooked as US president appears willing to keep up naval blockade and Iran keeps strait of Hormuz all but shut Business live \u2013 latest updates The global oil price hit $126 a barrel on Thursday, its highest level since 2022, after Donald Trump said the US blockade of Iranian ports could last for months and peace talks remained stalled. After surging more than 13% in 24 hours, the price of B",
+    "drafted_at": "2026-04-30T17:53:44.903486",
+    "data": {
+      "source": "GUARDIAN"
+    },
+    "content_hash": "6779e273a3d299df"
+  },
+  {
+    "id": "f3f21aa6",
     "format": "MARKET_MOVE",
     "status": "pending",
-    "draft_text": "Pack alert. VIX drops 5.8% in 5 sessions to 17.78.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
+    "draft_text": "If your alerts didn't go off, mine did. S&P 500 just hit 7,190.45 \u2014 highest in 9+ years.\n\nThe benchmark of U.S. equities.\n\nWatched globally as the proxy for risk-on / risk-off.\n\nMulti-year high. The pack remembers what comes after these.\n\nhttps://finance.yahoo.com/quote/%5EGSPC",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CBOE \u00b7 ^VIX",
-    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "source_title": "VIX (S&P 500 volatility)",
-    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-04-30T13:10:36.600817",
+    "primary_source": "Yahoo Finance \u00b7 ^GSPC",
+    "source_url": "https://finance.yahoo.com/quote/%5EGSPC",
+    "source_title": "S&P 500",
+    "source_summary": "The benchmark of U.S. equities. Watched globally as the proxy for risk-on / risk-off.",
+    "drafted_at": "2026-04-30T17:53:44.903784",
     "data": {
-      "signal_id": "^VIX:move:2026-04-30",
-      "kind": "move_down",
-      "current": "17.78"
+      "signal_id": "^GSPC:high:2026-04-30",
+      "kind": "high",
+      "current": "7,190.45"
     },
-    "content_hash": "995f4d67e7e875d2"
+    "content_hash": "3fefe25d3b818aa2"
   },
   {
-    "id": "f6e9da94",
+    "id": "d67c6728",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "The ECB just moved. The longer the war continues, the more likely rate hikes will become, central bank warns.\n\nhttps://www.politico.eu/article/eu-ecb-holds-rates-but-keeps-june-hike-play-as-war-drags-on/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "ECB",
-    "source_url": "https://www.politico.eu/article/eu-ecb-holds-rates-but-keeps-june-hike-play-as-war-drags-on/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-    "source_title": "ECB holds interest rates but keeps June hike in play as war drags on",
-    "source_summary": "The longer the war continues, the more likely rate hikes will become, central bank warns",
-    "drafted_at": "2026-04-30T13:10:36.611348",
-    "data": {
-      "actor": "ECB"
-    },
-    "content_hash": "7e3ee9bdeb704d4e"
-  },
-  {
-    "id": "7c8c20c6",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "Bailey on the wire. Bank of England (BoE) Governor Andrew Bailey is addressing a press conference and responding to media questions, explaining the reasons behind the central bank\u2019s decision to hold the benchmark policy rate at 3.75% in an 8-1 vote split following the April monetary policy meeting.\n\nhttps://www.fxstreet.com/news/boe-set-to-keep-interest-rate-steady-as-iran-war-fuels-inflation-concerns-202604300600",
+    "draft_text": "BoE update: The Bank of England (BoE) kept rates unchanged at 3.75%, but unlike a passive pause, this was framed as a deliberate and active policy choice.\n\nhttps://www.fxstreet.com/news/boe-recap-an-active-hold-as-inflation-risks-re-emerge-202604301607",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "BoE",
-    "source_url": "https://www.fxstreet.com/news/boe-set-to-keep-interest-rate-steady-as-iran-war-fuels-inflation-concerns-202604300600",
-    "source_title": "BoE Press Conference: Bailey discusses interest rate outlook after the expected status quo",
-    "source_summary": "Bank of England (BoE) Governor Andrew Bailey is addressing a press conference and responding to media questions, explaining the reasons behind the central bank\u2019s decision to hold the benchmark policy rate at 3.75% in an 8-1 vote split following the April monetary policy meeting.",
-    "drafted_at": "2026-04-30T13:10:36.611829",
+    "source_url": "https://www.fxstreet.com/news/boe-recap-an-active-hold-as-inflation-risks-re-emerge-202604301607",
+    "source_title": "BoE recap: An \u201cactive hold\u201d as inflation risks re-emerge",
+    "source_summary": "The Bank of England (BoE) kept rates unchanged at 3.75%, but unlike a passive pause, this was framed as a deliberate and active policy choice.",
+    "drafted_at": "2026-04-30T17:53:44.914867",
     "data": {
       "actor": "BoE"
     },
-    "content_hash": "ef43ca07a1c8e8be"
+    "content_hash": "7690407b00f2ee5f"
   },
   {
-    "id": "d7916e16",
+    "id": "ff186a37",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "The Fed just spoke. Here's what matters: Deutsche Bank strategists report that the Federal Reserve (Fed) left rates unchanged but saw four dissents, the most since 1992, including both dovish and hawkish objections.\n\nhttps://www.fxstreet.com/news/fed-hawkish-split-and-higher-rate-path-deutsche-bank-202604301206",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://www.fxstreet.com/news/fed-hawkish-split-and-higher-rate-path-deutsche-bank-202604301206",
-    "source_title": "Fed: Hawkish split and higher-rate path \u2013 Deutsche Bank",
-    "source_summary": "Deutsche Bank strategists report that the Federal Reserve (Fed) left rates unchanged but saw four dissents, the most since 1992, including both dovish and hawkish objections.",
-    "drafted_at": "2026-04-30T13:10:36.612153",
-    "data": {
-      "actor": "Fed"
-    },
-    "content_hash": "2ad4cb6e78b0bf15"
-  },
-  {
-    "id": "2a874fc9",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "Eurozone policy update: The Euro (EUR) is paring losses against the US Dollar (USD) on Thursday, testing Wednesday's highs at 1.1720 at the time of writing after bouncing from 1.1660 lows.\n\nhttps://www.fxstreet.com/news/eur-usd-dips-towards-11650-with-eurozone-inflation-ecb-rates-on-tap-202604300658",
+    "draft_text": "Eurozone policy update: The EUR/GBP falls some 0.16% during the day as the central bank bonanza ends with the ECB and the BoE keeping interest rates unchanged as expected.\n\nThe cross-pair trades at around 0.8644 after reaching a daily high of 0.8667.\n\nhttps://www.fxstreet.com/news/eur-gbp-slips-as-ecb-and-boe-hold-rates-but-hawks-stay-alert-now-202604301603",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "ECB",
-    "source_url": "https://www.fxstreet.com/news/eur-usd-dips-towards-11650-with-eurozone-inflation-ecb-rates-on-tap-202604300658",
-    "source_title": "EUR/USD rallies to 1.1720 ahead of ECB interest rate decision",
-    "source_summary": "The Euro (EUR) is paring losses against the US Dollar (USD) on Thursday, testing Wednesday's highs at 1.1720 at the time of writing after bouncing from 1.1660 lows.",
-    "drafted_at": "2026-04-30T13:10:36.612421",
+    "source_url": "https://www.fxstreet.com/news/eur-gbp-slips-as-ecb-and-boe-hold-rates-but-hawks-stay-alert-now-202604301603",
+    "source_title": "EUR/GBP slips as ECB and BoE hold rates, but hawks stay alert now",
+    "source_summary": "The EUR/GBP falls some 0.16% during the day as the central bank bonanza ends with the ECB and the BoE keeping interest rates unchanged as expected. The cross-pair trades at around 0.8644 after reaching a daily high of 0.8667.",
+    "drafted_at": "2026-04-30T17:53:44.915201",
     "data": {
       "actor": "ECB"
     },
-    "content_hash": "20cfcad42224430f"
+    "content_hash": "bc59193696fc0f38"
   },
   {
-    "id": "196d33c1",
+    "id": "f5ec39e4",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Bailey on the wire. Inflation could rise to 6.2% next year, with interest rates peaking at 5.25%, in the event of a prolonged energy shock with oil prices remaining above $130 a barrel, according to a worst-case scenario modelled by the Bank of England.\n\nhttps://news.sky.com/story/bank-of-england-sounds-warning-of-interest-rate-hikes-ahead-13538403",
@@ -97,74 +80,108 @@
     "source_url": "https://news.sky.com/story/bank-of-england-sounds-warning-of-interest-rate-hikes-ahead-13538403",
     "source_title": "Bank of England sounds warning of interest rate hikes ahead",
     "source_summary": "Inflation could rise to 6.2% next year, with interest rates peaking at 5.25%, in the event of a prolonged energy shock with oil prices remaining above $130 a barrel, according to a worst-case scenario modelled by the Bank of England.",
-    "drafted_at": "2026-04-30T13:10:36.612788",
+    "drafted_at": "2026-04-30T17:53:44.915621",
     "data": {
       "actor": "Bank of England"
     },
     "content_hash": "da4c4681c4825f9f"
   },
   {
-    "id": "4e6a47cd",
+    "id": "a7b88e86",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "From the Eccles Building: 'additional adjustments to the target range for the federal funds rate'.\n\nhttps://dailycaller.com/2026/04/29/federal-reserve-jerome-powell-committee-interest-rate/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Fed",
+    "source_url": "https://dailycaller.com/2026/04/29/federal-reserve-jerome-powell-committee-interest-rate/",
+    "source_title": "4 Fed Members Send Jerome Powell Out To Pasture By Bucking Him On Final Interest Rate Decision",
+    "source_summary": "'additional adjustments to the target range for the federal funds rate'",
+    "drafted_at": "2026-04-30T17:53:44.915766",
+    "data": {
+      "actor": "Fed"
+    },
+    "content_hash": "b1c93d4de3736cc1"
+  },
+  {
+    "id": "06d0c519",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "POWELL POSTCARD: The Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run.\n\nIn support of its goals, the Committee decided to maintain the target range for the federal funds rate at 3\u20111/2 to 3\u20113/4 percent.\n\nThe Committee is strongly committed to supporting maximum employment and returning inflation to its 2 percent objective.\n\nDevelopments in the Middle East are contributing to a high level of uncertainty about the economic outlook.\n\nThe Committee is attentive to the risks to both sides of its dual mandate.\n\nIn considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
+    "source_title": "Federal Reserve issues FOMC statement",
+    "source_summary": "Federal Reserve issues FOMC statement",
+    "drafted_at": "2026-04-30T17:53:44.917357",
+    "data": {
+      "actor": "FED"
+    },
+    "content_hash": "8eef4d9ead515d9a"
+  },
+  {
+    "id": "d23d8a45",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$ZBIO insider bought $8,766,667 on 2026-04-28, 4 insiders. \ud83d\udc40\n\nZenas Biopharma, Inc.. 445,613 shares at $19.67.\n\n-10.8% since the purchase.\n\nhttp://openinsider.com/screener?s=ZBIO",
+    "draft_text": "$ZBIO insider bought $8,766,667 on 2026-04-28, 4 insiders. \ud83d\udc40\n\nZenas Biopharma, Inc.. 445,613 shares at $19.67.\n\n-5.4% since the purchase.\n\nhttp://openinsider.com/screener?s=ZBIO",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=ZBIO",
     "source_title": "Zenas Biopharma, Inc. (ZBIO) insider bought $8,766,667",
     "source_summary": "4 insider(s) bought 445,613 shares at $19.67 on 2026-04-28.",
-    "drafted_at": "2026-04-30T13:10:36.615983",
+    "drafted_at": "2026-04-30T17:53:44.918660",
     "data": {
       "ticker": "ZBIO",
       "type": "P",
       "dollar_value": 8766667.0,
-      "pct_since": -10.777838144074503
+      "pct_since": -5.439754034215938
     },
     "content_hash": "d24701154d64814c"
   },
   {
-    "id": "52a1abcf",
+    "id": "5532f29f",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$ARXS insider bought $5,643,792 on 2026-04-17, 7 insiders. \ud83d\udc40\n\nArxis, Inc.. 201,564 shares at $28.00.\n\n+25.5% since the purchase.\n\nhttp://openinsider.com/screener?s=ARXS",
+    "draft_text": "$ARXS insider bought $5,643,792 on 2026-04-17, 7 insiders. \ud83d\udc40\n\nArxis, Inc.. 201,564 shares at $28.00.\n\n+24.2% since the purchase.\n\nhttp://openinsider.com/screener?s=ARXS",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=ARXS",
     "source_title": "Arxis, Inc. (ARXS) insider bought $5,643,792",
     "source_summary": "7 insider(s) bought 201,564 shares at $28.00 on 2026-04-17.",
-    "drafted_at": "2026-04-30T13:10:36.616118",
+    "drafted_at": "2026-04-30T17:53:44.918794",
     "data": {
       "ticker": "ARXS",
       "type": "P",
       "dollar_value": 5643792.0,
-      "pct_since": 25.53571973528181
+      "pct_since": 24.214281354631698
     },
     "content_hash": "5599be7fca71592e"
   },
   {
-    "id": "ee7b528e",
+    "id": "28450306",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$IPX insider bought $5,184,906 on 2026-04-28, 3 insiders. \ud83d\udc40\n\nIperionx Ltd. 1,299,212 shares at $3.99.\n\n+628.1% since the purchase.\n\nhttp://openinsider.com/screener?s=IPX",
+    "draft_text": "$IPX insider bought $5,184,906 on 2026-04-28, 3 insiders. \ud83d\udc40\n\nIperionx Ltd. 1,299,212 shares at $3.99.\n\n+739.6% since the purchase.\n\nhttp://openinsider.com/screener?s=IPX",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=IPX",
     "source_title": "Iperionx Ltd (IPX) insider bought $5,184,906",
     "source_summary": "3 insider(s) bought 1,299,212 shares at $3.99 on 2026-04-28.",
-    "drafted_at": "2026-04-30T13:10:36.616242",
+    "drafted_at": "2026-04-30T17:53:44.918921",
     "data": {
       "ticker": "IPX",
       "type": "P",
       "dollar_value": 5184906.0,
-      "pct_since": 628.0701563173069
+      "pct_since": 739.5989974937343
     },
     "content_hash": "1f58cf6860fe0ec7"
   },
   {
-    "id": "d342aaec",
+    "id": "559c210d",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$CXIIU insider bought $3,500,000 on 2026-04-29. \ud83d\udc40\n\nChurchill Capital Corp Xii. 350,000 shares at $10.00.\n\n+1.0% since the purchase.\n\nhttp://openinsider.com/screener?s=CXIIU",
@@ -174,292 +191,292 @@
     "source_url": "http://openinsider.com/screener?s=CXIIU",
     "source_title": "Churchill Capital Corp Xii (CXIIU) insider bought $3,500,000",
     "source_summary": "1 insider(s) bought 350,000 shares at $10.00 on 2026-04-29.",
-    "drafted_at": "2026-04-30T13:10:36.616362",
+    "drafted_at": "2026-04-30T17:53:44.919051",
     "data": {
       "ticker": "CXIIU",
       "type": "P",
       "dollar_value": 3500000.0,
-      "pct_since": 1.0000038146972656
+      "pct_since": 1.0499954223632812
     },
     "content_hash": "9bd4ae39a75f8ac6"
   },
   {
-    "id": "65674561",
+    "id": "4949af23",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$CHTR insider bought $2,365,149 on 2026-04-28, 3 insiders. \ud83d\udc40\n\nCharter Communications, Inc. /Mo/. 13,664 shares at $173.09.\n\n-8.3% since the purchase.\n\nhttp://openinsider.com/screener?s=CHTR",
+    "draft_text": "$CHTR insider bought $2,365,149 on 2026-04-28, 3 insiders. \ud83d\udc40\n\nCharter Communications, Inc. /Mo/. 13,664 shares at $173.09.\n\n-6.7% since the purchase.\n\nhttp://openinsider.com/screener?s=CHTR",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=CHTR",
     "source_title": "Charter Communications, Inc. /Mo/ (CHTR) insider bought $2,365,149",
     "source_summary": "3 insider(s) bought 13,664 shares at $173.09 on 2026-04-28.",
-    "drafted_at": "2026-04-30T13:10:36.616501",
+    "drafted_at": "2026-04-30T17:53:44.919191",
     "data": {
       "ticker": "CHTR",
       "type": "P",
       "dollar_value": 2365149.0,
-      "pct_since": -8.342484316549557
+      "pct_since": -6.721935506930103
     },
     "content_hash": "7e90154ee021a3ae"
   },
   {
-    "id": "ea21a14d",
+    "id": "4440f753",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "ACTIVE THREAT: North Korea-linked hackers stole $577 million in two April exploits, accounting for 76% of crypto losses in 2026, according to TRM Labs.\n\nhttps://www.theblock.co/post/399569/north-korea-accounts-for-76-of-2026-crypto-hack-losses-with-theft-since-2017-topping-6-billion-trm-labs?utm_source=rss&utm_medium=rss",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "THE BLOCK",
-    "source_url": "https://www.theblock.co/post/399569/north-korea-accounts-for-76-of-2026-crypto-hack-losses-with-theft-since-2017-topping-6-billion-trm-labs?utm_source=rss&utm_medium=rss",
-    "source_title": "North Korea accounts for 76% of 2026 crypto hack losses, with theft since 2017 topping $6 billion: TRM Labs",
-    "source_summary": "North Korea-linked hackers stole $577 million in two April exploits, accounting for 76% of crypto losses in 2026, according to TRM Labs.",
-    "drafted_at": "2026-04-30T13:10:36.619348",
-    "data": {
-      "source": "THE BLOCK"
-    },
-    "content_hash": "9005bc618cd6c5a0"
-  },
-  {
-    "id": "93b0629f",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "New scam vector: Prior was +0.1% Canada's economy expanded 0.2% in February, matching expectations and extending the goods-side rebound that has now driven growth for two consecutive months.\n\nThe headline masks a more interesting story underneath: manufacturing roared back to life with its biggest monthly gain since January 2023.\n\nManufacturing jumped 1.8% in February, with durable goods leading the charge at +3.6%.\n\nThe standout was machinery manufacturing, up a chunky 8.7% on strength in industrial and metalworking machinery, with higher exports doing the heavy lifting.\n\nTransportation equipment manufacturing rebounded 5.5% after January's 7.0% drop, as Ontario auto plants came back online following model-change and retooling shutdowns.\n\nMotor vehicle manufacturing alone surged 20.4%, riding the wave of higher US production demand.\n\nThe auto story carried through to wholesale trade, which rose 0.9% as motor vehicle and parts wholesalers gained 6.1%.\n\nTransportation and warehousing tacked on 1.2%, with truck transportation logging its largest gain since March 2021 \u2014 a clean read on goods movement broadening out beyond just autos.\n\nhttps://investinglive.com/news/canada-february-gdp-02-vs-02-expected-20260430/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/canada-february-gdp-02-vs-02-expected-20260430/",
-    "source_title": "Canada February GDP +0.2% vs +0.2% expected",
-    "source_summary": "Prior was +0.1% Canada's economy expanded 0.2% in February, matching expectations and extending the goods-side rebound that has now driven growth for two consecutive months. The headline masks a more interesting story underneath: manufacturing roared back to life with its biggest monthly gain since January 2023. Manufacturing jumped 1.8% in February, with durable goods leading the charge at +3.6%.",
-    "drafted_at": "2026-04-30T13:10:36.621404",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "31d19274ba8a78a7"
-  },
-  {
-    "id": "fbbee24c",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "FRAUDSTER DOWN: Final Q4 GDP was +0.5% Consumer spending (PCE): +1.6% GDP final sales (excluding inventories) +1.6% vs +0.3% prior GDP price index (GDP deflator): +3.6% vs +3.8% expected Core PCE (excluding food & energy): +4.3% vs +4.1% expected Business investment (nonresidential fixed investment): Contributions to GDP in percentage points: Government +0.30 vs -1.03 prior Net exports -0.40 vs -0.08 prior Inventories +0.35 vs +0.28 prior Fixed investment +0.70 vs +0.28 prior Services +1.25 vs +1.45 prior Goods +0.10 vs -0.02 prior The U.S. economy grew at a 2.0% annualized pace in Q1 2026, a notable rebound from the soft 0.5% print in Q4 2025 \u2014 but the headline flatters a release that warrants closer scrutiny on both the growth and inflation sides.\n\nReal final sales to private domestic purchasers \u2014 the cleanest read on underlying demand \u2014 rose 2.5%, up from 1.8%.\n\nBut peel back the layers and the quarter looks heavily distorted by trade flows and one-offs.\n\nBoth exports and imports surged, with computers, peripherals, and parts leading the way on both sides of the ledger.\n\nThat's the fingerprint of pre-tariff front-running, not organic demand.\n\nEquipment investment got a similar lift from information processing \u2014 read: the AI capex story is still alive, but some of this is inventory being pulled forward through customs.\n\nBEA explicitly flagged that the equipment increase \"primarily reflected an increase in information processing equipment (notably, computers and peripheral equipment)\".\n\nThe contribution of intellectual property and software development was +0.7 percentage points and the contribution from information processing equipment was +0.8 pp.\n\nhttps://investinglive.com/news/us-q1-advance-gdp-20-vs-23-expected-20260430/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/us-q1-advance-gdp-20-vs-23-expected-20260430/",
-    "source_title": "US Q1 advance GDP +2.0% vs +2.3% expected",
-    "source_summary": "Final Q4 GDP was +0.5% Consumer spending (PCE): +1.6% GDP final sales (excluding inventories) +1.6% vs +0.3% prior GDP price index (GDP deflator): +3.6% vs +3.8% expected Core PCE (excluding food & energy): +4.3% vs +4.1% expected Business investment (nonresidential fixed investment): Contributions to GDP in percentage points: Government +0.30 vs -1.03 prior Net exports -0.40 vs -0.08 prior Invent",
-    "drafted_at": "2026-04-30T13:10:36.624358",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "dbe3c898bbc2a869"
-  },
-  {
-    "id": "05cbb908",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Watch your wallets: Losses from crypto hacks have topped $630 million in April across more than 25 hacks, with DeFi dominating major incidents and exploits accelerating despite security updates.\n\nhttps://cointelegraph.com/news/crypto-hacks-cause-630m-losses-in-april-highest-since-february-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "draft_text": "Polymarket has selected Chainalysis to flag suspicious trades as insider betting concerns mount and regulators tighten scrutiny on prediction markets.\n\nhttps://cointelegraph.com/news/polymarket-chainalysis-insider-betting-detection-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "COINTELEGRAPH",
-    "source_url": "https://cointelegraph.com/news/crypto-hacks-cause-630m-losses-in-april-highest-since-february-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "source_title": "Crypto hack losses top $630M in April, highest since February 2025",
-    "source_summary": "Losses from crypto hacks have topped $630 million in April across more than 25 hacks, with DeFi dominating major incidents and exploits accelerating despite security updates.",
-    "drafted_at": "2026-04-30T13:10:36.624641",
+    "source_url": "https://cointelegraph.com/news/polymarket-chainalysis-insider-betting-detection-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source_title": "Insider trading backlash forces Polymarket to step up surveillance",
+    "source_summary": "Polymarket has selected Chainalysis to flag suspicious trades as insider betting concerns mount and regulators tighten scrutiny on prediction markets.",
+    "drafted_at": "2026-04-30T17:53:44.922015",
     "data": {
       "source": "COINTELEGRAPH"
     },
-    "content_hash": "fbd2e68e86c5e9ae"
+    "content_hash": "f9a0c20644761ad0"
   },
   {
-    "id": "1b2b52a1",
+    "id": "d86a333c",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "David Morens tried to keep a scientific discussion under wraps.\n\nTrump's latest anti-science attack explains why\n\nhttps://www.latimes.com/business/story/2026-04-30/in-effort-to-revive-a-discredited-theory-on-covid-origins-doj-indicts-ex-fauci-aide-over-old-emails",
+    "draft_text": "Caught. The team-up between Polymarket and Chainalysis aims to bring institutional-grade compliance monitoring to crypto prediction markets.\n\nhttps://decrypt.co/366177/polymarket-launches-market-integrity-tools-following-soldiers-insider-trading-arrest",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "LA TIMES",
-    "source_url": "https://www.latimes.com/business/story/2026-04-30/in-effort-to-revive-a-discredited-theory-on-covid-origins-doj-indicts-ex-fauci-aide-over-old-emails",
-    "source_title": "Hiltzik: Resurrecting a discredited theory on COVID's origin, DOJ indicts an ex-Fauci aide over old emails",
-    "source_summary": "David Morens tried to keep a scientific discussion under wraps. Trump's latest anti-science attack explains why",
-    "drafted_at": "2026-04-30T13:10:36.624892",
+    "primary_source": "DECRYPT",
+    "source_url": "https://decrypt.co/366177/polymarket-launches-market-integrity-tools-following-soldiers-insider-trading-arrest",
+    "source_title": "Polymarket Launches Market Integrity Tools Following Soldier\u2019s Insider Trading Arrest",
+    "source_summary": "The team-up between Polymarket and Chainalysis aims to bring institutional-grade compliance monitoring to crypto prediction markets.",
+    "drafted_at": "2026-04-30T17:53:44.922234",
     "data": {
-      "source": "LA TIMES"
+      "source": "DECRYPT"
     },
-    "content_hash": "6f7f7c12e916cdb8"
+    "content_hash": "55b552192def31cc"
   },
   {
-    "id": "18d3dcbb",
+    "id": "7111d0c9",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "RETAIL BEWARE: Polymarket partnered with Chainalysis to detect insider trading and suspicious activity as prediction markets face rising scrutiny.\n\nThe post Polymarket adds Chainalysis tools to detect insider trading appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/polymarket-insider-trading-detection-tools/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/polymarket-insider-trading-detection-tools/",
+    "source_title": "Polymarket adds Chainalysis tools to detect insider trading",
+    "source_summary": "Polymarket partnered with Chainalysis to detect insider trading and suspicious activity as prediction markets face rising scrutiny. The post Polymarket adds Chainalysis tools to detect insider trading appeared first on Crypto Briefing .",
+    "drafted_at": "2026-04-30T17:53:44.922589",
+    "data": {
+      "source": "CRYPTO BRIEFING"
+    },
+    "content_hash": "3e444bd2004d0674"
+  },
+  {
+    "id": "14b7fd96",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Some market watchers liken Strategy's STRC preferred stock to a \"circular\" Ponzi scheme model, but Benchmark disagrees.\n\nhttps://www.theblock.co/post/399609/not-circular-benchmark-defends-strategys-strc-bitcoin-accumulation-model?utm_source=rss&utm_medium=rss",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "THE BLOCK",
+    "source_url": "https://www.theblock.co/post/399609/not-circular-benchmark-defends-strategys-strc-bitcoin-accumulation-model?utm_source=rss&utm_medium=rss",
+    "source_title": "\u2018Not circular\u2019: Benchmark defends Strategy\u2019s STRC bitcoin accumulation model",
+    "source_summary": "Some market watchers liken Strategy's STRC preferred stock to a \"circular\" Ponzi scheme model, but Benchmark disagrees.",
+    "drafted_at": "2026-04-30T17:53:44.922800",
+    "data": {
+      "source": "THE BLOCK"
+    },
+    "content_hash": "a3b545e450abdc6c"
+  },
+  {
+    "id": "6a7d99a0",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Pack \u2014 defensive read: Wasabi Protocol is the latest victim in what appears to be a record bad month for DeFi hacks.\n\nhttps://thedefiant.io/news/hacks/wasabi-protocol-hack",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "THE DEFIANT",
+    "source_url": "https://thedefiant.io/news/hacks/wasabi-protocol-hack",
+    "source_title": "Wasabi Loses $5M+ in Latest DeFi Exploit",
+    "source_summary": "Wasabi Protocol is the latest victim in what appears to be a record bad month for DeFi hacks.",
+    "drafted_at": "2026-04-30T17:53:44.923010",
+    "data": {
+      "source": "THE DEFIANT"
+    },
+    "content_hash": "9ece3ee229c6f74f"
+  },
+  {
+    "id": "306ea481",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From the Gulf: Ripple (CRYPTO: XRP) has opened a new Middle East and Africa regional headquarters in Dubai, with the move set to double the size of its local team.\n\nThe expansion follows six years of partnerships in both regions, with clients like Zand Bank in the UAE and Absa Bank in South Africa already on the books....\n\nRipple (XRP) News: Ripple\u2019s New Middle East and Africa HQ Could Be a Big Win for XRP Adoption\n\nhttps://247wallst.com/investing/2026/04/30/ripple-xrp-news-ripples-new-middle-east-and-africa-hq-could-be-a-big-win-for-xrp-adoption/",
+    "draft_text": "World wire: The group resignation caps months of political tensions over Moscow\u2019s return to the prestigious art show.\n\nhttps://www.politico.eu/article/venice-biennale-jury-quits-over-decision-allow-russia-participation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "247 WALL ST",
-    "source_url": "https://247wallst.com/investing/2026/04/30/ripple-xrp-news-ripples-new-middle-east-and-africa-hq-could-be-a-big-win-for-xrp-adoption/",
-    "source_title": "Ripple (XRP) News: Ripple\u2019s New Middle East and Africa HQ Could Be a Big Win for XRP Adoption",
-    "source_summary": "Ripple (CRYPTO: XRP) has opened a new Middle East and Africa regional headquarters in Dubai, with the move set to double the size of its local team. The expansion follows six years of partnerships in both regions, with clients like Zand Bank in the UAE and Absa Bank in South Africa already on the books. ... Ripple (XRP) News: Ripple\u2019s New Middle East and Africa HQ Could Be a Big Win for XRP Adopti",
-    "drafted_at": "2026-04-30T13:10:36.630547",
+    "primary_source": "POLITICO EU",
+    "source_url": "https://www.politico.eu/article/venice-biennale-jury-quits-over-decision-allow-russia-participation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+    "source_title": "Venice Biennale jury quits over decision to allow Russia\u2019s participation",
+    "source_summary": "The group resignation caps months of political tensions over Moscow\u2019s return to the prestigious art show.",
+    "drafted_at": "2026-04-30T17:53:44.927004",
     "data": {
-      "source": "247 WALL ST"
+      "source": "POLITICO EU"
     },
-    "content_hash": "53ca0058da2debb1"
+    "content_hash": "5cf8f9bcf4214ff3"
   },
   {
-    "id": "b521a833",
+    "id": "23ed3725",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "MIDDLE EAST DESK: DUBAI, UAE, April 30, 2026 /PRNewswire/ -- Bybit, the world's second-largest cryptocurrency exchange by trading volume, has released its 35th Proof-of-Reserves (PoR) report, reflecting asset balances as of April 22, 2026, as mainstream asset value tops $17.0B.\n\nhttps://www.prnewswire.com/news-releases/bybits-latest-proof-of-reserves-shows-strong-asset-backing-across-key-holdings-302758849.html",
+    "draft_text": "Mainland wire: South Africa's communications minister says that human oversight is sorely needed in the age of artificial intelligence.\n\nThe reason stems from a draft of the country's new AI policy, which leaders hoped would address concerns about ethics and regulations related to the technology.\n\n'There will be consequence management for those responsible.' The country's Minister of Communications and Digital Technologies, Mmoba Solomon Malatsi, made a shocking admission that he would be withdrawing the national AI framework after its integrity had been \"compromised.\" Malatsi took to his X page on Sunday to explain that an internal review confirmed the policy included fake citations, likely generated by AI.\n\n\"The Draft... contains various fictitious sources in its reference list,\" the minister wrote.\n\nThe draft had been made available to allow for public comment, but scrutiny over the fake sources sparked a review after just three weeks.\n\n\"This failure is not a mere technical issue but has compromised the integrity and credibility of the draft policy,\" the politician continued.\n\n\"The most plausible explanation is that AI-generated citations were included without proper verification.\n\nThis should not have happened.\" The 40-year-old said the incident proves why \"vigilant human oversight over the use of artificial intelligence is critical.\" RELATED: This Big Tech patent tracks your brain, eyes, and body \u2014 with earbuds The policy draft outlined a new National AI Commission, ethics board, and regulatory authority around AI that would coordinate to enforce new policies and ethical standards, Reuters reported.\n\nhttps://www.theblaze.com/return/south-africa-ai-policy-withdrawal",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "PR NEWSWIRE",
-    "source_url": "https://www.prnewswire.com/news-releases/bybits-latest-proof-of-reserves-shows-strong-asset-backing-across-key-holdings-302758849.html",
-    "source_title": "Bybit's Latest Proof-of-Reserves Shows Strong Asset Backing Across Key Holdings",
-    "source_summary": "DUBAI, UAE, April 30, 2026 /PRNewswire/ -- Bybit, the world's second-largest cryptocurrency exchange by trading volume, has released its 35th Proof-of-Reserves (PoR) report, reflecting asset balances as of April 22, 2026, as mainstream asset value tops $17.0B. Independently verified by...",
-    "drafted_at": "2026-04-30T13:10:36.631624",
+    "primary_source": "THE BLAZE",
+    "source_url": "https://www.theblaze.com/return/south-africa-ai-policy-withdrawal",
+    "source_title": "A national AI policy was drafted using AI. It cited fake sources.",
+    "source_summary": "South Africa's communications minister says that human oversight is sorely needed in the age of artificial intelligence. The reason stems from a draft of the country's new AI policy, which leaders hoped would address concerns about ethics and regulations related to the technology. 'There will be consequence management for those responsible.' The country's Minister of Communications and Digital Tec",
+    "drafted_at": "2026-04-30T17:53:44.929452",
     "data": {
-      "source": "PR NEWSWIRE"
+      "source": "THE BLAZE"
     },
-    "content_hash": "304ad2367c5f744d"
+    "content_hash": "de3a196a638ca580"
   },
   {
-    "id": "8b9709c9",
+    "id": "9e8dff8f",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Levant update: NEW YORK, April 30, 2026 /PRNewswire/ -- Wahed, a global Islamic fintech platform backed by Saudi Aramco's Wa'ed Ventures and Qatar Development Bank, today launched the first fully Shariah-compliant real estate fund accessible to non-accredited investors in the United States.\n\nhttps://www.prnewswire.com/news-releases/wahed-launches-first-shariahcompliant-single-family-residential-real-estate-fund-for-all-us-investors-302758177.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "PR NEWSWIRE",
-    "source_url": "https://www.prnewswire.com/news-releases/wahed-launches-first-shariahcompliant-single-family-residential-real-estate-fund-for-all-us-investors-302758177.html",
-    "source_title": "Wahed Launches First Shariah\u2011Compliant Single-Family Residential Real Estate Fund for All US Investors",
-    "source_summary": "NEW YORK, April 30, 2026 /PRNewswire/ -- Wahed, a global Islamic fintech platform backed by Saudi Aramco's Wa'ed Ventures and Qatar Development Bank, today launched the first fully Shariah-compliant real estate fund accessible to non-accredited investors in the United States. The fund is...",
-    "drafted_at": "2026-04-30T13:10:36.632319",
-    "data": {
-      "source": "PR NEWSWIRE"
-    },
-    "content_hash": "421bbbef060af68a"
-  },
-  {
-    "id": "55d71a98",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: Oil prices jumped to their highest since 2022 after a report that the US military is set to brief President Donald Trump on new plans for potential action in the Iran war.\n\nBrent crude rose by almost 7% to more than $126 (\u00a394) a barrel at one point, before falling back.\n\nUS Central Command has prepared a plan for a wave of \"short and powerful\" strikes on Iran to try to break the deadlock in negotiations with Tehran, news site Axios reported.\n\nThe BBC has contacted US Central Command and the White House for comment.\n\nEnergy prices have been rising this week as peace talks appear to have stalled, with the key Strait of Hormuz waterway still effectively closed.\n\nhttps://www.bbc.com/news/articles/cx21m88rd14o?at_medium=RSS&at_campaign=rss",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "BBC",
-    "source_url": "https://www.bbc.com/news/articles/cx21m88rd14o?at_medium=RSS&at_campaign=rss",
-    "source_title": "Oil price hits highest since 2022 after report Trump to be briefed on new Iran options",
-    "source_summary": "Axios reported that US Central Command has prepared a plan for a wave of \"short and powerful\" strikes on Iran.",
-    "drafted_at": "2026-04-30T13:10:36.633827",
-    "data": {
-      "source": "BBC"
-    },
-    "content_hash": "e55a44f840c3cfd9"
-  },
-  {
-    "id": "14b03227",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "MIDDLE EAST DESK: Despite Trump\u2019s warning that oil backing up inside Iran would cause pipelines to \u201cexplode from within,\u201d\n\nhttps://www.washingtonpost.com/business/2026/04/30/trump-iran-oil-explode-strait/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "WAPO",
-    "source_url": "https://www.washingtonpost.com/business/2026/04/30/trump-iran-oil-explode-strait/",
-    "source_title": "Trump said Iran\u2019s oil pipelines will soon \u2018explode.\u2019 Energy experts doubt it.",
-    "source_summary": "Despite Trump\u2019s warning that oil backing up inside Iran would cause pipelines to \u201cexplode from within,\u201d analysts say Iran still has plenty of unused storage capacity.",
-    "drafted_at": "2026-04-30T13:10:36.634468",
-    "data": {
-      "source": "WAPO"
-    },
-    "content_hash": "e98bf60ccd840e5b"
-  },
-  {
-    "id": "b7c4471d",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "From the housing desk: Top national builder joining celebrated 4,700-acre planned community BONNEY LAKE, Wash., April 30, 2026 /PRNewswire/ -- Century Communities, Inc. (NYSE: CCS)\u2014a top national homebuilder, industry leader in online home sales, and featured on America's Most Trustworthy Companies by...\n\nhttps://www.prnewswire.com/news-releases/century-communities-announces-tehaleh-debut-with-new-homes-in-bonney-lake-wa-302753952.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "PR NEWSWIRE",
-    "source_url": "https://www.prnewswire.com/news-releases/century-communities-announces-tehaleh-debut-with-new-homes-in-bonney-lake-wa-302753952.html",
-    "source_title": "Century Communities Announces Tehaleh Debut with New Homes in Bonney Lake, WA",
-    "source_summary": "Top national builder joining celebrated 4,700-acre planned community BONNEY LAKE, Wash., April 30, 2026 /PRNewswire/ -- Century Communities, Inc. (NYSE: CCS)\u2014a top national homebuilder, industry leader in online home sales, and featured on America's Most Trustworthy Companies by...",
-    "drafted_at": "2026-04-30T13:10:36.705192",
-    "data": {
-      "source": "PR NEWSWIRE"
-    },
-    "content_hash": "95be0dbef96f50c1"
-  },
-  {
-    "id": "b4ce5ebc",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "GDP DAY. Prior was +0.1% Canada's economy expanded 0.2% in February, matching expectations and extending the goods-side rebound that has now driven growth for two consecutive months.\n\nThe headline masks a more interesting story underneath: manufacturing roared back to life with its biggest monthly gain since January 2023.\n\nManufacturing jumped 1.8% in February, with durable goods leading the charge at +3.6%.\n\nThe standout was machinery manufacturing, up a chunky 8.7% on strength in industrial and metalworking machinery, with higher exports doing the heavy lifting.\n\nTransportation equipment manufacturing rebounded 5.5% after January's 7.0% drop, as Ontario auto plants came back online following model-change and retooling shutdowns.\n\nMotor vehicle manufacturing alone surged 20.4%, riding the wave of higher US production demand.\n\nThe auto story carried through to wholesale trade, which rose 0.9% as motor vehicle and parts wholesalers gained 6.1%.\n\nTransportation and warehousing tacked on 1.2%, with truck transportation logging its largest gain since March 2021 \u2014 a clean read on goods movement broadening out beyond just autos.\n\nhttps://investinglive.com/news/canada-february-gdp-02-vs-02-expected-20260430/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/canada-february-gdp-02-vs-02-expected-20260430/",
-    "source_title": "Canada February GDP +0.2% vs +0.2% expected",
-    "source_summary": "Prior was +0.1% Canada's economy expanded 0.2% in February, matching expectations and extending the goods-side rebound that has now driven growth for two consecutive months. The headline masks a more interesting story underneath: manufacturing roared back to life with its biggest monthly gain since January 2023. Manufacturing jumped 1.8% in February, with durable goods leading the charge at +3.6%.",
-    "drafted_at": "2026-04-30T13:10:36.706794",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "31d19274ba8a78a7"
-  },
-  {
-    "id": "c9d9c8b1",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "From the BEA desk: Real GDP increased at an annualized rate of 2% in the first quarter of 2026, just below the forecast.\n\nhttps://www.businessinsider.com/gdp-gross-domestic-product-first-quarter-economy-2026-4",
+    "draft_text": "Cross-border read: Pinterest uses a multimodal generative AI strategy to lower computing costs.\n\nTheir approach includes OpenAI's and Alibaba's large language models.\n\nhttps://www.businessinsider.com/multimodal-generative-ai-pinterest-open-closed-source-llms-2026-4",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "BUSINESS INSIDER",
-    "source_url": "https://www.businessinsider.com/gdp-gross-domestic-product-first-quarter-economy-2026-4",
-    "source_title": "The US economy bounced back in the first quarter of 2026",
-    "source_summary": "Real GDP increased at an annualized rate of 2% in the first quarter of 2026, just below the forecast.",
-    "drafted_at": "2026-04-30T13:10:36.707016",
+    "source_url": "https://www.businessinsider.com/multimodal-generative-ai-pinterest-open-closed-source-llms-2026-4",
+    "source_title": "Inside Pinterest's efforts to replace expensive AI with open-source models",
+    "source_summary": "Pinterest uses a multimodal generative AI strategy to lower computing costs. Their approach includes OpenAI's and Alibaba's large language models.",
+    "drafted_at": "2026-04-30T17:53:44.929955",
     "data": {
       "source": "BUSINESS INSIDER"
     },
-    "content_hash": "f78043b6b5954836"
+    "content_hash": "b88aafab64448da2"
   },
   {
-    "id": "24237979",
-    "format": "DATA_DROP",
+    "id": "9d96ef51",
+    "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "JOBLESS-CLAIMS READ: Prior week 214K revised to 215K Iniital jobless claims 189K vs 215K estimate 4 week moving average 207.5K vs 211.00 last week Continuing claims 1.785M vs 1.815M estimate.\n\nPrior 1.808M 4 week moving average of continuing claims 1.797M vs 1.809M The largest increases in initial claims for the week ending April 18 were in New York (+2,885), California (+1,590), Tennessee (+1,562), Kentucky (+1,179), and South Carolina (+1,115), The largest decreases were in New Jersey (-4,280), Pennsylvania (-2,742), Virginia (-1,528), Wisconsin (-1,248), and Indiana (-1,150) There was a spike low in Septmeber 2022 at 190K for the initial jobs claims.\n\nIn early November of 1968 the number reached 181K.\n\nFor the continuing claims looks like the level is the lowest since April 2024.\n\nThe bottom line is the job market is not weak.\n\nNow there are winners and losers even in the AI universe.\n\nFor the buildout, that is likely very good.\n\nFrom the productivity advantage from AI, it is putting people out of work.\n\nhttps://investinglive.com/news/us-initial-jobless-claims-189k-vs-215k-estimate-20260430/",
+    "draft_text": "Gulf wire: The Pakistani leaks are starting again and say they expect a revised Iranian proposal to end the war by the end of the week.\n\nWe've certainly heard that kind of thing before but let's hope it's for real this time.\n\nThat's from MS Now who reports this: Two Pakistani officials in Islamabad with direct knowledge of the talks between the U.S. and Iran told MS NOW they expect a revised Iranian proposal to end the war by the end of the week.\n\nThe officials, who spoke on condition of anonymity given the sensitivity around the talks, said they will then share Iran\u2019s proposal with U.S. negotiators and push for an in-person meeting between both sides early next week.\n\nBoth the U.S. and Iran are \u201cfocused on diplomatic solutions\u201d to bring the war to an end, they said.\n\nSecondly, this is a strange one: Al-Arabiya cites a Channel 12 report, which is an Israeli TV station but says that Israel is preparing to announce the failure of negotiations with Iran It's odd because Israel isn't negotiating with Iran, the US is.\n\nIsrael is negotiating with Lebanon so maybe something is lost in translation along the way.\n\nI also don't think anyone knows what Trump will announce (including perhaps Trump himself) so I would be skeptical of this report, but it's making the rounds.\n\nhttps://investinglive.com/news/pakistani-officials-say-they-expect-new-iran-proposal-this-week-report-20260430/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/us-initial-jobless-claims-189k-vs-215k-estimate-20260430/",
-    "source_title": "US initial jobless claims 189K vs 215K estimate",
-    "source_summary": "Prior week 214K revised to 215K Iniital jobless claims 189K vs 215K estimate 4 week moving average 207.5K vs 211.00 last week Continuing claims 1.785M vs 1.815M estimate. Prior 1.808M 4 week moving average of continuing claims 1.797M vs 1.809M The largest increases in initial claims for the week ending April 18 were in New York (+2,885), California (+1,590), Tennessee (+1,562), Kentucky (+1,179), ",
-    "drafted_at": "2026-04-30T13:10:36.708280",
+    "source_url": "https://investinglive.com/news/pakistani-officials-say-they-expect-new-iran-proposal-this-week-report-20260430/",
+    "source_title": "Pakistani officials say they expect new Iran proposal this week",
+    "source_summary": "The Pakistani leaks are starting again and say they expect a revised Iranian proposal to end the war by the end of the week. We've certainly heard that kind of thing before but let's hope it's for real this time. That's from MS Now who reports this: Two Pakistani officials in Islamabad with direct knowledge of the talks between the U.S. and Iran told MS NOW they expect a revised Iranian proposal t",
+    "drafted_at": "2026-04-30T17:53:44.932167",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "e96efc9798e68648"
+    "content_hash": "edfe1ae2d087c3cd"
   },
   {
-    "id": "76bd4326",
+    "id": "5759819d",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Levant update: The Strait of Hormuz blockade has removed roughly 9 million barrels per day of crude supply from the global market, and replacement barrels are not keeping pace, according to a new report by Vortexa.\n\nU.S. Gulf Coast crude oil exports have reached record highs, although this has been in large part supported by releases from the Strategic Petroleum Reserve.\n\nAdditional volumes are moving through alternative routes, including pipelines via Yanbu, Fujairah, and Ceyhan, which add about 3.6 million bpd back into the system.\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Net-Crude-Supply-Loss-is-9-Million-Bpd-Despite-Surge-in-Atlantic-Exports-Vortex.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "OILPRICE",
+    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Net-Crude-Supply-Loss-is-9-Million-Bpd-Despite-Surge-in-Atlantic-Exports-Vortex.html",
+    "source_title": "Net Crude Supply Loss is 9 Million Bpd Despite Surge in Atlantic Exports: Vortex",
+    "source_summary": "The Strait of Hormuz blockade has removed roughly 9 million barrels per day of crude supply from the global market, and replacement barrels are not keeping pace, according to a new report by Vortexa. U.S. Gulf Coast crude oil exports have reached record highs, although this has been in large part supported by releases from the Strategic Petroleum Reserve. Additional volumes are moving through alte",
+    "drafted_at": "2026-04-30T17:53:44.933123",
+    "data": {
+      "source": "OILPRICE"
+    },
+    "content_hash": "c15d691c31141eb4"
+  },
+  {
+    "id": "b05e9602",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "GDP DAY. Final Q4 GDP was +0.5% Consumer spending (PCE): +1.6% GDP final sales (excluding inventories) +1.6% vs +0.3% prior GDP price index (GDP deflator): +3.6% vs +3.8% expected Core PCE (excluding food & energy): +4.3% vs +4.1% expected Business investment (nonresidential fixed investment): Contributions to GDP in percentage points: Government +0.30 vs -1.03 prior Net exports -0.40 vs -0.08 prior Inventories +0.35 vs +0.28 prior Fixed investment +0.70 vs +0.28 prior Services +1.25 vs +1.45 prior Goods +0.10 vs -0.02 prior The U.S. economy grew at a 2.0% annualized pace in Q1 2026, a notable rebound from the soft 0.5% print in Q4 2025 \u2014 but the headline flatters a release that warrants closer scrutiny on both the growth and inflation sides.\n\nReal final sales to private domestic purchasers \u2014 the cleanest read on underlying demand \u2014 rose 2.5%, up from 1.8%.\n\nBut peel back the layers and the quarter looks heavily distorted by trade flows and one-offs.\n\nBoth exports and imports surged, with computers, peripherals, and parts leading the way on both sides of the ledger.\n\nThat's the fingerprint of pre-tariff front-running, not organic demand.\n\nEquipment investment got a similar lift from information processing \u2014 read: the AI capex story is still alive, but some of this is inventory being pulled forward through customs.\n\nBEA explicitly flagged that the equipment increase \"primarily reflected an increase in information processing equipment (notably, computers and peripheral equipment)\".\n\nThe contribution of intellectual property and software development was +0.7 percentage points and the contribution from information processing equipment was +0.8 pp.\n\nhttps://investinglive.com/news/us-q1-advance-gdp-20-vs-23-expected-20260430/",
+    "draft_text": "From the inflation desk: Charles Schwab\u2019s Nathan Peterson, director of derivatives research and strategy at the Schwab Center for Financial Research, summed up the split tape after Wednesday\u2019s mega-cap tech reports with a clear thesis on the Schwab Market Update Audio episode \u201cMag 7 Earnings, GDP, and Inflation In-Focus.\u201d Four titans reported, all four beat, and only one stock...\n\n3 of 4 Mag 7 Tech Giants Slumped on CapEx Concerns Despite Beating Earnings\n\nhttps://247wallst.com/investing/2026/04/30/3-of-4-mag-7-tech-giants-slumped-on-capex-concerns-despite-beating-earnings/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "247 WALL ST",
+    "source_url": "https://247wallst.com/investing/2026/04/30/3-of-4-mag-7-tech-giants-slumped-on-capex-concerns-despite-beating-earnings/",
+    "source_title": "3 of 4 Mag 7 Tech Giants Slumped on CapEx Concerns Despite Beating Earnings",
+    "source_summary": "Charles Schwab\u2019s Nathan Peterson, director of derivatives research and strategy at the Schwab Center for Financial Research, summed up the split tape after Wednesday\u2019s mega-cap tech reports with a clear thesis on the Schwab Market Update Audio episode \u201cMag 7 Earnings, GDP, and Inflation In-Focus.\u201d Four titans reported, all four beat, and only one stock ... 3 of 4 Mag 7 Tech Giants Slumped on CapEx",
+    "drafted_at": "2026-04-30T17:53:44.996228",
+    "data": {
+      "source": "247 WALL ST"
+    },
+    "content_hash": "777ea3a6b1b291ca"
+  },
+  {
+    "id": "4440970e",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "From the inflation desk: In the 12 months through March, PCE inflation shot up 3.5%, the biggest rise since May 2023 and above the Fed's 2% target.\n\nhttps://nypost.com/2026/04/30/business/feds-preferred-inflation-gauge-hits-3-year-high-as-gas-prices-spiked-on-iran-war/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NY POST",
+    "source_url": "https://nypost.com/2026/04/30/business/feds-preferred-inflation-gauge-hits-3-year-high-as-gas-prices-spiked-on-iran-war/",
+    "source_title": "Fed\u2019s preferred inflation gauge hits 3-year high as gas prices spiked on Iran war",
+    "source_summary": "In the 12 months through March, PCE inflation shot up 3.5%, the biggest rise since May 2023 and above the Fed's 2% target.",
+    "drafted_at": "2026-04-30T17:53:44.996469",
+    "data": {
+      "source": "NY POST"
+    },
+    "content_hash": "60ef5dc4351008e6"
+  },
+  {
+    "id": "de11bdf3",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "How sticky is inflation? Let's see: I often write that the industrial revolution was the biggest thing to happen in human history but we might be re-writing history right now.\n\nI want to underscore the amount of spending that's going into AI right now because the numbers are almost unfathomable, something I touched on yesterday.\n\nGoogle, Amazon, Microsoft, and Meta collectively plan to spend $725 billion on capex in 2026, up 77% from last year's record $410 billion.\n\nOpenAI will also spend $100-$125 billion and Anthropic might be in the $50 billion range.\n\nIn China, they're likely to be spending somewhere in the $100-$200 billion range and then you can add in another $100-$200 billion in costs for power, the grid, cooling, gas turbines, substations and land.\n\nAll in, that's somewhere in the $900 billion to $1.3 trillion range for this year alone, and no one is indicating any slowdown from there (at least not yet).\n\nThese are truly staggering numbers that I want to put into perspective: That's around double the cost of the entire 35-year project of building the US interstate highway system, which took 35 years (inflation adjusted) Slightly below the entire UK government budget and roughly double Germany's federal budget About 1.5x Japan's budget Larger than the GDP of every country except the USA About 4x larger than the multi-year Apollo project to put a man on the moon (inflation adjusted) Apollo spending peaked at 4.4% of Federal spending, AI capex right now is equivalent to 15-20% of US government spending Here is the big one: The estimated total spending on WWII in today's dollars was $4-7 trillion, globally for the duration of the war.\n\nAt this pace, AI spending will match that.\n\nhttps://investinglive.com/news/ai-infrastructure-spending-is-the-largest-non-war-project-in-human-history-20260430/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/us-q1-advance-gdp-20-vs-23-expected-20260430/",
-    "source_title": "US Q1 advance GDP +2.0% vs +2.3% expected",
-    "source_summary": "Final Q4 GDP was +0.5% Consumer spending (PCE): +1.6% GDP final sales (excluding inventories) +1.6% vs +0.3% prior GDP price index (GDP deflator): +3.6% vs +3.8% expected Core PCE (excluding food & energy): +4.3% vs +4.1% expected Business investment (nonresidential fixed investment): Contributions to GDP in percentage points: Government +0.30 vs -1.03 prior Net exports -0.40 vs -0.08 prior Invent",
-    "drafted_at": "2026-04-30T13:10:36.710485",
+    "source_url": "https://investinglive.com/news/ai-infrastructure-spending-is-the-largest-non-war-project-in-human-history-20260430/",
+    "source_title": "AI infrastructure spending is the largest non-war project in human history",
+    "source_summary": "I often write that the industrial revolution was the biggest thing to happen in human history but we might be re-writing history right now. I want to underscore the amount of spending that's going into AI right now because the numbers are almost unfathomable, something I touched on yesterday. Google, Amazon, Microsoft, and Meta collectively plan to spend $725 billion on capex in 2026, up 77% from ",
+    "drafted_at": "2026-04-30T17:53:44.998548",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "dbe3c898bbc2a869"
+    "content_hash": "75d1a70a3f0b3e4b"
   },
   {
-    "id": "533b0193",
+    "id": "80edfc9a",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "Growth read just printed. Peter Navarro, RCM Today's advance estimate of Q1 GDP tells us the Trump economy is growing.\n\nhttps://www.realclearmarkets.com/2026/04/30/gdp_durable_goods_show_trump_economy_reindustrializing_1180038.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "REALCLEAR",
+    "source_url": "https://www.realclearmarkets.com/2026/04/30/gdp_durable_goods_show_trump_economy_reindustrializing_1180038.html",
+    "source_title": "GDP, Durable Goods Show Trump Economy Reindustrializing",
+    "source_summary": "Peter Navarro, RCM Today's advance estimate of Q1 GDP tells us the Trump economy is growing. Business investment is surging. The private...",
+    "drafted_at": "2026-04-30T17:53:44.998729",
+    "data": {
+      "source": "REALCLEAR"
+    },
+    "content_hash": "b9b0da1e288d40d0"
+  },
+  {
+    "id": "187ce3f0",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "From the inflation desk: US gross domestic product (GDP) accelerated to an annual rate of 2% in the first three months of 2026, though consumer spending is slowing as the war with Iran continues to impact energy prices.\n\nThe last GDP reading for the fourth quarter of 2025 showed that US economic growth slowed to an annual pace of 0.5%, largely due to a contraction in government spending after massive layoffs of federal workers last year.\n\nBut government spending jumped 10% since last quarter, going from a 5.4% contraction last quarter to a 4.4% increase at the start of 2026.\n\nGDP data is released by the commerce department and measures a country\u2019s spending and investment as a way to gauge economic growth.\n\nhttps://www.theguardian.com/business/2026/apr/30/gdp-consumer-spending-slows-iran-war",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "GUARDIAN",
+    "source_url": "https://www.theguardian.com/business/2026/apr/30/gdp-consumer-spending-slows-iran-war",
+    "source_title": "US economic growth rebounds 2% as consumer spending slows amid Iran war",
+    "source_summary": "First quarter output, driven by AI investment and government spending, rose as oil shock fuels inflation fears US gross domestic product (GDP) accelerated to an annual rate of 2% in the first three months of 2026, though consumer spending is slowing as the war with Iran continues to impact energy prices. The last GDP reading for the fourth quarter of 2025 showed that US economic growth slowed to a",
+    "drafted_at": "2026-04-30T17:53:45.000234",
+    "data": {
+      "source": "GUARDIAN"
+    },
+    "content_hash": "e4301c8204d16e2b"
+  },
+  {
+    "id": "e4ab94aa",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -469,7 +486,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-04-30T13:10:36.717056",
+    "drafted_at": "2026-04-30T17:53:45.004663",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -477,7 +494,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "09ce71e5",
+    "id": "57b00e6e",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "The herd panics together. The pack profits quietly.",
@@ -487,14 +504,14 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "The herd panics together. The pack profits quietly.",
-    "drafted_at": "2026-04-30T13:10:36.717133",
+    "drafted_at": "2026-04-30T17:53:45.004740",
     "data": {
       "take_seed": "2026-04-30-pack-1"
     },
     "content_hash": "9b0f7be55d8ef71c"
   },
   {
-    "id": "f641de3b",
+    "id": "85660861",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Your alerts didn't go off because the pack got there first.",
@@ -504,7 +521,7 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Your alerts didn't go off because the pack got there first.",
-    "drafted_at": "2026-04-30T13:10:36.717190",
+    "drafted_at": "2026-04-30T17:53:45.004799",
     "data": {
       "take_seed": "2026-04-30-pack-2"
     },
