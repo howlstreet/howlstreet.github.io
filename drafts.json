@@ -1,76 +1,42 @@
 [
   {
-    "id": "1f0d7a12",
-    "format": "LOUD_HOWL",
-    "status": "pending",
-    "draft_text": "If you read one thing today: The global oil price hit $126 a barrel on Thursday, its highest level since 2022, after Donald Trump said the US blockade of Iranian ports could last for months and peace talks remained stalled.\n\nNot since Russia\u2019s 2022 invasion of Ukraine has Brent topped $120, with the price then peaking at $139.\n\nOil later fell back from its four-year high, to about $114 a barrel on Thursday afternoon.\n\nAfter surging more than 13% in 24 hours, the price of Brent crude futures reached its highest price since the war began on 28 February.\n\nOil markets have been spooked this week as Trump appeared willing to maintain the US navy\u2019s blockade of Iranian ports, with Iran responding by keeping the strait of Hormuz all but shut to other oil tankers.\n\nhttps://www.theguardian.com/world/2026/apr/30/oil-price-news-highest-since-2022-us-iran-ceasefire-strait-of-hormuz",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "GUARDIAN",
-    "source_url": "https://www.theguardian.com/world/2026/apr/30/oil-price-news-highest-since-2022-us-iran-ceasefire-strait-of-hormuz",
-    "source_title": "Oil price tops $126 a barrel after Trump warns Iran blockade could last \u2018months\u2019",
-    "source_summary": "Markets spooked as US president appears willing to keep up naval blockade and Iran keeps strait of Hormuz all but shut Business live \u2013 latest updates The global oil price hit $126 a barrel on Thursday, its highest level since 2022, after Donald Trump said the US blockade of Iranian ports could last for months and peace talks remained stalled. After surging more than 13% in 24 hours, the price of B",
-    "drafted_at": "2026-04-30T17:53:44.903486",
-    "data": {
-      "source": "GUARDIAN"
-    },
-    "content_hash": "6779e273a3d299df"
-  },
-  {
-    "id": "f3f21aa6",
+    "id": "3ceed711",
     "format": "MARKET_MOVE",
     "status": "pending",
-    "draft_text": "If your alerts didn't go off, mine did. S&P 500 just hit 7,190.45 \u2014 highest in 9+ years.\n\nThe benchmark of U.S. equities.\n\nWatched globally as the proxy for risk-on / risk-off.\n\nMulti-year high. The pack remembers what comes after these.\n\nhttps://finance.yahoo.com/quote/%5EGSPC",
+    "draft_text": "If your alerts didn't go off, mine did. Nasdaq just hit 24,892.31 \u2014 highest in 9+ years.\n\nTech-heavy index.\n\nLeads risk appetite and is most sensitive to rate moves.\n\nMulti-year high. The pack remembers what comes after these.\n\nhttps://finance.yahoo.com/quote/%5EIXIC",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "Yahoo Finance \u00b7 ^GSPC",
-    "source_url": "https://finance.yahoo.com/quote/%5EGSPC",
-    "source_title": "S&P 500",
-    "source_summary": "The benchmark of U.S. equities. Watched globally as the proxy for risk-on / risk-off.",
-    "drafted_at": "2026-04-30T17:53:44.903784",
+    "primary_source": "Yahoo Finance \u00b7 ^IXIC",
+    "source_url": "https://finance.yahoo.com/quote/%5EIXIC",
+    "source_title": "Nasdaq Composite",
+    "source_summary": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
+    "drafted_at": "2026-04-30T21:38:46.654015",
     "data": {
-      "signal_id": "^GSPC:high:2026-04-30",
+      "signal_id": "^IXIC:high:2026-04-30",
       "kind": "high",
-      "current": "7,190.45"
+      "current": "24,892.31"
     },
-    "content_hash": "3fefe25d3b818aa2"
+    "content_hash": "ce08e8b71b40219b"
   },
   {
-    "id": "d67c6728",
+    "id": "b83013bd",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "BoE update: The Bank of England (BoE) kept rates unchanged at 3.75%, but unlike a passive pause, this was framed as a deliberate and active policy choice.\n\nhttps://www.fxstreet.com/news/boe-recap-an-active-hold-as-inflation-risks-re-emerge-202604301607",
+    "draft_text": "Powell on the wire. \u201cI think there\u2019s a point where standing up to Trump moves into poking the bear with a sharp stick,\u201d one analyst says.\n\nhttps://www.marketwatch.com/story/could-powells-decision-to-stay-worsen-relations-between-the-fed-and-the-white-house-ba91a3f9?mod=mw_rss_topstories",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "BoE",
-    "source_url": "https://www.fxstreet.com/news/boe-recap-an-active-hold-as-inflation-risks-re-emerge-202604301607",
-    "source_title": "BoE recap: An \u201cactive hold\u201d as inflation risks re-emerge",
-    "source_summary": "The Bank of England (BoE) kept rates unchanged at 3.75%, but unlike a passive pause, this was framed as a deliberate and active policy choice.",
-    "drafted_at": "2026-04-30T17:53:44.914867",
+    "primary_source": "Powell",
+    "source_url": "https://www.marketwatch.com/story/could-powells-decision-to-stay-worsen-relations-between-the-fed-and-the-white-house-ba91a3f9?mod=mw_rss_topstories",
+    "source_title": "Could Powell\u2019s decision to stay worsen relations between the Fed and the White House?",
+    "source_summary": "\u201cI think there\u2019s a point where standing up to Trump moves into poking the bear with a sharp stick,\u201d one analyst says.",
+    "drafted_at": "2026-04-30T21:38:46.664726",
     "data": {
-      "actor": "BoE"
+      "actor": "Powell"
     },
-    "content_hash": "7690407b00f2ee5f"
+    "content_hash": "d30336c2dd12d42a"
   },
   {
-    "id": "ff186a37",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "Eurozone policy update: The EUR/GBP falls some 0.16% during the day as the central bank bonanza ends with the ECB and the BoE keeping interest rates unchanged as expected.\n\nThe cross-pair trades at around 0.8644 after reaching a daily high of 0.8667.\n\nhttps://www.fxstreet.com/news/eur-gbp-slips-as-ecb-and-boe-hold-rates-but-hawks-stay-alert-now-202604301603",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "ECB",
-    "source_url": "https://www.fxstreet.com/news/eur-gbp-slips-as-ecb-and-boe-hold-rates-but-hawks-stay-alert-now-202604301603",
-    "source_title": "EUR/GBP slips as ECB and BoE hold rates, but hawks stay alert now",
-    "source_summary": "The EUR/GBP falls some 0.16% during the day as the central bank bonanza ends with the ECB and the BoE keeping interest rates unchanged as expected. The cross-pair trades at around 0.8644 after reaching a daily high of 0.8667.",
-    "drafted_at": "2026-04-30T17:53:44.915201",
-    "data": {
-      "actor": "ECB"
-    },
-    "content_hash": "bc59193696fc0f38"
-  },
-  {
-    "id": "f5ec39e4",
+    "id": "be9aa32e",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Bailey on the wire. Inflation could rise to 6.2% next year, with interest rates peaking at 5.25%, in the event of a prolonged energy shock with oil prices remaining above $130 a barrel, according to a worst-case scenario modelled by the Bank of England.\n\nhttps://news.sky.com/story/bank-of-england-sounds-warning-of-interest-rate-hikes-ahead-13538403",
@@ -80,14 +46,14 @@
     "source_url": "https://news.sky.com/story/bank-of-england-sounds-warning-of-interest-rate-hikes-ahead-13538403",
     "source_title": "Bank of England sounds warning of interest rate hikes ahead",
     "source_summary": "Inflation could rise to 6.2% next year, with interest rates peaking at 5.25%, in the event of a prolonged energy shock with oil prices remaining above $130 a barrel, according to a worst-case scenario modelled by the Bank of England.",
-    "drafted_at": "2026-04-30T17:53:44.915621",
+    "drafted_at": "2026-04-30T21:38:46.665133",
     "data": {
       "actor": "Bank of England"
     },
     "content_hash": "da4c4681c4825f9f"
   },
   {
-    "id": "a7b88e86",
+    "id": "89aa05e5",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "From the Eccles Building: 'additional adjustments to the target range for the federal funds rate'.\n\nhttps://dailycaller.com/2026/04/29/federal-reserve-jerome-powell-committee-interest-rate/",
@@ -97,14 +63,14 @@
     "source_url": "https://dailycaller.com/2026/04/29/federal-reserve-jerome-powell-committee-interest-rate/",
     "source_title": "4 Fed Members Send Jerome Powell Out To Pasture By Bucking Him On Final Interest Rate Decision",
     "source_summary": "'additional adjustments to the target range for the federal funds rate'",
-    "drafted_at": "2026-04-30T17:53:44.915766",
+    "drafted_at": "2026-04-30T21:38:46.665309",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "b1c93d4de3736cc1"
   },
   {
-    "id": "06d0c519",
+    "id": "e390ec37",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "POWELL POSTCARD: The Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run.\n\nIn support of its goals, the Committee decided to maintain the target range for the federal funds rate at 3\u20111/2 to 3\u20113/4 percent.\n\nThe Committee is strongly committed to supporting maximum employment and returning inflation to its 2 percent objective.\n\nDevelopments in the Middle East are contributing to a high level of uncertainty about the economic outlook.\n\nThe Committee is attentive to the risks to both sides of its dual mandate.\n\nIn considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
@@ -114,114 +80,165 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
     "source_title": "Federal Reserve issues FOMC statement",
     "source_summary": "Federal Reserve issues FOMC statement",
-    "drafted_at": "2026-04-30T17:53:44.917357",
+    "drafted_at": "2026-04-30T21:38:46.666932",
     "data": {
       "actor": "FED"
     },
     "content_hash": "8eef4d9ead515d9a"
   },
   {
-    "id": "d23d8a45",
+    "id": "efbc52ed",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "Policy update for the pack: The final rule is being adopted without change from the proposal issued in November 2025.\n\nThe rule will lower the community bank leverage ratio from nine percent to eight percent, which will provide more flexibility for community banks to opt into the framework.\n\nThe final rule also extends the grace period from two quarters to four quarters for a community bank that temporarily falls out of compliance.\n\nThe framework continues to simplify regulatory capital requirements for community banks by allowing them to adopt a relatively simple leverage ratio to measure capital adequacy, rather than calculating and reporting risk-based capital ratios.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260423a.htm",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260423a.htm",
+    "source_title": "Agencies\u202ffinalize\u202fchanges to enhance community bank leverage ratio",
+    "source_summary": "Agencies finalize changes to enhance community bank leverage ratio",
+    "drafted_at": "2026-04-30T21:38:46.667992",
+    "data": {
+      "actor": "FED"
+    },
+    "content_hash": "40abe611cc707028"
+  },
+  {
+    "id": "ed23869c",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$ZBIO insider bought $8,766,667 on 2026-04-28, 4 insiders. \ud83d\udc40\n\nZenas Biopharma, Inc.. 445,613 shares at $19.67.\n\n-5.4% since the purchase.\n\nhttp://openinsider.com/screener?s=ZBIO",
+    "draft_text": "$ZBIO insider bought $8,766,667 on 2026-04-28, 4 insiders. \ud83d\udc40\n\nZenas Biopharma, Inc.. 445,613 shares at $19.67.\n\n-1.8% since the purchase.\n\nhttp://openinsider.com/screener?s=ZBIO",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=ZBIO",
     "source_title": "Zenas Biopharma, Inc. (ZBIO) insider bought $8,766,667",
     "source_summary": "4 insider(s) bought 445,613 shares at $19.67 on 2026-04-28.",
-    "drafted_at": "2026-04-30T17:53:44.918660",
+    "drafted_at": "2026-04-30T21:38:46.668233",
     "data": {
       "ticker": "ZBIO",
       "type": "P",
       "dollar_value": 8766667.0,
-      "pct_since": -5.439754034215938
+      "pct_since": -1.779360982083289
     },
     "content_hash": "d24701154d64814c"
   },
   {
-    "id": "5532f29f",
+    "id": "90bfd01a",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$ARXS insider bought $5,643,792 on 2026-04-17, 7 insiders. \ud83d\udc40\n\nArxis, Inc.. 201,564 shares at $28.00.\n\n+24.2% since the purchase.\n\nhttp://openinsider.com/screener?s=ARXS",
+    "draft_text": "$ARXS insider bought $5,643,792 on 2026-04-17, 7 insiders. \ud83d\udc40\n\nArxis, Inc.. 201,564 shares at $28.00.\n\n+25.0% since the purchase.\n\nhttp://openinsider.com/screener?s=ARXS",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=ARXS",
     "source_title": "Arxis, Inc. (ARXS) insider bought $5,643,792",
     "source_summary": "7 insider(s) bought 201,564 shares at $28.00 on 2026-04-17.",
-    "drafted_at": "2026-04-30T17:53:44.918794",
+    "drafted_at": "2026-04-30T21:38:46.668361",
     "data": {
       "ticker": "ARXS",
       "type": "P",
       "dollar_value": 5643792.0,
-      "pct_since": 24.214281354631698
+      "pct_since": 25.0
     },
     "content_hash": "5599be7fca71592e"
   },
   {
-    "id": "28450306",
+    "id": "eb2f0486",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$IPX insider bought $5,184,906 on 2026-04-28, 3 insiders. \ud83d\udc40\n\nIperionx Ltd. 1,299,212 shares at $3.99.\n\n+739.6% since the purchase.\n\nhttp://openinsider.com/screener?s=IPX",
+    "draft_text": "$IPX insider bought $5,184,906 on 2026-04-28, 3 insiders. \ud83d\udc40\n\nIperionx Ltd. 1,299,212 shares at $3.99.\n\n+739.1% since the purchase.\n\nhttp://openinsider.com/screener?s=IPX",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=IPX",
     "source_title": "Iperionx Ltd (IPX) insider bought $5,184,906",
     "source_summary": "3 insider(s) bought 1,299,212 shares at $3.99 on 2026-04-28.",
-    "drafted_at": "2026-04-30T17:53:44.918921",
+    "drafted_at": "2026-04-30T21:38:46.668471",
     "data": {
       "ticker": "IPX",
       "type": "P",
       "dollar_value": 5184906.0,
-      "pct_since": 739.5989974937343
+      "pct_since": 739.0977328881285
     },
     "content_hash": "1f58cf6860fe0ec7"
   },
   {
-    "id": "559c210d",
+    "id": "3c1c86f1",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$CXIIU insider bought $3,500,000 on 2026-04-29. \ud83d\udc40\n\nChurchill Capital Corp Xii. 350,000 shares at $10.00.\n\n+1.0% since the purchase.\n\nhttp://openinsider.com/screener?s=CXIIU",
+    "draft_text": "$IBATF insider bought $2,745,237 on 2026-04-29. \ud83d\udc40\n\nInternational Battery Metals Ltd.. 34,315,465 shares at $0.08.\n\n+31.9% since the purchase.\n\nhttp://openinsider.com/screener?s=IBATF",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=CXIIU",
-    "source_title": "Churchill Capital Corp Xii (CXIIU) insider bought $3,500,000",
-    "source_summary": "1 insider(s) bought 350,000 shares at $10.00 on 2026-04-29.",
-    "drafted_at": "2026-04-30T17:53:44.919051",
+    "source_url": "http://openinsider.com/screener?s=IBATF",
+    "source_title": "International Battery Metals Ltd. (IBATF) insider bought $2,745,237",
+    "source_summary": "1 insider(s) bought 34,315,465 shares at $0.08 on 2026-04-29.",
+    "drafted_at": "2026-04-30T21:38:46.668586",
     "data": {
-      "ticker": "CXIIU",
+      "ticker": "IBATF",
       "type": "P",
-      "dollar_value": 3500000.0,
-      "pct_since": 1.0499954223632812
+      "dollar_value": 2745237.0,
+      "pct_since": 31.874997168779373
     },
-    "content_hash": "9bd4ae39a75f8ac6"
+    "content_hash": "33dd5de698af2b48"
   },
   {
-    "id": "4949af23",
+    "id": "9f967cbf",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$CHTR insider bought $2,365,149 on 2026-04-28, 3 insiders. \ud83d\udc40\n\nCharter Communications, Inc. /Mo/. 13,664 shares at $173.09.\n\n-6.7% since the purchase.\n\nhttp://openinsider.com/screener?s=CHTR",
+    "draft_text": "$CHTR insider bought $2,365,149 on 2026-04-28, 3 insiders. \ud83d\udc40\n\nCharter Communications, Inc. /Mo/. 13,664 shares at $173.09.\n\n-4.6% since the purchase.\n\nhttp://openinsider.com/screener?s=CHTR",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=CHTR",
     "source_title": "Charter Communications, Inc. /Mo/ (CHTR) insider bought $2,365,149",
     "source_summary": "3 insider(s) bought 13,664 shares at $173.09 on 2026-04-28.",
-    "drafted_at": "2026-04-30T17:53:44.919191",
+    "drafted_at": "2026-04-30T21:38:46.668708",
     "data": {
       "ticker": "CHTR",
       "type": "P",
       "dollar_value": 2365149.0,
-      "pct_since": -6.721935506930103
+      "pct_since": -4.575655341761332
     },
     "content_hash": "7e90154ee021a3ae"
   },
   {
-    "id": "4440f753",
+    "id": "27afa0ee",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Donation processor denying access while organization faces criminal charges.\n\nhttps://www.wnd.com/2026/04/money-laundering-splc-gets-taste-its-own-blacklisting/?utm_source=rss&utm_medium=rss&utm_campaign=money-laundering-splc-gets-taste-its-own-blacklisting",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "WND",
+    "source_url": "https://www.wnd.com/2026/04/money-laundering-splc-gets-taste-its-own-blacklisting/?utm_source=rss&utm_medium=rss&utm_campaign=money-laundering-splc-gets-taste-its-own-blacklisting",
+    "source_title": "\u2018Money laundering\u2019: SPLC gets taste of its own blacklisting practice, gets \u2018debanked\u2019",
+    "source_summary": "Donation processor denying access while organization faces criminal charges",
+    "drafted_at": "2026-04-30T21:38:46.669687",
+    "data": {
+      "source": "WND"
+    },
+    "content_hash": "b447e364c722e710"
+  },
+  {
+    "id": "c79fd454",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "The prediction market will deploy a custom on-chain detection model to flag insider activity.\n\nhttps://thedefiant.io/news/defi/polymarket-taps-chainalysis-to-police-insider-trading",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "THE DEFIANT",
+    "source_url": "https://thedefiant.io/news/defi/polymarket-taps-chainalysis-to-police-insider-trading",
+    "source_title": "Polymarket Taps Chainalysis to Police Insider Trading",
+    "source_summary": "The prediction market will deploy a custom on-chain detection model to flag insider activity.",
+    "drafted_at": "2026-04-30T21:38:46.669865",
+    "data": {
+      "source": "THE DEFIANT"
+    },
+    "content_hash": "98cb4b86d65c7a1d"
+  },
+  {
+    "id": "78891f9b",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Polymarket has selected Chainalysis to flag suspicious trades as insider betting concerns mount and regulators tighten scrutiny on prediction markets.\n\nhttps://cointelegraph.com/news/polymarket-chainalysis-insider-betting-detection-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -231,218 +248,201 @@
     "source_url": "https://cointelegraph.com/news/polymarket-chainalysis-insider-betting-detection-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "source_title": "Insider trading backlash forces Polymarket to step up surveillance",
     "source_summary": "Polymarket has selected Chainalysis to flag suspicious trades as insider betting concerns mount and regulators tighten scrutiny on prediction markets.",
-    "drafted_at": "2026-04-30T17:53:44.922015",
+    "drafted_at": "2026-04-30T21:38:46.670098",
     "data": {
       "source": "COINTELEGRAPH"
     },
     "content_hash": "f9a0c20644761ad0"
   },
   {
-    "id": "d86a333c",
+    "id": "d06674f7",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "Caught. The team-up between Polymarket and Chainalysis aims to bring institutional-grade compliance monitoring to crypto prediction markets.\n\nhttps://decrypt.co/366177/polymarket-launches-market-integrity-tools-following-soldiers-insider-trading-arrest",
+    "draft_text": "David Morens tried to keep a scientific discussion under wraps.\n\nTrump's latest anti-science attack explains why\n\nhttps://www.latimes.com/business/story/2026-04-30/in-effort-to-revive-a-discredited-theory-on-covid-origins-doj-indicts-ex-fauci-aide-over-old-emails",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "DECRYPT",
-    "source_url": "https://decrypt.co/366177/polymarket-launches-market-integrity-tools-following-soldiers-insider-trading-arrest",
-    "source_title": "Polymarket Launches Market Integrity Tools Following Soldier\u2019s Insider Trading Arrest",
-    "source_summary": "The team-up between Polymarket and Chainalysis aims to bring institutional-grade compliance monitoring to crypto prediction markets.",
-    "drafted_at": "2026-04-30T17:53:44.922234",
+    "primary_source": "LA TIMES",
+    "source_url": "https://www.latimes.com/business/story/2026-04-30/in-effort-to-revive-a-discredited-theory-on-covid-origins-doj-indicts-ex-fauci-aide-over-old-emails",
+    "source_title": "Hiltzik: Resurrecting a discredited theory on COVID's origin, DOJ indicts an ex-Fauci aide over old emails",
+    "source_summary": "David Morens tried to keep a scientific discussion under wraps. Trump's latest anti-science attack explains why",
+    "drafted_at": "2026-04-30T21:38:46.670320",
     "data": {
-      "source": "DECRYPT"
+      "source": "LA TIMES"
     },
-    "content_hash": "55b552192def31cc"
+    "content_hash": "6f7f7c12e916cdb8"
   },
   {
-    "id": "7111d0c9",
+    "id": "b0802c4a",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "RETAIL BEWARE: Polymarket partnered with Chainalysis to detect insider trading and suspicious activity as prediction markets face rising scrutiny.\n\nThe post Polymarket adds Chainalysis tools to detect insider trading appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/polymarket-insider-trading-detection-tools/",
+    "draft_text": "The Oversight committee chairman is asking Administrator Mehmet Oz of the Centers for Medicare and Medicaid Services to prepare a staff level briefing as part of an investigation into how the system is contributing to improper billing and higher costs for patients and taxpayers.\n\nhttps://justthenews.com/accountability/waste-fraud-and-abuse/comer-raises-concerns-complexity-federal-healthcare-billion?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "JUST THE NEWS",
+    "source_url": "https://justthenews.com/accountability/waste-fraud-and-abuse/comer-raises-concerns-complexity-federal-healthcare-billion?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+    "source_title": "Comer raises concerns that complexity of federal healthcare billing system is vulnerable to fraud",
+    "source_summary": "The Oversight committee chairman is asking Administrator Mehmet Oz of the Centers for Medicare and Medicaid Services to prepare a staff level briefing as part of an investigation into how the system is contributing to improper billing and higher costs for patients and taxpayers.",
+    "drafted_at": "2026-04-30T21:38:46.670747",
+    "data": {
+      "source": "JUST THE NEWS"
+    },
+    "content_hash": "dfa0d388d275d481"
+  },
+  {
+    "id": "edbaa66f",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "PACK BRIEFING \u2014 AMERICAS: MEXICO CITY, April 30, 2026 (GLOBE NEWSWIRE) -- Grupo Aerom\u00e9xico S.A.B. de C.V. (NYSE: AERO & BMV: AERO, \u201cAerom\u00e9xico\u201d or the \u201cCompany\u201d) announced today that it has filed its annual report on Form 20-F for the fiscal year ended December 31, 2025, with the United States Securities and Exchange Commission.\n\nThe report is required due to the Company\u2019s ongoing listing of American Depositary Shares in the United States.\n\nhttps://www.globenewswire.com/news-release/2026/04/30/3285570/0/en/Aerom%C3%A9xico-files-Annual-Report-on-Form-20-F.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "GLOBENEWSWIRE",
+    "source_url": "https://www.globenewswire.com/news-release/2026/04/30/3285570/0/en/Aerom%C3%A9xico-files-Annual-Report-on-Form-20-F.html",
+    "source_title": "Aerom\u00e9xico files Annual Report on Form 20-F",
+    "source_summary": "MEXICO CITY, April 30, 2026 (GLOBE NEWSWIRE) -- Grupo Aerom\u00e9xico S.A.B. de C.V. (NYSE: AERO & BMV: AERO, \u201cAerom\u00e9xico\u201d or the \u201cCompany\u201d) announced today that it has filed its annual report on Form 20-F for the fiscal year ended December 31, 2025, with the United States Securities and Exchange Commission. The report is required due to the Company\u2019s ongoing listing of American Depositary Shares in th",
+    "drafted_at": "2026-04-30T21:38:46.672667",
+    "data": {
+      "source": "GLOBENEWSWIRE"
+    },
+    "content_hash": "96158af9af31b814"
+  },
+  {
+    "id": "736b169b",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "MIDDLE EAST DESK: Internal power struggles in Iran may destabilize leadership, reducing chances for US-Iran diplomacy and impacting regional geopolitics.\n\nThe post Iranian leaders push to dismiss foreign minister amid internal power struggle appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iranian-leaders-push-to-dismiss-foreign-minister-amid-internal-power-struggle/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/polymarket-insider-trading-detection-tools/",
-    "source_title": "Polymarket adds Chainalysis tools to detect insider trading",
-    "source_summary": "Polymarket partnered with Chainalysis to detect insider trading and suspicious activity as prediction markets face rising scrutiny. The post Polymarket adds Chainalysis tools to detect insider trading appeared first on Crypto Briefing .",
-    "drafted_at": "2026-04-30T17:53:44.922589",
+    "source_url": "https://cryptobriefing.com/iranian-leaders-push-to-dismiss-foreign-minister-amid-internal-power-struggle/",
+    "source_title": "Iranian leaders push to dismiss foreign minister amid internal power struggle",
+    "source_summary": "Internal power struggles in Iran may destabilize leadership, reducing chances for US-Iran diplomacy and impacting regional geopolitics. The post Iranian leaders push to dismiss foreign minister amid internal power struggle appeared first on Crypto Briefing .",
+    "drafted_at": "2026-04-30T21:38:46.673201",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "3e444bd2004d0674"
+    "content_hash": "3ab059b0cb7397b4"
   },
   {
-    "id": "14b7fd96",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Some market watchers liken Strategy's STRC preferred stock to a \"circular\" Ponzi scheme model, but Benchmark disagrees.\n\nhttps://www.theblock.co/post/399609/not-circular-benchmark-defends-strategys-strc-bitcoin-accumulation-model?utm_source=rss&utm_medium=rss",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "THE BLOCK",
-    "source_url": "https://www.theblock.co/post/399609/not-circular-benchmark-defends-strategys-strc-bitcoin-accumulation-model?utm_source=rss&utm_medium=rss",
-    "source_title": "\u2018Not circular\u2019: Benchmark defends Strategy\u2019s STRC bitcoin accumulation model",
-    "source_summary": "Some market watchers liken Strategy's STRC preferred stock to a \"circular\" Ponzi scheme model, but Benchmark disagrees.",
-    "drafted_at": "2026-04-30T17:53:44.922800",
-    "data": {
-      "source": "THE BLOCK"
-    },
-    "content_hash": "a3b545e450abdc6c"
-  },
-  {
-    "id": "6a7d99a0",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Pack \u2014 defensive read: Wasabi Protocol is the latest victim in what appears to be a record bad month for DeFi hacks.\n\nhttps://thedefiant.io/news/hacks/wasabi-protocol-hack",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "THE DEFIANT",
-    "source_url": "https://thedefiant.io/news/hacks/wasabi-protocol-hack",
-    "source_title": "Wasabi Loses $5M+ in Latest DeFi Exploit",
-    "source_summary": "Wasabi Protocol is the latest victim in what appears to be a record bad month for DeFi hacks.",
-    "drafted_at": "2026-04-30T17:53:44.923010",
-    "data": {
-      "source": "THE DEFIANT"
-    },
-    "content_hash": "9ece3ee229c6f74f"
-  },
-  {
-    "id": "306ea481",
+    "id": "022360b7",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "World wire: The group resignation caps months of political tensions over Moscow\u2019s return to the prestigious art show.\n\nhttps://www.politico.eu/article/venice-biennale-jury-quits-over-decision-allow-russia-participation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+    "draft_text": "MIDDLE EAST DESK: Believed to be offering support and supplies, short of actual involvement.\n\nhttps://www.wnd.com/2026/04/they-scheme-undermine-americas-objectives-report-confirms-russia/?utm_source=rss&utm_medium=rss&utm_campaign=they-scheme-undermine-americas-objectives-report-confirms-russia",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "POLITICO EU",
-    "source_url": "https://www.politico.eu/article/venice-biennale-jury-quits-over-decision-allow-russia-participation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-    "source_title": "Venice Biennale jury quits over decision to allow Russia\u2019s participation",
-    "source_summary": "The group resignation caps months of political tensions over Moscow\u2019s return to the prestigious art show.",
-    "drafted_at": "2026-04-30T17:53:44.927004",
+    "primary_source": "WND",
+    "source_url": "https://www.wnd.com/2026/04/they-scheme-undermine-americas-objectives-report-confirms-russia/?utm_source=rss&utm_medium=rss&utm_campaign=they-scheme-undermine-americas-objectives-report-confirms-russia",
+    "source_title": "\u2018They scheme to undermine America\u2019s objectives\u2019: Report confirms Russia taking \u2018action\u2019 on behalf of Iran",
+    "source_summary": "Believed to be offering support and supplies, short of actual involvement",
+    "drafted_at": "2026-04-30T21:38:46.673586",
     "data": {
-      "source": "POLITICO EU"
+      "source": "WND"
     },
-    "content_hash": "5cf8f9bcf4214ff3"
+    "content_hash": "c01d097f3213ecc5"
   },
   {
-    "id": "23ed3725",
+    "id": "55efff74",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Mainland wire: South Africa's communications minister says that human oversight is sorely needed in the age of artificial intelligence.\n\nThe reason stems from a draft of the country's new AI policy, which leaders hoped would address concerns about ethics and regulations related to the technology.\n\n'There will be consequence management for those responsible.' The country's Minister of Communications and Digital Technologies, Mmoba Solomon Malatsi, made a shocking admission that he would be withdrawing the national AI framework after its integrity had been \"compromised.\" Malatsi took to his X page on Sunday to explain that an internal review confirmed the policy included fake citations, likely generated by AI.\n\n\"The Draft... contains various fictitious sources in its reference list,\" the minister wrote.\n\nThe draft had been made available to allow for public comment, but scrutiny over the fake sources sparked a review after just three weeks.\n\n\"This failure is not a mere technical issue but has compromised the integrity and credibility of the draft policy,\" the politician continued.\n\n\"The most plausible explanation is that AI-generated citations were included without proper verification.\n\nThis should not have happened.\" The 40-year-old said the incident proves why \"vigilant human oversight over the use of artificial intelligence is critical.\" RELATED: This Big Tech patent tracks your brain, eyes, and body \u2014 with earbuds The policy draft outlined a new National AI Commission, ethics board, and regulatory authority around AI that would coordinate to enforce new policies and ethical standards, Reuters reported.\n\nhttps://www.theblaze.com/return/south-africa-ai-policy-withdrawal",
+    "draft_text": "CHINA DESK: China's AI advancements may prompt Western firms to reassess strategies, potentially altering global AI market leadership dynamics.\n\nThe post DeepMind CEO highlights China\u2019s AI advancements challenging Google\u2019s dominance appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/deepmind-ceo-highlights-chinas-ai-advancements-challenging-googles-dominance/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "THE BLAZE",
-    "source_url": "https://www.theblaze.com/return/south-africa-ai-policy-withdrawal",
-    "source_title": "A national AI policy was drafted using AI. It cited fake sources.",
-    "source_summary": "South Africa's communications minister says that human oversight is sorely needed in the age of artificial intelligence. The reason stems from a draft of the country's new AI policy, which leaders hoped would address concerns about ethics and regulations related to the technology. 'There will be consequence management for those responsible.' The country's Minister of Communications and Digital Tec",
-    "drafted_at": "2026-04-30T17:53:44.929452",
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/deepmind-ceo-highlights-chinas-ai-advancements-challenging-googles-dominance/",
+    "source_title": "DeepMind CEO highlights China\u2019s AI advancements challenging Google\u2019s dominance",
+    "source_summary": "China's AI advancements may prompt Western firms to reassess strategies, potentially altering global AI market leadership dynamics. The post DeepMind CEO highlights China\u2019s AI advancements challenging Google\u2019s dominance appeared first on Crypto Briefing .",
+    "drafted_at": "2026-04-30T21:38:46.674228",
     "data": {
-      "source": "THE BLAZE"
+      "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "de3a196a638ca580"
+    "content_hash": "a9d9c164e78f563f"
   },
   {
-    "id": "9e8dff8f",
+    "id": "bcc6d925",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Cross-border read: Pinterest uses a multimodal generative AI strategy to lower computing costs.\n\nTheir approach includes OpenAI's and Alibaba's large language models.\n\nhttps://www.businessinsider.com/multimodal-generative-ai-pinterest-open-closed-source-llms-2026-4",
+    "draft_text": "Levant update: Pentagon chief testifies alongside top general for second day, in first public Congressional hearings since war began.\n\nhttps://www.aljazeera.com/news/2026/4/30/hegseth-testifies-on-iran-war-before-senate-committee-key-takeaways?traffic_source=rss",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "BUSINESS INSIDER",
-    "source_url": "https://www.businessinsider.com/multimodal-generative-ai-pinterest-open-closed-source-llms-2026-4",
-    "source_title": "Inside Pinterest's efforts to replace expensive AI with open-source models",
-    "source_summary": "Pinterest uses a multimodal generative AI strategy to lower computing costs. Their approach includes OpenAI's and Alibaba's large language models.",
-    "drafted_at": "2026-04-30T17:53:44.929955",
+    "primary_source": "AL JAZEERA",
+    "source_url": "https://www.aljazeera.com/news/2026/4/30/hegseth-testifies-on-iran-war-before-senate-committee-key-takeaways?traffic_source=rss",
+    "source_title": "Hegseth testifies on Iran war before Senate committee: Key takeaways",
+    "source_summary": "Pentagon chief testifies alongside top general for second day, in first public Congressional hearings since war began.",
+    "drafted_at": "2026-04-30T21:38:46.674418",
     "data": {
-      "source": "BUSINESS INSIDER"
+      "source": "AL JAZEERA"
     },
-    "content_hash": "b88aafab64448da2"
+    "content_hash": "fb32c64e5ca59c19"
   },
   {
-    "id": "9d96ef51",
-    "format": "GLOBAL_DESK",
+    "id": "c2666f80",
+    "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "Gulf wire: The Pakistani leaks are starting again and say they expect a revised Iranian proposal to end the war by the end of the week.\n\nWe've certainly heard that kind of thing before but let's hope it's for real this time.\n\nThat's from MS Now who reports this: Two Pakistani officials in Islamabad with direct knowledge of the talks between the U.S. and Iran told MS NOW they expect a revised Iranian proposal to end the war by the end of the week.\n\nThe officials, who spoke on condition of anonymity given the sensitivity around the talks, said they will then share Iran\u2019s proposal with U.S. negotiators and push for an in-person meeting between both sides early next week.\n\nBoth the U.S. and Iran are \u201cfocused on diplomatic solutions\u201d to bring the war to an end, they said.\n\nSecondly, this is a strange one: Al-Arabiya cites a Channel 12 report, which is an Israeli TV station but says that Israel is preparing to announce the failure of negotiations with Iran It's odd because Israel isn't negotiating with Iran, the US is.\n\nIsrael is negotiating with Lebanon so maybe something is lost in translation along the way.\n\nI also don't think anyone knows what Trump will announce (including perhaps Trump himself) so I would be skeptical of this report, but it's making the rounds.\n\nhttps://investinglive.com/news/pakistani-officials-say-they-expect-new-iran-proposal-this-week-report-20260430/",
+    "draft_text": "Growth read just printed. Catch up on the stories we\u2019re following today.\n\nhttps://financialpost.com/uncategorized/news-of-the-day-canada-gdp-ontario-nuclear-reactor-whitecap-earnings-tax-instalments-economists-reaction-and-more",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FINANCIAL POST",
+    "source_url": "https://financialpost.com/uncategorized/news-of-the-day-canada-gdp-ontario-nuclear-reactor-whitecap-earnings-tax-instalments-economists-reaction-and-more",
+    "source_title": "News of the day: Canada GDP, Ontario nuclear reactor, Whitecap earnings, tax instalments, economists\u2019 reaction and more",
+    "source_summary": "Catch up on the stories we\u2019re following today",
+    "drafted_at": "2026-04-30T21:38:46.733995",
+    "data": {
+      "source": "FINANCIAL POST"
+    },
+    "content_hash": "33e8737cb9c9a4ae"
+  },
+  {
+    "id": "ae741f84",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "Inflation update: China begins 5 days of holidays today, back on May 6.\n\nFrom Japan we get Tokyo area CPI for April.\n\nI'll have more to come on this separately.\n\nYen traders will be grappling with the echoes of the intervention ( 1, 2 ) that drove USD/JPY down from 160.\n\nThis article was written by Eamonn Sheridan at investinglive.com.\n\nhttps://investinglive.com/news/economic-event-calendar-in-asia-may-1-2026-japan-tokyo-inflation-china-holiday-20260430/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/pakistani-officials-say-they-expect-new-iran-proposal-this-week-report-20260430/",
-    "source_title": "Pakistani officials say they expect new Iran proposal this week",
-    "source_summary": "The Pakistani leaks are starting again and say they expect a revised Iranian proposal to end the war by the end of the week. We've certainly heard that kind of thing before but let's hope it's for real this time. That's from MS Now who reports this: Two Pakistani officials in Islamabad with direct knowledge of the talks between the U.S. and Iran told MS NOW they expect a revised Iranian proposal t",
-    "drafted_at": "2026-04-30T17:53:44.932167",
+    "source_url": "https://investinglive.com/news/economic-event-calendar-in-asia-may-1-2026-japan-tokyo-inflation-china-holiday-20260430/",
+    "source_title": "Economic & event calendar in Asia, May 1, 2026 - Japan (tokyo) inflation, China holiday",
+    "source_summary": "China begins 5 days of holidays today, back on May 6. From Japan we get Tokyo area CPI for April. I'll have more to come on this separately. Yen traders will be grappling with the echoes of the intervention ( 1 , 2 ) that drove USD/JPY down from 160. This article was written by Eamonn Sheridan at investinglive.com.",
+    "drafted_at": "2026-04-30T21:38:46.734407",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "edfe1ae2d087c3cd"
+    "content_hash": "30167d9e21147bdb"
   },
   {
-    "id": "5759819d",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Levant update: The Strait of Hormuz blockade has removed roughly 9 million barrels per day of crude supply from the global market, and replacement barrels are not keeping pace, according to a new report by Vortexa.\n\nU.S. Gulf Coast crude oil exports have reached record highs, although this has been in large part supported by releases from the Strategic Petroleum Reserve.\n\nAdditional volumes are moving through alternative routes, including pipelines via Yanbu, Fujairah, and Ceyhan, which add about 3.6 million bpd back into the system.\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Net-Crude-Supply-Loss-is-9-Million-Bpd-Despite-Surge-in-Atlantic-Exports-Vortex.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "OILPRICE",
-    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Net-Crude-Supply-Loss-is-9-Million-Bpd-Despite-Surge-in-Atlantic-Exports-Vortex.html",
-    "source_title": "Net Crude Supply Loss is 9 Million Bpd Despite Surge in Atlantic Exports: Vortex",
-    "source_summary": "The Strait of Hormuz blockade has removed roughly 9 million barrels per day of crude supply from the global market, and replacement barrels are not keeping pace, according to a new report by Vortexa. U.S. Gulf Coast crude oil exports have reached record highs, although this has been in large part supported by releases from the Strategic Petroleum Reserve. Additional volumes are moving through alte",
-    "drafted_at": "2026-04-30T17:53:44.933123",
-    "data": {
-      "source": "OILPRICE"
-    },
-    "content_hash": "c15d691c31141eb4"
-  },
-  {
-    "id": "b05e9602",
+    "id": "71f6c578",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "From the inflation desk: Charles Schwab\u2019s Nathan Peterson, director of derivatives research and strategy at the Schwab Center for Financial Research, summed up the split tape after Wednesday\u2019s mega-cap tech reports with a clear thesis on the Schwab Market Update Audio episode \u201cMag 7 Earnings, GDP, and Inflation In-Focus.\u201d Four titans reported, all four beat, and only one stock...\n\n3 of 4 Mag 7 Tech Giants Slumped on CapEx Concerns Despite Beating Earnings\n\nhttps://247wallst.com/investing/2026/04/30/3-of-4-mag-7-tech-giants-slumped-on-capex-concerns-despite-beating-earnings/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "247 WALL ST",
-    "source_url": "https://247wallst.com/investing/2026/04/30/3-of-4-mag-7-tech-giants-slumped-on-capex-concerns-despite-beating-earnings/",
-    "source_title": "3 of 4 Mag 7 Tech Giants Slumped on CapEx Concerns Despite Beating Earnings",
-    "source_summary": "Charles Schwab\u2019s Nathan Peterson, director of derivatives research and strategy at the Schwab Center for Financial Research, summed up the split tape after Wednesday\u2019s mega-cap tech reports with a clear thesis on the Schwab Market Update Audio episode \u201cMag 7 Earnings, GDP, and Inflation In-Focus.\u201d Four titans reported, all four beat, and only one stock ... 3 of 4 Mag 7 Tech Giants Slumped on CapEx",
-    "drafted_at": "2026-04-30T17:53:44.996228",
-    "data": {
-      "source": "247 WALL ST"
-    },
-    "content_hash": "777ea3a6b1b291ca"
-  },
-  {
-    "id": "4440970e",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "From the inflation desk: In the 12 months through March, PCE inflation shot up 3.5%, the biggest rise since May 2023 and above the Fed's 2% target.\n\nhttps://nypost.com/2026/04/30/business/feds-preferred-inflation-gauge-hits-3-year-high-as-gas-prices-spiked-on-iran-war/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "NY POST",
-    "source_url": "https://nypost.com/2026/04/30/business/feds-preferred-inflation-gauge-hits-3-year-high-as-gas-prices-spiked-on-iran-war/",
-    "source_title": "Fed\u2019s preferred inflation gauge hits 3-year high as gas prices spiked on Iran war",
-    "source_summary": "In the 12 months through March, PCE inflation shot up 3.5%, the biggest rise since May 2023 and above the Fed's 2% target.",
-    "drafted_at": "2026-04-30T17:53:44.996469",
-    "data": {
-      "source": "NY POST"
-    },
-    "content_hash": "60ef5dc4351008e6"
-  },
-  {
-    "id": "de11bdf3",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "How sticky is inflation? Let's see: I often write that the industrial revolution was the biggest thing to happen in human history but we might be re-writing history right now.\n\nI want to underscore the amount of spending that's going into AI right now because the numbers are almost unfathomable, something I touched on yesterday.\n\nGoogle, Amazon, Microsoft, and Meta collectively plan to spend $725 billion on capex in 2026, up 77% from last year's record $410 billion.\n\nOpenAI will also spend $100-$125 billion and Anthropic might be in the $50 billion range.\n\nIn China, they're likely to be spending somewhere in the $100-$200 billion range and then you can add in another $100-$200 billion in costs for power, the grid, cooling, gas turbines, substations and land.\n\nAll in, that's somewhere in the $900 billion to $1.3 trillion range for this year alone, and no one is indicating any slowdown from there (at least not yet).\n\nThese are truly staggering numbers that I want to put into perspective: That's around double the cost of the entire 35-year project of building the US interstate highway system, which took 35 years (inflation adjusted) Slightly below the entire UK government budget and roughly double Germany's federal budget About 1.5x Japan's budget Larger than the GDP of every country except the USA About 4x larger than the multi-year Apollo project to put a man on the moon (inflation adjusted) Apollo spending peaked at 4.4% of Federal spending, AI capex right now is equivalent to 15-20% of US government spending Here is the big one: The estimated total spending on WWII in today's dollars was $4-7 trillion, globally for the duration of the war.\n\nAt this pace, AI spending will match that.\n\nhttps://investinglive.com/news/ai-infrastructure-spending-is-the-largest-non-war-project-in-human-history-20260430/",
+    "draft_text": "Inflation update: Japan intervened in the FX market -- report Trump: Iran is dying to make a deal with us US initial jobless claims 189K vs 215K estimate US Q1 advance GDP +2.0% vs +2.3% expected US March PCE inflation +3.5% y/y vs +3.5% expected Canada February GDP +0.2% vs +0.2% expected ECB rate decision: No change, as expected ECB's Lagarde: Most measures of longer term inflation stand around 2% Pakistani officials say they expect new Iran proposal this week - report AI infrastructure spending is the largest non-war project in human history Euro rises as report says the ECB very likely to hike in June Trump considers plan to deepen the blockade on Iran with allies - report Markets: S&P 500 up 1.2% to record high Russell 2000 up 2.1% WTI crude down $1.82 to $105.07 Gold up $73 to $4615 US 10-year yields down 2.2 bps to 4.39% JPY leads, USD lags The big question today: Were the moves position squaring ahead of month end, or a better view on the war?\n\nMany of the big moves were reversals of the trend this month, or at least of the past week.\n\nThat's a move that looks like a 'peace' trade but there wasn't any (public) indications of a breakthrough on Iran, or even talks.\n\nThere are reports that Iran is readying another proposal and the usual rumors about peace but overall it was quiet on the Iran front.\n\nThe big news in earlier trade was the surge in the yen.\n\nThere was some pointed and harsh talk about intervention beforehand but it wasn't clear if it was actually intervention, a rate check or the strong words that caused the drop.\n\nA report from Nikkei confirmed it was intervention but the pair traded mostly sideways in New York.\n\nThat wasn't the case for the euro as it initially declined on the ECB decision and press conference because there wasn't the expected strong hawkish bias.\n\nhttps://investinglive.com/news/investinglive-americas-market-news-wrap-yen-surges-after-intervention-stock-markets-soar-20260430/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/ai-infrastructure-spending-is-the-largest-non-war-project-in-human-history-20260430/",
-    "source_title": "AI infrastructure spending is the largest non-war project in human history",
-    "source_summary": "I often write that the industrial revolution was the biggest thing to happen in human history but we might be re-writing history right now. I want to underscore the amount of spending that's going into AI right now because the numbers are almost unfathomable, something I touched on yesterday. Google, Amazon, Microsoft, and Meta collectively plan to spend $725 billion on capex in 2026, up 77% from ",
-    "drafted_at": "2026-04-30T17:53:44.998548",
+    "source_url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-yen-surges-after-intervention-stock-markets-soar-20260430/",
+    "source_title": "investingLive Americas market news wrap: Yen surges after intervention, Stock markets soar",
+    "source_summary": "Japan intervened in the FX market -- report Trump: Iran is dying to make a deal with us US initial jobless claims 189K vs 215K estimate US Q1 advance GDP +2.0% vs +2.3% expected US March PCE inflation +3.5% y/y vs +3.5% expected Canada February GDP +0.2% vs +0.2% expected ECB rate decision: No change, as expected ECB's Lagarde: Most measures of longer term inflation stand around 2% Pakistani offic",
+    "drafted_at": "2026-04-30T21:38:46.736508",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "75d1a70a3f0b3e4b"
+    "content_hash": "248d2f47e7657be9"
   },
   {
-    "id": "80edfc9a",
+    "id": "14e6802a",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "Growth read just printed. Commerzbank analysts describe India\u2019s growth backdrop as solid, with GDP expected around 6.5% in fiscal 2026\u20132027, supported by domestic demand, GST 2.0 reforms, and investment-friendly budgets.\n\nhttps://www.fxstreet.com/news/india-growth-resilient-but-risks-building-commerzbank-202604301835",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/india-growth-resilient-but-risks-building-commerzbank-202604301835",
+    "source_title": "India: Growth resilient but risks building \u2013 Commerzbank",
+    "source_summary": "Commerzbank analysts describe India\u2019s growth backdrop as solid, with GDP expected around 6.5% in fiscal 2026\u20132027, supported by domestic demand, GST 2.0 reforms, and investment-friendly budgets.",
+    "drafted_at": "2026-04-30T21:38:46.736866",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "261f13095e473f82"
+  },
+  {
+    "id": "1c113919",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "Growth read just printed. Peter Navarro, RCM Today's advance estimate of Q1 GDP tells us the Trump economy is growing.\n\nhttps://www.realclearmarkets.com/2026/04/30/gdp_durable_goods_show_trump_economy_reindustrializing_1180038.html",
@@ -452,31 +452,14 @@
     "source_url": "https://www.realclearmarkets.com/2026/04/30/gdp_durable_goods_show_trump_economy_reindustrializing_1180038.html",
     "source_title": "GDP, Durable Goods Show Trump Economy Reindustrializing",
     "source_summary": "Peter Navarro, RCM Today's advance estimate of Q1 GDP tells us the Trump economy is growing. Business investment is surging. The private...",
-    "drafted_at": "2026-04-30T17:53:44.998729",
+    "drafted_at": "2026-04-30T21:38:46.737032",
     "data": {
       "source": "REALCLEAR"
     },
     "content_hash": "b9b0da1e288d40d0"
   },
   {
-    "id": "187ce3f0",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "From the inflation desk: US gross domestic product (GDP) accelerated to an annual rate of 2% in the first three months of 2026, though consumer spending is slowing as the war with Iran continues to impact energy prices.\n\nThe last GDP reading for the fourth quarter of 2025 showed that US economic growth slowed to an annual pace of 0.5%, largely due to a contraction in government spending after massive layoffs of federal workers last year.\n\nBut government spending jumped 10% since last quarter, going from a 5.4% contraction last quarter to a 4.4% increase at the start of 2026.\n\nGDP data is released by the commerce department and measures a country\u2019s spending and investment as a way to gauge economic growth.\n\nhttps://www.theguardian.com/business/2026/apr/30/gdp-consumer-spending-slows-iran-war",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "GUARDIAN",
-    "source_url": "https://www.theguardian.com/business/2026/apr/30/gdp-consumer-spending-slows-iran-war",
-    "source_title": "US economic growth rebounds 2% as consumer spending slows amid Iran war",
-    "source_summary": "First quarter output, driven by AI investment and government spending, rose as oil shock fuels inflation fears US gross domestic product (GDP) accelerated to an annual rate of 2% in the first three months of 2026, though consumer spending is slowing as the war with Iran continues to impact energy prices. The last GDP reading for the fourth quarter of 2025 showed that US economic growth slowed to a",
-    "drafted_at": "2026-04-30T17:53:45.000234",
-    "data": {
-      "source": "GUARDIAN"
-    },
-    "content_hash": "e4301c8204d16e2b"
-  },
-  {
-    "id": "e4ab94aa",
+    "id": "c04fb527",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -486,7 +469,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-04-30T17:53:45.004663",
+    "drafted_at": "2026-04-30T21:38:46.742155",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -494,7 +477,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "57b00e6e",
+    "id": "0d23e259",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "The herd panics together. The pack profits quietly.",
@@ -504,14 +487,14 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "The herd panics together. The pack profits quietly.",
-    "drafted_at": "2026-04-30T17:53:45.004740",
+    "drafted_at": "2026-04-30T21:38:46.742232",
     "data": {
       "take_seed": "2026-04-30-pack-1"
     },
     "content_hash": "9b0f7be55d8ef71c"
   },
   {
-    "id": "85660861",
+    "id": "44a0c3f7",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Your alerts didn't go off because the pack got there first.",
@@ -521,7 +504,7 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Your alerts didn't go off because the pack got there first.",
-    "drafted_at": "2026-04-30T17:53:45.004799",
+    "drafted_at": "2026-04-30T21:38:46.742297",
     "data": {
       "take_seed": "2026-04-30-pack-2"
     },
