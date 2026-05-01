@@ -1,16 +1,30 @@
 {
-  "^IXIC:high:2026-04-30": {
-    "headline": "Nasdaq just hit 24,892.31 \u2014 highest in 9+ years",
-    "matters": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
-    "source": "Yahoo Finance \u00b7 ^IXIC",
+  "^VIX:move:2026-04-30": {
+    "headline": "VIX tumbles 10.5% in 5 sessions to 16.89",
+    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "source": "CBOE \u00b7 ^VIX",
     "chart_path": null,
-    "signal_id": "^IXIC:high:2026-04-30",
-    "current_str": "24,892.31",
-    "label": "Nasdaq Composite",
-    "hashtags": "#Nasdaq #Tech #Stocks",
-    "kind": "high",
-    "badge": "9Y HIGH",
-    "data_url": "https://finance.yahoo.com/quote/%5EIXIC",
-    "fired_at": "2026-04-30T21:38:44.208379"
+    "signal_id": "^VIX:move:2026-04-30",
+    "current_str": "16.89",
+    "label": "VIX (S&P 500 volatility)",
+    "hashtags": "#VIX #Volatility #Markets",
+    "kind": "move_down",
+    "badge": "-10.5%",
+    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "fired_at": "2026-05-01T07:18:52.604327"
+  },
+  "CL=F:move:2026-05-01": {
+    "headline": "WTI crude surges 14.8% in 5 sessions to $105.72",
+    "matters": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "source": "NYMEX \u00b7 CL=F",
+    "chart_path": null,
+    "signal_id": "CL=F:move:2026-05-01",
+    "current_str": "$105.72",
+    "label": "WTI crude oil futures",
+    "hashtags": "#Oil #WTI #Energy #Commodities",
+    "kind": "move_up",
+    "badge": "+14.8%",
+    "data_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "fired_at": "2026-05-01T07:18:52.604327"
   }
 }
