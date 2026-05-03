@@ -1,40 +1,78 @@
 [
   {
-    "id": "1125ae11",
+    "id": "78f5dc50",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "The story the pack is talking about: The continued blockade exacerbates geopolitical tensions, impacting economic stability and reducing market confidence in a near-term resolution.\n\nThe post Trump rejects Iran proposal, Strait of Hormuz blockade remains appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/trump-rejects-iran-proposal-strait-of-hormuz-blockade-remains/",
+    "draft_text": "TODAY'S LOUDEST HOWL: The closure of the Strait of Hormuz heightens inflation risks, complicating monetary policy and reducing the likelihood of Fed rate cuts.\n\nThe post Iran closes Strait of Hormuz, oil prices surge amid US-Iran conflict appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iran-closes-strait-of-hormuz-oil-prices-surge-amid-us-iran-conflict/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/trump-rejects-iran-proposal-strait-of-hormuz-blockade-remains/",
-    "source_title": "Trump rejects Iran proposal, Strait of Hormuz blockade remains",
-    "source_summary": "The continued blockade exacerbates geopolitical tensions, impacting economic stability and reducing market confidence in a near-term resolution. The post Trump rejects Iran proposal, Strait of Hormuz blockade remains appeared first on Crypto Briefing .",
-    "drafted_at": "2026-05-02T12:06:27.757680",
+    "source_url": "https://cryptobriefing.com/iran-closes-strait-of-hormuz-oil-prices-surge-amid-us-iran-conflict/",
+    "source_title": "Iran closes Strait of Hormuz, oil prices surge amid US-Iran conflict",
+    "source_summary": "The closure of the Strait of Hormuz heightens inflation risks, complicating monetary policy and reducing the likelihood of Fed rate cuts. The post Iran closes Strait of Hormuz, oil prices surge amid US-Iran conflict appeared first on Crypto Briefing .",
+    "drafted_at": "2026-05-03T00:09:05.697258",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "9c255719ee8f02c9"
+    "content_hash": "b313bb084364c78a"
   },
   {
-    "id": "9d3c3d6a",
-    "format": "POLICY_READ",
+    "id": "f58b8ca5",
+    "format": "MARKET_MOVE",
     "status": "pending",
-    "draft_text": "EURO RATES READ: The European Central Bank is leaning toward lifting interest rates as soon as next month unless there are positive developments on energy prices and ending the Iran war.\n\nhttps://financialpost.com/pmn/business-pmn/charting-the-global-economy-ecb-is-leaning-toward-rate-hikes",
+    "draft_text": "Wolves track moves. Here's one: VIX tumbles 12.9% in 5 sessions to 16.99.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "ECB",
-    "source_url": "https://financialpost.com/pmn/business-pmn/charting-the-global-economy-ecb-is-leaning-toward-rate-hikes",
-    "source_title": "Charting the Global Economy: ECB Is Leaning Toward Rate Hikes",
-    "source_summary": "The European Central Bank is leaning toward lifting interest rates as soon as next month unless there are positive developments on energy prices and ending the Iran war.",
-    "drafted_at": "2026-05-02T12:06:27.766405",
+    "primary_source": "CBOE \u00b7 ^VIX",
+    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "source_title": "VIX (S&P 500 volatility)",
+    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "drafted_at": "2026-05-03T00:09:05.697539",
     "data": {
-      "actor": "ECB"
+      "signal_id": "^VIX:move:2026-05-01",
+      "kind": "move_down",
+      "current": "16.99"
     },
-    "content_hash": "831913ed6b190b5d"
+    "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "873cacba",
+    "id": "6fc97fd4",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "I love a good move. This is a great one. WTI crude surges 10.6% in 5 sessions to $101.94.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NYMEX \u00b7 CL=F",
+    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "source_title": "WTI crude oil futures",
+    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "drafted_at": "2026-05-03T00:09:05.697786",
+    "data": {
+      "signal_id": "CL=F:move:2026-05-01",
+      "kind": "move_up",
+      "current": "$101.94"
+    },
+    "content_hash": "c272de0720a2f459"
+  },
+  {
+    "id": "573846c9",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "From the Eccles Building: Charles Schwab\u2019s market update Wednesday morning landed on a single piece of guidance for clients heading into the Fed decision: \u201cTraders need to be really careful here, in my view.\u201d The caution makes sense.\n\nThe Federal Open Market Committee is widely expected to pause in the 3.5% to 3.75% range for the third consecutive meeting... \u2018Traders Need to Be Really Careful Here\u2019: Schwab on the Fed Decision and Powell\u2019s Uncertain Future\n\nhttps://247wallst.com/investing/2026/05/02/traders-need-to-be-really-careful-here-schwab-on-the-fed-decision-and-powells-uncertain-future/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Fed",
+    "source_url": "https://247wallst.com/investing/2026/05/02/traders-need-to-be-really-careful-here-schwab-on-the-fed-decision-and-powells-uncertain-future/",
+    "source_title": "\u2018Traders Need to Be Really Careful Here\u2019: Schwab on the Fed Decision and Powell\u2019s Uncertain Future",
+    "source_summary": "Charles Schwab\u2019s market update Wednesday morning landed on a single piece of guidance for clients heading into the Fed decision: \u201cTraders need to be really careful here, in my view.\u201d The caution makes sense. The Federal Open Market Committee is widely expected to pause in the 3.5% to 3.75% range for the third consecutive meeting, ... \u2018Traders Need to Be Really Careful Here\u2019: Schwab on the Fed Deci",
+    "drafted_at": "2026-05-03T00:09:05.708519",
+    "data": {
+      "actor": "Fed"
+    },
+    "content_hash": "7f27bacc52f68af0"
+  },
+  {
+    "id": "8f3af3bf",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Central bank corner: By law, a bank is generally prohibited from establishing or acquiring branches outside of its home state primarily for the purpose of acquiring additional deposits.\n\nThis prohibition seeks to ensure that interstate bank branches will not take deposits from a community without the bank also reasonably helping to meet the credit needs of that community.\n\nThe updated ratios, including additional information on how they are used to evaluate compliance with the requirements, are available here.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260501a.htm",
@@ -44,14 +82,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260501a.htm",
     "source_title": "Agencies issue host state loan-to-deposit ratios",
     "source_summary": "Agencies issue host state loan-to-deposit ratios",
-    "drafted_at": "2026-05-02T12:06:27.766959",
+    "drafted_at": "2026-05-03T00:09:05.709251",
     "data": {
       "actor": "FED"
     },
     "content_hash": "61dea05f952390b0"
   },
   {
-    "id": "9dbe74ae",
+    "id": "b72fe982",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "From the Eccles Building: Lori Logan is exploiting her dissent at the FOMC meeting this week.\n\nThe vote to keep rates unchanged was 8 to 4 with Fed Miran voting to cut rates while Fed's Kashkari, Logan and voted to keep rates unchanged but to take out the easing bias from the official statement.\n\nLogan says: Fed should not give guidance and point easing right now.\n\nThat's next rate move could be cut or hike.\n\nEconomic outlook is very uncertain right now.\n\nIncreasingly concerned about getting inflation back to 2%.\n\nOutlook for inflation path is uncertain.\n\nFed's Kashkari and Hammack had similar thoughts: Kashkari: Pre-Iran: easing inflation and steady jobs pointed to gradual cuts Iran shock adds stagflation risk via oil and supply disruption Hammack: uncertainty up, inflation risks skew higher, easing bias outdated Both: hikes are back on the table if inflation persists This article was written by Greg Michalowski at investinglive.com.\n\nhttps://investinglive.com/news/feds-logan-fed-should-not-give-guidance-implying-easing-right-now-20260501/",
@@ -61,31 +99,14 @@
     "source_url": "https://investinglive.com/news/feds-logan-fed-should-not-give-guidance-implying-easing-right-now-20260501/",
     "source_title": "Fed's Logan: Fed should not give guidance implying easing right now",
     "source_summary": "Dallas Federal Reserve Pres. Lori Logan is exploiting her dissent at the FOMC meeting this week. The vote to keep rates unchanged was 8 to 4 with Fed Miran voting to cut rates while Fed's Kashkari, Logan and voted to keep rates unchanged but to take out the easing bias from the official statement. Logan says: Fed should not give guidance and point easing right now. That's next rate move could be c",
-    "drafted_at": "2026-05-02T12:06:27.767748",
+    "drafted_at": "2026-05-03T00:09:05.710288",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "67b22c862e3fd411"
   },
   {
-    "id": "835965df",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "Bailey on the wire. Inflation could rise to 6.2% next year, with interest rates peaking at 5.25%, in the event of a prolonged energy shock with oil prices remaining above $130 a barrel, according to a worst-case scenario modelled by the Bank of England.\n\nhttps://news.sky.com/story/bank-of-england-sounds-warning-of-interest-rate-hikes-ahead-13538403",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Bank of England",
-    "source_url": "https://news.sky.com/story/bank-of-england-sounds-warning-of-interest-rate-hikes-ahead-13538403",
-    "source_title": "Bank of England sounds warning of interest rate hikes ahead",
-    "source_summary": "Inflation could rise to 6.2% next year, with interest rates peaking at 5.25%, in the event of a prolonged energy shock with oil prices remaining above $130 a barrel, according to a worst-case scenario modelled by the Bank of England.",
-    "drafted_at": "2026-05-02T12:06:27.768012",
-    "data": {
-      "actor": "Bank of England"
-    },
-    "content_hash": "da4c4681c4825f9f"
-  },
-  {
-    "id": "5b820c30",
+    "id": "716dab14",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "POWELL POSTCARD: The Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run.\n\nIn support of its goals, the Committee decided to maintain the target range for the federal funds rate at 3\u20111/2 to 3\u20113/4 percent.\n\nThe Committee is strongly committed to supporting maximum employment and returning inflation to its 2 percent objective.\n\nDevelopments in the Middle East are contributing to a high level of uncertainty about the economic outlook.\n\nThe Committee is attentive to the risks to both sides of its dual mandate.\n\nIn considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
@@ -95,14 +116,31 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
     "source_title": "Federal Reserve issues FOMC statement",
     "source_summary": "Federal Reserve issues FOMC statement",
-    "drafted_at": "2026-05-02T12:06:27.769221",
+    "drafted_at": "2026-05-03T00:09:05.711866",
     "data": {
       "actor": "FED"
     },
     "content_hash": "8eef4d9ead515d9a"
   },
   {
-    "id": "9cd84091",
+    "id": "2bd5095c",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "Policy update for the pack: The final rule is being adopted without change from the proposal issued in November 2025.\n\nThe rule will lower the community bank leverage ratio from nine percent to eight percent, which will provide more flexibility for community banks to opt into the framework.\n\nThe final rule also extends the grace period from two quarters to four quarters for a community bank that temporarily falls out of compliance.\n\nThe framework continues to simplify regulatory capital requirements for community banks by allowing them to adopt a relatively simple leverage ratio to measure capital adequacy, rather than calculating and reporting risk-based capital ratios.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260423a.htm",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260423a.htm",
+    "source_title": "Agencies\u202ffinalize\u202fchanges to enhance community bank leverage ratio",
+    "source_summary": "Agencies finalize changes to enhance community bank leverage ratio",
+    "drafted_at": "2026-05-03T00:09:05.712910",
+    "data": {
+      "actor": "FED"
+    },
+    "content_hash": "40abe611cc707028"
+  },
+  {
+    "id": "831755da",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$PSUS insider bought $70,100,000 on 2026-04-30, 6 insiders. \ud83d\udc40\n\nPershing Square Usa, Ltd.. 1,402,000 shares at $50.00.\n\n-14.4% since the purchase.\n\nhttp://openinsider.com/screener?s=PSUS",
@@ -112,7 +150,7 @@
     "source_url": "http://openinsider.com/screener?s=PSUS",
     "source_title": "Pershing Square Usa, Ltd. (PSUS) insider bought $70,100,000",
     "source_summary": "6 insider(s) bought 1,402,000 shares at $50.00 on 2026-04-30.",
-    "drafted_at": "2026-05-02T12:06:27.770192",
+    "drafted_at": "2026-05-03T00:09:05.713142",
     "data": {
       "ticker": "PSUS",
       "type": "P",
@@ -122,7 +160,7 @@
     "content_hash": "510827014015d4e6"
   },
   {
-    "id": "456e115e",
+    "id": "a2b2b0a0",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$ZBIO insider bought $8,766,667 on 2026-04-28, 4 insiders. \ud83d\udc40\n\nZenas Biopharma, Inc.. 445,613 shares at $19.67.\n\n-1.6% since the purchase.\n\nhttp://openinsider.com/screener?s=ZBIO",
@@ -132,7 +170,7 @@
     "source_url": "http://openinsider.com/screener?s=ZBIO",
     "source_title": "Zenas Biopharma, Inc. (ZBIO) insider bought $8,766,667",
     "source_summary": "4 insider(s) bought 445,613 shares at $19.67 on 2026-04-28.",
-    "drafted_at": "2026-05-02T12:06:27.770287",
+    "drafted_at": "2026-05-03T00:09:05.713277",
     "data": {
       "ticker": "ZBIO",
       "type": "P",
@@ -142,7 +180,7 @@
     "content_hash": "d24701154d64814c"
   },
   {
-    "id": "2d1944e1",
+    "id": "7e75cb78",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$IPX insider bought $5,184,906 on 2026-04-28, 3 insiders. \ud83d\udc40\n\nIperionx Ltd. 1,299,212 shares at $3.99.\n\n+738.6% since the purchase.\n\nhttp://openinsider.com/screener?s=IPX",
@@ -152,7 +190,7 @@
     "source_url": "http://openinsider.com/screener?s=IPX",
     "source_title": "Iperionx Ltd (IPX) insider bought $5,184,906",
     "source_summary": "3 insider(s) bought 1,299,212 shares at $3.99 on 2026-04-28.",
-    "drafted_at": "2026-05-02T12:06:27.770391",
+    "drafted_at": "2026-05-03T00:09:05.713402",
     "data": {
       "ticker": "IPX",
       "type": "P",
@@ -162,7 +200,7 @@
     "content_hash": "1f58cf6860fe0ec7"
   },
   {
-    "id": "09f63d81",
+    "id": "59bdbb30",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$AVLN insider bought $5,000,004 on 2026-05-01. \ud83d\udc40\n\nAvalyn Pharma Inc.. 277,778 shares at $18.00.\n\n+65.8% since the purchase.\n\nhttp://openinsider.com/screener?s=AVLN",
@@ -172,7 +210,7 @@
     "source_url": "http://openinsider.com/screener?s=AVLN",
     "source_title": "Avalyn Pharma Inc. (AVLN) insider bought $5,000,004",
     "source_summary": "1 insider(s) bought 277,778 shares at $18.00 on 2026-05-01.",
-    "drafted_at": "2026-05-02T12:06:27.770479",
+    "drafted_at": "2026-05-03T00:09:05.713521",
     "data": {
       "ticker": "AVLN",
       "type": "P",
@@ -182,7 +220,7 @@
     "content_hash": "f78839df2be84b4b"
   },
   {
-    "id": "69d7da49",
+    "id": "59ea0eef",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$CHTR insider bought $2,365,149 on 2026-04-28, 3 insiders. \ud83d\udc40\n\nCharter Communications, Inc. /Mo/. 13,664 shares at $173.09.\n\n-0.8% since the purchase.\n\nhttp://openinsider.com/screener?s=CHTR",
@@ -192,7 +230,7 @@
     "source_url": "http://openinsider.com/screener?s=CHTR",
     "source_title": "Charter Communications, Inc. /Mo/ (CHTR) insider bought $2,365,149",
     "source_summary": "3 insider(s) bought 13,664 shares at $173.09 on 2026-04-28.",
-    "drafted_at": "2026-05-02T12:06:27.770580",
+    "drafted_at": "2026-05-03T00:09:05.713659",
     "data": {
       "ticker": "CHTR",
       "type": "P",
@@ -202,7 +240,58 @@
     "content_hash": "7e90154ee021a3ae"
   },
   {
-    "id": "4aef75ee",
+    "id": "6f369ec7",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Pack \u2014 got one. The country that gave the world its first crypto ATMs is now preparing to eliminate them entirely.\n\nIn April 2013, a Vancouver coffee shop installed what would become crypto's most recognizable retail footprint, a machine that let ordinary people convert cash into Bitcoin without a bank account, a broker, or much friction at all.\n\nThirteen [\u2026] The post Canada wants to ban crypto ATMs as fraud fears turn Bitcoin access into a political target appeared first on CryptoSlate.\n\nhttps://cryptoslate.com/canada-wants-to-ban-crypto-atms-as-fraud-fears-turn-bitcoin-access-into-a-political-target/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CRYPTOSLATE",
+    "source_url": "https://cryptoslate.com/canada-wants-to-ban-crypto-atms-as-fraud-fears-turn-bitcoin-access-into-a-political-target/",
+    "source_title": "Canada wants to ban crypto ATMs as fraud fears turn Bitcoin access into a political target",
+    "source_summary": "The country that gave the world its first crypto ATMs is now preparing to eliminate them entirely. In April 2013, a Vancouver coffee shop installed what would become crypto's most recognizable retail footprint, a machine that let ordinary people convert cash into Bitcoin without a bank account, a broker, or much friction at all. Thirteen [\u2026] The post Canada wants to ban crypto ATMs as fraud fears ",
+    "drafted_at": "2026-05-03T00:09:05.715281",
+    "data": {
+      "source": "CRYPTOSLATE"
+    },
+    "content_hash": "1c36078ed11eb79f"
+  },
+  {
+    "id": "76f3d0c9",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "From revenue-sharing \u2018kickbacks\u2019 to interest on idle cash, hidden costs may be eroding your returns.\n\nhttps://www.marketwatch.com/story/how-to-spot-the-silent-fees-and-hidden-costs-your-adviser-isnt-mentioning-c821812a?mod=mw_rss_topstories",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "MARKETWATCH",
+    "source_url": "https://www.marketwatch.com/story/how-to-spot-the-silent-fees-and-hidden-costs-your-adviser-isnt-mentioning-c821812a?mod=mw_rss_topstories",
+    "source_title": "These financial adviser fees pinch your portfolio",
+    "source_summary": "From revenue-sharing \u2018kickbacks\u2019 to interest on idle cash, hidden costs may be eroding your returns.",
+    "drafted_at": "2026-05-03T00:09:05.715492",
+    "data": {
+      "source": "MARKETWATCH"
+    },
+    "content_hash": "2c0eb75322e6202b"
+  },
+  {
+    "id": "84b1daa4",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "If the United States is serious about giving citizenship to worthy immigrants, we also need to be serious about revoking it from the unworthy.\n\nMore than 800,000 immigrants became American citizens in FY2024, and a comparable number are expected in FY2025.\n\nThere are more than 25 million naturalized American citizens \u2014 about half the foreign-born population.\n\nI welcome those who followed the rules and took the Oath of Allegiance in good faith.\n\nBecoming an American citizen is a privilege, not a right.\n\nThe question of revoking citizenship from immigrants is part of a broader debate about what membership in our national community means \u2014 a debate made especially urgent by the waves of mass immigration the political class has allowed into our country over the past 50 years.\n\nA vigorous, ongoing, and unapologetic commitment to denaturalization is an important part of the effort to restore integrity to U.S. citizenship.\n\nIt is not about restricting citizenship gratuitously, but about demonstrating that becoming an American citizen is a privilege, not a right.\n\nhttps://www.theblaze.com/columns/opinion/the-case-for-denaturalization",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "THE BLAZE",
+    "source_url": "https://www.theblaze.com/columns/opinion/the-case-for-denaturalization",
+    "source_title": "The case for denaturalization",
+    "source_summary": "If the United States is serious about giving citizenship to worthy immigrants, we also need to be serious about revoking it from the unworthy. More than 800,000 immigrants became American citizens in FY2024, and a comparable number are expected in FY2025. There are more than 25 million naturalized American citizens \u2014 about half the foreign-born population. I welcome those who followed the rules an",
+    "drafted_at": "2026-05-03T00:09:05.721554",
+    "data": {
+      "source": "THE BLAZE"
+    },
+    "content_hash": "11b66654cbb8efcb"
+  },
+  {
+    "id": "06ba0bd8",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The post Event With Links to Oil Industry Teaches Judges \u201cHealthy Skepticism\u201d of Climate Science appeared first on ProPublica.\n\nhttps://www.propublica.org/article/climate-science-oil-gas-fossil-fuel-judges-jim-jordan",
@@ -212,31 +301,14 @@
     "source_url": "https://www.propublica.org/article/climate-science-oil-gas-fossil-fuel-judges-jim-jordan",
     "source_title": "Event With Links to Oil Industry Teaches Judges \u201cHealthy Skepticism\u201d of Climate Science",
     "source_summary": "The post Event With Links to Oil Industry Teaches Judges \u201cHealthy Skepticism\u201d of Climate Science appeared first on ProPublica .",
-    "drafted_at": "2026-05-02T12:06:27.771429",
+    "drafted_at": "2026-05-03T00:09:05.721818",
     "data": {
       "source": "PROPUBLICA"
     },
     "content_hash": "e5bbab1cdd6cf2de"
   },
   {
-    "id": "36019bdc",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Many Americans today feel as if home ownership is a pipe dream.\n\nThe prices, even for modest homes, are just too steep.\n\nWhat\u2019s the real reason homes have become so unaffordable?\n\nThe answer is multifaceted, says Glenn Beck.\n\nNo doubt the broken economy is part of the problem.\n\n\u201cThe latest numbers from the GAO, the Government Accounting Office, is that they estimate that our government loses between $233 billion and $521 billion every year based on fraud between 2018 through 2022.\u201d However, there\u2019s another factor most are unwilling to grapple with: Our expectations have increased.\n\nIn the 1950s \u2014 \u201cthe golden era of America,\u201d says Glenn \u2014 the average size home for a family of four was \u201c983 square feet.\u201d Today, it\u2019s \u201c2,500 square feet.\u201d \u201cIf I told you you could afford a modest home of that size (under 1,000 square feet) and raise your family in it, would you take it?\u201d he asks.\n\nBut the main driver behind the skyrocketing price of homes, he says, is the increase in land prices.\n\nhttps://www.theblaze.com/shows/the-glenn-beck-program/glenn-beck-the-real-reason-you-cant-afford-a-home",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "THE BLAZE",
-    "source_url": "https://www.theblaze.com/shows/the-glenn-beck-program/glenn-beck-the-real-reason-you-cant-afford-a-home",
-    "source_title": "Glenn Beck: The real reason you can\u2019t afford a home (it\u2019s not what you think)",
-    "source_summary": "Many Americans today feel as if home ownership is a pipe dream. The prices, even for modest homes, are just too steep. But why? What\u2019s the real reason homes have become so unaffordable? The answer is multifaceted, says Glenn Beck. No doubt the broken economy is part of the problem. \u201cWe have to fix the fraud,\u201d he urges. \u201cThe latest numbers from the GAO, the Government Accounting Office, is that the",
-    "drafted_at": "2026-05-02T12:06:27.774154",
-    "data": {
-      "source": "THE BLAZE"
-    },
-    "content_hash": "87b39dcc46aae658"
-  },
-  {
-    "id": "035f8f3e",
+    "id": "7f4a459d",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Heads up, the wolves at the door. April's exploits were driven less by smart contract bugs and more by social engineering, bridge spoofing, and AI-assisted reconnaissance.\n\nhttps://thedefiant.io/news/defi/defi-sets-new-hack-record-as-april-logs-28-exploits-with-usd635m-stolen",
@@ -246,133 +318,99 @@
     "source_url": "https://thedefiant.io/news/defi/defi-sets-new-hack-record-as-april-logs-28-exploits-with-usd635m-stolen",
     "source_title": "DeFi Sets New Hack Record as April Logs 28 Exploits with $635M Stolen",
     "source_summary": "April's exploits were driven less by smart contract bugs and more by social engineering, bridge spoofing, and AI-assisted reconnaissance.",
-    "drafted_at": "2026-05-02T12:06:27.774360",
+    "drafted_at": "2026-05-03T00:09:05.722088",
     "data": {
       "source": "THE DEFIANT"
     },
     "content_hash": "a9dda4ad5c6ff984"
   },
   {
-    "id": "69394dee",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "About damn time. Fidelity and Vanguard's charitable arms have reportedly paused grants to the SPLC through donor-advised funds after a federal indictment.\n\nhttps://www.foxbusiness.com/markets/fidelity-vanguard-reportedly-pause-splc-grants-federal-fraud-charges",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOX BUSINESS",
-    "source_url": "https://www.foxbusiness.com/markets/fidelity-vanguard-reportedly-pause-splc-grants-federal-fraud-charges",
-    "source_title": "Fidelity, Vanguard reportedly pause SPLC grants after federal fraud charges",
-    "source_summary": "Fidelity and Vanguard's charitable arms have reportedly paused grants to the SPLC through donor-advised funds after a federal indictment.",
-    "drafted_at": "2026-05-02T12:06:27.774552",
-    "data": {
-      "source": "FOX BUSINESS"
-    },
-    "content_hash": "3e80e1ea6144b489"
-  },
-  {
-    "id": "7bb26755",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Score one for the good guys. Over a decade after the ICIJ investigation, a German court found the Swiss lawyer guilty of enabling a tax loss of about $15 million.\n\nhttps://www.icij.org/investigations/panama-papers/former-co-owner-of-panama-papers-law-firm-convicted-of-aiding-and-abetting-tax-evasion/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "ICIJ",
-    "source_url": "https://www.icij.org/investigations/panama-papers/former-co-owner-of-panama-papers-law-firm-convicted-of-aiding-and-abetting-tax-evasion/",
-    "source_title": "Former co-owner of Panama Papers law firm convicted of aiding and abetting tax evasion",
-    "source_summary": "Over a decade after the ICIJ investigation, a German court found the Swiss lawyer guilty of enabling a tax loss of about $15 million.",
-    "drafted_at": "2026-05-02T12:06:27.774733",
-    "data": {
-      "source": "ICIJ"
-    },
-    "content_hash": "df9a78ba9c0507f7"
-  },
-  {
-    "id": "e497932a",
+    "id": "8a53eb48",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Gulf wire: The continued blockade exacerbates geopolitical tensions, impacting economic stability and reducing market confidence in a near-term resolution.\n\nThe post Trump rejects Iran proposal, Strait of Hormuz blockade remains appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/trump-rejects-iran-proposal-strait-of-hormuz-blockade-remains/",
+    "draft_text": "PACK BRIEFING \u2014 CHINA: The escalation in U.S.-China tensions may disrupt global oil markets and complicate diplomatic relations, impacting future economic stability.\n\nThe post Beijing defies US sanctions, escalating tensions ahead of Trump-Xi summit appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/beijing-defies-us-sanctions-escalating-tensions-ahead-of-trump-xi-summit/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/trump-rejects-iran-proposal-strait-of-hormuz-blockade-remains/",
-    "source_title": "Trump rejects Iran proposal, Strait of Hormuz blockade remains",
-    "source_summary": "The continued blockade exacerbates geopolitical tensions, impacting economic stability and reducing market confidence in a near-term resolution. The post Trump rejects Iran proposal, Strait of Hormuz blockade remains appeared first on Crypto Briefing .",
-    "drafted_at": "2026-05-02T12:06:27.775809",
+    "source_url": "https://cryptobriefing.com/beijing-defies-us-sanctions-escalating-tensions-ahead-of-trump-xi-summit/",
+    "source_title": "Beijing defies US sanctions, escalating tensions ahead of Trump-Xi summit",
+    "source_summary": "The escalation in U.S.-China tensions may disrupt global oil markets and complicate diplomatic relations, impacting future economic stability. The post Beijing defies US sanctions, escalating tensions ahead of Trump-Xi summit appeared first on Crypto Briefing .",
+    "drafted_at": "2026-05-03T00:09:05.723434",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "9c255719ee8f02c9"
+    "content_hash": "796d0f431ea5f02d"
   },
   {
-    "id": "7382a3d1",
+    "id": "98dab457",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "MIDDLE EAST DESK: Iran's crackdown may signal rising internal pressure, potentially impacting leadership dynamics and increasing long-term instability risks.\n\nThe post Iran executes dozens, arrests 4,000+ amid crackdown after US-Israel strikes appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iran-executes-dozens-arrests-4000-amid-crackdown-after-us-israel-strikes/",
+    "draft_text": "GLOBAL DESK: The interception highlights the intensifying drone warfare, suggesting prolonged conflict and diminishing prospects for a near-term ceasefire.\n\nThe post Russia intercepts 270 Ukrainian drones amid ongoing conflict appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/russia-intercepts-270-ukrainian-drones-amid-ongoing-conflict/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/iran-executes-dozens-arrests-4000-amid-crackdown-after-us-israel-strikes/",
-    "source_title": "Iran executes dozens, arrests 4,000+ amid crackdown after US-Israel strikes",
-    "source_summary": "Iran's crackdown may signal rising internal pressure, potentially impacting leadership dynamics and increasing long-term instability risks. The post Iran executes dozens, arrests 4,000+ amid crackdown after US-Israel strikes appeared first on Crypto Briefing .",
-    "drafted_at": "2026-05-02T12:06:27.776065",
+    "source_url": "https://cryptobriefing.com/russia-intercepts-270-ukrainian-drones-amid-ongoing-conflict/",
+    "source_title": "Russia intercepts 270 Ukrainian drones amid ongoing conflict",
+    "source_summary": "The interception highlights the intensifying drone warfare, suggesting prolonged conflict and diminishing prospects for a near-term ceasefire. The post Russia intercepts 270 Ukrainian drones amid ongoing conflict appeared first on Crypto Briefing .",
+    "drafted_at": "2026-05-03T00:09:05.723806",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "d817e2672e4ec04f"
+    "content_hash": "57d6fe8871163fac"
   },
   {
-    "id": "57051395",
+    "id": "8c0ab56f",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "World wire: The IAEA's probe into the drone strike underscores persistent regional instability, diminishing prospects for a near-term Russia-Ukraine ceasefire.\n\nThe post IAEA investigates drone strike near Zaporizhzhia NPP, heightening regional tensions appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iaea-investigates-drone-strike-near-zaporizhzhia-npp-heightening-regional/",
+    "draft_text": "GLOBAL DESK: The prolonged deadlock in Hormuz underscores geopolitical tensions, affecting global oil supply and testing U.S. diplomatic strategies amid legal pressures.\n\nThe post Hormuz deadlock persists as Trump faces War Powers deadline appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/hormuz-deadlock-persists-as-trump-faces-war-powers-deadline/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/iaea-investigates-drone-strike-near-zaporizhzhia-npp-heightening-regional/",
-    "source_title": "IAEA investigates drone strike near Zaporizhzhia NPP, heightening regional tensions",
-    "source_summary": "The IAEA's probe into the drone strike underscores persistent regional instability, diminishing prospects for a near-term Russia-Ukraine ceasefire. The post IAEA investigates drone strike near Zaporizhzhia NPP, heightening regional tensions appeared first on Crypto Briefing .",
-    "drafted_at": "2026-05-02T12:06:27.776418",
+    "source_url": "https://cryptobriefing.com/hormuz-deadlock-persists-as-trump-faces-war-powers-deadline/",
+    "source_title": "Hormuz deadlock persists as Trump faces War Powers deadline",
+    "source_summary": "The prolonged deadlock in Hormuz underscores geopolitical tensions, affecting global oil supply and testing U.S. diplomatic strategies amid legal pressures. The post Hormuz deadlock persists as Trump faces War Powers deadline appeared first on Crypto Briefing .",
+    "drafted_at": "2026-05-03T00:09:05.724213",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "adf12199b137172f"
+    "content_hash": "fe3f8931d80e01a2"
   },
   {
-    "id": "b2bb1aa6",
+    "id": "42e4612f",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: The potential deployment of \"Dark Eagle\" could escalate US-Iran tensions, impacting global security dynamics and influencing military strategies.\n\nThe post Pentagon considers deploying \u201cDark Eagle\u201d hypersonic missile against Iran appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/pentagon-considers-deploying-dark-eagle-hypersonic-missile-against-iran/",
+    "draft_text": "From the Gulf: The closure of the Strait of Hormuz heightens inflation risks, complicating monetary policy and reducing the likelihood of Fed rate cuts.\n\nThe post Iran closes Strait of Hormuz, oil prices surge amid US-Iran conflict appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iran-closes-strait-of-hormuz-oil-prices-surge-amid-us-iran-conflict/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/pentagon-considers-deploying-dark-eagle-hypersonic-missile-against-iran/",
-    "source_title": "Pentagon considers deploying \u201cDark Eagle\u201d hypersonic missile against Iran",
-    "source_summary": "The potential deployment of \"Dark Eagle\" could escalate US-Iran tensions, impacting global security dynamics and influencing military strategies. The post Pentagon considers deploying \u201cDark Eagle\u201d hypersonic missile against Iran appeared first on Crypto Briefing .",
-    "drafted_at": "2026-05-02T12:06:27.776784",
+    "source_url": "https://cryptobriefing.com/iran-closes-strait-of-hormuz-oil-prices-surge-amid-us-iran-conflict/",
+    "source_title": "Iran closes Strait of Hormuz, oil prices surge amid US-Iran conflict",
+    "source_summary": "The closure of the Strait of Hormuz heightens inflation risks, complicating monetary policy and reducing the likelihood of Fed rate cuts. The post Iran closes Strait of Hormuz, oil prices surge amid US-Iran conflict appeared first on Crypto Briefing .",
+    "drafted_at": "2026-05-03T00:09:05.724585",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "5cc295c72a2ca043"
+    "content_hash": "b313bb084364c78a"
   },
   {
-    "id": "157ee971",
+    "id": "48f0bfb2",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: The US president says the ongoing naval blockade of the Strait of Hormuz is 'a very profitable business'.\n\nhttps://www.aljazeera.com/news/2026/5/2/trump-says-us-navy-acting-like-pirates-to-enforce-iran-blockade?traffic_source=rss",
+    "draft_text": "Levant update: Two months after the Iran war began, the Strait of Hormuz remains severely restricted for tanker traffic while U.S. President Donald Trump faces a key legal deadline at home under the 1973 War Powers Resolution.\n\nAs of early Friday, May 1, the deadlock at the world\u2019s most vital oil chokepoint, the Strait of Hormuz, doesn\u2019t appear close to being resolved.\n\nThe U.S. is doubling down on the naval blockade outside the Strait aimed at stopping Iranian oil exports.\n\nBut Iran controls most vessel movements through the lane and is increasingly\u2026\n\nhttps://oilprice.com/Energy/Crude-Oil/Hormuz-Deadlock-Persists-as-Trump-Faces-War-Powers-Deadline-at-Home.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/news/2026/5/2/trump-says-us-navy-acting-like-pirates-to-enforce-iran-blockade?traffic_source=rss",
-    "source_title": "Trump says US Navy acting \u2018like pirates\u2019 to enforce Iran blockade",
-    "source_summary": "The US president says the ongoing naval blockade of the Strait of Hormuz is 'a very profitable business'.",
-    "drafted_at": "2026-05-02T12:06:27.777027",
+    "primary_source": "OILPRICE",
+    "source_url": "https://oilprice.com/Energy/Crude-Oil/Hormuz-Deadlock-Persists-as-Trump-Faces-War-Powers-Deadline-at-Home.html",
+    "source_title": "Hormuz Deadlock Persists as Trump Faces War-Powers Deadline at Home",
+    "source_summary": "Two months after the Iran war began, the Strait of Hormuz remains severely restricted for tanker traffic while U.S. President Donald Trump faces a key legal deadline at home under the 1973 War Powers Resolution. As of early Friday, May 1, the deadlock at the world\u2019s most vital oil chokepoint, the Strait of Hormuz, doesn\u2019t appear close to being resolved. The U.S. is doubling down on the naval block",
+    "drafted_at": "2026-05-03T00:09:05.725317",
     "data": {
-      "source": "AL JAZEERA"
+      "source": "OILPRICE"
     },
-    "content_hash": "d928a8f8a69e2de2"
+    "content_hash": "8a7bcaca1960c45d"
   },
   {
-    "id": "eab8278c",
+    "id": "8aee22c5",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "GROWTH POSTCARD: Market Minder, Fisher Investments Amid all the handwringing over the war in Iran, Q1 US GDP accelerated.\n\nThough war affected only March\u2014and Strait of Hormuz traffic remains...\n\nhttps://www.realclearmarkets.com/2026/05/02/q1_gdp_isnt_gangbusters_but_shows_firm_footing_1180305.html",
@@ -382,14 +420,14 @@
     "source_url": "https://www.realclearmarkets.com/2026/05/02/q1_gdp_isnt_gangbusters_but_shows_firm_footing_1180305.html",
     "source_title": "Q1 GDP Isn't Gangbusters, But Shows Firm Footing",
     "source_summary": "Market Minder, Fisher Investments Amid all the handwringing over the war in Iran, Q1 US GDP accelerated. Though war affected only March\u2014and Strait of Hormuz traffic remains...",
-    "drafted_at": "2026-05-02T12:06:27.828367",
+    "drafted_at": "2026-05-03T00:09:05.790402",
     "data": {
       "source": "REALCLEAR"
     },
     "content_hash": "a9af49249b3a6858"
   },
   {
-    "id": "b59649d0",
+    "id": "64efaf4d",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "Fresh print: Despite tech layoffs, California added 28,700 jobs in March, dropping the state's unemployment rate to 5.3%.\n\nhttps://www.latimes.com/business/story/2026-05-01/california-gained-jobs-in-march-dropping-unemployment-rate-to-5-3",
@@ -399,14 +437,14 @@
     "source_url": "https://www.latimes.com/business/story/2026-05-01/california-gained-jobs-in-march-dropping-unemployment-rate-to-5-3",
     "source_title": "California gained jobs in March as unemployment rate drops to 5.3%",
     "source_summary": "Despite tech layoffs, California added 28,700 jobs in March, dropping the state's unemployment rate to 5.3%",
-    "drafted_at": "2026-05-02T12:06:27.828528",
+    "drafted_at": "2026-05-03T00:09:05.790619",
     "data": {
       "source": "LA TIMES"
     },
     "content_hash": "ad0137ee81e44fdc"
   },
   {
-    "id": "2406fc45",
+    "id": "4400b942",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "TRADE-BALANCE READ: Trump: Tariffs on European cars and trucks coming into the US will increase to 25% Trump: Not satisfied with the latest Iran proposal, not sure we're going to get a deal S&P Global Canada manufacturing PMI 53.3 vs 50.0 prior ISM Manufacturing index for April 52,7 vs 53.0 estimate Trump notified Congressional leaders today that US hostilities with Tehran are over Trump serves up a huge opportunity for the EU by raising auto tariffs Fed's Logan: Fed should not give guidance implying easing right now US S&P Global manufacturing PMI for April 54.5 versus 52.3 last month Iran submitted its newest negotiation proposal -- Iran state media BOE chief economist Pill says choosing to hold on rates is not a passive choice Markets: S&P 500 up 0.3% Gold down $7 to $4615 US 10-year yields down 1.8 bps to 4.37% WTI crude oil down $2.68 to $102.68 USD leads, JPY lags It's Friday, so there is the usual angst about Trump escalating the Middle East war.\n\nThat led to some late selling in equities and some buying in oil but the tale of the tape shows that the bulls won.\n\nStocks still finished at record highs and oil was lower.\n\nWe learned the Iran presented a new offer late yesterday (around the time the market went parabolic) but Trump said that he didn't like the new offer.\n\nOf course, Trump is tough to read and that doesn't mean bombs will be flying.\n\nStill, it's always a few anxious hours after the close given the events of the past 10 weeks.\n\nGenerally, there was a continuation of Thursday's risk-positive/war-negative market moves into the start of the US session that faded later.\n\nThe euro move was particularly stark as it rose to 1.1780 and then fell to 1.1714.\n\nhttps://investinglive.com/news/investinglive-americas-market-news-wrap-trump-raises-tariffs-on-european-autos-20260501/",
@@ -416,14 +454,14 @@
     "source_url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-trump-raises-tariffs-on-european-autos-20260501/",
     "source_title": "investingLive Americas market news wrap: Trump raises tariffs on European autos",
     "source_summary": "Trump: Tariffs on European cars and trucks coming into the US will increase to 25% Trump: Not satisfied with the latest Iran proposal, not sure we're going to get a deal S&P Global Canada manufacturing PMI 53.3 vs 50.0 prior ISM Manufacturing index for April 52,7 vs 53.0 estimate Trump notified Congressional leaders today that US hostilities with Tehran are over Trump serves up a huge opportunity ",
-    "drafted_at": "2026-05-02T12:06:27.830108",
+    "drafted_at": "2026-05-03T00:09:05.792686",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "f114315417d5a5e1"
   },
   {
-    "id": "771d046a",
+    "id": "b63aee94",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "GDP DAY. U.S. public debt has crossed the size of the U.S. economy on a calculation from the Committee for a Responsible Federal Budget, giving Bitcoin's hard-money case a live fiscal benchmark as investors weigh scarce assets against Washington's debt path.\n\nCRFB said debt held by the public reached $31.27 trillion at the end of the first [\u2026] The post America\u2019s $31.27 trillion in debt now exceeds GDP \u2013 silently reinforces the case for Bitcoin appeared first on CryptoSlate.\n\nhttps://cryptoslate.com/americas-31-27-trillion-in-debt-now-exceeds-gdp-silently-reinforces-the-case-for-bitcoin/",
@@ -433,14 +471,14 @@
     "source_url": "https://cryptoslate.com/americas-31-27-trillion-in-debt-now-exceeds-gdp-silently-reinforces-the-case-for-bitcoin/",
     "source_title": "America\u2019s $31.27 trillion in debt now exceeds GDP \u2013 silently reinforces the case for Bitcoin",
     "source_summary": "U.S. public debt has crossed the size of the U.S. economy on a calculation from the Committee for a Responsible Federal Budget, giving Bitcoin's hard-money case a live fiscal benchmark as investors weigh scarce assets against Washington's debt path. CRFB said debt held by the public reached $31.27 trillion at the end of the first [\u2026] The post America\u2019s $31.27 trillion in debt now exceeds GDP \u2013 sil",
-    "drafted_at": "2026-05-02T12:06:27.830598",
+    "drafted_at": "2026-05-03T00:09:05.793284",
     "data": {
       "source": "CRYPTOSLATE"
     },
     "content_hash": "34374d1039fe5aa0"
   },
   {
-    "id": "0fb93f09",
+    "id": "95fa0969",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -450,7 +488,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-05-02T12:06:27.831846",
+    "drafted_at": "2026-05-03T00:09:05.794868",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -458,24 +496,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "0c196595",
-    "format": "PACK_TAKE",
-    "status": "pending",
-    "draft_text": "The herd panics together. The pack profits quietly.",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Howl Street",
-    "source_url": "",
-    "source_title": "PACK TAKE",
-    "source_summary": "The herd panics together. The pack profits quietly.",
-    "drafted_at": "2026-05-02T12:06:27.831906",
-    "data": {
-      "take_seed": "2026-05-02-pack-1"
-    },
-    "content_hash": "9b0f7be55d8ef71c"
-  },
-  {
-    "id": "a212ddee",
+    "id": "3958a404",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Your alerts didn't go off because the pack got there first.",
@@ -485,9 +506,26 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Your alerts didn't go off because the pack got there first.",
-    "drafted_at": "2026-05-02T12:06:27.831948",
+    "drafted_at": "2026-05-03T00:09:05.794969",
     "data": {
-      "take_seed": "2026-05-02-pack-2"
+      "take_seed": "2026-05-03-pack-1"
+    },
+    "content_hash": "9b0f7be55d8ef71c"
+  },
+  {
+    "id": "5c735f3a",
+    "format": "PACK_TAKE",
+    "status": "pending",
+    "draft_text": "Information is free. Conviction is rare. Patience is rarer.",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Howl Street",
+    "source_url": "",
+    "source_title": "PACK TAKE",
+    "source_summary": "Information is free. Conviction is rare. Patience is rarer.",
+    "drafted_at": "2026-05-03T00:09:05.795032",
+    "data": {
+      "take_seed": "2026-05-03-pack-2"
     },
     "content_hash": "9b0f7be55d8ef71c"
   }
