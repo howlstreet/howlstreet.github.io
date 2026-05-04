@@ -1,99 +1,57 @@
 [
   {
-    "id": "cb3ce8e0",
+    "id": "8de473f5",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "FLAGSHIP READ: Oil prices rose slightly in early trading on Monday as investors monitored Iran war developments.\n\nBrent crude and WTI front month contracts are trading around 1% higher at around $109 and $103 per barrel respectively.\n\nhttp://www.euronews.com/business/2026/05/04/oil-markets-lower-as-trump-vows-to-help-ships-leave-strait-of-hormuz",
+    "draft_text": "If you read one thing today: Oil prices rallied again on Monday morning after Iran\u2019s Fars news agency reported that two missiles struck a U.S. Navy vessel near Jask Island on the Gulf of Oman, just outside the eastern entrance to the Strait of Hormuz.\n\nBrent crude for July delivery was up 2.82% to trade at $111.12 per barrel at 8:00 am ET while WTI crude for June delivery rallied by a similar margin to change hands at $104/bbl.\n\nAccording to Fars, Iran\u2019s semi-official news agency, the vessel ignored repeated warnings by the Islamic Revolutionary Guard Corps (IRGC)\u2026\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Jump-After-Iran-Claims-Missile-Strike-on-US-Navy-Vessel-Near-Hormuz.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "EURONEWS",
-    "source_url": "http://www.euronews.com/business/2026/05/04/oil-markets-lower-as-trump-vows-to-help-ships-leave-strait-of-hormuz",
-    "source_title": "Oil prices rise slightly despite Trump vowing to help ships leave Strait of Hormuz",
-    "source_summary": "Oil prices rose slightly in early trading on Monday as investors monitored Iran war developments. Brent crude and WTI front month contracts are trading around 1% higher at around $109 and $103 per barrel respectively.",
-    "drafted_at": "2026-05-04T08:05:50.737615",
+    "primary_source": "OILPRICE",
+    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Jump-After-Iran-Claims-Missile-Strike-on-US-Navy-Vessel-Near-Hormuz.html",
+    "source_title": "Oil Prices Jump After Iran Claims Missile Strike on U.S. Navy Vessel Near Hormuz",
+    "source_summary": "Oil prices rallied again on Monday morning after Iran\u2019s Fars news agency reported that two missiles struck a U.S. Navy vessel near Jask Island on the Gulf of Oman, just outside the eastern entrance to the Strait of Hormuz. Brent crude for July delivery was up 2.82% to trade at $111.12 per barrel at 8:00 am ET while WTI crude for June delivery rallied by a similar margin to change hands at $104/bbl",
+    "drafted_at": "2026-05-04T15:34:16.493375",
     "data": {
-      "source": "EURONEWS"
+      "source": "OILPRICE"
     },
-    "content_hash": "e683ef4aa50b528f"
+    "content_hash": "8ecf01ce164ad280"
   },
   {
-    "id": "5ed995d7",
-    "format": "MARKET_MOVE",
+    "id": "0f7d4c7f",
+    "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "You feeling that? VIX slides 7.1% in 5 sessions to 17.39.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
+    "draft_text": "From Threadneedle Street: BNP Paribas economists expect United Kingdom (UK) growth to slow to 0.7% in 2026 from 1.4% in 2025, with quarterly expansion dropping to about 0.1%.\n\nhttps://www.fxstreet.com/news/gbp-higher-inflation-keeps-boe-on-tightening-path-bnp-paribas-202605041400",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CBOE \u00b7 ^VIX",
-    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "source_title": "VIX (S&P 500 volatility)",
-    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-05-04T08:05:50.737889",
+    "primary_source": "BoE",
+    "source_url": "https://www.fxstreet.com/news/gbp-higher-inflation-keeps-boe-on-tightening-path-bnp-paribas-202605041400",
+    "source_title": "GBP: Higher inflation keeps BoE on tightening path \u2013 BNP Paribas",
+    "source_summary": "BNP Paribas economists expect United Kingdom (UK) growth to slow to 0.7% in 2026 from 1.4% in 2025, with quarterly expansion dropping to about 0.1%.",
+    "drafted_at": "2026-05-04T15:34:16.503565",
     "data": {
-      "signal_id": "^VIX:move:2026-05-04",
-      "kind": "move_down",
-      "current": "17.39"
+      "actor": "BoE"
     },
-    "content_hash": "995f4d67e7e875d2"
+    "content_hash": "a82307b15395d8d4"
   },
   {
-    "id": "bb2d1247",
-    "format": "MARKET_MOVE",
+    "id": "59dfa3a0",
+    "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "Read this twice. S&P 500 just hit 7,230.12 \u2014 highest in 9+ years.\n\nThe benchmark of U.S. equities.\n\nWatched globally as the proxy for risk-on / risk-off.\n\nMulti-year high. The pack remembers what comes after these.\n\nhttps://finance.yahoo.com/quote/%5EGSPC",
+    "draft_text": "FOMC desk: Cory Frank, RCM Most investors assume that when the Federal Reserve cuts rates, borrowing costs fall and liquidity improves across the system.\n\nThat relationship may not hold in the next...\n\nhttps://www.realclearmarkets.com/2026/05/04/the_new_fed_may_cut_rates_though_without_much_rate_impact_1180396.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "Yahoo Finance \u00b7 ^GSPC",
-    "source_url": "https://finance.yahoo.com/quote/%5EGSPC",
-    "source_title": "S&P 500",
-    "source_summary": "The benchmark of U.S. equities. Watched globally as the proxy for risk-on / risk-off.",
-    "drafted_at": "2026-05-04T08:05:50.738130",
+    "primary_source": "Fed",
+    "source_url": "https://www.realclearmarkets.com/2026/05/04/the_new_fed_may_cut_rates_though_without_much_rate_impact_1180396.html",
+    "source_title": "The New Fed May Cut Rates, Though Without Much Rate Impact",
+    "source_summary": "Cory Frank, RCM Most investors assume that when the Federal Reserve cuts rates, borrowing costs fall and liquidity improves across the system. That relationship may not hold in the next...",
+    "drafted_at": "2026-05-04T15:34:16.503869",
     "data": {
-      "signal_id": "^GSPC:high:2026-05-01",
-      "kind": "high",
-      "current": "7,230.12"
+      "actor": "Fed"
     },
-    "content_hash": "3fefe25d3b818aa2"
+    "content_hash": "b2ffd882a19c3dd4"
   },
   {
-    "id": "e37f6116",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "Read this twice. Nasdaq just hit 25,114.44 \u2014 highest in 9+ years.\n\nTech-heavy index.\n\nLeads risk appetite and is most sensitive to rate moves.\n\nMulti-year high. The pack remembers what comes after these.\n\nhttps://finance.yahoo.com/quote/%5EIXIC",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Yahoo Finance \u00b7 ^IXIC",
-    "source_url": "https://finance.yahoo.com/quote/%5EIXIC",
-    "source_title": "Nasdaq Composite",
-    "source_summary": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
-    "drafted_at": "2026-05-04T08:05:50.738380",
-    "data": {
-      "signal_id": "^IXIC:high:2026-05-01",
-      "kind": "high",
-      "current": "25,114.44"
-    },
-    "content_hash": "ce08e8b71b40219b"
-  },
-  {
-    "id": "c6e79d0b",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "Here's what the talking heads missed: WTI crude jumps 9.5% in 5 sessions to $103.35.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "NYMEX \u00b7 CL=F",
-    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
-    "source_title": "WTI crude oil futures",
-    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-05-04T08:05:50.738620",
-    "data": {
-      "signal_id": "CL=F:move:2026-05-04",
-      "kind": "move_up",
-      "current": "$103.35"
-    },
-    "content_hash": "c272de0720a2f459"
-  },
-  {
-    "id": "89aa926b",
+    "id": "29abe9fe",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FOMC desk: Given the risks and the uncertainty around all aspects of the war, Kashkari said the Fed may even have to raise rates.\n\nhttps://nypost.com/2026/05/03/business/federal-reserve-official-says-iran-war-limits-central-banks-ability-to-provide-rate-guidance/",
@@ -103,14 +61,14 @@
     "source_url": "https://nypost.com/2026/05/03/business/federal-reserve-official-says-iran-war-limits-central-banks-ability-to-provide-rate-guidance/",
     "source_title": "Federal Reserve official says Iran war limits central bank\u2019s ability to provide rate guidance",
     "source_summary": "Given the risks and the uncertainty around all aspects of the war, Kashkari said the Fed may even have to raise rates.",
-    "drafted_at": "2026-05-04T08:05:50.750534",
+    "drafted_at": "2026-05-04T15:34:16.504070",
     "data": {
       "actor": "Federal Reserve"
     },
     "content_hash": "358197f75ff7f89a"
   },
   {
-    "id": "a9e74a56",
+    "id": "6881dc11",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Central bank corner: By law, a bank is generally prohibited from establishing or acquiring branches outside of its home state primarily for the purpose of acquiring additional deposits.\n\nThis prohibition seeks to ensure that interstate bank branches will not take deposits from a community without the bank also reasonably helping to meet the credit needs of that community.\n\nThe updated ratios, including additional information on how they are used to evaluate compliance with the requirements, are available here.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260501a.htm",
@@ -120,14 +78,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260501a.htm",
     "source_title": "Agencies issue host state loan-to-deposit ratios",
     "source_summary": "Agencies issue host state loan-to-deposit ratios",
-    "drafted_at": "2026-05-04T08:05:50.751231",
+    "drafted_at": "2026-05-04T15:34:16.504758",
     "data": {
       "actor": "FED"
     },
     "content_hash": "61dea05f952390b0"
   },
   {
-    "id": "dcc0feb9",
+    "id": "00277505",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "POWELL POSTCARD: The Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run.\n\nIn support of its goals, the Committee decided to maintain the target range for the federal funds rate at 3\u20111/2 to 3\u20113/4 percent.\n\nThe Committee is strongly committed to supporting maximum employment and returning inflation to its 2 percent objective.\n\nDevelopments in the Middle East are contributing to a high level of uncertainty about the economic outlook.\n\nThe Committee is attentive to the risks to both sides of its dual mandate.\n\nIn considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
@@ -137,199 +95,148 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
     "source_title": "Federal Reserve issues FOMC statement",
     "source_summary": "Federal Reserve issues FOMC statement",
-    "drafted_at": "2026-05-04T08:05:50.752880",
+    "drafted_at": "2026-05-04T15:34:16.506321",
     "data": {
       "actor": "FED"
     },
     "content_hash": "8eef4d9ead515d9a"
   },
   {
-    "id": "66a92aa3",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "Policy update for the pack: The final rule is being adopted without change from the proposal issued in November 2025.\n\nThe rule will lower the community bank leverage ratio from nine percent to eight percent, which will provide more flexibility for community banks to opt into the framework.\n\nThe final rule also extends the grace period from two quarters to four quarters for a community bank that temporarily falls out of compliance.\n\nThe framework continues to simplify regulatory capital requirements for community banks by allowing them to adopt a relatively simple leverage ratio to measure capital adequacy, rather than calculating and reporting risk-based capital ratios.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260423a.htm",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FED",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260423a.htm",
-    "source_title": "Agencies\u202ffinalize\u202fchanges to enhance community bank leverage ratio",
-    "source_summary": "Agencies finalize changes to enhance community bank leverage ratio",
-    "drafted_at": "2026-05-04T08:05:50.753951",
-    "data": {
-      "actor": "FED"
-    },
-    "content_hash": "40abe611cc707028"
-  },
-  {
-    "id": "9f0d0008",
+    "id": "4fec4535",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$PSUS insider bought $70,100,000 on 2026-04-30, 6 insiders. \ud83d\udc40\n\nPershing Square Usa, Ltd.. 1,402,000 shares at $50.00.\n\n-14.4% since the purchase.\n\nhttp://openinsider.com/screener?s=PSUS",
+    "draft_text": "$JEF insider bought $310,022,630 on 2026-05-01. \ud83d\udc40\n\nJefferies Financial Group Inc.. 6,429,337 shares at $48.22.\n\n+1.0% since the purchase.\n\nhttp://openinsider.com/screener?s=JEF",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=JEF",
+    "source_title": "Jefferies Financial Group Inc. (JEF) insider bought $310,022,630",
+    "source_summary": "1 insider(s) bought 6,429,337 shares at $48.22 on 2026-05-01.",
+    "drafted_at": "2026-05-04T15:34:16.507575",
+    "data": {
+      "ticker": "JEF",
+      "type": "P",
+      "dollar_value": 310022630.0,
+      "pct_since": 0.9850678034513063
+    },
+    "content_hash": "6270dee3c47edb29"
+  },
+  {
+    "id": "9bd33bd6",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$PSUS insider bought $70,100,000 on 2026-04-30, 6 insiders. \ud83d\udc40\n\nPershing Square Usa, Ltd.. 1,402,000 shares at $50.00.\n\n-14.9% since the purchase.\n\nhttp://openinsider.com/screener?s=PSUS",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=PSUS",
     "source_title": "Pershing Square Usa, Ltd. (PSUS) insider bought $70,100,000",
     "source_summary": "6 insider(s) bought 1,402,000 shares at $50.00 on 2026-04-30.",
-    "drafted_at": "2026-05-04T08:05:50.754160",
+    "drafted_at": "2026-05-04T15:34:16.507741",
     "data": {
       "ticker": "PSUS",
       "type": "P",
       "dollar_value": 70100000.0,
-      "pct_since": -14.400001525878906
+      "pct_since": -14.94020080566406
     },
     "content_hash": "510827014015d4e6"
   },
   {
-    "id": "3bd4e8b6",
+    "id": "ecf5472a",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$ZBIO insider bought $8,766,667 on 2026-04-28, 4 insiders. \ud83d\udc40\n\nZenas Biopharma, Inc.. 445,613 shares at $19.67.\n\n-1.6% since the purchase.\n\nhttp://openinsider.com/screener?s=ZBIO",
+    "draft_text": "$ZBIO insider bought $7,742,947 on 2026-04-28, 4 insiders. \ud83d\udc40\n\nZenas Biopharma, Inc.. 388,613 shares at $19.92.\n\n+7.1% since the purchase.\n\nhttp://openinsider.com/screener?s=ZBIO",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=ZBIO",
-    "source_title": "Zenas Biopharma, Inc. (ZBIO) insider bought $8,766,667",
-    "source_summary": "4 insider(s) bought 445,613 shares at $19.67 on 2026-04-28.",
-    "drafted_at": "2026-05-04T08:05:50.754283",
+    "source_title": "Zenas Biopharma, Inc. (ZBIO) insider bought $7,742,947",
+    "source_summary": "4 insider(s) bought 388,613 shares at $19.92 on 2026-04-28.",
+    "drafted_at": "2026-05-04T15:34:16.507873",
     "data": {
       "ticker": "ZBIO",
       "type": "P",
-      "dollar_value": 8766667.0,
-      "pct_since": -1.5760009641506822
+      "dollar_value": 7742947.0,
+      "pct_since": 7.128514822228357
     },
-    "content_hash": "d24701154d64814c"
+    "content_hash": "d3959e367832e229"
   },
   {
-    "id": "48c1d783",
+    "id": "107bceb4",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$IPX insider bought $5,184,906 on 2026-04-28, 3 insiders. \ud83d\udc40\n\nIperionx Ltd. 1,299,212 shares at $3.99.\n\n+738.6% since the purchase.\n\nhttp://openinsider.com/screener?s=IPX",
+    "draft_text": "$IPX insider bought $5,184,906 on 2026-04-28, 3 insiders. \ud83d\udc40\n\nIperionx Ltd. 1,299,212 shares at $3.99.\n\n+758.4% since the purchase.\n\nhttp://openinsider.com/screener?s=IPX",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=IPX",
     "source_title": "Iperionx Ltd (IPX) insider bought $5,184,906",
     "source_summary": "3 insider(s) bought 1,299,212 shares at $3.99 on 2026-04-28.",
-    "drafted_at": "2026-05-04T08:05:50.754409",
+    "drafted_at": "2026-05-04T15:34:16.507993",
     "data": {
       "ticker": "IPX",
       "type": "P",
       "dollar_value": 5184906.0,
-      "pct_since": 738.5964682825227
+      "pct_since": 758.3959899749373
     },
     "content_hash": "1f58cf6860fe0ec7"
   },
   {
-    "id": "73e5bedf",
+    "id": "01a16fc5",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$AVLN insider bought $5,000,004 on 2026-05-01. \ud83d\udc40\n\nAvalyn Pharma Inc.. 277,778 shares at $18.00.\n\n+65.8% since the purchase.\n\nhttp://openinsider.com/screener?s=AVLN",
+    "draft_text": "$AVLN insider bought $5,000,004 on 2026-05-01. \ud83d\udc40\n\nAvalyn Pharma Inc.. 277,778 shares at $18.00.\n\n+59.9% since the purchase.\n\nhttp://openinsider.com/screener?s=AVLN",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=AVLN",
     "source_title": "Avalyn Pharma Inc. (AVLN) insider bought $5,000,004",
     "source_summary": "1 insider(s) bought 277,778 shares at $18.00 on 2026-05-01.",
-    "drafted_at": "2026-05-04T08:05:50.754516",
+    "drafted_at": "2026-05-04T15:34:16.508110",
     "data": {
       "ticker": "AVLN",
       "type": "P",
       "dollar_value": 5000004.0,
-      "pct_since": 65.77777862548828
+      "pct_since": 59.944449530707466
     },
     "content_hash": "f78839df2be84b4b"
   },
   {
-    "id": "a7b1c50a",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$CHTR insider bought $2,365,149 on 2026-04-28, 3 insiders. \ud83d\udc40\n\nCharter Communications, Inc. /Mo/. 13,664 shares at $173.09.\n\n-0.8% since the purchase.\n\nhttp://openinsider.com/screener?s=CHTR",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=CHTR",
-    "source_title": "Charter Communications, Inc. /Mo/ (CHTR) insider bought $2,365,149",
-    "source_summary": "3 insider(s) bought 13,664 shares at $173.09 on 2026-04-28.",
-    "drafted_at": "2026-05-04T08:05:50.754640",
-    "data": {
-      "ticker": "CHTR",
-      "type": "P",
-      "dollar_value": 2365149.0,
-      "pct_since": -0.7799378975307302
-    },
-    "content_hash": "7e90154ee021a3ae"
-  },
-  {
-    "id": "8e781fdc",
+    "id": "8ef63dc4",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "LOS ANGELES, May 4, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Eos Energy Enterprises, Inc. (\"Eos Energy\" or \"the Company\") (NASDAQ: EOSE) for violations of \u00a7\u00a710(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated...\n\nhttps://www.prnewswire.com/news-releases/eos-energy-enterprises-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--eose-302760949.html",
+    "draft_text": "Etana is accused of operating a \"Ponzi-like enterprise\" the resulted in using capital to fund expenses and risky investments.\n\nhttps://www.theblock.co/post/399880/krakens-parent-company-alleges-custodian-etana-misappropriated-25-million?utm_source=rss&utm_medium=rss",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "PR NEWSWIRE",
-    "source_url": "https://www.prnewswire.com/news-releases/eos-energy-enterprises-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--eose-302760949.html",
-    "source_title": "Eos Energy Enterprises, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights",
-    "source_summary": "LOS ANGELES, May 4, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Eos Energy Enterprises, Inc. (\"Eos Energy\" or \"the Company\") (NASDAQ: EOSE) for violations of \u00a7\u00a710(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated...",
-    "drafted_at": "2026-05-04T08:05:50.755929",
+    "primary_source": "THE BLOCK",
+    "source_url": "https://www.theblock.co/post/399880/krakens-parent-company-alleges-custodian-etana-misappropriated-25-million?utm_source=rss&utm_medium=rss",
+    "source_title": "Kraken\u2019s parent company alleges custodian Etana misappropriated $25 million",
+    "source_summary": "Etana is accused of operating a \"Ponzi-like enterprise\" the resulted in using capital to fund expenses and risky investments.",
+    "drafted_at": "2026-05-04T15:34:16.509278",
     "data": {
-      "source": "PR NEWSWIRE"
+      "source": "THE BLOCK"
     },
-    "content_hash": "f907eb4e3f251b61"
+    "content_hash": "69435ed23ad02792"
   },
   {
-    "id": "7d503f00",
+    "id": "e33dda99",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "LOS ANGELES, May 4, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Soleno Therapeutics, Inc. (\"Soleno\" or \"the Company\") (NASDAQ: SLNO) for violations of \u00a7\u00a710(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated...\n\nhttps://www.prnewswire.com/news-releases/soleno-therapeutics-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--slno-302760950.html",
+    "draft_text": "Payward's amended lawsuit accuses Etana Custody and CEO Russell of orchestrating a $25 million Ponzi-like fraud scheme.\n\nThe post Kraken Parent Payward Accuses Etana of $25 Million Ponzi-Like Custody Fraud appeared first on BeInCrypto.\n\nhttps://beincrypto.com/payward-etana-custody-fraud-lawsuit/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "PR NEWSWIRE",
-    "source_url": "https://www.prnewswire.com/news-releases/soleno-therapeutics-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--slno-302760950.html",
-    "source_title": "Soleno Therapeutics, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights",
-    "source_summary": "LOS ANGELES, May 4, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Soleno Therapeutics, Inc. (\"Soleno\" or \"the Company\") (NASDAQ: SLNO) for violations of \u00a7\u00a710(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated...",
-    "drafted_at": "2026-05-04T08:05:50.756384",
+    "primary_source": "BEINCRYPTO",
+    "source_url": "https://beincrypto.com/payward-etana-custody-fraud-lawsuit/",
+    "source_title": "Kraken Parent Payward Accuses Etana of $25 Million Ponzi-Like Custody Fraud",
+    "source_summary": "Payward's amended lawsuit accuses Etana Custody and CEO Russell of orchestrating a $25 million Ponzi-like fraud scheme. The post Kraken Parent Payward Accuses Etana of $25 Million Ponzi-Like Custody Fraud appeared first on BeInCrypto .",
+    "drafted_at": "2026-05-04T15:34:16.509659",
     "data": {
-      "source": "PR NEWSWIRE"
+      "source": "BEINCRYPTO"
     },
-    "content_hash": "9567bb4eb30548f3"
+    "content_hash": "bdd45a19d2829d6f"
   },
   {
-    "id": "2518c7e5",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "LOS ANGELES, May 4, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Stellantis N.V. (\"Stellantis\" or \"the Company\") (NYSE: STLA) for violations of \u00a7\u00a710(b) and 20(a) of the Securities Exchange Act...\n\nhttps://www.prnewswire.com/news-releases/stla-investors-have-opportunity-to-lead-stellantis-nv-securities-fraud-lawsuit-with-the-schall-law-firm-302760940.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "PR NEWSWIRE",
-    "source_url": "https://www.prnewswire.com/news-releases/stla-investors-have-opportunity-to-lead-stellantis-nv-securities-fraud-lawsuit-with-the-schall-law-firm-302760940.html",
-    "source_title": "STLA Investors Have Opportunity to Lead Stellantis N.V. Securities Fraud Lawsuit with the Schall Law Firm",
-    "source_summary": "LOS ANGELES, May 4, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Stellantis N.V. (\"Stellantis\" or \"the Company\") (NYSE: STLA) for violations of \u00a7\u00a710(b) and 20(a) of the Securities Exchange Act...",
-    "drafted_at": "2026-05-04T08:05:50.756838",
-    "data": {
-      "source": "PR NEWSWIRE"
-    },
-    "content_hash": "b7be23e2a4c23616"
-  },
-  {
-    "id": "8b4835aa",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "LOS ANGELES, May 4, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Vital Farms, Inc. (\"Vital Farms\" or \"the Company\") (NASDAQ: VITL) for violations of \u00a7\u00a710(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder...\n\nhttps://www.prnewswire.com/news-releases/vital-farms-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--vitl-302760938.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "PR NEWSWIRE",
-    "source_url": "https://www.prnewswire.com/news-releases/vital-farms-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--vitl-302760938.html",
-    "source_title": "Vital Farms, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights",
-    "source_summary": "LOS ANGELES, May 4, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Vital Farms, Inc. (\"Vital Farms\" or \"the Company\") (NASDAQ: VITL) for violations of \u00a7\u00a710(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder...",
-    "drafted_at": "2026-05-04T08:05:50.757296",
-    "data": {
-      "source": "PR NEWSWIRE"
-    },
-    "content_hash": "7aa0531f4cbccc84"
-  },
-  {
-    "id": "aa658781",
+    "id": "86e1545c",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "A lot is being made in the media about insider trading on prediction markets like Kalshi and Polymarket, with much...\n\nhttps://spectator.org/when-governments-trade-on-secrets/",
@@ -339,150 +246,184 @@
     "source_url": "https://spectator.org/when-governments-trade-on-secrets/",
     "source_title": "When Governments Trade on Secrets",
     "source_summary": "A lot is being made in the media about insider trading on prediction markets like Kalshi and Polymarket, with much...",
-    "drafted_at": "2026-05-04T08:05:50.757505",
+    "drafted_at": "2026-05-04T15:34:16.509862",
     "data": {
       "source": "AM SPECTATOR"
     },
     "content_hash": "d1e39f21f7bca6d9"
   },
   {
-    "id": "c47b883f",
+    "id": "a1a94932",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "The most dangerous stablecoin scam probably looks nothing like what most people picture.\n\nThere's no anonymous founder, no Discord full of bots, no promise of returns that defy basic economic logic.\n\nInstead, it has a professional ticker, institutional branding, and a name that tens of millions of people have trusted with their savings for generations. [\u2026] The post Fake HSBC bank stablecoins hit the market showcasing dangerous new crypto scam wave appeared first on CryptoSlate.\n\nhttps://cryptoslate.com/fake-hsbc-bank-stablecoins-hit-the-market-showcasing-dangerous-new-crypto-scam-wave/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CRYPTOSLATE",
+    "source_url": "https://cryptoslate.com/fake-hsbc-bank-stablecoins-hit-the-market-showcasing-dangerous-new-crypto-scam-wave/",
+    "source_title": "Fake HSBC bank stablecoins hit the market showcasing dangerous new crypto scam wave",
+    "source_summary": "The most dangerous stablecoin scam probably looks nothing like what most people picture. There's no anonymous founder, no Discord full of bots, no promise of returns that defy basic economic logic. Instead, it has a professional ticker, institutional branding, and a name that tens of millions of people have trusted with their savings for generations. [\u2026] The post Fake HSBC bank stablecoins hit the",
+    "drafted_at": "2026-05-04T15:34:16.510559",
+    "data": {
+      "source": "CRYPTOSLATE"
+    },
+    "content_hash": "eef6132974e9c5a2"
+  },
+  {
+    "id": "02a92b99",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "The post Event With Links to Oil Industry Teaches Judges \u201cHealthy Skepticism\u201d of Climate Science appeared first on ProPublica.\n\nhttps://www.propublica.org/article/climate-science-oil-gas-fossil-fuel-judges-jim-jordan",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "PROPUBLICA",
+    "source_url": "https://www.propublica.org/article/climate-science-oil-gas-fossil-fuel-judges-jim-jordan",
+    "source_title": "Event With Links to Oil Industry Teaches Judges \u201cHealthy Skepticism\u201d of Climate Science",
+    "source_summary": "The post Event With Links to Oil Industry Teaches Judges \u201cHealthy Skepticism\u201d of Climate Science appeared first on ProPublica .",
+    "drafted_at": "2026-05-04T15:34:16.510838",
+    "data": {
+      "source": "PROPUBLICA"
+    },
+    "content_hash": "e5bbab1cdd6cf2de"
+  },
+  {
+    "id": "001a8348",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From the Americas: The lawsuit may lead to increased regulatory scrutiny, impacting Meta's operational strategies and potentially influencing tech industry standards.\n\nThe post Meta faces New Mexico lawsuit over child safety on Facebook, Instagram appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/meta-faces-new-mexico-lawsuit-over-child-safety-on-facebook-instagram/",
+    "draft_text": "From Brussels and beyond: Equinor has extended $1.8 billion worth of drilling and well services supplier contracts as the Norwegian energy major looks to keep high oil and gas production offshore Norway and deliver stable energy volumes to Europe.\n\nEquinor is extending key supplier agreements worth a total of $1.8 billion (17 billion Norwegian crowns), by exercising one-year options under three contracts for integrated drilling and well services, as well as two-year options under 18 corporate framework agreements for specialist services linked to these deliveries, the company\u2026\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Equinor-Signs-18-Billion-in-Drilling-Deals-to-Keep-Oil-and-Gas-Output-High.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "OILPRICE",
+    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Equinor-Signs-18-Billion-in-Drilling-Deals-to-Keep-Oil-and-Gas-Output-High.html",
+    "source_title": "Equinor Signs $1.8 Billion in Drilling Deals to Keep Oil and Gas Output High",
+    "source_summary": "Equinor has extended $1.8 billion worth of drilling and well services supplier contracts as the Norwegian energy major looks to keep high oil and gas production offshore Norway and deliver stable energy volumes to Europe. Equinor is extending key supplier agreements worth a total of $1.8 billion (17 billion Norwegian crowns), by exercising one-year options under three contracts for integrated dril",
+    "drafted_at": "2026-05-04T15:34:16.513086",
+    "data": {
+      "source": "OILPRICE"
+    },
+    "content_hash": "34304117d2530e77"
+  },
+  {
+    "id": "674a9e8e",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "From the international wire: The escalation in drone attacks by Russia diminishes prospects for a ceasefire, signaling prolonged conflict and increased civilian impact.\n\nThe post Russia launches record 6,583 drones at Ukraine in April, escalating conflict appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/russia-launches-record-6583-drones-at-ukraine-in-april-escalating-conflict/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/meta-faces-new-mexico-lawsuit-over-child-safety-on-facebook-instagram/",
-    "source_title": "Meta faces New Mexico lawsuit over child safety on Facebook, Instagram",
-    "source_summary": "The lawsuit may lead to increased regulatory scrutiny, impacting Meta's operational strategies and potentially influencing tech industry standards. The post Meta faces New Mexico lawsuit over child safety on Facebook, Instagram appeared first on Crypto Briefing .",
-    "drafted_at": "2026-05-04T08:05:50.760955",
+    "source_url": "https://cryptobriefing.com/russia-launches-record-6583-drones-at-ukraine-in-april-escalating-conflict/",
+    "source_title": "Russia launches record 6,583 drones at Ukraine in April, escalating conflict",
+    "source_summary": "The escalation in drone attacks by Russia diminishes prospects for a ceasefire, signaling prolonged conflict and increased civilian impact. The post Russia launches record 6,583 drones at Ukraine in April, escalating conflict appeared first on Crypto Briefing .",
+    "drafted_at": "2026-05-04T15:34:16.513778",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "17feb6342c1ecab3"
+    "content_hash": "80c6bb75dada16c8"
   },
   {
-    "id": "d01c1c78",
+    "id": "95e5f0f6",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From Brussels and beyond: More boiling the planet for data centers.\n\nhttps://www.nakedcapitalism.com/2026/05/us-energy-push-in-western-balkans-sparks-tension-with-brussels.html",
+    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: Bessent's view suggests temporary inflation relief, impacting Fed rate cut expectations and moderating long-term oil price concerns.\n\nThe post Treasury Secretary Bessent calls Iran conflict gas price surge a short-term blip appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/treasury-secretary-bessent-calls-iran-conflict-gas-price-surge-a-short-term-blip/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "NAKED CAPITAL",
-    "source_url": "https://www.nakedcapitalism.com/2026/05/us-energy-push-in-western-balkans-sparks-tension-with-brussels.html",
-    "source_title": "US Energy Push In Western Balkans Sparks Tension with Brussels",
-    "source_summary": "More boiling the planet for data centers. What\u2019s not to love?",
-    "drafted_at": "2026-05-04T08:05:50.761126",
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/treasury-secretary-bessent-calls-iran-conflict-gas-price-surge-a-short-term-blip/",
+    "source_title": "Treasury Secretary Bessent calls Iran conflict gas price surge a short-term blip",
+    "source_summary": "Bessent's view suggests temporary inflation relief, impacting Fed rate cut expectations and moderating long-term oil price concerns. The post Treasury Secretary Bessent calls Iran conflict gas price surge a short-term blip appeared first on Crypto Briefing .",
+    "drafted_at": "2026-05-04T15:34:16.514701",
     "data": {
-      "source": "NAKED CAPITAL"
+      "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "50a71e67dcd71c55"
+    "content_hash": "3961baf4fc45b51f"
   },
   {
-    "id": "d6ec7744",
+    "id": "fb1b5a6f",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 EUROPE: This article was written by Justin Low at investinglive.com.\n\nhttps://investinglive.com/news/eurozone-april-final-manufacturing-pmi-522-vs-522-prelim-20260504/",
+    "draft_text": "MIDDLE EAST DESK: The disruption in aluminum supply could lead to increased production costs and potential slowdowns in the automotive industry, affecting global markets.\n\nThe post Iran tensions disrupt aluminum supply, strain automakers amid US tariffs appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iran-tensions-disrupt-aluminum-supply-strain-automakers-amid-us-tariffs/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/iran-tensions-disrupt-aluminum-supply-strain-automakers-amid-us-tariffs/",
+    "source_title": "Iran tensions disrupt aluminum supply, strain automakers amid US tariffs",
+    "source_summary": "The disruption in aluminum supply could lead to increased production costs and potential slowdowns in the automotive industry, affecting global markets. The post Iran tensions disrupt aluminum supply, strain automakers amid US tariffs appeared first on Crypto Briefing .",
+    "drafted_at": "2026-05-04T15:34:16.515419",
+    "data": {
+      "source": "CRYPTO BRIEFING"
+    },
+    "content_hash": "549f1e74e91df2e8"
+  },
+  {
+    "id": "2e268274",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "From the Gulf: A short time ago, there were unconfirmed reports of Iranian ballistic missile launches from Isafan province.\n\nThe speculation at the time is that they were maritime targets.\n\nIran's Press also published videos of Iran firing 'warning shots' at US Destroyers near the Strait of Hormuz earlier today.\n\nThere are now explosions reported in the Dubai area or air defense.\n\nThe UAE ministry of defense now reports: Four loitering munitions coming from Iran towards the country were detected, where three missiles were successfully intercepted over the country's territorial waters, and the last one fell into the sea.\n\nThe Ministry of Defence confirmed that the sounds heard in scattered areas of the country are the result of the successful interception of the aerial threats.\n\nThe Ministry urges the honourable public to obtain information from its official sources and verify the facts, in addition to adhering to all public safety measures upon receipt of warning messages.\n\nThe UK reports on a cargo vessel 36 nautical miles north of Dubai that has a fire in the engine room and the cause is unknown.\n\nhttps://investinglive.com/news/uae-says-it-intercepted-three-missiles-20260504/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/eurozone-april-final-manufacturing-pmi-522-vs-522-prelim-20260504/",
-    "source_title": "Eurozone April final manufacturing PMI 52.2 vs 52.2 prelim",
-    "source_summary": "Prior 51.6 More to come.. This article was written by Justin Low at investinglive.com.",
-    "drafted_at": "2026-05-04T08:05:50.761296",
+    "source_url": "https://investinglive.com/news/uae-says-it-intercepted-three-missiles-20260504/",
+    "source_title": "Drone or missile strikes reported in the UAE",
+    "source_summary": "A short time ago, there were unconfirmed reports of Iranian ballistic missile launches from Isafan province. The speculation at the time is that they were maritime targets. Iran's Press also published videos of Iran firing 'warning shots' at US Destroyers near the Strait of Hormuz earlier today. There are now explosions reported in the Dubai area or air defense. The UAE ministry of defense now rep",
+    "drafted_at": "2026-05-04T15:34:16.516861",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "fb5beb72c0147234"
+    "content_hash": "02f2eb8960dea676"
   },
   {
-    "id": "eb9a4621",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "GLOBAL DESK: The US naval mission heightens geopolitical tensions, potentially escalating conflict and reducing prospects for diplomatic resolutions in the region.\n\nThe post US launches \u201cProject Freedom\u201d naval mission amid Hormuz tensions appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/us-launches-project-freedom-naval-mission-amid-hormuz-tensions/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/us-launches-project-freedom-naval-mission-amid-hormuz-tensions/",
-    "source_title": "US launches \u201cProject Freedom\u201d naval mission amid Hormuz tensions",
-    "source_summary": "The US naval mission heightens geopolitical tensions, potentially escalating conflict and reducing prospects for diplomatic resolutions in the region. The post US launches \u201cProject Freedom\u201d naval mission amid Hormuz tensions appeared first on Crypto Briefing .",
-    "drafted_at": "2026-05-04T08:05:50.761929",
-    "data": {
-      "source": "CRYPTO BRIEFING"
-    },
-    "content_hash": "a1919dc7244cb5b2"
-  },
-  {
-    "id": "28d8077d",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Mainland wire: The hacking incident exacerbates U.S.-China tensions, complicating diplomatic efforts and reducing prospects for high-level engagements.\n\nThe post Chinese hackers target Cuban embassy amid US-China tensions appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/chinese-hackers-target-cuban-embassy-amid-us-china-tensions/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/chinese-hackers-target-cuban-embassy-amid-us-china-tensions/",
-    "source_title": "Chinese hackers target Cuban embassy amid US-China tensions",
-    "source_summary": "The hacking incident exacerbates U.S.-China tensions, complicating diplomatic efforts and reducing prospects for high-level engagements. The post Chinese hackers target Cuban embassy amid US-China tensions appeared first on Crypto Briefing .",
-    "drafted_at": "2026-05-04T08:05:50.762704",
-    "data": {
-      "source": "CRYPTO BRIEFING"
-    },
-    "content_hash": "49669861248c8a86"
-  },
-  {
-    "id": "a195a158",
+    "id": "e062cbfa",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "From the trade desk: Ireland's GDP soared 12.3% in 2025 \u2014 but it was a mirage.\n\nPharma multinationals front-loaded \u20ac25.4bn of exports to the US in March alone, ahead of Trump's tariffs.\n\nNow the first quarter of 2026 sees a contraction.\n\nhttp://www.euronews.com/business/2026/05/04/irish-economic-miracle-explained-why-all-that-glitter-isnt-gold",
+    "draft_text": "Numbers just hit: US March factory orders +1.5% vs +0.5% expected (prior unchanged, revised to +0.3%) Factory orders ex-transportation +1.6% vs +1.6% prior (revised from +1.2%) Factory orders ex-defense +0.9% vs +0.3% prior Durables orders unrevised at +0.8% Nondefense capital goods orders ex-aircraft revised to +3.4% from +3.3%; March shipments unrevised at +1.2% Computers/electronic products orders +3.6% vs +1.4% prior Nondurables orders +2.1% vs +1.9% prior Total manufacturing inventories +0.6% vs +0.1% prior Inventories/shipments ratio 1.51 months vs 1.52 months prior This is a clean beat across the board and a meaningful upward revision to February.\n\nThe headline tripled the consensus estimate and the revision history continues to flatter the underlying trend.\n\nThe standout remains core capital goods orders ex-aircraft, nudged up to +3.4% \u2014 that is a blistering print and reinforces what the durable goods report flagged last week around AI infrastructure and power-related capex.\n\nThe computers and electronic products line at +3.6% tells the same story, and the breadth here is notable with ex-transportation, ex-defense, and nondurables all firm.\n\nThe inventories/shipments ratio ticking down to 1.51 months suggests demand is keeping pace with the build, so this isn't a stockpiling story masquerading as strength.\n\nShipments at +1.2% are the cleaner read on activity actually hitting the economy, and that number is solid.\n\nWorth watching whether the April data starts to show payback, but for now the manufacturing complex is running hot and I don't think there will be any let-up in AI capex spending for the next two years.\n\nFew people understand just how big the AI capex boom is.\n\nhttps://investinglive.com/news/us-march-factory-orders-surge-15-versus-05-consensus-as-core-capex-revised-higher-20260504/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/us-march-factory-orders-surge-15-versus-05-consensus-as-core-capex-revised-higher-20260504/",
+    "source_title": "US March factory orders surge +1.5%, versus +0.5% consensus as core capex revised higher",
+    "source_summary": "US March factory orders +1.5% vs +0.5% expected (prior unchanged, revised to +0.3%) Factory orders ex-transportation +1.6% vs +1.6% prior (revised from +1.2%) Factory orders ex-defense +0.9% vs +0.3% prior Durables orders unrevised at +0.8% Nondefense capital goods orders ex-aircraft revised to +3.4% from +3.3%; March shipments unrevised at +1.2% Computers/electronic products orders +3.6% vs +1.4%",
+    "drafted_at": "2026-05-04T15:34:16.576492",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "da69e5c40d0d8c6d"
+  },
+  {
+    "id": "e850cc3c",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "From the inflation desk: CPI Card Group stock shows strong cash flow and revenue growth, but acquisition costs, tariffs, and digital payment trends raise long-term questions.\n\nhttps://www.marketbeat.com/originals/cpi-card-groups-quiet-cash-machine-faces-a-digital-reality-check/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "MARKETBEAT",
+    "source_url": "https://www.marketbeat.com/originals/cpi-card-groups-quiet-cash-machine-faces-a-digital-reality-check/",
+    "source_title": "CPI Card Group\u2019s Quiet Cash Machine Faces a Digital Reality Check",
+    "source_summary": "CPI Card Group stock shows strong cash flow and revenue growth, but acquisition costs, tariffs, and digital payment trends raise long-term questions.",
+    "drafted_at": "2026-05-04T15:34:16.576734",
+    "data": {
+      "source": "MARKETBEAT"
+    },
+    "content_hash": "50394b5b50c733ac"
+  },
+  {
+    "id": "94a44c75",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "From the trade desk: The Ring is Euronews\u2019 weekly political showdown, where Europe\u2019s toughest debates meet their boldest voices.\n\nIn each episode, two political heavyweights from across the EU face off to propose a diversity of opinions and spark conversations around the most important issues of EU affairs and the wider European political life.\n\nEuronews Tech Talks goes beyond discussions to explore the impact of new technologies on our lives.\n\nWith explanations, engaging Q&As, and lively conversations, the podcast provides valuable insights into the intersection of technology and society.\n\nEurope's best food experts are joining forces to crack down on fraud.\n\nhttp://www.euronews.com/business/2026/05/04/irish-economic-miracle-explained-why-all-that-glitter-isnt-gold",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "EURONEWS",
     "source_url": "http://www.euronews.com/business/2026/05/04/irish-economic-miracle-explained-why-all-that-glitter-isnt-gold",
     "source_title": "Irish economic miracle explained: Why all that glitters isn't gold",
     "source_summary": "Ireland's GDP soared 12.3% in 2025 \u2014 but it was a mirage. Pharma multinationals front-loaded \u20ac25.4bn of exports to the US in March alone, ahead of Trump's tariffs. Now the first quarter of 2026 sees a contraction.",
-    "drafted_at": "2026-05-04T08:05:50.833071",
+    "drafted_at": "2026-05-04T15:34:16.578265",
     "data": {
       "source": "EURONEWS"
     },
     "content_hash": "93b8b6005782f8d3"
   },
   {
-    "id": "ee07e74e",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "From the BEA desk: The total value of US private-sector financial assets has reached 6.7 times the US gross domestic product, marking a new record.\n\nThe ratio, which compares the combined value of stocks, bonds, deposits, and other financial instruments held outside the government to annual GDP, surpasses the previous peak of 6.3 times set in 2021.\n\nThe Gap The post US Private Financial Assets Hit Record 6.7x GDP as Wealth Gap Widens appeared first on BeInCrypto.\n\nhttps://beincrypto.com/wealth-gap-record-financial-assets-gdp/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "BEINCRYPTO",
-    "source_url": "https://beincrypto.com/wealth-gap-record-financial-assets-gdp/",
-    "source_title": "US Private Financial Assets Hit Record 6.7x GDP as Wealth Gap Widens",
-    "source_summary": "The total value of US private-sector financial assets has reached 6.7 times the US gross domestic product, marking a new record. The ratio, which compares the combined value of stocks, bonds, deposits, and other financial instruments held outside the government to annual GDP, surpasses the previous peak of 6.3 times set in 2021. The Gap The post US Private Financial Assets Hit Record 6.7x GDP as W",
-    "drafted_at": "2026-05-04T08:05:50.833595",
-    "data": {
-      "source": "BEINCRYPTO"
-    },
-    "content_hash": "4745735cebea6a31"
-  },
-  {
-    "id": "48568b1f",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "GROWTH POSTCARD: Market Minder, Fisher Investments Amid all the handwringing over the war in Iran, Q1 US GDP accelerated.\n\nThough war affected only March\u2014and Strait of Hormuz traffic remains...\n\nhttps://www.realclearmarkets.com/2026/05/02/q1_gdp_isnt_gangbusters_but_shows_firm_footing_1180305.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "REALCLEAR",
-    "source_url": "https://www.realclearmarkets.com/2026/05/02/q1_gdp_isnt_gangbusters_but_shows_firm_footing_1180305.html",
-    "source_title": "Q1 GDP Isn't Gangbusters, But Shows Firm Footing",
-    "source_summary": "Market Minder, Fisher Investments Amid all the handwringing over the war in Iran, Q1 US GDP accelerated. Though war affected only March\u2014and Strait of Hormuz traffic remains...",
-    "drafted_at": "2026-05-04T08:05:50.833848",
-    "data": {
-      "source": "REALCLEAR"
-    },
-    "content_hash": "a9af49249b3a6858"
-  },
-  {
-    "id": "0162e161",
+    "id": "eadba2a2",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "Fresh print: Despite tech layoffs, California added 28,700 jobs in March, dropping the state's unemployment rate to 5.3%.\n\nhttps://www.latimes.com/business/story/2026-05-01/california-gained-jobs-in-march-dropping-unemployment-rate-to-5-3",
@@ -492,14 +433,14 @@
     "source_url": "https://www.latimes.com/business/story/2026-05-01/california-gained-jobs-in-march-dropping-unemployment-rate-to-5-3",
     "source_title": "California gained jobs in March as unemployment rate drops to 5.3%",
     "source_summary": "Despite tech layoffs, California added 28,700 jobs in March, dropping the state's unemployment rate to 5.3%",
-    "drafted_at": "2026-05-04T08:05:50.834048",
+    "drafted_at": "2026-05-04T15:34:16.578474",
     "data": {
       "source": "LA TIMES"
     },
     "content_hash": "ad0137ee81e44fdc"
   },
   {
-    "id": "eb7f3403",
+    "id": "ff1015d4",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -509,7 +450,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-05-04T08:05:50.835609",
+    "drafted_at": "2026-05-04T15:34:16.580021",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -517,7 +458,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "14856f96",
+    "id": "a0b31211",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Information is free. Conviction is rare. Patience is rarer.",
@@ -527,14 +468,14 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Information is free. Conviction is rare. Patience is rarer.",
-    "drafted_at": "2026-05-04T08:05:50.835689",
+    "drafted_at": "2026-05-04T15:34:16.580101",
     "data": {
       "take_seed": "2026-05-04-pack-1"
     },
     "content_hash": "9b0f7be55d8ef71c"
   },
   {
-    "id": "fe963470",
+    "id": "bc19a5ea",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Inflation is a tax that doesn't show up on your W-2.",
@@ -544,7 +485,7 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Inflation is a tax that doesn't show up on your W-2.",
-    "drafted_at": "2026-05-04T08:05:50.835735",
+    "drafted_at": "2026-05-04T15:34:16.580154",
     "data": {
       "take_seed": "2026-05-04-pack-2"
     },
