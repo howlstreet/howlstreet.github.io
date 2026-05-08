@@ -1,23 +1,61 @@
 [
   {
-    "id": "0146ad60",
-    "format": "LOUD_HOWL",
+    "id": "bfaddcc2",
+    "format": "MARKET_MOVE",
     "status": "pending",
-    "draft_text": "TODAY'S LOUDEST HOWL: Brent crude rises amid clashes in critical waterway.\n\nhttps://www.aljazeera.com/economy/2026/5/8/oil-prices-jump-as-us-iran-trade-fire-in-strait-of-hormuz?traffic_source=rss",
+    "draft_text": "Caught a move. Bitcoin climbs 5.1% in 5 sessions to $80,209.\n\nBitcoin is now treated as a macro asset alongside gold and tech.\n\nIts swings move alt-coins, public miners, and crypto-exposed stocks.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/BTC-USD",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/economy/2026/5/8/oil-prices-jump-as-us-iran-trade-fire-in-strait-of-hormuz?traffic_source=rss",
-    "source_title": "Oil prices jump as US, Iran trade fire in Strait of Hormuz",
-    "source_summary": "Brent crude rises amid clashes in critical waterway.",
-    "drafted_at": "2026-05-08T05:48:22.083632",
+    "primary_source": "Yahoo Finance \u00b7 BTC-USD",
+    "source_url": "https://finance.yahoo.com/quote/BTC-USD",
+    "source_title": "Bitcoin",
+    "source_summary": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
+    "drafted_at": "2026-05-08T10:55:00.291964",
     "data": {
-      "source": "AL JAZEERA"
+      "signal_id": "BTC-USD:move:2026-05-08",
+      "kind": "move_up",
+      "current": "$80,209"
     },
-    "content_hash": "c933b8618e8b5dc3"
+    "content_hash": "0e3396ceb3da7211"
   },
   {
-    "id": "b5d5d5b6",
+    "id": "3633a1e1",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "I don't say this often, but pay attention: WTI crude drops 5.2% in 5 sessions to $94.69.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NYMEX \u00b7 CL=F",
+    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "source_title": "WTI crude oil futures",
+    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "drafted_at": "2026-05-08T10:55:00.292211",
+    "data": {
+      "signal_id": "CL=F:move:2026-05-08",
+      "kind": "move_down",
+      "current": "$94.69"
+    },
+    "content_hash": "c272de0720a2f459"
+  },
+  {
+    "id": "ad133b28",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "The Fed just spoke. Here's what matters: The United States (US) Bureau of Labor Statistics (BLS) will release the Nonfarm Payrolls (NFP) data for April on Friday at 12:30 GMT.\n\nhttps://www.fxstreet.com/news/us-nonfarm-payrolls-expected-to-rise-by-62k-in-april-202605080400",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Fed",
+    "source_url": "https://www.fxstreet.com/news/us-nonfarm-payrolls-expected-to-rise-by-62k-in-april-202605080400",
+    "source_title": "US Nonfarm Payrolls set to rise by 62K in April as markets assess Fed rate outlook",
+    "source_summary": "The United States (US) Bureau of Labor Statistics (BLS) will release the Nonfarm Payrolls (NFP) data for April on Friday at 12:30 GMT.",
+    "drafted_at": "2026-05-08T10:55:00.301557",
+    "data": {
+      "actor": "Fed"
+    },
+    "content_hash": "39e3573a8835670d"
+  },
+  {
+    "id": "7babae5b",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Central bank corner: By law, a bank is generally prohibited from establishing or acquiring branches outside of its home state primarily for the purpose of acquiring additional deposits.\n\nThis prohibition seeks to ensure that interstate bank branches will not take deposits from a community without the bank also reasonably helping to meet the credit needs of that community.\n\nThe updated ratios, including additional information on how they are used to evaluate compliance with the requirements, are available here.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260501a.htm",
@@ -27,14 +65,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260501a.htm",
     "source_title": "Agencies issue host state loan-to-deposit ratios",
     "source_summary": "Agencies issue host state loan-to-deposit ratios",
-    "drafted_at": "2026-05-08T05:48:22.093639",
+    "drafted_at": "2026-05-08T10:55:00.302160",
     "data": {
       "actor": "FED"
     },
     "content_hash": "61dea05f952390b0"
   },
   {
-    "id": "12f5f24f",
+    "id": "80b4e741",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "POWELL POSTCARD: The Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run.\n\nIn support of its goals, the Committee decided to maintain the target range for the federal funds rate at 3\u20111/2 to 3\u20113/4 percent.\n\nThe Committee is strongly committed to supporting maximum employment and returning inflation to its 2 percent objective.\n\nDevelopments in the Middle East are contributing to a high level of uncertainty about the economic outlook.\n\nThe Committee is attentive to the risks to both sides of its dual mandate.\n\nIn considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
@@ -44,14 +82,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
     "source_title": "Federal Reserve issues FOMC statement",
     "source_summary": "Federal Reserve issues FOMC statement",
-    "drafted_at": "2026-05-08T05:48:22.095050",
+    "drafted_at": "2026-05-08T10:55:00.303503",
     "data": {
       "actor": "FED"
     },
     "content_hash": "8eef4d9ead515d9a"
   },
   {
-    "id": "a7428c18",
+    "id": "ee3acf80",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Policy update for the pack: The final rule is being adopted without change from the proposal issued in November 2025.\n\nThe rule will lower the community bank leverage ratio from nine percent to eight percent, which will provide more flexibility for community banks to opt into the framework.\n\nThe final rule also extends the grace period from two quarters to four quarters for a community bank that temporarily falls out of compliance.\n\nThe framework continues to simplify regulatory capital requirements for community banks by allowing them to adopt a relatively simple leverage ratio to measure capital adequacy, rather than calculating and reporting risk-based capital ratios.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260423a.htm",
@@ -61,14 +99,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260423a.htm",
     "source_title": "Agencies\u202ffinalize\u202fchanges to enhance community bank leverage ratio",
     "source_summary": "Agencies finalize changes to enhance community bank leverage ratio",
-    "drafted_at": "2026-05-08T05:48:22.095972",
+    "drafted_at": "2026-05-08T10:55:00.304396",
     "data": {
       "actor": "FED"
     },
     "content_hash": "40abe611cc707028"
   },
   {
-    "id": "36137e65",
+    "id": "18fa9fa4",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$PSUS insider bought $70,534,140 on 2026-04-30, 7 insiders. \ud83d\udc40\n\nPershing Square Usa, Ltd.. 1,412,000 shares at $49.95.\n\n-15.3% since the purchase.\n\nhttp://openinsider.com/screener?s=PSUS",
@@ -78,7 +116,7 @@
     "source_url": "http://openinsider.com/screener?s=PSUS",
     "source_title": "Pershing Square Usa, Ltd. (PSUS) insider bought $70,534,140",
     "source_summary": "7 insider(s) bought 1,412,000 shares at $49.95 on 2026-04-30.",
-    "drafted_at": "2026-05-08T05:48:22.096173",
+    "drafted_at": "2026-05-08T10:55:00.304588",
     "data": {
       "ticker": "PSUS",
       "type": "P",
@@ -88,7 +126,7 @@
     "content_hash": "b52f9ba6394ce040"
   },
   {
-    "id": "89f6f2cf",
+    "id": "e52e6f1c",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$GOLD insider bought $23,600,041 on 2026-05-05. \ud83d\udc40\n\nGold.Com, Inc.. 530,338 shares at $44.50.\n\n-2.2% since the purchase.\n\nhttp://openinsider.com/screener?s=GOLD",
@@ -98,7 +136,7 @@
     "source_url": "http://openinsider.com/screener?s=GOLD",
     "source_title": "Gold.Com, Inc. (GOLD) insider bought $23,600,041",
     "source_summary": "1 insider(s) bought 530,338 shares at $44.50 on 2026-05-05.",
-    "drafted_at": "2026-05-08T05:48:22.096274",
+    "drafted_at": "2026-05-08T10:55:00.304689",
     "data": {
       "ticker": "GOLD",
       "type": "P",
@@ -108,7 +146,7 @@
     "content_hash": "f67bc0bdbb295a7a"
   },
   {
-    "id": "793810cb",
+    "id": "b89fd605",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$SRAD insider bought $11,349,414 on 2026-05-06, 7 insiders. \ud83d\udc40\n\nSportradar Group AG. 855,694 shares at $13.26.\n\n+2.9% since the purchase.\n\nhttp://openinsider.com/screener?s=SRAD",
@@ -118,7 +156,7 @@
     "source_url": "http://openinsider.com/screener?s=SRAD",
     "source_title": "Sportradar Group AG (SRAD) insider bought $11,349,414",
     "source_summary": "7 insider(s) bought 855,694 shares at $13.26 on 2026-05-06.",
-    "drafted_at": "2026-05-08T05:48:22.096382",
+    "drafted_at": "2026-05-08T10:55:00.304794",
     "data": {
       "ticker": "SRAD",
       "type": "P",
@@ -128,7 +166,7 @@
     "content_hash": "c9b4a87425e342e8"
   },
   {
-    "id": "b172de1f",
+    "id": "cc05d0a5",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$NSP insider bought $7,766,526 on 2026-05-05, 2 insiders. \ud83d\udc40\n\nInsperity, Inc.. 311,987 shares at $24.89.\n\n+31.3% since the purchase.\n\nhttp://openinsider.com/screener?s=NSP",
@@ -138,7 +176,7 @@
     "source_url": "http://openinsider.com/screener?s=NSP",
     "source_title": "Insperity, Inc. (NSP) insider bought $7,766,526",
     "source_summary": "2 insider(s) bought 311,987 shares at $24.89 on 2026-05-05.",
-    "drafted_at": "2026-05-08T05:48:22.096488",
+    "drafted_at": "2026-05-08T10:55:00.304897",
     "data": {
       "ticker": "NSP",
       "type": "P",
@@ -148,7 +186,7 @@
     "content_hash": "8b02f16bd3c6c0f1"
   },
   {
-    "id": "9cb4c1a9",
+    "id": "d5f75126",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$ZBIO insider bought $7,742,947 on 2026-04-28, 4 insiders. \ud83d\udc40\n\nZenas Biopharma, Inc.. 388,613 shares at $19.92.\n\n-3.3% since the purchase.\n\nhttp://openinsider.com/screener?s=ZBIO",
@@ -158,7 +196,7 @@
     "source_url": "http://openinsider.com/screener?s=ZBIO",
     "source_title": "Zenas Biopharma, Inc. (ZBIO) insider bought $7,742,947",
     "source_summary": "4 insider(s) bought 388,613 shares at $19.92 on 2026-04-28.",
-    "drafted_at": "2026-05-08T05:48:22.096595",
+    "drafted_at": "2026-05-08T10:55:00.305003",
     "data": {
       "ticker": "ZBIO",
       "type": "P",
@@ -168,7 +206,24 @@
     "content_hash": "d3959e367832e229"
   },
   {
-    "id": "5ef8c321",
+    "id": "36b7ce0a",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Caught. Taiwan prosecutors indicted a news anchor for allegedly accepting crypto payments from an \"overseas hostile force\" to produce news shows.\n\nhttps://www.theblock.co/post/400533/taiwan-news-anchor-crypto-scandal?utm_source=rss&utm_medium=rss",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "THE BLOCK",
+    "source_url": "https://www.theblock.co/post/400533/taiwan-news-anchor-crypto-scandal?utm_source=rss&utm_medium=rss",
+    "source_title": "Taiwan news anchor indicted for allegedly taking crypto payments from China to produce propaganda, bribe soldiers",
+    "source_summary": "Taiwan prosecutors indicted a news anchor for allegedly accepting crypto payments from an \"overseas hostile force\" to produce news shows.",
+    "drafted_at": "2026-05-08T10:55:00.305955",
+    "data": {
+      "source": "THE BLOCK"
+    },
+    "content_hash": "d7fd1eb4bf25ce3e"
+  },
+  {
+    "id": "4a1666bf",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "COLUMBUS \u2014 As far as office buildings go, 6161 Busch Boulevard is the kind of place you\u2019d probably want to...\n\nhttps://spectator.org/medicaid-wasnt-built-for-man-ohio-fraud-proves-it/",
@@ -178,31 +233,14 @@
     "source_url": "https://spectator.org/medicaid-wasnt-built-for-man-ohio-fraud-proves-it/",
     "source_title": "Medicaid Wasn\u2019t Built For Man. Ohio Fraud Proves It.",
     "source_summary": "COLUMBUS \u2014 As far as office buildings go, 6161 Busch Boulevard is the kind of place you\u2019d probably want to...",
-    "drafted_at": "2026-05-08T05:48:22.097591",
+    "drafted_at": "2026-05-08T10:55:00.306159",
     "data": {
       "source": "AM SPECTATOR"
     },
     "content_hash": "6c19b1e8a264e8ab"
   },
   {
-    "id": "447a0955",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "PROTECTION BRIEFING: MILWAUKEE, May 7, 2026 /PRNewswire/ -- Ademi LLP is investigating possible securities fraud claims against Planet Fitness (NYSE: PLNT).\n\nThe investigation results from inaccurate statements Planet Fitness may have made regarding its financial statements, business operations and prospects....\n\nhttps://www.prnewswire.com/news-releases/shareholder-alert-ademi-llp-investigates-claims-of-securities-fraud-against-planet-fitness-inc-302766303.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "PR NEWSWIRE",
-    "source_url": "https://www.prnewswire.com/news-releases/shareholder-alert-ademi-llp-investigates-claims-of-securities-fraud-against-planet-fitness-inc-302766303.html",
-    "source_title": "Shareholder Alert: Ademi LLP Investigates Claims of Securities Fraud against Planet Fitness, Inc.",
-    "source_summary": "MILWAUKEE, May 7, 2026 /PRNewswire/ -- Ademi LLP is investigating possible securities fraud claims against Planet Fitness (NYSE: PLNT). The investigation results from inaccurate statements Planet Fitness may have made regarding its financial statements, business operations and prospects....",
-    "drafted_at": "2026-05-08T05:48:22.097960",
-    "data": {
-      "source": "PR NEWSWIRE"
-    },
-    "content_hash": "5198bb8c4bb51b49"
-  },
-  {
-    "id": "bf973011",
+    "id": "68d3adce",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Score one for the good guys. Over a decade after the ICIJ investigation, a German court found the Swiss lawyer guilty of enabling a tax loss of about $15 million.\n\nhttps://www.icij.org/investigations/panama-papers/former-co-owner-of-panama-papers-law-firm-convicted-of-aiding-and-abetting-tax-evasion/",
@@ -212,184 +250,184 @@
     "source_url": "https://www.icij.org/investigations/panama-papers/former-co-owner-of-panama-papers-law-firm-convicted-of-aiding-and-abetting-tax-evasion/",
     "source_title": "Former co-owner of Panama Papers law firm convicted of aiding and abetting tax evasion",
     "source_summary": "Over a decade after the ICIJ investigation, a German court found the Swiss lawyer guilty of enabling a tax loss of about $15 million.",
-    "drafted_at": "2026-05-08T05:48:22.098174",
+    "drafted_at": "2026-05-08T10:55:00.306376",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "df9a78ba9c0507f7"
   },
   {
-    "id": "d63ffc91",
+    "id": "766f7395",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Mainland wire: China has revised its conditions for a Xi-Trump meeting.\n\nChina will not be seen as backing US escalation v.\n\nhttps://www.nakedcapitalism.com/2026/05/who-gives-a-hug-china-changes-its-position-towards-iran-us.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "NAKED CAPITAL",
-    "source_url": "https://www.nakedcapitalism.com/2026/05/who-gives-a-hug-china-changes-its-position-towards-iran-us.html",
-    "source_title": "Who Gives a Hug \u2013 China Changes Its Position Towards Iran, US",
-    "source_summary": "China has revised its conditions for a Xi-Trump meeting. China will not be seen as backing US escalation v. Iran and requires negotiations.",
-    "drafted_at": "2026-05-08T05:48:22.099071",
-    "data": {
-      "source": "NAKED CAPITAL"
-    },
-    "content_hash": "d265391cf532d08b"
-  },
-  {
-    "id": "2357bfdd",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "From the Gulf: The disruption in the Strait of Hormuz could exacerbate global energy supply issues, heightening geopolitical tensions and economic instability.\n\nThe post 1,500 ships trapped in Gulf amid US-Iran conflict, Hormuz traffic disrupted appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/1500-ships-trapped-in-gulf-amid-us-iran-conflict-hormuz-traffic-disrupted/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/1500-ships-trapped-in-gulf-amid-us-iran-conflict-hormuz-traffic-disrupted/",
-    "source_title": "1,500 ships trapped in Gulf amid US-Iran conflict, Hormuz traffic disrupted",
-    "source_summary": "The disruption in the Strait of Hormuz could exacerbate global energy supply issues, heightening geopolitical tensions and economic instability. The post 1,500 ships trapped in Gulf amid US-Iran conflict, Hormuz traffic disrupted appeared first on Crypto Briefing .",
-    "drafted_at": "2026-05-08T05:48:22.099366",
-    "data": {
-      "source": "CRYPTO BRIEFING"
-    },
-    "content_hash": "1e9dc034119ad63f"
-  },
-  {
-    "id": "f2f439b9",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Canada/LatAm wire: Senior leaders from policy, business and international institutions are set to discuss critical labour market concerns at the World Employment Confederation\u2019s Annual Conference, during an era of global transformation and disruption never-before-seen.\n\nBRUSSELS \u2014 Taking place on 12-13 May in Toronto and entitled \u2018Grow With Talent\u2019, this year\u2019s World Employment Conference \u2013 co-organised with ACSESS [\u2026]\n\nhttps://financialpost.com/pmn/business-wire-news-releases-pmn/world-employment-confederations-59th-annual-conference-to-address-critical-global-labour-market-concerns",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/world-employment-confederations-59th-annual-conference-to-address-critical-global-labour-market-concerns",
-    "source_title": "World Employment Confederation\u2019s 59th Annual Conference to Address Critical Global Labour Market Concerns",
-    "source_summary": "Senior leaders from policy, business and international institutions are set to discuss critical labour market concerns at the World Employment Confederation\u2019s Annual Conference, during an era of global transformation and disruption never-before-seen. BRUSSELS \u2014 Taking place on 12-13 May in Toronto and entitled \u2018Grow With Talent\u2019, this year\u2019s World Employment Conference \u2013 co-organised with ACSESS [",
-    "drafted_at": "2026-05-08T05:48:22.100029",
-    "data": {
-      "source": "FINANCIAL POST"
-    },
-    "content_hash": "4b524336f4b73b5b"
-  },
-  {
-    "id": "52c4cf5d",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "MIDDLE EAST DESK: West Texas Intermediate (WTI), the US crude oil benchmark, is trading around $92.45 during the early European trading hours on Friday.\n\nThe WTI price attracts some sellers on optimism over a possible deal to end the war with Iran.\n\nhttps://www.fxstreet.com/news/wti-retreats-below-9250-on-us-iran-ceasefire-optimism-despite-ongoing-strikes-202605080517",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/wti-retreats-below-9250-on-us-iran-ceasefire-optimism-despite-ongoing-strikes-202605080517",
-    "source_title": "WTI retreats below $92.50 on US-Iran ceasefire optimism despite ongoing strikes",
-    "source_summary": "West Texas Intermediate (WTI), the US crude oil benchmark, is trading around $92.45 during the early European trading hours on Friday. The WTI price attracts some sellers on optimism over a possible deal to end the war with Iran.",
-    "drafted_at": "2026-05-08T05:48:22.100299",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "06577285fd2c96b4"
-  },
-  {
-    "id": "fb4d6d4e",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "From the Gulf: But while some have been pushed to the brink, others, whose core businesses are more profitable in a war or who benefit from volatile energy prices, have seen record earnings.\n\nBP's profits more than doubled to $3.2bn (\u00a32.4bn) for the first three months of the year, after what it called an \"exceptional\" performance in its trading division.\n\nAs households across the globe count the costs of the US-Israel war in Iran, some companies have been counting bumper profits instead.\n\nThe uncertainty sparked by the conflict, and Iran's effective closure of the Strait of Hormuz, is driving up the cost of living and hitting the budgets of firms, families and governments.\n\nhttps://www.bbc.com/news/articles/ce8pyyz5e0ro?at_medium=RSS&at_campaign=rss",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "BBC",
-    "source_url": "https://www.bbc.com/news/articles/ce8pyyz5e0ro?at_medium=RSS&at_campaign=rss",
-    "source_title": "From oil giants to banks - these companies are making billions from Iran war",
-    "source_summary": "Through surging profits or soaring share prices, the war has been a boon for some firms.",
-    "drafted_at": "2026-05-08T05:48:22.101558",
-    "data": {
-      "source": "BBC"
-    },
-    "content_hash": "2c70ae0aa356e866"
-  },
-  {
-    "id": "ae8128fc",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "Payrolls hit the wire. The EUR/USD pair trades with a mild positive bias around the 1.1730-1.1735 region during the Asian session on Friday and, for now, seems to have stalled the previous day's modest slide.\n\nhttps://www.fxstreet.com/news/eur-usd-price-forecast-holds-above-11700-iran-tensions-cap-gains-as-us-nfp-looms-202605080450",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/eur-usd-price-forecast-holds-above-11700-iran-tensions-cap-gains-as-us-nfp-looms-202605080450",
-    "source_title": "EUR/USD Price Forecast: Holds above 1.1700; Iran tensions cap gains as US NFP looms",
-    "source_summary": "The EUR/USD pair trades with a mild positive bias around the 1.1730-1.1735 region during the Asian session on Friday and, for now, seems to have stalled the previous day's modest slide.",
-    "drafted_at": "2026-05-08T05:48:22.172633",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "0132327d3d016c9a"
-  },
-  {
-    "id": "b7d430fd",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "NFP just dropped. Gold (XAU/USD) attracts fresh buyers following the previous day's pullback from over a two-week high and advances to the $4,732-$4,733 area during the Asian session on Friday.\n\nDespite renewed hostilities in the Strait of Hormuz, investors seem hopeful over a potential US-Iran peace deal.\n\nhttps://www.fxstreet.com/news/gold-holds-above-4-700-close-to-two-week-top-as-usd-bulls-seem-hesitant-ahead-of-us-nfp-202605080431",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/gold-holds-above-4-700-close-to-two-week-top-as-usd-bulls-seem-hesitant-ahead-of-us-nfp-202605080431",
-    "source_title": "Gold holds above $4,700, close to two-week top as USD bulls seem hesitant ahead of US NFP",
-    "source_summary": "Gold (XAU/USD) attracts fresh buyers following the previous day's pullback from over a two-week high and advances to the $4,732-$4,733 area during the Asian session on Friday. Despite renewed hostilities in the Strait of Hormuz, investors seem hopeful over a potential US-Iran peace deal.",
-    "drafted_at": "2026-05-08T05:48:22.172994",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "b9a23eaba0acdd34"
-  },
-  {
-    "id": "b8abb0fa",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "Fresh print: CEO Chris Kempczinski said consumer sentiment is marked by \"heightened anxiety,\" and lower-income customers are continuing to pull back on spending.\n\nhttps://www.businessinsider.com/mcdonalds-ceo-chris-kempczinski-bad-news-k-shaped-economy-2026-5",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "BUSINESS INSIDER",
-    "source_url": "https://www.businessinsider.com/mcdonalds-ceo-chris-kempczinski-bad-news-k-shaped-economy-2026-5",
-    "source_title": "McDonald's CEO just shared some bad news about the K-shaped economy",
-    "source_summary": "CEO Chris Kempczinski said consumer sentiment is marked by \"heightened anxiety,\" and lower-income customers are continuing to pull back on spending.",
-    "drafted_at": "2026-05-08T05:48:22.173218",
-    "data": {
-      "source": "BUSINESS INSIDER"
-    },
-    "content_hash": "7d76555c8927dc91"
-  },
-  {
-    "id": "66e7e382",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "Trade-deficit corner: A US trade court struck down Trump's 10% global tariffs 2-1, ruling the duties were not justified under a 1970s trade law; the White House had cited a $1.2 trillion goods trade deficit as grounds.\n\nSummary: The US Court of International Trade ruled 2-1 against President Trump's 10% global tariffs, finding they were not justified under the Trade Act of 1974, per the court ruling The tariffs took effect on February 24 after Trump invoked Section 122 of the 1974 Act, which permits duties for up to 150 days to address balance-of-payments deficits or dollar depreciation risks, per the court filing The court found the law was not an appropriate instrument for the type of trade deficits Trump cited, according to the ruling The Trump administration had argued a serious balance-of-payments deficit existed, pointing to a $1.2 trillion annual goods trade deficit and a current account deficit of 4% of GDP, per the administration's legal submissions The case was brought by small businesses who argued the tariffs were an attempt to circumvent a Supreme Court decision that struck down Trump's 2025 tariffs under the International Emergency Economic Powers Act, per court documents One dissenting judge said it was premature to grant victory to the small business plaintiffs, according to the ruling A federal trade court has struck down President Donald Trump's 10% global tariffs, ruling in a 2-1 decision that the duties were not legally justified under the 1970s trade legislation the administration used to impose them, in a significant blow to one of the White House's central economic policy instruments.\n\nThe US Court of International Trade found in favour of a group of small businesses that challenged the tariffs after they took effect on February 24.\n\nTrump had issued the February order under Section 122 of the Trade Act of 1974, a provision that allows a president to impose duties for a period of up to 150 days to correct serious balance-of-payments deficits or to head off an imminent depreciation of the dollar.\n\nThe court determined that the law was not an appropriate tool for the kind of trade imbalances Trump cited when issuing the order.\n\nThe administration had mounted a robust defence of the tariffs, arguing that a serious balance-of-payments deficit existed in the form of a $1.2 trillion annual goods trade deficit and a current account deficit equivalent to 4% of gross domestic product.\n\nThat argument did not persuade the majority of the panel, though one dissenting judge argued it was premature to hand victory to the small business plaintiffs, leaving the door open for a more protracted legal dispute.\n\nThe small businesses behind the challenge had framed the February tariff order as an attempt by the administration to sidestep an earlier Supreme Court decision that struck down Trump's 2025 tariffs, which had been imposed under the International Emergency Economic Powers Act.\n\nhttps://investinglive.com/news/us-trade-court-strikes-down-trumps-10-global-tariffs-in-2-1-ruling-20260507/",
+    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: It's jobs day in the US and while markets are still fixated on US-Iran developments, the non-farm payrolls data will be a key risk event to look out for in wrapping up the week.\n\nThe consensus is for a +62k headline print with the unemployment rate holding at 4.3%.\n\nThat will continue to keep things in check in the labour market as market players focus on inflation pressures instead.\n\nHowever, is there room for any surprises?\n\nLet's see what key analysts have to say ahead of the report later.\n\nBofA- \"After job growth came in above all expectations in March, we look for April NFP to print at a solid 80k (private: 90k), which would be comfortably above breakeven.\n\nEducation & health will continue to lead job gains.\n\nRisks are tilted to the upside, with claims remaining benign and the weekly ADP data inflecting upwards.\"- \"We expect the u-rate to remain at 4.3%, with risk of rounding down to 4.2% along with LFPR at 61.9%.\n\nhttps://investinglive.com/news/what-are-the-analyst-calls-ahead-of-the-us-non-farm-payrolls-later-today-20260508/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/us-trade-court-strikes-down-trumps-10-global-tariffs-in-2-1-ruling-20260507/",
-    "source_title": "US trade court strikes down Trump's 10% global tariffs in 2-1 ruling",
-    "source_summary": "A US trade court struck down Trump's 10% global tariffs 2-1, ruling the duties were not justified under a 1970s trade law; the White House had cited a $1.2 trillion goods trade deficit as grounds. Summary: The US Court of International Trade ruled 2-1 against President Trump's 10% global tariffs, finding they were not justified under the Trade Act of 1974, per the court ruling The tariffs took eff",
-    "drafted_at": "2026-05-08T05:48:22.176586",
+    "source_url": "https://investinglive.com/news/what-are-the-analyst-calls-ahead-of-the-us-non-farm-payrolls-later-today-20260508/",
+    "source_title": "What are the analyst calls ahead of the US non-farm payrolls later today?",
+    "source_summary": "It's jobs day in the US and while markets are still fixated on US-Iran developments, the non-farm payrolls data will be a key risk event to look out for in wrapping up the week. The consensus is for a +62k headline print with the unemployment rate holding at 4.3%. That will continue to keep things in check in the labour market as market players focus on inflation pressures instead. However, is the",
+    "drafted_at": "2026-05-08T10:55:00.308600",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "bc53a0c12b8ef795"
+    "content_hash": "99553c27ab1acd4d"
   },
   {
-    "id": "5e96def8",
-    "format": "DATA_DROP",
+    "id": "163473eb",
+    "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "INFLATION READ: Gold has done what gold does best in tough macro stretches.\n\nWith CPI running at 3.7% and the 10-year Treasury at 4.36%, investors are once again debating which physically backed gold ETF to own.\n\nSPDR Gold Trust (NYSEARCA:GLD) and iShares Gold Trust (NYSEARCA:IAU) hold essentially the same asset, yet they appeal to different buyers.\n\nThe... iShares Gold Trust vs SPDR Gold Trust: The 0.15% Fee Gap That Matters More Than You Think\n\nhttps://247wallst.com/investing/2026/05/07/ishares-gold-trust-vs-spdr-gold-trust-the-0-15-fee-gap-that-matters-more-than-you-think/",
+    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: If Trump was hoping his threats against Spain would trigger a shift in policy in Madrid towards the US-Israel war against Iran, he must be disappointed.\n\nhttps://www.nakedcapitalism.com/2026/05/have-the-us-empire-and-israel-already-begun-to-strike-back-against-spain-through-morocco.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "247 WALL ST",
-    "source_url": "https://247wallst.com/investing/2026/05/07/ishares-gold-trust-vs-spdr-gold-trust-the-0-15-fee-gap-that-matters-more-than-you-think/",
-    "source_title": "iShares Gold Trust vs SPDR Gold Trust: The 0.15% Fee Gap That Matters More Than You Think",
-    "source_summary": "Gold has done what gold does best in tough macro stretches. With CPI running at 3.7% and the 10-year Treasury at 4.36%, investors are once again debating which physically backed gold ETF to own. SPDR Gold Trust (NYSEARCA:GLD) and iShares Gold Trust (NYSEARCA:IAU) hold essentially the same asset, yet they appeal to different buyers. The ... iShares Gold Trust vs SPDR Gold Trust: The 0.15% Fee Gap T",
-    "drafted_at": "2026-05-08T05:48:22.177178",
+    "primary_source": "NAKED CAPITAL",
+    "source_url": "https://www.nakedcapitalism.com/2026/05/have-the-us-empire-and-israel-already-begun-to-strike-back-against-spain-through-morocco.html",
+    "source_title": "Are the US and Israel Planning to Use Morocco As a Weapon Against Spain?",
+    "source_summary": "If Trump was hoping his threats against Spain would trigger a shift in policy in Madrid towards the US-Israel war against Iran, he must be disappointed.",
+    "drafted_at": "2026-05-08T10:55:00.309177",
     "data": {
-      "source": "247 WALL ST"
+      "source": "NAKED CAPITAL"
     },
-    "content_hash": "87b9dd7713f52107"
+    "content_hash": "e24888705df5f5b6"
   },
   {
-    "id": "f4e0dd69",
+    "id": "17d4348f",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "PACK BRIEFING \u2014 EUROPE: Meanwhile, the European Aviation Safety Agency (EASA) has drawn up safety guidance, setting out how US supplies could be introduced into the European market, as well as information on the risks involved.\n\nThe price of jet fuel most European airlines currently use has jumped by half since the start of the war.\n\nEuropean airlines should use US-made jet fuel to combat soaring prices and limited supply caused by the US-Israel war with Iran, two major international airline bodies have suggested.\n\nThe International Air Transport Association (IATA) has suggested that wider international acceptance of US-grade jet fuel could help to ease potential shortages caused by the conflict.\n\nhttps://www.bbc.com/news/articles/cp8pk2m4nlxo?at_medium=RSS&at_campaign=rss",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "BBC",
+    "source_url": "https://www.bbc.com/news/articles/cp8pk2m4nlxo?at_medium=RSS&at_campaign=rss",
+    "source_title": "US jet fuel could be used in Europe to ease possible shortages",
+    "source_summary": "The price of jet fuel most European airlines currently use has jumped by half since the start of the war.",
+    "drafted_at": "2026-05-08T10:55:00.310394",
+    "data": {
+      "source": "BBC"
+    },
+    "content_hash": "ff73d9ff09562076"
+  },
+  {
+    "id": "d0b84982",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Canada/LatAm wire: MONTREAL, May 08, 2026 (GLOBE NEWSWIRE) \u2014 Knight Therapeutics Inc., (TSX: GUD) (\u201cKnight\u201d) a pan-American (ex-USA) pharmaceutical company, announced today that its Brazilian affiliate, United Medical Ltda., received regulatory approval from ANVISA for TAVALISSE\u00ae (fostamatinib disodium hexahydrate) for the treatment of adult patients with chronic immune thrombocytopenia (ITP) who have had an insufficient response to [\u2026].\n\nhttps://financialpost.com/globe-newswire/knight-therapeutics-announces-regulatory-approval-of-tavalisse-in-brazil",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FINANCIAL POST",
+    "source_url": "https://financialpost.com/globe-newswire/knight-therapeutics-announces-regulatory-approval-of-tavalisse-in-brazil",
+    "source_title": "Knight Therapeutics Announces Regulatory Approval of TAVALISSE\u00ae in Brazil",
+    "source_summary": "MONTREAL, May 08, 2026 (GLOBE NEWSWIRE) \u2014 Knight Therapeutics Inc., (TSX: GUD) (\u201cKnight\u201d) a pan-American (ex-USA) pharmaceutical company, announced today that its Brazilian affiliate, United Medical Ltda., received regulatory approval from ANVISA for TAVALISSE\u00ae (fostamatinib disodium hexahydrate) for the treatment of adult patients with chronic immune thrombocytopenia (ITP) who have had an insuffi",
+    "drafted_at": "2026-05-08T10:55:00.311042",
+    "data": {
+      "source": "FINANCIAL POST"
+    },
+    "content_hash": "05283770a5cc4dba"
+  },
+  {
+    "id": "6724f090",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "From the international wire: The former president and air force commander leads the first majority government to rule the country since 1997.\n\nhttps://www.politico.eu/article/rumen-radev-sweeps-into-power-bulgaria-names-new-prime-minister/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "POLITICO EU",
+    "source_url": "https://www.politico.eu/article/rumen-radev-sweeps-into-power-bulgaria-names-new-prime-minister/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+    "source_title": "Bulgaria\u2019s parliament confirms Russia-aligned Radev as prime minister",
+    "source_summary": "The former president and air force commander leads the first majority government to rule the country since 1997.",
+    "drafted_at": "2026-05-08T10:55:00.311356",
+    "data": {
+      "source": "POLITICO EU"
+    },
+    "content_hash": "bdcb64f944e90964"
+  },
+  {
+    "id": "cd6ac5e1",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "Hiring scoreboard: It's jobs day in the US and while markets are still fixated on US-Iran developments, the non-farm payrolls data will be a key risk event to look out for in wrapping up the week.\n\nThe consensus is for a +62k headline print with the unemployment rate holding at 4.3%.\n\nThat will continue to keep things in check in the labour market as market players focus on inflation pressures instead.\n\nHowever, is there room for any surprises?\n\nLet's see what key analysts have to say ahead of the report later.\n\nBofA- \"After job growth came in above all expectations in March, we look for April NFP to print at a solid 80k (private: 90k), which would be comfortably above breakeven.\n\nEducation & health will continue to lead job gains.\n\nRisks are tilted to the upside, with claims remaining benign and the weekly ADP data inflecting upwards.\"- \"We expect the u-rate to remain at 4.3%, with risk of rounding down to 4.2% along with LFPR at 61.9%.\n\nhttps://investinglive.com/news/what-are-the-analyst-calls-ahead-of-the-us-non-farm-payrolls-later-today-20260508/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/what-are-the-analyst-calls-ahead-of-the-us-non-farm-payrolls-later-today-20260508/",
+    "source_title": "What are the analyst calls ahead of the US non-farm payrolls later today?",
+    "source_summary": "It's jobs day in the US and while markets are still fixated on US-Iran developments, the non-farm payrolls data will be a key risk event to look out for in wrapping up the week. The consensus is for a +62k headline print with the unemployment rate holding at 4.3%. That will continue to keep things in check in the labour market as market players focus on inflation pressures instead. However, is the",
+    "drafted_at": "2026-05-08T10:55:00.365702",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "99553c27ab1acd4d"
+  },
+  {
+    "id": "6b71d042",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "Hiring scoreboard: The US Dollar (USD) resumes its broader bearish trend against the Swiss Franc (CHF) on Friday, reversing Thursday\u2019s gains and reaching levels a few pips above the two-month lows of 0.7765, as the market shifts its focus to the US Nonfarm Payrolls (NFP) report, due later on Friday.\n\nhttps://www.fxstreet.com/news/usd-chf-price-forecasts-rejected-at-07800-approaches-two-month-lows-at-07765-202605081030",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/usd-chf-price-forecasts-rejected-at-07800-approaches-two-month-lows-at-07765-202605081030",
+    "source_title": "USD/CHF Price Forecasts: Rejected at 0.7800, approaches two-month lows at 0.7765",
+    "source_summary": "The US Dollar (USD) resumes its broader bearish trend against the Swiss Franc (CHF) on Friday, reversing Thursday\u2019s gains and reaching levels a few pips above the two-month lows of 0.7765, as the market shifts its focus to the US Nonfarm Payrolls (NFP) report, due later on Friday.",
+    "drafted_at": "2026-05-08T10:55:00.366108",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "461649930fd44f85"
+  },
+  {
+    "id": "9a904d75",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "From the BLS desk: The Australian Dollar (AUD) trades 0.4% higher against the US Dollar (USD) at around 0.7240 during the European trading session on Friday.\n\nhttps://www.fxstreet.com/news/australian-dollar-gains-against-us-dollar-ahead-of-us-nfp-data-202605081026",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/australian-dollar-gains-against-us-dollar-ahead-of-us-nfp-data-202605081026",
+    "source_title": "Australian Dollar gains against US Dollar ahead of US NFP data",
+    "source_summary": "The Australian Dollar (AUD) trades 0.4% higher against the US Dollar (USD) at around 0.7240 during the European trading session on Friday.",
+    "drafted_at": "2026-05-08T10:55:00.366292",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "bb732e1f61427e48"
+  },
+  {
+    "id": "dfd4faa5",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "From the housing desk: The post Compare Current Mortgage Rates by Grace Kilander appeared first on Benzinga.\n\nVisit Benzinga to get more great content like this.\n\nMortgage Update For October 17, 2024 Mortgages have downshifted a bit from highs earlier in the week but continue to fluctuate with the latest economic news.\n\nRetail sales were up more than expected, and jobless claims were down, showing that the economy is still fairly robust.\n\nLast week, mortgage applications fell 17%, according to the \u2026 Continued The post Compare Current Mortgage Rates by Grace Kilander appeared first on Benzinga.\n\nhttps://www.benzinga.com/money/mortgage-rates",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "BENZINGA",
+    "source_url": "https://www.benzinga.com/money/mortgage-rates",
+    "source_title": "Compare Current Mortgage Rates",
+    "source_summary": "The post Compare Current Mortgage Rates by Grace Kilander appeared first on Benzinga . Visit Benzinga to get more great content like this. Mortgage Update For October 17, 2024 Mortgages have downshifted a bit from highs earlier in the week but continue to fluctuate with the latest economic news. Retail sales were up more than expected, and jobless claims were down, showing that the economy is stil",
+    "drafted_at": "2026-05-08T10:55:00.366908",
+    "data": {
+      "source": "BENZINGA"
+    },
+    "content_hash": "69b2dc60786b5a9c"
+  },
+  {
+    "id": "c8fe2a72",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "Hiring scoreboard: The United States (US) Bureau of Labor Statistics (BLS) will release the Nonfarm Payrolls (NFP) data for April on Friday at 12:30 GMT.\n\nhttps://www.fxstreet.com/news/us-nonfarm-payrolls-expected-to-rise-by-62k-in-april-202605080400",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/us-nonfarm-payrolls-expected-to-rise-by-62k-in-april-202605080400",
+    "source_title": "US Nonfarm Payrolls set to rise by 62K in April as markets assess Fed rate outlook",
+    "source_summary": "The United States (US) Bureau of Labor Statistics (BLS) will release the Nonfarm Payrolls (NFP) data for April on Friday at 12:30 GMT.",
+    "drafted_at": "2026-05-08T10:55:00.367081",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "39e3573a8835670d"
+  },
+  {
+    "id": "29f59ffe",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -399,7 +437,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-05-08T05:48:22.178742",
+    "drafted_at": "2026-05-08T10:55:00.372808",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -407,7 +445,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "b58ae0b6",
+    "id": "3401d330",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Recessions are obvious in retrospect and invisible in real time.",
@@ -417,14 +455,14 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Recessions are obvious in retrospect and invisible in real time.",
-    "drafted_at": "2026-05-08T05:48:22.178845",
+    "drafted_at": "2026-05-08T10:55:00.372883",
     "data": {
       "take_seed": "2026-05-08-pack-1"
     },
     "content_hash": "9b0f7be55d8ef71c"
   },
   {
-    "id": "9b59cdd6",
+    "id": "cf888352",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Soft landing is the most dangerous phrase in central banking.",
@@ -434,7 +472,7 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Soft landing is the most dangerous phrase in central banking.",
-    "drafted_at": "2026-05-08T05:48:22.178895",
+    "drafted_at": "2026-05-08T10:55:00.372931",
     "data": {
       "take_seed": "2026-05-08-pack-2"
     },
