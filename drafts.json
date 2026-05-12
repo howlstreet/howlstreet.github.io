@@ -1,59 +1,57 @@
 [
   {
-    "id": "c255eb0c",
-    "format": "LOUD_HOWL",
-    "status": "pending",
-    "draft_text": "The story the pack is talking about: BNY strategists John Velis and David Tam argue that resilient United States (US) data and likely elevated inflation prints make it harder to justify Federal Reserve (Fed) rate cuts this year.\n\nhttps://www.fxstreet.com/news/fed-rate-cuts-contingent-on-strait-of-hormuz-bny-202605120719",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/fed-rate-cuts-contingent-on-strait-of-hormuz-bny-202605120719",
-    "source_title": "Fed: Rate cuts contingent on Strait of Hormuz \u2013 BNY",
-    "source_summary": "BNY strategists John Velis and David Tam argue that resilient United States (US) data and likely elevated inflation prints make it harder to justify Federal Reserve (Fed) rate cuts this year.",
-    "drafted_at": "2026-05-12T08:09:38.606168",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "16c941bbf9ed8343"
-  },
-  {
-    "id": "dde693b9",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "Pay attention to this one. VIX surges 10.2% in 5 sessions to 18.72.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CBOE \u00b7 ^VIX",
-    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "source_title": "VIX (S&P 500 volatility)",
-    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-05-12T08:09:38.606459",
-    "data": {
-      "signal_id": "^VIX:move:2026-05-12",
-      "kind": "move_up",
-      "current": "18.72"
-    },
-    "content_hash": "995f4d67e7e875d2"
-  },
-  {
-    "id": "a50248db",
+    "id": "4a3d11fa",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "RATE-PATH READ: BNY strategists John Velis and David Tam argue that resilient United States (US) data and likely elevated inflation prints make it harder to justify Federal Reserve (Fed) rate cuts this year.\n\nhttps://www.fxstreet.com/news/fed-rate-cuts-contingent-on-strait-of-hormuz-bny-202605120719",
+    "draft_text": "The Fed just spoke. Here's what matters: Persistent inflation and oil disruptions complicate monetary policy, potentially delaying economic growth and impacting future rate cuts.\n\nThe post US inflation as oil disruptions impact Fed rate cut outlook appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/us-inflation-as-oil-disruptions-impact-fed-rate-cut-outlook/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "Fed",
-    "source_url": "https://www.fxstreet.com/news/fed-rate-cuts-contingent-on-strait-of-hormuz-bny-202605120719",
-    "source_title": "Fed: Rate cuts contingent on Strait of Hormuz \u2013 BNY",
-    "source_summary": "BNY strategists John Velis and David Tam argue that resilient United States (US) data and likely elevated inflation prints make it harder to justify Federal Reserve (Fed) rate cuts this year.",
-    "drafted_at": "2026-05-12T08:09:38.618060",
+    "source_url": "https://cryptobriefing.com/us-inflation-as-oil-disruptions-impact-fed-rate-cut-outlook/",
+    "source_title": "US inflation as oil disruptions impact Fed rate cut outlook",
+    "source_summary": "Persistent inflation and oil disruptions complicate monetary policy, potentially delaying economic growth and impacting future rate cuts. The post US inflation as oil disruptions impact Fed rate cut outlook appeared first on Crypto Briefing .",
+    "drafted_at": "2026-05-12T16:39:40.063472",
     "data": {
       "actor": "Fed"
     },
-    "content_hash": "16c941bbf9ed8343"
+    "content_hash": "3f4d1f009ffbd9b8"
   },
   {
-    "id": "026ba20b",
+    "id": "c5fcc00b",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "From the Eccles Building: Bitcoin showed fresh signs of volatility as US CPI inflation saw new multiyear highs on oil price hikes thanks to the US-Iran war.\n\nhttps://cointelegraph.com/markets/bitcoin-digests-highest-us-cpi-print-since-2023-fed-rate-hike-nerves-return?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Fed",
+    "source_url": "https://cointelegraph.com/markets/bitcoin-digests-highest-us-cpi-print-since-2023-fed-rate-hike-nerves-return?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source_title": "Bitcoin digests highest US CPI since 2023 as Fed rate hike woes return",
+    "source_summary": "Bitcoin showed fresh signs of volatility as US CPI inflation saw new multiyear highs on oil price hikes thanks to the US-Iran war.",
+    "drafted_at": "2026-05-12T16:39:40.063795",
+    "data": {
+      "actor": "Fed"
+    },
+    "content_hash": "ba23d2547594c817"
+  },
+  {
+    "id": "721459c2",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "From the Eccles Building: U.S. inflation accelerated more than expected in April, rattling crypto markets and reinforcing fears that the Federal Reserve may keep interest rates higher for longer.\n\nBitcoin and other risk assets turned volatile after headline CPI rose to 3.8% year-over-year, above Wall Street expectations of 3.7%, while core inflation also came in hotter than forecast.\n\nInflation The post Hot CPI Print Shakes Fed Cut Bets as Inflation Tops Forecasts appeared first on BeInCrypto.\n\nhttps://beincrypto.com/bitcoin-us-april-cpi-inflation/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Fed",
+    "source_url": "https://beincrypto.com/bitcoin-us-april-cpi-inflation/",
+    "source_title": "Hot CPI Print Shakes Fed Cut Bets as Inflation Tops Forecasts",
+    "source_summary": "U.S. inflation accelerated more than expected in April, rattling crypto markets and reinforcing fears that the Federal Reserve may keep interest rates higher for longer. Bitcoin and other risk assets turned volatile after headline CPI rose to 3.8% year-over-year, above Wall Street expectations of 3.7%, while core inflation also came in hotter than forecast. Inflation The post Hot CPI Print Shakes ",
+    "drafted_at": "2026-05-12T16:39:40.064329",
+    "data": {
+      "actor": "Fed"
+    },
+    "content_hash": "78ffac9fa0f3ddf2"
+  },
+  {
+    "id": "98b9827c",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "From the Eccles Building: The approvals allow the banking organization to have a new top-tier holding company, Columbia Financial, Inc., which would become a savings and loan holding company by acquiring Columbia Bank, of Fair Lawn, New Jersey.\n\nColumbia Financial, Inc., also received approval to acquire Northfield Bancorp, Inc., of Woodbridge, New Jersey, and thereby indirectly acquire Northfield Bank, of Staten Island, New York.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/orders20260508a.htm",
@@ -63,14 +61,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260508a.htm",
     "source_title": "Federal Reserve Board announces approval of related applications by Columbia Bank MHC, and Columbia Financial, Inc.",
     "source_summary": "Federal Reserve Board announces approval of related applications by Columbia Bank MHC, and Columbia Financial, Inc.",
-    "drafted_at": "2026-05-12T08:09:38.618696",
+    "drafted_at": "2026-05-12T16:39:40.064873",
     "data": {
       "actor": "FED"
     },
     "content_hash": "91facc87b649759c"
   },
   {
-    "id": "45ff6f3e",
+    "id": "f53b2b24",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Central bank corner: By law, a bank is generally prohibited from establishing or acquiring branches outside of its home state primarily for the purpose of acquiring additional deposits.\n\nThis prohibition seeks to ensure that interstate bank branches will not take deposits from a community without the bank also reasonably helping to meet the credit needs of that community.\n\nThe updated ratios, including additional information on how they are used to evaluate compliance with the requirements, are available here.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260501a.htm",
@@ -80,403 +78,369 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260501a.htm",
     "source_title": "Agencies issue host state loan-to-deposit ratios",
     "source_summary": "Agencies issue host state loan-to-deposit ratios",
-    "drafted_at": "2026-05-12T08:09:38.619385",
+    "drafted_at": "2026-05-12T16:39:40.065477",
     "data": {
       "actor": "FED"
     },
     "content_hash": "61dea05f952390b0"
   },
   {
-    "id": "aed6cc9d",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "POWELL POSTCARD: The Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run.\n\nIn support of its goals, the Committee decided to maintain the target range for the federal funds rate at 3\u20111/2 to 3\u20113/4 percent.\n\nThe Committee is strongly committed to supporting maximum employment and returning inflation to its 2 percent objective.\n\nDevelopments in the Middle East are contributing to a high level of uncertainty about the economic outlook.\n\nThe Committee is attentive to the risks to both sides of its dual mandate.\n\nIn considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FED",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
-    "source_title": "Federal Reserve issues FOMC statement",
-    "source_summary": "Federal Reserve issues FOMC statement",
-    "drafted_at": "2026-05-12T08:09:38.620998",
-    "data": {
-      "actor": "FED"
-    },
-    "content_hash": "8eef4d9ead515d9a"
-  },
-  {
-    "id": "7fb1d752",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "Policy update for the pack: The final rule is being adopted without change from the proposal issued in November 2025.\n\nThe rule will lower the community bank leverage ratio from nine percent to eight percent, which will provide more flexibility for community banks to opt into the framework.\n\nThe final rule also extends the grace period from two quarters to four quarters for a community bank that temporarily falls out of compliance.\n\nThe framework continues to simplify regulatory capital requirements for community banks by allowing them to adopt a relatively simple leverage ratio to measure capital adequacy, rather than calculating and reporting risk-based capital ratios.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260423a.htm",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FED",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260423a.htm",
-    "source_title": "Agencies\u202ffinalize\u202fchanges to enhance community bank leverage ratio",
-    "source_summary": "Agencies finalize changes to enhance community bank leverage ratio",
-    "drafted_at": "2026-05-12T08:09:38.622059",
-    "data": {
-      "actor": "FED"
-    },
-    "content_hash": "40abe611cc707028"
-  },
-  {
-    "id": "be5ef629",
+    "id": "297f9869",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$PSUS insider bought $70,534,140 on 2026-04-30, 7 insiders. \ud83d\udc40\n\nPershing Square Usa, Ltd.. 1,412,000 shares at $49.95.\n\n-17.7% since the purchase.\n\nhttp://openinsider.com/screener?s=PSUS",
+    "draft_text": "$PSUS insider bought $70,534,140 on 2026-04-30, 7 insiders. \ud83d\udc40\n\nPershing Square Usa, Ltd.. 1,412,000 shares at $49.95.\n\n-18.5% since the purchase.\n\nhttp://openinsider.com/screener?s=PSUS",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=PSUS",
     "source_title": "Pershing Square Usa, Ltd. (PSUS) insider bought $70,534,140",
     "source_summary": "7 insider(s) bought 1,412,000 shares at $49.95 on 2026-04-30.",
-    "drafted_at": "2026-05-12T08:09:38.622225",
+    "drafted_at": "2026-05-12T16:39:40.067125",
     "data": {
       "ticker": "PSUS",
       "type": "P",
       "dollar_value": 70534140.0,
-      "pct_since": -17.657655519288827
+      "pct_since": -18.45845937490225
     },
     "content_hash": "b52f9ba6394ce040"
   },
   {
-    "id": "d7713acd",
+    "id": "cb1c91ef",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$WGS insider bought $46,806,729 on 2026-05-07. \ud83d\udc40\n\nGenedx Holdings Corp.. 1,205,147 shares at $38.84.\n\n+2.0% since the purchase.\n\nhttp://openinsider.com/screener?s=WGS",
+    "draft_text": "$WGS insider bought $46,806,729 on 2026-05-07. \ud83d\udc40\n\nGenedx Holdings Corp.. 1,205,147 shares at $38.84.\n\n+2.8% since the purchase.\n\nhttp://openinsider.com/screener?s=WGS",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=WGS",
     "source_title": "Genedx Holdings Corp. (WGS) insider bought $46,806,729",
     "source_summary": "1 insider(s) bought 1,205,147 shares at $38.84 on 2026-05-07.",
-    "drafted_at": "2026-05-12T08:09:38.622340",
+    "drafted_at": "2026-05-12T16:39:40.067228",
     "data": {
       "ticker": "WGS",
       "type": "P",
       "dollar_value": 46806729.0,
-      "pct_since": 1.9824938474550955
+      "pct_since": 2.7548914711949175
     },
     "content_hash": "f3d25e7f70100f70"
   },
   {
-    "id": "2441caab",
+    "id": "3845be92",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$PLSE insider bought $13,590,688 on 2026-05-11, 2 insiders. \ud83d\udc40\n\nPulse Biosciences, Inc.. 690,233 shares at $19.69.\n\n-3.1% since the purchase.\n\nhttp://openinsider.com/screener?s=PLSE",
+    "draft_text": "$PLSE insider bought $13,590,688 on 2026-05-11, 2 insiders. \ud83d\udc40\n\nPulse Biosciences, Inc.. 690,233 shares at $19.69.\n\n+10.9% since the purchase.\n\nhttp://openinsider.com/screener?s=PLSE",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=PLSE",
     "source_title": "Pulse Biosciences, Inc. (PLSE) insider bought $13,590,688",
     "source_summary": "2 insider(s) bought 690,233 shares at $19.69 on 2026-05-11.",
-    "drafted_at": "2026-05-12T08:09:38.622462",
+    "drafted_at": "2026-05-12T16:39:40.067347",
     "data": {
       "ticker": "PLSE",
       "type": "P",
       "dollar_value": 13590688.0,
-      "pct_since": -3.098019686612222
+      "pct_since": 10.868460760315152
     },
     "content_hash": "c0130805e6ebc8ce"
   },
   {
-    "id": "59de4618",
+    "id": "7f50ae82",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$SRAD insider bought $11,349,414 on 2026-05-06, 7 insiders. \ud83d\udc40\n\nSportradar Group AG. 855,694 shares at $13.26.\n\n-3.5% since the purchase.\n\nhttp://openinsider.com/screener?s=SRAD",
+    "draft_text": "$SRAD insider bought $11,349,414 on 2026-05-06, 7 insiders. \ud83d\udc40\n\nSportradar Group AG. 855,694 shares at $13.26.\n\n-1.8% since the purchase.\n\nhttp://openinsider.com/screener?s=SRAD",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=SRAD",
     "source_title": "Sportradar Group AG (SRAD) insider bought $11,349,414",
     "source_summary": "7 insider(s) bought 855,694 shares at $13.26 on 2026-05-06.",
-    "drafted_at": "2026-05-12T08:09:38.622574",
+    "drafted_at": "2026-05-12T16:39:40.067451",
     "data": {
       "ticker": "SRAD",
       "type": "P",
       "dollar_value": 11349414.0,
-      "pct_since": -3.4690785012453733
+      "pct_since": -1.7722502373282532
     },
     "content_hash": "c9b4a87425e342e8"
   },
   {
-    "id": "6258fc8d",
+    "id": "f95c92ae",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$MOBI insider bought $10,024,995 on 2026-05-11, 4 insiders. \ud83d\udc40\n\nMobia Medical, Inc.. 668,333 shares at $15.00.\n\n-20.0% since the purchase.\n\nhttp://openinsider.com/screener?s=MOBI",
+    "draft_text": "$MOBI insider bought $11,024,985 on 2026-05-11, 5 insiders. \ud83d\udc40\n\nMobia Medical, Inc.. 734,999 shares at $15.00.\n\n-21.9% since the purchase.\n\nhttp://openinsider.com/screener?s=MOBI",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=MOBI",
-    "source_title": "Mobia Medical, Inc. (MOBI) insider bought $10,024,995",
-    "source_summary": "4 insider(s) bought 668,333 shares at $15.00 on 2026-05-11.",
-    "drafted_at": "2026-05-12T08:09:38.622688",
+    "source_title": "Mobia Medical, Inc. (MOBI) insider bought $11,024,985",
+    "source_summary": "5 insider(s) bought 734,999 shares at $15.00 on 2026-05-11.",
+    "drafted_at": "2026-05-12T16:39:40.067552",
     "data": {
       "ticker": "MOBI",
       "type": "P",
-      "dollar_value": 10024995.0,
-      "pct_since": -20.0
+      "dollar_value": 11024985.0,
+      "pct_since": -21.93333307902018
     },
-    "content_hash": "02a28311b38ce349"
+    "content_hash": "da59dd4d1bd7b1be"
   },
   {
-    "id": "e1a1353f",
+    "id": "900f9b81",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "The Ring is Euronews\u2019 weekly political showdown, where Europe\u2019s toughest debates meet their boldest voices.\n\nIn each episode, two political heavyweights from across the EU face off to propose a diversity of opinions and spark conversations around the most important issues of EU affairs and the wider European political life.\n\nEuronews Tech Talks goes beyond discussions to explore the impact of new technologies on our lives.\n\nWith explanations, engaging Q&As, and lively conversations, the podcast provides valuable insights into the intersection of technology and society.\n\nEurope's best food experts are joining forces to crack down on fraud.\n\nhttp://www.euronews.com/business/2026/05/12/us-treasury-enlists-banks-to-target-iranian-money-laundering-schemes",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "EURONEWS",
-    "source_url": "http://www.euronews.com/business/2026/05/12/us-treasury-enlists-banks-to-target-iranian-money-laundering-schemes",
-    "source_title": "US Treasury enlists banks to target Iranian money laundering schemes",
-    "source_summary": "The US Treasury has directed banks to intensify their monitoring of Iranian money laundering networks that enable funds from sanctioned oil. The move is part of the wider strategy to pressure Iran into a deal as negotiations stall.",
-    "drafted_at": "2026-05-12T08:09:38.625132",
-    "data": {
-      "source": "EURONEWS"
-    },
-    "content_hash": "a8b54240e0f9d38e"
-  },
-  {
-    "id": "5fde7108",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "JUSTICE SERVED: Christopher Delgado, the former Goliath Ventures CEO charged with fraud and money laundering, has publicly apologized to investors of what US prosecutors allege is a Ponzi scheme.\n\nhttps://cointelegraph.com/news/goliath-ventures-ceo-charged-over-alleged-crypto-ponzi-apologizes-to-investors-in-interview?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "draft_text": "PROTECTION BRIEFING: North Korea-linked hackers stole about $2.06 billion of the $3.4 billion lost in crypto hacks in 2025 and are moving from phishing to physical infiltration, CertiK\u2019s new report finds.\n\nhttps://cointelegraph.com/news/north-korea-industrialized-crypto-theft-laundered-billions-report-finds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "COINTELEGRAPH",
-    "source_url": "https://cointelegraph.com/news/goliath-ventures-ceo-charged-over-alleged-crypto-ponzi-apologizes-to-investors-in-interview?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "source_title": "\u2018I failed them\u2019: Goliath Ventures CEO charged with crypto Ponzi apologizes",
-    "source_summary": "Christopher Delgado, the former Goliath Ventures CEO charged with fraud and money laundering, has publicly apologized to investors of what US prosecutors allege is a Ponzi scheme.",
-    "drafted_at": "2026-05-12T08:09:38.625427",
+    "source_url": "https://cointelegraph.com/news/north-korea-industrialized-crypto-theft-laundered-billions-report-finds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source_title": "North Korea \u2018industrialized\u2019 crypto theft, laundered billions: CertiK",
+    "source_summary": "North Korea-linked hackers stole about $2.06 billion of the $3.4 billion lost in crypto hacks in 2025 and are moving from phishing to physical infiltration, CertiK\u2019s new report finds.",
+    "drafted_at": "2026-05-12T16:39:40.068586",
     "data": {
       "source": "COINTELEGRAPH"
     },
-    "content_hash": "dbd210323317d9e4"
+    "content_hash": "b27f15fbf2fbf16c"
   },
   {
-    "id": "a9dba917",
+    "id": "a6c73101",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "The lawsuit claims certain ads promoted scams likes financial products and fraudulent cures.\n\nhttps://fortune.com/2026/05/11/santa-clara-county-meta-lawsuit-ads-fraud-profit/",
+    "draft_text": "The wolves howled, the regulators listened. The Southern Poverty Law Center was federally indicted on April 21 for allegedly funneling millions of dollars to the very racist and extremist groups it claimed to be fighting, including the Ku Klux Klan, the Aryan Nation, the American Front, United Klans of America, and the National Socialist Party of America.\n\nThe Alabama-headquartered smear- and fearmongering racket \u2014 charged with six counts of wire fraud, four counts of making false statements to a federally insured bank, and one count of conspiracy to commit concealment money laundering \u2014 pleaded not guilty on Thursday to all counts.\n\n'We have always suspected that they were monetizing hate.' \"The charges against the SPLC are provably wrong,\" stated SPLC interim president and CEO Bryan Fair.\n\n\"They are based on inaccurate facts and a misapplication of law.\n\nOur informant program was successful in accomplishing its purposes: Threats and attacks were prevented, criminal activity was stopped, and information was gathered to dismantle the efforts of hate and extremist groups.\" Now thanks to the state of Alabama, SPLC smear merchants will have to mount a defense on more than one front.\n\nAlabama Attorney General Steve Marshall announced on Monday that his office has launched a civil investigation into the SPLC, alleging deceptive fundraising practices under Alabama's consumer protection statutes.\n\nThe probe is looking specifically at whether the SPLC's alleged activities referenced in the federal indictment violated Alabama's Deceptive Trade Practices Act or other state laws concerning charitable organizations.\n\nRELATED: Klansman allegedly on SPLC payroll was 'true believer' white supremacist, not reformed infiltrator Graeme Sloan/Bloomberg/Getty Images Marshall's office has subpoenaed SPLC documents disclosing to Alabama donors or prospective donors the organization's use of \"informants\"; identifying the annual donations received from donors in Alabama and beyond; showing annual disbursements of donated funds to \"informants\"; reflecting the percentage of the SPLC's annual budget blown on \"informant\"-related costs; and showing payments to groups or individuals appearing in the SPLC's extremist files or on its hate map.\n\nhttps://www.theblaze.com/news/war-against-race-baiting-splc-opens-new-front-in-alabama",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FORTUNE",
-    "source_url": "https://fortune.com/2026/05/11/santa-clara-county-meta-lawsuit-ads-fraud-profit/",
-    "source_title": "Santa Clara County is suing Meta over allegations it profited from scam advertisements that particularly targeted seniors and families",
-    "source_summary": "The lawsuit claims certain ads promoted scams likes financial products and fraudulent cures.",
-    "drafted_at": "2026-05-12T08:09:38.625621",
+    "primary_source": "THE BLAZE",
+    "source_url": "https://www.theblaze.com/news/war-against-race-baiting-splc-opens-new-front-in-alabama",
+    "source_title": "War against 'race-baiting' SPLC opens new front in Alabama",
+    "source_summary": "The Southern Poverty Law Center was federally indicted on April 21 for allegedly funneling millions of dollars to the very racist and extremist groups it claimed to be fighting, including the Ku Klux Klan, the Aryan Nation, the American Front, United Klans of America, and the National Socialist Party of America. The Alabama-headquartered smear- and fearmongering racket \u2014 charged with six counts of",
+    "drafted_at": "2026-05-12T16:39:40.071389",
     "data": {
-      "source": "FORTUNE"
+      "source": "THE BLAZE"
     },
-    "content_hash": "23b6f6cbc2d543e9"
+    "content_hash": "0b317c8eab9c109f"
   },
   {
-    "id": "a1f1cf13",
+    "id": "bd35a8d7",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "The CLARITY Act is heading back to the Senate Banking Committee on May 14 after months of stalled negotiations, putting a small group of Democrats at the center of the crypto industry\u2019s push for a federal market-structure law.\n\nThe markup comes after the bill was slowed by disputes over stablecoin rewards, anti-money laundering safeguards and [\u2026] The post CLARITY Act\u2019s markup progress now hinges on these Democrat lawmakers appeared first on CryptoSlate.\n\nhttps://cryptoslate.com/clarity-acts-markup-hinges-on-these-seven-democrat-lawmakers/",
+    "draft_text": "A U.S.-based food giant claims its product contain premium, Italian-grown tomatoes.\n\nTwo Californian shoppers are calling it out, alleging tomato fraud.\n\nhttps://www.latimes.com/business/story/2026-05-12/california-consumers-accuse-popular-italian-food-brand-of-tomato-fraud",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CRYPTOSLATE",
-    "source_url": "https://cryptoslate.com/clarity-acts-markup-hinges-on-these-seven-democrat-lawmakers/",
-    "source_title": "CLARITY Act\u2019s markup progress now hinges on these Democrat lawmakers",
-    "source_summary": "The CLARITY Act is heading back to the Senate Banking Committee on May 14 after months of stalled negotiations, putting a small group of Democrats at the center of the crypto industry\u2019s push for a federal market-structure law. The markup comes after the bill was slowed by disputes over stablecoin rewards, anti-money laundering safeguards and [\u2026] The post CLARITY Act\u2019s markup progress now hinges on",
-    "drafted_at": "2026-05-12T08:09:38.626366",
+    "primary_source": "LA TIMES",
+    "source_url": "https://www.latimes.com/business/story/2026-05-12/california-consumers-accuse-popular-italian-food-brand-of-tomato-fraud",
+    "source_title": "California consumers accuse popular Italian food brand of tomato fraud",
+    "source_summary": "A U.S.-based food giant claims its product contain premium, Italian-grown tomatoes. Two Californian shoppers are calling it out, alleging tomato fraud.",
+    "drafted_at": "2026-05-12T16:39:40.071610",
     "data": {
-      "source": "CRYPTOSLATE"
+      "source": "LA TIMES"
     },
-    "content_hash": "d815f3f4638f623c"
+    "content_hash": "30574129b3ce759e"
   },
   {
-    "id": "a61355b6",
+    "id": "cf730e38",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "PROTECTION BRIEFING: Football fans are being urged to be alert to fraud ahead of the World Cup, with victims of ticket scams losing \u00a3215 on average.\n\nhttps://news.sky.com/story/fraud-risk-as-world-cup-frenzy-begins-fans-warned-13542468",
+    "draft_text": "Vance has held his anti-fraud position for slightly over six weeks.\n\nhttps://justthenews.com/politics-policy/vance-heads-maine-tout-anti-fraud-efforts?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "SKY NEWS",
-    "source_url": "https://news.sky.com/story/fraud-risk-as-world-cup-frenzy-begins-fans-warned-13542468",
-    "source_title": "Fraud risk as World Cup frenzy begins, fans warned",
-    "source_summary": "Football fans are being urged to be alert to fraud ahead of the World Cup, with victims of ticket scams losing \u00a3215 on average.",
-    "drafted_at": "2026-05-12T08:09:38.626616",
+    "primary_source": "JUST THE NEWS",
+    "source_url": "https://justthenews.com/politics-policy/vance-heads-maine-tout-anti-fraud-efforts?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+    "source_title": "Vance heads to Maine to tout anti-fraud efforts",
+    "source_summary": "Vance has held his anti-fraud position for slightly over six weeks.",
+    "drafted_at": "2026-05-12T16:39:40.071734",
     "data": {
-      "source": "SKY NEWS"
+      "source": "JUST THE NEWS"
     },
-    "content_hash": "f393108da0e84f9c"
+    "content_hash": "6a44e69577b60288"
   },
   {
-    "id": "c09b8c2c",
+    "id": "3a392da2",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Blanche, on Tuesday, indicated that the DOJ probe would use compulsory authority to bring in witnesses, including from the press.\n\nhttps://justthenews.com/government/courts-law/acting-ag-blanche-warns-reporters-expect-subpoenas-leaks-probe?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "JUST THE NEWS",
+    "source_url": "https://justthenews.com/government/courts-law/acting-ag-blanche-warns-reporters-expect-subpoenas-leaks-probe?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+    "source_title": "Acting AG Blanche warns reporters to expect subpoenas in leaks probe",
+    "source_summary": "Blanche, on Tuesday, indicated that the DOJ probe would use compulsory authority to bring in witnesses, including from the press.",
+    "drafted_at": "2026-05-12T16:39:40.071932",
+    "data": {
+      "source": "JUST THE NEWS"
+    },
+    "content_hash": "6b6a7561959e402c"
+  },
+  {
+    "id": "35b6de7f",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Gulf wire: The Ring is Euronews\u2019 weekly political showdown, where Europe\u2019s toughest debates meet their boldest voices.\n\nIn each episode, two political heavyweights from across the EU face off to propose a diversity of opinions and spark conversations around the most important issues of EU affairs and the wider European political life.\n\nEuronews Tech Talks goes beyond discussions to explore the impact of new technologies on our lives.\n\nWith explanations, engaging Q&As, and lively conversations, the podcast provides valuable insights into the intersection of technology and society.\n\nEurope's best food experts are joining forces to crack down on fraud.\n\nhttp://www.euronews.com/business/2026/05/12/us-treasury-enlists-banks-to-target-iranian-money-laundering-schemes",
+    "draft_text": "From the Gulf: US prices rose in April at their fastest rate since May 2023 as the impact of the war in Iran was increasingly felt by consumers.\n\nA jump in the cost of gasoline and groceries pushed the consumer price index (CPI), showing the rate prices rose by in the past 12 months, to 3.8%.\n\nThe national average price for a gallon of unleaded is at its highest level since July 2022, at $4.50 (\u00a33.33), according to data from the AAA motoring group.\n\nThe rise in April's inflation figure, from 3.3% in March, makes it increasingly unlikely the Federal Reserve will cut interest rates this year.\n\nThe Bureau of Labor Statistics (BLS) said almost half of the rise was driven by surging energy costs, while housing and food costs also contributed.\n\nhttps://www.bbc.com/news/articles/c202pgxx89lo?at_medium=RSS&at_campaign=rss",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "EURONEWS",
-    "source_url": "http://www.euronews.com/business/2026/05/12/us-treasury-enlists-banks-to-target-iranian-money-laundering-schemes",
-    "source_title": "US Treasury enlists banks to target Iranian money laundering schemes",
-    "source_summary": "The US Treasury has directed banks to intensify their monitoring of Iranian money laundering networks that enable funds from sanctioned oil. The move is part of the wider strategy to pressure Iran into a deal as negotiations stall.",
-    "drafted_at": "2026-05-12T08:09:38.628926",
+    "primary_source": "BBC",
+    "source_url": "https://www.bbc.com/news/articles/c202pgxx89lo?at_medium=RSS&at_campaign=rss",
+    "source_title": "US inflation jumps to 3.8% as energy costs surge from Iran war",
+    "source_summary": "The key measure of US inflation rises its highest level since May 2023 as consumers feel the impact of the Iran war.",
+    "drafted_at": "2026-05-12T16:39:40.073628",
     "data": {
-      "source": "EURONEWS"
+      "source": "BBC"
     },
-    "content_hash": "a8b54240e0f9d38e"
+    "content_hash": "eaa65db428b70201"
   },
   {
-    "id": "9ffc67d1",
+    "id": "c586b36a",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Mainland wire: Alan Rappeport, New York Times The summit between President Trump and China's top leader, Xi Jinping, in Beijing this week is likely to include tense discussions about tariffs, Taiwan, Iran and...\n\nhttps://www.realclearmarkets.com/2026/05/12/how_the_us_is_trying_to_ensure_dollar_dominance_1182103.html",
+    "draft_text": "Gulf wire: Prolonged US-Iran tensions risk escalating conflict, impacting global trade and energy markets due to restricted Strait of Hormuz traffic.\n\nThe post US-Iran tensions keep Strait of Hormuz traffic restricted appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/us-iran-tensions-keep-strait-of-hormuz-traffic-restricted/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "REALCLEAR",
-    "source_url": "https://www.realclearmarkets.com/2026/05/12/how_the_us_is_trying_to_ensure_dollar_dominance_1182103.html",
-    "source_title": "How the U.S. Is Trying to Ensure Dollar Dominance",
-    "source_summary": "Alan Rappeport, New York Times The summit between President Trump and China's top leader, Xi Jinping, in Beijing this week is likely to include tense discussions about tariffs, Taiwan, Iran and...",
-    "drafted_at": "2026-05-12T08:09:38.629251",
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/us-iran-tensions-keep-strait-of-hormuz-traffic-restricted/",
+    "source_title": "US-Iran tensions keep Strait of Hormuz traffic restricted",
+    "source_summary": "Prolonged US-Iran tensions risk escalating conflict, impacting global trade and energy markets due to restricted Strait of Hormuz traffic. The post US-Iran tensions keep Strait of Hormuz traffic restricted appeared first on Crypto Briefing .",
+    "drafted_at": "2026-05-12T16:39:40.075311",
     "data": {
-      "source": "REALCLEAR"
+      "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "bcd3f17e8a9cd784"
+    "content_hash": "f06c32744cfcc31a"
   },
   {
-    "id": "b905388a",
+    "id": "f7a4aa81",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: \u00c0 la suite du choc g\u00e9opolitique et \u00e9nerg\u00e9tique d\u00e9clench\u00e9 par la guerre isra\u00e9lo-am\u00e9ricaine contre l'Iran - le FMI avertissant que l'escalade pourrait pousser l'\u00e9conomie mondiale vers la r\u00e9cession et infliger des dommages durables, m\u00eame dans le meilleur des cas - le risque pays est...\n\nhttps://www.prnewswire.com/news-releases/le-choc-du-moyen-orient-rebat-les-cartes-du-risque-mondial-et-les-investisseurs-reagissent-en-temps-reel-302764647.html",
+    "draft_text": "MIDDLE EAST DESK: Appearing before congressional panel, Defense Secretary Hegseth says US is prepared to either escalate or wind down war.\n\nhttps://www.aljazeera.com/news/2026/5/12/pentagon-gives-new-29bn-iran-war-price-tag-downplays-munitions-concerns?traffic_source=rss",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "PR NEWSWIRE",
-    "source_url": "https://www.prnewswire.com/news-releases/le-choc-du-moyen-orient-rebat-les-cartes-du-risque-mondial-et-les-investisseurs-reagissent-en-temps-reel-302764647.html",
-    "source_title": "Le choc du Moyen-Orient rebat les cartes du risque mondial et les investisseurs r\u00e9agissent en temps r\u00e9el",
-    "source_summary": "\u00c0 la suite du choc g\u00e9opolitique et \u00e9nerg\u00e9tique d\u00e9clench\u00e9 par la guerre isra\u00e9lo-am\u00e9ricaine contre l'Iran - le FMI avertissant que l'escalade pourrait pousser l'\u00e9conomie mondiale vers la r\u00e9cession et infliger des dommages durables, m\u00eame dans le meilleur des cas - le risque pays est...",
-    "drafted_at": "2026-05-12T08:09:38.629886",
+    "primary_source": "AL JAZEERA",
+    "source_url": "https://www.aljazeera.com/news/2026/5/12/pentagon-gives-new-29bn-iran-war-price-tag-downplays-munitions-concerns?traffic_source=rss",
+    "source_title": "Pentagon gives new $29bn Iran war price tag, downplays munitions concerns",
+    "source_summary": "Appearing before congressional panel, Defense Secretary Hegseth says US is prepared to either escalate or wind down war.",
+    "drafted_at": "2026-05-12T16:39:40.075829",
     "data": {
-      "source": "PR NEWSWIRE"
+      "source": "AL JAZEERA"
     },
-    "content_hash": "34a6b35f9da9e6c1"
+    "content_hash": "884b8da0bf5fb7be"
   },
   {
-    "id": "5a2faec3",
+    "id": "4f144d55",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From the Gulf: Following the geopolitical and energy shock triggered by the US\u2013Israel war on Iran \u2014 with the IMF warning that the escalation could push the global economy towards recession and inflict lasting damage even in a best-case scenario \u2014 country risk is being rapidly reassessed, with investors...\n\nhttps://www.prnewswire.com/news-releases/middle-east-shock-reshuffles-global-risk-map-as-investors-respond-in-real-time-302768096.html",
+    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: Kazakhstan will cut crude exports from a key Russian Black Sea port next month at a time when European refineries are already grappling with an unprecedented supply disruption from the Middle East.\n\nhttps://financialpost.com/pmn/business-pmn/kazakh-cpc-oil-exports-to-drop-as-europe-faces-tight-supplies",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "PR NEWSWIRE",
-    "source_url": "https://www.prnewswire.com/news-releases/middle-east-shock-reshuffles-global-risk-map-as-investors-respond-in-real-time-302768096.html",
-    "source_title": "Middle East Shock Reshuffles Global Risk Map as Investors Respond in Real Time",
-    "source_summary": "Following the geopolitical and energy shock triggered by the US\u2013Israel war on Iran \u2014 with the IMF warning that the escalation could push the global economy towards recession and inflict lasting damage even in a best-case scenario \u2014 country risk is being rapidly reassessed, with investors...",
-    "drafted_at": "2026-05-12T08:09:38.630474",
+    "primary_source": "FINANCIAL POST",
+    "source_url": "https://financialpost.com/pmn/business-pmn/kazakh-cpc-oil-exports-to-drop-as-europe-faces-tight-supplies",
+    "source_title": "Kazakh CPC Oil Exports to Drop as Europe Faces Tight Supplies",
+    "source_summary": "Kazakhstan will cut crude exports from a key Russian Black Sea port next month at a time when European refineries are already grappling with an unprecedented supply disruption from the Middle East.",
+    "drafted_at": "2026-05-12T16:39:40.076162",
     "data": {
-      "source": "PR NEWSWIRE"
+      "source": "FINANCIAL POST"
     },
-    "content_hash": "1973088f22b9159b"
+    "content_hash": "51be7a0ca4228dc5"
   },
   {
-    "id": "4016feb9",
+    "id": "05dd2bff",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Levant update: President Donald Trump has signalled that the US-Iran ceasefire is on life support and does not rule out\u2026.\n\nhttps://watcher.guru/news/us-iran-ceasefire-on-life-support-stock-market-braces-for-impact",
+    "draft_text": "PACK BRIEFING \u2014 CHINA: Brent crude nears $110 as Trump warns the Iran ceasefire is on \u201clife support,\u201d while Gulf producers signal oil infrastructure repairs may stretch into 2027.\n\nChina\u2019s Oil Machine Hits the Brakes: Imports Sink, Margins Tank, Pressure Rises - With Gulf supply still stranded, China\u2019s crude imports posted a hefty 2.4 million b/d month-over-month decline in April, averaging only 9.25 million b/d and marking the lowest pace of inflows since July 2022. - Apart from the obvious sourcing problems all Asian refiners face nowadays, Chinese\u2026\n\nhttps://oilprice.com/Energy/Energy-General/Trumps-Ceasefire-Warning-Sends-Oil-Prices-Higher-Again.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "WATCHER GURU",
-    "source_url": "https://watcher.guru/news/us-iran-ceasefire-on-life-support-stock-market-braces-for-impact",
-    "source_title": "US-Iran Ceasefire on Life Support: Stock Market Braces For Impact",
-    "source_summary": "President Donald Trump has signalled that the US-Iran ceasefire is on life support and does not rule out\u2026",
-    "drafted_at": "2026-05-12T08:09:38.631670",
+    "primary_source": "OILPRICE",
+    "source_url": "https://oilprice.com/Energy/Energy-General/Trumps-Ceasefire-Warning-Sends-Oil-Prices-Higher-Again.html",
+    "source_title": "Trump\u2019s Ceasefire Warning Sends Oil Prices Higher Again",
+    "source_summary": "Brent crude nears $110 as Trump warns the Iran ceasefire is on \u201clife support,\u201d while Gulf producers signal oil infrastructure repairs may stretch into 2027. China\u2019s Oil Machine Hits the Brakes: Imports Sink, Margins Tank, Pressure Rises - With Gulf supply still stranded, China\u2019s crude imports posted a hefty 2.4 million b/d month-over-month decline in April, averaging only 9.25 million b/d and mark",
+    "drafted_at": "2026-05-12T16:39:40.077102",
     "data": {
-      "source": "WATCHER GURU"
+      "source": "OILPRICE"
     },
-    "content_hash": "4879fbca80a5a73c"
+    "content_hash": "14d709e9e85fedf6"
   },
   {
-    "id": "14546851",
+    "id": "0b27bfad",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "From the inflation desk: The ranges of estimates are important in terms of market reaction because when the actual data deviates from the expectations, it creates a surprise effect.\n\nAnother important input in market's reaction is the distribution of forecasts.\n\nIn fact, although we can have a range of estimates, most forecasts might be clustered on the upper bound of the range, so even if the data comes out inside the range of estimates but on the lower bound of the range, it can still create a surprise effect.\n\nCPI Y/Y 3.9% (9%) 3.8% (23%) 3.7% (54%) - consensus 3.6% (12%) 3.3% (2%) CPI M/M 0.9% (2%) 0.8% (5%) 0.7% (23%) 0.6% (53%) - consensus 0.5% (16%) 0.4% (3%) Core CPI Y/Y 2.9% (5%) 2.8% (23%) 2.7% (60%) - consensus 2.6% (12%) Core CPI M/M 0.5% (3%) 0.4% (40%) 0.3% (48%) - consensus 0.2% (9%) Elevated energy prices have pushed headline inflation back above the 3.0% mark.\n\nInflation was elevated before the war started though and this latest shock just added more upside risk.\n\nI don't think today's data is going to change much for the market unless we get significant deviations from the expected numbers.\n\nFor context, the annual Core PCE rate (which is what the Fed targets) has been sticky near the 3.0% level since 2024 and recently rose to the highest level since December 2023.\n\nAlso, let's not forget that the Fed has been missing its 2% target since 2021.\n\nhttps://investinglive.com/news/what-is-the-distribution-of-forecasts-for-the-us-cpi-20260512/",
+    "draft_text": "CPI just printed. The AUD/USD pair fell toward the 0.7220 region on Tuesday after hotter-than-expected United States (US) inflation data boosted the US Dollar (USD) and reinforced expectations that the Federal Reserve (Fed) may keep interest rates elevated for longer.\n\nhttps://www.fxstreet.com/news/australian-dollar-drops-as-hot-us-cpi-strengthens-fed-higher-for-longer-outlook-202605121604",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/australian-dollar-drops-as-hot-us-cpi-strengthens-fed-higher-for-longer-outlook-202605121604",
+    "source_title": "Australian Dollar drops as hot US CPI strengthens Fed higher-for-longer outlook",
+    "source_summary": "The AUD/USD pair fell toward the 0.7220 region on Tuesday after hotter-than-expected United States (US) inflation data boosted the US Dollar (USD) and reinforced expectations that the Federal Reserve (Fed) may keep interest rates elevated for longer.",
+    "drafted_at": "2026-05-12T16:39:40.133234",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "d4679efeba7a068b"
+  },
+  {
+    "id": "6a5d37b7",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "From the inflation desk: Gold (XAU/USD) extends its slide on Tuesday, retracing the previous day\u2019s gains as hotter-than-expected US inflation data boosts US Treasury yields and the US Dollar (USD).\n\nhttps://www.fxstreet.com/news/gold-reverses-gains-as-us-cpi-data-takes-center-stage-202605121126",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/gold-reverses-gains-as-us-cpi-data-takes-center-stage-202605121126",
+    "source_title": "Gold drops below $4,700 as strong US CPI lifts US Dollar and yields",
+    "source_summary": "Gold (XAU/USD) extends its slide on Tuesday, retracing the previous day\u2019s gains as hotter-than-expected US inflation data boosts US Treasury yields and the US Dollar (USD).",
+    "drafted_at": "2026-05-12T16:39:40.133488",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "2e4c4d99d6751a74"
+  },
+  {
+    "id": "292380f3",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "The CPI scoreboard: The EURUSD is breaking below its 200-hour moving average at 1.17367 (green line on the chart below), a move that tilts the short-term bias more to the downside.\n\nEarlier today, the pair also moved below the 100-hour moving average, currently at 1.17577 (blue line), signaling an initial shift away from the bullish bias that had supported the pair in recent sessions.\n\nWith both key moving averages now broken, sellers are gaining more control in the short term.\n\nThe next major downside target comes in at the 100-day moving average near 1.17084.\n\nThat level is particularly important technically.\n\nBack on May 6, the 100-hour, 200-hour, and 100-day moving averages were all tightly converged near 1.1708 before the pair broke sharply to the upside.\n\nThat breakout fueled a rally to a high of 1.17956 later that same day.\n\nSince then, the EURUSD has largely consolidated between support near 1.1722 and resistance up toward the 1.17956 high, with more recent rallies stalling around 1.1787.\n\nhttps://investinglive.com/news/eurusd-breaks-below-200-hour-ma-short-term-bias-shift-20260512/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/what-is-the-distribution-of-forecasts-for-the-us-cpi-20260512/",
-    "source_title": "What is the distribution of forecasts for the US CPI?",
-    "source_summary": "The ranges of estimates are important in terms of market reaction because when the actual data deviates from the expectations, it creates a surprise effect. Another important input in market's reaction is the distribution of forecasts. In fact, although we can have a range of estimates, most forecasts might be clustered on the upper bound of the range, so even if the data comes out inside the rang",
-    "drafted_at": "2026-05-12T08:09:38.705718",
+    "source_url": "https://investinglive.com/news/eurusd-breaks-below-200-hour-ma-short-term-bias-shift-20260512/",
+    "source_title": "EURUSD breaks below 200 hour MA. Short term bias shift",
+    "source_summary": "The EURUSD is breaking below its 200-hour moving average at 1.17367 (green line on the chart below), a move that tilts the short-term bias more to the downside. Earlier today, the pair also moved below the 100-hour moving average, currently at 1.17577 (blue line), signaling an initial shift away from the bullish bias that had supported the pair in recent sessions. With both key moving averages now",
+    "drafted_at": "2026-05-12T16:39:40.134932",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "a6a344885d49664a"
+    "content_hash": "26f1e98600f0e886"
   },
   {
-    "id": "f3c148bd",
+    "id": "fbae82c7",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "Inflation update: EUROPEAN SESSION In the European session, the only highlight is the German ZEW index.\n\nThe data is expected to show the third contraction in a row due to the situation in the Middle East and the Strait of Hormuz closure.\n\nThe market-reaction will likely be muted given that it won't change anything for the ECB.\n\nAMERICAN SESSION In the American session, we get the US CPI report.\n\nHeadline CPI Y/Y is expected at 3.7% vs 3.3% prior, while Core CPI Y/Y is seen at 2.7% vs 2.6% prior.\n\nElevated energy prices have pushed headline inflation back above the 3.0% mark.\n\nInflation was elevated before the war started though and this latest shock just added more upside risk.\n\nThe annual Core PCE rate has been sticky near the 3.0% level since 2024 and recently rose to the highest level since December 2023.\n\nhttps://investinglive.com/news/what-are-the-main-events-for-today-20260512/",
+    "draft_text": "CPI POSTCARD: Bitcoin showed fresh signs of volatility as US CPI inflation saw new multiyear highs on oil price hikes thanks to the US-Iran war.\n\nhttps://cointelegraph.com/markets/bitcoin-digests-highest-us-cpi-print-since-2023-fed-rate-hike-nerves-return?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/what-are-the-main-events-for-today-20260512/",
-    "source_title": "What are the main events for today?",
-    "source_summary": "EUROPEAN SESSION In the European session, the only highlight is the German ZEW index. The data is expected to show the third contraction in a row due to the situation in the Middle East and the Strait of Hormuz closure. The market-reaction will likely be muted given that it won't change anything for the ECB. AMERICAN SESSION In the American session, we get the US CPI report. Headline CPI Y/Y is ex",
-    "drafted_at": "2026-05-12T08:09:38.706869",
+    "primary_source": "COINTELEGRAPH",
+    "source_url": "https://cointelegraph.com/markets/bitcoin-digests-highest-us-cpi-print-since-2023-fed-rate-hike-nerves-return?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source_title": "Bitcoin digests highest US CPI since 2023 as Fed rate hike woes return",
+    "source_summary": "Bitcoin showed fresh signs of volatility as US CPI inflation saw new multiyear highs on oil price hikes thanks to the US-Iran war.",
+    "drafted_at": "2026-05-12T16:39:40.135099",
     "data": {
-      "source": "FOREXLIVE"
+      "source": "COINTELEGRAPH"
     },
-    "content_hash": "c543fa87dfe9ddfe"
+    "content_hash": "ba23d2547594c817"
   },
   {
-    "id": "f4a209e2",
+    "id": "0fe8574d",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "Inflation update: CPI +2.9% vs +2.9% y/y prelim Prior +2.7% HICP +2.9% vs +2.9% y/y prelim Prior +2.8% Core CPI +2.3% y/y Prior +2.5% Headline inflation pressures continue to tick higher in Europe's largest economy, largely due to a surge in energy prices.\n\nThat comes as no surprise with it being part of the fallout from the US-Iran conflict.\n\nOf note, overall energy product prices in April 2026 were 10.1% higher than in April 2025.\n\nAnd even when compared to the previous month, there were up significantly (+7.2%).\n\nIn particular, fuel prices saw a sharp increase within the year (+26.2%) but even household energy price spending also jumped up sharply with light heating oil seeing a surge of +55.1% within the year.\n\nThe good news at least is that this is not quite translating to core prices just yet.\n\nIn fact, core annual inflation ticked lower to 2.3% on the month.\n\nBut the longer the US-Iran conflict drags on, higher energy prices will become more embedded in other parts of the inflation picture down the road.\n\nhttps://investinglive.com/news/germany-april-final-cpi-29-vs-29-yy-expected-20260512/",
+    "draft_text": "How sticky is inflation? Let's see: CPI\n\nhttps://dailycaller.com/2026/05/12/prices-skyrocket-to-highest-level-in-years-as-fallout-from-iran-war-continues-ravaging-economy/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/germany-april-final-cpi-29-vs-29-yy-expected-20260512/",
-    "source_title": "Germany headline inflation nudges up on higher energy prices due to Middle East conflict",
-    "source_summary": "CPI +2.9% vs +2.9% y/y prelim Prior +2.7% HICP +2.9% vs +2.9% y/y prelim Prior +2.8% Core CPI +2.3% y/y Prior +2.5% Headline inflation pressures continue to tick higher in Europe's largest economy, largely due to a surge in energy prices. That comes as no surprise with it being part of the fallout from the US-Iran conflict. Of note, overall energy product prices in April 2026 were 10.1% higher tha",
-    "drafted_at": "2026-05-12T08:09:38.708061",
+    "primary_source": "DAILY CALLER",
+    "source_url": "https://dailycaller.com/2026/05/12/prices-skyrocket-to-highest-level-in-years-as-fallout-from-iran-war-continues-ravaging-economy/",
+    "source_title": "Prices Skyrocket To Highest Level In Years As Fallout From Iran War Continues Ravaging Economy",
+    "source_summary": "CPI",
+    "drafted_at": "2026-05-12T16:39:40.135190",
     "data": {
-      "source": "FOREXLIVE"
+      "source": "DAILY CALLER"
     },
-    "content_hash": "3e91d856b454b09d"
+    "content_hash": "b30ea338483b10a1"
   },
   {
-    "id": "35830759",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "Inflation update: The US Bureau of Labor Statistics (BLS) will publish the April Consumer Price Index (CPI) data on Tuesday.\n\nThe report is expected to show another significant leap in consumer inflation after March\u2019s sharp increase, driven by the elevated Oil prices due to the ongoing conflict between the United States (US) and Iran.\n\nThe monthly CPI The post US Inflation Set for Another Sharp Jump as US-Iran Conflict Lifts Oil Prices appeared first on BeInCrypto.\n\nhttps://beincrypto.com/us-cpi-preview-april-inflation-three-year-high/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "BEINCRYPTO",
-    "source_url": "https://beincrypto.com/us-cpi-preview-april-inflation-three-year-high/",
-    "source_title": "US Inflation Set for Another Sharp Jump as US-Iran Conflict Lifts Oil Prices",
-    "source_summary": "The US Bureau of Labor Statistics (BLS) will publish the April Consumer Price Index (CPI) data on Tuesday. The report is expected to show another significant leap in consumer inflation after March\u2019s sharp increase, driven by the elevated Oil prices due to the ongoing conflict between the United States (US) and Iran. The monthly CPI The post US Inflation Set for Another Sharp Jump as US-Iran Confli",
-    "drafted_at": "2026-05-12T08:09:38.708627",
-    "data": {
-      "source": "BEINCRYPTO"
-    },
-    "content_hash": "78dbb9a70eda766c"
-  },
-  {
-    "id": "4def5400",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "CPI just printed. What are investment banks expecting in US April inflation data? (It ain't pretty) Alphabet plans first yen bond sale to fund $190 billion AI spending push Recap - Japan and US reaffirm currency cooperation after Bessent's Tokyo talks Australian business confidence remains deeply pessimistic, -24 in April (prior -29) PBOC sets USD/ CNY central rate at 6.8426 (vs. estimate at 6.7945) Katayama says two-hour Bessent talks covered forex, critical minerals and AI Trump weighs return to combat as Iran nuclear talks falter, CNN reports Trump delays beef tariff cut after rancher and Republican pushback Bessent heads to Tokyo pressing Japan on yen weakness and intervention BOJ 'Summary\" - Japan rate hike back on table as BOJ signals next move still likely upward Japan March household spending fell 2.9% y/y (expected -1.5%, prior -1.8%) New Fed Chair Warsh could be locked in as soon as Tuesday UK consumer spending falls for first time since 2024 as Iran war bites Goldman Sachs pushes Fed rate cut forecast to December 2026 ICYMI - JPMorgan warns of $150 oil and 4% inflation as energy crisis deepens S&P 500 could hit 8,000 HSBC strategists say The latest Trump pump: US to loan 53.3 million barrels from Strategic Petroleum Reserve investingLive Americas FX news wrap 11 May: Markets stall as Iran tensions simmer UAE carried out covert strikes on Iran as Gulf war escalated, WSJ report says At a glance: Oil and the USD held firm as US-Iran pessimism deepened; Trump said the ceasefire is \"on life support\" on Monday, with CNN reporting he is now more seriously considering a return to major combat operations, frustrated by the Hormuz closure and stalled nuclear talks The Bank of Japan held rates at its April meeting but its Summary of Opinions, published Tuesday, warned that upside inflation risks are rising, with several members flagging possible hikes as soon as the next meeting Australian business confidence edged up to -24 in April from -29 in March but remained deeply negative, with conditions falling to their lowest since 2020 as energy costs squeezed margins, NAB data showed Japan and the US reaffirmed close coordination on currency markets, including intervention, after Finance Minister Katayama met Treasury Secretary Bessent in Tokyo; Bessent is expected to meet Prime Minister Takaichi before his visit concludes Wednesday Japan's Nikkei remained supported but South Korea's KOSPI pulled back sharply after touching an all-time high just below 8,000, as investors used Middle East uncertainty as a cue to book profits Oil and the US dollar held firm on Tuesday as sentiment over the US-Iran conflict darkened further.\n\nTrump described the ceasefire as on life support on Monday, and CNN reported that he is now more seriously weighing a return to major combat operations, frustrated by the continued closure of the Strait of Hormuz and the lack of meaningful progress in nuclear negotiations.\n\nHis national security team met at the White House on Monday to review options, though a major decision is not expected before the president's departure for China.\n\nThe Bank of Japan kept its policy rate unchanged at its April meeting, but the Summary of Opinions published on Tuesday struck a notably hawkish tone, with board members warning that upside inflation risks are growing as crude oil prices surge.\n\nSeveral members flagged the possibility of a rate hike as soon as the next meeting.\n\nIn Australia, business confidence remained deeply depressed in April despite a marginal recovery to -24 from -29 in March, which had represented the second-largest monthly drop in the survey's history.\n\nBusiness conditions fell to their second-lowest reading since 2020, with capital expenditure recording its steepest post-COVID decline as energy costs bit hard into margins.\n\nIn Tokyo, Finance Minister Katayama confirmed that Japan and the US reaffirmed close coordination on currency markets, including on intervention, following her meeting with Bessent.\n\nhttps://investinglive.com/news/investinglive-asia-pacific-fx-news-wrap-oil-and-the-usd-held-firm-us-iran-pessimism-20260512/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/investinglive-asia-pacific-fx-news-wrap-oil-and-the-usd-held-firm-us-iran-pessimism-20260512/",
-    "source_title": "investingLive Asia-Pacific FX news wrap: Oil and the USD held firm, US-Iran pessimism",
-    "source_summary": "What are investment banks expecting in US April inflation data? (It ain't pretty) Alphabet plans first yen bond sale to fund $190 billion AI spending push Recap - Japan and US reaffirm currency cooperation after Bessent's Tokyo talks Australian business confidence remains deeply pessimistic, -24 in April (prior -29) PBOC sets USD/ CNY central rate at 6.8426 (vs. estimate at 6.7945) Katayama says t",
-    "drafted_at": "2026-05-12T08:09:38.713567",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "67adee5d435ece36"
-  },
-  {
-    "id": "99f8d3ed",
+    "id": "32da3e4e",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -486,7 +450,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-05-12T08:09:38.715998",
+    "drafted_at": "2026-05-12T16:39:40.145740",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -494,7 +458,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "4ae613fd",
+    "id": "32d278e3",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Your alerts didn't go off because the pack got there first.",
@@ -504,14 +468,14 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Your alerts didn't go off because the pack got there first.",
-    "drafted_at": "2026-05-12T08:09:38.716088",
+    "drafted_at": "2026-05-12T16:39:40.145813",
     "data": {
       "take_seed": "2026-05-12-pack-1"
     },
     "content_hash": "9b0f7be55d8ef71c"
   },
   {
-    "id": "025b9458",
+    "id": "e0b655b4",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Information is free. Conviction is rare. Patience is rarer.",
@@ -521,7 +485,7 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Information is free. Conviction is rare. Patience is rarer.",
-    "drafted_at": "2026-05-12T08:09:38.716141",
+    "drafted_at": "2026-05-12T16:39:40.145861",
     "data": {
       "take_seed": "2026-05-12-pack-2"
     },
