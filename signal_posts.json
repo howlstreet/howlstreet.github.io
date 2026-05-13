@@ -1,16 +1,44 @@
 {
-  "^VIX:move:2026-05-13": {
-    "headline": "VIX climbs 5.5% in 5 sessions to 17.92",
-    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "source": "CBOE \u00b7 ^VIX",
+  "^GSPC:high:2026-05-13": {
+    "headline": "S&P 500 just hit 7,447.58 \u2014 highest in 9+ years",
+    "matters": "The benchmark of U.S. equities. Watched globally as the proxy for risk-on / risk-off.",
+    "source": "Yahoo Finance \u00b7 ^GSPC",
     "chart_path": null,
-    "signal_id": "^VIX:move:2026-05-13",
-    "current_str": "17.92",
-    "label": "VIX (S&P 500 volatility)",
-    "hashtags": "#VIX #Volatility #Markets",
+    "signal_id": "^GSPC:high:2026-05-13",
+    "current_str": "7,447.58",
+    "label": "S&P 500",
+    "hashtags": "#SPX #SP500 #Stocks #Markets",
+    "kind": "high",
+    "badge": "9Y HIGH",
+    "data_url": "https://finance.yahoo.com/quote/%5EGSPC",
+    "fired_at": "2026-05-13T17:23:31.185370"
+  },
+  "^IXIC:high:2026-05-13": {
+    "headline": "Nasdaq just hit 26,403.21 \u2014 highest in 9+ years",
+    "matters": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
+    "source": "Yahoo Finance \u00b7 ^IXIC",
+    "chart_path": null,
+    "signal_id": "^IXIC:high:2026-05-13",
+    "current_str": "26,403.21",
+    "label": "Nasdaq Composite",
+    "hashtags": "#Nasdaq #Tech #Stocks",
+    "kind": "high",
+    "badge": "9Y HIGH",
+    "data_url": "https://finance.yahoo.com/quote/%5EIXIC",
+    "fired_at": "2026-05-13T17:23:31.185370"
+  },
+  "^IXIC:move:2026-05-13": {
+    "headline": "Nasdaq climbs 5.1% in 5 sessions to 26,403.21",
+    "matters": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
+    "source": "Yahoo Finance \u00b7 ^IXIC",
+    "chart_path": null,
+    "signal_id": "^IXIC:move:2026-05-13",
+    "current_str": "26,403.21",
+    "label": "Nasdaq Composite",
+    "hashtags": "#Nasdaq #Tech #Stocks",
     "kind": "move_up",
-    "badge": "+5.5%",
-    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "fired_at": "2026-05-13T08:20:42.872189"
+    "badge": "+5.1%",
+    "data_url": "https://finance.yahoo.com/quote/%5EIXIC",
+    "fired_at": "2026-05-13T17:23:31.185370"
   }
 }

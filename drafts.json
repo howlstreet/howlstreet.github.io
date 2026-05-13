@@ -1,59 +1,131 @@
 [
   {
-    "id": "4981287a",
+    "id": "f66c2332",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "If you read one thing today: Gold (XAU/USD) sticks to modest intraday losses through the early European session on Wednesday, albeit it lacks bearish conviction and remains confined within the previous day's broader trading range.\n\nhttps://www.fxstreet.com/news/gold-remains-depressed-as-hot-us-cpi-lifts-fed-rate-hike-bets-and-supports-usd-202605130441",
+    "draft_text": "The story the pack is talking about: US PPI jumped 6% in April 2026, the hottest reading since 2023, slashing Fed rate cut hopes as services inflation broadens.\n\nThe post US PPI Shocker Hits 6% in April 2026, Crushing Fed Rate Cut Hopes appeared first on BeInCrypto.\n\nhttps://beincrypto.com/us-ppi-april-2026-fed-rates/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/gold-remains-depressed-as-hot-us-cpi-lifts-fed-rate-hike-bets-and-supports-usd-202605130441",
-    "source_title": "Gold struggles to lure buyers amid bullish USD, Fed rate hike bets, ahead of US PPI",
-    "source_summary": "Gold (XAU/USD) sticks to modest intraday losses through the early European session on Wednesday, albeit it lacks bearish conviction and remains confined within the previous day's broader trading range.",
-    "drafted_at": "2026-05-13T08:20:46.106237",
+    "primary_source": "BEINCRYPTO",
+    "source_url": "https://beincrypto.com/us-ppi-april-2026-fed-rates/",
+    "source_title": "US PPI Shocker Hits 6% in April 2026, Crushing Fed Rate Cut Hopes",
+    "source_summary": "US PPI jumped 6% in April 2026, the hottest reading since 2023, slashing Fed rate cut hopes as services inflation broadens. The post US PPI Shocker Hits 6% in April 2026, Crushing Fed Rate Cut Hopes appeared first on BeInCrypto .",
+    "drafted_at": "2026-05-13T17:23:34.296472",
     "data": {
-      "source": "FXSTREET"
+      "source": "BEINCRYPTO"
     },
-    "content_hash": "52aa6a6b8d89aae5"
+    "content_hash": "8e87fbd2c16f91fe"
   },
   {
-    "id": "c61fed67",
+    "id": "6fe06709",
     "format": "MARKET_MOVE",
     "status": "pending",
-    "draft_text": "You feeling that? VIX climbs 5.5% in 5 sessions to 17.92.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
+    "draft_text": "Heads up, pack. S&P 500 just hit 7,447.58 \u2014 highest in 9+ years.\n\nThe benchmark of U.S. equities.\n\nWatched globally as the proxy for risk-on / risk-off.\n\nMulti-year high. The pack remembers what comes after these.\n\nhttps://finance.yahoo.com/quote/%5EGSPC",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CBOE \u00b7 ^VIX",
-    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "source_title": "VIX (S&P 500 volatility)",
-    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-05-13T08:20:46.106539",
+    "primary_source": "Yahoo Finance \u00b7 ^GSPC",
+    "source_url": "https://finance.yahoo.com/quote/%5EGSPC",
+    "source_title": "S&P 500",
+    "source_summary": "The benchmark of U.S. equities. Watched globally as the proxy for risk-on / risk-off.",
+    "drafted_at": "2026-05-13T17:23:34.296799",
     "data": {
-      "signal_id": "^VIX:move:2026-05-13",
-      "kind": "move_up",
-      "current": "17.92"
+      "signal_id": "^GSPC:high:2026-05-13",
+      "kind": "high",
+      "current": "7,447.58"
     },
-    "content_hash": "995f4d67e7e875d2"
+    "content_hash": "3fefe25d3b818aa2"
   },
   {
-    "id": "34bdcca6",
+    "id": "d017203a",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Heads up, pack. Nasdaq just hit 26,403.21 \u2014 highest in 9+ years.\n\nTech-heavy index.\n\nLeads risk appetite and is most sensitive to rate moves.\n\nMulti-year high. The pack remembers what comes after these.\n\nhttps://finance.yahoo.com/quote/%5EIXIC",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Yahoo Finance \u00b7 ^IXIC",
+    "source_url": "https://finance.yahoo.com/quote/%5EIXIC",
+    "source_title": "Nasdaq Composite",
+    "source_summary": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
+    "drafted_at": "2026-05-13T17:23:34.297031",
+    "data": {
+      "signal_id": "^IXIC:high:2026-05-13",
+      "kind": "high",
+      "current": "26,403.21"
+    },
+    "content_hash": "ce08e8b71b40219b"
+  },
+  {
+    "id": "d23d3528",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Numbers walked into the room. Nasdaq climbs 5.1% in 5 sessions to 26,403.21.\n\nTech-heavy index.\n\nLeads risk appetite and is most sensitive to rate moves.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EIXIC",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Yahoo Finance \u00b7 ^IXIC",
+    "source_url": "https://finance.yahoo.com/quote/%5EIXIC",
+    "source_title": "Nasdaq Composite",
+    "source_summary": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
+    "drafted_at": "2026-05-13T17:23:34.297239",
+    "data": {
+      "signal_id": "^IXIC:move:2026-05-13",
+      "kind": "move_up",
+      "current": "26,403.21"
+    },
+    "content_hash": "ce08e8b71b40219b"
+  },
+  {
+    "id": "8a8e95ac",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "The Fed just spoke. Here's what matters: Gold (XAU/USD) sticks to modest intraday losses through the early European session on Wednesday, albeit it lacks bearish conviction and remains confined within the previous day's broader trading range.\n\nhttps://www.fxstreet.com/news/gold-remains-depressed-as-hot-us-cpi-lifts-fed-rate-hike-bets-and-supports-usd-202605130441",
+    "draft_text": "FED WATCH: Susan Collins, President of the Federal Reserve (Fed) Bank of Boston, spoke at a fireside chat at an event hosted by the Boston Economic Club on Wednesday.\n\nhttps://www.fxstreet.com/news/feds-collins-prolonged-middle-east-war-creates-challenging-policy-choices-202605131541",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "Fed",
-    "source_url": "https://www.fxstreet.com/news/gold-remains-depressed-as-hot-us-cpi-lifts-fed-rate-hike-bets-and-supports-usd-202605130441",
-    "source_title": "Gold struggles to lure buyers amid bullish USD, Fed rate hike bets, ahead of US PPI",
-    "source_summary": "Gold (XAU/USD) sticks to modest intraday losses through the early European session on Wednesday, albeit it lacks bearish conviction and remains confined within the previous day's broader trading range.",
-    "drafted_at": "2026-05-13T08:20:46.117251",
+    "source_url": "https://www.fxstreet.com/news/feds-collins-prolonged-middle-east-war-creates-challenging-policy-choices-202605131541",
+    "source_title": "Fed's Collins: Prolonged Middle East war creates challenging policy choices",
+    "source_summary": "Susan Collins, President of the Federal Reserve (Fed) Bank of Boston, spoke at a fireside chat at an event hosted by the Boston Economic Club on Wednesday.",
+    "drafted_at": "2026-05-13T17:23:34.308174",
     "data": {
       "actor": "Fed"
     },
-    "content_hash": "52aa6a6b8d89aae5"
+    "content_hash": "107aab3e1e560433"
   },
   {
-    "id": "3a647f91",
+    "id": "c8366ce0",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "FED WATCH: Price increases remained the most common financial concern, though the share of U.S. adults saying it was a major concern declined slightly.\n\nThe report indicates that 73 percent of adults reported either doing okay or living comfortably financially, consistent with 2024 but below the overall high of 78 percent in 2021.\n\nThe share who would cover a $400 emergency expense using cash or its equivalent also remained unchanged from 2024 at 63 percent.\n\nPrices continued to be the most common financial concern among U.S. adults, with the share citing it as either a major or minor concern unchanged at 91 percent.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/other20260513a.htm",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260513a.htm",
+    "source_title": "Federal Reserve Board issues Economic Well-Being of U.S. Households in 2025 report",
+    "source_summary": "Federal Reserve Board issues Economic Well-Being of U.S. Households in 2025 report",
+    "drafted_at": "2026-05-13T17:23:34.309913",
+    "data": {
+      "actor": "FED"
+    },
+    "content_hash": "ea4aae0b5666442f"
+  },
+  {
+    "id": "d410daae",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "FOMC update. US PPI jumped 6% in April 2026, the hottest reading since 2023, slashing Fed rate cut hopes as services inflation broadens.\n\nThe post US PPI Shocker Hits 6% in April 2026, Crushing Fed Rate Cut Hopes appeared first on BeInCrypto.\n\nhttps://beincrypto.com/us-ppi-april-2026-fed-rates/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Fed",
+    "source_url": "https://beincrypto.com/us-ppi-april-2026-fed-rates/",
+    "source_title": "US PPI Shocker Hits 6% in April 2026, Crushing Fed Rate Cut Hopes",
+    "source_summary": "US PPI jumped 6% in April 2026, the hottest reading since 2023, slashing Fed rate cut hopes as services inflation broadens. The post US PPI Shocker Hits 6% in April 2026, Crushing Fed Rate Cut Hopes appeared first on BeInCrypto .",
+    "drafted_at": "2026-05-13T17:23:34.310223",
+    "data": {
+      "actor": "Fed"
+    },
+    "content_hash": "8e87fbd2c16f91fe"
+  },
+  {
+    "id": "027c1908",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "From the Eccles Building: The approvals allow the banking organization to have a new top-tier holding company, Columbia Financial, Inc., which would become a savings and loan holding company by acquiring Columbia Bank, of Fair Lawn, New Jersey.\n\nColumbia Financial, Inc., also received approval to acquire Northfield Bancorp, Inc., of Woodbridge, New Jersey, and thereby indirectly acquire Northfield Bank, of Staten Island, New York.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/orders20260508a.htm",
@@ -63,14 +135,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260508a.htm",
     "source_title": "Federal Reserve Board announces approval of related applications by Columbia Bank MHC, and Columbia Financial, Inc.",
     "source_summary": "Federal Reserve Board announces approval of related applications by Columbia Bank MHC, and Columbia Financial, Inc.",
-    "drafted_at": "2026-05-13T08:20:46.118006",
+    "drafted_at": "2026-05-13T17:23:34.310948",
     "data": {
       "actor": "FED"
     },
     "content_hash": "91facc87b649759c"
   },
   {
-    "id": "e723025b",
+    "id": "04bed16f",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Central bank corner: By law, a bank is generally prohibited from establishing or acquiring branches outside of its home state primarily for the purpose of acquiring additional deposits.\n\nThis prohibition seeks to ensure that interstate bank branches will not take deposits from a community without the bank also reasonably helping to meet the credit needs of that community.\n\nThe updated ratios, including additional information on how they are used to evaluate compliance with the requirements, are available here.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260501a.htm",
@@ -80,352 +152,369 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260501a.htm",
     "source_title": "Agencies issue host state loan-to-deposit ratios",
     "source_summary": "Agencies issue host state loan-to-deposit ratios",
-    "drafted_at": "2026-05-13T08:20:46.118696",
+    "drafted_at": "2026-05-13T17:23:34.311597",
     "data": {
       "actor": "FED"
     },
     "content_hash": "61dea05f952390b0"
   },
   {
-    "id": "936332fb",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "POWELL POSTCARD: The Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run.\n\nIn support of its goals, the Committee decided to maintain the target range for the federal funds rate at 3\u20111/2 to 3\u20113/4 percent.\n\nThe Committee is strongly committed to supporting maximum employment and returning inflation to its 2 percent objective.\n\nDevelopments in the Middle East are contributing to a high level of uncertainty about the economic outlook.\n\nThe Committee is attentive to the risks to both sides of its dual mandate.\n\nIn considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FED",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
-    "source_title": "Federal Reserve issues FOMC statement",
-    "source_summary": "Federal Reserve issues FOMC statement",
-    "drafted_at": "2026-05-13T08:20:46.120255",
-    "data": {
-      "actor": "FED"
-    },
-    "content_hash": "8eef4d9ead515d9a"
-  },
-  {
-    "id": "417ae06d",
+    "id": "556b9c41",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$PSUS insider bought $70,534,140 on 2026-04-30, 7 insiders. \ud83d\udc40\n\nPershing Square Usa, Ltd.. 1,412,000 shares at $49.95.\n\n-18.4% since the purchase.\n\nhttp://openinsider.com/screener?s=PSUS",
+    "draft_text": "$PSUS insider bought $70,534,140 on 2026-04-30, 7 insiders. \ud83d\udc40\n\nPershing Square Usa, Ltd.. 1,412,000 shares at $49.95.\n\n-16.9% since the purchase.\n\nhttp://openinsider.com/screener?s=PSUS",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=PSUS",
     "source_title": "Pershing Square Usa, Ltd. (PSUS) insider bought $70,534,140",
     "source_summary": "7 insider(s) bought 1,412,000 shares at $49.95 on 2026-04-30.",
-    "drafted_at": "2026-05-13T08:20:46.120496",
+    "drafted_at": "2026-05-13T17:23:34.313347",
     "data": {
       "ticker": "PSUS",
       "type": "P",
       "dollar_value": 70534140.0,
-      "pct_since": -18.418418418418423
+      "pct_since": -16.936933576643053
     },
     "content_hash": "b52f9ba6394ce040"
   },
   {
-    "id": "0318c220",
+    "id": "6a9834a5",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$AXIA insider bought $43,515,365 on 2026-05-08. \ud83d\udc40\n\nAxia Energia S.A.. 3,656,500 shares at $11.90.\n\n-1.3% since the purchase.\n\nhttp://openinsider.com/screener?s=AXIA",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=AXIA",
-    "source_title": "Axia Energia S.A. (AXIA) insider bought $43,515,365",
-    "source_summary": "1 insider(s) bought 3,656,500 shares at $11.90 on 2026-05-08.",
-    "drafted_at": "2026-05-13T08:20:46.120624",
-    "data": {
-      "ticker": "AXIA",
-      "type": "P",
-      "dollar_value": 43515365.0,
-      "pct_since": -1.344539738502826
-    },
-    "content_hash": "2bfc5259e96950bd"
-  },
-  {
-    "id": "475de042",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$ODTX insider bought $19,999,998 on 2026-05-08. \ud83d\udc40\n\nOdyssey Therapeutics, Inc.. 1,111,111 shares at $18.00.\n\n-0.6% since the purchase.\n\nhttp://openinsider.com/screener?s=ODTX",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=ODTX",
-    "source_title": "Odyssey Therapeutics, Inc. (ODTX) insider bought $19,999,998",
-    "source_summary": "1 insider(s) bought 1,111,111 shares at $18.00 on 2026-05-08.",
-    "drafted_at": "2026-05-13T08:20:46.120747",
-    "data": {
-      "ticker": "ODTX",
-      "type": "P",
-      "dollar_value": 19999998.0,
-      "pct_since": -0.5555576748318142
-    },
-    "content_hash": "082906482cbc30ec"
-  },
-  {
-    "id": "11e23499",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$MOBI insider bought $19,024,980 on 2026-05-11, 6 insiders. \ud83d\udc40\n\nMobia Medical, Inc.. 1,268,332 shares at $15.00.\n\n-19.3% since the purchase.\n\nhttp://openinsider.com/screener?s=MOBI",
+    "draft_text": "$MOBI insider bought $19,024,980 on 2026-05-11, 6 insiders. \ud83d\udc40\n\nMobia Medical, Inc.. 1,268,332 shares at $15.00.\n\n-22.1% since the purchase.\n\nhttp://openinsider.com/screener?s=MOBI",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=MOBI",
     "source_title": "Mobia Medical, Inc. (MOBI) insider bought $19,024,980",
     "source_summary": "6 insider(s) bought 1,268,332 shares at $15.00 on 2026-05-11.",
-    "drafted_at": "2026-05-13T08:20:46.120872",
+    "drafted_at": "2026-05-13T17:23:34.313478",
     "data": {
       "ticker": "MOBI",
       "type": "P",
       "dollar_value": 19024980.0,
-      "pct_since": -19.33333079020182
+      "pct_since": -22.133331298828125
     },
     "content_hash": "acb3ef1a348cd50d"
   },
   {
-    "id": "bed6c70e",
+    "id": "af3a1387",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$PLSE insider bought $13,590,688 on 2026-05-11, 2 insiders. \ud83d\udc40\n\nPulse Biosciences, Inc.. 690,233 shares at $19.69.\n\n+18.3% since the purchase.\n\nhttp://openinsider.com/screener?s=PLSE",
+    "draft_text": "$FOUR insider bought $15,943,102 on 2026-05-11. \ud83d\udc40\n\nShift4 Payments, Inc.. 388,500 shares at $41.04.\n\n-0.4% since the purchase.\n\nhttp://openinsider.com/screener?s=FOUR",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=FOUR",
+    "source_title": "Shift4 Payments, Inc. (FOUR) insider bought $15,943,102",
+    "source_summary": "1 insider(s) bought 388,500 shares at $41.04 on 2026-05-11.",
+    "drafted_at": "2026-05-13T17:23:34.313594",
+    "data": {
+      "ticker": "FOUR",
+      "type": "P",
+      "dollar_value": 15943102.0,
+      "pct_since": -0.36306325455157873
+    },
+    "content_hash": "a6941a94b7d0f69d"
+  },
+  {
+    "id": "eb207e8e",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$PLSE insider bought $13,590,688 on 2026-05-11, 2 insiders. \ud83d\udc40\n\nPulse Biosciences, Inc.. 690,233 shares at $19.69.\n\n+20.7% since the purchase.\n\nhttp://openinsider.com/screener?s=PLSE",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=PLSE",
     "source_title": "Pulse Biosciences, Inc. (PLSE) insider bought $13,590,688",
     "source_summary": "2 insider(s) bought 690,233 shares at $19.69 on 2026-05-11.",
-    "drafted_at": "2026-05-13T08:20:46.120995",
+    "drafted_at": "2026-05-13T17:23:34.313740",
     "data": {
       "ticker": "PLSE",
       "type": "P",
       "dollar_value": 13590688.0,
-      "pct_since": 18.334175911937763
+      "pct_since": 20.6703922238793
     },
     "content_hash": "c0130805e6ebc8ce"
   },
   {
-    "id": "d51b5ffc",
+    "id": "3d7efb85",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$SRAD insider bought $11,349,414 on 2026-05-06, 7 insiders. \ud83d\udc40\n\nSportradar Group AG. 855,694 shares at $13.26.\n\n-6.9% since the purchase.\n\nhttp://openinsider.com/screener?s=SRAD",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=SRAD",
+    "source_title": "Sportradar Group AG (SRAD) insider bought $11,349,414",
+    "source_summary": "7 insider(s) bought 855,694 shares at $13.26 on 2026-05-06.",
+    "drafted_at": "2026-05-13T17:23:34.313866",
+    "data": {
+      "ticker": "SRAD",
+      "type": "P",
+      "dollar_value": 11349414.0,
+      "pct_since": -6.862742221193614
+    },
+    "content_hash": "c9b4a87425e342e8"
+  },
+  {
+    "id": "e1357ae4",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "Increased scrutiny on crypto transactions may lead to stricter regulations, impacting banks, exchanges, and investors globally.\n\nThe post US government alerts banks to IRGC\u2019s sanctions evasion efforts using crypto and front companies appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/us-government-irgc-sanctions-evasion-crypto/",
+    "draft_text": "Arbitrum Security Council's bold move to freeze $70 million highlights the ongoing battle against crypto theft.\n\nThe post Griff Green: Unusual movements of restaked ETH signal illicit activity, Thorchain\u2019s role in laundering funds, and the risks of smart contract exploitation | Unchained appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/griff-green-unusual-movements-of-restaked-eth-signal-illicit-activity-thorchains-role-in-laundering-funds-and-the-risks-of-smart-contract-exploitation-unchained/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/us-government-irgc-sanctions-evasion-crypto/",
-    "source_title": "US government alerts banks to IRGC\u2019s sanctions evasion efforts using crypto and front companies",
-    "source_summary": "Increased scrutiny on crypto transactions may lead to stricter regulations, impacting banks, exchanges, and investors globally. The post US government alerts banks to IRGC\u2019s sanctions evasion efforts using crypto and front companies appeared first on Crypto Briefing .",
-    "drafted_at": "2026-05-13T08:20:46.122303",
+    "source_url": "https://cryptobriefing.com/griff-green-unusual-movements-of-restaked-eth-signal-illicit-activity-thorchains-role-in-laundering-funds-and-the-risks-of-smart-contract-exploitation-unchained/",
+    "source_title": "Griff Green: Unusual movements of restaked ETH signal illicit activity, Thorchain\u2019s role in laundering funds, and the risks of smart contract exploitation",
+    "source_summary": "Arbitrum Security Council's bold move to freeze $70 million highlights the ongoing battle against crypto theft. The post Griff Green: Unusual movements of restaked ETH signal illicit activity, Thorchain\u2019s role in laundering funds, and the risks of smart contract exploitation | Unchained appeared first on Crypto Briefing .",
+    "drafted_at": "2026-05-13T17:23:34.315298",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "3dd1e7bae2de89f1"
+    "content_hash": "8084ee1d7616aa11"
   },
   {
-    "id": "a4d703dc",
+    "id": "4575dad4",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "The latest EU sanctions on Russia also featured measures against Kyrgyzstan.\n\nThis was the first use of so-called anti-circumvention tools, which are designed to prevent third countries from helping the Kremlin bypass restrictions over the invasion of Ukraine, writes Marc Goedemans.\n\nThe post EU targets Kyrgyzstan as Brussels seeks to prevent Russian sanctions evasion appeared first on Atlantic Council.\n\nhttps://www.atlanticcouncil.org/blogs/ukrainealert/eu-targets-kyrgyzstan-as-brussels-seeks-to-prevent-russian-sanctions-evasion/",
+    "draft_text": "Recognition Honors Company's AI-powered Finance Risk Intelligence platform for transforming fraud detection, spend monitoring and financial risk management ATLANTA, May 13, 2026 /PRNewswire/ -- Oversight, a leading provider of AI-powered Finance Risk Intelligence, today announced that it...\n\nhttps://www.prnewswire.com/news-releases/oversight-named-newsweek-ai-impact-awards-2026-winner-302771317.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "ATLANTIC CNCL",
-    "source_url": "https://www.atlanticcouncil.org/blogs/ukrainealert/eu-targets-kyrgyzstan-as-brussels-seeks-to-prevent-russian-sanctions-evasion/",
-    "source_title": "EU targets Kyrgyzstan as Brussels seeks to prevent Russian sanctions evasion",
-    "source_summary": "The latest EU sanctions on Russia also featured measures against Kyrgyzstan. This was the first use of so-called anti-circumvention tools, which are designed to prevent third countries from helping the Kremlin bypass restrictions over the invasion of Ukraine, writes Marc Goedemans. The post EU targets Kyrgyzstan as Brussels seeks to prevent Russian sanctions evasion appeared first on Atlantic Coun",
-    "drafted_at": "2026-05-13T08:20:46.122872",
+    "primary_source": "PR NEWSWIRE",
+    "source_url": "https://www.prnewswire.com/news-releases/oversight-named-newsweek-ai-impact-awards-2026-winner-302771317.html",
+    "source_title": "Oversight Named Newsweek AI Impact Awards 2026 Winner",
+    "source_summary": "Recognition Honors Company's AI-powered Finance Risk Intelligence platform for transforming fraud detection, spend monitoring and financial risk management ATLANTA, May 13, 2026 /PRNewswire/ -- Oversight, a leading provider of AI-powered Finance Risk Intelligence, today announced that it...",
+    "drafted_at": "2026-05-13T17:23:34.315740",
     "data": {
-      "source": "ATLANTIC CNCL"
+      "source": "PR NEWSWIRE"
     },
-    "content_hash": "3c34e2c3d6a33d86"
+    "content_hash": "f6104f5586cdf4e9"
   },
   {
-    "id": "69f39fea",
+    "id": "7857f51d",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "A U.S.-based food giant claims its product contain premium, Italian-grown tomatoes.\n\nTwo Californian shoppers are calling it out, alleging tomato fraud.\n\nhttps://www.latimes.com/business/story/2026-05-12/california-consumers-accuse-popular-italian-food-brand-of-tomato-fraud",
+    "draft_text": "Committee cites 'deficiencies' in what leftist governor has provided to Congress.\n\nhttps://www.wnd.com/2026/05/tim-walz-submits-documents-unexplained-redactions-house-panel/?utm_source=rss&utm_medium=rss&utm_campaign=tim-walz-submits-documents-unexplained-redactions-house-panel",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "LA TIMES",
-    "source_url": "https://www.latimes.com/business/story/2026-05-12/california-consumers-accuse-popular-italian-food-brand-of-tomato-fraud",
-    "source_title": "California consumers accuse popular Italian food brand of tomato fraud",
-    "source_summary": "A U.S.-based food giant claims its product contain premium, Italian-grown tomatoes. Two Californian shoppers are calling it out, alleging tomato fraud.",
-    "drafted_at": "2026-05-13T08:20:46.123118",
+    "primary_source": "WND",
+    "source_url": "https://www.wnd.com/2026/05/tim-walz-submits-documents-unexplained-redactions-house-panel/?utm_source=rss&utm_medium=rss&utm_campaign=tim-walz-submits-documents-unexplained-redactions-house-panel",
+    "source_title": "Tim Walz submits documents with \u2018unexplained redactions\u2019 to House panel investigating childcare fraud",
+    "source_summary": "Committee cites 'deficiencies' in what leftist governor has provided to Congress",
+    "drafted_at": "2026-05-13T17:23:34.315919",
     "data": {
-      "source": "LA TIMES"
+      "source": "WND"
     },
-    "content_hash": "30574129b3ce759e"
+    "content_hash": "7fa15a8ea21d85cb"
   },
   {
-    "id": "f921c4bd",
+    "id": "c55d2b73",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Low faces multiple charges including corruption and money laundering in the US and Malaysia for the important role he allegedly played in the misappropriation of at least $4.5bn (\u00a33.3bn) from 1MDB.\n\nThe fugitive Malaysian financier Jho Low, a central figure in the multibillion-dollar scandal at the state fund 1Malaysia Development Berhad (1MDB), is reportedly seeking a pardon from the US president, Donald Trump.\n\nThe scandal was one of the world\u2019s biggest financial frauds, with billions plundered from the now defunct sovereign wealth fund in a scandal that began to unfold in 2015.\n\nLow recently filed a request for a pardon that, if granted, would remove US criminal charges against him, the Wall Street Journal reported on Tuesday, citing people familiar with the matter.\n\nhttps://www.theguardian.com/world/2026/may/13/1mdb-financier-jho-low-seeks-pardon-from-donald-trump",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "GUARDIAN",
+    "source_url": "https://www.theguardian.com/world/2026/may/13/1mdb-financier-jho-low-seeks-pardon-from-donald-trump",
+    "source_title": "1MDB financier Jho Low seeks pardon from Donald Trump",
+    "source_summary": "Fugitive faces charges including corruption and money laundering in US and Malaysia for role he allegedly played in scandal The fugitive Malaysian financier Jho Low, a central figure in the multibillion-dollar scandal at the state fund 1Malaysia Development Berhad (1MDB), is reportedly seeking a pardon from the US president, Donald Trump. Low faces multiple charges including corruption and money l",
+    "drafted_at": "2026-05-13T17:23:34.317354",
+    "data": {
+      "source": "GUARDIAN"
+    },
+    "content_hash": "ab1b5b9967953e00"
+  },
+  {
+    "id": "5fccbd08",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Caught. The measure will allow the Centers for Medicare & Medicaid Services to halt the influx of new providers into categories that have been a key source of fraudulent activity.\n\nhttps://justthenews.com/government/federal-agencies/trump-administration-fraud-crackdown-blocks-new-medicaid-enrollment?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "JUST THE NEWS",
+    "source_url": "https://justthenews.com/government/federal-agencies/trump-administration-fraud-crackdown-blocks-new-medicaid-enrollment?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+    "source_title": "Trump administration fraud crackdown blocks new Medicaid enrollment for hospices, HHAs for 6 months",
+    "source_summary": "The measure will allow the Centers for Medicare & Medicaid Services to halt the influx of new providers into categories that have been a key source of fraudulent activity.",
+    "drafted_at": "2026-05-13T17:23:34.317621",
+    "data": {
+      "source": "JUST THE NEWS"
+    },
+    "content_hash": "5a56c3771bf0104e"
+  },
+  {
+    "id": "204e1ee3",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "CHINA DESK: Trump's visit could reshape global trade dynamics, impacting energy markets, tech supply chains, and crypto regulations, with lasting effects.\n\nThe post China confirms Trump visit for May 13-15 talks with Xi Jinping on Iran and trade appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/trump-xi-beijing-summit-trade-iran/",
+    "draft_text": "MIDDLE EAST DESK: The diplomatic stalemate may prolong regional tensions and hinder potential resolutions, impacting global security and economic stability.\n\nThe post Iran confirms no nuclear talks with US amid diplomatic stalemate appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iran-confirms-no-nuclear-talks-with-us-amid-diplomatic-stalemate/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/trump-xi-beijing-summit-trade-iran/",
-    "source_title": "China confirms Trump visit for May 13-15 talks with Xi Jinping on Iran and trade",
-    "source_summary": "Trump's visit could reshape global trade dynamics, impacting energy markets, tech supply chains, and crypto regulations, with lasting effects. The post China confirms Trump visit for May 13-15 talks with Xi Jinping on Iran and trade appeared first on Crypto Briefing .",
-    "drafted_at": "2026-05-13T08:20:46.124032",
+    "source_url": "https://cryptobriefing.com/iran-confirms-no-nuclear-talks-with-us-amid-diplomatic-stalemate/",
+    "source_title": "Iran confirms no nuclear talks with US amid diplomatic stalemate",
+    "source_summary": "The diplomatic stalemate may prolong regional tensions and hinder potential resolutions, impacting global security and economic stability. The post Iran confirms no nuclear talks with US amid diplomatic stalemate appeared first on Crypto Briefing .",
+    "drafted_at": "2026-05-13T17:23:34.319247",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "e1b2b062ce54a541"
+    "content_hash": "782b7c12b0c5620d"
   },
   {
-    "id": "e80f276d",
+    "id": "57c2f3c7",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From Beijing: The Ring is Euronews\u2019 weekly political showdown, where Europe\u2019s toughest debates meet their boldest voices.\n\nIn each episode, two political heavyweights from across the EU face off to propose a diversity of opinions and spark conversations around the most important issues of EU affairs and the wider European political life.\n\nEuronews Tech Talks goes beyond discussions to explore the impact of new technologies on our lives.\n\nWith explanations, engaging Q&As, and lively conversations, the podcast provides valuable insights into the intersection of technology and society.\n\nEurope's best food experts are joining forces to crack down on fraud.\n\nhttp://www.euronews.com/business/2026/05/13/trump-china-visit-us-ceos-musk-cook-and-nvidias-huang-join-trade-talks",
+    "draft_text": "MIDDLE EAST DESK: Summer and fall travel, even for those not wanting to cross the ocean, will be pricier this year.\n\nhttps://www.marketwatch.com/story/i-want-to-go-on-a-trip-this-fall-should-i-wait-until-the-iran-war-ends-to-book-my-flight-b526f5d6?mod=mw_rss_topstories",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "EURONEWS",
-    "source_url": "http://www.euronews.com/business/2026/05/13/trump-china-visit-us-ceos-musk-cook-and-nvidias-huang-join-trade-talks",
-    "source_title": "Trump's China visit: US CEOs Musk, Cook and Nvidia\u2019s Huang join trade talks",
-    "source_summary": "A high-level delegation of business executives is travelling to China with US President Donald Trump on Wednesday, with the inclusion of Jensen Huang underscoring how AI chip exports and advanced technology trade are likely to be central to discussions between the two nations.",
-    "drafted_at": "2026-05-13T08:20:46.127023",
+    "primary_source": "MARKETWATCH",
+    "source_url": "https://www.marketwatch.com/story/i-want-to-go-on-a-trip-this-fall-should-i-wait-until-the-iran-war-ends-to-book-my-flight-b526f5d6?mod=mw_rss_topstories",
+    "source_title": "My overseas flight costs $1,000. Is it better to wait until after the Iran war to buy my ticket?",
+    "source_summary": "Summer and fall travel, even for those not wanting to cross the ocean, will be pricier this year.",
+    "drafted_at": "2026-05-13T17:23:34.320012",
     "data": {
-      "source": "EURONEWS"
+      "source": "MARKETWATCH"
     },
-    "content_hash": "e233adf62e112f5b"
+    "content_hash": "780a5f9a9ff7ba1b"
   },
   {
-    "id": "8d5d28ab",
+    "id": "75631d91",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "CHINA DESK: Chinese President Xi Jinping likely to seek concessions on arms sales to Taiwan\n\nhttps://www.aljazeera.com/news/2026/5/13/chinas-xi-to-press-trump-on-taiwan-tariffs-during-summit?traffic_source=rss",
+    "draft_text": "PACK BRIEFING \u2014 ASIA: HONG KONG, May 13, 2026 /PRNewswire/ -- SU Group Holdings Limited (Nasdaq: SUGP) (\"SU Group\" or the \"Company\"), an integrated security-related engineering services company in Hong Kong, today announced the closing of its public offering of securities as described below for aggregate gross...\n\nhttps://www.prnewswire.com/news-releases/su-group-announces-closing-of-6-million-public-offering-302771325.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "PR NEWSWIRE",
+    "source_url": "https://www.prnewswire.com/news-releases/su-group-announces-closing-of-6-million-public-offering-302771325.html",
+    "source_title": "SU Group Announces Closing of $6 Million Public Offering",
+    "source_summary": "HONG KONG, May 13, 2026 /PRNewswire/ -- SU Group Holdings Limited (Nasdaq: SUGP) (\"SU Group\" or the \"Company\"), an integrated security-related engineering services company in Hong Kong, today announced the closing of its public offering of securities as described below for aggregate gross...",
+    "drafted_at": "2026-05-13T17:23:34.320460",
+    "data": {
+      "source": "PR NEWSWIRE"
+    },
+    "content_hash": "bbd543ff6856bd4a"
+  },
+  {
+    "id": "b5d77a85",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "GLOBAL DESK: Protests were held after three church leaders were killed and three others injured in India\u2019s Manipur state.\n\nhttps://www.aljazeera.com/video/newsfeed/2026/5/13/church-leaders-killed-in-latest-ethnic-violence-in-indias-manipur?traffic_source=rss",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/news/2026/5/13/chinas-xi-to-press-trump-on-taiwan-tariffs-during-summit?traffic_source=rss",
-    "source_title": "China\u2019s Xi expected to press Trump on Taiwan, tariffs during summit",
-    "source_summary": "Chinese President Xi Jinping likely to seek concessions on arms sales to Taiwan, analysts say.",
-    "drafted_at": "2026-05-13T08:20:46.127225",
+    "source_url": "https://www.aljazeera.com/video/newsfeed/2026/5/13/church-leaders-killed-in-latest-ethnic-violence-in-indias-manipur?traffic_source=rss",
+    "source_title": "Church leaders killed in latest ethnic violence in India\u2019s Manipur",
+    "source_summary": "Protests were held after three church leaders were killed and three others injured in India\u2019s Manipur state.",
+    "drafted_at": "2026-05-13T17:23:34.320792",
     "data": {
       "source": "AL JAZEERA"
     },
-    "content_hash": "521bf5eba5deba45"
+    "content_hash": "2bd028414ca09702"
   },
   {
-    "id": "1d72cde8",
+    "id": "73b67c4e",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From Beijing: Trump heads to Beijing for high-stakes talks with Xi Jinping as tensions over the Iran war continue to escalate.\n\nhttps://www.aljazeera.com/news/2026/5/13/iran-war-day-75-trump-xi-talks-loom-in-beijing-as-tensions-rise-in-gulf?traffic_source=rss",
+    "draft_text": "EU/UK wire: Wallace last year recommended helping Ukraine carry out a strike on the bridge linking Russia to annexed Crimea.\n\nhttps://www.aljazeera.com/news/2026/5/13/russia-places-uk-former-minister-ben-wallace-on-wanted-list?traffic_source=rss",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/news/2026/5/13/iran-war-day-75-trump-xi-talks-loom-in-beijing-as-tensions-rise-in-gulf?traffic_source=rss",
-    "source_title": "Iran war day 75: Trump-Xi talks loom in Beijing as tensions rise in Gulf",
-    "source_summary": "Trump heads to Beijing for high-stakes talks with Xi Jinping as tensions over the Iran war continue to escalate.",
-    "drafted_at": "2026-05-13T08:20:46.127533",
+    "source_url": "https://www.aljazeera.com/news/2026/5/13/russia-places-uk-former-minister-ben-wallace-on-wanted-list?traffic_source=rss",
+    "source_title": "Russia places UK ex-Defence Minister Ben Wallace on wanted list",
+    "source_summary": "Wallace last year recommended helping Ukraine carry out a strike on the bridge linking Russia to annexed Crimea.",
+    "drafted_at": "2026-05-13T17:23:34.321317",
     "data": {
       "source": "AL JAZEERA"
     },
-    "content_hash": "9b9b3da4d2c91935"
+    "content_hash": "d97d425a3b0dc7c7"
   },
   {
-    "id": "6fcba162",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "World wire: Bringing the Alibaba-Style Marketplace Concept to the Global Duty-Free World MIAMI, May 13, 2026 (GLOBE NEWSWIRE) \u2014 DutyFreeAlibaba.com and AlibabaDutyFree.com, two next-generation digital marketplace platforms under development, today announced the opening of early enrollment for vendors, suppliers, wholesalers, importers, distributors, premium brands, strategic partners, and investors ahead of their anticipated Fall 2026 B2C launch.\n\nhttps://financialpost.com/globe-newswire/dutyfreealibaba-com-and-alibabadutyfree-com-announce-global-vendor-wholesale-investor-enrollment-ahead-of-fall-2026-launch",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/globe-newswire/dutyfreealibaba-com-and-alibabadutyfree-com-announce-global-vendor-wholesale-investor-enrollment-ahead-of-fall-2026-launch",
-    "source_title": "DutyFreeAlibaba.com and AlibabaDutyFree.com Announce Global Vendor, Wholesale & Investor Enrollment Ahead of Fall 2026 Launch",
-    "source_summary": "Bringing the Alibaba-Style Marketplace Concept to the Global Duty-Free World MIAMI, May 13, 2026 (GLOBE NEWSWIRE) \u2014 DutyFreeAlibaba.com and AlibabaDutyFree.com, two next-generation digital marketplace platforms under development, today announced the opening of early enrollment for vendors, suppliers, wholesalers, importers, distributors, premium brands, strategic partners, and investors ahead of t",
-    "drafted_at": "2026-05-13T08:20:46.128490",
-    "data": {
-      "source": "FINANCIAL POST"
-    },
-    "content_hash": "a6cfd817a991f86c"
-  },
-  {
-    "id": "366b823b",
+    "id": "9016d9fa",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "How fast is the economy moving? Now we know: Redirecting one overnight stay to Canada could add up to $4.6 billion to GDP MONTREAL, May 13, 2026 (GLOBE NEWSWIRE) \u2014 Economic pressures are real, but Canadians are not giving up on travel.\n\nA new survey from the Business Development Bank of Canada (BDC) shows nearly 9 in 10 Canadians plan to travel in 2026.\n\nhttps://financialpost.com/globe-newswire/flexibility-is-the-new-travel-currency-and-british-columbians-are-spending-it-at-home-bdc-survey",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/globe-newswire/flexibility-is-the-new-travel-currency-and-british-columbians-are-spending-it-at-home-bdc-survey",
-    "source_title": "Flexibility Is the New Travel Currency \u2014 and British Columbians Are Spending It at Home: BDC survey",
-    "source_summary": "Redirecting one overnight stay to Canada could add up to $4.6 billion to GDP MONTREAL, May 13, 2026 (GLOBE NEWSWIRE) \u2014 Economic pressures are real, but Canadians are not giving up on travel. A new survey from the Business Development Bank of Canada (BDC) shows nearly 9 in 10 Canadians plan to travel in 2026. In [\u2026]",
-    "drafted_at": "2026-05-13T08:20:46.195868",
-    "data": {
-      "source": "FINANCIAL POST"
-    },
-    "content_hash": "b494da63b296717f"
-  },
-  {
-    "id": "970287ff",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "GROWTH POSTCARD: Redirecting one overnight stay to Canada could add up to $4.6 billion to GDP MONTREAL, May 13, 2026 (GLOBE NEWSWIRE) \u2014 Economic pressures are real, but Canadians are not giving up on travel.\n\nA new survey from the Business Development Bank of Canada (BDC) shows nearly 9 in 10 Canadians plan to travel in 2026 and [\u2026]\n\nhttps://financialpost.com/globe-newswire/flexibility-is-the-new-travel-currency-and-canadians-are-spending-it-at-home-bdc-survey",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/globe-newswire/flexibility-is-the-new-travel-currency-and-canadians-are-spending-it-at-home-bdc-survey",
-    "source_title": "Flexibility Is the New Travel Currency \u2014 and Canadians Are Spending It at Home: BDC survey",
-    "source_summary": "Redirecting one overnight stay to Canada could add up to $4.6 billion to GDP MONTREAL, May 13, 2026 (GLOBE NEWSWIRE) \u2014 Economic pressures are real, but Canadians are not giving up on travel. A new survey from the Business Development Bank of Canada (BDC) shows nearly 9 in 10 Canadians plan to travel in 2026 and [\u2026]",
-    "drafted_at": "2026-05-13T08:20:46.196403",
-    "data": {
-      "source": "FINANCIAL POST"
-    },
-    "content_hash": "59e31ab489a7a8b1"
-  },
-  {
-    "id": "a2a6fa61",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "CPI POSTCARD: OCBC\u2019s Christopher Wong notes the US Dollar (USD) strengthened after hotter United States (US) Consumer Price Index (CPI) data lifted UST yields and revived Fed hike expectations, with focus now on US Producer Price Index (PPI).\n\nhttps://www.fxstreet.com/news/us-dollar-index-hawkish-repricing-supports-dxy-ocbc-202605130743",
+    "draft_text": "PPI desk: Dow Jones Industrial Average (DJIA) futures slipped onto the back foot through European and early US hours on Wednesday, struggling to hold above 49,500 after fading from overnight highs near 49,800.\n\nhttps://www.fxstreet.com/news/dow-jones-industrial-average-on-the-defensive-as-hot-ppi-fuels-fed-angst-202605131613",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/us-dollar-index-hawkish-repricing-supports-dxy-ocbc-202605130743",
-    "source_title": "US Dollar Index: Hawkish repricing supports DXY \u2013 OCBC",
-    "source_summary": "OCBC\u2019s Christopher Wong notes the US Dollar (USD) strengthened after hotter United States (US) Consumer Price Index (CPI) data lifted UST yields and revived Fed hike expectations, with focus now on US Producer Price Index (PPI).",
-    "drafted_at": "2026-05-13T08:20:46.196798",
+    "source_url": "https://www.fxstreet.com/news/dow-jones-industrial-average-on-the-defensive-as-hot-ppi-fuels-fed-angst-202605131613",
+    "source_title": "Dow Jones Industrial Average on the defensive as hot PPI fuels Fed angst",
+    "source_summary": "Dow Jones Industrial Average (DJIA) futures slipped onto the back foot through European and early US hours on Wednesday, struggling to hold above 49,500 after fading from overnight highs near 49,800.",
+    "drafted_at": "2026-05-13T17:23:34.395919",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "911672cf4a0ae2fe"
+    "content_hash": "49fca60f34d8673b"
   },
   {
-    "id": "4de7d95b",
+    "id": "171407c3",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "PRODUCER-PRICE READ: Gold (XAU/USD) sticks to modest intraday losses through the early European session on Wednesday, albeit it lacks bearish conviction and remains confined within the previous day's broader trading range.\n\nhttps://www.fxstreet.com/news/gold-remains-depressed-as-hot-us-cpi-lifts-fed-rate-hike-bets-and-supports-usd-202605130441",
+    "draft_text": "PPI desk: The British Pound (GBP) posts a 0.19% loss against the US Dollar (USD) on Wednesday in back-to-back bearish days after a red-hot US inflation report\n\nhttps://www.fxstreet.com/news/british-pound-falls-as-hot-ppi-starmer-turmoil-lift-the-us-dollar-202605131609",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/gold-remains-depressed-as-hot-us-cpi-lifts-fed-rate-hike-bets-and-supports-usd-202605130441",
-    "source_title": "Gold struggles to lure buyers amid bullish USD, Fed rate hike bets, ahead of US PPI",
-    "source_summary": "Gold (XAU/USD) sticks to modest intraday losses through the early European session on Wednesday, albeit it lacks bearish conviction and remains confined within the previous day's broader trading range.",
-    "drafted_at": "2026-05-13T08:20:46.197070",
+    "source_url": "https://www.fxstreet.com/news/british-pound-falls-as-hot-ppi-starmer-turmoil-lift-the-us-dollar-202605131609",
+    "source_title": "British Pound falls as hot PPI, Starmer turmoil lift US Dollar",
+    "source_summary": "The British Pound (GBP) posts a 0.19% loss against the US Dollar (USD) on Wednesday in back-to-back bearish days after a red-hot US inflation report, amid mounting pressure on UK Prime Minister Keir Starmer to resign.",
+    "drafted_at": "2026-05-13T17:23:34.396174",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "52aa6a6b8d89aae5"
+    "content_hash": "6b1ced85dd3cd778"
   },
   {
-    "id": "f4e5a544",
+    "id": "63f13144",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "INFLATION READ: CPI +2.2% vs +2.2% y/y prelim Prior +1.7% HICP +2.5% vs +2.5% y/y prelim Prior +2.0% The monthly change itself also shows a 1% increase in headline inflation, leading to the annual estimate to cross back above the 2% mark in April.\n\nOf note, energy prices once again picked up in recording a 4.7% increase on the month after jumping up by 8.9% in March.\n\nThat is largely driven by the prices of petroleum products (diesel, petrol and liquid fuel), which were up by 8.2% in April.\n\nAs for the headline annual estimate, it is largely tied to the sharp acceleration in prices of energy (+14.3% compared to April last year).\n\nThe only bit of good news is that the impact hasn't quite yet spilled over to core prices more meaningfully.\n\nThat being said, core annual inflation did nudge a little higher to 1.2% in April.\n\nThat is seen marginally higher than the 1.1% reading recorded in March the month before.\n\nAs higher energy prices start to bite, expect that to spill over to other parts in due time.\n\nhttps://investinglive.com/news/france-april-final-cpi-22-vs-22-yy-prelim-20260513/",
+    "draft_text": "CPI just printed. Bitcoin slipped further below the $80,000 mark as US PPI data compounded the inflation problem from the US-Iran war and associated high oil prices.\n\nhttps://cointelegraph.com/markets/bitcoin-risks-80k-loss-us-ppi-inflation-hits-highest-since-2022?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/france-april-final-cpi-22-vs-22-yy-prelim-20260513/",
-    "source_title": "French headline inflation surges in April as energy prices accelerate",
-    "source_summary": "CPI +2.2% vs +2.2% y/y prelim Prior +1.7% HICP +2.5% vs +2.5% y/y prelim Prior +2.0% The monthly change itself also shows a 1% increase in headline inflation, leading to the annual estimate to cross back above the 2% mark in April. Of note, energy prices once again picked up in recording a 4.7% increase on the month after jumping up by 8.9% in March. That is largely driven by the prices of petrole",
-    "drafted_at": "2026-05-13T08:20:46.198247",
+    "primary_source": "COINTELEGRAPH",
+    "source_url": "https://cointelegraph.com/markets/bitcoin-risks-80k-loss-us-ppi-inflation-hits-highest-since-2022?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source_title": "Bitcoin price targets $79K as US PPI inflation hits highest since 2022",
+    "source_summary": "Bitcoin slipped further below the $80,000 mark as US PPI data compounded the inflation problem from the US-Iran war and associated high oil prices.",
+    "drafted_at": "2026-05-13T17:23:34.396381",
     "data": {
-      "source": "FOREXLIVE"
+      "source": "COINTELEGRAPH"
     },
-    "content_hash": "09b0a92b3cd97acc"
+    "content_hash": "1a90f9b5e961a8e4"
   },
   {
-    "id": "f619bbab",
+    "id": "57ae0c80",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "PPI desk: Bitcoin floats around $80,000 after April core PPI surges 1% MoM \u2014 hottest since 2022 \u2014 as crypto ETFs bleed and rate-hike odds climb.\n\nhttps://www.theblock.co/post/401169/bitcoin-pinned-near-critical-support-as-hot-ppi-spike-compounds-rate-hike-fears-analysts?utm_source=rss&utm_medium=rss",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "THE BLOCK",
+    "source_url": "https://www.theblock.co/post/401169/bitcoin-pinned-near-critical-support-as-hot-ppi-spike-compounds-rate-hike-fears-analysts?utm_source=rss&utm_medium=rss",
+    "source_title": "Bitcoin pinned near critical support as hot PPI spike compounds rate hike fears: analysts",
+    "source_summary": "Bitcoin floats around $80,000 after April core PPI surges 1% MoM \u2014 hottest since 2022 \u2014 as crypto ETFs bleed and rate-hike odds climb.",
+    "drafted_at": "2026-05-13T17:23:34.396609",
+    "data": {
+      "source": "THE BLOCK"
+    },
+    "content_hash": "0ce4b0ee49b801f3"
+  },
+  {
+    "id": "87e7c12e",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "The CPI scoreboard: Bitcoin just fell below $80,000 as a hotter-than-expected US inflation print pushed crypto and equities lower.\n\nBTC price slipped from the low $81,000 area into $79,706, with the session low marked near $79,557.\n\nThe break turned $80,000 from a round-number reference into the first tactical line for intraday structure.\n\nThe move followed the April US [\u2026] The post Bitcoin price just lost $80k because US PPI hit 6% matching 2022 levels, stoking inflation fears appeared first on CryptoSlate.\n\nhttps://cryptoslate.com/bitcoin-loses-80k-because-us-ppi-just-hit-6-matching-2022-levels-stoking-inflation-fears/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CRYPTOSLATE",
+    "source_url": "https://cryptoslate.com/bitcoin-loses-80k-because-us-ppi-just-hit-6-matching-2022-levels-stoking-inflation-fears/",
+    "source_title": "Bitcoin price just lost $80k because US PPI hit 6% matching 2022 levels, stoking inflation fears",
+    "source_summary": "Bitcoin just fell below $80,000 as a hotter-than-expected US inflation print pushed crypto and equities lower. BTC price slipped from the low $81,000 area into $79,706, with the session low marked near $79,557. The break turned $80,000 from a round-number reference into the first tactical line for intraday structure. The move followed the April US [\u2026] The post Bitcoin price just lost $80k because ",
+    "drafted_at": "2026-05-13T17:23:34.397255",
+    "data": {
+      "source": "CRYPTOSLATE"
+    },
+    "content_hash": "4a93d3eadc3f5b00"
+  },
+  {
+    "id": "4f78ae89",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -435,7 +524,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-05-13T08:20:46.205644",
+    "drafted_at": "2026-05-13T17:23:34.406401",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -443,7 +532,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "692ea11a",
+    "id": "61c88b35",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Information is free. Conviction is rare. Patience is rarer.",
@@ -453,14 +542,14 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Information is free. Conviction is rare. Patience is rarer.",
-    "drafted_at": "2026-05-13T08:20:46.205724",
+    "drafted_at": "2026-05-13T17:23:34.406483",
     "data": {
       "take_seed": "2026-05-13-pack-1"
     },
     "content_hash": "9b0f7be55d8ef71c"
   },
   {
-    "id": "a475e71a",
+    "id": "eea2d384",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Inflation is a tax that doesn't show up on your W-2.",
@@ -470,7 +559,7 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Inflation is a tax that doesn't show up on your W-2.",
-    "drafted_at": "2026-05-13T08:20:46.205778",
+    "drafted_at": "2026-05-13T17:23:34.406536",
     "data": {
       "take_seed": "2026-05-13-pack-2"
     },
