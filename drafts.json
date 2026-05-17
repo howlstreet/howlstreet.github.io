@@ -1,6 +1,25 @@
 [
   {
-    "id": "375a0267",
+    "id": "931a48c5",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "This is the take-notes part. VIX climbs 6.0% in 5 sessions to 18.43.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CBOE \u00b7 ^VIX",
+    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "source_title": "VIX (S&P 500 volatility)",
+    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "drafted_at": "2026-05-17T07:44:01.020628",
+    "data": {
+      "signal_id": "^VIX:move:2026-05-15",
+      "kind": "move_up",
+      "current": "18.43"
+    },
+    "content_hash": "995f4d67e7e875d2"
+  },
+  {
+    "id": "bef7a66b",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Powell on the wire. Statement by Chair for Supervision Michelle W.\n\nBowman and Governor Stephen I.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/other20260515a.htm",
@@ -10,14 +29,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260515a.htm",
     "source_title": "Federal Reserve Board names Jerome H. Powell as chair pro tempore; Powell will serve as chair pro tempore until Kevin M. Warsh is sworn in as the new chair",
     "source_summary": "Federal Reserve Board names Jerome H. Powell as chair pro tempore; Powell will serve as chair pro tempore until Kevin M. Warsh is sworn in as the new chair",
-    "drafted_at": "2026-05-16T14:42:57.451018",
+    "drafted_at": "2026-05-17T07:44:01.031102",
     "data": {
       "actor": "FED"
     },
     "content_hash": "7f81851eb15083f2"
   },
   {
-    "id": "3df259d1",
+    "id": "d0b2a29c",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Powell on the wire. The Dodd-Frank Act requires the Board to not object to the conversion when a state member bank, which is a bank supervised by the Federal Reserve, that is subject to certain enforcement actions issued by the Board proposes to convert to a national bank.\n\nAs required by law, the OCC submitted a supervisory plan to the Board for addressing the matters underlying the enforcement action between United Texas Bank, the Board, and the Texas Department of Banking, to which the Board also did not object.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/orders20260515b.htm",
@@ -27,31 +46,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260515b.htm",
     "source_title": "Federal Reserve Board announces it does not object to the conversion of United Texas Bank, of Dallas, Texas, from a bank supervised by the Federal Reserve to a national bank supervised by the Office of the Comptroller of the Currency",
     "source_summary": "Federal Reserve Board announces it does not object to the conversion of United Texas Bank, of Dallas, Texas, from a bank supervised by the Federal Reserve to a national bank supervised by the Office of the Comptroller of the Currency",
-    "drafted_at": "2026-05-16T14:42:57.451859",
+    "drafted_at": "2026-05-17T07:44:01.031890",
     "data": {
       "actor": "FED"
     },
     "content_hash": "0076b67c789a673b"
   },
   {
-    "id": "09092532",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "FOMC update. Investors are piling into leveraged ETFs at a record pace, turning the Bitcoin risk-on boom into a test of whether speculative demand can survive hotter inflation and fading expectations of Fed rate cuts.\n\nBitcoin trades near $81,000 as of May 15, close enough to the $86,900 resistance ceiling to make a breakout plausible and to [\u2026] The post Bitcoin is caught between a $177 billion risk-on boom and the return of Fed rate-hike fears appeared first on CryptoSlate.\n\nhttps://cryptoslate.com/bitcoin-risk-on-boom-fed-rate-hike-fears/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://cryptoslate.com/bitcoin-risk-on-boom-fed-rate-hike-fears/",
-    "source_title": "Bitcoin is caught between a $177 billion risk-on boom and the return of Fed rate-hike fears",
-    "source_summary": "Investors are piling into leveraged ETFs at a record pace, turning the Bitcoin risk-on boom into a test of whether speculative demand can survive hotter inflation and fading expectations of Fed rate cuts. Bitcoin trades near $81,000 as of May 15, close enough to the $86,900 resistance ceiling to make a breakout plausible and to [\u2026] The post Bitcoin is caught between a $177 billion risk-on boom and",
-    "drafted_at": "2026-05-16T14:42:57.452784",
-    "data": {
-      "actor": "Fed"
-    },
-    "content_hash": "e470ac069acc02f7"
-  },
-  {
-    "id": "8947c29f",
+    "id": "64ca6966",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Powell on the wire. From 2020 to 2021, Dr. Miran served as senior adviser for economic policy at the U.S. Department of the Treasury.\n\nHe worked in financial markets for a decade before joining the Treasury.\n\nPrior to his appointment to the Board, Dr. Miran served as chairman of the Council of Economic Advisers under President Donald J.\n\nTrump.\n\nHe previously worked as a senior strategist at Hudson Bay Capital Management and a senior fellow at the Manhattan Institute for Policy Research.\n\nDr. Miran received a B.A. in economics, philosophy, and mathematics from Boston University.\n\nHe earned a Ph.D. in economics from Harvard University.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/other20260514b.htm",
@@ -61,14 +63,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260514b.htm",
     "source_title": "Stephen I. Miran submits his resignation as a member of the Federal Reserve Board, effective when or shortly before his successor on the Board is sworn in",
     "source_summary": "Stephen I. Miran submits his resignation as a member of the Federal Reserve Board, effective when or shortly before his successor on the Board is sworn in",
-    "drafted_at": "2026-05-16T14:42:57.453814",
+    "drafted_at": "2026-05-17T07:44:01.032890",
     "data": {
       "actor": "FED"
     },
     "content_hash": "8fe5cd47d7d172f8"
   },
   {
-    "id": "a44d5463",
+    "id": "934bd7a0",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FOMC update. The first survey was conducted between January 30, 2026, and February 9, 2026, and includes responses from banks that held a median asset size of less than $5 billion.\n\nThe second survey was conducted in collaboration with the Federal Reserve Bank of New York between March 20, 2026, and March 30, 2026, and includes responses from banks that held around three-fourths of total banking system reserve balances at the time of the survey.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/other20260514a.htm",
@@ -78,14 +80,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260514a.htm",
     "source_title": "Federal Reserve Board releases results from two surveys of senior financial officers at banks about their views on discount window operating days and their strategies and practices for managing reserve balances",
     "source_summary": "Federal Reserve Board releases results from two surveys of senior financial officers at banks about their views on discount window operating days and their strategies and practices for managing reserve balances",
-    "drafted_at": "2026-05-16T14:42:57.454442",
+    "drafted_at": "2026-05-17T07:44:01.033491",
     "data": {
       "actor": "FED"
     },
     "content_hash": "7a7f5f858f8bab8a"
   },
   {
-    "id": "4014e5d6",
+    "id": "7878a953",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$PLSE insider bought $26,590,676 on 2026-05-11, 2 insiders. \ud83d\udc40\n\nPulse Biosciences, Inc.. 1,350,466 shares at $19.69.\n\n+24.7% since the purchase.\n\nhttp://openinsider.com/screener?s=PLSE",
@@ -95,7 +97,7 @@
     "source_url": "http://openinsider.com/screener?s=PLSE",
     "source_title": "Pulse Biosciences, Inc. (PLSE) insider bought $26,590,676",
     "source_summary": "2 insider(s) bought 1,350,466 shares at $19.69 on 2026-05-11.",
-    "drafted_at": "2026-05-16T14:42:57.454607",
+    "drafted_at": "2026-05-17T07:44:01.033652",
     "data": {
       "ticker": "PLSE",
       "type": "P",
@@ -105,7 +107,7 @@
     "content_hash": "da48dbe865034def"
   },
   {
-    "id": "5eda8896",
+    "id": "f1286636",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$MOBI insider bought $19,024,980 on 2026-05-11, 6 insiders. \ud83d\udc40\n\nMobia Medical, Inc.. 1,268,332 shares at $15.00.\n\n-20.7% since the purchase.\n\nhttp://openinsider.com/screener?s=MOBI",
@@ -115,7 +117,7 @@
     "source_url": "http://openinsider.com/screener?s=MOBI",
     "source_title": "Mobia Medical, Inc. (MOBI) insider bought $19,024,980",
     "source_summary": "6 insider(s) bought 1,268,332 shares at $15.00 on 2026-05-11.",
-    "drafted_at": "2026-05-16T14:42:57.454732",
+    "drafted_at": "2026-05-17T07:44:01.033800",
     "data": {
       "ticker": "MOBI",
       "type": "P",
@@ -125,7 +127,7 @@
     "content_hash": "acb3ef1a348cd50d"
   },
   {
-    "id": "0c9792a4",
+    "id": "95b60140",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$WGS insider bought $13,765,345 on 2026-05-13. \ud83d\udc40\n\nGenedx Holdings Corp.. 351,273 shares at $39.19.\n\n+4.0% since the purchase.\n\nhttp://openinsider.com/screener?s=WGS",
@@ -135,7 +137,7 @@
     "source_url": "http://openinsider.com/screener?s=WGS",
     "source_title": "Genedx Holdings Corp. (WGS) insider bought $13,765,345",
     "source_summary": "1 insider(s) bought 351,273 shares at $39.19 on 2026-05-13.",
-    "drafted_at": "2026-05-16T14:42:57.454841",
+    "drafted_at": "2026-05-17T07:44:01.033923",
     "data": {
       "ticker": "WGS",
       "type": "P",
@@ -145,7 +147,7 @@
     "content_hash": "cb46c7057a1b7d5b"
   },
   {
-    "id": "29ab7411",
+    "id": "50476d4c",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$SRAD insider bought $11,349,414 on 2026-05-06, 7 insiders. \ud83d\udc40\n\nSportradar Group AG. 855,694 shares at $13.26.\n\n-5.8% since the purchase.\n\nhttp://openinsider.com/screener?s=SRAD",
@@ -155,7 +157,7 @@
     "source_url": "http://openinsider.com/screener?s=SRAD",
     "source_title": "Sportradar Group AG (SRAD) insider bought $11,349,414",
     "source_summary": "7 insider(s) bought 855,694 shares at $13.26 on 2026-05-06.",
-    "drafted_at": "2026-05-16T14:42:57.454955",
+    "drafted_at": "2026-05-17T07:44:01.034045",
     "data": {
       "ticker": "SRAD",
       "type": "P",
@@ -165,7 +167,7 @@
     "content_hash": "c9b4a87425e342e8"
   },
   {
-    "id": "aa45a242",
+    "id": "617e775d",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$TSLX insider bought $10,949,141 on 2026-05-11, 6 insiders. \ud83d\udc40\n\nSixth Street Specialty Lending, Inc.. 598,540 shares at $18.29.\n\n-3.1% since the purchase.\n\nhttp://openinsider.com/screener?s=TSLX",
@@ -175,7 +177,7 @@
     "source_url": "http://openinsider.com/screener?s=TSLX",
     "source_title": "Sixth Street Specialty Lending, Inc. (TSLX) insider bought $10,949,141",
     "source_summary": "6 insider(s) bought 598,540 shares at $18.29 on 2026-05-11.",
-    "drafted_at": "2026-05-16T14:42:57.455093",
+    "drafted_at": "2026-05-17T07:44:01.034176",
     "data": {
       "ticker": "TSLX",
       "type": "P",
@@ -185,7 +187,58 @@
     "content_hash": "fd56d9f55218f42e"
   },
   {
-    "id": "b5e50a31",
+    "id": "212cb510",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "SAN DIEGO, May 16, 2026 /PRNewswire/ -- The law firm of Robbins Geller Rudman & Dowd LLP announces that purchasers or acquirers of Power Solutions International, Inc. (NASDAQ: PSIX) securities between May 8, 2025 and March 2, 2026, both dates inclusive (the \"Class Period\"), have until May...\n\nhttps://www.prnewswire.com/news-releases/tuesday-investor-deadline-power-solutions-international-inc-investors-with-substantial-losses-have-opportunity-to-lead-class-action-lawsuit---psix-302770610.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "PR NEWSWIRE",
+    "source_url": "https://www.prnewswire.com/news-releases/tuesday-investor-deadline-power-solutions-international-inc-investors-with-substantial-losses-have-opportunity-to-lead-class-action-lawsuit---psix-302770610.html",
+    "source_title": "TUESDAY INVESTOR DEADLINE: Power Solutions International, Inc. Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit",
+    "source_summary": "SAN DIEGO, May 16, 2026 /PRNewswire/ -- The law firm of Robbins Geller Rudman & Dowd LLP announces that purchasers or acquirers of Power Solutions International, Inc. (NASDAQ: PSIX) securities between May 8, 2025 and March 2, 2026, both dates inclusive (the \"Class Period\"), have until May...",
+    "drafted_at": "2026-05-17T07:44:01.035539",
+    "data": {
+      "source": "PR NEWSWIRE"
+    },
+    "content_hash": "14867c9ac6dca674"
+  },
+  {
+    "id": "57f369b5",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Caught. 'Mastermind' of scheme: 'I struggle to believe that she wouldn't have known'.\n\nhttps://www.wnd.com/2026/05/convicted-fraudster-ilhan-omar-knew-about-250m-covid/?utm_source=rss&utm_medium=rss&utm_campaign=convicted-fraudster-ilhan-omar-knew-about-250m-covid",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "WND",
+    "source_url": "https://www.wnd.com/2026/05/convicted-fraudster-ilhan-omar-knew-about-250m-covid/?utm_source=rss&utm_medium=rss&utm_campaign=convicted-fraudster-ilhan-omar-knew-about-250m-covid",
+    "source_title": "Convicted fraudster: Ilhan Omar knew about $250M COVID scam",
+    "source_summary": "'Mastermind' of scheme: 'I struggle to believe that she wouldn't have known'",
+    "drafted_at": "2026-05-17T07:44:01.035696",
+    "data": {
+      "source": "WND"
+    },
+    "content_hash": "2ca70aaf92e1eff8"
+  },
+  {
+    "id": "0e13e439",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "BlazeTV host Sara Gonzales is back again with yet another video report on alleged H-1B fraud in her home state of Texas.\n\nAfter multiple attempts to visit the listed address for Great America Technologies \u2014 a registered business in Plano, Texas, that sponsors multiple H-1B workers but has no signs of activity as well as a defunct phone number and website \u2014 Sara finally located the owner.\n\nThe confrontation led to fiery exchange. - YouTube \u201cLet me give you the details on this company,\u201d says Sara.\n\n\u201cIn 2017 they formed this company with officers from Andhra Pradesh, India.\n\nThey moved to Razor Boulevard allegedly in 2019, and in 2024, the previous owners, Laxmi Boggula and another gentleman, removed themselves as the directors and listed Nagarjuna Reddy Sakam as shareholder and director,\u201d she explains.\n\n\u201cNow what we presume after doing some digging is that this new director, Nagarjuna \u2026 is actually the old director Laxmi\u2019s husband.\n\nSo it seems like we may be stumbling upon an H-1B/H-4 dependent situation where the woman opens the business and the H-1B visa worker actually runs it,\u201d she continues.\n\nIn the next part of the video, Sara paid a visit to Nagarjuna\u2019s personal residence.\n\nhttps://www.theblaze.com/shows/sara-gonzales-unfiltered/fiery-exchange-sara-gonzales-confronts-h-1b-sponsor-over-alleged-unauthorized-business-activity",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "THE BLAZE",
+    "source_url": "https://www.theblaze.com/shows/sara-gonzales-unfiltered/fiery-exchange-sara-gonzales-confronts-h-1b-sponsor-over-alleged-unauthorized-business-activity",
+    "source_title": "FIERY EXCHANGE: Sara Gonzales confronts H-1B sponsor over alleged unauthorized business activity",
+    "source_summary": "BlazeTV host Sara Gonzales is back again with yet another video report on alleged H-1B fraud in her home state of Texas. After multiple attempts to visit the listed address for Great America Technologies \u2014 a registered business in Plano, Texas, that sponsors multiple H-1B workers but has no signs of activity as well as a defunct phone number and website \u2014 Sara finally located the owner. The confro",
+    "drafted_at": "2026-05-17T07:44:01.038680",
+    "data": {
+      "source": "THE BLAZE"
+    },
+    "content_hash": "c221f603fbba7ba4"
+  },
+  {
+    "id": "2b96635a",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "ACTIVE THREAT: The shift offers companies immunity from certain regulations \u2014 and, critics say, weakens protections for scam victims.\n\nhttps://www.icij.org/investigations/coin-laundry/trump-administration-curbs-state-oversight-of-crypto-industry/",
@@ -195,31 +248,14 @@
     "source_url": "https://www.icij.org/investigations/coin-laundry/trump-administration-curbs-state-oversight-of-crypto-industry/",
     "source_title": "Trump administration curbs state oversight of crypto industry",
     "source_summary": "The shift offers companies immunity from certain regulations \u2014 and, critics say, weakens protections for scam victims.",
-    "drafted_at": "2026-05-16T14:42:57.456147",
+    "drafted_at": "2026-05-17T07:44:01.038949",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "61b3f41233d474ba"
   },
   {
-    "id": "5eaf2cf7",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "New scam vector: A popular social media conspiracy theory about a recent cluster of hantavirus cases claims that the word \u201chanta\u201d means \u201cscam,\u201d \u201cfraud,\u201d or \u201cnonsense\u201d in \u201cHebrew slang.\u201d That\u2019s more or less where the theory ends and dark suggestion takes over.\n\nOne is meant to conclude that the supposed Hebrew origins of the word mean that the [\u2026]\n\nhttps://www.motherjones.com/politics/2026/05/hantavirus-hebrew/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "MOTHER JONES",
-    "source_url": "https://www.motherjones.com/politics/2026/05/hantavirus-hebrew/",
-    "source_title": "Antisemitic Hantavirus Conspiracy Theories Are Spreading\u2014and the Platforms Are Hands Off",
-    "source_summary": "A popular social media conspiracy theory about a recent cluster of hantavirus cases claims that the word \u201chanta\u201d means \u201cscam,\u201d \u201cfraud,\u201d or \u201cnonsense\u201d in \u201cHebrew slang.\u201d That\u2019s more or less where the theory ends and dark suggestion takes over. One is meant to conclude that the supposed Hebrew origins of the word mean that the [\u2026]",
-    "drafted_at": "2026-05-16T14:42:57.456655",
-    "data": {
-      "source": "MOTHER JONES"
-    },
-    "content_hash": "dfbbb24782ad8df6"
-  },
-  {
-    "id": "b7ef2375",
+    "id": "eefc33ac",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "In an undisclosed April meeting at the justice department, Trump\u2019s personal lawyer, Robert J Giuffra Jr, said that Adani would invest $10bn in the US economy and create 15,000 jobs if prosecutors dropped the charges against him, according to the New York Times and Bloomberg.\n\nAdani was accused of conspiring to pay $250m in bribes to Indian government officials and misleading American and international investors with false statements.\n\nAt the time, the justice department said that in addition to paying $250m in bribes, Adani also schemed \u201cto lie to investors and banks to raise billions of dollars, and to obstruct justice\u201d.\n\nhttps://www.theguardian.com/us-news/2026/may/14/gautam-adani-billionaire-trump",
@@ -229,99 +265,116 @@
     "source_url": "https://www.theguardian.com/us-news/2026/may/14/gautam-adani-billionaire-trump",
     "source_title": "US reportedly dropped fraud charges against Indian billionaire after he hired Trump\u2019s lawyer",
     "source_summary": "Gautam Adani, richest man in Asia, was accused of conspiring to pay $250m in bribes to Indian government officials The US Department of Justice is dropping its fraud charges against the Indian billionaire Gautam Adani, the richest man in Asia, after he hired a new legal team led by Donald Trump\u2019s personal lawyer, according to new reports. In an undisclosed April meeting at the justice department, ",
-    "drafted_at": "2026-05-16T14:42:57.458145",
+    "drafted_at": "2026-05-17T07:44:01.040404",
     "data": {
       "source": "GUARDIAN"
     },
     "content_hash": "84311b074654c999"
   },
   {
-    "id": "ace5c1d2",
+    "id": "f5a51c6a",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 CHINA: The summit's lack of progress underscores persistent US-China tensions, with potential market volatility hinging on future trade truce renewals.\n\nThe post Trump concludes summit in China, achieving stability but no progress appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/trump-china-summit-stability-no-progress/",
+    "draft_text": "From Beijing: The G-7's focus on global imbalances highlights growing tensions in international trade, potentially influencing market stability and investment strategies.\n\nThe post G-7 finance ministers address global growth imbalances after Trump\u2019s China summit appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/g7-finance-ministers-global-imbalances-china/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/trump-china-summit-stability-no-progress/",
-    "source_title": "Trump concludes summit in China, achieving stability but no progress",
-    "source_summary": "The summit's lack of progress underscores persistent US-China tensions, with potential market volatility hinging on future trade truce renewals. The post Trump concludes summit in China, achieving stability but no progress appeared first on Crypto Briefing .",
-    "drafted_at": "2026-05-16T14:42:57.458988",
+    "source_url": "https://cryptobriefing.com/g7-finance-ministers-global-imbalances-china/",
+    "source_title": "G-7 finance ministers address global growth imbalances after Trump\u2019s China summit",
+    "source_summary": "The G-7's focus on global imbalances highlights growing tensions in international trade, potentially influencing market stability and investment strategies. The post G-7 finance ministers address global growth imbalances after Trump\u2019s China summit appeared first on Crypto Briefing .",
+    "drafted_at": "2026-05-17T07:44:01.041772",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "0a7e5e2091ef97e6"
+    "content_hash": "b2ec1089bf71a1e6"
   },
   {
-    "id": "b9345e27",
+    "id": "b7d5ff98",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 CHINA: On arms sales, he told Fox News, \"\u201cI\u2019m holding that in abeyance and it depends on China.\n\nIt's a very good negotiating chip for us, frankly.\u201d\n\nhttps://fortune.com/2026/05/16/trump-thinks-taiwan-is-a-very-good-negotiating-chip-with-china/",
+    "draft_text": "From the Americas: The increased crypto asset seizures highlight Brazil's intensified efforts to combat digital financial crimes, impacting market compliance dynamics.\n\nThe post Brazilian Federal Police seizes over $14M in crypto assets linked to crime in 2025 appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/brazil-police-seize-14m-crypto-crime/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FORTUNE",
-    "source_url": "https://fortune.com/2026/05/16/trump-thinks-taiwan-is-a-very-good-negotiating-chip-with-china/",
-    "source_title": "Trump thinks Taiwan is a \u2018very good negotiating chip\u2019 with China",
-    "source_summary": "On arms sales, he told Fox News, \"\u201cI\u2019m holding that in abeyance and it depends on China. It's a very good negotiating chip for us, frankly.\u201d",
-    "drafted_at": "2026-05-16T14:42:57.459938",
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/brazil-police-seize-14m-crypto-crime/",
+    "source_title": "Brazilian Federal Police seizes over $14M in crypto assets linked to crime in 2025",
+    "source_summary": "The increased crypto asset seizures highlight Brazil's intensified efforts to combat digital financial crimes, impacting market compliance dynamics. The post Brazilian Federal Police seizes over $14M in crypto assets linked to crime in 2025 appeared first on Crypto Briefing .",
+    "drafted_at": "2026-05-17T07:44:01.042189",
     "data": {
-      "source": "FORTUNE"
+      "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "e1e1298ee8fc9c0d"
+    "content_hash": "295fb280305d9cd1"
   },
   {
-    "id": "0761667b",
+    "id": "431100f8",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Mainland wire: Iran said transit through the Strait of Hormuz will normalize once security conditions are restored, after US President Donald Trump returned from a visit to China with an agreed desire to reopen the critical maritime route but little in the way of a path to achieving it.\n\nhttps://financialpost.com/pmn/business-pmn/trump-returns-from-china-with-little-progress-to-reopen-hormuz",
+    "draft_text": "CHINA DESK: The lopsided foundations of world growth will focus global finance ministers this week in the aftermath of the summit that attempted to reset trade ties between its two biggest economies.\n\nhttps://financialpost.com/pmn/business-pmn/world-imbalances-trouble-g-7-in-wake-of-trumps-china-encounter",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/pmn/business-pmn/trump-returns-from-china-with-little-progress-to-reopen-hormuz",
-    "source_title": "Trump Returns From China With Little Progress to Reopen Hormuz",
-    "source_summary": "Iran said transit through the Strait of Hormuz will normalize once security conditions are restored, after US President Donald Trump returned from a visit to China with an agreed desire to reopen the critical maritime route but little in the way of a path to achieving it.",
-    "drafted_at": "2026-05-16T14:42:57.460397",
+    "source_url": "https://financialpost.com/pmn/business-pmn/world-imbalances-trouble-g-7-in-wake-of-trumps-china-encounter",
+    "source_title": "World Imbalances Trouble G-7 in Wake of Trump\u2019s China Encounter",
+    "source_summary": "The lopsided foundations of world growth will focus global finance ministers this week in the aftermath of the summit that attempted to reset trade ties between its two biggest economies.",
+    "drafted_at": "2026-05-17T07:44:01.042445",
     "data": {
       "source": "FINANCIAL POST"
     },
-    "content_hash": "b09fd47d6ace5862"
+    "content_hash": "fcb89dadb2ad4bbc"
   },
   {
-    "id": "051703fc",
+    "id": "586a3b20",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Canada/LatAm wire: Mexico\u2019s teachers are threatening to disrupt next month\u2019s 2026 FIFA World Cup if their demands for higher pay.\n\nhttps://www.aljazeera.com/video/newsfeed/2026/5/16/mexico-teachers-threaten-world-cup-disruption-over-pay?traffic_source=rss",
+    "draft_text": "World wire: Prime Minister Modi says his talks with the Dutch PM also focused on expanding cooperation in defence and security.\n\nhttps://www.aljazeera.com/news/2026/5/17/indias-tata-and-dutch-giant-asml-sign-semiconductor-deal-during-modi-visit?traffic_source=rss",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/video/newsfeed/2026/5/16/mexico-teachers-threaten-world-cup-disruption-over-pay?traffic_source=rss",
-    "source_title": "Mexico teachers threaten World Cup disruption over pay",
-    "source_summary": "Mexico\u2019s teachers are threatening to disrupt next month\u2019s 2026 FIFA World Cup if their demands for higher pay.",
-    "drafted_at": "2026-05-16T14:42:57.461969",
+    "source_url": "https://www.aljazeera.com/news/2026/5/17/indias-tata-and-dutch-giant-asml-sign-semiconductor-deal-during-modi-visit?traffic_source=rss",
+    "source_title": "India\u2019s Tata and Dutch giant ASML sign semiconductor deal during Modi visit",
+    "source_summary": "Prime Minister Modi says his talks with the Dutch PM also focused on expanding cooperation in defence and security.",
+    "drafted_at": "2026-05-17T07:44:01.042695",
     "data": {
       "source": "AL JAZEERA"
     },
-    "content_hash": "8b01e11cfebac4de"
+    "content_hash": "5bd2af0948c35a9e"
   },
   {
-    "id": "89f8e6f7",
+    "id": "ce008821",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "CHINA DESK: Russian President Vladimir Putin will meet with Chinese leader Xi Jinping on a two-day trip to Beijing next week, the Kremlin said Saturday.\n\nThe post Putin to Visit Chinese Leader Xi Jinping Days After Trump\u2019s Trip to Beijing appeared first on Breitbart.\n\nhttps://www.breitbart.com/europe/2026/05/16/putin-to-visit-chinese-leader-xi-jinping-days-after-trumps-trip-to-beijing/",
+    "draft_text": "From the Gulf: Iran says it will soon reveal the plan as Trump warns Tehran it will have a 'very bad time' if deal not reached soon.\n\nhttps://www.aljazeera.com/news/2026/5/17/iran-war-day-79-tehran-to-unveil-hormuz-toll-plan-israel-bombs-lebanon?traffic_source=rss",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "BREITBART",
-    "source_url": "https://www.breitbart.com/europe/2026/05/16/putin-to-visit-chinese-leader-xi-jinping-days-after-trumps-trip-to-beijing/",
-    "source_title": "Putin to Visit Chinese Leader Xi Jinping Days After Trump's Trip to Beijing",
-    "source_summary": "Russian President Vladimir Putin will meet with Chinese leader Xi Jinping on a two-day trip to Beijing next week, the Kremlin said Saturday. The post Putin to Visit Chinese Leader Xi Jinping Days After Trump\u2019s Trip to Beijing appeared first on Breitbart .",
-    "drafted_at": "2026-05-16T14:42:57.462538",
+    "primary_source": "AL JAZEERA",
+    "source_url": "https://www.aljazeera.com/news/2026/5/17/iran-war-day-79-tehran-to-unveil-hormuz-toll-plan-israel-bombs-lebanon?traffic_source=rss",
+    "source_title": "Iran war day 79: Tehran to unveil Hormuz toll plan; Israel bombs Lebanon",
+    "source_summary": "Iran says it will soon reveal the plan as Trump warns Tehran it will have a 'very bad time' if deal not reached soon.",
+    "drafted_at": "2026-05-17T07:44:01.042933",
     "data": {
-      "source": "BREITBART"
+      "source": "AL JAZEERA"
     },
-    "content_hash": "89e7cacc8fb4837d"
+    "content_hash": "7a31a15c820ecc5d"
   },
   {
-    "id": "b48ee9aa",
+    "id": "adfdf1c2",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "CPI just printed. Official CPI masks double-digit spikes in healthcare, insurance and energy.\n\nMeanwhile, an outdated strategy quietly drains your portfolio.\n\nhttps://www.marketwatch.com/story/why-3-8-inflation-actually-feels-like-an-8-hit-to-your-retirement-savings-9e0ba615?mod=mw_rss_topstories",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "MARKETWATCH",
+    "source_url": "https://www.marketwatch.com/story/why-3-8-inflation-actually-feels-like-an-8-hit-to-your-retirement-savings-9e0ba615?mod=mw_rss_topstories",
+    "source_title": "Inflation will likely be higher for longer. Your retirement plan isn\u2019t built for that.",
+    "source_summary": "Official CPI masks double-digit spikes in healthcare, insurance and energy. Meanwhile, an outdated strategy quietly drains your portfolio.",
+    "drafted_at": "2026-05-17T07:44:01.111507",
+    "data": {
+      "source": "MARKETWATCH"
+    },
+    "content_hash": "d7a43076d64b6ca8"
+  },
+  {
+    "id": "14c60bda",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "Growth read just printed. The Ring is Euronews\u2019 weekly political showdown, where Europe\u2019s toughest debates meet their boldest voices.\n\nIn each episode, two political heavyweights from across the EU face off to propose a diversity of opinions and spark conversations around the most important issues of EU affairs and the wider European political life.\n\nEuronews Tech Talks goes beyond discussions to explore the impact of new technologies on our lives.\n\nWith explanations, engaging Q&As, and lively conversations, the podcast provides valuable insights into the intersection of technology and society.\n\nEurope's best food experts are joining forces to crack down on fraud.\n\nhttp://www.euronews.com/business/2026/05/16/nvidia-surpasses-germany-how-the-market-caps-of-tech-giants-compare-to-top-economies",
@@ -331,14 +384,14 @@
     "source_url": "http://www.euronews.com/business/2026/05/16/nvidia-surpasses-germany-how-the-market-caps-of-tech-giants-compare-to-top-economies",
     "source_title": "Nvidia surpasses Germany: How the market caps of tech giants compare to top economies",
     "source_summary": "Nvidia\u2019s market capitalisation ($5.7 trillion) has overtaken Germany\u2019s GDP ($5.45 trillion). The combined value of the five largest US companies now exceeds the total GDP of Europe\u2019s five largest economies.",
-    "drafted_at": "2026-05-16T14:42:57.517440",
+    "drafted_at": "2026-05-17T07:44:01.113121",
     "data": {
       "source": "EURONEWS"
     },
     "content_hash": "9ff3a9b1f19abb19"
   },
   {
-    "id": "66f9eb64",
+    "id": "5f3e2f54",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "CPI POSTCARD: Powell exits after one of the wildest Fed eras in history Gold tumbles lower today on the back of higher yields and the higher USD Israel says it carried out targeted strike in Gaza against Hamas head.\n\nBaker Hughes total rig count rises by +3 to 551 European shares close lower on the day and lower on the week Silver is sharply lower on higher USD/higher yields.\n\nMicrosoft shares are higher as Pershings Ackman bets on the company US industrial production for April 0.7% versus 0.3% estimate Canada Manufacturing Sales for March 3.0% vs 3.5% estimate NY Fed manufacturing index for May 19.6 vs 7.5 estimate Canada housing starts for April 279.3K vs 240.0K estimate investingLive European markets wrap: Oil prices, yields surge as Beijing distraction ends US and China have aligning views on Iran, says Trump Iran foreign minister says current negotiations are suffering from lack of trust Fed Chair Powell\u2019s eight-year run as Fed Chair officially came to an end today, and he exited with markets under heavy pressure from sharply rising yields and renewed inflation concerns.\n\nUS Treasury yields surged across the curve.\n\nThe 2-year note yield rose 8.7 basis points on the day and 19.0 basis points for the week to 4.079% \u2014 the highest level since March 2025.\n\nMeanwhile, the 10-year yield climbed 13.8 basis points today and 23.7 basis points for the week to 4.597%, its highest level since May 2025.\n\nA key driver behind the move was another sharp rise in oil prices, which continued to fuel inflation fears.\n\nWTI crude for July delivery surged $4.24, or 4.37%, to settle at $101.16.\n\nhttps://investinglive.com/news/investinglive-americas-fx-news-wrap-15-may-powell-exits-as-inflation-fears-roar-20260515/",
@@ -348,14 +401,14 @@
     "source_url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-15-may-powell-exits-as-inflation-fears-roar-20260515/",
     "source_title": "investingLive Americas FX news wrap 15 May: Powell exits as inflation fears roar",
     "source_summary": "US major indices close lower. Declines today erase the week's gains. Powell exits after one of the wildest Fed eras in history Gold tumbles lower today on the back of higher yields and the higher USD Israel says it carried out targeted strike in Gaza against Hamas head. Baker Hughes total rig count rises by +3 to 551 European shares close lower on the day and lower on the week Silver is sharply lo",
-    "drafted_at": "2026-05-16T14:42:57.520203",
+    "drafted_at": "2026-05-17T07:44:01.115767",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "5cdc58ce1a504968"
   },
   {
-    "id": "123593ad",
+    "id": "cf8bc854",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "The CPI scoreboard: ING\u2019s Min Joo Kang expects Japan\u2019s economy to maintain similar growth to the previous quarter, with first-quarter Gross Domestic Product (GDP) seen rising 0.3% quarter-on-quarter.\n\nhttps://www.fxstreet.com/news/japan-energy-shock-lifts-inflation-more-than-gdp-ing-202605152036",
@@ -365,14 +418,14 @@
     "source_url": "https://www.fxstreet.com/news/japan-energy-shock-lifts-inflation-more-than-gdp-ing-202605152036",
     "source_title": "Japan: Energy shock lifts inflation more than GDP \u2013 ING",
     "source_summary": "ING\u2019s Min Joo Kang expects Japan\u2019s economy to maintain similar growth to the previous quarter, with first-quarter Gross Domestic Product (GDP) seen rising 0.3% quarter-on-quarter.",
-    "drafted_at": "2026-05-16T14:42:57.520481",
+    "drafted_at": "2026-05-17T07:44:01.116052",
     "data": {
       "source": "FXSTREET"
     },
     "content_hash": "73aeefe1335926b5"
   },
   {
-    "id": "19c2c394",
+    "id": "bfbb32e5",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "Trade-deficit corner: Canada is allowing 49,000 Chinese-made electric vehicles to be imported for retail sales annually at a tariff rate of 6.1%.\n\nhttps://www.cnbc.com/2026/05/15/chinese-evs-canada.html",
@@ -382,31 +435,14 @@
     "source_url": "https://www.cnbc.com/2026/05/15/chinese-evs-canada.html",
     "source_title": "Chinese EVs are coming to Canada, and some dealers can't wait to sell them",
     "source_summary": "Canada is allowing 49,000 Chinese-made electric vehicles to be imported for retail sales annually at a tariff rate of 6.1%.",
-    "drafted_at": "2026-05-16T14:42:57.520716",
+    "drafted_at": "2026-05-17T07:44:01.116289",
     "data": {
       "source": "CNBC"
     },
     "content_hash": "73685c8668bd9e31"
   },
   {
-    "id": "922dd2da",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "DATA DROP: Industrial production prior month -0.5% revised to -0.3% Capacity utilization prior month 75.7 Manufacturing production last month -0.1% revised to +0.1% For April: Industrial production 0.7% versus 0.3% expected.\n\nYear on Year industrial production is up 1.4% Capacity utilization 76.1% versus 75.8% estimate.\n\nThe index a year ago was at 76.1% as well.\n\nManufacturing output 0.6% versus 0.2% estimate.\n\nYear on Year the manufacturing output is up 1.3%, led by utilities which are up 2.7% Not surprising, utilities are helping with demand for AI increasing.\n\nThe major market groups for industrial production: Final Products MoM: +1.1% vs -0.6% last month.\n\nHigher YoY: +1.4% Consumer Goods MoM: +0.9% versus -0.8% last month.\n\nHigher YoY: -0.2% Business Equipment MoM: +1.5% versus -0.1% last month.\n\nhttps://investinglive.com/news/us-industrial-production-for-april-07-versus-03-estimate-20260515/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/us-industrial-production-for-april-07-versus-03-estimate-20260515/",
-    "source_title": "US industrial production for April 0.7% versus 0.3% estimate",
-    "source_summary": "Industrial production prior month -0.5% revised to -0.3% Capacity utilization prior month 75.7 Manufacturing production last month -0.1% revised to +0.1% For April: Industrial production 0.7% versus 0.3% expected. Year on Year industrial production is up 1.4% Capacity utilization 76.1% versus 75.8% estimate. The index a year ago was at 76.1% as well. Manufacturing output 0.6% versus 0.2% estimate.",
-    "drafted_at": "2026-05-16T14:42:57.522190",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "7123ab8ac1593683"
-  },
-  {
-    "id": "6dc6f81c",
+    "id": "db0fa900",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -416,7 +452,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-05-16T14:42:57.523865",
+    "drafted_at": "2026-05-17T07:44:01.119505",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -424,24 +460,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "d058b8dc",
-    "format": "PACK_TAKE",
-    "status": "pending",
-    "draft_text": "The strong dollar makes everything cheaper for someone who isn't you.",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Howl Street",
-    "source_url": "",
-    "source_title": "PACK TAKE",
-    "source_summary": "The strong dollar makes everything cheaper for someone who isn't you.",
-    "drafted_at": "2026-05-16T14:42:57.523953",
-    "data": {
-      "take_seed": "2026-05-16-pack-1"
-    },
-    "content_hash": "9b0f7be55d8ef71c"
-  },
-  {
-    "id": "19f8bb42",
+    "id": "fd79241b",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Recessions are obvious in retrospect and invisible in real time.",
@@ -451,9 +470,26 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Recessions are obvious in retrospect and invisible in real time.",
-    "drafted_at": "2026-05-16T14:42:57.524008",
+    "drafted_at": "2026-05-17T07:44:01.119590",
     "data": {
-      "take_seed": "2026-05-16-pack-2"
+      "take_seed": "2026-05-17-pack-1"
+    },
+    "content_hash": "9b0f7be55d8ef71c"
+  },
+  {
+    "id": "814d1bda",
+    "format": "PACK_TAKE",
+    "status": "pending",
+    "draft_text": "Soft landing is the most dangerous phrase in central banking.",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Howl Street",
+    "source_url": "",
+    "source_title": "PACK TAKE",
+    "source_summary": "Soft landing is the most dangerous phrase in central banking.",
+    "drafted_at": "2026-05-17T07:44:01.119650",
+    "data": {
+      "take_seed": "2026-05-17-pack-2"
     },
     "content_hash": "9b0f7be55d8ef71c"
   }
