@@ -1,23 +1,25 @@
 [
   {
-    "id": "29f453ce",
-    "format": "LOUD_HOWL",
+    "id": "de998565",
+    "format": "MARKET_MOVE",
     "status": "pending",
-    "draft_text": "FRONT-PAGE FOR THE PACK: The minutes signal incoming Chair Kevin Warsh will inherit an increasingly hawkish crew of central bankers.\n\nhttps://nypost.com/2026/05/20/business/fed-minutes-from-divisive-meeting-show-officials-growing-more-worried-about-inflation/",
+    "draft_text": "Pay attention to this one. VIX drops 5.8% in 5 sessions to 17.32.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "NY POST",
-    "source_url": "https://nypost.com/2026/05/20/business/fed-minutes-from-divisive-meeting-show-officials-growing-more-worried-about-inflation/",
-    "source_title": "Fed minutes from divisive meeting show officials prepping for possible rate hike as inflation fears intensify",
-    "source_summary": "The minutes signal incoming Chair Kevin Warsh will inherit an increasingly hawkish crew of central bankers.",
-    "drafted_at": "2026-05-20T20:38:19.864444",
+    "primary_source": "CBOE \u00b7 ^VIX",
+    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "source_title": "VIX (S&P 500 volatility)",
+    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "drafted_at": "2026-05-21T08:49:05.567955",
     "data": {
-      "source": "NY POST"
+      "signal_id": "^VIX:move:2026-05-21",
+      "kind": "move_down",
+      "current": "17.32"
     },
-    "content_hash": "a566bedaa45912f2"
+    "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "a1ad5328",
+    "id": "baadc558",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "RATE-PATH READ: Bitcoin's 2026 macro setup just flipped from waiting for relief to pricing a renewed threat.\n\nAs of May 20, 2026, CME FedWatch showed a 54.1% chance of a rate hike at the December 2026 Federal Open Market Committee meeting, against 44.4% odds of no change and only 1.5% odds of easing.\n\nFor Bitcoin, the important signal is the [\u2026] The post Bitcoin is left stranded as Fed projections flip to 54% chance of rate hikes this year appeared first on CryptoSlate.\n\nhttps://cryptoslate.com/bitcoin-holders-expected-fed-relief-futures-now-point-the-other-way/",
@@ -27,14 +29,14 @@
     "source_url": "https://cryptoslate.com/bitcoin-holders-expected-fed-relief-futures-now-point-the-other-way/",
     "source_title": "Bitcoin is left stranded as Fed projections flip to 54% chance of rate hikes this year",
     "source_summary": "Bitcoin's 2026 macro setup just flipped from waiting for relief to pricing a renewed threat. As of May 20, 2026, CME FedWatch showed a 54.1% chance of a rate hike at the December 2026 Federal Open Market Committee meeting, against 44.4% odds of no change and only 1.5% odds of easing. For Bitcoin, the important signal is the [\u2026] The post Bitcoin is left stranded as Fed projections flip to 54% chanc",
-    "drafted_at": "2026-05-20T20:38:19.875697",
+    "drafted_at": "2026-05-21T08:49:05.579211",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "da56ccab9470c832"
   },
   {
-    "id": "8b42d9a3",
+    "id": "5d1523fb",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FOMC desk: Payment account holders would not have access to intraday credit or the discount window, would not earn interest on balances held at a Reserve Bank, and would only have access to payment services with automated controls to prevent overdrafts.\n\nAs the payments landscape rapidly evolves, financial institutions with an increasingly wide range of business models have sought direct access to the Federal Reserve's payment services to reduce costs and increase payment speed.\n\nMany of these requests for access come from institutions that are not federally insured.\n\nThe proposed payment account would be tailored to support innovation by serving the clearing and settlement needs of certain eligible institutions while also mitigating material risks to the Reserve Banks and payment system.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/other20260520a.htm",
@@ -44,235 +46,352 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260520a.htm",
     "source_title": "Federal Reserve Board requests public comment on a proposal to establish a \"payment account,\" which legally eligible financial institutions could use for the specific purpose of clearing and settling their payments",
     "source_summary": "Federal Reserve Board requests public comment on a proposal to establish a \"payment account,\" which legally eligible financial institutions could use for the specific purpose of clearing and settling their payments",
-    "drafted_at": "2026-05-20T20:38:19.877336",
+    "drafted_at": "2026-05-21T08:49:05.580825",
     "data": {
       "actor": "FED"
     },
     "content_hash": "31af2dadc8e93a7e"
   },
   {
-    "id": "f56a4db9",
+    "id": "733b11a7",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "If you trade rates, read this: Gold (XAU/USD) finds bids and edges higher during the North American session on Wednesday after the Federal Reserve\u2019s (Fed) last meeting minutes showed that most officials favored laying the groundwork for a rate hike.\n\nAt the time of writing, the XAU/USD pair trades at $4,530, up by 1%.\n\nhttps://www.fxstreet.com/news/gold-rallies-as-fed-minutes-flag-hikes-us-dollar-slides-202605201930",
+    "draft_text": "Central bank corner: The minutes for each regularly scheduled meeting of the Committee are generally published three weeks after the day of the policy decision.\n\nThe descriptions of economic and financial conditions contained in these minutes are based solely on the information that was available to the Committee at the time of the meeting.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260520a.htm",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://www.fxstreet.com/news/gold-rallies-as-fed-minutes-flag-hikes-us-dollar-slides-202605201930",
-    "source_title": "Gold rallies as Fed minutes flag hikes, US Dollar slides",
-    "source_summary": "Gold (XAU/USD) finds bids and edges higher during the North American session on Wednesday after the Federal Reserve\u2019s (Fed) last meeting minutes showed that most officials favored laying the groundwork for a rate hike. At the time of writing, the XAU/USD pair trades at $4,530, up by 1%.",
-    "drafted_at": "2026-05-20T20:38:19.877759",
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260520a.htm",
+    "source_title": "Minutes of the Federal Open Market Committee, April 28-29, 2026",
+    "source_summary": "Minutes of the Federal Open Market Committee, April 28-29, 2026",
+    "drafted_at": "2026-05-21T08:49:05.581302",
     "data": {
-      "actor": "Fed"
+      "actor": "FED"
     },
-    "content_hash": "1c2dcb046ef0e2bb"
+    "content_hash": "4e85a5b2cf6e4f6d"
   },
   {
-    "id": "1247b90b",
+    "id": "7f37a45c",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "From the Eccles Building: The minutes signal incoming Chair Kevin Warsh will inherit an increasingly hawkish crew of central bankers.\n\nhttps://nypost.com/2026/05/20/business/fed-minutes-from-divisive-meeting-show-officials-growing-more-worried-about-inflation/",
+    "draft_text": "Powell on the wire. Statement by Chair for Supervision Michelle W.\n\nBowman and Governor Stephen I.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/other20260515a.htm",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://nypost.com/2026/05/20/business/fed-minutes-from-divisive-meeting-show-officials-growing-more-worried-about-inflation/",
-    "source_title": "Fed minutes from divisive meeting show officials prepping for possible rate hike as inflation fears intensify",
-    "source_summary": "The minutes signal incoming Chair Kevin Warsh will inherit an increasingly hawkish crew of central bankers.",
-    "drafted_at": "2026-05-20T20:38:19.877951",
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260515a.htm",
+    "source_title": "Federal Reserve Board names Jerome H. Powell as chair pro tempore; Powell will serve as chair pro tempore until Kevin M. Warsh is sworn in as the new chair",
+    "source_summary": "Federal Reserve Board names Jerome H. Powell as chair pro tempore; Powell will serve as chair pro tempore until Kevin M. Warsh is sworn in as the new chair",
+    "drafted_at": "2026-05-21T08:49:05.581518",
     "data": {
-      "actor": "Fed"
+      "actor": "FED"
     },
-    "content_hash": "a566bedaa45912f2"
+    "content_hash": "7f81851eb15083f2"
   },
   {
-    "id": "51807f68",
+    "id": "9d658eba",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "FOMC update. The latest interest rate decision saw the most dissent in decades.\n\nhttps://www.forbes.com/sites/tylerroush/2026/05/20/trumps-reshaped-fed-leaning-toward-interest-rate-hikes/",
+    "draft_text": "Powell on the wire. The Dodd-Frank Act requires the Board to not object to the conversion when a state member bank, which is a bank supervised by the Federal Reserve, that is subject to certain enforcement actions issued by the Board proposes to convert to a national bank.\n\nAs required by law, the OCC submitted a supervisory plan to the Board for addressing the matters underlying the enforcement action between United Texas Bank, the Board, and the Texas Department of Banking, to which the Board also did not object.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/orders20260515b.htm",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://www.forbes.com/sites/tylerroush/2026/05/20/trumps-reshaped-fed-leaning-toward-interest-rate-hikes/",
-    "source_title": "Trump\u2019s Reshaped Fed Leaning Toward Interest Rate Hikes",
-    "source_summary": "The latest interest rate decision saw the most dissent in decades.",
-    "drafted_at": "2026-05-20T20:38:19.878080",
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260515b.htm",
+    "source_title": "Federal Reserve Board announces it does not object to the conversion of United Texas Bank, of Dallas, Texas, from a bank supervised by the Federal Reserve to a national bank supervised by the Office of the Comptroller of the Currency",
+    "source_summary": "Federal Reserve Board announces it does not object to the conversion of United Texas Bank, of Dallas, Texas, from a bank supervised by the Federal Reserve to a national bank supervised by the Office of the Comptroller of the Currency",
+    "drafted_at": "2026-05-21T08:49:05.582242",
     "data": {
-      "actor": "Fed"
+      "actor": "FED"
     },
-    "content_hash": "6fbe91ff81c44312"
+    "content_hash": "0076b67c789a673b"
   },
   {
-    "id": "473b8f7d",
+    "id": "df8e6eeb",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$PLSE insider bought $26,590,676 on 2026-05-11, 2 insiders. \ud83d\udc40\n\nPulse Biosciences, Inc.. 1,350,466 shares at $19.69.\n\n+32.5% since the purchase.\n\nhttp://openinsider.com/screener?s=PLSE",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=PLSE",
+    "source_title": "Pulse Biosciences, Inc. (PLSE) insider bought $26,590,676",
+    "source_summary": "2 insider(s) bought 1,350,466 shares at $19.69 on 2026-05-11.",
+    "drafted_at": "2026-05-21T08:49:05.582521",
+    "data": {
+      "ticker": "PLSE",
+      "type": "P",
+      "dollar_value": 26590676.0,
+      "pct_since": 32.503809815073076
+    },
+    "content_hash": "da48dbe865034def"
+  },
+  {
+    "id": "fce79bc3",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$WGS insider bought $21,459,736 on 2026-05-18. \ud83d\udc40\n\nGenedx Holdings Corp.. 500,000 shares at $42.92.\n\n+4.2% since the purchase.\n\nhttp://openinsider.com/screener?s=WGS",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=WGS",
+    "source_title": "Genedx Holdings Corp. (WGS) insider bought $21,459,736",
+    "source_summary": "1 insider(s) bought 500,000 shares at $42.92 on 2026-05-18.",
+    "drafted_at": "2026-05-21T08:49:05.582633",
+    "data": {
+      "ticker": "WGS",
+      "type": "P",
+      "dollar_value": 21459736.0,
+      "pct_since": 4.21714711611446
+    },
+    "content_hash": "a0ac1b0307a2a05f"
+  },
+  {
+    "id": "81b0ea69",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$MOBI insider bought $19,024,980 on 2026-05-11, 6 insiders. \ud83d\udc40\n\nMobia Medical, Inc.. 1,268,332 shares at $15.00.\n\n-15.0% since the purchase.\n\nhttp://openinsider.com/screener?s=MOBI",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=MOBI",
+    "source_title": "Mobia Medical, Inc. (MOBI) insider bought $19,024,980",
+    "source_summary": "6 insider(s) bought 1,268,332 shares at $15.00 on 2026-05-11.",
+    "drafted_at": "2026-05-21T08:49:05.582749",
+    "data": {
+      "ticker": "MOBI",
+      "type": "P",
+      "dollar_value": 19024980.0,
+      "pct_since": -15.0
+    },
+    "content_hash": "acb3ef1a348cd50d"
+  },
+  {
+    "id": "29a6376a",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$TSLX insider bought $10,949,141 on 2026-05-11, 6 insiders. \ud83d\udc40\n\nSixth Street Specialty Lending, Inc.. 598,540 shares at $18.29.\n\n-4.6% since the purchase.\n\nhttp://openinsider.com/screener?s=TSLX",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=TSLX",
+    "source_title": "Sixth Street Specialty Lending, Inc. (TSLX) insider bought $10,949,141",
+    "source_summary": "6 insider(s) bought 598,540 shares at $18.29 on 2026-05-11.",
+    "drafted_at": "2026-05-21T08:49:05.582870",
+    "data": {
+      "ticker": "TSLX",
+      "type": "P",
+      "dollar_value": 10949141.0,
+      "pct_since": -4.647345357804166
+    },
+    "content_hash": "fd56d9f55218f42e"
+  },
+  {
+    "id": "7868e826",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$NOMD insider bought $9,157,029 on 2026-05-14, 4 insiders. \ud83d\udc40\n\nNomad Foods Ltd. 964,731 shares at $9.49.\n\n+9.8% since the purchase.\n\nhttp://openinsider.com/screener?s=NOMD",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=NOMD",
+    "source_title": "Nomad Foods Ltd (NOMD) insider bought $9,157,029",
+    "source_summary": "4 insider(s) bought 964,731 shares at $9.49 on 2026-05-14.",
+    "drafted_at": "2026-05-21T08:49:05.582976",
+    "data": {
+      "ticker": "NOMD",
+      "type": "P",
+      "dollar_value": 9157029.0,
+      "pct_since": 9.799790055784458
+    },
+    "content_hash": "b3404b73a8c6c373"
+  },
+  {
+    "id": "e30f53a5",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "Binance says it has prevented over $10,000,000,000 in fraud using 100+ AI models in the past year, protecting\u2026.\n\nhttps://watcher.guru/news/binance-says-it-prevented-over-10t-in-fraud-using-ai-models",
+    "draft_text": "OFAC sanctioned a Sinaloa Cartel-linked cash-to-crypto network accused of laundering fentanyl proceeds through cryptocurrency transfers.\n\nhttps://www.theblock.co/post/402135/us-sanctions-sinaloa-cartel-linked-cash-to-crypto-laundering-network-tied-to-fentanyl-trafficking?utm_source=rss&utm_medium=rss",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "WATCHER GURU",
-    "source_url": "https://watcher.guru/news/binance-says-it-prevented-over-10t-in-fraud-using-ai-models",
-    "source_title": "Binance Says it Prevented Over $10T in Fraud Using AI Models",
-    "source_summary": "Binance says it has prevented over $10,000,000,000 in fraud using 100+ AI models in the past year, protecting\u2026",
-    "drafted_at": "2026-05-20T20:38:19.880873",
+    "primary_source": "THE BLOCK",
+    "source_url": "https://www.theblock.co/post/402135/us-sanctions-sinaloa-cartel-linked-cash-to-crypto-laundering-network-tied-to-fentanyl-trafficking?utm_source=rss&utm_medium=rss",
+    "source_title": "US sanctions Sinaloa Cartel-linked cash-to-crypto laundering network tied to fentanyl trafficking",
+    "source_summary": "OFAC sanctioned a Sinaloa Cartel-linked cash-to-crypto network accused of laundering fentanyl proceeds through cryptocurrency transfers.",
+    "drafted_at": "2026-05-21T08:49:05.584007",
     "data": {
-      "source": "WATCHER GURU"
+      "source": "THE BLOCK"
     },
-    "content_hash": "ed24f6424b884bc5"
+    "content_hash": "76bdbd386f41c982"
   },
   {
-    "id": "ab2b38d4",
+    "id": "17ab20c4",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "'Any claim that I had knowledge of this scheme is flat-out false'.\n\nhttps://www.wnd.com/2026/05/ilhan-omar-suggests-trump-is-responsible-massive-fraud/?utm_source=rss&utm_medium=rss&utm_campaign=ilhan-omar-suggests-trump-is-responsible-massive-fraud",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "WND",
-    "source_url": "https://www.wnd.com/2026/05/ilhan-omar-suggests-trump-is-responsible-massive-fraud/?utm_source=rss&utm_medium=rss&utm_campaign=ilhan-omar-suggests-trump-is-responsible-massive-fraud",
-    "source_title": "Ilhan Omar suggests Trump is responsible for massive fraud in Feeding Our Future",
-    "source_summary": "'Any claim that I had knowledge of this scheme is flat-out false'",
-    "drafted_at": "2026-05-20T20:38:19.881058",
-    "data": {
-      "source": "WND"
-    },
-    "content_hash": "892701f79154c951"
-  },
-  {
-    "id": "202f6e9d",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "RETAIL BEWARE: Ukrainian military hardware appears to have once again endangered the people of a NATO member nation.\n\nEstonian Prime Minister Kristen Michal announced on Tuesday that \"a drone entering Estonian airspace was detected quickly and shot down over Southern Estonia by a NATO Air Policing fighter jet.\" 'These trajectories have to be as far from the NATO territory as possible.' Michal thanked Estonia's \"NATO allies, the Romanian Air Force, and the fighter pilots who carried out this mission with professionalism and precision,\" adding that \"NATO is vigilant, prepared, and capable of acting rapidly when needed.\" Hanno Pevkur, the defense minister for the Baltic nation of 1.36 million souls, confirmed that a Romanian Air Force F-16 pilot participating in a training flight shot down the drone using a single missile.\n\nThe remains of the drone crashed several hundred meters away from a residential building in the Central Estonian town of P\u00f5ltsamaa.\n\nA resident told state media that he saw two fighter jets soar overhead, then heard a loud bang.\n\n\"There was a loud blast, and I saw the drone falling from the sky,\" said the witness.\n\n\"As it was already close to the ground, I heard another blast.\" It's presently unclear whether the drone was carrying any warheads.\n\nHeorhii Tykhyi, a spokesperson for Ukraine, apologized to Estonia \"for such unintended incidents,\" reported DW.\n\nRELATED: Killer drones have conquered the skies.\n\nhttps://www.theblaze.com/news/ukrainian-military-drone-shot-down-over-nato-country-prompting-apologies-reprimand",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "THE BLAZE",
-    "source_url": "https://www.theblaze.com/news/ukrainian-military-drone-shot-down-over-nato-country-prompting-apologies-reprimand",
-    "source_title": "Ukrainian military drone shot down over NATO country, prompting apologies",
-    "source_summary": "Ukrainian military hardware appears to have once again endangered the people of a NATO member nation. Estonian Prime Minister Kristen Michal announced on Tuesday that \"a drone entering Estonian airspace was detected quickly and shot down over Southern Estonia by a NATO Air Policing fighter jet.\" 'These trajectories have to be as far from the NATO territory as possible.' Michal thanked Estonia's \"N",
-    "drafted_at": "2026-05-20T20:38:19.884527",
-    "data": {
-      "source": "THE BLAZE"
-    },
-    "content_hash": "e20d2ffc99608a9a"
-  },
-  {
-    "id": "0ff068ca",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "PROTECTION BRIEFING: MAP Protocol\u2019s Butter Bridge suffered a severe exploit on May 20, 2026, with attackers minting 1,000,000,000,000,000 MAPO tokens, roughly 4.8 million times the legitimate circulating supply of approximately 208 million.\n\nThe MAP Protocol token has fallen over nearly 30% in the immediate aftermath.\n\nMAP Protocol Hit by 1 Quadrillion Token Mint Security firms PeckShield raised The post 1 Quadrillion MAPO Minted: Bridge Exploit Crashes Token appeared first on BeInCrypto.\n\nhttps://beincrypto.com/1-quadrillion-mapo-minted-bridge-exploit-crashes-token/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "BEINCRYPTO",
-    "source_url": "https://beincrypto.com/1-quadrillion-mapo-minted-bridge-exploit-crashes-token/",
-    "source_title": "1 Quadrillion MAPO Minted: Bridge Exploit Crashes Token",
-    "source_summary": "MAP Protocol\u2019s Butter Bridge suffered a severe exploit on May 20, 2026, with attackers minting 1,000,000,000,000,000 MAPO tokens, roughly 4.8 million times the legitimate circulating supply of approximately 208 million. The MAP Protocol token has fallen over nearly 30% in the immediate aftermath. MAP Protocol Hit by 1 Quadrillion Token Mint Security firms PeckShield raised The post 1 Quadrillion M",
-    "drafted_at": "2026-05-20T20:38:19.885258",
-    "data": {
-      "source": "BEINCRYPTO"
-    },
-    "content_hash": "c53e239d16965b51"
-  },
-  {
-    "id": "2baf47c3",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "PACK ALERT \u2014 SCAM: With regulators cracking down on the cash-to-cryptocurrency kiosks in a bid to stop scammers, Bitcoin Depot has said that its business model is no longer viable.\n\nhttps://www.icij.org/investigations/coin-laundry/crypto-atm-operator-bitcoin-depot-files-for-bankruptcy/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "ICIJ",
-    "source_url": "https://www.icij.org/investigations/coin-laundry/crypto-atm-operator-bitcoin-depot-files-for-bankruptcy/",
-    "source_title": "Crypto ATM operator Bitcoin Depot files for bankruptcy",
-    "source_summary": "With regulators cracking down on the cash-to-cryptocurrency kiosks in a bid to stop scammers, Bitcoin Depot has said that its business model is no longer viable.",
-    "drafted_at": "2026-05-20T20:38:19.885563",
-    "data": {
-      "source": "ICIJ"
-    },
-    "content_hash": "2e2b1d48bed35dfd"
-  },
-  {
-    "id": "01376828",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "MIDDLE EAST DESK: DUBAI, UAE, May 20, 2026 /PRNewswire/ -- A team from global law firm Greenberg Traurig represented Taiba Investments Co. (Taiba) on a SAR 2.4 billion/US$633.4 million joint venture agreement with Osool Integrated Real Estate Co. (Osool) for the ownership and development of three hotels in...\n\nhttps://www.prnewswire.com/news-releases/greenberg-traurig-represents-taiba-on-sar-2-4bus633-4m-joint-venture-with-osool-for-development-of-3-hotels-in-kingdom-of-saudi-arabia-302778124.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "PR NEWSWIRE",
-    "source_url": "https://www.prnewswire.com/news-releases/greenberg-traurig-represents-taiba-on-sar-2-4bus633-4m-joint-venture-with-osool-for-development-of-3-hotels-in-kingdom-of-saudi-arabia-302778124.html",
-    "source_title": "Greenberg Traurig Represents Taiba on SAR 2.4B/US$633.4M Joint Venture with Osool for Development of 3 Hotels in Kingdom of Saudi Arabia",
-    "source_summary": "DUBAI, UAE, May 20, 2026 /PRNewswire/ -- A team from global law firm Greenberg Traurig represented Taiba Investments Co. (Taiba) on a SAR 2.4 billion/US$633.4 million joint venture agreement with Osool Integrated Real Estate Co. (Osool) for the ownership and development of three hotels in...",
-    "drafted_at": "2026-05-20T20:38:19.888239",
-    "data": {
-      "source": "PR NEWSWIRE"
-    },
-    "content_hash": "dd630c1e86d2ef18"
-  },
-  {
-    "id": "502869b9",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "MIDDLE EAST DESK: Wall Street regulators are investigating a batch of suspiciously well-timed oil trades worth more than $800 million \u2013\n\nhttps://nypost.com/2026/05/20/business/feds-probe-suspicious-oil-trades-worth-800m-made-just-before-major-iran-war-news-report/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "NY POST",
-    "source_url": "https://nypost.com/2026/05/20/business/feds-probe-suspicious-oil-trades-worth-800m-made-just-before-major-iran-war-news-report/",
-    "source_title": "Feds probe suspicious oil trades worth $800M made just before major Iran war news: report",
-    "source_summary": "Wall Street regulators are investigating a batch of suspiciously well-timed oil trades worth more than $800 million \u2013 amid mounting accusations of insider trading, according to a report.",
-    "drafted_at": "2026-05-20T20:38:19.888867",
-    "data": {
-      "source": "NY POST"
-    },
-    "content_hash": "0ed81174f5e3d0c6"
-  },
-  {
-    "id": "641ccf53",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Levant update: Major US stock indices close sharply higher ahead of Nvidia earnings Nvidia earnings after the close.\n\nLabour Wes Streeting is likely to abandon bid for PM and support Andy Burnham FOMC Minutes: Many would have preferred to remove easing bias from policy statement US sells $16 billion of 20 year bonds at a high yield of 5.122% Iran Foreign Minister: Focus is on ending the war and fulfilling Iran's clear demands OpenAI preparing to file for an IPO very soon Trump: US in final stages in talks with Iran Iran News: Foreign Minister says negotiations with the US are ongoing through Pakistan Sources: ECB rate hike very likely in June Weekly crude oil inventories fall -7.863M vs -2.942M estimate Comments from Trump: On Iran, I am in no hurry.\n\nNetanyahu will do what he wants him to do.\n\nBOE Bailey: Financial market tightening gives us some time to assess raiseing rates or not The USD is little changed/mixed to start the North American session.\n\nWhat levels to watch? investingLive European markets wrap: A little risk respite as Nvidia earnings eyed The major US stock indices closed sharply higher today as investors embraced a more optimistic tone surrounding the geopolitical tensions between the US and Iran.\n\nThe market narrative appears to be centered on two potential outcomes: either diplomatic progress that reduces the risk of a broader conflict, or, if military action continues, expectations that it remains limited and short-lived.\n\nThat combination helped ease some of the fear premium that had built into markets over recent sessions and sparked a strong rebound in risk assets.\n\nLower oil prices and sharply declining Treasury yields added further support to equities throughout the North American session.\n\nhttps://investinglive.com/news/investinglive-americas-fx-news-wrap-20-mayusd-moves-lower-helped-by-yields-oil-falling-20260520/",
+    "draft_text": "Watch your wallets: Services PMI 47.9 vs 51.7 expected Prior 52.7 Manufacturing PMI 53.7 vs 53.0 expected Prior 53.7 Composite PMI 48.5 vs 51.6 expected Prior 52.6 Ouch.\n\nThat's a big miss on the services print as business activity there falls to the lowest in 64 months.\n\nThat's leading UK economic activity to contract in May, with the composite print being the weakest in 13 months.\n\nService firms signaled the sharpest decline in business activity since January 2021 citing greater economic hesitancy and weaker investment sentiment among clients, alongside delayed consumer spending decisions in response to the Middle East conflict.\n\nAside from the Covid pandemic, the latest reading was the lowest for nearly a decade (July 2016).\n\nAs for the stronger manufacturing print, it's mostly due to frontloading as a temporary demand pick up was noted to beat price hikes and potential supply disruptions.\n\nSo, the underlying negative impact from the Middle East conflict runs much deeper.\n\nOn the prices front, input price inflation did ease slightly since April but remained well above its long-run average.\n\nhttps://investinglive.com/news/uk-may-flash-services-pmi-479-vs-517-expected-20260521/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-20-mayusd-moves-lower-helped-by-yields-oil-falling-20260520/",
-    "source_title": "investingLive Americas FX news wrap 20 May:USD moves lower helped by yields & oil falling.",
-    "source_summary": "Major US stock indices close sharply higher ahead of Nvidia earnings Nvidia earnings after the close. What to expect. Labour Wes Streeting is likely to abandon bid for PM and support Andy Burnham FOMC Minutes: Many would have preferred to remove easing bias from policy statement US sells $16 billion of 20 year bonds at a high yield of 5.122% Iran Foreign Minister: Focus is on ending the war and fu",
-    "drafted_at": "2026-05-20T20:38:19.891706",
+    "source_url": "https://investinglive.com/news/uk-may-flash-services-pmi-479-vs-517-expected-20260521/",
+    "source_title": "UK economic activity slides in May on Middle East conflict, political turmoil",
+    "source_summary": "Services PMI 47.9 vs 51.7 expected Prior 52.7 Manufacturing PMI 53.7 vs 53.0 expected Prior 53.7 Composite PMI 48.5 vs 51.6 expected Prior 52.6 Ouch. That's a big miss on the services print as business activity there falls to the lowest in 64 months. That's leading UK economic activity to contract in May, with the composite print being the weakest in 13 months. Service firms signaled the sharpest ",
+    "drafted_at": "2026-05-21T08:49:05.586259",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "a59a89015e51a35f"
+    "content_hash": "a6af8b7b9a0f065a"
   },
   {
-    "id": "7cd9ad4f",
-    "format": "GLOBAL_DESK",
+    "id": "d6b0903f",
+    "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "From Brussels and beyond: Ukrainian military hardware appears to have once again endangered the people of a NATO member nation.\n\nEstonian Prime Minister Kristen Michal announced on Tuesday that \"a drone entering Estonian airspace was detected quickly and shot down over Southern Estonia by a NATO Air Policing fighter jet.\" 'These trajectories have to be as far from the NATO territory as possible.' Michal thanked Estonia's \"NATO allies, the Romanian Air Force, and the fighter pilots who carried out this mission with professionalism and precision,\" adding that \"NATO is vigilant, prepared, and capable of acting rapidly when needed.\" Hanno Pevkur, the defense minister for the Baltic nation of 1.36 million souls, confirmed that a Romanian Air Force F-16 pilot participating in a training flight shot down the drone using a single missile.\n\nThe remains of the drone crashed several hundred meters away from a residential building in the Central Estonian town of P\u00f5ltsamaa.\n\nA resident told state media that he saw two fighter jets soar overhead, then heard a loud bang.\n\n\"There was a loud blast, and I saw the drone falling from the sky,\" said the witness.\n\n\"As it was already close to the ground, I heard another blast.\" It's presently unclear whether the drone was carrying any warheads.\n\nHeorhii Tykhyi, a spokesperson for Ukraine, apologized to Estonia \"for such unintended incidents,\" reported DW.\n\nRELATED: Killer drones have conquered the skies.\n\nhttps://www.theblaze.com/news/ukrainian-military-drone-shot-down-over-nato-country-prompting-apologies-reprimand",
+    "draft_text": "NEW YORK, May 21, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, reminds purchasers of common stock on the New York Stock Exchange (\"NYSE\") of Stellantis N.V. (NYSE: STLA) between February 26, 2025 and February 5, 2026, inclusive (the \"Class Period\"), of the...\n\nhttps://www.prnewswire.com/news-releases/stla-investors-have-opportunity-to-lead-stellantis-nv-securities-fraud-lawsuit-302778431.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "THE BLAZE",
-    "source_url": "https://www.theblaze.com/news/ukrainian-military-drone-shot-down-over-nato-country-prompting-apologies-reprimand",
-    "source_title": "Ukrainian military drone shot down over NATO country, prompting apologies",
-    "source_summary": "Ukrainian military hardware appears to have once again endangered the people of a NATO member nation. Estonian Prime Minister Kristen Michal announced on Tuesday that \"a drone entering Estonian airspace was detected quickly and shot down over Southern Estonia by a NATO Air Policing fighter jet.\" 'These trajectories have to be as far from the NATO territory as possible.' Michal thanked Estonia's \"N",
-    "drafted_at": "2026-05-20T20:38:19.897001",
+    "primary_source": "PR NEWSWIRE",
+    "source_url": "https://www.prnewswire.com/news-releases/stla-investors-have-opportunity-to-lead-stellantis-nv-securities-fraud-lawsuit-302778431.html",
+    "source_title": "STLA Investors Have Opportunity to Lead Stellantis N.V. Securities Fraud Lawsuit",
+    "source_summary": "NEW YORK, May 21, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, reminds purchasers of common stock on the New York Stock Exchange (\"NYSE\") of Stellantis N.V. (NYSE: STLA) between February 26, 2025 and February 5, 2026, inclusive (the \"Class Period\"), of the...",
+    "drafted_at": "2026-05-21T08:49:05.586717",
     "data": {
-      "source": "THE BLAZE"
+      "source": "PR NEWSWIRE"
     },
-    "content_hash": "e20d2ffc99608a9a"
+    "content_hash": "2d16d38830c51bcf"
   },
   {
-    "id": "109617aa",
+    "id": "172c8e62",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Italian authorities uncovered a tax evasion scheme in which an individual allegedly used Bitcoin Ordinals and the BRC-20 token standard to generate and conceal $1.1 million.\n\nhttps://cointelegraph.com/news/criminals-attempt-to-use-bitcoin-ordinals-to-evade-authorities-chainalysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "COINTELEGRAPH",
+    "source_url": "https://cointelegraph.com/news/criminals-attempt-to-use-bitcoin-ordinals-to-evade-authorities-chainalysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source_title": "Tax evaders are trying \u2018novel digital assets\u2019 to dodge authorities: Chainalysis",
+    "source_summary": "Italian authorities uncovered a tax evasion scheme in which an individual allegedly used Bitcoin Ordinals and the BRC-20 token standard to generate and conceal $1.1 million.",
+    "drafted_at": "2026-05-21T08:49:05.587018",
+    "data": {
+      "source": "COINTELEGRAPH"
+    },
+    "content_hash": "0ebe3b6521abad68"
+  },
+  {
+    "id": "cdea93d3",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Missouri has sued the operator of crypto ATM network CoinFlip, accusing the company of knowingly facilitating fraudulent transactions and profiting from them through excessive fees charged at its kiosks across the state.\n\nAttorney General Catherine Hanaway\u2019s office filed the action.\n\nThe state is seeking civil penalties of up to $1.826 million and a court order The post Missouri Sues CoinFlip, Crypto ATM Operator Calls Lawsuit \u201cMeritless\u201d appeared first on BeInCrypto.\n\nhttps://beincrypto.com/missouri-sues-coinflip-crypto-atm-fraud/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "BEINCRYPTO",
+    "source_url": "https://beincrypto.com/missouri-sues-coinflip-crypto-atm-fraud/",
+    "source_title": "Missouri Sues CoinFlip, Crypto ATM Operator Calls Lawsuit \u201cMeritless\u201d",
+    "source_summary": "Missouri has sued the operator of crypto ATM network CoinFlip, accusing the company of knowingly facilitating fraudulent transactions and profiting from them through excessive fees charged at its kiosks across the state. Attorney General Catherine Hanaway\u2019s office filed the action. The state is seeking civil penalties of up to $1.826 million and a court order The post Missouri Sues CoinFlip, Crypt",
+    "drafted_at": "2026-05-21T08:49:05.587752",
+    "data": {
+      "source": "BEINCRYPTO"
+    },
+    "content_hash": "afde15100d1504c0"
+  },
+  {
+    "id": "59d8dc53",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From the Gulf: The US Dollar Index (DXY) trades with a softer tone near the 99.10 region as improving market sentiment reduces safe-haven demand for the Greenback.\n\nhttps://www.fxstreet.com/news/forex-today-us-dollar-softens-as-fed-caution-meets-improving-us-iran-optimism-202605201955",
+    "draft_text": "PACK BRIEFING \u2014 CHINA: HONG KONG, May 21, 2026 /PRNewswire/ -- On 21 May 2026, S&P Global hosted the \"Sustainability Yearbook (China Edition) 2026 Launch Ceremony and Sustainability Forum\" in Shanghai.\n\nFosun International Limited (Hong Kong Stock Exchange stock code: 00656, \"Fosun International\") was included...\n\nhttps://www.prnewswire.com/news-releases/fosun-international-included-in-sp-global-sustainability-yearbook-china-edition-2026-maintains-top-1-ranking-for-third-consecutive-year-302778790.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "PR NEWSWIRE",
+    "source_url": "https://www.prnewswire.com/news-releases/fosun-international-included-in-sp-global-sustainability-yearbook-china-edition-2026-maintains-top-1-ranking-for-third-consecutive-year-302778790.html",
+    "source_title": "Fosun International Included in S&P Global Sustainability Yearbook (China Edition) 2026, Maintains Top 1% Ranking for Third Consecutive Year",
+    "source_summary": "HONG KONG, May 21, 2026 /PRNewswire/ -- On 21 May 2026, S&P Global hosted the \"Sustainability Yearbook (China Edition) 2026 Launch Ceremony and Sustainability Forum\" in Shanghai. Fosun International Limited (Hong Kong Stock Exchange stock code: 00656, \"Fosun International\") was included...",
+    "drafted_at": "2026-05-21T08:49:05.593711",
+    "data": {
+      "source": "PR NEWSWIRE"
+    },
+    "content_hash": "d9ba3164fc1ca00c"
+  },
+  {
+    "id": "0e0f5ab1",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Cross-border read: Joint research introduces a strategic framework to prioritize, govern, measure and scale enterprise AI investments SANTA CLARA, Calif. and PUNE, India, May 21, 2026 /PRNewswire/ -- Persistent Systems (BSE: 533179) (NSE: PERSISTENT), a global Digital Engineering and Enterprise...\n\nhttps://www.prnewswire.com/news-releases/persistent-and-iim-ahmedabad-introduce-ai-value-compass-to-bring-discipline-and-measurable-outcomes-to-enterprise-ai-investments-302778788.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "PR NEWSWIRE",
+    "source_url": "https://www.prnewswire.com/news-releases/persistent-and-iim-ahmedabad-introduce-ai-value-compass-to-bring-discipline-and-measurable-outcomes-to-enterprise-ai-investments-302778788.html",
+    "source_title": "Persistent and IIM Ahmedabad Introduce 'AI Value Compass' to Bring Discipline and Measurable Outcomes to Enterprise AI Investments",
+    "source_summary": "Joint research introduces a strategic framework to prioritize, govern, measure and scale enterprise AI investments SANTA CLARA, Calif. and PUNE, India, May 21, 2026 /PRNewswire/ -- Persistent Systems (BSE: 533179) (NSE: PERSISTENT), a global Digital Engineering and Enterprise...",
+    "drafted_at": "2026-05-21T08:49:05.594250",
+    "data": {
+      "source": "PR NEWSWIRE"
+    },
+    "content_hash": "aaa4218018d05735"
+  },
+  {
+    "id": "ee55210a",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Mainland wire: The EU-China trade tensions could disrupt global supply chains, increase economic uncertainty, and potentially slow global growth.\n\nThe post China warns EU of countermeasures against new trade restrictions appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/china-warns-eu-trade-countermeasures/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/china-warns-eu-trade-countermeasures/",
+    "source_title": "China warns EU of countermeasures against new trade restrictions",
+    "source_summary": "The EU-China trade tensions could disrupt global supply chains, increase economic uncertainty, and potentially slow global growth. The post China warns EU of countermeasures against new trade restrictions appeared first on Crypto Briefing .",
+    "drafted_at": "2026-05-21T08:49:05.594612",
+    "data": {
+      "source": "CRYPTO BRIEFING"
+    },
+    "content_hash": "20ba84e32486b3eb"
+  },
+  {
+    "id": "3f513166",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: Iran's crypto stockpile highlights the challenge of enforcing financial sanctions in a world where digital assets enable evasion and liquidity risks.\n\nThe post Iran\u2019s cryptocurrency stockpile valued at $7.7B, reports Fox News appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iran-crypto-stockpile-7-billion/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/iran-crypto-stockpile-7-billion/",
+    "source_title": "Iran\u2019s cryptocurrency stockpile valued at $7.7B, reports Fox News",
+    "source_summary": "Iran's crypto stockpile highlights the challenge of enforcing financial sanctions in a world where digital assets enable evasion and liquidity risks. The post Iran\u2019s cryptocurrency stockpile valued at $7.7B, reports Fox News appeared first on Crypto Briefing .",
+    "drafted_at": "2026-05-21T08:49:05.595022",
+    "data": {
+      "source": "CRYPTO BRIEFING"
+    },
+    "content_hash": "dd64b576d5ddbf23"
+  },
+  {
+    "id": "0773caee",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "PACK BRIEFING \u2014 ASIA: Deutsche Bank analysts note the tech-led equity rebound extended into Asia, with the KOSPI and Nikkei sharply higher after Nvidia\u2019s results drew a muted share reaction despite 85% yoy sales growth and stronger-than-expected guidance.\n\nhttps://www.fxstreet.com/news/equities-tech-led-rebound-extends-with-nvidia-in-focus-deutsche-bank-202605210833",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/forex-today-us-dollar-softens-as-fed-caution-meets-improving-us-iran-optimism-202605201955",
-    "source_title": "Forex Today: US Dollar softens as Fed caution meets improving US-Iran optimism",
-    "source_summary": "The US Dollar Index (DXY) trades with a softer tone near the 99.10 region as improving market sentiment reduces safe-haven demand for the Greenback.",
-    "drafted_at": "2026-05-20T20:38:19.897302",
+    "source_url": "https://www.fxstreet.com/news/equities-tech-led-rebound-extends-with-nvidia-in-focus-deutsche-bank-202605210833",
+    "source_title": "Equities: Tech-led rebound extends with Nvidia in focus \u2013 Deutsche Bank",
+    "source_summary": "Deutsche Bank analysts note the tech-led equity rebound extended into Asia, with the KOSPI and Nikkei sharply higher after Nvidia\u2019s results drew a muted share reaction despite 85% yoy sales growth and stronger-than-expected guidance.",
+    "drafted_at": "2026-05-21T08:49:05.595494",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "8fb0b7239a156829"
+    "content_hash": "d7d3ef61c5540ad6"
   },
   {
-    "id": "28bf2637",
+    "id": "72213b3d",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "DATA DROP: Market Minder, Fisher Last week, the University of Michigan reported its long-running (since 1952) Consumer Sentiment Index hit a record low in May, undercutting 2022's weakest-ever reading....\n\nhttps://www.realclearmarkets.com/2026/05/21/investment_implications_of_record_low_consumer_sentiment_1183988.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "REALCLEAR",
+    "source_url": "https://www.realclearmarkets.com/2026/05/21/investment_implications_of_record_low_consumer_sentiment_1183988.html",
+    "source_title": "Investment Implications of Record Low Consumer Sentiment",
+    "source_summary": "Market Minder, Fisher Last week, the University of Michigan reported its long-running (since 1952) Consumer Sentiment Index hit a record low in May, undercutting 2022's weakest-ever reading....",
+    "drafted_at": "2026-05-21T08:49:05.665780",
+    "data": {
+      "source": "REALCLEAR"
+    },
+    "content_hash": "a701d57e82588660"
+  },
+  {
+    "id": "0b6eea97",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -282,7 +401,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-05-20T20:38:19.951664",
+    "drafted_at": "2026-05-21T08:49:05.667395",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -290,24 +409,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "8b3eaa42",
-    "format": "PACK_TAKE",
-    "status": "pending",
-    "draft_text": "The herd panics together. The pack profits quietly.",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Howl Street",
-    "source_url": "",
-    "source_title": "PACK TAKE",
-    "source_summary": "The herd panics together. The pack profits quietly.",
-    "drafted_at": "2026-05-20T20:38:19.951746",
-    "data": {
-      "take_seed": "2026-05-20-pack-1"
-    },
-    "content_hash": "9b0f7be55d8ef71c"
-  },
-  {
-    "id": "17b4f53c",
+    "id": "9febb0d7",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Your alerts didn't go off because the pack got there first.",
@@ -317,9 +419,26 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Your alerts didn't go off because the pack got there first.",
-    "drafted_at": "2026-05-20T20:38:19.951801",
+    "drafted_at": "2026-05-21T08:49:05.667476",
     "data": {
-      "take_seed": "2026-05-20-pack-2"
+      "take_seed": "2026-05-21-pack-1"
+    },
+    "content_hash": "9b0f7be55d8ef71c"
+  },
+  {
+    "id": "53a73504",
+    "format": "PACK_TAKE",
+    "status": "pending",
+    "draft_text": "Information is free. Conviction is rare. Patience is rarer.",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Howl Street",
+    "source_url": "",
+    "source_title": "PACK TAKE",
+    "source_summary": "Information is free. Conviction is rare. Patience is rarer.",
+    "drafted_at": "2026-05-21T08:49:05.667529",
+    "data": {
+      "take_seed": "2026-05-21-pack-2"
     },
     "content_hash": "9b0f7be55d8ef71c"
   }
