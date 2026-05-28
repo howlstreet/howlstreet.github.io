@@ -1,23 +1,78 @@
 [
   {
-    "id": "8e0fb1f6",
+    "id": "cd7c6719",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "TODAY'S LOUDEST HOWL: Peter Navarro, Fox News New Fed Chair Kevin Warsh may be boxed in as Powell and Biden-era allies reportedly hold enough votes to force rate hikes during an oil-price shock.\n\nhttps://www.realclearmarkets.com/2026/05/27/powells_shadow_fed_majority_threatens_jobs_and_growth_1184971.html",
+    "draft_text": "FLAGSHIP READ: The United States (US) Bureau of Economic Analysis (BEA) will publish the Personal Consumption Expenditures (PCE) Price Index data for April on Thursday at 12:30 GMT.\n\nhttps://www.fxstreet.com/news/us-core-pce-inflation-expected-to-tick-up-in-april-reinforcing-fed-hawkish-shift-202605280600",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "REALCLEAR",
-    "source_url": "https://www.realclearmarkets.com/2026/05/27/powells_shadow_fed_majority_threatens_jobs_and_growth_1184971.html",
-    "source_title": "Powell's Shadow Fed Majority Threatens Jobs and Growth",
-    "source_summary": "Peter Navarro, Fox News New Fed Chair Kevin Warsh may be boxed in as Powell and Biden-era allies reportedly hold enough votes to force rate hikes during an oil-price shock.",
-    "drafted_at": "2026-05-27T20:37:30.747641",
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/us-core-pce-inflation-expected-to-tick-up-in-april-reinforcing-fed-hawkish-shift-202605280600",
+    "source_title": "US core PCE inflation expected to increase further as markets start pricing in Fed rate hikes",
+    "source_summary": "The United States (US) Bureau of Economic Analysis (BEA) will publish the Personal Consumption Expenditures (PCE) Price Index data for April on Thursday at 12:30 GMT.",
+    "drafted_at": "2026-05-28T11:06:04.258072",
     "data": {
-      "source": "REALCLEAR"
+      "source": "FXSTREET"
     },
-    "content_hash": "b54bccee9fcff307"
+    "content_hash": "a48aed3e1cb2218c"
   },
   {
-    "id": "294cccdb",
+    "id": "390d2a72",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "If you're not watching this, you're behind. VIX drops 5.9% in 5 sessions to 16.77.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CBOE \u00b7 ^VIX",
+    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "source_title": "VIX (S&P 500 volatility)",
+    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "drafted_at": "2026-05-28T11:06:04.258369",
+    "data": {
+      "signal_id": "^VIX:move:2026-05-28",
+      "kind": "move_down",
+      "current": "16.77"
+    },
+    "content_hash": "995f4d67e7e875d2"
+  },
+  {
+    "id": "490e693e",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Real-time update for the pack: WTI crude craters 16.5% in 5 sessions to $90.78.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NYMEX \u00b7 CL=F",
+    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "source_title": "WTI crude oil futures",
+    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "drafted_at": "2026-05-28T11:06:04.258608",
+    "data": {
+      "signal_id": "CL=F:move:2026-05-28",
+      "kind": "move_down",
+      "current": "$90.78"
+    },
+    "content_hash": "c272de0720a2f459"
+  },
+  {
+    "id": "104e370d",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "FOMC update. The United States (US) Bureau of Economic Analysis (BEA) will publish the Personal Consumption Expenditures (PCE) Price Index data for April on Thursday at 12:30 GMT.\n\nhttps://www.fxstreet.com/news/us-core-pce-inflation-expected-to-tick-up-in-april-reinforcing-fed-hawkish-shift-202605280600",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Fed",
+    "source_url": "https://www.fxstreet.com/news/us-core-pce-inflation-expected-to-tick-up-in-april-reinforcing-fed-hawkish-shift-202605280600",
+    "source_title": "US core PCE inflation expected to increase further as markets start pricing in Fed rate hikes",
+    "source_summary": "The United States (US) Bureau of Economic Analysis (BEA) will publish the Personal Consumption Expenditures (PCE) Price Index data for April on Thursday at 12:30 GMT.",
+    "drafted_at": "2026-05-28T11:06:04.270180",
+    "data": {
+      "actor": "Fed"
+    },
+    "content_hash": "a48aed3e1cb2218c"
+  },
+  {
+    "id": "ee163d3f",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Rate-path desk: The Board's process for setting the discount rate is distinct from the process the Federal Open Market Committee follows in setting the target range for the federal funds rate.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
@@ -27,14 +82,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
     "source_title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
     "source_summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
-    "drafted_at": "2026-05-27T20:37:30.757549",
+    "drafted_at": "2026-05-28T11:06:04.270531",
     "data": {
       "actor": "FED"
     },
     "content_hash": "b2d403ab8c4d5036"
   },
   {
-    "id": "06a14721",
+    "id": "3141148f",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FED WATCH: Also on Friday, the Federal Open Market Committee unanimously selected Warsh as its chairman.\n\nPresident Donald J.\n\nTrump nominated Mr. Warsh on March 4, 2026.\n\nHe was confirmed by the United States Senate to serve as a member of the Board on May 12, and as chairman of the Board on May 13.\n\nHis term as chairman ends on May 21, 2030, and his term as a member of the Board ends on January 31, 2040.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm",
@@ -44,14 +99,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm",
     "source_title": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
     "source_summary": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
-    "drafted_at": "2026-05-27T20:37:30.758209",
+    "drafted_at": "2026-05-28T11:06:04.271190",
     "data": {
       "actor": "FED"
     },
     "content_hash": "a5762f43aa0ef3b0"
   },
   {
-    "id": "153b9ce9",
+    "id": "03ebf081",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Policy update for the pack: Resolution plans, also known as living wills, must describe a banking organization's strategy for orderly resolution in the event of material financial distress or failure.\n\nThe agencies conducted a joint review of the 2025 resolution plan submissions from the eight largest and most complex domestic banking organizations as well as from 56 foreign banking organizations.\n\nThe agencies did not identify any shortcomings or deficiencies in these resolution plan submissions.\n\nThe agencies also determined that each derivatives-related weakness identified in the 2023 plans from Bank of America, Goldman Sachs, JPMorgan Chase, and Citigroup has been satisfactorily addressed.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260522a.htm",
@@ -61,14 +116,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260522a.htm",
     "source_title": "Agencies publish resolution plan feedback letters for certain domestic and foreign banking organizations",
     "source_summary": "Agencies publish resolution plan feedback letters for certain domestic and foreign banking organizations",
-    "drafted_at": "2026-05-27T20:37:30.759176",
+    "drafted_at": "2026-05-28T11:06:04.272171",
     "data": {
       "actor": "FED"
     },
     "content_hash": "b0e49d2209d92f96"
   },
   {
-    "id": "3ce5c2d6",
+    "id": "9a539653",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "If you trade rates, read this: Consent prohibition order against Nakia R.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260521a.htm",
@@ -78,31 +133,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260521a.htm",
     "source_title": "Federal Reserve Board issues enforcement action with former employee of Commerce Bank",
     "source_summary": "Federal Reserve Board issues enforcement action with former employee of Commerce Bank",
-    "drafted_at": "2026-05-27T20:37:30.759321",
+    "drafted_at": "2026-05-28T11:06:04.272319",
     "data": {
       "actor": "FED"
     },
     "content_hash": "b9dac9fbdced3f0f"
   },
   {
-    "id": "a99fcaab",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "FOMC desk: Payment account holders would not have access to intraday credit or the discount window, would not earn interest on balances held at a Reserve Bank, and would only have access to payment services with automated controls to prevent overdrafts.\n\nAs the payments landscape rapidly evolves, financial institutions with an increasingly wide range of business models have sought direct access to the Federal Reserve's payment services to reduce costs and increase payment speed.\n\nMany of these requests for access come from institutions that are not federally insured.\n\nThe proposed payment account would be tailored to support innovation by serving the clearing and settlement needs of certain eligible institutions while also mitigating material risks to the Reserve Banks and payment system.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/other20260520a.htm",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FED",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260520a.htm",
-    "source_title": "Federal Reserve Board requests public comment on a proposal to establish a \"payment account,\" which legally eligible financial institutions could use for the specific purpose of clearing and settling their payments",
-    "source_summary": "Federal Reserve Board requests public comment on a proposal to establish a \"payment account,\" which legally eligible financial institutions could use for the specific purpose of clearing and settling their payments",
-    "drafted_at": "2026-05-27T20:37:30.760987",
-    "data": {
-      "actor": "FED"
-    },
-    "content_hash": "31af2dadc8e93a7e"
-  },
-  {
-    "id": "fb74f9f6",
+    "id": "b202dcda",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$BRCB insider bought $73,337,883 on 2026-05-21, 3 insiders. \ud83d\udc40\n\nBlack Rock Coffee Bar, Inc.. 13,695,817 shares at $5.35.\n\n+56.6% since the purchase.\n\nhttp://openinsider.com/screener?s=BRCB",
@@ -112,7 +150,7 @@
     "source_url": "http://openinsider.com/screener?s=BRCB",
     "source_title": "Black Rock Coffee Bar, Inc. (BRCB) insider bought $73,337,883",
     "source_summary": "3 insider(s) bought 13,695,817 shares at $5.35 on 2026-05-21.",
-    "drafted_at": "2026-05-27T20:37:30.761634",
+    "drafted_at": "2026-05-28T11:06:04.274651",
     "data": {
       "ticker": "BRCB",
       "type": "P",
@@ -122,7 +160,7 @@
     "content_hash": "755b8302a285ed67"
   },
   {
-    "id": "13414b0f",
+    "id": "b6c19f53",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$NOMD insider bought $9,157,029 on 2026-05-14, 4 insiders. \ud83d\udc40\n\nNomad Foods Ltd. 964,731 shares at $9.49.\n\n+6.4% since the purchase.\n\nhttp://openinsider.com/screener?s=NOMD",
@@ -132,7 +170,7 @@
     "source_url": "http://openinsider.com/screener?s=NOMD",
     "source_title": "Nomad Foods Ltd (NOMD) insider bought $9,157,029",
     "source_summary": "4 insider(s) bought 964,731 shares at $9.49 on 2026-05-14.",
-    "drafted_at": "2026-05-27T20:37:30.761752",
+    "drafted_at": "2026-05-28T11:06:04.274769",
     "data": {
       "ticker": "NOMD",
       "type": "P",
@@ -142,7 +180,7 @@
     "content_hash": "b3404b73a8c6c373"
   },
   {
-    "id": "2674cbb5",
+    "id": "4a2c792f",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$SSP insider bought $8,089,512 on 2026-05-14, 16 insiders. \ud83d\udc40\n\nE.W. Scripps Co. 1,879,788 shares at $4.30.\n\n-20.9% since the purchase.\n\nhttp://openinsider.com/screener?s=SSP",
@@ -152,7 +190,7 @@
     "source_url": "http://openinsider.com/screener?s=SSP",
     "source_title": "E.W. Scripps Co (SSP) insider bought $8,089,512",
     "source_summary": "16 insider(s) bought 1,879,788 shares at $4.30 on 2026-05-14.",
-    "drafted_at": "2026-05-27T20:37:30.761867",
+    "drafted_at": "2026-05-28T11:06:04.274883",
     "data": {
       "ticker": "SSP",
       "type": "P",
@@ -162,27 +200,7 @@
     "content_hash": "4d14b2db682bab34"
   },
   {
-    "id": "6a57cc91",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$POOL insider bought $7,673,698 on 2026-05-13, 5 insiders. \ud83d\udc40\n\nPool Corp. 38,954 shares at $196.99.\n\n-6.4% since the purchase.\n\nhttp://openinsider.com/screener?s=POOL",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=POOL",
-    "source_title": "Pool Corp (POOL) insider bought $7,673,698",
-    "source_summary": "5 insider(s) bought 38,954 shares at $196.99 on 2026-05-13.",
-    "drafted_at": "2026-05-27T20:37:30.761975",
-    "data": {
-      "ticker": "POOL",
-      "type": "P",
-      "dollar_value": 7673698.0,
-      "pct_since": -6.386109111066873
-    },
-    "content_hash": "f7136f69661c0c20"
-  },
-  {
-    "id": "1ab75cde",
+    "id": "f445e90c",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$ZBIO insider bought $7,671,338 on 2026-05-18, 3 insiders. \ud83d\udc40\n\nZenas Biopharma, Inc.. 402,768 shares at $19.05.\n\n-5.0% since the purchase.\n\nhttp://openinsider.com/screener?s=ZBIO",
@@ -192,7 +210,7 @@
     "source_url": "http://openinsider.com/screener?s=ZBIO",
     "source_title": "Zenas Biopharma, Inc. (ZBIO) insider bought $7,671,338",
     "source_summary": "3 insider(s) bought 402,768 shares at $19.05 on 2026-05-18.",
-    "drafted_at": "2026-05-27T20:37:30.762088",
+    "drafted_at": "2026-05-28T11:06:04.274998",
     "data": {
       "ticker": "ZBIO",
       "type": "P",
@@ -202,177 +220,265 @@
     "content_hash": "a5945bef3277fffd"
   },
   {
-    "id": "132485f1",
+    "id": "e5edc8f3",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$MRP insider bought $6,647,148 on 2026-05-18, 4 insiders. \ud83d\udc40\n\nMillrose Properties, Inc.. 243,372 shares at $27.31.\n\n+2.7% since the purchase.\n\nhttp://openinsider.com/screener?s=MRP",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=MRP",
+    "source_title": "Millrose Properties, Inc. (MRP) insider bought $6,647,148",
+    "source_summary": "4 insider(s) bought 243,372 shares at $27.31 on 2026-05-18.",
+    "drafted_at": "2026-05-28T11:06:04.275113",
+    "data": {
+      "ticker": "MRP",
+      "type": "P",
+      "dollar_value": 6647148.0,
+      "pct_since": 2.746244840506716
+    },
+    "content_hash": "5a40a810f4ba2794"
+  },
+  {
+    "id": "2728edcc",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "FROM THE COURTHOUSE: A hospice fraud problem is spiraling out of control in California.\n\nThere have already been several investigations into the problem, both from federal agencies and independent journalists who have exposed sprawling complexes and buildings all focused on the same thing.\n\nNobody answering the phones.' Diagnosis: Fraud An April, a Los Angeles Times report identified a \"well-known\" building housing 89 licensed hospices.\n\nThis reportedly included a hospice operator charged with six felony counts who allegedly illegally took $2.5 million from the federal government by using collective signatures of retirees to enroll them in hospice.\n\nThe two-story building in the Van Nuys area of L.A. billed more than $38 million to Medicare in 2023 in total, the report stated, and the same building was the basis for YouTuber Danny Mullen's recent video.\n\nMullen, along with podcast co-host and fellow comedian Leo Dottavio, visited the building to find it nearly vacant, save for people operating unrelated businesses.\n\n\"A lot of these hospice businesses had numbers on the door promising 24-hour on-call customer service.\n\nSo, we rang them up,\" Mullen said in the video.\n\nhttps://www.theblaze.com/align/relyable-care-youtuber-danny-mullen-exposes-empty-la-building-with-89-licensed-hospices-raking-in-38m",
+    "draft_text": "The post The White House Intervened to Get a $620 Million Deal for a Company Tied to Donald Trump Jr. appeared first on ProPublica.\n\nhttps://www.propublica.org/article/donald-trump-jr-vulcan-deal-white-house",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "PROPUBLICA",
+    "source_url": "https://www.propublica.org/article/donald-trump-jr-vulcan-deal-white-house",
+    "source_title": "The White House Intervened to Get a $620 Million Deal for a Company Tied to Donald Trump Jr.",
+    "source_summary": "The post The White House Intervened to Get a $620 Million Deal for a Company Tied to Donald Trump Jr. appeared first on ProPublica .",
+    "drafted_at": "2026-05-28T11:06:04.276202",
+    "data": {
+      "source": "PROPUBLICA"
+    },
+    "content_hash": "0abba931ab636393"
+  },
+  {
+    "id": "7e42015f",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Steve Benen, MS NOW When the White House doesn't even understand the nature of the problem it's trying to address, success is unlikely.\n\nhttps://www.realclearmarkets.com/2026/05/28/why_stephen_millers_deficit_and_fraud_claims_were_so_absurd_1185273.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "REALCLEAR",
+    "source_url": "https://www.realclearmarkets.com/2026/05/28/why_stephen_millers_deficit_and_fraud_claims_were_so_absurd_1185273.html",
+    "source_title": "Why Stephen Miller's Deficit & Fraud Claims Were So Absurd",
+    "source_summary": "Steve Benen, MS NOW When the White House doesn't even understand the nature of the problem it's trying to address, success is unlikely.",
+    "drafted_at": "2026-05-28T11:06:04.276444",
+    "data": {
+      "source": "REALCLEAR"
+    },
+    "content_hash": "9d7b1ea492f4bdcf"
+  },
+  {
+    "id": "245fdb7f",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "FROM THE COURTHOUSE: Conventional wisdom suggests that the 2028 Republican primary is shaping up to be a chaotic affair.\n\nSupposedly, it\u2019s anyone\u2019s game, as Vice President JD Vance is weaker than he appears, while potential adversaries, including Marco Rubio, are gaining an advantage.\n\nThe fact is that the 2028 Republican nomination is Vance\u2019s to lose.\n\nThe faulty prevailing opinion has calcified for two reasons: a poor reading of history and a deficient understanding of the political landscape.\n\nJD Vance has had one of the fastest rises to the executive branch in modern American political history.\n\nBush is the only sitting vice president in the last 190 years (since 1836) to be elected president,\u201d an MS Now analyst recently wrote.\n\nHe is not alone: the \u201c190 years\u201d number has been trotted out by those who contend that Vance stands little chance of winning the presidency in 2028.\n\nOn its face, this line of argument should be ignored because comparing the politics of 1840s America to the present is a fool\u2019s errand: The country has changed significantly in that time, as has the party system.\n\nhttps://www.theblaze.com/columns/opinion/jd-vance-might-be-unstoppable-in-2028",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "THE BLAZE",
-    "source_url": "https://www.theblaze.com/align/relyable-care-youtuber-danny-mullen-exposes-empty-la-building-with-89-licensed-hospices-raking-in-38m",
-    "source_title": "'Relyable' care: YouTuber Danny Mullen exposes empty LA building with 89 licensed hospices raking in $38M",
-    "source_summary": "A hospice fraud problem is spiraling out of control in California. There have already been several investigations into the problem, both from federal agencies and independent journalists who have exposed sprawling complexes and buildings all focused on the same thing. 'Nobody there in person. Nobody answering the phones.' Diagnosis: Fraud An April, a Los Angeles Times report identified a \"well-kno",
-    "drafted_at": "2026-05-27T20:37:30.765240",
+    "source_url": "https://www.theblaze.com/columns/opinion/jd-vance-might-be-unstoppable-in-2028",
+    "source_title": "JD Vance might be unstoppable in 2028",
+    "source_summary": "Conventional wisdom suggests that the 2028 Republican primary is shaping up to be a chaotic affair. Supposedly, it\u2019s anyone\u2019s game, as Vice President JD Vance is weaker than he appears, while potential adversaries, including Marco Rubio, are gaining an advantage. This view is untethered from reality. The fact is that the 2028 Republican nomination is Vance\u2019s to lose. The faulty prevailing opinion ",
+    "drafted_at": "2026-05-28T11:06:04.281798",
     "data": {
       "source": "THE BLAZE"
     },
-    "content_hash": "d95217ce844a8787"
+    "content_hash": "00dd86593e1a319a"
   },
   {
-    "id": "5d7c5e55",
+    "id": "145feb61",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "Vance's Task Force to Eliminate Fraud has taken a number of actions to tackle fraud in the SNAP program in the months since its establishment.\n\nThe post Vance\u2019s Anti-Fraud Task Force Racks Up Wins Against SNAP Fraud appeared first on Breitbart.\n\nhttps://www.breitbart.com/politics/2026/05/27/vances-anti-fraud-task-force-racks-up-wins-against-snap-fraud/",
+    "draft_text": "Prosecutors charged Spagnuolo with fraud and money laundering, while the CFTC filed a complaint alleging insider trading violations.\n\nhttps://www.theblock.co/post/402806/google-engineer-insider-trading-polymarket?utm_source=rss&utm_medium=rss",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "BREITBART",
-    "source_url": "https://www.breitbart.com/politics/2026/05/27/vances-anti-fraud-task-force-racks-up-wins-against-snap-fraud/",
-    "source_title": "Vance's Anti-Fraud Task Force Racks Up Wins Against SNAP Fraud",
-    "source_summary": "Vice President J.D. Vance's Task Force to Eliminate Fraud has taken a number of actions to tackle fraud in the SNAP program in the months since its establishment. The post Vance\u2019s Anti-Fraud Task Force Racks Up Wins Against SNAP Fraud appeared first on Breitbart .",
-    "drafted_at": "2026-05-27T20:37:30.765707",
+    "primary_source": "THE BLOCK",
+    "source_url": "https://www.theblock.co/post/402806/google-engineer-insider-trading-polymarket?utm_source=rss&utm_medium=rss",
+    "source_title": "US charges Google engineer with using internal search data to pocket $1.2 million on Polymarket",
+    "source_summary": "Prosecutors charged Spagnuolo with fraud and money laundering, while the CFTC filed a complaint alleging insider trading violations.",
+    "drafted_at": "2026-05-28T11:06:04.282035",
     "data": {
-      "source": "BREITBART"
+      "source": "THE BLOCK"
     },
-    "content_hash": "00e844d55c54fc7b"
+    "content_hash": "f219d56f11cc7475"
   },
   {
-    "id": "ce5cddcc",
+    "id": "27df5eea",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "PROTECTION BRIEFING: Bitcoin Magazine Casa Launches Four Security Features to Combat Rising Social Engineering Attacks on Bitcoin Holders Bitcoin security firm Casa has released a suite of four features targeting social engineering, the attack vector responsible for the bulk of crypto theft in 2025.\n\nThe features are live now for Casa customers, arriving as the FBI reports crypto fraud losses climbed 22% year over year to more than $11 billion last year.\n\nSocial [\u2026] This post Casa Launches Four Security Features to Combat Rising Social Engineering Attacks on Bitcoin Holders first appeared on Bitcoin Magazine and is written by Micah Zimmerman.\n\nhttps://bitcoinmagazine.com/news/casa-launches-four-security-features-crime",
+    "draft_text": "While Republicans hunt for fraud, many Democrats denounce them before quietly launching their own investigations, writes Jonas Du.\n\nhttps://www.thefp.com/p/democrats-cant-decide-whether-the-problem-is-fraud-or-the-people-exposing-it",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "BITCOIN MAG",
-    "source_url": "https://bitcoinmagazine.com/news/casa-launches-four-security-features-crime",
-    "source_title": "Casa Launches Four Security Features to Combat Rising Social Engineering Attacks on Bitcoin Holders",
-    "source_summary": "Bitcoin Magazine Casa Launches Four Security Features to Combat Rising Social Engineering Attacks on Bitcoin Holders Bitcoin security firm Casa has released a suite of four features targeting social engineering, the attack vector responsible for the bulk of crypto theft in 2025. The features are live now for Casa customers, arriving as the FBI reports crypto fraud losses climbed 22% year over year",
-    "drafted_at": "2026-05-27T20:37:30.766617",
+    "primary_source": "FREE PRESS",
+    "source_url": "https://www.thefp.com/p/democrats-cant-decide-whether-the-problem-is-fraud-or-the-people-exposing-it",
+    "source_title": "Democrats Can\u2019t Decide Whether the Problem Is Fraud or the People Exposing It",
+    "source_summary": "While Republicans hunt for fraud, many Democrats denounce them before quietly launching their own investigations, writes Jonas Du.",
+    "drafted_at": "2026-05-28T11:06:04.282264",
     "data": {
-      "source": "BITCOIN MAG"
+      "source": "FREE PRESS"
     },
-    "content_hash": "245e417f3d23d3de"
+    "content_hash": "3ce07b481a1f7349"
   },
   {
-    "id": "8d5f96a7",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "PACK ALERT \u2014 SCAM: The popular doughnut company Krispy Kreme could owe some customers up to $3,500 after settling a class-action lawsuit.\n\nhttps://www.latimes.com/business/story/2026-05-27/krispy-kreme-customers-could-get-3-500-in-payouts-after-data-breach",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "LA TIMES",
-    "source_url": "https://www.latimes.com/business/story/2026-05-27/krispy-kreme-customers-could-get-3-500-in-payouts-after-data-breach",
-    "source_title": "Krispy Kreme customers could get $3,500 in payouts after data breach",
-    "source_summary": "The popular doughnut company Krispy Kreme could owe some customers up to $3,500 after settling a class-action lawsuit.",
-    "drafted_at": "2026-05-27T20:37:30.766856",
-    "data": {
-      "source": "LA TIMES"
-    },
-    "content_hash": "0c0e9b38148f27b8"
-  },
-  {
-    "id": "0cb140fc",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "FRAUDSTER DOWN: As governments seek to ban the machines, bitcoin ATMs remain entwined with cryptocurrency industry's most mainstream players.\n\nhttps://www.icij.org/investigations/coin-laundry/amid-a-scam-crackdown-crypto-giants-keep-fueling-bitcoin-atms/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "ICIJ",
-    "source_url": "https://www.icij.org/investigations/coin-laundry/amid-a-scam-crackdown-crypto-giants-keep-fueling-bitcoin-atms/",
-    "source_title": "Amid a scam crackdown, crypto giants keep fueling bitcoin ATMs",
-    "source_summary": "As governments seek to ban the machines, bitcoin ATMs remain entwined with cryptocurrency industry's most mainstream players.",
-    "drafted_at": "2026-05-27T20:37:30.767064",
-    "data": {
-      "source": "ICIJ"
-    },
-    "content_hash": "51d6ceac801c3765"
-  },
-  {
-    "id": "bb1df6b8",
+    "id": "129b861e",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Asia overnight: Jefferson, Lane and Greene are all speaking in Tokyo.\n\nI'll have more to come on this separately This article was written by Eamonn Sheridan at investinglive.com.\n\nhttps://investinglive.com/news/economic-and-event-calendar-in-asia-thursday-may-28-2026-central-bankers-speaking-20260527/",
+    "draft_text": "CHINA DESK: Huang's advisory role may enhance Nvidia's strategic diplomacy, balancing US-China tensions while safeguarding its market position and innovation edge.\n\nThe post Nvidia chief Jensen Huang joins advisory board of Beijing university chaired by Tim Cook appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/nvidia-huang-tsinghua-advisory-board-beijing/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/economic-and-event-calendar-in-asia-thursday-may-28-2026-central-bankers-speaking-20260527/",
-    "source_title": "Economic and event calendar in Asia Thursday, May 28, 2026",
-    "source_summary": "Jefferson, Lane and Greene are all speaking in Tokyo. I'll have more to come on this separately This article was written by Eamonn Sheridan at investinglive.com.",
-    "drafted_at": "2026-05-27T20:37:30.769603",
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/nvidia-huang-tsinghua-advisory-board-beijing/",
+    "source_title": "Nvidia chief Jensen Huang joins advisory board of Beijing university chaired by Tim Cook",
+    "source_summary": "Huang's advisory role may enhance Nvidia's strategic diplomacy, balancing US-China tensions while safeguarding its market position and innovation edge. The post Nvidia chief Jensen Huang joins advisory board of Beijing university chaired by Tim Cook appeared first on Crypto Briefing .",
+    "drafted_at": "2026-05-28T11:06:04.285178",
     "data": {
-      "source": "FOREXLIVE"
+      "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "39c421c7ce16eae7"
+    "content_hash": "011fae263d3dd1a2"
   },
   {
-    "id": "8abe56ab",
+    "id": "8a275ffc",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "CHINA DESK: Rubio's visit to India comes as Washington seeks closer ties with New Delhi amid trade tensions and energy politics.\n\nhttps://www.aljazeera.com/video/counting-the-cost/2026/5/27/can-the-us-and-india-repair-ties-over-trade-and-china?traffic_source=rss",
+    "draft_text": "Cross-border read: Ingredion partners with Sanstar to expand specialty food and pharma ingredient capabilities in India, launching a JV and new manufacturing platform.\n\nhttps://www.globenewswire.com/news-release/2026/05/28/3302680/0/en/Ingredion-announces-strategic-partnership-with-Sanstar-Limited-expanding-access-to-pharma-and-food-ingredient-markets-in-India.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/video/counting-the-cost/2026/5/27/can-the-us-and-india-repair-ties-over-trade-and-china?traffic_source=rss",
-    "source_title": "Can the US and India repair ties over trade and China?",
-    "source_summary": "Rubio's visit to India comes as Washington seeks closer ties with New Delhi amid trade tensions and energy politics.",
-    "drafted_at": "2026-05-27T20:37:30.769909",
+    "primary_source": "GLOBENEWSWIRE",
+    "source_url": "https://www.globenewswire.com/news-release/2026/05/28/3302680/0/en/Ingredion-announces-strategic-partnership-with-Sanstar-Limited-expanding-access-to-pharma-and-food-ingredient-markets-in-India.html",
+    "source_title": "Ingredion announces strategic partnership with Sanstar Limited expanding access to pharma and food ingredient markets in India",
+    "source_summary": "Ingredion partners with Sanstar to expand specialty food and pharma ingredient capabilities in India, launching a JV and new manufacturing platform.",
+    "drafted_at": "2026-05-28T11:06:04.285684",
     "data": {
-      "source": "AL JAZEERA"
+      "source": "GLOBENEWSWIRE"
     },
-    "content_hash": "53d18a33aa9aa698"
+    "content_hash": "7ea44ef20bf3a634"
   },
   {
-    "id": "c4a1a075",
+    "id": "78b44455",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Levant update: The sudden halt of liquefied natural gas (LNG) flows from the Middle East has prompted Asian buyers to seek long-term solutions to secure supply from sources not needing the blocked Strait of Hormuz.\n\nAs Qatar\u2019s LNG shipments are under force majeure until at least mid-August and full LNG export capacity may not be restored for another five years, LNG customers are looking to sign long-term supply deals with exporters outside of conflict areas.\n\nThailand, the top LNG importer in Southeast Asia, is now looking to boost its U.S. gas supply to\u2026\n\nhttps://oilprice.com/Energy/Energy-General/Middle-East-Crisis-Accelerates-US-Thailand-LNG-Supply-Talks.html",
+    "draft_text": "Asia overnight: HONG KONG, May 28, 2026 /PRNewswire/ -- SU Group Holdings Limited (Nasdaq: SUGP) (\"SU Group\" or the \"Company\"), an integrated security-related engineering services company in Hong Kong, today announced its Fortune Jet subsidiary has become the first company in Hong Kong approved by the...\n\nhttps://www.prnewswire.com/news-releases/su-groups-fortune-jet-becomes-first-company-in-hong-kong-approved-to-deliver-qasrs-security-training-in-english-cantonese-and-mandarin-302783823.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "OILPRICE",
-    "source_url": "https://oilprice.com/Energy/Energy-General/Middle-East-Crisis-Accelerates-US-Thailand-LNG-Supply-Talks.html",
-    "source_title": "Middle East Crisis Accelerates U.S.-Thailand LNG Supply Talks",
-    "source_summary": "The sudden halt of liquefied natural gas (LNG) flows from the Middle East has prompted Asian buyers to seek long-term solutions to secure supply from sources not needing the blocked Strait of Hormuz. As Qatar\u2019s LNG shipments are under force majeure until at least mid-August and full LNG export capacity may not be restored for another five years, LNG customers are looking to sign long-term supply d",
-    "drafted_at": "2026-05-27T20:37:30.772088",
+    "primary_source": "PR NEWSWIRE",
+    "source_url": "https://www.prnewswire.com/news-releases/su-groups-fortune-jet-becomes-first-company-in-hong-kong-approved-to-deliver-qasrs-security-training-in-english-cantonese-and-mandarin-302783823.html",
+    "source_title": "SU Group's Fortune Jet Becomes First Company in Hong Kong Approved to Deliver QASRS Security Training in English, Cantonese and Mandarin",
+    "source_summary": "HONG KONG, May 28, 2026 /PRNewswire/ -- SU Group Holdings Limited (Nasdaq: SUGP) (\"SU Group\" or the \"Company\"), an integrated security-related engineering services company in Hong Kong, today announced its Fortune Jet subsidiary has become the first company in Hong Kong approved by the...",
+    "drafted_at": "2026-05-28T11:06:04.286770",
     "data": {
-      "source": "OILPRICE"
+      "source": "PR NEWSWIRE"
     },
-    "content_hash": "8a12ac52145a07f2"
+    "content_hash": "a0d35f535c06b7d5"
   },
   {
-    "id": "77565819",
+    "id": "996c5660",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Cross-border read: The interior minister urged officials to address infiltration, narcotics, smuggling, and other 'trans-border crimes'.\n\nhttps://www.aljazeera.com/news/2026/5/27/india-orders-demolition-drive-along-border-as-pakistan-tensions-simmer?traffic_source=rss",
+    "draft_text": "Gulf wire: Rising US-Iran tensions could destabilize Middle East geopolitics, impacting global oil markets and complicating diplomatic resolutions.\n\nThe post US-Iran ceasefire unravels, tensions rise, oil prices surge appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/us-iran-ceasefire-unravels-tensions-rise-oil-prices-surge/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/news/2026/5/27/india-orders-demolition-drive-along-border-as-pakistan-tensions-simmer?traffic_source=rss",
-    "source_title": "India orders demolition drive along border as Pakistan tensions simmer",
-    "source_summary": "The interior minister urged officials to address infiltration, narcotics, smuggling, and other 'trans-border crimes'.",
-    "drafted_at": "2026-05-27T20:37:30.772791",
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/us-iran-ceasefire-unravels-tensions-rise-oil-prices-surge/",
+    "source_title": "US-Iran ceasefire unravels, tensions rise, oil prices surge",
+    "source_summary": "Rising US-Iran tensions could destabilize Middle East geopolitics, impacting global oil markets and complicating diplomatic resolutions. The post US-Iran ceasefire unravels, tensions rise, oil prices surge appeared first on Crypto Briefing .",
+    "drafted_at": "2026-05-28T11:06:04.287851",
     "data": {
-      "source": "AL JAZEERA"
+      "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "f51c68f68cb577de"
+    "content_hash": "6be7e39df075f39b"
   },
   {
-    "id": "24e86eaf",
+    "id": "2f9be7d8",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Gulf wire: Iran's state broadcaster said Wednesday that Tehran had received an initial draft of a 14-point Memorandum of Understanding (MOU) framework with the United States, one that would reopen the Strait of Hormuz, lift the US naval blockade on Iranian ports, and pull US forces back from Iranian territory.\n\nhttps://www.fxstreet.com/news/crude-oil-prices-a-deal-the-white-house-calls-a-lie-202605271953",
+    "draft_text": "Gulf wire: The near-$1 billion crypto liquidation spree comes amid rising tensions over the U.S.-Iran conflict and ETF outflows.\n\nhttps://decrypt.co/369255/bitcoin-slips-under-73k-as-crypto-liquidations-near-1b",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "DECRYPT",
+    "source_url": "https://decrypt.co/369255/bitcoin-slips-under-73k-as-crypto-liquidations-near-1b",
+    "source_title": "Bitcoin Slips Under $73K as Crypto Liquidations Near $1B",
+    "source_summary": "The near-$1 billion crypto liquidation spree comes amid rising tensions over the U.S.-Iran conflict and ETF outflows.",
+    "drafted_at": "2026-05-28T11:06:04.288570",
+    "data": {
+      "source": "DECRYPT"
+    },
+    "content_hash": "5ed6489d78d53deb"
+  },
+  {
+    "id": "eef9bd7f",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "The CPI scoreboard: Gold price (XAU/USD) trades 1.43% lower to near $4,390 during the European trading session on Thursday, close to its fresh two-month low of $4.366.56 posted earlier in the day.\n\nThe precious metal faces intense selling pressure as renewed Middle East crisis have prompted oil prices.\n\nhttps://www.fxstreet.com/news/gold-price-forecast-trades-near-two-month-low-ahead-of-us-pce-inflation-data-202605281038",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/crude-oil-prices-a-deal-the-white-house-calls-a-lie-202605271953",
-    "source_title": "Crude Oil prices a deal the White House calls a lie",
-    "source_summary": "Iran's state broadcaster said Wednesday that Tehran had received an initial draft of a 14-point Memorandum of Understanding (MOU) framework with the United States, one that would reopen the Strait of Hormuz, lift the US naval blockade on Iranian ports, and pull US forces back from Iranian territory.",
-    "drafted_at": "2026-05-27T20:37:30.773266",
+    "source_url": "https://www.fxstreet.com/news/gold-price-forecast-trades-near-two-month-low-ahead-of-us-pce-inflation-data-202605281038",
+    "source_title": "Gold Price Forecast: Trades near two-month low ahead of US PCE Inflation data",
+    "source_summary": "Gold price (XAU/USD) trades 1.43% lower to near $4,390 during the European trading session on Thursday, close to its fresh two-month low of $4.366.56 posted earlier in the day. The precious metal faces intense selling pressure as renewed Middle East crisis have prompted oil prices.",
+    "drafted_at": "2026-05-28T11:06:04.357049",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "688fcf5208b8ac34"
+    "content_hash": "8aa14a4328e8c0a7"
   },
   {
-    "id": "e95151d4",
+    "id": "a10ea1b8",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "From the inflation desk: The United States (US) Bureau of Economic Analysis (BEA) will publish the Personal Consumption Expenditures (PCE) Price Index data for April on Thursday at 12:30 GMT.\n\nhttps://www.fxstreet.com/news/us-core-pce-inflation-expected-to-tick-up-in-april-reinforcing-fed-hawkish-shift-202605280600",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/us-core-pce-inflation-expected-to-tick-up-in-april-reinforcing-fed-hawkish-shift-202605280600",
+    "source_title": "US core PCE inflation expected to increase further as markets start pricing in Fed rate hikes",
+    "source_summary": "The United States (US) Bureau of Economic Analysis (BEA) will publish the Personal Consumption Expenditures (PCE) Price Index data for April on Thursday at 12:30 GMT.",
+    "drafted_at": "2026-05-28T11:06:04.357282",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "a48aed3e1cb2218c"
+  },
+  {
+    "id": "1878cf31",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "Inflation update: EUROPEAN SESSION In the European session, we have lots of low tier data releases like the French PPI and Spanish Retail Sales that are not going to change anything for the ECB at this point.\n\nTherefore, the market reaction will likely be muted.\n\nAs a reminder, the ECB is widely expected to deliver an \"insurance\" rate hike in June and then take a pause at least until September to see how the economic data and the US-Iran situation evolves over the summer.\n\nAMERICAN SESSION In the American session, we get the latest US Jobless Claims figures and the US PCE price index for April.\n\nInitial Claims are expected at 210K vs 209K prior, while Continuing Claims are seen at 1784K vs 1782K prior.\n\nAll the US jobs data has been pointing to a resilient and even strengthening labour market.\n\nThe Fed has now turned its focus to inflation.\n\nThe US PCE Y/Y is expected at 3.8% vs 3.5% prior, while the Core PCE Y/Y is seen at 3.3% vs 3.2% prior.\n\nhttps://investinglive.com/news/what-are-the-main-events-for-today-20260528/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/what-are-the-main-events-for-today-20260528/",
+    "source_title": "What are the main events for today?",
+    "source_summary": "EUROPEAN SESSION In the European session, we have lots of low tier data releases like the French PPI and Spanish Retail Sales that are not going to change anything for the ECB at this point. Therefore, the market reaction will likely be muted. As a reminder, the ECB is widely expected to deliver an \"insurance\" rate hike in June and then take a pause at least until September to see how the economic",
+    "drafted_at": "2026-05-28T11:06:04.358588",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "59778ac98e99630a"
+  },
+  {
+    "id": "72fbf367",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "INFLATION READ: Google engineer Polymarket insider trading case: What young traders should learn Gold has been slammed on renewed hostilities in the Gulf Fed's Goolsbee warns AI hype and oil shock are combining to push rates higher Kuwait air defenses responding to hostile missile and drone attacks New Zealand budget deficit narrows but growth downgrade and inflation peak loom US sanctions Iran's Hormuz toll body as Bessent vows maximum pressure on Tehran Is NVDA Stock a Buy or Sell?\n\nAustralia capex surges on data centre spend but households cut back sharply Bank of Korea holds at 2.50% but dot plot points firmly to rate hikes ahead Japanese bond yields rise as bridging bond plan stirs fresh fiscal worry.\n\nBitcoin Analysis Today: BTC Tries to Defend 74,400 as Bearish 4h Structure Holds US and Iran offer clashing accounts of fresh Hormuz confrontation near Bandar Abbas PBOC sets USD/ CNY reference rate for today at 6.8240 (vs. estimate at 6.7861) Fed's Jefferson says stopping second-round inflation effects is the Fed's core task ECB's Lane warns Iran war inflation could persist long after conflict ends Fed's Kashkari says inflation much too high and remains his top priority South Korea's Kospi kopping it, drops lower ahead of Bank of Korea decision Fed's Jefferson says monetary policy is well positioned to respond, not prejudge June meet US strikes Iranian military site and downs drones in new Hormuz threat operation Hormuz explosions, Iran.\n\nReport it was US defense operation, ceasefire still holds.\n\nMorgan Stanley sees S&P 500 hitting 8,300 but warns rally is narrow and risks are rising ICYMI - Goldman Sachs lifts S&P 500 target to 8,000 on AI-fuelled earnings surge US stocks: BoA warns of summer stock rout as cash levels fall and bullish sentiment peaks Iran's red lines unchanged as nuclear talks deadlock persists on all four core issues Oil: Private inventory survey shows a headline crude oil draw smaller than expected RBNZ's Breman signals cash rate must rise further as inflationary pressures build Fed's Cook flags oil price as key risk as she watches inflation expectations closely Fed and ECB take centre stage at BOJ conference day two fireside chat RBNZ Gov Breman sees weaker growth, inflation.\n\nEconomic and event calendar in Asia Thursday, May 28, 2026 - central bankers speaking Fed Gov Cook says rates should hold for now but flags hike risk on stubborn inflation Summary: Oil surged to session highs after Iran launched missiles and drones against Kuwait and claimed responsibility for striking a US air base, effectively ending any pretence that the ceasefire remains functional The IRGC said the Kuwait attack was direct retaliation for the earlier US strike near Bandar Abbas Airport and warned any further US action would trigger a more decisive response US-Iran nuclear and Hormuz talks stalled, pushing Brent crude back higher after earlier peace hopes had briefly pulled prices lower this week The US sanctioned Iran's Persian Gulf Strait Authority, the body administering Hormuz tolls, with Treasury Secretary Bessent saying maximum pressure on Tehran continues A chorus of central bankers gathered in Tokyo struck a consistently hawkish tone, with Fed officials Cook, Jefferson, Kashkari, and Goolsbee all flagging upside inflation risks and resistance to early easing ECB Chief Economist Lane warned second-round energy shock effects would persist well beyond any Iran war resolution The Bank of Korea held rates at 2.50% but two members dissented for an immediate hike and the dot plot showed the majority of projections pointing to 3.00% within six months RBNZ Governor Breman signalling hikes would come sooner and by more than previously expected New Zealand's budget forecast a narrower 2025/26 deficit but cut its 2026/27 GDP growth forecast to 2.3% and projected inflation peaking at 4.0% in Q2 2026 Australian Q1 capex surged 6.5%, driven by data centre equipment investment, though the gain is expected to be largely offset by higher capital goods imports in next week's GDP figures; April household spending fell 1.1%, more than double expectations Regional equities fell; the US dollar rose; gold dropped more than $60 Oil dominated the session from start to finish, and the arc of the price action told the story of the day.\n\nPrices initially pushed higher after a US official confirmed that American forces had struck an Iranian military site near Bandar Abbas and intercepted four one-way attack drones that had been launched toward a US navy vessel and a commercial ship.\n\nA fifth drone launcher was hit on the ground before it could fire.\n\nhttps://investinglive.com/news/investinglive-asia-pacific-fx-news-wrap-gulf-hostilities-ceasefire-end-gold-slammed-20260528/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/investinglive-asia-pacific-fx-news-wrap-gulf-hostilities-ceasefire-end-gold-slammed-20260528/",
+    "source_title": "investingLive Asia-Pacific FX news wrap: Gulf hostilities, ceasefire end? Gold slammed.",
+    "source_summary": "Google engineer Polymarket insider trading case: What young traders should learn Gold has been slammed on renewed hostilities in the Gulf Fed's Goolsbee warns AI hype and oil shock are combining to push rates higher Kuwait air defenses responding to hostile missile and drone attacks New Zealand budget deficit narrows but growth downgrade and inflation peak loom US sanctions Iran's Hormuz toll body",
+    "drafted_at": "2026-05-28T11:06:04.364425",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "3a6c5411945e9e51"
+  },
+  {
+    "id": "d1caa289",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -382,7 +488,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-05-27T20:37:30.827376",
+    "drafted_at": "2026-05-28T11:06:04.366029",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -390,24 +496,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "ea021892",
-    "format": "PACK_TAKE",
-    "status": "pending",
-    "draft_text": "Soft landing is the most dangerous phrase in central banking.",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Howl Street",
-    "source_url": "",
-    "source_title": "PACK TAKE",
-    "source_summary": "Soft landing is the most dangerous phrase in central banking.",
-    "drafted_at": "2026-05-27T20:37:30.827467",
-    "data": {
-      "take_seed": "2026-05-27-pack-1"
-    },
-    "content_hash": "9b0f7be55d8ef71c"
-  },
-  {
-    "id": "f0439afd",
+    "id": "35223fe5",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "When everyone's positioned for a crash, the crash takes a vacation.",
@@ -417,9 +506,26 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "When everyone's positioned for a crash, the crash takes a vacation.",
-    "drafted_at": "2026-05-27T20:37:30.827543",
+    "drafted_at": "2026-05-28T11:06:04.366115",
     "data": {
-      "take_seed": "2026-05-27-pack-2"
+      "take_seed": "2026-05-28-pack-1"
+    },
+    "content_hash": "9b0f7be55d8ef71c"
+  },
+  {
+    "id": "36307b8d",
+    "format": "PACK_TAKE",
+    "status": "pending",
+    "draft_text": "Gold doesn't pay a dividend. Neither does a fire extinguisher.",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Howl Street",
+    "source_url": "",
+    "source_title": "PACK TAKE",
+    "source_summary": "Gold doesn't pay a dividend. Neither does a fire extinguisher.",
+    "drafted_at": "2026-05-28T11:06:04.366170",
+    "data": {
+      "take_seed": "2026-05-28-pack-2"
     },
     "content_hash": "9b0f7be55d8ef71c"
   }
