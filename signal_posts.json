@@ -1,44 +1,16 @@
 {
-  "^GSPC:high:2026-05-28": {
-    "headline": "S&P 500 just hit 7,553.99 \u2014 highest in 9+ years",
-    "matters": "The benchmark of U.S. equities. Watched globally as the proxy for risk-on / risk-off.",
-    "source": "Yahoo Finance \u00b7 ^GSPC",
+  "^DJI:high:2026-05-28": {
+    "headline": "Dow just hit 50,702.36 \u2014 highest in 9+ years",
+    "matters": "30 large U.S. industrials. Slower-moving than the S&P but the headline number retail readers track.",
+    "source": "Yahoo Finance \u00b7 ^DJI",
     "chart_path": null,
-    "signal_id": "^GSPC:high:2026-05-28",
-    "current_str": "7,553.99",
-    "label": "S&P 500",
-    "hashtags": "#SPX #SP500 #Stocks #Markets",
+    "signal_id": "^DJI:high:2026-05-28",
+    "current_str": "50,702.36",
+    "label": "Dow Jones Industrial Average",
+    "hashtags": "#Dow #Stocks #Markets",
     "kind": "high",
     "badge": "9Y HIGH",
-    "data_url": "https://finance.yahoo.com/quote/%5EGSPC",
-    "fired_at": "2026-05-28T15:24:30.084817"
-  },
-  "^IXIC:high:2026-05-28": {
-    "headline": "Nasdaq just hit 26,826.11 \u2014 highest in 9+ years",
-    "matters": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
-    "source": "Yahoo Finance \u00b7 ^IXIC",
-    "chart_path": null,
-    "signal_id": "^IXIC:high:2026-05-28",
-    "current_str": "26,826.11",
-    "label": "Nasdaq Composite",
-    "hashtags": "#Nasdaq #Tech #Stocks",
-    "kind": "high",
-    "badge": "9Y HIGH",
-    "data_url": "https://finance.yahoo.com/quote/%5EIXIC",
-    "fired_at": "2026-05-28T15:24:30.084817"
-  },
-  "BTC-USD:move:2026-05-28": {
-    "headline": "Bitcoin drops 5.4% in 5 sessions to $72,761",
-    "matters": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
-    "source": "Yahoo Finance \u00b7 BTC-USD",
-    "chart_path": null,
-    "signal_id": "BTC-USD:move:2026-05-28",
-    "current_str": "$72,761",
-    "label": "Bitcoin",
-    "hashtags": "#Bitcoin #BTC #Crypto",
-    "kind": "move_down",
-    "badge": "-5.4%",
-    "data_url": "https://finance.yahoo.com/quote/BTC-USD",
-    "fired_at": "2026-05-28T15:24:30.084817"
+    "data_url": "https://finance.yahoo.com/quote/%5EDJI",
+    "fired_at": "2026-05-28T16:56:04.400219"
   }
 }
