@@ -1,44 +1,44 @@
 {
-  "^VIX:move:2026-05-29": {
-    "headline": "VIX tumbles 12.2% in 5 sessions to 15.85",
-    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "source": "CBOE \u00b7 ^VIX",
-    "chart_path": null,
-    "signal_id": "^VIX:move:2026-05-29",
-    "current_str": "15.85",
-    "label": "VIX (S&P 500 volatility)",
-    "hashtags": "#VIX #Volatility #Markets",
-    "kind": "move_down",
-    "badge": "-12.2%",
-    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "fired_at": "2026-05-29T10:37:58.673562"
-  },
-  "^GSPC:high:2026-05-28": {
-    "headline": "S&P 500 just hit 7,563.63 \u2014 highest in 9+ years",
+  "^GSPC:high:2026-05-29": {
+    "headline": "S&P 500 just hit 7,594.55 \u2014 highest in 9+ years",
     "matters": "The benchmark of U.S. equities. Watched globally as the proxy for risk-on / risk-off.",
     "source": "Yahoo Finance \u00b7 ^GSPC",
     "chart_path": null,
-    "signal_id": "^GSPC:high:2026-05-28",
-    "current_str": "7,563.63",
+    "signal_id": "^GSPC:high:2026-05-29",
+    "current_str": "7,594.55",
     "label": "S&P 500",
     "hashtags": "#SPX #SP500 #Stocks #Markets",
     "kind": "high",
     "badge": "9Y HIGH",
     "data_url": "https://finance.yahoo.com/quote/%5EGSPC",
-    "fired_at": "2026-05-29T10:37:58.673562"
+    "fired_at": "2026-05-29T13:52:56.275876"
   },
-  "^IXIC:high:2026-05-28": {
-    "headline": "Nasdaq just hit 26,917.47 \u2014 highest in 9+ years",
+  "^IXIC:high:2026-05-29": {
+    "headline": "Nasdaq just hit 27,062.28 \u2014 highest in 9+ years",
     "matters": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
     "source": "Yahoo Finance \u00b7 ^IXIC",
     "chart_path": null,
-    "signal_id": "^IXIC:high:2026-05-28",
-    "current_str": "26,917.47",
+    "signal_id": "^IXIC:high:2026-05-29",
+    "current_str": "27,062.28",
     "label": "Nasdaq Composite",
     "hashtags": "#Nasdaq #Tech #Stocks",
     "kind": "high",
     "badge": "9Y HIGH",
     "data_url": "https://finance.yahoo.com/quote/%5EIXIC",
-    "fired_at": "2026-05-29T10:37:58.673562"
+    "fired_at": "2026-05-29T13:52:56.275876"
+  },
+  "^DJI:high:2026-05-29": {
+    "headline": "Dow just hit 50,834.76 \u2014 highest in 9+ years",
+    "matters": "30 large U.S. industrials. Slower-moving than the S&P but the headline number retail readers track.",
+    "source": "Yahoo Finance \u00b7 ^DJI",
+    "chart_path": null,
+    "signal_id": "^DJI:high:2026-05-29",
+    "current_str": "50,834.76",
+    "label": "Dow Jones Industrial Average",
+    "hashtags": "#Dow #Stocks #Markets",
+    "kind": "high",
+    "badge": "9Y HIGH",
+    "data_url": "https://finance.yahoo.com/quote/%5EDJI",
+    "fired_at": "2026-05-29T13:52:56.275876"
   }
 }
