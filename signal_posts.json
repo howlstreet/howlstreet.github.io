@@ -1,1 +1,30 @@
-{}
+{
+  "BTC-USD:move:2026-05-30": {
+    "headline": "Bitcoin drops 5.1% in 5 sessions to $73,544",
+    "matters": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
+    "source": "Yahoo Finance \u00b7 BTC-USD",
+    "chart_path": null,
+    "signal_id": "BTC-USD:move:2026-05-30",
+    "current_str": "$73,544",
+    "label": "Bitcoin",
+    "hashtags": "#Bitcoin #BTC #Crypto",
+    "kind": "move_down",
+    "badge": "-5.1%",
+    "data_url": "https://finance.yahoo.com/quote/BTC-USD",
+    "fired_at": "2026-05-30T01:57:30.316891"
+  },
+  "CL=F:move:2026-05-29": {
+    "headline": "WTI crude craters 18.6% in 5 sessions to $87.76",
+    "matters": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "source": "NYMEX \u00b7 CL=F",
+    "chart_path": null,
+    "signal_id": "CL=F:move:2026-05-29",
+    "current_str": "$87.76",
+    "label": "WTI crude oil futures",
+    "hashtags": "#Oil #WTI #Energy #Commodities",
+    "kind": "move_down",
+    "badge": "-18.6%",
+    "data_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "fired_at": "2026-05-30T01:57:30.316891"
+  }
+}
