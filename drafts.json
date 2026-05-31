@@ -1,6 +1,63 @@
 [
   {
-    "id": "9dca5a4d",
+    "id": "9b9d74f6",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Worth a look. S&P 500 just hit 7,580.06 \u2014 highest in 9+ years.\n\nThe benchmark of U.S. equities.\n\nWatched globally as the proxy for risk-on / risk-off.\n\nMulti-year high. The pack remembers what comes after these.\n\nhttps://finance.yahoo.com/quote/%5EGSPC",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Yahoo Finance \u00b7 ^GSPC",
+    "source_url": "https://finance.yahoo.com/quote/%5EGSPC",
+    "source_title": "S&P 500",
+    "source_summary": "The benchmark of U.S. equities. Watched globally as the proxy for risk-on / risk-off.",
+    "drafted_at": "2026-05-31T06:47:06.022418",
+    "data": {
+      "signal_id": "^GSPC:high:2026-05-29",
+      "kind": "high",
+      "current": "7,580.06"
+    },
+    "content_hash": "3fefe25d3b818aa2"
+  },
+  {
+    "id": "9dd0e65a",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Worth a look. Nasdaq just hit 26,972.62 \u2014 highest in 9+ years.\n\nTech-heavy index.\n\nLeads risk appetite and is most sensitive to rate moves.\n\nMulti-year high. The pack remembers what comes after these.\n\nhttps://finance.yahoo.com/quote/%5EIXIC",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Yahoo Finance \u00b7 ^IXIC",
+    "source_url": "https://finance.yahoo.com/quote/%5EIXIC",
+    "source_title": "Nasdaq Composite",
+    "source_summary": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
+    "drafted_at": "2026-05-31T06:47:06.022674",
+    "data": {
+      "signal_id": "^IXIC:high:2026-05-29",
+      "kind": "high",
+      "current": "26,972.62"
+    },
+    "content_hash": "ce08e8b71b40219b"
+  },
+  {
+    "id": "b1b2ddc4",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Worth a look. Dow just hit 51,032.46 \u2014 highest in 9+ years.\n\n30 large U.S. industrials.\n\nSlower-moving than the S&P but the headline number retail readers track.\n\nMulti-year high. The pack remembers what comes after these.\n\nhttps://finance.yahoo.com/quote/%5EDJI",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Yahoo Finance \u00b7 ^DJI",
+    "source_url": "https://finance.yahoo.com/quote/%5EDJI",
+    "source_title": "Dow Jones Industrial Average",
+    "source_summary": "30 large U.S. industrials. Slower-moving than the S&P but the headline number retail readers track.",
+    "drafted_at": "2026-05-31T06:47:06.022920",
+    "data": {
+      "signal_id": "^DJI:high:2026-05-29",
+      "kind": "high",
+      "current": "51,032.46"
+    },
+    "content_hash": "21c4cea90ac8748c"
+  },
+  {
+    "id": "7eb2c716",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "RATE-PATH READ: For decades, the Fed stabilized the economy with one simple tool: interest rates.\n\nRaise them to cool inflation, and cut them to stimulate growth.\n\nBut after years of massive government borrowing, post-pandemic inflation, and repeated stress inside the Treasury market, that system may no longer work the way Americans expect.\n\nToday, the Fed can cut [\u2026] The post The Fed\u2019s rate lever is breaking as bond markets stop following its lead appeared first on CryptoSlate.\n\nhttps://cryptoslate.com/fed-interest-rate-lever-is-breaking/",
@@ -10,14 +67,14 @@
     "source_url": "https://cryptoslate.com/fed-interest-rate-lever-is-breaking/",
     "source_title": "The Fed\u2019s rate lever is breaking as bond markets stop following its lead",
     "source_summary": "For decades, the Fed stabilized the economy with one simple tool: interest rates. Raise them to cool inflation, and cut them to stimulate growth. But after years of massive government borrowing, post-pandemic inflation, and repeated stress inside the Treasury market, that system may no longer work the way Americans expect. Today, the Fed can cut [\u2026] The post The Fed\u2019s rate lever is breaking as bon",
-    "drafted_at": "2026-05-31T02:12:44.824944",
+    "drafted_at": "2026-05-31T06:47:06.035054",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "12865a87f9f2c288"
   },
   {
-    "id": "1da03a4a",
+    "id": "80e6e0f5",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FOMC update. Gold (XAU/USD) price advanced more than 1.50% on Friday amid news that Iran and the US are close to signing a deal aimed at extending the ceasefire for 60 days to allow negotiations on Iran\u2019s nuclear program.\n\nAt the time of writing, XAU/USD trades at $4,563, after bouncing off daily lows of $4,489.\n\nhttps://www.fxstreet.com/news/gold-climbs-on-us-iran-ceasefire-progress-as-fed-rate-hike-bets-fade-202605291849",
@@ -27,14 +84,14 @@
     "source_url": "https://www.fxstreet.com/news/gold-climbs-on-us-iran-ceasefire-progress-as-fed-rate-hike-bets-fade-202605291849",
     "source_title": "Gold climbs on US\u2011Iran ceasefire progress as Fed rate hike bets fade",
     "source_summary": "Gold (XAU/USD) price advanced more than 1.50% on Friday amid news that Iran and the US are close to signing a deal aimed at extending the ceasefire for 60 days to allow negotiations on Iran\u2019s nuclear program. At the time of writing, XAU/USD trades at $4,563, after bouncing off daily lows of $4,489.",
-    "drafted_at": "2026-05-31T02:12:44.825367",
+    "drafted_at": "2026-05-31T06:47:06.035502",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "c2be9bf76ea03a1b"
   },
   {
-    "id": "cbfa96a8",
+    "id": "9250903e",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Eurozone policy update: Inflation picked up across the EU\u2019s largest economies in May, driven by higher energy prices, fuelling expectations that the ECB will raise interest rates at its June meeting.\n\nhttp://www.euronews.com/business/2026/05/29/ecb-rate-hike-in-focus-as-eurozones-big-four-report-stubbornly-high-inflation",
@@ -44,14 +101,14 @@
     "source_url": "http://www.euronews.com/business/2026/05/29/ecb-rate-hike-in-focus-as-eurozones-big-four-report-stubbornly-high-inflation",
     "source_title": "ECB rate hike in focus as Eurozone's 'Big Four' report stubbornly high inflation",
     "source_summary": "Inflation picked up across the EU\u2019s largest economies in May, driven by higher energy prices, fuelling expectations that the ECB will raise interest rates at its June meeting.",
-    "drafted_at": "2026-05-31T02:12:44.825633",
+    "drafted_at": "2026-05-31T06:47:06.035808",
     "data": {
       "actor": "ECB"
     },
     "content_hash": "da5efbd4103b857c"
   },
   {
-    "id": "0d49338f",
+    "id": "16b8205b",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Rate-path desk: The Board's process for setting the discount rate is distinct from the process the Federal Open Market Committee follows in setting the target range for the federal funds rate.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
@@ -61,14 +118,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
     "source_title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
     "source_summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
-    "drafted_at": "2026-05-31T02:12:44.826009",
+    "drafted_at": "2026-05-31T06:47:06.036250",
     "data": {
       "actor": "FED"
     },
     "content_hash": "b2d403ab8c4d5036"
   },
   {
-    "id": "5d033bb9",
+    "id": "a22eedf5",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FED WATCH: Also on Friday, the Federal Open Market Committee unanimously selected Warsh as its chairman.\n\nPresident Donald J.\n\nTrump nominated Mr. Warsh on March 4, 2026.\n\nHe was confirmed by the United States Senate to serve as a member of the Board on May 12, and as chairman of the Board on May 13.\n\nHis term as chairman ends on May 21, 2030, and his term as a member of the Board ends on January 31, 2040.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm",
@@ -78,34 +135,34 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm",
     "source_title": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
     "source_summary": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
-    "drafted_at": "2026-05-31T02:12:44.826540",
+    "drafted_at": "2026-05-31T06:47:06.036888",
     "data": {
       "actor": "FED"
     },
     "content_hash": "a5762f43aa0ef3b0"
   },
   {
-    "id": "a4ebf1e9",
+    "id": "71997285",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$LILA insider bought $107,229,266 on 2026-05-22, 2 insiders. \ud83d\udc40\n\nLiberty Latin America Ltd.. 12,426,463 shares at $8.63.\n\n-6.5% since the purchase.\n\nhttp://openinsider.com/screener?s=LILA",
+    "draft_text": "$LILA insider bought $107,229,266 on 2026-05-22, 2 insiders. \ud83d\udc40\n\nLiberty Latin America Ltd.. 12,426,463 shares at $8.63.\n\n-15.0% since the purchase.\n\nhttp://openinsider.com/screener?s=LILA",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=LILA",
     "source_title": "Liberty Latin America Ltd. (LILA) insider bought $107,229,266",
     "source_summary": "2 insider(s) bought 12,426,463 shares at $8.63 on 2026-05-22.",
-    "drafted_at": "2026-05-31T02:12:44.828995",
+    "drafted_at": "2026-05-31T06:47:06.039879",
     "data": {
       "ticker": "LILA",
       "type": "P",
       "dollar_value": 107229266.0,
-      "pct_since": -6.488995424980093
+      "pct_since": -14.990001868538627
     },
     "content_hash": "baa5e81beb909bf9"
   },
   {
-    "id": "9ad70c3a",
+    "id": "f9140750",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$BRCB insider bought $73,337,883 on 2026-05-21, 3 insiders. \ud83d\udc40\n\nBlack Rock Coffee Bar, Inc.. 13,695,817 shares at $5.35.\n\n+55.5% since the purchase.\n\nhttp://openinsider.com/screener?s=BRCB",
@@ -115,7 +172,7 @@
     "source_url": "http://openinsider.com/screener?s=BRCB",
     "source_title": "Black Rock Coffee Bar, Inc. (BRCB) insider bought $73,337,883",
     "source_summary": "3 insider(s) bought 13,695,817 shares at $5.35 on 2026-05-21.",
-    "drafted_at": "2026-05-31T02:12:44.829113",
+    "drafted_at": "2026-05-31T06:47:06.040034",
     "data": {
       "ticker": "BRCB",
       "type": "P",
@@ -125,7 +182,7 @@
     "content_hash": "755b8302a285ed67"
   },
   {
-    "id": "2f6e8f98",
+    "id": "295344b7",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$ZBIO insider bought $7,671,338 on 2026-05-18, 3 insiders. \ud83d\udc40\n\nZenas Biopharma, Inc.. 402,768 shares at $19.05.\n\n-3.4% since the purchase.\n\nhttp://openinsider.com/screener?s=ZBIO",
@@ -135,7 +192,7 @@
     "source_url": "http://openinsider.com/screener?s=ZBIO",
     "source_title": "Zenas Biopharma, Inc. (ZBIO) insider bought $7,671,338",
     "source_summary": "3 insider(s) bought 402,768 shares at $19.05 on 2026-05-18.",
-    "drafted_at": "2026-05-31T02:12:44.829340",
+    "drafted_at": "2026-05-31T06:47:06.040156",
     "data": {
       "ticker": "ZBIO",
       "type": "P",
@@ -145,7 +202,7 @@
     "content_hash": "a5945bef3277fffd"
   },
   {
-    "id": "dcf99c4a",
+    "id": "58cda5f6",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$MRP insider bought $6,647,148 on 2026-05-18, 4 insiders. \ud83d\udc40\n\nMillrose Properties, Inc.. 243,372 shares at $27.31.\n\n+3.3% since the purchase.\n\nhttp://openinsider.com/screener?s=MRP",
@@ -155,7 +212,7 @@
     "source_url": "http://openinsider.com/screener?s=MRP",
     "source_title": "Millrose Properties, Inc. (MRP) insider bought $6,647,148",
     "source_summary": "4 insider(s) bought 243,372 shares at $27.31 on 2026-05-18.",
-    "drafted_at": "2026-05-31T02:12:44.829650",
+    "drafted_at": "2026-05-31T06:47:06.040273",
     "data": {
       "ticker": "MRP",
       "type": "P",
@@ -165,7 +222,7 @@
     "content_hash": "5a40a810f4ba2794"
   },
   {
-    "id": "84e44ed4",
+    "id": "5047a106",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$SLMT insider bought $5,710,530 on 2026-05-21. \ud83d\udc40\n\nBrera Holdings Plc. 1,149,000 shares at $4.97.\n\n+16.1% since the purchase.\n\nhttp://openinsider.com/screener?s=SLMT",
@@ -175,7 +232,7 @@
     "source_url": "http://openinsider.com/screener?s=SLMT",
     "source_title": "Brera Holdings Plc (SLMT) insider bought $5,710,530",
     "source_summary": "1 insider(s) bought 1,149,000 shares at $4.97 on 2026-05-21.",
-    "drafted_at": "2026-05-31T02:12:44.829766",
+    "drafted_at": "2026-05-31T06:47:06.040378",
     "data": {
       "ticker": "SLMT",
       "type": "P",
@@ -185,7 +242,7 @@
     "content_hash": "162ff5f01c1ef59e"
   },
   {
-    "id": "05f5bcdf",
+    "id": "e77e303a",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The SEC alleges Fuller spent misappropriated funds on a roughly $1 million house, gambling, trading cards, travel and a Jeep.\n\nhttps://www.theblock.co/post/403118/sec-sues-privvy-founder-over-12-3-million-crypto-scheme-as-ai-bots-turn-out-to-be-neither?utm_source=rss&utm_medium=rss",
@@ -195,14 +252,14 @@
     "source_url": "https://www.theblock.co/post/403118/sec-sues-privvy-founder-over-12-3-million-crypto-scheme-as-ai-bots-turn-out-to-be-neither?utm_source=rss&utm_medium=rss",
     "source_title": "SEC sues Privvy founder over $12.3 million crypto scheme as AI \u2018bots\u2019 turn out to be neither",
     "source_summary": "The SEC alleges Fuller spent misappropriated funds on a roughly $1 million house, gambling, trading cards, travel and a Jeep.",
-    "drafted_at": "2026-05-31T02:12:44.830905",
+    "drafted_at": "2026-05-31T06:47:06.041431",
     "data": {
       "source": "THE BLOCK"
     },
     "content_hash": "2dc0b7391f775526"
   },
   {
-    "id": "476abfc6",
+    "id": "ef8b36c3",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Heads up, the wolves at the door. The attacker took USDC, ether, tether and PAYG tokens before laundering a portion through ChangeNow and Binance.\n\nhttps://www.theblock.co/post/403108/cosmos-based-gravity-bridge-drained-of-5-4-million-in-suspected-key-compromise-researchers-say?utm_source=rss&utm_medium=rss",
@@ -212,14 +269,14 @@
     "source_url": "https://www.theblock.co/post/403108/cosmos-based-gravity-bridge-drained-of-5-4-million-in-suspected-key-compromise-researchers-say?utm_source=rss&utm_medium=rss",
     "source_title": "Cosmos-based Gravity Bridge drained of $5.4 million in suspected key compromise, researchers say",
     "source_summary": "The attacker took USDC, ether, tether and PAYG tokens before laundering a portion through ChangeNow and Binance.",
-    "drafted_at": "2026-05-31T02:12:44.831116",
+    "drafted_at": "2026-05-31T06:47:06.041664",
     "data": {
       "source": "THE BLOCK"
     },
     "content_hash": "07b833dc84733f49"
   },
   {
-    "id": "d8ccbdbc",
+    "id": "567efe6a",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The SEC charged Texas man Nathan Fuller with raising $12.3 million from 150 investors through a crypto fraud scheme built around fake AI trading bots.\n\nhttps://cointelegraph.com/news/sec-charges-texas-man-with-123m-crypto-fraud-fake-ai-trading-bots?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -229,14 +286,14 @@
     "source_url": "https://cointelegraph.com/news/sec-charges-texas-man-with-123m-crypto-fraud-fake-ai-trading-bots?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "source_title": "SEC charges Texas man with $12.3M crypto fraud using fake AI trading bots",
     "source_summary": "The SEC charged Texas man Nathan Fuller with raising $12.3 million from 150 investors through a crypto fraud scheme built around fake AI trading bots.",
-    "drafted_at": "2026-05-31T02:12:44.831360",
+    "drafted_at": "2026-05-31T06:47:06.041939",
     "data": {
       "source": "COINTELEGRAPH"
     },
     "content_hash": "d42622f38d71f08d"
   },
   {
-    "id": "92806862",
+    "id": "bacb1c33",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Delaware Chancery Judge delivers a serious blow to Vince McMahon and other WWE officials in shareholder lawsuit, saying they destroyed evidence.\n\nhttps://www.latimes.com/entertainment-arts/business/story/2026-05-30/vince-mcmahon-others-sanctioned-for-deleted-texts-in-wwe-share",
@@ -246,14 +303,14 @@
     "source_url": "https://www.latimes.com/entertainment-arts/business/story/2026-05-30/vince-mcmahon-others-sanctioned-for-deleted-texts-in-wwe-share",
     "source_title": "Vince McMahon and others are sanctioned for destroying evidence in WWE shareholder lawsuit",
     "source_summary": "Delaware Chancery Judge delivers a serious blow to Vince McMahon and other WWE officials in shareholder lawsuit, saying they destroyed evidence",
-    "drafted_at": "2026-05-31T02:12:44.831574",
+    "drafted_at": "2026-05-31T06:47:06.042196",
     "data": {
       "source": "LA TIMES"
     },
     "content_hash": "a99b62c359904ab8"
   },
   {
-    "id": "2e4ff03e",
+    "id": "bc72641e",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "New scam vector: Gravity Bridge hack drains $5.4M in a suspected signing-key compromise.\n\nAttacker still holds 2,102 ETH worth $4.2M.\n\nThe post Gravity Bridge Loses $5.4 Million in Suspected Signing Key Compromise appeared first on BeInCrypto.\n\nhttps://beincrypto.com/gravity-bridge-hack-key-compromise-5m/",
@@ -263,99 +320,133 @@
     "source_url": "https://beincrypto.com/gravity-bridge-hack-key-compromise-5m/",
     "source_title": "Gravity Bridge Loses $5.4 Million in Suspected Signing Key Compromise",
     "source_summary": "Gravity Bridge hack drains $5.4M in a suspected signing-key compromise. Attacker still holds 2,102 ETH worth $4.2M. The post Gravity Bridge Loses $5.4 Million in Suspected Signing Key Compromise appeared first on BeInCrypto .",
-    "drafted_at": "2026-05-31T02:12:44.831880",
+    "drafted_at": "2026-05-31T06:47:06.042543",
     "data": {
       "source": "BEINCRYPTO"
     },
     "content_hash": "b433b786a0411af8"
   },
   {
-    "id": "0bc93470",
+    "id": "5cac895f",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "MIDDLE EAST DESK: Iran's stance may lead to prolonged diplomatic tensions, impacting regional stability and global nuclear non-proliferation efforts.\n\nThe post Iran refuses uranium surrender, stalling US agreement talks appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iran-refuses-uranium-surrender-stalling-us-agreement-talks/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/iran-refuses-uranium-surrender-stalling-us-agreement-talks/",
-    "source_title": "Iran refuses uranium surrender, stalling US agreement talks",
-    "source_summary": "Iran's stance may lead to prolonged diplomatic tensions, impacting regional stability and global nuclear non-proliferation efforts. The post Iran refuses uranium surrender, stalling US agreement talks appeared first on Crypto Briefing .",
-    "drafted_at": "2026-05-31T02:12:44.835757",
-    "data": {
-      "source": "CRYPTO BRIEFING"
-    },
-    "content_hash": "745bc07edd44a435"
-  },
-  {
-    "id": "0fa84874",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "MIDDLE EAST DESK: Lebanese PM describes Israel's attacks as collective punishment as US warns Iran of strikes if no deal is reached.\n\nhttps://www.aljazeera.com/news/liveblog/2026/5/31/iran-war-live-lebanon-accuses-israel-of-scorched-earth-policy?traffic_source=rss",
+    "draft_text": "LATAM DESK: The warm-up friendly simulated World Cup conditions, including cooling breaks for the players, at the Rose Bowl stadium.\n\nhttps://www.aljazeera.com/sports/2026/5/31/mexico-beat-australia-1-0-a-day-before-world-cup-squad-submission-deadline?traffic_source=rss",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/news/liveblog/2026/5/31/iran-war-live-lebanon-accuses-israel-of-scorched-earth-policy?traffic_source=rss",
-    "source_title": "Iran war live: Lebanon\u2019s PM slams Israel attacks; US-Tehran deal in limbo",
-    "source_summary": "Lebanese PM describes Israel's attacks as collective punishment as US warns Iran of strikes if no deal is reached.",
-    "drafted_at": "2026-05-31T02:12:44.836006",
+    "source_url": "https://www.aljazeera.com/sports/2026/5/31/mexico-beat-australia-1-0-a-day-before-world-cup-squad-submission-deadline?traffic_source=rss",
+    "source_title": "Mexico beat Australia 1-0 ahead of World Cup squad submission deadline",
+    "source_summary": "The warm-up friendly simulated World Cup conditions, including cooling breaks for the players, at the Rose Bowl stadium.",
+    "drafted_at": "2026-05-31T06:47:06.045430",
     "data": {
       "source": "AL JAZEERA"
     },
-    "content_hash": "34f86fefa38e4cac"
+    "content_hash": "d56034929d78b903"
   },
   {
-    "id": "45b27dcf",
+    "id": "8eb24624",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "EUROPE DESK: SoftBank's investment in French AI data centers could significantly boost Europe's tech infrastructure, attracting further global tech investments.\n\nThe post SoftBank to invest \u20ac45B in AI data centers in France by 2031 appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/softbank-45b-ai-data-centers-france/",
+    "draft_text": "EU/UK wire: Europe is rushing to rearm but needs time and clarity from the US to do so, Germany\u2019s Chief of Defense Carsten Breuer said in an interview with Bloomberg TV on the sidelines of the Shangri-La Dialogue defense conference.\n\nhttps://financialpost.com/pmn/business-pmn/europe-needs-clarity-from-us-top-german-defense-official-says",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FINANCIAL POST",
+    "source_url": "https://financialpost.com/pmn/business-pmn/europe-needs-clarity-from-us-top-german-defense-official-says",
+    "source_title": "Europe Needs Clarity from US, Top German Defense Official Says",
+    "source_summary": "Europe is rushing to rearm but needs time and clarity from the US to do so, Germany\u2019s Chief of Defense Carsten Breuer said in an interview with Bloomberg TV on the sidelines of the Shangri-La Dialogue defense conference.",
+    "drafted_at": "2026-05-31T06:47:06.045892",
+    "data": {
+      "source": "FINANCIAL POST"
+    },
+    "content_hash": "56e6231d2e35b027"
+  },
+  {
+    "id": "9c2ff5fe",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "World wire: India needs to be vigilant on the inflation outlook in the country, officials at India\u2019s finance ministry said just days ahead of a monetary policy decision by the country\u2019s central bank, highlighting risks from a sub-par monsoon and recent fuel price hikes.\n\nhttps://financialpost.com/pmn/business-pmn/india-says-inflation-outlook-needs-vigilance-ahead-of-rbi-policy-2",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FINANCIAL POST",
+    "source_url": "https://financialpost.com/pmn/business-pmn/india-says-inflation-outlook-needs-vigilance-ahead-of-rbi-policy-2",
+    "source_title": "India Says Inflation Outlook Needs Vigilance Ahead of RBI Policy",
+    "source_summary": "India needs to be vigilant on the inflation outlook in the country, officials at India\u2019s finance ministry said just days ahead of a monetary policy decision by the country\u2019s central bank, highlighting risks from a sub-par monsoon and recent fuel price hikes.",
+    "drafted_at": "2026-05-31T06:47:06.046391",
+    "data": {
+      "source": "FINANCIAL POST"
+    },
+    "content_hash": "4efd00f1297155b6"
+  },
+  {
+    "id": "cc6a3cfb",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "MIDDLE EAST DESK: The US's dual strategy of maritime and digital asset enforcement could reshape global trade dynamics and heighten crypto regulatory scrutiny.\n\nThe post US Central Command disables Iran-bound cargo ship with missile strike in Gulf of Oman appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/us-missile-strike-iran-cargo-ship-crypto-impact/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/softbank-45b-ai-data-centers-france/",
-    "source_title": "SoftBank to invest \u20ac45B in AI data centers in France by 2031",
-    "source_summary": "SoftBank's investment in French AI data centers could significantly boost Europe's tech infrastructure, attracting further global tech investments. The post SoftBank to invest \u20ac45B in AI data centers in France by 2031 appeared first on Crypto Briefing .",
-    "drafted_at": "2026-05-31T02:12:44.836682",
+    "source_url": "https://cryptobriefing.com/us-missile-strike-iran-cargo-ship-crypto-impact/",
+    "source_title": "US Central Command disables Iran-bound cargo ship with missile strike in Gulf of Oman",
+    "source_summary": "The US's dual strategy of maritime and digital asset enforcement could reshape global trade dynamics and heighten crypto regulatory scrutiny. The post US Central Command disables Iran-bound cargo ship with missile strike in Gulf of Oman appeared first on Crypto Briefing .",
+    "drafted_at": "2026-05-31T06:47:06.047367",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "4299f1bbb65a0752"
+    "content_hash": "2c7b21a84c428ac3"
   },
   {
-    "id": "1d6a16bd",
+    "id": "e3e4822b",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Mainland wire: A national clearinghouse for digital yuan could enhance financial integration, boost transaction efficiency, and strengthen China's digital economy.\n\nThe post China considers national clearinghouse for digital yuan transactions appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/china-digital-yuan-national-clearinghouse/",
+    "draft_text": "Levant update: War Secretary Pete Hegseth said Saturday that President Trump remains \u201claser-focused\u201d on securing what he described as a \u201cgreat deal\u201d with Iran, while warning that Tehran could face renewed U.S. military action if negotiations collapse.\n\nThe post Hegseth: Trump \u2018Laser\u2011Focused\u2019 on Securing a \u2018Great Deal\u2019 with Iran \u2014 \u2018Or They\u2019ll Face the War Department\u2019 appeared first on Breitbart.\n\nhttps://www.breitbart.com/politics/2026/05/30/hegseth-trump-laser%e2%80%91focused-on-securing-a-great-deal-with-iran-or-theyll-face-the-war-department/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/china-digital-yuan-national-clearinghouse/",
-    "source_title": "China considers national clearinghouse for digital yuan transactions",
-    "source_summary": "A national clearinghouse for digital yuan could enhance financial integration, boost transaction efficiency, and strengthen China's digital economy. The post China considers national clearinghouse for digital yuan transactions appeared first on Crypto Briefing .",
-    "drafted_at": "2026-05-31T02:12:44.837073",
+    "primary_source": "BREITBART",
+    "source_url": "https://www.breitbart.com/politics/2026/05/30/hegseth-trump-laser%e2%80%91focused-on-securing-a-great-deal-with-iran-or-theyll-face-the-war-department/",
+    "source_title": "Hegseth: Trump \u2018Laser\u2011Focused\u2019 on Securing a \u2018Great Deal\u2019 with Iran \u2014 \u2018Or They\u2019ll Face the War Department\u2019",
+    "source_summary": "War Secretary Pete Hegseth said Saturday that President Trump remains \u201claser-focused\u201d on securing what he described as a \u201cgreat deal\u201d with Iran, while warning that Tehran could face renewed U.S. military action if negotiations collapse. The post Hegseth: Trump \u2018Laser\u2011Focused\u2019 on Securing a \u2018Great Deal\u2019 with Iran \u2014 \u2018Or They\u2019ll Face the War Department\u2019 appeared first on Breitbart .",
+    "drafted_at": "2026-05-31T06:47:06.048488",
     "data": {
-      "source": "CRYPTO BRIEFING"
+      "source": "BREITBART"
     },
-    "content_hash": "8da0c59647a5ec7b"
+    "content_hash": "545ac48ea1c2c1dc"
   },
   {
-    "id": "f51492ff",
-    "format": "GLOBAL_DESK",
+    "id": "35f81ee1",
+    "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "Mainland wire: China has been cited as an example of a country that has managed to insulate itself relatively well against oil crises.\n\nWith over a billion barrels in estimated inventories before the war in the Middle East started, China was the poster child of forward planning in energy security.\n\nBut this could change, and if it does, it would make an already severe crisis even worse.\n\nKpler sounded the alarm about that prospect earlier this month, reporting that Chinese refiners have reduced their purchases of oil from overseas because of the price surge caused\u2026\n\nhttps://oilprice.com/Energy/Crude-Oil/Chinas-Oil-Buying-Pause-Wont-Last-Forever.html",
+    "draft_text": "LABOR MARKET READ: Jobs week is coming up in the US, with a whole slate of indicators on the state of the labor market culminating on Friday with the government\u2019s official report on employment for the month of May.\n\nhttps://financialpost.com/pmn/business-pmn/us-jobs-report-set-to-reveal-solid-growth-steady-unemployment-rate-2",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "OILPRICE",
-    "source_url": "https://oilprice.com/Energy/Crude-Oil/Chinas-Oil-Buying-Pause-Wont-Last-Forever.html",
-    "source_title": "China\u2019s Oil Buying Pause Won\u2019t Last Forever",
-    "source_summary": "China has been cited as an example of a country that has managed to insulate itself relatively well against oil crises. With over a billion barrels in estimated inventories before the war in the Middle East started, China was the poster child of forward planning in energy security. But this could change, and if it does, it would make an already severe crisis even worse. Kpler sounded the alarm abo",
-    "drafted_at": "2026-05-31T02:12:44.837659",
+    "primary_source": "FINANCIAL POST",
+    "source_url": "https://financialpost.com/pmn/business-pmn/us-jobs-report-set-to-reveal-solid-growth-steady-unemployment-rate-2",
+    "source_title": "US Jobs Report Set to Reveal Solid Growth, Steady Unemployment Rate",
+    "source_summary": "Jobs week is coming up in the US, with a whole slate of indicators on the state of the labor market culminating on Friday with the government\u2019s official report on employment for the month of May.",
+    "drafted_at": "2026-05-31T06:47:06.125022",
     "data": {
-      "source": "OILPRICE"
+      "source": "FINANCIAL POST"
     },
-    "content_hash": "d4f2ec03d89c1b0a"
+    "content_hash": "5ebd7274c4db1489"
   },
   {
-    "id": "95198aed",
+    "id": "59a2fcaa",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "Scoreboard update: Consumer sentiment is hitting all-time lows while the S&P 500 is hitting all-time highs.\n\nThat's unprecedented, but past lows in sentiment provide some guidance as to what could happen next.\n\nhttps://www.fool.com/investing/2026/05/31/americans-pessimistic-history-says-stocks-win/?source=iedfolrf0000001",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "MOTLEY FOOL",
+    "source_url": "https://www.fool.com/investing/2026/05/31/americans-pessimistic-history-says-stocks-win/?source=iedfolrf0000001",
+    "source_title": "Americans Have Never Been This Pessimistic. The Stock Market Doesn't Agree, and History Says the Market Wins.",
+    "source_summary": "Consumer sentiment is hitting all-time lows while the S&P 500 is hitting all-time highs. That's unprecedented, but past lows in sentiment provide some guidance as to what could happen next.",
+    "drafted_at": "2026-05-31T06:47:06.125343",
+    "data": {
+      "source": "MOTLEY FOOL"
+    },
+    "content_hash": "51ecad0d3bb5c87c"
+  },
+  {
+    "id": "3449a0c9",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "Hiring scoreboard: Jobs week is coming up in the US, with a whole slate of indicators on the state of the labor market culminating on Friday with the government\u2019s official report on employment for the month of May.\n\nhttps://financialpost.com/pmn/business-pmn/us-jobs-report-set-to-reveal-solid-growth-steady-unemployment-rate",
@@ -365,14 +456,14 @@
     "source_url": "https://financialpost.com/pmn/business-pmn/us-jobs-report-set-to-reveal-solid-growth-steady-unemployment-rate",
     "source_title": "US Jobs Report Set to Reveal Solid Growth, Steady Unemployment Rate",
     "source_summary": "Jobs week is coming up in the US, with a whole slate of indicators on the state of the labor market culminating on Friday with the government\u2019s official report on employment for the month of May.",
-    "drafted_at": "2026-05-31T02:12:44.909320",
+    "drafted_at": "2026-05-31T06:47:06.125650",
     "data": {
       "source": "FINANCIAL POST"
     },
     "content_hash": "1ed0d48d6ee5710b"
   },
   {
-    "id": "d0ddda91",
+    "id": "078a4e57",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "CPI POSTCARD: Trump did not reach a decision on any new deal with Iran after Situation Room meeting How have interest rate expectations changed after this week's event?\n\nIran's Baghaei: No agreement has been finalised with the United States so far Fed's Daly says she doesn't see mass unemployment or displacement from AI Blockade lift announcement by Trump seen as first step toward broader US-Iran agreement Iran's Fars News says Iranian sources deny Trump's latest comments Trump: The US naval blockade will now be lifted Tech sector surges while communication services face downturn Trump administration wants autos under USMCA to be at least 50% made in the US - WSJ Major US stock indices extend gains to new record highs on US-Iran deal optimism Fed's Paulson says healthy for markets to shift to tighter monetary policy outlook Iran's top negotiator Ghalibaf: We gain concessions not with talks, but with missiles Fed's Bowman says progress on lowering inflation has stalled US April wholesale inventories +0.5% vs +0.8% expected US April advanced goods trade balance -$82.40 billion vs -$86.50 billion expected Canada Q1 GDP -0.1% vs +1.5% expected Germany May preliminary CPI +2.6% vs +2.9% y/y expected The highlight of the session was Trump's announcement on Truth Social of the lifting of the US naval blockade and a \"final determination\" on a broader agreement to follow shortly in the White House Situation Room.\n\nThis gave the positive risk sentiment a further boost, with oil prices extending losses.\n\nIranian sources suggested the public blockade announcement was viewed as the first step in a wider framework that could eventually address regional security issues, sanctions, and future discussions on Iran\u2019s nuclear program.\n\nIranian sources pushed back on Trump\u2019s characterization of the talks though.\n\nSources cited by Iran\u2019s Fars News Agency described Trump\u2019s statements as a mixture of \u201ctruth and falsehood,\u201d denied claims regarding the dismantling of Iran\u2019s nuclear material, and insisted that no final agreement has been approved.\n\nTehran reportedly maintains that discussions remain focused on ending the conflict and lifting the blockade, while key issues such as frozen Iranian assets, sanctions relief, and broader political conditions remain unresolved.\n\nLater reports indicated that Trump\u2019s nearly two-hour Situation Room meeting ended without a final decision on a new agreement.\n\nhttps://investinglive.com/news/investinglive-americas-fx-news-wrap-trump-touts-naval-blockade-lift-progress-toward-deal-20260529/",
@@ -382,14 +473,14 @@
     "source_url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-trump-touts-naval-blockade-lift-progress-toward-deal-20260529/",
     "source_title": "investingLive Americas FX news wrap: Trump touts naval blockade lift, progress toward deal",
     "source_summary": "Trump did not reach a decision on any new deal with Iran after Situation Room meeting How have interest rate expectations changed after this week's event? Iran's Baghaei: No agreement has been finalised with the United States so far Fed's Daly says she doesn't see mass unemployment or displacement from AI Blockade lift announcement by Trump seen as first step toward broader US-Iran agreement Iran'",
-    "drafted_at": "2026-05-31T02:12:44.914817",
+    "drafted_at": "2026-05-31T06:47:06.129208",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "65dc36596d45e00d"
   },
   {
-    "id": "c7e8e35d",
+    "id": "c733e76a",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "CPI POSTCARD: Rate hikes by year-end RBNZ: 75 bps (79% probability of rate hike at the next meeting) ECB: 52 bps (89% probability of rate hike at the next meeting) BoJ: 42 bps (71% probability of rate hike at the next meeting) BoE: 32 bps (94% probability of no change at the next meeting) BoC: 28 bps (99% probability of no change at the next meeting) RBA: 18 bps (93% probability of no change at the next meeting) Fed: 13 bps (99% probability of no change at the next meeting) SNB: 11 bps (97% probability of no change at the next meeting) The main theme of this week has been US-Iran deal optimism as several reports since the weekend have been pointing to an imminent breakthrough.\n\nThat breakthrough hasn't come yet, but it still led to a sizeable drop in oil prices and a dovish repricing in interest rate expectations for most central banks.\n\nThe biggest changes were seen in the RBA and RBNZ pricings.\n\nFor the RBA, the market continues to scale back rate hike expectations, with traders not seeing any more rate hikes coming this year.\n\nThis is due to meaningful softening in Australia's economic data recently, with the unemployment rate jumping to the highest level since 2021 and monthly headline inflation slowing way below RBA's forecasts.\n\nFor the RBNZ, the central bank held its Official Cash Rate steady at 2.25% but delivered a hawkish surprise.\n\nThe central bank revealed that its decision was split 3-3, forcing a casting vote, and explicitly warned that interest rates will likely need to be increased sooner and more aggressively than previously forecasted.\n\nTraders rushed to price in a rate hike coming already at the next meeting in July with probabilities now standing at 79%.\n\nhttps://investinglive.com/news/how-have-interest-rate-expectations-changed-after-this-weeks-event-20260529/",
@@ -399,48 +490,14 @@
     "source_url": "https://investinglive.com/news/how-have-interest-rate-expectations-changed-after-this-weeks-event-20260529/",
     "source_title": "How have interest rate expectations changed after this week's event?",
     "source_summary": "Rate hikes by year-end RBNZ: 75 bps (79% probability of rate hike at the next meeting) ECB: 52 bps (89% probability of rate hike at the next meeting) BoJ: 42 bps (71% probability of rate hike at the next meeting) BoE: 32 bps (94% probability of no change at the next meeting) BoC: 28 bps (99% probability of no change at the next meeting) RBA: 18 bps (93% probability of no change at the next meeting",
-    "drafted_at": "2026-05-31T02:12:44.916810",
+    "drafted_at": "2026-05-31T06:47:06.131244",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "d12715b777111afe"
   },
   {
-    "id": "0d3aa025",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "CPI POSTCARD: The USD/JPY pair trades in a muted fashion toward the 159.20 region on Friday as the United States Dollar (USD) finds support following the latest inflation data, while the Japanese Yen (JPY) remains pressured amid uncertainty surrounding the Bank of Japan\u2019s (BoJ) policy outlook.\n\nhttps://www.fxstreet.com/news/japanese-yen-muted-amid-steady-us-pce-data-202605291635",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/japanese-yen-muted-amid-steady-us-pce-data-202605291635",
-    "source_title": "Japanese Yen muted amid steady US PCE data",
-    "source_summary": "The USD/JPY pair trades in a muted fashion toward the 159.20 region on Friday as the United States Dollar (USD) finds support following the latest inflation data, while the Japanese Yen (JPY) remains pressured amid uncertainty surrounding the Bank of Japan\u2019s (BoJ) policy outlook.",
-    "drafted_at": "2026-05-31T02:12:44.917319",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "562cbfefa9b0bc2e"
-  },
-  {
-    "id": "e2ebbb6f",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "From the BEA desk: The economy is 'markedly darker,' according to Gallup.\n\nhttps://dailycaller.com/2026/05/28/first-quarter-gdp-revised-downward-voters-fret-economy-gallup-eci-inflation/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "DAILY CALLER",
-    "source_url": "https://dailycaller.com/2026/05/28/first-quarter-gdp-revised-downward-voters-fret-economy-gallup-eci-inflation/",
-    "source_title": "First Quarter GDP Revised Downward As Voters Fret Over Economy",
-    "source_summary": "The economy is 'markedly darker,' according to Gallup.",
-    "drafted_at": "2026-05-31T02:12:44.917444",
-    "data": {
-      "source": "DAILY CALLER"
-    },
-    "content_hash": "83a922e0b44d81c0"
-  },
-  {
-    "id": "3fc99aef",
+    "id": "13e0db4e",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -450,7 +507,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-05-31T02:12:44.918999",
+    "drafted_at": "2026-05-31T06:47:06.133417",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -458,7 +515,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "8c74f871",
+    "id": "2465259f",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Information is free. Conviction is rare. Patience is rarer.",
@@ -468,14 +525,14 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Information is free. Conviction is rare. Patience is rarer.",
-    "drafted_at": "2026-05-31T02:12:44.919078",
+    "drafted_at": "2026-05-31T06:47:06.133502",
     "data": {
       "take_seed": "2026-05-31-pack-1"
     },
     "content_hash": "9b0f7be55d8ef71c"
   },
   {
-    "id": "35a4a217",
+    "id": "a4fe5341",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Inflation is a tax that doesn't show up on your W-2.",
@@ -485,7 +542,7 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Inflation is a tax that doesn't show up on your W-2.",
-    "drafted_at": "2026-05-31T02:12:44.919123",
+    "drafted_at": "2026-05-31T06:47:06.133553",
     "data": {
       "take_seed": "2026-05-31-pack-2"
     },
