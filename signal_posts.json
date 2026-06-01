@@ -1,30 +1,44 @@
 {
-  "^IXIC:high:2026-06-01": {
-    "headline": "Nasdaq just hit 26,998.34 \u2014 highest in 9+ years",
-    "matters": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
-    "source": "Yahoo Finance \u00b7 ^IXIC",
+  "^VIX:move:2026-06-01": {
+    "headline": "VIX drops 5.7% in 5 sessions to 15.75",
+    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "source": "CBOE \u00b7 ^VIX",
     "chart_path": null,
-    "signal_id": "^IXIC:high:2026-06-01",
-    "current_str": "26,998.34",
-    "label": "Nasdaq Composite",
-    "hashtags": "#Nasdaq #Tech #Stocks",
+    "signal_id": "^VIX:move:2026-06-01",
+    "current_str": "15.75",
+    "label": "VIX (S&P 500 volatility)",
+    "hashtags": "#VIX #Volatility #Markets",
+    "kind": "move_down",
+    "badge": "-5.7%",
+    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "fired_at": "2026-06-01T18:41:54.839970"
+  },
+  "^GSPC:high:2026-06-01": {
+    "headline": "S&P 500 just hit 7,613.53 \u2014 highest in 9+ years",
+    "matters": "The benchmark of U.S. equities. Watched globally as the proxy for risk-on / risk-off.",
+    "source": "Yahoo Finance \u00b7 ^GSPC",
+    "chart_path": null,
+    "signal_id": "^GSPC:high:2026-06-01",
+    "current_str": "7,613.53",
+    "label": "S&P 500",
+    "hashtags": "#SPX #SP500 #Stocks #Markets",
     "kind": "high",
     "badge": "9Y HIGH",
-    "data_url": "https://finance.yahoo.com/quote/%5EIXIC",
-    "fired_at": "2026-06-01T14:48:48.803370"
+    "data_url": "https://finance.yahoo.com/quote/%5EGSPC",
+    "fired_at": "2026-06-01T18:41:54.839970"
   },
-  "BTC-USD:move:2026-06-01": {
-    "headline": "Bitcoin drops 5.3% in 5 sessions to $71,453",
-    "matters": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
-    "source": "Yahoo Finance \u00b7 BTC-USD",
+  "^DJI:high:2026-06-01": {
+    "headline": "Dow just hit 51,049.15 \u2014 highest in 9+ years",
+    "matters": "30 large U.S. industrials. Slower-moving than the S&P but the headline number retail readers track.",
+    "source": "Yahoo Finance \u00b7 ^DJI",
     "chart_path": null,
-    "signal_id": "BTC-USD:move:2026-06-01",
-    "current_str": "$71,453",
-    "label": "Bitcoin",
-    "hashtags": "#Bitcoin #BTC #Crypto",
-    "kind": "move_down",
-    "badge": "-5.3%",
-    "data_url": "https://finance.yahoo.com/quote/BTC-USD",
-    "fired_at": "2026-06-01T14:48:48.803370"
+    "signal_id": "^DJI:high:2026-06-01",
+    "current_str": "51,049.15",
+    "label": "Dow Jones Industrial Average",
+    "hashtags": "#Dow #Stocks #Markets",
+    "kind": "high",
+    "badge": "9Y HIGH",
+    "data_url": "https://finance.yahoo.com/quote/%5EDJI",
+    "fired_at": "2026-06-01T18:41:54.839970"
   }
 }
