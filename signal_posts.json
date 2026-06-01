@@ -1,16 +1,30 @@
 {
-  "CL=F:move:2026-06-01": {
-    "headline": "WTI crude drops 6.3% in 5 sessions to $90.55",
-    "matters": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "source": "NYMEX \u00b7 CL=F",
+  "^IXIC:high:2026-06-01": {
+    "headline": "Nasdaq just hit 26,998.34 \u2014 highest in 9+ years",
+    "matters": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
+    "source": "Yahoo Finance \u00b7 ^IXIC",
     "chart_path": null,
-    "signal_id": "CL=F:move:2026-06-01",
-    "current_str": "$90.55",
-    "label": "WTI crude oil futures",
-    "hashtags": "#Oil #WTI #Energy #Commodities",
+    "signal_id": "^IXIC:high:2026-06-01",
+    "current_str": "26,998.34",
+    "label": "Nasdaq Composite",
+    "hashtags": "#Nasdaq #Tech #Stocks",
+    "kind": "high",
+    "badge": "9Y HIGH",
+    "data_url": "https://finance.yahoo.com/quote/%5EIXIC",
+    "fired_at": "2026-06-01T14:48:48.803370"
+  },
+  "BTC-USD:move:2026-06-01": {
+    "headline": "Bitcoin drops 5.3% in 5 sessions to $71,453",
+    "matters": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
+    "source": "Yahoo Finance \u00b7 BTC-USD",
+    "chart_path": null,
+    "signal_id": "BTC-USD:move:2026-06-01",
+    "current_str": "$71,453",
+    "label": "Bitcoin",
+    "hashtags": "#Bitcoin #BTC #Crypto",
     "kind": "move_down",
-    "badge": "-6.3%",
-    "data_url": "https://finance.yahoo.com/quote/CL%3DF",
-    "fired_at": "2026-06-01T08:23:32.681641"
+    "badge": "-5.3%",
+    "data_url": "https://finance.yahoo.com/quote/BTC-USD",
+    "fired_at": "2026-06-01T14:48:48.803370"
   }
 }
