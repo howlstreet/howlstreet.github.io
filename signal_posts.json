@@ -1,1 +1,16 @@
-{}
+{
+  "^VIX:move:2026-06-02": {
+    "headline": "VIX drops 5.7% in 5 sessions to 15.74",
+    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "source": "CBOE \u00b7 ^VIX",
+    "chart_path": null,
+    "signal_id": "^VIX:move:2026-06-02",
+    "current_str": "15.74",
+    "label": "VIX (S&P 500 volatility)",
+    "hashtags": "#VIX #Volatility #Markets",
+    "kind": "move_down",
+    "badge": "-5.7%",
+    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "fired_at": "2026-06-02T20:27:21.510011"
+  }
+}
