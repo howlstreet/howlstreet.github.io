@@ -1,23 +1,78 @@
 [
   {
-    "id": "baa1f04a",
+    "id": "224cd9f7",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "The story the pack is talking about: Brent crude oil prices have begun to surge again after the US and Iran ended their peace talks\u2026.\n\nhttps://watcher.guru/news/oil-prices-surge-after-us-iran-talks-end-us-continues-strait-of-hormuz-blockade",
+    "draft_text": "FLAGSHIP READ: SINGAPORE, June 1, 2026 /PRNewswire/ -- SUNRATE, the global payments and treasury management platform, has been named among the Top 100 Cross-Border Payment Companies for 2026 by FXC Intelligence, marking the third consecutive year the company has been included in the ranking.\n\nhttps://www.prnewswire.com/news-releases/sunrate-named-among-top-100-cross-border-payment-companies-for-2026-by-fxc-intelligence-302784193.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "WATCHER GURU",
-    "source_url": "https://watcher.guru/news/oil-prices-surge-after-us-iran-talks-end-us-continues-strait-of-hormuz-blockade",
-    "source_title": "Oil Prices Surge after US-Iran Talks End, US Continues Strait of Hormuz Blockade",
-    "source_summary": "Brent crude oil prices have begun to surge again after the US and Iran ended their peace talks\u2026",
-    "drafted_at": "2026-06-01T23:21:29.588819",
+    "primary_source": "PR NEWSWIRE",
+    "source_url": "https://www.prnewswire.com/news-releases/sunrate-named-among-top-100-cross-border-payment-companies-for-2026-by-fxc-intelligence-302784193.html",
+    "source_title": "SUNRATE Named Among Top 100 Cross-Border Payment Companies for 2026 by FXC Intelligence",
+    "source_summary": "SINGAPORE, June 1, 2026 /PRNewswire/ -- SUNRATE, the global payments and treasury management platform, has been named among the Top 100 Cross-Border Payment Companies for 2026 by FXC Intelligence, marking the third consecutive year the company has been included in the ranking. FXC...",
+    "drafted_at": "2026-06-02T02:33:09.201970",
     "data": {
-      "source": "WATCHER GURU"
+      "source": "PR NEWSWIRE"
     },
-    "content_hash": "1615a1cde2df9585"
+    "content_hash": "a908814ee0aee445"
   },
   {
-    "id": "d4c76f2d",
+    "id": "5471a2f1",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "The market did a thing: Bitcoin slides 7.8% in 5 sessions to $70,666.\n\nBitcoin is now treated as a macro asset alongside gold and tech.\n\nIts swings move alt-coins, public miners, and crypto-exposed stocks.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/BTC-USD",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Yahoo Finance \u00b7 BTC-USD",
+    "source_url": "https://finance.yahoo.com/quote/BTC-USD",
+    "source_title": "Bitcoin",
+    "source_summary": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
+    "drafted_at": "2026-06-02T02:33:09.202260",
+    "data": {
+      "signal_id": "BTC-USD:move:2026-06-02",
+      "kind": "move_down",
+      "current": "$70,666"
+    },
+    "content_hash": "0e3396ceb3da7211"
+  },
+  {
+    "id": "d2de7172",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Boring? Maybe. Actionable? Definitely. WTI crude drops 5.1% in 5 sessions to $91.68.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NYMEX \u00b7 CL=F",
+    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "source_title": "WTI crude oil futures",
+    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "drafted_at": "2026-06-02T02:33:09.202468",
+    "data": {
+      "signal_id": "CL=F:move:2026-06-01",
+      "kind": "move_down",
+      "current": "$91.68"
+    },
+    "content_hash": "c272de0720a2f459"
+  },
+  {
+    "id": "9a51a13f",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "From Beijing's central bank: The People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Tuesday at 6.8187 compared to the previous day's fix of 6.8167 and 6.7720 Reuters estimate.\n\nhttps://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-68187-vs-68167-previous-202606020116",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "PBOC",
+    "source_url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-68187-vs-68167-previous-202606020116",
+    "source_title": "PBOC sets USD/CNY reference rate at 6.8187 vs. 6.8167 previous",
+    "source_summary": "The People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Tuesday at 6.8187 compared to the previous day's fix of 6.8167 and 6.7720 Reuters estimate.",
+    "drafted_at": "2026-06-02T02:33:09.211596",
+    "data": {
+      "actor": "PBOC"
+    },
+    "content_hash": "cd2b93eace894d84"
+  },
+  {
+    "id": "2608e423",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Rate-path desk: The Board's process for setting the discount rate is distinct from the process the Federal Open Market Committee follows in setting the target range for the federal funds rate.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
@@ -27,14 +82,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
     "source_title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
     "source_summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
-    "drafted_at": "2026-06-01T23:21:29.599249",
+    "drafted_at": "2026-06-02T02:33:09.212002",
     "data": {
       "actor": "FED"
     },
     "content_hash": "b2d403ab8c4d5036"
   },
   {
-    "id": "601030c9",
+    "id": "9333efb4",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FED WATCH: Also on Friday, the Federal Open Market Committee unanimously selected Warsh as its chairman.\n\nPresident Donald J.\n\nTrump nominated Mr. Warsh on March 4, 2026.\n\nHe was confirmed by the United States Senate to serve as a member of the Board on May 12, and as chairman of the Board on May 13.\n\nHis term as chairman ends on May 21, 2030, and his term as a member of the Board ends on January 31, 2040.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm",
@@ -44,14 +99,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm",
     "source_title": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
     "source_summary": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
-    "drafted_at": "2026-06-01T23:21:29.599931",
+    "drafted_at": "2026-06-02T02:33:09.212544",
     "data": {
       "actor": "FED"
     },
     "content_hash": "a5762f43aa0ef3b0"
   },
   {
-    "id": "9a5e214b",
+    "id": "feb77a90",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Policy update for the pack: Resolution plans, also known as living wills, must describe a banking organization's strategy for orderly resolution in the event of material financial distress or failure.\n\nThe agencies conducted a joint review of the 2025 resolution plan submissions from the eight largest and most complex domestic banking organizations as well as from 56 foreign banking organizations.\n\nThe agencies did not identify any shortcomings or deficiencies in these resolution plan submissions.\n\nThe agencies also determined that each derivatives-related weakness identified in the 2023 plans from Bank of America, Goldman Sachs, JPMorgan Chase, and Citigroup has been satisfactorily addressed.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260522a.htm",
@@ -61,14 +116,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260522a.htm",
     "source_title": "Agencies publish resolution plan feedback letters for certain domestic and foreign banking organizations",
     "source_summary": "Agencies publish resolution plan feedback letters for certain domestic and foreign banking organizations",
-    "drafted_at": "2026-06-01T23:21:29.600936",
+    "drafted_at": "2026-06-02T02:33:09.213347",
     "data": {
       "actor": "FED"
     },
     "content_hash": "b0e49d2209d92f96"
   },
   {
-    "id": "f2d59d7f",
+    "id": "6ea9f236",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "If you trade rates, read this: Consent prohibition order against Nakia R.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260521a.htm",
@@ -78,31 +133,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260521a.htm",
     "source_title": "Federal Reserve Board issues enforcement action with former employee of Commerce Bank",
     "source_summary": "Federal Reserve Board issues enforcement action with former employee of Commerce Bank",
-    "drafted_at": "2026-06-01T23:21:29.601094",
+    "drafted_at": "2026-06-02T02:33:09.213476",
     "data": {
       "actor": "FED"
     },
     "content_hash": "b9dac9fbdced3f0f"
   },
   {
-    "id": "df8a2ab3",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "FOMC desk: Payment account holders would not have access to intraday credit or the discount window, would not earn interest on balances held at a Reserve Bank, and would only have access to payment services with automated controls to prevent overdrafts.\n\nAs the payments landscape rapidly evolves, financial institutions with an increasingly wide range of business models have sought direct access to the Federal Reserve's payment services to reduce costs and increase payment speed.\n\nMany of these requests for access come from institutions that are not federally insured.\n\nThe proposed payment account would be tailored to support innovation by serving the clearing and settlement needs of certain eligible institutions while also mitigating material risks to the Reserve Banks and payment system.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/other20260520a.htm",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FED",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260520a.htm",
-    "source_title": "Federal Reserve Board requests public comment on a proposal to establish a \"payment account,\" which legally eligible financial institutions could use for the specific purpose of clearing and settling their payments",
-    "source_summary": "Federal Reserve Board requests public comment on a proposal to establish a \"payment account,\" which legally eligible financial institutions could use for the specific purpose of clearing and settling their payments",
-    "drafted_at": "2026-06-01T23:21:29.602743",
-    "data": {
-      "actor": "FED"
-    },
-    "content_hash": "31af2dadc8e93a7e"
-  },
-  {
-    "id": "e8e383bd",
+    "id": "e57efd8e",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$LILA insider bought $107,229,266 on 2026-05-22, 2 insiders. \ud83d\udc40\n\nLiberty Latin America Ltd.. 12,426,463 shares at $8.63.\n\n-7.0% since the purchase.\n\nhttp://openinsider.com/screener?s=LILA",
@@ -112,7 +150,7 @@
     "source_url": "http://openinsider.com/screener?s=LILA",
     "source_title": "Liberty Latin America Ltd. (LILA) insider bought $107,229,266",
     "source_summary": "2 insider(s) bought 12,426,463 shares at $8.63 on 2026-05-22.",
-    "drafted_at": "2026-06-01T23:21:29.602925",
+    "drafted_at": "2026-06-02T02:33:09.215028",
     "data": {
       "ticker": "LILA",
       "type": "P",
@@ -122,7 +160,7 @@
     "content_hash": "baa5e81beb909bf9"
   },
   {
-    "id": "b14e5d1b",
+    "id": "67585f3c",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$BRCB insider bought $73,337,883 on 2026-05-21, 3 insiders. \ud83d\udc40\n\nBlack Rock Coffee Bar, Inc.. 13,695,817 shares at $5.35.\n\n+50.3% since the purchase.\n\nhttp://openinsider.com/screener?s=BRCB",
@@ -132,7 +170,7 @@
     "source_url": "http://openinsider.com/screener?s=BRCB",
     "source_title": "Black Rock Coffee Bar, Inc. (BRCB) insider bought $73,337,883",
     "source_summary": "3 insider(s) bought 13,695,817 shares at $5.35 on 2026-05-21.",
-    "drafted_at": "2026-06-01T23:21:29.603061",
+    "drafted_at": "2026-06-02T02:33:09.215146",
     "data": {
       "ticker": "BRCB",
       "type": "P",
@@ -142,101 +180,67 @@
     "content_hash": "755b8302a285ed67"
   },
   {
-    "id": "c77a5f2d",
+    "id": "07fcda21",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$HOOD insider bought $20,018,206 on 2026-05-28. \ud83d\udc40\n\nRobinhood Markets, Inc.. 249,000 shares at $80.39.\n\n+12.9% since the purchase.\n\nhttp://openinsider.com/screener?s=HOOD",
+    "draft_text": "$QTTB insider bought $15,000,000 on 2026-05-28. \ud83d\udc40\n\nQ32 Bio Inc.. 1,875,000 shares at $8.00.\n\n+45.7% since the purchase.\n\nhttp://openinsider.com/screener?s=QTTB",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=HOOD",
-    "source_title": "Robinhood Markets, Inc. (HOOD) insider bought $20,018,206",
-    "source_summary": "1 insider(s) bought 249,000 shares at $80.39 on 2026-05-28.",
-    "drafted_at": "2026-06-01T23:21:29.603177",
+    "source_url": "http://openinsider.com/screener?s=QTTB",
+    "source_title": "Q32 Bio Inc. (QTTB) insider bought $15,000,000",
+    "source_summary": "1 insider(s) bought 1,875,000 shares at $8.00 on 2026-05-28.",
+    "drafted_at": "2026-06-02T02:33:09.215242",
     "data": {
-      "ticker": "HOOD",
+      "ticker": "QTTB",
       "type": "P",
-      "dollar_value": 20018206.0,
-      "pct_since": 12.862300481320554
+      "dollar_value": 15000000.0,
+      "pct_since": 45.74999809265137
     },
-    "content_hash": "0c8abbcd154b29f7"
+    "content_hash": "2774cc7cd2c3d5ba"
   },
   {
-    "id": "9554323d",
+    "id": "9f8289b1",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$ZBIO insider bought $7,671,338 on 2026-05-18, 3 insiders. \ud83d\udc40\n\nZenas Biopharma, Inc.. 402,768 shares at $19.05.\n\n-4.6% since the purchase.\n\nhttp://openinsider.com/screener?s=ZBIO",
+    "draft_text": "$OTLK insider bought $5,000,000 on 2026-05-28. \ud83d\udc40\n\nOutlook Therapeutics, Inc.. 8,539,709 shares at $0.59.\n\n+42.9% since the purchase.\n\nhttp://openinsider.com/screener?s=OTLK",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=ZBIO",
-    "source_title": "Zenas Biopharma, Inc. (ZBIO) insider bought $7,671,338",
-    "source_summary": "3 insider(s) bought 402,768 shares at $19.05 on 2026-05-18.",
-    "drafted_at": "2026-06-01T23:21:29.603298",
+    "source_url": "http://openinsider.com/screener?s=OTLK",
+    "source_title": "Outlook Therapeutics, Inc. (OTLK) insider bought $5,000,000",
+    "source_summary": "1 insider(s) bought 8,539,709 shares at $0.59 on 2026-05-28.",
+    "drafted_at": "2026-06-02T02:33:09.215344",
     "data": {
-      "ticker": "ZBIO",
+      "ticker": "OTLK",
       "type": "P",
-      "dollar_value": 7671338.0,
-      "pct_since": -4.61942217168533
+      "dollar_value": 5000000.0,
+      "pct_since": 42.88135504318497
     },
-    "content_hash": "a5945bef3277fffd"
+    "content_hash": "3a8d831440deb452"
   },
   {
-    "id": "1fccea63",
+    "id": "22d4ebaf",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$MRP insider bought $6,647,148 on 2026-05-18, 4 insiders. \ud83d\udc40\n\nMillrose Properties, Inc.. 243,372 shares at $27.31.\n\n+1.5% since the purchase.\n\nhttp://openinsider.com/screener?s=MRP",
+    "draft_text": "$NCLH insider bought $4,171,346 on 2026-05-22, 6 insiders. \ud83d\udc40\n\nNorwegian Cruise Line Holdings Ltd.. 253,867 shares at $16.43.\n\n+9.9% since the purchase.\n\nhttp://openinsider.com/screener?s=NCLH",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=MRP",
-    "source_title": "Millrose Properties, Inc. (MRP) insider bought $6,647,148",
-    "source_summary": "4 insider(s) bought 243,372 shares at $27.31 on 2026-05-18.",
-    "drafted_at": "2026-06-01T23:21:29.603425",
+    "source_url": "http://openinsider.com/screener?s=NCLH",
+    "source_title": "Norwegian Cruise Line Holdings Ltd. (NCLH) insider bought $4,171,346",
+    "source_summary": "6 insider(s) bought 253,867 shares at $16.43 on 2026-05-22.",
+    "drafted_at": "2026-06-02T02:33:09.215457",
     "data": {
-      "ticker": "MRP",
+      "ticker": "NCLH",
       "type": "P",
-      "dollar_value": 6647148.0,
-      "pct_since": 1.5378965296094083
+      "dollar_value": 4171346.0,
+      "pct_since": 9.920873195023635
     },
-    "content_hash": "5a40a810f4ba2794"
+    "content_hash": "6743e2872b994c6e"
   },
   {
-    "id": "a95215cf",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "NEW YORK, June 1, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, reminds purchasers of common stock of Medpace Holdings, Inc. (NASDAQ: MEDP) between April 22, 2025 and February 9, 2026, inclusive (the \"Class Period\"), of the important June 8, 2026 lead...\n\nhttps://www.prnewswire.com/news-releases/medp-investors-have-opportunity-to-lead-medpace-holdings-inc-securities-fraud-lawsuit-302786834.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "PR NEWSWIRE",
-    "source_url": "https://www.prnewswire.com/news-releases/medp-investors-have-opportunity-to-lead-medpace-holdings-inc-securities-fraud-lawsuit-302786834.html",
-    "source_title": "MEDP Investors Have Opportunity to Lead Medpace Holdings, Inc. Securities Fraud Lawsuit",
-    "source_summary": "NEW YORK, June 1, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, reminds purchasers of common stock of Medpace Holdings, Inc. (NASDAQ: MEDP) between April 22, 2025 and February 9, 2026, inclusive (the \"Class Period\"), of the important June 8, 2026 lead...",
-    "drafted_at": "2026-06-01T23:21:29.604831",
-    "data": {
-      "source": "PR NEWSWIRE"
-    },
-    "content_hash": "b47374ea7a35834c"
-  },
-  {
-    "id": "35103712",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Pack \u2014 got one. Many of the defendants are Jewish, and an indictment alleged that they spoke in coded messages related to their backgrounds while discussing merger tips, referring to one deal as a \"flight to Israel\" and another as a \"rabbi.\".\n\nhttps://nypost.com/2026/06/01/business/elite-corporate-lawyers-accused-of-earning-millions-on-decades-long-insider-trading-plead-not-guilty/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "NY POST",
-    "source_url": "https://nypost.com/2026/06/01/business/elite-corporate-lawyers-accused-of-earning-millions-on-decades-long-insider-trading-plead-not-guilty/",
-    "source_title": "Elite corporate lawyers accused of earning millions on decades-long insider trading plead not guilty",
-    "source_summary": "Many of the defendants are Jewish, and an indictment alleged that they spoke in coded messages related to their backgrounds while discussing merger tips, referring to one deal as a \"flight to Israel\" and another as a \"rabbi.\"",
-    "drafted_at": "2026-06-01T23:21:29.605198",
-    "data": {
-      "source": "NY POST"
-    },
-    "content_hash": "6bb380d6bd8cbe6b"
-  },
-  {
-    "id": "0850337f",
+    "id": "f2f1ba13",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The wolves howled, the regulators listened. The OCC-chartered crypto bank is positioning its Atlas network as a coordinated multiparty settlement layer for institutional trading on Hyperliquid, Lighter, and Aave \u2014 letting funds touch live DeFi without moving assets offshore or prefunding venues.\n\nhttps://thedefiant.io/converge/defi/anchorage-digital-coordinated-multiparty-settlement-institutional-defi",
@@ -246,14 +250,14 @@
     "source_url": "https://thedefiant.io/converge/defi/anchorage-digital-coordinated-multiparty-settlement-institutional-defi",
     "source_title": "Anchorage Digital Pushes Federally Chartered Settlement Into Non-Custodial DeFi With Coordinated Multiparty Layer",
     "source_summary": "The OCC-chartered crypto bank is positioning its Atlas network as a coordinated multiparty settlement layer for institutional trading on Hyperliquid, Lighter, and Aave \u2014 letting funds touch live DeFi without moving assets offshore or prefunding venues.",
-    "drafted_at": "2026-06-01T23:21:29.605627",
+    "drafted_at": "2026-06-02T02:33:09.216639",
     "data": {
       "source": "THE DEFIANT"
     },
     "content_hash": "6027ff23c01d0bca"
   },
   {
-    "id": "21eb2bde",
+    "id": "12ded800",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Indictment of the day: Asset manager Fidelity moved millions for company owned by disgraced financier Jeffrey Epstein just weeks before his 2019 arrest, documents reveal.\n\nhttps://www.icij.org/news/2026/06/fidelity-opened-account-for-epstein-even-as-outrage-grew/",
@@ -263,14 +267,14 @@
     "source_url": "https://www.icij.org/news/2026/06/fidelity-opened-account-for-epstein-even-as-outrage-grew/",
     "source_title": "Fidelity opened account for Epstein, even as outrage grew",
     "source_summary": "Asset manager Fidelity moved millions for company owned by disgraced financier Jeffrey Epstein just weeks before his 2019 arrest, documents reveal.",
-    "drafted_at": "2026-06-01T23:21:29.605905",
+    "drafted_at": "2026-06-02T02:33:09.216885",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "4e264707a04e6455"
   },
   {
-    "id": "33b18023",
+    "id": "0f4f1204",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The confirmation comes after The Bureau of Investigative Journalism (TBIJ) reported the company's platforms were suspected of being involved in around \u20ac500m (\u00a3432m) worth of suspicious transactions spanning 30 European countries.\n\nShares in the company, which is listed in London and the US, fell sharply by 17.5% after the news broke.\n\nUK money transfer company Wise is being investigated over suspicions criminals used its accounts for money laundering, Belgian prosecutors have told French media.\n\nWise said it was working with the Brussels prosecutor's office but that \"no specific findings have been shared with us to date\".\n\nhttps://www.bbc.com/news/articles/cy42x8ye02vo?at_medium=RSS&at_campaign=rss",
@@ -280,99 +284,150 @@
     "source_url": "https://www.bbc.com/news/articles/cy42x8ye02vo?at_medium=RSS&at_campaign=rss",
     "source_title": "Wise under investigation over money laundering control concerns",
     "source_summary": "Wise says it is working with the Brussels prosecutor's office but that \"no specific findings have been shared with us to date\".",
-    "drafted_at": "2026-06-01T23:21:29.607091",
+    "drafted_at": "2026-06-02T02:33:09.217921",
     "data": {
       "source": "BBC"
     },
     "content_hash": "8f905697f2672dea"
   },
   {
-    "id": "e7b07aa9",
+    "id": "f7d839fb",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Belgian investigators are examining whether the firm's services were used by criminal groups to launder proceeds from suspected fraud, corruption and drug trafficking.\n\nhttp://www.euronews.com/business/2026/06/01/wise-under-belgian-investigation-over-alleged-money-laundering-control-failures",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "EURONEWS",
+    "source_url": "http://www.euronews.com/business/2026/06/01/wise-under-belgian-investigation-over-alleged-money-laundering-control-failures",
+    "source_title": "Wise under Belgian investigation over alleged money laundering control failures",
+    "source_summary": "Belgian investigators are examining whether the firm's services were used by criminal groups to launder proceeds from suspected fraud, corruption and drug trafficking.",
+    "drafted_at": "2026-06-02T02:33:09.218156",
+    "data": {
+      "source": "EURONEWS"
+    },
+    "content_hash": "d676ddb6d5f7f5bb"
+  },
+  {
+    "id": "5844dd70",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "One off the streets: Left was also convicted of 12 of 16 other counts related to specific trades on stocks like Tesla, Nvidia, Palantir and Meta, and was acquitted on four counts.\n\nhttps://justthenews.com/government/courts-law/jury-finds-prominent-short-seller-andrew-left-guilty-securities-fraud?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "JUST THE NEWS",
+    "source_url": "https://justthenews.com/government/courts-law/jury-finds-prominent-short-seller-andrew-left-guilty-securities-fraud?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+    "source_title": "Jury finds prominent short seller Andrew Left guilty of securities fraud",
+    "source_summary": "Left was also convicted of 12 of 16 other counts related to specific trades on stocks like Tesla, Nvidia, Palantir and Meta, and was acquitted on four counts.",
+    "drafted_at": "2026-06-02T02:33:09.218391",
+    "data": {
+      "source": "JUST THE NEWS"
+    },
+    "content_hash": "6e2989065c515553"
+  },
+  {
+    "id": "b273f4be",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Gulf wire: Oil steadied after its biggest gain in about a month, as uncertainty about the state of US-Iran peace talks raised the risk that energy flows from the Persian Gulf could be curtailed for longer.\n\nhttps://financialpost.com/pmn/business-pmn/oil-holds-biggest-gain-in-a-month-on-standoff-in-us-iran-talks",
+    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: It was supposed to the most groundbreaking structure the world had ever seen.\n\nBut now, this multi-trillion-dollar \u201csmart city\u201d is collapsing.\n\nhttps://nypost.com/2026/06/01/world-news/saudi-arabian-crown-princes-12-trillion-desert-city-dream-in-tatters-as-megaproject-halted/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NY POST",
+    "source_url": "https://nypost.com/2026/06/01/world-news/saudi-arabian-crown-princes-12-trillion-desert-city-dream-in-tatters-as-megaproject-halted/",
+    "source_title": "Saudi Arabian Crown Prince\u2019s $12 trillion, desert-city dream in tatters as megaproject halted",
+    "source_summary": "It was supposed to the most groundbreaking structure the world had ever seen. But now, this multi-trillion-dollar \u201csmart city\u201d is collapsing.",
+    "drafted_at": "2026-06-02T02:33:09.220170",
+    "data": {
+      "source": "NY POST"
+    },
+    "content_hash": "9864c1a3b85cac00"
+  },
+  {
+    "id": "31aa4372",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Gulf wire: Asian shares retreated from record highs as efforts to secure a US-Iran peace deal showed little progress and investors paused after a blistering AI-driven rally.\n\nhttps://financialpost.com/pmn/business-pmn/asian-stocks-drop-from-record-high-oil-steadies-markets-wrap",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/pmn/business-pmn/oil-holds-biggest-gain-in-a-month-on-standoff-in-us-iran-talks",
-    "source_title": "Oil Holds Biggest Gain in a Month on Standoff in US-Iran Talks",
-    "source_summary": "Oil steadied after its biggest gain in about a month, as uncertainty about the state of US-Iran peace talks raised the risk that energy flows from the Persian Gulf could be curtailed for longer.",
-    "drafted_at": "2026-06-01T23:21:29.611847",
+    "source_url": "https://financialpost.com/pmn/business-pmn/asian-stocks-drop-from-record-high-oil-steadies-markets-wrap",
+    "source_title": "Asian Stocks Drop From Record High, Oil Steadies: Markets Wrap",
+    "source_summary": "Asian shares retreated from record highs as efforts to secure a US-Iran peace deal showed little progress and investors paused after a blistering AI-driven rally.",
+    "drafted_at": "2026-06-02T02:33:09.220472",
     "data": {
       "source": "FINANCIAL POST"
     },
-    "content_hash": "73c5ccd8822caecb"
+    "content_hash": "5d80d6f95257ad10"
   },
   {
-    "id": "95c42afe",
+    "id": "69670e26",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Gulf wire: The Australian Dollar loses traction and edges down 0.30% on Monday as risk appetite soured due to Iran halting negotiations with the US, as Israel intensified attacks in Lebanon.\n\nhttps://www.fxstreet.com/news/australian-dollar-wilts-as-lebanon-flare-up-lifts-the-us-dollar-202606012250",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/australian-dollar-wilts-as-lebanon-flare-up-lifts-the-us-dollar-202606012250",
-    "source_title": "Australian Dollar wilts as Lebanon flare-up lifts the US Dollar",
-    "source_summary": "The Australian Dollar loses traction and edges down 0.30% on Monday as risk appetite soured due to Iran halting negotiations with the US, as Israel intensified attacks in Lebanon.",
-    "drafted_at": "2026-06-01T23:21:29.612125",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "dc9dcb6fa00dbcc2"
-  },
-  {
-    "id": "3360d62e",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "CHINA DESK: Nvidia's Nemotron 3 Ultra tops every American open-weight AI system by a wide margin\u2014but still trails the Chinese-led frontier.\n\nhttps://decrypt.co/369689/nvidia-open-ai-model-nemotron-3-ultra",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "DECRYPT",
-    "source_url": "https://decrypt.co/369689/nvidia-open-ai-model-nemotron-3-ultra",
-    "source_title": "Nvidia Releases Its Best Open AI Model Yet\u2014But Still Lags Behind China",
-    "source_summary": "Nvidia's Nemotron 3 Ultra tops every American open-weight AI system by a wide margin\u2014but still trails the Chinese-led frontier.",
-    "drafted_at": "2026-06-01T23:21:29.612369",
-    "data": {
-      "source": "DECRYPT"
-    },
-    "content_hash": "2b6e94eaefcceafd"
-  },
-  {
-    "id": "e4c5d725",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Levant update: US equity futures edged lower and oil held gains as Washington struggled to get efforts toward an Iran peace deal back on track.\n\nhttps://financialpost.com/pmn/business-pmn/oil-holds-gains-us-futures-slip-on-war-confusion-markets-wrap",
+    "draft_text": "Gulf wire: Japanese Prime Minister Sanae Takaichi called for the safe passage of all vessels regardless of nation in her third phone call with Iranian President Masoud Pezeshkian.\n\nhttps://financialpost.com/pmn/business-pmn/japans-takaichi-urges-passage-of-vessels-in-call-with-iran",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/pmn/business-pmn/oil-holds-gains-us-futures-slip-on-war-confusion-markets-wrap",
-    "source_title": "Oil Holds Gains, US Futures Slip on War Confusion: Markets Wrap",
-    "source_summary": "US equity futures edged lower and oil held gains as Washington struggled to get efforts toward an Iran peace deal back on track.",
-    "drafted_at": "2026-06-01T23:21:29.612684",
+    "source_url": "https://financialpost.com/pmn/business-pmn/japans-takaichi-urges-passage-of-vessels-in-call-with-iran",
+    "source_title": "Japan\u2019s Takaichi Urges Passage of Vessels in Call with Iran",
+    "source_summary": "Japanese Prime Minister Sanae Takaichi called for the safe passage of all vessels regardless of nation in her third phone call with Iranian President Masoud Pezeshkian.",
+    "drafted_at": "2026-06-02T02:33:09.220672",
     "data": {
       "source": "FINANCIAL POST"
     },
-    "content_hash": "d3b914d3b96e1223"
+    "content_hash": "7d32e2d447198f64"
   },
   {
-    "id": "94a8b02e",
+    "id": "1cbaccd3",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "ASIA DESK: Volkmar Baur at Commerzbank argues that market concerns over Japan\u2019s fiscal stance are exaggerated, even after a new 3.1 trillion JPY supplementary budget funded largely by debt.\n\nhttps://www.fxstreet.com/news/japan-debt-worries-seen-overstated-commerzbank-202606012239",
+    "draft_text": "From Tokyo to Hong Kong: South Korea\u2019s equity market has overtaken India\u2019s as the world\u2019s sixth largest, driven by a relentless surge in chip heavyweights powering the global artificial intelligence buildout.\n\nhttps://financialpost.com/pmn/business-pmn/south-korea-overtakes-india-as-worlds-sixth-largest-stock-market",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/japan-debt-worries-seen-overstated-commerzbank-202606012239",
-    "source_title": "Japan: Debt worries seen overstated \u2013 Commerzbank",
-    "source_summary": "Volkmar Baur at Commerzbank argues that market concerns over Japan\u2019s fiscal stance are exaggerated, even after a new 3.1 trillion JPY supplementary budget funded largely by debt.",
-    "drafted_at": "2026-06-01T23:21:29.613066",
+    "primary_source": "FINANCIAL POST",
+    "source_url": "https://financialpost.com/pmn/business-pmn/south-korea-overtakes-india-as-worlds-sixth-largest-stock-market",
+    "source_title": "South\u00a0Korea Overtakes\u00a0India as World\u2019s Sixth-Largest Stock Market",
+    "source_summary": "South Korea\u2019s equity market has overtaken India\u2019s as the world\u2019s sixth largest, driven by a relentless surge in chip heavyweights powering the global artificial intelligence buildout.",
+    "drafted_at": "2026-06-02T02:33:09.221108",
     "data": {
-      "source": "FXSTREET"
+      "source": "FINANCIAL POST"
     },
-    "content_hash": "6dcd83d061cd4ca4"
+    "content_hash": "b0e33d9f588473e5"
   },
   {
-    "id": "9e9a7c51",
+    "id": "f3fbfe68",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "From Beijing: JIAXING, China, June 01, 2026 (GLOBE NEWSWIRE) -- Shortly after 11:00 on May 28, YTO Airlines flight YG9007 took off from the runway, heading directly to Dhaka, the capital of Bangladesh.\n\nThis marked the inauguration of the first international cargo route at the YTO\u2019s Jiaxing Global Aviation Logistics Hub \u2013 YTO SKYHUB, and the official activation of the hub\u2019s international functions.\n\nIt also signified a crucial step forward for YTO in its development goal of becoming an international integrated supply chain integrator.\n\nhttps://www.globenewswire.com/news-release/2026/06/02/3304815/0/en/YTO-Express-s-Global-Aviation-Logistics-Hub-YTO-SKYHUB-Launches-First-International-Cargo-Route.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "GLOBENEWSWIRE",
+    "source_url": "https://www.globenewswire.com/news-release/2026/06/02/3304815/0/en/YTO-Express-s-Global-Aviation-Logistics-Hub-YTO-SKYHUB-Launches-First-International-Cargo-Route.html",
+    "source_title": "YTO Express's Global Aviation Logistics Hub \u2013 YTO SKYHUB Launches First International Cargo Route",
+    "source_summary": "JIAXING, China, June 01, 2026 (GLOBE NEWSWIRE) -- Shortly after 11:00 on May 28, YTO Airlines flight YG9007 took off from the runway, heading directly to Dhaka, the capital of Bangladesh. This marked the inauguration of the first international cargo route at the YTO\u2019s Jiaxing Global Aviation Logistics Hub \u2013 YTO SKYHUB, and the official activation of the hub\u2019s international functions. It also signi",
+    "drafted_at": "2026-06-02T02:33:09.222048",
+    "data": {
+      "source": "GLOBENEWSWIRE"
+    },
+    "content_hash": "4d64489448483a17"
+  },
+  {
+    "id": "5f9a0b23",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "GROWTH POSTCARD: Building Permits m/m (Apr) -3.4% prior -10.5% Building Permits y/y (Apr) +10.2% prior +9.0% Private House Approvals m/m (Apr) -1.0% prior +0.9% Business Inventories q/q (Q1) +0.5% prior -0.1% Company Gross Profits q/q (Q1) -1.3% prior +5.8% Net Exports Contribution to GDP (Q1) -0.8% prior -0.1% Current Account (Q1) -A$27.1B prior -A$21.1B Earlier: RBA's hawkish Harper hints herald hike Australia minimum wage rises 4.75% This article was written by Eamonn Sheridan at investinglive.com.\n\nhttps://investinglive.com/news/australia-widening-current-account-deficit-to-weigh-on-q1-gdp-20260602/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/australia-widening-current-account-deficit-to-weigh-on-q1-gdp-20260602/",
+    "source_title": "Australia widening current account deficit, inventory draw to weigh on Q1 GDP",
+    "source_summary": "Building Permits m/m (Apr) -3.4% prior -10.5% Building Permits y/y (Apr) +10.2% prior +9.0% Private House Approvals m/m (Apr) -1.0% prior +0.9% Business Inventories q/q (Q1) +0.5% prior -0.1% Company Gross Profits q/q (Q1) -1.3% prior +5.8% Net Exports Contribution to GDP (Q1) -0.8% prior -0.1% Current Account (Q1) -A$27.1B prior -A$21.1B Earlier: RBA's hawkish Harper hints herald hike Australia m",
+    "drafted_at": "2026-06-02T02:33:09.269959",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "676d9099b10f5e0c"
+  },
+  {
+    "id": "8af5c9eb",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "How fast is the economy moving? Now we know: In just seven years, Guyana has become one of the fastest-growing oil exporters and global economies and an oil-producing powerhouse with nearly 1 million barrels per day of production capacity.\n\nAnd the war in Iran is only turning up the heat even more.\n\nSince ExxonMobil launched production from the offshore Stabroek block in 2019, Guyana\u2019s economy has quadrupled.\n\nOil revenues and royalties have boosted income for the state coffers and gross domestic product (GDP) linked with oil-related activities.\n\nNow Guyana, which was one of the poorest\u2026\n\nhttps://oilprice.com/Energy/Energy-General/Guyana-Emerges-as-an-Oil-Winner-in-the-Iran-War.html",
@@ -382,14 +437,14 @@
     "source_url": "https://oilprice.com/Energy/Energy-General/Guyana-Emerges-as-an-Oil-Winner-in-the-Iran-War.html",
     "source_title": "Guyana Emerges as an Oil Winner in the Iran War",
     "source_summary": "In just seven years, Guyana has become one of the fastest-growing oil exporters and global economies and an oil-producing powerhouse with nearly 1 million barrels per day of production capacity. And the war in Iran is only turning up the heat even more. Since ExxonMobil launched production from the offshore Stabroek block in 2019, Guyana\u2019s economy has quadrupled. Oil revenues and royalties have bo",
-    "drafted_at": "2026-06-01T23:21:29.674872",
+    "drafted_at": "2026-06-02T02:33:09.270674",
     "data": {
       "source": "OILPRICE"
     },
     "content_hash": "1d9e9323e5fe2fe4"
   },
   {
-    "id": "34083d5a",
+    "id": "c9ae0198",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "Scoreboard update: ISM manufacturing rises to the highest since 2022 Iran cuts off talks, says there won't be negotiations with aggression in Lebanon - report Trump: Hezbollah agreed that all shooting will stop, talks with Iran continue Trump to CNBC:If Iranian's try to have a nuclear weapon,I will \"blow them to kingdom come\" Netanyahu: The IDF will continue to operate as planned in Southern Lebanon Sam Altman: I think this is the most-fair criticism of Ai right now Trump: \"I think we have been talking too much.\n\nGoing silent would be very good\" Hezbollah ready for full ceasefire with Israel - report Iran eases passage for Japan ships in Strait of Hormuz amid tensions/negotiations Markets: Gold down $52 to $4481 WTI crude oil up $5.16 to $92.52 US 10-year yields flat at 4.45% S&P 500 up 0.26% GBP leads, NZD lags War headlines continue to move the market.\n\nEarly in the day, the angst built on strikes and retaliatory strikes.\n\nThe peak came after a report in Iran's semi-official media that said Iran had called off talks until the fighting stops in Lebanon.\n\nThe report also said they would 'activities' activity in the Red Sea, though it wasn't clear to what extent there would be a blockade.\n\nLater, Trump had a long call with Netanyahu and then announced that Israel was halting strikes near Beirut.\n\nThis came after reports that Hezbollah had offered a total ceasefire.\n\nAfterwards, Netanyahu didn't appear to take the ceasefire offer as he said that operations would continue in Southern Lebanon.\n\nhttps://investinglive.com/news/investinglive-americas-market-news-wrap-ism-manufacturing-rises-to-the-highest-since-2022-20260601/",
@@ -399,14 +454,14 @@
     "source_url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-ism-manufacturing-rises-to-the-highest-since-2022-20260601/",
     "source_title": "investingLive Americas market news wrap: ISM manufacturing rises to the highest since 2022",
     "source_summary": "ISM manufacturing rises to the highest since 2022 Iran cuts off talks, says there won't be negotiations with aggression in Lebanon - report Trump: Hezbollah agreed that all shooting will stop, talks with Iran continue Trump to CNBC:If Iranian's try to have a nuclear weapon,I will \"blow them to kingdom come\" Netanyahu: The IDF will continue to operate as planned in Southern Lebanon Sam Altman: I th",
-    "drafted_at": "2026-06-01T23:21:29.677130",
+    "drafted_at": "2026-06-02T02:33:09.272635",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "b154e4392ef411a4"
   },
   {
-    "id": "970361f2",
+    "id": "2348b5b8",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "From the BEA desk: The economy is 'markedly darker,' according to Gallup.\n\nhttps://dailycaller.com/2026/05/28/first-quarter-gdp-revised-downward-voters-fret-economy-gallup-eci-inflation/",
@@ -416,14 +471,14 @@
     "source_url": "https://dailycaller.com/2026/05/28/first-quarter-gdp-revised-downward-voters-fret-economy-gallup-eci-inflation/",
     "source_title": "First Quarter GDP Revised Downward As Voters Fret Over Economy",
     "source_summary": "The economy is 'markedly darker,' according to Gallup.",
-    "drafted_at": "2026-06-01T23:21:29.677270",
+    "drafted_at": "2026-06-02T02:33:09.272746",
     "data": {
       "source": "DAILY CALLER"
     },
     "content_hash": "83a922e0b44d81c0"
   },
   {
-    "id": "f924f1ed",
+    "id": "d90a6edb",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -433,7 +488,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-06-01T23:21:29.678838",
+    "drafted_at": "2026-06-02T02:33:09.274130",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -441,24 +496,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "cec639c1",
-    "format": "PACK_TAKE",
-    "status": "pending",
-    "draft_text": "The herd panics together. The pack profits quietly.",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Howl Street",
-    "source_url": "",
-    "source_title": "PACK TAKE",
-    "source_summary": "The herd panics together. The pack profits quietly.",
-    "drafted_at": "2026-06-01T23:21:29.678915",
-    "data": {
-      "take_seed": "2026-06-01-pack-1"
-    },
-    "content_hash": "9b0f7be55d8ef71c"
-  },
-  {
-    "id": "943f412d",
+    "id": "050edbb3",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Your alerts didn't go off because the pack got there first.",
@@ -468,9 +506,26 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Your alerts didn't go off because the pack got there first.",
-    "drafted_at": "2026-06-01T23:21:29.678974",
+    "drafted_at": "2026-06-02T02:33:09.274205",
     "data": {
-      "take_seed": "2026-06-01-pack-2"
+      "take_seed": "2026-06-02-pack-1"
+    },
+    "content_hash": "9b0f7be55d8ef71c"
+  },
+  {
+    "id": "6dd0b518",
+    "format": "PACK_TAKE",
+    "status": "pending",
+    "draft_text": "Information is free. Conviction is rare. Patience is rarer.",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Howl Street",
+    "source_url": "",
+    "source_title": "PACK TAKE",
+    "source_summary": "Information is free. Conviction is rare. Patience is rarer.",
+    "drafted_at": "2026-06-02T02:33:09.274252",
+    "data": {
+      "take_seed": "2026-06-02-pack-2"
     },
     "content_hash": "9b0f7be55d8ef71c"
   }
