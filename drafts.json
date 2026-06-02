@@ -1,42 +1,76 @@
 [
   {
-    "id": "49712e23",
+    "id": "7f64a133",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "FRONT-PAGE FOR THE PACK: Bitcoin (BTC) has taken a big hit in the last 24 hours.\n\nhttps://watcher.guru/news/bitcoin-at-critical-level-as-us-iran-talks-fail",
+    "draft_text": "PACK FRONT-PAGE: European Central Bank (ECB) official and Finnish Central Bank Governor Olli Rehn said during the European trading session on Tuesday that an interest rate hike at the policy meeting this month should be viewed as an \"insurance\" move to guard against future inflation risks.\n\nhttps://www.fxstreet.com/news/ecbs-rehn-interest-rate-hike-in-june-should-be-viewed-as-an-insurance-move-202606021047",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "WATCHER GURU",
-    "source_url": "https://watcher.guru/news/bitcoin-at-critical-level-as-us-iran-talks-fail",
-    "source_title": "Bitcoin At Critical Level As US-Iran Talks Fail",
-    "source_summary": "Bitcoin (BTC) has taken a big hit in the last 24 hours. According to CoinGecko\u2019s BTC data, the\u2026",
-    "drafted_at": "2026-06-02T07:15:58.618326",
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/ecbs-rehn-interest-rate-hike-in-june-should-be-viewed-as-an-insurance-move-202606021047",
+    "source_title": "ECB\u2019s Rehn: Interest rate hike in June should be viewed as an insurance move",
+    "source_summary": "European Central Bank (ECB) official and Finnish Central Bank Governor Olli Rehn said during the European trading session on Tuesday that an interest rate hike at the policy meeting this month should be viewed as an \"insurance\" move to guard against future inflation risks.",
+    "drafted_at": "2026-06-02T11:57:09.686570",
     "data": {
-      "source": "WATCHER GURU"
+      "source": "FXSTREET"
     },
-    "content_hash": "a8d5ad66ce30cb42"
+    "content_hash": "ee44fef38951405d"
   },
   {
-    "id": "7200ad6f",
+    "id": "ef5706ac",
     "format": "MARKET_MOVE",
     "status": "pending",
-    "draft_text": "Some moves whisper. This one's screaming. WTI crude drops 5.3% in 5 sessions to $91.45.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "draft_text": "If your alerts didn't go off, mine did. Nasdaq just hit 27,086.81 \u2014 highest in 9+ years.\n\nTech-heavy index.\n\nLeads risk appetite and is most sensitive to rate moves.\n\nMulti-year high. The pack remembers what comes after these.\n\nhttps://finance.yahoo.com/quote/%5EIXIC",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "NYMEX \u00b7 CL=F",
-    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
-    "source_title": "WTI crude oil futures",
-    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-06-02T07:15:58.618609",
+    "primary_source": "Yahoo Finance \u00b7 ^IXIC",
+    "source_url": "https://finance.yahoo.com/quote/%5EIXIC",
+    "source_title": "Nasdaq Composite",
+    "source_summary": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
+    "drafted_at": "2026-06-02T11:57:09.686861",
     "data": {
-      "signal_id": "CL=F:move:2026-06-02",
-      "kind": "move_down",
-      "current": "$91.45"
+      "signal_id": "^IXIC:high:2026-06-01",
+      "kind": "high",
+      "current": "27,086.81"
     },
-    "content_hash": "c272de0720a2f459"
+    "content_hash": "ce08e8b71b40219b"
   },
   {
-    "id": "10bd9b1a",
+    "id": "c9794c34",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "Eurozone policy update: European Central Bank (ECB) official and Finnish Central Bank Governor Olli Rehn said during the European trading session on Tuesday that an interest rate hike at the policy meeting this month should be viewed as an \"insurance\" move to guard against future inflation risks.\n\nhttps://www.fxstreet.com/news/ecbs-rehn-interest-rate-hike-in-june-should-be-viewed-as-an-insurance-move-202606021047",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "ECB",
+    "source_url": "https://www.fxstreet.com/news/ecbs-rehn-interest-rate-hike-in-june-should-be-viewed-as-an-insurance-move-202606021047",
+    "source_title": "ECB\u2019s Rehn: Interest rate hike in June should be viewed as an insurance move",
+    "source_summary": "European Central Bank (ECB) official and Finnish Central Bank Governor Olli Rehn said during the European trading session on Tuesday that an interest rate hike at the policy meeting this month should be viewed as an \"insurance\" move to guard against future inflation risks.",
+    "drafted_at": "2026-06-02T11:57:09.697484",
+    "data": {
+      "actor": "ECB"
+    },
+    "content_hash": "ee44fef38951405d"
+  },
+  {
+    "id": "76caf094",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "From Frankfurt: Eurozone inflation rose to 3.2% in May, the highest since 2023, driven by energy and services.\n\nMarkets now see an ECB rate hike next week as done deal.\n\nhttp://www.euronews.com/business/2026/06/02/inflation-hits-32-highest-since-2023-are-ecb-rate-hikes-inevitable",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "ECB",
+    "source_url": "http://www.euronews.com/business/2026/06/02/inflation-hits-32-highest-since-2023-are-ecb-rate-hikes-inevitable",
+    "source_title": "Inflation hits 3.2%, highest since 2023: Are ECB rate hikes inevitable?",
+    "source_summary": "Eurozone inflation rose to 3.2% in May, the highest since 2023, driven by energy and services. Markets now see an ECB rate hike next week as done deal.",
+    "drafted_at": "2026-06-02T11:57:09.697744",
+    "data": {
+      "actor": "ECB"
+    },
+    "content_hash": "7f9ae242c5621017"
+  },
+  {
+    "id": "47190dc2",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Rate-path desk: The Board's process for setting the discount rate is distinct from the process the Federal Open Market Committee follows in setting the target range for the federal funds rate.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
@@ -46,14 +80,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
     "source_title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
     "source_summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
-    "drafted_at": "2026-06-02T07:15:58.627748",
+    "drafted_at": "2026-06-02T11:57:09.698188",
     "data": {
       "actor": "FED"
     },
     "content_hash": "b2d403ab8c4d5036"
   },
   {
-    "id": "5d8d7c8d",
+    "id": "ef4e2a33",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FED WATCH: Also on Friday, the Federal Open Market Committee unanimously selected Warsh as its chairman.\n\nPresident Donald J.\n\nTrump nominated Mr. Warsh on March 4, 2026.\n\nHe was confirmed by the United States Senate to serve as a member of the Board on May 12, and as chairman of the Board on May 13.\n\nHis term as chairman ends on May 21, 2030, and his term as a member of the Board ends on January 31, 2040.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm",
@@ -63,14 +97,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm",
     "source_title": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
     "source_summary": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
-    "drafted_at": "2026-06-02T07:15:58.628305",
+    "drafted_at": "2026-06-02T11:57:09.698859",
     "data": {
       "actor": "FED"
     },
     "content_hash": "a5762f43aa0ef3b0"
   },
   {
-    "id": "5ee68fa4",
+    "id": "1d04f6ae",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Policy update for the pack: Resolution plans, also known as living wills, must describe a banking organization's strategy for orderly resolution in the event of material financial distress or failure.\n\nThe agencies conducted a joint review of the 2025 resolution plan submissions from the eight largest and most complex domestic banking organizations as well as from 56 foreign banking organizations.\n\nThe agencies did not identify any shortcomings or deficiencies in these resolution plan submissions.\n\nThe agencies also determined that each derivatives-related weakness identified in the 2023 plans from Bank of America, Goldman Sachs, JPMorgan Chase, and Citigroup has been satisfactorily addressed.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260522a.htm",
@@ -80,48 +114,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260522a.htm",
     "source_title": "Agencies publish resolution plan feedback letters for certain domestic and foreign banking organizations",
     "source_summary": "Agencies publish resolution plan feedback letters for certain domestic and foreign banking organizations",
-    "drafted_at": "2026-06-02T07:15:58.629113",
+    "drafted_at": "2026-06-02T11:57:09.699807",
     "data": {
       "actor": "FED"
     },
     "content_hash": "b0e49d2209d92f96"
   },
   {
-    "id": "b7d5eec0",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "If you trade rates, read this: Consent prohibition order against Nakia R.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260521a.htm",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FED",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260521a.htm",
-    "source_title": "Federal Reserve Board issues enforcement action with former employee of Commerce Bank",
-    "source_summary": "Federal Reserve Board issues enforcement action with former employee of Commerce Bank",
-    "drafted_at": "2026-06-02T07:15:58.629239",
-    "data": {
-      "actor": "FED"
-    },
-    "content_hash": "b9dac9fbdced3f0f"
-  },
-  {
-    "id": "83a4ef54",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "FOMC desk: Payment account holders would not have access to intraday credit or the discount window, would not earn interest on balances held at a Reserve Bank, and would only have access to payment services with automated controls to prevent overdrafts.\n\nAs the payments landscape rapidly evolves, financial institutions with an increasingly wide range of business models have sought direct access to the Federal Reserve's payment services to reduce costs and increase payment speed.\n\nMany of these requests for access come from institutions that are not federally insured.\n\nThe proposed payment account would be tailored to support innovation by serving the clearing and settlement needs of certain eligible institutions while also mitigating material risks to the Reserve Banks and payment system.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/other20260520a.htm",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FED",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260520a.htm",
-    "source_title": "Federal Reserve Board requests public comment on a proposal to establish a \"payment account,\" which legally eligible financial institutions could use for the specific purpose of clearing and settling their payments",
-    "source_summary": "Federal Reserve Board requests public comment on a proposal to establish a \"payment account,\" which legally eligible financial institutions could use for the specific purpose of clearing and settling their payments",
-    "drafted_at": "2026-06-02T07:15:58.630633",
-    "data": {
-      "actor": "FED"
-    },
-    "content_hash": "31af2dadc8e93a7e"
-  },
-  {
-    "id": "b3d0aa51",
+    "id": "19961c31",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$LILA insider bought $107,229,266 on 2026-05-22, 2 insiders. \ud83d\udc40\n\nLiberty Latin America Ltd.. 12,426,463 shares at $8.63.\n\n-7.0% since the purchase.\n\nhttp://openinsider.com/screener?s=LILA",
@@ -131,7 +131,7 @@
     "source_url": "http://openinsider.com/screener?s=LILA",
     "source_title": "Liberty Latin America Ltd. (LILA) insider bought $107,229,266",
     "source_summary": "2 insider(s) bought 12,426,463 shares at $8.63 on 2026-05-22.",
-    "drafted_at": "2026-06-02T07:15:58.630786",
+    "drafted_at": "2026-06-02T11:57:09.701776",
     "data": {
       "ticker": "LILA",
       "type": "P",
@@ -141,7 +141,7 @@
     "content_hash": "baa5e81beb909bf9"
   },
   {
-    "id": "72090a37",
+    "id": "0f6704a1",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$BRCB insider bought $73,337,883 on 2026-05-21, 3 insiders. \ud83d\udc40\n\nBlack Rock Coffee Bar, Inc.. 13,695,817 shares at $5.35.\n\n+50.3% since the purchase.\n\nhttp://openinsider.com/screener?s=BRCB",
@@ -151,7 +151,7 @@
     "source_url": "http://openinsider.com/screener?s=BRCB",
     "source_title": "Black Rock Coffee Bar, Inc. (BRCB) insider bought $73,337,883",
     "source_summary": "3 insider(s) bought 13,695,817 shares at $5.35 on 2026-05-21.",
-    "drafted_at": "2026-06-02T07:15:58.630904",
+    "drafted_at": "2026-06-02T11:57:09.701910",
     "data": {
       "ticker": "BRCB",
       "type": "P",
@@ -161,7 +161,7 @@
     "content_hash": "755b8302a285ed67"
   },
   {
-    "id": "cac493fc",
+    "id": "71d0dfc4",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$QTTB insider bought $15,000,000 on 2026-05-28. \ud83d\udc40\n\nQ32 Bio Inc.. 1,875,000 shares at $8.00.\n\n+45.7% since the purchase.\n\nhttp://openinsider.com/screener?s=QTTB",
@@ -171,7 +171,7 @@
     "source_url": "http://openinsider.com/screener?s=QTTB",
     "source_title": "Q32 Bio Inc. (QTTB) insider bought $15,000,000",
     "source_summary": "1 insider(s) bought 1,875,000 shares at $8.00 on 2026-05-28.",
-    "drafted_at": "2026-06-02T07:15:58.631000",
+    "drafted_at": "2026-06-02T11:57:09.702018",
     "data": {
       "ticker": "QTTB",
       "type": "P",
@@ -181,7 +181,7 @@
     "content_hash": "2774cc7cd2c3d5ba"
   },
   {
-    "id": "2b642027",
+    "id": "b2d1c8d5",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$OTLK insider bought $5,000,000 on 2026-05-28. \ud83d\udc40\n\nOutlook Therapeutics, Inc.. 8,539,709 shares at $0.59.\n\n+42.9% since the purchase.\n\nhttp://openinsider.com/screener?s=OTLK",
@@ -191,7 +191,7 @@
     "source_url": "http://openinsider.com/screener?s=OTLK",
     "source_title": "Outlook Therapeutics, Inc. (OTLK) insider bought $5,000,000",
     "source_summary": "1 insider(s) bought 8,539,709 shares at $0.59 on 2026-05-28.",
-    "drafted_at": "2026-06-02T07:15:58.631102",
+    "drafted_at": "2026-06-02T11:57:09.702132",
     "data": {
       "ticker": "OTLK",
       "type": "P",
@@ -201,7 +201,7 @@
     "content_hash": "3a8d831440deb452"
   },
   {
-    "id": "c3b2b1f3",
+    "id": "d1e7dbdb",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$NCLH insider bought $4,171,346 on 2026-05-22, 6 insiders. \ud83d\udc40\n\nNorwegian Cruise Line Holdings Ltd.. 253,867 shares at $16.43.\n\n+9.9% since the purchase.\n\nhttp://openinsider.com/screener?s=NCLH",
@@ -211,7 +211,7 @@
     "source_url": "http://openinsider.com/screener?s=NCLH",
     "source_title": "Norwegian Cruise Line Holdings Ltd. (NCLH) insider bought $4,171,346",
     "source_summary": "6 insider(s) bought 253,867 shares at $16.43 on 2026-05-22.",
-    "drafted_at": "2026-06-02T07:15:58.631215",
+    "drafted_at": "2026-06-02T11:57:09.702281",
     "data": {
       "ticker": "NCLH",
       "type": "P",
@@ -221,24 +221,24 @@
     "content_hash": "6743e2872b994c6e"
   },
   {
-    "id": "f4b21790",
+    "id": "42fb8713",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "Indictment of the day: One financial intelligence firm warned of increased scrutiny for other short sellers after Left was found guilty on 13 counts of securities fraud.\n\nhttps://www.businessinsider.com/reactions-andrew-left-securities-fraud-verdict-short-selling-investors-analysts-2026-6",
+    "draft_text": "The post Toxic Ground: How Oil Field Pollution Is Threatening Oklahoma appeared first on ProPublica.\n\nhttps://www.propublica.org/article/toxic-ground-how-oil-field-pollution-is-threatening-oklahoma",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "BUSINESS INSIDER",
-    "source_url": "https://www.businessinsider.com/reactions-andrew-left-securities-fraud-verdict-short-selling-investors-analysts-2026-6",
-    "source_title": "Investors see a warning in Andrew Left's conviction",
-    "source_summary": "One financial intelligence firm warned of increased scrutiny for other short sellers after Left was found guilty on 13 counts of securities fraud.",
-    "drafted_at": "2026-06-02T07:15:58.632182",
+    "primary_source": "PROPUBLICA",
+    "source_url": "https://www.propublica.org/article/toxic-ground-how-oil-field-pollution-is-threatening-oklahoma",
+    "source_title": "Toxic Ground: How Oil Field Pollution Is Threatening Oklahoma",
+    "source_summary": "The post Toxic Ground: How Oil Field Pollution Is Threatening Oklahoma appeared first on ProPublica .",
+    "drafted_at": "2026-06-02T11:57:09.703361",
     "data": {
-      "source": "BUSINESS INSIDER"
+      "source": "PROPUBLICA"
     },
-    "content_hash": "39ca5628e25a187c"
+    "content_hash": "466e10b9b182d8bf"
   },
   {
-    "id": "69c56237",
+    "id": "519b6ea5",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The wolves howled, the regulators listened. The OCC-chartered crypto bank is positioning its Atlas network as a coordinated multiparty settlement layer for institutional trading on Hyperliquid, Lighter, and Aave \u2014 letting funds touch live DeFi without moving assets offshore or prefunding venues.\n\nhttps://thedefiant.io/converge/defi/anchorage-digital-coordinated-multiparty-settlement-institutional-defi",
@@ -248,14 +248,14 @@
     "source_url": "https://thedefiant.io/converge/defi/anchorage-digital-coordinated-multiparty-settlement-institutional-defi",
     "source_title": "Anchorage Digital Pushes Federally Chartered Settlement Into Non-Custodial DeFi With Coordinated Multiparty Layer",
     "source_summary": "The OCC-chartered crypto bank is positioning its Atlas network as a coordinated multiparty settlement layer for institutional trading on Hyperliquid, Lighter, and Aave \u2014 letting funds touch live DeFi without moving assets offshore or prefunding venues.",
-    "drafted_at": "2026-06-02T07:15:58.632541",
+    "drafted_at": "2026-06-02T11:57:09.703775",
     "data": {
       "source": "THE DEFIANT"
     },
     "content_hash": "6027ff23c01d0bca"
   },
   {
-    "id": "228c0f25",
+    "id": "d014ef54",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Indictment of the day: Asset manager Fidelity moved millions for company owned by disgraced financier Jeffrey Epstein just weeks before his 2019 arrest, documents reveal.\n\nhttps://www.icij.org/news/2026/06/fidelity-opened-account-for-epstein-even-as-outrage-grew/",
@@ -265,133 +265,184 @@
     "source_url": "https://www.icij.org/news/2026/06/fidelity-opened-account-for-epstein-even-as-outrage-grew/",
     "source_title": "Fidelity opened account for Epstein, even as outrage grew",
     "source_summary": "Asset manager Fidelity moved millions for company owned by disgraced financier Jeffrey Epstein just weeks before his 2019 arrest, documents reveal.",
-    "drafted_at": "2026-06-02T07:15:58.632766",
+    "drafted_at": "2026-06-02T11:57:09.704039",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "4e264707a04e6455"
   },
   {
-    "id": "77bff8d7",
+    "id": "b051137a",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "The Ring is Euronews\u2019 weekly political showdown, where Europe\u2019s toughest debates meet their boldest voices.\n\nIn each episode, two political heavyweights from across the EU face off to propose a diversity of opinions and spark conversations around the most important issues of EU affairs and the wider European political life.\n\nEuronews Tech Talks goes beyond discussions to explore the impact of new technologies on our lives.\n\nWith explanations, engaging Q&As, and lively conversations, the podcast provides valuable insights into the intersection of technology and society.\n\nEurope's best food experts are joining forces to crack down on fraud.\n\nhttp://www.euronews.com/business/2026/06/01/wise-under-belgian-investigation-over-alleged-money-laundering-control-failures",
+    "draft_text": "The post More Than $100 Million Was Billed for Medically Questionable Vascular Procedures, Government Watchdog Finds appeared first on ProPublica.\n\nhttps://www.propublica.org/article/vascular-procedures-medicare-inspector-general-report",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "EURONEWS",
-    "source_url": "http://www.euronews.com/business/2026/06/01/wise-under-belgian-investigation-over-alleged-money-laundering-control-failures",
-    "source_title": "Wise under Belgian investigation over alleged money laundering control failures",
-    "source_summary": "Belgian investigators are examining whether the firm's services were used by criminal groups to launder proceeds from suspected fraud, corruption and drug trafficking.",
-    "drafted_at": "2026-06-02T07:15:58.634108",
+    "primary_source": "PROPUBLICA",
+    "source_url": "https://www.propublica.org/article/vascular-procedures-medicare-inspector-general-report",
+    "source_title": "More Than $100 Million Was Billed for Medically Questionable Vascular Procedures, Government Watchdog Finds",
+    "source_summary": "The post More Than $100 Million Was Billed for Medically Questionable Vascular Procedures, Government Watchdog Finds appeared first on ProPublica .",
+    "drafted_at": "2026-06-02T11:57:09.704301",
     "data": {
-      "source": "EURONEWS"
+      "source": "PROPUBLICA"
     },
-    "content_hash": "d676ddb6d5f7f5bb"
+    "content_hash": "c17eff9360922655"
   },
   {
-    "id": "10b7eaf5",
+    "id": "49b770ad",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "Lee Zeldin alleges that eight nonprofit \"cutouts\" were used to route billions to former Obama-Biden cronies.\n\nhttps://justthenews.com/accountability/waste-fraud-and-abuse/epa-boss-made-criminal-referrals-alleging-democrat-self?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+    "draft_text": "The post Alaska\u2019s Deteriorating Schools Could Receive More Than $148 Million for Repairs.\n\nIt\u2019s a Fraction of What They Need. appeared first on ProPublica.\n\nhttps://www.propublica.org/article/alaska-public-schools-repairs-funding-bill",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "JUST THE NEWS",
-    "source_url": "https://justthenews.com/accountability/waste-fraud-and-abuse/epa-boss-made-criminal-referrals-alleging-democrat-self?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
-    "source_title": "EPA boss made criminal referrals alleging Democrats \u2018self-dealing\u2019 in lucrative green energy grants",
-    "source_summary": "Lee Zeldin alleges that eight nonprofit \"cutouts\" were used to route billions to former Obama-Biden cronies.",
-    "drafted_at": "2026-06-02T07:15:58.634295",
+    "primary_source": "PROPUBLICA",
+    "source_url": "https://www.propublica.org/article/alaska-public-schools-repairs-funding-bill",
+    "source_title": "Alaska\u2019s Deteriorating Schools Could Receive More Than $148 Million for Repairs. It\u2019s a Fraction of What They Need.",
+    "source_summary": "The post Alaska\u2019s Deteriorating Schools Could Receive More Than $148 Million for Repairs. It\u2019s a Fraction of What They Need. appeared first on ProPublica .",
+    "drafted_at": "2026-06-02T11:57:09.704614",
     "data": {
-      "source": "JUST THE NEWS"
+      "source": "PROPUBLICA"
     },
-    "content_hash": "b0fcfa28799ad126"
+    "content_hash": "39368c9091b57d4e"
   },
   {
-    "id": "869a265b",
+    "id": "0431c5f0",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "CHINA DESK: Advancing Proactive Health Management to Meet Chinese Families' Demand for Healthy Longevity HONG KONG and SHANGHAI, June 2, 2026 /PRNewswire/ -- As population aging accelerates and medical standards continue to advance, China is steadily entering an era of longevity.\n\nhttps://www.prnewswire.com/news-releases/ping-an-launches-ping-an-home-service-brand-302788101.html",
+    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: Many on Wall Street argue that oil prices could remain elevated regardless of how the Iran conflict resolves, for several structural reasons.\n\nGlobal spare capacity is largely concentrated in a handful of OPEC+ nations.\n\nIt has grown increasingly thin, meaning any disruption to supply chains, shipping lanes, or refining infrastructure takes longer to be absorbed...\n\nEven After the Monster Rally, These 5 Safe High-Yielding Energy Stocks Are Still Strong Buys\n\nhttps://247wallst.com/investing/2026/06/02/even-after-the-monster-rally-these-5-safe-high-yielding-energy-stocks-are-still-strong-buys/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "PR NEWSWIRE",
-    "source_url": "https://www.prnewswire.com/news-releases/ping-an-launches-ping-an-home-service-brand-302788101.html",
-    "source_title": "Ping An Launches \"Ping An Home\" Service Brand",
-    "source_summary": "Advancing Proactive Health Management to Meet Chinese Families' Demand for Healthy Longevity HONG KONG and SHANGHAI, June 2, 2026 /PRNewswire/ -- As population aging accelerates and medical standards continue to advance, China is steadily entering an era of longevity. While life...",
-    "drafted_at": "2026-06-02T07:15:58.636634",
+    "primary_source": "247 WALL ST",
+    "source_url": "https://247wallst.com/investing/2026/06/02/even-after-the-monster-rally-these-5-safe-high-yielding-energy-stocks-are-still-strong-buys/",
+    "source_title": "Even After the Monster Rally, These 5 Safe High-Yielding Energy Stocks Are Still Strong Buys",
+    "source_summary": "Many on Wall Street argue that oil prices could remain elevated regardless of how the Iran conflict resolves, for several structural reasons. Global spare capacity is largely concentrated in a handful of OPEC+ nations. It has grown increasingly thin, meaning any disruption to supply chains, shipping lanes, or refining infrastructure takes longer to be absorbed ... Even After the Monster Rally, The",
+    "drafted_at": "2026-06-02T11:57:09.706938",
     "data": {
-      "source": "PR NEWSWIRE"
+      "source": "247 WALL ST"
     },
-    "content_hash": "f6e224060f155fbb"
+    "content_hash": "63430ab106bd9844"
   },
   {
-    "id": "77ecbe80",
+    "id": "c21bbc43",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "MIDDLE EAST DESK: Gold edged higher as traders assessed conflicting signals from the US and Iran about a diplomatic resolution to the war.\n\nhttps://financialpost.com/pmn/business-pmn/gold-edges-higher-as-traders-weigh-confusion-over-us-iran-talks",
+    "draft_text": "EUROPE DESK: Optimi\u2019s 5mg psilocybin capsules are prescribed commercially for treatment-resistant depression in Australia, with additional product from the run earmarked for planned clinical trials in the United States and Europe VANCOUVER, British Columbia, June 02, 2026 (GLOBE NEWSWIRE) \u2014 via IBN \u2013 Optimi Health Corp. (NASDAQ: OPTH) (CSE: OPTI) (FSE: 8BN0) (the \u201cCompany\u201d or \u201cOptimi\u201c), a commercial-stage [\u2026].\n\nhttps://financialpost.com/globe-newswire/optimi-health-completes-commercial-psilocybin-production-to-address-treatment-resistant-depression-in-australia",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/pmn/business-pmn/gold-edges-higher-as-traders-weigh-confusion-over-us-iran-talks",
-    "source_title": "Gold Edges Higher as Traders Weigh Confusion Over US-Iran Talks",
-    "source_summary": "Gold edged higher as traders assessed conflicting signals from the US and Iran about a diplomatic resolution to the war.",
-    "drafted_at": "2026-06-02T07:15:58.636914",
+    "source_url": "https://financialpost.com/globe-newswire/optimi-health-completes-commercial-psilocybin-production-to-address-treatment-resistant-depression-in-australia",
+    "source_title": "Optimi Health Completes Commercial Psilocybin Production to Address Treatment-Resistant Depression in Australia",
+    "source_summary": "Optimi\u2019s 5mg psilocybin capsules are prescribed commercially for treatment-resistant depression in Australia, with additional product from the run earmarked for planned clinical trials in the United States and Europe VANCOUVER, British Columbia, June 02, 2026 (GLOBE NEWSWIRE) \u2014 via IBN \u2013 Optimi Health Corp. (NASDAQ: OPTH) (CSE: OPTI) (FSE: 8BN0) (the \u201cCompany\u201d or \u201cOptimi\u201c), a commercial-stage [\u2026]",
+    "drafted_at": "2026-06-02T11:57:09.708300",
     "data": {
       "source": "FINANCIAL POST"
     },
-    "content_hash": "72769ebbe25efdb2"
+    "content_hash": "6967e4864913a30c"
   },
   {
-    "id": "e483873c",
+    "id": "bf6cf548",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "World wire: Russia carried out a large-scale drone and missile attack on Ukraine, killing at least eleven people including four in Kyiv and injuring more than a hundred.\n\nhttps://financialpost.com/pmn/business-pmn/at-least-11-killed-in-russian-missile-attack-on-ukraine",
+    "draft_text": "Cross-border read: Venezuela\u2019s oil exports inched up from April to hit a fresh seven-year high in May as shipments to the United States and India continued to rise.\n\nVenezuela exported an estimated 1.25 million barrels per day (bpd) of oil in May, up by 0.7% compared to April\u2019s 1.23 million bpd exports and a massive 61% jump compared to May 2025, according to ship-tracking and vessel-loading data reviewed by Reuters.\n\nVenezuela has been steadily increasing its oil exports since the U.S. took control over its oil sales following the capture of Nicolas Maduro\u2026\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Venezuela-Oil-Exports-Hit-7-Year-High.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/pmn/business-pmn/at-least-11-killed-in-russian-missile-attack-on-ukraine",
-    "source_title": "At Least 11 Killed in Russian Missile Attack on Ukraine",
-    "source_summary": "Russia carried out a large-scale drone and missile attack on Ukraine, killing at least eleven people including four in Kyiv and injuring more than a hundred.",
-    "drafted_at": "2026-06-02T07:15:58.637174",
+    "primary_source": "OILPRICE",
+    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Venezuela-Oil-Exports-Hit-7-Year-High.html",
+    "source_title": "Venezuela Oil Exports Hit 7-Year High",
+    "source_summary": "Venezuela\u2019s oil exports inched up from April to hit a fresh seven-year high in May as shipments to the United States and India continued to rise. Venezuela exported an estimated 1.25 million barrels per day (bpd) of oil in May, up by 0.7% compared to April\u2019s 1.23 million bpd exports and a massive 61% jump compared to May 2025, according to ship-tracking and vessel-loading data reviewed by Reuters.",
+    "drafted_at": "2026-06-02T11:57:09.709294",
     "data": {
-      "source": "FINANCIAL POST"
+      "source": "OILPRICE"
     },
-    "content_hash": "37e88bfd89bc08fe"
+    "content_hash": "99bd0f4835f87914"
   },
   {
-    "id": "6e77a1f8",
+    "id": "d4388b18",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 AFRICA: THIS ANNOUNCEMENT CONTAINS INSIDE INFORMATION AND THE INFORMATION CONTAINED IN IT IS NOT FOR RELEASE, PUBLICATION OR DISTRIBUTION, DIRECTLY OR INDIRECTLY, IN WHOLE OR IN PART, IN OR INTO THE UNITED STATES OF AMERICA, JAPAN, SOUTH AFRICA OR ANY OTHER JURISDICTION IN WHICH IT WOULD BE UNLAWFUL TO DO SO.\n\nhttps://financialpost.com/globe-newswire/proposed-acquisition-of-cygnus-metals-limited-by-central-asia-metals-plc-for-a232-million",
+    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: ECB policymaker Rehn says June rate move would be an \"insurance\" hike Marvell Technology stock soars as Nvidia CEO says it's \"the next trillion-dollar company\" Euro area inflation continues to pick up in May, core prices nudge up as well Gold analysis shows it repaired higher.\n\nUK mortgage approvals climbs in April, holds above six-month average European Parliament votes to remove import duties on US goods to comply with trade deal BoJ taper debate heats up as rising yields complicate exit strategy The Japanese yen extends losses as June rate hike bets continue to look wrong Palladium is looking good for the bulls.\n\nSee where PA can go & where that might change Gold nudges back up today but still caught in a bit of a technical bind What are the main events for today?\n\nIran reportedly still discussing final text of agreement, no response sent to US yet FX option expiries for 2 June 10am New York cut OpenAI Florida Lawsuit: What AI Stock Investors Should Watch Next Markets continue to stay on edge awaiting US-Iran deal Crude oil analysis today: oil futures fail near 94.20 resistance, testing lower value It's been a pretty calm session with limited data and news releases.\n\nThe main highlight of the session was the release of the Eurozone Flash CPI report for May.\n\nThe headline inflation rate rose to 3.2% Y/Y, matching expectations and accelerating from 3.0% in April.\n\nThe increase was driven mainly by higher energy prices, while underlying inflation pressures also strengthened as Core CPI Y/Y climbed to 2.5% from 2.2% in the prior month.\n\nThe data reinforced expectations that the ECB is going to raise interest rates at its June meeting but didn't change much in terms of total 2026 pricing.\n\nhttps://investinglive.com/news/investinglive-european-fx-news-wrap-optimism-continues-to-prevail-in-the-markets-20260602/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/globe-newswire/proposed-acquisition-of-cygnus-metals-limited-by-central-asia-metals-plc-for-a232-million",
-    "source_title": "Proposed acquisition of Cygnus Metals Limited by Central Asia Metals PLC for A$232 million",
-    "source_summary": "THIS ANNOUNCEMENT CONTAINS INSIDE INFORMATION AND THE INFORMATION CONTAINED IN IT IS NOT FOR RELEASE, PUBLICATION OR DISTRIBUTION, DIRECTLY OR INDIRECTLY, IN WHOLE OR IN PART, IN OR INTO THE UNITED STATES OF AMERICA, JAPAN, SOUTH AFRICA OR ANY OTHER JURISDICTION IN WHICH IT WOULD BE UNLAWFUL TO DO SO. PLEASE SEE THE FURTHER INFORMATION [\u2026]",
-    "drafted_at": "2026-06-02T07:15:58.637613",
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/investinglive-european-fx-news-wrap-optimism-continues-to-prevail-in-the-markets-20260602/",
+    "source_title": "investingLive European FX news wrap: Optimism continues to prevail in the markets",
+    "source_summary": "ECB policymaker Rehn says June rate move would be an \"insurance\" hike Marvell Technology stock soars as Nvidia CEO says it's \"the next trillion-dollar company\" Euro area inflation continues to pick up in May, core prices nudge up as well Gold analysis shows it repaired higher. See my targets. UK mortgage approvals climbs in April, holds above six-month average European Parliament votes to remove i",
+    "drafted_at": "2026-06-02T11:57:09.711991",
     "data": {
-      "source": "FINANCIAL POST"
+      "source": "FOREXLIVE"
     },
-    "content_hash": "abf7a3e5e7d07b4d"
+    "content_hash": "b81cda60a2d819c3"
   },
   {
-    "id": "63a76fd3",
+    "id": "0340d4a7",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "MIDDLE EAST DESK: India\u2019s central bank may have offloaded a portion of its gold holdings to shield its foreign-currency assets from the cascading fallout of the war in the Middle East, according to an analysis by Bloomberg Economics based on publicly available data.\n\nhttps://financialpost.com/pmn/business-pmn/rbi-may-have-sold-gold-to-save-foreign-reserves-be-report-shows",
+    "draft_text": "PACK BRIEFING \u2014 CHINA: China has hosted 26 leaders from 23 countries this year, underscoring its growing diplomatic and economic influence.\n\nhttps://www.aljazeera.com/news/2026/6/2/every-world-leader-who-has-visited-china-in-2026-in-one-chart?traffic_source=rss",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/pmn/business-pmn/rbi-may-have-sold-gold-to-save-foreign-reserves-be-report-shows",
-    "source_title": "RBI May Have Sold Gold to Save Foreign Reserves, BE Report Shows",
-    "source_summary": "India\u2019s central bank may have offloaded a portion of its gold holdings to shield its foreign-currency assets from the cascading fallout of the war in the Middle East, according to an analysis by Bloomberg Economics based on publicly available data.",
-    "drafted_at": "2026-06-02T07:15:58.637989",
+    "primary_source": "AL JAZEERA",
+    "source_url": "https://www.aljazeera.com/news/2026/6/2/every-world-leader-who-has-visited-china-in-2026-in-one-chart?traffic_source=rss",
+    "source_title": "Every world leader who has visited China in 2026 in one chart",
+    "source_summary": "China has hosted 26 leaders from 23 countries this year, underscoring its growing diplomatic and economic influence.",
+    "drafted_at": "2026-06-02T11:57:09.712187",
     "data": {
-      "source": "FINANCIAL POST"
+      "source": "AL JAZEERA"
     },
-    "content_hash": "5d04c87b78579ee6"
+    "content_hash": "c11555d6d2337543"
   },
   {
-    "id": "513f5be0",
+    "id": "980af5e2",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "Inflation update: ECB policymaker Rehn says June rate move would be an \"insurance\" hike Marvell Technology stock soars as Nvidia CEO says it's \"the next trillion-dollar company\" Euro area inflation continues to pick up in May, core prices nudge up as well Gold analysis shows it repaired higher.\n\nUK mortgage approvals climbs in April, holds above six-month average European Parliament votes to remove import duties on US goods to comply with trade deal BoJ taper debate heats up as rising yields complicate exit strategy The Japanese yen extends losses as June rate hike bets continue to look wrong Palladium is looking good for the bulls.\n\nSee where PA can go & where that might change Gold nudges back up today but still caught in a bit of a technical bind What are the main events for today?\n\nIran reportedly still discussing final text of agreement, no response sent to US yet FX option expiries for 2 June 10am New York cut OpenAI Florida Lawsuit: What AI Stock Investors Should Watch Next Markets continue to stay on edge awaiting US-Iran deal Crude oil analysis today: oil futures fail near 94.20 resistance, testing lower value It's been a pretty calm session with limited data and news releases.\n\nThe main highlight of the session was the release of the Eurozone Flash CPI report for May.\n\nThe headline inflation rate rose to 3.2% Y/Y, matching expectations and accelerating from 3.0% in April.\n\nThe increase was driven mainly by higher energy prices, while underlying inflation pressures also strengthened as Core CPI Y/Y climbed to 2.5% from 2.2% in the prior month.\n\nThe data reinforced expectations that the ECB is going to raise interest rates at its June meeting but didn't change much in terms of total 2026 pricing.\n\nhttps://investinglive.com/news/investinglive-european-fx-news-wrap-optimism-continues-to-prevail-in-the-markets-20260602/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/investinglive-european-fx-news-wrap-optimism-continues-to-prevail-in-the-markets-20260602/",
+    "source_title": "investingLive European FX news wrap: Optimism continues to prevail in the markets",
+    "source_summary": "ECB policymaker Rehn says June rate move would be an \"insurance\" hike Marvell Technology stock soars as Nvidia CEO says it's \"the next trillion-dollar company\" Euro area inflation continues to pick up in May, core prices nudge up as well Gold analysis shows it repaired higher. See my targets. UK mortgage approvals climbs in April, holds above six-month average European Parliament votes to remove i",
+    "drafted_at": "2026-06-02T11:57:09.780664",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "b81cda60a2d819c3"
+  },
+  {
+    "id": "1f3007fe",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "CPI just printed. India\u2019s inflation is set to accelerate to 4.8% in the fiscal year 2027, if oil prices average $90 per barrel through March next year, Indian wealth and asset manager 360 ONE Capital said in a report on Tuesday.\n\n\u201cOur revised base case assumes de-escalation by mid-June, with crude oil averaging $90/bbl in FY27,\u201d the asset manager said, as carried by Indian media.\n\nUnder this scenario, consumer prices are set to rise to 4.8% while GDP growth would moderate to 6.3% from 6.7% previously expected, according to 360 ONE Capital, which\u2026\n\nhttps://oilprice.com/Latest-Energy-News/World-News/90-Oil-Could-Lift-Indias-Inflation-to-48-and-Slow-GDP-Growth.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "OILPRICE",
+    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/90-Oil-Could-Lift-Indias-Inflation-to-48-and-Slow-GDP-Growth.html",
+    "source_title": "$90 Oil Could Lift India\u2019s Inflation to 4.8% and Slow GDP Growth",
+    "source_summary": "India\u2019s inflation is set to accelerate to 4.8% in the fiscal year 2027, if oil prices average $90 per barrel through March next year, Indian wealth and asset manager 360 ONE Capital said in a report on Tuesday. \u201cOur revised base case assumes de-escalation by mid-June, with crude oil averaging $90/bbl in FY27,\u201d the asset manager said, as carried by Indian media. Under this scenario, consumer prices",
+    "drafted_at": "2026-06-02T11:57:09.781369",
+    "data": {
+      "source": "OILPRICE"
+    },
+    "content_hash": "7fea79b069cd0589"
+  },
+  {
+    "id": "ab0886e4",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "INFLATION READ: CPI +3.2% vs +3.2% y/y expected Prior +3.0% Core CPI +2.5% vs +2.4% y/y expected Prior +2.2% The headline estimate moves up in May, as expected, with energy price inflation being the standout once again.\n\nEven though energy prices were down 1.1% on the month, it is still up by 10.9% year-on-year (up from 10.8% in April).\n\nBesides that, the monthly estimates show a broadening in the increase in price pressures across the region.\n\nOf note, services inflation was up 0.4% on the month.\n\nMeanwhile, inflation for non-energy industrial goods also increased by 0.2% on the month.\n\nFood price inflation was flat in May compared to the month before.\n\nOverall, services inflation jumped up to 3.5% (previously 3.0%) with food price inflation holding at 2.0%.\n\nThe mix sees core annual inflation move back up to 2.5%, in a worrying sign for the ECB.\n\nhttps://investinglive.com/news/eurozone-may-preliminary-cpi-32-vs-32-yy-expected-20260602/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/eurozone-may-preliminary-cpi-32-vs-32-yy-expected-20260602/",
+    "source_title": "Euro area inflation continues to pick up in May, core prices nudge up as well",
+    "source_summary": "CPI +3.2% vs +3.2% y/y expected Prior +3.0% Core CPI +2.5% vs +2.4% y/y expected Prior +2.2% The headline estimate moves up in May, as expected, with energy price inflation being the standout once again. Even though energy prices were down 1.1% on the month, it is still up by 10.9% year-on-year (up from 10.8% in April). Besides that, the monthly estimates show a broadening in the increase in price",
+    "drafted_at": "2026-06-02T11:57:09.782477",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "b86ed6a0087d99f9"
+  },
+  {
+    "id": "17916321",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "Inflation update: EUROPEAN SESSION In the European session, we have the Eurozone Flash CPI for May.\n\nThe headline CPI Y/Y is expected at 3.2% vs 3.0% prior, while the Core CPI Y/Y is seen at 2.4% vs 2.2% prior.\n\nThe data won't change much at this point as the ECB has already pre-committed to a rate hike at the upcoming meeting.\n\nIt might influence the market pricing for the total tightening expected by year-end though.\n\nRight now, the market is pricing in 60 bps, which means traders are expecting at least another rate hike.\n\nOverall, given that things can change on a dime based on the developments on the US-Iran front, I wouldn't expect much from this report unless we get big deviations.\n\nAMERICAN SESSION In the American session, the only highlight is the US Job Openings data for April.\n\nJob Openings are expected at 6.880M vs 8.866M prior.\n\nhttps://investinglive.com/news/what-are-the-main-events-for-today-20260602/",
@@ -401,82 +452,31 @@
     "source_url": "https://investinglive.com/news/what-are-the-main-events-for-today-20260602/",
     "source_title": "What are the main events for today?",
     "source_summary": "EUROPEAN SESSION In the European session, we have the Eurozone Flash CPI for May. The headline CPI Y/Y is expected at 3.2% vs 3.0% prior, while the Core CPI Y/Y is seen at 2.4% vs 2.2% prior. The data won't change much at this point as the ECB has already pre-committed to a rate hike at the upcoming meeting. It might influence the market pricing for the total tightening expected by year-end though",
-    "drafted_at": "2026-06-02T07:15:58.695503",
+    "drafted_at": "2026-06-02T11:57:09.783567",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "9cd72a08ef451d99"
   },
   {
-    "id": "c13e38dd",
+    "id": "625587c3",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "CPI POSTCARD: BOJ should hike in June and signal clear rate path, SMFG markets chief says Citi reiterate forecast for a 25bp RBA rate hike at the Bank's August meeting.\n\nNvidia's Huang says supply secured for robust AI growth despite constraints Australia's net trade and flat government spending cloud GDP outlook S&P 500 futures analysis today: ES JUN26 fails repair near 7632 Japan one step from historic yen collapse, SMBC Nikko warns Australia widening current account deficit, inventory draw to weigh on Q1 GDP Ethereum Analysis Today: ETH Repairs From Washout, But Bulls Need Acceptance Above 2020.5 White House trims tariffs on farm and industrial gear, tweaks metals regime PBOC sets USD/ CNY central rate at 6.8187 (vs. estimate at 6.7720) RBA's hawkish Harper hints herald hike Tokyo and Washington closely monitoring forex markets together, finance minister confirms Japan eyes sales tax cut from 2027 but bond market (and yen!) risks loom large RBNZ risks crushing already weakened economy to contain oil-driven inflation Kiwibank warn Commerzbank lifts Brent to $90 on Hormuz closure, no return to pre-war prices South Korea May 2026 inflation data higher than expected, keeps BoK on hike alert Israel PM contradicts Trump, will continue operating against Hezbollah in Southern Lebanon Trump says Hormuz deal is \"looking good\" but his credibility gap keeps markets on edge BofA contrarian sell signal nears trigger as S&P optimism hits highest since February 2025 Oil's biggest single-day gain in weeks as Middle East tensions flare again ICYMI!\n\nStrategy sells Bitcoin for first time since 2022, breaking \"never sell\" pledge Record close for the major indices once again Key points: Trump told ABC News a Hormuz ceasefire extension and reopening deal could come within a week, but markets gave the remarks little credit given his track record on conflict timelines White House cut tariffs on agricultural equipment including combines and harvesters, a rare Trump concession on trade Australia lifted its minimum wage by 4.75%; RBA board member Harper sounded a hawkish note on inflation, adding to the case for an August hike Australian Q1 data pointed to a soft Wednesday GDP print, with net trade subtracting 0.8 percentage points and government spending flat Japan is pursuing a food sales tax cut from 8% to 1% from April 2027, a move with bond market implications already demonstrated when Takaichi first floated the plan in January Finance Minister Katayama flagged close US-Japan forex coordination; USD/JPY was quiet around 159.70 Alphabet announced an $80 billion equity raise for AI infrastructure, including a $10 billion private placement from Berkshire Hathaway Trump told ABC News he thinks he will have an agreement with Iran to extend the ceasefire and reopen the Strait of Hormuz over the next week.\n\nTrump is credibility-challenged on this front, however, and his remarks went largely unheeded by markets.\n\nFurther from the US, and in a welcome climbdown, the White House said it will reduce tariffs on agricultural equipment such as combines and harvesters to ease costs for American farmers and manufacturers.\n\nAustralia lifted its minimum wage by 4.75%.\n\nSeparately, Reserve Bank of Australia board member Ian Harper sounded a hawkish note, saying stronger-than-expected domestic demand and the return of capacity constraints have reopened the output gap, prompting markets to price in further policy action.\n\nHarper flagged persistent inflation as a genuine concern, noting that market-based inflation measures have moved higher, which he described as worrying.\n\nhttps://investinglive.com/news/investinglive-asia-pacific-fx-news-wrap-20260602/",
+    "draft_text": "From the BEA desk: The economy is 'markedly darker,' according to Gallup.\n\nhttps://dailycaller.com/2026/05/28/first-quarter-gdp-revised-downward-voters-fret-economy-gallup-eci-inflation/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/investinglive-asia-pacific-fx-news-wrap-20260602/",
-    "source_title": "investingLive Asia-Pacific FX news wrap: Trump indicated a deal within a week. Again.",
-    "source_summary": "BOJ should hike in June and signal clear rate path, SMFG markets chief says Citi reiterate forecast for a 25bp RBA rate hike at the Bank's August meeting. Nvidia's Huang says supply secured for robust AI growth despite constraints Australia's net trade and flat government spending cloud GDP outlook S&P 500 futures analysis today: ES JUN26 fails repair near 7632 Japan one step from historic yen col",
-    "drafted_at": "2026-06-02T07:15:58.698939",
+    "primary_source": "DAILY CALLER",
+    "source_url": "https://dailycaller.com/2026/05/28/first-quarter-gdp-revised-downward-voters-fret-economy-gallup-eci-inflation/",
+    "source_title": "First Quarter GDP Revised Downward As Voters Fret Over Economy",
+    "source_summary": "The economy is 'markedly darker,' according to Gallup.",
+    "drafted_at": "2026-06-02T11:57:09.783693",
     "data": {
-      "source": "FOREXLIVE"
+      "source": "DAILY CALLER"
     },
-    "content_hash": "90a6e0c3c96a455f"
+    "content_hash": "83a922e0b44d81c0"
   },
   {
-    "id": "2c362e3b",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "From the BEA desk: Australia's net trade will subtract ~0.8ppt from Q1 GDP as data centre and fuel imports surged and commodity exports fell, with government spending flat and the current account deficit wider than forecast.\n\nEarlier: Australia widening current account deficit, inventory draw to weigh on Q1 GDP RBA's hawkish Harper hints herald hike Summary points: Net exports will subtract 0.8 percentage points from Q1 GDP, worse than the 0.5 point drag forecast, as trade in goods and services fell into deficit for the first time since December quarter 2017 Imports of data centre equipment hit historic highs, driven by bulk AI server rack purchases for infrastructure build-out in New South Wales and Victoria, alongside a surge in fuel imports; mining commodity exports fell The current account deficit widened to A$27.1 billion in Q1, from a revised A$23.0 billion the prior quarter, well above forecasts of A$23.2 billion Government spending was flat in Q1, with operational spending down 0.2% to A$159.3 billion and public fixed asset investment up 0.9% to A$38.9 billion; net contribution to GDP was zero Inventories are expected to add 0.2 percentage points to growth, providing partial offset; Q1 GDP forecasts centre on a 0.5% quarterly rise, slowing from 0.8% the prior quarter The RBA has raised rates three times this year to 4.35%, fully reversing last year's easing; it forecasts growth slowing to 1.9% by Q2 and 1.3% by year-end Australia's economy enters Wednesday's first-quarter GDP release carrying more drag than analysts had anticipated, with net trade set to subtract 0.8 percentage points from growth and government spending contributing nothing, leaving the headline figure heavily dependent on household consumption and business investment to avoid a sharp disappointment.\n\nData from the Australian Bureau of Statistics confirmed the current account deficit widened to A$27.1 billion in the March quarter, from a revised A$23.0 billion previously, well beyond forecasts of A$23.2 billion.\n\nTrade in goods and services fell into deficit for the first time since the December quarter of 2017, as mining commodity exports declined and imports surged on two fronts: fuel, reflecting the global energy shock from the Hormuz closure, and data centre equipment, where imports hit historic highs driven by bulk purchases of AI server racks for infrastructure projects in New South Wales and Victoria.\n\nOperational expenditure edged down 0.2% in the quarter to an inflation-adjusted A$159.3 billion, while public fixed asset investment rose 0.9% to A$38.9 billion.\n\nThe net contribution to GDP was zero, ending a run of strong outcomes from the public sector.\n\nInventories are expected to add 0.2 percentage points, providing only partial offset.\n\nForecasts centre on a quarterly rise of 0.5%, slowing from the 0.8% gain recorded the prior quarter, with annual growth seen around 2.6%.\n\nhttps://investinglive.com/news/australias-net-trade-and-flat-government-spending-cloud-gdp-outlook-20260602/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/australias-net-trade-and-flat-government-spending-cloud-gdp-outlook-20260602/",
-    "source_title": "Australia's net trade and flat government spending cloud GDP outlook",
-    "source_summary": "Australia's net trade will subtract ~0.8ppt from Q1 GDP as data centre and fuel imports surged and commodity exports fell, with government spending flat and the current account deficit wider than forecast. Earlier: Australia widening current account deficit, inventory draw to weigh on Q1 GDP RBA's hawkish Harper hints herald hike Summary points: Net exports will subtract 0.8 percentage points from",
-    "drafted_at": "2026-06-02T07:15:58.701672",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "46099de4dad07b31"
-  },
-  {
-    "id": "13ef0d6b",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "GROWTH POSTCARD: Building Permits m/m (Apr) -3.4% prior -10.5% Building Permits y/y (Apr) +10.2% prior +9.0% Private House Approvals m/m (Apr) -1.0% prior +0.9% Business Inventories q/q (Q1) +0.5% prior -0.1% Company Gross Profits q/q (Q1) -1.3% prior +5.8% Net Exports Contribution to GDP (Q1) -0.8% prior -0.1% Current Account (Q1) -A$27.1B prior -A$21.1B Earlier: RBA's hawkish Harper hints herald hike Australia minimum wage rises 4.75% This article was written by Eamonn Sheridan at investinglive.com.\n\nhttps://investinglive.com/news/australia-widening-current-account-deficit-to-weigh-on-q1-gdp-20260602/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/australia-widening-current-account-deficit-to-weigh-on-q1-gdp-20260602/",
-    "source_title": "Australia widening current account deficit, inventory draw to weigh on Q1 GDP",
-    "source_summary": "Building Permits m/m (Apr) -3.4% prior -10.5% Building Permits y/y (Apr) +10.2% prior +9.0% Private House Approvals m/m (Apr) -1.0% prior +0.9% Business Inventories q/q (Q1) +0.5% prior -0.1% Company Gross Profits q/q (Q1) -1.3% prior +5.8% Net Exports Contribution to GDP (Q1) -0.8% prior -0.1% Current Account (Q1) -A$27.1B prior -A$21.1B Earlier: RBA's hawkish Harper hints herald hike Australia m",
-    "drafted_at": "2026-06-02T07:15:58.702165",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "676d9099b10f5e0c"
-  },
-  {
-    "id": "56cbd809",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "How fast is the economy moving? Now we know: In just seven years, Guyana has become one of the fastest-growing oil exporters and global economies and an oil-producing powerhouse with nearly 1 million barrels per day of production capacity.\n\nAnd the war in Iran is only turning up the heat even more.\n\nSince ExxonMobil launched production from the offshore Stabroek block in 2019, Guyana\u2019s economy has quadrupled.\n\nOil revenues and royalties have boosted income for the state coffers and gross domestic product (GDP) linked with oil-related activities.\n\nNow Guyana, which was one of the poorest\u2026\n\nhttps://oilprice.com/Energy/Energy-General/Guyana-Emerges-as-an-Oil-Winner-in-the-Iran-War.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "OILPRICE",
-    "source_url": "https://oilprice.com/Energy/Energy-General/Guyana-Emerges-as-an-Oil-Winner-in-the-Iran-War.html",
-    "source_title": "Guyana Emerges as an Oil Winner in the Iran War",
-    "source_summary": "In just seven years, Guyana has become one of the fastest-growing oil exporters and global economies and an oil-producing powerhouse with nearly 1 million barrels per day of production capacity. And the war in Iran is only turning up the heat even more. Since ExxonMobil launched production from the offshore Stabroek block in 2019, Guyana\u2019s economy has quadrupled. Oil revenues and royalties have bo",
-    "drafted_at": "2026-06-02T07:15:58.702882",
-    "data": {
-      "source": "OILPRICE"
-    },
-    "content_hash": "1d9e9323e5fe2fe4"
-  },
-  {
-    "id": "ff6d1e56",
+    "id": "99f804b3",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -486,7 +486,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-06-02T07:15:58.704346",
+    "drafted_at": "2026-06-02T11:57:09.785239",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -494,7 +494,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "9c9f30ba",
+    "id": "ebdb8d92",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Your alerts didn't go off because the pack got there first.",
@@ -504,14 +504,14 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Your alerts didn't go off because the pack got there first.",
-    "drafted_at": "2026-06-02T07:15:58.704424",
+    "drafted_at": "2026-06-02T11:57:09.785336",
     "data": {
       "take_seed": "2026-06-02-pack-1"
     },
     "content_hash": "9b0f7be55d8ef71c"
   },
   {
-    "id": "2ce673db",
+    "id": "191db2da",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Information is free. Conviction is rare. Patience is rarer.",
@@ -521,7 +521,7 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Information is free. Conviction is rare. Patience is rarer.",
-    "drafted_at": "2026-06-02T07:15:58.704471",
+    "drafted_at": "2026-06-02T11:57:09.785396",
     "data": {
       "take_seed": "2026-06-02-pack-2"
     },

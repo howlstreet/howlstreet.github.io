@@ -1,16 +1,16 @@
 {
-  "CL=F:move:2026-06-02": {
-    "headline": "WTI crude drops 5.3% in 5 sessions to $91.45",
-    "matters": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "source": "NYMEX \u00b7 CL=F",
+  "^IXIC:high:2026-06-01": {
+    "headline": "Nasdaq just hit 27,086.81 \u2014 highest in 9+ years",
+    "matters": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
+    "source": "Yahoo Finance \u00b7 ^IXIC",
     "chart_path": null,
-    "signal_id": "CL=F:move:2026-06-02",
-    "current_str": "$91.45",
-    "label": "WTI crude oil futures",
-    "hashtags": "#Oil #WTI #Energy #Commodities",
-    "kind": "move_down",
-    "badge": "-5.3%",
-    "data_url": "https://finance.yahoo.com/quote/CL%3DF",
-    "fired_at": "2026-06-02T07:15:54.421113"
+    "signal_id": "^IXIC:high:2026-06-01",
+    "current_str": "27,086.81",
+    "label": "Nasdaq Composite",
+    "hashtags": "#Nasdaq #Tech #Stocks",
+    "kind": "high",
+    "badge": "9Y HIGH",
+    "data_url": "https://finance.yahoo.com/quote/%5EIXIC",
+    "fired_at": "2026-06-02T11:57:06.345059"
   }
 }
