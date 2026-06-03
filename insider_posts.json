@@ -14,7 +14,7 @@
     "post_id": "LILA_P_2026-05-22",
     "chart_path": null,
     "pct_since": -9.849360257145436,
-    "fired_at": "2026-06-03T21:36:11.366917"
+    "fired_at": "2026-06-03T23:25:51.726725"
   },
   "BRCB_P_2026-05-21": {
     "ticker": "BRCB",
@@ -31,7 +31,7 @@
     "post_id": "BRCB_P_2026-05-21",
     "chart_path": null,
     "pct_since": 31.028041661342737,
-    "fired_at": "2026-06-03T21:36:11.366917"
+    "fired_at": "2026-06-03T23:25:51.726725"
   },
   "IFF_P_2026-06-01": {
     "ticker": "IFF",
@@ -48,7 +48,7 @@
     "post_id": "IFF_P_2026-06-01",
     "chart_path": null,
     "pct_since": 1.2107836524404831,
-    "fired_at": "2026-06-03T21:36:11.366917"
+    "fired_at": "2026-06-03T23:25:51.726725"
   },
   "NCLH_P_2026-06-01": {
     "ticker": "NCLH",
@@ -65,7 +65,41 @@
     "post_id": "NCLH_P_2026-06-01",
     "chart_path": null,
     "pct_since": 1.6806701318222521,
-    "fired_at": "2026-06-03T21:36:11.366917"
+    "fired_at": "2026-06-03T23:25:51.726725"
+  },
+  "HOOD_P_2026-06-03": {
+    "ticker": "HOOD",
+    "company": "Robinhood Markets, Inc.",
+    "industry": "Malka Meyer",
+    "num_insiders": 0,
+    "type": "P",
+    "price": 83.45,
+    "qty": 181000,
+    "dollar_value": 15103853.0,
+    "trade_date": "2026-06-03",
+    "category": "BIG_SALE",
+    "link": "http://openinsider.com/screener?s=HOOD",
+    "post_id": "HOOD_P_2026-06-03",
+    "chart_path": null,
+    "pct_since": -0.7189952377218802,
+    "fired_at": "2026-06-03T23:25:51.726725"
+  },
+  "LODE_P_2026-06-03": {
+    "ticker": "LODE",
+    "company": "Comstock Inc.",
+    "industry": "Industrial Organic Chemicals",
+    "num_insiders": 4,
+    "type": "P",
+    "price": 3.65,
+    "qty": 882651,
+    "dollar_value": 3219681.0,
+    "trade_date": "2026-06-03",
+    "category": "CLUSTER_BUY",
+    "link": "http://openinsider.com/screener?s=LODE",
+    "post_id": "LODE_P_2026-06-03",
+    "chart_path": null,
+    "pct_since": 7.397262364217683,
+    "fired_at": "2026-06-03T23:25:51.726725"
   },
   "CDW_P_2026-05-27": {
     "ticker": "CDW",
@@ -82,7 +116,7 @@
     "post_id": "CDW_P_2026-05-27",
     "chart_path": null,
     "pct_since": 25.1253103542858,
-    "fired_at": "2026-06-03T21:36:11.366917"
+    "fired_at": "2026-06-03T23:25:51.726725"
   },
   "BSM_P_2026-05-29": {
     "ticker": "BSM",
@@ -99,7 +133,7 @@
     "post_id": "BSM_P_2026-05-29",
     "chart_path": null,
     "pct_since": 3.648548594891628,
-    "fired_at": "2026-06-03T21:36:11.366917"
+    "fired_at": "2026-06-03T23:25:51.726725"
   },
   "ABG_P_2026-05-20": {
     "ticker": "ABG",
@@ -116,7 +150,7 @@
     "post_id": "ABG_P_2026-05-20",
     "chart_path": null,
     "pct_since": -8.75720093285888,
-    "fired_at": "2026-06-03T21:36:11.366917"
+    "fired_at": "2026-06-03T23:25:51.726725"
   },
   "ROCK_P_2026-05-26": {
     "ticker": "ROCK",
@@ -133,7 +167,24 @@
     "post_id": "ROCK_P_2026-05-26",
     "chart_path": null,
     "pct_since": -1.9285872605805658,
-    "fired_at": "2026-06-03T21:36:11.366917"
+    "fired_at": "2026-06-03T23:25:51.726725"
+  },
+  "LODE_P_2026-06-01": {
+    "ticker": "LODE",
+    "company": "Comstock Inc.",
+    "industry": "Pei Steven Yu-Tsung",
+    "num_insiders": 0,
+    "type": "P",
+    "price": 4.02,
+    "qty": 360000,
+    "dollar_value": 1446677.0,
+    "trade_date": "2026-06-01",
+    "category": "BIG_SALE",
+    "link": "http://openinsider.com/screener?s=LODE",
+    "post_id": "LODE_P_2026-06-01",
+    "chart_path": null,
+    "pct_since": -2.4875602911953796,
+    "fired_at": "2026-06-03T23:25:51.726725"
   },
   "CDNL_P_2026-05-27": {
     "ticker": "CDNL",
@@ -150,57 +201,6 @@
     "post_id": "CDNL_P_2026-05-27",
     "chart_path": null,
     "pct_since": 30.47418302931951,
-    "fired_at": "2026-06-03T21:36:11.366917"
-  },
-  "BCML_P_2026-05-22": {
-    "ticker": "BCML",
-    "company": "Baycom Corp",
-    "industry": "State Commercial Banks",
-    "num_insiders": 2,
-    "type": "P",
-    "price": 30.28,
-    "qty": 38082,
-    "dollar_value": 1152935.0,
-    "trade_date": "2026-05-22",
-    "category": "CLUSTER_BUY",
-    "link": "http://openinsider.com/screener?s=BCML",
-    "post_id": "BCML_P_2026-05-22",
-    "chart_path": null,
-    "pct_since": 1.0898302851768868,
-    "fired_at": "2026-06-03T21:36:11.366917"
-  },
-  "SMWB_P_2026-06-01": {
-    "ticker": "SMWB",
-    "company": "Similarweb Ltd.",
-    "industry": "Computer Programming, Data Processing, Etc.",
-    "num_insiders": 4,
-    "type": "P",
-    "price": 3.77,
-    "qty": 271105,
-    "dollar_value": 1020716.0,
-    "trade_date": "2026-06-01",
-    "category": "CLUSTER_BUY",
-    "link": "http://openinsider.com/screener?s=SMWB",
-    "post_id": "SMWB_P_2026-06-01",
-    "chart_path": null,
-    "pct_since": 14.323605909271645,
-    "fired_at": "2026-06-03T21:36:11.366917"
-  },
-  "KBR_P_2026-05-20": {
-    "ticker": "KBR",
-    "company": "Kbr, Inc.",
-    "industry": "Heavy Construction Non-Bldg Contractors",
-    "num_insiders": 4,
-    "type": "P",
-    "price": 31.64,
-    "qty": 29875,
-    "dollar_value": 945166.0,
-    "trade_date": "2026-05-20",
-    "category": "CLUSTER_BUY",
-    "link": "http://openinsider.com/screener?s=KBR",
-    "post_id": "KBR_P_2026-05-20",
-    "chart_path": null,
-    "pct_since": 12.926673648028848,
-    "fired_at": "2026-06-03T21:36:11.366917"
+    "fired_at": "2026-06-03T23:25:51.726725"
   }
 }
