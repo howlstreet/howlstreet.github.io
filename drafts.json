@@ -1,23 +1,97 @@
 [
   {
-    "id": "a36f7fcf",
+    "id": "1c7a72a1",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "The story the pack is talking about: MUFG\u2019s Michael Wan notes that stronger US labour data have lifted US yields and supported the US Dollar (USD), complicating prospects for near-term Fed rate cuts.\n\nhttps://www.fxstreet.com/news/japanese-yen-key-levels-watched-as-boj-speech-looms-mufg-202606030655",
+    "draft_text": "TODAY'S LOUDEST HOWL: Kuwait will consider increasing oil storage abroad to boost its ability to supply global markets after the war in the Persian Gulf blocked flows through the Strait of Hormuz, according to the head of the state energy company\u2019s marketing arm.\n\nhttps://financialpost.com/pmn/business-pmn/kuwait-to-look-at-expanding-global-oil-storage-after-iran-war",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/japanese-yen-key-levels-watched-as-boj-speech-looms-mufg-202606030655",
-    "source_title": "Japanese Yen: Key levels watched as BoJ speech looms \u2013 MUFG",
-    "source_summary": "MUFG\u2019s Michael Wan notes that stronger US labour data have lifted US yields and supported the US Dollar (USD), complicating prospects for near-term Fed rate cuts.",
-    "drafted_at": "2026-06-03T07:30:54.839109",
+    "primary_source": "FINANCIAL POST",
+    "source_url": "https://financialpost.com/pmn/business-pmn/kuwait-to-look-at-expanding-global-oil-storage-after-iran-war",
+    "source_title": "Kuwait to Look at Expanding Global Oil Storage After Iran War",
+    "source_summary": "Kuwait will consider increasing oil storage abroad to boost its ability to supply global markets after the war in the Persian Gulf blocked flows through the Strait of Hormuz, according to the head of the state energy company\u2019s marketing arm.",
+    "drafted_at": "2026-06-03T12:29:57.012127",
     "data": {
-      "source": "FXSTREET"
+      "source": "FINANCIAL POST"
     },
-    "content_hash": "8b3c5c73923f3ba5"
+    "content_hash": "0c85a37daed5219e"
   },
   {
-    "id": "77864135",
+    "id": "631f95b9",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "The pack is watching. S&P 500 just hit 7,609.78 \u2014 highest in 9+ years.\n\nThe benchmark of U.S. equities.\n\nWatched globally as the proxy for risk-on / risk-off.\n\nMulti-year high. The pack remembers what comes after these.\n\nhttps://finance.yahoo.com/quote/%5EGSPC",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Yahoo Finance \u00b7 ^GSPC",
+    "source_url": "https://finance.yahoo.com/quote/%5EGSPC",
+    "source_title": "S&P 500",
+    "source_summary": "The benchmark of U.S. equities. Watched globally as the proxy for risk-on / risk-off.",
+    "drafted_at": "2026-06-03T12:29:57.012418",
+    "data": {
+      "signal_id": "^GSPC:high:2026-06-02",
+      "kind": "high",
+      "current": "7,609.78"
+    },
+    "content_hash": "3fefe25d3b818aa2"
+  },
+  {
+    "id": "2997e6b7",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "The pack is watching. Nasdaq just hit 27,093.90 \u2014 highest in 9+ years.\n\nTech-heavy index.\n\nLeads risk appetite and is most sensitive to rate moves.\n\nMulti-year high. The pack remembers what comes after these.\n\nhttps://finance.yahoo.com/quote/%5EIXIC",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Yahoo Finance \u00b7 ^IXIC",
+    "source_url": "https://finance.yahoo.com/quote/%5EIXIC",
+    "source_title": "Nasdaq Composite",
+    "source_summary": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
+    "drafted_at": "2026-06-03T12:29:57.012635",
+    "data": {
+      "signal_id": "^IXIC:high:2026-06-02",
+      "kind": "high",
+      "current": "27,093.90"
+    },
+    "content_hash": "ce08e8b71b40219b"
+  },
+  {
+    "id": "c14f33b2",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "The pack is watching. Dow just hit 51,307.79 \u2014 highest in 9+ years.\n\n30 large U.S. industrials.\n\nSlower-moving than the S&P but the headline number retail readers track.\n\nMulti-year high. The pack remembers what comes after these.\n\nhttps://finance.yahoo.com/quote/%5EDJI",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Yahoo Finance \u00b7 ^DJI",
+    "source_url": "https://finance.yahoo.com/quote/%5EDJI",
+    "source_title": "Dow Jones Industrial Average",
+    "source_summary": "30 large U.S. industrials. Slower-moving than the S&P but the headline number retail readers track.",
+    "drafted_at": "2026-06-03T12:29:57.012917",
+    "data": {
+      "signal_id": "^DJI:high:2026-06-02",
+      "kind": "high",
+      "current": "51,307.79"
+    },
+    "content_hash": "21c4cea90ac8748c"
+  },
+  {
+    "id": "0216a23b",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "EURO RATES READ: The European Central Bank (ECB) could tighten monetary policy sooner than previously expected, according to the latest Reuters poll of economists.\n\nhttps://www.fxstreet.com/news/economists-expect-june-ecb-rate-hike-as-stagflation-risk-stays-high-reuters-poll-202606031015",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "ECB",
+    "source_url": "https://www.fxstreet.com/news/economists-expect-june-ecb-rate-hike-as-stagflation-risk-stays-high-reuters-poll-202606031015",
+    "source_title": "Economists expect June ECB rate hike as stagflation risk stays high",
+    "source_summary": "The European Central Bank (ECB) could tighten monetary policy sooner than previously expected, according to the latest Reuters poll of economists.",
+    "drafted_at": "2026-06-03T12:29:57.024320",
+    "data": {
+      "actor": "ECB"
+    },
+    "content_hash": "9ac509de847df3d6"
+  },
+  {
+    "id": "59e01535",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "If you watch rates, read this: The agencies are taking this action to complement their earlier actions that ended the use of reputation risk in supervision.\n\nAs the agencies have previously noted, reputation risk can be misused by supervisors as a basis to encourage or pressure a bank to restrict individuals' and legal businesses' access to financial services due to their constitutionally protected political or religious beliefs, speech, or conduct or lawful business activities.\n\nThese updates help ensure supervisory decisions are based on material financial risks, as well as increase clarity and facilitate greater precision in supervisory decision making.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260602a.htm",
@@ -27,14 +101,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260602a.htm",
     "source_title": "Agencies remove additional references to reputation risk",
     "source_summary": "Agencies remove additional references to reputation risk",
-    "drafted_at": "2026-06-03T07:30:54.851027",
+    "drafted_at": "2026-06-03T12:29:57.025289",
     "data": {
       "actor": "FED"
     },
     "content_hash": "037f4db78eebad91"
   },
   {
-    "id": "d9a9f020",
+    "id": "79ced043",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Rate-path desk: The Board's process for setting the discount rate is distinct from the process the Federal Open Market Committee follows in setting the target range for the federal funds rate.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
@@ -44,14 +118,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
     "source_title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
     "source_summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
-    "drafted_at": "2026-06-03T07:30:54.851475",
+    "drafted_at": "2026-06-03T12:29:57.025697",
     "data": {
       "actor": "FED"
     },
     "content_hash": "b2d403ab8c4d5036"
   },
   {
-    "id": "b09c080d",
+    "id": "ff99e557",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FED WATCH: Also on Friday, the Federal Open Market Committee unanimously selected Warsh as its chairman.\n\nPresident Donald J.\n\nTrump nominated Mr. Warsh on March 4, 2026.\n\nHe was confirmed by the United States Senate to serve as a member of the Board on May 12, and as chairman of the Board on May 13.\n\nHis term as chairman ends on May 21, 2030, and his term as a member of the Board ends on January 31, 2040.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm",
@@ -61,14 +135,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm",
     "source_title": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
     "source_summary": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
-    "drafted_at": "2026-06-03T07:30:54.852102",
+    "drafted_at": "2026-06-03T12:29:57.026339",
     "data": {
       "actor": "FED"
     },
     "content_hash": "a5762f43aa0ef3b0"
   },
   {
-    "id": "907fbfc4",
+    "id": "847e05df",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Policy update for the pack: Resolution plans, also known as living wills, must describe a banking organization's strategy for orderly resolution in the event of material financial distress or failure.\n\nThe agencies conducted a joint review of the 2025 resolution plan submissions from the eight largest and most complex domestic banking organizations as well as from 56 foreign banking organizations.\n\nThe agencies did not identify any shortcomings or deficiencies in these resolution plan submissions.\n\nThe agencies also determined that each derivatives-related weakness identified in the 2023 plans from Bank of America, Goldman Sachs, JPMorgan Chase, and Citigroup has been satisfactorily addressed.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260522a.htm",
@@ -78,31 +152,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260522a.htm",
     "source_title": "Agencies publish resolution plan feedback letters for certain domestic and foreign banking organizations",
     "source_summary": "Agencies publish resolution plan feedback letters for certain domestic and foreign banking organizations",
-    "drafted_at": "2026-06-03T07:30:54.853045",
+    "drafted_at": "2026-06-03T12:29:57.027286",
     "data": {
       "actor": "FED"
     },
     "content_hash": "b0e49d2209d92f96"
   },
   {
-    "id": "7f6b2d9e",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "If you trade rates, read this: Consent prohibition order against Nakia R.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260521a.htm",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FED",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260521a.htm",
-    "source_title": "Federal Reserve Board issues enforcement action with former employee of Commerce Bank",
-    "source_summary": "Federal Reserve Board issues enforcement action with former employee of Commerce Bank",
-    "drafted_at": "2026-06-03T07:30:54.853186",
-    "data": {
-      "actor": "FED"
-    },
-    "content_hash": "b9dac9fbdced3f0f"
-  },
-  {
-    "id": "f1ddbe29",
+    "id": "25ef817c",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$LILA insider bought $107,229,266 on 2026-05-22, 2 insiders. \ud83d\udc40\n\nLiberty Latin America Ltd.. 12,426,463 shares at $8.63.\n\n-8.1% since the purchase.\n\nhttp://openinsider.com/screener?s=LILA",
@@ -112,7 +169,7 @@
     "source_url": "http://openinsider.com/screener?s=LILA",
     "source_title": "Liberty Latin America Ltd. (LILA) insider bought $107,229,266",
     "source_summary": "2 insider(s) bought 12,426,463 shares at $8.63 on 2026-05-22.",
-    "drafted_at": "2026-06-03T07:30:54.853356",
+    "drafted_at": "2026-06-03T12:29:57.027582",
     "data": {
       "ticker": "LILA",
       "type": "P",
@@ -122,7 +179,7 @@
     "content_hash": "baa5e81beb909bf9"
   },
   {
-    "id": "997e6ab9",
+    "id": "6fca6ac5",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$BRCB insider bought $73,337,883 on 2026-05-21, 3 insiders. \ud83d\udc40\n\nBlack Rock Coffee Bar, Inc.. 13,695,817 shares at $5.35.\n\n+36.8% since the purchase.\n\nhttp://openinsider.com/screener?s=BRCB",
@@ -132,7 +189,7 @@
     "source_url": "http://openinsider.com/screener?s=BRCB",
     "source_title": "Black Rock Coffee Bar, Inc. (BRCB) insider bought $73,337,883",
     "source_summary": "3 insider(s) bought 13,695,817 shares at $5.35 on 2026-05-21.",
-    "drafted_at": "2026-06-03T07:30:54.853488",
+    "drafted_at": "2026-06-03T12:29:57.027707",
     "data": {
       "ticker": "BRCB",
       "type": "P",
@@ -142,7 +199,7 @@
     "content_hash": "755b8302a285ed67"
   },
   {
-    "id": "5ed60587",
+    "id": "4327bd84",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$IFF insider bought $32,284,388 on 2026-06-01, 2 insiders. \ud83d\udc40\n\nInternational Flavors & Fragrances Inc. 444,219 shares at $72.68.\n\n+0.8% since the purchase.\n\nhttp://openinsider.com/screener?s=IFF",
@@ -152,7 +209,7 @@
     "source_url": "http://openinsider.com/screener?s=IFF",
     "source_title": "International Flavors & Fragrances Inc (IFF) insider bought $32,284,388",
     "source_summary": "2 insider(s) bought 444,219 shares at $72.68 on 2026-06-01.",
-    "drafted_at": "2026-06-03T07:30:54.853615",
+    "drafted_at": "2026-06-03T12:29:57.027852",
     "data": {
       "ticker": "IFF",
       "type": "P",
@@ -162,7 +219,7 @@
     "content_hash": "b59bb9be9054dcc6"
   },
   {
-    "id": "a2336b2c",
+    "id": "cc17b07a",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$AXIA insider bought $13,309,862 on 2026-05-29. \ud83d\udc40\n\nAxia Energia S.A.. 1,234,900 shares at $10.78.\n\n-4.0% since the purchase.\n\nhttp://openinsider.com/screener?s=AXIA",
@@ -172,7 +229,7 @@
     "source_url": "http://openinsider.com/screener?s=AXIA",
     "source_title": "Axia Energia S.A. (AXIA) insider bought $13,309,862",
     "source_summary": "1 insider(s) bought 1,234,900 shares at $10.78 on 2026-05-29.",
-    "drafted_at": "2026-06-03T07:30:54.853722",
+    "drafted_at": "2026-06-03T12:29:57.027957",
     "data": {
       "ticker": "AXIA",
       "type": "P",
@@ -182,7 +239,7 @@
     "content_hash": "1118a0f9391d268b"
   },
   {
-    "id": "42911962",
+    "id": "ff362ce9",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$AUPH insider bought $12,455,227 on 2026-05-29. \ud83d\udc40\n\nAurinia Pharmaceuticals Inc.. 814,606 shares at $15.29.\n\n+0.7% since the purchase.\n\nhttp://openinsider.com/screener?s=AUPH",
@@ -192,7 +249,7 @@
     "source_url": "http://openinsider.com/screener?s=AUPH",
     "source_title": "Aurinia Pharmaceuticals Inc. (AUPH) insider bought $12,455,227",
     "source_summary": "1 insider(s) bought 814,606 shares at $15.29 on 2026-05-29.",
-    "drafted_at": "2026-06-03T07:30:54.853834",
+    "drafted_at": "2026-06-03T12:29:57.028064",
     "data": {
       "ticker": "AUPH",
       "type": "P",
@@ -202,245 +259,245 @@
     "content_hash": "a38f00ea942e38f6"
   },
   {
-    "id": "0b63d70d",
+    "id": "4364f5aa",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "LOS ANGELES, June 3, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Medpace Holdings, Inc. (\"Medpace\" or \"the Company\") (NASDAQ: MEDP) for violations of \u00a7\u00a710(b) and 20(a) of the Securities...\n\nhttps://www.prnewswire.com/news-releases/medp-investors-have-opportunity-to-lead-medpace-holdings-inc-securities-fraud-lawsuit-with-the-schall-law-firm-302789503.html",
+    "draft_text": "PROTECTION BRIEFING: Jon Mandel, who set off a firestorm in 2016 with a presentation about alleged agency kickbacks, has beef with principal media trading.\n\nhttps://www.businessinsider.com/jon-mandel-ad-agency-transparency-principal-media-2026-6",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "PR NEWSWIRE",
-    "source_url": "https://www.prnewswire.com/news-releases/medp-investors-have-opportunity-to-lead-medpace-holdings-inc-securities-fraud-lawsuit-with-the-schall-law-firm-302789503.html",
-    "source_title": "MEDP Investors Have Opportunity to Lead Medpace Holdings, Inc. Securities Fraud Lawsuit with the Schall Law Firm",
-    "source_summary": "LOS ANGELES, June 3, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Medpace Holdings, Inc. (\"Medpace\" or \"the Company\") (NASDAQ: MEDP) for violations of \u00a7\u00a710(b) and 20(a) of the Securities...",
-    "drafted_at": "2026-06-03T07:30:54.855163",
+    "primary_source": "BUSINESS INSIDER",
+    "source_url": "https://www.businessinsider.com/jon-mandel-ad-agency-transparency-principal-media-2026-6",
+    "source_title": "Advertising's 'most hated man' is back with a new warning for CMOs",
+    "source_summary": "Jon Mandel, who set off a firestorm in 2016 with a presentation about alleged agency kickbacks, has beef with principal media trading.",
+    "drafted_at": "2026-06-03T12:29:57.029135",
     "data": {
-      "source": "PR NEWSWIRE"
+      "source": "BUSINESS INSIDER"
     },
-    "content_hash": "e4b4ab95c622cb33"
+    "content_hash": "f838b4f0f59a01bd"
   },
   {
-    "id": "73a7c586",
+    "id": "2cb7c642",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "LOS ANGELES, June 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Immutep Limited (\"Immutep\" or \"the Company\") (NASDAQ: IMMP) for violations of \u00a7\u00a710(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder by...\n\nhttps://www.prnewswire.com/news-releases/immutep-limited-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--immp-302789500.html",
+    "draft_text": "DOJ and CFTC are investigating George Santos after Kalshi flagged trades where he allegedly bet against his own State of the Union attendance.\n\nhttps://www.theblock.co/post/403486/doj-cftc-probe-george-santos-over-kalshi-trades-tied-to-state-of-the-union-appearance-report?utm_source=rss&utm_medium=rss",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "PR NEWSWIRE",
-    "source_url": "https://www.prnewswire.com/news-releases/immutep-limited-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--immp-302789500.html",
-    "source_title": "Immutep Limited Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights",
-    "source_summary": "LOS ANGELES, June 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Immutep Limited (\"Immutep\" or \"the Company\") (NASDAQ: IMMP) for violations of \u00a7\u00a710(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder by...",
-    "drafted_at": "2026-06-03T07:30:54.855647",
+    "primary_source": "THE BLOCK",
+    "source_url": "https://www.theblock.co/post/403486/doj-cftc-probe-george-santos-over-kalshi-trades-tied-to-state-of-the-union-appearance-report?utm_source=rss&utm_medium=rss",
+    "source_title": "DOJ, CFTC probe George Santos over Kalshi trades tied to State of the Union appearance: report",
+    "source_summary": "DOJ and CFTC are investigating George Santos after Kalshi flagged trades where he allegedly bet against his own State of the Union attendance.",
+    "drafted_at": "2026-06-03T12:29:57.029386",
     "data": {
-      "source": "PR NEWSWIRE"
+      "source": "THE BLOCK"
     },
-    "content_hash": "97f91b17f505a100"
+    "content_hash": "457f9ed244f7b61d"
   },
   {
-    "id": "e29f7259",
+    "id": "3269d075",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "LOS ANGELES, June 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against FS KKR Capital Corp. (\"FSK\" or \"the Company\") (NYSE: FSK) violations of \u00a7\u00a710(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder by the U.S....\n\nhttps://www.prnewswire.com/news-releases/fs-kkr-capital-corp-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--fsk-302789498.html",
+    "draft_text": "The post Lawmakers Demand Answers After the White House Initiated a $620M Loan to a Firm Tied to Donald Trump Jr. appeared first on ProPublica.\n\nhttps://www.propublica.org/article/donald-trump-jr-vulcan-lawmakers-letter",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "PR NEWSWIRE",
-    "source_url": "https://www.prnewswire.com/news-releases/fs-kkr-capital-corp-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--fsk-302789498.html",
-    "source_title": "FS KKR Capital Corp. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights",
-    "source_summary": "LOS ANGELES, June 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against FS KKR Capital Corp. (\"FSK\" or \"the Company\") (NYSE: FSK) violations of \u00a7\u00a710(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder by the U.S....",
-    "drafted_at": "2026-06-03T07:30:54.856122",
+    "primary_source": "PROPUBLICA",
+    "source_url": "https://www.propublica.org/article/donald-trump-jr-vulcan-lawmakers-letter",
+    "source_title": "Lawmakers Demand Answers After the White House Initiated a $620M Loan to a Firm Tied to Donald Trump Jr.",
+    "source_summary": "The post Lawmakers Demand Answers After the White House Initiated a $620M Loan to a Firm Tied to Donald Trump Jr. appeared first on ProPublica .",
+    "drafted_at": "2026-06-03T12:29:57.029658",
     "data": {
-      "source": "PR NEWSWIRE"
+      "source": "PROPUBLICA"
     },
-    "content_hash": "a317b782f31a90d4"
+    "content_hash": "9eea8264bf736676"
   },
   {
-    "id": "b39f7a6f",
+    "id": "b0659ac8",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "LOS ANGELES, June 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against AeroVironment, Inc. (\"AeroVironment\" or \"the Company\") (NASDAQ: AVAV) for violations of \u00a7\u00a710(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated...\n\nhttps://www.prnewswire.com/news-releases/aerovironment-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--avav-302789501.html",
+    "draft_text": "FRAUDSTER DOWN: While much of America will be celebrating Pride Month all June, conservative Christians across the country will be holding counter-celebrations in the name of \"Noahic Covenant Month.\u201d This counter-revolution has in many ways changed the overall feeling of the month of June, but has it successfully quelled the hijacked rainbow crusade that turned God\u2019s covenant bow into a banner for rebellion?\n\nOn this episode of \u201cRelatable,\u201d Allie Beth Stuckey delivers an honest breakdown of the good, the bad, and the ugly in America\u2019s ongoing LGBTQ+ culture war.\n\nThe \u201cbad news,\u201d Allie says, is that some Pride Month celebrations and events are actually getting more radical.\n\nFor example, the Boston Public Library will host \u201c19 drag queen storytime events for children during Pride Month.\u201d Boston Mayor Michelle Wu\u2019s Office of LGBTQ+ Advancement is also publicly backing and helping to amplify a \u201cTrans Period Pride\u201d event centered on \u201cmenstrual equity and the experiences of trans menstruators.\u201d On June 1, Strawbridge Elementary School in Haddon Township, New Jersey, used school grounds to host a K-5 event dubbed \u201cPride on the Playground,\u201d where kids were invited to participate in LGBTQ-themed crafts, games, read-alouds, face painting, and more activities.\n\nDespite the financially disastrous consequences suffered by companies like Target and Bud Light, some large corporations are continuing to participate in Pride Month.\n\nAllie exposes the popular craft store Michaels for selling colorful stickers with sayings such as \u201cProtect trans kids\u201d and \u201cBe gay, do crime.\u201d One sticker even features an AR-15 over the trans rainbow flag with the phrase \u201cDefend equality.\u201d But there\u2019s good news too.\n\n\u201cOver the last several years, conservatives have pushed back.\n\nChristians have pushed back and really have had success in pushing back against LGBTQ activism and the broader culture wars,\u201d Allie says.\n\nhttps://www.theblaze.com/shows/relatable/has-the-rainbow-crusade-finally-been-quelled-allie-beth-stuckeys-honest-take-on-pride-month-2026",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "PR NEWSWIRE",
-    "source_url": "https://www.prnewswire.com/news-releases/aerovironment-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--avav-302789501.html",
-    "source_title": "AeroVironment, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights",
-    "source_summary": "LOS ANGELES, June 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against AeroVironment, Inc. (\"AeroVironment\" or \"the Company\") (NASDAQ: AVAV) for violations of \u00a7\u00a710(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated...",
-    "drafted_at": "2026-06-03T07:30:54.856588",
+    "primary_source": "THE BLAZE",
+    "source_url": "https://www.theblaze.com/shows/relatable/has-the-rainbow-crusade-finally-been-quelled-allie-beth-stuckeys-honest-take-on-pride-month-2026",
+    "source_title": "Has the rainbow crusade finally been quelled? Allie Beth Stuckey\u2019s honest take on Pride Month 2026.",
+    "source_summary": "While much of America will be celebrating Pride Month all June, conservative Christians across the country will be holding counter-celebrations in the name of \"Noahic Covenant Month.\u201d This counter-revolution has in many ways changed the overall feeling of the month of June, but has it successfully quelled the hijacked rainbow crusade that turned God\u2019s covenant bow into a banner for rebellion? On t",
+    "drafted_at": "2026-06-03T12:29:57.033722",
     "data": {
-      "source": "PR NEWSWIRE"
+      "source": "THE BLAZE"
     },
-    "content_hash": "3a20456d4fef1694"
+    "content_hash": "a6ee0f28c696f819"
   },
   {
-    "id": "42075dd2",
+    "id": "eadb3a61",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "Santos, the one-time New York lawmaker and New Jersey prison inmate, allegedly placed a bet on Kalshi that he wouldn\u2019t attend Trump\u2019s address to Congress, according to a report.\n\nhttps://nypost.com/2026/06/02/us-news/doj-probing-george-santos-over-insider-trading-after-ex-reps-alleged-kalshi-bets-report/",
+    "draft_text": "Heads up, the wolves at the door. Recent primary elections across the country have confirmed the end of bipartisanship in the United States \u2014 and the destruction of the uniparty that has ruled Washington since the early 1980s.\n\nBoth major parties\u2019 congressional establishments are crumbling.\n\nProminent, once-popular legislators and governors are falling to upstart socialists in Democratic primaries and to Trump-endorsed MAGA candidates in Republican contests.\n\nThe old bipartisan order blurred responsibility.\n\nPolarization reveals who stands for what.\n\nThis is the most important and positive change in American politics in decades.\n\nPolarization now defines American politics.\n\nContrary to what the media and establishment figures keep insisting, that is not necessarily a bad thing.\n\nhttps://www.theblaze.com/columns/opinion/polarization-may-be-the-cure-and-the-clarity-america-needs",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "NY POST",
-    "source_url": "https://nypost.com/2026/06/02/us-news/doj-probing-george-santos-over-insider-trading-after-ex-reps-alleged-kalshi-bets-report/",
-    "source_title": "DOJ probing George Santos over\u00a0insider trading after ex-rep\u2019s alleged Kalshi bets on his own appearance at Trump address: report",
-    "source_summary": "Santos, the one-time New York lawmaker and New Jersey prison inmate, allegedly placed a bet on Kalshi that he wouldn\u2019t attend Trump\u2019s address to Congress, according to a report.",
-    "drafted_at": "2026-06-03T07:30:54.856953",
+    "primary_source": "THE BLAZE",
+    "source_url": "https://www.theblaze.com/columns/opinion/polarization-may-be-the-cure-and-the-clarity-america-needs",
+    "source_title": "Polarization may be the cure \u2014 and the clarity",
+    "source_summary": "Recent primary elections across the country have confirmed the end of bipartisanship in the United States \u2014 and the destruction of the uniparty that has ruled Washington since the early 1980s. Both major parties\u2019 congressional establishments are crumbling. Prominent, once-popular legislators and governors are falling to upstart socialists in Democratic primaries and to Trump-endorsed MAGA candidat",
+    "drafted_at": "2026-06-03T12:29:57.037457",
     "data": {
-      "source": "NY POST"
+      "source": "THE BLAZE"
     },
-    "content_hash": "9879014838ac6e5b"
+    "content_hash": "bf04968559b6ec3b"
   },
   {
-    "id": "a6069b7c",
+    "id": "412df217",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "APAC wire: Industrial action at the Ichthys LNG project offshore Australia has started to affect loadings, with Reuters reporting that one tanker has been delayed as a result of the limited strike.\n\nThe strike, limited to two hours in the mornings and two hours in the evenings, began earlier this week, after trade unions representing workers at Ichthys and the operator of the project, Japan\u2019s Inpex, failed to reach an agreement on wages and working conditions.\n\nThe Pacific Breeze LNG carrier docked at Ichthys to load a cargo for delivery in Taiwan.\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Australian-LNG-Strike-Begins-to-Disrupt-Cargo-Loadings-at-Ichthys.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "OILPRICE",
-    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Australian-LNG-Strike-Begins-to-Disrupt-Cargo-Loadings-at-Ichthys.html",
-    "source_title": "Australian LNG Strike Begins to Disrupt Cargo Loadings at Ichthys",
-    "source_summary": "Industrial action at the Ichthys LNG project offshore Australia has started to affect loadings, with Reuters reporting that one tanker has been delayed as a result of the limited strike. The strike, limited to two hours in the mornings and two hours in the evenings, began earlier this week, after trade unions representing workers at Ichthys and the operator of the project, Japan\u2019s Inpex, failed to",
-    "drafted_at": "2026-06-03T07:30:54.865600",
-    "data": {
-      "source": "OILPRICE"
-    },
-    "content_hash": "c59540430bcf5dfd"
-  },
-  {
-    "id": "25e6b07b",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Gulf wire: The fate of the global economy hinges on the conflict in the Middle East that has already stifled growth and could yet trigger recessions and significantly stronger inflation, the OECD said.\n\nhttps://financialpost.com/pmn/business-pmn/global-economy-risks-slump-on-prolonged-iran-conflict-oecd-says",
+    "draft_text": "Levant update: Kuwait will consider increasing oil storage abroad to boost its ability to supply global markets after the war in the Persian Gulf blocked flows through the Strait of Hormuz, according to the head of the state energy company\u2019s marketing arm.\n\nhttps://financialpost.com/pmn/business-pmn/kuwait-to-look-at-expanding-global-oil-storage-after-iran-war",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/pmn/business-pmn/global-economy-risks-slump-on-prolonged-iran-conflict-oecd-says",
-    "source_title": "Global Economy Risks Slump on Prolonged Iran Conflict, OECD Says",
-    "source_summary": "The fate of the global economy hinges on the conflict in the Middle East that has already stifled growth and could yet trigger recessions and significantly stronger inflation, the OECD said.",
-    "drafted_at": "2026-06-03T07:30:54.866006",
+    "source_url": "https://financialpost.com/pmn/business-pmn/kuwait-to-look-at-expanding-global-oil-storage-after-iran-war",
+    "source_title": "Kuwait to Look at Expanding Global Oil Storage After Iran War",
+    "source_summary": "Kuwait will consider increasing oil storage abroad to boost its ability to supply global markets after the war in the Persian Gulf blocked flows through the Strait of Hormuz, according to the head of the state energy company\u2019s marketing arm.",
+    "drafted_at": "2026-06-03T12:29:57.042966",
     "data": {
       "source": "FINANCIAL POST"
     },
-    "content_hash": "1540a3d30da7fed1"
+    "content_hash": "0c85a37daed5219e"
   },
   {
-    "id": "65b45df2",
+    "id": "0d4c7e12",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From the Gulf: Gold edged lower as renewed clashes in the Middle East cast doubt over negotiations between the US and Iran to end the war that\u2019s upended energy flows and heightened inflation concerns.\n\nhttps://financialpost.com/pmn/business-pmn/gold-slips-as-uncertainty-clouds-negotiations-to-end-us-iran-war",
+    "draft_text": "GLOBAL DESK: Russia has increased the production of first-person view drones by roughly 30-fold over the last three years, with manufacturers now capable of supplying more than 15,000 units a day, a top government official said.\n\nhttps://financialpost.com/pmn/business-pmn/russia-says-fpv-drone-production-has-reached-15000-craft-a-day",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/pmn/business-pmn/gold-slips-as-uncertainty-clouds-negotiations-to-end-us-iran-war",
-    "source_title": "Gold Slips as Uncertainty Clouds Negotiations to End US-Iran War",
-    "source_summary": "Gold edged lower as renewed clashes in the Middle East cast doubt over negotiations between the US and Iran to end the war that\u2019s upended energy flows and heightened inflation concerns.",
-    "drafted_at": "2026-06-03T07:30:54.866750",
+    "source_url": "https://financialpost.com/pmn/business-pmn/russia-says-fpv-drone-production-has-reached-15000-craft-a-day",
+    "source_title": "Russia Says FPV Drone Production Has Reached 15,000 Craft a Day",
+    "source_summary": "Russia has increased the production of first-person view drones by roughly 30-fold over the last three years, with manufacturers now capable of supplying more than 15,000 units a day, a top government official said.",
+    "drafted_at": "2026-06-03T12:29:57.044353",
     "data": {
       "source": "FINANCIAL POST"
     },
-    "content_hash": "cd0c5d68c7152752"
+    "content_hash": "f5c65e134a4133b3"
   },
   {
-    "id": "e1cf443d",
+    "id": "deacebc9",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "LATAM DESK: The Ring is Euronews\u2019 weekly political showdown, where Europe\u2019s toughest debates meet their boldest voices.\n\nIn each episode, two political heavyweights from across the EU face off to propose a diversity of opinions and spark conversations around the most important issues of EU affairs and the wider European political life.\n\nEuronews Tech Talks goes beyond discussions to explore the impact of new technologies on our lives.\n\nWith explanations, engaging Q&As, and lively conversations, the podcast provides valuable insights into the intersection of technology and society.\n\nEurope's best food experts are joining forces to crack down on fraud.\n\nhttp://www.euronews.com/business/2026/06/03/canada-calls-for-us-and-mexico-free-trade-deal-to-be-renewed-for-16-years",
+    "draft_text": "Gulf wire: Ghana\u2019s annual inflation rate edged higher a second straight month as the war in Iran fanned price pressures, increasing the likelihood that the central bank will keep interest rates on hold when it next meets.\n\nhttps://financialpost.com/pmn/business-pmn/ghanas-inflation-rises-second-straight-month-as-iran-conflict-stokes-prices",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "EURONEWS",
-    "source_url": "http://www.euronews.com/business/2026/06/03/canada-calls-for-us-and-mexico-free-trade-deal-to-be-renewed-for-16-years",
-    "source_title": "Canada calls for US and Mexico free trade deal to be renewed for 16 years",
-    "source_summary": "\u201cThe Agreement is highly beneficial to each of our countries and to the integrated North American economy,\" a letter conveying Canada\u2019s recommendation, sent to the US and Mexico trade representatives, said.",
-    "drafted_at": "2026-06-03T07:30:54.868382",
+    "primary_source": "FINANCIAL POST",
+    "source_url": "https://financialpost.com/pmn/business-pmn/ghanas-inflation-rises-second-straight-month-as-iran-conflict-stokes-prices",
+    "source_title": "Ghana\u2019s Inflation Rises Second Straight Month as Iran Conflict Stokes Prices",
+    "source_summary": "Ghana\u2019s annual inflation rate edged higher a second straight month as the war in Iran fanned price pressures, increasing the likelihood that the central bank will keep interest rates on hold when it next meets.",
+    "drafted_at": "2026-06-03T12:29:57.045436",
     "data": {
-      "source": "EURONEWS"
+      "source": "FINANCIAL POST"
     },
-    "content_hash": "58a5fc83d9806d9c"
+    "content_hash": "77c22f0563390437"
   },
   {
-    "id": "42a248c4",
+    "id": "c926ef5f",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From the Gulf: The Indian Rupee (INR) falls sharply against the US Dollar (USD) on Wednesday.\n\nThe USD/INR pair jumps to near 95.77 as oil prices extend recovery due to renewed hostilities in the Middle East region, and the continuous outflow of foreign funds from the Indian stock market.\n\nhttps://www.fxstreet.com/news/indian-rupee-opens-lower-as-renewed-us-iran-tensions-boost-oil-prices-202606030457",
+    "draft_text": "Levant update: Headlines: US president Trump reaffirms that Iran has agreed to not have a nuclear weapon Iran reserves right to defend against any country permitting US attacks EU says latest US tariffs on forced labour grounds are unjustified USD/JPY continues to poke and prod at intervention strike zone BOJ governor Ueda says will continue to raise policy rate if baseline outlook holds ECB policymaker Elderson says prolonged war increases likelihood of second-round effects SNB Chairman Schlegel says medium-term inflation pressure is basically unchanged Eurozone business activity struggles further in May amid surging price pressures UK May final services PMI 49.3 vs 47.9 prelim How likely is a U.S. debt crisis?\n\nMarkets: WTI crude up 2% to $95.70 European indices lower, DAX down 0.9% while CAC 40 down 0.4% S&P 500 futures down 0.1% USD a little higher, USD/JPY volatility swings after nearing 160 US 10-year yields up 2.8 bps to 4.48% Gold down 0.5% to $4,463 It was a more pensive session as we continue to wait on whether or not the US and Iran will strike a deal this week.\n\nBut by the look of things, it seems that both sides are still finding it hard to meet in the middle especially on key terms.\n\nUS president Trump came out to reaffirm that Iran has agreed to not have a nuclear weapon.\n\nBut as a reminder, this notion of a baseline promise was denied by Tehran previously last week already.\n\nBesides that, he also said that the US naval blockade may stay the course until Labour Day.\n\nIf so, that means it will be another three more months of this with the naval blockade being lifted supposed to be a key condition for Iran in this framework agreement.\n\nMarkets remain unfazed for the most part despite the mix of headlines.\n\nhttps://investinglive.com/news/investinglive-european-markets-wrap-us-iran-tensions-continue-yen-volatility-in-focus-20260603/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/investinglive-european-markets-wrap-us-iran-tensions-continue-yen-volatility-in-focus-20260603/",
+    "source_title": "investingLive European markets wrap: US-Iran tensions continue; yen volatility in focus",
+    "source_summary": "Headlines: US president Trump reaffirms that Iran has agreed to not have a nuclear weapon Iran reserves right to defend against any country permitting US attacks EU says latest US tariffs on forced labour grounds are unjustified USD/JPY continues to poke and prod at intervention strike zone BOJ governor Ueda says will continue to raise policy rate if baseline outlook holds ECB policymaker Elderson",
+    "drafted_at": "2026-06-03T12:29:57.048159",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "1545fef3c979f6ad"
+  },
+  {
+    "id": "66ef0f43",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "MIDDLE EAST DESK: Secretary of State Rubio tells US lawmakers the war on Iran is over, amid recent attacks on Iran and Gulf countries.\n\nhttps://www.aljazeera.com/news/2026/6/3/iran-kuwait-bahrain-hit-is-the-war-in-the-gulf-escalating-again?traffic_source=rss",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "AL JAZEERA",
+    "source_url": "https://www.aljazeera.com/news/2026/6/3/iran-kuwait-bahrain-hit-is-the-war-in-the-gulf-escalating-again?traffic_source=rss",
+    "source_title": "Iran, Kuwait, Bahrain hit: Is the war in the Gulf escalating again?",
+    "source_summary": "Secretary of State Rubio tells US lawmakers the war on Iran is over, amid recent attacks on Iran and Gulf countries.",
+    "drafted_at": "2026-06-03T12:29:57.048513",
+    "data": {
+      "source": "AL JAZEERA"
+    },
+    "content_hash": "5555e4a095ad77f4"
+  },
+  {
+    "id": "79adabd0",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "Inflation update: Prior was +109K (revised to +105K) Details: Goods -3K versus +15K last month Service +36K versus +94K last month Small business +49K vs +65K prior Medium businesses +10K vs +2K last month Large businesses +40K vs +42K last month Wages: Wages for job stayers 4.4% vs 4.4% last month Wages for job changers 6.5% vs 6.6% last month This number is very close to consensus and is essentially in-line with expectations.\n\nIn terms of the macro, that's a good sign that the US economy is solid, if not turning towards strength.\n\nADP said hiring was more broad-based than they've seen in recent years and is showing sustained momentum.\n\nThis report adds to some of this week's optimism after a very strong JOLTS report and a good ISM manufacturing report.\n\nI see increasing risks that the US is headed towards an inflation problem fuelled by high deficits, tariffs, low immigration, the AI capex boom and a cyclical improvement.\n\nFor background, the ADP National Employment Report tracks monthly changes in US private-sector employment, drawn from aggregated and anonymized payroll data covering more than 26 million employees, produced by ADP Research with the Stanford Digital Economy Lab.\n\nIt lands two days ahead of the BLS nonfarm payrolls print, though the two series correlate poorly and ADP is best read as its own signal rather than a payrolls preview.\n\nApril delivered the strongest headline in over a year: private companies added 109,000 jobs, up from 61,000 in March and well above the Dow Jones consensus of 84,000.\n\nhttps://investinglive.com/news/us-may-adp-employment-data-122k-vs-117k-expected-20260603/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/us-may-adp-employment-data-122k-vs-117k-expected-20260603/",
+    "source_title": "US May ADP employment data +122K vs +117K expected",
+    "source_summary": "Prior was +109K (revised to +105K) Details: Goods -3K versus +15K last month Service +36K versus +94K last month Small business +49K vs +65K prior Medium businesses +10K vs +2K last month Large businesses +40K vs +42K last month Wages: Wages for job stayers 4.4% vs 4.4% last month Wages for job changers 6.5% vs 6.6% last month This number is very close to consensus and is essentially in-line with ",
+    "drafted_at": "2026-06-03T12:29:57.110937",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "5894c5f3accb5496"
+  },
+  {
+    "id": "b681e9e6",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "Numbers just hit: The Institute for Supply Management (ISM) is scheduled to release the May Services Purchasing Managers Index (PMI) on Wednesday.\n\nMarket participants anticipate a modest improvement, with the index forecast at 53.8, up from 53.6 in April.\n\nhttps://www.fxstreet.com/news/ism-services-pmi-consensus-calls-for-gently-dwindling-economic-expansion-202606030900",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/indian-rupee-opens-lower-as-renewed-us-iran-tensions-boost-oil-prices-202606030457",
-    "source_title": "Indian Rupee weakens as renewed US-Iran tensions boost oil prices",
-    "source_summary": "The Indian Rupee (INR) falls sharply against the US Dollar (USD) on Wednesday. The USD/INR pair jumps to near 95.77 as oil prices extend recovery due to renewed hostilities in the Middle East region, and the continuous outflow of foreign funds from the Indian stock market.",
-    "drafted_at": "2026-06-03T07:30:54.868742",
+    "source_url": "https://www.fxstreet.com/news/ism-services-pmi-consensus-calls-for-gently-dwindling-economic-expansion-202606030900",
+    "source_title": "ISM Services PMI to set tone for US Dollar on Wednesday",
+    "source_summary": "The Institute for Supply Management (ISM) is scheduled to release the May Services Purchasing Managers Index (PMI) on Wednesday. Market participants anticipate a modest improvement, with the index forecast at 53.8, up from 53.6 in April.",
+    "drafted_at": "2026-06-03T12:29:57.111286",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "478d65d9ae8314e7"
+    "content_hash": "73173acd97362822"
   },
   {
-    "id": "593f2261",
+    "id": "6a7380f0",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "GROWTH POSTCARD: The AUD/JPY cross loses momentum to around 114.45 during the early European trading hours on Wednesday.\n\nVerbal intervention from Japanese authorities provides some support to the Japanese Yen (JPY) and acts as a headwind for the cross.\n\nhttps://www.fxstreet.com/news/aud-jpy-price-forecast-softens-below-11450-on-weaker-australian-gdp-but-bullish-trend-prevails-202606030659",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/aud-jpy-price-forecast-softens-below-11450-on-weaker-australian-gdp-but-bullish-trend-prevails-202606030659",
-    "source_title": "AUD/JPY Price Forecast: Softens below 114.50 on weaker Australian GDP, but bullish trend prevails",
-    "source_summary": "The AUD/JPY cross loses momentum to around 114.45 during the early European trading hours on Wednesday. Verbal intervention from Japanese authorities provides some support to the Japanese Yen (JPY) and acts as a headwind for the cross.",
-    "drafted_at": "2026-06-03T07:30:54.936745",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "84a20585fcabc2c5"
-  },
-  {
-    "id": "2381e228",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "CPI POSTCARD: EUROPEAN SESSION In the European session, we don't have much on the agenda other than the final Services PMIs for the major Eurozone economies and the UK.\n\nThe data is not going to change anything for the respective central banks, so the market reaction will likely be muted.\n\nAMERICAN SESSION In the American session, we get the US ADP report and the US ISM Services PMI.\n\nThe ADP is expected at 120K vs 109K in the prior month.\n\nThe US jobs data has been pointing to a stable/strengthening labour market for months which led the Fed to shift its focus from employment mandate to the inflation one.\n\nThe ISM Services PMI is expected at 53.8 vs 53.6 in the prior month.\n\nThe S&P Global noted that the flash PMI data for May recorded only modest growth of business activity as demand was again squeezed by a further spike in prices and jobs were cut as firms worried over rising costs and the economic outlook.\n\nMoreover, the agency found that input costs jumped in May at the steepest rate since late-2022 on the back of rising war-related supply constraints and steep energy cost increases.\n\nhttps://investinglive.com/news/what-are-the-main-events-for-today-20260603/",
+    "draft_text": "How sticky is inflation? Let's see: FUNDAMENTAL OVERVIEW Gold is again on the backfoot as yet another rally on optimism gets faded.\n\nTonight, Iran's IRGC launched a wave of ballistic missile attacks targeting US military bases across the Gulf, including an Air Base in Kuwait.\n\nIranian officials described the strikes as retaliation for US actions against an oil tanker near the Strait of Hormuz and military operations on Qeshm Island.\n\nBahrain, Saudi Arabia and the United Arab Emirates also reported attacks at multiple facilities hosting US personnel.\n\nAccording to US Central Command, American forces conducted \"self-defense\" operations, including strikes on targets on Qeshm Island in response to attempted attacks by Iran.\n\nThe ceasefire continues to look weaker by the day but a full resumption of the conflict seems unlikely.\n\nThe negotiating deadlock has been dragging on for a long time and oil prices are likely to remain persistently elevated until the Strait of Hormuz is reopened.\n\nThis keeps increasing the risk of a hawkish Fed.\n\nhttps://investinglive.com/news/hawkish-fed-risk-continues-to-weigh-on-gold-as-us-iran-stalemate-drags-on-tensions-rise-20260603/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/what-are-the-main-events-for-today-20260603/",
-    "source_title": "What are the main events for today?",
-    "source_summary": "EUROPEAN SESSION In the European session, we don't have much on the agenda other than the final Services PMIs for the major Eurozone economies and the UK. The data is not going to change anything for the respective central banks, so the market reaction will likely be muted. AMERICAN SESSION In the American session, we get the US ADP report and the US ISM Services PMI. The ADP is expected at 120K v",
-    "drafted_at": "2026-06-03T07:30:54.938080",
+    "source_url": "https://investinglive.com/news/hawkish-fed-risk-continues-to-weigh-on-gold-as-us-iran-stalemate-drags-on-tensions-rise-20260603/",
+    "source_title": "Hawkish Fed risk continues to weigh on gold as US-Iran stalemate drags on, tensions rise",
+    "source_summary": "FUNDAMENTAL OVERVIEW Gold is again on the backfoot as yet another rally on optimism gets faded. Tonight, Iran's IRGC launched a wave of ballistic missile attacks targeting US military bases across the Gulf, including an Air Base in Kuwait. Iranian officials described the strikes as retaliation for US actions against an oil tanker near the Strait of Hormuz and military operations on Qeshm Island. B",
+    "drafted_at": "2026-06-03T12:29:57.113431",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "aae14820c81767a4"
+    "content_hash": "93138270a904449b"
   },
   {
-    "id": "79fbbfdb",
+    "id": "edda92ef",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "INFLATION READ: US proposes 10% tariffs on 60 nations, forced-labour Section 301 probe Australia Q1 GDP slows to 0.3% as data centre imports drag on growth China Services PMI, May 2026 54.4 (expect 52.3, prior 52.6) fastest expansion in 3 months Australia Q1 2026 GDP 0.3% q/q and 2.5% y/y.\n\nPBOC sets USD/ CNY mid-point today at 6.8184 (vs. estimate at 6.7673) SpaceX targets $75bn IPO at $135 a share as Nasdaq roadshow nears Japan services PMI flatlines in May as war costs hit record high Japan approves $19bn supplementary budget to offset Trump war Middle East inflation USD/JPY hits 160, Japan fin min jumps in with open mouth operations US and partners intercept Iranian missiles and drones across Gulf Chaos descending on Middle East - air attacks on Saudi Arabia, Dubai now being reported Australia services PMI slips to 48.7 as Middle East war hammers demand New Zealand Q1 terms of trade fell, April building permits rose China's SAIC Motor to build first EU electric vehicle factory in Europe (Spain) Kuwaiti reports that it is currently responding to \u201chostile missile and drone threats\u201d Reserve Bank of India likely sold US$12bn in gold to defend rupee amid oil shock Canada's LeBlanc says trade talks with US unfrozen, more meetings ahead US military fires Hellfire missile at tanker bound for Iran's Kharg Island Oil draw larger than expected.\n\nOil climbs to 1 week high, Iran-US deal signals stay mixed Summary Iran fired at least 10 ballistic missiles at US military bases in Kuwait, targeting Ali Al Salem Air Base, and followed with strikes on Bahrain, Saudi Arabia and Dubai; air raid sirens activated at US bases in Saudi Arabia and all flights in Kuwait, Bahrain and the UAE were suspended temporarily CENTCOM had earlier disabled an unladen tanker heading to Iran's Kharg Island with a Hellfire missile strike to the engine room; multiple explosions were also reported off the southern coast of Qeshm Island Oil prices rose sharply on the escalation, with an immediate risk premium spike in Brent and WTI; the USD added modest gains through the session Japan's Finance Minister Katayama warned Tokyo is prepared to respond appropriately on forex as USD/JPY touched 160, the recognised intervention threshold; the dollar paused at that level as traders grew cautious Japan's cabinet approved a \u00a53.1 trillion supplementary budget funded entirely by deficit bonds to subsidise fuel and utility costs, with a \u00a52.5 trillion reserve targeting gasoline prices first Australia's Q1 GDP came in at 0.3% q/q and 2.5% y/y, both below consensus, as a surge in data centre equipment imports and war-driven fuel costs offset strong domestic demand; the AUD barely moved The US proposed tariffs of at least 10% on imports from around 60 countries under a Section 301 forced-labour investigation, with a higher 12.5% rate for China, India, Japan and others SpaceX set a $135 per share target price for its IPO, aiming to sell 555.6 million shares to raise $75 billion, which would make it the largest IPO in history Tuesday was one of those sessions where the news flow refused to slow down, and the common thread running through almost all of it was the same: the US-Iran conflict, now more than three months old, is still getting worse before it gets better.\n\nThe day's most dramatic development was Iran's missile salvo, with the IRGC firing at least ten ballistic missiles at US military bases in Kuwait, targeting Ali Al Salem Air Base in what Tehran framed as retaliation for a US strike on an oil tanker and on Qeshm Island.\n\nBahrain, Saudi Arabia and Dubai all reported strikes, air raid sirens activated at US bases in Saudi Arabia, and aviation authorities suspended all flights across Kuwait, Bahrain and the UAE for a period as the Gulf's airspace became, temporarily, a war zone.\n\nCENTCOM had earlier disabled an unladen tanker attempting to run the blockade toward Kharg Island, striking its engine room with a Hellfire missile, and multiple explosions had been reported off Qeshm Island before Iran's retaliatory volley was launched.\n\nOil responded immediately, with Brent and WTI both spiking on the escalation.\n\nThe pattern of exchanges is hardening into something that looks less like a ceasefire under strain and more like a formalised tit-for-tat, uncomfortably reminiscent of the Houthi cycle that eventually saw Washington pull back from its objectives in pursuit of de-escalation.\n\nhttps://investinglive.com/news/investinglive-asia-pacific-fx-news-wrap-gulf-escalation-yen-jitters-biggest-ipo-ever-20260603/",
+    "draft_text": "Growth read just printed. It forecasts such a scenario would reduce global GDP growth to 2.1% this year, from 3.4% in 2025, \u201cpushing some economies into or close to recession\u201d \u2013 with emerging economies hit hardest.\n\nIt would create headaches for policymakers, who could face recession if they raised interest rates too rapidly to see off rising inflation risk as energy and food prices surge.\n\nIf the Middle East conflict drags on into next year it would hit global growth hard, driving some economies into recession and causing energy shortages, according to forecasts from the Organisation for Economic Co-operation and Development.\n\nhttps://www.theguardian.com/business/2026/jun/03/oecd-predicts-spate-of-recessions-globally-if-iran-conflict-drags-into-2027",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/investinglive-asia-pacific-fx-news-wrap-gulf-escalation-yen-jitters-biggest-ipo-ever-20260603/",
-    "source_title": "investingLive Asia-Pacific FX news wrap: Gulf escalation, yen jitters, & biggest IPO ever",
-    "source_summary": "Trump tries again. US proposes 10% tariffs on 60 nations, forced-labour Section 301 probe Australia Q1 GDP slows to 0.3% as data centre imports drag on growth China Services PMI, May 2026 54.4 (expect 52.3, prior 52.6) fastest expansion in 3 months Australia Q1 2026 GDP 0.3% q/q and 2.5% y/y. PBOC sets USD/ CNY mid-point today at 6.8184 (vs. estimate at 6.7673) SpaceX targets $75bn IPO at $135 a s",
-    "drafted_at": "2026-06-03T07:30:54.943802",
+    "primary_source": "GUARDIAN",
+    "source_url": "https://www.theguardian.com/business/2026/jun/03/oecd-predicts-spate-of-recessions-globally-if-iran-conflict-drags-into-2027",
+    "source_title": "OECD predicts spate of recessions globally if Iran conflict drags into 2027",
+    "source_summary": "Policy forum lays out \u2018prolonged disruption\u2019 scenario in which world\u2019s GDP falls to 2.1% this year from 3.4% in 2025 Rural UK \u2018particularly at risk\u2019 of diesel shortages If the Middle East conflict drags on into next year it would hit global growth hard, driving some economies into recession and causing energy shortages, according to forecasts from the Organisation for Economic Co-operation and Dev",
+    "drafted_at": "2026-06-03T12:29:57.114789",
     "data": {
-      "source": "FOREXLIVE"
+      "source": "GUARDIAN"
     },
-    "content_hash": "048849f50779b565"
+    "content_hash": "668f5e0062b5a450"
   },
   {
-    "id": "a9d3d297",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "Goods-flow update: Australia's Q1 GDP rose 0.3% q/q and 2.5% y/y, both below forecasts, as a surge in data centre and fuel imports wiped 0.8 percentage points from growth despite strong domestic demand.\n\nSummary: Australian Bureau of Statistics, Q1 2026 National Accounts GDP rose 0.3% q/q in Q1 2026, below the 0.5% consensus and down sharply from 0.9% in Q4 2025; annual growth held at 2.5% against a 2.7% forecast Net trade subtracted 0.8 percentage points from growth as imports surged, driven by data centre equipment and fuel; domestic demand contributed a full percentage point to growth Private business investment jumped 6.0% q/q, its highest share of real GDP at 12.6% since September 2015, with data centre-related machinery and equipment adding 0.7 percentage points alone; capex rose 3.0% q/q against a prior 0.7% Real GDP per capita fell 0.1% in the quarter and is only 1% higher than a year ago; government spending weakened, adding to the drag Final consumption rose 0.3% q/q, slowing from 0.5%; the RBA has raised rates three times this year and the central bank's own forecasts point to annual growth slowing to 1.9% by Q2 and 1.3% by year-end Swap markets price only a 7% chance of a fourth RBA hike next month and 23 basis points of total tightening for the year The Australian dollar was little changed following the release Australia's economy expanded at its slowest pace in three quarters in the first three months of 2026, with GDP rising just 0.3% in the March quarter as a surge in imports of data centre equipment and war-driven fuel costs overwhelmed what was otherwise a strong domestic demand story.\n\nThe result from the Australian Bureau of Statistics came in below market forecasts of 0.5% and well short of the 0.9% recorded in the December quarter.\n\nAnnual growth held at 2.5%, also below the 2.7% consensus.\n\nThe Australian dollar was flat at $0.7178 following the release, with bond futures little changed, suggesting markets had already priced in a soft outcome.\n\nNet trade subtracted 0.8 percentage points from quarterly growth as imports surged, with data centre equipment and fuel the two dominant categories.\n\nThe fuel import bill reflects the Hormuz disruption that has driven energy prices sharply higher since the US-Iran conflict began, while the equipment surge speaks to a data centre construction boom that is reshaping Australia's capital expenditure profile.\n\nPrivate business investment rose 6.0% in the quarter, reaching its highest share of real GDP at 12.6% since September 2015, with machinery and equipment alone adding 0.7 percentage points to growth.\n\nhttps://investinglive.com/news/australia-q1-gdp-slows-to-03-as-data-centre-imports-drag-on-growth-20260603/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/australia-q1-gdp-slows-to-03-as-data-centre-imports-drag-on-growth-20260603/",
-    "source_title": "Australia Q1 GDP slows to 0.3% as data centre imports drag on growth",
-    "source_summary": "Australia's Q1 GDP rose 0.3% q/q and 2.5% y/y , both below forecasts, as a surge in data centre and fuel imports wiped 0.8 percentage points from growth despite strong domestic demand. Summary: Australian Bureau of Statistics, Q1 2026 National Accounts GDP rose 0.3% q/q in Q1 2026, below the 0.5% consensus and down sharply from 0.9% in Q4 2025; annual growth held at 2.5% against a 2.7% forecast Ne",
-    "drafted_at": "2026-06-03T07:30:54.946892",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "406167d5f4172410"
-  },
-  {
-    "id": "98ff2f70",
+    "id": "ab454956",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "From the BEA desk: The economy is 'markedly darker,' according to Gallup.\n\nhttps://dailycaller.com/2026/05/28/first-quarter-gdp-revised-downward-voters-fret-economy-gallup-eci-inflation/",
@@ -450,14 +507,14 @@
     "source_url": "https://dailycaller.com/2026/05/28/first-quarter-gdp-revised-downward-voters-fret-economy-gallup-eci-inflation/",
     "source_title": "First Quarter GDP Revised Downward As Voters Fret Over Economy",
     "source_summary": "The economy is 'markedly darker,' according to Gallup.",
-    "drafted_at": "2026-06-03T07:30:54.947021",
+    "drafted_at": "2026-06-03T12:29:57.114914",
     "data": {
       "source": "DAILY CALLER"
     },
     "content_hash": "83a922e0b44d81c0"
   },
   {
-    "id": "d33260ea",
+    "id": "8e365ab2",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -467,7 +524,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-06-03T07:30:54.948634",
+    "drafted_at": "2026-06-03T12:29:57.116514",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -475,7 +532,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "afbff81a",
+    "id": "4c11063c",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Information is free. Conviction is rare. Patience is rarer.",
@@ -485,14 +542,14 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Information is free. Conviction is rare. Patience is rarer.",
-    "drafted_at": "2026-06-03T07:30:54.948715",
+    "drafted_at": "2026-06-03T12:29:57.116598",
     "data": {
       "take_seed": "2026-06-03-pack-1"
     },
     "content_hash": "9b0f7be55d8ef71c"
   },
   {
-    "id": "6ff48d99",
+    "id": "b2163093",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Inflation is a tax that doesn't show up on your W-2.",
@@ -502,7 +559,7 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Inflation is a tax that doesn't show up on your W-2.",
-    "drafted_at": "2026-06-03T07:30:54.948764",
+    "drafted_at": "2026-06-03T12:29:57.116650",
     "data": {
       "take_seed": "2026-06-03-pack-2"
     },
