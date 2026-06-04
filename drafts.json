@@ -1,40 +1,42 @@
 [
   {
-    "id": "ddacc65b",
+    "id": "4bd9f431",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "THE BIG ONE: EUR/JPY trades around 185.85 on Thursday at the time of writing, up 0.12% on the day.\n\nThe cross is supported by the Euro (EUR) as investors expect the European Central Bank (ECB) to deliver another interest rate hike at its June meeting.\n\nhttps://www.fxstreet.com/news/euro-climbs-vs-yen-as-ecb-tightening-expectations-clash-with-boj-hike-intervention-risks-202606040955",
+    "draft_text": "If you read one thing today: Deutsche Bank strategists note that rising US yields and stronger data have pushed market pricing for a Fed rate hike by December to 81%, helping support the Dollar Index.\n\nhttps://www.fxstreet.com/news/us-dollar-index-higher-yields-and-fed-pricing-support-deutsche-bank-202606041302",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/euro-climbs-vs-yen-as-ecb-tightening-expectations-clash-with-boj-hike-intervention-risks-202606040955",
-    "source_title": "Euro climbs vs Yen as ECB tightening expectations clash with BoJ hike, intervention risks",
-    "source_summary": "EUR/JPY trades around 185.85 on Thursday at the time of writing, up 0.12% on the day. The cross is supported by the Euro (EUR) as investors expect the European Central Bank (ECB) to deliver another interest rate hike at its June meeting.",
-    "drafted_at": "2026-06-04T10:53:48.922908",
+    "source_url": "https://www.fxstreet.com/news/us-dollar-index-higher-yields-and-fed-pricing-support-deutsche-bank-202606041302",
+    "source_title": "US Dollar Index: Higher yields and Fed pricing support \u2013 Deutsche Bank",
+    "source_summary": "Deutsche Bank strategists note that rising US yields and stronger data have pushed market pricing for a Fed rate hike by December to 81%, helping support the Dollar Index.",
+    "drafted_at": "2026-06-04T13:52:42.165679",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "88be98eb02bfbb7f"
+    "content_hash": "ca218886ffae8eb0"
   },
   {
-    "id": "d9adfe3a",
-    "format": "POLICY_READ",
+    "id": "c56602b3",
+    "format": "MARKET_MOVE",
     "status": "pending",
-    "draft_text": "From Frankfurt: EUR/JPY trades around 185.85 on Thursday at the time of writing, up 0.12% on the day.\n\nThe cross is supported by the Euro (EUR) as investors expect the European Central Bank (ECB) to deliver another interest rate hike at its June meeting.\n\nhttps://www.fxstreet.com/news/euro-climbs-vs-yen-as-ecb-tightening-expectations-clash-with-boj-hike-intervention-risks-202606040955",
+    "draft_text": "Caught a move. Dow just hit 51,413.03 \u2014 highest in 9+ years.\n\n30 large U.S. industrials.\n\nSlower-moving than the S&P but the headline number retail readers track.\n\nMulti-year high. The pack remembers what comes after these.\n\nhttps://finance.yahoo.com/quote/%5EDJI",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "ECB",
-    "source_url": "https://www.fxstreet.com/news/euro-climbs-vs-yen-as-ecb-tightening-expectations-clash-with-boj-hike-intervention-risks-202606040955",
-    "source_title": "Euro climbs vs Yen as ECB tightening expectations clash with BoJ hike, intervention risks",
-    "source_summary": "EUR/JPY trades around 185.85 on Thursday at the time of writing, up 0.12% on the day. The cross is supported by the Euro (EUR) as investors expect the European Central Bank (ECB) to deliver another interest rate hike at its June meeting.",
-    "drafted_at": "2026-06-04T10:53:48.932951",
+    "primary_source": "Yahoo Finance \u00b7 ^DJI",
+    "source_url": "https://finance.yahoo.com/quote/%5EDJI",
+    "source_title": "Dow Jones Industrial Average",
+    "source_summary": "30 large U.S. industrials. Slower-moving than the S&P but the headline number retail readers track.",
+    "drafted_at": "2026-06-04T13:52:42.165979",
     "data": {
-      "actor": "ECB"
+      "signal_id": "^DJI:high:2026-06-04",
+      "kind": "high",
+      "current": "51,413.03"
     },
-    "content_hash": "88be98eb02bfbb7f"
+    "content_hash": "21c4cea90ac8748c"
   },
   {
-    "id": "a3558c30",
+    "id": "4b1a53c6",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "If you watch rates, read this: The agencies are taking this action to complement their earlier actions that ended the use of reputation risk in supervision.\n\nAs the agencies have previously noted, reputation risk can be misused by supervisors as a basis to encourage or pressure a bank to restrict individuals' and legal businesses' access to financial services due to their constitutionally protected political or religious beliefs, speech, or conduct or lawful business activities.\n\nThese updates help ensure supervisory decisions are based on material financial risks, as well as increase clarity and facilitate greater precision in supervisory decision making.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260602a.htm",
@@ -44,14 +46,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260602a.htm",
     "source_title": "Agencies remove additional references to reputation risk",
     "source_summary": "Agencies remove additional references to reputation risk",
-    "drafted_at": "2026-06-04T10:53:48.933943",
+    "drafted_at": "2026-06-04T13:52:42.176423",
     "data": {
       "actor": "FED"
     },
     "content_hash": "037f4db78eebad91"
   },
   {
-    "id": "3ff3400b",
+    "id": "c5585306",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Rate-path desk: The Board's process for setting the discount rate is distinct from the process the Federal Open Market Committee follows in setting the target range for the federal funds rate.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
@@ -61,14 +63,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
     "source_title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
     "source_summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
-    "drafted_at": "2026-06-04T10:53:48.934399",
+    "drafted_at": "2026-06-04T13:52:42.176843",
     "data": {
       "actor": "FED"
     },
     "content_hash": "b2d403ab8c4d5036"
   },
   {
-    "id": "287c2032",
+    "id": "5410e3dd",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FED WATCH: Also on Friday, the Federal Open Market Committee unanimously selected Warsh as its chairman.\n\nPresident Donald J.\n\nTrump nominated Mr. Warsh on March 4, 2026.\n\nHe was confirmed by the United States Senate to serve as a member of the Board on May 12, and as chairman of the Board on May 13.\n\nHis term as chairman ends on May 21, 2030, and his term as a member of the Board ends on January 31, 2040.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm",
@@ -78,14 +80,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm",
     "source_title": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
     "source_summary": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
-    "drafted_at": "2026-06-04T10:53:48.935043",
+    "drafted_at": "2026-06-04T13:52:42.177510",
     "data": {
       "actor": "FED"
     },
     "content_hash": "a5762f43aa0ef3b0"
   },
   {
-    "id": "e24bdcfb",
+    "id": "4ef117f1",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Policy update for the pack: Resolution plans, also known as living wills, must describe a banking organization's strategy for orderly resolution in the event of material financial distress or failure.\n\nThe agencies conducted a joint review of the 2025 resolution plan submissions from the eight largest and most complex domestic banking organizations as well as from 56 foreign banking organizations.\n\nThe agencies did not identify any shortcomings or deficiencies in these resolution plan submissions.\n\nThe agencies also determined that each derivatives-related weakness identified in the 2023 plans from Bank of America, Goldman Sachs, JPMorgan Chase, and Citigroup has been satisfactorily addressed.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260522a.htm",
@@ -95,165 +97,148 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260522a.htm",
     "source_title": "Agencies publish resolution plan feedback letters for certain domestic and foreign banking organizations",
     "source_summary": "Agencies publish resolution plan feedback letters for certain domestic and foreign banking organizations",
-    "drafted_at": "2026-06-04T10:53:48.936044",
+    "drafted_at": "2026-06-04T13:52:42.178528",
     "data": {
       "actor": "FED"
     },
     "content_hash": "b0e49d2209d92f96"
   },
   {
-    "id": "9a964604",
+    "id": "078ad613",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "If you trade rates, read this: Consent prohibition order against Nakia R.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260521a.htm",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260521a.htm",
+    "source_title": "Federal Reserve Board issues enforcement action with former employee of Commerce Bank",
+    "source_summary": "Federal Reserve Board issues enforcement action with former employee of Commerce Bank",
+    "drafted_at": "2026-06-04T13:52:42.178694",
+    "data": {
+      "actor": "FED"
+    },
+    "content_hash": "b9dac9fbdced3f0f"
+  },
+  {
+    "id": "5d062999",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$LILA insider bought $107,229,266 on 2026-05-22, 2 insiders. \ud83d\udc40\n\nLiberty Latin America Ltd.. 12,426,463 shares at $8.63.\n\n-9.8% since the purchase.\n\nhttp://openinsider.com/screener?s=LILA",
+    "draft_text": "$LILA insider bought $107,229,266 on 2026-05-22, 2 insiders. \ud83d\udc40\n\nLiberty Latin America Ltd.. 12,426,463 shares at $8.63.\n\n-8.7% since the purchase.\n\nhttp://openinsider.com/screener?s=LILA",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=LILA",
     "source_title": "Liberty Latin America Ltd. (LILA) insider bought $107,229,266",
     "source_summary": "2 insider(s) bought 12,426,463 shares at $8.63 on 2026-05-22.",
-    "drafted_at": "2026-06-04T10:53:48.936399",
+    "drafted_at": "2026-06-04T13:52:42.178851",
     "data": {
       "ticker": "LILA",
       "type": "P",
       "dollar_value": 107229266.0,
-      "pct_since": -9.849360257145436
+      "pct_since": -8.748551564310553
     },
     "content_hash": "baa5e81beb909bf9"
   },
   {
-    "id": "cfdcf5d4",
+    "id": "ee887af6",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$BRCB insider bought $73,337,883 on 2026-05-21, 3 insiders. \ud83d\udc40\n\nBlack Rock Coffee Bar, Inc.. 13,695,817 shares at $5.35.\n\n+31.0% since the purchase.\n\nhttp://openinsider.com/screener?s=BRCB",
+    "draft_text": "$BRCB insider bought $73,337,883 on 2026-05-21, 3 insiders. \ud83d\udc40\n\nBlack Rock Coffee Bar, Inc.. 13,695,817 shares at $5.35.\n\n+33.5% since the purchase.\n\nhttp://openinsider.com/screener?s=BRCB",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=BRCB",
     "source_title": "Black Rock Coffee Bar, Inc. (BRCB) insider bought $73,337,883",
     "source_summary": "3 insider(s) bought 13,695,817 shares at $5.35 on 2026-05-21.",
-    "drafted_at": "2026-06-04T10:53:48.936541",
+    "drafted_at": "2026-06-04T13:52:42.178989",
     "data": {
       "ticker": "BRCB",
       "type": "P",
       "dollar_value": 73337883.0,
-      "pct_since": 31.028041661342737
+      "pct_since": 33.45794142963731
     },
     "content_hash": "755b8302a285ed67"
   },
   {
-    "id": "e5aa70c6",
+    "id": "c7f592e5",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$IFF insider bought $32,284,388 on 2026-06-01, 2 insiders. \ud83d\udc40\n\nInternational Flavors & Fragrances Inc. 444,219 shares at $72.68.\n\n+1.2% since the purchase.\n\nhttp://openinsider.com/screener?s=IFF",
+    "draft_text": "$IFF insider bought $32,284,388 on 2026-06-01, 2 insiders. \ud83d\udc40\n\nInternational Flavors & Fragrances Inc. 444,219 shares at $72.68.\n\n+2.8% since the purchase.\n\nhttp://openinsider.com/screener?s=IFF",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=IFF",
     "source_title": "International Flavors & Fragrances Inc (IFF) insider bought $32,284,388",
     "source_summary": "2 insider(s) bought 444,219 shares at $72.68 on 2026-06-01.",
-    "drafted_at": "2026-06-04T10:53:48.936681",
+    "drafted_at": "2026-06-04T13:52:42.179125",
     "data": {
       "ticker": "IFF",
       "type": "P",
       "dollar_value": 32284388.0,
-      "pct_since": 1.2107836524404831
+      "pct_since": 2.837089660342201
     },
     "content_hash": "b59bb9be9054dcc6"
   },
   {
-    "id": "185f225e",
+    "id": "9ca9e8b3",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$NCLH insider bought $29,163,646 on 2026-06-01, 7 insiders. \ud83d\udc40\n\nNorwegian Cruise Line Holdings Ltd.. 1,633,867 shares at $17.85.\n\n+1.7% since the purchase.\n\nhttp://openinsider.com/screener?s=NCLH",
+    "draft_text": "$NCLH insider bought $29,163,646 on 2026-06-01, 7 insiders. \ud83d\udc40\n\nNorwegian Cruise Line Holdings Ltd.. 1,633,867 shares at $17.85.\n\n+6.9% since the purchase.\n\nhttp://openinsider.com/screener?s=NCLH",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=NCLH",
     "source_title": "Norwegian Cruise Line Holdings Ltd. (NCLH) insider bought $29,163,646",
     "source_summary": "7 insider(s) bought 1,633,867 shares at $17.85 on 2026-06-01.",
-    "drafted_at": "2026-06-04T10:53:48.936817",
+    "drafted_at": "2026-06-04T13:52:42.179259",
     "data": {
       "ticker": "NCLH",
       "type": "P",
       "dollar_value": 29163646.0,
-      "pct_since": 1.6806701318222521
+      "pct_since": 6.862749372209813
     },
     "content_hash": "467ccdd401ed9ddb"
   },
   {
-    "id": "8bc54e5e",
+    "id": "c7a81c48",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$HOOD insider bought $15,103,853 on 2026-06-03. \ud83d\udc40\n\nRobinhood Markets, Inc.. 181,000 shares at $83.45.\n\n-0.7% since the purchase.\n\nhttp://openinsider.com/screener?s=HOOD",
+    "draft_text": "$HOOD insider bought $15,103,853 on 2026-06-03. \ud83d\udc40\n\nRobinhood Markets, Inc.. 181,000 shares at $83.45.\n\n+0.3% since the purchase.\n\nhttp://openinsider.com/screener?s=HOOD",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=HOOD",
     "source_title": "Robinhood Markets, Inc. (HOOD) insider bought $15,103,853",
     "source_summary": "1 insider(s) bought 181,000 shares at $83.45 on 2026-06-03.",
-    "drafted_at": "2026-06-04T10:53:48.936935",
+    "drafted_at": "2026-06-04T13:52:42.179413",
     "data": {
       "ticker": "HOOD",
       "type": "P",
       "dollar_value": 15103853.0,
-      "pct_since": -0.7189952377218802
+      "pct_since": 0.32354849694801935
     },
     "content_hash": "180eca314d72fab7"
   },
   {
-    "id": "e559c231",
+    "id": "ce60454f",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "Bitget, the world\u2019s largest Universal Exchange (UEX), has launched Anti-Scam Month 2026, its annual global security initiative running throughout June under the theme \u201cMore Assets, Stronger Shield: Stay Safe in the Multi-Asset Era.\u201d The initiative expands Bitget\u2019s focus on user protection as digital finance enters a new phase where crypto, tokenized stocks, RWAs, AI-linked products, The post Bitget Launches Anti-Scam Month as Multi-Asset Fraud Loss Hits $442 B appeared first on BeInCrypto.\n\nhttps://beincrypto.com/bitget-launches-anti-scam/",
+    "draft_text": "ACTIVE THREAT: DeFi exploit losses fell 74% from the 2022 peak to $680 million in 2025, according to Immunefi, amid structural security shifts.\n\nhttps://www.theblock.co/post/403624/immunefi-says-defi-is-getting-safer-as-exploit-losses-fall-74-from-2022-peak-amid-ai-driven-security-arms-race?utm_source=rss&utm_medium=rss",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "BEINCRYPTO",
-    "source_url": "https://beincrypto.com/bitget-launches-anti-scam/",
-    "source_title": "Bitget Launches Anti-Scam Month as Multi-Asset Fraud Loss Hits $442 B",
-    "source_summary": "Bitget, the world\u2019s largest Universal Exchange (UEX), has launched Anti-Scam Month 2026, its annual global security initiative running throughout June under the theme \u201cMore Assets, Stronger Shield: Stay Safe in the Multi-Asset Era.\u201d The initiative expands Bitget\u2019s focus on user protection as digital finance enters a new phase where crypto, tokenized stocks, RWAs, AI-linked products, The post Bitge",
-    "drafted_at": "2026-06-04T10:53:48.938670",
+    "primary_source": "THE BLOCK",
+    "source_url": "https://www.theblock.co/post/403624/immunefi-says-defi-is-getting-safer-as-exploit-losses-fall-74-from-2022-peak-amid-ai-driven-security-arms-race?utm_source=rss&utm_medium=rss",
+    "source_title": "Immunefi says DeFi is \u2018getting safer\u2019 as exploit losses fall 74% from 2022 peak amid AI-driven security arms race",
+    "source_summary": "DeFi exploit losses fell 74% from the 2022 peak to $680 million in 2025, according to Immunefi, amid structural security shifts.",
+    "drafted_at": "2026-06-04T13:52:42.180529",
     "data": {
-      "source": "BEINCRYPTO"
+      "source": "THE BLOCK"
     },
-    "content_hash": "699d9a9c932a4e4a"
+    "content_hash": "3fbdc2f19f654ad9"
   },
   {
-    "id": "92647124",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "The lawmakers are also asking the FTC for information on whether it has plans to take investigative or enforcement action against prediction markets for possible deceptive practices.\n\nhttps://cointelegraph.com/news/house-democrats-ftc-probe-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "COINTELEGRAPH",
-    "source_url": "https://cointelegraph.com/news/house-democrats-ftc-probe-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "source_title": "US House Democrats call for FTC probe into prediction markets",
-    "source_summary": "The lawmakers are also asking the FTC for information on whether it has plans to take investigative or enforcement action against prediction markets for possible deceptive practices.",
-    "drafted_at": "2026-06-04T10:53:48.938969",
-    "data": {
-      "source": "COINTELEGRAPH"
-    },
-    "content_hash": "1d83532018dcda09"
-  },
-  {
-    "id": "487e7237",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Authorities around the world have been heavily targeting scam infrastructure this year, with joint actions involving the US, UAE, China, Austria and Albania.\n\nhttps://cointelegraph.com/news/tech-fbi-crypto-scam-crackdown-southeast-asia?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "COINTELEGRAPH",
-    "source_url": "https://cointelegraph.com/news/tech-fbi-crypto-scam-crackdown-southeast-asia?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "source_title": "Coinbase freezes $3M tied to Southeast Asia crypto fraud networks",
-    "source_summary": "Authorities around the world have been heavily targeting scam infrastructure this year, with joint actions involving the US, UAE, China, Austria and Albania.",
-    "drafted_at": "2026-06-04T10:53:48.939253",
-    "data": {
-      "source": "COINTELEGRAPH"
-    },
-    "content_hash": "1899a58b9e7e86b2"
-  },
-  {
-    "id": "fe2f2266",
+    "id": "66cb0b8c",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "For traditional US banks, the CLARITY Act was intended as a firewall that effectively barred crypto companies from offering \u201cpassive\u201d interest on stablecoins.\n\nThe legislation aimed to prevent a catastrophic deposit flight in which everyday checking account balances drain from the banking system into high-yield crypto exchanges.\n\nBut as lawmakers prepare to finalize the framework, [\u2026] The post Banks pushed Congress to kill stablecoin yield with CLARITY Act \u2013 Coinbase may have found the loophole appeared first on CryptoSlate.\n\nhttps://cryptoslate.com/banks-pushed-congress-to-kill-stablecoin-yield-with-clarity-act-coinbase-may-have-found-the-loophole/",
@@ -263,14 +248,14 @@
     "source_url": "https://cryptoslate.com/banks-pushed-congress-to-kill-stablecoin-yield-with-clarity-act-coinbase-may-have-found-the-loophole/",
     "source_title": "Banks pushed Congress to kill stablecoin yield with CLARITY Act \u2013 Coinbase may have found the loophole",
     "source_summary": "For traditional US banks, the CLARITY Act was intended as a firewall that effectively barred crypto companies from offering \u201cpassive\u201d interest on stablecoins. The legislation aimed to prevent a catastrophic deposit flight in which everyday checking account balances drain from the banking system into high-yield crypto exchanges. But as lawmakers prepare to finalize the framework, [\u2026] The post Banks",
-    "drafted_at": "2026-06-04T10:53:48.940042",
+    "drafted_at": "2026-06-04T13:52:42.181371",
     "data": {
       "source": "CRYPTOSLATE"
     },
     "content_hash": "287c95466c3478c8"
   },
   {
-    "id": "67bb6bab",
+    "id": "6ba03952",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The post Lawmakers Demand Answers After the White House Initiated a $620M Loan to a Firm Tied to Donald Trump Jr. appeared first on ProPublica.\n\nhttps://www.propublica.org/article/donald-trump-jr-vulcan-lawmakers-letter",
@@ -280,150 +265,218 @@
     "source_url": "https://www.propublica.org/article/donald-trump-jr-vulcan-lawmakers-letter",
     "source_title": "Lawmakers Demand Answers After the White House Initiated a $620M Loan to a Firm Tied to Donald Trump Jr.",
     "source_summary": "The post Lawmakers Demand Answers After the White House Initiated a $620M Loan to a Firm Tied to Donald Trump Jr. appeared first on ProPublica .",
-    "drafted_at": "2026-06-04T10:53:48.940340",
+    "drafted_at": "2026-06-04T13:52:42.181648",
     "data": {
       "source": "PROPUBLICA"
     },
     "content_hash": "9eea8264bf736676"
   },
   {
-    "id": "30567e6a",
-    "format": "GLOBAL_DESK",
+    "id": "c30a214c",
+    "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 CHINA: BEIJING, June 04, 2026 (GLOBE NEWSWIRE) -- KANZHUN LIMITED (\u201cBOSS Zhipin\u201d or the \u201cCompany\u201d) (Nasdaq: BZ; HK: 2076) today announced the continued execution of its share repurchase program, utilizing over RMB40.6 million to repurchase 845,498 ordinary shares on June 3, 2026.\n\nWith this latest repurchase, the Company has made over RMB1.63 billion in share repurchases year-to-date in 2026.\n\nThis effort underscores the Company's ongoing commitment to delivering value to shareholders.\n\nhttps://www.globenewswire.com/news-release/2026/06/04/3306612/0/en/BOSS-Zhipin-s-Ongoing-Share-Repurchases-Reach-Over-RMB1-63-Billion-in-2026.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "GLOBENEWSWIRE",
-    "source_url": "https://www.globenewswire.com/news-release/2026/06/04/3306612/0/en/BOSS-Zhipin-s-Ongoing-Share-Repurchases-Reach-Over-RMB1-63-Billion-in-2026.html",
-    "source_title": "BOSS Zhipin's Ongoing Share Repurchases Reach Over RMB1.63 Billion in 2026",
-    "source_summary": "BEIJING, June 04, 2026 (GLOBE NEWSWIRE) -- KANZHUN LIMITED (\u201cBOSS Zhipin\u201d or the \u201cCompany\u201d) (Nasdaq: BZ; HK: 2076) today announced the continued execution of its share repurchase program, utilizing over RMB40.6 million to repurchase 845,498 ordinary shares on June 3, 2026. With this latest repurchase, the Company has made over RMB1.63 billion in share repurchases year-to-date in 2026. This effort ",
-    "drafted_at": "2026-06-04T10:53:48.944509",
-    "data": {
-      "source": "GLOBENEWSWIRE"
-    },
-    "content_hash": "e406cb6158d93207"
-  },
-  {
-    "id": "a7b3236c",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "GLOBAL DESK: India\u2019s Nayara Energy, which processes Russian oil, has completed a planned turnaround of its 400,000-barrels-per-day refinery at Vadinar, the Indian refiner said on Thursday.\n\nNayara Energy, in which Rosneft holds 49% and which has been processing only Russian oil for months after the EU sanctions on the company, could boost fuel supply to the Indian market in the coming weeks.\n\nThe refiner has pivoted to supply the domestic market to avoid the EU sanctions from the summer of 2025 on Nayara Energy because of the Russian ownership.\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Indias-Nayara-Completes-Maintenance-at-400000-Bpd-Refinery.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "OILPRICE",
-    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Nayara-Completes-Maintenance-at-400000-Bpd-Refinery.html",
-    "source_title": "India\u2019s Nayara Completes Maintenance at 400,000-Bpd Refinery",
-    "source_summary": "India\u2019s Nayara Energy, which processes Russian oil, has completed a planned turnaround of its 400,000-barrels-per-day refinery at Vadinar, the Indian refiner said on Thursday. Nayara Energy, in which Rosneft holds 49% and which has been processing only Russian oil for months after the EU sanctions on the company, could boost fuel supply to the Indian market in the coming weeks. The refiner has piv",
-    "drafted_at": "2026-06-04T10:53:48.945728",
-    "data": {
-      "source": "OILPRICE"
-    },
-    "content_hash": "66a9cd0bf3a3609d"
-  },
-  {
-    "id": "56f217e5",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "MIDDLE EAST DESK: Iranian footballer Mehdi Taremi talks to Al Jazeera ahead of one of the most politically charged World Cups in history.\n\nhttps://www.aljazeera.com/video/game-theory/2026/6/4/mehdi-taremi-irans-journey-to-the-2026-world-cup?traffic_source=rss",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/video/game-theory/2026/6/4/mehdi-taremi-irans-journey-to-the-2026-world-cup?traffic_source=rss",
-    "source_title": "Mehdi Taremi: Iran\u2019s journey to the 2026 World Cup",
-    "source_summary": "Iranian footballer Mehdi Taremi talks to Al Jazeera ahead of one of the most politically charged World Cups in history.",
-    "drafted_at": "2026-06-04T10:53:48.946174",
-    "data": {
-      "source": "AL JAZEERA"
-    },
-    "content_hash": "486fccec72814841"
-  },
-  {
-    "id": "b669177b",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "EU/UK wire: The Eurozone Retail Sales data for April declines at a faster pace of 0.4% in April, compared to the 0.3% contraction expected.\n\nIn March, the Retail Sales data, a key measure of consumer spending, rose by 0.8%, revised sharply higher from 0.1% decline.\n\nhttps://www.fxstreet.com/news/eurozone-retail-sales-contract-more-than-expected-what-weak-retail-sales-mean-for-eur-usd-202606041019",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/eurozone-retail-sales-contract-more-than-expected-what-weak-retail-sales-mean-for-eur-usd-202606041019",
-    "source_title": "Eurozone Retail Sales contract more-than-expected: What weak Retail Sales mean for EUR/USD",
-    "source_summary": "The Eurozone Retail Sales data for April declines at a faster pace of 0.4% in April, compared to the 0.3% contraction expected. In March, the Retail Sales data, a key measure of consumer spending, rose by 0.8%, revised sharply higher from 0.1% decline.",
-    "drafted_at": "2026-06-04T10:53:48.947354",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "d27759a4b9589ffe"
-  },
-  {
-    "id": "5e865e30",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Gulf wire: Peter Navarro, The Hill U.S. inflation has risen to its fastest pace in three years, and gas prices have been hit particularly hard.\n\nhttps://www.realclearmarkets.com/2026/06/04/it_wasnt_president_trump_it_was_iran_that_lit_inflation_fuse_1186626.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "REALCLEAR",
-    "source_url": "https://www.realclearmarkets.com/2026/06/04/it_wasnt_president_trump_it_was_iran_that_lit_inflation_fuse_1186626.html",
-    "source_title": "It Wasn't President Trump, It Was Iran That Lit Inflation Fuse",
-    "source_summary": "Peter Navarro, The Hill U.S. inflation has risen to its fastest pace in three years, and gas prices have been hit particularly hard. This is not Trump inflation. It is Iran terror inflation.",
-    "drafted_at": "2026-06-04T10:53:48.947923",
-    "data": {
-      "source": "REALCLEAR"
-    },
-    "content_hash": "6871216c0f65701b"
-  },
-  {
-    "id": "32e75fd4",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "RETAIL-SALES READ: The Eurozone Retail Sales data for April declines at a faster pace of 0.4% in April, compared to the 0.3% contraction expected.\n\nIn March, the Retail Sales data, a key measure of consumer spending, rose by 0.8%, revised sharply higher from 0.1% decline.\n\nhttps://www.fxstreet.com/news/eurozone-retail-sales-contract-more-than-expected-what-weak-retail-sales-mean-for-eur-usd-202606041019",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/eurozone-retail-sales-contract-more-than-expected-what-weak-retail-sales-mean-for-eur-usd-202606041019",
-    "source_title": "Eurozone Retail Sales contract more-than-expected: What weak Retail Sales mean for EUR/USD",
-    "source_summary": "The Eurozone Retail Sales data for April declines at a faster pace of 0.4% in April, compared to the 0.3% contraction expected. In March, the Retail Sales data, a key measure of consumer spending, rose by 0.8%, revised sharply higher from 0.1% decline.",
-    "drafted_at": "2026-06-04T10:53:48.998738",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "d27759a4b9589ffe"
-  },
-  {
-    "id": "f40c6a18",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "From the consumption desk: Retail sales -0.4% vs -0.3% m/m expected Prior -0.1%; revised to +0.8% The drag in April needs to be put into a bit of context as it follows from a sharp revision higher to the March number.\n\nAnd that came after a positive revision to non-food retail sales in ending Q1 (from +0.6% to +1.7%).\n\nIn April, non-food retail sales reflected a drop of 0.9% and was key in dragging down the overall figure.\n\nBesides that, automotive fuel sales also dropped back in April (-2.7%) after also seeing a positive revision to the March figure (from -1.6% to +0.9%).\n\nThe jump in March is likely tied to consumers fronting their fuel and petrol purchases amid fears of higher oil and gas prices due to the Middle East conflict.\n\nThe trend here was very much observed across similar data in the country level, with the Germany here.\n\nAnd much like that report, the overall euro area data here also sees a pick up in food store sales in April (+0.9%).\n\nHouseholds stocking up before seeing further price rises and shortages are definitely key considerations in propping up the figure.\n\nhttps://investinglive.com/news/eurozone-april-retail-sales-04-vs-03-mm-expected-20260604/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/eurozone-april-retail-sales-04-vs-03-mm-expected-20260604/",
-    "source_title": "Euro area retail sales fall in April, challenging outlook ahead",
-    "source_summary": "Retail sales -0.4% vs -0.3% m/m expected Prior -0.1%; revised to +0.8% The drag in April needs to be put into a bit of context as it follows from a sharp revision higher to the March number. And that came after a positive revision to non-food retail sales in ending Q1 (from +0.6% to +1.7%). In April, non-food retail sales reflected a drop of 0.9% and was key in dragging down the overall figure. Be",
-    "drafted_at": "2026-06-04T10:53:48.999934",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "8e0545d0829b6780"
-  },
-  {
-    "id": "713a2153",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "Growth read just printed. It forecasts such a scenario would reduce global GDP growth to 2.1% this year, from 3.4% in 2025, \u201cpushing some economies into or close to recession\u201d \u2013 with emerging economies hit hardest.\n\nIt would create headaches for policymakers, who could face recession if they raised interest rates too rapidly to see off rising inflation risk as energy and food prices surge.\n\nIf the Middle East conflict drags on into next year it would hit global growth hard, driving some economies into recession and causing energy shortages, according to forecasts from the Organisation for Economic Co-operation and Development.\n\nhttps://www.theguardian.com/business/2026/jun/03/oecd-predicts-spate-of-recessions-globally-if-iran-conflict-drags-into-2027",
+    "draft_text": "The best public interest journalism relies on first-hand accounts from people in the know.\n\nThe Guardian app has a tool to send tips about stories.\n\nMessages are end to end encrypted and concealed within the routine activity that every Guardian mobile app performs.\n\nThis prevents an observer from knowing that you are communicating with us at all, let alone what is being said.\n\nIf you don\u2019t already have the Guardian app, download it ( iOS / Android ) and go to the menu.\n\nSelect \u2018Secure Messaging\u2019.\n\nOur guide at theguardian.com/tips lists several ways to contact us securely, and discusses the pros and cons of each.\n\nhttps://www.theguardian.com/us-news/2026/jun/03/george-santos-investigation-prediction-market-kalshi-report",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "GUARDIAN",
-    "source_url": "https://www.theguardian.com/business/2026/jun/03/oecd-predicts-spate-of-recessions-globally-if-iran-conflict-drags-into-2027",
-    "source_title": "OECD predicts spate of recessions globally if Iran conflict drags into 2027",
-    "source_summary": "Policy forum lays out \u2018prolonged disruption\u2019 scenario in which world\u2019s GDP falls to 2.1% this year from 3.4% in 2025 Rural UK \u2018particularly at risk\u2019 of diesel shortages If the Middle East conflict drags on into next year it would hit global growth hard, driving some economies into recession and causing energy shortages, according to forecasts from the Organisation for Economic Co-operation and Dev",
-    "drafted_at": "2026-06-04T10:53:49.001284",
+    "source_url": "https://www.theguardian.com/us-news/2026/jun/03/george-santos-investigation-prediction-market-kalshi-report",
+    "source_title": "George Santos reportedly investigated by DoJ over suspicious Kalshi bets",
+    "source_summary": "Disgraced former congressman said to have put bet on whether he would be at Trump\u2019s State of the Union speech Federal authorities are investigating whether George Santos , the disgraced former Republican congressman from New York, engaged in insider trading by betting on a prediction market on his own attendance to the State of the Union address, multiple news outlets reported on Tuesday. Santos a",
+    "drafted_at": "2026-06-04T13:52:42.183093",
     "data": {
       "source": "GUARDIAN"
     },
-    "content_hash": "668f5e0062b5a450"
+    "content_hash": "e426dc6546efac7f"
   },
   {
-    "id": "c33e0617",
+    "id": "541870f4",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "The post Toxic Ground: How Oil Field Pollution Is Threatening Oklahoma appeared first on ProPublica.\n\nhttps://www.propublica.org/article/toxic-ground-how-oil-field-pollution-is-threatening-oklahoma",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "PROPUBLICA",
+    "source_url": "https://www.propublica.org/article/toxic-ground-how-oil-field-pollution-is-threatening-oklahoma",
+    "source_title": "Toxic Ground: How Oil Field Pollution Is Threatening Oklahoma",
+    "source_summary": "The post Toxic Ground: How Oil Field Pollution Is Threatening Oklahoma appeared first on ProPublica .",
+    "drafted_at": "2026-06-04T13:52:42.183288",
+    "data": {
+      "source": "PROPUBLICA"
+    },
+    "content_hash": "466e10b9b182d8bf"
+  },
+  {
+    "id": "53b457bb",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "World wire: VANCOUVER, British Columbia, June 04, 2026 (GLOBE NEWSWIRE) \u2014 Purecore Metals Inc. (CSE: PURE) (FSE: J8Y) (\u201cPurecore\u201d or the \u201cCompany\u201d) is pleased to announce that its common shares are now listed for trading on the Frankfurt Stock Exchange under the symbol \u201cJ8Y\u201d.\n\nThe ISIN number for the common shares is CA7459371026 and the classification number [\u2026]\n\nhttps://financialpost.com/globe-newswire/purecore-announces-listing-on-the-frankfurt-stock-exchange",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FINANCIAL POST",
+    "source_url": "https://financialpost.com/globe-newswire/purecore-announces-listing-on-the-frankfurt-stock-exchange",
+    "source_title": "Purecore Announces Listing on the Frankfurt Stock Exchange",
+    "source_summary": "VANCOUVER, British Columbia, June 04, 2026 (GLOBE NEWSWIRE) \u2014 Purecore Metals Inc. (CSE: PURE) (FSE: J8Y) (\u201cPurecore\u201d or the \u201cCompany\u201d) is pleased to announce that its common shares are now listed for trading on the Frankfurt Stock Exchange under the symbol \u201cJ8Y\u201d. The ISIN number for the common shares is CA7459371026 and the classification number [\u2026]",
+    "drafted_at": "2026-06-04T13:52:42.185316",
+    "data": {
+      "source": "FINANCIAL POST"
+    },
+    "content_hash": "43169090a4f9afc4"
+  },
+  {
+    "id": "e391d445",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: With the price of oil settling in the $90s despite the ongoing situation in the Strait of Hormuz, questions linger as to whether there\u2019s another spike in the cards or if we\u2019ll be gradually headed back to more normalized levels (think around $60 per barrel).\n\nIndeed, perhaps the days of pre-Iran conflict oil prices are...\n\nIs $150 Oil Really Possible in Two or Three Weeks?\n\nhttps://247wallst.com/investing/2026/06/04/is-150-oil-possible-in-two-or-three-weeks/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "247 WALL ST",
+    "source_url": "https://247wallst.com/investing/2026/06/04/is-150-oil-possible-in-two-or-three-weeks/",
+    "source_title": "Is $150 Oil Really Possible in Two or Three Weeks?",
+    "source_summary": "With the price of oil settling in the $90s despite the ongoing situation in the Strait of Hormuz, questions linger as to whether there\u2019s another spike in the cards or if we\u2019ll be gradually headed back to more normalized levels (think around $60 per barrel). Indeed, perhaps the days of pre-Iran conflict oil prices are ... Is $150 Oil Really Possible in Two or Three Weeks?",
+    "drafted_at": "2026-06-04T13:52:42.186014",
+    "data": {
+      "source": "247 WALL ST"
+    },
+    "content_hash": "7d49e4b5be153a78"
+  },
+  {
+    "id": "1543d182",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: The incident may destabilize Iran's leadership, heightening regional tensions and impacting global political and economic stability.\n\nThe post Iranian foreign minister claims presence during strike that killed Khamenei appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iranian-foreign-minister-claims-presence-during-strike-that-killed-khamenei/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/iranian-foreign-minister-claims-presence-during-strike-that-killed-khamenei/",
+    "source_title": "Iranian foreign minister claims presence during strike that killed Khamenei",
+    "source_summary": "The incident may destabilize Iran's leadership, heightening regional tensions and impacting global political and economic stability. The post Iranian foreign minister claims presence during strike that killed Khamenei appeared first on Crypto Briefing .",
+    "drafted_at": "2026-06-04T13:52:42.186378",
+    "data": {
+      "source": "CRYPTO BRIEFING"
+    },
+    "content_hash": "1c5ab633ec78a851"
+  },
+  {
+    "id": "909843f2",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Mainland wire: You can argue about almost every line in a NVIDIA (NASDAQ:NVDA) earnings release.\n\nThe size, the margins, the customer concentration, the China hole.\n\nWhat you cannot argue about is what happens when a company that did zero CPU revenue last year tells you it expects to do $20 billion in CPU revenue this fiscal year.... $20 Billion: Inside Nvidia\u2019s VERA CPU Bet to Break the Intel-AMD Duopoly\n\nhttps://247wallst.com/investing/2026/06/04/20-billion-inside-nvidias-vera-cpu-bet-to-break-the-intel-amd-duopoly/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "247 WALL ST",
+    "source_url": "https://247wallst.com/investing/2026/06/04/20-billion-inside-nvidias-vera-cpu-bet-to-break-the-intel-amd-duopoly/",
+    "source_title": "$20 Billion: Inside Nvidia\u2019s VERA CPU Bet to Break the Intel-AMD Duopoly",
+    "source_summary": "You can argue about almost every line in a NVIDIA (NASDAQ:NVDA) earnings release. The size, the margins, the customer concentration, the China hole. What you cannot argue about is what happens when a company that did zero CPU revenue last year tells you it expects to do $20 billion in CPU revenue this fiscal year. ... $20 Billion: Inside Nvidia\u2019s VERA CPU Bet to Break the Intel-AMD Duopoly",
+    "drafted_at": "2026-06-04T13:52:42.187046",
+    "data": {
+      "source": "247 WALL ST"
+    },
+    "content_hash": "c13ddf0ceb13c49b"
+  },
+  {
+    "id": "7fd6ebac",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Mainland wire: The Ring is Euronews\u2019 weekly political showdown, where Europe\u2019s toughest debates meet their boldest voices.\n\nIn each episode, two political heavyweights from across the EU face off to propose a diversity of opinions and spark conversations around the most important issues of EU affairs and the wider European political life.\n\nEuronews Tech Talks goes beyond discussions to explore the impact of new technologies on our lives.\n\nWith explanations, engaging Q&As, and lively conversations, the podcast provides valuable insights into the intersection of technology and society.\n\nEurope's best food experts are joining forces to crack down on fraud.\n\nhttp://www.euronews.com/business/2026/06/04/hong-kong-wants-to-be-a-bridge-between-central-asia-and-chinese-businesses",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "EURONEWS",
+    "source_url": "http://www.euronews.com/business/2026/06/04/hong-kong-wants-to-be-a-bridge-between-central-asia-and-chinese-businesses",
+    "source_title": "Hong Kong wants to be a bridge between Central Asia and Chinese businesses",
+    "source_summary": "High-level Hong Kong delegation visited Kazakhstan and offered new partnership in several economy sectors including professional services for companies attempting to enter respective markets.",
+    "drafted_at": "2026-06-04T13:52:42.188689",
+    "data": {
+      "source": "EURONEWS"
+    },
+    "content_hash": "689f8777b5ce31b1"
+  },
+  {
+    "id": "3077bcd6",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "From the unemployment desk: The number of people who applied for unemployment benefits at the end of May jumped to a four-month high, but not because businesses are laying off more workers.\n\nThe timing of the Memorial Day holiday was a major factor.\n\nhttps://www.marketwatch.com/story/jobless-claims-jump-to-4-month-high-but-dont-be-fooled-layoffs-arent-on-the-rise-90d84040?mod=mw_rss_topstories",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "MARKETWATCH",
+    "source_url": "https://www.marketwatch.com/story/jobless-claims-jump-to-4-month-high-but-dont-be-fooled-layoffs-arent-on-the-rise-90d84040?mod=mw_rss_topstories",
+    "source_title": "Jobless claims jump to a 4-month high, but don\u2019t be fooled: Layoffs aren\u2019t on the rise",
+    "source_summary": "The number of people who applied for unemployment benefits at the end of May jumped to a four-month high, but not because businesses are laying off more workers. The timing of the Memorial Day holiday was a major factor.",
+    "drafted_at": "2026-06-04T13:52:42.241212",
+    "data": {
+      "source": "MARKETWATCH"
+    },
+    "content_hash": "4a73e91f8562cf82"
+  },
+  {
+    "id": "6229741d",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "From the unemployment desk: According to a report from the US Department of Labour (DOL) released on Thursday, the number of US citizens submitting new applications for unemployment insurance increased to 225K for the week ending May 30.\n\nhttps://www.fxstreet.com/news/united-states-initial-jobless-claims-rose-to-225k-last-week-202606041236",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/united-states-initial-jobless-claims-rose-to-225k-last-week-202606041236",
+    "source_title": "United States Initial Jobless Claims rose to 225K last week",
+    "source_summary": "According to a report from the US Department of Labour (DOL) released on Thursday, the number of US citizens submitting new applications for unemployment insurance increased to 225K for the week ending May 30.",
+    "drafted_at": "2026-06-04T13:52:42.241523",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "bbdcd74f1514b5a4"
+  },
+  {
+    "id": "8991ef99",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "Labor-market thermometer: Prior week for initial jobless claims 209K revised to 212K.\n\nPrior week for continuing claims 1.786 million revised to 1.785M initial jobless claims come in higher at 225K vs 213K estimate and a revised 212K last week.\n\nLargest since the first week of February 4-week moving average comes in at 214.75K up from 208.25K last week Continuing claims 1.777M versus 1.780 million estimate.\n\nThe 4-week moving average was 1,777,250, an increase of 4,750 from the previous week's revised average.\n\nThe previous week's average was revised down by 250 from 1,772,750 to 1,772,500.\n\nThe initial jobless claims move higher in the current week suggestive of a weakening jobs picture.\n\nIt is the highest level since the first week of February, but still relatively low and steady.\n\nThe continuing claims moved marginally lower.\n\nhttps://investinglive.com/news/us-initial-jobless-claims-225k-vs-213k-estimate-continuing-claims-1777m-vs-1780m-est-20260604/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/us-initial-jobless-claims-225k-vs-213k-estimate-continuing-claims-1777m-vs-1780m-est-20260604/",
+    "source_title": "US Initial jobless claims 225K vs 213K estimate. Continuing Claims 1.777M vs 1.780M est.",
+    "source_summary": "Prior week for initial jobless claims 209K revised to 212K. Prior week for continuing claims 1.786 million revised to 1.785M initial jobless claims come in higher at 225K vs 213K estimate and a revised 212K last week. Largest since the first week of February 4-week moving average comes in at 214.75K up from 208.25K last week Continuing claims 1.777M versus 1.780 million estimate. The 4-week moving",
+    "drafted_at": "2026-06-04T13:52:42.242931",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "b433dfa9cf891d07"
+  },
+  {
+    "id": "7978cce4",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "How sticky is inflation? Let's see: Headlines: Trump: The US is in the middle of final negotiations to end the Iran war Israeli military warns that the fighting in southern Lebanon continues AI drives tech sector to cut jobs by the most since 2023 BOJ reportedly expected to raise interest rates later this month - report RBA governor Bullock: We expect inflation to increase further in the near-term Euro area retail sales fall in April, challenging outlook ahead German construction activity experiences another steep rate of decline in May UK construction output falls at fastest pace for six years in May Swiss inflation holds steadier in May, core estimate remains subdued Markets: WTI crude down nearly 4% to $96.50 US dollar lower across the board European indices mostly higher but US futures down as tech shares drop S&P 500 futures down 0.4%, Nasdaq futures down 1.2% US 10-year yields down 3 bps to 4.46% Gold up 1.6% to $4,501 Bitcoin down 3.5% to $62,642 Another day, another case of the boy who cried wolf.\n\nUS president Trump once again reaffirmed that a \"deal to end the war\" is close and once again markets are falling for it hook, line, and sinker.\n\nOil prices are under pressure with WTI crude down nearly 4% to $92.50 on the day.\n\nMeanwhile, the US dollar is dropping across the board on renewed optimism in broader markets.\n\nEUR/USD is up 0.4% to 1.1640 with USD/CHF down 0.5% to 0.7875 on the day.\n\nThe movement in the equities space is arguably the most intriguing though.\n\nEuropean indices are holding higher for the most part and so are Dow futures, with the latter up 0.8%.\n\nHowever, there's some ugly selling going on in tech shares and that's something to take notice ahead of the Wall Street open later.\n\nhttps://investinglive.com/news/investinglive-european-session-wrap-trump-lifts-the-mood-but-tech-shares-under-pressure-20260604/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/investinglive-european-session-wrap-trump-lifts-the-mood-but-tech-shares-under-pressure-20260604/",
+    "source_title": "investingLive European session wrap: Trump lifts the mood but tech shares under pressure",
+    "source_summary": "Headlines: Trump: The US is in the middle of final negotiations to end the Iran war Israeli military warns that the fighting in southern Lebanon continues AI drives tech sector to cut jobs by the most since 2023 BOJ reportedly expected to raise interest rates later this month - report RBA governor Bullock: We expect inflation to increase further in the near-term Euro area retail sales fall in Apri",
+    "drafted_at": "2026-06-04T13:52:42.245027",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "11d142684ccf1b5d"
+  },
+  {
+    "id": "3ad74d53",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "GROWTH POSTCARD: Much like it did in Europe, the Trump administration has called on US allies in the Indo-Pacific to increase military spending to 3.5% of GDP.\n\nBut a defense buildup on this scale would jeopardize economic growth and regional unity, and could lead Southeast Asian countries to gravitate toward China\u2019s strategic orbit.\n\nhttps://www.project-syndicate.org/commentary/hegseth-is-wrong-to-push-asia-to-increase-defense-spending-by-thitinan-pongsudhirak-2026-06",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "PROJECT SYND",
+    "source_url": "https://www.project-syndicate.org/commentary/hegseth-is-wrong-to-push-asia-to-increase-defense-spending-by-thitinan-pongsudhirak-2026-06",
+    "source_title": "Pete Hegseth\u2019s Dangerous Call to Arms in Asia",
+    "source_summary": "Much like it did in Europe, the Trump administration has called on US allies in the Indo-Pacific to increase military spending to 3.5% of GDP. But a defense buildup on this scale would jeopardize economic growth and regional unity, and could lead Southeast Asian countries to gravitate toward China\u2019s strategic orbit.",
+    "drafted_at": "2026-06-04T13:52:42.245537",
+    "data": {
+      "source": "PROJECT SYND"
+    },
+    "content_hash": "e358caff3334b09b"
+  },
+  {
+    "id": "e81e28bf",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -433,7 +486,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-06-04T10:53:49.002826",
+    "drafted_at": "2026-06-04T13:52:42.248308",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -441,7 +494,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "3726e347",
+    "id": "9e746455",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Inflation is a tax that doesn't show up on your W-2.",
@@ -451,14 +504,14 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Inflation is a tax that doesn't show up on your W-2.",
-    "drafted_at": "2026-06-04T10:53:49.002905",
+    "drafted_at": "2026-06-04T13:52:42.248403",
     "data": {
       "take_seed": "2026-06-04-pack-1"
     },
     "content_hash": "9b0f7be55d8ef71c"
   },
   {
-    "id": "3aa1e426",
+    "id": "4ba6c355",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Real rates eat sentiment for breakfast.",
@@ -468,7 +521,7 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Real rates eat sentiment for breakfast.",
-    "drafted_at": "2026-06-04T10:53:49.002950",
+    "drafted_at": "2026-06-04T13:52:42.248448",
     "data": {
       "take_seed": "2026-06-04-pack-2"
     },
