@@ -1,6 +1,6 @@
 [
   {
-    "id": "bc1c8ebc",
+    "id": "452c31fc",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "If you read one thing today: Tensions in the Gulf had already been escalating as the U.S. and Iran increasingly exchange fire, with both sides trying to establish their own shipping lanes in the Strait of Hormuz.\n\nhttps://fortune.com/2026/06/07/stock-market-today-dow-futures-iran-war-ai-bubble-fed-rates-spacex-ipo/",
@@ -10,31 +10,67 @@
     "source_url": "https://fortune.com/2026/06/07/stock-market-today-dow-futures-iran-war-ai-bubble-fed-rates-spacex-ipo/",
     "source_title": "Markets face triple threat of Iran war reigniting, AI bubble popping, and Fed rates rising while epic SpaceX IPO could fuel even more chaos",
     "source_summary": "Tensions in the Gulf had already been escalating as the U.S. and Iran increasingly exchange fire, with both sides trying to establish their own shipping lanes in the Strait of Hormuz.",
-    "drafted_at": "2026-06-07T23:57:34.882043",
+    "drafted_at": "2026-06-08T02:56:51.260416",
     "data": {
       "source": "FORTUNE"
     },
     "content_hash": "3f05fb56b62deacd"
   },
   {
-    "id": "2f3dfe3a",
-    "format": "POLICY_READ",
+    "id": "42e994d6",
+    "format": "MARKET_MOVE",
     "status": "pending",
-    "draft_text": "Powell on the wire. I have a lot of respect for him, but my feeling is that when a country is doing well, they shouldn\u2019t be penalized by immediately raising interest rates.\u201d\n\nhttps://fortune.com/2026/06/07/trump-fed-rate-increase-kevin-warsh-fomc-meeting-debut/",
+    "draft_text": "On the prowl. Bitcoin tumbles 14.1% in 5 sessions to $63,049.\n\nBitcoin is now treated as a macro asset alongside gold and tech.\n\nIts swings move alt-coins, public miners, and crypto-exposed stocks.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/BTC-USD",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://fortune.com/2026/06/07/trump-fed-rate-increase-kevin-warsh-fomc-meeting-debut/",
-    "source_title": "Trump says Fed rate increase would be wrong ahead of Warsh debut",
-    "source_summary": "\u201cI\u2019m living with Kevin. I have a lot of respect for him, but my feeling is that when a country is doing well, they shouldn\u2019t be penalized by immediately raising interest rates.\u201d",
-    "drafted_at": "2026-06-07T23:57:34.892369",
+    "primary_source": "Yahoo Finance \u00b7 BTC-USD",
+    "source_url": "https://finance.yahoo.com/quote/BTC-USD",
+    "source_title": "Bitcoin",
+    "source_summary": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
+    "drafted_at": "2026-06-08T02:56:51.260744",
     "data": {
-      "actor": "Fed"
+      "signal_id": "BTC-USD:move:2026-06-08",
+      "kind": "move_down",
+      "current": "$63,049"
     },
-    "content_hash": "4091305dc1528dfa"
+    "content_hash": "0e3396ceb3da7211"
   },
   {
-    "id": "5b983607",
+    "id": "34688e05",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "EURO RATES READ: The EUR/USD pair gains momentum to around 1.1535 during the early Asian trading hours on Monday.\n\nNonetheless, persistent geopolitical tension might cap the upside for the Euro (EUR) against the US dollar (USD).\n\nhttps://www.fxstreet.com/news/euro-edges-higher-above-11500-on-ecb-hike-bets-traders-eye-on-middle-east-tensions-202606080122",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "ECB",
+    "source_url": "https://www.fxstreet.com/news/euro-edges-higher-above-11500-on-ecb-hike-bets-traders-eye-on-middle-east-tensions-202606080122",
+    "source_title": "Euro edges higher above 1.1500 on ECB hike bets, traders eye on Middle East tensions",
+    "source_summary": "The EUR/USD pair gains momentum to around 1.1535 during the early Asian trading hours on Monday. Nonetheless, persistent geopolitical tension might cap the upside for the Euro (EUR) against the US dollar (USD).",
+    "drafted_at": "2026-06-08T02:56:51.271664",
+    "data": {
+      "actor": "ECB"
+    },
+    "content_hash": "ef15b3f4a0df2d2f"
+  },
+  {
+    "id": "3c691edd",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "PBOC postcard: On Monday, the People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.8198 compared to Friday's fix of 6.8157.\n\nhttps://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-68198-vs-68157-previous-202606080115",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "PBOC",
+    "source_url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-68198-vs-68157-previous-202606080115",
+    "source_title": "PBOC sets USD/CNY reference rate at 6.8198 vs. 6.8157 previous",
+    "source_summary": "On Monday, the People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.8198 compared to Friday's fix of 6.8157.",
+    "drafted_at": "2026-06-08T02:56:51.271980",
+    "data": {
+      "actor": "PBOC"
+    },
+    "content_hash": "d5460cd5fca15013"
+  },
+  {
+    "id": "23b14f6a",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "If you watch rates, read this: The agencies are taking this action to complement their earlier actions that ended the use of reputation risk in supervision.\n\nAs the agencies have previously noted, reputation risk can be misused by supervisors as a basis to encourage or pressure a bank to restrict individuals' and legal businesses' access to financial services due to their constitutionally protected political or religious beliefs, speech, or conduct or lawful business activities.\n\nThese updates help ensure supervisory decisions are based on material financial risks, as well as increase clarity and facilitate greater precision in supervisory decision making.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260602a.htm",
@@ -44,14 +80,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260602a.htm",
     "source_title": "Agencies remove additional references to reputation risk",
     "source_summary": "Agencies remove additional references to reputation risk",
-    "drafted_at": "2026-06-07T23:57:34.893409",
+    "drafted_at": "2026-06-08T02:56:51.272999",
     "data": {
       "actor": "FED"
     },
     "content_hash": "037f4db78eebad91"
   },
   {
-    "id": "167103a8",
+    "id": "bdf657bb",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Rate-path desk: The Board's process for setting the discount rate is distinct from the process the Federal Open Market Committee follows in setting the target range for the federal funds rate.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
@@ -61,14 +97,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
     "source_title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
     "source_summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
-    "drafted_at": "2026-06-07T23:57:34.893868",
+    "drafted_at": "2026-06-08T02:56:51.273439",
     "data": {
       "actor": "FED"
     },
     "content_hash": "b2d403ab8c4d5036"
   },
   {
-    "id": "e695dbba",
+    "id": "d7d80383",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FED WATCH: Also on Friday, the Federal Open Market Committee unanimously selected Warsh as its chairman.\n\nPresident Donald J.\n\nTrump nominated Mr. Warsh on March 4, 2026.\n\nHe was confirmed by the United States Senate to serve as a member of the Board on May 12, and as chairman of the Board on May 13.\n\nHis term as chairman ends on May 21, 2030, and his term as a member of the Board ends on January 31, 2040.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm",
@@ -78,31 +114,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm",
     "source_title": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
     "source_summary": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
-    "drafted_at": "2026-06-07T23:57:34.894497",
+    "drafted_at": "2026-06-08T02:56:51.274068",
     "data": {
       "actor": "FED"
     },
     "content_hash": "a5762f43aa0ef3b0"
   },
   {
-    "id": "31c0260d",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "Policy update for the pack: Resolution plans, also known as living wills, must describe a banking organization's strategy for orderly resolution in the event of material financial distress or failure.\n\nThe agencies conducted a joint review of the 2025 resolution plan submissions from the eight largest and most complex domestic banking organizations as well as from 56 foreign banking organizations.\n\nThe agencies did not identify any shortcomings or deficiencies in these resolution plan submissions.\n\nThe agencies also determined that each derivatives-related weakness identified in the 2023 plans from Bank of America, Goldman Sachs, JPMorgan Chase, and Citigroup has been satisfactorily addressed.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260522a.htm",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FED",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260522a.htm",
-    "source_title": "Agencies publish resolution plan feedback letters for certain domestic and foreign banking organizations",
-    "source_summary": "Agencies publish resolution plan feedback letters for certain domestic and foreign banking organizations",
-    "drafted_at": "2026-06-07T23:57:34.895483",
-    "data": {
-      "actor": "FED"
-    },
-    "content_hash": "b0e49d2209d92f96"
-  },
-  {
-    "id": "2e542668",
+    "id": "0ef37b8f",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$IFF insider bought $32,284,388 on 2026-06-01, 2 insiders. \ud83d\udc40\n\nInternational Flavors & Fragrances Inc. 444,219 shares at $72.68.\n\n+0.5% since the purchase.\n\nhttp://openinsider.com/screener?s=IFF",
@@ -112,7 +131,7 @@
     "source_url": "http://openinsider.com/screener?s=IFF",
     "source_title": "International Flavors & Fragrances Inc (IFF) insider bought $32,284,388",
     "source_summary": "2 insider(s) bought 444,219 shares at $72.68 on 2026-06-01.",
-    "drafted_at": "2026-06-07T23:57:34.895842",
+    "drafted_at": "2026-06-08T02:56:51.275363",
     "data": {
       "ticker": "IFF",
       "type": "P",
@@ -122,7 +141,7 @@
     "content_hash": "b59bb9be9054dcc6"
   },
   {
-    "id": "b728f3a8",
+    "id": "14c2a4e4",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$NCLH insider bought $29,163,646 on 2026-06-01, 7 insiders. \ud83d\udc40\n\nNorwegian Cruise Line Holdings Ltd.. 1,633,867 shares at $17.85.\n\n+5.0% since the purchase.\n\nhttp://openinsider.com/screener?s=NCLH",
@@ -132,7 +151,7 @@
     "source_url": "http://openinsider.com/screener?s=NCLH",
     "source_title": "Norwegian Cruise Line Holdings Ltd. (NCLH) insider bought $29,163,646",
     "source_summary": "7 insider(s) bought 1,633,867 shares at $17.85 on 2026-06-01.",
-    "drafted_at": "2026-06-07T23:57:34.895981",
+    "drafted_at": "2026-06-08T02:56:51.275494",
     "data": {
       "ticker": "NCLH",
       "type": "P",
@@ -142,7 +161,7 @@
     "content_hash": "467ccdd401ed9ddb"
   },
   {
-    "id": "0647dda4",
+    "id": "1855814d",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$NSP insider bought $15,700,176 on 2026-06-03, 2 insiders. \ud83d\udc40\n\nInsperity, Inc.. 544,987 shares at $28.81.\n\n+22.8% since the purchase.\n\nhttp://openinsider.com/screener?s=NSP",
@@ -152,7 +171,7 @@
     "source_url": "http://openinsider.com/screener?s=NSP",
     "source_title": "Insperity, Inc. (NSP) insider bought $15,700,176",
     "source_summary": "2 insider(s) bought 544,987 shares at $28.81 on 2026-06-03.",
-    "drafted_at": "2026-06-07T23:57:34.896102",
+    "drafted_at": "2026-06-08T02:56:51.275606",
     "data": {
       "ticker": "NSP",
       "type": "P",
@@ -162,7 +181,7 @@
     "content_hash": "8ea10f219aa768ee"
   },
   {
-    "id": "15e09e77",
+    "id": "bcbbab30",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$LODE insider bought $3,219,681 on 2026-06-03, 4 insiders. \ud83d\udc40\n\nComstock Inc.. 882,651 shares at $3.65.\n\n+7.7% since the purchase.\n\nhttp://openinsider.com/screener?s=LODE",
@@ -172,7 +191,7 @@
     "source_url": "http://openinsider.com/screener?s=LODE",
     "source_title": "Comstock Inc. (LODE) insider bought $3,219,681",
     "source_summary": "4 insider(s) bought 882,651 shares at $3.65 on 2026-06-03.",
-    "drafted_at": "2026-06-07T23:57:34.896217",
+    "drafted_at": "2026-06-08T02:56:51.275719",
     "data": {
       "ticker": "LODE",
       "type": "P",
@@ -182,7 +201,7 @@
     "content_hash": "7d63626d43ee665a"
   },
   {
-    "id": "e3f1ff71",
+    "id": "4f5c4f71",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$CDW insider bought $2,505,138 on 2026-05-27, 2 insiders. \ud83d\udc40\n\nCdw Corp. 22,830 shares at $109.73.\n\n+21.2% since the purchase.\n\nhttp://openinsider.com/screener?s=CDW",
@@ -192,7 +211,7 @@
     "source_url": "http://openinsider.com/screener?s=CDW",
     "source_title": "Cdw Corp (CDW) insider bought $2,505,138",
     "source_summary": "2 insider(s) bought 22,830 shares at $109.73 on 2026-05-27.",
-    "drafted_at": "2026-06-07T23:57:34.896333",
+    "drafted_at": "2026-06-08T02:56:51.275826",
     "data": {
       "ticker": "CDW",
       "type": "P",
@@ -202,41 +221,24 @@
     "content_hash": "cd49ef9818a6a589"
   },
   {
-    "id": "6971fedd",
+    "id": "8871cb49",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "David Rush allegedly brought at least two CIA colleagues on the fraudulent operation.\n\nhttps://www.mining.com/ex-cia-agent-created-fake-spy-program-to-amass-40m-gold-stash-reports/",
+    "draft_text": "New scam vector: The head of the Hungarian Integrity Authority claims top officials oversaw a scheme to systematically defraud the public purse.\n\nhttps://www.politico.eu/article/hungary-watchdog-urges-probe-viktor-orban-officials-over-missing-eu-funds/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "MINING",
-    "source_url": "https://www.mining.com/ex-cia-agent-created-fake-spy-program-to-amass-40m-gold-stash-reports/",
-    "source_title": "Ex-CIA agent created fake spy program to amass $40M gold stash: reports",
-    "source_summary": "David Rush allegedly brought at least two CIA colleagues on the fraudulent operation.",
-    "drafted_at": "2026-06-07T23:57:34.897435",
+    "primary_source": "POLITICO EU",
+    "source_url": "https://www.politico.eu/article/hungary-watchdog-urges-probe-viktor-orban-officials-over-missing-eu-funds/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+    "source_title": "Prosecute Orb\u00e1n\u2019s inner circle over \u2018stolen\u2019 billions, Hungary\u2019s anti-corruption watchdog says",
+    "source_summary": "The head of the Hungarian Integrity Authority claims top officials oversaw a scheme to systematically defraud the public purse.",
+    "drafted_at": "2026-06-08T02:56:51.276900",
     "data": {
-      "source": "MINING"
+      "source": "POLITICO EU"
     },
-    "content_hash": "97a6f81e3b39c90b"
+    "content_hash": "28d478d586b90028"
   },
   {
-    "id": "eaec1672",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "NEW YORK, June 7, 2026 /PRNewswire/ -- Bronstein, Gewirtz & Grossman, LLC, a nationally recognized investor-rights law firm, announces that a class action lawsuit has been filed against Badger Meter, Inc. (NYSE: BMI) and certain of its officers.\n\nThis lawsuit seeks to recover damages...\n\nhttps://www.prnewswire.com/news-releases/bronstein-gewirtz--grossman-llc-urges-badger-meter-inc-investors-to-act-class-action-filed-alleging-investor-harm-302792164.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "PR NEWSWIRE",
-    "source_url": "https://www.prnewswire.com/news-releases/bronstein-gewirtz--grossman-llc-urges-badger-meter-inc-investors-to-act-class-action-filed-alleging-investor-harm-302792164.html",
-    "source_title": "Bronstein, Gewirtz & Grossman LLC Urges Badger Meter, Inc. Investors to Act: Class Action Filed Alleging Investor Harm",
-    "source_summary": "NEW YORK, June 7, 2026 /PRNewswire/ -- Bronstein, Gewirtz & Grossman, LLC, a nationally recognized investor-rights law firm, announces that a class action lawsuit has been filed against Badger Meter, Inc. (NYSE: BMI) and certain of its officers. This lawsuit seeks to recover damages...",
-    "drafted_at": "2026-06-07T23:57:34.897906",
-    "data": {
-      "source": "PR NEWSWIRE"
-    },
-    "content_hash": "d6812e9f41ed69d6"
-  },
-  {
-    "id": "559d52d5",
+    "id": "55b27585",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "NEW YORK, June 7, 2026 /PRNewswire/ -- Bronstein, Gewirtz & Grossman, LLC, a nationally recognized investor-rights law firm, announces that a class action lawsuit has been filed against GeneDx Holdings Corp. (NASDAQ: WGS) and certain of its officers.\n\nThis lawsuit seeks to recover damages...\n\nhttps://www.prnewswire.com/news-releases/bronstein-gewirtz--grossman-llc-urges-genedx-holdings-corp-investors-to-act-class-action-filed-alleging-investor-harm-302792165.html",
@@ -246,14 +248,31 @@
     "source_url": "https://www.prnewswire.com/news-releases/bronstein-gewirtz--grossman-llc-urges-genedx-holdings-corp-investors-to-act-class-action-filed-alleging-investor-harm-302792165.html",
     "source_title": "Bronstein, Gewirtz & Grossman LLC Urges GeneDx Holdings Corp. Investors to Act: Class Action Filed Alleging Investor Harm",
     "source_summary": "NEW YORK, June 7, 2026 /PRNewswire/ -- Bronstein, Gewirtz & Grossman, LLC, a nationally recognized investor-rights law firm, announces that a class action lawsuit has been filed against GeneDx Holdings Corp. (NASDAQ: WGS) and certain of its officers. This lawsuit seeks to recover damages...",
-    "drafted_at": "2026-06-07T23:57:34.898345",
+    "drafted_at": "2026-06-08T02:56:51.277365",
     "data": {
       "source": "PR NEWSWIRE"
     },
     "content_hash": "e21561a15f01b127"
   },
   {
-    "id": "7a471dd1",
+    "id": "048a7c11",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "NEW YORK, June 7, 2026 /PRNewswire/ -- Bronstein, Gewirtz & Grossman, LLC, a nationally recognized investor-rights law firm, announces that a class action lawsuit has been filed against Badger Meter, Inc. (NYSE: BMI) and certain of its officers.\n\nThis lawsuit seeks to recover damages...\n\nhttps://www.prnewswire.com/news-releases/bronstein-gewirtz--grossman-llc-urges-badger-meter-inc-investors-to-act-class-action-filed-alleging-investor-harm-302792164.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "PR NEWSWIRE",
+    "source_url": "https://www.prnewswire.com/news-releases/bronstein-gewirtz--grossman-llc-urges-badger-meter-inc-investors-to-act-class-action-filed-alleging-investor-harm-302792164.html",
+    "source_title": "Bronstein, Gewirtz & Grossman LLC Urges Badger Meter, Inc. Investors to Act: Class Action Filed Alleging Investor Harm",
+    "source_summary": "NEW YORK, June 7, 2026 /PRNewswire/ -- Bronstein, Gewirtz & Grossman, LLC, a nationally recognized investor-rights law firm, announces that a class action lawsuit has been filed against Badger Meter, Inc. (NYSE: BMI) and certain of its officers. This lawsuit seeks to recover damages...",
+    "drafted_at": "2026-06-08T02:56:51.277807",
+    "data": {
+      "source": "PR NEWSWIRE"
+    },
+    "content_hash": "d6812e9f41ed69d6"
+  },
+  {
+    "id": "7285d392",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Pack \u2014 got one. Every government form I sign contains some variation of the same warning: \u201cI certify that the information provided is true and correct.\u201d \u201cFalse statements may result in civil penalties.\u201d \u201cFederal charges may apply.\u201d I have been signing forms like that since Ronald Reagan was president.\n\nAmericans do not need another report telling them what everyone already knows.\n\nFor 40 years, I have managed a medical catastrophe.\n\nMy wife has endured nearly 100 surgeries, multiple amputations, years of hospitalization, and enough insurance claims and medical bills to wallpaper a house.\n\nOver those four decades, I learned something millions of family caregivers understand all too well: You don\u2019t respect what you don\u2019t inspect.\n\nLong before smartphones, electronic records, and artificial intelligence, I sat at kitchen tables with a pencil, a calculator, and a telephone, combing through Explanation of Benefits forms, hospital bills, physician statements, pharmacy charges, and insurance claims.\n\nI have argued with surgeons, hospital administrators, insurance executives, case managers, billing departments, and just about everyone in between.\n\nI have won all but two of those arguments because if I did not, my wife paid the price.\n\nhttps://www.theblaze.com/columns/opinion/washingtons-fraud-machine-needs-handcuffs-not-more-hearings",
@@ -263,14 +282,14 @@
     "source_url": "https://www.theblaze.com/columns/opinion/washingtons-fraud-machine-needs-handcuffs-not-more-hearings",
     "source_title": "Washington\u2019s fraud machine needs handcuffs, not more hearings",
     "source_summary": "Every government form I sign contains some variation of the same warning: \u201cI certify that the information provided is true and correct.\u201d \u201cFalse statements may result in civil penalties.\u201d \u201cFederal charges may apply.\u201d I have been signing forms like that since Ronald Reagan was president. Americans do not need another report telling them what everyone already knows. They need accountability. For 40 y",
-    "drafted_at": "2026-06-07T23:57:34.901477",
+    "drafted_at": "2026-06-08T02:56:51.280936",
     "data": {
       "source": "THE BLAZE"
     },
     "content_hash": "546df9308c5b2c00"
   },
   {
-    "id": "5f9f4eb2",
+    "id": "e96d9450",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "FROM THE COURTHOUSE: The post Founder of Kentucky Drug Rehab Center Indicted on Fraud and Money Laundering Charges appeared first on ProPublica.\n\nhttps://www.propublica.org/article/tim-robinson-indicted-addiction-recovery-care",
@@ -280,99 +299,99 @@
     "source_url": "https://www.propublica.org/article/tim-robinson-indicted-addiction-recovery-care",
     "source_title": "Founder of Kentucky Drug Rehab Center Indicted on Fraud and Money Laundering Charges",
     "source_summary": "The post Founder of Kentucky Drug Rehab Center Indicted on Fraud and Money Laundering Charges appeared first on ProPublica .",
-    "drafted_at": "2026-06-07T23:57:34.901732",
+    "drafted_at": "2026-06-08T02:56:51.281171",
     "data": {
       "source": "PROPUBLICA"
     },
     "content_hash": "dcdfa750284874f7"
   },
   {
-    "id": "2e91d18f",
+    "id": "736656ee",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 ASIA: Prelim was +2.1% Q4 was +0.8% Q/Q GDP +0.5% vs +0.3% expected Private consumption +0.3% vs +0.3% prelim and 0.0% in Q4 Separately, current account data for April showed a surplus of 3907B yen vs 3136B expected.\n\nOverall, this is a good report and is supportive of the yen.\n\nAll eyes are on intervention today with USD/JPY above 160.00.\n\nThis article was written by Adam Button at investinglive.com.\n\nhttps://investinglive.com/news/japan-q1-gdp-second-reading-18-qq-annualized-vs-13-expected-20260607/",
+    "draft_text": "Levant update: In addition to the latest rumors of strikes on a US base in Saudi Arabia, now we have a much more credible report from Israel's military, which says it has identified the launch of a missile from Yemen towards Israel.\n\nThere are also other reports of launches from Iran towards Israel.\n\nThis article was written by Adam Button at investinglive.com.\n\nhttps://investinglive.com/news/iran-and-yemen-launch-missiles-towards-israel-20260608/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/japan-q1-gdp-second-reading-18-qq-annualized-vs-13-expected-20260607/",
-    "source_title": "Japan Q1 GDP (second reading) 1.8% q/q annualized vs 1.3% expected",
-    "source_summary": "Prelim was +2.1% Q4 was +0.8% Q/Q GDP +0.5% vs +0.3% expected Private consumption +0.3% vs +0.3% prelim and 0.0% in Q4 Separately, current account data for April showed a surplus of 3907B yen vs 3136B expected. Overall, this is a good report and is supportive of the yen. All eyes are on intervention today with USD/JPY above 160.00. This article was written by Adam Button at investinglive.com.",
-    "drafted_at": "2026-06-07T23:57:34.903154",
+    "source_url": "https://investinglive.com/news/iran-and-yemen-launch-missiles-towards-israel-20260608/",
+    "source_title": "Iran and Yemen launch missiles towards Israel",
+    "source_summary": "In addition to the latest rumors of strikes on a US base in Saudi Arabia, now we have a much more credible report from Israel's military, which says it has identified the launch of a missile from Yemen towards Israel. There are also other reports of launches from Iran towards Israel. This article was written by Adam Button at investinglive.com.",
+    "drafted_at": "2026-06-08T02:56:51.282425",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "0d31779a6bb92d6e"
+    "content_hash": "1e9aca1038657864"
   },
   {
-    "id": "70743d32",
+    "id": "cf592480",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 ASIA: Transaction Establishes a Large-Scale Pharmaceutical Platform in Japan and Strengthens Commercial Capabilities Across Key Therapeutic Areas Transaction Establishes a Large-Scale Pharmaceutical Platform in Japan and Strengthens Commercial Capabilities Across Key Therapeutic Areas.\n\nhttps://www.globenewswire.com/news-release/2026/06/07/3307757/0/en/GNI-Group-to-Acquire-Ayumi-Pharmaceutical-Holdings-Expanding-Its-Position-as-a-Global-Biopharmaceutical-Company.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "GLOBENEWSWIRE",
-    "source_url": "https://www.globenewswire.com/news-release/2026/06/07/3307757/0/en/GNI-Group-to-Acquire-Ayumi-Pharmaceutical-Holdings-Expanding-Its-Position-as-a-Global-Biopharmaceutical-Company.html",
-    "source_title": "GNI Group to Acquire Ayumi Pharmaceutical Holdings, Expanding Its Position as a Global Biopharmaceutical Company",
-    "source_summary": "Transaction Establishes a Large-Scale Pharmaceutical Platform in Japan and Strengthens Commercial Capabilities Across Key Therapeutic Areas Transaction Establishes a Large-Scale Pharmaceutical Platform in Japan and Strengthens Commercial Capabilities Across Key Therapeutic Areas",
-    "drafted_at": "2026-06-07T23:57:34.903680",
-    "data": {
-      "source": "GLOBENEWSWIRE"
-    },
-    "content_hash": "0f73dd355f9746cb"
-  },
-  {
-    "id": "13f5d916",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "From Beijing: The New Drug Application for LNZ100 in China was submitted September 2025 with approval anticipated in Q1 2027 The New Drug Application for LNZ100 in China was submitted September 2025 with approval anticipated in Q1 2027.\n\nhttps://www.globenewswire.com/news-release/2026/06/07/3307756/0/en/LENZ-Therapeutics-Announces-Everest-Medicines-Acquired-Rights-to-Develop-and-Commercialize-VIZZ-LNZ100-in-Greater-China.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "GLOBENEWSWIRE",
-    "source_url": "https://www.globenewswire.com/news-release/2026/06/07/3307756/0/en/LENZ-Therapeutics-Announces-Everest-Medicines-Acquired-Rights-to-Develop-and-Commercialize-VIZZ-LNZ100-in-Greater-China.html",
-    "source_title": "LENZ Therapeutics Announces Everest Medicines Acquired Rights to Develop and Commercialize VIZZ\u00ae (LNZ100) in Greater China",
-    "source_summary": "The New Drug Application for LNZ100 in China was submitted September 2025 with approval anticipated in Q1 2027 The New Drug Application for LNZ100 in China was submitted September 2025 with approval anticipated in Q1 2027",
-    "drafted_at": "2026-06-07T23:57:34.904102",
-    "data": {
-      "source": "GLOBENEWSWIRE"
-    },
-    "content_hash": "4227dc41f6a5dcc7"
-  },
-  {
-    "id": "d2ba0fb4",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "From the Gulf: Gold held a loss after Iran fired several rounds of missiles toward Israel, jeopardizing efforts to end the Middle East war that\u2019s upended global markets.\n\nhttps://financialpost.com/pmn/business-pmn/gold-holds-decline-as-iran-attacks-threatens-mideast-ceasefire",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/pmn/business-pmn/gold-holds-decline-as-iran-attacks-threatens-mideast-ceasefire",
-    "source_title": "Gold Holds Decline as Iran Attacks Threatens Mideast Ceasefire",
-    "source_summary": "Gold held a loss after Iran fired several rounds of missiles toward Israel, jeopardizing efforts to end the Middle East war that\u2019s upended global markets.",
-    "drafted_at": "2026-06-07T23:57:34.904388",
-    "data": {
-      "source": "FINANCIAL POST"
-    },
-    "content_hash": "7bebc8a5024c784f"
-  },
-  {
-    "id": "5b28ac53",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Gulf wire: The 60-day deadline pressures both U.S. and Iran, impacting geopolitical stability, oil prices, and market dynamics, especially in crypto.\n\nThe post Trump sets 60-day deadline for Iran negotiations, warns talks will end without quick response appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/trump-iran-60-day-deadline-negotiations/",
+    "draft_text": "Gulf wire: The escalation may destabilize regional markets and heighten geopolitical tensions, influencing global economic and security dynamics.\n\nThe post Israel launches retaliatory air strikes on Iran amid ongoing conflict appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/israel-launches-retaliatory-air-strikes-on-iran-amid-ongoing-conflict/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/trump-iran-60-day-deadline-negotiations/",
-    "source_title": "Trump sets 60-day deadline for Iran negotiations, warns talks will end without quick response",
-    "source_summary": "The 60-day deadline pressures both U.S. and Iran, impacting geopolitical stability, oil prices, and market dynamics, especially in crypto. The post Trump sets 60-day deadline for Iran negotiations, warns talks will end without quick response appeared first on Crypto Briefing .",
-    "drafted_at": "2026-06-07T23:57:34.904764",
+    "source_url": "https://cryptobriefing.com/israel-launches-retaliatory-air-strikes-on-iran-amid-ongoing-conflict/",
+    "source_title": "Israel launches retaliatory air strikes on Iran amid ongoing conflict",
+    "source_summary": "The escalation may destabilize regional markets and heighten geopolitical tensions, influencing global economic and security dynamics. The post Israel launches retaliatory air strikes on Iran amid ongoing conflict appeared first on Crypto Briefing .",
+    "drafted_at": "2026-06-08T02:56:51.282731",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "619b40d35f15467d"
+    "content_hash": "903054911feb210e"
   },
   {
-    "id": "487245ff",
+    "id": "1eb622c3",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: U.S. stock-index futures swung back for forth Sunday, after a massive tech selloff on Friday interrupted Wall Street\u2019s two-month rally, and after new developments threatened the fragile cease-fire in the Iran war.\n\nhttps://www.marketwatch.com/story/u-s-stock-futures-slide-oil-prices-surge-as-new-attacks-threaten-the-cease-fire-with-iran-6e433c90?mod=mw_rss_topstories",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "MARKETWATCH",
+    "source_url": "https://www.marketwatch.com/story/u-s-stock-futures-slide-oil-prices-surge-as-new-attacks-threaten-the-cease-fire-with-iran-6e433c90?mod=mw_rss_topstories",
+    "source_title": "U.S. stock futures mixed, oil prices surge as new attacks threaten the cease-fire with Iran",
+    "source_summary": "U.S. stock-index futures swung back for forth Sunday, after a massive tech selloff on Friday interrupted Wall Street\u2019s two-month rally, and after new developments threatened the fragile cease-fire in the Iran war.",
+    "drafted_at": "2026-06-08T02:56:51.283148",
+    "data": {
+      "source": "MARKETWATCH"
+    },
+    "content_hash": "345ea312c6684fce"
+  },
+  {
+    "id": "5793315b",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Levant update: There are unconfirmed reports of 2 explosions in Saudi Arabia potentially via an Iranian ballistic missile attack on Prince Sultan Air Base in Saudi Arabia.\n\nThat's an unusually quick response so I'm skeptical.\n\nSaudi Arabia's civil defense earlier issued an early warning but said the threat had passed in the area of Al Kharj.\n\nImpressively, US equity futures are back at the highs, up 0.2% and the euro is also creeping back towards the levels of pre-Israel strikes.\n\nThe market doesn't seem to be believing this report about Saudi Arabia and I understand the skepticism.\n\nThis article was written by Adam Button at investinglive.com.\n\nhttps://investinglive.com/news/reportsrumors-of-explosions-at-prince-sultan-air-base-in-saudi-arabia-20260608/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/reportsrumors-of-explosions-at-prince-sultan-air-base-in-saudi-arabia-20260608/",
+    "source_title": "Reports/rumors of explosions at  Prince Sultan Air Base in Saudi Arabia",
+    "source_summary": "There are unconfirmed reports of 2 explosions in Saudi Arabia potentially via an Iranian ballistic missile attack on Prince Sultan Air Base in Saudi Arabia. That's an unusually quick response so I'm skeptical. Saudi Arabia's civil defense earlier issued an early warning but said the threat had passed in the area of Al Kharj. Impressively, US equity futures are back at the highs, up 0.2% and the eu",
+    "drafted_at": "2026-06-08T02:56:51.283900",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "bb12a809054999d5"
+  },
+  {
+    "id": "32aef0ba",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: The exchange, after Tehran\u2019s first such strike on Israel in two months, threatened to further complicate efforts to broker a peace deal aimed at ending the war.\n\nhttps://www.washingtonpost.com/politics/2026/06/07/trump-says-us-open-unfreezing-iranian-funds-easing-sanctions-if-they-behave/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "WAPO",
+    "source_url": "https://www.washingtonpost.com/politics/2026/06/07/trump-says-us-open-unfreezing-iranian-funds-easing-sanctions-if-they-behave/",
+    "source_title": "Israel launches strikes on Iran after Tehran fires barrage of missiles",
+    "source_summary": "The exchange, after Tehran\u2019s first such strike on Israel in two months, threatened to further complicate efforts to broker a peace deal aimed at ending the war.",
+    "drafted_at": "2026-06-08T02:56:51.284408",
+    "data": {
+      "source": "WAPO"
+    },
+    "content_hash": "534c46accbc21e6a"
+  },
+  {
+    "id": "c7c12f85",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "From the BEA desk: Prelim was +2.1% Q4 was +0.8% Q/Q GDP +0.5% vs +0.3% expected Private consumption +0.3% vs +0.3% prelim and 0.0% in Q4 Separately, current account data for April showed a surplus of 3907B yen vs 3136B expected.\n\nOverall, this is a good report and is supportive of the yen.\n\nAll eyes are on intervention today with USD/JPY above 160.00.\n\nThis article was written by Adam Button at investinglive.com.\n\nhttps://investinglive.com/news/japan-q1-gdp-second-reading-18-qq-annualized-vs-13-expected-20260607/",
@@ -382,65 +401,14 @@
     "source_url": "https://investinglive.com/news/japan-q1-gdp-second-reading-18-qq-annualized-vs-13-expected-20260607/",
     "source_title": "Japan Q1 GDP (second reading) 1.8% q/q annualized vs 1.3% expected",
     "source_summary": "Prelim was +2.1% Q4 was +0.8% Q/Q GDP +0.5% vs +0.3% expected Private consumption +0.3% vs +0.3% prelim and 0.0% in Q4 Separately, current account data for April showed a surplus of 3907B yen vs 3136B expected. Overall, this is a good report and is supportive of the yen. All eyes are on intervention today with USD/JPY above 160.00. This article was written by Adam Button at investinglive.com.",
-    "drafted_at": "2026-06-07T23:57:34.967839",
+    "drafted_at": "2026-06-08T02:56:51.346697",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "0d31779a6bb92d6e"
   },
   {
-    "id": "2131dc8a",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "Inflation update: Bond traders are wagering that inflation figures this week will show the strongest price pressures in several years, adding to pressure on the Federal Reserve to raise interest rates.\n\nhttps://financialpost.com/pmn/business-pmn/bond-traders-bet-on-a-cpi-surge-that-bolsters-case-for-fed-pivot",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/pmn/business-pmn/bond-traders-bet-on-a-cpi-surge-that-bolsters-case-for-fed-pivot",
-    "source_title": "Bond Traders Bet on a CPI Surge That Bolsters Case for Fed Pivot",
-    "source_summary": "Bond traders are wagering that inflation figures this week will show the strongest price pressures in several years, adding to pressure on the Federal Reserve to raise interest rates.",
-    "drafted_at": "2026-06-07T23:57:34.968093",
-    "data": {
-      "source": "FINANCIAL POST"
-    },
-    "content_hash": "4ab1519fb072ef3c"
-  },
-  {
-    "id": "82404b04",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "JOBS DAY. The NASDAQ index has it worse trading day since April 2025 Meta is considering raising tens of billion dollars in a stock offering Trump: Would like to see lower interest rates Baker Hughes oil rig count up 2 to 431 Gold is sinking with the US dollar rising and yields moving higher Traders push bitcoin to the lowest level going back to October 2024.\n\nStocks reach new lows CNN: Iran-US talks reportedly deadlocked Energy Sec Wright: We will refill the SPR by 40M barrels after Iran conflict is over Trump cheers Jobs report.\n\nBond yields rising/ stock sliding send warnings Tech meltdown deepens while consumer defensive stocks shine bright Fed's Hammack: Today's jobs report reaffirms that the jobs market is roughly in balance Bitcoin nears the lows of the year and the technical picture is ugly if $60,000 breaks Canada employment change 87.8 K vs 10.0 estimate.\n\nThe unemployment rate falls to 6.6% US May non-farm payrolls +172K vs +85K expected investingLive European markets wrap: A mixed mood waiting on NFP, US-Iran developments The North American employment picture received a significant boost today as both the United States and Canada delivered much stronger-than-expected labor market reports, reinforcing the view that economic activity remains resilient despite concerns about slowing growth and elevated interest rates.\n\nIn the United States, nonfarm payrolls increased by 172,000 in May, nearly double the consensus estimate of 85,000.\n\nAdding to the strength, prior months were revised higher by a combined 93,000 jobs, while the unemployment rate held steady at 4.3% and wage growth remained firm.\n\nThe report suggested that hiring momentum remains intact and reduced expectations that the Federal Reserve will be in a position to ease policy anytime soon.\n\nTreasury yields surged following the release, the U.S. dollar strengthened, and equity markets came under pressure as investors repriced the outlook for interest rates.\n\nhttps://investinglive.com/news/investinglive-americas-fx-news-wrap-5-juna-strong-us-jobs-report-sends-bondsstocks-lower-20260605/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-5-juna-strong-us-jobs-report-sends-bondsstocks-lower-20260605/",
-    "source_title": "investingLive Americas FX news wrap 5 Jun:A strong US jobs report sends bonds/stocks lower",
-    "source_summary": "US stocks close sharply lower. The NASDAQ index has it worse trading day since April 2025 Meta is considering raising tens of billion dollars in a stock offering Trump: Would like to see lower interest rates Baker Hughes oil rig count up 2 to 431 Gold is sinking with the US dollar rising and yields moving higher Traders push bitcoin to the lowest level going back to October 2024. Stocks reach new ",
-    "drafted_at": "2026-06-07T23:57:34.971620",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "8f82a4fe0a3d5b62"
-  },
-  {
-    "id": "9f7ef61b",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "From the BLS desk: NZD/USD falls sharply towards the 0.5790 region on Friday as the US Dollar (USD) strengthened following a stronger-than-expected Nonfarm Payrolls (NFP) report, while the New Zealand Dollar (NZD) struggled to attract buyers amid a cautious market mood.\n\nhttps://www.fxstreet.com/news/new-zealand-dollar-plunges-to-two-month-lows-after-upbeat-us-nfp-report-202606052044",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/new-zealand-dollar-plunges-to-two-month-lows-after-upbeat-us-nfp-report-202606052044",
-    "source_title": "New Zealand Dollar plunges to two-month lows after upbeat US NFP report",
-    "source_summary": "NZD/USD falls sharply towards the 0.5790 region on Friday as the US Dollar (USD) strengthened following a stronger-than-expected Nonfarm Payrolls (NFP) report, while the New Zealand Dollar (NZD) struggled to attract buyers amid a cautious market mood.",
-    "drafted_at": "2026-06-07T23:57:34.971951",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "568b4ae2f8875378"
-  },
-  {
-    "id": "6065f3e0",
+    "id": "cce45bc3",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "How sticky is inflation? Let's see: US employers added 172,000 jobs in May while the country\u2019s unemployment rate held steady at 4.3%, a sign of a resilient labor market despite rising inflation and economic uncertainty brought on by continued conflict in the Middle East.\n\nDespite the positive update on the labor market, US stocks fell sharply by Friday afternoon after a big sell-off of AI chip stocks.\n\nEconomists initially predicted there would be about 80,000 new jobs and a steady unemployment rate of 4.3%.\n\nEmployment in local government and healthcare also rose last month.\n\nThe tech-heavy Nasdaq index closed 4% down, the largest single-day drop in over a year.\n\nhttps://www.theguardian.com/business/2026/jun/05/us-jobs-market-unemployment",
@@ -450,14 +418,31 @@
     "source_url": "https://www.theguardian.com/business/2026/jun/05/us-jobs-market-unemployment",
     "source_title": "US added 172,000 jobs in May as labor market shows signs of resilience",
     "source_summary": "Government figures show unemployment rate at 4.3% amid rising inflation and economic uncertainty from Iran war US employers added 172,000 jobs in May while the country\u2019s unemployment rate held steady at 4.3%, a sign of a resilient labor market despite rising inflation and economic uncertainty brought on by continued conflict in the Middle East. Despite the positive update on the labor market, US s",
-    "drafted_at": "2026-06-07T23:57:34.973274",
+    "drafted_at": "2026-06-08T02:56:51.348099",
     "data": {
       "source": "GUARDIAN"
     },
     "content_hash": "fd4d8168f9137b56"
   },
   {
-    "id": "d98aa877",
+    "id": "461fc91f",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "Scoreboard update: U.S. employers added jobs for the third month in a row in May, while the unemployment rate held steady at 4.3%.\n\nBut wage gains softened and likely failed to keep pace with rising prices.\n\nhttps://www.npr.org/2026/06/05/nx-s1-5847669/jobs-labor-market-unemployment-wages-inflation",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NPR",
+    "source_url": "https://www.npr.org/2026/06/05/nx-s1-5847669/jobs-labor-market-unemployment-wages-inflation",
+    "source_title": "The U.S. adds 172,000 jobs. Many are in restaurants, bars and hotels",
+    "source_summary": "U.S. employers added jobs for the third month in a row in May, while the unemployment rate held steady at 4.3%. But wage gains softened and likely failed to keep pace with rising prices.",
+    "drafted_at": "2026-06-08T02:56:51.348433",
+    "data": {
+      "source": "NPR"
+    },
+    "content_hash": "08ae5289fbc750b6"
+  },
+  {
+    "id": "83cbf216",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -467,7 +452,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-06-07T23:57:34.975622",
+    "drafted_at": "2026-06-08T02:56:51.350020",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -475,24 +460,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "c994e4c0",
-    "format": "PACK_TAKE",
-    "status": "pending",
-    "draft_text": "Recessions are obvious in retrospect and invisible in real time.",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Howl Street",
-    "source_url": "",
-    "source_title": "PACK TAKE",
-    "source_summary": "Recessions are obvious in retrospect and invisible in real time.",
-    "drafted_at": "2026-06-07T23:57:34.975708",
-    "data": {
-      "take_seed": "2026-06-07-pack-1"
-    },
-    "content_hash": "9b0f7be55d8ef71c"
-  },
-  {
-    "id": "a0f6508d",
+    "id": "a882e901",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Soft landing is the most dangerous phrase in central banking.",
@@ -502,9 +470,26 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Soft landing is the most dangerous phrase in central banking.",
-    "drafted_at": "2026-06-07T23:57:34.975767",
+    "drafted_at": "2026-06-08T02:56:51.350102",
     "data": {
-      "take_seed": "2026-06-07-pack-2"
+      "take_seed": "2026-06-08-pack-1"
+    },
+    "content_hash": "9b0f7be55d8ef71c"
+  },
+  {
+    "id": "9d48a6ce",
+    "format": "PACK_TAKE",
+    "status": "pending",
+    "draft_text": "When everyone's positioned for a crash, the crash takes a vacation.",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Howl Street",
+    "source_url": "",
+    "source_title": "PACK TAKE",
+    "source_summary": "When everyone's positioned for a crash, the crash takes a vacation.",
+    "drafted_at": "2026-06-08T02:56:51.350174",
+    "data": {
+      "take_seed": "2026-06-08-pack-2"
     },
     "content_hash": "9b0f7be55d8ef71c"
   }
