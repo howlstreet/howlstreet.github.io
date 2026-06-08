@@ -1,40 +1,59 @@
 [
   {
-    "id": "0942c8c1",
+    "id": "f7aeb286",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "The story the pack is talking about: West Texas Intermediate (WTI) US Oil trades around $89.95 at the time of writing on Monday, up 1.57% on the day, as geopolitical tensions in the Middle East continue to support energy prices.\n\nhttps://www.fxstreet.com/news/wti-oil-climbs-as-israel-iran-houthi-tensions-eclipse-opec-output-hike-202606081707",
+    "draft_text": "The story the pack is talking about: Gold (XAU/USD) price is virtually unchanged on Monday as market mood improves due to Iran-Israel halting attacks, even though last Friday\u2019s Nonfarm Payroll figures showed the solidness of the labor market, clearing the way for the Federal Reserve (Fed) to focus on inflation.\n\nhttps://www.fxstreet.com/news/gold-holds-flat-as-us-cpi-risk-offsets-ceasefire-optimism-202606082012",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/wti-oil-climbs-as-israel-iran-houthi-tensions-eclipse-opec-output-hike-202606081707",
-    "source_title": "WTI Oil climbs as Israel-Iran, Houthi tensions eclipse OPEC+ output hike",
-    "source_summary": "West Texas Intermediate (WTI) US Oil trades around $89.95 at the time of writing on Monday, up 1.57% on the day, as geopolitical tensions in the Middle East continue to support energy prices.",
-    "drafted_at": "2026-06-08T19:23:20.686228",
+    "source_url": "https://www.fxstreet.com/news/gold-holds-flat-as-us-cpi-risk-offsets-ceasefire-optimism-202606082012",
+    "source_title": "Gold holds flat as US CPI risk offsets ceasefire optimism",
+    "source_summary": "Gold (XAU/USD) price is virtually unchanged on Monday as market mood improves due to Iran-Israel halting attacks, even though last Friday\u2019s Nonfarm Payroll figures showed the solidness of the labor market, clearing the way for the Federal Reserve (Fed) to focus on inflation.",
+    "drafted_at": "2026-06-08T21:22:52.066705",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "8c3cdf0cab79f6c4"
+    "content_hash": "324bb1b1fa872732"
   },
   {
-    "id": "9347a644",
-    "format": "POLICY_READ",
+    "id": "520deac3",
+    "format": "MARKET_MOVE",
     "status": "pending",
-    "draft_text": "From the Eccles Building: The prediction market has done an abrupt about-face on Federal Reserve policy.\n\nThe odds of a 2026 Fed rate hike spiked to 62% over the weekend on Polymarket and have since drifted back to 54% as of Monday morning.\n\nThat\u2019s a stunning repricing from where traders sat just a few weeks ago, and it lands...\n\nThe Odds of a Fed Rate Hike Passed 50% This Weekend.\n\nIs the Trump and Warsh Honeymoon Over Already?\n\nhttps://247wallst.com/investing/2026/06/08/the-odds-of-a-fed-rate-hike-passed-50-this-weekend-is-the-trump-and-warsh-honeymoon-over-already/",
+    "draft_text": "On the prowl. Bitcoin tumbles 13.2% in 5 sessions to $63,660.\n\nBitcoin is now treated as a macro asset alongside gold and tech.\n\nIts swings move alt-coins, public miners, and crypto-exposed stocks.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/BTC-USD",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://247wallst.com/investing/2026/06/08/the-odds-of-a-fed-rate-hike-passed-50-this-weekend-is-the-trump-and-warsh-honeymoon-over-already/",
-    "source_title": "The Odds of a Fed Rate Hike Passed 50% This Weekend. Is the Trump and Warsh Honeymoon Over Already?",
-    "source_summary": "The prediction market has done an abrupt about-face on Federal Reserve policy. The odds of a 2026 Fed rate hike spiked to 62% over the weekend on Polymarket and have since drifted back to 54% as of Monday morning. That\u2019s a stunning repricing from where traders sat just a few weeks ago, and it lands ... The Odds of a Fed Rate Hike Passed 50% This Weekend. Is the Trump and Warsh Honeymoon Over Alrea",
-    "drafted_at": "2026-06-08T19:23:20.692810",
+    "primary_source": "Yahoo Finance \u00b7 BTC-USD",
+    "source_url": "https://finance.yahoo.com/quote/BTC-USD",
+    "source_title": "Bitcoin",
+    "source_summary": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
+    "drafted_at": "2026-06-08T21:22:52.067021",
     "data": {
-      "actor": "Fed"
+      "signal_id": "BTC-USD:move:2026-06-08",
+      "kind": "move_down",
+      "current": "$63,660"
     },
-    "content_hash": "fc195ac734b0be3b"
+    "content_hash": "0e3396ceb3da7211"
   },
   {
-    "id": "5dca9eae",
+    "id": "00559f86",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "Lagarde on the wire. The US Dollar Index (DXY) trades with a cautious tone near the 100.00 region as investors balance resilient United States (US) economic data against improving global risk sentiment following reports that Iran has ended its military operations against Israel.\n\nhttps://www.fxstreet.com/news/forex-today-markets-assess-japanese-gdp-as-ecb-decision-looms-202606081910",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "ECB",
+    "source_url": "https://www.fxstreet.com/news/forex-today-markets-assess-japanese-gdp-as-ecb-decision-looms-202606081910",
+    "source_title": "Forex Today: Markets assess Japanese GDP as ECB decision looms",
+    "source_summary": "The US Dollar Index (DXY) trades with a cautious tone near the 100.00 region as investors balance resilient United States (US) economic data against improving global risk sentiment following reports that Iran has ended its military operations against Israel.",
+    "drafted_at": "2026-06-08T21:22:52.078176",
+    "data": {
+      "actor": "ECB"
+    },
+    "content_hash": "c320c4f447ae69f5"
+  },
+  {
+    "id": "9937142f",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "If you watch rates, read this: The agencies are taking this action to complement their earlier actions that ended the use of reputation risk in supervision.\n\nAs the agencies have previously noted, reputation risk can be misused by supervisors as a basis to encourage or pressure a bank to restrict individuals' and legal businesses' access to financial services due to their constitutionally protected political or religious beliefs, speech, or conduct or lawful business activities.\n\nThese updates help ensure supervisory decisions are based on material financial risks, as well as increase clarity and facilitate greater precision in supervisory decision making.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260602a.htm",
@@ -44,14 +63,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260602a.htm",
     "source_title": "Agencies remove additional references to reputation risk",
     "source_summary": "Agencies remove additional references to reputation risk",
-    "drafted_at": "2026-06-08T19:23:20.693359",
+    "drafted_at": "2026-06-08T21:22:52.079160",
     "data": {
       "actor": "FED"
     },
     "content_hash": "037f4db78eebad91"
   },
   {
-    "id": "22d937a0",
+    "id": "d944c97c",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Rate-path desk: The Board's process for setting the discount rate is distinct from the process the Federal Open Market Committee follows in setting the target range for the federal funds rate.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
@@ -61,14 +80,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
     "source_title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
     "source_summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
-    "drafted_at": "2026-06-08T19:23:20.693581",
+    "drafted_at": "2026-06-08T21:22:52.079586",
     "data": {
       "actor": "FED"
     },
     "content_hash": "b2d403ab8c4d5036"
   },
   {
-    "id": "26aac1ba",
+    "id": "408ebb14",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FED WATCH: Also on Friday, the Federal Open Market Committee unanimously selected Warsh as its chairman.\n\nPresident Donald J.\n\nTrump nominated Mr. Warsh on March 4, 2026.\n\nHe was confirmed by the United States Senate to serve as a member of the Board on May 12, and as chairman of the Board on May 13.\n\nHis term as chairman ends on May 21, 2030, and his term as a member of the Board ends on January 31, 2040.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm",
@@ -78,14 +97,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm",
     "source_title": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
     "source_summary": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
-    "drafted_at": "2026-06-08T19:23:20.693912",
+    "drafted_at": "2026-06-08T21:22:52.080208",
     "data": {
       "actor": "FED"
     },
     "content_hash": "a5762f43aa0ef3b0"
   },
   {
-    "id": "f8de71bf",
+    "id": "d8847fb9",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Policy update for the pack: Resolution plans, also known as living wills, must describe a banking organization's strategy for orderly resolution in the event of material financial distress or failure.\n\nThe agencies conducted a joint review of the 2025 resolution plan submissions from the eight largest and most complex domestic banking organizations as well as from 56 foreign banking organizations.\n\nThe agencies did not identify any shortcomings or deficiencies in these resolution plan submissions.\n\nThe agencies also determined that each derivatives-related weakness identified in the 2023 plans from Bank of America, Goldman Sachs, JPMorgan Chase, and Citigroup has been satisfactorily addressed.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260522a.htm",
@@ -95,14 +114,148 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260522a.htm",
     "source_title": "Agencies publish resolution plan feedback letters for certain domestic and foreign banking organizations",
     "source_summary": "Agencies publish resolution plan feedback letters for certain domestic and foreign banking organizations",
-    "drafted_at": "2026-06-08T19:23:20.694421",
+    "drafted_at": "2026-06-08T21:22:52.081169",
     "data": {
       "actor": "FED"
     },
     "content_hash": "b0e49d2209d92f96"
   },
   {
-    "id": "a9036c8c",
+    "id": "31a1ff25",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$IFF insider bought $32,284,388 on 2026-06-01, 2 insiders. \ud83d\udc40\n\nInternational Flavors & Fragrances Inc. 444,219 shares at $72.68.\n\n-0.1% since the purchase.\n\nhttp://openinsider.com/screener?s=IFF",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=IFF",
+    "source_title": "International Flavors & Fragrances Inc (IFF) insider bought $32,284,388",
+    "source_summary": "2 insider(s) bought 444,219 shares at $72.68 on 2026-06-01.",
+    "drafted_at": "2026-06-08T21:22:52.081493",
+    "data": {
+      "ticker": "IFF",
+      "type": "P",
+      "dollar_value": 32284388.0,
+      "pct_since": -0.11007364595337515
+    },
+    "content_hash": "b59bb9be9054dcc6"
+  },
+  {
+    "id": "efba348e",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$NCLH insider bought $29,163,646 on 2026-06-01, 7 insiders. \ud83d\udc40\n\nNorwegian Cruise Line Holdings Ltd.. 1,633,867 shares at $17.85.\n\n+3.9% since the purchase.\n\nhttp://openinsider.com/screener?s=NCLH",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=NCLH",
+    "source_title": "Norwegian Cruise Line Holdings Ltd. (NCLH) insider bought $29,163,646",
+    "source_summary": "7 insider(s) bought 1,633,867 shares at $17.85 on 2026-06-01.",
+    "drafted_at": "2026-06-08T21:22:52.081626",
+    "data": {
+      "ticker": "NCLH",
+      "type": "P",
+      "dollar_value": 29163646.0,
+      "pct_since": 3.9215643532803663
+    },
+    "content_hash": "467ccdd401ed9ddb"
+  },
+  {
+    "id": "fabbfc2e",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$QNT insider bought $24,649,920 on 2026-06-05, 10 insiders. \ud83d\udc40\n\nQuantinuum Inc.. 410,832 shares at $60.00.\n\n-2.7% since the purchase.\n\nhttp://openinsider.com/screener?s=QNT",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=QNT",
+    "source_title": "Quantinuum Inc. (QNT) insider bought $24,649,920",
+    "source_summary": "10 insider(s) bought 410,832 shares at $60.00 on 2026-06-05.",
+    "drafted_at": "2026-06-08T21:22:52.081740",
+    "data": {
+      "ticker": "QNT",
+      "type": "P",
+      "dollar_value": 24649920.0,
+      "pct_since": -2.6666641235351562
+    },
+    "content_hash": "1896377d0aa7046f"
+  },
+  {
+    "id": "cd0a821c",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$NSP insider bought $15,700,176 on 2026-06-03, 2 insiders. \ud83d\udc40\n\nInsperity, Inc.. 544,987 shares at $28.81.\n\n+20.5% since the purchase.\n\nhttp://openinsider.com/screener?s=NSP",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=NSP",
+    "source_title": "Insperity, Inc. (NSP) insider bought $15,700,176",
+    "source_summary": "2 insider(s) bought 544,987 shares at $28.81 on 2026-06-03.",
+    "drafted_at": "2026-06-08T21:22:52.081851",
+    "data": {
+      "ticker": "NSP",
+      "type": "P",
+      "dollar_value": 15700176.0,
+      "pct_since": 20.51371475426285
+    },
+    "content_hash": "8ea10f219aa768ee"
+  },
+  {
+    "id": "e535c7cc",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$RYAN insider bought $4,199,917 on 2026-06-03, 3 insiders. \ud83d\udc40\n\nRyan Specialty Holdings, Inc.. 129,515 shares at $32.43.\n\n-2.4% since the purchase.\n\nhttp://openinsider.com/screener?s=RYAN",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=RYAN",
+    "source_title": "Ryan Specialty Holdings, Inc. (RYAN) insider bought $4,199,917",
+    "source_summary": "3 insider(s) bought 129,515 shares at $32.43 on 2026-06-03.",
+    "drafted_at": "2026-06-08T21:22:52.081968",
+    "data": {
+      "ticker": "RYAN",
+      "type": "P",
+      "dollar_value": 4199917.0,
+      "pct_since": -2.405181564815684
+    },
+    "content_hash": "fc6b1f759d78725b"
+  },
+  {
+    "id": "8153a197",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Heads up, the wolves at the door. Republican members of Congress are accusing Minnesota Democrats of knowing about massive fraud in the state and looking the other way.\n\nOn Monday, the House Committee on Oversight and Government Reform released a report on fraud scams in Minnesota.\n\nThe report claims that top Democratic officials knew about the scams as far back as 2019.\n\n\"It's always worse than we thought,\" reads a statement from the committee.\n\n\"Democrat-run Minnesota knew about rampant fraud since 2019.\n\nState officials failed to act. $9 billion was stolen from taxpayers.\" The report said billions of dollars were potentially paid out to fraudsters while Minnesota Democrats like Gov.\n\nTim Walz and Attorney General Keith Ellison did nothing to stop the scams.\n\n\"The report includes testimony and documents obtained by the Committee showing that Minnesota state leaders consistently failed to address known fraud concerns and retaliated against state employees who sought to protect taxpayer funds, allowing criminal schemes to flourish and diverting critical resources from vulnerable Americans,\" reads the press release announcing the report.\n\nhttps://www.theblaze.com/news/walz-ellison-fraud-gop-probe",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "THE BLAZE",
+    "source_url": "https://www.theblaze.com/news/walz-ellison-fraud-gop-probe",
+    "source_title": "Republican probe finds BOMBSHELL evidence against Gov. Tim Walz and AG Keith Ellison",
+    "source_summary": "Republican members of Congress are accusing Minnesota Democrats of knowing about massive fraud in the state and looking the other way. On Monday, the House Committee on Oversight and Government Reform released a report on fraud scams in Minnesota. The report claims that top Democratic officials knew about the scams as far back as 2019. \"It's always worse than we thought,\" reads a statement from th",
+    "drafted_at": "2026-06-08T21:22:52.084793",
+    "data": {
+      "source": "THE BLAZE"
+    },
+    "content_hash": "92c6ac546d10ea2e"
+  },
+  {
+    "id": "e327329a",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "The board of flashy fashion tech startup CaaStle discovered its CEO had defrauded investors out of $283 million \u2013 and then allowed her to stay on as the top exec for three months, according to a report.\n\nhttps://nypost.com/2026/06/08/business/fashion-tech-startup-ceo-kept-job-for-3-months-after-283m-fraud-scheme-exposed-report/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NY POST",
+    "source_url": "https://nypost.com/2026/06/08/business/fashion-tech-startup-ceo-kept-job-for-3-months-after-283m-fraud-scheme-exposed-report/",
+    "source_title": "Fashion tech startup CEO kept job for 3 months after $283M fraud scheme exposed: report",
+    "source_summary": "The board of flashy fashion tech startup CaaStle discovered its CEO had defrauded investors out of $283 million \u2013 and then allowed her to stay on as the top exec for three months, according to a report.",
+    "drafted_at": "2026-06-08T21:22:52.085190",
+    "data": {
+      "source": "NY POST"
+    },
+    "content_hash": "0a6228f2f06e2aad"
+  },
+  {
+    "id": "89f52c59",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Amaryllis Fox Kennedy, who recently stepped down from two senior administration posts, was serving as a CIA officer during the dispute.\n\nhttps://www.icij.org/investigations/paradise-papers/trump-intelligence-adviser-previously-helped-father-pursue-millions-from-kremlin-linked-bank-leaked-documents-show/",
@@ -112,14 +265,31 @@
     "source_url": "https://www.icij.org/investigations/paradise-papers/trump-intelligence-adviser-previously-helped-father-pursue-millions-from-kremlin-linked-bank-leaked-documents-show/",
     "source_title": "Trump intelligence adviser previously helped father pursue millions from Kremlin-linked bank, leaked documents show",
     "source_summary": "Amaryllis Fox Kennedy, who recently stepped down from two senior administration posts, was serving as a CIA officer during the dispute.",
-    "drafted_at": "2026-06-08T19:23:20.694652",
+    "drafted_at": "2026-06-08T21:22:52.085460",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "f9a4e2950958d2cd"
   },
   {
-    "id": "3de57713",
+    "id": "769d8109",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "The Department of Justice has filed cases to de-naturalize 17 legalized migrants after decades of widespread fraud in the nation's immigration system.\n\nThe post \u2018Zero Tolerance\u2019: Justice Officials Seek to Strip Citizenship from 17 Migrant Criminals appeared first on Breitbart.\n\nhttps://www.breitbart.com/immigration/2026/06/08/justice-officials-seek-to-strip-citizenship-from-17-migrants/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "BREITBART",
+    "source_url": "https://www.breitbart.com/immigration/2026/06/08/justice-officials-seek-to-strip-citizenship-from-17-migrants/",
+    "source_title": "'Zero Tolerance': Justice Officials Seek to Strip Citizenship from 17 Migrant Criminals",
+    "source_summary": "The Department of Justice has filed cases to de-naturalize 17 legalized migrants after decades of widespread fraud in the nation's immigration system. The post \u2018Zero Tolerance\u2019: Justice Officials Seek to Strip Citizenship from 17 Migrant Criminals appeared first on Breitbart .",
+    "drafted_at": "2026-06-08T21:22:52.085919",
+    "data": {
+      "source": "BREITBART"
+    },
+    "content_hash": "d7a33789ee75bef3"
+  },
+  {
+    "id": "555e3d89",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The wolves howled, the regulators listened. Sam Bankman-Fried says he would welcome a Trump pardon but insists he has not lobbied the White House, telling FOX Business from prison he is innocent.\n\nhttps://www.foxbusiness.com/markets/convicted-ftx-founder-sam-bankman-fried-insists-hes-innocent-exclusive-prison-interview",
@@ -129,201 +299,133 @@
     "source_url": "https://www.foxbusiness.com/markets/convicted-ftx-founder-sam-bankman-fried-insists-hes-innocent-exclusive-prison-interview",
     "source_title": "Convicted FTX founder Sam Bankman-Fried insists he's innocent in exclusive prison interview",
     "source_summary": "Sam Bankman-Fried says he would welcome a Trump pardon but insists he has not lobbied the White House, telling FOX Business from prison he is innocent.",
-    "drafted_at": "2026-06-08T19:23:20.694793",
+    "drafted_at": "2026-06-08T21:22:52.086180",
     "data": {
       "source": "FOX BUSINESS"
     },
     "content_hash": "b54a43ae5b171143"
   },
   {
-    "id": "54a7ae05",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "FROM THE COURTHOUSE: A representative of the White House declined to comment.\n\nSam Bankman-Fried, the one-time giant in cryptocurrencies currently in prison for fraud, has applied for a pardon from President Donald Trump.\n\nBankman-Fried was given a 25-year sentence after he was convicted of multiple federal charges related to FTX, the cryptocurrency exchange that he founded and led, and its related company Alameda Research.\n\nJust two years into that sentence, the 34-year-old former billionaire has now filed an application for pardon after completion of sentence to the Department of Justice, according to online records.\n\nShould Bankman-Fried ultimately receive a pardon, his crimes would essentially be forgiven under the law.\n\nhttps://www.bbc.com/news/articles/cjwgd6jqd5do?at_medium=RSS&at_campaign=rss",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "BBC",
-    "source_url": "https://www.bbc.com/news/articles/cjwgd6jqd5do?at_medium=RSS&at_campaign=rss",
-    "source_title": "Jailed crypto founder Sam Bankman-Fried seeks Trump pardon",
-    "source_summary": "The former leader of crypto platform FTX, currently serving a 25-year sentence, on Monday officially applied to be pardoned.",
-    "drafted_at": "2026-06-08T19:23:20.695410",
-    "data": {
-      "source": "BBC"
-    },
-    "content_hash": "b6b15dddf117d25f"
-  },
-  {
-    "id": "1125527e",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "The disgraced FTX founder, once one of the Democratic Party\u2019s biggest financial backers, has applied for a presidential pardon.\n\nhttps://nypost.com/2026/06/08/business/sam-bankman-fried-seeks-pardon-from-trump-after-bankrolling-democrats/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "NY POST",
-    "source_url": "https://nypost.com/2026/06/08/business/sam-bankman-fried-seeks-pardon-from-trump-after-bankrolling-democrats/",
-    "source_title": "Sam Bankman-Fried seeks pardon from Trump after bankrolling Democrats and losing $10B fraud case",
-    "source_summary": "The disgraced FTX founder, once one of the Democratic Party\u2019s biggest financial backers, has applied for a presidential pardon.",
-    "drafted_at": "2026-06-08T19:23:20.695552",
-    "data": {
-      "source": "NY POST"
-    },
-    "content_hash": "df573d86a35067b1"
-  },
-  {
-    "id": "c6df7bcb",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "JUSTICE SERVED: Federal officials filed a total of 305 denaturalization cases between 1990 and 2017 \u2014 an average of 11 per year.\n\nLike the first, the second Trump administration appears keen to make those previous numbers look like child's play.\n\nThe Trump Justice Department announced on Monday that it filed denaturalization actions in a handful of federal courts against 17 individuals accused of various crimes including child sex abuse and fraud.\n\n'American citizenship is a privilege, and it must be earned honestly.' Those now facing the possibility of having their U.S. citizenship revoked hail from various nations including China, Colombia, Congo, Cuba, Haiti, India, Jamaica, and Somalia.\n\n\"When criminal aliens exploit the naturalization process by breaking the law, there are consequences,\" acting Attorney General Todd Blanche said in a statement obtained by Blaze News.\n\n\"Criminal aliens are lying about their past crimes, including drug dealers, sexual predators, and fraudsters,\" continued Blanche.\n\n\"Gaining U.S. citizenship is a privilege, and under the steadfast leadership of President Trump, this Department of Justice maintains a zero-tolerance policy for the abuse of this process.\" Among those targeted under this leg of the administration's denaturalization campaign is 50-year-old Neeraj Sharma, a native of India who ran a staffing company in New Jersey, where he filed 11fraudulent H-1B visa petitions with U.S. Citizenship and Immigration Services.\n\nSharma, who became a U.S. citizen in late 2017, has been convicted of fraud and misuse of visas.\n\nhttps://www.theblaze.com/news/trump-doj-files-to-strip-jamaican-fraudster-indian-h-1b-scammer-haitian-pervert-and-14-others-of-us-citizenship",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "THE BLAZE",
-    "source_url": "https://www.theblaze.com/news/trump-doj-files-to-strip-jamaican-fraudster-indian-h-1b-scammer-haitian-pervert-and-14-others-of-us-citizenship",
-    "source_title": "Trump DOJ files to strip Jamaican fraudster, Indian H-1B scammer, Haitian pervert, and 14 others of US citizenship",
-    "source_summary": "Federal officials filed a total of 305 denaturalization cases between 1990 and 2017 \u2014 an average of 11 per year. Like the first , the second Trump administration appears keen to make those previous numbers look like child's play. The Trump Justice Department announced on Monday that it filed denaturalization actions in a handful of federal courts against 17 individuals accused of various crimes in",
-    "drafted_at": "2026-06-08T19:23:20.697395",
-    "data": {
-      "source": "THE BLAZE"
-    },
-    "content_hash": "ff6c122a584e1aa4"
-  },
-  {
-    "id": "36e8b7bf",
+    "id": "c5608ad1",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: Senior Iranian official Ebrahim Azizi says a deal is not imminent, citing major unresolved issues surrounding Iran's nuclear program and uranium enrichment.\n\nTrust remains the biggest obstacle, with Tehran saying it has yet to see a \"serious will\" from Washington to finalize an agreement.\n\nIran says it is open to negotiations in principle, provided the U.S. acts honestly and sincerely.\n\nTehran believes the success of any agreement depends on the U.S. changing its behavior and addressing the current climate of deep mistrust.\n\nAzizi said Iran would have \"no problem negotiating\" if it gains confidence that the U.S. is committed to genuine negotiations and dialogue.\n\nIranian officials remain skeptical of President Trump's statements and say they do not see sufficient commitment to a framework that can actually be implemented.\n\nBottom Line The comments suggest that a U.S.-Iran agreement remains farther away than recent optimism may have implied.\n\nWhile Iran continues to express a willingness to negotiate, the statements underscore that deep mistrust between the two sides remains the primary obstacle.\n\nhttps://investinglive.com/news/iran-official-major-obstacles-remain-in-us-iran-talks-20260608/",
+    "draft_text": "MIDDLE EAST DESK: S&P and NASDAQ rise WSJ: Trump seeks peace, but Israel and Iran keep testing the limits Iran Official: Major Obstacles Remain in U.S.-Iran Talks Silver traders take the price below the 200 day MA for the 1st time since April and failed What you see is how you should trade.\n\nThe GBPUSD is using levels that traders can see.\n\nMajor European indices close mixed Israel's Netanyahu: Military operations against Hezbollah are not yet over US employment trends for May 107.01 versus 107.88 the last month (revised from 105.77) Netanyahu will decide on escalation in Iran at the Security Council's meeting this evening More headlines from the Middle East: Isreal halts preparations for new round of strikes investingLive European markets wrap: A return back to a ceasefire but for how long?\n\nIran's armed forces announce end of military operations against Israel The U.S. dollar finished the day mixed against the major currencies, with price action reflecting a tug-of-war between higher Treasury yields, resilient U.S. economic data, improving risk sentiment, and ongoing geopolitical uncertainty.\n\nThe greenback posted gains against the Swiss franc and Canadian dollar, while losing ground against the Japanese yen, euro, and New Zealand dollar.\n\nThe dollar was little changed against both the British pound and the Australian dollar.\n\nNotably, the moves were relatively modest across the board.\n\nAll of the major currency pairs finished within 0.24% of unchanged on the day.\n\nhttps://investinglive.com/news/investinglive-americas-fx-news-wrap-8-jun-dollar-mixed-as-yields-rise-and-stocks-split-20260608/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/iran-official-major-obstacles-remain-in-us-iran-talks-20260608/",
-    "source_title": "Iran Official: Major Obstacles Remain in U.S.-Iran Talks",
-    "source_summary": "Senior Iranian official Ebrahim Azizi says a deal is not imminent, citing major unresolved issues surrounding Iran's nuclear program and uranium enrichment. Trust remains the biggest obstacle, with Tehran saying it has yet to see a \"serious will\" from Washington to finalize an agreement. Iran says it is open to negotiations in principle, provided the U.S. acts honestly and sincerely. Tehran believ",
-    "drafted_at": "2026-06-08T19:23:20.699004",
+    "source_url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-8-jun-dollar-mixed-as-yields-rise-and-stocks-split-20260608/",
+    "source_title": "investingLive Americas FX news wrap 8 Jun: Dollar mixed as yields rise and stocks split",
+    "source_summary": "A mix day for the US stock indices. Dow closes lower. S&P and NASDAQ rise WSJ: Trump seeks peace, but Israel and Iran keep testing the limits Iran Official: Major Obstacles Remain in U.S.-Iran Talks Silver traders take the price below the 200 day MA for the 1st time since April and failed What you see is how you should trade. The GBPUSD is using levels that traders can see. Major European indices ",
+    "drafted_at": "2026-06-08T21:22:52.092078",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "948f25854fef93e3"
+    "content_hash": "e2e98d7b5273a5e8"
   },
   {
-    "id": "6e78c043",
+    "id": "8e948704",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 CHINA: Commerzbank\u2019s Thu Lan Nguyen notes that despite the People\u2019s Bank of China (PBoC) relaxing the cap on US Dollar (USD) deposit rates, the Chinese Yuan has already appreciated about 3% against the Dollar this year.\n\nhttps://www.fxstreet.com/news/chinese-yuan-appreciation-trend-outweighs-yield-gap-commerzbank-202606081907",
+    "draft_text": "From the Gulf: But Iran, Israel, and Hezbollah have other ideas.\n\nhttps://foreignpolicy.com/2026/06/08/trump-israel-lebanon-iran-netanyahu-cease-fire-peace-negotiations/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/chinese-yuan-appreciation-trend-outweighs-yield-gap-commerzbank-202606081907",
-    "source_title": "Chinese Yuan: Appreciation trend outweighs yield gap \u2013 Commerzbank",
-    "source_summary": "Commerzbank\u2019s Thu Lan Nguyen notes that despite the People\u2019s Bank of China (PBoC) relaxing the cap on US Dollar (USD) deposit rates, the Chinese Yuan has already appreciated about 3% against the Dollar this year.",
-    "drafted_at": "2026-06-08T19:23:20.699333",
+    "primary_source": "FOREIGN POLICY",
+    "source_url": "https://foreignpolicy.com/2026/06/08/trump-israel-lebanon-iran-netanyahu-cease-fire-peace-negotiations/",
+    "source_title": "Trump Started a War He Can\u2019t Control",
+    "source_summary": "He wants to end the Iran war. But Iran, Israel, and Hezbollah have other ideas.",
+    "drafted_at": "2026-06-08T21:22:52.092737",
     "data": {
-      "source": "FXSTREET"
+      "source": "FOREIGN POLICY"
     },
-    "content_hash": "142c7fcd57bde6fc"
+    "content_hash": "eb6cb8d78ed399d6"
   },
   {
-    "id": "38747d59",
+    "id": "ce2e2a72",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "MIDDLE EAST DESK: The renewed conflict challenges diplomatic stability, impacts global markets, and raises concerns about future economic and geopolitical volatility.\n\nThe post Iran fires missiles at Israel following Israeli airstrike on Beirut, Bitcoin drops to $62.9K appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iran-missiles-israel-bitcoin-drops/",
+    "draft_text": "From the Gulf: But Iran, Israel, and Hezbollah have other ideas.\n\nhttps://foreignpolicy.com/2026/06/08/trump-israel-lebanon-iran-netanyahu-cease-fire-peace-negotiations/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREIGN POLICY",
+    "source_url": "https://foreignpolicy.com/2026/06/08/trump-israel-lebanon-iran-netanyahu-cease-fire-peace-negotiations/",
+    "source_title": "Trump Started a War He Can\u2019t Control",
+    "source_summary": "He wants to end the Iran war. But Iran, Israel, and Hezbollah have other ideas.",
+    "drafted_at": "2026-06-08T21:22:52.092863",
+    "data": {
+      "source": "FOREIGN POLICY"
+    },
+    "content_hash": "eb6cb8d78ed399d6"
+  },
+  {
+    "id": "c2a662a5",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Levant update: The missile exchange risks reigniting broader regional conflict, impacting global markets and testing diplomatic efforts to maintain peace.\n\nThe post Iran launches missile volley at Israel, putting fragile ceasefire on life support appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iran-israel-missile-attack-ceasefire-crypto/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/iran-missiles-israel-bitcoin-drops/",
-    "source_title": "Iran fires missiles at Israel following Israeli airstrike on Beirut, Bitcoin drops to $62.9K",
-    "source_summary": "The renewed conflict challenges diplomatic stability, impacts global markets, and raises concerns about future economic and geopolitical volatility. The post Iran fires missiles at Israel following Israeli airstrike on Beirut, Bitcoin drops to $62.9K appeared first on Crypto Briefing .",
-    "drafted_at": "2026-06-08T19:23:20.699513",
+    "source_url": "https://cryptobriefing.com/iran-israel-missile-attack-ceasefire-crypto/",
+    "source_title": "Iran launches missile volley at Israel, putting fragile ceasefire on life support",
+    "source_summary": "The missile exchange risks reigniting broader regional conflict, impacting global markets and testing diplomatic efforts to maintain peace. The post Iran launches missile volley at Israel, putting fragile ceasefire on life support appeared first on Crypto Briefing .",
+    "drafted_at": "2026-06-08T21:22:52.093467",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "d71218f3debff617"
+    "content_hash": "6208e5c4e614f8c3"
   },
   {
-    "id": "6c21edd3",
+    "id": "42382512",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "MIDDLE EAST DESK: The US-Iran deal could stabilize geopolitical tensions, impacting global markets and highlighting Bitcoin's volatility amid international crises.\n\nThe post Trump says US and Iran are close to a deal amid missile tensions, and Bitcoin is caught in the crossfire appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/trump-iran-deal-bitcoin-missile-tensions/",
+    "draft_text": "From Beijing: Xiaomi's MiMo-V2.5-Pro-UltraSpeed blows past the speed threshold custom silicon companies spent years building toward\u2014on regular GPUs.\n\nhttps://decrypt.co/370449/xiaomi-mimo-ultraspeed-ai-model-faster-chatgpt-claude",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/trump-iran-deal-bitcoin-missile-tensions/",
-    "source_title": "Trump says US and Iran are close to a deal amid missile tensions, and Bitcoin is caught in the crossfire",
-    "source_summary": "The US-Iran deal could stabilize geopolitical tensions, impacting global markets and highlighting Bitcoin's volatility amid international crises. The post Trump says US and Iran are close to a deal amid missile tensions, and Bitcoin is caught in the crossfire appeared first on Crypto Briefing .",
-    "drafted_at": "2026-06-08T19:23:20.699752",
+    "primary_source": "DECRYPT",
+    "source_url": "https://decrypt.co/370449/xiaomi-mimo-ultraspeed-ai-model-faster-chatgpt-claude",
+    "source_title": "China's Xiaomi MiMo Is Now 15X Faster Than ChatGPT and Claude",
+    "source_summary": "Xiaomi's MiMo-V2.5-Pro-UltraSpeed blows past the speed threshold custom silicon companies spent years building toward\u2014on regular GPUs.",
+    "drafted_at": "2026-06-08T21:22:52.094556",
     "data": {
-      "source": "CRYPTO BRIEFING"
+      "source": "DECRYPT"
     },
-    "content_hash": "39a90bfd996da8bb"
+    "content_hash": "da0c01558b089809"
   },
   {
-    "id": "59372d5e",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "World wire: If you follow energy markets closely, you could be forgiven for thinking that oil remains as indispensable as ever.\n\nEvery geopolitical crisis seems to reinforce the narrative.\n\nTankers moving through the Strait of Hormuz dominate headlines, analysts obsess over crude price forecasts, and politicians continue to speak about energy security largely through the lens of oil supply.\n\nYet beneath the daily noise of energy markets, something remarkable has already happened.\n\nAccording to International Energy Agency data, global sales of internal combustion\u2026\n\nhttps://oilprice.com/Energy/Energy-General/The-Quiet-Peak-of-the-Internal-Combustion-Engine.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "OILPRICE",
-    "source_url": "https://oilprice.com/Energy/Energy-General/The-Quiet-Peak-of-the-Internal-Combustion-Engine.html",
-    "source_title": "The Quiet Peak of the Internal Combustion Engine",
-    "source_summary": "If you follow energy markets closely, you could be forgiven for thinking that oil remains as indispensable as ever. Every geopolitical crisis seems to reinforce the narrative. Tankers moving through the Strait of Hormuz dominate headlines, analysts obsess over crude price forecasts, and politicians continue to speak about energy security largely through the lens of oil supply. Yet beneath the dail",
-    "drafted_at": "2026-06-08T19:23:20.700395",
-    "data": {
-      "source": "OILPRICE"
-    },
-    "content_hash": "d61e4af94241a7e4"
-  },
-  {
-    "id": "944a138f",
+    "id": "a0a9a1ef",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "NFP just dropped. UOB\u2019s Quek Ser Leang and Lee Sue Ann highlight that USD/SGD surged past 1.29 after a blowout US nonfarm payrolls report, with the S$NEER still trading well above its mid-point.\n\nhttps://www.fxstreet.com/news/singapore-dollar-further-losses-against-us-dollar-toward-12960-uob-202606081823",
+    "draft_text": "CPI POSTCARD: Gold (XAU/USD) price is virtually unchanged on Monday as market mood improves due to Iran-Israel halting attacks, even though last Friday\u2019s Nonfarm Payroll figures showed the solidness of the labor market, clearing the way for the Federal Reserve (Fed) to focus on inflation.\n\nhttps://www.fxstreet.com/news/gold-holds-flat-as-us-cpi-risk-offsets-ceasefire-optimism-202606082012",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/singapore-dollar-further-losses-against-us-dollar-toward-12960-uob-202606081823",
-    "source_title": "Singapore Dollar: Further losses against US Dollar toward 1.2960 \u2013 UOB",
-    "source_summary": "UOB\u2019s Quek Ser Leang and Lee Sue Ann highlight that USD/SGD surged past 1.29 after a blowout US nonfarm payrolls report, with the S$NEER still trading well above its mid-point.",
-    "drafted_at": "2026-06-08T19:23:20.739005",
+    "source_url": "https://www.fxstreet.com/news/gold-holds-flat-as-us-cpi-risk-offsets-ceasefire-optimism-202606082012",
+    "source_title": "Gold holds flat as US CPI risk offsets ceasefire optimism",
+    "source_summary": "Gold (XAU/USD) price is virtually unchanged on Monday as market mood improves due to Iran-Israel halting attacks, even though last Friday\u2019s Nonfarm Payroll figures showed the solidness of the labor market, clearing the way for the Federal Reserve (Fed) to focus on inflation.",
+    "drafted_at": "2026-06-08T21:22:52.159169",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "211c4de740c5ae5c"
+    "content_hash": "324bb1b1fa872732"
   },
   {
-    "id": "6320af1c",
+    "id": "37e7c35a",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "NFP just dropped. Silver (XAG/USD) trades modestly higher on Monday after falling nearly 8% on Friday\n\nhttps://www.fxstreet.com/news/silver-price-forecast-xag-usd-hovers-near-200-day-sma-downside-risks-persist-202606081726",
+    "draft_text": "GROWTH POSTCARD: The US Dollar Index (DXY) trades with a cautious tone near the 100.00 region as investors balance resilient United States (US) economic data against improving global risk sentiment following reports that Iran has ended its military operations against Israel.\n\nhttps://www.fxstreet.com/news/forex-today-markets-assess-japanese-gdp-as-ecb-decision-looms-202606081910",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-hovers-near-200-day-sma-downside-risks-persist-202606081726",
-    "source_title": "Silver Price Forecast: XAG/USD hovers near 200-day SMA, downside risks persist",
-    "source_summary": "Silver (XAG/USD) trades modestly higher on Monday after falling nearly 8% on Friday in the wake of a stronger-than-expected US Nonfarm Payrolls (NFP) report, which reinforced expectations that the Federal Reserve (Fed) will keep interest rates higher for longer.",
-    "drafted_at": "2026-06-08T19:23:20.739181",
+    "source_url": "https://www.fxstreet.com/news/forex-today-markets-assess-japanese-gdp-as-ecb-decision-looms-202606081910",
+    "source_title": "Forex Today: Markets assess Japanese GDP as ECB decision looms",
+    "source_summary": "The US Dollar Index (DXY) trades with a cautious tone near the 100.00 region as investors balance resilient United States (US) economic data against improving global risk sentiment following reports that Iran has ended its military operations against Israel.",
+    "drafted_at": "2026-06-08T21:22:52.159506",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "d3d6b2a3fe8e6f62"
+    "content_hash": "c320c4f447ae69f5"
   },
   {
-    "id": "52f71672",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "Weekly claims just printed. Key Takeaways from the Conference Board Employment Trends Index (ETI) \u2013 May 2026 Employment Trends Index (ETI) fell to 107.01 in May from an upwardly revised 107.88 in April, signaling some moderation in the labor market outlook.\n\nThe ETI is a leading indicator for payroll employment, meaning it is designed to provide clues about future hiring trends rather than current employment conditions.\n\nDespite the monthly decline, the ETI remains 2.1 points higher than six months ago, suggesting the labor market continues to show overall resilience.\n\nMay payrolls increased by 172,000 jobs, indicating current labor market conditions remain solid even as forward-looking indicators soften.\n\nFive of the eight ETI components contributed negatively in May, highlighting potential downside risks for employment growth in coming months.\n\nMajor Negative Factors The largest drag came from the share of small businesses reporting positions that are \"not able to be filled right now.\" Fell to 29% from 34% in April.\n\nSuggests labor shortages are easing and hiring demand may be cooling.\n\nJob Openings (JOLTS) increased sharply above 7.6 million, but the Conference Board noted the gain was largely driven by an unusual increase in the professional and business services sector and may not be sustained.\n\nhttps://investinglive.com/news/us-employment-trends-for-may-10701-versus-10788-the-last-month-revised-from-10577-20260608/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/us-employment-trends-for-may-10701-versus-10788-the-last-month-revised-from-10577-20260608/",
-    "source_title": "US employment trends for May 107.01 versus 107.88 the last month (revised from 105.77)",
-    "source_summary": "Key Takeaways from the Conference Board Employment Trends Index (ETI) \u2013 May 2026 Employment Trends Index (ETI) fell to 107.01 in May from an upwardly revised 107.88 in April, signaling some moderation in the labor market outlook. The ETI is a leading indicator for payroll employment, meaning it is designed to provide clues about future hiring trends rather than current employment conditions. Despi",
-    "drafted_at": "2026-06-08T19:23:20.740492",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "37944adf1ba5855c"
-  },
-  {
-    "id": "2f7fc78e",
+    "id": "7b19f06f",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "How sticky is inflation? Let's see: US employers added 172,000 jobs in May while the country\u2019s unemployment rate held steady at 4.3%, a sign of a resilient labor market despite rising inflation and economic uncertainty brought on by continued conflict in the Middle East.\n\nDespite the positive update on the labor market, US stocks fell sharply by Friday afternoon after a big sell-off of AI chip stocks.\n\nEconomists initially predicted there would be about 80,000 new jobs and a steady unemployment rate of 4.3%.\n\nEmployment in local government and healthcare also rose last month.\n\nThe tech-heavy Nasdaq index closed 4% down, the largest single-day drop in over a year.\n\nhttps://www.theguardian.com/business/2026/jun/05/us-jobs-market-unemployment",
@@ -333,14 +435,14 @@
     "source_url": "https://www.theguardian.com/business/2026/jun/05/us-jobs-market-unemployment",
     "source_title": "US added 172,000 jobs in May as labor market shows signs of resilience",
     "source_summary": "Government figures show unemployment rate at 4.3% amid rising inflation and economic uncertainty from Iran war US employers added 172,000 jobs in May while the country\u2019s unemployment rate held steady at 4.3%, a sign of a resilient labor market despite rising inflation and economic uncertainty brought on by continued conflict in the Middle East. Despite the positive update on the labor market, US s",
-    "drafted_at": "2026-06-08T19:23:20.741232",
+    "drafted_at": "2026-06-08T21:22:52.160820",
     "data": {
       "source": "GUARDIAN"
     },
     "content_hash": "fd4d8168f9137b56"
   },
   {
-    "id": "dd1548f2",
+    "id": "bee5a50a",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "Scoreboard update: U.S. employers added jobs for the third month in a row in May, while the unemployment rate held steady at 4.3%.\n\nBut wage gains softened and likely failed to keep pace with rising prices.\n\nhttps://www.npr.org/2026/06/05/nx-s1-5847669/jobs-labor-market-unemployment-wages-inflation",
@@ -350,14 +452,14 @@
     "source_url": "https://www.npr.org/2026/06/05/nx-s1-5847669/jobs-labor-market-unemployment-wages-inflation",
     "source_title": "The U.S. adds 172,000 jobs. Many are in restaurants, bars and hotels",
     "source_summary": "U.S. employers added jobs for the third month in a row in May, while the unemployment rate held steady at 4.3%. But wage gains softened and likely failed to keep pace with rising prices.",
-    "drafted_at": "2026-06-08T19:23:20.741409",
+    "drafted_at": "2026-06-08T21:22:52.161134",
     "data": {
       "source": "NPR"
     },
     "content_hash": "08ae5289fbc750b6"
   },
   {
-    "id": "f2ca7717",
+    "id": "83c099dd",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -367,7 +469,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-06-08T19:23:20.742372",
+    "drafted_at": "2026-06-08T21:22:52.162729",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -375,7 +477,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "4b8b73a2",
+    "id": "c2f1ddb3",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Soft landing is the most dangerous phrase in central banking.",
@@ -385,14 +487,14 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Soft landing is the most dangerous phrase in central banking.",
-    "drafted_at": "2026-06-08T19:23:20.742423",
+    "drafted_at": "2026-06-08T21:22:52.162813",
     "data": {
       "take_seed": "2026-06-08-pack-1"
     },
     "content_hash": "9b0f7be55d8ef71c"
   },
   {
-    "id": "313f9b52",
+    "id": "de74d96f",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "When everyone's positioned for a crash, the crash takes a vacation.",
@@ -402,7 +504,7 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "When everyone's positioned for a crash, the crash takes a vacation.",
-    "drafted_at": "2026-06-08T19:23:20.742457",
+    "drafted_at": "2026-06-08T21:22:52.162873",
     "data": {
       "take_seed": "2026-06-08-pack-2"
     },
