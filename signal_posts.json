@@ -1,1 +1,30 @@
-{}
+{
+  "^IXIC:move:2026-06-09": {
+    "headline": "Nasdaq drops 6.1% in 5 sessions to 25,335.33",
+    "matters": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
+    "source": "Yahoo Finance \u00b7 ^IXIC",
+    "chart_path": null,
+    "signal_id": "^IXIC:move:2026-06-09",
+    "current_str": "25,335.33",
+    "label": "Nasdaq Composite",
+    "hashtags": "#Nasdaq #Tech #Stocks",
+    "kind": "move_down",
+    "badge": "-6.1%",
+    "data_url": "https://finance.yahoo.com/quote/%5EIXIC",
+    "fired_at": "2026-06-09T15:59:17.704309"
+  },
+  "GC=F:move:2026-06-09": {
+    "headline": "Gold drops 5.6% in 5 sessions to $4,306.40",
+    "matters": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
+    "source": "COMEX \u00b7 GC=F",
+    "chart_path": null,
+    "signal_id": "GC=F:move:2026-06-09",
+    "current_str": "$4,306.40",
+    "label": "Gold futures",
+    "hashtags": "#Gold #PreciousMetals #Commodities",
+    "kind": "move_down",
+    "badge": "-5.6%",
+    "data_url": "https://finance.yahoo.com/quote/GC%3DF",
+    "fired_at": "2026-06-09T15:59:17.704309"
+  }
+}
