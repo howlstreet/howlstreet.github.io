@@ -1,59 +1,93 @@
 [
   {
-    "id": "41f32fbf",
+    "id": "cdc7907b",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "TODAY'S LOUDEST HOWL: Middle Eastern tensions disrupt global markets, highlighting the fragile balance between geopolitical stability and economic volatility.\n\nThe post Iran fires missiles at Israel as Trump scrambles to save ceasefire, Bitcoin drops below $63K appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iran-missiles-israel-bitcoin-drops-2/",
+    "draft_text": "PACK FRONT-PAGE: The EUR/USD pair gathers strength near 1.1545 during the early European trading hours on Tuesday, bolstered by the hawkish stance of the European Central Bank (ECB).\n\nTraders brace for the US Consumer Price Index (CPI) data on Wednesday.\n\nhttps://www.fxstreet.com/news/euro-gains-ground-to-near-11550-on-ecb-rate-hike-bets-202606090514",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/iran-missiles-israel-bitcoin-drops-2/",
-    "source_title": "Iran fires missiles at Israel as Trump scrambles to save ceasefire, Bitcoin drops below $63K",
-    "source_summary": "Middle Eastern tensions disrupt global markets, highlighting the fragile balance between geopolitical stability and economic volatility. The post Iran fires missiles at Israel as Trump scrambles to save ceasefire, Bitcoin drops below $63K appeared first on Crypto Briefing .",
-    "drafted_at": "2026-06-09T02:01:02.047264",
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/euro-gains-ground-to-near-11550-on-ecb-rate-hike-bets-202606090514",
+    "source_title": "Euro gains ground to near 1.1550 on ECB rate hike bets",
+    "source_summary": "The EUR/USD pair gathers strength near 1.1545 during the early European trading hours on Tuesday, bolstered by the hawkish stance of the European Central Bank (ECB). Traders brace for the US Consumer Price Index (CPI) data on Wednesday.",
+    "drafted_at": "2026-06-09T06:39:17.168952",
     "data": {
-      "source": "CRYPTO BRIEFING"
+      "source": "FXSTREET"
     },
-    "content_hash": "859899689e70607f"
+    "content_hash": "87a9b4a968b63993"
   },
   {
-    "id": "80c04e56",
+    "id": "5f42e99c",
     "format": "MARKET_MOVE",
     "status": "pending",
-    "draft_text": "Eyes up. Bitcoin tumbles 14.9% in 5 sessions to $62,757.\n\nBitcoin is now treated as a macro asset alongside gold and tech.\n\nIts swings move alt-coins, public miners, and crypto-exposed stocks.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/BTC-USD",
+    "draft_text": "Two seconds, trust me. VIX rips 23.5% in 5 sessions to 18.92.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "Yahoo Finance \u00b7 BTC-USD",
-    "source_url": "https://finance.yahoo.com/quote/BTC-USD",
-    "source_title": "Bitcoin",
-    "source_summary": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
-    "drafted_at": "2026-06-09T02:01:02.047563",
+    "primary_source": "CBOE \u00b7 ^VIX",
+    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "source_title": "VIX (S&P 500 volatility)",
+    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "drafted_at": "2026-06-09T06:39:17.169183",
     "data": {
-      "signal_id": "BTC-USD:move:2026-06-09",
-      "kind": "move_down",
-      "current": "$62,757"
+      "signal_id": "^VIX:move:2026-06-08",
+      "kind": "move_up",
+      "current": "18.92"
     },
-    "content_hash": "0e3396ceb3da7211"
+    "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "3485bf79",
+    "id": "390cbe20",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "PBOC postcard: The People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Tuesday at 6.8147 compared to the previous day's fix of 6.8198 and 6.7809 Reuters estimate.\n\nhttps://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-68147-vs-68198-previous-202606090115",
+    "draft_text": "BoJ just printed. The Bank of Japan (BoJ) is widely expected to raise its short-term policy interest rate from 0.75% to 1.0% at its upcoming monetary policy meeting on June 15\u201316, Nikkei reported on Tuesday.\n\nhttps://www.fxstreet.com/news/boj-sets-to-raise-interest-rate-to-10-at-june-meeting-nikkei-202606090539",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "PBOC",
-    "source_url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-68147-vs-68198-previous-202606090115",
-    "source_title": "PBOC sets USD/CNY reference rate at 6.8147 vs. 6.8198 previous",
-    "source_summary": "The People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Tuesday at 6.8147 compared to the previous day's fix of 6.8198 and 6.7809 Reuters estimate.",
-    "drafted_at": "2026-06-09T02:01:02.057801",
+    "primary_source": "BoJ",
+    "source_url": "https://www.fxstreet.com/news/boj-sets-to-raise-interest-rate-to-10-at-june-meeting-nikkei-202606090539",
+    "source_title": "BoJ set to raise interest rate to 1.0% at June meeting",
+    "source_summary": "The Bank of Japan (BoJ) is widely expected to raise its short-term policy interest rate from 0.75% to 1.0% at its upcoming monetary policy meeting on June 15\u201316, Nikkei reported on Tuesday.",
+    "drafted_at": "2026-06-09T06:39:17.177475",
     "data": {
-      "actor": "PBOC"
+      "actor": "BoJ"
     },
-    "content_hash": "90163ed342dbc6bd"
+    "content_hash": "20592440a077acf6"
   },
   {
-    "id": "66106553",
+    "id": "0cda0120",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "RATE-PATH READ: Gold (XAU/USD) extends its sideways consolidative price move through the Asian session on Tuesday and remains close to the lowest level since March 23, around the $4,268-$4,267 region touched the previous day.\n\nhttps://www.fxstreet.com/news/gold-holds-steady-as-hawkish-fed-bets-counter-israel-iran-truce-and-weaker-usd-202606090354",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Fed",
+    "source_url": "https://www.fxstreet.com/news/gold-holds-steady-as-hawkish-fed-bets-counter-israel-iran-truce-and-weaker-usd-202606090354",
+    "source_title": "Gold draws support from weaker USD; bulls seem hesitant amid Fed hike bets",
+    "source_summary": "Gold (XAU/USD) extends its sideways consolidative price move through the Asian session on Tuesday and remains close to the lowest level since March 23, around the $4,268-$4,267 region touched the previous day.",
+    "drafted_at": "2026-06-09T06:39:17.177728",
+    "data": {
+      "actor": "Fed"
+    },
+    "content_hash": "1b7195b5f02e37a8"
+  },
+  {
+    "id": "5f693d1f",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "Eurozone policy update: The EUR/USD pair gathers strength near 1.1545 during the early European trading hours on Tuesday, bolstered by the hawkish stance of the European Central Bank (ECB).\n\nTraders brace for the US Consumer Price Index (CPI) data on Wednesday.\n\nhttps://www.fxstreet.com/news/euro-gains-ground-to-near-11550-on-ecb-rate-hike-bets-202606090514",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "ECB",
+    "source_url": "https://www.fxstreet.com/news/euro-gains-ground-to-near-11550-on-ecb-rate-hike-bets-202606090514",
+    "source_title": "Euro gains ground to near 1.1550 on ECB rate hike bets",
+    "source_summary": "The EUR/USD pair gathers strength near 1.1545 during the early European trading hours on Tuesday, bolstered by the hawkish stance of the European Central Bank (ECB). Traders brace for the US Consumer Price Index (CPI) data on Wednesday.",
+    "drafted_at": "2026-06-09T06:39:17.177978",
+    "data": {
+      "actor": "ECB"
+    },
+    "content_hash": "87a9b4a968b63993"
+  },
+  {
+    "id": "7743e434",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "If you watch rates, read this: The agencies are taking this action to complement their earlier actions that ended the use of reputation risk in supervision.\n\nAs the agencies have previously noted, reputation risk can be misused by supervisors as a basis to encourage or pressure a bank to restrict individuals' and legal businesses' access to financial services due to their constitutionally protected political or religious beliefs, speech, or conduct or lawful business activities.\n\nThese updates help ensure supervisory decisions are based on material financial risks, as well as increase clarity and facilitate greater precision in supervisory decision making.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260602a.htm",
@@ -63,14 +97,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260602a.htm",
     "source_title": "Agencies remove additional references to reputation risk",
     "source_summary": "Agencies remove additional references to reputation risk",
-    "drafted_at": "2026-06-09T02:01:02.058787",
+    "drafted_at": "2026-06-09T06:39:17.178745",
     "data": {
       "actor": "FED"
     },
     "content_hash": "037f4db78eebad91"
   },
   {
-    "id": "b562d515",
+    "id": "038ce44e",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Rate-path desk: The Board's process for setting the discount rate is distinct from the process the Federal Open Market Committee follows in setting the target range for the federal funds rate.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
@@ -80,48 +114,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
     "source_title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
     "source_summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
-    "drafted_at": "2026-06-09T02:01:02.059238",
+    "drafted_at": "2026-06-09T06:39:17.179068",
     "data": {
       "actor": "FED"
     },
     "content_hash": "b2d403ab8c4d5036"
   },
   {
-    "id": "c325a100",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "FED WATCH: Also on Friday, the Federal Open Market Committee unanimously selected Warsh as its chairman.\n\nPresident Donald J.\n\nTrump nominated Mr. Warsh on March 4, 2026.\n\nHe was confirmed by the United States Senate to serve as a member of the Board on May 12, and as chairman of the Board on May 13.\n\nHis term as chairman ends on May 21, 2030, and his term as a member of the Board ends on January 31, 2040.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FED",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm",
-    "source_title": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
-    "source_summary": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
-    "drafted_at": "2026-06-09T02:01:02.059887",
-    "data": {
-      "actor": "FED"
-    },
-    "content_hash": "a5762f43aa0ef3b0"
-  },
-  {
-    "id": "8d6f16ff",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "Policy update for the pack: Resolution plans, also known as living wills, must describe a banking organization's strategy for orderly resolution in the event of material financial distress or failure.\n\nThe agencies conducted a joint review of the 2025 resolution plan submissions from the eight largest and most complex domestic banking organizations as well as from 56 foreign banking organizations.\n\nThe agencies did not identify any shortcomings or deficiencies in these resolution plan submissions.\n\nThe agencies also determined that each derivatives-related weakness identified in the 2023 plans from Bank of America, Goldman Sachs, JPMorgan Chase, and Citigroup has been satisfactorily addressed.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260522a.htm",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FED",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260522a.htm",
-    "source_title": "Agencies publish resolution plan feedback letters for certain domestic and foreign banking organizations",
-    "source_summary": "Agencies publish resolution plan feedback letters for certain domestic and foreign banking organizations",
-    "drafted_at": "2026-06-09T02:01:02.060825",
-    "data": {
-      "actor": "FED"
-    },
-    "content_hash": "b0e49d2209d92f96"
-  },
-  {
-    "id": "f1d1884e",
+    "id": "cc5055c6",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$IFF insider bought $32,284,388 on 2026-06-01, 2 insiders. \ud83d\udc40\n\nInternational Flavors & Fragrances Inc. 444,219 shares at $72.68.\n\n-0.1% since the purchase.\n\nhttp://openinsider.com/screener?s=IFF",
@@ -131,7 +131,7 @@
     "source_url": "http://openinsider.com/screener?s=IFF",
     "source_title": "International Flavors & Fragrances Inc (IFF) insider bought $32,284,388",
     "source_summary": "2 insider(s) bought 444,219 shares at $72.68 on 2026-06-01.",
-    "drafted_at": "2026-06-09T02:01:02.061155",
+    "drafted_at": "2026-06-09T06:39:17.180563",
     "data": {
       "ticker": "IFF",
       "type": "P",
@@ -141,7 +141,7 @@
     "content_hash": "b59bb9be9054dcc6"
   },
   {
-    "id": "6e7a0289",
+    "id": "30e69a04",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$NCLH insider bought $29,163,646 on 2026-06-01, 7 insiders. \ud83d\udc40\n\nNorwegian Cruise Line Holdings Ltd.. 1,633,867 shares at $17.85.\n\n+3.9% since the purchase.\n\nhttp://openinsider.com/screener?s=NCLH",
@@ -151,7 +151,7 @@
     "source_url": "http://openinsider.com/screener?s=NCLH",
     "source_title": "Norwegian Cruise Line Holdings Ltd. (NCLH) insider bought $29,163,646",
     "source_summary": "7 insider(s) bought 1,633,867 shares at $17.85 on 2026-06-01.",
-    "drafted_at": "2026-06-09T02:01:02.061292",
+    "drafted_at": "2026-06-09T06:39:17.180670",
     "data": {
       "ticker": "NCLH",
       "type": "P",
@@ -161,7 +161,7 @@
     "content_hash": "467ccdd401ed9ddb"
   },
   {
-    "id": "e165c1a8",
+    "id": "295c4849",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$QNT insider bought $24,649,920 on 2026-06-05, 10 insiders. \ud83d\udc40\n\nQuantinuum Inc.. 410,832 shares at $60.00.\n\n-2.7% since the purchase.\n\nhttp://openinsider.com/screener?s=QNT",
@@ -171,7 +171,7 @@
     "source_url": "http://openinsider.com/screener?s=QNT",
     "source_title": "Quantinuum Inc. (QNT) insider bought $24,649,920",
     "source_summary": "10 insider(s) bought 410,832 shares at $60.00 on 2026-06-05.",
-    "drafted_at": "2026-06-09T02:01:02.061410",
+    "drafted_at": "2026-06-09T06:39:17.180760",
     "data": {
       "ticker": "QNT",
       "type": "P",
@@ -181,7 +181,7 @@
     "content_hash": "1896377d0aa7046f"
   },
   {
-    "id": "20da65a4",
+    "id": "2cc3712a",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$NSP insider bought $15,700,176 on 2026-06-03, 2 insiders. \ud83d\udc40\n\nInsperity, Inc.. 544,987 shares at $28.81.\n\n+20.5% since the purchase.\n\nhttp://openinsider.com/screener?s=NSP",
@@ -191,7 +191,7 @@
     "source_url": "http://openinsider.com/screener?s=NSP",
     "source_title": "Insperity, Inc. (NSP) insider bought $15,700,176",
     "source_summary": "2 insider(s) bought 544,987 shares at $28.81 on 2026-06-03.",
-    "drafted_at": "2026-06-09T02:01:02.061528",
+    "drafted_at": "2026-06-09T06:39:17.180849",
     "data": {
       "ticker": "NSP",
       "type": "P",
@@ -201,7 +201,7 @@
     "content_hash": "8ea10f219aa768ee"
   },
   {
-    "id": "e3d1745d",
+    "id": "21205a69",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$WGS insider bought $11,109,565 on 2026-06-04. \ud83d\udc40\n\nGenedx Holdings Corp.. 200,000 shares at $55.55.\n\n-6.8% since the purchase.\n\nhttp://openinsider.com/screener?s=WGS",
@@ -211,7 +211,7 @@
     "source_url": "http://openinsider.com/screener?s=WGS",
     "source_title": "Genedx Holdings Corp. (WGS) insider bought $11,109,565",
     "source_summary": "1 insider(s) bought 200,000 shares at $55.55 on 2026-06-04.",
-    "drafted_at": "2026-06-09T02:01:02.061637",
+    "drafted_at": "2026-06-09T06:39:17.180932",
     "data": {
       "ticker": "WGS",
       "type": "P",
@@ -221,7 +221,24 @@
     "content_hash": "6bc679e00c31b186"
   },
   {
-    "id": "b41cfd2a",
+    "id": "b4f6c942",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "President Trump is in the news for discussing voter fraud and rigged elections.\n\nThe media, predictably, is poo-pooing his charges....\n\nhttps://spectator.org/trump-is-right-on-rigged-elections/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "AM SPECTATOR",
+    "source_url": "https://spectator.org/trump-is-right-on-rigged-elections/",
+    "source_title": "Trump Is Right on Rigged Elections",
+    "source_summary": "President Trump is in the news for discussing voter fraud and rigged elections. The media, predictably, is poo-pooing his charges....",
+    "drafted_at": "2026-06-09T06:39:17.181754",
+    "data": {
+      "source": "AM SPECTATOR"
+    },
+    "content_hash": "7d13d5070bdd3cd0"
+  },
+  {
+    "id": "50f2a0c6",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "If you're invested, you'll want to read this: Out of the stolen amount, $23.7 million has been swapped for Ethereum, while around $7.9 million remains in H tokens.\n\nhttps://www.theblock.co/post/404053/humanity-protocol-exploit?utm_source=rss&utm_medium=rss",
@@ -231,31 +248,14 @@
     "source_url": "https://www.theblock.co/post/404053/humanity-protocol-exploit?utm_source=rss&utm_medium=rss",
     "source_title": "Wallets linked to Humanity Protocol drained for over $32 million, token plunges 89%: onchain analyst",
     "source_summary": "Out of the stolen amount, $23.7 million has been swapped for Ethereum, while around $7.9 million remains in H tokens.",
-    "drafted_at": "2026-06-09T02:01:02.062776",
+    "drafted_at": "2026-06-09T06:39:17.181944",
     "data": {
       "source": "THE BLOCK"
     },
     "content_hash": "ecf52a48b73d9953"
   },
   {
-    "id": "793a86f3",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "NEW YORK, June 8, 2026 /PRNewswire/ -- Bronstein, Gewirtz & Grossman, LLC, a nationally recognized investor-rights law firm, announces that a class action lawsuit has been filed against Medpace Holdings, Inc. (NASDAQ: MEDP) and certain of its officers.\n\nhttps://www.prnewswire.com/news-releases/bronstein-gewirtz--grossman-llc-urges-medpace-holdings-inc-investors-to-act-class-action-filed-alleging-investor-harm-302794407.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "PR NEWSWIRE",
-    "source_url": "https://www.prnewswire.com/news-releases/bronstein-gewirtz--grossman-llc-urges-medpace-holdings-inc-investors-to-act-class-action-filed-alleging-investor-harm-302794407.html",
-    "source_title": "Bronstein, Gewirtz & Grossman LLC Urges Medpace Holdings, Inc. Investors to Act: Class Action Filed Alleging Investor Harm",
-    "source_summary": "NEW YORK, June 8, 2026 /PRNewswire/ -- Bronstein, Gewirtz & Grossman, LLC, a nationally recognized investor-rights law firm, announces that a class action lawsuit has been filed against Medpace Holdings, Inc. (NASDAQ: MEDP) and certain of its officers. This lawsuit seeks to recover...",
-    "drafted_at": "2026-06-09T02:01:02.063197",
-    "data": {
-      "source": "PR NEWSWIRE"
-    },
-    "content_hash": "6f1cd03573c0d705"
-  },
-  {
-    "id": "85f52f71",
+    "id": "94462e59",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "One off the streets: In April this year, the DOJ indicted the Southern Poverty Law Center on federal fraud, false statements, and money laundering charges for allegedly secretly funneling over $3 million in donor funds from 2014 to 2023 to paid informants and leaders tied to white supremacist and extremist groups like the KKK, Aryan Nations, National Alliance, and National Socialist Movement \u2014 while still soliciting donations by claiming to be the ones dismantling the groups.\n\nWhile much of conservative America is busy rightly raging over the SPLC\u2019s alleged manufacturing of the very extremism it purports to oppose, comedian and BlazeTV host Dave Landau is doing what he does best: turning the whole ridiculous scandal into comedy gold.\n\nIn true Landau fashion, he resurrects the SPLC\u2019s cheesy 1-800-FIGHT-HATE ad format \u2014 only this time it\u2019s a deadpan Sarah McLachlan-style plea where Dave, decked out in full Klan robes, plays a sobbing, helpless white supremacist begging for donations while \u201csuffering\u201d through everyday life.\n\nMaking matters even funnier, X user James Harris asked Grok if the video was a real SPLC ad, and it answered in the affirmative.\n\nSince the SPLC won\u2019t expose its own grift, comedy will do it with a smile.\n\nTo enjoy more of Stu and Dave's lethal blend of wit, humor, and insightful commentary subscribe to BlazeTV \u2014 the largest multi-platform network of voices who love America, defend the Constitution, and live the American dream.\n\nhttps://www.theblaze.com/shows/stu-and-dave-do-america/watch-dave-landau-turns-splcs-latest-scandal-into-comedy-gold",
@@ -265,14 +265,14 @@
     "source_url": "https://www.theblaze.com/shows/stu-and-dave-do-america/watch-dave-landau-turns-splcs-latest-scandal-into-comedy-gold",
     "source_title": "WATCH: Dave Landau turns SPLC\u2019s latest scandal into comedy gold",
     "source_summary": "In April this year, the DOJ indicted the Southern Poverty Law Center on federal fraud, false statements, and money laundering charges for allegedly secretly funneling over $3 million in donor funds from 2014 to 2023 to paid informants and leaders tied to white supremacist and extremist groups like the KKK, Aryan Nations, National Alliance, and National Socialist Movement \u2014 while still soliciting d",
-    "drafted_at": "2026-06-09T02:01:02.065019",
+    "drafted_at": "2026-06-09T06:39:17.183477",
     "data": {
       "source": "THE BLAZE"
     },
     "content_hash": "a7f7859ce9250400"
   },
   {
-    "id": "3bc6f9e1",
+    "id": "10bc0ff6",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Amaryllis Fox Kennedy, who recently stepped down from two senior administration posts, was serving as a CIA officer during the dispute.\n\nhttps://www.icij.org/investigations/paradise-papers/trump-intelligence-adviser-previously-helped-father-pursue-millions-from-kremlin-linked-bank-leaked-documents-show/",
@@ -282,14 +282,14 @@
     "source_url": "https://www.icij.org/investigations/paradise-papers/trump-intelligence-adviser-previously-helped-father-pursue-millions-from-kremlin-linked-bank-leaked-documents-show/",
     "source_title": "Trump intelligence adviser previously helped father pursue millions from Kremlin-linked bank, leaked documents show",
     "source_summary": "Amaryllis Fox Kennedy, who recently stepped down from two senior administration posts, was serving as a CIA officer during the dispute.",
-    "drafted_at": "2026-06-09T02:01:02.065281",
+    "drafted_at": "2026-06-09T06:39:17.183681",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "f9a4e2950958d2cd"
   },
   {
-    "id": "d20a9d93",
+    "id": "2e0ec15b",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The wolves howled, the regulators listened. Sam Bankman-Fried says he would welcome a Trump pardon but insists he has not lobbied the White House, telling FOX Business from prison he is innocent.\n\nhttps://www.foxbusiness.com/markets/convicted-ftx-founder-sam-bankman-fried-insists-hes-innocent-exclusive-prison-interview",
@@ -299,184 +299,184 @@
     "source_url": "https://www.foxbusiness.com/markets/convicted-ftx-founder-sam-bankman-fried-insists-hes-innocent-exclusive-prison-interview",
     "source_title": "Convicted FTX founder Sam Bankman-Fried insists he's innocent in exclusive prison interview",
     "source_summary": "Sam Bankman-Fried says he would welcome a Trump pardon but insists he has not lobbied the White House, telling FOX Business from prison he is innocent.",
-    "drafted_at": "2026-06-09T02:01:02.065543",
+    "drafted_at": "2026-06-09T06:39:17.183882",
     "data": {
       "source": "FOX BUSINESS"
     },
     "content_hash": "b54a43ae5b171143"
   },
   {
-    "id": "d104f856",
+    "id": "646ef788",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 CHINA: The data reinforces the structural shift underway in the world's largest auto market, with high oil prices accelerating the transition away from internal combustion vehicles faster than the headline sales decline might suggest.\n\nThe record 62.9% NEV share and 54% of exports being new-energy vehicles signals that Chinese manufacturers are using the domestic downturn to sharpen their export-oriented EV proposition.\n\nFor oil demand forecasters, a sustained shift in China's vehicle mix at this pace carries meaningful long-run implications for gasoline consumption.\n\nThe sequential improvement from April and an anticipated modest June recovery provide some floor, but tighter financing conditions and cautious consumers suggest no sharp rebound is imminent. -- China retail passenger car sales dropped 22.1% year-on-year in May to 1.51 million units, while EVs and hybrids captured a record 62.9% share as high oil prices hammered petrol car demand.\n\nSummary: Source: China Passenger Car Association, via T he Wall Street Journal (gated) Retail passenger car sales fell 22.1% year-on-year to 1.51 million units in May, reflecting continued weak domestic demand EVs and plug-in hybrids reached a record 62.9% of new car sales, even as new-energy vehicle retail volumes fell 7.5% to 950,000 units The CPCA attributed the weakness in fuel-powered vehicle demand primarily to the surge in oil prices Month-on-month, total retail passenger car sales rose 9.2% from April, supported by stabilising promotions following a government campaign against excessive price competition and a demand lift from the Beijing Auto Show China exported 784,000 vehicles in May, with new-energy vehicles accounting for a record 54% of total exports Tesla shipped 38,701 units from its Shanghai plant and sold 85,982 vehicles to Chinese buyers in the month A modest sequential recovery is expected in June, though subdued consumer spending, tighter auto financing and high fuel prices are expected to keep a lid on growth China's auto market extended its slump in May, with retail passenger car sales dropping 22.1% from a year earlier to 1.51 million units, as surging oil prices continued to erode demand for petrol-powered vehicles and push buyers toward electric and hybrid alternatives.\n\nThe China Passenger Car Association said EVs and plug-in hybrids captured a record 62.9% of new car sales during the month, even as overall new-energy vehicle retail volumes declined 7.5% to 950,000 units, reflecting the broader market contraction rather than any weakening of the structural shift away from combustion engines.\n\nOn a monthly basis the picture was less bleak, with total retail sales up 9.2% from April.\n\nA government push to curb excessive price discounting helped stabilise promotions and reduced consumers' incentive to wait for deeper cuts, while the Beijing Auto Show in late April provided a modest demand stimulus.\n\nhttps://investinglive.com/news/china-car-sales-fall-22-in-may-as-oil-prices-crush-petrol-demand-20260609/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/china-car-sales-fall-22-in-may-as-oil-prices-crush-petrol-demand-20260609/",
-    "source_title": "China car sales fall 22% in May as oil prices crush petrol demand",
-    "source_summary": "The data reinforces the structural shift underway in the world's largest auto market, with high oil prices accelerating the transition away from internal combustion vehicles faster than the headline sales decline might suggest. The record 62.9% NEV share and 54% of exports being new-energy vehicles signals that Chinese manufacturers are using the domestic downturn to sharpen their export-oriented ",
-    "drafted_at": "2026-06-09T02:01:02.072194",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "f19ae30e8c3c6df8"
-  },
-  {
-    "id": "51130b5a",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "MIDDLE EAST DESK: Middle Eastern tensions disrupt global markets, highlighting the fragile balance between geopolitical stability and economic volatility.\n\nThe post Iran fires missiles at Israel as Trump scrambles to save ceasefire, Bitcoin drops below $63K appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iran-missiles-israel-bitcoin-drops-2/",
+    "draft_text": "MIDDLE EAST DESK: Saudi Arabia's price cut signals shifting power dynamics in global oil markets, highlighting Asia's growing influence and demand uncertainties.\n\nThe post Saudi Arabia slashes July oil prices for Asia by $6 as demand cools appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/saudi-arabia-cuts-july-oil-price-asia/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/iran-missiles-israel-bitcoin-drops-2/",
-    "source_title": "Iran fires missiles at Israel as Trump scrambles to save ceasefire, Bitcoin drops below $63K",
-    "source_summary": "Middle Eastern tensions disrupt global markets, highlighting the fragile balance between geopolitical stability and economic volatility. The post Iran fires missiles at Israel as Trump scrambles to save ceasefire, Bitcoin drops below $63K appeared first on Crypto Briefing .",
-    "drafted_at": "2026-06-09T02:01:02.072740",
+    "source_url": "https://cryptobriefing.com/saudi-arabia-cuts-july-oil-price-asia/",
+    "source_title": "Saudi Arabia slashes July oil prices for Asia by $6 as demand cools",
+    "source_summary": "Saudi Arabia's price cut signals shifting power dynamics in global oil markets, highlighting Asia's growing influence and demand uncertainties. The post Saudi Arabia slashes July oil prices for Asia by $6 as demand cools appeared first on Crypto Briefing .",
+    "drafted_at": "2026-06-09T06:39:17.185169",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "859899689e70607f"
+    "content_hash": "1dd2d7b928962c5d"
   },
   {
-    "id": "6939c68d",
+    "id": "02bd21d7",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 CHINA: The People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Tuesday at 6.8147 compared to the previous day's fix of 6.8198 and 6.7809 Reuters estimate.\n\nhttps://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-68147-vs-68198-previous-202606090115",
+    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: The escalation heightens geopolitical tensions, impacting global markets and investor sentiment, with potential long-term economic repercussions.\n\nThe post Iran launches missile attack on Israel, rattling crypto markets as Bitcoin slides appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iran-missile-attack-israel-crypto-markets/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-68147-vs-68198-previous-202606090115",
-    "source_title": "PBOC sets USD/CNY reference rate at 6.8147 vs. 6.8198 previous",
-    "source_summary": "The People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Tuesday at 6.8147 compared to the previous day's fix of 6.8198 and 6.7809 Reuters estimate.",
-    "drafted_at": "2026-06-09T02:01:02.073169",
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/iran-missile-attack-israel-crypto-markets/",
+    "source_title": "Iran launches missile attack on Israel, rattling crypto markets as Bitcoin slides",
+    "source_summary": "The escalation heightens geopolitical tensions, impacting global markets and investor sentiment, with potential long-term economic repercussions. The post Iran launches missile attack on Israel, rattling crypto markets as Bitcoin slides appeared first on Crypto Briefing .",
+    "drafted_at": "2026-06-09T06:39:17.185461",
     "data": {
-      "source": "FXSTREET"
+      "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "90163ed342dbc6bd"
+    "content_hash": "6e84e5592415b9c5"
   },
   {
-    "id": "541378dc",
+    "id": "7444862b",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 CHINA: NZD/USD loses ground after registering modest losses in the previous day, trading around 0.5800 during the Asian hours on Tuesday.\n\nThe pair declines as the US Dollar (USD) holds ground amid uncertainty surrounding the Middle East ceasefire.\n\nhttps://www.fxstreet.com/news/new-zealand-dollar-eases-ahead-of-china-trade-balance-data-202606090109",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/new-zealand-dollar-eases-ahead-of-china-trade-balance-data-202606090109",
-    "source_title": "New Zealand Dollar eases ahead of China Trade Balance data",
-    "source_summary": "NZD/USD loses ground after registering modest losses in the previous day, trading around 0.5800 during the Asian hours on Tuesday. The pair declines as the US Dollar (USD) holds ground amid uncertainty surrounding the Middle East ceasefire.",
-    "drafted_at": "2026-06-09T02:01:02.073553",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "bb300a69d7383543"
-  },
-  {
-    "id": "7afc61e5",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 CHINA: The AUD/USD pair struggles to capitalize on the previous day's modest bounce from its lowest level since April 13 and drifts lower during the Asian session on Tuesday.\n\nhttps://www.fxstreet.com/news/australian-dollar-hangs-near-two-month-low-vs-usd-ahead-of-chinas-trade-balance-data-202606090109",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/australian-dollar-hangs-near-two-month-low-vs-usd-ahead-of-chinas-trade-balance-data-202606090109",
-    "source_title": "Australian Dollar hangs near two-month low vs USD ahead of China's Trade Balance data",
-    "source_summary": "The AUD/USD pair struggles to capitalize on the previous day's modest bounce from its lowest level since April 13 and drifts lower during the Asian session on Tuesday.",
-    "drafted_at": "2026-06-09T02:01:02.073800",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "92ac6b82f963048d"
-  },
-  {
-    "id": "d8adb32f",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "Goods-flow update: The data reinforces the structural shift underway in the world's largest auto market, with high oil prices accelerating the transition away from internal combustion vehicles faster than the headline sales decline might suggest.\n\nThe record 62.9% NEV share and 54% of exports being new-energy vehicles signals that Chinese manufacturers are using the domestic downturn to sharpen their export-oriented EV proposition.\n\nFor oil demand forecasters, a sustained shift in China's vehicle mix at this pace carries meaningful long-run implications for gasoline consumption.\n\nThe sequential improvement from April and an anticipated modest June recovery provide some floor, but tighter financing conditions and cautious consumers suggest no sharp rebound is imminent. -- China retail passenger car sales dropped 22.1% year-on-year in May to 1.51 million units, while EVs and hybrids captured a record 62.9% share as high oil prices hammered petrol car demand.\n\nSummary: Source: China Passenger Car Association, via T he Wall Street Journal (gated) Retail passenger car sales fell 22.1% year-on-year to 1.51 million units in May, reflecting continued weak domestic demand EVs and plug-in hybrids reached a record 62.9% of new car sales, even as new-energy vehicle retail volumes fell 7.5% to 950,000 units The CPCA attributed the weakness in fuel-powered vehicle demand primarily to the surge in oil prices Month-on-month, total retail passenger car sales rose 9.2% from April, supported by stabilising promotions following a government campaign against excessive price competition and a demand lift from the Beijing Auto Show China exported 784,000 vehicles in May, with new-energy vehicles accounting for a record 54% of total exports Tesla shipped 38,701 units from its Shanghai plant and sold 85,982 vehicles to Chinese buyers in the month A modest sequential recovery is expected in June, though subdued consumer spending, tighter auto financing and high fuel prices are expected to keep a lid on growth China's auto market extended its slump in May, with retail passenger car sales dropping 22.1% from a year earlier to 1.51 million units, as surging oil prices continued to erode demand for petrol-powered vehicles and push buyers toward electric and hybrid alternatives.\n\nThe China Passenger Car Association said EVs and plug-in hybrids captured a record 62.9% of new car sales during the month, even as overall new-energy vehicle retail volumes declined 7.5% to 950,000 units, reflecting the broader market contraction rather than any weakening of the structural shift away from combustion engines.\n\nOn a monthly basis the picture was less bleak, with total retail sales up 9.2% from April.\n\nA government push to curb excessive price discounting helped stabilise promotions and reduced consumers' incentive to wait for deeper cuts, while the Beijing Auto Show in late April provided a modest demand stimulus.\n\nhttps://investinglive.com/news/china-car-sales-fall-22-in-may-as-oil-prices-crush-petrol-demand-20260609/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/china-car-sales-fall-22-in-may-as-oil-prices-crush-petrol-demand-20260609/",
-    "source_title": "China car sales fall 22% in May as oil prices crush petrol demand",
-    "source_summary": "The data reinforces the structural shift underway in the world's largest auto market, with high oil prices accelerating the transition away from internal combustion vehicles faster than the headline sales decline might suggest. The record 62.9% NEV share and 54% of exports being new-energy vehicles signals that Chinese manufacturers are using the domestic downturn to sharpen their export-oriented ",
-    "drafted_at": "2026-06-09T02:01:02.136667",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "f19ae30e8c3c6df8"
-  },
-  {
-    "id": "80874692",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "TRADE-BALANCE READ: NZD/USD loses ground after registering modest losses in the previous day, trading around 0.5800 during the Asian hours on Tuesday.\n\nThe pair declines as the US Dollar (USD) holds ground amid uncertainty surrounding the Middle East ceasefire.\n\nhttps://www.fxstreet.com/news/new-zealand-dollar-eases-ahead-of-china-trade-balance-data-202606090109",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/new-zealand-dollar-eases-ahead-of-china-trade-balance-data-202606090109",
-    "source_title": "New Zealand Dollar eases ahead of China Trade Balance data",
-    "source_summary": "NZD/USD loses ground after registering modest losses in the previous day, trading around 0.5800 during the Asian hours on Tuesday. The pair declines as the US Dollar (USD) holds ground amid uncertainty surrounding the Middle East ceasefire.",
-    "drafted_at": "2026-06-09T02:01:02.137000",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "bb300a69d7383543"
-  },
-  {
-    "id": "303bbe59",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "Imports vs. exports scoreboard: The AUD/USD pair struggles to capitalize on the previous day's modest bounce from its lowest level since April 13 and drifts lower during the Asian session on Tuesday.\n\nhttps://www.fxstreet.com/news/australian-dollar-hangs-near-two-month-low-vs-usd-ahead-of-chinas-trade-balance-data-202606090109",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/australian-dollar-hangs-near-two-month-low-vs-usd-ahead-of-chinas-trade-balance-data-202606090109",
-    "source_title": "Australian Dollar hangs near two-month low vs USD ahead of China's Trade Balance data",
-    "source_summary": "The AUD/USD pair struggles to capitalize on the previous day's modest bounce from its lowest level since April 13 and drifts lower during the Asian session on Tuesday.",
-    "drafted_at": "2026-06-09T02:01:02.137263",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "92ac6b82f963048d"
-  },
-  {
-    "id": "453585d0",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "Affordability scoreboard: Australia\u2019s consumer sentiment slipped into \u201cdeeply pessimistic\u201d territory as households struggle with cost of living pressures and concerns emerge over the outlook for the housing market following tax changes.\n\nhttps://financialpost.com/pmn/business-pmn/australian-consumers-are-deeply-pessimistic-as-finances-squeezed",
+    "draft_text": "Levant update: Saudi Arabia\u2019s Mutlaq Al-Ghowairi Contracting Co. has postponed plans for an initial public offering that was set to raise as much as $799 million and rank as the region\u2019s first major listing of the year.\n\nhttps://financialpost.com/pmn/business-pmn/saudi-contractor-mgc-said-to-postpone-799-million-riyadh-ipo",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/pmn/business-pmn/australian-consumers-are-deeply-pessimistic-as-finances-squeezed",
-    "source_title": "Australian Consumers Deeply Pessimistic as Finances Squeezed",
-    "source_summary": "Australia\u2019s consumer sentiment slipped into \u201cdeeply pessimistic\u201d territory as households struggle with cost of living pressures and concerns emerge over the outlook for the housing market following tax changes.",
-    "drafted_at": "2026-06-09T02:01:02.137608",
+    "source_url": "https://financialpost.com/pmn/business-pmn/saudi-contractor-mgc-said-to-postpone-799-million-riyadh-ipo",
+    "source_title": "Saudi Contractor MGC Said to Postpone $799 Million Riyadh IPO",
+    "source_summary": "Saudi Arabia\u2019s Mutlaq Al-Ghowairi Contracting Co. has postponed plans for an initial public offering that was set to raise as much as $799 million and rank as the region\u2019s first major listing of the year.",
+    "drafted_at": "2026-06-09T06:39:17.185894",
     "data": {
       "source": "FINANCIAL POST"
     },
-    "content_hash": "1550d2410a04c833"
+    "content_hash": "8e57bfb7a00ba641"
   },
   {
-    "id": "a8ab2ad6",
+    "id": "889333ad",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "GLOBAL DESK: Russia is passing on some of the responsibility for protecting critical factories and infrastructure onto private companies as Kyiv ramps up drone attacks on industrial plants, ports and oil refineries.\n\nhttps://financialpost.com/pmn/business-pmn/russia-moves-to-shift-cost-of-drone-defenses-onto-companies",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FINANCIAL POST",
+    "source_url": "https://financialpost.com/pmn/business-pmn/russia-moves-to-shift-cost-of-drone-defenses-onto-companies",
+    "source_title": "Russia Moves to Shift Cost of Drone Defenses Onto Companies",
+    "source_summary": "Russia is passing on some of the responsibility for protecting critical factories and infrastructure onto private companies as Kyiv ramps up drone attacks on industrial plants, ports and oil refineries.",
+    "drafted_at": "2026-06-09T06:39:17.186174",
+    "data": {
+      "source": "FINANCIAL POST"
+    },
+    "content_hash": "ed1ae7de5e07afb1"
+  },
+  {
+    "id": "16b8abc3",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "From Beijing: Chinese President Xi has been welcomed in Pyongyang for his first visit since 2019.\n\nhttps://www.aljazeera.com/news/2026/6/9/as-close-as-lips-and-teeth-the-highs-and-lows-of-china-north-korea-ties?traffic_source=rss",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "AL JAZEERA",
+    "source_url": "https://www.aljazeera.com/news/2026/6/9/as-close-as-lips-and-teeth-the-highs-and-lows-of-china-north-korea-ties?traffic_source=rss",
+    "source_title": "\u2018As close as lips and teeth\u2019: The highs and lows of China-North Korea ties",
+    "source_summary": "Chinese President Xi has been welcomed in Pyongyang for his first visit since 2019.",
+    "drafted_at": "2026-06-09T06:39:17.186324",
+    "data": {
+      "source": "AL JAZEERA"
+    },
+    "content_hash": "3f3527bda2b5522e"
+  },
+  {
+    "id": "fa32d544",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "Consumer scoreboard: The sharp rebound in both BRC and Barclays data will offer some near-term relief for UK consumer sentiment readings, but the underlying picture remains cautious.\n\nSpending growth of 0.8% annually remains well below the 3% inflation rate, meaning real consumer purchasing power is still being eroded.\n\nThe third consecutive monthly decline in travel and the 12.9% drop in airline spending are the starkest signals that geopolitical anxiety around the Iran conflict is actively shaping household behaviour beyond the retail sector.\n\nFor Bank of England watchers, the mix of recovering retail volumes but persistent real-terms weakness and travel caution keeps the policy outlook finely balanced. --- UK retail sales jumped 3.7% year-on-year in May, the biggest rise since April 2025, driven by heatwave demand, though travel spending fell for a third straight month on Iran war caution.\n\nSummary: BRC total retail sales rose 3.7% year-on-year in May, reversing a 3.0% decline in April and marking the strongest annual increase since April 2025 BRC like-for-like sales gained 3.4% year-on-year versus a 3.4% fall in April, also the best reading since April 2025 Barclays consumer spending rose 0.8% annually in May, up from a 0.1% decline in April, though still running well below the roughly 3% inflation rate Heatwave conditions and the early May bank holiday boosted food and drink, clothing, footwear, health and beauty, and outdoor goods across both surveys Travel spending fell 5.8% for a third consecutive month, with airline expenditure down 12.9% year-on-year; two in three Barclays respondents said they were making financial adjustments in response to economic uncertainty BRC chief executive Helen Dickinson credited the May heatwave with driving a surge in outdoor and summer goods, with food sales lifted by bank holiday barbecue demand British consumers increased their spending sharply in May, snapping a run of weakness in April, though persistent caution over the economic fallout from the Iran conflict continued to suppress travel expenditure for a third consecutive month.\n\nThe British Retail Consortium reported total retail sales growth of 3.7% year-on-year in May, the strongest annual increase since April 2025 and a decisive reversal from a 3.0% decline the previous month.\n\nLike-for-like sales rose 3.4%, compared with a 3.4% fall in April, also the best reading in over a year.\n\nFood sales advanced 3.9% and non-food 3.5%.\n\nhttps://investinglive.com/news/uk-retail-sales-surge-in-may-with-biggest-annual-rise-since-april-2025-20260608/",
+    "draft_text": "Inflation update: EUROPEAN SESSION In the European session, we don't have anything on the agenda, so the price action will likely remain rangebound unless we get some catalyst from the US-Iran side.\n\nAMERICAN SESSION In the American session, we just get a couple of low tier releases like the US and Canadian trade balance or US existing home sales data that won't change anything for the respective central banks.\n\nThe mood in the markets is a bit more positive as the latest escalation between Iran and Israel ended quickly and Trump continues to tout an imminent deal.\n\nHowever, the main event this week is the US CPI report tomorrow as that could exacerbate the recent hawkish moves or trigger a short-term relief rally.\n\nThis article was written by Giuseppe Dellamotta at investinglive.com.\n\nhttps://investinglive.com/news/what-are-the-main-events-for-today-20260609/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/uk-retail-sales-surge-in-may-with-biggest-annual-rise-since-april-2025-20260608/",
-    "source_title": "UK retail sales surge in May with biggest annual rise since April 2025",
-    "source_summary": "The sharp rebound in both BRC and Barclays data will offer some near-term relief for UK consumer sentiment readings, but the underlying picture remains cautious. Spending growth of 0.8% annually remains well below the 3% inflation rate, meaning real consumer purchasing power is still being eroded. The third consecutive monthly decline in travel and the 12.9% drop in airline spending are the starke",
-    "drafted_at": "2026-06-09T02:01:02.140294",
+    "source_url": "https://investinglive.com/news/what-are-the-main-events-for-today-20260609/",
+    "source_title": "What are the main events for today?",
+    "source_summary": "EUROPEAN SESSION In the European session, we don't have anything on the agenda, so the price action will likely remain rangebound unless we get some catalyst from the US-Iran side. AMERICAN SESSION In the American session, we just get a couple of low tier releases like the US and Canadian trade balance or US existing home sales data that won't change anything for the respective central banks. The ",
+    "drafted_at": "2026-06-09T06:39:17.246578",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "4132a8d4ab221744"
+    "content_hash": "0ead8fe0d5260e32"
   },
   {
-    "id": "ce3dd2f4",
+    "id": "4a9d3b35",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "DATA DROP: Germany\u2019s industrial sector activity rebounds in April, the latest data published by Destatis showed on Tuesday.\n\nhttps://www.fxstreet.com/news/germanys-industrial-production-rises-04-mom-in-april-as-expected-202606090602",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/germanys-industrial-production-rises-04-mom-in-april-as-expected-202606090602",
+    "source_title": "Germany\u2019s Industrial Production rises 0.4% MoM in April, as expected",
+    "source_summary": "Germany\u2019s industrial sector activity rebounds in April, the latest data published by Destatis showed on Tuesday.",
+    "drafted_at": "2026-06-09T06:39:17.246774",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "ae19bc1a55d4130a"
+  },
+  {
+    "id": "535ba366",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "How sticky is inflation? Let's see: On Wednesday, June 10, the US inflation reading is either a floor or a trapdoor for Bitcoin and gold investors.\n\nThe US Consumer Price Index (CPI), the monthly measure of inflation across the economy, is a key indicator for several markets to watch on Wednesday.\n\nAnother Fed Signal There is now a 70% chance of The post US CPI Data is Critical for Bitcoin and Gold This Week appeared first on BeInCrypto.\n\nhttps://beincrypto.com/us-cpi-bitcoin-gold-risk-fed-rate-hike/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "BEINCRYPTO",
+    "source_url": "https://beincrypto.com/us-cpi-bitcoin-gold-risk-fed-rate-hike/",
+    "source_title": "US CPI Data is Critical for Bitcoin and Gold This Week",
+    "source_summary": "On Wednesday, June 10, the US inflation reading is either a floor or a trapdoor for Bitcoin and gold investors. The US Consumer Price Index (CPI), the monthly measure of inflation across the economy, is a key indicator for several markets to watch on Wednesday. Another Fed Signal There is now a 70% chance of The post US CPI Data is Critical for Bitcoin and Gold This Week appeared first on BeInCryp",
+    "drafted_at": "2026-06-09T06:39:17.247145",
+    "data": {
+      "source": "BEINCRYPTO"
+    },
+    "content_hash": "09c2105063522375"
+  },
+  {
+    "id": "a1c466ad",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "DATA DROP: Industrial production +0.4% vs +0.5% m/m expected Prior -0.7%; revised to -0.1% The increase in industrial output for the month comes mostly from both the construction and energy-intensive industries.\n\nWhen taking into account manufacturing excluding energy and construction, German industrial production for April was unchanged compared to March.\n\nJust also note that there was a marked revision higher to the March numbers though.\n\nOf note, the construction sector saw a 2.4% increase in monthly production in April.\n\nThat largely came from the chemical industry (+2.1%) and in the manufacture of metal products (+1.6%).\n\nMeanwhile, production in energy-intensive industries increased by 1.0% compared to March.\n\nLooking at the detailed breakdown, the production of intermediate goods increased by 1.4% and production of consumer goods by 1.9%.\n\nMeanwhile, the production of capital goods decreased by 1.5% on the month.\n\nhttps://investinglive.com/news/germany-april-industrial-production-04-vs-05-mm-expected-20260609/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/germany-april-industrial-production-04-vs-05-mm-expected-20260609/",
+    "source_title": "German industrial production rebounds in April on higher energy, construction output",
+    "source_summary": "Industrial production +0.4% vs +0.5% m/m expected Prior -0.7%; revised to -0.1% The increase in industrial output for the month comes mostly from both the construction and energy-intensive industries. When taking into account manufacturing excluding energy and construction, German industrial production for April was unchanged compared to March. Just also note that there was a marked revision highe",
+    "drafted_at": "2026-06-09T06:39:17.248054",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "98eab1bd0be97123"
+  },
+  {
+    "id": "a15110d3",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "From the inflation desk: Silver price (XAG/USD) trades marginally lower at around $67.90 during the European trading session on Tuesday.\n\nThe white metal faces slight selling pressure as investors turn cautious ahead of the United States (US) Consumer Price Index (CPI) data for May, which will be published on Wednesday.\n\nhttps://www.fxstreet.com/news/silver-price-forecast-xag-usd-trades-with-caution-around-68-as-us-cpi-takes-centre-stage-202606090544",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-trades-with-caution-around-68-as-us-cpi-takes-centre-stage-202606090544",
+    "source_title": "Silver Price Forecast: XAG/USD trades with caution around $68 as US CPI takes centre stage",
+    "source_summary": "Silver price (XAG/USD) trades marginally lower at around $67.90 during the European trading session on Tuesday. The white metal faces slight selling pressure as investors turn cautious ahead of the United States (US) Consumer Price Index (CPI) data for May, which will be published on Wednesday.",
+    "drafted_at": "2026-06-09T06:39:17.248328",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "0774ec7658bf20d6"
+  },
+  {
+    "id": "78380131",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -486,7 +486,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-06-09T02:01:02.141839",
+    "drafted_at": "2026-06-09T06:39:17.254706",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -494,7 +494,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "139dae8b",
+    "id": "2d511d2f",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "When everyone's positioned for a crash, the crash takes a vacation.",
@@ -504,14 +504,14 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "When everyone's positioned for a crash, the crash takes a vacation.",
-    "drafted_at": "2026-06-09T02:01:02.141941",
+    "drafted_at": "2026-06-09T06:39:17.254784",
     "data": {
       "take_seed": "2026-06-09-pack-1"
     },
     "content_hash": "9b0f7be55d8ef71c"
   },
   {
-    "id": "13597b2f",
+    "id": "d196eca7",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Gold doesn't pay a dividend. Neither does a fire extinguisher.",
@@ -521,7 +521,7 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Gold doesn't pay a dividend. Neither does a fire extinguisher.",
-    "drafted_at": "2026-06-09T02:01:02.142002",
+    "drafted_at": "2026-06-09T06:39:17.254830",
     "data": {
       "take_seed": "2026-06-09-pack-2"
     },
