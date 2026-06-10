@@ -1,30 +1,16 @@
 {
-  "GC=F:move:2026-06-10": {
-    "headline": "Gold slides 7.6% in 5 sessions to $4,213.20",
-    "matters": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
-    "source": "COMEX \u00b7 GC=F",
+  "^VIX:move:2026-06-08": {
+    "headline": "VIX rips 23.5% in 5 sessions to 18.92",
+    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "source": "CBOE \u00b7 ^VIX",
     "chart_path": null,
-    "signal_id": "GC=F:move:2026-06-10",
-    "current_str": "$4,213.20",
-    "label": "Gold futures",
-    "hashtags": "#Gold #PreciousMetals #Commodities",
-    "kind": "move_down",
-    "badge": "-7.6%",
-    "data_url": "https://finance.yahoo.com/quote/GC%3DF",
-    "fired_at": "2026-06-10T02:10:05.777484"
-  },
-  "BTC-USD:move:2026-06-10": {
-    "headline": "Bitcoin craters 16.3% in 5 sessions to $61,586",
-    "matters": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
-    "source": "Yahoo Finance \u00b7 BTC-USD",
-    "chart_path": null,
-    "signal_id": "BTC-USD:move:2026-06-10",
-    "current_str": "$61,586",
-    "label": "Bitcoin",
-    "hashtags": "#Bitcoin #BTC #Crypto",
-    "kind": "move_down",
-    "badge": "-16.3%",
-    "data_url": "https://finance.yahoo.com/quote/BTC-USD",
-    "fired_at": "2026-06-10T02:10:05.777484"
+    "signal_id": "^VIX:move:2026-06-08",
+    "current_str": "18.92",
+    "label": "VIX (S&P 500 volatility)",
+    "hashtags": "#VIX #Volatility #Markets",
+    "kind": "move_up",
+    "badge": "+23.5%",
+    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "fired_at": "2026-06-10T06:57:43.274837"
   }
 }
