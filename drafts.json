@@ -1,23 +1,78 @@
 [
   {
-    "id": "70bb607f",
+    "id": "70a4f1fa",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "PACK FRONT-PAGE: The US Dollar Index (DXY) trades with a cautious tone near the 99.90 region on Tuesday as investors position ahead of Wednesday's highly anticipated United States (US) Consumer Price Index (CPI) report, with inflation expected to tick higher in May.\n\nhttps://www.fxstreet.com/news/forex-today-us-cpi-in-focus-as-us-dollar-holds-steady-amid-middle-east-war-escalation-202606092016",
+    "draft_text": "FRONT-PAGE FOR THE PACK: The GBP/USD pair struggles to capitalize on its recovery gains recorded over the past two days, from a three-week low, and oscillates in a narrow band during the Asian session on Wednesday.\n\nhttps://www.fxstreet.com/news/british-pound-consolidates-below-13400-vs-usd-amid-fresh-iran-tensions-ahead-of-us-cpi-202606100157",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/forex-today-us-cpi-in-focus-as-us-dollar-holds-steady-amid-middle-east-war-escalation-202606092016",
-    "source_title": "Forex Today: US CPI in focus as US Dollar holds steady amid Middle East war escalation",
-    "source_summary": "The US Dollar Index (DXY) trades with a cautious tone near the 99.90 region on Tuesday as investors position ahead of Wednesday's highly anticipated United States (US) Consumer Price Index (CPI) report, with inflation expected to tick higher in May.",
-    "drafted_at": "2026-06-09T23:09:37.760374",
+    "source_url": "https://www.fxstreet.com/news/british-pound-consolidates-below-13400-vs-usd-amid-fresh-iran-tensions-ahead-of-us-cpi-202606100157",
+    "source_title": "British Pound consolidates below 1.3400 vs USD amid fresh Iran tensions, ahead of US CPI",
+    "source_summary": "The GBP/USD pair struggles to capitalize on its recovery gains recorded over the past two days, from a three-week low, and oscillates in a narrow band during the Asian session on Wednesday.",
+    "drafted_at": "2026-06-10T02:10:09.685663",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "33bc8d53fe070b32"
+    "content_hash": "82ccb27696819a9d"
   },
   {
-    "id": "3acb1c24",
+    "id": "22a50ec7",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "While everyone's debating, this happened: Gold slides 7.6% in 5 sessions to $4,213.20.\n\nGold tracks real yields and central bank demand.\n\nMulti-year highs flag debasement or geopolitical hedging flows.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/GC%3DF",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "COMEX \u00b7 GC=F",
+    "source_url": "https://finance.yahoo.com/quote/GC%3DF",
+    "source_title": "Gold futures",
+    "source_summary": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
+    "drafted_at": "2026-06-10T02:10:09.686000",
+    "data": {
+      "signal_id": "GC=F:move:2026-06-10",
+      "kind": "move_down",
+      "current": "$4,213.20"
+    },
+    "content_hash": "514096a7b4f87c16"
+  },
+  {
+    "id": "afee9d8c",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Hot tape: Bitcoin craters 16.3% in 5 sessions to $61,586.\n\nBitcoin is now treated as a macro asset alongside gold and tech.\n\nIts swings move alt-coins, public miners, and crypto-exposed stocks.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/BTC-USD",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Yahoo Finance \u00b7 BTC-USD",
+    "source_url": "https://finance.yahoo.com/quote/BTC-USD",
+    "source_title": "Bitcoin",
+    "source_summary": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
+    "drafted_at": "2026-06-10T02:10:09.686268",
+    "data": {
+      "signal_id": "BTC-USD:move:2026-06-10",
+      "kind": "move_down",
+      "current": "$61,586"
+    },
+    "content_hash": "0e3396ceb3da7211"
+  },
+  {
+    "id": "e662bf58",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "From Beijing's central bank: On Wednesday, the People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.8130 compared to the previous day's fix of 6.8147 and 6.7749 Reuters estimate.\n\nhttps://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-68130-vs-68147-previous-202606100115",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "PBOC",
+    "source_url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-68130-vs-68147-previous-202606100115",
+    "source_title": "PBOC sets USD/CNY reference rate at 6.8130 vs. 6.8147 previous",
+    "source_summary": "On Wednesday, the People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.8130 compared to the previous day's fix of 6.8147 and 6.7749 Reuters estimate.",
+    "drafted_at": "2026-06-10T02:10:09.695950",
+    "data": {
+      "actor": "PBOC"
+    },
+    "content_hash": "98f5df47be5dd37c"
+  },
+  {
+    "id": "6164e736",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "RATE-PATH READ: It evaluates banks' resilience by estimating losses, net revenue, and capital levels\u2014which provide a cushion against losses\u2014under a hypothetical recession scenario.\n\nThe Board's stress test is one tool used to measure whether banks have adequate capital to absorb losses so that they can lend to households and businesses even in a severe recession.\n\nThis year, 32 large banks were subject to the Board's stress test.\n\nThe scenario includes a severe global recession with heightened stress in both commercial and residential real estate markets, as well as in corporate debt markets.\n\nThese stress test results will not impact large bank capital requirements.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260609a.htm",
@@ -27,14 +82,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260609a.htm",
     "source_title": "Federal Reserve Board announces that results from its annual bank stress test will be released on Wednesday, June 24, at 4 p.m. EDT.",
     "source_summary": "Federal Reserve Board announces that results from its annual bank stress test will be released on Wednesday, June 24, at 4 p.m. EDT.",
-    "drafted_at": "2026-06-09T23:09:37.772378",
+    "drafted_at": "2026-06-10T02:10:09.697038",
     "data": {
       "actor": "FED"
     },
     "content_hash": "35487362043c0c4b"
   },
   {
-    "id": "ac88e474",
+    "id": "820b80ec",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "If you watch rates, read this: The agencies are taking this action to complement their earlier actions that ended the use of reputation risk in supervision.\n\nAs the agencies have previously noted, reputation risk can be misused by supervisors as a basis to encourage or pressure a bank to restrict individuals' and legal businesses' access to financial services due to their constitutionally protected political or religious beliefs, speech, or conduct or lawful business activities.\n\nThese updates help ensure supervisory decisions are based on material financial risks, as well as increase clarity and facilitate greater precision in supervisory decision making.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260602a.htm",
@@ -44,14 +99,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260602a.htm",
     "source_title": "Agencies remove additional references to reputation risk",
     "source_summary": "Agencies remove additional references to reputation risk",
-    "drafted_at": "2026-06-09T23:09:37.773369",
+    "drafted_at": "2026-06-10T02:10:09.698030",
     "data": {
       "actor": "FED"
     },
     "content_hash": "037f4db78eebad91"
   },
   {
-    "id": "b5d2d0fd",
+    "id": "43128b2b",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Rate-path desk: The Board's process for setting the discount rate is distinct from the process the Federal Open Market Committee follows in setting the target range for the federal funds rate.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
@@ -61,14 +116,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
     "source_title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
     "source_summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
-    "drafted_at": "2026-06-09T23:09:37.773779",
+    "drafted_at": "2026-06-10T02:10:09.698429",
     "data": {
       "actor": "FED"
     },
     "content_hash": "b2d403ab8c4d5036"
   },
   {
-    "id": "4b80cd88",
+    "id": "38e48c65",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FED WATCH: Also on Friday, the Federal Open Market Committee unanimously selected Warsh as its chairman.\n\nPresident Donald J.\n\nTrump nominated Mr. Warsh on March 4, 2026.\n\nHe was confirmed by the United States Senate to serve as a member of the Board on May 12, and as chairman of the Board on May 13.\n\nHis term as chairman ends on May 21, 2030, and his term as a member of the Board ends on January 31, 2040.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm",
@@ -78,31 +133,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm",
     "source_title": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
     "source_summary": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
-    "drafted_at": "2026-06-09T23:09:37.774420",
+    "drafted_at": "2026-06-10T02:10:09.699069",
     "data": {
       "actor": "FED"
     },
     "content_hash": "a5762f43aa0ef3b0"
   },
   {
-    "id": "f825d0f6",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "Policy update for the pack: Resolution plans, also known as living wills, must describe a banking organization's strategy for orderly resolution in the event of material financial distress or failure.\n\nThe agencies conducted a joint review of the 2025 resolution plan submissions from the eight largest and most complex domestic banking organizations as well as from 56 foreign banking organizations.\n\nThe agencies did not identify any shortcomings or deficiencies in these resolution plan submissions.\n\nThe agencies also determined that each derivatives-related weakness identified in the 2023 plans from Bank of America, Goldman Sachs, JPMorgan Chase, and Citigroup has been satisfactorily addressed.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260522a.htm",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FED",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260522a.htm",
-    "source_title": "Agencies publish resolution plan feedback letters for certain domestic and foreign banking organizations",
-    "source_summary": "Agencies publish resolution plan feedback letters for certain domestic and foreign banking organizations",
-    "drafted_at": "2026-06-09T23:09:37.775373",
-    "data": {
-      "actor": "FED"
-    },
-    "content_hash": "b0e49d2209d92f96"
-  },
-  {
-    "id": "0344bf89",
+    "id": "0c5ec145",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$IFF insider bought $32,284,388 on 2026-06-01, 2 insiders. \ud83d\udc40\n\nInternational Flavors & Fragrances Inc. 444,219 shares at $72.68.\n\n+4.3% since the purchase.\n\nhttp://openinsider.com/screener?s=IFF",
@@ -112,7 +150,7 @@
     "source_url": "http://openinsider.com/screener?s=IFF",
     "source_title": "International Flavors & Fragrances Inc (IFF) insider bought $32,284,388",
     "source_summary": "2 insider(s) bought 444,219 shares at $72.68 on 2026-06-01.",
-    "drafted_at": "2026-06-09T23:09:37.775538",
+    "drafted_at": "2026-06-10T02:10:09.700175",
     "data": {
       "ticker": "IFF",
       "type": "P",
@@ -122,7 +160,27 @@
     "content_hash": "b59bb9be9054dcc6"
   },
   {
-    "id": "846d2978",
+    "id": "65ed2349",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$LFTO insider bought $29,999,981 on 2026-06-05. \ud83d\udc40\n\nLiftoff Mobile, Inc.. 1,304,347 shares at $23.00.\n\n+12.0% since the purchase.\n\nhttp://openinsider.com/screener?s=LFTO",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=LFTO",
+    "source_title": "Liftoff Mobile, Inc. (LFTO) insider bought $29,999,981",
+    "source_summary": "1 insider(s) bought 1,304,347 shares at $23.00 on 2026-06-05.",
+    "drafted_at": "2026-06-10T02:10:09.700295",
+    "data": {
+      "ticker": "LFTO",
+      "type": "P",
+      "dollar_value": 29999981.0,
+      "pct_since": 12.043480251146399
+    },
+    "content_hash": "0670336e4e25f54e"
+  },
+  {
+    "id": "f7531a2c",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$NCLH insider bought $29,163,646 on 2026-06-01, 7 insiders. \ud83d\udc40\n\nNorwegian Cruise Line Holdings Ltd.. 1,633,867 shares at $17.85.\n\n+6.6% since the purchase.\n\nhttp://openinsider.com/screener?s=NCLH",
@@ -132,7 +190,7 @@
     "source_url": "http://openinsider.com/screener?s=NCLH",
     "source_title": "Norwegian Cruise Line Holdings Ltd. (NCLH) insider bought $29,163,646",
     "source_summary": "7 insider(s) bought 1,633,867 shares at $17.85 on 2026-06-01.",
-    "drafted_at": "2026-06-09T23:09:37.775675",
+    "drafted_at": "2026-06-10T02:10:09.700427",
     "data": {
       "ticker": "NCLH",
       "type": "P",
@@ -142,7 +200,7 @@
     "content_hash": "467ccdd401ed9ddb"
   },
   {
-    "id": "76624329",
+    "id": "71fb88e5",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$QNT insider bought $24,649,920 on 2026-06-05, 10 insiders. \ud83d\udc40\n\nQuantinuum Inc.. 410,832 shares at $60.00.\n\n-8.4% since the purchase.\n\nhttp://openinsider.com/screener?s=QNT",
@@ -152,7 +210,7 @@
     "source_url": "http://openinsider.com/screener?s=QNT",
     "source_title": "Quantinuum Inc. (QNT) insider bought $24,649,920",
     "source_summary": "10 insider(s) bought 410,832 shares at $60.00 on 2026-06-05.",
-    "drafted_at": "2026-06-09T23:09:37.775789",
+    "drafted_at": "2026-06-10T02:10:09.700543",
     "data": {
       "ticker": "QNT",
       "type": "P",
@@ -162,7 +220,7 @@
     "content_hash": "1896377d0aa7046f"
   },
   {
-    "id": "50d1e69d",
+    "id": "5bafe5d3",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$RYAN insider bought $4,199,917 on 2026-06-03, 3 insiders. \ud83d\udc40\n\nRyan Specialty Holdings, Inc.. 129,515 shares at $32.43.\n\n+2.8% since the purchase.\n\nhttp://openinsider.com/screener?s=RYAN",
@@ -172,7 +230,7 @@
     "source_url": "http://openinsider.com/screener?s=RYAN",
     "source_title": "Ryan Specialty Holdings, Inc. (RYAN) insider bought $4,199,917",
     "source_summary": "3 insider(s) bought 129,515 shares at $32.43 on 2026-06-03.",
-    "drafted_at": "2026-06-09T23:09:37.775911",
+    "drafted_at": "2026-06-10T02:10:09.700667",
     "data": {
       "ticker": "RYAN",
       "type": "P",
@@ -182,27 +240,75 @@
     "content_hash": "fc6b1f759d78725b"
   },
   {
-    "id": "e8d4e3f9",
-    "format": "CORRUPTION_WATCH_INSIDER",
+    "id": "b4535539",
+    "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "$LODE insider bought $3,219,681 on 2026-06-03, 4 insiders. \ud83d\udc40\n\nComstock Inc.. 882,651 shares at $3.65.\n\n+5.2% since the purchase.\n\nhttp://openinsider.com/screener?s=LODE",
+    "draft_text": "Auyeung helped overseas fraudsters launder $100 million in scam proceeds through crypto and bank accounts, according to the DOJ.\n\nhttps://www.theblock.co/post/404194/washington-man-gets-five-years?utm_source=rss&utm_medium=rss",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=LODE",
-    "source_title": "Comstock Inc. (LODE) insider bought $3,219,681",
-    "source_summary": "4 insider(s) bought 882,651 shares at $3.65 on 2026-06-03.",
-    "drafted_at": "2026-06-09T23:09:37.776029",
+    "primary_source": "THE BLOCK",
+    "source_url": "https://www.theblock.co/post/404194/washington-man-gets-five-years?utm_source=rss&utm_medium=rss",
+    "source_title": "Washington man gets 5 years for helping $100 million crypto money laundering scheme",
+    "source_summary": "Geoffrey K. Auyeung helped overseas fraudsters launder $100 million in scam proceeds through crypto and bank accounts, according to the DOJ.",
+    "drafted_at": "2026-06-10T02:10:09.701832",
     "data": {
-      "ticker": "LODE",
-      "type": "P",
-      "dollar_value": 3219681.0,
-      "pct_since": 5.205477100529085
+      "source": "THE BLOCK"
     },
-    "content_hash": "7d63626d43ee665a"
+    "content_hash": "e192e4e765cde9af"
   },
   {
-    "id": "8070a7b5",
+    "id": "22613b4c",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "The lawsuit highlights growing tensions between tech expansion and community impact, potentially influencing future tech infrastructure projects.\n\nThe post xAI and SpaceX hit with class action lawsuit over data center noise in Mississippi appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/xai-spacex-class-action-data-center/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/xai-spacex-class-action-data-center/",
+    "source_title": "xAI and SpaceX hit with class action lawsuit over data center noise in Mississippi",
+    "source_summary": "The lawsuit highlights growing tensions between tech expansion and community impact, potentially influencing future tech infrastructure projects. The post xAI and SpaceX hit with class action lawsuit over data center noise in Mississippi appeared first on Crypto Briefing .",
+    "drafted_at": "2026-06-10T02:10:09.702230",
+    "data": {
+      "source": "CRYPTO BRIEFING"
+    },
+    "content_hash": "4b912a34d2ade27b"
+  },
+  {
+    "id": "8aee51e5",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "A week after polls closed in California\u2019s closely watched open gubernatorial primary last Tuesday\u2014following a slow trickle of votes that fueled unsubstantiated claims of fraud from the president\u2014Democrat Xavier Becerra and Republican Steve Hilton will advance to the November general election, winnowing down a crowded race to succeed two-term Democratic Gov.\n\nhttps://www.motherjones.com/politics/2026/06/becerra-hilton-steyer-california-governor-primary-election/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "MOTHER JONES",
+    "source_url": "https://www.motherjones.com/politics/2026/06/becerra-hilton-steyer-california-governor-primary-election/",
+    "source_title": "Becerra and Hilton Advance in California Governor\u2019s Race",
+    "source_summary": "A week after polls closed in California\u2019s closely watched open gubernatorial primary last Tuesday\u2014following a slow trickle of votes that fueled unsubstantiated claims of fraud from the president\u2014Democrat Xavier Becerra and Republican Steve Hilton will advance to the November general election, winnowing down a crowded race to succeed two-term Democratic Gov. Gavin Newsom, who has [\u2026]",
+    "drafted_at": "2026-06-10T02:10:09.702803",
+    "data": {
+      "source": "MOTHER JONES"
+    },
+    "content_hash": "4c13e05082b68660"
+  },
+  {
+    "id": "d046a822",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Kalshi, which allows users to bet on an array of topics, plans to require some users to disclose their employers \u2013 after a string of insider trading scandals have rocked so-called prediction market platforms.\n\nThe plans come after an advisory committee recommended more stringent security measures to clamp down on insider trading and market manipulation....\n\nhttps://nypost.com/2026/06/09/business/kalshi-now-requiring-users-to-disclose-employers-for-some-bets-after-string-of-insider-trading-scandals/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NY POST",
+    "source_url": "https://nypost.com/2026/06/09/business/kalshi-now-requiring-users-to-disclose-employers-for-some-bets-after-string-of-insider-trading-scandals/",
+    "source_title": "Kalshi now requiring users to disclose employers for some bets after string of insider trading scandals",
+    "source_summary": "Kalshi, which allows users to bet on an array of topics, plans to require some users to disclose their employers \u2013 after a string of insider trading scandals have rocked so-called prediction market platforms. The plans come after an advisory committee recommended more stringent security measures to clamp down on insider trading and market manipulation. ...",
+    "drafted_at": "2026-06-10T02:10:09.703353",
+    "data": {
+      "source": "NY POST"
+    },
+    "content_hash": "6598d38c2667354a"
+  },
+  {
+    "id": "13c8818b",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "PACK ALERT \u2014 SCAM: As late ballots poured in overnight in the Los Angeles mayoral race, Democratic socialist Nithya Raman overtook Spencer Pratt \u2014 and BlazeTV host Liz Wheeler isn\u2019t buying it, declaring that \u201cthe Democrats have stolen an election again.\u201d \u201cIt\u2019s not a question of did they, it\u2019s a question of how they did,\u201d Wheeler says.\n\n\u201cNot possible for Spencer Pratt to have lost the L.A. runoffs after the big lead he had.\n\nNow they\u2019ll be working on great guy Steve Hilton.\n\nWon\u2019t have results for, possibly, TWO WEEKS, according to officials,\u201d Trump wrote in a post on Truth Social.\n\n\u201cThis is exactly what happened in 2020,\u201d Wheeler says, claiming that conservatives are again being gaslighted over the results.\n\nThe late mail-in ballot numbers are just quite literally unbelievable.\n\nThere is no way that this councilwoman, this no-name councilwoman who no one knew who she was, Nithya Raman, before Spencer Pratt made ads about her home, there\u2019s no way that she got 22% of the vote in person on election day,\u201d Wheeler says.\n\n\u201cMeanwhile, Spencer Pratt, whose fundraising skyrocketed in the days before the election, supposedly completely bottomed out from 30% on election day to 20% of late mail-in ballots,\u201d she continues.\n\nhttps://www.theblaze.com/shows/the-liz-wheeler-show/homeless-drug-addicts-are-voting-how-democrats-stole-the-la-mayoral-election-from-spencer-pratt",
@@ -212,252 +318,184 @@
     "source_url": "https://www.theblaze.com/shows/the-liz-wheeler-show/homeless-drug-addicts-are-voting-how-democrats-stole-the-la-mayoral-election-from-spencer-pratt",
     "source_title": "Homeless drug addicts are voting? How Democrats stole the LA mayoral election from Spencer Pratt.",
     "source_summary": "As late ballots poured in overnight in the Los Angeles mayoral race, Democratic socialist Nithya Raman overtook Spencer Pratt \u2014 and BlazeTV host Liz Wheeler isn\u2019t buying it, declaring that \u201cthe Democrats have stolen an election again.\u201d \u201cIt\u2019s not a question of did they, it\u2019s a question of how they did,\u201d Wheeler says. And President Donald Trump agrees. \u201cNot possible for Spencer Pratt to have lost th",
-    "drafted_at": "2026-06-09T23:09:37.779492",
+    "drafted_at": "2026-06-10T02:10:09.705894",
     "data": {
       "source": "THE BLAZE"
     },
     "content_hash": "fe69d64bbe08a16f"
   },
   {
-    "id": "1bd87dd7",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "People looking to place certain bets on prediction market operator Kalshi will soon have to reveal where they work in an attempt to stop insider trading, the firm has said.\n\nThe platform \u2013 which lets users bet against each other on elections, sporting events, and culture \u2013 said Tuesday it will start to collect work information from users attempting to place bets that could benefit from insider information.\n\nKalshi said the rule will apply to \"markets with heightened insider or manipulation risk.\" It used as an example a possible trade on whether OpenAI or Anthropic will go public first.\n\nPrediction markets face growing concerns around insider trading as they continue to surge in popularity.\n\nhttps://www.bbc.com/news/articles/cx2vn7wp33po?at_medium=RSS&at_campaign=rss",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "BBC",
-    "source_url": "https://www.bbc.com/news/articles/cx2vn7wp33po?at_medium=RSS&at_campaign=rss",
-    "source_title": "Kalshi to make some users reveal job details to tackle insider trading",
-    "source_summary": "After issues with insider trading, the prediction betting platform is adding new rules.",
-    "drafted_at": "2026-06-09T23:09:37.780777",
-    "data": {
-      "source": "BBC"
-    },
-    "content_hash": "441d416dcb479d32"
-  },
-  {
-    "id": "8dae0c9b",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Some individuals in California will soon face federal election fraud charges, first assistant U.S. Attorney for the Central District of California Bill Essayli told Blaze Media co-founder Glenn Beck on Monday.\n\nCalifornia has faced criticism for the delays in counting votes in the gubernatorial and Los Angeles mayoral primary races, fueling concerns of fraud.\n\n'We will be charging some people.' Now, a week after Election Day, California still has not counted all of the votes in its primary elections.\n\nLast week, President Donald Trump announced that the U.S. Attorney\u2019s Office in Los Angeles was investigating the delays.\n\nEssayli noted in a post on social media that California allows its residents to register to vote using questionable forms of identification, including gym membership cards, employee ID cards, credit and debit cards, insurance cards, and prescription drug labels.\n\n\u201cThis is permitted when a voter fails to provide a Social Security number or driver\u2019s license at registration.\n\nOur office believes this policy deserves a closer look,\u201d he wrote.\n\nRELATED: Los Angeles mayor race called for far-left challenger after Pratt loses 40,000-vote lead Melissa Sue Gerrits/Getty Images During \u201cThe Glenn Beck Program\u201d on Monday, Essayli told Beck that his office will be pursuing election fraud charges in the near future.\n\nhttps://www.theblaze.com/news/fraudsters-paradise-feds-plan-to-file-election-fraud-charges-in-california",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "THE BLAZE",
-    "source_url": "https://www.theblaze.com/news/fraudsters-paradise-feds-plan-to-file-election-fraud-charges-in-california",
-    "source_title": "\u2018Fraudster\u2019s paradise\u2019: Feds plan to file election fraud charges in California",
-    "source_summary": "Some individuals in California will soon face federal election fraud charges, first assistant U.S. Attorney for the Central District of California Bill Essayli told Blaze Media co-founder Glenn Beck on Monday. California has faced criticism for the delays in counting votes in the gubernatorial and Los Angeles mayoral primary races, fueling concerns of fraud. 'We will be charging some people.' Now,",
-    "drafted_at": "2026-06-09T23:09:37.783409",
-    "data": {
-      "source": "THE BLAZE"
-    },
-    "content_hash": "7cc0d26fc2a841c2"
-  },
-  {
-    "id": "c62d3902",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Watch your wallets: The fraudster took in nearly $100 million from victims before laundering funds via Bitcoin, Ethereum, and stablecoins.\n\nhttps://decrypt.co/370576/seattle-man-prison-laundering-foreign-fraud-funds-bitcoin-ethereum",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "DECRYPT",
-    "source_url": "https://decrypt.co/370576/seattle-man-prison-laundering-foreign-fraud-funds-bitcoin-ethereum",
-    "source_title": "Seattle-Area Man Gets Prison for Laundering Foreign Fraud Funds With Bitcoin, Ethereum",
-    "source_summary": "The fraudster took in nearly $100 million from victims before laundering funds via Bitcoin, Ethereum, and stablecoins.",
-    "drafted_at": "2026-06-09T23:09:37.783641",
-    "data": {
-      "source": "DECRYPT"
-    },
-    "content_hash": "b33aae6ebf99cf01"
-  },
-  {
-    "id": "d9b49330",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "The insider trading case is the government's first to center on prediction markets.\n\nhttps://decrypt.co/370571/december-trial-date-us-soldier-insider-trading-polymarket",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "DECRYPT",
-    "source_url": "https://decrypt.co/370571/december-trial-date-us-soldier-insider-trading-polymarket",
-    "source_title": "December Trial Date Set for US Soldier Accused of Insider Trading on Polymarket",
-    "source_summary": "The insider trading case is the government's first to center on prediction markets.",
-    "drafted_at": "2026-06-09T23:09:37.783810",
-    "data": {
-      "source": "DECRYPT"
-    },
-    "content_hash": "c376df7aa08a2a4e"
-  },
-  {
-    "id": "e06a16af",
+    "id": "5c9970dd",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Levant update: Oil rebounded after the US launched fresh strikes against Iran following the downing of an American helicopter, posing a new threat to a fragile truce that\u2019s been tested by recent attacks in the Middle East.\n\nhttps://financialpost.com/pmn/business-pmn/oil-climbs-after-fresh-us-strikes-on-iran-over-helicopter-attack",
+    "draft_text": "From Beijing: China's rising factory-gate inflation, driven by geopolitical tensions, may strain global supply chains and impact economic growth forecasts.\n\nThe post China\u2019s factory-gate inflation accelerates amid Middle East conflict appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/china-factory-gate-inflation-middle-east-conflict/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/china-factory-gate-inflation-middle-east-conflict/",
+    "source_title": "China\u2019s factory-gate inflation accelerates amid Middle East conflict",
+    "source_summary": "China's rising factory-gate inflation, driven by geopolitical tensions, may strain global supply chains and impact economic growth forecasts. The post China\u2019s factory-gate inflation accelerates amid Middle East conflict appeared first on Crypto Briefing .",
+    "drafted_at": "2026-06-10T02:10:09.712932",
+    "data": {
+      "source": "CRYPTO BRIEFING"
+    },
+    "content_hash": "03f8f9113ab7f1a1"
+  },
+  {
+    "id": "7f59b25f",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Levant update: Saudi Arabia's football and blockchain investments could redefine sports economics, merging fan engagement with digital finance innovations.\n\nThe post Saudi Arabia pours $2B into football as World Cup ambitions collide with blockchain opportunity appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/saudi-arabia-2b-football-crypto-opportunity/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/saudi-arabia-2b-football-crypto-opportunity/",
+    "source_title": "Saudi Arabia pours $2B into football as World Cup ambitions collide with blockchain opportunity",
+    "source_summary": "Saudi Arabia's football and blockchain investments could redefine sports economics, merging fan engagement with digital finance innovations. The post Saudi Arabia pours $2B into football as World Cup ambitions collide with blockchain opportunity appeared first on Crypto Briefing .",
+    "drafted_at": "2026-06-10T02:10:09.713269",
+    "data": {
+      "source": "CRYPTO BRIEFING"
+    },
+    "content_hash": "3981915a129c5148"
+  },
+  {
+    "id": "d2a8c3ea",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "CHINA DESK: China\u2019s consumer inflation unexpectedly stalled in May even as factory prices rose at the fastest pace in almost four years, as higher commodity costs bring closer the end of a record streak of economy-wide deflation.\n\nhttps://financialpost.com/pmn/business-pmn/chinese-consumer-inflation-unexpectedly-stalls-despite-oil-shock",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/pmn/business-pmn/oil-climbs-after-fresh-us-strikes-on-iran-over-helicopter-attack",
-    "source_title": "Oil Climbs After Fresh US Strikes on Iran Over Helicopter Attack",
-    "source_summary": "Oil rebounded after the US launched fresh strikes against Iran following the downing of an American helicopter, posing a new threat to a fragile truce that\u2019s been tested by recent attacks in the Middle East.",
-    "drafted_at": "2026-06-09T23:09:37.787127",
+    "source_url": "https://financialpost.com/pmn/business-pmn/chinese-consumer-inflation-unexpectedly-stalls-despite-oil-shock",
+    "source_title": "Chinese Consumer Inflation Unexpectedly Stalls Despite Oil Shock",
+    "source_summary": "China\u2019s consumer inflation unexpectedly stalled in May even as factory prices rose at the fastest pace in almost four years, as higher commodity costs bring closer the end of a record streak of economy-wide deflation.",
+    "drafted_at": "2026-06-10T02:10:09.713582",
     "data": {
       "source": "FINANCIAL POST"
     },
-    "content_hash": "431fa2aad63894e6"
+    "content_hash": "3cbcd74c2ff32f65"
   },
   {
-    "id": "4eb80d31",
+    "id": "4461b6b7",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From the Gulf: For more than three months, oil market participants have hoped that the Middle East conflict would be resolved any day now, while about 13 million barrels per day (bpd) have been wiped off global supply due to the closed Strait of Hormuz.\n\nThe oil futures market has been mostly guided by sentiment and traders\u2019 hopes of an imminent peace deal \u2013 as U.S. President Donald Trump has been touting for weeks \u2013 with oil prices increasingly disconnected from the reality on the ground, or more precisely, in storage tanks.\n\nhttps://oilprice.com/Energy/Crude-Oil/Disconnected-Oil-Futures-Market-Could-See-Price-Spike-within-Weeks.html",
+    "draft_text": "Mainland wire: The divergence between consumer and producer prices in China highlights potential shifts in industrial demand and global economic growth.\n\nThe post China\u2019s consumer inflation stalls in May as factory prices rise appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/china-consumer-inflation-stalls-factory-prices-rise/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "OILPRICE",
-    "source_url": "https://oilprice.com/Energy/Crude-Oil/Disconnected-Oil-Futures-Market-Could-See-Price-Spike-within-Weeks.html",
-    "source_title": "Disconnected Oil Futures Market Could See Price Spike within Weeks",
-    "source_summary": "For more than three months, oil market participants have hoped that the Middle East conflict would be resolved any day now, while about 13 million barrels per day (bpd) have been wiped off global supply due to the closed Strait of Hormuz. The oil futures market has been mostly guided by sentiment and traders\u2019 hopes of an imminent peace deal \u2013 as U.S. President Donald Trump has been touting for wee",
-    "drafted_at": "2026-06-09T23:09:37.787934",
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/china-consumer-inflation-stalls-factory-prices-rise/",
+    "source_title": "China\u2019s consumer inflation stalls in May as factory prices rise",
+    "source_summary": "The divergence between consumer and producer prices in China highlights potential shifts in industrial demand and global economic growth. The post China\u2019s consumer inflation stalls in May as factory prices rise appeared first on Crypto Briefing .",
+    "drafted_at": "2026-06-10T02:10:09.713952",
     "data": {
-      "source": "OILPRICE"
+      "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "4e72180a2bc7f592"
+    "content_hash": "82e6c31203412a06"
   },
   {
-    "id": "d58f0ecd",
+    "id": "a1c7fe70",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Gulf wire: President Donald Trump ordered the response as he seeks a deal to end the war.\n\nhttps://www.politico.com/news/2026/06/09/us-retaliatory-strikes-iran-00955278?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "POLITICO EU",
-    "source_url": "https://www.politico.com/news/2026/06/09/us-retaliatory-strikes-iran-00955278?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-    "source_title": "US launches retaliatory strikes against Iran after downing of helicopter",
-    "source_summary": "President Donald Trump ordered the response as he seeks a deal to end the war.",
-    "drafted_at": "2026-06-09T23:09:37.788635",
-    "data": {
-      "source": "POLITICO EU"
-    },
-    "content_hash": "bfd5c3f559602787"
-  },
-  {
-    "id": "b7ed1815",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Asia overnight: Six weeks ago Japan reportedly spent a record sum dragging this pair off exactly this shelf.\n\nhttps://www.fxstreet.com/news/japanese-yen-round-trips-tokyos-record-intervention-just-in-time-for-cpi-202606092242",
+    "draft_text": "Levant update: The GBP/USD pair struggles to capitalize on its recovery gains recorded over the past two days, from a three-week low, and oscillates in a narrow band during the Asian session on Wednesday.\n\nhttps://www.fxstreet.com/news/british-pound-consolidates-below-13400-vs-usd-amid-fresh-iran-tensions-ahead-of-us-cpi-202606100157",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/japanese-yen-round-trips-tokyos-record-intervention-just-in-time-for-cpi-202606092242",
-    "source_title": "Japanese Yen round-trips Tokyo's record intervention just in time for CPI",
-    "source_summary": "Six weeks ago Japan reportedly spent a record sum dragging this pair off exactly this shelf.",
-    "drafted_at": "2026-06-09T23:09:37.788949",
+    "source_url": "https://www.fxstreet.com/news/british-pound-consolidates-below-13400-vs-usd-amid-fresh-iran-tensions-ahead-of-us-cpi-202606100157",
+    "source_title": "British Pound consolidates below 1.3400 vs USD amid fresh Iran tensions, ahead of US CPI",
+    "source_summary": "The GBP/USD pair struggles to capitalize on its recovery gains recorded over the past two days, from a three-week low, and oscillates in a narrow band during the Asian session on Wednesday.",
+    "drafted_at": "2026-06-10T02:10:09.714231",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "b3a0eace5eb49d69"
+    "content_hash": "82ccb27696819a9d"
   },
   {
-    "id": "ef074759",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 AMERICAS: Argentina\u2019s Impsa SA is in talks with the Venezuelan government to restart manufacturing and repairs on turbines for the Andean nation\u2019s sprawling Guri dam complex, according to the company\u2019s top executive.\n\nhttps://financialpost.com/pmn/business-pmn/argentinas-impsa-is-in-talks-to-resume-turbine-work-in-venezuela",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/pmn/business-pmn/argentinas-impsa-is-in-talks-to-resume-turbine-work-in-venezuela",
-    "source_title": "Argentina\u2019s Impsa Is in Talks to Resume Turbine Work in Venezuela",
-    "source_summary": "Argentina\u2019s Impsa SA is in talks with the Venezuelan government to restart manufacturing and repairs on turbines for the Andean nation\u2019s sprawling Guri dam complex, according to the company\u2019s top executive.",
-    "drafted_at": "2026-06-09T23:09:37.789371",
-    "data": {
-      "source": "FINANCIAL POST"
-    },
-    "content_hash": "49b55b0fb2b4b259"
-  },
-  {
-    "id": "d35c1e7f",
+    "id": "4aed9c32",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "How sticky is inflation? Let's see: Six weeks ago Japan reportedly spent a record sum dragging this pair off exactly this shelf.\n\nhttps://www.fxstreet.com/news/japanese-yen-round-trips-tokyos-record-intervention-just-in-time-for-cpi-202606092242",
+    "draft_text": "CPI just printed. The GBP/USD pair struggles to capitalize on its recovery gains recorded over the past two days, from a three-week low, and oscillates in a narrow band during the Asian session on Wednesday.\n\nhttps://www.fxstreet.com/news/british-pound-consolidates-below-13400-vs-usd-amid-fresh-iran-tensions-ahead-of-us-cpi-202606100157",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/japanese-yen-round-trips-tokyos-record-intervention-just-in-time-for-cpi-202606092242",
-    "source_title": "Japanese Yen round-trips Tokyo's record intervention just in time for CPI",
-    "source_summary": "Six weeks ago Japan reportedly spent a record sum dragging this pair off exactly this shelf.",
-    "drafted_at": "2026-06-09T23:09:37.853185",
+    "source_url": "https://www.fxstreet.com/news/british-pound-consolidates-below-13400-vs-usd-amid-fresh-iran-tensions-ahead-of-us-cpi-202606100157",
+    "source_title": "British Pound consolidates below 1.3400 vs USD amid fresh Iran tensions, ahead of US CPI",
+    "source_summary": "The GBP/USD pair struggles to capitalize on its recovery gains recorded over the past two days, from a three-week low, and oscillates in a narrow band during the Asian session on Wednesday.",
+    "drafted_at": "2026-06-10T02:10:09.777918",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "b3a0eace5eb49d69"
+    "content_hash": "82ccb27696819a9d"
   },
   {
-    "id": "455b5b01",
+    "id": "1e04aaf1",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "From the inflation desk: TORONTO, June 09, 2026 (GLOBE NEWSWIRE) -- Carlton Precious Inc. (TSX-V: CPI | OTCQB: NBRFF) (\" CPI \" or the \" Company \") announces that it has filed an early warning report (the \" Report \") in connection with the disposition of an aggregate of 4,885,000 common shares (each, a \" Common Share \") in the capital of Athena Gold Corporation (\" Athena Gold \") between September 29, 2025 and June 8, 2026 (the \" Dispositions \").\n\nhttps://www.globenewswire.com/news-release/2026/06/09/3309396/0/en/Carlton-Precious-Announces-Early-Warning-Filing.html",
+    "draft_text": "The CPI scoreboard: The NZD/USD pair holds steady around 0.7030 during the Asian trading hours on Wednesday.\n\nThe New Zealand Dollar (NZD) steadies against the US Dollar (USD) following China\u2019s economic data.\n\nAll eyes will be on the US May Consumer Price Index (CPI) inflation report later on Wednesday.\n\nhttps://www.fxstreet.com/news/new-zealand-dollar-holds-steady-on-mixed-chinas-inflation-releases-us-cpi-data-looms-202606100150",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "GLOBENEWSWIRE",
-    "source_url": "https://www.globenewswire.com/news-release/2026/06/09/3309396/0/en/Carlton-Precious-Announces-Early-Warning-Filing.html",
-    "source_title": "Carlton Precious Announces Early Warning Filing",
-    "source_summary": "TORONTO, June 09, 2026 (GLOBE NEWSWIRE) -- Carlton Precious Inc. (TSX-V: CPI | OTCQB: NBRFF) (\" CPI \" or the \" Company \") announces that it has filed an early warning report (the \" Report \") in connection with the disposition of an aggregate of 4,885,000 common shares (each, a \" Common Share \") in the capital of Athena Gold Corporation (\" Athena Gold \") between September 29, 2025 and June 8, 2026 ",
-    "drafted_at": "2026-06-09T23:09:37.853727",
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/new-zealand-dollar-holds-steady-on-mixed-chinas-inflation-releases-us-cpi-data-looms-202606100150",
+    "source_title": "New Zealand Dollar holds steady on mixed China's inflation releases, US CPI data looms",
+    "source_summary": "The NZD/USD pair holds steady around 0.7030 during the Asian trading hours on Wednesday. The New Zealand Dollar (NZD) steadies against the US Dollar (USD) following China\u2019s economic data. All eyes will be on the US May Consumer Price Index (CPI) inflation report later on Wednesday.",
+    "drafted_at": "2026-06-10T02:10:09.778300",
     "data": {
-      "source": "GLOBENEWSWIRE"
+      "source": "FXSTREET"
     },
-    "content_hash": "ba680a1248c5fb09"
+    "content_hash": "0d2185826795e984"
   },
   {
-    "id": "fe8c8b86",
+    "id": "a53174a7",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "CPI just printed. Japan's m/m 'wholesale inflation' measure, PPI, is expected to pull back.\n\nFor China, m/m CPI is expected to be subdued, despite rising costs for manufacturers,- both for the inputs they buy and the goods they produce, as a result of the Middle East conflict.\n\nFurther upward pressure is likely from the surge in electronic component prices fuelled by the global AI investment wave, as well as Beijing's moves to rein in overcapacity and cut-throat competition among domestic producers.\n\nThis article was written by Eamonn Sheridan at investinglive.com.\n\nhttps://investinglive.com/news/economic-calendar-asia-10-june-2026-japan-ppi-china-cpi-ppi-20260609/",
+    "draft_text": "CPI POSTCARD: China\u2019s Consumer Price Index (CPI) climbed 1.2% in May from a year ago after arriving at a rise of 1.2% in April, the National Bureau of Statistics of China reported on Wednesday.\n\nThe market consensus was for 1.3% in the reported period.\n\nhttps://www.fxstreet.com/news/chinas-cpi-inflation-misses-expectation-in-may-what-12-mean-for-the-australian-dollar-202606100132",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/chinas-cpi-inflation-misses-expectation-in-may-what-12-mean-for-the-australian-dollar-202606100132",
+    "source_title": "China\u2019s CPI inflation misses expectation in May: What 1.2% means for the Australian Dollar",
+    "source_summary": "China\u2019s Consumer Price Index (CPI) climbed 1.2% in May from a year ago after arriving at a rise of 1.2% in April, the National Bureau of Statistics of China reported on Wednesday. The market consensus was for 1.3% in the reported period.",
+    "drafted_at": "2026-06-10T02:10:09.778625",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "ee99e50c7c04937e"
+  },
+  {
+    "id": "ec9f86a9",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "From the inflation desk: The sharp acceleration in PPI is the notable number here, and it carries direct implications for global goods inflation.\n\nChinese factory-gate prices feeding into export supply chains will lift input costs for manufacturers worldwide, adding to the inflationary pressure already flowing from the Middle East conflict and the AI-driven surge in electronic component prices.\n\nThe soft CPI read, however, suggests domestic demand in China remains constrained, which limits the degree to which producers can pass costs through locally.\n\nThe PPI-CPI divergence is a classic margin squeeze signal and may weigh on Chinese industrial earnings expectations.\n\nChina's factory-gate prices jumped 3.9% year-on-year in May, well ahead of the prior month's 2.8% and above forecasts, while consumer inflation held at 1.2% and missed expectations, dragged lower by falling food prices.\n\nSummary: Per China's National Bureau of Statistics: May CPI rose 1.2% year-on-year, unchanged from April but below the 1.3% consensus; core CPI slipped to 1.1% from 1.2% CPI fell 0.1% month-on-month, in line with forecasts, with food prices down 0.4% MoM and non-food down 0.1% Pork prices plunged 16.1% year-on-year, shaving roughly 0.31 percentage points from the headline CPI print Non-food CPI rose 1.9% year-on-year, with other goods and services up 9.9% and transport and communications up 5.4% PPI surged 3.9% year-on-year in May, up sharply from 2.8% in April and slightly above the 3.8% forecast; up 0.5% month-on-month Industrial purchase prices rose 5.8% year-on-year and 1.3% month-on-month, pointing to continued upstream cost pressure China's producer price inflation accelerated sharply in May, with factory-gate prices rising 3.9% year-on-year, up from 2.8% in April and marginally above market forecasts, according to the National Bureau of Statistics.\n\nOn a monthly basis PPI gained 0.5%, while industrial purchase prices climbed 5.8% year-on-year and 1.3% month-on-month, signalling that upstream cost pressures continue to build.\n\nConsumer price inflation told a different story.\n\nhttps://investinglive.com/news/china-may-cpi-12-yy-expected-13-and-01-mm-expected-02-20260610/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/economic-calendar-asia-10-june-2026-japan-ppi-china-cpi-ppi-20260609/",
-    "source_title": "Economic calendar Asia 10 June 2026. Japan (PPI) & China (CPI, PPI)",
-    "source_summary": "Japan's m/m 'wholesale inflation' measure, PPI, is expected to pull back. For China, m/m CPI is expected to be subdued, despite rising costs for manufacturers,- both for the inputs they buy and the goods they produce, as a result of the Middle East conflict. Further upward pressure is likely from the surge in electronic component prices fuelled by the global AI investment wave, as well as Beijing'",
-    "drafted_at": "2026-06-09T23:09:37.854352",
+    "source_url": "https://investinglive.com/news/china-may-cpi-12-yy-expected-13-and-01-mm-expected-02-20260610/",
+    "source_title": "China May CPI 1.2% y/y (expected 1.3%) and -0.1% m/m (expected -0.2%)",
+    "source_summary": "The sharp acceleration in PPI is the notable number here, and it carries direct implications for global goods inflation. Chinese factory-gate prices feeding into export supply chains will lift input costs for manufacturers worldwide, adding to the inflationary pressure already flowing from the Middle East conflict and the AI-driven surge in electronic component prices. The soft CPI read, however, ",
+    "drafted_at": "2026-06-10T02:10:09.781173",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "d0fc193453bb31bc"
+    "content_hash": "5f08f13c956aeeaf"
   },
   {
-    "id": "517ece40",
+    "id": "ec1bc9c9",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "How sticky is inflation? Let's see: US May existing home sales 4.17m vs 4.07m expected US International trade balance for April -$55.9B vs -$56.1B estimate SpaceX IPO said to be almost four-times oversubscribed Anthropic releases Claude Fabel 5, it's \"Mythos-class\" model.\n\nTrump: Iran responsible for shooting down Apache Helicopter.\n\nReports of explosions in Tehran Canada April trade balance +$2.72 billion vs $2.57 billion expected US May NFIB small business optimism index 95.3 vs 96.0 expected Markets: Gold down $72 to $4256 WTI crude oil down $2.77 to $88.54 GBP leads, AUD lags US 10-year yields down 2.6 bps to 4.52% S&P 500 down 0.3% It was a tough day to pin down with any one theme.\n\nThere is a tug-of-war ongoing in tech and chip names that started positively today and then rapidly soured.\n\nAt one point the Nasdaq was down 2% and it was looking like a rout.\n\nThere was some fishing near the bottom and then the release of Claude Mythos (called Fable 5) and indications that the SpaceX IPO are 4x oversubscribed help sentiment.\n\nAt the same time, the market didn't like the news that Iran had knocked out a US Apache helicopter with drones.\n\nWhat might have also cushioned the blow was that Trump appeared measured in his response to the helicopter strike, as he said the pilots were ok and indicated he was reluctantly attacking.\n\nhttps://investinglive.com/news/investinglive-americas-market-news-wrap-tech-reverses-lower-usdjpy-remains-on-watch-20260609/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-tech-reverses-lower-usdjpy-remains-on-watch-20260609/",
-    "source_title": "investingLive Americas market news wrap: Tech reverses lower, USD/JPY remains on watch",
-    "source_summary": "US May existing home sales 4.17m vs 4.07m expected US International trade balance for April -$55.9B vs -$56.1B estimate SpaceX IPO said to be almost four-times oversubscribed Anthropic releases Claude Fabel 5, it's \"Mythos-class\" model. Trump: Iran responsible for shooting down Apache Helicopter. Must respond militarily. Reports of explosions in Tehran Canada April trade balance +$2.72 billion vs ",
-    "drafted_at": "2026-06-09T23:09:37.856211",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "64c474ce4d9370b9"
-  },
-  {
-    "id": "7a8d49ae",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "How sticky is inflation? Let's see: The US Dollar Index (DXY) trades with a cautious tone near the 99.90 region on Tuesday as investors position ahead of Wednesday's highly anticipated United States (US) Consumer Price Index (CPI) report, with inflation expected to tick higher in May.\n\nhttps://www.fxstreet.com/news/forex-today-us-cpi-in-focus-as-us-dollar-holds-steady-amid-middle-east-war-escalation-202606092016",
+    "draft_text": "PRODUCER-PRICE READ: The USD/JPY pair enters a bullish consolidation phase during the Asian session on Wednesday and moves little following the release of Japan's stronger-than-expected Producer Price Index (PPI).\n\nhttps://www.fxstreet.com/news/japanese-yen-hangs-near-one-month-low-vs-usd-as-mideast-tensions-counter-strong-ppi-print-202606100123",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/forex-today-us-cpi-in-focus-as-us-dollar-holds-steady-amid-middle-east-war-escalation-202606092016",
-    "source_title": "Forex Today: US CPI in focus as US Dollar holds steady amid Middle East war escalation",
-    "source_summary": "The US Dollar Index (DXY) trades with a cautious tone near the 99.90 region on Tuesday as investors position ahead of Wednesday's highly anticipated United States (US) Consumer Price Index (CPI) report, with inflation expected to tick higher in May.",
-    "drafted_at": "2026-06-09T23:09:37.856547",
+    "source_url": "https://www.fxstreet.com/news/japanese-yen-hangs-near-one-month-low-vs-usd-as-mideast-tensions-counter-strong-ppi-print-202606100123",
+    "source_title": "Japanese Yen hangs near one-month low vs USD as Mideast tensions counter strong PPI print",
+    "source_summary": "The USD/JPY pair enters a bullish consolidation phase during the Asian session on Wednesday and moves little following the release of Japan's stronger-than-expected Producer Price Index (PPI).",
+    "drafted_at": "2026-06-10T02:10:09.781449",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "33bc8d53fe070b32"
+    "content_hash": "713ec9e7c9564860"
   },
   {
-    "id": "5725ac00",
+    "id": "5dfff2c2",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -467,7 +505,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-06-09T23:09:37.858335",
+    "drafted_at": "2026-06-10T02:10:09.786162",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -475,36 +513,36 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "0ab06fe7",
+    "id": "7530760d",
     "format": "PACK_TAKE",
     "status": "pending",
-    "draft_text": "When everyone's positioned for a crash, the crash takes a vacation.",
+    "draft_text": "The herd panics together. The pack profits quietly.",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "Howl Street",
     "source_url": "",
     "source_title": "PACK TAKE",
-    "source_summary": "When everyone's positioned for a crash, the crash takes a vacation.",
-    "drafted_at": "2026-06-09T23:09:37.858423",
+    "source_summary": "The herd panics together. The pack profits quietly.",
+    "drafted_at": "2026-06-10T02:10:09.786240",
     "data": {
-      "take_seed": "2026-06-09-pack-1"
+      "take_seed": "2026-06-10-pack-1"
     },
     "content_hash": "9b0f7be55d8ef71c"
   },
   {
-    "id": "226ac51d",
+    "id": "de1be0e6",
     "format": "PACK_TAKE",
     "status": "pending",
-    "draft_text": "Gold doesn't pay a dividend. Neither does a fire extinguisher.",
+    "draft_text": "Your alerts didn't go off because the pack got there first.",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "Howl Street",
     "source_url": "",
     "source_title": "PACK TAKE",
-    "source_summary": "Gold doesn't pay a dividend. Neither does a fire extinguisher.",
-    "drafted_at": "2026-06-09T23:09:37.858478",
+    "source_summary": "Your alerts didn't go off because the pack got there first.",
+    "drafted_at": "2026-06-10T02:10:09.786298",
     "data": {
-      "take_seed": "2026-06-09-pack-2"
+      "take_seed": "2026-06-10-pack-2"
     },
     "content_hash": "9b0f7be55d8ef71c"
   }

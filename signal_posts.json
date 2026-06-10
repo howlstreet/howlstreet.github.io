@@ -1,1 +1,30 @@
-{}
+{
+  "GC=F:move:2026-06-10": {
+    "headline": "Gold slides 7.6% in 5 sessions to $4,213.20",
+    "matters": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
+    "source": "COMEX \u00b7 GC=F",
+    "chart_path": null,
+    "signal_id": "GC=F:move:2026-06-10",
+    "current_str": "$4,213.20",
+    "label": "Gold futures",
+    "hashtags": "#Gold #PreciousMetals #Commodities",
+    "kind": "move_down",
+    "badge": "-7.6%",
+    "data_url": "https://finance.yahoo.com/quote/GC%3DF",
+    "fired_at": "2026-06-10T02:10:05.777484"
+  },
+  "BTC-USD:move:2026-06-10": {
+    "headline": "Bitcoin craters 16.3% in 5 sessions to $61,586",
+    "matters": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
+    "source": "Yahoo Finance \u00b7 BTC-USD",
+    "chart_path": null,
+    "signal_id": "BTC-USD:move:2026-06-10",
+    "current_str": "$61,586",
+    "label": "Bitcoin",
+    "hashtags": "#Bitcoin #BTC #Crypto",
+    "kind": "move_down",
+    "badge": "-16.3%",
+    "data_url": "https://finance.yahoo.com/quote/BTC-USD",
+    "fired_at": "2026-06-10T02:10:05.777484"
+  }
+}
