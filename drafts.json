@@ -1,6 +1,6 @@
 [
   {
-    "id": "7d48d646",
+    "id": "0dfc3cd8",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "THE BIG ONE: US inflation jumped to an annual rate of 4.2% in May, the third consecutive monthly increase since the start of the Iran war and a three-year high, as Americans continue to face steep oil prices.\n\nThe national average price for a gallon of gas is $4.15, according to AAA, which is slightly lower than where the price was a month ago but still $1 per gallon more than a year ago.\n\nStripping out volatile energy and food prices, core CPI increased 2.9%.\n\nPrices have increased sharply over the past several months, rising at an annual rate of 3.3% in March before going up to 3.8% in April.\n\nIn February, before the conflict began, inflation was at 2.4%.\n\nhttps://www.theguardian.com/business/2026/jun/10/inflation-report-rate",
@@ -10,31 +10,50 @@
     "source_url": "https://www.theguardian.com/business/2026/jun/10/inflation-report-rate",
     "source_title": "US inflation jumped to 4.2% in May, the third consecutive increase since start of Iran war",
     "source_summary": "Before the conflict began, inflation was at 2.4%, but the closure of the strait of Hormuz has affected energy prices US inflation jumped to an annual rate of 4.2% in May, the third consecutive monthly increase since the start of the Iran war and a three-year high, as Americans continue to face steep oil prices. Prices have increased sharply over the past several months, rising at an annual rate of",
-    "drafted_at": "2026-06-10T14:17:02.133240",
+    "drafted_at": "2026-06-10T16:36:39.631183",
     "data": {
       "source": "GUARDIAN"
     },
     "content_hash": "61fa22a072fbe2ae"
   },
   {
-    "id": "b2ec701a",
+    "id": "6de466a5",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Quick one for you. Nasdaq drops 5.9% in 5 sessions to 25,384.67.\n\nTech-heavy index.\n\nLeads risk appetite and is most sensitive to rate moves.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EIXIC",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Yahoo Finance \u00b7 ^IXIC",
+    "source_url": "https://finance.yahoo.com/quote/%5EIXIC",
+    "source_title": "Nasdaq Composite",
+    "source_summary": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
+    "drafted_at": "2026-06-10T16:36:39.631438",
+    "data": {
+      "signal_id": "^IXIC:move:2026-06-10",
+      "kind": "move_down",
+      "current": "25,384.67"
+    },
+    "content_hash": "ce08e8b71b40219b"
+  },
+  {
+    "id": "b76afcf4",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "POWELL POSTCARD: Bond traders maintained bets that the Federal Reserve will raise interest rates by the end of the year, even after a soft US core inflation reading eased pressure on Chairman Kevin Warsh to act sooner.\n\nhttps://financialpost.com/pmn/business-pmn/bond-traders-keep-bets-on-a-fed-hike-in-2026-after-cpi-data",
+    "draft_text": "FOMC desk: Silver (XAG/USD) remains under pressure on Wednesday and trades around $64.70 at the time of writing, down 1.02% on the day.\n\nhttps://www.fxstreet.com/news/silver-price-falls-toward-two-month-low-as-rising-fed-hike-bets-pressure-xag-usd-202606101545",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "Fed",
-    "source_url": "https://financialpost.com/pmn/business-pmn/bond-traders-keep-bets-on-a-fed-hike-in-2026-after-cpi-data",
-    "source_title": "Bond Traders Keep Bets on a Fed Hike in 2026 After CPI Data",
-    "source_summary": "Bond traders maintained bets that the Federal Reserve will raise interest rates by the end of the year, even after a soft US core inflation reading eased pressure on Chairman Kevin Warsh to act sooner.",
-    "drafted_at": "2026-06-10T14:17:02.141923",
+    "source_url": "https://www.fxstreet.com/news/silver-price-falls-toward-two-month-low-as-rising-fed-hike-bets-pressure-xag-usd-202606101545",
+    "source_title": "Silver price falls toward two\u2011month low as rising Fed hike bets pressure XAG/USD",
+    "source_summary": "Silver (XAG/USD) remains under pressure on Wednesday and trades around $64.70 at the time of writing, down 1.02% on the day.",
+    "drafted_at": "2026-06-10T16:36:39.642295",
     "data": {
       "actor": "Fed"
     },
-    "content_hash": "e7fa46623b9986e1"
+    "content_hash": "8e248a6a837f9692"
   },
   {
-    "id": "3af50d8c",
+    "id": "93e1f952",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FED WATCH: Gold (XAU/USD) remains under pressure on Wednesday as the latest US inflation data broadly matched market expectations and did little to alter expectations that the Federal Reserve could raise interest rates later this year.\n\nhttps://www.fxstreet.com/news/gold-extends-sell-off-ahead-of-us-cpi-inflation-data-202606101148",
@@ -42,16 +61,33 @@
     "og_image_url": null,
     "primary_source": "Fed",
     "source_url": "https://www.fxstreet.com/news/gold-extends-sell-off-ahead-of-us-cpi-inflation-data-202606101148",
-    "source_title": "Gold extends decline to 11-week low as US inflation data sustains Fed hike expectations",
+    "source_title": "Gold falls over 3% as US inflation data sustains Fed hike expectations",
     "source_summary": "Gold (XAU/USD) remains under pressure on Wednesday as the latest US inflation data broadly matched market expectations and did little to alter expectations that the Federal Reserve could raise interest rates later this year.",
-    "drafted_at": "2026-06-10T14:17:02.142192",
+    "drafted_at": "2026-06-10T16:36:39.642613",
     "data": {
       "actor": "Fed"
     },
-    "content_hash": "424f65c57346439c"
+    "content_hash": "ca22d1efc2c112be"
   },
   {
-    "id": "9b737080",
+    "id": "f31f6eaf",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "POWELL POSTCARD: JPMorgan Asset Management\u2019s David Kelly predicted the Federal Reserve will decide that the latest inflation data aren\u2019t worrisome enough to prompt policymakers to do anything other than stand pat on interest rates next week.\n\nhttps://financialpost.com/pmn/business-pmn/jpmorgan-sees-may-as-cpi-high-water-mark-with-fed-set-to-hold",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Fed",
+    "source_url": "https://financialpost.com/pmn/business-pmn/jpmorgan-sees-may-as-cpi-high-water-mark-with-fed-set-to-hold",
+    "source_title": "JPMorgan Sees May as CPI \u2018High-Water Mark\u2019 With Fed Set to Hold",
+    "source_summary": "JPMorgan Asset Management\u2019s David Kelly predicted the Federal Reserve will decide that the latest inflation data aren\u2019t worrisome enough to prompt policymakers to do anything other than stand pat on interest rates next week.",
+    "drafted_at": "2026-06-10T16:36:39.642984",
+    "data": {
+      "actor": "Fed"
+    },
+    "content_hash": "5d7e35491c2a2b6a"
+  },
+  {
+    "id": "17927e05",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "RATE-PATH READ: It evaluates banks' resilience by estimating losses, net revenue, and capital levels\u2014which provide a cushion against losses\u2014under a hypothetical recession scenario.\n\nThe Board's stress test is one tool used to measure whether banks have adequate capital to absorb losses so that they can lend to households and businesses even in a severe recession.\n\nThis year, 32 large banks were subject to the Board's stress test.\n\nThe scenario includes a severe global recession with heightened stress in both commercial and residential real estate markets, as well as in corporate debt markets.\n\nThese stress test results will not impact large bank capital requirements.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260609a.htm",
@@ -61,14 +97,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260609a.htm",
     "source_title": "Federal Reserve Board announces that results from its annual bank stress test will be released on Wednesday, June 24, at 4 p.m. EDT.",
     "source_summary": "Federal Reserve Board announces that results from its annual bank stress test will be released on Wednesday, June 24, at 4 p.m. EDT.",
-    "drafted_at": "2026-06-10T14:17:02.143063",
+    "drafted_at": "2026-06-10T16:36:39.644122",
     "data": {
       "actor": "FED"
     },
     "content_hash": "35487362043c0c4b"
   },
   {
-    "id": "948df9be",
+    "id": "a3e07734",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "If you watch rates, read this: The agencies are taking this action to complement their earlier actions that ended the use of reputation risk in supervision.\n\nAs the agencies have previously noted, reputation risk can be misused by supervisors as a basis to encourage or pressure a bank to restrict individuals' and legal businesses' access to financial services due to their constitutionally protected political or religious beliefs, speech, or conduct or lawful business activities.\n\nThese updates help ensure supervisory decisions are based on material financial risks, as well as increase clarity and facilitate greater precision in supervisory decision making.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260602a.htm",
@@ -78,131 +114,165 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260602a.htm",
     "source_title": "Agencies remove additional references to reputation risk",
     "source_summary": "Agencies remove additional references to reputation risk",
-    "drafted_at": "2026-06-10T14:17:02.143788",
+    "drafted_at": "2026-06-10T16:36:39.645054",
     "data": {
       "actor": "FED"
     },
     "content_hash": "037f4db78eebad91"
   },
   {
-    "id": "8017acb7",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "Rate-path desk: The Board's process for setting the discount rate is distinct from the process the Federal Open Market Committee follows in setting the target range for the federal funds rate.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FED",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
-    "source_title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
-    "source_summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
-    "drafted_at": "2026-06-10T14:17:02.144112",
-    "data": {
-      "actor": "FED"
-    },
-    "content_hash": "b2d403ab8c4d5036"
-  },
-  {
-    "id": "b8689018",
+    "id": "fbae1d33",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$IFF insider bought $32,284,388 on 2026-06-01, 2 insiders. \ud83d\udc40\n\nInternational Flavors & Fragrances Inc. 444,219 shares at $72.68.\n\n+4.3% since the purchase.\n\nhttp://openinsider.com/screener?s=IFF",
+    "draft_text": "$IFF insider bought $32,284,388 on 2026-06-01, 2 insiders. \ud83d\udc40\n\nInternational Flavors & Fragrances Inc. 444,219 shares at $72.68.\n\n+4.6% since the purchase.\n\nhttp://openinsider.com/screener?s=IFF",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=IFF",
     "source_title": "International Flavors & Fragrances Inc (IFF) insider bought $32,284,388",
     "source_summary": "2 insider(s) bought 444,219 shares at $72.68 on 2026-06-01.",
-    "drafted_at": "2026-06-10T14:17:02.145470",
+    "drafted_at": "2026-06-10T16:36:39.647235",
     "data": {
       "ticker": "IFF",
       "type": "P",
       "dollar_value": 32284388.0,
-      "pct_since": 4.3478210482809825
+      "pct_since": 4.636768095429011
     },
     "content_hash": "b59bb9be9054dcc6"
   },
   {
-    "id": "407e23e1",
+    "id": "ed0c2cfe",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$LFTO insider bought $29,999,981 on 2026-06-05. \ud83d\udc40\n\nLiftoff Mobile, Inc.. 1,304,347 shares at $23.00.\n\n+12.5% since the purchase.\n\nhttp://openinsider.com/screener?s=LFTO",
+    "draft_text": "$LFTO insider bought $29,999,981 on 2026-06-05. \ud83d\udc40\n\nLiftoff Mobile, Inc.. 1,304,347 shares at $23.00.\n\n+9.7% since the purchase.\n\nhttp://openinsider.com/screener?s=LFTO",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=LFTO",
     "source_title": "Liftoff Mobile, Inc. (LFTO) insider bought $29,999,981",
     "source_summary": "1 insider(s) bought 1,304,347 shares at $23.00 on 2026-06-05.",
-    "drafted_at": "2026-06-10T14:17:02.145560",
+    "drafted_at": "2026-06-10T16:36:39.647355",
     "data": {
       "ticker": "LFTO",
       "type": "P",
       "dollar_value": 29999981.0,
-      "pct_since": 12.456520743992018
+      "pct_since": 9.652170927628227
     },
     "content_hash": "0670336e4e25f54e"
   },
   {
-    "id": "b9252d15",
+    "id": "08048910",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$NCLH insider bought $29,163,646 on 2026-06-01, 7 insiders. \ud83d\udc40\n\nNorwegian Cruise Line Holdings Ltd.. 1,633,867 shares at $17.85.\n\n+4.0% since the purchase.\n\nhttp://openinsider.com/screener?s=NCLH",
+    "draft_text": "$NCLH insider bought $29,163,646 on 2026-06-01, 7 insiders. \ud83d\udc40\n\nNorwegian Cruise Line Holdings Ltd.. 1,633,867 shares at $17.85.\n\n+2.1% since the purchase.\n\nhttp://openinsider.com/screener?s=NCLH",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=NCLH",
     "source_title": "Norwegian Cruise Line Holdings Ltd. (NCLH) insider bought $29,163,646",
     "source_summary": "7 insider(s) bought 1,633,867 shares at $17.85 on 2026-06-01.",
-    "drafted_at": "2026-06-10T14:17:02.145657",
+    "drafted_at": "2026-06-10T16:36:39.647489",
     "data": {
       "ticker": "NCLH",
       "type": "P",
       "dollar_value": 29163646.0,
-      "pct_since": 3.973666492964365
+      "pct_since": 2.128848976113875
     },
     "content_hash": "467ccdd401ed9ddb"
   },
   {
-    "id": "0b153014",
+    "id": "b6962b0b",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$QNT insider bought $24,649,920 on 2026-06-05, 10 insiders. \ud83d\udc40\n\nQuantinuum Inc.. 410,832 shares at $60.00.\n\n-12.3% since the purchase.\n\nhttp://openinsider.com/screener?s=QNT",
+    "draft_text": "$QNT insider bought $24,649,920 on 2026-06-05, 10 insiders. \ud83d\udc40\n\nQuantinuum Inc.. 410,832 shares at $60.00.\n\n-14.8% since the purchase.\n\nhttp://openinsider.com/screener?s=QNT",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=QNT",
     "source_title": "Quantinuum Inc. (QNT) insider bought $24,649,920",
     "source_summary": "10 insider(s) bought 410,832 shares at $60.00 on 2026-06-05.",
-    "drafted_at": "2026-06-10T14:17:02.145744",
+    "drafted_at": "2026-06-10T16:36:39.647607",
     "data": {
       "ticker": "QNT",
       "type": "P",
       "dollar_value": 24649920.0,
-      "pct_since": -12.300001780192057
+      "pct_since": -14.766667683919271
     },
     "content_hash": "1896377d0aa7046f"
   },
   {
-    "id": "62d0a12b",
+    "id": "17247267",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$BORR insider bought $4,996,100 on 2026-06-09. \ud83d\udc40\n\nBorr Drilling Ltd. 1,063,000 shares at $4.70.\n\n-1.2% since the purchase.\n\nhttp://openinsider.com/screener?s=BORR",
+    "draft_text": "$BORR insider bought $4,996,100 on 2026-06-09. \ud83d\udc40\n\nBorr Drilling Ltd. 1,063,000 shares at $4.70.\n\n-1.6% since the purchase.\n\nhttp://openinsider.com/screener?s=BORR",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=BORR",
     "source_title": "Borr Drilling Ltd (BORR) insider bought $4,996,100",
     "source_summary": "1 insider(s) bought 1,063,000 shares at $4.70 on 2026-06-09.",
-    "drafted_at": "2026-06-10T14:17:02.145824",
+    "drafted_at": "2026-06-10T16:36:39.647735",
     "data": {
       "ticker": "BORR",
       "type": "P",
       "dollar_value": 4996100.0,
-      "pct_since": -1.1893576764045914
+      "pct_since": -1.5957446808510676
     },
     "content_hash": "ef8ca14879d819df"
   },
   {
-    "id": "136f250d",
+    "id": "76df3441",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "NEW YORK, June 10, 2026 /PRNewswire/ -- Bronstein, Gewirtz & Grossman, LLC, a nationally recognized investor-rights law firm, announces that a class action lawsuit has been filed against PicS N.V. (NASDAQ: PICS) and certain of its officers.\n\nThis lawsuit seeks to recover damages against...\n\nhttps://www.prnewswire.com/news-releases/bronstein-gewirtz--grossman-llc-urges-pics-nv-investors-to-act-class-action-filed-alleging-investor-harm-302796220.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "PR NEWSWIRE",
+    "source_url": "https://www.prnewswire.com/news-releases/bronstein-gewirtz--grossman-llc-urges-pics-nv-investors-to-act-class-action-filed-alleging-investor-harm-302796220.html",
+    "source_title": "Bronstein, Gewirtz & Grossman LLC Urges PicS N.V. Investors to Act: Class Action Filed Alleging Investor Harm",
+    "source_summary": "NEW YORK, June 10, 2026 /PRNewswire/ -- Bronstein, Gewirtz & Grossman, LLC, a nationally recognized investor-rights law firm, announces that a class action lawsuit has been filed against PicS N.V. (NASDAQ: PICS) and certain of its officers. This lawsuit seeks to recover damages against...",
+    "drafted_at": "2026-06-10T16:36:39.649011",
+    "data": {
+      "source": "PR NEWSWIRE"
+    },
+    "content_hash": "c9e7600a45b872e1"
+  },
+  {
+    "id": "b84d4259",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Indictment of the day: A federal court in Seattle sentenced Geoffrey Auyeung to 5 years in prison on Tuesday for conspiracy to commit money laundering.\n\nThe 47-year-old Newcastle, Washington resident helped overseas fraudsters move victim funds from a fake oil-and-gas escrow scheme.\n\nInside the Crypto Laundering Operation According to prosecutors, Auyeung created at least 9 business entities to receive The post Washington Man Jailed 5 Years for $97 Million Crypto Laundering appeared first on BeInCrypto.\n\nhttps://beincrypto.com/washington-man-crypto-laundering-sentence/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "BEINCRYPTO",
+    "source_url": "https://beincrypto.com/washington-man-crypto-laundering-sentence/",
+    "source_title": "Washington Man Jailed 5 Years for $97 Million Crypto Laundering",
+    "source_summary": "A federal court in Seattle sentenced Geoffrey Auyeung to 5 years in prison on Tuesday for conspiracy to commit money laundering. The 47-year-old Newcastle, Washington resident helped overseas fraudsters move victim funds from a fake oil-and-gas escrow scheme. Inside the Crypto Laundering Operation According to prosecutors, Auyeung created at least 9 business entities to receive The post Washington",
+    "drafted_at": "2026-06-10T16:36:39.649611",
+    "data": {
+      "source": "BEINCRYPTO"
+    },
+    "content_hash": "92f93fafc55866f9"
+  },
+  {
+    "id": "394c252a",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Pack \u2014 defensive read: From Spencer Pratt to Mayor Michael Rapaport?\n\nAll eyes have been on Spencer Pratt, the reality show alum vying to wrest the City of Angels from Mayor Karen Bass.\n\nWhile Pratt promoted his family-man brand, Rapaport lives for the social media scrum.\n\nPratt\u2019s insurgent campaign was felt from coast to coast.\n\nNow, as L.A.\u2019s curious voting system seems to have sent him to a third-place finish, another actor turned candidate could take his place.\n\nDid Pratt walk so Michael Rapaport could run?\n\n'Soft launch' Rapaport is a familiar face from dozens of movies and TV shows since his 1992 film debut in \u201cZebrahead.\u201d He recently joined Peacock\u2019s \u201cThe Traitors,\u201d a reality-show affair hosted by Alan Cumming.\n\nHis brash persona proved a snug fit for the series, alienating some while bringing fresh friction to the game.\n\nhttps://www.theblaze.com/lifestyle/spencer-pratt-20-actor-michael-rapaport-eyes-run-against-nyc-mayor-mamdani",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "THE BLAZE",
+    "source_url": "https://www.theblaze.com/lifestyle/spencer-pratt-20-actor-michael-rapaport-eyes-run-against-nyc-mayor-mamdani",
+    "source_title": "Spencer Pratt 2.0? Actor Michael Rapaport eyes run against NYC Mayor Mamdani",
+    "source_summary": "From Spencer Pratt to Mayor Michael Rapaport? All eyes have been on Spencer Pratt, the reality show alum vying to wrest the City of Angels from Mayor Karen Bass. While Pratt promoted his family-man brand, Rapaport lives for the social media scrum. Pratt\u2019s insurgent campaign was felt from coast to coast. Now, as L.A.\u2019s curious voting system seems to have sent him to a third-place finish, another ac",
+    "drafted_at": "2026-06-10T16:36:39.653124",
+    "data": {
+      "source": "THE BLAZE"
+    },
+    "content_hash": "15b99a045c8b0a5a"
+  },
+  {
+    "id": "cf58a41d",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Costco is fighting a class-action lawsuit claiming its famous $5 rotisserie chicken is misleadingly labeled \u201cno preservatives.\u201d.\n\nhttps://nypost.com/2026/06/10/business/costco-fights-lawsuit-tied-to-5-rotisserie-chicken/",
@@ -212,48 +282,14 @@
     "source_url": "https://nypost.com/2026/06/10/business/costco-fights-lawsuit-tied-to-5-rotisserie-chicken/",
     "source_title": "Costco fires back over lawsuit tied to iconic product as shoppers claim false advertising",
     "source_summary": "Costco is fighting a class-action lawsuit claiming its famous $5 rotisserie chicken is misleadingly labeled \u201cno preservatives.\u201d",
-    "drafted_at": "2026-06-10T14:17:02.146650",
+    "drafted_at": "2026-06-10T16:36:39.653381",
     "data": {
       "source": "NY POST"
     },
     "content_hash": "b5578616ccd3d853"
   },
   {
-    "id": "67675762",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "FBI launches 60-day Operation Riptide targeting cybercrime infrastructure, as $20B in US fraud losses and World Cup scams accelerate.\n\nThe post FBI Launches Operation Riptide to Disrupt $20 Billion Cybercrime Networks appeared first on BeInCrypto.\n\nhttps://beincrypto.com/fbi-operation-riptide-global-cybercrime/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "BEINCRYPTO",
-    "source_url": "https://beincrypto.com/fbi-operation-riptide-global-cybercrime/",
-    "source_title": "FBI Launches Operation Riptide to Disrupt $20 Billion Cybercrime Networks",
-    "source_summary": "FBI launches 60-day Operation Riptide targeting cybercrime infrastructure, as $20B in US fraud losses and World Cup scams accelerate. The post FBI Launches Operation Riptide to Disrupt $20 Billion Cybercrime Networks appeared first on BeInCrypto .",
-    "drafted_at": "2026-06-10T14:17:02.146938",
-    "data": {
-      "source": "BEINCRYPTO"
-    },
-    "content_hash": "42a5414dc9a8104a"
-  },
-  {
-    "id": "9e357b2c",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Kalshi's new rules force traders to disclose their employers before trading high-risk markets flagged for insider trading or manipulation.\n\nhttps://decrypt.co/370618/kalshi-rolls-out-new-safeguards-after-insider-trading-concerns-hit-prediction-markets",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "DECRYPT",
-    "source_url": "https://decrypt.co/370618/kalshi-rolls-out-new-safeguards-after-insider-trading-concerns-hit-prediction-markets",
-    "source_title": "Kalshi Rolls Out New Safeguards After Insider Trading Concerns Hit Prediction Markets",
-    "source_summary": "Kalshi's new rules force traders to disclose their employers before trading high-risk markets flagged for insider trading or manipulation.",
-    "drafted_at": "2026-06-10T14:17:02.147141",
-    "data": {
-      "source": "DECRYPT"
-    },
-    "content_hash": "9aaa31e621d48e03"
-  },
-  {
-    "id": "c4377f00",
+    "id": "bc3990d2",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "A week after polls closed in California\u2019s closely watched open gubernatorial primary last Tuesday\u2014following a slow trickle of votes that fueled unsubstantiated claims of fraud from the president\u2014Democrat Xavier Becerra and Republican Steve Hilton will advance to the November general election, winnowing down a crowded race to succeed two-term Democratic Gov.\n\nhttps://www.motherjones.com/politics/2026/06/becerra-hilton-steyer-california-governor-primary-election/",
@@ -263,31 +299,82 @@
     "source_url": "https://www.motherjones.com/politics/2026/06/becerra-hilton-steyer-california-governor-primary-election/",
     "source_title": "Becerra and Hilton Advance in California Governor\u2019s Race",
     "source_summary": "A week after polls closed in California\u2019s closely watched open gubernatorial primary last Tuesday\u2014following a slow trickle of votes that fueled unsubstantiated claims of fraud from the president\u2014Democrat Xavier Becerra and Republican Steve Hilton will advance to the November general election, winnowing down a crowded race to succeed two-term Democratic Gov. Gavin Newsom, who has [\u2026]",
-    "drafted_at": "2026-06-10T14:17:02.147579",
+    "drafted_at": "2026-06-10T16:36:39.653955",
     "data": {
       "source": "MOTHER JONES"
     },
     "content_hash": "4c13e05082b68660"
   },
   {
-    "id": "c2ab58e0",
-    "format": "CORRUPTION_WATCH",
+    "id": "e7f7e143",
+    "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Kalshi, which allows users to bet on an array of topics, plans to require some users to disclose their employers \u2013 after a string of insider trading scandals have rocked so-called prediction market platforms.\n\nThe plans come after an advisory committee recommended more stringent security measures to clamp down on insider trading and market manipulation....\n\nhttps://nypost.com/2026/06/09/business/kalshi-now-requiring-users-to-disclose-employers-for-some-bets-after-string-of-insider-trading-scandals/",
+    "draft_text": "Gulf wire: The incident heightens geopolitical tensions, potentially destabilizing energy markets and impacting global economic and security dynamics.\n\nThe post India summons US diplomat over tanker strike in Gulf of Oman, three Indians reported missing appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/india-summons-us-diplomat-tanker-strike/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "NY POST",
-    "source_url": "https://nypost.com/2026/06/09/business/kalshi-now-requiring-users-to-disclose-employers-for-some-bets-after-string-of-insider-trading-scandals/",
-    "source_title": "Kalshi now requiring users to disclose employers for some bets after string of insider trading scandals",
-    "source_summary": "Kalshi, which allows users to bet on an array of topics, plans to require some users to disclose their employers \u2013 after a string of insider trading scandals have rocked so-called prediction market platforms. The plans come after an advisory committee recommended more stringent security measures to clamp down on insider trading and market manipulation. ...",
-    "drafted_at": "2026-06-10T14:17:02.148034",
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/india-summons-us-diplomat-tanker-strike/",
+    "source_title": "India summons US diplomat over tanker strike in Gulf of Oman, three Indians reported missing",
+    "source_summary": "The incident heightens geopolitical tensions, potentially destabilizing energy markets and impacting global economic and security dynamics. The post India summons US diplomat over tanker strike in Gulf of Oman, three Indians reported missing appeared first on Crypto Briefing .",
+    "drafted_at": "2026-06-10T16:36:39.656009",
     "data": {
-      "source": "NY POST"
+      "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "6598d38c2667354a"
+    "content_hash": "9c8f57fb15cb6d22"
   },
   {
-    "id": "7c4e587d",
+    "id": "2073bf14",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "From the Gulf: Inflation hit 4 percent for the first time in three years in May, driven by surging gas prices from the Iran war.\n\nhttps://www.washingtonpost.com/business/2026/06/10/inflation-hits-42-percent-first-time-three-years/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "WAPO",
+    "source_url": "https://www.washingtonpost.com/business/2026/06/10/inflation-hits-42-percent-first-time-three-years/",
+    "source_title": "Inflation heats up to highest pace in three years, fueled by Iran war",
+    "source_summary": "Inflation hit 4 percent for the first time in three years in May, driven by surging gas prices from the Iran war.",
+    "drafted_at": "2026-06-10T16:36:39.656210",
+    "data": {
+      "source": "WAPO"
+    },
+    "content_hash": "8b535e112d006f0c"
+  },
+  {
+    "id": "fc34db2c",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: Iran's potential World Cup withdrawal could heighten geopolitical tensions and impact crypto markets, reflecting sports' political entanglements.\n\nThe post Iran threatens to pull national team from FIFA World Cup matches over political slogans appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iran-fifa-world-cup-crypto-impact/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/iran-fifa-world-cup-crypto-impact/",
+    "source_title": "Iran threatens to pull national team from FIFA World Cup matches over political slogans",
+    "source_summary": "Iran's potential World Cup withdrawal could heighten geopolitical tensions and impact crypto markets, reflecting sports' political entanglements. The post Iran threatens to pull national team from FIFA World Cup matches over political slogans appeared first on Crypto Briefing .",
+    "drafted_at": "2026-06-10T16:36:39.656685",
+    "data": {
+      "source": "CRYPTO BRIEFING"
+    },
+    "content_hash": "f9a12fe4a900187f"
+  },
+  {
+    "id": "2dc2dcbd",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "PACK BRIEFING \u2014 AFRICA: Malaysia is looking to diversify its crude sourcing with supply from the U.S., South America, and Africa as the Hormuz crisis has choked off its key Middle Eastern deliveries, Malaysian Economy Minister Akmal Nasrullah Mohd Nasir said on Wednesday.\n\nThe Asian economies were the first to be hit by the lack of supply from the Strait of Hormuz as the region depended on Middle Eastern crude, naphtha, and fuel supply for most of its demand.\n\nCountries have scrambled for alternative supply over the past nearly three months and have launched fuel-saving\u2026\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Hormuz-Shutdown-Forces-Malaysia-to-Overhaul-Crude-Supply-Chain.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "OILPRICE",
+    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Shutdown-Forces-Malaysia-to-Overhaul-Crude-Supply-Chain.html",
+    "source_title": "Hormuz Shutdown Forces Malaysia to Overhaul Crude Supply Chain",
+    "source_summary": "Malaysia is looking to diversify its crude sourcing with supply from the U.S., South America, and Africa as the Hormuz crisis has choked off its key Middle Eastern deliveries, Malaysian Economy Minister Akmal Nasrullah Mohd Nasir said on Wednesday. The Asian economies were the first to be hit by the lack of supply from the Strait of Hormuz as the region depended on Middle Eastern crude, naphtha, a",
+    "drafted_at": "2026-06-10T16:36:39.657481",
+    "data": {
+      "source": "OILPRICE"
+    },
+    "content_hash": "ac8461c2bb9a7505"
+  },
+  {
+    "id": "fe57284c",
     "format": "GLOBAL_DESK",
     "status": "pending",
     "draft_text": "Levant update: US prices in May rose at their fastest rate in three years, with inflation surging to 4.2%.\n\nIt marked the third month in a row the Consumer Price Index (CPI) has risen, with households increasingly feeling the strain of the US and Israel's war in Iran.\n\nAccording to separate figures from motoring group the AAA, the average price of a gallon of regular petrol in the US is currently $4.15, a sharp increase from $2.98 on February 28, when President Donald Trump launched strikes on Iran.\n\nThe rise, from 3.8% a month earlier, was largely driven by rising energy costs, the Bureau of Labor Statistics (BLS) said.\n\nhttps://www.bbc.com/news/articles/c0myzxjkw99o?at_medium=RSS&at_campaign=rss",
@@ -297,167 +384,99 @@
     "source_url": "https://www.bbc.com/news/articles/c0myzxjkw99o?at_medium=RSS&at_campaign=rss",
     "source_title": "US inflation surges to three-year high of 4.2%",
     "source_summary": "Consumers are increasingly feeling the strain of the US Israel war in Iran.",
-    "drafted_at": "2026-06-10T14:17:02.150317",
+    "drafted_at": "2026-06-10T16:36:39.659048",
     "data": {
       "source": "BBC"
     },
     "content_hash": "abd65098c9a4d5e2"
   },
   {
-    "id": "7a3a2463",
-    "format": "GLOBAL_DESK",
+    "id": "f235b540",
+    "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "From the international wire: The ECB's shift to risk-based supervision could enhance resilience and openness to digital finance, impacting global regulatory dynamics.\n\nThe post European Central Bank simplifies processes, shifts to risk-based supervision appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/ecb-risk-based-supervision-reform/",
+    "draft_text": "CPI POSTCARD: Inflation is back in the headlines, and at first glance, the latest numbers appear to deliver a clear message: higher prices mean higher interest rates.\n\nMarkets have spent the last several years obsessing over every inflation report because the Federal Reserve\u2019s next move depends heavily on whether price pressures are accelerating or easing.\n\nMay CPI Surges to 4.2%, but the Fed May Not Be Ready to Raise Rates\n\nhttps://247wallst.com/investing/2026/06/10/may-cpi-surges-to-4-2-but-the-fed-may-not-be-ready-to-raise-rates/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/ecb-risk-based-supervision-reform/",
-    "source_title": "European Central Bank simplifies processes, shifts to risk-based supervision",
-    "source_summary": "The ECB's shift to risk-based supervision could enhance resilience and openness to digital finance, impacting global regulatory dynamics. The post European Central Bank simplifies processes, shifts to risk-based supervision appeared first on Crypto Briefing .",
-    "drafted_at": "2026-06-10T14:17:02.150739",
+    "primary_source": "247 WALL ST",
+    "source_url": "https://247wallst.com/investing/2026/06/10/may-cpi-surges-to-4-2-but-the-fed-may-not-be-ready-to-raise-rates/",
+    "source_title": "May CPI Surges to 4.2%, but the Fed May Not Be Ready to Raise Rates",
+    "source_summary": "Inflation is back in the headlines, and at first glance, the latest numbers appear to deliver a clear message: higher prices mean higher interest rates. Markets have spent the last several years obsessing over every inflation report because the Federal Reserve\u2019s next move depends heavily on whether price pressures are accelerating or easing. According to ... May CPI Surges to 4.2%, but the Fed May",
+    "drafted_at": "2026-06-10T16:36:39.723289",
     "data": {
-      "source": "CRYPTO BRIEFING"
+      "source": "247 WALL ST"
     },
-    "content_hash": "74e56ccb8955e76d"
+    "content_hash": "1b614282c6941138"
   },
   {
-    "id": "1e6e3296",
-    "format": "GLOBAL_DESK",
+    "id": "9795171a",
+    "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 CHINA: NZD/USD trades around 0.5815 at the time of writing on Wednesday, little changed on the day, as investors digest a series of macroeconomic releases from China and the United States (US).\n\nhttps://www.fxstreet.com/news/new-zealand-dollar-trades-sideways-after-mixed-china-data-three-year-high-us-inflation-202606101406",
+    "draft_text": "INFLATION READ: The Pound Sterling (GBP) rises by over 0.19% on Wednesday after US inflation matched estimates, though the headline Consumer Price Index (CPI) reached a three-year high in May.\n\nThe GBP/USD pair trades near 1.3400 after bouncing off daily lows of 1.3362.\n\nhttps://www.fxstreet.com/news/british-pound-hovers-near-13400-as-hot-us-cpi-weighs-on-the-usd-202606101545",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/new-zealand-dollar-trades-sideways-after-mixed-china-data-three-year-high-us-inflation-202606101406",
-    "source_title": "New Zealand Dollar trades sideways after mixed China data, three-year high US inflation",
-    "source_summary": "NZD/USD trades around 0.5815 at the time of writing on Wednesday, little changed on the day, as investors digest a series of macroeconomic releases from China and the United States (US).",
-    "drafted_at": "2026-06-10T14:17:02.151047",
+    "source_url": "https://www.fxstreet.com/news/british-pound-hovers-near-13400-as-hot-us-cpi-weighs-on-the-usd-202606101545",
+    "source_title": "British Pound hovers near 1.3400 as hot US CPI weighs on USD",
+    "source_summary": "The Pound Sterling (GBP) rises by over 0.19% on Wednesday after US inflation matched estimates, though the headline Consumer Price Index (CPI) reached a three-year high in May. The GBP/USD pair trades near 1.3400 after bouncing off daily lows of 1.3362.",
+    "drafted_at": "2026-06-10T16:36:39.723606",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "e96c6d2be7de1833"
+    "content_hash": "03f63edd114cfc96"
   },
   {
-    "id": "3b5779ef",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Gulf wire: The US strikes on Iranian air defense and radar systems appear intended as a limited warning to Tehran rather than the opening salvo of a broader military campaign, according to senior US officials and regional security experts.\n\nThe attacks targeted several Iranian air defense and radar systems, with another US official telling RFE/RL that the operation was \"ongoing\" and focused on air defenses and radar installations.\n\nIranian state media reported explosions in several locations across Hormozgan Province, including Sirik, Bandar Abbas, Minab, and\u2026\n\nhttps://oilprice.com/Energy/Energy-General/Washington-Walks-a-Tightrope-After-Striking-Iran.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "OILPRICE",
-    "source_url": "https://oilprice.com/Energy/Energy-General/Washington-Walks-a-Tightrope-After-Striking-Iran.html",
-    "source_title": "Washington Walks a Tightrope After Striking Iran",
-    "source_summary": "The US strikes on Iranian air defense and radar systems appear intended as a limited warning to Tehran rather than the opening salvo of a broader military campaign, according to senior US officials and regional security experts. The attacks targeted several Iranian air defense and radar systems, with another US official telling RFE/RL that the operation was \"ongoing\" and focused on air defenses an",
-    "drafted_at": "2026-06-10T14:17:02.152159",
-    "data": {
-      "source": "OILPRICE"
-    },
-    "content_hash": "c2b2be2aa71be425"
-  },
-  {
-    "id": "fac781ac",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "MIDDLE EAST DESK: US inflation jumped to an annual rate of 4.2% in May, the third consecutive monthly increase since the start of the Iran war and a three-year high, as Americans continue to face steep oil prices.\n\nThe national average price for a gallon of gas is $4.15, according to AAA, which is slightly lower than where the price was a month ago but still $1 per gallon more than a year ago.\n\nStripping out volatile energy and food prices, core CPI increased 2.9%.\n\nPrices have increased sharply over the past several months, rising at an annual rate of 3.3% in March before going up to 3.8% in April.\n\nIn February, before the conflict began, inflation was at 2.4%.\n\nhttps://www.theguardian.com/business/2026/jun/10/inflation-report-rate",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "GUARDIAN",
-    "source_url": "https://www.theguardian.com/business/2026/jun/10/inflation-report-rate",
-    "source_title": "US inflation jumped to 4.2% in May, the third consecutive increase since start of Iran war",
-    "source_summary": "Before the conflict began, inflation was at 2.4%, but the closure of the strait of Hormuz has affected energy prices US inflation jumped to an annual rate of 4.2% in May, the third consecutive monthly increase since the start of the Iran war and a three-year high, as Americans continue to face steep oil prices. Prices have increased sharply over the past several months, rising at an annual rate of",
-    "drafted_at": "2026-06-10T14:17:02.153979",
-    "data": {
-      "source": "GUARDIAN"
-    },
-    "content_hash": "61fa22a072fbe2ae"
-  },
-  {
-    "id": "d1f3bf5b",
+    "id": "c2f77e79",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "INFLATION READ: Bitcoin rose above $62,000 after the latest US inflation report gave traders enough relief to step back from a deeper test of the $60,000 level.\n\nThe move followed several days of pressure across crypto markets, where investors had been preparing for the possibility that a hotter inflation print would revive rate-hike concerns and push risk [\u2026] The post Bitcoin jumps above $62,000 after CPI report gives traders room to defend $60,000 appeared first on CryptoSlate.\n\nhttps://cryptoslate.com/bitcoin-jumps-above-62000-after-cpi-report-gives-traders-room-to-defend-60000/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CRYPTOSLATE",
-    "source_url": "https://cryptoslate.com/bitcoin-jumps-above-62000-after-cpi-report-gives-traders-room-to-defend-60000/",
-    "source_title": "Bitcoin jumps above $62,000 after CPI report gives traders room to defend $60,000",
-    "source_summary": "Bitcoin rose above $62,000 after the latest US inflation report gave traders enough relief to step back from a deeper test of the $60,000 level. The move followed several days of pressure across crypto markets, where investors had been preparing for the possibility that a hotter inflation print would revive rate-hike concerns and push risk [\u2026] The post Bitcoin jumps above $62,000 after CPI report ",
-    "drafted_at": "2026-06-10T14:17:02.199583",
-    "data": {
-      "source": "CRYPTOSLATE"
-    },
-    "content_hash": "d31bff588652652f"
-  },
-  {
-    "id": "3c188240",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "From the inflation desk: Bond traders maintained bets that the Federal Reserve will raise interest rates by the end of the year, even after a soft US core inflation reading eased pressure on Chairman Kevin Warsh to act sooner.\n\nhttps://financialpost.com/pmn/business-pmn/bond-traders-keep-bets-on-a-fed-hike-in-2026-after-cpi-data",
+    "draft_text": "Inflation update: JPMorgan Asset Management\u2019s David Kelly predicted the Federal Reserve will decide that the latest inflation data aren\u2019t worrisome enough to prompt policymakers to do anything other than stand pat on interest rates next week.\n\nhttps://financialpost.com/pmn/business-pmn/jpmorgan-sees-may-as-cpi-high-water-mark-with-fed-set-to-hold",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/pmn/business-pmn/bond-traders-keep-bets-on-a-fed-hike-in-2026-after-cpi-data",
-    "source_title": "Bond Traders Keep Bets on a Fed Hike in 2026 After CPI Data",
-    "source_summary": "Bond traders maintained bets that the Federal Reserve will raise interest rates by the end of the year, even after a soft US core inflation reading eased pressure on Chairman Kevin Warsh to act sooner.",
-    "drafted_at": "2026-06-10T14:17:02.199799",
+    "source_url": "https://financialpost.com/pmn/business-pmn/jpmorgan-sees-may-as-cpi-high-water-mark-with-fed-set-to-hold",
+    "source_title": "JPMorgan Sees May as CPI \u2018High-Water Mark\u2019 With Fed Set to Hold",
+    "source_summary": "JPMorgan Asset Management\u2019s David Kelly predicted the Federal Reserve will decide that the latest inflation data aren\u2019t worrisome enough to prompt policymakers to do anything other than stand pat on interest rates next week.",
+    "drafted_at": "2026-06-10T16:36:39.723938",
     "data": {
       "source": "FINANCIAL POST"
     },
-    "content_hash": "e7fa46623b9986e1"
+    "content_hash": "5d7e35491c2a2b6a"
   },
   {
-    "id": "aebcbac5",
+    "id": "c652975e",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "DATA DROP: Scotiabank\u2019s Shaun Osborne and Eric Theoret note GBP/USD is slightly higher, British Pound (GBP) outperforming most G10 peers except the Canadian Dollar (CAD) and Norwegian Krone (NOK), as traders await UK trade and industrial production data before the June 18 BoE meeting.\n\nhttps://www.fxstreet.com/news/british-pound-holds-gains-against-us-dollar-with-limited-data-risk-scotiabank-202606101336",
+    "draft_text": "How sticky is inflation? Let's see: Consumer prices continued their surge in May, with the latest CPI report showing inflation soared to 4.2%.\n\nhttps://watcher.guru/news/cpi-inflation-surges-to-4-2-in-may-highest-level-since-2023",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/british-pound-holds-gains-against-us-dollar-with-limited-data-risk-scotiabank-202606101336",
-    "source_title": "British Pound: Holds gains against US Dollar with limited data risk \u2013 Scotiabank",
-    "source_summary": "Scotiabank\u2019s Shaun Osborne and Eric Theoret note GBP/USD is slightly higher, British Pound (GBP) outperforming most G10 peers except the Canadian Dollar (CAD) and Norwegian Krone (NOK), as traders await UK trade and industrial production data before the June 18 BoE meeting.",
-    "drafted_at": "2026-06-10T14:17:02.200191",
+    "primary_source": "WATCHER GURU",
+    "source_url": "https://watcher.guru/news/cpi-inflation-surges-to-4-2-in-may-highest-level-since-2023",
+    "source_title": "CPI Inflation Surges to 4.2% in May: Highest level since 2023",
+    "source_summary": "Consumer prices continued their surge in May, with the latest CPI report showing inflation soared to 4.2%. This\u2026",
+    "drafted_at": "2026-06-10T16:36:39.724121",
     "data": {
-      "source": "FXSTREET"
+      "source": "WATCHER GURU"
     },
-    "content_hash": "6bb61a4f67163529"
+    "content_hash": "cd0e42ae5677e7b7"
   },
   {
-    "id": "81237113",
+    "id": "f59f5b16",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "The CPI scoreboard: The market is trading a tad better after CPI but the details make for a complex picture.\n\nThe headlines were basically in-line with estimates and core at +0.2% vs +0.3% was a touch soft.\n\nNotably though, the unrounded reading was +0.249% so it was right on the cusp.\n\nThe relief bounce isn't a surprise given the market is anxious about runaway inflation that the Fed will be forced to address.\n\nThis number is still soft enough that Team Transitory 2.0 can hold its breath for another month.\n\nLooking ahead there are notable base effects for the coming months of US CPI: June 2025: +0.3% drops out July 2025: +0.2% drops out August 2025: +0.3% drops out September 2025: +0.3% drops out That means steady +0.3% m/m readings will keep inflation at 4.2% but there could be some downward pressure with gasoline currently at $4.161/gallon compared to $4.45-4.50 in May.\n\nThat's -7% on gasoline if it holds through month-end, making for the possibility of a negative m/m reading.\n\nOn the flip side, as Zero Hedge highlights, the core CPI miss was entirely due to an unexpected plunge in the car insurance index, which tumbled by 1.7% m/m, the biggest drop since covid.\n\nhttps://investinglive.com/news/the-market-breathes-a-sigh-of-relief-as-cpi-matches-estimates-but-details-still-tricky-20260610/",
+    "draft_text": "Inflation update: Peter Navarro, RealClearMarkets The financial press needed only minutes to take a hot CPI headline number and turn it into a Fed-panic story.\n\nhttps://www.realclearmarkets.com/2026/06/10/headline_cpi_print_is_hot_while_core_inflation_is_not_1187911.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/the-market-breathes-a-sigh-of-relief-as-cpi-matches-estimates-but-details-still-tricky-20260610/",
-    "source_title": "The market breathes a sigh of relief as CPI matches estimates but details still tricky",
-    "source_summary": "The market is trading a tad better after CPI but the details make for a complex picture. The headlines were basically in-line with estimates and core at +0.2% vs +0.3% was a touch soft. Notably though, the unrounded reading was +0.249% so it was right on the cusp. The relief bounce isn't a surprise given the market is anxious about runaway inflation that the Fed will be forced to address. This num",
-    "drafted_at": "2026-06-10T14:17:02.201286",
+    "primary_source": "REALCLEAR",
+    "source_url": "https://www.realclearmarkets.com/2026/06/10/headline_cpi_print_is_hot_while_core_inflation_is_not_1187911.html",
+    "source_title": "Headline CPI Print Is Hot, While Core Inflation Is Not",
+    "source_summary": "Peter Navarro, RealClearMarkets The financial press needed only minutes to take a hot CPI headline number and turn it into a Fed-panic story. CNN promptly...",
+    "drafted_at": "2026-06-10T16:36:39.724319",
     "data": {
-      "source": "FOREXLIVE"
+      "source": "REALCLEAR"
     },
-    "content_hash": "2276dc404a5cd9b1"
+    "content_hash": "15453c90499c78c6"
   },
   {
-    "id": "c999efef",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "How sticky is inflation? Let's see: Crypto tax bills hit a wall in the House.\n\nAnd Morpho closed one of the biggest DeFi rounds in a long time.\n\nhttps://decrypt.co/370624/morning-minute-crypto-falls-amidst-war-escalation-and-mythos-release",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "DECRYPT",
-    "source_url": "https://decrypt.co/370624/morning-minute-crypto-falls-amidst-war-escalation-and-mythos-release",
-    "source_title": "Morning Minute: Crypto Falls Amidst War Escalation and Mythos Release",
-    "source_summary": "Markets sold off ahead of CPI. Crypto tax bills hit a wall in the House. And Morpho closed one of the biggest DeFi rounds in a long time.",
-    "drafted_at": "2026-06-10T14:17:02.201450",
-    "data": {
-      "source": "DECRYPT"
-    },
-    "content_hash": "1fc4a2c0e2f12b35"
-  },
-  {
-    "id": "db3f84d9",
+    "id": "c53ba768",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -467,7 +486,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-06-10T14:17:02.208936",
+    "drafted_at": "2026-06-10T16:36:39.733276",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -475,7 +494,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "5698d81a",
+    "id": "8f225a6c",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "The herd panics together. The pack profits quietly.",
@@ -485,14 +504,14 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "The herd panics together. The pack profits quietly.",
-    "drafted_at": "2026-06-10T14:17:02.209002",
+    "drafted_at": "2026-06-10T16:36:39.733357",
     "data": {
       "take_seed": "2026-06-10-pack-1"
     },
     "content_hash": "9b0f7be55d8ef71c"
   },
   {
-    "id": "bb03be6c",
+    "id": "f6335af4",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Your alerts didn't go off because the pack got there first.",
@@ -502,7 +521,7 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Your alerts didn't go off because the pack got there first.",
-    "drafted_at": "2026-06-10T14:17:02.209062",
+    "drafted_at": "2026-06-10T16:36:39.733415",
     "data": {
       "take_seed": "2026-06-10-pack-2"
     },
