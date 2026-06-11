@@ -1,30 +1,16 @@
 {
-  "^VIX:move:2026-06-11": {
-    "headline": "VIX rips 29.8% in 5 sessions to 20.83",
-    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "source": "CBOE \u00b7 ^VIX",
-    "chart_path": null,
-    "signal_id": "^VIX:move:2026-06-11",
-    "current_str": "20.83",
-    "label": "VIX (S&P 500 volatility)",
-    "hashtags": "#VIX #Volatility #Markets",
-    "kind": "move_up",
-    "badge": "+29.8%",
-    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "fired_at": "2026-06-11T12:02:44.835299"
-  },
-  "^IXIC:move:2026-06-10": {
-    "headline": "Nasdaq drops 6.7% in 5 sessions to 25,169.50",
+  "^IXIC:move:2026-06-11": {
+    "headline": "Nasdaq drops 6.7% in 5 sessions to 25,275.43",
     "matters": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
     "source": "Yahoo Finance \u00b7 ^IXIC",
     "chart_path": null,
-    "signal_id": "^IXIC:move:2026-06-10",
-    "current_str": "25,169.50",
+    "signal_id": "^IXIC:move:2026-06-11",
+    "current_str": "25,275.43",
     "label": "Nasdaq Composite",
     "hashtags": "#Nasdaq #Tech #Stocks",
     "kind": "move_down",
     "badge": "-6.7%",
     "data_url": "https://finance.yahoo.com/quote/%5EIXIC",
-    "fired_at": "2026-06-11T12:02:44.835299"
+    "fired_at": "2026-06-11T16:56:54.310123"
   }
 }
