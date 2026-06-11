@@ -1,76 +1,78 @@
 [
   {
-    "id": "88f6e5ab",
+    "id": "f0f4dda0",
+    "format": "LOUD_HOWL",
+    "status": "pending",
+    "draft_text": "TODAY'S LOUDEST HOWL: Oil prices surged again in early Asian trade on Thursday after Iran declared the Strait of Hormuz closed following a fresh round of U.S. strikes on the country.\n\nAt the time of writing, Brent crude had climbed 2.26% to trade at $95.20 per barrel, while West Texas Intermediate had risen 2.5% to $92.30 per barrel.\n\nBoth benchmarks have seen extreme volatility this week as outbreaks of attacks are quickly followed by claims of an imminent deal being signed.\n\nThe latest escalation started with the downing of a U.S. Apache helicopter near the Strait\u2026\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Spike-as-Iran-Declares-Strait-of-Hormuz-Closed.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "OILPRICE",
+    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Spike-as-Iran-Declares-Strait-of-Hormuz-Closed.html",
+    "source_title": "Oil Prices Spike as Iran Declares Strait of Hormuz Closed",
+    "source_summary": "Oil prices surged again in early Asian trade on Thursday after Iran declared the Strait of Hormuz closed following a fresh round of U.S. strikes on the country. At the time of writing, Brent crude had climbed 2.26% to trade at $95.20 per barrel, while West Texas Intermediate had risen 2.5% to $92.30 per barrel. Both benchmarks have seen extreme volatility this week as outbreaks of attacks are quic",
+    "drafted_at": "2026-06-11T07:21:13.034348",
+    "data": {
+      "source": "OILPRICE"
+    },
+    "content_hash": "f248ed34a6e51bdf"
+  },
+  {
+    "id": "d898bc51",
     "format": "MARKET_MOVE",
     "status": "pending",
-    "draft_text": "The market did a thing: Bitcoin tumbles 13.2% in 5 sessions to $61,919.\n\nBitcoin is now treated as a macro asset alongside gold and tech.\n\nIts swings move alt-coins, public miners, and crypto-exposed stocks.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/BTC-USD",
+    "draft_text": "If you're not watching this, you're behind. VIX rips 29.7% in 5 sessions to 19.87.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "Yahoo Finance \u00b7 BTC-USD",
-    "source_url": "https://finance.yahoo.com/quote/BTC-USD",
-    "source_title": "Bitcoin",
-    "source_summary": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
-    "drafted_at": "2026-06-11T02:34:01.068635",
+    "primary_source": "CBOE \u00b7 ^VIX",
+    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "source_title": "VIX (S&P 500 volatility)",
+    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "drafted_at": "2026-06-11T07:21:13.034629",
     "data": {
-      "signal_id": "BTC-USD:move:2026-06-11",
+      "signal_id": "^VIX:move:2026-06-09",
+      "kind": "move_up",
+      "current": "19.87"
+    },
+    "content_hash": "995f4d67e7e875d2"
+  },
+  {
+    "id": "21b9c033",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Pop quiz \u2014 when's the last time you saw this? Gold slides 8.0% in 5 sessions to $4,117.10.\n\nGold tracks real yields and central bank demand.\n\nMulti-year highs flag debasement or geopolitical hedging flows.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/GC%3DF",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "COMEX \u00b7 GC=F",
+    "source_url": "https://finance.yahoo.com/quote/GC%3DF",
+    "source_title": "Gold futures",
+    "source_summary": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
+    "drafted_at": "2026-06-11T07:21:13.034914",
+    "data": {
+      "signal_id": "GC=F:move:2026-06-11",
       "kind": "move_down",
-      "current": "$61,919"
+      "current": "$4,117.10"
     },
-    "content_hash": "0e3396ceb3da7211"
+    "content_hash": "514096a7b4f87c16"
   },
   {
-    "id": "d0bb7399",
+    "id": "d1e97221",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "PBOC DESK: The People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Thursday at 6.8150 compared to the previous day's fix of 6.8130 and 6.7819 Reuters estimate.\n\nhttps://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-68150-vs-68130-previous-202606110115",
+    "draft_text": "RATE-PATH READ: Gold (XAU/USD) struggles to capitalize on a modest bounce from its lowest level since November 2025, touched earlier this Thursday, and remains below the $4,100 mark heading into the European session amid mixed cues.\n\nhttps://www.fxstreet.com/news/gold-steadies-above-ytd-low-on-softer-usd-bearish-bias-remains-amid-fed-hike-bets-202606110400",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "PBOC",
-    "source_url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-68150-vs-68130-previous-202606110115",
-    "source_title": "PBOC sets USD/CNY reference rate at 6.8150 vs. 6.8130 previous",
-    "source_summary": "The People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Thursday at 6.8150 compared to the previous day's fix of 6.8130 and 6.7819 Reuters estimate.",
-    "drafted_at": "2026-06-11T02:34:01.077610",
+    "primary_source": "Fed",
+    "source_url": "https://www.fxstreet.com/news/gold-steadies-above-ytd-low-on-softer-usd-bearish-bias-remains-amid-fed-hike-bets-202606110400",
+    "source_title": "Gold struggles to extend recovery from YTD low, remains below $4,100 amid Fed hike bets",
+    "source_summary": "Gold (XAU/USD) struggles to capitalize on a modest bounce from its lowest level since November 2025, touched earlier this Thursday, and remains below the $4,100 mark heading into the European session amid mixed cues.",
+    "drafted_at": "2026-06-11T07:21:13.044376",
     "data": {
-      "actor": "PBOC"
+      "actor": "Fed"
     },
-    "content_hash": "f19662ea7b5dd628"
+    "content_hash": "4d819815d7420f56"
   },
   {
-    "id": "4950c7dc",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "ECB DESK: The EUR/USD pair trades in positive territory near 1.1540 during the early Asian trading hours on Thursday.\n\nRising bets that the European Central Bank (ECB) will deliver a rate hike at its June policy meeting later on Thursday underpin the Euro (EUR) against the Greenback.\n\nhttps://www.fxstreet.com/news/euro-gathers-strength-to-near-11550-ahead-of-ecb-rate-decision-202606110044",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "ECB",
-    "source_url": "https://www.fxstreet.com/news/euro-gathers-strength-to-near-11550-ahead-of-ecb-rate-decision-202606110044",
-    "source_title": "Euro gathers strength to near 1.1550 ahead of ECB rate decision",
-    "source_summary": "The EUR/USD pair trades in positive territory near 1.1540 during the early Asian trading hours on Thursday. Rising bets that the European Central Bank (ECB) will deliver a rate hike at its June policy meeting later on Thursday underpin the Euro (EUR) against the Greenback.",
-    "drafted_at": "2026-06-11T02:34:01.077929",
-    "data": {
-      "actor": "ECB"
-    },
-    "content_hash": "b84ed32a2f218966"
-  },
-  {
-    "id": "e4010e9e",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "JAPAN POLICY READ: Bitcoin\u2019s average price response to Bank of Japan rate hikes was a 22.5% sell-off.\n\nWill BOJ\u2019s upcoming policy decision trigger another BTC price crash?\n\nhttps://cointelegraph.com/markets/can-bitcoin-avoid-another-sell-off-after-a-bank-of-japan-rate-hike?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Bank of Japan",
-    "source_url": "https://cointelegraph.com/markets/can-bitcoin-avoid-another-sell-off-after-a-bank-of-japan-rate-hike?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "source_title": "Pending Bank of Japan rate decision may impact Bitcoin price: Should traders prepare?",
-    "source_summary": "Bitcoin\u2019s average price response to Bank of Japan rate hikes was a 22.5% sell-off. Will BOJ\u2019s upcoming policy decision trigger another BTC price crash?",
-    "drafted_at": "2026-06-11T02:34:01.078169",
-    "data": {
-      "actor": "Bank of Japan"
-    },
-    "content_hash": "da5bc6f808892c25"
-  },
-  {
-    "id": "c1d53f4b",
+    "id": "483d8d6b",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "RATE-PATH READ: It evaluates banks' resilience by estimating losses, net revenue, and capital levels\u2014which provide a cushion against losses\u2014under a hypothetical recession scenario.\n\nThe Board's stress test is one tool used to measure whether banks have adequate capital to absorb losses so that they can lend to households and businesses even in a severe recession.\n\nThis year, 32 large banks were subject to the Board's stress test.\n\nThe scenario includes a severe global recession with heightened stress in both commercial and residential real estate markets, as well as in corporate debt markets.\n\nThese stress test results will not impact large bank capital requirements.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260609a.htm",
@@ -80,14 +82,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260609a.htm",
     "source_title": "Federal Reserve Board announces that results from its annual bank stress test will be released on Wednesday, June 24, at 4 p.m. EDT.",
     "source_summary": "Federal Reserve Board announces that results from its annual bank stress test will be released on Wednesday, June 24, at 4 p.m. EDT.",
-    "drafted_at": "2026-06-11T02:34:01.079076",
+    "drafted_at": "2026-06-11T07:21:13.045500",
     "data": {
       "actor": "FED"
     },
     "content_hash": "35487362043c0c4b"
   },
   {
-    "id": "0759d89d",
+    "id": "6e0658f3",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "If you watch rates, read this: The agencies are taking this action to complement their earlier actions that ended the use of reputation risk in supervision.\n\nAs the agencies have previously noted, reputation risk can be misused by supervisors as a basis to encourage or pressure a bank to restrict individuals' and legal businesses' access to financial services due to their constitutionally protected political or religious beliefs, speech, or conduct or lawful business activities.\n\nThese updates help ensure supervisory decisions are based on material financial risks, as well as increase clarity and facilitate greater precision in supervisory decision making.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260602a.htm",
@@ -97,114 +99,216 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260602a.htm",
     "source_title": "Agencies remove additional references to reputation risk",
     "source_summary": "Agencies remove additional references to reputation risk",
-    "drafted_at": "2026-06-11T02:34:01.079884",
+    "drafted_at": "2026-06-11T07:21:13.046448",
     "data": {
       "actor": "FED"
     },
     "content_hash": "037f4db78eebad91"
   },
   {
-    "id": "9a81f63f",
+    "id": "e69232fc",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "Rate-path desk: The Board's process for setting the discount rate is distinct from the process the Federal Open Market Committee follows in setting the target range for the federal funds rate.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
+    "source_title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
+    "source_summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
+    "drafted_at": "2026-06-11T07:21:13.046848",
+    "data": {
+      "actor": "FED"
+    },
+    "content_hash": "b2d403ab8c4d5036"
+  },
+  {
+    "id": "e91fe882",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "FED WATCH: Also on Friday, the Federal Open Market Committee unanimously selected Warsh as its chairman.\n\nPresident Donald J.\n\nTrump nominated Mr. Warsh on March 4, 2026.\n\nHe was confirmed by the United States Senate to serve as a member of the Board on May 12, and as chairman of the Board on May 13.\n\nHis term as chairman ends on May 21, 2030, and his term as a member of the Board ends on January 31, 2040.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm",
+    "source_title": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
+    "source_summary": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
+    "drafted_at": "2026-06-11T07:21:13.047483",
+    "data": {
+      "actor": "FED"
+    },
+    "content_hash": "a5762f43aa0ef3b0"
+  },
+  {
+    "id": "16de5384",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$IFF insider bought $32,284,388 on 2026-06-01, 2 insiders. \ud83d\udc40\n\nInternational Flavors & Fragrances Inc. 444,219 shares at $72.68.\n\n+2.1% since the purchase.\n\nhttp://openinsider.com/screener?s=IFF",
+    "draft_text": "$IFF insider bought $32,284,388 on 2026-06-01, 2 insiders. \ud83d\udc40\n\nInternational Flavors & Fragrances Inc. 444,219 shares at $72.68.\n\n+4.3% since the purchase.\n\nhttp://openinsider.com/screener?s=IFF",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=IFF",
     "source_title": "International Flavors & Fragrances Inc (IFF) insider bought $32,284,388",
     "source_summary": "2 insider(s) bought 444,219 shares at $72.68 on 2026-06-01.",
-    "drafted_at": "2026-06-11T02:34:01.081704",
+    "drafted_at": "2026-06-11T07:21:13.048586",
     "data": {
       "ticker": "IFF",
       "type": "P",
       "dollar_value": 32284388.0,
-      "pct_since": 2.1326408323246926
+      "pct_since": 4.2652707475190805
     },
     "content_hash": "b59bb9be9054dcc6"
   },
   {
-    "id": "9ca5dbd8",
+    "id": "7f0a6fe7",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$NCLH insider bought $29,163,646 on 2026-06-01, 7 insiders. \ud83d\udc40\n\nNorwegian Cruise Line Holdings Ltd.. 1,633,867 shares at $17.85.\n\n+0.4% since the purchase.\n\nhttp://openinsider.com/screener?s=NCLH",
+    "draft_text": "$NCLH insider bought $29,163,646 on 2026-06-01, 7 insiders. \ud83d\udc40\n\nNorwegian Cruise Line Holdings Ltd.. 1,633,867 shares at $17.85.\n\n+6.6% since the purchase.\n\nhttp://openinsider.com/screener?s=NCLH",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=NCLH",
     "source_title": "Norwegian Cruise Line Holdings Ltd. (NCLH) insider bought $29,163,646",
     "source_summary": "7 insider(s) bought 1,633,867 shares at $17.85 on 2026-06-01.",
-    "drafted_at": "2026-06-11T02:34:01.081823",
+    "drafted_at": "2026-06-11T07:21:13.048726",
     "data": {
       "ticker": "NCLH",
       "type": "P",
       "dollar_value": 29163646.0,
-      "pct_since": 0.3921572901621507
+      "pct_since": 6.610648104456618
     },
     "content_hash": "467ccdd401ed9ddb"
   },
   {
-    "id": "11d6d95d",
+    "id": "58a1349a",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$QNT insider bought $24,649,920 on 2026-06-05, 10 insiders. \ud83d\udc40\n\nQuantinuum Inc.. 410,832 shares at $60.00.\n\n-14.3% since the purchase.\n\nhttp://openinsider.com/screener?s=QNT",
+    "draft_text": "$QNT insider bought $24,649,920 on 2026-06-05, 10 insiders. \ud83d\udc40\n\nQuantinuum Inc.. 410,832 shares at $60.00.\n\n-8.4% since the purchase.\n\nhttp://openinsider.com/screener?s=QNT",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=QNT",
     "source_title": "Quantinuum Inc. (QNT) insider bought $24,649,920",
     "source_summary": "10 insider(s) bought 410,832 shares at $60.00 on 2026-06-05.",
-    "drafted_at": "2026-06-11T02:34:01.081927",
+    "drafted_at": "2026-06-11T07:21:13.048845",
     "data": {
       "ticker": "QNT",
       "type": "P",
       "dollar_value": 24649920.0,
-      "pct_since": -14.333330790201822
+      "pct_since": -8.433335622151693
     },
     "content_hash": "1896377d0aa7046f"
   },
   {
-    "id": "9e3bcf20",
+    "id": "89aa00aa",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$RYAN insider bought $4,199,917 on 2026-06-03, 3 insiders. \ud83d\udc40\n\nRyan Specialty Holdings, Inc.. 129,515 shares at $32.43.\n\n+6.9% since the purchase.\n\nhttp://openinsider.com/screener?s=RYAN",
+    "draft_text": "$RYAN insider bought $4,199,917 on 2026-06-03, 3 insiders. \ud83d\udc40\n\nRyan Specialty Holdings, Inc.. 129,515 shares at $32.43.\n\n+2.8% since the purchase.\n\nhttp://openinsider.com/screener?s=RYAN",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=RYAN",
     "source_title": "Ryan Specialty Holdings, Inc. (RYAN) insider bought $4,199,917",
     "source_summary": "3 insider(s) bought 129,515 shares at $32.43 on 2026-06-03.",
-    "drafted_at": "2026-06-11T02:34:01.082040",
+    "drafted_at": "2026-06-11T07:21:13.048979",
     "data": {
       "ticker": "RYAN",
       "type": "P",
       "dollar_value": 4199917.0,
-      "pct_since": 6.907179059344165
+      "pct_since": 2.8060442571319486
     },
     "content_hash": "fc6b1f759d78725b"
   },
   {
-    "id": "2a3f3250",
+    "id": "21944b59",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$LODE insider bought $3,219,681 on 2026-06-03, 4 insiders. \ud83d\udc40\n\nComstock Inc.. 882,651 shares at $3.65.\n\n+1.9% since the purchase.\n\nhttp://openinsider.com/screener?s=LODE",
+    "draft_text": "$LODE insider bought $3,219,681 on 2026-06-03, 4 insiders. \ud83d\udc40\n\nComstock Inc.. 882,651 shares at $3.65.\n\n+5.2% since the purchase.\n\nhttp://openinsider.com/screener?s=LODE",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=LODE",
     "source_title": "Comstock Inc. (LODE) insider bought $3,219,681",
     "source_summary": "4 insider(s) bought 882,651 shares at $3.65 on 2026-06-03.",
-    "drafted_at": "2026-06-11T02:34:01.082139",
+    "drafted_at": "2026-06-11T07:21:13.049119",
     "data": {
       "ticker": "LODE",
       "type": "P",
       "dollar_value": 3219681.0,
-      "pct_since": 1.9178090030199886
+      "pct_since": 5.205477100529085
     },
     "content_hash": "7d63626d43ee665a"
   },
   {
-    "id": "3a7e8d4f",
+    "id": "600a401d",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "LOS ANGELES, June 11, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against FS KKR Capital Corp. (\"FSK\" or \"the Company\") (NYSE: FSK) violations of \u00a7\u00a710(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder by the...\n\nhttps://www.prnewswire.com/news-releases/fs-kkr-capital-corp-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--fsk-302797486.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "PR NEWSWIRE",
+    "source_url": "https://www.prnewswire.com/news-releases/fs-kkr-capital-corp-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--fsk-302797486.html",
+    "source_title": "FS KKR Capital Corp. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights",
+    "source_summary": "LOS ANGELES, June 11, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against FS KKR Capital Corp. (\"FSK\" or \"the Company\") (NYSE: FSK) violations of \u00a7\u00a710(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder by the...",
+    "drafted_at": "2026-06-11T07:21:13.050462",
+    "data": {
+      "source": "PR NEWSWIRE"
+    },
+    "content_hash": "7f95d725d2cfc470"
+  },
+  {
+    "id": "232096d3",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "The IDnow Trust Platform helps organisations orchestrate identity, fraud and compliance across the full customer lifecycle.\n\nIt is built for where digital identity is going, not just where it is.\n\nMUNICH, June 11, 2026 /PRNewswire/ -- Europe's digital identity market is entering its most...\n\nhttps://www.prnewswire.com/news-releases/idnow-launches-idnow-trust-platform-as-europe-enters-a-new-phase-of-digital-identity-302797074.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "PR NEWSWIRE",
+    "source_url": "https://www.prnewswire.com/news-releases/idnow-launches-idnow-trust-platform-as-europe-enters-a-new-phase-of-digital-identity-302797074.html",
+    "source_title": "IDnow launches IDnow Trust Platform as Europe enters a new phase of digital identity",
+    "source_summary": "The IDnow Trust Platform helps organisations orchestrate identity, fraud and compliance across the full customer lifecycle. It is built for where digital identity is going, not just where it is. MUNICH, June 11, 2026 /PRNewswire/ -- Europe's digital identity market is entering its most...",
+    "drafted_at": "2026-06-11T07:21:13.050893",
+    "data": {
+      "source": "PR NEWSWIRE"
+    },
+    "content_hash": "aa8731ef1a4c5653"
+  },
+  {
+    "id": "def2fff4",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "The IDnow Trust Platform helps organisations orchestrate identity, fraud and compliance across the full customer lifecycle.\n\nIt is built for where digital identity is going, not just where it is.\n\nMUNICH, June 11, 2026 /PRNewswire/ -- Europe's digital identity market is entering its most...\n\nhttps://www.prnewswire.com/news-releases/idnow-launches-idnow-trust-platform-as-europe-enters-a-new-phase-of-digital-identity-302797079.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "PR NEWSWIRE",
+    "source_url": "https://www.prnewswire.com/news-releases/idnow-launches-idnow-trust-platform-as-europe-enters-a-new-phase-of-digital-identity-302797079.html",
+    "source_title": "IDnow launches IDnow Trust Platform as Europe enters a new phase of digital identity",
+    "source_summary": "The IDnow Trust Platform helps organisations orchestrate identity, fraud and compliance across the full customer lifecycle. It is built for where digital identity is going, not just where it is. MUNICH, June 11, 2026 /PRNewswire/ -- Europe's digital identity market is entering its most...",
+    "drafted_at": "2026-06-11T07:21:13.051329",
+    "data": {
+      "source": "PR NEWSWIRE"
+    },
+    "content_hash": "3d7dd31096ea3cdd"
+  },
+  {
+    "id": "a47487bd",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Caught. Trenton Richard Johnston was arrested in March during a traffic stop for speeding, but investigators soon found he was involved in a wider fraud scheme.\n\nhttps://cointelegraph.com/news/teen-admits-to-scamming-13m-crypto-to-splurge-on-private-jets-lambo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "COINTELEGRAPH",
+    "source_url": "https://cointelegraph.com/news/teen-admits-to-scamming-13m-crypto-to-splurge-on-private-jets-lambo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source_title": "Teen crypto scammer stole $13M to splurge on private jets, Lambo",
+    "source_summary": "Trenton Richard Johnston was arrested in March during a traffic stop for speeding, but investigators soon found he was involved in a wider fraud scheme.",
+    "drafted_at": "2026-06-11T07:21:13.051560",
+    "data": {
+      "source": "COINTELEGRAPH"
+    },
+    "content_hash": "7a4967b38043f0a7"
+  },
+  {
+    "id": "ba7c0e53",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Prediction-market companies are identifying hundreds of cases of suspected insider trading.\n\nhttps://www.marketwatch.com/story/thinking-about-insider-trading-on-prediction-markets-kalshi-wants-to-make-an-example-of-you-74d50486?mod=mw_rss_topstories",
@@ -214,167 +318,133 @@
     "source_url": "https://www.marketwatch.com/story/thinking-about-insider-trading-on-prediction-markets-kalshi-wants-to-make-an-example-of-you-74d50486?mod=mw_rss_topstories",
     "source_title": "Thinking about insider trading on prediction markets? Kalshi wants to make an example of you.",
     "source_summary": "Prediction-market companies are identifying hundreds of cases of suspected insider trading.",
-    "drafted_at": "2026-06-11T02:34:01.083041",
+    "drafted_at": "2026-06-11T07:21:13.051738",
     "data": {
       "source": "MARKETWATCH"
     },
     "content_hash": "ef490c18f26e7ced"
   },
   {
-    "id": "d7f41446",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Allegations of voter fraud in the Los Angeles mayoral primary election were bolstered by some homeless people on Skid Row claiming they were paid to vote for the leftists in the race.\n\nRepublican-leaning Spencer Pratt was shut out of the jungle primary, which allows the top two vote-getters to proceed to the general election.\n\n'I was just trying to make 5 bucks, you know?\n\nBut I didn't do the fraud.' Some Pratt supporters became suspicious after Pratt initially won second place in the partial results announced on Election Night and then the gap whittled away with each tranche of ballots that were counted.\n\nA pro-Pratt TikTok account posted video of the claims from homeless people recorded in downtown Los Angeles on Tuesday morning.\n\n\"It was like two bucks,\" said one unidentified woman who claimed she was paid $2 to vote for Bass.\n\n\"Yeah, they come out here all the time,\" she added.\n\nThe TikTok creator told the New York Post that he was tipped off by a friend who worked in the area and claimed to have seen political volunteers operating in the neighborhood.\n\nhttps://www.theblaze.com/news/skid-row-paid-vote-nithya-bass",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "THE BLAZE",
-    "source_url": "https://www.theblaze.com/news/skid-row-paid-vote-nithya-bass",
-    "source_title": "Homeless people on Skid Row claim they were PAID TO VOTE",
-    "source_summary": "Allegations of voter fraud in the Los Angeles mayoral primary election were bolstered by some homeless people on Skid Row claiming they were paid to vote for the leftists in the race. Republican-leaning Spencer Pratt was shut out of the jungle primary, which allows the top two vote-getters to proceed to the general election. 'I was just trying to make 5 bucks, you know? But I didn't do the fraud.'",
-    "drafted_at": "2026-06-11T02:34:01.085500",
-    "data": {
-      "source": "THE BLAZE"
-    },
-    "content_hash": "300d987fc59dfe95"
-  },
-  {
-    "id": "1c094eec",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "California\u2019s glacial counting of primary election votes is a feature, not a bug.\n\nThe state\u2019s election laws are deliberately designed to make elections as untraceable and lengthy as possible.\n\nAs author and investigative journalist Peter Schweizer asks, \u201cIf you make election fraud legal, is it still fraud?\u201d The post Peter Schweizer: Is It Still Election Fraud When It\u2019s Legal? appeared first on Breitbart.\n\nhttps://www.breitbart.com/politics/2026/06/10/peter-schweizer-is-it-still-election-fraud-when-its-legal/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "BREITBART",
-    "source_url": "https://www.breitbart.com/politics/2026/06/10/peter-schweizer-is-it-still-election-fraud-when-its-legal/",
-    "source_title": "Peter Schweizer: Is It Still Election Fraud When It's Legal?",
-    "source_summary": "California\u2019s glacial counting of primary election votes is a feature, not a bug. The state\u2019s election laws are deliberately designed to make elections as untraceable and lengthy as possible. As author and investigative journalist Peter Schweizer asks, \u201cIf you make election fraud legal, is it still fraud?\u201d The post Peter Schweizer: Is It Still Election Fraud When It\u2019s Legal? appeared first on Breit",
-    "drafted_at": "2026-06-11T02:34:01.086054",
-    "data": {
-      "source": "BREITBART"
-    },
-    "content_hash": "d017cb69229e51ef"
-  },
-  {
-    "id": "c9fa8a1b",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "The post He Profits Off Raw Milk That\u2019s Making People Sick.\n\nThe Government Isn\u2019t Stopping Him. appeared first on ProPublica.\n\nhttps://www.propublica.org/article/mark-mcafee-raw-milk-recalls-maha",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "PROPUBLICA",
-    "source_url": "https://www.propublica.org/article/mark-mcafee-raw-milk-recalls-maha",
-    "source_title": "He Profits Off Raw Milk That\u2019s Making People Sick. The Government Isn\u2019t Stopping Him.",
-    "source_summary": "The post He Profits Off Raw Milk That\u2019s Making People Sick. The Government Isn\u2019t Stopping Him. appeared first on ProPublica .",
-    "drafted_at": "2026-06-11T02:34:01.086295",
-    "data": {
-      "source": "PROPUBLICA"
-    },
-    "content_hash": "89d761e6cfcce86f"
-  },
-  {
-    "id": "93131c70",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Amaryllis Fox Kennedy, who recently stepped down from two senior administration posts, was serving as a CIA officer during the dispute.\n\nhttps://www.icij.org/investigations/paradise-papers/trump-intelligence-adviser-previously-helped-father-pursue-millions-from-kremlin-linked-bank-leaked-documents-show/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "ICIJ",
-    "source_url": "https://www.icij.org/investigations/paradise-papers/trump-intelligence-adviser-previously-helped-father-pursue-millions-from-kremlin-linked-bank-leaked-documents-show/",
-    "source_title": "Trump intelligence adviser previously helped father pursue millions from Kremlin-linked bank, leaked documents show",
-    "source_summary": "Amaryllis Fox Kennedy, who recently stepped down from two senior administration posts, was serving as a CIA officer during the dispute.",
-    "drafted_at": "2026-06-11T02:34:01.086513",
-    "data": {
-      "source": "ICIJ"
-    },
-    "content_hash": "f9a4e2950958d2cd"
-  },
-  {
-    "id": "3a9d3665",
+    "id": "0c9a57f0",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 EUROPE: Fireworks, facial recognition and a Katy Perry no-show: A look inside the grand American celebration in Brussels.\n\nhttps://www.politico.eu/article/united-states-embassy-celebration-party-cinquantenaire-brussels-250-years-independence-day-security/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+    "draft_text": "Continental update: The IDnow Trust Platform helps organisations orchestrate identity, fraud and compliance across the full customer lifecycle.\n\nIt is built for where digital identity is going, not just where it is.\n\nMUNICH, June 11, 2026 /PRNewswire/ -- Europe's digital identity market is entering its most...\n\nhttps://www.prnewswire.com/news-releases/idnow-launches-idnow-trust-platform-as-europe-enters-a-new-phase-of-digital-identity-302797074.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "POLITICO EU",
-    "source_url": "https://www.politico.eu/article/united-states-embassy-celebration-party-cinquantenaire-brussels-250-years-independence-day-security/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-    "source_title": "How the US embassy\u2019s mega bash became the hottest ticket in Brussels",
-    "source_summary": "Fireworks, facial recognition and a Katy Perry no-show: A look inside the grand American celebration in Brussels.",
-    "drafted_at": "2026-06-11T02:34:01.088180",
+    "primary_source": "PR NEWSWIRE",
+    "source_url": "https://www.prnewswire.com/news-releases/idnow-launches-idnow-trust-platform-as-europe-enters-a-new-phase-of-digital-identity-302797074.html",
+    "source_title": "IDnow launches IDnow Trust Platform as Europe enters a new phase of digital identity",
+    "source_summary": "The IDnow Trust Platform helps organisations orchestrate identity, fraud and compliance across the full customer lifecycle. It is built for where digital identity is going, not just where it is. MUNICH, June 11, 2026 /PRNewswire/ -- Europe's digital identity market is entering its most...",
+    "drafted_at": "2026-06-11T07:21:13.056773",
     "data": {
-      "source": "POLITICO EU"
+      "source": "PR NEWSWIRE"
     },
-    "content_hash": "10fdbaeb42aab4a9"
+    "content_hash": "aa8731ef1a4c5653"
   },
   {
-    "id": "f24ca0fa",
+    "id": "5afacc65",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: Oil prices surged again in early Asian trade on Thursday after Iran declared the Strait of Hormuz closed following a fresh round of U.S. strikes on the country.\n\nAt the time of writing, Brent crude had climbed 2.26% to trade at $95.20 per barrel, while West Texas Intermediate had risen 2.5% to $92.30 per barrel.\n\nBoth benchmarks have seen extreme volatility this week as outbreaks of attacks are quickly followed by claims of an imminent deal being signed.\n\nThe latest escalation started with the downing of a U.S. Apache helicopter near the Strait\u2026\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Spike-as-Iran-Declares-Strait-of-Hormuz-Closed.html",
+    "draft_text": "From Brussels and beyond: IDnow Trust Platform permet aux organisations d'orchestrer identit\u00e9, lutte contre la fraude et conformit\u00e9 tout au long du cycle de vie du client.\n\nElle est con\u00e7ue pour r\u00e9pondre aux besoins actuels et futurs de l'identit\u00e9 num\u00e9rique en Europe.\n\nPARIS, 11 juin 2026 /PRNewswire/ -- Le march\u00e9...\n\nhttps://www.prnewswire.com/news-releases/idnow-lance-idnow-trust-platform-pour-repondre-aux-nouveaux-enjeux-de-lidentite-numerique-europeenne-302797106.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "OILPRICE",
-    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Spike-as-Iran-Declares-Strait-of-Hormuz-Closed.html",
-    "source_title": "Oil Prices Spike as Iran Declares Strait of Hormuz Closed",
-    "source_summary": "Oil prices surged again in early Asian trade on Thursday after Iran declared the Strait of Hormuz closed following a fresh round of U.S. strikes on the country. At the time of writing, Brent crude had climbed 2.26% to trade at $95.20 per barrel, while West Texas Intermediate had risen 2.5% to $92.30 per barrel. Both benchmarks have seen extreme volatility this week as outbreaks of attacks are quic",
-    "drafted_at": "2026-06-11T02:34:01.088780",
+    "primary_source": "PR NEWSWIRE",
+    "source_url": "https://www.prnewswire.com/news-releases/idnow-lance-idnow-trust-platform-pour-repondre-aux-nouveaux-enjeux-de-lidentite-numerique-europeenne-302797106.html",
+    "source_title": "IDnow lance IDnow Trust Platform pour r\u00e9pondre aux nouveaux enjeux de l'identit\u00e9 num\u00e9rique europ\u00e9enne",
+    "source_summary": "IDnow Trust Platform permet aux organisations d'orchestrer identit\u00e9, lutte contre la fraude et conformit\u00e9 tout au long du cycle de vie du client. Elle est con\u00e7ue pour r\u00e9pondre aux besoins actuels et futurs de l'identit\u00e9 num\u00e9rique en Europe. PARIS, 11 juin 2026 /PRNewswire/ -- Le march\u00e9...",
+    "drafted_at": "2026-06-11T07:21:13.057348",
     "data": {
-      "source": "OILPRICE"
+      "source": "PR NEWSWIRE"
     },
-    "content_hash": "f248ed34a6e51bdf"
+    "content_hash": "0ac634fcabd17d2b"
   },
   {
-    "id": "1d9f8502",
+    "id": "fdc129a3",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "MIDDLE EAST DESK: Iranian officials say the Strait of Hormuz has been closed in response to US strikes.\n\nhttps://www.aljazeera.com/video/newsfeed/2026/6/11/iran-announces-closure-of-strait-of-hormuz-following-us-strikes?traffic_source=rss",
+    "draft_text": "Continental update: The IDnow Trust Platform helps organisations orchestrate identity, fraud and compliance across the full customer lifecycle.\n\nIt is built for where digital identity is going, not just where it is.\n\nMUNICH, June 11, 2026 /PRNewswire/ -- Europe's digital identity market is entering its most...\n\nhttps://www.prnewswire.com/news-releases/idnow-launches-idnow-trust-platform-as-europe-enters-a-new-phase-of-digital-identity-302797079.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/11/iran-announces-closure-of-strait-of-hormuz-following-us-strikes?traffic_source=rss",
-    "source_title": "Iran announces closure of Strait of Hormuz following US strikes",
-    "source_summary": "Iranian officials say the Strait of Hormuz has been closed in response to US strikes.",
-    "drafted_at": "2026-06-11T02:34:01.089287",
+    "primary_source": "PR NEWSWIRE",
+    "source_url": "https://www.prnewswire.com/news-releases/idnow-launches-idnow-trust-platform-as-europe-enters-a-new-phase-of-digital-identity-302797079.html",
+    "source_title": "IDnow launches IDnow Trust Platform as Europe enters a new phase of digital identity",
+    "source_summary": "The IDnow Trust Platform helps organisations orchestrate identity, fraud and compliance across the full customer lifecycle. It is built for where digital identity is going, not just where it is. MUNICH, June 11, 2026 /PRNewswire/ -- Europe's digital identity market is entering its most...",
+    "drafted_at": "2026-06-11T07:21:13.057799",
     "data": {
-      "source": "AL JAZEERA"
+      "source": "PR NEWSWIRE"
     },
-    "content_hash": "878706caac26aec0"
+    "content_hash": "3d7dd31096ea3cdd"
   },
   {
-    "id": "fb81dd48",
+    "id": "a155e0db",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "CHINA DESK: The People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Thursday at 6.8150 compared to the previous day's fix of 6.8130 and 6.7819 Reuters estimate.\n\nhttps://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-68150-vs-68130-previous-202606110115",
+    "draft_text": "APAC wire: Completion of patient dosing in the registrational Phase 2 clinical trial for 64Cu-PSMA-I&T \u2013 a PET radiopharmaceutical targeting prostate-specific membrane antigen (PSMA) expressed on prostate cancer cells Data analysis is now underway to support future regulatory submission in Japan BOSTON, June 11, 2026 (GLOBE NEWSWIRE) \u2014 Curium Group announced today that together with PeptiDream Inc. and [\u2026].\n\nhttps://financialpost.com/globe-newswire/curium-group-peptidream-and-pdradiopharma-announce-completion-of-patient-dosing-in-clinical-trial-of-64cu-psma-it-for-prostate-cancer-in-japan",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FINANCIAL POST",
+    "source_url": "https://financialpost.com/globe-newswire/curium-group-peptidream-and-pdradiopharma-announce-completion-of-patient-dosing-in-clinical-trial-of-64cu-psma-it-for-prostate-cancer-in-japan",
+    "source_title": "Curium Group, PeptiDream and PDRadiopharma Announce Completion of Patient Dosing in Clinical Trial of 64Cu-PSMA-I&T for Prostate Cancer in Japan",
+    "source_summary": "Completion of patient dosing in the registrational Phase 2 clinical trial for 64Cu-PSMA-I&T \u2013 a PET radiopharmaceutical targeting prostate-specific membrane antigen (PSMA) expressed on prostate cancer cells Data analysis is now underway to support future regulatory submission in Japan BOSTON, June 11, 2026 (GLOBE NEWSWIRE) \u2014 Curium Group announced today that together with PeptiDream Inc. and [\u2026]",
+    "drafted_at": "2026-06-11T07:21:13.058791",
+    "data": {
+      "source": "FINANCIAL POST"
+    },
+    "content_hash": "28543e0afe9c0380"
+  },
+  {
+    "id": "79565a9c",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "GLOBAL DESK: The European Central Bank (ECB) is set to announce its monetary policy decision at 12:15 GMT following its June meeting.\n\nThe Frankfurt-based institution is widely expected to raise its key interest rates by 25 basis points, taking the deposit facility rate to 2.25% from 2%.\n\nhttps://www.fxstreet.com/news/european-central-bank-set-to-hike-interest-rates-for-first-time-in-nearly-three-years-202606110700",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-68150-vs-68130-previous-202606110115",
-    "source_title": "PBOC sets USD/CNY reference rate at 6.8150 vs. 6.8130 previous",
-    "source_summary": "The People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Thursday at 6.8150 compared to the previous day's fix of 6.8130 and 6.7819 Reuters estimate.",
-    "drafted_at": "2026-06-11T02:34:01.089635",
+    "source_url": "https://www.fxstreet.com/news/european-central-bank-set-to-hike-interest-rates-for-first-time-in-nearly-three-years-202606110700",
+    "source_title": "European Central Bank set to hike interest rates for first time in nearly three years",
+    "source_summary": "The European Central Bank (ECB) is set to announce its monetary policy decision at 12:15 GMT following its June meeting. The Frankfurt-based institution is widely expected to raise its key interest rates by 25 basis points, taking the deposit facility rate to 2.25% from 2%.",
+    "drafted_at": "2026-06-11T07:21:13.059663",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "f19662ea7b5dd628"
+    "content_hash": "b377602ecdc2a309"
   },
   {
-    "id": "646f9efe",
-    "format": "GLOBAL_DESK",
+    "id": "d784e42e",
+    "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "MIDDLE EAST DESK: The Iranian military announced in a statement that it had launched a drone operation against the US Navy\u2019s Fifth Fleet based in Bahrain, in response to the violation of the ceasefire and US military attacks on areas in southern Iran, Reuters reported on Thursday.\n\nhttps://www.fxstreet.com/news/iranian-military-drones-targeted-us-fifth-fleet-in-bahrain-in-response-to-southern-us-strikes-202606110059",
+    "draft_text": "PPI desk: The NZD/USD pair loses traction to near 0.5795 during the early European trading hours on Thursday.\n\nRenewed skirmishes between the United States (US) and Iran undermine the New Zealand Dollar (NZD) against the US Dollar (USD).\n\nhttps://www.fxstreet.com/news/new-zealand-dollar-softens-below-05800-ahead-of-us-ppi-release-202606110653",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/iranian-military-drones-targeted-us-fifth-fleet-in-bahrain-in-response-to-southern-us-strikes-202606110059",
-    "source_title": "Iranian military drones targeted US Fifth Fleet in Bahrain in response to southern US strikes",
-    "source_summary": "The Iranian military announced in a statement that it had launched a drone operation against the US Navy\u2019s Fifth Fleet based in Bahrain, in response to the violation of the ceasefire and US military attacks on areas in southern Iran, Reuters reported on Thursday.",
-    "drafted_at": "2026-06-11T02:34:01.090349",
+    "source_url": "https://www.fxstreet.com/news/new-zealand-dollar-softens-below-05800-ahead-of-us-ppi-release-202606110653",
+    "source_title": "New Zealand Dollar softens below 0.5800 ahead of US PPI release",
+    "source_summary": "The NZD/USD pair loses traction to near 0.5795 during the early European trading hours on Thursday. Renewed skirmishes between the United States (US) and Iran undermine the New Zealand Dollar (NZD) against the US Dollar (USD).",
+    "drafted_at": "2026-06-11T07:21:13.128228",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "beab79e98502ac11"
+    "content_hash": "a54f27276ba46329"
   },
   {
-    "id": "b3a5154d",
+    "id": "cb3d8705",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "Inflation update: EUROPEAN SESSION In the European session, the main event is the ECB policy announcement.\n\nThe central bank is widely expected to hike by 25 bps and bring the deposit rate to 2.25%.\n\nThis will likely be framed as an \"insurance\" rate hike to lean against the risk of second-round effects and maintain credibility, especially in light of another expected upward revision to inflation projections.\n\nThe focus will be on the forward guidance.\n\nThe market is pricing in 70 bps of tightening by year-end, which means traders basically expect two more rate hikes to follow.\n\nAlthough the ECB will likely keep the door open for more action if necessary, I feel like the overall tone will likely be more dovish compared to market expectations.\n\nI expect the ECB to take a pause at least until September to see how the data and the US-Iran standoff evolve over the summer.\n\nAMERICAN SESSION In the American session, we get the US PPI and the US Jobless Claims figures.\n\nhttps://investinglive.com/news/what-are-the-main-events-for-today-20260611/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/what-are-the-main-events-for-today-20260611/",
+    "source_title": "What are the main events for today?",
+    "source_summary": "EUROPEAN SESSION In the European session, the main event is the ECB policy announcement. The central bank is widely expected to hike by 25 bps and bring the deposit rate to 2.25%. This will likely be framed as an \"insurance\" rate hike to lean against the risk of second-round effects and maintain credibility, especially in light of another expected upward revision to inflation projections. The focu",
+    "drafted_at": "2026-06-11T07:21:13.129564",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "593583ec73cea256"
+  },
+  {
+    "id": "11f5353d",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "How sticky is inflation? Let's see: InvestorPlace - Stock Market News, Stock Advice & Trading Tips May CPI is hot \u2013 but we dodged a bullet\u2026 the labor market handbrake is releasing\u2026 what a hike would mean for AI stocks\u2026 an edge for a bifurcated stock market The post The Fed\u2019s Excuse Just Disappeared appeared first on InvestorPlace.\n\nhttps://investorplace.com/2026/06/the-feds-excuse-just-disappeared/",
@@ -384,14 +454,14 @@
     "source_url": "https://investorplace.com/2026/06/the-feds-excuse-just-disappeared/",
     "source_title": "The Fed\u2019s Excuse Just Disappeared",
     "source_summary": "InvestorPlace - Stock Market News, Stock Advice & Trading Tips May CPI is hot \u2013 but we dodged a bullet\u2026 the labor market handbrake is releasing\u2026 what a hike would mean for AI stocks\u2026 an edge for a bifurcated stock market The post The Fed\u2019s Excuse Just Disappeared appeared first on InvestorPlace .",
-    "drafted_at": "2026-06-11T02:34:01.141610",
+    "drafted_at": "2026-06-11T07:21:13.130022",
     "data": {
       "source": "INVESTORPLACE"
     },
     "content_hash": "31752f02f01a16a5"
   },
   {
-    "id": "22e367c7",
+    "id": "2655f8d3",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "Inflation update: US May CPI +4.2% vs +4.2% y/y expected Trump: We will be attacking Iran \"very hard\" Hegseth: Iran would be unwise to challenge the US further Bank of Canada holds as expected but continues to highlight risks of oil price spillovers BOC's Macklem: Not a lot has changed since last decision, there haven't been big surprises The full statement and Governors statement from the Bank of Canada rate decision Gold breaks the March lows Bessent: US disrupts procurement networks that support Iran U.S. Treasury auctions off $39 billion of 10 year notes at a high yield of 4.538% EIA weekly US crude oil inventories -7227K vs -3974K expected Markets: Gold down $172 to $7280 WTI crude oil up $2.25 to $90.46 S&P 500 down 1.5% Nasdaq Comp down 1.8% US 10-year yields up 1.4 bps to 4.54% EUR leads, AUD lags Buy-the-dips has suddenly turned to sell-the-rips.\n\nThere was something of a see-saw in the early going as the S&P 500 erased a 45 point decline after CPI.\n\nThe numbers were in-line and that led to a sigh of relief.\n\nBut didn't last as Trump talked about hitting Iran \"very hard\" today (we're still waiting for that) and tech stocks struggled ahead of the SpaceX IPO on Friday.\n\nNvidia was down 3.3% and Tesla down 3.7%.\n\nThe selling wasn't limited to tech as some stronger real economy shares reversed, including a 6.2% drop in Caterpillar along with declines in automakers and financials.\n\nEnergy and consumer staples were among the winners.\n\nThe 4% decline over four days is the worst such stretch since the post-Liberation Day fiasco in April 2025.\n\nhttps://investinglive.com/news/investinglive-americas-market-news-wrap-cpi-cant-salvage-an-ugly-day-gold-breaks-down-20260610/",
@@ -401,14 +471,14 @@
     "source_url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-cpi-cant-salvage-an-ugly-day-gold-breaks-down-20260610/",
     "source_title": "investingLive Americas market news wrap: CPI can't salvage an ugly day, gold breaks down",
     "source_summary": "US May CPI +4.2% vs +4.2% y/y expected Trump: We will be attacking Iran \"very hard\" Hegseth: Iran would be unwise to challenge the US further Bank of Canada holds as expected but continues to highlight risks of oil price spillovers BOC's Macklem: Not a lot has changed since last decision, there haven't been big surprises The full statement and Governors statement from the Bank of Canada rate decis",
-    "drafted_at": "2026-06-11T02:34:01.143185",
+    "drafted_at": "2026-06-11T07:21:13.131905",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "8f4412525a41e3db"
   },
   {
-    "id": "46dacb1f",
+    "id": "e14ef7fa",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "Inflation update: Peter Navarro, RealClearMarkets The financial press needed only minutes to take a hot CPI headline number and turn it into a Fed-panic story.\n\nhttps://www.realclearmarkets.com/2026/06/10/headline_cpi_print_is_hot_while_core_inflation_is_not_1187911.html",
@@ -418,48 +488,14 @@
     "source_url": "https://www.realclearmarkets.com/2026/06/10/headline_cpi_print_is_hot_while_core_inflation_is_not_1187911.html",
     "source_title": "Headline CPI Print Is Hot, While Core Inflation Is Not",
     "source_summary": "Peter Navarro, RealClearMarkets The financial press needed only minutes to take a hot CPI headline number and turn it into a Fed-panic story. CNN promptly...",
-    "drafted_at": "2026-06-11T02:34:01.143382",
+    "drafted_at": "2026-06-11T07:21:13.132130",
     "data": {
       "source": "REALCLEAR"
     },
     "content_hash": "15453c90499c78c6"
   },
   {
-    "id": "320c4a4d",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "How sticky is inflation? Let's see: Consumer prices continued their surge in May, with the latest CPI report showing inflation soared to 4.2%.\n\nhttps://watcher.guru/news/cpi-inflation-surges-to-4-2-in-may-highest-level-since-2023",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "WATCHER GURU",
-    "source_url": "https://watcher.guru/news/cpi-inflation-surges-to-4-2-in-may-highest-level-since-2023",
-    "source_title": "CPI Inflation Surges to 4.2% in May: Highest level since 2023",
-    "source_summary": "Consumer prices continued their surge in May, with the latest CPI report showing inflation soared to 4.2%. This\u2026",
-    "drafted_at": "2026-06-11T02:34:01.143547",
-    "data": {
-      "source": "WATCHER GURU"
-    },
-    "content_hash": "cd0e42ae5677e7b7"
-  },
-  {
-    "id": "b89038cb",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "INFLATION READ: Bitcoin rose above $62,000 after the latest US inflation report gave traders enough relief to step back from a deeper test of the $60,000 level.\n\nThe move followed several days of pressure across crypto markets, where investors had been preparing for the possibility that a hotter inflation print would revive rate-hike concerns and push risk [\u2026] The post Bitcoin jumps above $62,000 after CPI report gives traders room to defend $60,000 appeared first on CryptoSlate.\n\nhttps://cryptoslate.com/bitcoin-jumps-above-62000-after-cpi-report-gives-traders-room-to-defend-60000/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CRYPTOSLATE",
-    "source_url": "https://cryptoslate.com/bitcoin-jumps-above-62000-after-cpi-report-gives-traders-room-to-defend-60000/",
-    "source_title": "Bitcoin jumps above $62,000 after CPI report gives traders room to defend $60,000",
-    "source_summary": "Bitcoin rose above $62,000 after the latest US inflation report gave traders enough relief to step back from a deeper test of the $60,000 level. The move followed several days of pressure across crypto markets, where investors had been preparing for the possibility that a hotter inflation print would revive rate-hike concerns and push risk [\u2026] The post Bitcoin jumps above $62,000 after CPI report ",
-    "drafted_at": "2026-06-11T02:34:01.144027",
-    "data": {
-      "source": "CRYPTOSLATE"
-    },
-    "content_hash": "d31bff588652652f"
-  },
-  {
-    "id": "7d338921",
+    "id": "b1c78db7",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -469,7 +505,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-06-11T02:34:01.145394",
+    "drafted_at": "2026-06-11T07:21:13.134525",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -477,7 +513,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "c7c17002",
+    "id": "9642231e",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Your alerts didn't go off because the pack got there first.",
@@ -487,14 +523,14 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Your alerts didn't go off because the pack got there first.",
-    "drafted_at": "2026-06-11T02:34:01.145464",
+    "drafted_at": "2026-06-11T07:21:13.134610",
     "data": {
       "take_seed": "2026-06-11-pack-1"
     },
     "content_hash": "9b0f7be55d8ef71c"
   },
   {
-    "id": "e93d517c",
+    "id": "65062f70",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Information is free. Conviction is rare. Patience is rarer.",
@@ -504,7 +540,7 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Information is free. Conviction is rare. Patience is rarer.",
-    "drafted_at": "2026-06-11T02:34:01.145511",
+    "drafted_at": "2026-06-11T07:21:13.134667",
     "data": {
       "take_seed": "2026-06-11-pack-2"
     },
