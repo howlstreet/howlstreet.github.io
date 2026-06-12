@@ -1,16 +1,58 @@
 {
-  "GC=F:move:2026-06-11": {
-    "headline": "Gold drops 5.8% in 5 sessions to $4,213.90",
+  "^VIX:move:2026-06-11": {
+    "headline": "VIX rips 21.1% in 5 sessions to 19.44",
+    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "source": "CBOE \u00b7 ^VIX",
+    "chart_path": null,
+    "signal_id": "^VIX:move:2026-06-11",
+    "current_str": "19.44",
+    "label": "VIX (S&P 500 volatility)",
+    "hashtags": "#VIX #Volatility #Markets",
+    "kind": "move_up",
+    "badge": "+21.1%",
+    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "fired_at": "2026-06-12T07:11:16.365367"
+  },
+  "GC=F:move:2026-06-12": {
+    "headline": "Gold drops 6.3% in 5 sessions to $4,205.00",
     "matters": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
     "source": "COMEX \u00b7 GC=F",
     "chart_path": null,
-    "signal_id": "GC=F:move:2026-06-11",
-    "current_str": "$4,213.90",
+    "signal_id": "GC=F:move:2026-06-12",
+    "current_str": "$4,205.00",
     "label": "Gold futures",
     "hashtags": "#Gold #PreciousMetals #Commodities",
     "kind": "move_down",
-    "badge": "-5.8%",
+    "badge": "-6.3%",
     "data_url": "https://finance.yahoo.com/quote/GC%3DF",
-    "fired_at": "2026-06-12T02:28:05.693182"
+    "fired_at": "2026-06-12T07:11:16.365367"
+  },
+  "BTC-USD:move:2026-06-12": {
+    "headline": "Bitcoin drops 5.5% in 5 sessions to $63,016",
+    "matters": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
+    "source": "Yahoo Finance \u00b7 BTC-USD",
+    "chart_path": null,
+    "signal_id": "BTC-USD:move:2026-06-12",
+    "current_str": "$63,016",
+    "label": "Bitcoin",
+    "hashtags": "#Bitcoin #BTC #Crypto",
+    "kind": "move_down",
+    "badge": "-5.5%",
+    "data_url": "https://finance.yahoo.com/quote/BTC-USD",
+    "fired_at": "2026-06-12T07:11:16.365367"
+  },
+  "CL=F:move:2026-06-12": {
+    "headline": "WTI crude slides 8.2% in 5 sessions to $86.08",
+    "matters": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "source": "NYMEX \u00b7 CL=F",
+    "chart_path": null,
+    "signal_id": "CL=F:move:2026-06-12",
+    "current_str": "$86.08",
+    "label": "WTI crude oil futures",
+    "hashtags": "#Oil #WTI #Energy #Commodities",
+    "kind": "move_down",
+    "badge": "-8.2%",
+    "data_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "fired_at": "2026-06-12T07:11:16.365367"
   }
 }

@@ -1,59 +1,82 @@
 [
   {
-    "id": "490caace",
-    "format": "LOUD_HOWL",
-    "status": "pending",
-    "draft_text": "FRONT-PAGE FOR THE PACK: Heightened US-Iran tensions near the Strait of Hormuz could disrupt global oil trade and lead to regional airspace policy shifts.\n\nThe post US forces down two Iranian drones near Strait of Hormuz appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/us-forces-down-two-iranian-drones-near-strait-of-hormuz/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/us-forces-down-two-iranian-drones-near-strait-of-hormuz/",
-    "source_title": "US forces down two Iranian drones near Strait of Hormuz",
-    "source_summary": "Heightened US-Iran tensions near the Strait of Hormuz could disrupt global oil trade and lead to regional airspace policy shifts. The post US forces down two Iranian drones near Strait of Hormuz appeared first on Crypto Briefing .",
-    "drafted_at": "2026-06-12T02:28:10.444544",
-    "data": {
-      "source": "CRYPTO BRIEFING"
-    },
-    "content_hash": "2060feba6c8b615d"
-  },
-  {
-    "id": "dc03b0e7",
+    "id": "6b5ece93",
     "format": "MARKET_MOVE",
     "status": "pending",
-    "draft_text": "Pop quiz \u2014 when's the last time you saw this? Gold drops 5.8% in 5 sessions to $4,213.90.\n\nGold tracks real yields and central bank demand.\n\nMulti-year highs flag debasement or geopolitical hedging flows.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/GC%3DF",
+    "draft_text": "Pay attention to this one. VIX rips 21.1% in 5 sessions to 19.44.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CBOE \u00b7 ^VIX",
+    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "source_title": "VIX (S&P 500 volatility)",
+    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "drafted_at": "2026-06-12T07:11:19.335293",
+    "data": {
+      "signal_id": "^VIX:move:2026-06-11",
+      "kind": "move_up",
+      "current": "19.44"
+    },
+    "content_hash": "995f4d67e7e875d2"
+  },
+  {
+    "id": "3ce07812",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Skip the noise. Gold drops 6.3% in 5 sessions to $4,205.00.\n\nGold tracks real yields and central bank demand.\n\nMulti-year highs flag debasement or geopolitical hedging flows.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/GC%3DF",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "COMEX \u00b7 GC=F",
     "source_url": "https://finance.yahoo.com/quote/GC%3DF",
     "source_title": "Gold futures",
     "source_summary": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
-    "drafted_at": "2026-06-12T02:28:10.444867",
+    "drafted_at": "2026-06-12T07:11:19.335598",
     "data": {
-      "signal_id": "GC=F:move:2026-06-11",
+      "signal_id": "GC=F:move:2026-06-12",
       "kind": "move_down",
-      "current": "$4,213.90"
+      "current": "$4,205.00"
     },
     "content_hash": "514096a7b4f87c16"
   },
   {
-    "id": "7cab00b8",
-    "format": "POLICY_READ",
+    "id": "7a51bc0b",
+    "format": "MARKET_MOVE",
     "status": "pending",
-    "draft_text": "From Frankfurt: The Ring is Euronews\u2019 weekly political showdown, where Europe\u2019s toughest debates meet their boldest voices.\n\nIn each episode, two political heavyweights from across the EU face off to propose a diversity of opinions and spark conversations around the most important issues of EU affairs and the wider European political life.\n\nEuronews Tech Talks goes beyond discussions to explore the impact of new technologies on our lives.\n\nWith explanations, engaging Q&As, and lively conversations, the podcast provides valuable insights into the intersection of technology and society.\n\nEurope's best food experts are joining forces to crack down on fraud.\n\nhttp://www.euronews.com/business/2026/06/11/lagarde-defends-ecb-interest-rate-hike-as-robust-across-three-scenarios",
+    "draft_text": "Read this twice. Bitcoin drops 5.5% in 5 sessions to $63,016.\n\nBitcoin is now treated as a macro asset alongside gold and tech.\n\nIts swings move alt-coins, public miners, and crypto-exposed stocks.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/BTC-USD",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "Lagarde",
-    "source_url": "http://www.euronews.com/business/2026/06/11/lagarde-defends-ecb-interest-rate-hike-as-robust-across-three-scenarios",
-    "source_title": "Lagarde defends ECB interest rate hike as \u2018robust across three scenarios\u2019",
-    "source_summary": "Critics worry the decision to keep rates high could hit productivity and keep inflation from returning to target levels until 2027.",
-    "drafted_at": "2026-06-12T02:28:10.457497",
+    "primary_source": "Yahoo Finance \u00b7 BTC-USD",
+    "source_url": "https://finance.yahoo.com/quote/BTC-USD",
+    "source_title": "Bitcoin",
+    "source_summary": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
+    "drafted_at": "2026-06-12T07:11:19.335870",
     "data": {
-      "actor": "Lagarde"
+      "signal_id": "BTC-USD:move:2026-06-12",
+      "kind": "move_down",
+      "current": "$63,016"
     },
-    "content_hash": "ea2e2cf7de7e985f"
+    "content_hash": "0e3396ceb3da7211"
   },
   {
-    "id": "61eca103",
+    "id": "b718e24b",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Here's what the talking heads missed: WTI crude slides 8.2% in 5 sessions to $86.08.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NYMEX \u00b7 CL=F",
+    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "source_title": "WTI crude oil futures",
+    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "drafted_at": "2026-06-12T07:11:19.336116",
+    "data": {
+      "signal_id": "CL=F:move:2026-06-12",
+      "kind": "move_down",
+      "current": "$86.08"
+    },
+    "content_hash": "c272de0720a2f459"
+  },
+  {
+    "id": "fe2cb634",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FOMC desk: The standards are designed to promote interoperability of financial regulatory data across agencies by establishing data standards for identifiers of legal entities and other data elements.\n\nThe final rule is generally similar to the proposal from August 2024, with changes reflecting feedback received from the public.\n\nIt is part of the implementation of the Financial Data Transparency Act of 2022.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260611a.htm",
@@ -63,14 +86,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260611a.htm",
     "source_title": "Federal Reserve Board announces final rule that establishes data standards for certain information collections",
     "source_summary": "Federal Reserve Board announces final rule that establishes data standards for certain information collections",
-    "drafted_at": "2026-06-12T02:28:10.458079",
+    "drafted_at": "2026-06-12T07:11:19.346994",
     "data": {
       "actor": "FED"
     },
     "content_hash": "fa8c80e29a073976"
   },
   {
-    "id": "1939cdd4",
+    "id": "00f25183",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "RATE-PATH READ: It evaluates banks' resilience by estimating losses, net revenue, and capital levels\u2014which provide a cushion against losses\u2014under a hypothetical recession scenario.\n\nThe Board's stress test is one tool used to measure whether banks have adequate capital to absorb losses so that they can lend to households and businesses even in a severe recession.\n\nThis year, 32 large banks were subject to the Board's stress test.\n\nThe scenario includes a severe global recession with heightened stress in both commercial and residential real estate markets, as well as in corporate debt markets.\n\nThese stress test results will not impact large bank capital requirements.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260609a.htm",
@@ -80,14 +103,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260609a.htm",
     "source_title": "Federal Reserve Board announces that results from its annual bank stress test will be released on Wednesday, June 24, at 4 p.m. EDT.",
     "source_summary": "Federal Reserve Board announces that results from its annual bank stress test will be released on Wednesday, June 24, at 4 p.m. EDT.",
-    "drafted_at": "2026-06-12T02:28:10.459201",
+    "drafted_at": "2026-06-12T07:11:19.348111",
     "data": {
       "actor": "FED"
     },
     "content_hash": "35487362043c0c4b"
   },
   {
-    "id": "de7f58bf",
+    "id": "e041ff4c",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "If you watch rates, read this: The agencies are taking this action to complement their earlier actions that ended the use of reputation risk in supervision.\n\nAs the agencies have previously noted, reputation risk can be misused by supervisors as a basis to encourage or pressure a bank to restrict individuals' and legal businesses' access to financial services due to their constitutionally protected political or religious beliefs, speech, or conduct or lawful business activities.\n\nThese updates help ensure supervisory decisions are based on material financial risks, as well as increase clarity and facilitate greater precision in supervisory decision making.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260602a.htm",
@@ -97,14 +120,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260602a.htm",
     "source_title": "Agencies remove additional references to reputation risk",
     "source_summary": "Agencies remove additional references to reputation risk",
-    "drafted_at": "2026-06-12T02:28:10.460134",
+    "drafted_at": "2026-06-12T07:11:19.349050",
     "data": {
       "actor": "FED"
     },
     "content_hash": "037f4db78eebad91"
   },
   {
-    "id": "3783ba0a",
+    "id": "009c6082",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Rate-path desk: The Board's process for setting the discount rate is distinct from the process the Federal Open Market Committee follows in setting the target range for the federal funds rate.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
@@ -114,14 +137,31 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
     "source_title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
     "source_summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
-    "drafted_at": "2026-06-12T02:28:10.460567",
+    "drafted_at": "2026-06-12T07:11:19.349447",
     "data": {
       "actor": "FED"
     },
     "content_hash": "b2d403ab8c4d5036"
   },
   {
-    "id": "f4164524",
+    "id": "e0251c79",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "FED WATCH: Also on Friday, the Federal Open Market Committee unanimously selected Warsh as its chairman.\n\nPresident Donald J.\n\nTrump nominated Mr. Warsh on March 4, 2026.\n\nHe was confirmed by the United States Senate to serve as a member of the Board on May 12, and as chairman of the Board on May 13.\n\nHis term as chairman ends on May 21, 2030, and his term as a member of the Board ends on January 31, 2040.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm",
+    "source_title": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
+    "source_summary": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
+    "drafted_at": "2026-06-12T07:11:19.350084",
+    "data": {
+      "actor": "FED"
+    },
+    "content_hash": "a5762f43aa0ef3b0"
+  },
+  {
+    "id": "b0d9776c",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$IFF insider bought $32,284,388 on 2026-06-01, 2 insiders. \ud83d\udc40\n\nInternational Flavors & Fragrances Inc. 444,219 shares at $72.68.\n\n+6.6% since the purchase.\n\nhttp://openinsider.com/screener?s=IFF",
@@ -131,7 +171,7 @@
     "source_url": "http://openinsider.com/screener?s=IFF",
     "source_title": "International Flavors & Fragrances Inc (IFF) insider bought $32,284,388",
     "source_summary": "2 insider(s) bought 444,219 shares at $72.68 on 2026-06-01.",
-    "drafted_at": "2026-06-12T02:28:10.461354",
+    "drafted_at": "2026-06-12T07:11:19.350252",
     "data": {
       "ticker": "IFF",
       "type": "P",
@@ -141,7 +181,7 @@
     "content_hash": "b59bb9be9054dcc6"
   },
   {
-    "id": "ccbb09c6",
+    "id": "55c38662",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$NCLH insider bought $29,163,646 on 2026-06-01, 7 insiders. \ud83d\udc40\n\nNorwegian Cruise Line Holdings Ltd.. 1,633,867 shares at $17.85.\n\n+6.8% since the purchase.\n\nhttp://openinsider.com/screener?s=NCLH",
@@ -151,7 +191,7 @@
     "source_url": "http://openinsider.com/screener?s=NCLH",
     "source_title": "Norwegian Cruise Line Holdings Ltd. (NCLH) insider bought $29,163,646",
     "source_summary": "7 insider(s) bought 1,633,867 shares at $17.85 on 2026-06-01.",
-    "drafted_at": "2026-06-12T02:28:10.461511",
+    "drafted_at": "2026-06-12T07:11:19.350383",
     "data": {
       "ticker": "NCLH",
       "type": "P",
@@ -161,7 +201,7 @@
     "content_hash": "467ccdd401ed9ddb"
   },
   {
-    "id": "7470cc3e",
+    "id": "83cb0550",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$QNT insider bought $24,649,920 on 2026-06-05, 10 insiders. \ud83d\udc40\n\nQuantinuum Inc.. 410,832 shares at $60.00.\n\n-5.8% since the purchase.\n\nhttp://openinsider.com/screener?s=QNT",
@@ -171,7 +211,7 @@
     "source_url": "http://openinsider.com/screener?s=QNT",
     "source_title": "Quantinuum Inc. (QNT) insider bought $24,649,920",
     "source_summary": "10 insider(s) bought 410,832 shares at $60.00 on 2026-06-05.",
-    "drafted_at": "2026-06-12T02:28:10.461626",
+    "drafted_at": "2026-06-12T07:11:19.350518",
     "data": {
       "ticker": "QNT",
       "type": "P",
@@ -181,7 +221,7 @@
     "content_hash": "1896377d0aa7046f"
   },
   {
-    "id": "c9ba57b5",
+    "id": "9c7c35cb",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$ARTV insider bought $7,650,148 on 2026-06-09. \ud83d\udc40\n\nArtiva Biotherapeutics, Inc.. 1,027,722 shares at $7.44.\n\n+7.5% since the purchase.\n\nhttp://openinsider.com/screener?s=ARTV",
@@ -191,7 +231,7 @@
     "source_url": "http://openinsider.com/screener?s=ARTV",
     "source_title": "Artiva Biotherapeutics, Inc. (ARTV) insider bought $7,650,148",
     "source_summary": "1 insider(s) bought 1,027,722 shares at $7.44 on 2026-06-09.",
-    "drafted_at": "2026-06-12T02:28:10.461737",
+    "drafted_at": "2026-06-12T07:11:19.350633",
     "data": {
       "ticker": "ARTV",
       "type": "P",
@@ -201,7 +241,7 @@
     "content_hash": "cb6f6a54325e8e85"
   },
   {
-    "id": "f16d7c14",
+    "id": "b0d2a2fe",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$STEP insider bought $5,022,072 on 2026-06-11. \ud83d\udc40\n\nStepstone Group Inc.. 120,000 shares at $41.85.\n\n+1.6% since the purchase.\n\nhttp://openinsider.com/screener?s=STEP",
@@ -211,7 +251,7 @@
     "source_url": "http://openinsider.com/screener?s=STEP",
     "source_title": "Stepstone Group Inc. (STEP) insider bought $5,022,072",
     "source_summary": "1 insider(s) bought 120,000 shares at $41.85 on 2026-06-11.",
-    "drafted_at": "2026-06-12T02:28:10.461839",
+    "drafted_at": "2026-06-12T07:11:19.350737",
     "data": {
       "ticker": "STEP",
       "type": "P",
@@ -221,24 +261,7 @@
     "content_hash": "4df657a1c9c37be8"
   },
   {
-    "id": "a07de172",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "ACTIVE THREAT: NEW YORK, June 11, 2026 /PRNewswire/ -- Pomerantz LLP announces that a class action lawsuit has been filed against Roblox Corporation (\"Roblox\" or the \"Company\") (NYSE: RBLX).\n\nSuch investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, (or 888.4-POMLAW)...\n\nhttps://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-reminds-investors-with-losses-on-their-investment-in-roblox-corporation-of-class-action-lawsuit-and-upcoming-deadlines--rblx-302798726.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "PR NEWSWIRE",
-    "source_url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-reminds-investors-with-losses-on-their-investment-in-roblox-corporation-of-class-action-lawsuit-and-upcoming-deadlines--rblx-302798726.html",
-    "source_title": "INVESTOR ALERT: Pomerantz Law Firm Reminds Investors with Losses on their Investment in Roblox Corporation of Class Action Lawsuit and Upcoming Deadlines",
-    "source_summary": "NEW YORK, June 11, 2026 /PRNewswire/ -- Pomerantz LLP announces that a class action lawsuit has been filed against Roblox Corporation (\"Roblox\" or the \"Company\") (NYSE: RBLX). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, (or 888.4-POMLAW),...",
-    "drafted_at": "2026-06-12T02:28:10.463073",
-    "data": {
-      "source": "PR NEWSWIRE"
-    },
-    "content_hash": "3cab8fa1498f3573"
-  },
-  {
-    "id": "54645f94",
+    "id": "a9a3c7ab",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "RETAIL BEWARE: The port of Rotterdam has seen, in recent years, increasingly sophisticated attempts by fraudsters to scam millions of dollars out of traders by paper fraud, offering non-existent oil storage at one of the world\u2019s biggest oil hubs.\n\nThe frauds, using fake documents and fraudulent websites, lure traders to pay for oil storage that simply doesn\u2019t exist at the Port of Rotterdam.\n\nThe scams have been running for about 15 years, the Port of Rotterdam Authority has estimated, and has created a special task force to fight them.\n\nhttps://oilprice.com/Energy/Crude-Oil/Rotterdams-Growing-Oil-Storage-Fraud-Problem-Is-Costing-Traders-Millions.html",
@@ -248,14 +271,14 @@
     "source_url": "https://oilprice.com/Energy/Crude-Oil/Rotterdams-Growing-Oil-Storage-Fraud-Problem-Is-Costing-Traders-Millions.html",
     "source_title": "Rotterdam's Growing Oil Storage Fraud Problem Is Costing Traders Millions",
     "source_summary": "The port of Rotterdam has seen, in recent years, increasingly sophisticated attempts by fraudsters to scam millions of dollars out of traders by paper fraud, offering non-existent oil storage at one of the world\u2019s biggest oil hubs. The frauds, using fake documents and fraudulent websites, lure traders to pay for oil storage that simply doesn\u2019t exist at the Port of Rotterdam. The scams have been ru",
-    "drafted_at": "2026-06-12T02:28:10.463963",
+    "drafted_at": "2026-06-12T07:11:19.352433",
     "data": {
       "source": "OILPRICE"
     },
     "content_hash": "509031b962583fd6"
   },
   {
-    "id": "e9874187",
+    "id": "38ea73b2",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "FROM THE COURTHOUSE: Kash Patel warns the days of Washington 'turning a blind eye to fraud are over'.\n\nhttps://www.wnd.com/2026/06/team-tackling-most-wanted-fraudsters-makes-first-arrest/?utm_source=rss&utm_medium=rss&utm_campaign=team-tackling-most-wanted-fraudsters-makes-first-arrest",
@@ -265,14 +288,14 @@
     "source_url": "https://www.wnd.com/2026/06/team-tackling-most-wanted-fraudsters-makes-first-arrest/?utm_source=rss&utm_medium=rss&utm_campaign=team-tackling-most-wanted-fraudsters-makes-first-arrest",
     "source_title": "Team tackling \u2018Most Wanted Fraudsters\u2019 makes first arrest, and it\u2019s a big case",
     "source_summary": "Kash Patel warns the days of Washington 'turning a blind eye to fraud are over'",
-    "drafted_at": "2026-06-12T02:28:10.464152",
+    "drafted_at": "2026-06-12T07:11:19.352633",
     "data": {
       "source": "WND"
     },
     "content_hash": "062dabbc01e2d6cf"
   },
   {
-    "id": "56b2e23b",
+    "id": "680dffd4",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Researchers found that Keytruda \u2014 the focus of ICIJ's recent Cancer Calculus investigation \u2014 accounted for nearly half of the potential annual savings.\n\nhttps://www.icij.org/investigations/cancer-calculus/lowering-doses-of-cancer-drugs-could-slash-global-health-spending-by-30b-new-research-shows/",
@@ -282,14 +305,14 @@
     "source_url": "https://www.icij.org/investigations/cancer-calculus/lowering-doses-of-cancer-drugs-could-slash-global-health-spending-by-30b-new-research-shows/",
     "source_title": "Lowering doses of cancer drugs could slash global health spending by $30B, new research shows",
     "source_summary": "Researchers found that Keytruda \u2014 the focus of ICIJ's recent Cancer Calculus investigation \u2014 accounted for nearly half of the potential annual savings.",
-    "drafted_at": "2026-06-12T02:28:10.464462",
+    "drafted_at": "2026-06-12T07:11:19.352930",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "1b607a2e5a414fdf"
   },
   {
-    "id": "9472ef57",
+    "id": "de55f307",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Bitcoin Magazine U.S. Charges Two Men for $389 Million Bitcoin and Crypto Money Laundering Scheme Tied to Dark Web Federal prosecutors charged two Eastern European nationals with operating AudiA6, a cryptocurrency mixing service and cybercrime platform that allegedly laundered nearly $400 million in bitcoin.\n\nThis post U.S. Charges Two Men for $389 Million Bitcoin and Crypto Money Laundering Scheme Tied to Dark Web first appeared on Bitcoin Magazine and is written by Micah Zimmerman.\n\nhttps://bitcoinmagazine.com/news/u-s-charges-two-men-389-million-bitcoin",
@@ -299,167 +322,201 @@
     "source_url": "https://bitcoinmagazine.com/news/u-s-charges-two-men-389-million-bitcoin",
     "source_title": "U.S. Charges Two Men for $389 Million Bitcoin and Crypto Money Laundering Scheme Tied to Dark Web",
     "source_summary": "Bitcoin Magazine U.S. Charges Two Men for $389 Million Bitcoin and Crypto Money Laundering Scheme Tied to Dark Web Federal prosecutors charged two Eastern European nationals with operating AudiA6, a cryptocurrency mixing service and cybercrime platform that allegedly laundered nearly $400 million in bitcoin. This post U.S. Charges Two Men for $389 Million Bitcoin and Crypto Money Laundering Scheme",
-    "drafted_at": "2026-06-12T02:28:10.465131",
+    "drafted_at": "2026-06-12T07:11:19.353614",
     "data": {
       "source": "BITCOIN MAG"
     },
     "content_hash": "7797652d60d9c188"
   },
   {
-    "id": "c01feebf",
+    "id": "fbf38afc",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "The post He Profits Off Raw Milk That\u2019s Making People Sick.\n\nThe Government Isn\u2019t Stopping Him. appeared first on ProPublica.\n\nhttps://www.propublica.org/article/mark-mcafee-raw-milk-recalls-maha",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "PROPUBLICA",
+    "source_url": "https://www.propublica.org/article/mark-mcafee-raw-milk-recalls-maha",
+    "source_title": "He Profits Off Raw Milk That\u2019s Making People Sick. The Government Isn\u2019t Stopping Him.",
+    "source_summary": "The post He Profits Off Raw Milk That\u2019s Making People Sick. The Government Isn\u2019t Stopping Him. appeared first on ProPublica .",
+    "drafted_at": "2026-06-12T07:11:19.353878",
+    "data": {
+      "source": "PROPUBLICA"
+    },
+    "content_hash": "89d761e6cfcce86f"
+  },
+  {
+    "id": "80ba9df3",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Levant update: Heightened US-Iran tensions near the Strait of Hormuz could disrupt global oil trade and lead to regional airspace policy shifts.\n\nThe post US forces down two Iranian drones near Strait of Hormuz appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/us-forces-down-two-iranian-drones-near-strait-of-hormuz/",
+    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: The economy contracted by 0.1% in the month, the Office for National Statistics (ONS) said, with some firms citing the conflict in the Middle East as having raised costs and affected turnover.\n\nThe UK's economy shrank slightly in April as the Iran war began to have an impact on businesses, official data has indicated.\n\nApril's contraction was the first monthly fall since August last year, but had been forecast by economists after stronger than expected growth in March.\n\nAnalysts said that after a good start to the year the economy was set to slow over the next few months, and they expect the Bank of England to keep interest rates unchanged when it meets next week.\n\nhttps://www.bbc.com/news/articles/c77y47248k4o?at_medium=RSS&at_campaign=rss",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/us-forces-down-two-iranian-drones-near-strait-of-hormuz/",
-    "source_title": "US forces down two Iranian drones near Strait of Hormuz",
-    "source_summary": "Heightened US-Iran tensions near the Strait of Hormuz could disrupt global oil trade and lead to regional airspace policy shifts. The post US forces down two Iranian drones near Strait of Hormuz appeared first on Crypto Briefing .",
-    "drafted_at": "2026-06-12T02:28:10.466661",
+    "primary_source": "BBC",
+    "source_url": "https://www.bbc.com/news/articles/c77y47248k4o?at_medium=RSS&at_campaign=rss",
+    "source_title": "UK economy contracts as Iran war impact felt",
+    "source_summary": "The contraction in April comes after the economy saw stronger than expected growth in March.",
+    "drafted_at": "2026-06-12T07:11:19.356129",
     "data": {
-      "source": "CRYPTO BRIEFING"
+      "source": "BBC"
     },
-    "content_hash": "2060feba6c8b615d"
+    "content_hash": "0723af7170442b25"
   },
   {
-    "id": "8566f259",
+    "id": "f0232917",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Levant update: The NZD/USD pair meets with a fresh supply during the Asian session on Friday and erodes a part of the previous day's solid recovery gains from over a two-month low.\n\nhttps://www.fxstreet.com/news/new-zealand-dollar-slides-closer-to-05800-as-iran-risks-lift-usd-and-counter-hawkish-rbnz-202606120159",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/new-zealand-dollar-slides-closer-to-05800-as-iran-risks-lift-usd-and-counter-hawkish-rbnz-202606120159",
-    "source_title": "New Zealand Dollar slides closer to 0.5800 as Iran risks lift USD and counter hawkish RBNZ",
-    "source_summary": "The NZD/USD pair meets with a fresh supply during the Asian session on Friday and erodes a part of the previous day's solid recovery gains from over a two-month low.",
-    "drafted_at": "2026-06-12T02:28:10.467470",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "bfcde6781b497572"
-  },
-  {
-    "id": "a2b14512",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "EUROPE DESK: Joihn Healey was working on a plan to reopen the Strait of Hormuz.\n\nHe quit three days after seeing the spending budget.\n\nhttps://fortune.com/2026/06/11/healey-resignation-hormuz-uk-defense-treasury-gap/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FORTUNE",
-    "source_url": "https://fortune.com/2026/06/11/healey-resignation-hormuz-uk-defense-treasury-gap/",
-    "source_title": "Trump says Europe freeloads on defense. Britain\u2019s own (former) Defense Secretary just agreed",
-    "source_summary": "Joihn Healey was working on a plan to reopen the Strait of Hormuz. He quit three days after seeing the spending budget.",
-    "drafted_at": "2026-06-12T02:28:10.467930",
-    "data": {
-      "source": "FORTUNE"
-    },
-    "content_hash": "07541fc8eeec2ec3"
-  },
-  {
-    "id": "3cf47de7",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: Wall Street and Asian markets rally on hopes for an end to the US-Israel war on Iran.\n\nhttps://www.aljazeera.com/economy/2026/6/12/stocks-markets-surge-as-trump-calls-off-strikes-on-iran-touts-peace-deal?traffic_source=rss",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/economy/2026/6/12/stocks-markets-surge-as-trump-calls-off-strikes-on-iran-touts-peace-deal?traffic_source=rss",
-    "source_title": "Stock markets surge as Trump calls off strikes on Iran, touts peace deal",
-    "source_summary": "Wall Street and Asian markets rally on hopes for an end to the US-Israel war on Iran.",
-    "drafted_at": "2026-06-12T02:28:10.468448",
-    "data": {
-      "source": "AL JAZEERA"
-    },
-    "content_hash": "51a5f7bfc48259ca"
-  },
-  {
-    "id": "c954473d",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "From the Gulf: Iran's World Cup captain says he\u2019s heard Mexican cartels love Iranians and revealed his own brush with an armed group.\n\nhttps://www.aljazeera.com/video/newsfeed/2026/6/12/iran-world-cup-captain-reveals-mexico-cartel-robbery-story?traffic_source=rss",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/12/iran-world-cup-captain-reveals-mexico-cartel-robbery-story?traffic_source=rss",
-    "source_title": "Iran World Cup captain reveals Mexico cartel robbery story",
-    "source_summary": "Iran's World Cup captain says he\u2019s heard Mexican cartels love Iranians and revealed his own brush with an armed group.",
-    "drafted_at": "2026-06-12T02:28:10.468700",
-    "data": {
-      "source": "AL JAZEERA"
-    },
-    "content_hash": "73e8181615dc33f8"
-  },
-  {
-    "id": "188da2ed",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "PPI desk: The AUD/USD pair loses momentum to around 0.7030 during the Asian trading hours on Friday.\n\nThe US Dollar (USD) strengthens against the Australian Dollar (AUD) after US wholesale prices rose more than expected in May.\n\nhttps://www.fxstreet.com/news/australian-dollar-edges-lower-below-07050-as-us-ppi-lifts-us-dollar-202606120156",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/australian-dollar-edges-lower-below-07050-as-us-ppi-lifts-us-dollar-202606120156",
-    "source_title": "Australian Dollar edges lower below 0.7050 as US PPI lifts US Dollar",
-    "source_summary": "The AUD/USD pair loses momentum to around 0.7030 during the Asian trading hours on Friday. The US Dollar (USD) strengthens against the Australian Dollar (AUD) after US wholesale prices rose more than expected in May.",
-    "drafted_at": "2026-06-12T02:28:10.532814",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "daf95147d896059f"
-  },
-  {
-    "id": "63861af8",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "CPI just printed. US-Iran Schr\u00f6dinger's cat deal: signed and unsigned at once.\n\nMarkets surge as Trump announces deal with Iran Breaking: Trump cancels scheduled attacks on Iran today, says there is an agreement US sells 30-year bonds at 5.020% vs 5.008% WI US 30 year fixed-rate mortgage averages 6.52% up from 6.48% last week ECB sources report: Policymakers see July pause if energy prices stay where they are World Bank cuts 2026 global GDP growth to 2.5% from 2.6% ECB's Lagarde: Risks to the growth outlook are to the downside Trump says Iran will be hit hard and \"at some point\" the US will take Kharg Island Canada building permits for April -7.6% versus -3.5% estimate US Initial jobless claims 229K vs 219K estimate.\n\nUS May PPI +6.5% y/y vs +6.4% expected ECB hikes rates, as expected Risk sentiment surged on Thursday after Trump cancelled planned strikes on Iran, citing a near-complete deal with Tehran and a possible signing in Europe this weekend.\n\nEquities rallied hard, led by cyclicals and tech, while energy was the lone sector in the red.\n\nOracle bucked the broader rally, sliding over 8% on its USD 40bln equity raise following weak capex guidance.\n\nCrude bore the brunt of the de-escalation, reversing earlier gains to settle sharply lower, which in turn fuelled a broad Treasury rally.\n\nYields fell 8-10bps across the curve, led by the belly, as traders unwound inflation premiums tied to the conflict.\n\nMarkets now price just 18.5bps of hikes by year-end, a 74% chance.\n\nhttps://investinglive.com/news/investinglive-americas-fx-news-wrap-another-day-another-deal-soon-this-time-for-sure-20260611/",
+    "draft_text": "Levant update: CPI +3.2% vs +3.2% y/y prelim Prior +3.2% HICP +3.6% vs +3.6% y/y prelim Prior +3.5%; revised to +3.6% Core CPI +3.0% y/y Prior +2.8% Spanish headline inflation is confirmed to hold above 3% in May but the real issue is the pick up in core prices once again.\n\nCore annual inflation is seen ticking higher and is touching the 3% mark now and reaffirms the broader trend across the region.\n\nAs the Middle East conflict drags on, higher oil and gas prices will become more entrenched and that adds to further issues with raw material shortages and supply chain disruptions.\n\nEverything put together just points to further price increases.\n\nAnd as that continues to play out, it will be a problem for the ECB amid growing upside risks to inflation while downside risks to the economy.\n\nThis article was written by Justin Low at investinglive.com.\n\nhttps://investinglive.com/news/spain-may-final-cpi-32-vs-32-yy-prelim-20260612/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-another-day-another-deal-soon-this-time-for-sure-20260611/",
-    "source_title": "investingLive Americas FX news wrap: Another day, another 'deal soon'. This time for sure?",
-    "source_summary": "US-Iran Schr\u00f6dinger's cat deal: signed and unsigned at once. Where are we at? Markets surge as Trump announces deal with Iran Breaking: Trump cancels scheduled attacks on Iran today, says there is an agreement US sells 30-year bonds at 5.020% vs 5.008% WI US 30 year fixed-rate mortgage averages 6.52% up from 6.48% last week ECB sources report: Policymakers see July pause if energy prices stay wher",
-    "drafted_at": "2026-06-12T02:28:10.534675",
+    "source_url": "https://investinglive.com/news/spain-may-final-cpi-32-vs-32-yy-prelim-20260612/",
+    "source_title": "Spanish inflation picks up in May, core prices also continue to nudge higher",
+    "source_summary": "CPI +3.2% vs +3.2% y/y prelim Prior +3.2% HICP +3.6% vs +3.6% y/y prelim Prior +3.5%; revised to +3.6% Core CPI +3.0% y/y Prior +2.8% Spanish headline inflation is confirmed to hold above 3% in May but the real issue is the pick up in core prices once again. Core annual inflation is seen ticking higher and is touching the 3% mark now and reaffirms the broader trend across the region. As the Middle",
+    "drafted_at": "2026-06-12T07:11:19.357430",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "ad2007aeacf3d30b"
+    "content_hash": "c050c70c0e73acc7"
   },
   {
-    "id": "b1608b08",
-    "format": "DATA_DROP",
+    "id": "7c71ff08",
+    "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "The CPI scoreboard: Peter Navarro, RCM The first rule in reading an inflation report is to ask what kind of inflation it is.\n\nDemand inflation, wage-price inflation, tariff...\n\nhttps://www.realclearmarkets.com/2026/06/11/ppi_confirms_cpi_energy_shock_not_a_trigger_for_a_rate_hike_1188147.html",
+    "draft_text": "Continental update: CBAK Energy showcased cylindrical battery solutions at The Battery Show Europe 2026, emphasizing safety, long cycle life, and compliance.\n\nhttps://www.globenewswire.com/news-release/2026/06/12/3310901/0/en/CBAK-Energy-Showcases-Cylindrical-Battery-Solutions-for-Europe-s-Expanding-Energy-Storage-Market-at-The-Battery-Show-Europe-2026.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "REALCLEAR",
-    "source_url": "https://www.realclearmarkets.com/2026/06/11/ppi_confirms_cpi_energy_shock_not_a_trigger_for_a_rate_hike_1188147.html",
-    "source_title": "PPI Confirms CPI: Energy Shock, Not a Trigger For a Rate Hike",
-    "source_summary": "Peter Navarro, RCM The first rule in reading an inflation report is to ask what kind of inflation it is. Demand inflation, wage-price inflation, tariff...",
-    "drafted_at": "2026-06-12T02:28:10.534893",
+    "primary_source": "GLOBENEWSWIRE",
+    "source_url": "https://www.globenewswire.com/news-release/2026/06/12/3310901/0/en/CBAK-Energy-Showcases-Cylindrical-Battery-Solutions-for-Europe-s-Expanding-Energy-Storage-Market-at-The-Battery-Show-Europe-2026.html",
+    "source_title": "CBAK Energy Showcases Cylindrical Battery Solutions for Europe\u2019s Expanding Energy Storage Market at The Battery Show Europe 2026",
+    "source_summary": "CBAK Energy showcased cylindrical battery solutions at The Battery Show Europe 2026, emphasizing safety, long cycle life, and compliance.",
+    "drafted_at": "2026-06-12T07:11:19.357900",
     "data": {
-      "source": "REALCLEAR"
+      "source": "GLOBENEWSWIRE"
     },
-    "content_hash": "fe66cb131e8e625b"
+    "content_hash": "87f2a14725135524"
   },
   {
-    "id": "afe5c148",
-    "format": "DATA_DROP",
+    "id": "ab1c6b71",
+    "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "How sticky is inflation? Let's see: InvestorPlace - Stock Market News, Stock Advice & Trading Tips May CPI is hot \u2013 but we dodged a bullet\u2026 the labor market handbrake is releasing\u2026 what a hike would mean for AI stocks\u2026 an edge for a bifurcated stock market The post The Fed\u2019s Excuse Just Disappeared appeared first on InvestorPlace.\n\nhttps://investorplace.com/2026/06/the-feds-excuse-just-disappeared/",
+    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: The UK economy contracted for the first time in eight months, an early sign of the damage wrought by war in Iran.\n\nhttps://financialpost.com/pmn/business-pmn/uk-economy-shrank-in-april-as-iran-war-started-to-take-toll",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "INVESTORPLACE",
-    "source_url": "https://investorplace.com/2026/06/the-feds-excuse-just-disappeared/",
-    "source_title": "The Fed\u2019s Excuse Just Disappeared",
-    "source_summary": "InvestorPlace - Stock Market News, Stock Advice & Trading Tips May CPI is hot \u2013 but we dodged a bullet\u2026 the labor market handbrake is releasing\u2026 what a hike would mean for AI stocks\u2026 an edge for a bifurcated stock market The post The Fed\u2019s Excuse Just Disappeared appeared first on InvestorPlace .",
-    "drafted_at": "2026-06-12T02:28:10.535339",
+    "primary_source": "FINANCIAL POST",
+    "source_url": "https://financialpost.com/pmn/business-pmn/uk-economy-shrank-in-april-as-iran-war-started-to-take-toll",
+    "source_title": "UK Economy Shrank in April as Iran War Started to Take Toll",
+    "source_summary": "The UK economy contracted for the first time in eight months, an early sign of the damage wrought by war in Iran.",
+    "drafted_at": "2026-06-12T07:11:19.358171",
     "data": {
-      "source": "INVESTORPLACE"
+      "source": "FINANCIAL POST"
     },
-    "content_hash": "31752f02f01a16a5"
+    "content_hash": "717eeb7d7683ad7c"
   },
   {
-    "id": "80eb6262",
+    "id": "581dcebc",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Cross-border read: Drone footage appears to show several bridges burning and suffering visible structural damage.\n\nhttps://www.businessinsider.com/ukraine-mid-range-drone-crimea-bridge-slam-asphalt-strike-2026-6",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "BUSINESS INSIDER",
+    "source_url": "https://www.businessinsider.com/ukraine-mid-range-drone-crimea-bridge-slam-asphalt-strike-2026-6",
+    "source_title": "Ukrainian troops are crippling Russia's supply bridges by slamming drones repeatedly into the asphalt",
+    "source_summary": "Drone footage appears to show several bridges burning and suffering visible structural damage.",
+    "drafted_at": "2026-06-12T07:11:19.358440",
+    "data": {
+      "source": "BUSINESS INSIDER"
+    },
+    "content_hash": "1deb7d231db94b59"
+  },
+  {
+    "id": "cb8d8382",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "Inflation update: CPI +3.2% vs +3.2% y/y prelim Prior +3.2% HICP +3.6% vs +3.6% y/y prelim Prior +3.5%; revised to +3.6% Core CPI +3.0% y/y Prior +2.8% Spanish headline inflation is confirmed to hold above 3% in May but the real issue is the pick up in core prices once again.\n\nCore annual inflation is seen ticking higher and is touching the 3% mark now and reaffirms the broader trend across the region.\n\nAs the Middle East conflict drags on, higher oil and gas prices will become more entrenched and that adds to further issues with raw material shortages and supply chain disruptions.\n\nEverything put together just points to further price increases.\n\nAnd as that continues to play out, it will be a problem for the ECB amid growing upside risks to inflation while downside risks to the economy.\n\nThis article was written by Justin Low at investinglive.com.\n\nhttps://investinglive.com/news/spain-may-final-cpi-32-vs-32-yy-prelim-20260612/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/spain-may-final-cpi-32-vs-32-yy-prelim-20260612/",
+    "source_title": "Spanish inflation picks up in May, core prices also continue to nudge higher",
+    "source_summary": "CPI +3.2% vs +3.2% y/y prelim Prior +3.2% HICP +3.6% vs +3.6% y/y prelim Prior +3.5%; revised to +3.6% Core CPI +3.0% y/y Prior +2.8% Spanish headline inflation is confirmed to hold above 3% in May but the real issue is the pick up in core prices once again. Core annual inflation is seen ticking higher and is touching the 3% mark now and reaffirms the broader trend across the region. As the Middle",
+    "drafted_at": "2026-06-12T07:11:19.430251",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "c050c70c0e73acc7"
+  },
+  {
+    "id": "4800f4cd",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "CPI POSTCARD: EUROPEAN SESSION In the European session, we don't have much on the agenda other than a couple of low tier releases like the final French and Spanish inflation reports.\n\nThe ECB yesterday hiked interest rates by 25 bps as widely expected and kept its usual data-dependent and meeting-by meeting approach.\n\nECB sources signalled a pause in July if oil prices do not increase materially but endorsed the market pricing by saying that two more rate hikes are embedded in the projections.\n\nAMERICAN SESSION In the American session, we have the University of Michigan consumer sentiment report and SpaceX starts trading on the Nasdaq under the ticker $SPCX.\n\nThere's been a lot of hype around Space X's IPO and given the positive backdrop from Trump's deal optimism, we could see some strong FOMO in the stock market today.\n\nOther than that, traders will continue to keep an eye on US-Iran headlines as Iranian media said the Supreme Leader has not approved the deal yet.\n\nLooking at all the reports, the prospects of a deal are stronger than ever but there's always some justified skepticism given countless fake Trump's claims.\n\nThis article was written by Giuseppe Dellamotta at investinglive.com.\n\nhttps://investinglive.com/news/what-are-the-main-events-for-today-20260612/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/what-are-the-main-events-for-today-20260612/",
+    "source_title": "What are the main events for today?",
+    "source_summary": "EUROPEAN SESSION In the European session, we don't have much on the agenda other than a couple of low tier releases like the final French and Spanish inflation reports. The ECB yesterday hiked interest rates by 25 bps as widely expected and kept its usual data-dependent and meeting-by meeting approach. ECB sources signalled a pause in July if oil prices do not increase materially but endorsed the ",
+    "drafted_at": "2026-06-12T07:11:19.431562",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "74c375d03e76d427"
+  },
+  {
+    "id": "4d77a7c0",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "GDP DAY. The UK Gross Domestic Product (GDP) contracted by 0.1% MoM in April, following a 0.3% rise reported in March, the latest data published by the Office for National Statistics (ONS) showed on Friday.\n\nhttps://www.fxstreet.com/news/united-kingdom-gdp-declines-by-01-mom-in-april-as-expected-202606120601",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/united-kingdom-gdp-declines-by-01-mom-in-april-as-expected-202606120601",
+    "source_title": "United Kingdom GDP declines by 0.1% MoM in April, as expected",
+    "source_summary": "The UK Gross Domestic Product (GDP) contracted by 0.1% MoM in April, following a 0.3% rise reported in March, the latest data published by the Office for National Statistics (ONS) showed on Friday.",
+    "drafted_at": "2026-06-12T07:11:19.431825",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "3ac5f39356665bcd"
+  },
+  {
+    "id": "681346b6",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "CPI just printed. CPI +2.6% vs +2.6% y/y prelim Prior +2.9% HICP +2.7% vs +2.7% y/y prelim Prior +2.9% Core CPI +2.5% y/y Prior +2.3% No changes to the preliminary estimates there as German headline annual inflation is reaffirmed to show a minor drop in May.\n\nThat being said, core annual inflation is seen nudging up to 2.5% and that is up from 2.3% in April.\n\nSo, that will continue to keep ECB policymakers on their toes in navigating through the risks associated with the Middle East conflict.\n\nAs things stand, there are growing upside risks to inflation and downside risks to the economy.\n\nAnd that kind of divergence is not the kind of thing that the central bank likes to see.\n\nCircling back to the report above, food price inflation is seen at 0.7% with goods price inflation at 2.2%.\n\nMeanwhile, services inflation continues to remain sticky at 3.1%.\n\nThis article was written by Justin Low at investinglive.com.\n\nhttps://investinglive.com/news/germany-may-final-cpi-26-vs-26-yy-prelim-20260612/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/germany-may-final-cpi-26-vs-26-yy-prelim-20260612/",
+    "source_title": "Core inflation confirmed to have picked up in Germany during May",
+    "source_summary": "CPI +2.6% vs +2.6% y/y prelim Prior +2.9% HICP +2.7% vs +2.7% y/y prelim Prior +2.9% Core CPI +2.5% y/y Prior +2.3% No changes to the preliminary estimates there as German headline annual inflation is reaffirmed to show a minor drop in May. That being said, core annual inflation is seen nudging up to 2.5% and that is up from 2.3% in April. So, that will continue to keep ECB policymakers on their t",
+    "drafted_at": "2026-06-12T07:11:19.432787",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "67f4e05152332313"
+  },
+  {
+    "id": "d615a921",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "How fast is the economy moving? Now we know: Monthly GDP -0.1% vs -0.1% m/m expected Prior +0.3% Services output -0.2% vs -0.1% m/m expected Prior +0.3% Industrial output 0.0% vs +0.1% m/m expected Prior -0.2% Manufacturing output +0.4% vs -0.2% m/m expected Prior +1.2% Construction output +0.1% vs -0.4% m/m expected Prior +1.5% The UK economy marginally contracted in April, as the services sector slumped after the better showing in March.\n\nLooking into the details, 8 of the 14 subsectors in the services industry showed a decline in activity/output on the month.\n\nThe largest negative contribution to services sector output came from administrative and support service activities, which fell by 2.2%.\n\nMeanwhile, the second-largest negative contribution came from arts, entertainment and recreation (down 4.3%).\n\nThis was driven by a fall of 9.1% in sports activities and amusement and recreation activities.\n\nOf note, this was the largest negative contribution from a single industry to both services output (-0.07%) and real GDP growth (-0.06%).\n\nAll in all, things are not too bad for the UK economy during the onset of the Middle East conflict.\n\nThat being said, rising price pressures will eventually weigh further on economic activity and that will be the key risk factor to watch out for.\n\nhttps://investinglive.com/news/uk-april-monthly-gdp-01-vs-01-mm-expected-20260612/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/uk-april-monthly-gdp-01-vs-01-mm-expected-20260612/",
+    "source_title": "UK economy sees marginal contraction in April as services sector cools",
+    "source_summary": "Monthly GDP -0.1% vs -0.1% m/m expected Prior +0.3% Services output -0.2% vs -0.1% m/m expected Prior +0.3% Industrial output 0.0% vs +0.1% m/m expected Prior -0.2% Manufacturing output +0.4% vs -0.2% m/m expected Prior +1.2% Construction output +0.1% vs -0.4% m/m expected Prior +1.5% The UK economy marginally contracted in April, as the services sector slumped after the better showing in March. L",
+    "drafted_at": "2026-06-12T07:11:19.434414",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "07c0754aa46ac79e"
+  },
+  {
+    "id": "e3cf4002",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -469,7 +526,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-06-12T02:28:10.536935",
+    "drafted_at": "2026-06-12T07:11:19.436667",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -477,7 +534,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "71a9d576",
+    "id": "73508404",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Information is free. Conviction is rare. Patience is rarer.",
@@ -487,14 +544,14 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Information is free. Conviction is rare. Patience is rarer.",
-    "drafted_at": "2026-06-12T02:28:10.537021",
+    "drafted_at": "2026-06-12T07:11:19.436749",
     "data": {
       "take_seed": "2026-06-12-pack-1"
     },
     "content_hash": "9b0f7be55d8ef71c"
   },
   {
-    "id": "3dc854d1",
+    "id": "dd828292",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Inflation is a tax that doesn't show up on your W-2.",
@@ -504,7 +561,7 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Inflation is a tax that doesn't show up on your W-2.",
-    "drafted_at": "2026-06-12T02:28:10.537070",
+    "drafted_at": "2026-06-12T07:11:19.436800",
     "data": {
       "take_seed": "2026-06-12-pack-2"
     },
