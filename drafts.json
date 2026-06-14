@@ -1,23 +1,44 @@
 [
   {
-    "id": "c72ef7b8",
-    "format": "LOUD_HOWL",
+    "id": "8475c5c3",
+    "format": "MARKET_MOVE",
     "status": "pending",
-    "draft_text": "FRONT-PAGE FOR THE PACK: Bitcoin stayed near local highs on a new US-Iran peace deal pledge as analysis saw conditions favoring a sustained BTC price rebound.\n\nhttps://cointelegraph.com/markets/bitcoin-nears-65k-as-trump-says-hormuz-will-open-to-all-in-sunday-iran-peace-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "draft_text": "You feeling that? VIX surges 12.1% in 5 sessions to 17.68.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "COINTELEGRAPH",
-    "source_url": "https://cointelegraph.com/markets/bitcoin-nears-65k-as-trump-says-hormuz-will-open-to-all-in-sunday-iran-peace-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "source_title": "Bitcoin nears $65K as Trump says Hormuz will 'open to all' in Sunday Iran peace deal",
-    "source_summary": "Bitcoin stayed near local highs on a new US-Iran peace deal pledge as analysis saw conditions favoring a sustained BTC price rebound.",
-    "drafted_at": "2026-06-14T12:57:24.874402",
+    "primary_source": "CBOE \u00b7 ^VIX",
+    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "source_title": "VIX (S&P 500 volatility)",
+    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "drafted_at": "2026-06-14T22:58:33.359695",
     "data": {
-      "source": "COINTELEGRAPH"
+      "signal_id": "^VIX:move:2026-06-12",
+      "kind": "move_up",
+      "current": "17.68"
     },
-    "content_hash": "da041e2ecb1227ad"
+    "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "13a02531",
+    "id": "0643bf9a",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Wake up \u2014 here's the tape: WTI crude tumbles 12.6% in 5 sessions to $81.33.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NYMEX \u00b7 CL=F",
+    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "source_title": "WTI crude oil futures",
+    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "drafted_at": "2026-06-14T22:58:33.359984",
+    "data": {
+      "signal_id": "CL=F:move:2026-06-14",
+      "kind": "move_down",
+      "current": "$81.33"
+    },
+    "content_hash": "c272de0720a2f459"
+  },
+  {
+    "id": "ac27c241",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FOMC desk: The standards are designed to promote interoperability of financial regulatory data across agencies by establishing data standards for identifiers of legal entities and other data elements.\n\nThe final rule is generally similar to the proposal from August 2024, with changes reflecting feedback received from the public.\n\nIt is part of the implementation of the Financial Data Transparency Act of 2022.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260611a.htm",
@@ -27,14 +48,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260611a.htm",
     "source_title": "Federal Reserve Board announces final rule that establishes data standards for certain information collections",
     "source_summary": "Federal Reserve Board announces final rule that establishes data standards for certain information collections",
-    "drafted_at": "2026-06-14T12:57:24.886943",
+    "drafted_at": "2026-06-14T22:58:33.370642",
     "data": {
       "actor": "FED"
     },
     "content_hash": "fa8c80e29a073976"
   },
   {
-    "id": "51734437",
+    "id": "f9d0f42f",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "RATE-PATH READ: It evaluates banks' resilience by estimating losses, net revenue, and capital levels\u2014which provide a cushion against losses\u2014under a hypothetical recession scenario.\n\nThe Board's stress test is one tool used to measure whether banks have adequate capital to absorb losses so that they can lend to households and businesses even in a severe recession.\n\nThis year, 32 large banks were subject to the Board's stress test.\n\nThe scenario includes a severe global recession with heightened stress in both commercial and residential real estate markets, as well as in corporate debt markets.\n\nThese stress test results will not impact large bank capital requirements.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260609a.htm",
@@ -44,14 +65,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260609a.htm",
     "source_title": "Federal Reserve Board announces that results from its annual bank stress test will be released on Wednesday, June 24, at 4 p.m. EDT.",
     "source_summary": "Federal Reserve Board announces that results from its annual bank stress test will be released on Wednesday, June 24, at 4 p.m. EDT.",
-    "drafted_at": "2026-06-14T12:57:24.888029",
+    "drafted_at": "2026-06-14T22:58:33.371721",
     "data": {
       "actor": "FED"
     },
     "content_hash": "35487362043c0c4b"
   },
   {
-    "id": "6013025e",
+    "id": "08e7f60e",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "If you watch rates, read this: The agencies are taking this action to complement their earlier actions that ended the use of reputation risk in supervision.\n\nAs the agencies have previously noted, reputation risk can be misused by supervisors as a basis to encourage or pressure a bank to restrict individuals' and legal businesses' access to financial services due to their constitutionally protected political or religious beliefs, speech, or conduct or lawful business activities.\n\nThese updates help ensure supervisory decisions are based on material financial risks, as well as increase clarity and facilitate greater precision in supervisory decision making.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260602a.htm",
@@ -61,14 +82,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260602a.htm",
     "source_title": "Agencies remove additional references to reputation risk",
     "source_summary": "Agencies remove additional references to reputation risk",
-    "drafted_at": "2026-06-14T12:57:24.888959",
+    "drafted_at": "2026-06-14T22:58:33.372616",
     "data": {
       "actor": "FED"
     },
     "content_hash": "037f4db78eebad91"
   },
   {
-    "id": "ab6abab7",
+    "id": "2b6b2ec6",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Rate-path desk: The Board's process for setting the discount rate is distinct from the process the Federal Open Market Committee follows in setting the target range for the federal funds rate.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
@@ -78,14 +99,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
     "source_title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
     "source_summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
-    "drafted_at": "2026-06-14T12:57:24.889356",
+    "drafted_at": "2026-06-14T22:58:33.373015",
     "data": {
       "actor": "FED"
     },
     "content_hash": "b2d403ab8c4d5036"
   },
   {
-    "id": "0488897b",
+    "id": "463ac0a7",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FED WATCH: Also on Friday, the Federal Open Market Committee unanimously selected Warsh as its chairman.\n\nPresident Donald J.\n\nTrump nominated Mr. Warsh on March 4, 2026.\n\nHe was confirmed by the United States Senate to serve as a member of the Board on May 12, and as chairman of the Board on May 13.\n\nHis term as chairman ends on May 21, 2030, and his term as a member of the Board ends on January 31, 2040.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm",
@@ -95,14 +116,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm",
     "source_title": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
     "source_summary": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
-    "drafted_at": "2026-06-14T12:57:24.889981",
+    "drafted_at": "2026-06-14T22:58:33.373660",
     "data": {
       "actor": "FED"
     },
     "content_hash": "a5762f43aa0ef3b0"
   },
   {
-    "id": "abaae216",
+    "id": "89f3cd05",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$SMMT insider bought $100,696,650 on 2026-06-04, 3 insiders. \ud83d\udc40\n\nSummit Therapeutics Inc.. 7,670,000 shares at $13.13.\n\n+6.7% since the purchase.\n\nhttp://openinsider.com/screener?s=SMMT",
@@ -112,7 +133,7 @@
     "source_url": "http://openinsider.com/screener?s=SMMT",
     "source_title": "Summit Therapeutics Inc. (SMMT) insider bought $100,696,650",
     "source_summary": "3 insider(s) bought 7,670,000 shares at $13.13 on 2026-06-04.",
-    "drafted_at": "2026-06-14T12:57:24.890149",
+    "drafted_at": "2026-06-14T22:58:33.373831",
     "data": {
       "ticker": "SMMT",
       "type": "P",
@@ -122,7 +143,7 @@
     "content_hash": "18ae32ed4c91b571"
   },
   {
-    "id": "cdcfe4d6",
+    "id": "778b5ade",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$IFF insider bought $32,284,388 on 2026-06-01, 2 insiders. \ud83d\udc40\n\nInternational Flavors & Fragrances Inc. 444,219 shares at $72.68.\n\n+7.7% since the purchase.\n\nhttp://openinsider.com/screener?s=IFF",
@@ -132,7 +153,7 @@
     "source_url": "http://openinsider.com/screener?s=IFF",
     "source_title": "International Flavors & Fragrances Inc (IFF) insider bought $32,284,388",
     "source_summary": "2 insider(s) bought 444,219 shares at $72.68 on 2026-06-01.",
-    "drafted_at": "2026-06-14T12:57:24.890287",
+    "drafted_at": "2026-06-14T22:58:33.373970",
     "data": {
       "ticker": "IFF",
       "type": "P",
@@ -142,7 +163,7 @@
     "content_hash": "b59bb9be9054dcc6"
   },
   {
-    "id": "3256fd42",
+    "id": "d0663ba4",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$NCLH insider bought $29,163,646 on 2026-06-01, 7 insiders. \ud83d\udc40\n\nNorwegian Cruise Line Holdings Ltd.. 1,633,867 shares at $17.85.\n\n+8.9% since the purchase.\n\nhttp://openinsider.com/screener?s=NCLH",
@@ -152,7 +173,7 @@
     "source_url": "http://openinsider.com/screener?s=NCLH",
     "source_title": "Norwegian Cruise Line Holdings Ltd. (NCLH) insider bought $29,163,646",
     "source_summary": "7 insider(s) bought 1,633,867 shares at $17.85 on 2026-06-01.",
-    "drafted_at": "2026-06-14T12:57:24.890417",
+    "drafted_at": "2026-06-14T22:58:33.374104",
     "data": {
       "ticker": "NCLH",
       "type": "P",
@@ -162,7 +183,7 @@
     "content_hash": "467ccdd401ed9ddb"
   },
   {
-    "id": "ecd83690",
+    "id": "34751d1c",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$QNT insider bought $24,649,920 on 2026-06-05, 10 insiders. \ud83d\udc40\n\nQuantinuum Inc.. 410,832 shares at $60.00.\n\n-7.9% since the purchase.\n\nhttp://openinsider.com/screener?s=QNT",
@@ -172,7 +193,7 @@
     "source_url": "http://openinsider.com/screener?s=QNT",
     "source_title": "Quantinuum Inc. (QNT) insider bought $24,649,920",
     "source_summary": "10 insider(s) bought 410,832 shares at $60.00 on 2026-06-05.",
-    "drafted_at": "2026-06-14T12:57:24.890545",
+    "drafted_at": "2026-06-14T22:58:33.374220",
     "data": {
       "ticker": "QNT",
       "type": "P",
@@ -182,7 +203,7 @@
     "content_hash": "1896377d0aa7046f"
   },
   {
-    "id": "4efb0083",
+    "id": "e27155ca",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$RYAN insider bought $4,463,649 on 2026-06-03, 4 insiders. \ud83d\udc40\n\nRyan Specialty Holdings, Inc.. 137,015 shares at $32.58.\n\n+9.4% since the purchase.\n\nhttp://openinsider.com/screener?s=RYAN",
@@ -192,7 +213,7 @@
     "source_url": "http://openinsider.com/screener?s=RYAN",
     "source_title": "Ryan Specialty Holdings, Inc. (RYAN) insider bought $4,463,649",
     "source_summary": "4 insider(s) bought 137,015 shares at $32.58 on 2026-06-03.",
-    "drafted_at": "2026-06-14T12:57:24.890667",
+    "drafted_at": "2026-06-14T22:58:33.374346",
     "data": {
       "ticker": "RYAN",
       "type": "P",
@@ -202,24 +223,7 @@
     "content_hash": "f494ec38ff29f4c1"
   },
   {
-    "id": "9c91225c",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "The interception highlights the growing role of cryptocurrencies in evading sanctions, prompting increased regulatory scrutiny and international cooperation.\n\nThe post British Armed Forces intercept sanctioned Russian oil tanker in Channel, exposing crypto\u2019s role in sanctions evasion appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/uk-intercepts-russian-tanker-usdt-sanctions/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/uk-intercepts-russian-tanker-usdt-sanctions/",
-    "source_title": "British Armed Forces intercept sanctioned Russian oil tanker in Channel, exposing crypto\u2019s role in sanctions evasion",
-    "source_summary": "The interception highlights the growing role of cryptocurrencies in evading sanctions, prompting increased regulatory scrutiny and international cooperation. The post British Armed Forces intercept sanctioned Russian oil tanker in Channel, exposing crypto\u2019s role in sanctions evasion appeared first on Crypto Briefing .",
-    "drafted_at": "2026-06-14T12:57:24.891980",
-    "data": {
-      "source": "CRYPTO BRIEFING"
-    },
-    "content_hash": "0cac7c5fc1eaa536"
-  },
-  {
-    "id": "c1f60271",
+    "id": "f2ee3324",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "New scam vector: A fake Bithumb email used in the $36 million Humanity Protocol hack points to the involvement of North Korean threat actors, according to Quantstamp.\n\nhttps://cointelegraph.com/news/humanity-protocol-hack-linked-north-korean-actors-quantstamp?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -229,14 +233,14 @@
     "source_url": "https://cointelegraph.com/news/humanity-protocol-hack-linked-north-korean-actors-quantstamp?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "source_title": "Humanity Protocol\u2019s $36M hack tied to suspected North Korean hackers: Quantstamp",
     "source_summary": "A fake Bithumb email used in the $36 million Humanity Protocol hack points to the involvement of North Korean threat actors, according to Quantstamp.",
-    "drafted_at": "2026-06-14T12:57:24.892242",
+    "drafted_at": "2026-06-14T22:58:33.375482",
     "data": {
       "source": "COINTELEGRAPH"
     },
     "content_hash": "896916641f71bea7"
   },
   {
-    "id": "34786989",
+    "id": "2ff59f6c",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Indictment of the day: Bitcoin Magazine Sam Bankman-Fried Loses Appeal to Overturn FTX Fraud Conviction One of Sam Bankman-Fried's final viable avenues to overturn his conviction closed Friday after a federal appeals court upheld both his fraud conviction and 25-year prison sentence, keeping the disgraced FTX founder behind bars.\n\nThis post Sam Bankman-Fried Loses Appeal to Overturn FTX Fraud Conviction first appeared on Bitcoin Magazine and is written by Micah Zimmerman.\n\nhttps://bitcoinmagazine.com/news/sam-bankman-fried-loses-appeal-ftx",
@@ -246,14 +250,14 @@
     "source_url": "https://bitcoinmagazine.com/news/sam-bankman-fried-loses-appeal-ftx",
     "source_title": "Sam Bankman-Fried Loses Appeal to Overturn FTX Fraud Conviction",
     "source_summary": "Bitcoin Magazine Sam Bankman-Fried Loses Appeal to Overturn FTX Fraud Conviction One of Sam Bankman-Fried's final viable avenues to overturn his conviction closed Friday after a federal appeals court upheld both his fraud conviction and 25-year prison sentence, keeping the disgraced FTX founder behind bars. This post Sam Bankman-Fried Loses Appeal to Overturn FTX Fraud Conviction first appeared on",
-    "drafted_at": "2026-06-14T12:57:24.892815",
+    "drafted_at": "2026-06-14T22:58:33.376067",
     "data": {
       "source": "BITCOIN MAG"
     },
     "content_hash": "078793a61db3b4d0"
   },
   {
-    "id": "c4619781",
+    "id": "2ddbeabb",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "JUSTICE SERVED: Sam Bankman-Fried on Friday lost his bid to overturn his fraud conviction and 25-year prison sentence over the collapse of the FTX cryptocurrency exchange he founded.\n\nProsecutors with the Manhattan US attorney\u2019s office, which prosecuted the case, said he stole $8bn from FTX customers in what they termed a \u201cfraud of epic proportions\u201d.\n\nThe decision was handed down by a three-judge panel of the New York-based second US circuit court of appeals.\n\nBankman-Fried, who had been one of the cryptocurrency sector\u2019s most influential figures and a multibillionaire before FTX\u2019s spectacular collapse in 2022, was found guilty on seven felony charges by a federal jury in Manhattan in 2023.\n\nhttps://www.theguardian.com/business/2026/jun/12/sam-bankman-fried-loses-appeal",
@@ -263,14 +267,14 @@
     "source_url": "https://www.theguardian.com/business/2026/jun/12/sam-bankman-fried-loses-appeal",
     "source_title": "Sam Bankman-Fried loses bid to appeal against fraud conviction in FTX case",
     "source_summary": "Decision to not overturn fallen crypto mogul\u2019s 25-year prison sentence was handed down by three-judge panel Sam Bankman-Fried on Friday lost his bid to overturn his fraud conviction and 25-year prison sentence over the collapse of the FTX cryptocurrency exchange he founded. The decision was handed down by a three-judge panel of the New York-based second US circuit court of appeals. Continue readin",
-    "drafted_at": "2026-06-14T12:57:24.894112",
+    "drafted_at": "2026-06-14T22:58:33.377354",
     "data": {
       "source": "GUARDIAN"
     },
     "content_hash": "8f93af6ec8015cda"
   },
   {
-    "id": "fd0cb36d",
+    "id": "4e949fa9",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Spencer Pratt\u2019s pratfall in LA, Graham Platner\u2019s victory, prediction markets, and other takeaways from the California and Maine primary elections.\n\nThe post The Right\u2019s \u201cElection Fraud\u201d Cry for Midterms Previewed in Primaries appeared first on The Intercept.\n\nhttps://theintercept.com/2026/06/12/california-maine-primaries/",
@@ -280,116 +284,116 @@
     "source_url": "https://theintercept.com/2026/06/12/california-maine-primaries/",
     "source_title": "The Right\u2019s \u201cElection Fraud\u201d Cry for Midterms Previewed in Primaries",
     "source_summary": "Spencer Pratt\u2019s pratfall in LA, Graham Platner\u2019s victory, prediction markets, and other takeaways from the California and Maine primary elections. The post The Right\u2019s \u201cElection Fraud\u201d Cry for Midterms Previewed in Primaries appeared first on The Intercept .",
-    "drafted_at": "2026-06-14T12:57:24.894553",
+    "drafted_at": "2026-06-14T22:58:33.377810",
     "data": {
       "source": "INTERCEPT"
     },
     "content_hash": "09390acb7e204aa1"
   },
   {
-    "id": "f533ffdd",
-    "format": "GLOBAL_DESK",
+    "id": "1ac36a8f",
+    "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "APAC wire: Japanese Prime Minister Sanae Takaichi hailed increasing defense cooperation with the UK during a meeting with her British counterpart Keir Starmer on Sunday, even amid uncertainty about a new fighter jet program.\n\nhttps://financialpost.com/pmn/business-pmn/japans-takaichi-hails-uk-defense-ties-despite-jet-uncertainty",
+    "draft_text": "The post He Profits Off Raw Milk That\u2019s Making People Sick.\n\nThe Government Isn\u2019t Stopping Him. appeared first on ProPublica.\n\nhttps://www.propublica.org/article/mark-mcafee-raw-milk-recalls-maha",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/pmn/business-pmn/japans-takaichi-hails-uk-defense-ties-despite-jet-uncertainty",
-    "source_title": "Japan\u2019s Takaichi Hails UK Defense Ties Despite Jet Uncertainty",
-    "source_summary": "Japanese Prime Minister Sanae Takaichi hailed increasing defense cooperation with the UK during a meeting with her British counterpart Keir Starmer on Sunday, even amid uncertainty about a new fighter jet program.",
-    "drafted_at": "2026-06-14T12:57:24.896735",
+    "primary_source": "PROPUBLICA",
+    "source_url": "https://www.propublica.org/article/mark-mcafee-raw-milk-recalls-maha",
+    "source_title": "He Profits Off Raw Milk That\u2019s Making People Sick. The Government Isn\u2019t Stopping Him.",
+    "source_summary": "The post He Profits Off Raw Milk That\u2019s Making People Sick. The Government Isn\u2019t Stopping Him. appeared first on ProPublica .",
+    "drafted_at": "2026-06-14T22:58:33.378072",
     "data": {
-      "source": "FINANCIAL POST"
+      "source": "PROPUBLICA"
     },
-    "content_hash": "d00782e2e998a56f"
+    "content_hash": "89d761e6cfcce86f"
   },
   {
-    "id": "7fe85ed0",
+    "id": "edb80cb3",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "MIDDLE EAST DESK: 'Before the ink dries they will be plotting their next move with the ultimate goal of hastening their extremist Islamic takeover of the world'.\n\nhttps://www.wnd.com/2026/06/deadly-flaw-iran-deal/?utm_source=rss&utm_medium=rss&utm_campaign=deadly-flaw-iran-deal",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "WND",
-    "source_url": "https://www.wnd.com/2026/06/deadly-flaw-iran-deal/?utm_source=rss&utm_medium=rss&utm_campaign=deadly-flaw-iran-deal",
-    "source_title": "The deadly flaw of the Iran deal",
-    "source_summary": "'Before the ink dries they will be plotting their next move with the ultimate goal of hastening their extremist Islamic takeover of the world'",
-    "drafted_at": "2026-06-14T12:57:24.896953",
-    "data": {
-      "source": "WND"
-    },
-    "content_hash": "3d42e0a2c457574f"
-  },
-  {
-    "id": "abf6367f",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "EUROPE DESK: Bouaddi's World Cup focus amid European interest highlights his maturity, potentially inflating his market value and impacting transfer dynamics.\n\nThe post Ayyoub Bouaddi focuses on World Cup amid transfer interest from Europe\u2019s biggest clubs appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/bouaddi-world-cup-transfer-interest/",
+    "draft_text": "Gulf wire: The US-Iran deal highlights crypto's emerging role in geopolitics, impacting global energy markets and regulatory scrutiny on digital assets.\n\nThe post US and Iran reach deal to halt three months of war, and crypto played a surprising role appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/us-iran-war-deal-crypto-role/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/bouaddi-world-cup-transfer-interest/",
-    "source_title": "Ayyoub Bouaddi focuses on World Cup amid transfer interest from Europe\u2019s biggest clubs",
-    "source_summary": "Bouaddi's World Cup focus amid European interest highlights his maturity, potentially inflating his market value and impacting transfer dynamics. The post Ayyoub Bouaddi focuses on World Cup amid transfer interest from Europe\u2019s biggest clubs appeared first on Crypto Briefing .",
-    "drafted_at": "2026-06-14T12:57:24.897900",
+    "source_url": "https://cryptobriefing.com/us-iran-war-deal-crypto-role/",
+    "source_title": "US and Iran reach deal to halt three months of war, and crypto played a surprising role",
+    "source_summary": "The US-Iran deal highlights crypto's emerging role in geopolitics, impacting global energy markets and regulatory scrutiny on digital assets. The post US and Iran reach deal to halt three months of war, and crypto played a surprising role appeared first on Crypto Briefing .",
+    "drafted_at": "2026-06-14T22:58:33.378781",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "b8198a778a5b0a41"
+    "content_hash": "060b60e3ac0ac81b"
   },
   {
-    "id": "26767e72",
+    "id": "fcb63f41",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Gulf wire: Iran pushed back on US President Donald Trump\u2019s assertion the warring countries would sign an interim peace deal to reopen the Strait of Hormuz as soon as Sunday.\n\nhttps://financialpost.com/pmn/business-pmn/trump-eyes-sunday-iran-deal-but-tehran-says-still-reviewing-text",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/pmn/business-pmn/trump-eyes-sunday-iran-deal-but-tehran-says-still-reviewing-text",
-    "source_title": "Trump Eyes Sunday Iran Deal But Tehran Says Still Reviewing Text",
-    "source_summary": "Iran pushed back on US President Donald Trump\u2019s assertion the warring countries would sign an interim peace deal to reopen the Strait of Hormuz as soon as Sunday.",
-    "drafted_at": "2026-06-14T12:57:24.898559",
-    "data": {
-      "source": "FINANCIAL POST"
-    },
-    "content_hash": "b963a5d107cdb0de"
-  },
-  {
-    "id": "68819f3d",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "From the African desk: Vinicius Junior scored a brilliant goal to dig Brazil out of trouble after Ismael Saibari had put Morocco ahead.\n\nhttps://www.aljazeera.com/sports/2026/6/14/world-cup-2026-biggest-takeaways-from-brazil-morocco-group-match?traffic_source=rss",
+    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: Trump has announced a ceasefire deal with Iran has been agreed, and that the Strait of Hormuz will reopen for shipping.\n\nhttps://www.aljazeera.com/news/2026/6/14/us-iran-ceasefire-deal-announced-trump-says-strait-of-hormuz-reopening?traffic_source=rss",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/sports/2026/6/14/world-cup-2026-biggest-takeaways-from-brazil-morocco-group-match?traffic_source=rss",
-    "source_title": "World Cup 2026: Biggest takeaways from Brazil-Morocco group match",
-    "source_summary": "Vinicius Junior scored a brilliant goal to dig Brazil out of trouble after Ismael Saibari had put Morocco ahead.",
-    "drafted_at": "2026-06-14T12:57:24.900327",
+    "source_url": "https://www.aljazeera.com/news/2026/6/14/us-iran-ceasefire-deal-announced-trump-says-strait-of-hormuz-reopening?traffic_source=rss",
+    "source_title": "US-Iran ceasefire deal announced, Trump says Strait of Hormuz reopening",
+    "source_summary": "Trump has announced a ceasefire deal with Iran has been agreed, and that the Strait of Hormuz will reopen for shipping.",
+    "drafted_at": "2026-06-14T22:58:33.379032",
     "data": {
       "source": "AL JAZEERA"
     },
-    "content_hash": "e2661792d5f6afe9"
+    "content_hash": "d9f53905760b7443"
   },
   {
-    "id": "cb07143e",
-    "format": "DATA_DROP",
+    "id": "43785620",
+    "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From the inflation desk: Bitcoin was designed as a hedge against inflation, but every hot inflation report in the past year has knocked its price lower, and Thursday's data was no different.\n\nThe Producer Price Index rose 1.1% in May, lifting the annual increase to 6.5%, the fastest pace since November 2022 and well above the 0.7% monthly gain [\u2026] The post Wholesale inflation is back in focus.\n\nHere\u2019s what PPI means for your money and Bitcoin appeared first on CryptoSlate.\n\nhttps://cryptoslate.com/wholesale-inflation-is-back-in-focus-heres-what-ppi-means-for-your-money-and-bitcoin/",
+    "draft_text": "From the Gulf: U.S. Vice President JD Vance has said that the deal negotiated by President Donald Trump and Iran will \"transform\" the Middle East and will ensure that Tehran will \"never have a nuclear weapon\".\n\nThe post Vance: Iran Deal Will \u2018Transform Middle East\u2019, Ensure Tehran Will \u2018Never\u2019 Have Nuclear Weapon appeared first on Breitbart.\n\nhttps://www.breitbart.com/europe/2026/06/14/vance-iran-deal-will-transform-middle-east-ensure-tehran-will-never-have-nuclear-weapon/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CRYPTOSLATE",
-    "source_url": "https://cryptoslate.com/wholesale-inflation-is-back-in-focus-heres-what-ppi-means-for-your-money-and-bitcoin/",
-    "source_title": "Wholesale inflation is back in focus. Here\u2019s what PPI means for your money and Bitcoin",
-    "source_summary": "Bitcoin was designed as a hedge against inflation, but every hot inflation report in the past year has knocked its price lower, and Thursday's data was no different. The Producer Price Index rose 1.1% in May, lifting the annual increase to 6.5%, the fastest pace since November 2022 and well above the 0.7% monthly gain [\u2026] The post Wholesale inflation is back in focus. Here\u2019s what PPI means for you",
-    "drafted_at": "2026-06-14T12:57:24.964601",
+    "primary_source": "BREITBART",
+    "source_url": "https://www.breitbart.com/europe/2026/06/14/vance-iran-deal-will-transform-middle-east-ensure-tehran-will-never-have-nuclear-weapon/",
+    "source_title": "Vance: Iran Deal Will 'Transform Middle East', Ensure Tehran Will 'Never' Have Nuclear Weapon",
+    "source_summary": "U.S. Vice President JD Vance has said that the deal negotiated by President Donald Trump and Iran will \"transform\" the Middle East and will ensure that Tehran will \"never have a nuclear weapon\". The post Vance: Iran Deal Will \u2018Transform Middle East\u2019, Ensure Tehran Will \u2018Never\u2019 Have Nuclear Weapon appeared first on Breitbart .",
+    "drafted_at": "2026-06-14T22:58:33.379485",
     "data": {
-      "source": "CRYPTOSLATE"
+      "source": "BREITBART"
     },
-    "content_hash": "6381a33b8c9fd646"
+    "content_hash": "70d4a87f2a6b0e7c"
   },
   {
-    "id": "2575c503",
+    "id": "348d37a5",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: The US and Iran say they have reached a deal to reopen the Strait of Hormuz, setting the stage for talks on Tehran\u2019s nuclear program and halting a war that killed thousands of people and roiled the global economy.\n\nhttps://financialpost.com/pmn/business-pmn/us-and-iran-announce-a-peace-deal-to-reopen-strait-of-hormuz",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FINANCIAL POST",
+    "source_url": "https://financialpost.com/pmn/business-pmn/us-and-iran-announce-a-peace-deal-to-reopen-strait-of-hormuz",
+    "source_title": "US and Iran Announce a Peace Deal to Reopen Strait of Hormuz",
+    "source_summary": "The US and Iran say they have reached a deal to reopen the Strait of Hormuz, setting the stage for talks on Tehran\u2019s nuclear program and halting a war that killed thousands of people and roiled the global economy.",
+    "drafted_at": "2026-06-14T22:58:33.379847",
+    "data": {
+      "source": "FINANCIAL POST"
+    },
+    "content_hash": "0664ebb6e742d322"
+  },
+  {
+    "id": "0f8ba35b",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Levant update: 'I hereby fully authorize the toll free opening of the Strait of Hormuz, and, simultaneously herewith, authorize the immediate removal of the United States Naval blockade'.\n\nhttps://www.wnd.com/2026/06/let-oil-flow-trump-says-deal-iran-now/?utm_source=rss&utm_medium=rss&utm_campaign=let-oil-flow-trump-says-deal-iran-now",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "WND",
+    "source_url": "https://www.wnd.com/2026/06/let-oil-flow-trump-says-deal-iran-now/?utm_source=rss&utm_medium=rss&utm_campaign=let-oil-flow-trump-says-deal-iran-now",
+    "source_title": "\u2018Let the oil flow!\u2019 Trump says deal with Iran now complete: \u2018Ships of the World, start your engines\u2019",
+    "source_summary": "'I hereby fully authorize the toll free opening of the Strait of Hormuz, and, simultaneously herewith, authorize the immediate removal of the United States Naval blockade'",
+    "drafted_at": "2026-06-14T22:58:33.380111",
+    "data": {
+      "source": "WND"
+    },
+    "content_hash": "b068bf9f56882f7c"
+  },
+  {
+    "id": "0534cdbb",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "Numbers just hit: Iranian finance minister: End of war on all fronts will be announced under interim deal At least $10 billion for Iran to be unlocked in Iran deal Trump says the terms of the Iran deal that leaked out are fake.\n\nUpset about drone attacks Iranian Foreign Minister says the memorandum of understanding has never been closer Trump says post from Iranian foreign minister is \"very positive\" Starmer faces rising pressure as Burnham looms SpaceX opens at $150 per share.\n\nVP Vance: A lot of fake information about potential deal to reopen Strait/end Iran nuclear June US prelim Mich consumer sentiment 48.9 vs 46.0 expected Iran will not restore Strait of Hormuz status to pre-war level - IRNA Markets: Gold down $3 to $4209 US 10-year yield up 2 bps to 4.48% WTI crude oil down $3.36 to $84.35 S&P 500 up 0.5% USD leads, CHF lags Iran and SpaceX headlines competed today and the news on both was relatively positive.\n\nThe day started with some trouble as Trump lashed out about \"dishonorable\" leaks of fake contours of the deal, which seemed to favor Iran.\n\nThe market quickly figured out that Trump wasn't going to blow up the whole deal over it and was pleased later when Iran's foreign minister downplayed it, saying the full text would be released later.\n\nMacro trades were relatively light with FX and bonds trading in tight ranges.\n\nOil softened though, with WTI down to $84.35 in another sharp decline.\n\nIt seems the market is expecting a quick signing ceremony and reopening but the terms of the deal still leave for 30 days to clear the Strait and Iran has an incentive to slow roll it, as nuclear negotiations won't be easy.\n\nhttps://investinglive.com/news/investinglive-americas-market-news-wrap-spacex-ipo-succeeds-mixed-signals-on-iran-20260612/",
@@ -399,14 +403,14 @@
     "source_url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-spacex-ipo-succeeds-mixed-signals-on-iran-20260612/",
     "source_title": "investingLive Americas market news wrap: SpaceX IPO succeeds, mixed signals on Iran",
     "source_summary": "Iranian finance minister: End of war on all fronts will be announced under interim deal At least $10 billion for Iran to be unlocked in Iran deal Trump says the terms of the Iran deal that leaked out are fake. Upset about drone attacks Iranian Foreign Minister says the memorandum of understanding has never been closer Trump says post from Iranian foreign minister is \"very positive\" Starmer faces r",
-    "drafted_at": "2026-06-14T12:57:24.966810",
+    "drafted_at": "2026-06-14T22:58:33.443890",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "3b99d65791c61601"
   },
   {
-    "id": "46982a73",
+    "id": "5cc04a68",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "Inflation update: Deutsche Bank\u2019s Sanjay Raja says the UK economy is tracking close to the Bank of England\u2019s Scenario A, with stronger\u2011than\u2011expected early\u20112026 GDP but a cooling labour market and easing price pressures.\n\nhttps://www.fxstreet.com/news/united-kingdom-growth-resilience-but-softer-inflation-deutsche-bank-202606121911",
@@ -416,14 +420,14 @@
     "source_url": "https://www.fxstreet.com/news/united-kingdom-growth-resilience-but-softer-inflation-deutsche-bank-202606121911",
     "source_title": "United Kingdom: Growth resilience but softer inflation \u2013 Deutsche Bank",
     "source_summary": "Deutsche Bank\u2019s Sanjay Raja says the UK economy is tracking close to the Bank of England\u2019s Scenario A, with stronger\u2011than\u2011expected early\u20112026 GDP but a cooling labour market and easing price pressures.",
-    "drafted_at": "2026-06-14T12:57:24.967149",
+    "drafted_at": "2026-06-14T22:58:33.444216",
     "data": {
       "source": "FXSTREET"
     },
     "content_hash": "dd2430e8b3a0af50"
   },
   {
-    "id": "e56553b1",
+    "id": "3c8dd57e",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "INFLATION READ: Sentiment went up four points since mid-May, when Americans were paying an average of $4.50 a gallon at the pump, according to AAA.\n\nAverage gas prices have since dropped to $4.10 a gallon \u2013 $1 more per gallon since a year ago.\n\nEasing gas prices are making Americans feel better about their personal finances and the economy in June, but consumer sentiment remains at historically low levels amid ongoing conflict in the Middle East, according to new survey data from the University of Michigan.\n\nThe latest numbers come as SpaceX marks its historic stock market debut, which has made Elon Musk the world\u2019s first trillionaire.\n\nhttps://www.theguardian.com/business/2026/jun/12/consumer-sentiment-june-data-gas-prices",
@@ -433,14 +437,14 @@
     "source_url": "https://www.theguardian.com/business/2026/jun/12/consumer-sentiment-june-data-gas-prices",
     "source_title": "US consumer sentiment improves in June due to easing gas prices",
     "source_summary": "Consumer sentiment still remains at historically low levels amid Iran war and rising inflation, new survey shows Easing gas prices are making Americans feel better about their personal finances and the economy in June, but consumer sentiment remains at historically low levels amid ongoing conflict in the Middle East, according to new survey data from the University of Michigan. The latest numbers ",
-    "drafted_at": "2026-06-14T12:57:24.968564",
+    "drafted_at": "2026-06-14T22:58:33.445603",
     "data": {
       "source": "GUARDIAN"
     },
     "content_hash": "d18bb4cc6da3b6fc"
   },
   {
-    "id": "b31e7fb6",
+    "id": "2076fe46",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "CPI just printed. The Ring is Euronews\u2019 weekly political showdown, where Europe\u2019s toughest debates meet their boldest voices.\n\nIn each episode, two political heavyweights from across the EU face off to propose a diversity of opinions and spark conversations around the most important issues of EU affairs and the wider European political life.\n\nEuronews Tech Talks goes beyond discussions to explore the impact of new technologies on our lives.\n\nWith explanations, engaging Q&As, and lively conversations, the podcast provides valuable insights into the intersection of technology and society.\n\nEurope's best food experts are joining forces to crack down on fraud.\n\nhttp://www.euronews.com/business/2026/06/12/spain-inflation-stuck-at-32-for-third-month-hit-by-war-in-iran",
@@ -450,14 +454,14 @@
     "source_url": "http://www.euronews.com/business/2026/06/12/spain-inflation-stuck-at-32-for-third-month-hit-by-war-in-iran",
     "source_title": "Spain inflation stuck at 3.2% for third month, hit by war in Iran",
     "source_summary": "May\u2019s CPI confirms the preliminary INE figures. Transport and holiday packages push prices up, while clothing and food fall. Core inflation rises to 3%.",
-    "drafted_at": "2026-06-14T12:57:24.970119",
+    "drafted_at": "2026-06-14T22:58:33.447106",
     "data": {
       "source": "EURONEWS"
     },
     "content_hash": "acf951e9836061b2"
   },
   {
-    "id": "6659e9b7",
+    "id": "f925e765",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -467,7 +471,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-06-14T12:57:24.971696",
+    "drafted_at": "2026-06-14T22:58:33.448694",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -475,7 +479,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "7e437938",
+    "id": "58d36102",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Real rates eat sentiment for breakfast.",
@@ -485,14 +489,14 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Real rates eat sentiment for breakfast.",
-    "drafted_at": "2026-06-14T12:57:24.971767",
+    "drafted_at": "2026-06-14T22:58:33.448764",
     "data": {
       "take_seed": "2026-06-14-pack-1"
     },
     "content_hash": "9b0f7be55d8ef71c"
   },
   {
-    "id": "353d0c53",
+    "id": "adef829c",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "The strong dollar makes everything cheaper for someone who isn't you.",
@@ -502,7 +506,7 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "The strong dollar makes everything cheaper for someone who isn't you.",
-    "drafted_at": "2026-06-14T12:57:24.971831",
+    "drafted_at": "2026-06-14T22:58:33.448828",
     "data": {
       "take_seed": "2026-06-14-pack-2"
     },
