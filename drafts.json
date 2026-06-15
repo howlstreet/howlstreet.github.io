@@ -1,42 +1,59 @@
 [
   {
-    "id": "c7180330",
+    "id": "cd0ca848",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "FRONT-PAGE FOR THE PACK: The agreement could reshape global energy dynamics, influence crypto markets, and test international regulatory frameworks on sanctions.\n\nThe post Iran and US agree to halt war and reopen Strait of Hormuz, sending oil prices tumbling appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iran-us-hormuz-deal-oil-prices-tumble/",
+    "draft_text": "PACK FRONT-PAGE: At the time, many anticipated prices to jump from around $72 (\u20ac62) a barrel on February 27 to as high as $150 to $200.\n\nIn the end, the price increase was more moderate and a barrel of oil peaked at around $120 soon after the conflict started before going back down.\n\nA potential US-Iran deal to end the war and reopen the Strait of Hormuz could ease the global energy crunch, but oil prices and supplies may take months to stabilize as shipping restarts and infrastructure recovers.\n\nThe United States and Iran announced on Sunday that they had struck a preliminary agreement to end their war, raising hopes for an end to the energy crisis that has gripped countries worldwide since the conflict began.\n\nhttps://www.dw.com/en/iran-war-will-the-global-energy-crisis-end-soon/a-77554342?maca=en-rss-en-bus-2091-rdf",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/iran-us-hormuz-deal-oil-prices-tumble/",
-    "source_title": "Iran and US agree to halt war and reopen Strait of Hormuz, sending oil prices tumbling",
-    "source_summary": "The agreement could reshape global energy dynamics, influence crypto markets, and test international regulatory frameworks on sanctions. The post Iran and US agree to halt war and reopen Strait of Hormuz, sending oil prices tumbling appeared first on Crypto Briefing .",
-    "drafted_at": "2026-06-15T06:13:22.889339",
+    "primary_source": "DW",
+    "source_url": "https://www.dw.com/en/iran-war-will-the-global-energy-crisis-end-soon/a-77554342?maca=en-rss-en-bus-2091-rdf",
+    "source_title": "Iran war: Will the global energy crisis end soon?",
+    "source_summary": "A potential US-Iran deal to end the war and reopen the Strait of Hormuz could ease the global energy crunch, but oil prices and supplies may take months to stabilize as shipping restarts and infrastructure recovers.",
+    "drafted_at": "2026-06-15T12:56:51.850372",
     "data": {
-      "source": "CRYPTO BRIEFING"
+      "source": "DW"
     },
-    "content_hash": "0865f4d1bfbdb9ce"
+    "content_hash": "27776a0d662ae95a"
   },
   {
-    "id": "efb553c4",
+    "id": "e6031cc2",
     "format": "MARKET_MOVE",
     "status": "pending",
-    "draft_text": "You blink, you miss this: WTI crude tumbles 10.5% in 5 sessions to $81.00.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "draft_text": "Whatever you're doing, stop and read this. VIX craters 23.1% in 5 sessions to 16.54.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "NYMEX \u00b7 CL=F",
-    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
-    "source_title": "WTI crude oil futures",
-    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-06-15T06:13:22.889661",
+    "primary_source": "CBOE \u00b7 ^VIX",
+    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "source_title": "VIX (S&P 500 volatility)",
+    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "drafted_at": "2026-06-15T12:56:51.850647",
     "data": {
-      "signal_id": "CL=F:move:2026-06-15",
+      "signal_id": "^VIX:move:2026-06-15",
       "kind": "move_down",
-      "current": "$81.00"
+      "current": "16.54"
     },
-    "content_hash": "c272de0720a2f459"
+    "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "e4cd9ef3",
+    "id": "1090b375",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "From the Eccles Building: Silver (XAG/USD) trades around $70.70 at the time of writing on Monday, up 3.94% on the day.\n\nThe white metal is extending its rebound and benefiting from a backdrop marked by a weaker US Dollar (USD) and expectations surrounding the upcoming Federal Reserve (Fed) meeting.\n\nhttps://www.fxstreet.com/news/silver-rallies-as-us-dollar-slips-on-us-iran-framework-fed-decision-looms-202606151226",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Fed",
+    "source_url": "https://www.fxstreet.com/news/silver-rallies-as-us-dollar-slips-on-us-iran-framework-fed-decision-looms-202606151226",
+    "source_title": "Silver rallies as US Dollar slips on US-Iran framework, Fed decision looms",
+    "source_summary": "Silver (XAG/USD) trades around $70.70 at the time of writing on Monday, up 3.94% on the day. The white metal is extending its rebound and benefiting from a backdrop marked by a weaker US Dollar (USD) and expectations surrounding the upcoming Federal Reserve (Fed) meeting.",
+    "drafted_at": "2026-06-15T12:56:51.861607",
+    "data": {
+      "actor": "Fed"
+    },
+    "content_hash": "e78712de116885fc"
+  },
+  {
+    "id": "9b5efb62",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FOMC desk: The standards are designed to promote interoperability of financial regulatory data across agencies by establishing data standards for identifiers of legal entities and other data elements.\n\nThe final rule is generally similar to the proposal from August 2024, with changes reflecting feedback received from the public.\n\nIt is part of the implementation of the Financial Data Transparency Act of 2022.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260611a.htm",
@@ -46,14 +63,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260611a.htm",
     "source_title": "Federal Reserve Board announces final rule that establishes data standards for certain information collections",
     "source_summary": "Federal Reserve Board announces final rule that establishes data standards for certain information collections",
-    "drafted_at": "2026-06-15T06:13:22.900711",
+    "drafted_at": "2026-06-15T12:56:51.862216",
     "data": {
       "actor": "FED"
     },
     "content_hash": "fa8c80e29a073976"
   },
   {
-    "id": "364c6221",
+    "id": "644d4720",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "RATE-PATH READ: It evaluates banks' resilience by estimating losses, net revenue, and capital levels\u2014which provide a cushion against losses\u2014under a hypothetical recession scenario.\n\nThe Board's stress test is one tool used to measure whether banks have adequate capital to absorb losses so that they can lend to households and businesses even in a severe recession.\n\nThis year, 32 large banks were subject to the Board's stress test.\n\nThe scenario includes a severe global recession with heightened stress in both commercial and residential real estate markets, as well as in corporate debt markets.\n\nThese stress test results will not impact large bank capital requirements.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260609a.htm",
@@ -63,14 +80,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260609a.htm",
     "source_title": "Federal Reserve Board announces that results from its annual bank stress test will be released on Wednesday, June 24, at 4 p.m. EDT.",
     "source_summary": "Federal Reserve Board announces that results from its annual bank stress test will be released on Wednesday, June 24, at 4 p.m. EDT.",
-    "drafted_at": "2026-06-15T06:13:22.901805",
+    "drafted_at": "2026-06-15T12:56:51.863263",
     "data": {
       "actor": "FED"
     },
     "content_hash": "35487362043c0c4b"
   },
   {
-    "id": "213261ea",
+    "id": "43b9f83d",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "If you watch rates, read this: The agencies are taking this action to complement their earlier actions that ended the use of reputation risk in supervision.\n\nAs the agencies have previously noted, reputation risk can be misused by supervisors as a basis to encourage or pressure a bank to restrict individuals' and legal businesses' access to financial services due to their constitutionally protected political or religious beliefs, speech, or conduct or lawful business activities.\n\nThese updates help ensure supervisory decisions are based on material financial risks, as well as increase clarity and facilitate greater precision in supervisory decision making.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260602a.htm",
@@ -80,14 +97,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260602a.htm",
     "source_title": "Agencies remove additional references to reputation risk",
     "source_summary": "Agencies remove additional references to reputation risk",
-    "drafted_at": "2026-06-15T06:13:22.902735",
+    "drafted_at": "2026-06-15T12:56:51.864175",
     "data": {
       "actor": "FED"
     },
     "content_hash": "037f4db78eebad91"
   },
   {
-    "id": "4d46f8c3",
+    "id": "82fe29f9",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Rate-path desk: The Board's process for setting the discount rate is distinct from the process the Federal Open Market Committee follows in setting the target range for the federal funds rate.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
@@ -97,31 +114,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
     "source_title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
     "source_summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
-    "drafted_at": "2026-06-15T06:13:22.903132",
+    "drafted_at": "2026-06-15T12:56:51.864568",
     "data": {
       "actor": "FED"
     },
     "content_hash": "b2d403ab8c4d5036"
   },
   {
-    "id": "4158d20a",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "FED WATCH: Also on Friday, the Federal Open Market Committee unanimously selected Warsh as its chairman.\n\nPresident Donald J.\n\nTrump nominated Mr. Warsh on March 4, 2026.\n\nHe was confirmed by the United States Senate to serve as a member of the Board on May 12, and as chairman of the Board on May 13.\n\nHis term as chairman ends on May 21, 2030, and his term as a member of the Board ends on January 31, 2040.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FED",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm",
-    "source_title": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
-    "source_summary": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
-    "drafted_at": "2026-06-15T06:13:22.903800",
-    "data": {
-      "actor": "FED"
-    },
-    "content_hash": "a5762f43aa0ef3b0"
-  },
-  {
-    "id": "b96b03db",
+    "id": "494a8a75",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$SMMT insider bought $100,696,650 on 2026-06-04, 3 insiders. \ud83d\udc40\n\nSummit Therapeutics Inc.. 7,670,000 shares at $13.13.\n\n+6.7% since the purchase.\n\nhttp://openinsider.com/screener?s=SMMT",
@@ -131,7 +131,7 @@
     "source_url": "http://openinsider.com/screener?s=SMMT",
     "source_title": "Summit Therapeutics Inc. (SMMT) insider bought $100,696,650",
     "source_summary": "3 insider(s) bought 7,670,000 shares at $13.13 on 2026-06-04.",
-    "drafted_at": "2026-06-15T06:13:22.903970",
+    "drafted_at": "2026-06-15T12:56:51.865359",
     "data": {
       "ticker": "SMMT",
       "type": "P",
@@ -141,27 +141,7 @@
     "content_hash": "18ae32ed4c91b571"
   },
   {
-    "id": "31e8b895",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$IFF insider bought $32,284,388 on 2026-06-01, 2 insiders. \ud83d\udc40\n\nInternational Flavors & Fragrances Inc. 444,219 shares at $72.68.\n\n+7.7% since the purchase.\n\nhttp://openinsider.com/screener?s=IFF",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=IFF",
-    "source_title": "International Flavors & Fragrances Inc (IFF) insider bought $32,284,388",
-    "source_summary": "2 insider(s) bought 444,219 shares at $72.68 on 2026-06-01.",
-    "drafted_at": "2026-06-15T06:13:22.904111",
-    "data": {
-      "ticker": "IFF",
-      "type": "P",
-      "dollar_value": 32284388.0,
-      "pct_since": 7.691244693266921
-    },
-    "content_hash": "b59bb9be9054dcc6"
-  },
-  {
-    "id": "c411a5f1",
+    "id": "043b8c92",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$NCLH insider bought $29,163,646 on 2026-06-01, 7 insiders. \ud83d\udc40\n\nNorwegian Cruise Line Holdings Ltd.. 1,633,867 shares at $17.85.\n\n+8.9% since the purchase.\n\nhttp://openinsider.com/screener?s=NCLH",
@@ -171,7 +151,7 @@
     "source_url": "http://openinsider.com/screener?s=NCLH",
     "source_title": "Norwegian Cruise Line Holdings Ltd. (NCLH) insider bought $29,163,646",
     "source_summary": "7 insider(s) bought 1,633,867 shares at $17.85 on 2026-06-01.",
-    "drafted_at": "2026-06-15T06:13:22.904247",
+    "drafted_at": "2026-06-15T12:56:51.865499",
     "data": {
       "ticker": "NCLH",
       "type": "P",
@@ -181,7 +161,7 @@
     "content_hash": "467ccdd401ed9ddb"
   },
   {
-    "id": "81a150e6",
+    "id": "6a03a04a",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$QNT insider bought $24,649,920 on 2026-06-05, 10 insiders. \ud83d\udc40\n\nQuantinuum Inc.. 410,832 shares at $60.00.\n\n-7.9% since the purchase.\n\nhttp://openinsider.com/screener?s=QNT",
@@ -191,7 +171,7 @@
     "source_url": "http://openinsider.com/screener?s=QNT",
     "source_title": "Quantinuum Inc. (QNT) insider bought $24,649,920",
     "source_summary": "10 insider(s) bought 410,832 shares at $60.00 on 2026-06-05.",
-    "drafted_at": "2026-06-15T06:13:22.904368",
+    "drafted_at": "2026-06-15T12:56:51.865620",
     "data": {
       "ticker": "QNT",
       "type": "P",
@@ -201,7 +181,7 @@
     "content_hash": "1896377d0aa7046f"
   },
   {
-    "id": "31b8a8cb",
+    "id": "2996a017",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$RYAN insider bought $4,463,649 on 2026-06-03, 4 insiders. \ud83d\udc40\n\nRyan Specialty Holdings, Inc.. 137,015 shares at $32.58.\n\n+9.4% since the purchase.\n\nhttp://openinsider.com/screener?s=RYAN",
@@ -211,7 +191,7 @@
     "source_url": "http://openinsider.com/screener?s=RYAN",
     "source_title": "Ryan Specialty Holdings, Inc. (RYAN) insider bought $4,463,649",
     "source_summary": "4 insider(s) bought 137,015 shares at $32.58 on 2026-06-03.",
-    "drafted_at": "2026-06-15T06:13:22.904538",
+    "drafted_at": "2026-06-15T12:56:51.865748",
     "data": {
       "ticker": "RYAN",
       "type": "P",
@@ -221,24 +201,44 @@
     "content_hash": "f494ec38ff29f4c1"
   },
   {
-    "id": "04187fe0",
-    "format": "CORRUPTION_WATCH",
+    "id": "6c437ae5",
+    "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "LOS ANGELES, June 15, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Globant S.A. (\"Globant\" or \"the Company\") (NYSE: GLOB) for violations of \u00a7\u00a710(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder by the U....\n\nhttps://www.prnewswire.com/news-releases/globant-sa-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--glob-302799899.html",
+    "draft_text": "$PICS insider bought $3,356,398 on 2026-06-11, 4 insiders. \ud83d\udc40\n\nPics N.V.. 312,338 shares at $10.75.\n\n+0.7% since the purchase.\n\nhttp://openinsider.com/screener?s=PICS",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "PR NEWSWIRE",
-    "source_url": "https://www.prnewswire.com/news-releases/globant-sa-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--glob-302799899.html",
-    "source_title": "Globant S.A. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights",
-    "source_summary": "LOS ANGELES, June 15, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Globant S.A. (\"Globant\" or \"the Company\") (NYSE: GLOB) for violations of \u00a7\u00a710(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder by the U....",
-    "drafted_at": "2026-06-15T06:13:22.905905",
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=PICS",
+    "source_title": "Pics N.V. (PICS) insider bought $3,356,398",
+    "source_summary": "4 insider(s) bought 312,338 shares at $10.75 on 2026-06-11.",
+    "drafted_at": "2026-06-15T12:56:51.865866",
     "data": {
-      "source": "PR NEWSWIRE"
+      "ticker": "PICS",
+      "type": "P",
+      "dollar_value": 3356398.0,
+      "pct_since": 0.6511599518531976
     },
-    "content_hash": "7fd2321a7c775263"
+    "content_hash": "c5d2cc3551891f07"
   },
   {
-    "id": "0c8c01d3",
+    "id": "0dde69f3",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Pack \u2014 got one. A reported $120.2 million USDT routing through Monero left about $72 million frozen, but the market impact showed how quickly traceable liquidity can move toward harder-to-follow rails.\n\nThe post Did Tether just freeze $72M in USDT with no link to a hack in Monero money laundering sting? appeared first on CryptoSlate.\n\nhttps://cryptoslate.com/did-tether-just-freeze-72m-in-usdt-with-link-to-hack-in-monero-money-laundering-sting/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CRYPTOSLATE",
+    "source_url": "https://cryptoslate.com/did-tether-just-freeze-72m-in-usdt-with-link-to-hack-in-monero-money-laundering-sting/",
+    "source_title": "Did Tether just freeze $72M in USDT with no link to a hack in Monero money laundering sting?",
+    "source_summary": "A reported $120.2 million USDT routing through Monero left about $72 million frozen, but the market impact showed how quickly traceable liquidity can move toward harder-to-follow rails. The post Did Tether just freeze $72M in USDT with no link to a hack in Monero money laundering sting? appeared first on CryptoSlate .",
+    "drafted_at": "2026-06-15T12:56:51.867233",
+    "data": {
+      "source": "CRYPTOSLATE"
+    },
+    "content_hash": "b5088803520c3fd3"
+  },
+  {
+    "id": "5ded220b",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "ACTIVE THREAT: The Aztec Connect platform was deprecated in March 2023, but the immutable smart contract still held over $2 million in crypto assets.\n\nhttps://cointelegraph.com/news/aztec-connects-depreciated-smart-contract-exploited-for-2-million?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -248,31 +248,14 @@
     "source_url": "https://cointelegraph.com/news/aztec-connects-depreciated-smart-contract-exploited-for-2-million?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "source_title": "Aztec Connect\u2019s abandoned smart contract exploited for $2.1M",
     "source_summary": "The Aztec Connect platform was deprecated in March 2023, but the immutable smart contract still held over $2 million in crypto assets.",
-    "drafted_at": "2026-06-15T06:13:22.906162",
+    "drafted_at": "2026-06-15T12:56:51.867485",
     "data": {
       "source": "COINTELEGRAPH"
     },
     "content_hash": "0e131f875728aae2"
   },
   {
-    "id": "96d7203e",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Watch your wallets: Cases of fraud in the UK have surged with criminals using AI to manipulate people and even marrying victims of romance scams to steal more money.\n\nMore than four million cases in which money was lost were reported last year - the equivalent of nearly eight on average every minute, according to new figures.\n\nThe total has increased by more than one million in two years, with almost \u00a31.3bn stolen by scammers in 2025, according to an annual report by UK Finance.\n\nThe enormous scale of the problem could only be tackled if tech companies stepped up monitoring and security of their platforms, the banking trade body said.\n\nhttps://www.bbc.com/news/articles/cwykp9ygxlvo?at_medium=RSS&at_campaign=rss",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "BBC",
-    "source_url": "https://www.bbc.com/news/articles/cwykp9ygxlvo?at_medium=RSS&at_campaign=rss",
-    "source_title": "Surge in scams as fraudsters use AI to target people",
-    "source_summary": "On average, nearly eight cases of fraud in which money is stolen are reported in the UK every minute.",
-    "drafted_at": "2026-06-15T06:13:22.907145",
-    "data": {
-      "source": "BBC"
-    },
-    "content_hash": "aa4461fea04e7e19"
-  },
-  {
-    "id": "36af1a4a",
+    "id": "ad763ae5",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Indictment of the day: Bitcoin Magazine Sam Bankman-Fried Loses Appeal to Overturn FTX Fraud Conviction One of Sam Bankman-Fried's final viable avenues to overturn his conviction closed Friday after a federal appeals court upheld both his fraud conviction and 25-year prison sentence, keeping the disgraced FTX founder behind bars.\n\nThis post Sam Bankman-Fried Loses Appeal to Overturn FTX Fraud Conviction first appeared on Bitcoin Magazine and is written by Micah Zimmerman.\n\nhttps://bitcoinmagazine.com/news/sam-bankman-fried-loses-appeal-ftx",
@@ -282,14 +265,14 @@
     "source_url": "https://bitcoinmagazine.com/news/sam-bankman-fried-loses-appeal-ftx",
     "source_title": "Sam Bankman-Fried Loses Appeal to Overturn FTX Fraud Conviction",
     "source_summary": "Bitcoin Magazine Sam Bankman-Fried Loses Appeal to Overturn FTX Fraud Conviction One of Sam Bankman-Fried's final viable avenues to overturn his conviction closed Friday after a federal appeals court upheld both his fraud conviction and 25-year prison sentence, keeping the disgraced FTX founder behind bars. This post Sam Bankman-Fried Loses Appeal to Overturn FTX Fraud Conviction first appeared on",
-    "drafted_at": "2026-06-15T06:13:22.907719",
+    "drafted_at": "2026-06-15T12:56:51.868049",
     "data": {
       "source": "BITCOIN MAG"
     },
     "content_hash": "078793a61db3b4d0"
   },
   {
-    "id": "5e8eb6be",
+    "id": "2273e89a",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "JUSTICE SERVED: Sam Bankman-Fried on Friday lost his bid to overturn his fraud conviction and 25-year prison sentence over the collapse of the FTX cryptocurrency exchange he founded.\n\nProsecutors with the Manhattan US attorney\u2019s office, which prosecuted the case, said he stole $8bn from FTX customers in what they termed a \u201cfraud of epic proportions\u201d.\n\nThe decision was handed down by a three-judge panel of the New York-based second US circuit court of appeals.\n\nBankman-Fried, who had been one of the cryptocurrency sector\u2019s most influential figures and a multibillionaire before FTX\u2019s spectacular collapse in 2022, was found guilty on seven felony charges by a federal jury in Manhattan in 2023.\n\nhttps://www.theguardian.com/business/2026/jun/12/sam-bankman-fried-loses-appeal",
@@ -299,116 +282,167 @@
     "source_url": "https://www.theguardian.com/business/2026/jun/12/sam-bankman-fried-loses-appeal",
     "source_title": "Sam Bankman-Fried loses bid to appeal against fraud conviction in FTX case",
     "source_summary": "Decision to not overturn fallen crypto mogul\u2019s 25-year prison sentence was handed down by three-judge panel Sam Bankman-Fried on Friday lost his bid to overturn his fraud conviction and 25-year prison sentence over the collapse of the FTX cryptocurrency exchange he founded. The decision was handed down by a three-judge panel of the New York-based second US circuit court of appeals. Continue readin",
-    "drafted_at": "2026-06-15T06:13:22.909010",
+    "drafted_at": "2026-06-15T12:56:51.869354",
     "data": {
       "source": "GUARDIAN"
     },
     "content_hash": "8f93af6ec8015cda"
   },
   {
-    "id": "8a879d5b",
-    "format": "GLOBAL_DESK",
+    "id": "d8093a7b",
+    "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "MIDDLE EAST DESK: Bitcoin (BTC) is showing some recovery after a US-Iran peace deal announced by President Trump.\n\nhttps://watcher.guru/news/bitcoin-moves-after-us-iran-deal-is-it-enough-to-carry-btc",
+    "draft_text": "Spencer Pratt\u2019s pratfall in LA, Graham Platner\u2019s victory, prediction markets, and other takeaways from the California and Maine primary elections.\n\nThe post The Right\u2019s \u201cElection Fraud\u201d Cry for Midterms Previewed in Primaries appeared first on The Intercept.\n\nhttps://theintercept.com/2026/06/12/california-maine-primaries/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "WATCHER GURU",
-    "source_url": "https://watcher.guru/news/bitcoin-moves-after-us-iran-deal-is-it-enough-to-carry-btc",
-    "source_title": "Bitcoin Moves After US-Iran Deal: Is It Enough To Carry BTC?",
-    "source_summary": "Bitcoin (BTC) is showing some recovery after a US-Iran peace deal announced by President Trump. The deal is\u2026",
-    "drafted_at": "2026-06-15T06:13:22.911172",
+    "primary_source": "INTERCEPT",
+    "source_url": "https://theintercept.com/2026/06/12/california-maine-primaries/",
+    "source_title": "The Right\u2019s \u201cElection Fraud\u201d Cry for Midterms Previewed in Primaries",
+    "source_summary": "Spencer Pratt\u2019s pratfall in LA, Graham Platner\u2019s victory, prediction markets, and other takeaways from the California and Maine primary elections. The post The Right\u2019s \u201cElection Fraud\u201d Cry for Midterms Previewed in Primaries appeared first on The Intercept .",
+    "drafted_at": "2026-06-15T12:56:51.869787",
     "data": {
-      "source": "WATCHER GURU"
+      "source": "INTERCEPT"
     },
-    "content_hash": "17971947c2067e44"
+    "content_hash": "09390acb7e204aa1"
   },
   {
-    "id": "5eccfb44",
+    "id": "c0c5d924",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From the African desk: THIS ANNOUNCEMENT AND THE INFORMATION CONTAINED HEREIN IS RESTRICTED AND IS NOT FOR RELEASE, PUBLICATION OR DISTRIBUTION, IN WHOLE OR IN PART, DIRECTLY OR INDIRECTLY, IN, INTO OR FROM AUSTRALIA, JAPAN OR THE REPUBLIC OF SOUTH AFRICA OR TO BE TRANSMITTED, DISTRIBUTED TO, OR SENT BY, ANY NATIONAL OR RESIDENT OR CITIZEN OF ANY SUCH [\u2026].\n\nhttps://financialpost.com/globe-newswire/pulsar-helium-announces-expanded-land-position-at-topaz-and-provides-a-project-technical-update",
+    "draft_text": "Gulf wire: NYSE issues a pre-market daily advisory direct from the trading floor.\n\nNEW YORK, June 15, 2026 /PRNewswire/ -- The New York Stock Exchange (NYSE) provides a daily pre-market update directly from the NYSE Trading Floor.\n\nAccess today's NYSE Pre-market update for market insights before...\n\nhttps://www.prnewswire.com/news-releases/nyse-content-update-stocks-rally-ice-brent-crude-drops-to-82-on-iran-deal-302800327.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "PR NEWSWIRE",
+    "source_url": "https://www.prnewswire.com/news-releases/nyse-content-update-stocks-rally-ice-brent-crude-drops-to-82-on-iran-deal-302800327.html",
+    "source_title": "NYSE Content Update: Stocks Rally, ICE Brent Crude Drops to $82 on Iran Deal",
+    "source_summary": "NYSE issues a pre-market daily advisory direct from the trading floor. NEW YORK, June 15, 2026 /PRNewswire/ -- The New York Stock Exchange (NYSE) provides a daily pre-market update directly from the NYSE Trading Floor. Access today's NYSE Pre-market update for market insights before...",
+    "drafted_at": "2026-06-15T12:56:51.871647",
+    "data": {
+      "source": "PR NEWSWIRE"
+    },
+    "content_hash": "926c100d20a28eec"
+  },
+  {
+    "id": "542752e3",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: The US-Iran MOU could stabilize Middle East tensions, impacting global oil flow and crypto markets, while setting the stage for nuclear talks.\n\nThe post Middle East leaders praise US-Iran deal as Bitcoin rallies on de-escalation hopes appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/us-iran-deal-bitcoin-rally-middle-east/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/us-iran-deal-bitcoin-rally-middle-east/",
+    "source_title": "Middle East leaders praise US-Iran deal as Bitcoin rallies on de-escalation hopes",
+    "source_summary": "The US-Iran MOU could stabilize Middle East tensions, impacting global oil flow and crypto markets, while setting the stage for nuclear talks. The post Middle East leaders praise US-Iran deal as Bitcoin rallies on de-escalation hopes appeared first on Crypto Briefing .",
+    "drafted_at": "2026-06-15T12:56:51.872097",
+    "data": {
+      "source": "CRYPTO BRIEFING"
+    },
+    "content_hash": "56db9ba0b15c6f64"
+  },
+  {
+    "id": "4e4dd53b",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: The post Charai for the Jerusalem Strategic Tribune: Trump\u2019s Iran Deal: A Strategic Opening appeared first on Atlantic Council.\n\nhttps://www.atlanticcouncil.org/insight-impact/in-the-news/charai-for-the-jerusalem-strategic-tribune-trumps-iran-deal-a-strategic-opening/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "ATLANTIC CNCL",
+    "source_url": "https://www.atlanticcouncil.org/insight-impact/in-the-news/charai-for-the-jerusalem-strategic-tribune-trumps-iran-deal-a-strategic-opening/",
+    "source_title": "Charai for the Jerusalem Strategic Tribune: Trump\u2019s Iran Deal: A Strategic Opening",
+    "source_summary": "The post Charai for the Jerusalem Strategic Tribune: Trump\u2019s Iran Deal: A Strategic Opening appeared first on Atlantic Council .",
+    "drafted_at": "2026-06-15T12:56:51.872368",
+    "data": {
+      "source": "ATLANTIC CNCL"
+    },
+    "content_hash": "5e3286ba8ea5b9d7"
+  },
+  {
+    "id": "74105c21",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Cross-border read: VANCOUVER, British Columbia, June 15, 2026 (GLOBE NEWSWIRE) \u2014 Cannabix Technologies Inc. (CSE: BLO) (OTCID: BLOZF) (Frankfurt: 8CT) (the \u201cCompany\u201d or \u201cCannabix\u201d) developer of marijuana and alcohol breath testing devices for workplace safety and law enforcement, is pleased to announce deployment of its Marijuana Breath Test (\u201cMBT\u201d) products with a major industrial company operating in [\u2026].\n\nhttps://financialpost.com/globe-newswire/cannabix-technologies-announces-deployment-of-marijuana-breath-test-mbt-with-major-industrial-operator-in-quebec",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/globe-newswire/pulsar-helium-announces-expanded-land-position-at-topaz-and-provides-a-project-technical-update",
-    "source_title": "Pulsar Helium Announces Expanded Land Position at Topaz, and Provides a Project Technical Update",
-    "source_summary": "THIS ANNOUNCEMENT AND THE INFORMATION CONTAINED HEREIN IS RESTRICTED AND IS NOT FOR RELEASE, PUBLICATION OR DISTRIBUTION, IN WHOLE OR IN PART, DIRECTLY OR INDIRECTLY, IN, INTO OR FROM AUSTRALIA, JAPAN OR THE REPUBLIC OF SOUTH AFRICA OR TO BE TRANSMITTED, DISTRIBUTED TO, OR SENT BY, ANY NATIONAL OR RESIDENT OR CITIZEN OF ANY SUCH [\u2026]",
-    "drafted_at": "2026-06-15T06:13:22.911742",
+    "source_url": "https://financialpost.com/globe-newswire/cannabix-technologies-announces-deployment-of-marijuana-breath-test-mbt-with-major-industrial-operator-in-quebec",
+    "source_title": "Cannabix Technologies Announces Deployment of Marijuana Breath Test (MBT) with Major Industrial Operator in Quebec",
+    "source_summary": "VANCOUVER, British Columbia, June 15, 2026 (GLOBE NEWSWIRE) \u2014 Cannabix Technologies Inc. (CSE: BLO) (OTCID: BLOZF) (Frankfurt: 8CT) (the \u201cCompany\u201d or \u201cCannabix\u201d) developer of marijuana and alcohol breath testing devices for workplace safety and law enforcement, is pleased to announce deployment of its Marijuana Breath Test (\u201cMBT\u201d) products with a major industrial company operating in [\u2026]",
+    "drafted_at": "2026-06-15T12:56:51.873659",
     "data": {
       "source": "FINANCIAL POST"
     },
-    "content_hash": "43b515a5cc0d9bb4"
+    "content_hash": "3162ff0389f84431"
   },
   {
-    "id": "614029cf",
+    "id": "a40fbeb9",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "MIDDLE EAST DESK: Asia was quick to welcome the US-Iran deal to reopen the Strait of Hormuz, through which most of the region\u2019s energy supplies flow.\n\nBut many warned it\u2019s too early to say if that will offer long-term relief to the world\u2019s most populous and fastest-growing region.\n\nhttps://financialpost.com/pmn/business-pmn/asias-oil-thirsty-economies-cautiously-welcome-us-iran-deal",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/pmn/business-pmn/asias-oil-thirsty-economies-cautiously-welcome-us-iran-deal",
-    "source_title": "Asia\u2019s Oil-Thirsty Economies Cautiously Welcome US-Iran Deal",
-    "source_summary": "Asia was quick to welcome the US-Iran deal to reopen the Strait of Hormuz, through which most of the region\u2019s energy supplies flow. But many warned it\u2019s too early to say if that will offer long-term relief to the world\u2019s most populous and fastest-growing region.",
-    "drafted_at": "2026-06-15T06:13:22.912182",
-    "data": {
-      "source": "FINANCIAL POST"
-    },
-    "content_hash": "ad3b4f0f514fcebd"
-  },
-  {
-    "id": "c04f3e7e",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Canada/LatAm wire: NOT FOR PUBLICATION, DISTRIBUTION OR RELEASE IN WHOLE OR IN PART, DIRECTLY OR INDIRECTLY, IN OR INTO THE UNITED STATES OF AMERICA, CANADA, AUSTRALIA, JAPAN OR ANY OTHER JURISDICTION WHERE THE DISTRIBUTION OR RELEASE WOULD BE UNLAWFUL.\n\nhttps://www.globenewswire.com/news-release/2026/06/15/3311521/0/en/Regulatory-release-no-8-2026-Completion-of-Installat%C3%B8rGruppen-A-S-Initial-Public-Offering.html",
+    "draft_text": "LATAM DESK: VANCOUVER, British Columbia, June 15, 2026 (GLOBE NEWSWIRE) -- Cannabix Technologies Inc. (CSE: BLO) (OTCID: BLOZF) (Frankfurt: 8CT) (the \u201cCompany\u201d or \u201cCannabix\u201d) developer of marijuana and alcohol breath testing devices for workplace safety and law enforcement, is pleased to announce deployment of its Marijuana Breath Test (\u201cMBT\u201d) products with a major industrial company operating in the heavy materials sector with significant workforce and operational footprint in Qu\u00e9bec.\n\nThe MBT is being utilized to support workplace safety programs, including post-incident and reasonable-cause testing protocols (see Figure 1).\n\nThe delivery was completed through Montreal based Alco Prevention Canada.\n\nhttps://www.globenewswire.com/news-release/2026/06/15/3311796/0/en/Cannabix-Technologies-Announces-Deployment-of-Marijuana-Breath-Test-MBT-with-Major-Industrial-Operator-in-Quebec.html",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "GLOBENEWSWIRE",
-    "source_url": "https://www.globenewswire.com/news-release/2026/06/15/3311521/0/en/Regulatory-release-no-8-2026-Completion-of-Installat%C3%B8rGruppen-A-S-Initial-Public-Offering.html",
-    "source_title": "Regulatory release no. 8 - 2026: Completion of Installat\u00f8rGruppen A/S' Initial Public Offering",
-    "source_summary": "NOT FOR PUBLICATION, DISTRIBUTION OR RELEASE IN WHOLE OR IN PART, DIRECTLY OR INDIRECTLY, IN OR INTO THE UNITED STATES OF AMERICA, CANADA, AUSTRALIA, JAPAN OR ANY OTHER JURISDICTION WHERE THE DISTRIBUTION OR RELEASE WOULD BE UNLAWFUL",
-    "drafted_at": "2026-06-15T06:13:22.912582",
+    "source_url": "https://www.globenewswire.com/news-release/2026/06/15/3311796/0/en/Cannabix-Technologies-Announces-Deployment-of-Marijuana-Breath-Test-MBT-with-Major-Industrial-Operator-in-Quebec.html",
+    "source_title": "Cannabix Technologies Announces Deployment of Marijuana Breath Test (MBT) with Major Industrial Operator in Quebec",
+    "source_summary": "VANCOUVER, British Columbia, June 15, 2026 (GLOBE NEWSWIRE) -- Cannabix Technologies Inc. (CSE: BLO) (OTCID: BLOZF) (Frankfurt: 8CT) (the \u201cCompany\u201d or \u201cCannabix\u201d) developer of marijuana and alcohol breath testing devices for workplace safety and law enforcement, is pleased to announce deployment of its Marijuana Breath Test (\u201cMBT\u201d) products with a major industrial company operating in the heavy ma",
+    "drafted_at": "2026-06-15T12:56:51.874628",
     "data": {
       "source": "GLOBENEWSWIRE"
     },
-    "content_hash": "5260e9d6453c4380"
+    "content_hash": "ebe9c8735a54bce2"
   },
   {
-    "id": "c40b4f9f",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "AFRICA DESK: THIS ANNOUNCEMENT AND THE INFORMATION CONTAINED HEREIN IS RESTRICTED AND IS NOT FOR RELEASE, PUBLICATION OR DISTRIBUTION, IN WHOLE OR IN PART, DIRECTLY OR INDIRECTLY, IN, INTO OR FROM AUSTRALIA, JAPAN OR THE REPUBLIC OF SOUTH AFRICA OR TO BE TRANSMITTED, DISTRIBUTED TO, OR SENT BY, ANY NATIONAL OR RESIDENT OR CITIZEN OF ANY SUCH COUNTRIES OR ANY OTHER JURISDICTION IN WHICH SUCH RELEASE, PUBLICATION OR DISTRIBUTION MAY CONTRAVENE LOCAL SECURITIES LAWS OR REGULATIONS.\n\nhttps://www.globenewswire.com/news-release/2026/06/15/3311510/0/en/Pulsar-Helium-Announces-Expanded-Land-Position-at-Topaz-and-Provides-a-Project-Technical-Update.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "GLOBENEWSWIRE",
-    "source_url": "https://www.globenewswire.com/news-release/2026/06/15/3311510/0/en/Pulsar-Helium-Announces-Expanded-Land-Position-at-Topaz-and-Provides-a-Project-Technical-Update.html",
-    "source_title": "Pulsar Helium Announces Expanded Land Position at Topaz, and Provides a Project Technical Update",
-    "source_summary": "THIS ANNOUNCEMENT AND THE INFORMATION CONTAINED HEREIN IS RESTRICTED AND IS NOT FOR RELEASE, PUBLICATION OR DISTRIBUTION, IN WHOLE OR IN PART, DIRECTLY OR INDIRECTLY, IN, INTO OR FROM AUSTRALIA, JAPAN OR THE REPUBLIC OF SOUTH AFRICA OR TO BE TRANSMITTED, DISTRIBUTED TO, OR SENT BY, ANY NATIONAL OR RESIDENT OR CITIZEN OF ANY SUCH COUNTRIES OR ANY OTHER JURISDICTION IN WHICH SUCH RELEASE, PUBLICATIO",
-    "drafted_at": "2026-06-15T06:13:22.913678",
-    "data": {
-      "source": "GLOBENEWSWIRE"
-    },
-    "content_hash": "85c9ef7772548a46"
-  },
-  {
-    "id": "2f2f1a9f",
+    "id": "61c7b2ca",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "CPI POSTCARD: Iran peace deal won't derail BOJ rate hike to 31-year high on Tuesday, ex-BOJ economist Chinese municipalities ramp housing subsidies, provident fund rules to stabilise property ICYMI: From Hormuz to highly enriched uranium: the key terms of the U.S.-Iran agreement Singapore to remove fund 5% cap on gold physical investment PBOC sets USD/ CNY reference rate for today at 6.8088 (vs. estimate at 6.7544) US equity index futures roll to September today, June contracts near expiry.\n\nWhat you need Reports that South Korea have liaised with US to agree to support the won Another day, another South Korea trading halt.\n\nKospi futures +5% RBNZ hike path collides with weakest labour market in ten years, Silk speaks today Trump is already threatening to resume strikes on Iran UK, France, Germany and Italy welcome deal but demand unconditional Hormuz access Fourteen-article MOU sets 30-day Hormuz deadline and excludes Iran missile program Trump says Hormuz will not be open until Friday, upon signing of ceasefire deal Iran confirms ceasefire MOU with U.S. but warns finger stays on the trigger Globex is open.\n\nOil down 3%, ES and NQ up 0.7% and 1% respecitvely Trump posts on the deal with Iran The USD has been marked lower in thin early Asia trade on the back of the peace news Pakistani PM: Announce the reaching of a peace agreement between America and Iran Trump says plans to issue a statement confirming deal that Iran hasn't agreed to yet.\n\nTrump tweets that \"The Strait of Hormuz will be opening up for business very shortly\".\n\nLOL Iranian state TV says Israel \"will be heavily bombed tonight.\" Monday open indicative forex prices 15 June 2026.\n\nNewsquawk Week in Focus: Fed, BoJ, RBA, BoE, SNB, US Retail Sales, and Japan CPI Summary: U.S. and Iran agreed an MOU; Pakistan's PM announced the deal, with formal signing set for Switzerland on June 19 Immediate and permanent cessation of military operations declared on all fronts, including Lebanon Strait of Hormuz to reopen; Trump authorised immediate lifting of the U.S. naval blockade Iran's 14-point MOU terms published by Mehr News Agency; neither side released an official text Deal terms seen as heavily favourable to Tehran: oil sanctions suspended, $12bn unfrozen before talks, missiles and proxies excluded from negotiations, $300bn reconstruction fund demanded of Western allies Netanyahu told Trump Israel does not consider itself bound by the Lebanon provisions and plans to maintain troops and operations against Hezbollah Singapore removed its 5% cap on physical precious metals investment for funds and family offices; SGX to launch OTC Loco Singapore gold clearing, central bank vaulting by October Oil fell around 4% on Hormuz reopening; gold cleared USD 4,300; USD weakened; Nikkei hit a record high; Japan and South Korea equities rallied The dominant story of the session was the U.S.-Iran memorandum of understanding, announced by Pakistan's Prime Minister Shehbaz Sharif and subsequently confirmed by both Washington and Tehran, with the formal signing scheduled for Friday June 19.\n\nTrump declared the Strait of Hormuz open and authorised the immediate removal of the U.S. naval blockade, telling vessels from all nations to sail and stating that oil would flow.\n\nhttps://investinglive.com/news/investinglive-asia-pacific-fx-news-wrap-us-iran-agree-an-mou-signing-scheduled-friday-20260615/",
+    "draft_text": "From the housing desk: Prior was revised to 278.4 Housing activity propelled the Canadian economy for years but those days are done, particularly if the Bank of Canada begins raising rates later this year.\n\nOn that front, a peace in Iran should help lower oil prices but I'm skeptical that we will get much below $75-80 as inventories need to be rebuilt.\n\nThis article was written by Adam Button at investinglive.com.\n\nhttps://investinglive.com/news/canada-may-housing-starts-2614k-vs-2784k-prior-20260615/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/investinglive-asia-pacific-fx-news-wrap-us-iran-agree-an-mou-signing-scheduled-friday-20260615/",
-    "source_title": "investingLive Asia-Pacific FX news wrap: US, Iran agree an MOU, signing scheduled Friday",
-    "source_summary": "Iran peace deal won't derail BOJ rate hike to 31-year high on Tuesday, ex-BOJ economist Chinese municipalities ramp housing subsidies, provident fund rules to stabilise property ICYMI: From Hormuz to highly enriched uranium: the key terms of the U.S.-Iran agreement Singapore to remove fund 5% cap on gold physical investment PBOC sets USD/ CNY reference rate for today at 6.8088 (vs. estimate at 6.7",
-    "drafted_at": "2026-06-15T06:13:22.988734",
+    "source_url": "https://investinglive.com/news/canada-may-housing-starts-2614k-vs-2784k-prior-20260615/",
+    "source_title": "Canada May housing starts 261.4K vs 278.4K prior",
+    "source_summary": "Prior was revised to 278.4 Housing activity propelled the Canadian economy for years but those days are done, particularly if the Bank of Canada begins raising rates later this year. On that front, a peace in Iran should help lower oil prices but I'm skeptical that we will get much below $75-80 as inventories need to be rebuilt. This article was written by Adam Button at investinglive.com.",
+    "drafted_at": "2026-06-15T12:56:51.939265",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "4f55bafad03ec759"
+    "content_hash": "181cb18438abd260"
   },
   {
-    "id": "c4a3bdf4",
+    "id": "d83950b2",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "From the trade desk: Headlines: US, Iran reportedly to hold preparatory talks in Doha before signing MOU deal Israel says it is not bound by Lebanon ceasefire clause in the MOU agreement India LNG tanker carrying Qatari cargo crosses Strait of Hormuz after US-Iran deal What now after the stellar SpaceX debut on Friday?\n\nECB President Lagarde welcomes US-Iran peace deal, remains wary of second-round effects ECB policymaker Nagel says ECB is keeping all options open for July meeting ECB policymaker Kazaks says the ECB is ready to act again if needed Euro area trade balance posts a deficit in April due to jump in energy imports German wholesale prices ease slightly in May due to energy tax reduction Markets: WTI crude down by 5.5% to $80.22 CHF leads, USD and JPY lag on the day European indices push higher, DAX up 1.3% and CAC 40 up 1.2% S&P 500 futures up 1.3% and Nasdaq futures up 2.1% US 10-year yields down 2.5 bps to 4.46% Gold up 2.8% to $4,335 Here we go.\n\nThe US and Iran have confirmed to sign off on a memorandum of understanding at the end of this week and that is seeing markets breathe a massive sigh of relief, at least for now.\n\nThe war might come to an end but does it mean the end of the terror for markets?\n\nIt all still depends on how things will change on the Strait of Hormuz but the good news is that it is likely to be better than what it is now.\n\nSo far, there's not much other news besides one LNG tanker making its way across as the Iran navy is yet to announce any formal changes to traffic flow on the waterway.\n\nOil prices dropped off sharply to start the week, with WTI crude briefly nudging below $80 at the lows and still keeping thereabouts on the day.\n\nMeanwhile, equities are rallying hard with European indices keeping gains over 1% on the day.\n\nhttps://investinglive.com/news/investinglive-european-session-wrap-oil-prices-sink-as-markets-cheer-us-iran-agreement-20260615/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/investinglive-european-session-wrap-oil-prices-sink-as-markets-cheer-us-iran-agreement-20260615/",
+    "source_title": "investingLive European session wrap: Oil prices sink as markets cheer US-Iran agreement",
+    "source_summary": "Headlines: US, Iran reportedly to hold preparatory talks in Doha before signing MOU deal Israel says it is not bound by Lebanon ceasefire clause in the MOU agreement India LNG tanker carrying Qatari cargo crosses Strait of Hormuz after US-Iran deal What now after the stellar SpaceX debut on Friday? ECB President Lagarde welcomes US-Iran peace deal, remains wary of second-round effects ECB policyma",
+    "drafted_at": "2026-06-15T12:56:51.941682",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "8977b18bc9fbe768"
+  },
+  {
+    "id": "58b902e5",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "Goods-flow update: This feels like stepping back in time to the Russia-Ukraine conflict, as the euro area trade balance returns back to deficit territory again now.\n\nThe \u20ac1.0 billion deficit (unadjusted) in April comes after a surplus of \u20ac4.9 billion in March.\n\nCompared to April last year, exports were seen up by 5.0% but imports were seen up by a whopping 9.3% in April this year.\n\nSo, that sees a drop compared to the surplus of \u20ac8.7 billion in April 2025.\n\nLooking to the January to April numbers, the year-to-date trade balance this year is at \u20ac12.9 billion.\n\nMeanwhile, it was \u20ac63.7 billion during the same period in 2025.\n\nThe deficit in April largely stems from a widening deficit in energy (\u20ac28.8 billion in April compared to \u20ac24.0 billion in March).\n\nRaw materials also posted a deficit of \u20ac3.0 billion with narrower trade balances in other categories as well.\n\nhttps://investinglive.com/news/euro-area-trade-balance-posts-a-deficit-in-april-due-to-jump-in-energy-imports-20260615/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/euro-area-trade-balance-posts-a-deficit-in-april-due-to-jump-in-energy-imports-20260615/",
+    "source_title": "Euro area trade balance posts a deficit in April due to jump in energy imports",
+    "source_summary": "This feels like stepping back in time to the Russia-Ukraine conflict, as the euro area trade balance returns back to deficit territory again now. The \u20ac1.0 billion deficit (unadjusted) in April comes after a surplus of \u20ac4.9 billion in March. Compared to April last year, exports were seen up by 5.0% but imports were seen up by a whopping 9.3% in April this year. So, that sees a drop compared to the ",
+    "drafted_at": "2026-06-15T12:56:51.942958",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "2022dfeb92aacd74"
+  },
+  {
+    "id": "8d88ca98",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "INFLATION READ: Sentiment went up four points since mid-May, when Americans were paying an average of $4.50 a gallon at the pump, according to AAA.\n\nAverage gas prices have since dropped to $4.10 a gallon \u2013 $1 more per gallon since a year ago.\n\nEasing gas prices are making Americans feel better about their personal finances and the economy in June, but consumer sentiment remains at historically low levels amid ongoing conflict in the Middle East, according to new survey data from the University of Michigan.\n\nThe latest numbers come as SpaceX marks its historic stock market debut, which has made Elon Musk the world\u2019s first trillionaire.\n\nhttps://www.theguardian.com/business/2026/jun/12/consumer-sentiment-june-data-gas-prices",
@@ -418,14 +452,14 @@
     "source_url": "https://www.theguardian.com/business/2026/jun/12/consumer-sentiment-june-data-gas-prices",
     "source_title": "US consumer sentiment improves in June due to easing gas prices",
     "source_summary": "Consumer sentiment still remains at historically low levels amid Iran war and rising inflation, new survey shows Easing gas prices are making Americans feel better about their personal finances and the economy in June, but consumer sentiment remains at historically low levels amid ongoing conflict in the Middle East, according to new survey data from the University of Michigan. The latest numbers ",
-    "drafted_at": "2026-06-15T06:13:22.990149",
+    "drafted_at": "2026-06-15T12:56:51.944300",
     "data": {
       "source": "GUARDIAN"
     },
     "content_hash": "d18bb4cc6da3b6fc"
   },
   {
-    "id": "8f3dc401",
+    "id": "2abae499",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -435,7 +469,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-06-15T06:13:22.991772",
+    "drafted_at": "2026-06-15T12:56:51.945815",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -443,7 +477,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "4fa9c928",
+    "id": "64689251",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "The strong dollar makes everything cheaper for someone who isn't you.",
@@ -453,14 +487,14 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "The strong dollar makes everything cheaper for someone who isn't you.",
-    "drafted_at": "2026-06-15T06:13:22.991862",
+    "drafted_at": "2026-06-15T12:56:51.945905",
     "data": {
       "take_seed": "2026-06-15-pack-1"
     },
     "content_hash": "9b0f7be55d8ef71c"
   },
   {
-    "id": "e7527bab",
+    "id": "968dabf1",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Recessions are obvious in retrospect and invisible in real time.",
@@ -470,7 +504,7 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Recessions are obvious in retrospect and invisible in real time.",
-    "drafted_at": "2026-06-15T06:13:22.991924",
+    "drafted_at": "2026-06-15T12:56:51.945969",
     "data": {
       "take_seed": "2026-06-15-pack-2"
     },
