@@ -1,16 +1,16 @@
 {
-  "^VIX:move:2026-06-15": {
-    "headline": "VIX craters 23.1% in 5 sessions to 16.54",
-    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "source": "CBOE \u00b7 ^VIX",
+  "^DJI:high:2026-06-15": {
+    "headline": "Dow just hit 51,829.38 \u2014 highest in 9+ years",
+    "matters": "30 large U.S. industrials. Slower-moving than the S&P but the headline number retail readers track.",
+    "source": "Yahoo Finance \u00b7 ^DJI",
     "chart_path": null,
-    "signal_id": "^VIX:move:2026-06-15",
-    "current_str": "16.54",
-    "label": "VIX (S&P 500 volatility)",
-    "hashtags": "#VIX #Volatility #Markets",
-    "kind": "move_down",
-    "badge": "-23.1%",
-    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "fired_at": "2026-06-15T12:56:49.024397"
+    "signal_id": "^DJI:high:2026-06-15",
+    "current_str": "51,829.38",
+    "label": "Dow Jones Industrial Average",
+    "hashtags": "#Dow #Stocks #Markets",
+    "kind": "high",
+    "badge": "9Y HIGH",
+    "data_url": "https://finance.yahoo.com/quote/%5EDJI",
+    "fired_at": "2026-06-15T17:59:09.539114"
   }
 }
