@@ -1,16 +1,16 @@
 {
-  "^DJI:high:2026-06-16": {
-    "headline": "Dow just hit 52,082.23 \u2014 highest in 9+ years",
-    "matters": "30 large U.S. industrials. Slower-moving than the S&P but the headline number retail readers track.",
-    "source": "Yahoo Finance \u00b7 ^DJI",
+  "BTC-USD:move:2026-06-16": {
+    "headline": "Bitcoin jumps 7.9% in 5 sessions to $65,658",
+    "matters": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
+    "source": "Yahoo Finance \u00b7 BTC-USD",
     "chart_path": null,
-    "signal_id": "^DJI:high:2026-06-16",
-    "current_str": "52,082.23",
-    "label": "Dow Jones Industrial Average",
-    "hashtags": "#Dow #Stocks #Markets",
-    "kind": "high",
-    "badge": "9Y HIGH",
-    "data_url": "https://finance.yahoo.com/quote/%5EDJI",
-    "fired_at": "2026-06-16T18:06:15.011301"
+    "signal_id": "BTC-USD:move:2026-06-16",
+    "current_str": "$65,658",
+    "label": "Bitcoin",
+    "hashtags": "#Bitcoin #BTC #Crypto",
+    "kind": "move_up",
+    "badge": "+7.9%",
+    "data_url": "https://finance.yahoo.com/quote/BTC-USD",
+    "fired_at": "2026-06-16T21:26:47.581868"
   }
 }
