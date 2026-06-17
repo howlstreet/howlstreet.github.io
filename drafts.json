@@ -1,57 +1,112 @@
 [
   {
-    "id": "4c6770b2",
+    "id": "244e7d8d",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "TODAY'S LOUDEST HOWL: The USD/JPY pair ticks lower during the Asian session on Wednesday, though it remains within striking distance of the highest level since late April, touched last week.\n\nhttps://www.fxstreet.com/news/16050-japanese-yen-hangs-near-intervention-zone-despite-boj-rate-hike-ahead-of-fomc-202606170112",
+    "draft_text": "FLAGSHIP READ: Brent crude drops to lowest price since early March before signing of framework deal to end US-Israel war on Iran.\n\nhttps://www.aljazeera.com/economy/2026/6/17/oil-prices-continue-slide-amid-hopes-for-peace-opening-of-strait-of-hormuz?traffic_source=rss",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/16050-japanese-yen-hangs-near-intervention-zone-despite-boj-rate-hike-ahead-of-fomc-202606170112",
-    "source_title": "160.50: Japanese Yen hangs near intervention zone despite BoJ rate hike, ahead of FOMC",
-    "source_summary": "The USD/JPY pair ticks lower during the Asian session on Wednesday, though it remains within striking distance of the highest level since late April, touched last week.",
-    "drafted_at": "2026-06-17T02:36:53.793920",
+    "primary_source": "AL JAZEERA",
+    "source_url": "https://www.aljazeera.com/economy/2026/6/17/oil-prices-continue-slide-amid-hopes-for-peace-opening-of-strait-of-hormuz?traffic_source=rss",
+    "source_title": "Oil prices continue slide amid hopes for peace, opening of Strait of Hormuz",
+    "source_summary": "Brent crude drops to lowest price since early March before signing of framework deal to end US-Israel war on Iran.",
+    "drafted_at": "2026-06-17T08:20:55.975575",
     "data": {
-      "source": "FXSTREET"
+      "source": "AL JAZEERA"
     },
-    "content_hash": "b754b80cae7fc529"
+    "content_hash": "4c9af19a4afd2aca"
   },
   {
-    "id": "401ff649",
+    "id": "617c03f0",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Two seconds, trust me. VIX craters 24.6% in 5 sessions to 16.22.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CBOE \u00b7 ^VIX",
+    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "source_title": "VIX (S&P 500 volatility)",
+    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "drafted_at": "2026-06-17T08:20:55.975908",
+    "data": {
+      "signal_id": "^VIX:move:2026-06-17",
+      "kind": "move_down",
+      "current": "16.22"
+    },
+    "content_hash": "995f4d67e7e875d2"
+  },
+  {
+    "id": "ffc92a34",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Numbers don't lie. Look: WTI crude craters 17.0% in 5 sessions to $75.13.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NYMEX \u00b7 CL=F",
+    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "source_title": "WTI crude oil futures",
+    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "drafted_at": "2026-06-17T08:20:55.976152",
+    "data": {
+      "signal_id": "CL=F:move:2026-06-17",
+      "kind": "move_down",
+      "current": "$75.13"
+    },
+    "content_hash": "c272de0720a2f459"
+  },
+  {
+    "id": "5a2aae3f",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "PBOC DESK: The People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Wednesday at 6.8096 compared to the previous day's fix of 6.8108 and 6.7659 Reuters estimate.\n\nhttps://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-68096-vs-68108-previous-202606170115",
+    "draft_text": "RATE-PATH READ: The Indian Rupee (INR) flattens after two days of gains against the US Dollar (USD) on Wednesday.\n\nHowever, the upside of the USD/INR pair could be capped in the near term as downward pressure on the Indian Rupee eases, supported by declining global oil prices.\n\nhttps://www.fxstreet.com/news/indian-rupee-steadies-due-to-risk-on-mood-202606170413",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "PBOC",
-    "source_url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-68096-vs-68108-previous-202606170115",
-    "source_title": "PBOC sets USD/CNY reference rate at 6.8096 vs. 6.8108 previous",
-    "source_summary": "The People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Wednesday at 6.8096 compared to the previous day's fix of 6.8108 and 6.7659 Reuters estimate.",
-    "drafted_at": "2026-06-17T02:36:53.804973",
+    "primary_source": "Fed",
+    "source_url": "https://www.fxstreet.com/news/indian-rupee-steadies-due-to-risk-on-mood-202606170413",
+    "source_title": "Indian Rupee remains flat as traders await Fed policy decision",
+    "source_summary": "The Indian Rupee (INR) flattens after two days of gains against the US Dollar (USD) on Wednesday. However, the upside of the USD/INR pair could be capped in the near term as downward pressure on the Indian Rupee eases, supported by declining global oil prices.",
+    "drafted_at": "2026-06-17T08:20:55.986727",
     "data": {
-      "actor": "PBOC"
+      "actor": "Fed"
     },
-    "content_hash": "1bd7a6a7bc2e2b4a"
+    "content_hash": "de68e1585ecd7781"
   },
   {
-    "id": "458799a2",
+    "id": "732b1255",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "POWELL POSTCARD: The USD/JPY pair ticks lower during the Asian session on Wednesday, though it remains within striking distance of the highest level since late April, touched last week.\n\nhttps://www.fxstreet.com/news/16050-japanese-yen-hangs-near-intervention-zone-despite-boj-rate-hike-ahead-of-fomc-202606170112",
+    "draft_text": "Lagarde on the wire. European Central Bank (ECB) policymaker, Gediminas \u0160imkus, crossed the wires during the early European session on Wednesday, saying there's still enough upside risk for inflation to justify additional policy tightening.\n\nhttps://www.fxstreet.com/news/ecb-policymaker-simkus-sees-at-least-one-more-rate-hike-to-cap-inflation-expectations-202606170734",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "BoJ",
-    "source_url": "https://www.fxstreet.com/news/16050-japanese-yen-hangs-near-intervention-zone-despite-boj-rate-hike-ahead-of-fomc-202606170112",
-    "source_title": "160.50: Japanese Yen hangs near intervention zone despite BoJ rate hike, ahead of FOMC",
-    "source_summary": "The USD/JPY pair ticks lower during the Asian session on Wednesday, though it remains within striking distance of the highest level since late April, touched last week.",
-    "drafted_at": "2026-06-17T02:36:53.805256",
+    "primary_source": "ECB",
+    "source_url": "https://www.fxstreet.com/news/ecb-policymaker-simkus-sees-at-least-one-more-rate-hike-to-cap-inflation-expectations-202606170734",
+    "source_title": "ECB policymaker Simkus: Sees at least one more rate hike to cap inflation expectations",
+    "source_summary": "European Central Bank (ECB) policymaker, Gediminas \u0160imkus, crossed the wires during the early European session on Wednesday, saying there's still enough upside risk for inflation to justify additional policy tightening.",
+    "drafted_at": "2026-06-17T08:20:55.987094",
     "data": {
-      "actor": "BoJ"
+      "actor": "ECB"
     },
-    "content_hash": "b754b80cae7fc529"
+    "content_hash": "32c27b6fb6cf1e20"
   },
   {
-    "id": "bf94d908",
+    "id": "eddd6bbc",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "FOMC desk: NZD/USD depreciates after registering modest gains in the previous day, trading around 0.5820 during the early European hours on Wednesday.\n\nThe pair loses ground as the New Zealand Dollar (NZD) struggles on market caution ahead of the Federal Reserve (Fed) policy decision due later in the day.\n\nhttps://www.fxstreet.com/news/new-zealand-dollar-declines-as-market-caution-emerges-ahead-of-fed-policy-decision-202606170732",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Fed",
+    "source_url": "https://www.fxstreet.com/news/new-zealand-dollar-declines-as-market-caution-emerges-ahead-of-fed-policy-decision-202606170732",
+    "source_title": "New Zealand Dollar declines as market caution emerges ahead of Fed policy decision",
+    "source_summary": "NZD/USD depreciates after registering modest gains in the previous day, trading around 0.5820 during the early European hours on Wednesday. The pair loses ground as the New Zealand Dollar (NZD) struggles on market caution ahead of the Federal Reserve (Fed) policy decision due later in the day.",
+    "drafted_at": "2026-06-17T08:20:55.987459",
+    "data": {
+      "actor": "Fed"
+    },
+    "content_hash": "af0589afd193f441"
+  },
+  {
+    "id": "77314391",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FOMC desk: The standards are designed to promote interoperability of financial regulatory data across agencies by establishing data standards for identifiers of legal entities and other data elements.\n\nThe final rule is generally similar to the proposal from August 2024, with changes reflecting feedback received from the public.\n\nIt is part of the implementation of the Financial Data Transparency Act of 2022.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260611a.htm",
@@ -61,14 +116,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260611a.htm",
     "source_title": "Federal Reserve Board announces final rule that establishes data standards for certain information collections",
     "source_summary": "Federal Reserve Board announces final rule that establishes data standards for certain information collections",
-    "drafted_at": "2026-06-17T02:36:53.805885",
+    "drafted_at": "2026-06-17T08:20:55.988131",
     "data": {
       "actor": "FED"
     },
     "content_hash": "fa8c80e29a073976"
   },
   {
-    "id": "04b9bcc5",
+    "id": "b72e2348",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "RATE-PATH READ: It evaluates banks' resilience by estimating losses, net revenue, and capital levels\u2014which provide a cushion against losses\u2014under a hypothetical recession scenario.\n\nThe Board's stress test is one tool used to measure whether banks have adequate capital to absorb losses so that they can lend to households and businesses even in a severe recession.\n\nThis year, 32 large banks were subject to the Board's stress test.\n\nThe scenario includes a severe global recession with heightened stress in both commercial and residential real estate markets, as well as in corporate debt markets.\n\nThese stress test results will not impact large bank capital requirements.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260609a.htm",
@@ -78,71 +133,54 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260609a.htm",
     "source_title": "Federal Reserve Board announces that results from its annual bank stress test will be released on Wednesday, June 24, at 4 p.m. EDT.",
     "source_summary": "Federal Reserve Board announces that results from its annual bank stress test will be released on Wednesday, June 24, at 4 p.m. EDT.",
-    "drafted_at": "2026-06-17T02:36:53.806974",
+    "drafted_at": "2026-06-17T08:20:55.989221",
     "data": {
       "actor": "FED"
     },
     "content_hash": "35487362043c0c4b"
   },
   {
-    "id": "f120c2b9",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "If you watch rates, read this: The agencies are taking this action to complement their earlier actions that ended the use of reputation risk in supervision.\n\nAs the agencies have previously noted, reputation risk can be misused by supervisors as a basis to encourage or pressure a bank to restrict individuals' and legal businesses' access to financial services due to their constitutionally protected political or religious beliefs, speech, or conduct or lawful business activities.\n\nThese updates help ensure supervisory decisions are based on material financial risks, as well as increase clarity and facilitate greater precision in supervisory decision making.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260602a.htm",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FED",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260602a.htm",
-    "source_title": "Agencies remove additional references to reputation risk",
-    "source_summary": "Agencies remove additional references to reputation risk",
-    "drafted_at": "2026-06-17T02:36:53.807874",
-    "data": {
-      "actor": "FED"
-    },
-    "content_hash": "037f4db78eebad91"
-  },
-  {
-    "id": "36325002",
+    "id": "837bacf7",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$SMMT insider bought $100,696,650 on 2026-06-04, 3 insiders. \ud83d\udc40\n\nSummit Therapeutics Inc.. 7,670,000 shares at $13.13.\n\n+5.7% since the purchase.\n\nhttp://openinsider.com/screener?s=SMMT",
+    "draft_text": "$SMMT insider bought $100,696,650 on 2026-06-04, 3 insiders. \ud83d\udc40\n\nSummit Therapeutics Inc.. 7,670,000 shares at $13.13.\n\n+7.6% since the purchase.\n\nhttp://openinsider.com/screener?s=SMMT",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=SMMT",
     "source_title": "Summit Therapeutics Inc. (SMMT) insider bought $100,696,650",
     "source_summary": "3 insider(s) bought 7,670,000 shares at $13.13 on 2026-06-04.",
-    "drafted_at": "2026-06-17T02:36:53.809079",
+    "drafted_at": "2026-06-17T08:20:55.991385",
     "data": {
       "ticker": "SMMT",
       "type": "P",
       "dollar_value": 100696650.0,
-      "pct_since": 5.712110544104472
+      "pct_since": 7.6161471016063755
     },
     "content_hash": "18ae32ed4c91b571"
   },
   {
-    "id": "ba8d2da5",
+    "id": "31e7adbc",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$KNOP insider bought $25,000,000 on 2026-06-15. \ud83d\udc40\n\nKnot Offshore Partners LP. 1,250,000 shares at $20.00.\n\n-48.2% since the purchase.\n\nhttp://openinsider.com/screener?s=KNOP",
+    "draft_text": "$KNOP insider bought $25,000,000 on 2026-06-15. \ud83d\udc40\n\nKnot Offshore Partners LP. 1,250,000 shares at $20.00.\n\n-47.4% since the purchase.\n\nhttp://openinsider.com/screener?s=KNOP",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=KNOP",
     "source_title": "Knot Offshore Partners LP (KNOP) insider bought $25,000,000",
     "source_summary": "1 insider(s) bought 1,250,000 shares at $20.00 on 2026-06-15.",
-    "drafted_at": "2026-06-17T02:36:53.809210",
+    "drafted_at": "2026-06-17T08:20:55.991505",
     "data": {
       "ticker": "KNOP",
       "type": "P",
       "dollar_value": 25000000.0,
-      "pct_since": -48.15000057220459
+      "pct_since": -47.44999885559082
     },
     "content_hash": "cb9e0b0e828ef6d5"
   },
   {
-    "id": "b3a4bb0b",
+    "id": "175c3075",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$QNT insider bought $24,649,920 on 2026-06-05, 10 insiders. \ud83d\udc40\n\nQuantinuum Inc.. 410,832 shares at $60.00.\n\n-7.6% since the purchase.\n\nhttp://openinsider.com/screener?s=QNT",
@@ -152,7 +190,7 @@
     "source_url": "http://openinsider.com/screener?s=QNT",
     "source_title": "Quantinuum Inc. (QNT) insider bought $24,649,920",
     "source_summary": "10 insider(s) bought 410,832 shares at $60.00 on 2026-06-05.",
-    "drafted_at": "2026-06-17T02:36:53.809325",
+    "drafted_at": "2026-06-17T08:20:55.991648",
     "data": {
       "ticker": "QNT",
       "type": "P",
@@ -162,27 +200,27 @@
     "content_hash": "1896377d0aa7046f"
   },
   {
-    "id": "f5a79367",
+    "id": "523504c4",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$HLNE insider bought $14,241,108 on 2026-06-11, 3 insiders. \ud83d\udc40\n\nHamilton Lane Inc. 165,505 shares at $86.05.\n\n+1.4% since the purchase.\n\nhttp://openinsider.com/screener?s=HLNE",
+    "draft_text": "$HLNE insider bought $14,241,108 on 2026-06-11, 3 insiders. \ud83d\udc40\n\nHamilton Lane Inc. 165,505 shares at $86.05.\n\n-4.7% since the purchase.\n\nhttp://openinsider.com/screener?s=HLNE",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=HLNE",
     "source_title": "Hamilton Lane Inc (HLNE) insider bought $14,241,108",
     "source_summary": "3 insider(s) bought 165,505 shares at $86.05 on 2026-06-11.",
-    "drafted_at": "2026-06-17T02:36:53.809437",
+    "drafted_at": "2026-06-17T08:20:55.991767",
     "data": {
       "ticker": "HLNE",
       "type": "P",
       "dollar_value": 14241108.0,
-      "pct_since": 1.3596760263836467
+      "pct_since": -4.718189583068525
     },
     "content_hash": "44918ed475624ad2"
   },
   {
-    "id": "354e2115",
+    "id": "59a4ce02",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$FUN insider bought $6,174,038 on 2026-06-12, 3 insiders. \ud83d\udc40\n\nSix Flags Entertainment Corporation/New. 265,000 shares at $23.30.\n\n+4.9% since the purchase.\n\nhttp://openinsider.com/screener?s=FUN",
@@ -192,7 +230,7 @@
     "source_url": "http://openinsider.com/screener?s=FUN",
     "source_title": "Six Flags Entertainment Corporation/New (FUN) insider bought $6,174,038",
     "source_summary": "3 insider(s) bought 265,000 shares at $23.30 on 2026-06-12.",
-    "drafted_at": "2026-06-17T02:36:53.809560",
+    "drafted_at": "2026-06-17T08:20:55.991897",
     "data": {
       "ticker": "FUN",
       "type": "P",
@@ -202,24 +240,7 @@
     "content_hash": "bd45ae1ea9778c7e"
   },
   {
-    "id": "d09abd6d",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "France's Europe minister said the only plausible way of addressing irregular migration is via the EU.\n\nhttps://www.politico.eu/article/emmanuel-macron-benjamin-haddad-far-right-jordan-bardella-migration-france-election/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "POLITICO EU",
-    "source_url": "https://www.politico.eu/article/emmanuel-macron-benjamin-haddad-far-right-jordan-bardella-migration-france-election/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-    "source_title": "Macron ally hits out at far-right Bardella\u2019s migration \u2018fraud\u2019",
-    "source_summary": "France's Europe minister said the only plausible way of addressing irregular migration is via the EU.",
-    "drafted_at": "2026-06-17T02:36:53.810573",
-    "data": {
-      "source": "POLITICO EU"
-    },
-    "content_hash": "58ece6c006d60f1a"
-  },
-  {
-    "id": "20b558f5",
+    "id": "40aa541a",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "'Has just taken off all the safeguards that most states have to reassure the public that only eligible U.S. citizens are registered to vote and casting ballots in an election'.\n\nhttps://www.wnd.com/2026/06/california-decriminalized-voter-fraud-charges-top-federal-prosecutor/?utm_source=rss&utm_medium=rss&utm_campaign=california-decriminalized-voter-fraud-charges-top-federal-prosecutor",
@@ -229,14 +250,31 @@
     "source_url": "https://www.wnd.com/2026/06/california-decriminalized-voter-fraud-charges-top-federal-prosecutor/?utm_source=rss&utm_medium=rss&utm_campaign=california-decriminalized-voter-fraud-charges-top-federal-prosecutor",
     "source_title": "California \u2018decriminalized\u2019 voter fraud, charges top federal prosecutor",
     "source_summary": "'Has just taken off all the safeguards that most states have to reassure the public that only eligible U.S. citizens are registered to vote and casting ballots in an election'",
-    "drafted_at": "2026-06-17T02:36:53.810877",
+    "drafted_at": "2026-06-17T08:20:55.993051",
     "data": {
       "source": "WND"
     },
     "content_hash": "27ad671b613df9b0"
   },
   {
-    "id": "3f1521bf",
+    "id": "6df53034",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Pack \u2014 defensive read: The federal government, which holds 12% of the shares, has rejected the Italian bank\u2019s bid for the German lender, calling it aggressive and hostile.\n\nUniCredit soars on the stock market as the Frankfurt prosecutor investigates alleged market manipulation.\n\nhttp://www.euronews.com/business/2026/06/16/berlin-blocks-unicredit-bid-for-commerzbank-but-the-share-price-soars",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "EURONEWS",
+    "source_url": "http://www.euronews.com/business/2026/06/16/berlin-blocks-unicredit-bid-for-commerzbank-but-the-share-price-soars",
+    "source_title": "Germany blocks UniCredit bid for Commerzbank but the share price soars",
+    "source_summary": "The federal government, which holds 12% of the shares, has rejected the Italian bank\u2019s bid for the German lender, calling it aggressive and hostile. UniCredit soars on the stock market as the Frankfurt prosecutor investigates alleged market manipulation.",
+    "drafted_at": "2026-06-17T08:20:55.993482",
+    "data": {
+      "source": "EURONEWS"
+    },
+    "content_hash": "339c86f4c0dca170"
+  },
+  {
+    "id": "bb3239cd",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Researchers found that Keytruda \u2014 the focus of ICIJ's recent Cancer Calculus investigation \u2014 accounted for nearly half of the potential annual savings.\n\nhttps://www.icij.org/investigations/cancer-calculus/lowering-doses-of-cancer-drugs-could-slash-global-health-spending-by-30b-new-research-shows/",
@@ -246,14 +284,14 @@
     "source_url": "https://www.icij.org/investigations/cancer-calculus/lowering-doses-of-cancer-drugs-could-slash-global-health-spending-by-30b-new-research-shows/",
     "source_title": "Lowering doses of cancer drugs could slash global health spending by $30B, new research shows",
     "source_summary": "Researchers found that Keytruda \u2014 the focus of ICIJ's recent Cancer Calculus investigation \u2014 accounted for nearly half of the potential annual savings.",
-    "drafted_at": "2026-06-17T02:36:53.811180",
+    "drafted_at": "2026-06-17T08:20:55.993791",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "1b607a2e5a414fdf"
   },
   {
-    "id": "b1ff9a8f",
+    "id": "5a93f0b5",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The post He Profits Off Raw Milk That\u2019s Making People Sick.\n\nThe Government Isn\u2019t Stopping Him. appeared first on ProPublica.\n\nhttps://www.propublica.org/article/mark-mcafee-raw-milk-recalls-maha",
@@ -263,14 +301,14 @@
     "source_url": "https://www.propublica.org/article/mark-mcafee-raw-milk-recalls-maha",
     "source_title": "He Profits Off Raw Milk That\u2019s Making People Sick. The Government Isn\u2019t Stopping Him.",
     "source_summary": "The post He Profits Off Raw Milk That\u2019s Making People Sick. The Government Isn\u2019t Stopping Him. appeared first on ProPublica .",
-    "drafted_at": "2026-06-17T02:36:53.811443",
+    "drafted_at": "2026-06-17T08:20:55.994063",
     "data": {
       "source": "PROPUBLICA"
     },
     "content_hash": "89d761e6cfcce86f"
   },
   {
-    "id": "32648921",
+    "id": "35b1fb98",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Amaryllis Fox Kennedy, who recently stepped down from two senior administration posts, was serving as a CIA officer during the dispute.\n\nhttps://www.icij.org/investigations/paradise-papers/trump-intelligence-adviser-previously-helped-father-pursue-millions-from-kremlin-linked-bank-leaked-documents-show/",
@@ -280,116 +318,150 @@
     "source_url": "https://www.icij.org/investigations/paradise-papers/trump-intelligence-adviser-previously-helped-father-pursue-millions-from-kremlin-linked-bank-leaked-documents-show/",
     "source_title": "Trump intelligence adviser previously helped father pursue millions from Kremlin-linked bank, leaked documents show",
     "source_summary": "Amaryllis Fox Kennedy, who recently stepped down from two senior administration posts, was serving as a CIA officer during the dispute.",
-    "drafted_at": "2026-06-17T02:36:53.811689",
+    "drafted_at": "2026-06-17T08:20:55.994352",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "f9a4e2950958d2cd"
   },
   {
-    "id": "6f16b283",
+    "id": "ee1cb4ee",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: Increased tensions in the Strait of Hormuz could lead to heightened military presence and potential disruptions in global shipping and air travel.\n\nThe post Iran launches drones at ships in Strait of Hormuz, intercepted by US forces appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iran-launches-drones-at-ships-in-strait-of-hormuz-intercepted-by-us-forces/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/iran-launches-drones-at-ships-in-strait-of-hormuz-intercepted-by-us-forces/",
-    "source_title": "Iran launches drones at ships in Strait of Hormuz, intercepted by US forces",
-    "source_summary": "Increased tensions in the Strait of Hormuz could lead to heightened military presence and potential disruptions in global shipping and air travel. The post Iran launches drones at ships in Strait of Hormuz, intercepted by US forces appeared first on Crypto Briefing .",
-    "drafted_at": "2026-06-17T02:36:53.812669",
-    "data": {
-      "source": "CRYPTO BRIEFING"
-    },
-    "content_hash": "91109609566903e8"
-  },
-  {
-    "id": "0bfb1f67",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 CHINA: The CNY 300 billion special bond announcement is the most market-concrete element of the statement and signals Beijing is moving from acknowledging bank capital stress to actively addressing it.\n\nChinese bank stocks, particularly mid-tier and regional lenders most exposed to local government financing vehicles, may find near-term support on the recapitalisation signal.\n\nThe explicit commitment to vigorously and orderly advancing local government debt resolution, paired with the capital injection, suggests a coordinated approach to two problems that have historically been treated separately.\n\nThe defiant tone on external suppression adds a geopolitical undertone that could weigh on sentiment around China-exposed assets if read as signalling an escalatory posture, though markets will likely focus on the fiscal stimulus dimension first. --- China's vice premier pledged to issue CNY 300 billion in special bonds to recapitalise financial institutions and vigorously advance local government debt resolution, alongside plans to open the financial sector further.\n\nSummary: China will issue CNY 300 billion in special bonds to replenish the capital of financial institutions, the vice premier announced Beijing pledged to vigorously and orderly advance the resolution of local government debt, one of the most persistent pressure points in China's financial system Additional commitments included stepping up financial supervision, further opening the financial sector, and establishing an offshore financial market system in Shanghai The vice premier said China will never compromise or back down in the face of external suppression, and will safeguard national financial security in accordance with law Accelerating the development of marine insurance business was also flagged, potentially relevant to shipping recovery\n\nThe bond announcement addresses a pressure point that regulators and analysts have flagged repeatedly: Chinese banks, particularly smaller regional lenders with heavy exposure to local government financing vehicles, have faced mounting capital adequacy concerns as the property sector downturn and local government debt stress have eroded asset quality.\n\nThe special bond mechanism channels central government resources into the banking system without requiring institutions to raise capital from markets that remain wary of the sector's underlying risks.\n\nThe commitment to vigorously and orderly advance local government debt resolution signals an acceleration of a process that has moved unevenly since Beijing first acknowledged the scale of the problem.\n\nhttps://investinglive.com/news/china-to-issue-cny-300bln-bonds-to-boost-bank-capital-as-local-debt-tackled-20260617/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/china-to-issue-cny-300bln-bonds-to-boost-bank-capital-as-local-debt-tackled-20260617/",
-    "source_title": "China to issue CNY 300bln bonds to boost bank capital as local debt tackled",
-    "source_summary": "The CNY 300 billion special bond announcement is the most market-concrete element of the statement and signals Beijing is moving from acknowledging bank capital stress to actively addressing it. Chinese bank stocks, particularly mid-tier and regional lenders most exposed to local government financing vehicles, may find near-term support on the recapitalisation signal. The explicit commitment to vi",
-    "drafted_at": "2026-06-17T02:36:53.816046",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "c1f0c9d5715e3ccc"
-  },
-  {
-    "id": "c370d5e9",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Levant update: The Trump administration and Iran have agreed on a framework for a peace deal.\n\nAs everyone waits for the text of the framework to get released, here is a rundown of what the key points are for markets.\n\nhttps://www.marketwatch.com/story/what-have-the-u-s-and-iran-agreed-to-this-is-what-markets-are-focused-on-fefbfa08?mod=mw_rss_topstories",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "MARKETWATCH",
-    "source_url": "https://www.marketwatch.com/story/what-have-the-u-s-and-iran-agreed-to-this-is-what-markets-are-focused-on-fefbfa08?mod=mw_rss_topstories",
-    "source_title": "What have the U.S. and Iran agreed to? This is what markets are focused on.",
-    "source_summary": "The Trump administration and Iran have agreed on a framework for a peace deal. As everyone waits for the text of the framework to get released, here is a rundown of what the key points are for markets.",
-    "drafted_at": "2026-06-17T02:36:53.816397",
-    "data": {
-      "source": "MARKETWATCH"
-    },
-    "content_hash": "31fdf588d7a406b7"
-  },
-  {
-    "id": "bb8fff0c",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "EU/UK wire: France's Europe minister said the only plausible way of addressing irregular migration is via the EU.\n\nhttps://www.politico.eu/article/emmanuel-macron-benjamin-haddad-far-right-jordan-bardella-migration-france-election/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+    "draft_text": "EU/UK wire: Ahead of the European Council on 18\u201319 June, 29 former leaders, Commissioners and Ministers are highlighting the importance of a strong Global Europe budget in the next Multiannual Financial Framework (2028\u20132034).\n\nhttps://www.politico.eu/sponsored-content/former-eu-leaders-call-for-more-global-ambition-on-mff/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "POLITICO EU",
-    "source_url": "https://www.politico.eu/article/emmanuel-macron-benjamin-haddad-far-right-jordan-bardella-migration-france-election/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-    "source_title": "Macron ally hits out at far-right Bardella\u2019s migration \u2018fraud\u2019",
-    "source_summary": "France's Europe minister said the only plausible way of addressing irregular migration is via the EU.",
-    "drafted_at": "2026-06-17T02:36:53.816813",
+    "source_url": "https://www.politico.eu/sponsored-content/former-eu-leaders-call-for-more-global-ambition-on-mff/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+    "source_title": "Former EU leaders call for more global ambition on MFF",
+    "source_summary": "Ahead of the European Council on 18\u201319 June, 29 former leaders, Commissioners and Ministers are highlighting the importance of a strong Global Europe budget in the next Multiannual Financial Framework (2028\u20132034):",
+    "drafted_at": "2026-06-17T08:20:55.995440",
     "data": {
       "source": "POLITICO EU"
     },
-    "content_hash": "58ece6c006d60f1a"
+    "content_hash": "abf5d68e119fd17c"
   },
   {
-    "id": "c182d918",
+    "id": "b5de6014",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "CHINA DESK: The breadth of the regulator's statements, spanning real estate, local government debt, small financial institutions and illegal activity in a single release, signals Beijing remains acutely aware of the interlocking vulnerabilities in its financial system.\n\nExplicit mention of real estate and local government debt in the same breath as systemic risk prevention will be read as an acknowledgement that neither problem has been resolved, keeping pressure on Chinese bank stocks and property sector credit.\n\nThe pledge to guide capital toward emerging and future industries suggests a continued policy tilt away from the old-economy sectors that have dominated Chinese finance for decades, with implications for sector allocation within China-exposed portfolios. --- Be good to tackle indeed: China house prices May 2026 -3.5% y/y (prior -3.5%) --- China's financial regulator pledged to prevent systemic risks, resolve real estate and local government debt exposures, and crack down on illegal activity and disorderly competition in the financial sector.\n\nSummary: The regulator pledged to prevent systemic financial risks and resolve exposures in real estate and local government debt, two of the most persistent stress points in China's financial system Small financial institutions were flagged twice: the regulator committed to preventing risks from smaller lenders while also pledging to steadily improve their quality A crackdown on illegal financial activities and disorderly competition was announced alongside pledges to step up regulatory cooperation in emerging areas The regulator said it will guide financial resources toward emerging and future industries, reinforcing Beijing's broader policy push to reorient capital away from legacy sectors China's top financial regulator issued a broad set of policy commitments on Tuesday, pledging to contain systemic risk, address longstanding vulnerabilities in real estate and local government finance, and strengthen oversight of smaller financial institutions, while directing capital toward emerging industries.\n\nThe National Financial Regulatory Administration set out a wide-ranging agenda that touched on virtually every pressure point in the Chinese financial system.\n\nReal estate and local government debt were explicitly named as risk areas requiring resolution, a candid acknowledgement of two problems that have weighed on investor confidence in Chinese financial markets for several years and have repeatedly required policy intervention to prevent broader contagion.\n\nSmall financial institutions featured prominently in the statement, with the regulator committing both to preventing risks emanating from that segment of the sector and to improving the overall quality of smaller lenders.\n\nThe dual framing reflects the challenge Beijing faces: smaller banks remain important conduits for local credit but carry disproportionate asset quality risk relative to the large state-owned institutions that dominate the system.\n\nhttps://investinglive.com/news/china-financial-regulator-vows-to-tackle-property-local-debt-and-small-bank-risks-20260617/",
+    "draft_text": "From the Gulf: World oil demand to fall by 1.1 mil bpd in 2026 amid US-Iran conflict (previous forecast 420k bpd drop) World oil supply to fall by 3.9 mil bpd in 2026 (unchanged from previous forecast) Sees 2027 supply growth of 8 mil bpd and demand growth of 2 mil bpd That leaves a 'significant overhang' of over 5 mil bpd in the oil market US-Iran deal could bring an end to the largest oil supply disruption in history However, operational and political constraints leave downside risks to Middle East outlook despite deal It may be a bit quick to assume a resumption to normality but the IEA is of the view that a supply glut will return to the market soon enough.\n\nThey expect a gradual recovery in the oil market to begin with before some normalisation that would tip the scales back in favour of a significant surplus next year.\n\nI won't argue that it is a reasonable assumption but again, baby steps.\n\nFirst, let's see how this 60-day deal will be able to hold up.\n\nAnd more importantly, will any Strait of Hormuz reopening actually see a meaningful increase in traffic flows?\n\nOr will it follow the more troubling playbook below: This article was written by Justin Low at investinglive.com.\n\nhttps://investinglive.com/news/iea-sees-significant-overhang-in-oil-market-next-year-20260617/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/china-financial-regulator-vows-to-tackle-property-local-debt-and-small-bank-risks-20260617/",
-    "source_title": "China financial regulator vows to tackle property, local debt and small bank risks",
-    "source_summary": "The breadth of the regulator's statements, spanning real estate, local government debt, small financial institutions and illegal activity in a single release, signals Beijing remains acutely aware of the interlocking vulnerabilities in its financial system. Explicit mention of real estate and local government debt in the same breath as systemic risk prevention will be read as an acknowledgement th",
-    "drafted_at": "2026-06-17T02:36:53.819986",
+    "source_url": "https://investinglive.com/news/iea-sees-significant-overhang-in-oil-market-next-year-20260617/",
+    "source_title": "IEA sees 'significant overhang' in oil market next year",
+    "source_summary": "World oil demand to fall by 1.1 mil bpd in 2026 amid US-Iran conflict (previous forecast 420k bpd drop) World oil supply to fall by 3.9 mil bpd in 2026 (unchanged from previous forecast) Sees 2027 supply growth of 8 mil bpd and demand growth of 2 mil bpd That leaves a 'significant overhang' of over 5 mil bpd in the oil market US-Iran deal could bring an end to the largest oil supply disruption in ",
+    "drafted_at": "2026-06-17T08:20:55.996810",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "02a4b15656c6a9de"
+    "content_hash": "3dd9104f7c9439f3"
   },
   {
-    "id": "c7a09505",
+    "id": "2d7cb5be",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Mainland wire: BMW was the worst performing major European stock on Wednesday after the luxury-car maker lowered its profit outlook, citing a downturn in China as well as the impact from the Middle East war.\n\nhttps://www.marketwatch.com/story/bmw-issues-a-big-profit-warning-it-once-again-blames-on-china-the-automaker-is-plotting-a-major-strategy-shift-d28e7428?mod=mw_rss_topstories",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "MARKETWATCH",
+    "source_url": "https://www.marketwatch.com/story/bmw-issues-a-big-profit-warning-it-once-again-blames-on-china-the-automaker-is-plotting-a-major-strategy-shift-d28e7428?mod=mw_rss_topstories",
+    "source_title": "BMW issues a big profit warning it once again blames on China. The automaker is plotting a major strategy shift",
+    "source_summary": "BMW was the worst performing major European stock on Wednesday after the luxury-car maker lowered its profit outlook, citing a downturn in China as well as the impact from the Middle East war.",
+    "drafted_at": "2026-06-17T08:20:55.997345",
+    "data": {
+      "source": "MARKETWATCH"
+    },
+    "content_hash": "6513f51fa0868e2b"
+  },
+  {
+    "id": "cd1d295f",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "From the international wire: Stable wage pressures may allow the ECB to maintain a balanced monetary policy, potentially benefiting risk assets by reducing tightening urgency.\n\nThe post European Central Bank wage tracker shows stable wage pressures heading into 2026 appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/ecb-wage-tracker-stable-pressures-2026/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/ecb-wage-tracker-stable-pressures-2026/",
+    "source_title": "European Central Bank wage tracker shows stable wage pressures heading into 2026",
+    "source_summary": "Stable wage pressures may allow the ECB to maintain a balanced monetary policy, potentially benefiting risk assets by reducing tightening urgency. The post European Central Bank wage tracker shows stable wage pressures heading into 2026 appeared first on Crypto Briefing .",
+    "drafted_at": "2026-06-17T08:20:55.997912",
+    "data": {
+      "source": "CRYPTO BRIEFING"
+    },
+    "content_hash": "52d0efc9c2d7c384"
+  },
+  {
+    "id": "2cec1c62",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Levant update: DUBAI, UAE, June 16, 2026 /PRNewswire/ -- Bybit, the world's second-largest cryptocurrency exchange by trading volume, is unveiling a new 30,000 USDT prize pool to encourage safe AI agent integration.\n\nFrom June 16 to July 15, the new initiative pairs user rewards with educational...\n\nhttps://www.prnewswire.com/news-releases/bybit-rewards-responsible-ai-adoption-with-30-000-usdt-in-prizes-for-ai-subaccount-users-302802941.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "PR NEWSWIRE",
+    "source_url": "https://www.prnewswire.com/news-releases/bybit-rewards-responsible-ai-adoption-with-30-000-usdt-in-prizes-for-ai-subaccount-users-302802941.html",
+    "source_title": "Bybit Rewards Responsible AI Adoption with 30,000 USDT in Prizes for AI Subaccount Users",
+    "source_summary": "DUBAI, UAE, June 16, 2026 /PRNewswire/ -- Bybit, the world's second-largest cryptocurrency exchange by trading volume, is unveiling a new 30,000 USDT prize pool to encourage safe AI agent integration. From June 16 to July 15, the new initiative pairs user rewards with educational...",
+    "drafted_at": "2026-06-17T08:20:55.998454",
+    "data": {
+      "source": "PR NEWSWIRE"
+    },
+    "content_hash": "62a436e408324793"
+  },
+  {
+    "id": "a55635af",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "Goods-flow update: Japan April core machinery orders +8.7% m/m exp +0.9%, prev -9.4% +15.6% y/y exp +9.3%, prev +5.9% Japan May trade balance -\u00a5378.7B exp -\u00a5564.6B, prev +\u00a5301.9B Japan May exports +17.0% y/y exp +16.2%, prev +14.8% To EU +14.5% y/y \u2014 to Asia +19.5% y/y \u2014 to US +12.5% y/y \u2014 to China +17.9% y/y Japan May imports +12.5% y/y exp +12.8%, prev +9.7% I'll have more to come on this separately... here we are, ADDED: Japan exports beat forecasts in May at fastest pace since late 2022 This article was written by Eamonn Sheridan at investinglive.com.\n\nhttps://investinglive.com/news/japan-april-core-machinery-orders-surge-exports-beat-also-20260616/",
+    "draft_text": "The CPI scoreboard: EUROPEAN SESSION In the European session, the main highlight was the UK CPI report.\n\nThe data came out lower than expected vindicating the BoE's patient stance and will likely see traders paring back further BoE rate hike bets considering also the drop in oil prices.\n\nLooking ahead, we don't have much on the agenda other than the final Eurozone CPI report.\n\nThe data won't change anything for the ECB at this point, so the market reaction will likely be muted.\n\nAMERICAN SESSION In the American session, we have the US Retail Sales report and the FOMC rate decision.\n\nThe US Retail Sales M/M is expected at 0.5% vs 0.5% prior, while the Ex-Autos M/M metric is seen at 0.5% vs 0.7% prior.\n\nThe Control Group M/M is expected at 0.4% vs 0.5% prior.\n\nThis is generally a market-moving release but it's almost always faded because of the volatile nature of the data.\n\nhttps://investinglive.com/news/what-are-the-main-events-for-today-20260617/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/japan-april-core-machinery-orders-surge-exports-beat-also-20260616/",
-    "source_title": "Japan April core machinery orders surge, exports beat also",
-    "source_summary": "Japan April core machinery orders +8.7% m/m exp +0.9%, prev -9.4% +15.6% y/y exp +9.3%, prev +5.9% Japan May trade balance -\u00a5378.7B exp -\u00a5564.6B, prev +\u00a5301.9B Japan May exports +17.0% y/y exp +16.2%, prev +14.8% To EU +14.5% y/y \u2014 to Asia +19.5% y/y \u2014 to US +12.5% y/y \u2014 to China +17.9% y/y Japan May imports +12.5% y/y exp +12.8%, prev +9.7% I'll have more to come on this separately ... here we ar",
-    "drafted_at": "2026-06-17T02:36:53.885972",
+    "source_url": "https://investinglive.com/news/what-are-the-main-events-for-today-20260617/",
+    "source_title": "What are the main events for today?",
+    "source_summary": "EUROPEAN SESSION In the European session, the main highlight was the UK CPI report. The data came out lower than expected vindicating the BoE's patient stance and will likely see traders paring back further BoE rate hike bets considering also the drop in oil prices. Looking ahead, we don't have much on the agenda other than the final Eurozone CPI report. The data won't change anything for the ECB ",
+    "drafted_at": "2026-06-17T08:20:56.069287",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "cfa275efeb919a5d"
+    "content_hash": "a3cff8949852a2ed"
   },
   {
-    "id": "395c4d3d",
+    "id": "5b8a3b53",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "The CPI scoreboard: CPI +0.2% vs +0.4% m/m expected Prior +0.7% CPI +2.8% vs +3.0% y/y expected Prior +2.8% Core CPI +0.3% vs +0.4% m/m expected Prior +0.7% Core CPI +2.6% vs +2.7% y/y expected Prior +2.5% The headline estimates were softer than expected but when viewed as a whole, UK inflation developments were little changed from April to May.\n\nThe monthly figures for both headline and core prices continued to nudge higher, although less than estimated.\n\nMeanwhile, headline annual inflation while being a miss was still the same as it was in April at 2.8%.\n\nAs for core annual inflation, that is seen nudging just a little higher to 2.6% in May.\n\nTransport prices (+6.8%) were the biggest positive contributor to the annual rate of inflation, with higher fuel prices the main culprit.\n\nThe annual rate here was the highest since December 2022 with motor fuel prices being up 24.6% while airfares rebounded to be up 0.9% after a decline of 13.2% in April.\n\nLooking at the other details, food price inflation also eased in May as it dropped to 2.2% from 3.0% in April.\n\nBut when looking to core prices, services inflation remains the key sticking point with it rising to 3.7% in May from 3.2% in April.\n\nhttps://investinglive.com/news/uk-may-cpi-28-vs-30-yy-expected-20260617/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/uk-may-cpi-28-vs-30-yy-expected-20260617/",
+    "source_title": "UK inflation holds flat in May but core prices nudge up a little",
+    "source_summary": "CPI +0.2% vs +0.4% m/m expected Prior +0.7% CPI +2.8% vs +3.0% y/y expected Prior +2.8% Core CPI +0.3% vs +0.4% m/m expected Prior +0.7% Core CPI +2.6% vs +2.7% y/y expected Prior +2.5% The headline estimates were softer than expected but when viewed as a whole, UK inflation developments were little changed from April to May. The monthly figures for both headline and core prices continued to nudge",
+    "drafted_at": "2026-06-17T08:20:56.070562",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "ef9cb5747b9227c3"
+  },
+  {
+    "id": "691f897a",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "From the BEA desk: The Ring is Euronews\u2019 weekly political showdown, where Europe\u2019s toughest debates meet their boldest voices.\n\nIn each episode, two political heavyweights from across the EU face off to propose a diversity of opinions and spark conversations around the most important issues of EU affairs and the wider European political life.\n\nEuronews Tech Talks goes beyond discussions to explore the impact of new technologies on our lives.\n\nWith explanations, engaging Q&As, and lively conversations, the podcast provides valuable insights into the intersection of technology and society.\n\nEurope's best food experts are joining forces to crack down on fraud.\n\nhttp://www.euronews.com/business/2026/06/17/european-defence-spending-poland-spends-larger-share-of-gdp-than-us",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "EURONEWS",
+    "source_url": "http://www.euronews.com/business/2026/06/17/european-defence-spending-poland-spends-larger-share-of-gdp-than-us",
+    "source_title": "European defence spending: Poland spends larger share of GDP than US",
+    "source_summary": "Defence spending across European NATO is at its highest since the Cold War, with countries closest to Russia spending the most. But the continent is splitting between front-line states racing towards 5% of GDP and a large group doing the bare minimum.",
+    "drafted_at": "2026-06-17T08:20:56.072163",
+    "data": {
+      "source": "EURONEWS"
+    },
+    "content_hash": "5a6169a9dc3e3e38"
+  },
+  {
+    "id": "976ac75c",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "From the trade desk: Elevated oil prices, potentially strong El Ni\u00f1o conditions during the monsoon season, and the tariff-induced fragmentation of global trade are bearing down on the Indian economy and will likely be a drag on GDP growth.\n\nBut these adverse conditions may be a blessing in disguise if they force India to complete its economic reform agenda.\n\nhttps://www.project-syndicate.org/commentary/energy-climate-trade-shocks-should-push-india-to-finish-implementing-reform-agenda-by-shishir-gupta-2026-06",
@@ -399,14 +471,14 @@
     "source_url": "https://www.project-syndicate.org/commentary/energy-climate-trade-shocks-should-push-india-to-finish-implementing-reform-agenda-by-shishir-gupta-2026-06",
     "source_title": "India\u2019s Unfinished Reform Agenda",
     "source_summary": "Elevated oil prices, potentially strong El Ni\u00f1o conditions during the monsoon season, and the tariff-induced fragmentation of global trade are bearing down on the Indian economy and will likely be a drag on GDP growth. But these adverse conditions may be a blessing in disguise if they force India to complete its economic reform agenda.",
-    "drafted_at": "2026-06-17T02:36:53.886471",
+    "drafted_at": "2026-06-17T08:20:56.072637",
     "data": {
       "source": "PROJECT SYND"
     },
     "content_hash": "15fcd0188247fe4d"
   },
   {
-    "id": "31867667",
+    "id": "0d4dabf7",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -416,7 +488,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-06-17T02:36:53.888072",
+    "drafted_at": "2026-06-17T08:20:56.074231",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -424,7 +496,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "ae08fe61",
+    "id": "df3cbb58",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Soft landing is the most dangerous phrase in central banking.",
@@ -434,14 +506,14 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Soft landing is the most dangerous phrase in central banking.",
-    "drafted_at": "2026-06-17T02:36:53.888166",
+    "drafted_at": "2026-06-17T08:20:56.074316",
     "data": {
       "take_seed": "2026-06-17-pack-1"
     },
     "content_hash": "9b0f7be55d8ef71c"
   },
   {
-    "id": "dbd6f790",
+    "id": "25e1b91e",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "When everyone's positioned for a crash, the crash takes a vacation.",
@@ -451,7 +523,7 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "When everyone's positioned for a crash, the crash takes a vacation.",
-    "drafted_at": "2026-06-17T02:36:53.888228",
+    "drafted_at": "2026-06-17T08:20:56.074378",
     "data": {
       "take_seed": "2026-06-17-pack-2"
     },
