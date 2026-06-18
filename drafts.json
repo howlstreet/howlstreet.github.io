@@ -1,44 +1,110 @@
 [
   {
-    "id": "5ad1e66b",
-    "format": "MARKET_MOVE",
+    "id": "d3affe0f",
+    "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "Two seconds, trust me. VIX tumbles 14.3% in 5 sessions to 18.44.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
+    "draft_text": "THE BIG ONE: Oil fell as an interim US-Iran peace deal went into effect, putting the focus on how quickly transits through the Strait of Hormuz can be ramped up as Persian Gulf producers try to restart shut-in fields.\n\nhttps://financialpost.com/pmn/business-pmn/oil-slides-on-hormuz-deal-as-brent-closes-in-on-losing-war-gain",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CBOE \u00b7 ^VIX",
-    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "source_title": "VIX (S&P 500 volatility)",
-    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-06-18T02:34:12.520326",
+    "primary_source": "FINANCIAL POST",
+    "source_url": "https://financialpost.com/pmn/business-pmn/oil-slides-on-hormuz-deal-as-brent-closes-in-on-losing-war-gain",
+    "source_title": "Oil Slides on Hormuz Deal as Brent Closes In on Losing War Gain",
+    "source_summary": "Oil fell as an interim US-Iran peace deal went into effect, putting the focus on how quickly transits through the Strait of Hormuz can be ramped up as Persian Gulf producers try to restart shut-in fields.",
+    "drafted_at": "2026-06-18T07:25:53.744646",
     "data": {
-      "signal_id": "^VIX:move:2026-06-17",
-      "kind": "move_down",
-      "current": "18.44"
+      "source": "FINANCIAL POST"
     },
-    "content_hash": "995f4d67e7e875d2"
+    "content_hash": "9ad4c7020e5bbc44"
   },
   {
-    "id": "d3db3233",
+    "id": "83cfb161",
     "format": "MARKET_MOVE",
     "status": "pending",
-    "draft_text": "Numbers don't lie. Look: WTI crude craters 17.6% in 5 sessions to $74.64.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "draft_text": "Real-time update for the pack: WTI crude craters 18.5% in 5 sessions to $74.39.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "NYMEX \u00b7 CL=F",
     "source_url": "https://finance.yahoo.com/quote/CL%3DF",
     "source_title": "WTI crude oil futures",
     "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-06-18T02:34:12.520691",
+    "drafted_at": "2026-06-18T07:25:53.744947",
     "data": {
-      "signal_id": "CL=F:move:2026-06-17",
+      "signal_id": "CL=F:move:2026-06-18",
       "kind": "move_down",
-      "current": "$74.64"
+      "current": "$74.39"
     },
     "content_hash": "c272de0720a2f459"
   },
   {
-    "id": "e8157e66",
+    "id": "6cbf10c6",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "FOMC desk: Financial markets in the US are taking a hit after the newly elected Federal Reserve Chair Kevin Warsh\u2026.\n\nhttps://watcher.guru/news/stocks-gold-crypto-dip-after-feds-no-rate-change-decision",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Fed",
+    "source_url": "https://watcher.guru/news/stocks-gold-crypto-dip-after-feds-no-rate-change-decision",
+    "source_title": "Stocks, Gold, & Crypto Dip After Fed\u2019s No Rate Change Decision",
+    "source_summary": "Financial markets in the US are taking a hit after the newly elected Federal Reserve Chair Kevin Warsh\u2026",
+    "drafted_at": "2026-06-18T07:25:53.755139",
+    "data": {
+      "actor": "Fed"
+    },
+    "content_hash": "6413612fc5f348e8"
+  },
+  {
+    "id": "03641fca",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "Bailey on the wire. Britain\u2019s labor market has held up better than expected since the Iran war started, according to figures published on Thursday just hours before the Bank of England\u2019s latest interest-rate decision.\n\nhttps://financialpost.com/pmn/business-pmn/uk-jobs-market-shows-signs-of-stabilizing-ahead-of-boe-decision",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Bank of England",
+    "source_url": "https://financialpost.com/pmn/business-pmn/uk-jobs-market-shows-signs-of-stabilizing-ahead-of-boe-decision",
+    "source_title": "UK Jobs Market Slowdown Eases Ahead of Bank of England Decision",
+    "source_summary": "Britain\u2019s labor market has held up better than expected since the Iran war started, according to figures published on Thursday just hours before the Bank of England\u2019s latest interest-rate decision.",
+    "drafted_at": "2026-06-18T07:25:53.755534",
+    "data": {
+      "actor": "Bank of England"
+    },
+    "content_hash": "0e8bb914f81dcda4"
+  },
+  {
+    "id": "e3393a01",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "BoE update: The EUR/GBP cross pares gains near 0.8650 during the early European trading hours on Thursday.\n\nThe British Pound (GBP) trades flat against the Euro (EUR) following the UK employment report.\n\nAll eyes will be on the Bank of England (BoE) interest rate decision later on Thursday.\n\nhttps://www.fxstreet.com/news/euro-trims-gains-against-the-british-pound-after-uk-jobs-data-boe-rate-decision-looms-202606180614",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "BoE",
+    "source_url": "https://www.fxstreet.com/news/euro-trims-gains-against-the-british-pound-after-uk-jobs-data-boe-rate-decision-looms-202606180614",
+    "source_title": "Euro trims gains against the British Pound after UK jobs data, BoE rate decision looms",
+    "source_summary": "The EUR/GBP cross pares gains near 0.8650 during the early European trading hours on Thursday. The British Pound (GBP) trades flat against the Euro (EUR) following the UK employment report. All eyes will be on the Bank of England (BoE) interest rate decision later on Thursday.",
+    "drafted_at": "2026-06-18T07:25:53.755929",
+    "data": {
+      "actor": "BoE"
+    },
+    "content_hash": "2c478fc3d4e8ea31"
+  },
+  {
+    "id": "fc9d5376",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "UK rates read: The Bank of England (BoE) is on track to leave the benchmark Bank Rate unchanged at 3.75% for the fourth consecutive time on Thursday, as the US-Iran peace deal and the softer-than-expected consumer inflation figures seen earlier in the week have eased pressures to tighten its monetary policy.\n\nhttps://www.fxstreet.com/news/boe-expected-to-keep-interest-rate-unchanged-as-inflation-pressures-abate-202606180600",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "BoE",
+    "source_url": "https://www.fxstreet.com/news/boe-expected-to-keep-interest-rate-unchanged-as-inflation-pressures-abate-202606180600",
+    "source_title": "BoE expected to keep interest rate unchanged as inflation pressures abate",
+    "source_summary": "The Bank of England (BoE) is on track to leave the benchmark Bank Rate unchanged at 3.75% for the fourth consecutive time on Thursday, as the US-Iran peace deal and the softer-than-expected consumer inflation figures seen earlier in the week have eased pressures to tighten its monetary policy.",
+    "drafted_at": "2026-06-18T07:25:53.756381",
+    "data": {
+      "actor": "BoE"
+    },
+    "content_hash": "de8f59ed1d56c444"
+  },
+  {
+    "id": "42d767b6",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "From the Eccles Building: Kevin Warsh walks into his first Federal Open Market Committee meeting as chairman with a problem most new bosses dread.\n\nThe people in the room do not appear to agree with him.\n\nSteve Liesman delivered this message on CNBC this morning, June 17, 2026.\n\nHe walked through a Deutsche Bank tally of every Fed speech...\n\nFed Hawks Dominate Under Warsh: New Chairman Faces a Hawkish Committee on Rate Cuts\n\nhttps://247wallst.com/investing/2026/06/17/fed-hawks-dominate-under-warsh-new-chairman-faces-a-hawkish-committee-on-rate-cuts/",
@@ -48,82 +114,14 @@
     "source_url": "https://247wallst.com/investing/2026/06/17/fed-hawks-dominate-under-warsh-new-chairman-faces-a-hawkish-committee-on-rate-cuts/",
     "source_title": "Fed Hawks Dominate Under Warsh: New Chairman Faces a Hawkish Committee on Rate Cuts",
     "source_summary": "Kevin Warsh walks into his first Federal Open Market Committee meeting as chairman with a problem most new bosses dread. The people in the room do not appear to agree with him. Steve Liesman delivered this message on CNBC this morning, June 17, 2026. He walked through a Deutsche Bank tally of every Fed speech ... Fed Hawks Dominate Under Warsh: New Chairman Faces a Hawkish Committee on Rate Cuts",
-    "drafted_at": "2026-06-18T02:34:12.531134",
+    "drafted_at": "2026-06-18T07:25:53.756945",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "49a1d7055fadd99c"
   },
   {
-    "id": "48244218",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "FED WATCH: US stock markets dropped on Wednesday afternoon after the Federal Reserve left interest rates unchanged and signaled a possible rate hike before the end of the year.\n\nThe Fed was widely expected to keep rates at a range of 3.5% to 3.75%, where they have remained since December.\n\nThe decision was unanimously supported by the Fed\u2019s voting committee.\n\n\u201cEconomic activity is expanding at a solid pace despite elevated uncertainty that owes, in part, to the conflict in the Middle East,\u201d the Fed\u2019s open market committee said in the statement.\n\nThis was the first meeting overseen by Kevin Warsh, who took over as Fed chair in May and has implied he wants to tighten the Fed\u2019s public communications on future guidance.\n\nhttps://www.theguardian.com/business/2026/jun/17/federal-reserve-interest-rates",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Federal Reserve",
-    "source_url": "https://www.theguardian.com/business/2026/jun/17/federal-reserve-interest-rates",
-    "source_title": "Federal Reserve holds rates steady but signals possible hike before year\u2019s end",
-    "source_summary": "Open markets committee says \u2018economic activity is expanding at a solid pace\u2019 in first meeting under new chair Kevin Warsh US stock markets dropped on Wednesday afternoon after the Federal Reserve left interest rates unchanged and signaled a possible rate hike before the end of the year. The Fed was widely expected to keep rates at a range of 3.5% to 3.75%, where they have remained since December. ",
-    "drafted_at": "2026-06-18T02:34:12.532431",
-    "data": {
-      "actor": "Federal Reserve"
-    },
-    "content_hash": "808158621f7295b4"
-  },
-  {
-    "id": "14423a1c",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "Powell on the wire. The Ring is Euronews\u2019 weekly political showdown, where Europe\u2019s toughest debates meet their boldest voices.\n\nIn each episode, two political heavyweights from across the EU face off to propose a diversity of opinions and spark conversations around the most important issues of EU affairs and the wider European political life.\n\nEuronews Tech Talks goes beyond discussions to explore the impact of new technologies on our lives.\n\nWith explanations, engaging Q&As, and lively conversations, the podcast provides valuable insights into the intersection of technology and society.\n\nEurope's best food experts are joining forces to crack down on fraud.\n\nhttp://www.euronews.com/business/2026/06/17/fed-keeps-rates-unchanged-but-signals-possible-hike-this-year",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "http://www.euronews.com/business/2026/06/17/fed-keeps-rates-unchanged-but-signals-possible-hike-this-year",
-    "source_title": "Fed keeps rates unchanged but signals possible hike this year",
-    "source_summary": "The Federal Reserve left interest rates unchanged at its first policy meeting under chair Kevin Warsh, but nearly half of policymakers signalled they could support a rate hike later this year as inflation remains elevated.",
-    "drafted_at": "2026-06-18T02:34:12.533994",
-    "data": {
-      "actor": "Fed"
-    },
-    "content_hash": "f148317e7dd96fe3"
-  },
-  {
-    "id": "e0e78d16",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "RATE-PATH READ: Bitcoin Magazine Fed Signals Possible Rate Hikes as Kevin Warsh Opens \u2018New Chapter\u2019 at Central Bank The Federal Reserve kept rates unchanged but signaled potential rate hikes under new Chair Kevin Warsh as inflation concerns persist, sending Bitcoin and stocks lower.\n\nThis post Fed Signals Possible Rate Hikes as Kevin Warsh Opens \u2018New Chapter\u2019 at Central Bank first appeared on Bitcoin Magazine and is written by Micah Zimmerman.\n\nhttps://bitcoinmagazine.com/news/fed-signals-rate-hikes-as-kevin-warsh",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://bitcoinmagazine.com/news/fed-signals-rate-hikes-as-kevin-warsh",
-    "source_title": "Fed Signals Possible Rate Hikes as Kevin Warsh Opens \u2018New Chapter\u2019 at Central Bank",
-    "source_summary": "Bitcoin Magazine Fed Signals Possible Rate Hikes as Kevin Warsh Opens \u2018New Chapter\u2019 at Central Bank The Federal Reserve kept rates unchanged but signaled potential rate hikes under new Chair Kevin Warsh as inflation concerns persist, sending Bitcoin and stocks lower. This post Fed Signals Possible Rate Hikes as Kevin Warsh Opens \u2018New Chapter\u2019 at Central Bank first appeared on Bitcoin Magazine and ",
-    "drafted_at": "2026-06-18T02:34:12.534541",
-    "data": {
-      "actor": "Fed"
-    },
-    "content_hash": "a0c7c5fd74a732b3"
-  },
-  {
-    "id": "0d982d0b",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "FOMC desk: The Committee decided to maintain the target range for the federal funds rate at 3-1/2 to 3-3/4 percent, in support of the Federal Reserve's dual mandate.\n\nJob gains have kept pace with the workforce, and the unemployment rate has changed little.\n\nInflation remains elevated relative to the Committee's 2 percent goal, in part reflecting supply shocks that have driven price increases in certain sectors, including energy.\n\nThe Committee reaffirmed its policy of maintaining ample reserves in the banking system.\n\nEconomic activity is expanding at a solid pace despite elevated uncertainty that owes, in part, to the conflict in the Middle East.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FED",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
-    "source_title": "Federal Reserve issues FOMC statement",
-    "source_summary": "Federal Reserve issues FOMC statement",
-    "drafted_at": "2026-06-18T02:34:12.535372",
-    "data": {
-      "actor": "FED"
-    },
-    "content_hash": "6de2e15325531532"
-  },
-  {
-    "id": "6e5fcdcc",
+    "id": "ce03f056",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$SMMT insider bought $100,696,650 on 2026-06-04, 3 insiders. \ud83d\udc40\n\nSummit Therapeutics Inc.. 7,670,000 shares at $13.13.\n\n+7.2% since the purchase.\n\nhttp://openinsider.com/screener?s=SMMT",
@@ -133,7 +131,7 @@
     "source_url": "http://openinsider.com/screener?s=SMMT",
     "source_title": "Summit Therapeutics Inc. (SMMT) insider bought $100,696,650",
     "source_summary": "3 insider(s) bought 7,670,000 shares at $13.13 on 2026-06-04.",
-    "drafted_at": "2026-06-18T02:34:12.539902",
+    "drafted_at": "2026-06-18T07:25:53.764619",
     "data": {
       "ticker": "SMMT",
       "type": "P",
@@ -143,7 +141,7 @@
     "content_hash": "18ae32ed4c91b571"
   },
   {
-    "id": "e4cede9b",
+    "id": "188ee871",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$PSUS insider bought $70,735,390 on 2026-06-17, 7 insiders. \ud83d\udc40\n\nPershing Square Usa, Ltd.. 1,417,000 shares at $49.92.\n\n-21.1% since the purchase.\n\nhttp://openinsider.com/screener?s=PSUS",
@@ -153,7 +151,7 @@
     "source_url": "http://openinsider.com/screener?s=PSUS",
     "source_title": "Pershing Square Usa, Ltd. (PSUS) insider bought $70,735,390",
     "source_summary": "7 insider(s) bought 1,417,000 shares at $49.92 on 2026-06-17.",
-    "drafted_at": "2026-06-18T02:34:12.540039",
+    "drafted_at": "2026-06-18T07:25:53.764753",
     "data": {
       "ticker": "PSUS",
       "type": "P",
@@ -163,7 +161,7 @@
     "content_hash": "06b51d7fce606b41"
   },
   {
-    "id": "dd3a8af1",
+    "id": "b21e1390",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$QNT insider bought $24,649,920 on 2026-06-05, 10 insiders. \ud83d\udc40\n\nQuantinuum Inc.. 410,832 shares at $60.00.\n\n+4.6% since the purchase.\n\nhttp://openinsider.com/screener?s=QNT",
@@ -173,7 +171,7 @@
     "source_url": "http://openinsider.com/screener?s=QNT",
     "source_title": "Quantinuum Inc. (QNT) insider bought $24,649,920",
     "source_summary": "10 insider(s) bought 410,832 shares at $60.00 on 2026-06-05.",
-    "drafted_at": "2026-06-18T02:34:12.540160",
+    "drafted_at": "2026-06-18T07:25:53.764874",
     "data": {
       "ticker": "QNT",
       "type": "P",
@@ -183,7 +181,7 @@
     "content_hash": "1896377d0aa7046f"
   },
   {
-    "id": "8dfd4182",
+    "id": "f752a15e",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$HLNE insider bought $14,241,108 on 2026-06-11, 3 insiders. \ud83d\udc40\n\nHamilton Lane Inc. 165,505 shares at $86.05.\n\n-5.4% since the purchase.\n\nhttp://openinsider.com/screener?s=HLNE",
@@ -193,7 +191,7 @@
     "source_url": "http://openinsider.com/screener?s=HLNE",
     "source_title": "Hamilton Lane Inc (HLNE) insider bought $14,241,108",
     "source_summary": "3 insider(s) bought 165,505 shares at $86.05 on 2026-06-11.",
-    "drafted_at": "2026-06-18T02:34:12.540282",
+    "drafted_at": "2026-06-18T07:25:53.764997",
     "data": {
       "ticker": "HLNE",
       "type": "P",
@@ -203,7 +201,7 @@
     "content_hash": "44918ed475624ad2"
   },
   {
-    "id": "a9baff13",
+    "id": "f934c680",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$FUN insider bought $6,174,038 on 2026-06-12, 3 insiders. \ud83d\udc40\n\nSix Flags Entertainment Corporation/New. 265,000 shares at $23.30.\n\n+6.7% since the purchase.\n\nhttp://openinsider.com/screener?s=FUN",
@@ -213,7 +211,7 @@
     "source_url": "http://openinsider.com/screener?s=FUN",
     "source_title": "Six Flags Entertainment Corporation/New (FUN) insider bought $6,174,038",
     "source_summary": "3 insider(s) bought 265,000 shares at $23.30 on 2026-06-12.",
-    "drafted_at": "2026-06-18T02:34:12.540416",
+    "drafted_at": "2026-06-18T07:25:53.765133",
     "data": {
       "ticker": "FUN",
       "type": "P",
@@ -223,7 +221,24 @@
     "content_hash": "bd45ae1ea9778c7e"
   },
   {
-    "id": "19490304",
+    "id": "927335fa",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Pack \u2014 got one. Rodney \u201cBitcoin Rodney\u201d Burton faces a maximum sentence of five years in federal prison for conspiracy to operate an unlicensed money transmitting business.\n\nhttps://cointelegraph.com/news/florida-man-pleads-guilty-to-18b-crypto-fraud-scheme?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "COINTELEGRAPH",
+    "source_url": "https://cointelegraph.com/news/florida-man-pleads-guilty-to-18b-crypto-fraud-scheme?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+    "source_title": "Florida man pleads guilty for promoting $1.8B \u2018HyperFund\u2019 crypto fraud",
+    "source_summary": "Rodney \u201cBitcoin Rodney\u201d Burton faces a maximum sentence of five years in federal prison for conspiracy to operate an unlicensed money transmitting business.",
+    "drafted_at": "2026-06-18T07:25:53.766366",
+    "data": {
+      "source": "COINTELEGRAPH"
+    },
+    "content_hash": "0b124d5de5e8c4dd"
+  },
+  {
+    "id": "7774f780",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Keith Sonderling sent letters to 53 states and US territories demanding action to \u201ccombat waste, fraud, and abuse\u201d within the unemployment insurance program, threatening to withhold administrative funds from states for the first time in history.\n\nThe agency did not provide data on fraud or alleged fraud in unemployment systems, but highlighted three Democrat-led states \u2013 California, New York and Illinois \u2013 and made claims about each.\n\nThey say California owes $20bn to the federal government for a loan during the Covid-19 pandemic.\n\nCalifornia has struggled paying off the loan, as they did with a similar federal loan received during the 2008 economic recession, due to the current set-up of how employers are taxed to fund unemployment.\n\nhttps://www.theguardian.com/us-news/2026/jun/17/trump-administration-state-fraud-claims",
@@ -233,14 +248,14 @@
     "source_url": "https://www.theguardian.com/us-news/2026/jun/17/trump-administration-state-fraud-claims",
     "source_title": "Trump\u2019s Department of Labor claims without data that states defrauded government",
     "source_summary": "Acting secretary Keith Sonderling threatens to withhold administrative funds from states for first time in history Keith Sonderling sent letters to 53 states and US territories demanding action to \u201ccombat waste, fraud, and abuse\u201d within the unemployment insurance program, threatening to withhold administrative funds from states for the first time in history. \u201cWe are officially putting governors on",
-    "drafted_at": "2026-06-18T02:34:12.543033",
+    "drafted_at": "2026-06-18T07:25:53.768116",
     "data": {
       "source": "GUARDIAN"
     },
     "content_hash": "507104d50dab0cad"
   },
   {
-    "id": "11919531",
+    "id": "88eb30e6",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Researchers found that Keytruda \u2014 the focus of ICIJ's recent Cancer Calculus investigation \u2014 accounted for nearly half of the potential annual savings.\n\nhttps://www.icij.org/investigations/cancer-calculus/lowering-doses-of-cancer-drugs-could-slash-global-health-spending-by-30b-new-research-shows/",
@@ -250,14 +265,14 @@
     "source_url": "https://www.icij.org/investigations/cancer-calculus/lowering-doses-of-cancer-drugs-could-slash-global-health-spending-by-30b-new-research-shows/",
     "source_title": "Lowering doses of cancer drugs could slash global health spending by $30B, new research shows",
     "source_summary": "Researchers found that Keytruda \u2014 the focus of ICIJ's recent Cancer Calculus investigation \u2014 accounted for nearly half of the potential annual savings.",
-    "drafted_at": "2026-06-18T02:34:12.543329",
+    "drafted_at": "2026-06-18T07:25:53.768431",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "1b607a2e5a414fdf"
   },
   {
-    "id": "d8f3b003",
+    "id": "c3f0aaec",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Amaryllis Fox Kennedy, who recently stepped down from two senior administration posts, was serving as a CIA officer during the dispute.\n\nhttps://www.icij.org/investigations/paradise-papers/trump-intelligence-adviser-previously-helped-father-pursue-millions-from-kremlin-linked-bank-leaked-documents-show/",
@@ -267,14 +282,14 @@
     "source_url": "https://www.icij.org/investigations/paradise-papers/trump-intelligence-adviser-previously-helped-father-pursue-millions-from-kremlin-linked-bank-leaked-documents-show/",
     "source_title": "Trump intelligence adviser previously helped father pursue millions from Kremlin-linked bank, leaked documents show",
     "source_summary": "Amaryllis Fox Kennedy, who recently stepped down from two senior administration posts, was serving as a CIA officer during the dispute.",
-    "drafted_at": "2026-06-18T02:34:12.543567",
+    "drafted_at": "2026-06-18T07:25:53.768683",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "f9a4e2950958d2cd"
   },
   {
-    "id": "d41c2820",
+    "id": "e1eb71ec",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Indictment of the day: Asset manager Fidelity moved millions for company owned by disgraced financier Jeffrey Epstein just weeks before his 2019 arrest, documents reveal.\n\nhttps://www.icij.org/news/2026/06/fidelity-opened-account-for-epstein-even-as-outrage-grew/",
@@ -284,184 +299,184 @@
     "source_url": "https://www.icij.org/news/2026/06/fidelity-opened-account-for-epstein-even-as-outrage-grew/",
     "source_title": "Fidelity opened account for Epstein, even as outrage grew",
     "source_summary": "Asset manager Fidelity moved millions for company owned by disgraced financier Jeffrey Epstein just weeks before his 2019 arrest, documents reveal.",
-    "drafted_at": "2026-06-18T02:34:12.543842",
+    "drafted_at": "2026-06-18T07:25:53.768949",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "4e264707a04e6455"
   },
   {
-    "id": "d9154743",
+    "id": "bd3aafa5",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 CHINA: China's subsidy push aims to boost consumer spending, potentially revitalizing domestic markets and stabilizing economic growth amid challenges.\n\nThe post China\u2019s state planner to disburse 62.5 billion yuan by end of June in consumer subsidy push appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/china-state-planner-62-5b-yuan-consumer-subsidies/",
+    "draft_text": "Mainland wire: AI's growing role in e-commerce may reshape consumer engagement, but weak demand and regulatory scrutiny pose challenges for market stability.\n\nThe post China\u2019s mid-year shopping festival reveals weak demand and AI\u2019s rising role in e-commerce appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/china-618-shopping-festival-weak-demand-ai/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/china-state-planner-62-5b-yuan-consumer-subsidies/",
-    "source_title": "China\u2019s state planner to disburse 62.5 billion yuan by end of June in consumer subsidy push",
-    "source_summary": "China's subsidy push aims to boost consumer spending, potentially revitalizing domestic markets and stabilizing economic growth amid challenges. The post China\u2019s state planner to disburse 62.5 billion yuan by end of June in consumer subsidy push appeared first on Crypto Briefing .",
-    "drafted_at": "2026-06-18T02:34:12.544626",
+    "source_url": "https://cryptobriefing.com/china-618-shopping-festival-weak-demand-ai/",
+    "source_title": "China\u2019s mid-year shopping festival reveals weak demand and AI\u2019s rising role in e-commerce",
+    "source_summary": "AI's growing role in e-commerce may reshape consumer engagement, but weak demand and regulatory scrutiny pose challenges for market stability. The post China\u2019s mid-year shopping festival reveals weak demand and AI\u2019s rising role in e-commerce appeared first on Crypto Briefing .",
+    "drafted_at": "2026-06-18T07:25:53.769739",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "fbb4dae2aca2fc63"
+    "content_hash": "faad0a4190aa272d"
   },
   {
-    "id": "7e797a26",
+    "id": "87bb5d74",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Gulf wire: The remarks follow the standard Japanese official playbook and are unlikely to move the yen in isolation.\n\nThe notable addition was Kihara's explicit acknowledgement that a weak yen, while supportive of corporate profits, increases the burden on households, a framing that edges slightly toward the dovish side of the intervention debate by validating the domestic cost argument.\n\nHowever, without a specific level reference or an escalation in language, the statement carries no actionable threat.\n\nMarkets will continue to treat Japanese FX rhetoric as noise until accompanied by Finance Ministry involvement or a coordinated BoJ signal.\n\nThe yen's next meaningful catalyst is more likely to come from the Fed's data-driven path under Warsh or the next BoJ policy meeting than from cabinet secretary commentary. --- Japan's chief cabinet secretary Kihara said Tokyo is watching FX moves closely and stands ready to act, while noting the weak yen raises household burdens even as it supports corporate profits.\n\nSummary: Source: Japan Chief Cabinet Secretary Yoshimasa Kihara, remarks to media, 17 June 2026 No comment on specific FX levels Always ready to take necessary action on forex Watching FX moves closely Weak yen helps corporate profits but increases burden on households Will guide economic and fiscal policy as appropriate Japan's chief cabinet secretary Yoshimasa Kihara delivered the standard suite of FX caution remarks on Wednesday evening, declining to comment on specific currency levels while reaffirming Tokyo's readiness to act if necessary.\n\nThe remarks contained no escalation in tone and no reference to a specific exchange rate threshold, leaving the yen effectively unmoved.\n\nKihara's observation that a weak yen supports corporate profits while simultaneously increasing the burden on households was the most substantive element, a dual acknowledgement that has become more politically sensitive as domestic consumption remains under pressure from elevated energy costs tied to the Middle East conflict.\n\nhttps://investinglive.com/news/japans-kihara-flags-weak-yen-household-burden-but-offers-no-fresh-intervention-signal-20260618/",
+    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: The US-Iran talks could stabilize geopolitical tensions, influencing global markets and potentially boosting investor confidence in cryptocurrencies.\n\nThe post United States and Iran to hold initial talks in Switzerland on ceasefire agreement appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/us-iran-ceasefire-talks-switzerland/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/japans-kihara-flags-weak-yen-household-burden-but-offers-no-fresh-intervention-signal-20260618/",
-    "source_title": "Japan's Kihara flags weak yen household burden but offers no fresh intervention signal",
-    "source_summary": "The remarks follow the standard Japanese official playbook and are unlikely to move the yen in isolation. The notable addition was Kihara's explicit acknowledgement that a weak yen, while supportive of corporate profits, increases the burden on households, a framing that edges slightly toward the dovish side of the intervention debate by validating the domestic cost argument. However, without a sp",
-    "drafted_at": "2026-06-18T02:34:12.547261",
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/us-iran-ceasefire-talks-switzerland/",
+    "source_title": "United States and Iran to hold initial talks in Switzerland on ceasefire agreement",
+    "source_summary": "The US-Iran talks could stabilize geopolitical tensions, influencing global markets and potentially boosting investor confidence in cryptocurrencies. The post United States and Iran to hold initial talks in Switzerland on ceasefire agreement appeared first on Crypto Briefing .",
+    "drafted_at": "2026-06-18T07:25:53.770230",
     "data": {
-      "source": "FOREXLIVE"
+      "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "00c896289abc8d21"
+    "content_hash": "c991d44bc7263781"
   },
   {
-    "id": "366663b4",
+    "id": "4075457c",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Levant update: The NZD/USD pair gains traction to around 0.5790 during the Asian trading hours on Thursday.\n\nThe New Zealand Dollar (NZD) strengthens against the US Dollar (USD) amid upbeat annual New Zealand Gross Domestic Product (GDP) data and improved risk sentiment.\n\nhttps://www.fxstreet.com/news/new-zealand-dollar-gains-ground-to-near-05800-as-us-iran-presidents-signs-agreement-to-end-war-202606180220",
+    "draft_text": "CHINA DESK: The growing EU-China trade deficit pressures Germany to balance economic ties with strategic autonomy, impacting its automotive sector's future.\n\nThe post Friedrich Merz considers action on \u20ac360B deficit with China appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/merz-eu-china-trade-deficit/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/merz-eu-china-trade-deficit/",
+    "source_title": "Friedrich Merz considers action on \u20ac360B deficit with China",
+    "source_summary": "The growing EU-China trade deficit pressures Germany to balance economic ties with strategic autonomy, impacting its automotive sector's future. The post Friedrich Merz considers action on \u20ac360B deficit with China appeared first on Crypto Briefing .",
+    "drafted_at": "2026-06-18T07:25:53.770648",
+    "data": {
+      "source": "CRYPTO BRIEFING"
+    },
+    "content_hash": "98978f6a90412216"
+  },
+  {
+    "id": "3491e81e",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Gulf wire: It signed the U.S. ceasefire deal to reopen Hormuz and unlock frozen billions, then deferred the nuclear fight to a 60-day talk.\n\nhttps://www.forbes.com/sites/guneyyildiz/2026/06/18/irans-deal-with-washington-is-a-pause-not-a-peace/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FORBES",
+    "source_url": "https://www.forbes.com/sites/guneyyildiz/2026/06/18/irans-deal-with-washington-is-a-pause-not-a-peace/",
+    "source_title": "Iran's Deal With Washington Is A Pause, Not A Peace",
+    "source_summary": "Iran didn't lose the war. It signed the U.S. ceasefire deal to reopen Hormuz and unlock frozen billions, then deferred the nuclear fight to a 60-day talk.",
+    "drafted_at": "2026-06-18T07:25:53.770969",
+    "data": {
+      "source": "FORBES"
+    },
+    "content_hash": "5c0f37c180af0006"
+  },
+  {
+    "id": "36b7b5bc",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "PACK BRIEFING \u2014 CHINA: DONGGUAN, China, June 18, 2026 /PRNewswire/ -- At the HDC 2026 Global Eco Summit, Huawei convened global ecosystem partners, brands, and developers to explore how its innovative technologies are reshaping digital interaction in an increasingly interconnected, multi-device world.\n\nhttps://www.prnewswire.com/news-releases/hdc-2026-global-eco-summit-huawei-ecosystem-fuels-partners-growth-in-china-and-cross-border-success-302803535.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "PR NEWSWIRE",
+    "source_url": "https://www.prnewswire.com/news-releases/hdc-2026-global-eco-summit-huawei-ecosystem-fuels-partners-growth-in-china-and-cross-border-success-302803535.html",
+    "source_title": "HDC 2026 Global Eco Summit: Huawei Ecosystem Fuels Partners' Growth in China and Cross-Border Success",
+    "source_summary": "DONGGUAN, China, June 18, 2026 /PRNewswire/ -- At the HDC 2026 Global Eco Summit, Huawei convened global ecosystem partners, brands, and developers to explore how its innovative technologies are reshaping digital interaction in an increasingly interconnected, multi-device world. Spanning...",
+    "drafted_at": "2026-06-18T07:25:53.771714",
+    "data": {
+      "source": "PR NEWSWIRE"
+    },
+    "content_hash": "bff73cb6312e2697"
+  },
+  {
+    "id": "140bf4d3",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "Fresh print: The United Kingdom\u2019s (UK) ILO Unemployment Rate fell to 4.9% in the three months to April after reporting 5.0% in the previous reading, data published by the Office for National Statistics (ONS) showed on Thursday.\n\nThe data came in below the market consensus of 5.0%.\n\nhttps://www.fxstreet.com/news/united-kingdom-unemployment-rate-falls-to-49-in-april-what-it-means-for-the-british-pound-202606180601",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/new-zealand-dollar-gains-ground-to-near-05800-as-us-iran-presidents-signs-agreement-to-end-war-202606180220",
-    "source_title": "New Zealand Dollar gains ground to near 0.5800 as US-Iran Presidents signs agreement to end war",
-    "source_summary": "The NZD/USD pair gains traction to around 0.5790 during the Asian trading hours on Thursday. The New Zealand Dollar (NZD) strengthens against the US Dollar (USD) amid upbeat annual New Zealand Gross Domestic Product (GDP) data and improved risk sentiment.",
-    "drafted_at": "2026-06-18T02:34:12.547622",
+    "source_url": "https://www.fxstreet.com/news/united-kingdom-unemployment-rate-falls-to-49-in-april-what-it-means-for-the-british-pound-202606180601",
+    "source_title": "United Kingdom Unemployment Rate falls to 4.9% in April: What it means for the British Pound",
+    "source_summary": "The United Kingdom\u2019s (UK) ILO Unemployment Rate fell to 4.9% in the three months to April after reporting 5.0% in the previous reading, data published by the Office for National Statistics (ONS) showed on Thursday. The data came in below the market consensus of 5.0%.",
+    "drafted_at": "2026-06-18T07:25:53.841156",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "a259d3f982065064"
+    "content_hash": "106bb5d4b14e99bf"
   },
   {
-    "id": "414eefae",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: The USD/JPY pair holds steady above mid-160.00s during the Asian session on Thursday, consolidating its gains registered over the past four days to the highest level since July 2024.\n\nhttps://www.fxstreet.com/news/japanese-yen-bears-turn-cautious-amid-intervention-fears-as-iran-deal-undermines-usd-202606180154",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/japanese-yen-bears-turn-cautious-amid-intervention-fears-as-iran-deal-undermines-usd-202606180154",
-    "source_title": "Japanese Yen bears turn cautious amid intervention fears as Iran deal undermines USD",
-    "source_summary": "The USD/JPY pair holds steady above mid-160.00s during the Asian session on Thursday, consolidating its gains registered over the past four days to the highest level since July 2024.",
-    "drafted_at": "2026-06-18T02:34:12.548273",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "65a0ff6d450829f4"
-  },
-  {
-    "id": "4367fa13",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Gulf wire: Breaking down the newly released MOU, one concession at a time.\n\nhttps://www.thefp.com/p/reading-trumps-iran-deal-so-you-dont",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FREE PRESS",
-    "source_url": "https://www.thefp.com/p/reading-trumps-iran-deal-so-you-dont",
-    "source_title": "Reading Trump\u2019s Iran Deal So You Don\u2019t Have To, with Mark Dubowitz",
-    "source_summary": "Breaking down the newly released MOU, one concession at a time.",
-    "drafted_at": "2026-06-18T02:34:12.548495",
-    "data": {
-      "source": "FREE PRESS"
-    },
-    "content_hash": "08b5fd816bb807ab"
-  },
-  {
-    "id": "ff5622d6",
+    "id": "7c7e6076",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "From the BEA desk: The NZD/USD pair gains traction to around 0.5790 during the Asian trading hours on Thursday.\n\nThe New Zealand Dollar (NZD) strengthens against the US Dollar (USD) amid upbeat annual New Zealand Gross Domestic Product (GDP) data and improved risk sentiment.\n\nhttps://www.fxstreet.com/news/new-zealand-dollar-gains-ground-to-near-05800-as-us-iran-presidents-signs-agreement-to-end-war-202606180220",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/new-zealand-dollar-gains-ground-to-near-05800-as-us-iran-presidents-signs-agreement-to-end-war-202606180220",
-    "source_title": "New Zealand Dollar gains ground to near 0.5800 as US-Iran Presidents signs agreement to end war",
-    "source_summary": "The NZD/USD pair gains traction to around 0.5790 during the Asian trading hours on Thursday. The New Zealand Dollar (NZD) strengthens against the US Dollar (USD) amid upbeat annual New Zealand Gross Domestic Product (GDP) data and improved risk sentiment.",
-    "drafted_at": "2026-06-18T02:34:12.607586",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "a259d3f982065064"
-  },
-  {
-    "id": "9de79650",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "GDP DAY. I'll have more to come on this separately.\n\nNew Zealand GDP Q1 206: 1.5% y/y expected 1.1%, prior 1.3% 0.8% q/q expected 0.9%, prior 0.2% Background here: Economic and event calendar in Asia Thursday, June 18, 2026: New Zealand Q1 GDP preview This article was written by Eamonn Sheridan at investinglive.com.\n\nhttps://investinglive.com/news/new-zealand-q1-gdp-08-qq-09-expected-and-15-yy-11-expected-20260617/",
+    "draft_text": "Payrolls hit the wire. Prior 5.0% Employment change 100k vs 75k expected Prior 148k Average weekly earnings +4.4% vs +4.0% 3m/y expected Prior +4.1% (revised to +4.4%) Average weekly earnings (ex bonus) +3.4% vs +3.2% 3m/y expected Prior +3.4% May payrolls change +2k Prior -100k (revised to -53k) This is a good report with data beating expectations across the board, and more worryingly for the BoE, wage growth firming up again.\n\nThe British Pound strengthened following the jobs data release as traders will likely bring forward rate hike probabilities (though not that much).\n\nKeep in mind that with the end of the US-Iran war we can expect things to get even better in the next months.\n\nThe BoE will likely keep the door open for tightening if necessary as the chances for rate cuts in 2026 look pretty much nil.\n\nThis article was written by Giuseppe Dellamotta at investinglive.com.\n\nhttps://investinglive.com/news/uk-april-ilo-unemployment-rate-49-vs-50-expected-20260618/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/new-zealand-q1-gdp-08-qq-09-expected-and-15-yy-11-expected-20260617/",
-    "source_title": "New Zealand Q1 GDP 0.8% q/q (0.9% expected) and 1.5% y/y (1.1% expected)",
-    "source_summary": "Just the data in this post. I'll have more to come on this separately. New Zealand GDP Q1 206: 1.5% y/y expected 1.1%, prior 1.3% 0.8% q/q expected 0.9%, prior 0.2% Background here: Economic and event calendar in Asia Thursday, June 18, 2026: New Zealand Q1 GDP preview This article was written by Eamonn Sheridan at investinglive.com.",
-    "drafted_at": "2026-06-18T02:34:12.608001",
+    "source_url": "https://investinglive.com/news/uk-april-ilo-unemployment-rate-49-vs-50-expected-20260618/",
+    "source_title": "UK April ILO unemployment rate 4.9% vs 5.0% expected",
+    "source_summary": "Prior 5.0% Employment change 100k vs 75k expected Prior 148k Average weekly earnings +4.4% vs +4.0% 3m/y expected Prior +4.1% (revised to +4.4%) Average weekly earnings (ex bonus) +3.4% vs +3.2% 3m/y expected Prior +3.4% May payrolls change +2k Prior -100k (revised to -53k) This is a good report with data beating expectations across the board, and more worryingly for the BoE, wage growth firming u",
+    "drafted_at": "2026-06-18T07:25:53.842202",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "ec215720c599861e"
+    "content_hash": "e0924ea3c20b3ad1"
   },
   {
-    "id": "f4117ad6",
+    "id": "b8b17fc1",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "From the BEA desk: New Zealand's March quarter GDP data is expected to show the economy gained solid momentum in the early months of 2026, even as the Middle East conflict that erupted in late February looms as a far larger threat to output in the quarters ahead.\n\nThe median market forecast points to quarterly growth of 0.9%, up sharply from the 0.2% expansion recorded in the December quarter.\n\nOn an annual basis, growth is seen slipping to 1.1% from 1.3% as a strong March quarter result a year earlier creates a high base.\n\nThe Reserve Bank of New Zealand had pencilled in 1.0% quarterly growth in its May Monetary Policy Statement, a level matched by both ANZ and Westpac in their updated forecasts, while BNZ sits marginally below at 0.9%, ASB at 0.8% and Kiwibank at the low end with 0.7%.\n\nEconomists broadly agree the figures will capture a period of genuine recovery rather than the disruption to come.\n\nManufacturing is expected to be among the strongest contributors, with food production supported by high milk collections, a rebound in fruit and wine output, and strong machinery activity.\n\nWholesale trade, professional services, retail and tourism are also tipped to have added meaningfully to headline growth.\n\nConstruction is the notable drag, with residential and non-residential building work falling around 3.5% in the quarter.\n\nhttps://investinglive.com/news/economic-and-event-calendar-in-asia-thursday-june-18-2026-new-zealand-q1-gdp-preview-20260617/",
+    "draft_text": "Inflation update: EUROPEAN SESSION In the European session, we have the UK employment report and the SNB and BoE rate decisions.\n\nThe UK employment report is expected to show 75K jobs added in the three months to April with the unemployment rate to remain unchanged at 5.0%.\n\nThe last report showed the unemployment rate ticking higher with a significant drop in payrolls for April, although the ONS noted that the early April estimate was more uncertain because of the change of tax year.\n\nThe SNB is expected to keep the policy rate unchanged at 0%.\n\nThere shouldn't be anything new as the SNB repeated countless times that the bar for negative rates remains very high.\n\nThe central bank will likely continue to reiterate the \"increased willingness to intervene in FX\" when necessary.\n\nThe BoE is expected to hold the Bank Rate steady at 3.75% with a 7-2 vote split.\n\nThe recent economic data has been benign with headline and core inflation metrics coming in below estimates and the labour market data continuing to show weakness.\n\nhttps://investinglive.com/news/what-are-the-main-events-for-today-20260618/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/economic-and-event-calendar-in-asia-thursday-june-18-2026-new-zealand-q1-gdp-preview-20260617/",
-    "source_title": "Economic and event calendar in Asia Thursday, June 18, 2026: New Zealand Q1 GDP preview",
-    "source_summary": "New Zealand's March quarter GDP data is expected to show the economy gained solid momentum in the early months of 2026, even as the Middle East conflict that erupted in late February looms as a far larger threat to output in the quarters ahead. The median market forecast points to quarterly growth of 0.9%, up sharply from the 0.2% expansion recorded in the December quarter. On an annual basis, gro",
-    "drafted_at": "2026-06-18T02:34:12.609696",
+    "source_url": "https://investinglive.com/news/what-are-the-main-events-for-today-20260618/",
+    "source_title": "What are the main events for today?",
+    "source_summary": "EUROPEAN SESSION In the European session, we have the UK employment report and the SNB and BoE rate decisions. The UK employment report is expected to show 75K jobs added in the three months to April with the unemployment rate to remain unchanged at 5.0%. The last report showed the unemployment rate ticking higher with a significant drop in payrolls for April, although the ONS noted that the early",
+    "drafted_at": "2026-06-18T07:25:53.843628",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "f68dca2aa633021e"
+    "content_hash": "717cb5dbd69d5c43"
   },
   {
-    "id": "98369104",
+    "id": "cde3ef81",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "INFLATION READ: Fed Chair Warsh: We recognize that inflation has been running \"well ahead\" of 2% Warsh Q&A: I see no reason to revisit 2% inflation goal until we have delivered FOMC June 2026 dot plot sees end of year target at 3.8% vs 3.4% in March 2026 Trump on the Fed raising rates: It could happen The full FOMC statement from the June 2026 meeting.\n\nFederal Reserve rate decision: No change to the Fed funds target, as expected US May advance retail sales +0.9% vs +0.5% expected US weekly EIA crude oil inventories -8263K vs -4566K expected US pending home sales for May 3.8% versus 0.8% expected US April business inventories +0.5% vs +0.5% expected ECB's Sleijpen: A repeat of 2022 inflation appears less likely but can't be excluded Canada new housing price index for May -0.3% versus -0.4% last month Markets: Gold down $90 to $4240 US 10-year yields up 7 bps to 4.49% US 2-year yields up 17 bps to 4.22% USD leads, NZD and GBP lag S&P 500 down 1.4% This was not the Kevin Warsh that Trump nominated with marching orders to lower rates.\n\nInstead, he sounded like a guy utterly determined to get inflation down to 2%, even if it causes pain.\n\nThe market was surprised and it started with the statement, which was curt and finished on a line about price stability.\n\nInitially, that could be dismissed as housekeeping but as the press conference went on, it became abundantly clear this was the 2010 hawkish version of Warsh, no the guy who campaigned for the job sounding like he was Stephen Miran.\n\nThe market response was to buy the US dollar in a big way.\n\nIt came in waves and ultimately sent the euro down more than 100 pips to 1.1495.\n\nThe pound was hit even harder with a dive to 1.3280 from 1.3400.\n\nhttps://investinglive.com/news/investinglive-americas-market-news-wrap-warsh-leans-heavily-into-the-inflation-mandate-20260617/",
+    "draft_text": "From the inflation desk: Warsh leaves markets guessing as Fed framework overhaul raises more questions than answers China rolls out third trade-in fund tranche as weak retail data keeps stimulus pressure on Japan's Kihara flags weak yen household burden but offers no fresh intervention signal Apple warns memory chip crunch makes price rises unavoidable, Cook tells WSJ PBOC sets USD/ CNY reference rate for today at 6.8130 (vs. estimate at 6.7752) Analysts split on Fed path after June hold, with December hike odds near 50% CITIC Securities sees Fed on hold all year as Warsh faces political & inflation crosswinds Brazil central bank cuts rates but warns fiscal stimulus may blunt monetary policy SpaceX stock analysis after IPO Japan's 94% Middle East oil dependence leaves firms deeply exposed even as war winds down Brent could top $130 if strait never fully reopens, Goldman warns New Zealand Q1 GDP 0.8% q/q (0.9% expected) and 1.5% y/y (1.1% expected) Iran draws a red line on the deal.\n\nIran-US MOU signed but Baghaei fires warning on missiles, uranium and Hormuz fees Iran confirms MoU with the US has been agreed to and finalised.\n\nWarsh rewrites the Fed playbook as FOMC holds rates and signals hikes ahead Iran signals permanent Hormuz changes as $300bn reconstruction deal confirmed US stocks fall as Fed signals a more hawkish policy investingLive Americas market news wrap: Warsh leans heavily into the inflation mandate Summary: US-Iran MOU formally signed: Trump at Versailles, Pezeshkian in Tehran; 14-point agreement now in effect Oil dribbled lower on the signing; gold clawed back some post-Fed losses New Zealand Q1 GDP: 0.8% q/q, 1.5% y/y; NZD/USD crept higher on broad USD softness Japan's Kihara delivered standard verbal intervention; USD/JPY unmoved, holding around 160.50 China NDRC announced third consumer goods trade-in tranche of 62.5 bln yuan by end-June Nikkei 225 surged past 71,000 for the first time; Topix reached 4,069 The headline of the Asia-Pacific session was the formal signing of the US-Iran memorandum of understanding, bringing the framework agreement to end the Middle East conflict into legal effect.\n\nPresident Trump signed his copy of the 14-point document during a dinner at the Palace of Versailles, with a photograph of the signed agreement transmitted to Tehran and the mediating countries.\n\nIranian President Pezeshkian signed separately.\n\nOil prices edged modestly lower on the news, with markets having largely priced the outcome.\n\nGold recovered some ground after Wednesday's hawkish Fed-driven selloff.\n\nNew Zealand's Q1 GDP delivered a beat on the annual measure at 1.5% against an expected 1.1%, though the quarterly print of 0.8% fell short of the RBNZ's 1.0% forecast.\n\nhttps://investinglive.com/news/investinglive-asia-pacific-fx-news-wrap-us-iran-memorandum-of-understanding-signed-20260618/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-warsh-leans-heavily-into-the-inflation-mandate-20260617/",
-    "source_title": "investingLive Americas market news wrap: Warsh leans heavily into the inflation mandate",
-    "source_summary": "Fed Chair Warsh: We recognize that inflation has been running \"well ahead\" of 2% Warsh Q&A: I see no reason to revisit 2% inflation goal until we have delivered FOMC June 2026 dot plot sees end of year target at 3.8% vs 3.4% in March 2026 Trump on the Fed raising rates: It could happen The full FOMC statement from the June 2026 meeting. Federal Reserve rate decision: No change to the Fed funds tar",
-    "drafted_at": "2026-06-18T02:34:12.611699",
+    "source_url": "https://investinglive.com/news/investinglive-asia-pacific-fx-news-wrap-us-iran-memorandum-of-understanding-signed-20260618/",
+    "source_title": "investingLive Asia-Pacific FX news wrap: US-Iran memorandum of understanding signed",
+    "source_summary": "Warsh leaves markets guessing as Fed framework overhaul raises more questions than answers China rolls out third trade-in fund tranche as weak retail data keeps stimulus pressure on Japan's Kihara flags weak yen household burden but offers no fresh intervention signal Apple warns memory chip crunch makes price rises unavoidable, Cook tells WSJ PBOC sets USD/ CNY reference rate for today at 6.8130 ",
+    "drafted_at": "2026-06-18T07:25:53.846588",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "036bedb5ef7a135f"
+    "content_hash": "523844dcfa884ba8"
   },
   {
-    "id": "39150bfc",
+    "id": "744eaa87",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "Numbers just hit: MCS, FUN, and SPHR have each gained at least 50% YTD as consumers shift spending toward affordable domestic entertainment despite low consumer sentiment.\n\nhttps://www.marketbeat.com/articles/cheap-thrills-why-these-3-entertainment-stocks-are-soaring/",
+    "draft_text": "Imports vs. exports scoreboard: The timing of the third tranche announcement, following weak retail sales data earlier this week ( May retail sales falling 0.6%, the first decline since the pandemic ), signals Beijing is prepared to sustain the trade-in program as a demand floor rather than wind it down as initially suggested.\n\nThe 820 billion yuan in driven sales is a meaningful headline but the underlying retail trend remains soft, and the marginal impact of successive tranches is likely diminishing.\n\nFor commodity markets, a sustained Chinese consumption recovery would provide demand support that has been conspicuously absent during the Middle East supply shock, Goldman Sachs having already credited China's demand destruction as the primary reason oil has not breached triple digits.\n\nAny genuine pickup in Chinese consumer durables spending would therefore carry implications beyond domestic equities into energy and industrial metals. --- China's state planner says two batches of consumer goods trade-in funds totalling 125 bln yuan have driven over 820 bln yuan in sales, with a third tranche of 62.5 bln yuan due by end-June.\n\nSummary: Two batches of consumer goods trade-in funds totalling 125 bln yuan have been issued The scheme has driven related goods sales of over 820 bln yuan A third tranche of 62.5 bln yuan will be issued by end-June The announcement follows weaker-than-expected retail sales data released earlier this week, maintaining pressure on Beijing to support domestic consumption China's state planner has announced a third tranche of consumer goods trade-in funds worth 62.5 billion yuan, to be released by the end of June, as Beijing sustains its push to underpin domestic consumption following a weak retail sales print earlier this week.\n\nThe National Development and Reform Commission said two earlier batches totalling 125 billion yuan had driven over 820 billion yuan in related goods sales, a multiplier the government is pointing to as evidence the scheme is working.\n\nThe third disbursement brings the total fund commitment to 187.5 billion yuan.\n\nThe announcement lands in a context that complicates the optimistic read.\n\nhttps://investinglive.com/news/china-rolls-out-third-trade-in-fund-tranche-as-weak-retail-data-keeps-stimulus-pressure-on-20260618/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "MARKETBEAT",
-    "source_url": "https://www.marketbeat.com/articles/cheap-thrills-why-these-3-entertainment-stocks-are-soaring/",
-    "source_title": "Cheap Thrills: Why These 3 Entertainment Stocks Are Soaring",
-    "source_summary": "MCS, FUN, and SPHR have each gained at least 50% YTD as consumers shift spending toward affordable domestic entertainment despite low consumer sentiment.",
-    "drafted_at": "2026-06-18T02:34:12.611982",
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/china-rolls-out-third-trade-in-fund-tranche-as-weak-retail-data-keeps-stimulus-pressure-on-20260618/",
+    "source_title": "China rolls out third trade-in fund tranche as weak retail data keeps stimulus pressure on",
+    "source_summary": "The timing of the third tranche announcement, following weak retail sales data earlier this week ( May retail sales falling 0.6%, the first decline since the pandemic ), signals Beijing is prepared to sustain the trade-in program as a demand floor rather than wind it down as initially suggested. The 820 billion yuan in driven sales is a meaningful headline but the underlying retail trend remains s",
+    "drafted_at": "2026-06-18T07:25:53.849287",
     "data": {
-      "source": "MARKETBEAT"
+      "source": "FOREXLIVE"
     },
-    "content_hash": "822664d516957f4b"
+    "content_hash": "e7e162b9d9a9ff3e"
   },
   {
-    "id": "99ed65b0",
+    "id": "c63317cf",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -471,7 +486,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-06-18T02:34:12.613856",
+    "drafted_at": "2026-06-18T07:25:53.851761",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -479,7 +494,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "572d16df",
+    "id": "5a048349",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "When everyone's positioned for a crash, the crash takes a vacation.",
@@ -489,14 +504,14 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "When everyone's positioned for a crash, the crash takes a vacation.",
-    "drafted_at": "2026-06-18T02:34:12.613948",
+    "drafted_at": "2026-06-18T07:25:53.851853",
     "data": {
       "take_seed": "2026-06-18-pack-1"
     },
     "content_hash": "9b0f7be55d8ef71c"
   },
   {
-    "id": "12c8cad9",
+    "id": "9fbb0b57",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Gold doesn't pay a dividend. Neither does a fire extinguisher.",
@@ -506,7 +521,7 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Gold doesn't pay a dividend. Neither does a fire extinguisher.",
-    "drafted_at": "2026-06-18T02:34:12.614009",
+    "drafted_at": "2026-06-18T07:25:53.851913",
     "data": {
       "take_seed": "2026-06-18-pack-2"
     },
