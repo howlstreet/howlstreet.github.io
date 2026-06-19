@@ -1,23 +1,59 @@
 [
   {
-    "id": "fa86435b",
-    "format": "POLICY_READ",
+    "id": "77ac31ab",
+    "format": "MARKET_MOVE",
     "status": "pending",
-    "draft_text": "POWELL POSTCARD: The US Dollar Index (DXY) firmed near 100.80 on Thursday, a level it hadn\u2019t seen since May 2025, after the Federal Reserve (Fed) left interest rates unchanged in the 3.50%-3.75% range in Kevin Warsh\u2019s first policy meeting as Fed Chair on Wednesday.\n\nhttps://www.fxstreet.com/news/forex-today-us-dollar-touches-one-year-high-pound-slips-on-boe-hold-202606182026",
+    "draft_text": "Real-time update for the pack: WTI crude craters 17.3% in 5 sessions to $75.55.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "BoE",
-    "source_url": "https://www.fxstreet.com/news/forex-today-us-dollar-touches-one-year-high-pound-slips-on-boe-hold-202606182026",
-    "source_title": "Forex Today: US Dollar touches one-year high, Pound slips on BoE hold",
-    "source_summary": "The US Dollar Index (DXY) firmed near 100.80 on Thursday, a level it hadn\u2019t seen since May 2025, after the Federal Reserve (Fed) left interest rates unchanged in the 3.50%-3.75% range in Kevin Warsh\u2019s first policy meeting as Fed Chair on Wednesday.",
-    "drafted_at": "2026-06-18T23:28:21.351825",
+    "primary_source": "NYMEX \u00b7 CL=F",
+    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "source_title": "WTI crude oil futures",
+    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "drafted_at": "2026-06-19T02:50:32.278349",
     "data": {
-      "actor": "BoE"
+      "signal_id": "CL=F:move:2026-06-18",
+      "kind": "move_down",
+      "current": "$75.55"
     },
-    "content_hash": "3d477a48d4014671"
+    "content_hash": "c272de0720a2f459"
   },
   {
-    "id": "93792226",
+    "id": "95c8be43",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "From Tokyo: The USD/JPY pair is seen extending the previous day's late pullback from the 161.80 region, or a fresh high since July 2024, and drifting lower during the Asian session on Friday.\n\nhttps://www.fxstreet.com/news/japanese-yen-recovers-from-two-year-low-vs-usd-as-boj-hike-bets-offset-japans-softer-cpi-202606190119",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "BoJ",
+    "source_url": "https://www.fxstreet.com/news/japanese-yen-recovers-from-two-year-low-vs-usd-as-boj-hike-bets-offset-japans-softer-cpi-202606190119",
+    "source_title": "Japanese Yen recovers from two-year low vs USD as BoJ hike bets offset Japan's softer CPI",
+    "source_summary": "The USD/JPY pair is seen extending the previous day's late pullback from the 161.80 region, or a fresh high since July 2024, and drifting lower during the Asian session on Friday.",
+    "drafted_at": "2026-06-19T02:50:32.289399",
+    "data": {
+      "actor": "BoJ"
+    },
+    "content_hash": "78c9f292aab27611"
+  },
+  {
+    "id": "4254b856",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "Live from the Federal Reserve: The Federal Reserve just held rates steady, with a hint that rate hikes could be in the cards.\n\nhttps://www.fool.com/investing/2026/06/18/the-fed-just-made-its-first-decision-under-kevin-w/?source=iedfolrf0000001",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Fed",
+    "source_url": "https://www.fool.com/investing/2026/06/18/the-fed-just-made-its-first-decision-under-kevin-w/?source=iedfolrf0000001",
+    "source_title": "The Fed Just Made Its First Decision Under Kevin Warsh. Here's What It Means for Big Bank Stocks.",
+    "source_summary": "The Federal Reserve just held rates steady, with a hint that rate hikes could be in the cards.",
+    "drafted_at": "2026-06-19T02:50:32.289691",
+    "data": {
+      "actor": "Fed"
+    },
+    "content_hash": "302d0bf73bed25b5"
+  },
+  {
+    "id": "9850fa5f",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "RATE-PATH READ: Engelbrecht is the former chief executive officer of Bank of Eufaula and a former director of the bank and its holding company, S N B Bancshares, Inc. In his former roles, Engelbrecht leveraged his position to cause the bank to provide imprudent extensions of credit to his relative's company and he participated in the fabrication of board meeting minutes.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260618b.htm",
@@ -27,14 +63,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260618b.htm",
     "source_title": "Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc.",
     "source_summary": "Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc.",
-    "drafted_at": "2026-06-18T23:28:21.352385",
+    "drafted_at": "2026-06-19T02:50:32.290243",
     "data": {
       "actor": "FED"
     },
     "content_hash": "52b15b90987fc933"
   },
   {
-    "id": "2eafb81e",
+    "id": "8e18300a",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "RATE-PATH READ: Dramatic shift in market sentiment came after Federal Open Market Committee left rates unchanged but signaled that inflation remains its top concern.\n\nhttps://nypost.com/2026/06/18/business/warsh-shocks-wall-street-with-hawkish-turn-as-fed-rate-hikes-come-back-into-play/",
@@ -44,14 +80,14 @@
     "source_url": "https://nypost.com/2026/06/18/business/warsh-shocks-wall-street-with-hawkish-turn-as-fed-rate-hikes-come-back-into-play/",
     "source_title": "Warsh shocks Wall Street with hawkish turn as Fed rate hikes come back into play",
     "source_summary": "Dramatic shift in market sentiment came after Federal Open Market Committee left rates unchanged but signaled that inflation remains its top concern.",
-    "drafted_at": "2026-06-18T23:28:21.352659",
+    "drafted_at": "2026-06-19T02:50:32.290549",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "ab316662a068f323"
   },
   {
-    "id": "a3e3d002",
+    "id": "05e99208",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "RATE-PATH READ: Comments on the proposal are due 60 days after publication in the Federal Register.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260618a.htm",
@@ -61,51 +97,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260618a.htm",
     "source_title": "Federal Reserve Board requests comment on proposal to require certain payment stablecoin issuers to maintain an effective customer identification program",
     "source_summary": "Federal Reserve Board requests comment on proposal to require certain payment stablecoin issuers to maintain an effective customer identification program",
-    "drafted_at": "2026-06-18T23:28:21.352955",
+    "drafted_at": "2026-06-19T02:50:32.290865",
     "data": {
       "actor": "FED"
     },
     "content_hash": "a8838c582bb87e8b"
   },
   {
-    "id": "c96c06b9",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "Live from the Federal Reserve: The Fed left interest rates unchanged on June 17, and Bitcoin still felt the policy outlook tighten beneath it.\n\nThe FOMC voted to hold its target range at 3.50% to 3.75%, but 9 of the 18 submitted dot-plot projections now point to at least one rate hike before year-end, against 8 holding at the current [\u2026] The post Bitcoin just holds $64K after Fed revives hike risk, but one level still decides whether repair is real appeared first on CryptoSlate.\n\nhttps://cryptoslate.com/bitcoin-holds-64k-after-fed-revives-hike-risk-but-one-level-still-decides-whether-repair-is-real/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://cryptoslate.com/bitcoin-holds-64k-after-fed-revives-hike-risk-but-one-level-still-decides-whether-repair-is-real/",
-    "source_title": "Bitcoin just holds $64K after Fed revives hike risk, but one level still decides whether repair is real",
-    "source_summary": "The Fed left interest rates unchanged on June 17, and Bitcoin still felt the policy outlook tighten beneath it. The FOMC voted to hold its target range at 3.50% to 3.75%, but 9 of the 18 submitted dot-plot projections now point to at least one rate hike before year-end, against 8 holding at the current [\u2026] The post Bitcoin just holds $64K after Fed revives hike risk, but one level still decides wh",
-    "drafted_at": "2026-06-18T23:28:21.353557",
-    "data": {
-      "actor": "Fed"
-    },
-    "content_hash": "505ec114cf458df9"
-  },
-  {
-    "id": "d11daa70",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$SMMT insider bought $100,696,650 on 2026-06-04, 3 insiders. \ud83d\udc40\n\nSummit Therapeutics Inc.. 7,670,000 shares at $13.13.\n\n+4.7% since the purchase.\n\nhttp://openinsider.com/screener?s=SMMT",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=SMMT",
-    "source_title": "Summit Therapeutics Inc. (SMMT) insider bought $100,696,650",
-    "source_summary": "3 insider(s) bought 7,670,000 shares at $13.13 on 2026-06-04.",
-    "drafted_at": "2026-06-18T23:28:21.357764",
-    "data": {
-      "ticker": "SMMT",
-      "type": "P",
-      "dollar_value": 100696650.0,
-      "pct_since": 4.722010662604716
-    },
-    "content_hash": "18ae32ed4c91b571"
-  },
-  {
-    "id": "3c89691d",
+    "id": "51c6b85e",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$PSUS insider bought $70,735,390 on 2026-06-17, 7 insiders. \ud83d\udc40\n\nPershing Square Usa, Ltd.. 1,417,000 shares at $49.92.\n\n-20.3% since the purchase.\n\nhttp://openinsider.com/screener?s=PSUS",
@@ -115,7 +114,7 @@
     "source_url": "http://openinsider.com/screener?s=PSUS",
     "source_title": "Pershing Square Usa, Ltd. (PSUS) insider bought $70,735,390",
     "source_summary": "7 insider(s) bought 1,417,000 shares at $49.92 on 2026-06-17.",
-    "drafted_at": "2026-06-18T23:28:21.357899",
+    "drafted_at": "2026-06-19T02:50:32.295873",
     "data": {
       "ticker": "PSUS",
       "type": "P",
@@ -125,7 +124,7 @@
     "content_hash": "06b51d7fce606b41"
   },
   {
-    "id": "cb2797a5",
+    "id": "ecfbc77d",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$QNT insider bought $24,649,920 on 2026-06-05, 10 insiders. \ud83d\udc40\n\nQuantinuum Inc.. 410,832 shares at $60.00.\n\n+16.3% since the purchase.\n\nhttp://openinsider.com/screener?s=QNT",
@@ -135,7 +134,7 @@
     "source_url": "http://openinsider.com/screener?s=QNT",
     "source_title": "Quantinuum Inc. (QNT) insider bought $24,649,920",
     "source_summary": "10 insider(s) bought 410,832 shares at $60.00 on 2026-06-05.",
-    "drafted_at": "2026-06-18T23:28:21.358021",
+    "drafted_at": "2026-06-19T02:50:32.296013",
     "data": {
       "ticker": "QNT",
       "type": "P",
@@ -145,7 +144,7 @@
     "content_hash": "1896377d0aa7046f"
   },
   {
-    "id": "33785664",
+    "id": "5afd8ecc",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$HLNE insider bought $14,241,108 on 2026-06-11, 3 insiders. \ud83d\udc40\n\nHamilton Lane Inc. 165,505 shares at $86.05.\n\n-4.5% since the purchase.\n\nhttp://openinsider.com/screener?s=HLNE",
@@ -155,7 +154,7 @@
     "source_url": "http://openinsider.com/screener?s=HLNE",
     "source_title": "Hamilton Lane Inc (HLNE) insider bought $14,241,108",
     "source_summary": "3 insider(s) bought 165,505 shares at $86.05 on 2026-06-11.",
-    "drafted_at": "2026-06-18T23:28:21.358139",
+    "drafted_at": "2026-06-19T02:50:32.296143",
     "data": {
       "ticker": "HLNE",
       "type": "P",
@@ -165,7 +164,7 @@
     "content_hash": "44918ed475624ad2"
   },
   {
-    "id": "92e79889",
+    "id": "337ee24e",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$FUN insider bought $6,174,038 on 2026-06-12, 3 insiders. \ud83d\udc40\n\nSix Flags Entertainment Corporation/New. 265,000 shares at $23.30.\n\n+7.0% since the purchase.\n\nhttp://openinsider.com/screener?s=FUN",
@@ -175,7 +174,7 @@
     "source_url": "http://openinsider.com/screener?s=FUN",
     "source_title": "Six Flags Entertainment Corporation/New (FUN) insider bought $6,174,038",
     "source_summary": "3 insider(s) bought 265,000 shares at $23.30 on 2026-06-12.",
-    "drafted_at": "2026-06-18T23:28:21.358291",
+    "drafted_at": "2026-06-19T02:50:32.296286",
     "data": {
       "ticker": "FUN",
       "type": "P",
@@ -185,7 +184,27 @@
     "content_hash": "bd45ae1ea9778c7e"
   },
   {
-    "id": "0517003e",
+    "id": "f4b312fa",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$CAES insider bought $6,000,000 on 2026-06-18. \ud83d\udc40\n\nCantor Equity Partners Vii, Inc.. 600,000 shares at $10.00.\n\n+1.1% since the purchase.\n\nhttp://openinsider.com/screener?s=CAES",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=CAES",
+    "source_title": "Cantor Equity Partners Vii, Inc. (CAES) insider bought $6,000,000",
+    "source_summary": "1 insider(s) bought 600,000 shares at $10.00 on 2026-06-18.",
+    "drafted_at": "2026-06-19T02:50:32.296415",
+    "data": {
+      "ticker": "CAES",
+      "type": "P",
+      "dollar_value": 6000000.0,
+      "pct_since": 1.099996566772461
+    },
+    "content_hash": "33c91e41031d7de0"
+  },
+  {
+    "id": "1ae99637",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "For the first time in seven years, the Irish government released an assessment related to digital assets, noting risks from money laundering, terrorism financing, sanctions violations and bribery.\n\nhttps://cointelegraph.com/news/ireland-government-standards-crypto-risk-assessment?utm_source=rss&utm_medium=rss&utm_campaign=rss",
@@ -195,14 +214,14 @@
     "source_url": "https://cointelegraph.com/news/ireland-government-standards-crypto-risk-assessment?utm_source=rss&utm_medium=rss&utm_campaign=rss",
     "source_title": "Ireland mulls crypto safeguards in response to financial risks",
     "source_summary": "For the first time in seven years, the Irish government released an assessment related to digital assets, noting risks from money laundering, terrorism financing, sanctions violations and bribery.",
-    "drafted_at": "2026-06-18T23:28:21.359507",
+    "drafted_at": "2026-06-19T02:50:32.297714",
     "data": {
       "source": "COINTELEGRAPH"
     },
     "content_hash": "121f7fa1136afb7a"
   },
   {
-    "id": "5ce9bff0",
+    "id": "f0041b58",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "FRAUDSTER DOWN: The settlement ensures that convicted Celsius founder Alex Mashinsky is unable to trade in CFTC markets or register with the regulator.\n\nhttps://decrypt.co/371608/cftc-celsius-crypto-fraudster-alex-mashinsky-permanent-trading-ban",
@@ -212,14 +231,14 @@
     "source_url": "https://decrypt.co/371608/cftc-celsius-crypto-fraudster-alex-mashinsky-permanent-trading-ban",
     "source_title": "CFTC Hits Celsius Crypto Fraudster Alex Mashinsky With Permanent Trading Ban",
     "source_summary": "The settlement ensures that convicted Celsius founder Alex Mashinsky is unable to trade in CFTC markets or register with the regulator.",
-    "drafted_at": "2026-06-18T23:28:21.359736",
+    "drafted_at": "2026-06-19T02:50:32.297945",
     "data": {
       "source": "DECRYPT"
     },
     "content_hash": "e76241af01cc4ee7"
   },
   {
-    "id": "5b956ef6",
+    "id": "ed094eec",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Bitcoin Magazine Federal Reserve Moves to Close Stablecoin Loopholes With New Customer ID Rules The Federal Reserve proposed requiring stablecoin issuers to verify customer identities before account opening or direct token redemption, extending bank-style anti-money laundering standards to stablecoins.\n\nThis post Federal Reserve Moves to Close Stablecoin Loopholes With New Customer ID Rules first appeared on Bitcoin Magazine and is written by Micah Zimmerman.\n\nhttps://bitcoinmagazine.com/news/federal-reserve-moves-to-close-stablecoin",
@@ -229,14 +248,14 @@
     "source_url": "https://bitcoinmagazine.com/news/federal-reserve-moves-to-close-stablecoin",
     "source_title": "Federal Reserve Moves to Close Stablecoin Loopholes With New Customer ID Rules",
     "source_summary": "Bitcoin Magazine Federal Reserve Moves to Close Stablecoin Loopholes With New Customer ID Rules The Federal Reserve proposed requiring stablecoin issuers to verify customer identities before account opening or direct token redemption, extending bank-style anti-money laundering standards to stablecoins. This post Federal Reserve Moves to Close Stablecoin Loopholes With New Customer ID Rules first a",
-    "drafted_at": "2026-06-18T23:28:21.360366",
+    "drafted_at": "2026-06-19T02:50:32.298580",
     "data": {
       "source": "BITCOIN MAG"
     },
     "content_hash": "5e890e0cb87cc248"
   },
   {
-    "id": "d8f71867",
+    "id": "aff4a275",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The post Before SpaceX IPO, Investors in China Secretly Acquired Stakes appeared first on ProPublica.\n\nhttps://www.propublica.org/article/spacex-elon-musk-ipo-foreign-investors-china",
@@ -246,14 +265,14 @@
     "source_url": "https://www.propublica.org/article/spacex-elon-musk-ipo-foreign-investors-china",
     "source_title": "Before SpaceX IPO, Investors in China Secretly Acquired Stakes",
     "source_summary": "The post Before SpaceX IPO, Investors in China Secretly Acquired Stakes appeared first on ProPublica .",
-    "drafted_at": "2026-06-18T23:28:21.360553",
+    "drafted_at": "2026-06-19T02:50:32.298780",
     "data": {
       "source": "PROPUBLICA"
     },
     "content_hash": "700ad727b8af858f"
   },
   {
-    "id": "4de3c2fd",
+    "id": "e485b84c",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Keith Sonderling sent letters to 53 states and US territories demanding action to \u201ccombat waste, fraud, and abuse\u201d within the unemployment insurance program, threatening to withhold administrative funds from states for the first time in history.\n\nThe agency did not provide data on fraud or alleged fraud in unemployment systems, but highlighted three Democrat-led states \u2013 California, New York and Illinois \u2013 and made claims about each.\n\nThey say California owes $20bn to the federal government for a loan during the Covid-19 pandemic.\n\nCalifornia has struggled paying off the loan, as they did with a similar federal loan received during the 2008 economic recession, due to the current set-up of how employers are taxed to fund unemployment.\n\nhttps://www.theguardian.com/us-news/2026/jun/17/trump-administration-state-fraud-claims",
@@ -263,133 +282,133 @@
     "source_url": "https://www.theguardian.com/us-news/2026/jun/17/trump-administration-state-fraud-claims",
     "source_title": "Trump\u2019s Department of Labor claims without data that states defrauded government",
     "source_summary": "Acting secretary Keith Sonderling threatens to withhold administrative funds from states for first time in history Keith Sonderling sent letters to 53 states and US territories demanding action to \u201ccombat waste, fraud, and abuse\u201d within the unemployment insurance program, threatening to withhold administrative funds from states for the first time in history. \u201cWe are officially putting governors on",
-    "drafted_at": "2026-06-18T23:28:21.362262",
+    "drafted_at": "2026-06-19T02:50:32.300529",
     "data": {
       "source": "GUARDIAN"
     },
     "content_hash": "507104d50dab0cad"
   },
   {
-    "id": "19765b7f",
+    "id": "aac3a462",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Cross-border read: Last year I lost everything - my entire field got dried due of lack of water,\" Gutme says.\n\nAt an altitude of almost 4,000m (13,000ft) and receiving almost no rainfall, the Himalayan village of Sakti is a hostile place to be a farmer.\n\n\"Ladakh has a brutal, single-cultivation season,\" says Gelak Gutme, who has been growing wheat, peas and potatoes there for most of his 65 years.\n\nConditions have become worse in his lifetime.\n\nGlobal warming means that the smaller, low altitude glaciers they relied on to water their crops have disappeared.\n\n\"Now there is scarcity of water.\n\n\"For generations, small glaciers sitting right above the valleys acted like frozen water towers, holding onto water all winter and releasing it right when spring farming began,\" explains Lobzang Fardod, who is a member of a local water management committee in Ladakh.\n\nhttps://www.bbc.com/news/articles/c072414183go?at_medium=RSS&at_campaign=rss",
+    "draft_text": "Mainland wire: Brussels Playbook Week Ender host Sarah Wheaton is on the ground at the European Council summit, where divisions over European Council President Ant\u00f3nio Costa\u2019s outreach to the Kremlin divided leaders and dominated an evening that was supposed to be devoted to confronting the trade deficit with China.\n\nChief EU Correspondent Zoya Sheftalovich, trade reporter Carlo [\u2026]\n\nhttps://www.politico.eu/podcast/brussels-playbook-podcast/who-should-negotiate-with-putin/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "BBC",
-    "source_url": "https://www.bbc.com/news/articles/c072414183go?at_medium=RSS&at_campaign=rss",
-    "source_title": "The artificial ice pyramids saving India's mountain villages",
-    "source_summary": "Himalayan villages are creating artificial glaciers to guarantee water for their crops in the spring.",
-    "drafted_at": "2026-06-18T23:28:21.365019",
+    "primary_source": "POLITICO EU",
+    "source_url": "https://www.politico.eu/podcast/brussels-playbook-podcast/who-should-negotiate-with-putin/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+    "source_title": "Who should negotiate with Putin?",
+    "source_summary": "Brussels Playbook Week Ender host Sarah Wheaton is on the ground at the European Council summit, where divisions over European Council President Ant\u00f3nio Costa\u2019s outreach to the Kremlin divided leaders and dominated an evening that was supposed to be devoted to confronting the trade deficit with China. Chief EU Correspondent Zoya Sheftalovich, trade reporter Carlo [\u2026]",
+    "drafted_at": "2026-06-19T02:50:32.302368",
     "data": {
-      "source": "BBC"
+      "source": "POLITICO EU"
     },
-    "content_hash": "5b49a3d05669bd22"
+    "content_hash": "cf65b5fdf19d2d9a"
   },
   {
-    "id": "7f1461d5",
+    "id": "b1a50b25",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "MIDDLE EAST DESK: Hyperventilating experts were wrong about the Iran war.\n\nThe end of the conflict is a massive buy signal for stocks.\n\nhttps://www.marketwatch.com/story/trumps-iran-agreement-changes-the-game-for-investors-these-are-the-two-sectors-to-buy-right-now-0705bc62?mod=mw_rss_topstories",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "MARKETWATCH",
-    "source_url": "https://www.marketwatch.com/story/trumps-iran-agreement-changes-the-game-for-investors-these-are-the-two-sectors-to-buy-right-now-0705bc62?mod=mw_rss_topstories",
-    "source_title": "Trump\u2019s Iran agreement is a massive buy signal for stocks",
-    "source_summary": "Hyperventilating experts were wrong about the Iran war. The end of the conflict is a massive buy signal for stocks.",
-    "drafted_at": "2026-06-18T23:28:21.365731",
-    "data": {
-      "source": "MARKETWATCH"
-    },
-    "content_hash": "354ab6b038c83b64"
-  },
-  {
-    "id": "b859ba9e",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "From the Gulf: In the US, the latest data shows that average gasoline prices stood at $4.05 (\u00a33.05) per gallon, up from $2.94 per gallon before the war started, while diesel had risen from $3.81 to $5.06 over the same period.\n\nThe outbreak of the US-Israel war with Iran in February caused shock waves across the global economy.\n\nThe region plays a key role in global oil and gas supplies, and the closure of the key Strait of Hormuz shipping corridor, has driven up prices on a wide range of things from energy bills to air fares.\n\nOn 18 June, Iran and the US signed a deal aimed at bringing an end to the war, with the Strait set to reopen.\n\nhttps://www.bbc.com/news/articles/c4g5574pwreo?at_medium=RSS&at_campaign=rss",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "BBC",
-    "source_url": "https://www.bbc.com/news/articles/c4g5574pwreo?at_medium=RSS&at_campaign=rss",
-    "source_title": "Five ways the Iran peace deal could affect you and your money",
-    "source_summary": "With fuel and gas prices having fallen in recent days, we look at how the end of hostitlities might affect you - in five charts.",
-    "drafted_at": "2026-06-18T23:28:21.366968",
-    "data": {
-      "source": "BBC"
-    },
-    "content_hash": "1eb5d7c76f9eb561"
-  },
-  {
-    "id": "ff2a7cf5",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Continental update: Nuclear power is experiencing a massive revival across Europe, with the regulatory environment shifting decisively in its favor thanks to surging electricity demand from the AI and data center boom, climate goals, volatile global energy markets and the urgent need for structural energy independence.\n\nIt\u2019s a big wishlist, and nuclear may be the fastest way to realize it.\n\nMassive power demand by the tech giants and hyperscalers is exceeding traditional grid capacities in Europe and the United States.\n\nAI data centers require huge amounts of baseload\u2026\n\nhttps://oilprice.com/Energy/Energy-General/Europe-Has-Entered-The-Nuclear-Golden-Age-Amid-AI-Boom.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "OILPRICE",
-    "source_url": "https://oilprice.com/Energy/Energy-General/Europe-Has-Entered-The-Nuclear-Golden-Age-Amid-AI-Boom.html",
-    "source_title": "Europe Has Entered The Nuclear Golden Age Amid AI Boom",
-    "source_summary": "Nuclear power is experiencing a massive revival across Europe, with the regulatory environment shifting decisively in its favor thanks to surging electricity demand from the AI and data center boom, climate goals, volatile global energy markets and the urgent need for structural energy independence. It\u2019s a big wishlist, and nuclear may be the fastest way to realize it. Massive power demand by the ",
-    "drafted_at": "2026-06-18T23:28:21.367896",
-    "data": {
-      "source": "OILPRICE"
-    },
-    "content_hash": "64f78168a7af8fee"
-  },
-  {
-    "id": "5a7e5658",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "From the Gulf: The US-Iran agreement's $300B fund could reshape regional alliances, enhance Iran's economic integration, and influence global oil dynamics.\n\nThe post Brookings Institution\u2019s Suzanne Maloney breaks down $300B funding mechanism in US-Iran agreement appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/brookings-maloney-300b-us-iran-gcc-funding/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/brookings-maloney-300b-us-iran-gcc-funding/",
-    "source_title": "Brookings Institution\u2019s Suzanne Maloney breaks down $300B funding mechanism in US-Iran agreement",
-    "source_summary": "The US-Iran agreement's $300B fund could reshape regional alliances, enhance Iran's economic integration, and influence global oil dynamics. The post Brookings Institution\u2019s Suzanne Maloney breaks down $300B funding mechanism in US-Iran agreement appeared first on Crypto Briefing .",
-    "drafted_at": "2026-06-18T23:28:21.368939",
-    "data": {
-      "source": "CRYPTO BRIEFING"
-    },
-    "content_hash": "48853900e5bd4635"
-  },
-  {
-    "id": "46bc19e5",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "CPI POSTCARD: Russell 2000 rises by 2.12% and NASDAQ by 1.91% to lead stocks higher Trump: US is committed to PEACE Iran supreme leader responds to US MOU with caution Bitcoin price action is spelling T-R-O-U-B-L-E for the buyers US list blockade of maritime traffic entering and exiting the Straits of Hormuz Key Points from the MOU between the US and Iran.\n\nMajor European indices close mixed with a bigger tilt to the upside VP Vance: We will manage flare-ups through diplomacy.\n\nBloomberg reports that Kuwait is boosting oil output.\n\nCrude oil tests key 200 day MA US June Philly Fed business index 10.3 versus 10.0 estimate US initial jobless claims 226K vs 225K estimate.\n\nContinuing Claims 1.810M vs 1.795M est Canada May PPI +1.2% m/m vs +1.8% expected ECBs Lane: Hikes aim to contain spread of energy shock investingLive European FX news wrap: SNB and BoE steady; US dollar extends gains The USD continued its run to the upside after the more hawkish Fed yesterday.\n\nThe gains in the greenback were led by gains versus the GBP (+0.68%), the CHF (+0.56%) and the JPY (+0.47%).\n\nThe BOE and the SNB both kept rates unchanged.\n\nFor the Bank of England, although the skew is toward higher rates, the central bank seems to be on hold for the foreseeable future as risks of slower growth balances things out a bit versus inflation.\n\nhttps://investinglive.com/news/investinglive-americas-fx-news-wrap-18-jun-usdjpy-20260618/",
+    "draft_text": "Levant update: Oil and the dollar moved on the Vance cancellation and the direction of both tells the story: markets had been pricing a relatively clean transition from ceasefire to negotiation, and this early stumble has repriced that assumption.\n\nThe 60-day clock on the MoU's nuclear talks is now running while the first meeting remains unscheduled, which is not a comfortable position for a process that has no margin for extended procedural delay.\n\nThe risk premium that drained out of crude following the Hormuz reopening faces a partial rebuild if the Geneva round fails to convene promptly.\n\nA lower-level Iranian delegation led by Araghchi, if confirmed, would be read as a face-saving compromise rather than a signal of genuine momentum. --- JD Vance has cancelled his planned Switzerland trip for US-Iran nuclear talks, first reported by CNN, as Tehran debates whether to engage at all given Israel's continued Lebanon operations.\n\nSummary: Vance cancelled his planned trip to Switzerland for the first round of US-Iran nuclear negotiations, citing unresolved logistics and uncertainty over the talks' format Iran's initial proposed lead negotiator, parliamentary speaker Mohammad Bagher Ghalibaf, is also unlikely to attend, with Israeli strikes on Lebanon cited as a complicating factor A heated internal debate has broken out in Tehran over whether engaging in Switzerland is an appropriate gesture given the MoU has already been signed, with hardliners questioning the optics Supreme Leader Khamenei has signalled approval for a possible meeting with US officials in principle, but that has not resolved the internal argument A lower-level Iranian delegation potentially led by Foreign Minister Araghchi is under consideration as a compromise that would allow talks to begin without the symbolism of a senior-level meeting The first scheduled test of the US-Iran memorandum of understanding has produced an early and uncomfortable result: neither side is going to Switzerland, at least not yet, and the reasons on each side are different enough to suggest the friction runs deeper than logistics.\n\nJD Vance, who was to lead the American delegation into the first round of nuclear negotiations under the MoU's 60-day framework, cancelled his trip, with the White House citing unresolved logistics and uncertainty about the talks' structure.\n\nThe cancellation was first reported by CNN before receiving official confirmation.\n\nIn isolation it might read as a scheduling issue.\n\nhttps://investinglive.com/news/oil-and-us-dollar-rising-on-news-that-vance-cancelled-his-trip-to-negotiate-with-iran-20260619/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-18-jun-usdjpy-20260618/",
-    "source_title": "investingLive Americas FX news wrap 18 Jun  USDJPY surges to near highs going to 2024",
-    "source_summary": "Russell 2000 rises by 2.12% and NASDAQ by 1.91% to lead stocks higher Trump: US is committed to PEACE Iran supreme leader responds to US MOU with caution Bitcoin price action is spelling T-R-O-U-B-L-E for the buyers US list blockade of maritime traffic entering and exiting the Straits of Hormuz Key Points from the MOU between the US and Iran. Major European indices close mixed with a bigger tilt t",
-    "drafted_at": "2026-06-18T23:28:21.425472",
+    "source_url": "https://investinglive.com/news/oil-and-us-dollar-rising-on-news-that-vance-cancelled-his-trip-to-negotiate-with-iran-20260619/",
+    "source_title": "Oil and US dollar rising on news that Vance cancelled his trip to negotiate with Iran",
+    "source_summary": "Oil and the dollar moved on the Vance cancellation and the direction of both tells the story: markets had been pricing a relatively clean transition from ceasefire to negotiation, and this early stumble has repriced that assumption. The 60-day clock on the MoU's nuclear talks is now running while the first meeting remains unscheduled, which is not a comfortable position for a process that has no m",
+    "drafted_at": "2026-06-19T02:50:32.305926",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "d831d2b85e5f68d8"
+    "content_hash": "97a812b9872baed6"
   },
   {
-    "id": "b18658ff",
+    "id": "0b0752fd",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "From the Gulf: The AUD/USD pair loses momentum to near 0.7010 during the Asian trading hours on Friday.\n\nThe Australian Dollar (AUD) softens against the US Dollar (USD) after reports that US Vice President JD Vance canceled his trip to talks with Iran in Switzerland, raising concerns about the US-Iran peace deal.\n\nhttps://www.fxstreet.com/news/australian-dollar-softens-to-near-07000-as-vice-president-canceled-trip-to-talks-with-iran-202606190151",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/australian-dollar-softens-to-near-07000-as-vice-president-canceled-trip-to-talks-with-iran-202606190151",
+    "source_title": "Australian Dollar softens to near 0.7000 as Vice President canceled trip to talks with Iran",
+    "source_summary": "The AUD/USD pair loses momentum to near 0.7010 during the Asian trading hours on Friday. The Australian Dollar (AUD) softens against the US Dollar (USD) after reports that US Vice President JD Vance canceled his trip to talks with Iran in Switzerland, raising concerns about the US-Iran peace deal.",
+    "drafted_at": "2026-06-19T02:50:32.306574",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "014488bb2d7a4b6d"
+  },
+  {
+    "id": "63d7b00f",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: US Vice President JD Vance canceled his trip to talks with Iran in Switzerland, CNN reported on Friday.\n\nhttps://www.fxstreet.com/news/us-vice-president-jd-vance-cancels-trip-to-switzerland-for-iran-talks-202606190125",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/us-vice-president-jd-vance-cancels-trip-to-switzerland-for-iran-talks-202606190125",
+    "source_title": "US Vice President JD Vance cancels trip to Switzerland for Iran talks",
+    "source_summary": "US Vice President JD Vance canceled his trip to talks with Iran in Switzerland, CNN reported on Friday.",
+    "drafted_at": "2026-06-19T02:50:32.306823",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "7a1619e60b8b10a8"
+  },
+  {
+    "id": "a11cfffa",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "ASIA DESK: The USD/JPY pair is seen extending the previous day's late pullback from the 161.80 region, or a fresh high since July 2024, and drifting lower during the Asian session on Friday.\n\nhttps://www.fxstreet.com/news/japanese-yen-recovers-from-two-year-low-vs-usd-as-boj-hike-bets-offset-japans-softer-cpi-202606190119",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/japanese-yen-recovers-from-two-year-low-vs-usd-as-boj-hike-bets-offset-japans-softer-cpi-202606190119",
+    "source_title": "Japanese Yen recovers from two-year low vs USD as BoJ hike bets offset Japan's softer CPI",
+    "source_summary": "The USD/JPY pair is seen extending the previous day's late pullback from the 161.80 region, or a fresh high since July 2024, and drifting lower during the Asian session on Friday.",
+    "drafted_at": "2026-06-19T02:50:32.307157",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "78c9f292aab27611"
+  },
+  {
+    "id": "ba4418b4",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "The CPI scoreboard: The yen continues to struggle despite the Bank of Japan rate hike this week: The USDJPY is squeezing toward 2024 highs.\n\nData from NZ kick off the calendar, May CPI from Japan follows later.\n\nHeadline and core measures have remained below the BoJ 2% target for four consecutive months.\n\nBOJ minutes, April meeting, not this week's, follows.\n\nNote, HK and China are on holidays today, which'll thin out interest and liquidity somewhat.\n\nThis article was written by Eamonn Sheridan at investinglive.com.\n\nhttps://investinglive.com/news/japanese-inflation-data-on-the-economic-and-event-calendar-in-asia-friday-june-19-2026-20260618/",
+    "draft_text": "From the inflation desk: The USD/JPY pair is seen extending the previous day's late pullback from the 161.80 region, or a fresh high since July 2024, and drifting lower during the Asian session on Friday.\n\nhttps://www.fxstreet.com/news/japanese-yen-recovers-from-two-year-low-vs-usd-as-boj-hike-bets-offset-japans-softer-cpi-202606190119",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/japanese-yen-recovers-from-two-year-low-vs-usd-as-boj-hike-bets-offset-japans-softer-cpi-202606190119",
+    "source_title": "Japanese Yen recovers from two-year low vs USD as BoJ hike bets offset Japan's softer CPI",
+    "source_summary": "The USD/JPY pair is seen extending the previous day's late pullback from the 161.80 region, or a fresh high since July 2024, and drifting lower during the Asian session on Friday.",
+    "drafted_at": "2026-06-19T02:50:32.362202",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "78c9f292aab27611"
+  },
+  {
+    "id": "587c0cec",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "How sticky is inflation? Let's see: I'll have more to come on this separately.\n\nADDED, here: Japan CPI stays muted in May as subsidies mask building inflation pressure For now, just the data: National CPI: ex Food, Energy (YoY) (May) 1.8% y/y... aka Core-core and the closest to the US measure of core inflation: expected 1.9% 1.8% is the slowest since September 2022 ex Fresh Food (YoY) (May) 1.4%... aka Core: expected 1.4%, prior 1.4% Headline 1.5% expected 1.4%, prior 1.4% This article was written by Eamonn Sheridan at investinglive.com.\n\nhttps://investinglive.com/news/japan-may-inflation-data-headline-15-yy-expected-15-core-14-expected-14-20260618/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/japanese-inflation-data-on-the-economic-and-event-calendar-in-asia-friday-june-19-2026-20260618/",
-    "source_title": "Japanese inflation data on the economic and event calendar in Asia, Friday, June 19, 2026",
-    "source_summary": "The yen continues to struggle despite the Bank of Japan rate hike this week: The USDJPY is squeezing toward 2024 highs. Data from NZ kick off the calendar, May CPI from Japan follows later. Headline and core measures have remained below the BoJ 2% target for four consecutive months. BOJ minutes, April meeting, not this week's, follows. Note, HK and China are on holidays today, which'll thin out in",
-    "drafted_at": "2026-06-18T23:28:21.426065",
+    "source_url": "https://investinglive.com/news/japan-may-inflation-data-headline-15-yy-expected-15-core-14-expected-14-20260618/",
+    "source_title": "Japan May inflation data: Headline 1.5% y/y (expected 1.5%) Core 1.4% (expected 1.4%)",
+    "source_summary": "I'll have more to come on this separately. ADDED, here: Japan CPI stays muted in May as subsidies mask building inflation pressure For now, just the data: National CPI: ex Food, Energy (YoY) (May) 1.8% y/y ... aka Core-core and the closest to the US measure of core inflation: expected 1.9% 1.8% is the slowest since September 2022 ex Fresh Food (YoY) (May) 1.4% ... aka Core: expected 1.4%, prior 1.",
+    "drafted_at": "2026-06-19T02:50:32.362889",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "d8a2052858424134"
+    "content_hash": "4a1f71ff8f7479bf"
   },
   {
-    "id": "9bda4122",
+    "id": "69662515",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "Fresh print: There has been an unexpected dip in the UK's unemployment rate in official figures also showing new recruits in payrolled work at their lowest level for five years and private sector basic pay awards struggling.\n\nhttps://news.sky.com/story/unemployment-rate-falls-but-private-sector-wage-growth-suffers-13554974",
@@ -399,14 +418,14 @@
     "source_url": "https://news.sky.com/story/unemployment-rate-falls-but-private-sector-wage-growth-suffers-13554974",
     "source_title": "Unemployment rate falls but private sector wage growth suffers",
     "source_summary": "There has been an unexpected dip in the UK's unemployment rate in official figures also showing new recruits in payrolled work at their lowest level for five years and private sector basic pay awards struggling.",
-    "drafted_at": "2026-06-18T23:28:21.426407",
+    "drafted_at": "2026-06-19T02:50:32.363251",
     "data": {
       "source": "SKY NEWS"
     },
     "content_hash": "460a743948957d5b"
   },
   {
-    "id": "37c0e731",
+    "id": "e62adba9",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -416,7 +435,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-06-18T23:28:21.427914",
+    "drafted_at": "2026-06-19T02:50:32.364970",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -424,24 +443,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "8263fb32",
-    "format": "PACK_TAKE",
-    "status": "pending",
-    "draft_text": "When everyone's positioned for a crash, the crash takes a vacation.",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Howl Street",
-    "source_url": "",
-    "source_title": "PACK TAKE",
-    "source_summary": "When everyone's positioned for a crash, the crash takes a vacation.",
-    "drafted_at": "2026-06-18T23:28:21.428000",
-    "data": {
-      "take_seed": "2026-06-18-pack-1"
-    },
-    "content_hash": "9b0f7be55d8ef71c"
-  },
-  {
-    "id": "575e9510",
+    "id": "d7609940",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Gold doesn't pay a dividend. Neither does a fire extinguisher.",
@@ -451,9 +453,26 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Gold doesn't pay a dividend. Neither does a fire extinguisher.",
-    "drafted_at": "2026-06-18T23:28:21.428059",
+    "drafted_at": "2026-06-19T02:50:32.365079",
     "data": {
-      "take_seed": "2026-06-18-pack-2"
+      "take_seed": "2026-06-19-pack-1"
+    },
+    "content_hash": "9b0f7be55d8ef71c"
+  },
+  {
+    "id": "754cc4c2",
+    "format": "PACK_TAKE",
+    "status": "pending",
+    "draft_text": "If the call comes from a stranger and the return looks like a stairway, it's a stairway down.",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Howl Street",
+    "source_url": "",
+    "source_title": "PACK TAKE",
+    "source_summary": "If the call comes from a stranger and the return looks like a stairway, it's a stairway down.",
+    "drafted_at": "2026-06-19T02:50:32.365162",
+    "data": {
+      "take_seed": "2026-06-19-pack-2"
     },
     "content_hash": "9b0f7be55d8ef71c"
   }
