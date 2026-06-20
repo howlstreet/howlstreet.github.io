@@ -1,23 +1,61 @@
 [
   {
-    "id": "8017a893",
+    "id": "ee499bc2",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "THE BIG ONE: The Euro did something this week that ought to be impossible: it fell in the same fortnight the European Central Bank (ECB) delivered its first interest rate hike since 2023.\n\nhttps://www.fxstreet.com/news/the-euro-sinks-on-its-own-rate-hike-202606192201",
+    "draft_text": "FLAGSHIP READ: A Trump-appointed Fed official addressed Bank of America clients during the Fed's \"quiet period,\" when officials are barred from discussing monetary policy.\n\nhttps://www.washingtonpost.com/business/2026/06/19/fed-governor-spoke-bank-america-dinner-during-fed-quiet-period/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/the-euro-sinks-on-its-own-rate-hike-202606192201",
-    "source_title": "The Euro sinks on its own rate hike",
-    "source_summary": "The Euro did something this week that ought to be impossible: it fell in the same fortnight the European Central Bank (ECB) delivered its first interest rate hike since 2023.",
-    "drafted_at": "2026-06-19T23:58:59.204145",
+    "primary_source": "WAPO",
+    "source_url": "https://www.washingtonpost.com/business/2026/06/19/fed-governor-spoke-bank-america-dinner-during-fed-quiet-period/",
+    "source_title": "Fed governor spoke at Bank of America dinner during Fed\u2019s \u2018quiet period\u2019",
+    "source_summary": "A Trump-appointed Fed official addressed Bank of America clients during the Fed's \"quiet period,\" when officials are barred from discussing monetary policy.",
+    "drafted_at": "2026-06-20T03:26:34.262439",
     "data": {
-      "source": "FXSTREET"
+      "source": "WAPO"
     },
-    "content_hash": "a74a02d7ce1ea3af"
+    "content_hash": "722393c9efb19131"
   },
   {
-    "id": "e899d2fe",
+    "id": "5223fee6",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "The chart told me. Now I'm telling you. VIX craters 15.6% in 5 sessions to 16.78.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CBOE \u00b7 ^VIX",
+    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "source_title": "VIX (S&P 500 volatility)",
+    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "drafted_at": "2026-06-20T03:26:34.262777",
+    "data": {
+      "signal_id": "^VIX:move:2026-06-19",
+      "kind": "move_down",
+      "current": "16.78"
+    },
+    "content_hash": "995f4d67e7e875d2"
+  },
+  {
+    "id": "bcd0f3b5",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Hot tape: WTI crude tumbles 13.2% in 5 sessions to $76.54.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NYMEX \u00b7 CL=F",
+    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "source_title": "WTI crude oil futures",
+    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "drafted_at": "2026-06-20T03:26:34.263024",
+    "data": {
+      "signal_id": "CL=F:move:2026-06-19",
+      "kind": "move_down",
+      "current": "$76.54"
+    },
+    "content_hash": "c272de0720a2f459"
+  },
+  {
+    "id": "42decb74",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "RATE-PATH READ: Engelbrecht is the former chief executive officer of Bank of Eufaula and a former director of the bank and its holding company, S N B Bancshares, Inc. In his former roles, Engelbrecht leveraged his position to cause the bank to provide imprudent extensions of credit to his relative's company and he participated in the fabrication of board meeting minutes.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260618b.htm",
@@ -27,14 +65,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260618b.htm",
     "source_title": "Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc.",
     "source_summary": "Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc.",
-    "drafted_at": "2026-06-19T23:58:59.214292",
+    "drafted_at": "2026-06-20T03:26:34.272979",
     "data": {
       "actor": "FED"
     },
     "content_hash": "52b15b90987fc933"
   },
   {
-    "id": "d2c69f6f",
+    "id": "ec596767",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "RATE-PATH READ: Comments on the proposal are due 60 days after publication in the Federal Register.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260618a.htm",
@@ -44,14 +82,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260618a.htm",
     "source_title": "Federal Reserve Board requests comment on proposal to require certain payment stablecoin issuers to maintain an effective customer identification program",
     "source_summary": "Federal Reserve Board requests comment on proposal to require certain payment stablecoin issuers to maintain an effective customer identification program",
-    "drafted_at": "2026-06-19T23:58:59.214569",
+    "drafted_at": "2026-06-20T03:26:34.273273",
     "data": {
       "actor": "FED"
     },
     "content_hash": "a8838c582bb87e8b"
   },
   {
-    "id": "3b05889b",
+    "id": "d4927885",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "BoE update: Announcing its latest interest rates decision the morning after a thrilling England World Cup win, the Bank of England continues to put its foot on the ball.\n\nhttps://news.sky.com/story/a-bank-of-england-rate-hike-is-still-possible-despite-easing-inflation-outlook-13555250",
@@ -61,14 +99,14 @@
     "source_url": "https://news.sky.com/story/a-bank-of-england-rate-hike-is-still-possible-despite-easing-inflation-outlook-13555250",
     "source_title": "A Bank of England rate hike is still possible",
     "source_summary": "Announcing its latest interest rates decision the morning after a thrilling England World Cup win, the Bank of England continues to put its foot on the ball.",
-    "drafted_at": "2026-06-19T23:58:59.215120",
+    "drafted_at": "2026-06-20T03:26:34.273811",
     "data": {
       "actor": "Bank of England"
     },
     "content_hash": "cb3bbba537d45aed"
   },
   {
-    "id": "ed5234b3",
+    "id": "c9570046",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FED WATCH: US stock markets dropped on Wednesday afternoon after the Federal Reserve left interest rates unchanged and signaled a possible rate hike before the end of the year.\n\nThe Fed was widely expected to keep rates at a range of 3.5% to 3.75%, where they have remained since December.\n\nThe decision was unanimously supported by the Fed\u2019s voting committee.\n\n\u201cEconomic activity is expanding at a solid pace despite elevated uncertainty that owes, in part, to the conflict in the Middle East,\u201d the Fed\u2019s open market committee said in the statement.\n\nThis was the first meeting overseen by Kevin Warsh, who took over as Fed chair in May and has implied he wants to tighten the Fed\u2019s public communications on future guidance.\n\nhttps://www.theguardian.com/business/2026/jun/17/federal-reserve-interest-rates",
@@ -78,14 +116,14 @@
     "source_url": "https://www.theguardian.com/business/2026/jun/17/federal-reserve-interest-rates",
     "source_title": "Federal Reserve holds rates steady but signals possible hike before year\u2019s end",
     "source_summary": "Open markets committee says \u2018economic activity is expanding at a solid pace\u2019 in first meeting under new chair Kevin Warsh US stock markets dropped on Wednesday afternoon after the Federal Reserve left interest rates unchanged and signaled a possible rate hike before the end of the year. The Fed was widely expected to keep rates at a range of 3.5% to 3.75%, where they have remained since December. ",
-    "drafted_at": "2026-06-19T23:58:59.216193",
+    "drafted_at": "2026-06-20T03:26:34.274902",
     "data": {
       "actor": "Federal Reserve"
     },
     "content_hash": "808158621f7295b4"
   },
   {
-    "id": "b07a354f",
+    "id": "f90ce547",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FOMC desk: The Committee decided to maintain the target range for the federal funds rate at 3-1/2 to 3-3/4 percent, in support of the Federal Reserve's dual mandate.\n\nJob gains have kept pace with the workforce, and the unemployment rate has changed little.\n\nInflation remains elevated relative to the Committee's 2 percent goal, in part reflecting supply shocks that have driven price increases in certain sectors, including energy.\n\nThe Committee reaffirmed its policy of maintaining ample reserves in the banking system.\n\nEconomic activity is expanding at a solid pace despite elevated uncertainty that owes, in part, to the conflict in the Middle East.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
@@ -95,14 +133,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
     "source_title": "Federal Reserve issues FOMC statement",
     "source_summary": "Federal Reserve issues FOMC statement",
-    "drafted_at": "2026-06-19T23:58:59.216908",
+    "drafted_at": "2026-06-20T03:26:34.275622",
     "data": {
       "actor": "FED"
     },
     "content_hash": "6de2e15325531532"
   },
   {
-    "id": "37195160",
+    "id": "2329cdd4",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$PSUS insider bought $70,735,390 on 2026-06-17, 7 insiders. \ud83d\udc40\n\nPershing Square Usa, Ltd.. 1,417,000 shares at $49.92.\n\n-20.3% since the purchase.\n\nhttp://openinsider.com/screener?s=PSUS",
@@ -112,7 +150,7 @@
     "source_url": "http://openinsider.com/screener?s=PSUS",
     "source_title": "Pershing Square Usa, Ltd. (PSUS) insider bought $70,735,390",
     "source_summary": "7 insider(s) bought 1,417,000 shares at $49.92 on 2026-06-17.",
-    "drafted_at": "2026-06-19T23:58:59.217766",
+    "drafted_at": "2026-06-20T03:26:34.276511",
     "data": {
       "ticker": "PSUS",
       "type": "P",
@@ -122,47 +160,27 @@
     "content_hash": "06b51d7fce606b41"
   },
   {
-    "id": "dd2b66d8",
+    "id": "7dec9ef6",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$QNT insider bought $24,649,920 on 2026-06-05, 10 insiders. \ud83d\udc40\n\nQuantinuum Inc.. 410,832 shares at $60.00.\n\n+16.3% since the purchase.\n\nhttp://openinsider.com/screener?s=QNT",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=QNT",
-    "source_title": "Quantinuum Inc. (QNT) insider bought $24,649,920",
-    "source_summary": "10 insider(s) bought 410,832 shares at $60.00 on 2026-06-05.",
-    "drafted_at": "2026-06-19T23:58:59.217884",
-    "data": {
-      "ticker": "QNT",
-      "type": "P",
-      "dollar_value": 24649920.0,
-      "pct_since": 16.333338419596355
-    },
-    "content_hash": "1896377d0aa7046f"
-  },
-  {
-    "id": "777a6e09",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$HLNE insider bought $14,241,108 on 2026-06-11, 3 insiders. \ud83d\udc40\n\nHamilton Lane Inc. 165,505 shares at $86.05.\n\n-6.1% since the purchase.\n\nhttp://openinsider.com/screener?s=HLNE",
+    "draft_text": "$HLNE insider bought $14,241,108 on 2026-06-11, 3 insiders. \ud83d\udc40\n\nHamilton Lane Inc. 165,505 shares at $86.05.\n\n-4.5% since the purchase.\n\nhttp://openinsider.com/screener?s=HLNE",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=HLNE",
     "source_title": "Hamilton Lane Inc (HLNE) insider bought $14,241,108",
     "source_summary": "3 insider(s) bought 165,505 shares at $86.05 on 2026-06-11.",
-    "drafted_at": "2026-06-19T23:58:59.217990",
+    "drafted_at": "2026-06-20T03:26:34.276620",
     "data": {
       "ticker": "HLNE",
       "type": "P",
       "dollar_value": 14241108.0,
-      "pct_since": -6.101100462803236
+      "pct_since": -4.450899220565802
     },
     "content_hash": "44918ed475624ad2"
   },
   {
-    "id": "fdcdd537",
+    "id": "775eb5d3",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$FUN insider bought $6,174,038 on 2026-06-12, 3 insiders. \ud83d\udc40\n\nSix Flags Entertainment Corporation/New. 265,000 shares at $23.30.\n\n+6.7% since the purchase.\n\nhttp://openinsider.com/screener?s=FUN",
@@ -172,7 +190,7 @@
     "source_url": "http://openinsider.com/screener?s=FUN",
     "source_title": "Six Flags Entertainment Corporation/New (FUN) insider bought $6,174,038",
     "source_summary": "3 insider(s) bought 265,000 shares at $23.30 on 2026-06-12.",
-    "drafted_at": "2026-06-19T23:58:59.218106",
+    "drafted_at": "2026-06-20T03:26:34.276739",
     "data": {
       "ticker": "FUN",
       "type": "P",
@@ -182,7 +200,7 @@
     "content_hash": "bd45ae1ea9778c7e"
   },
   {
-    "id": "ac4d52c9",
+    "id": "ed08be3f",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$CAES insider bought $6,000,000 on 2026-06-18. \ud83d\udc40\n\nCantor Equity Partners Vii, Inc.. 600,000 shares at $10.00.\n\n+1.1% since the purchase.\n\nhttp://openinsider.com/screener?s=CAES",
@@ -192,7 +210,7 @@
     "source_url": "http://openinsider.com/screener?s=CAES",
     "source_title": "Cantor Equity Partners Vii, Inc. (CAES) insider bought $6,000,000",
     "source_summary": "1 insider(s) bought 600,000 shares at $10.00 on 2026-06-18.",
-    "drafted_at": "2026-06-19T23:58:59.218213",
+    "drafted_at": "2026-06-20T03:26:34.276847",
     "data": {
       "ticker": "CAES",
       "type": "P",
@@ -202,7 +220,27 @@
     "content_hash": "33c91e41031d7de0"
   },
   {
-    "id": "5f3766e7",
+    "id": "8cc4c51d",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$LODE insider bought $4,243,906 on 2026-06-11, 4 insiders. \ud83d\udc40\n\nComstock Inc.. 1,132,651 shares at $3.75.\n\n+27.2% since the purchase.\n\nhttp://openinsider.com/screener?s=LODE",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=LODE",
+    "source_title": "Comstock Inc. (LODE) insider bought $4,243,906",
+    "source_summary": "4 insider(s) bought 1,132,651 shares at $3.75 on 2026-06-11.",
+    "drafted_at": "2026-06-20T03:26:34.276951",
+    "data": {
+      "ticker": "LODE",
+      "type": "P",
+      "dollar_value": 4243906.0,
+      "pct_since": 27.1999994913737
+    },
+    "content_hash": "81666070a417a65a"
+  },
+  {
+    "id": "df30369b",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The wolves howled, the regulators listened. The bill is meant to curb potential insider trading, blocking lawmakers and family members from policy-related prediction market bets.\n\nhttps://decrypt.co/371705/house-republican-insider-trading-bill-ban-lawmaker-prediction-market",
@@ -212,14 +250,14 @@
     "source_url": "https://decrypt.co/371705/house-republican-insider-trading-bill-ban-lawmaker-prediction-market",
     "source_title": "House Republican Introduces Insider Trading Bill to Ban Lawmaker Prediction Market Bets",
     "source_summary": "The bill is meant to curb potential insider trading, blocking lawmakers and family members from policy-related prediction market bets.",
-    "drafted_at": "2026-06-19T23:58:59.219194",
+    "drafted_at": "2026-06-20T03:26:34.277940",
     "data": {
       "source": "DECRYPT"
     },
     "content_hash": "695c33d15c864d7b"
   },
   {
-    "id": "7637f12a",
+    "id": "2d307754",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Pack \u2014 got one. The bill did not specifically bar members of the US Congress from using the platforms or making sports bets, but prohibited policy wagers.\n\nhttps://cointelegraph.com/news/prediction-markets-law-white-house-officials?utm_source=rss&utm_medium=rss&utm_campaign=rss",
@@ -229,48 +267,14 @@
     "source_url": "https://cointelegraph.com/news/prediction-markets-law-white-house-officials?utm_source=rss&utm_medium=rss&utm_campaign=rss",
     "source_title": "Republican lawmaker proposes prediction markets insider trading ban, not including White House officials",
     "source_summary": "The bill did not specifically bar members of the US Congress from using the platforms or making sports bets, but prohibited policy wagers.",
-    "drafted_at": "2026-06-19T23:58:59.219414",
+    "drafted_at": "2026-06-20T03:26:34.278165",
     "data": {
       "source": "COINTELEGRAPH"
     },
     "content_hash": "a24c857e73a4ca6c"
   },
   {
-    "id": "0aaa4a49",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "The Arizona Legislature passed bill adding at least three anti-fraud protection's to ballots such as watermarks, customized holograms and forensic ink technology.\n\nhttps://justthenews.com/nation/states/center-square/arizona-lawmakers-send-ballot-security-bill-hobbs?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "JUST THE NEWS",
-    "source_url": "https://justthenews.com/nation/states/center-square/arizona-lawmakers-send-ballot-security-bill-hobbs?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
-    "source_title": "Arizona lawmakers send ballot security bill to Gov. Hobbs",
-    "source_summary": "The Arizona Legislature passed bill adding at least three anti-fraud protection's to ballots such as watermarks, customized holograms and forensic ink technology.",
-    "drafted_at": "2026-06-19T23:58:59.219640",
-    "data": {
-      "source": "JUST THE NEWS"
-    },
-    "content_hash": "f27d4e3f9eadcf81"
-  },
-  {
-    "id": "0b00b4a3",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "FROM THE COURTHOUSE: Carlos Mencia was arrested this week and charged with failing to pay taxes for six years.\n\nhttps://justthenews.com/nation/crime/comedian-carlos-mencia-arrested-la-home-charged-felony-tax-evasion?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "JUST THE NEWS",
-    "source_url": "https://justthenews.com/nation/crime/comedian-carlos-mencia-arrested-la-home-charged-felony-tax-evasion?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
-    "source_title": "Comedian Carlos Mencia arrested at LA home, charged with felony tax evasion",
-    "source_summary": "Carlos Mencia was arrested this week and charged with failing to pay taxes for six years.",
-    "drafted_at": "2026-06-19T23:58:59.219805",
-    "data": {
-      "source": "JUST THE NEWS"
-    },
-    "content_hash": "9f977306655a952f"
-  },
-  {
-    "id": "e210ad97",
+    "id": "2cf23b06",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The post Before SpaceX IPO, Investors in China Secretly Acquired Stakes appeared first on ProPublica.\n\nhttps://www.propublica.org/article/spacex-elon-musk-ipo-foreign-investors-china",
@@ -280,99 +284,133 @@
     "source_url": "https://www.propublica.org/article/spacex-elon-musk-ipo-foreign-investors-china",
     "source_title": "Before SpaceX IPO, Investors in China Secretly Acquired Stakes",
     "source_summary": "The post Before SpaceX IPO, Investors in China Secretly Acquired Stakes appeared first on ProPublica .",
-    "drafted_at": "2026-06-19T23:58:59.219976",
+    "drafted_at": "2026-06-20T03:26:34.278337",
     "data": {
       "source": "PROPUBLICA"
     },
     "content_hash": "700ad727b8af858f"
   },
   {
-    "id": "2db7cb4d",
+    "id": "336e9f3e",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Keith Sonderling sent letters to 53 states and US territories demanding action to \u201ccombat waste, fraud, and abuse\u201d within the unemployment insurance program, threatening to withhold administrative funds from states for the first time in history.\n\nThe agency did not provide data on fraud or alleged fraud in unemployment systems, but highlighted three Democrat-led states \u2013 California, New York and Illinois \u2013 and made claims about each.\n\nThey say California owes $20bn to the federal government for a loan during the Covid-19 pandemic.\n\nCalifornia has struggled paying off the loan, as they did with a similar federal loan received during the 2008 economic recession, due to the current set-up of how employers are taxed to fund unemployment.\n\nhttps://www.theguardian.com/us-news/2026/jun/17/trump-administration-state-fraud-claims",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "GUARDIAN",
+    "source_url": "https://www.theguardian.com/us-news/2026/jun/17/trump-administration-state-fraud-claims",
+    "source_title": "Trump\u2019s Department of Labor claims without data that states defrauded government",
+    "source_summary": "Acting secretary Keith Sonderling threatens to withhold administrative funds from states for first time in history Keith Sonderling sent letters to 53 states and US territories demanding action to \u201ccombat waste, fraud, and abuse\u201d within the unemployment insurance program, threatening to withhold administrative funds from states for the first time in history. \u201cWe are officially putting governors on",
+    "drafted_at": "2026-06-20T03:26:34.279856",
+    "data": {
+      "source": "GUARDIAN"
+    },
+    "content_hash": "507104d50dab0cad"
+  },
+  {
+    "id": "09b6520c",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Researchers found that Keytruda \u2014 the focus of ICIJ's recent Cancer Calculus investigation \u2014 accounted for nearly half of the potential annual savings.\n\nhttps://www.icij.org/investigations/cancer-calculus/lowering-doses-of-cancer-drugs-could-slash-global-health-spending-by-30b-new-research-shows/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "ICIJ",
+    "source_url": "https://www.icij.org/investigations/cancer-calculus/lowering-doses-of-cancer-drugs-could-slash-global-health-spending-by-30b-new-research-shows/",
+    "source_title": "Lowering doses of cancer drugs could slash global health spending by $30B, new research shows",
+    "source_summary": "Researchers found that Keytruda \u2014 the focus of ICIJ's recent Cancer Calculus investigation \u2014 accounted for nearly half of the potential annual savings.",
+    "drafted_at": "2026-06-20T03:26:34.280116",
+    "data": {
+      "source": "ICIJ"
+    },
+    "content_hash": "1b607a2e5a414fdf"
+  },
+  {
+    "id": "f320fb18",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "LATAM DESK: The 2026 Brazil-Haiti World Cup match highlights evolving global dynamics in sports, with crypto reshaping fan engagement and economic interactions.\n\nThe post Brazil faces Haiti in World Cup 2026, reflecting on 2004 match\u2019s legacy and crypto\u2019s growing role in football appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/brazil-haiti-world-cup-2026-crypto/",
+    "draft_text": "Canada/LatAm wire: Brazil's dominance in Group C boosts their World Cup prospects, impacting prediction markets and diminishing Scotland's group-winning hopes.\n\nThe post Brazil secures top spot in Group C with 3-0 win over Haiti at 2026 World Cup appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/brazil-secures-top-spot-in-group-c-with-3-0-win-over-haiti-at-2026-world-cup/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/brazil-haiti-world-cup-2026-crypto/",
-    "source_title": "Brazil faces Haiti in World Cup 2026, reflecting on 2004 match\u2019s legacy and crypto\u2019s growing role in football",
-    "source_summary": "The 2026 Brazil-Haiti World Cup match highlights evolving global dynamics in sports, with crypto reshaping fan engagement and economic interactions. The post Brazil faces Haiti in World Cup 2026, reflecting on 2004 match\u2019s legacy and crypto\u2019s growing role in football appeared first on Crypto Briefing .",
-    "drafted_at": "2026-06-19T23:58:59.223099",
+    "source_url": "https://cryptobriefing.com/brazil-secures-top-spot-in-group-c-with-3-0-win-over-haiti-at-2026-world-cup/",
+    "source_title": "Brazil secures top spot in Group C with 3-0 win over Haiti at 2026 World Cup",
+    "source_summary": "Brazil's dominance in Group C boosts their World Cup prospects, impacting prediction markets and diminishing Scotland's group-winning hopes. The post Brazil secures top spot in Group C with 3-0 win over Haiti at 2026 World Cup appeared first on Crypto Briefing .",
+    "drafted_at": "2026-06-20T03:26:34.281528",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "af4bff5109b21bbc"
+    "content_hash": "27881f03bc9ad46f"
   },
   {
-    "id": "80b409ec",
+    "id": "6dd0be62",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "World wire: Fire Point presented video footage of the drone strike on Russian oil refineries at the Eurosatory defense show just hours after the attacks began.\n\nhttps://www.forbes.com/sites/petersuciu/2026/06/19/ukrainian-drone-maker-is-using-moscow-attack-in-its-marketing-campaign/",
+    "draft_text": "MIDDLE EAST DESK: The ongoing high-stakes diplomacy underscores the persistent global efforts to resolve nuclear tensions, impacting geopolitical stability and markets.\n\nThe post Witkoff, Araghchi head to Switzerland for US-Iran nuclear talks appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/witkoff-araghchi-head-to-switzerland-for-us-iran-nuclear-talks/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FORBES",
-    "source_url": "https://www.forbes.com/sites/petersuciu/2026/06/19/ukrainian-drone-maker-is-using-moscow-attack-in-its-marketing-campaign/",
-    "source_title": "Ukrainian Drone Maker Is Using Moscow Attack In Its Marketing Campaign",
-    "source_summary": "Fire Point presented video footage of the drone strike on Russian oil refineries at the Eurosatory defense show just hours after the attacks began",
-    "drafted_at": "2026-06-19T23:58:59.224022",
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/witkoff-araghchi-head-to-switzerland-for-us-iran-nuclear-talks/",
+    "source_title": "Witkoff, Araghchi head to Switzerland for US-Iran nuclear talks",
+    "source_summary": "The ongoing high-stakes diplomacy underscores the persistent global efforts to resolve nuclear tensions, impacting geopolitical stability and markets. The post Witkoff, Araghchi head to Switzerland for US-Iran nuclear talks appeared first on Crypto Briefing .",
+    "drafted_at": "2026-06-20T03:26:34.281810",
     "data": {
-      "source": "FORBES"
+      "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "b9f5d090e8d38911"
+    "content_hash": "f7fbda8da6a4041d"
   },
   {
-    "id": "8b240c8f",
+    "id": "32f34702",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From the Gulf: Brent is back near $80 and West Texas Intermediate near $77, which means the Oil market has handed back almost the entire premium it built over nearly four months of open war with Iran.\n\nhttps://www.fxstreet.com/news/brent-at-80-did-the-market-buy-the-iran-deal-twice-202606192209",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/brent-at-80-did-the-market-buy-the-iran-deal-twice-202606192209",
-    "source_title": "Brent at $80: Did the market buy the Iran deal twice?",
-    "source_summary": "Brent is back near $80 and West Texas Intermediate near $77, which means the Oil market has handed back almost the entire premium it built over nearly four months of open war with Iran.",
-    "drafted_at": "2026-06-19T23:58:59.224567",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "982f68cd76b0503d"
-  },
-  {
-    "id": "f940d8d7",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "GLOBAL DESK: The Euro did something this week that ought to be impossible: it fell in the same fortnight the European Central Bank (ECB) delivered its first interest rate hike since 2023.\n\nhttps://www.fxstreet.com/news/the-euro-sinks-on-its-own-rate-hike-202606192201",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/the-euro-sinks-on-its-own-rate-hike-202606192201",
-    "source_title": "The Euro sinks on its own rate hike",
-    "source_summary": "The Euro did something this week that ought to be impossible: it fell in the same fortnight the European Central Bank (ECB) delivered its first interest rate hike since 2023.",
-    "drafted_at": "2026-06-19T23:58:59.225016",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "a74a02d7ce1ea3af"
-  },
-  {
-    "id": "a9b7afaf",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "MIDDLE EAST DESK: 'It's not the time to play a whole match,' Lamine Yamal said ahead of Spain's match against Saudi Arabia.\n\nhttps://www.aljazeera.com/sports/2026/6/19/spains-yamal-says-very-early-unnecessary-to-play-full-world-cup-match?traffic_source=rss",
+    "draft_text": "From the Americas: Manchester United's Matheus Cunha scores Brazil's first two goals in 3-0 win against Haiti as FIFA event progress nears.\n\nhttps://www.aljazeera.com/sports/2026/6/20/cunha-hits-brazil-double-against-haiti-to-seal-first-world-cup-2026-win?traffic_source=rss",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/sports/2026/6/19/spains-yamal-says-very-early-unnecessary-to-play-full-world-cup-match?traffic_source=rss",
-    "source_title": "Spain\u2019s Yamal says \u2018very early, unnecessary\u2019 to play full World Cup match",
-    "source_summary": "'It's not the time to play a whole match,' Lamine Yamal said ahead of Spain's match against Saudi Arabia.",
-    "drafted_at": "2026-06-19T23:58:59.226028",
+    "source_url": "https://www.aljazeera.com/sports/2026/6/20/cunha-hits-brazil-double-against-haiti-to-seal-first-world-cup-2026-win?traffic_source=rss",
+    "source_title": "Cunha hits Brazil double against Haiti to seal first World Cup 2026 win",
+    "source_summary": "Manchester United's Matheus Cunha scores Brazil's first two goals in 3-0 win against Haiti as FIFA event progress nears.",
+    "drafted_at": "2026-06-20T03:26:34.282181",
     "data": {
       "source": "AL JAZEERA"
     },
-    "content_hash": "1991be898489c2b9"
+    "content_hash": "15a76cf1bc06407c"
   },
   {
-    "id": "57922647",
+    "id": "9a28b5f9",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Gulf wire: Throughout the nearly four-month Iran war, few countries were more visibly at the center of the efforts to end it than Pakistan, an unlikely actor thrust into the spotlight by US President Donald Trump.\n\nhttps://financialpost.com/pmn/business-pmn/iran-war-gives-pakistan-its-biggest-diplomatic-boost-in-decades",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FINANCIAL POST",
+    "source_url": "https://financialpost.com/pmn/business-pmn/iran-war-gives-pakistan-its-biggest-diplomatic-boost-in-decades",
+    "source_title": "Iran War Gives Pakistan Its Biggest Diplomatic Boost in Decades",
+    "source_summary": "Throughout the nearly four-month Iran war, few countries were more visibly at the center of the efforts to end it than Pakistan, an unlikely actor thrust into the spotlight by US President Donald Trump.",
+    "drafted_at": "2026-06-20T03:26:34.282792",
+    "data": {
+      "source": "FINANCIAL POST"
+    },
+    "content_hash": "8e66351fcdea2e0b"
+  },
+  {
+    "id": "dc3d951e",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "From the Gulf: Special Envoy Steve Witkoff is reportedly on his way to Switzerland as the U.S. gears up for potential nuclear talks with Iran.\n\nThe post Report: Special Envoy Steve Witkoff Heads to Switzerland for Potential Iran Nuclear Talks appeared first on Breitbart.\n\nhttps://www.breitbart.com/politics/2026/06/19/trump-envoy-steve-witkoff-heads-switzerland-potential-iran-nuclear-talks/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "BREITBART",
+    "source_url": "https://www.breitbart.com/politics/2026/06/19/trump-envoy-steve-witkoff-heads-switzerland-potential-iran-nuclear-talks/",
+    "source_title": "Report: Special Envoy Steve Witkoff Heads to Switzerland for Potential Iran Nuclear Talks",
+    "source_summary": "Special Envoy Steve Witkoff is reportedly on his way to Switzerland as the U.S. gears up for potential nuclear talks with Iran. The post Report: Special Envoy Steve Witkoff Heads to Switzerland for Potential Iran Nuclear Talks appeared first on Breitbart .",
+    "drafted_at": "2026-06-20T03:26:34.283250",
+    "data": {
+      "source": "BREITBART"
+    },
+    "content_hash": "a2fd2dfe35c9a5a3"
+  },
+  {
+    "id": "22986baa",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "RETAIL-SALES READ: Israel and Hezbollah have agreed to a ceasefire to start almost immediately Two killed in drone strike in Southern Lebanon after ceasefire Canada April retail sales +0.5% vs +0.6% expected UK PM Starmer to weigh future over the weekend - report \"Multiple\" cabinet ministers will tell Starmer to set out a timeline for leaving - report Iran foreign min says plans underway for future meeting with US Markets: Gold down $49 to $4160 WTI crude oil up 94-cents to $77.54 US markets closed S&P 500 futures down 0.2% JPY leads, CAD lags The US was on holiday on Friday and that limited market moves to wrap up the week.\n\nThere was news though as Israel and Hezbollah agreed to a ceasefire.\n\nThe market took at that as good news initially with oil falling more than $1 but those moves slowly unwound as the fighting in Southern Lebanon continued virtually unabated.\n\nAs of the time of writing there were reports of ongoing shelling so that's worth watching over the weekend.\n\nOther reports continue to say that Iran isn't happy and Trump said in an interview with NBC that Israel needs to give the ceasefire a chance.\n\nIn general, the US dollar eased in North American trade but one outliner was the loonie.\n\nFriday's retail sales number looked fine on the headline but below the surface, core sales were down 0.7% m/m and all the headline sales increase was on gasoline because of higher prices.\n\nUSD/CAD rose to the highest since November.\n\nhttps://investinglive.com/news/investinglive-americas-market-news-wrap-israel-and-hezbollah-agree-to-shaky-ceasefire-20260619/",
@@ -382,14 +420,14 @@
     "source_url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-israel-and-hezbollah-agree-to-shaky-ceasefire-20260619/",
     "source_title": "investingLive Americas market news wrap: Israel and Hezbollah agree to shaky ceasefire",
     "source_summary": "Israel and Hezbollah have agreed to a ceasefire to start almost immediately Two killed in drone strike in Southern Lebanon after ceasefire Canada April retail sales +0.5% vs +0.6% expected UK PM Starmer to weigh future over the weekend - report \"Multiple\" cabinet ministers will tell Starmer to set out a timeline for leaving - report Iran foreign min says plans underway for future meeting with US M",
-    "drafted_at": "2026-06-19T23:58:59.272938",
+    "drafted_at": "2026-06-20T03:26:34.332859",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "25b70ca812f3e8a0"
   },
   {
-    "id": "8c453be2",
+    "id": "d73d357d",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "Fresh print: There has been an unexpected dip in the UK's unemployment rate in official figures also showing new recruits in payrolled work at their lowest level for five years and private sector basic pay awards struggling.\n\nhttps://news.sky.com/story/unemployment-rate-falls-but-private-sector-wage-growth-suffers-13554974",
@@ -399,14 +437,14 @@
     "source_url": "https://news.sky.com/story/unemployment-rate-falls-but-private-sector-wage-growth-suffers-13554974",
     "source_title": "Unemployment rate falls but private sector wage growth suffers",
     "source_summary": "There has been an unexpected dip in the UK's unemployment rate in official figures also showing new recruits in payrolled work at their lowest level for five years and private sector basic pay awards struggling.",
-    "drafted_at": "2026-06-19T23:58:59.273253",
+    "drafted_at": "2026-06-20T03:26:34.333161",
     "data": {
       "source": "SKY NEWS"
     },
     "content_hash": "460a743948957d5b"
   },
   {
-    "id": "48dd58fb",
+    "id": "3b986234",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -416,7 +454,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-06-19T23:58:59.274627",
+    "drafted_at": "2026-06-20T03:26:34.334609",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -424,36 +462,36 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "1bdd4a0b",
+    "id": "f6cdbefe",
     "format": "PACK_TAKE",
     "status": "pending",
-    "draft_text": "Gold doesn't pay a dividend. Neither does a fire extinguisher.",
+    "draft_text": "Your alerts didn't go off because the pack got there first.",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "Howl Street",
     "source_url": "",
     "source_title": "PACK TAKE",
-    "source_summary": "Gold doesn't pay a dividend. Neither does a fire extinguisher.",
-    "drafted_at": "2026-06-19T23:58:59.274700",
+    "source_summary": "Your alerts didn't go off because the pack got there first.",
+    "drafted_at": "2026-06-20T03:26:34.334690",
     "data": {
-      "take_seed": "2026-06-19-pack-1"
+      "take_seed": "2026-06-20-pack-1"
     },
     "content_hash": "9b0f7be55d8ef71c"
   },
   {
-    "id": "455cc2bf",
+    "id": "84281e8f",
     "format": "PACK_TAKE",
     "status": "pending",
-    "draft_text": "If the call comes from a stranger and the return looks like a stairway, it's a stairway down.",
+    "draft_text": "Information is free. Conviction is rare. Patience is rarer.",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "Howl Street",
     "source_url": "",
     "source_title": "PACK TAKE",
-    "source_summary": "If the call comes from a stranger and the return looks like a stairway, it's a stairway down.",
-    "drafted_at": "2026-06-19T23:58:59.274768",
+    "source_summary": "Information is free. Conviction is rare. Patience is rarer.",
+    "drafted_at": "2026-06-20T03:26:34.334739",
     "data": {
-      "take_seed": "2026-06-19-pack-2"
+      "take_seed": "2026-06-20-pack-2"
     },
     "content_hash": "9b0f7be55d8ef71c"
   }
