@@ -1,42 +1,59 @@
 [
   {
-    "id": "0e1ad62f",
+    "id": "067ca647",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "THE BIG ONE: West Texas Intermediate (WTI) \u2013 the US oil benchmark \u2013 opened Monday\u2019s Asian trading with an over $1 bullish gap, retesting the $78 mark, nearly up 2% in early dealings.\n\nhttps://www.fxstreet.com/news/wti-rises-nearly-2-on-strait-of-hormuz-closure-shaky-peace-talks-202606212316",
+    "draft_text": "TODAY'S LOUDEST HOWL: The Ring is Euronews\u2019 weekly political showdown, where Europe\u2019s toughest debates meet their boldest voices.\n\nIn each episode, two political heavyweights from across the EU face off to propose a diversity of opinions and spark conversations around the most important issues of EU affairs and the wider European political life.\n\nEuronews Tech Talks goes beyond discussions to explore the impact of new technologies on our lives.\n\nWith explanations, engaging Q&As, and lively conversations, the podcast provides valuable insights into the intersection of technology and society.\n\nEurope's best food experts are joining forces to crack down on fraud.\n\nhttp://www.euronews.com/business/2026/06/22/oil-prices-slip-as-progress-in-us-iran-talks-eases-supply-concerns",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/wti-rises-nearly-2-on-strait-of-hormuz-closure-shaky-peace-talks-202606212316",
-    "source_title": "WTI rises nearly 2% on Strait of Hormuz closure, shaky peace talks",
-    "source_summary": "West Texas Intermediate (WTI) \u2013 the US oil benchmark \u2013 opened Monday\u2019s Asian trading with an over $1 bullish gap, retesting the $78 mark, nearly up 2% in early dealings.",
-    "drafted_at": "2026-06-22T00:10:38.265983",
+    "primary_source": "EURONEWS",
+    "source_url": "http://www.euronews.com/business/2026/06/22/oil-prices-slip-as-progress-in-us-iran-talks-eases-supply-concerns",
+    "source_title": "Oil prices slip as progress in US-Iran talks eases supply concerns",
+    "source_summary": "Oil prices retreated on Monday after signs of progress in US-Iran negotiations eased fears of ongoing supply disruptions in the Strait of Hormuz, a critical global oil transit route.",
+    "drafted_at": "2026-06-22T06:19:30.845255",
     "data": {
-      "source": "FXSTREET"
+      "source": "EURONEWS"
     },
-    "content_hash": "690b77d6baf7df94"
+    "content_hash": "6fb564e1ab59e977"
   },
   {
-    "id": "b03a83e5",
+    "id": "76879035",
     "format": "MARKET_MOVE",
     "status": "pending",
-    "draft_text": "If you're not watching this, you're behind. VIX tumbles 13.3% in 5 sessions to 16.40.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
+    "draft_text": "This is the kind of move that hits twice. WTI crude tumbles 11.4% in 5 sessions to $75.18.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CBOE \u00b7 ^VIX",
-    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "source_title": "VIX (S&P 500 volatility)",
-    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-06-22T00:10:38.266316",
+    "primary_source": "NYMEX \u00b7 CL=F",
+    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "source_title": "WTI crude oil futures",
+    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "drafted_at": "2026-06-22T06:19:30.845542",
     "data": {
-      "signal_id": "^VIX:move:2026-06-18",
+      "signal_id": "CL=F:move:2026-06-22",
       "kind": "move_down",
-      "current": "16.40"
+      "current": "$75.18"
     },
-    "content_hash": "995f4d67e7e875d2"
+    "content_hash": "c272de0720a2f459"
   },
   {
-    "id": "b42d259a",
+    "id": "22486aac",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "From the Eccles Building: Gold (XAU/USD) trims a part of its strong intraday gains to levels beyond the $4,200 mark, though it retains positive bias for the first time in four days.\n\nhttps://www.fxstreet.com/news/gold-sticks-to-modest-gains-bulls-seem-hesitant-amid-fed-hike-bets-iran-risks-202606220346",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Fed",
+    "source_url": "https://www.fxstreet.com/news/gold-sticks-to-modest-gains-bulls-seem-hesitant-amid-fed-hike-bets-iran-risks-202606220346",
+    "source_title": "Gold trims a part of intraday gains as Fed hike bets and Iran risks support USD",
+    "source_summary": "Gold (XAU/USD) trims a part of its strong intraday gains to levels beyond the $4,200 mark, though it retains positive bias for the first time in four days.",
+    "drafted_at": "2026-06-22T06:19:30.856414",
+    "data": {
+      "actor": "Fed"
+    },
+    "content_hash": "27c84eb2bf306296"
+  },
+  {
+    "id": "c579f4c9",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Powell on the wire. Trump-selected Fed chair Kevin Warsh may hope the threat of rate hikes is enough.\n\nBut stocks might gain ground if he does.\n\nhttps://www.marketwatch.com/story/this-bull-market-isnt-going-to-end-because-of-fed-rate-hikes-under-warsh-8f63fa85?mod=mw_rss_topstories",
@@ -46,14 +63,31 @@
     "source_url": "https://www.marketwatch.com/story/this-bull-market-isnt-going-to-end-because-of-fed-rate-hikes-under-warsh-8f63fa85?mod=mw_rss_topstories",
     "source_title": "This bull market isn\u2019t going to end because of Fed rate hikes under Warsh",
     "source_summary": "Trump-selected Fed chair Kevin Warsh may hope the threat of rate hikes is enough. But stocks might gain ground if he does. Past rate-hike cycles can be a guide.",
-    "drafted_at": "2026-06-22T00:10:38.277078",
+    "drafted_at": "2026-06-22T06:19:30.856659",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "fe3d8872fb773450"
   },
   {
-    "id": "a2aad555",
+    "id": "e9507982",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "The Fed just spoke. Here's what matters: Fed may be leaning toward increasing rates.\n\nhttps://justthenews.com/nation/states/center-square/everyday-economics-new-chair-shorter-statement-fed-stopped-talking-cuts?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Fed",
+    "source_url": "https://justthenews.com/nation/states/center-square/everyday-economics-new-chair-shorter-statement-fed-stopped-talking-cuts?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+    "source_title": "Despite a new chairman and shorter statements, the Fed has stopped talking interest rate cuts",
+    "source_summary": "Fed may be leaning toward increasing rates.",
+    "drafted_at": "2026-06-22T06:19:30.856810",
+    "data": {
+      "actor": "Fed"
+    },
+    "content_hash": "d0c0c27e65170f6c"
+  },
+  {
+    "id": "9baf0776",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "RATE-PATH READ: Engelbrecht is the former chief executive officer of Bank of Eufaula and a former director of the bank and its holding company, S N B Bancshares, Inc. In his former roles, Engelbrecht leveraged his position to cause the bank to provide imprudent extensions of credit to his relative's company and he participated in the fabrication of board meeting minutes.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260618b.htm",
@@ -63,14 +97,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260618b.htm",
     "source_title": "Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc.",
     "source_summary": "Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc.",
-    "drafted_at": "2026-06-22T00:10:38.277657",
+    "drafted_at": "2026-06-22T06:19:30.857344",
     "data": {
       "actor": "FED"
     },
     "content_hash": "52b15b90987fc933"
   },
   {
-    "id": "b1c53146",
+    "id": "4971259e",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "RATE-PATH READ: Comments on the proposal are due 60 days after publication in the Federal Register.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260618a.htm",
@@ -80,48 +114,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260618a.htm",
     "source_title": "Federal Reserve Board requests comment on proposal to require certain payment stablecoin issuers to maintain an effective customer identification program",
     "source_summary": "Federal Reserve Board requests comment on proposal to require certain payment stablecoin issuers to maintain an effective customer identification program",
-    "drafted_at": "2026-06-22T00:10:38.277949",
+    "drafted_at": "2026-06-22T06:19:30.857630",
     "data": {
       "actor": "FED"
     },
     "content_hash": "a8838c582bb87e8b"
   },
   {
-    "id": "9a447012",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "BoE update: Announcing its latest interest rates decision the morning after a thrilling England World Cup win, the Bank of England continues to put its foot on the ball.\n\nhttps://news.sky.com/story/a-bank-of-england-rate-hike-is-still-possible-despite-easing-inflation-outlook-13555250",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Bank of England",
-    "source_url": "https://news.sky.com/story/a-bank-of-england-rate-hike-is-still-possible-despite-easing-inflation-outlook-13555250",
-    "source_title": "A Bank of England rate hike is still possible",
-    "source_summary": "Announcing its latest interest rates decision the morning after a thrilling England World Cup win, the Bank of England continues to put its foot on the ball.",
-    "drafted_at": "2026-06-22T00:10:38.278203",
-    "data": {
-      "actor": "Bank of England"
-    },
-    "content_hash": "cb3bbba537d45aed"
-  },
-  {
-    "id": "2a4f20b4",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "FED WATCH: US stock markets dropped on Wednesday afternoon after the Federal Reserve left interest rates unchanged and signaled a possible rate hike before the end of the year.\n\nThe Fed was widely expected to keep rates at a range of 3.5% to 3.75%, where they have remained since December.\n\nThe decision was unanimously supported by the Fed\u2019s voting committee.\n\n\u201cEconomic activity is expanding at a solid pace despite elevated uncertainty that owes, in part, to the conflict in the Middle East,\u201d the Fed\u2019s open market committee said in the statement.\n\nThis was the first meeting overseen by Kevin Warsh, who took over as Fed chair in May and has implied he wants to tighten the Fed\u2019s public communications on future guidance.\n\nhttps://www.theguardian.com/business/2026/jun/17/federal-reserve-interest-rates",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Federal Reserve",
-    "source_url": "https://www.theguardian.com/business/2026/jun/17/federal-reserve-interest-rates",
-    "source_title": "Federal Reserve holds rates steady but signals possible hike before year\u2019s end",
-    "source_summary": "Open markets committee says \u2018economic activity is expanding at a solid pace\u2019 in first meeting under new chair Kevin Warsh US stock markets dropped on Wednesday afternoon after the Federal Reserve left interest rates unchanged and signaled a possible rate hike before the end of the year. The Fed was widely expected to keep rates at a range of 3.5% to 3.75%, where they have remained since December. ",
-    "drafted_at": "2026-06-22T00:10:38.279471",
-    "data": {
-      "actor": "Federal Reserve"
-    },
-    "content_hash": "808158621f7295b4"
-  },
-  {
-    "id": "b0bfbf3f",
+    "id": "73b293eb",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$PSUS insider bought $70,735,390 on 2026-06-17, 7 insiders. \ud83d\udc40\n\nPershing Square Usa, Ltd.. 1,417,000 shares at $49.92.\n\n-20.3% since the purchase.\n\nhttp://openinsider.com/screener?s=PSUS",
@@ -131,7 +131,7 @@
     "source_url": "http://openinsider.com/screener?s=PSUS",
     "source_title": "Pershing Square Usa, Ltd. (PSUS) insider bought $70,735,390",
     "source_summary": "7 insider(s) bought 1,417,000 shares at $49.92 on 2026-06-17.",
-    "drafted_at": "2026-06-22T00:10:38.281356",
+    "drafted_at": "2026-06-22T06:19:30.860991",
     "data": {
       "ticker": "PSUS",
       "type": "P",
@@ -141,7 +141,7 @@
     "content_hash": "06b51d7fce606b41"
   },
   {
-    "id": "06eeeaa2",
+    "id": "6082cab6",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$HLNE insider bought $14,241,108 on 2026-06-11, 3 insiders. \ud83d\udc40\n\nHamilton Lane Inc. 165,505 shares at $86.05.\n\n-4.5% since the purchase.\n\nhttp://openinsider.com/screener?s=HLNE",
@@ -151,7 +151,7 @@
     "source_url": "http://openinsider.com/screener?s=HLNE",
     "source_title": "Hamilton Lane Inc (HLNE) insider bought $14,241,108",
     "source_summary": "3 insider(s) bought 165,505 shares at $86.05 on 2026-06-11.",
-    "drafted_at": "2026-06-22T00:10:38.281478",
+    "drafted_at": "2026-06-22T06:19:30.861136",
     "data": {
       "ticker": "HLNE",
       "type": "P",
@@ -161,7 +161,7 @@
     "content_hash": "44918ed475624ad2"
   },
   {
-    "id": "1fdb5424",
+    "id": "2ebfd9c3",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$FUN insider bought $6,174,038 on 2026-06-12, 3 insiders. \ud83d\udc40\n\nSix Flags Entertainment Corporation/New. 265,000 shares at $23.30.\n\n+7.0% since the purchase.\n\nhttp://openinsider.com/screener?s=FUN",
@@ -171,7 +171,7 @@
     "source_url": "http://openinsider.com/screener?s=FUN",
     "source_title": "Six Flags Entertainment Corporation/New (FUN) insider bought $6,174,038",
     "source_summary": "3 insider(s) bought 265,000 shares at $23.30 on 2026-06-12.",
-    "drafted_at": "2026-06-22T00:10:38.281606",
+    "drafted_at": "2026-06-22T06:19:30.861271",
     "data": {
       "ticker": "FUN",
       "type": "P",
@@ -181,7 +181,7 @@
     "content_hash": "bd45ae1ea9778c7e"
   },
   {
-    "id": "95d57e3b",
+    "id": "5f849ccd",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$CAES insider bought $6,000,000 on 2026-06-18. \ud83d\udc40\n\nCantor Equity Partners Vii, Inc.. 600,000 shares at $10.00.\n\n+1.1% since the purchase.\n\nhttp://openinsider.com/screener?s=CAES",
@@ -191,7 +191,7 @@
     "source_url": "http://openinsider.com/screener?s=CAES",
     "source_title": "Cantor Equity Partners Vii, Inc. (CAES) insider bought $6,000,000",
     "source_summary": "1 insider(s) bought 600,000 shares at $10.00 on 2026-06-18.",
-    "drafted_at": "2026-06-22T00:10:38.281723",
+    "drafted_at": "2026-06-22T06:19:30.861392",
     "data": {
       "ticker": "CAES",
       "type": "P",
@@ -201,7 +201,7 @@
     "content_hash": "33c91e41031d7de0"
   },
   {
-    "id": "abde581a",
+    "id": "7d82cb12",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$LODE insider bought $4,243,906 on 2026-06-11, 4 insiders. \ud83d\udc40\n\nComstock Inc.. 1,132,651 shares at $3.75.\n\n+27.2% since the purchase.\n\nhttp://openinsider.com/screener?s=LODE",
@@ -211,7 +211,7 @@
     "source_url": "http://openinsider.com/screener?s=LODE",
     "source_title": "Comstock Inc. (LODE) insider bought $4,243,906",
     "source_summary": "4 insider(s) bought 1,132,651 shares at $3.75 on 2026-06-11.",
-    "drafted_at": "2026-06-22T00:10:38.281835",
+    "drafted_at": "2026-06-22T06:19:30.861509",
     "data": {
       "ticker": "LODE",
       "type": "P",
@@ -221,7 +221,41 @@
     "content_hash": "81666070a417a65a"
   },
   {
-    "id": "8cb9615c",
+    "id": "7008b80d",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Pack \u2014 defensive read: Taiko\u2019s bridge and ERC20 Vault on Ethereum suffered a compromise in its chain state verification mechanism, allowing forged proofs and unauthorized withdrawals.\n\nhttps://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "COINTELEGRAPH",
+    "source_url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+    "source_title": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
+    "source_summary": "Taiko\u2019s bridge and ERC20 Vault on Ethereum suffered a compromise in its chain state verification mechanism, allowing forged proofs and unauthorized withdrawals.",
+    "drafted_at": "2026-06-22T06:19:30.862681",
+    "data": {
+      "source": "COINTELEGRAPH"
+    },
+    "content_hash": "a4b4e188cc476fbd"
+  },
+  {
+    "id": "e63d0f76",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "New scam vector: An exploit of the Secret Network went undiscovered for a week as the hacker moved the loot into Ethereum and then to exchanges.\n\nhttps://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "COINTELEGRAPH",
+    "source_url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+    "source_title": "Secret Network bridge exploited for $4.7M with \u2018infinite mint\u2019 bug",
+    "source_summary": "An exploit of the Secret Network went undiscovered for a week as the hacker moved the loot into Ethereum and then to exchanges.",
+    "drafted_at": "2026-06-22T06:19:30.862929",
+    "data": {
+      "source": "COINTELEGRAPH"
+    },
+    "content_hash": "4058f7f8987ac7b2"
+  },
+  {
+    "id": "8cc50ec6",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Sam Little, a 35-year-old former contestant of BBC show The Traitors, revealed last week he had lost \u00a340,000 in life savings to a phishing scam.\n\nSome \u00a3423m was lost this way last year, according to UK Finance.\n\nA record four million cases of fraudsters stealing money were registered last year, according to UK Finance, a banking trade body - with plenty more going unreported.\n\n\"I like to think I'm savvy, but it can catch anyone,\" he said.\n\nHere are three of the most popular tricks used by fraudsters and how to avoid them.\n\nFraudsters send out mass messages suggesting that the recipient needs to update their details.\n\nhttps://www.bbc.com/news/articles/cx2xq1vngvdo?at_medium=RSS&at_campaign=rss",
@@ -231,14 +265,14 @@
     "source_url": "https://www.bbc.com/news/articles/cx2xq1vngvdo?at_medium=RSS&at_campaign=rss",
     "source_title": "Fake romance to missed deliveries: How to protect yourself from three common scams",
     "source_summary": "Romance and investment fraud is at record levels but what can you do to prevent being caught out.",
-    "drafted_at": "2026-06-22T00:10:38.283869",
+    "drafted_at": "2026-06-22T06:19:30.864144",
     "data": {
       "source": "BBC"
     },
     "content_hash": "f605732e569ca35a"
   },
   {
-    "id": "854560f1",
+    "id": "ae0b9b6b",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The linked criminal group allegedly distributed a scam token under the name \"zksync.jp\" to deceive crypto users worldwide, with losses of over $1 million.\n\nhttps://www.theblock.co/post/405468/fentanyl-linked-chinese-network-tied-to-crypto-fraud-from-japan-involving-fake-zksync-jp-token-nikkei?utm_source=rss&utm_medium=rss",
@@ -248,14 +282,14 @@
     "source_url": "https://www.theblock.co/post/405468/fentanyl-linked-chinese-network-tied-to-crypto-fraud-from-japan-involving-fake-zksync-jp-token-nikkei?utm_source=rss&utm_medium=rss",
     "source_title": "Fentanyl-linked Chinese network tied to crypto fraud from Japan involving fake \u2018Zksync.jp\u2019 token: Nikkei",
     "source_summary": "The linked criminal group allegedly distributed a scam token under the name \"zksync.jp\" to deceive crypto users worldwide, with losses of over $1 million.",
-    "drafted_at": "2026-06-22T00:10:38.284156",
+    "drafted_at": "2026-06-22T06:19:30.864429",
     "data": {
       "source": "THE BLOCK"
     },
     "content_hash": "a35e7a886a77ec9c"
   },
   {
-    "id": "d05f4381",
+    "id": "83686d99",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "NEW YORK, June 20, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Lucid Group, Inc. (NASDAQ: LCID) between February 25, 2026 and April 13, 2026, inclusive (the \"Class Period\"), of the important July 28, 2026 lead plaintiff...\n\nhttps://www.prnewswire.com/news-releases/lcid-deadline-lcid-investors-with-losses-in-excess-of-100k-have-opportunity-to-lead-lucid-group-inc-securities-fraud-lawsuit-302805467.html",
@@ -265,167 +299,133 @@
     "source_url": "https://www.prnewswire.com/news-releases/lcid-deadline-lcid-investors-with-losses-in-excess-of-100k-have-opportunity-to-lead-lucid-group-inc-securities-fraud-lawsuit-302805467.html",
     "source_title": "LCID Deadline: LCID Investors with Losses in Excess of $100K Have Opportunity to Lead Lucid Group, Inc. Securities Fraud Lawsuit",
     "source_summary": "NEW YORK, June 20, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Lucid Group, Inc. (NASDAQ: LCID) between February 25, 2026 and April 13, 2026, inclusive (the \"Class Period\"), of the important July 28, 2026 lead plaintiff...",
-    "drafted_at": "2026-06-22T00:10:38.284661",
+    "drafted_at": "2026-06-22T06:19:30.864908",
     "data": {
       "source": "PR NEWSWIRE"
     },
     "content_hash": "8a2432e7d1bee85e"
   },
   {
-    "id": "afbc7e6e",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "PROTECTION BRIEFING: Secret Network says about $770,000 of the stolen funds still sits in the attacker's Axelar wallet, and that Axelar declined its request to freeze it.\n\nhttps://www.theblock.co/post/405459/secret-networks-axelar-bridge-drained-for-4-67-million-in-infinite-mint-exploit-that-went-unnoticed-for-seven-days?utm_source=rss&utm_medium=rss",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "THE BLOCK",
-    "source_url": "https://www.theblock.co/post/405459/secret-networks-axelar-bridge-drained-for-4-67-million-in-infinite-mint-exploit-that-went-unnoticed-for-seven-days?utm_source=rss&utm_medium=rss",
-    "source_title": "Secret Network\u2019s Axelar bridge drained for $4.67 million in infinite-mint exploit that went unnoticed for seven days",
-    "source_summary": "Secret Network says about $770,000 of the stolen funds still sits in the attacker's Axelar wallet, and that Axelar declined its request to freeze it.",
-    "drafted_at": "2026-06-22T00:10:38.284948",
-    "data": {
-      "source": "THE BLOCK"
-    },
-    "content_hash": "e1c2e70f06161ea4"
-  },
-  {
-    "id": "80b967e0",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "The wolves howled, the regulators listened. The bill is meant to curb potential insider trading, blocking lawmakers and family members from policy-related prediction market bets.\n\nhttps://decrypt.co/371705/house-republican-insider-trading-bill-ban-lawmaker-prediction-market",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "DECRYPT",
-    "source_url": "https://decrypt.co/371705/house-republican-insider-trading-bill-ban-lawmaker-prediction-market",
-    "source_title": "House Republican Introduces Insider Trading Bill to Ban Lawmaker Prediction Market Bets",
-    "source_summary": "The bill is meant to curb potential insider trading, blocking lawmakers and family members from policy-related prediction market bets.",
-    "drafted_at": "2026-06-22T00:10:38.285191",
-    "data": {
-      "source": "DECRYPT"
-    },
-    "content_hash": "695c33d15c864d7b"
-  },
-  {
-    "id": "e3a6164b",
+    "id": "086530fa",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: Gold's volatility underscores market uncertainty amid geopolitical tensions, highlighting the fragile balance between diplomacy and conflict.\n\nThe post Gold declines as Trump warns Iran during peace talks appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/gold-declines-trump-iran-peace-talks/",
+    "draft_text": "From the Gulf: The Ring is Euronews\u2019 weekly political showdown, where Europe\u2019s toughest debates meet their boldest voices.\n\nIn each episode, two political heavyweights from across the EU face off to propose a diversity of opinions and spark conversations around the most important issues of EU affairs and the wider European political life.\n\nEuronews Tech Talks goes beyond discussions to explore the impact of new technologies on our lives.\n\nWith explanations, engaging Q&As, and lively conversations, the podcast provides valuable insights into the intersection of technology and society.\n\nEurope's best food experts are joining forces to crack down on fraud.\n\nhttp://www.euronews.com/business/2026/06/22/oil-prices-slip-as-progress-in-us-iran-talks-eases-supply-concerns",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "EURONEWS",
+    "source_url": "http://www.euronews.com/business/2026/06/22/oil-prices-slip-as-progress-in-us-iran-talks-eases-supply-concerns",
+    "source_title": "Oil prices slip as progress in US-Iran talks eases supply concerns",
+    "source_summary": "Oil prices retreated on Monday after signs of progress in US-Iran negotiations eased fears of ongoing supply disruptions in the Strait of Hormuz, a critical global oil transit route.",
+    "drafted_at": "2026-06-22T06:19:30.868161",
+    "data": {
+      "source": "EURONEWS"
+    },
+    "content_hash": "6fb564e1ab59e977"
+  },
+  {
+    "id": "2bf7ae6d",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Cross-border read: Kyiv's new mid-range drones are pounding the roads, fuel depots, and bridges connecting Crimea to Russia and the southern front lines.\n\nhttps://www.businessinsider.com/ukraine-squeeze-crimea-fuel-cut-mid-range-drones-sevastopol-2026-6",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "BUSINESS INSIDER",
+    "source_url": "https://www.businessinsider.com/ukraine-squeeze-crimea-fuel-cut-mid-range-drones-sevastopol-2026-6",
+    "source_title": "Ukraine is squeezing Crimea with its new drones, forcing the Russian stronghold to cut fuel supplies",
+    "source_summary": "Kyiv's new mid-range drones are pounding the roads, fuel depots, and bridges connecting Crimea to Russia and the southern front lines.",
+    "drafted_at": "2026-06-22T06:19:30.868521",
+    "data": {
+      "source": "BUSINESS INSIDER"
+    },
+    "content_hash": "42aebfe077ef1cad"
+  },
+  {
+    "id": "1f2bd663",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "LATAM DESK: THE INFORMATION CONTAINED HEREIN IS NOT FOR RELEASE, PUBLICATION OR DISTRIBUTION IN OR INTO AUSTRALIA, CANADA, ITALY, DENMARK, JAPAN, THE UNITED STATES, OR TO ANY NATIONAL OF SUCH JURISDICTIONS.\n\nhttps://www.globenewswire.com/news-release/2026/06/22/3315040/0/en/NBPE-Announces-Transaction-in-Own-Shares.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "GLOBENEWSWIRE",
+    "source_url": "https://www.globenewswire.com/news-release/2026/06/22/3315040/0/en/NBPE-Announces-Transaction-in-Own-Shares.html",
+    "source_title": "NBPE Announces Transaction in Own Shares",
+    "source_summary": "THE INFORMATION CONTAINED HEREIN IS NOT FOR RELEASE, PUBLICATION OR DISTRIBUTION IN OR INTO AUSTRALIA, CANADA, ITALY, DENMARK, JAPAN, THE UNITED STATES, OR TO ANY NATIONAL OF SUCH JURISDICTIONS",
+    "drafted_at": "2026-06-22T06:19:30.869681",
+    "data": {
+      "source": "GLOBENEWSWIRE"
+    },
+    "content_hash": "e5c399b896eb45c9"
+  },
+  {
+    "id": "be73f5cb",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Levant update: Iran's draw reshapes Group G dynamics, intensifying competition for knockout spots, while Kraken's FIFA debut highlights crypto's growing sports role.\n\nThe post Iran holds Belgium to 0-0 draw at World Cup as crypto exchange Kraken makes FIFA debut appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iran-belgium-world-cup-draw-kraken-fifa/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/gold-declines-trump-iran-peace-talks/",
-    "source_title": "Gold declines as Trump warns Iran during peace talks",
-    "source_summary": "Gold's volatility underscores market uncertainty amid geopolitical tensions, highlighting the fragile balance between diplomacy and conflict. The post Gold declines as Trump warns Iran during peace talks appeared first on Crypto Briefing .",
-    "drafted_at": "2026-06-22T00:10:38.286888",
+    "source_url": "https://cryptobriefing.com/iran-belgium-world-cup-draw-kraken-fifa/",
+    "source_title": "Iran holds Belgium to 0-0 draw at World Cup as crypto exchange Kraken makes FIFA debut",
+    "source_summary": "Iran's draw reshapes Group G dynamics, intensifying competition for knockout spots, while Kraken's FIFA debut highlights crypto's growing sports role. The post Iran holds Belgium to 0-0 draw at World Cup as crypto exchange Kraken makes FIFA debut appeared first on Crypto Briefing .",
+    "drafted_at": "2026-06-22T06:19:30.870183",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "ff50684844401bc2"
+    "content_hash": "16e73c8dbd588cef"
   },
   {
-    "id": "8c053e24",
+    "id": "dd1f8915",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Gulf wire: Gold held a decline after US President Donald Trump issued a fresh threat to strike Iran, raising tensions during high-level talks to find a permanent resolution to the war that\u2019s roiled global markets.\n\nhttps://financialpost.com/pmn/business-pmn/gold-holds-decline-after-trump-warns-iran-during-peace-talks",
+    "draft_text": "Levant update: Qatar is calling back empty LNG carriers in preparation for the restart of exports despite ongoing repairs at the Ras Laffan complex, and an explosion that rocked the facility on Sunday.\n\nThree carriers for liquefied gas owned by QatarEnergy are heading towards the entrance to the Strait of Hormuz from the Gulf of Oman, Bloomberg reported, citing shipping data.\n\nThe data also showed another five Qatari-linked LNG tankers near the Omani coast, and a few more that are on their way home.\n\nQatar has been eager to restart its LNG exports, after declaring\u2026\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Qatar-Races-to-Restore-LNG-Exports-Despite-Ras-Laffan-Setback.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/pmn/business-pmn/gold-holds-decline-after-trump-warns-iran-during-peace-talks",
-    "source_title": "Gold Holds Decline After Trump Warns Iran During Peace Talks",
-    "source_summary": "Gold held a decline after US President Donald Trump issued a fresh threat to strike Iran, raising tensions during high-level talks to find a permanent resolution to the war that\u2019s roiled global markets.",
-    "drafted_at": "2026-06-22T00:10:38.287297",
+    "primary_source": "OILPRICE",
+    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Qatar-Races-to-Restore-LNG-Exports-Despite-Ras-Laffan-Setback.html",
+    "source_title": "Qatar Races to Restore LNG Exports Despite Ras Laffan Setback",
+    "source_summary": "Qatar is calling back empty LNG carriers in preparation for the restart of exports despite ongoing repairs at the Ras Laffan complex, and an explosion that rocked the facility on Sunday. Three carriers for liquefied gas owned by QatarEnergy are heading towards the entrance to the Strait of Hormuz from the Gulf of Oman, Bloomberg reported, citing shipping data. The data also showed another five Qat",
+    "drafted_at": "2026-06-22T06:19:30.870966",
     "data": {
-      "source": "FINANCIAL POST"
+      "source": "OILPRICE"
     },
-    "content_hash": "857accd1106b8925"
+    "content_hash": "15670ce53d79952b"
   },
   {
-    "id": "9498d38d",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Gulf wire: Trump threatens to hit Iran 'very hard' amid talks, prompting Ghalibaf to warn the US to take care with its rhetoric.\n\nhttps://www.aljazeera.com/news/liveblog/2026/6/22/iran-war-live-first-day-of-us-talks-covers-lebanon-hormuz-frozen-assets?traffic_source=rss",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/news/liveblog/2026/6/22/iran-war-live-first-day-of-us-talks-covers-lebanon-hormuz-frozen-assets?traffic_source=rss",
-    "source_title": "Iran war live: First day of US talks covers Lebanon, Hormuz, frozen assets",
-    "source_summary": "Trump threatens to hit Iran 'very hard' amid talks, prompting Ghalibaf to warn the US to take care with its rhetoric.",
-    "drafted_at": "2026-06-22T00:10:38.287585",
-    "data": {
-      "source": "AL JAZEERA"
-    },
-    "content_hash": "a8ae93b9ed93af89"
-  },
-  {
-    "id": "3244bbf6",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "From the Gulf: Gold price (XAU/USD) trades with mild losses around $4,155 during the early Asian session on Monday.\n\nTraders continue to assess the developments surrounding the US-Iran peace talks in Switzerland.\n\nhttps://www.fxstreet.com/news/gold-edges-lower-to-near-4-150-on-us-iran-peace-uncertainty-hawkish-fed-signals-202606212334",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/gold-edges-lower-to-near-4-150-on-us-iran-peace-uncertainty-hawkish-fed-signals-202606212334",
-    "source_title": "Gold edges lower to near $4,150 on US\u2013Iran peace uncertainty, hawkish Fed signals",
-    "source_summary": "Gold price (XAU/USD) trades with mild losses around $4,155 during the early Asian session on Monday. Traders continue to assess the developments surrounding the US-Iran peace talks in Switzerland.",
-    "drafted_at": "2026-06-22T00:10:38.288112",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "643b640c9d46e92b"
-  },
-  {
-    "id": "19ecf012",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "From the Gulf: He also said the U.S. may take over the strait, adding \"I'll blow the s--t out of them.\n\nIf they don't make a deal, we'll collect tolls.\"\n\nhttps://fortune.com/2026/06/21/stock-market-today-dow-futures-oil-prices-us-iran-talks-trump-threat-hormuz/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FORTUNE",
-    "source_url": "https://fortune.com/2026/06/21/stock-market-today-dow-futures-oil-prices-us-iran-talks-trump-threat-hormuz/",
-    "source_title": "Dow futures drop and oil jumps as first day of U.S.-Iran talks sees Trump threaten Tehran on Hormuz: \u2018You close it and you won\u2019t have a country\u2019",
-    "source_summary": "He also said the U.S. may take over the strait, adding \"I'll blow the s--t out of them. If they don't make a deal, we'll collect tolls.\"",
-    "drafted_at": "2026-06-22T00:10:38.288741",
-    "data": {
-      "source": "FORTUNE"
-    },
-    "content_hash": "53ed9647df19e5e1"
-  },
-  {
-    "id": "9a45a5d9",
+    "id": "e43c206d",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "RETAIL-SALES READ: Israel and Hezbollah have agreed to a ceasefire to start almost immediately Two killed in drone strike in Southern Lebanon after ceasefire Canada April retail sales +0.5% vs +0.6% expected UK PM Starmer to weigh future over the weekend - report \"Multiple\" cabinet ministers will tell Starmer to set out a timeline for leaving - report Iran foreign min says plans underway for future meeting with US Markets: Gold down $49 to $4160 WTI crude oil up 94-cents to $77.54 US markets closed S&P 500 futures down 0.2% JPY leads, CAD lags The US was on holiday on Friday and that limited market moves to wrap up the week.\n\nThere was news though as Israel and Hezbollah agreed to a ceasefire.\n\nThe market took at that as good news initially with oil falling more than $1 but those moves slowly unwound as the fighting in Southern Lebanon continued virtually unabated.\n\nAs of the time of writing there were reports of ongoing shelling so that's worth watching over the weekend.\n\nOther reports continue to say that Iran isn't happy and Trump said in an interview with NBC that Israel needs to give the ceasefire a chance.\n\nIn general, the US dollar eased in North American trade but one outliner was the loonie.\n\nFriday's retail sales number looked fine on the headline but below the surface, core sales were down 0.7% m/m and all the headline sales increase was on gasoline because of higher prices.\n\nUSD/CAD rose to the highest since November.\n\nhttps://investinglive.com/news/investinglive-americas-market-news-wrap-israel-and-hezbollah-agree-to-shaky-ceasefire-20260619/",
+    "draft_text": "CPI POSTCARD: China bans rare earth exports to Pentagon-backed US firms in military-linked retaliation Explosion at Qatar's Ras Laffan LNG site leaves 54 injured and 18 missing Goldman Sachs sees structural gold buying as central bank demand hits 59 tonnes in April Recap: Japan PM Takaichi urges policy restraint after hawkish BOJ testimony on price risks Mediators map out 60-day roadmap for final US-Iran deal after breakthrough talks PBOC sets USD/ CNY reference rate for today at 6.8150 (vs. estimate at 6.7733) Hormuz maritime security mechanism agreed by Iran in Switzerland breakthrough BOJ Dep Gov Himino warned delaying policy adjustments could trigger a inflation overshoot Bank of Japan Deputy Governor Himono to speak imminently Hormuz traffic plunges to five ships as Iran reasserts closure threat UK media (Guardian) reports Starmer set to confirm autumn departure on Monday, UK time US official says in-depth discussions held, working to ensure Hormuz remains open New York Times: China set to keep shaping oil prices as it holds back on imports ICYMI - Woman killed after Tesla using driver-assist system crashes into Texas home US futures - Globex - has opened for the new week, equity indexes down, oil up Politics weigh on GBP: Starmer given until Tuesday to set exit date or face mass resigns Qatar moves to contain Ras Laffan blast as questions linger over cause AXIOS report that US and Iran make headway on Hormuz access ahead of technical-level talks Monday open indicative forex prices, 22 June 2026 J.D.\n\nVance: These kinds of ceasefires are awlays \"a littel bit messy\" Newsquawk Week in Focus: US PCE, Canadian CPI, EZ Flash PMI, Japanese Tokyo CPI Iran military command says it's closing the Strait of Hormuz due to ceasefire violations Session wrap \u2014 bullet summary Strait of Hormuz traffic collapsed to five vessels on Sunday after Iran announced a closure, down from 26 the previous day, before news flow improved as US-Iran talks in Switzerland continued despite an Iranian delegation walkout Qatar and Pakistan, as mediators at the Lake Lucerne summit, said encouraging progress was made across 18 hours of negotiations; the US and Iran agreed a 60-day roadmap to a final deal, a High Level Committee for political oversight, and working groups on nuclear, sanctions, and dispute resolution A communication line on Hormuz was established to ensure safe commercial passage for as long as talks continue; a de-confliction cell involving the US, Iran, Lebanon, and the mediators was also agreed to oversee the end of military operations in Lebanon Iran's Foreign Minister Araghchi declared the blockade lifted, oil and petrochemical exports waived, some frozen assets to be released, and a major reconstruction and development plan for Iran in motion \u2014 though Israel was absent from the joint statement, raising questions about ceasefire durability Eighteen workers remain missing and at least 54 are injured after a large explosion at the Ras Laffan LNG plant near Doha, attributed to a technical accident during restart operations China banned dual-use exports to 10 US military-linked entities including rare earth miners MP Materials and USA Rare Earth, and barred Chinese buyers from procuring goods from 46 other US firms China held benchmark lending rates steady for a 13th consecutive month, with the one-year LPR at 3.00% and the five-year at 3.50%, signalling no urgency to ease despite sluggish credit growth The USD traded choppily and oil swung sharply, initially spiking on Iran's Hormuz closure announcement before reversing into negative territory as the Swiss talks produced cautious optimism A woman was killed in the US late Friday when a Tesla reportedly operating in driver-assist mode left its lane and struck a brick building, the woman's home, at high speed President Trump is scheduled to sign executive orders at 15:30 EDT / 20:30 BST Monday A session dominated by the push-pull of the US-Iran endgame, with the Strait of Hormuz once again the fulcrum.\n\nThe new trading week opened badly, with Hormuz traffic cratering to five vessels on Sudnay after Iran announced a closure and its delegation walked out of the Lake Lucerne talks in protest at Trump's online threats to resume bombing.\n\nOil spiked, the dollar churned, and for a few hours last week's fragile optimism looked like it might not survive contact with Monday.\n\nThe joint statement from Qatari and Pakistani mediators carried enough weight to reverse the move; 18 hours of talks, a 60-day roadmap, a High Level Committee, working groups across nuclear, sanctions, and dispute resolution, and crucially a dedicated communication line on Hormuz designed to prevent exactly the kind of incident that nearly derailed the day.\n\nIranian FM Araghchi went further than the joint statement, declaring the blockade lifted, frozen assets moving, and a reconstruction plan for Iran underway.\n\nThe absence of Israel from the joint statement remains the most conspicuous gap.\n\nThe de-confliction cell for Lebanon includes the US, Iran, and the mediators, but a durable ceasefire that doesn't explicitly bind Israel is a framework with an obvious pressure point.\n\nhttps://investinglive.com/news/investinglive-asia-pacific-fx-news-wrap-encouraging-us-iran-progress-weighs-on-oil-usd-20260622/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-israel-and-hezbollah-agree-to-shaky-ceasefire-20260619/",
-    "source_title": "investingLive Americas market news wrap: Israel and Hezbollah agree to shaky ceasefire",
-    "source_summary": "Israel and Hezbollah have agreed to a ceasefire to start almost immediately Two killed in drone strike in Southern Lebanon after ceasefire Canada April retail sales +0.5% vs +0.6% expected UK PM Starmer to weigh future over the weekend - report \"Multiple\" cabinet ministers will tell Starmer to set out a timeline for leaving - report Iran foreign min says plans underway for future meeting with US M",
-    "drafted_at": "2026-06-22T00:10:38.348677",
+    "source_url": "https://investinglive.com/news/investinglive-asia-pacific-fx-news-wrap-encouraging-us-iran-progress-weighs-on-oil-usd-20260622/",
+    "source_title": "investingLive Asia-Pacific FX news wrap: Encouraging US-Iran progress weighs on oil, USD",
+    "source_summary": "China bans rare earth exports to Pentagon-backed US firms in military-linked retaliation Explosion at Qatar's Ras Laffan LNG site leaves 54 injured and 18 missing Goldman Sachs sees structural gold buying as central bank demand hits 59 tonnes in April Recap: Japan PM Takaichi urges policy restraint after hawkish BOJ testimony on price risks Mediators map out 60-day roadmap for final US-Iran deal a",
+    "drafted_at": "2026-06-22T06:19:30.947389",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "25b70ca812f3e8a0"
+    "content_hash": "aeec68f46f8e61bf"
   },
   {
-    "id": "eef80243",
+    "id": "57c2aefd",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "Fresh print: There has been an unexpected dip in the UK's unemployment rate in official figures also showing new recruits in payrolled work at their lowest level for five years and private sector basic pay awards struggling.\n\nhttps://news.sky.com/story/unemployment-rate-falls-but-private-sector-wage-growth-suffers-13554974",
+    "draft_text": "CPI just printed. FedEx Q4 earnings, Micron's AI memory results, and May PCE inflation data are the three events set to move markets this week.\n\nThe post FedEx, Micron Earnings and PCE Data Set to Shape Markets This Week appeared first on BeInCrypto.\n\nhttps://beincrypto.com/fedex-micron-earnings-pce-inflation-week/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "SKY NEWS",
-    "source_url": "https://news.sky.com/story/unemployment-rate-falls-but-private-sector-wage-growth-suffers-13554974",
-    "source_title": "Unemployment rate falls but private sector wage growth suffers",
-    "source_summary": "There has been an unexpected dip in the UK's unemployment rate in official figures also showing new recruits in payrolled work at their lowest level for five years and private sector basic pay awards struggling.",
-    "drafted_at": "2026-06-22T00:10:38.349022",
+    "primary_source": "BEINCRYPTO",
+    "source_url": "https://beincrypto.com/fedex-micron-earnings-pce-inflation-week/",
+    "source_title": "FedEx, Micron Earnings and PCE Data Set to Shape Markets This Week",
+    "source_summary": "FedEx Q4 earnings, Micron's AI memory results, and May PCE inflation data are the three events set to move markets this week. The post FedEx, Micron Earnings and PCE Data Set to Shape Markets This Week appeared first on BeInCrypto .",
+    "drafted_at": "2026-06-22T06:19:30.947709",
     "data": {
-      "source": "SKY NEWS"
+      "source": "BEINCRYPTO"
     },
-    "content_hash": "460a743948957d5b"
+    "content_hash": "7a253c6690ceba32"
   },
   {
-    "id": "a455b4a4",
+    "id": "b0815b63",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -435,7 +435,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-06-22T00:10:38.350654",
+    "drafted_at": "2026-06-22T06:19:30.949267",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -443,7 +443,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "870b9a19",
+    "id": "fc726db4",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Inflation is a tax that doesn't show up on your W-2.",
@@ -453,14 +453,14 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Inflation is a tax that doesn't show up on your W-2.",
-    "drafted_at": "2026-06-22T00:10:38.350734",
+    "drafted_at": "2026-06-22T06:19:30.949343",
     "data": {
       "take_seed": "2026-06-22-pack-1"
     },
     "content_hash": "9b0f7be55d8ef71c"
   },
   {
-    "id": "aa4d22a2",
+    "id": "81b22f3c",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Real rates eat sentiment for breakfast.",
@@ -470,7 +470,7 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Real rates eat sentiment for breakfast.",
-    "drafted_at": "2026-06-22T00:10:38.350777",
+    "drafted_at": "2026-06-22T06:19:30.949389",
     "data": {
       "take_seed": "2026-06-22-pack-2"
     },

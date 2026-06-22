@@ -1,16 +1,16 @@
 {
-  "^VIX:move:2026-06-18": {
-    "headline": "VIX tumbles 13.3% in 5 sessions to 16.40",
-    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "source": "CBOE \u00b7 ^VIX",
+  "CL=F:move:2026-06-22": {
+    "headline": "WTI crude tumbles 11.4% in 5 sessions to $75.18",
+    "matters": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "source": "NYMEX \u00b7 CL=F",
     "chart_path": null,
-    "signal_id": "^VIX:move:2026-06-18",
-    "current_str": "16.40",
-    "label": "VIX (S&P 500 volatility)",
-    "hashtags": "#VIX #Volatility #Markets",
+    "signal_id": "CL=F:move:2026-06-22",
+    "current_str": "$75.18",
+    "label": "WTI crude oil futures",
+    "hashtags": "#Oil #WTI #Energy #Commodities",
     "kind": "move_down",
-    "badge": "-13.3%",
-    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "fired_at": "2026-06-22T00:10:35.981883"
+    "badge": "-11.4%",
+    "data_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "fired_at": "2026-06-22T06:19:28.168457"
   }
 }
