@@ -1,16 +1,30 @@
 {
-  "^VIX:move:2026-06-24": {
-    "headline": "VIX jumps 8.9% in 5 sessions to 19.26",
-    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "source": "CBOE \u00b7 ^VIX",
+  "GC=F:move:2026-06-24": {
+    "headline": "Gold drops 5.2% in 5 sessions to $3,997.40",
+    "matters": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
+    "source": "COMEX \u00b7 GC=F",
     "chart_path": null,
-    "signal_id": "^VIX:move:2026-06-24",
-    "current_str": "19.26",
-    "label": "VIX (S&P 500 volatility)",
-    "hashtags": "#VIX #Volatility #Markets",
-    "kind": "move_up",
-    "badge": "+8.9%",
-    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "fired_at": "2026-06-24T10:12:42.379156"
+    "signal_id": "GC=F:move:2026-06-24",
+    "current_str": "$3,997.40",
+    "label": "Gold futures",
+    "hashtags": "#Gold #PreciousMetals #Commodities",
+    "kind": "move_down",
+    "badge": "-5.2%",
+    "data_url": "https://finance.yahoo.com/quote/GC%3DF",
+    "fired_at": "2026-06-24T13:10:45.464131"
+  },
+  "BTC-USD:move:2026-06-24": {
+    "headline": "Bitcoin drops 5.6% in 5 sessions to $62,021",
+    "matters": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
+    "source": "Yahoo Finance \u00b7 BTC-USD",
+    "chart_path": null,
+    "signal_id": "BTC-USD:move:2026-06-24",
+    "current_str": "$62,021",
+    "label": "Bitcoin",
+    "hashtags": "#Bitcoin #BTC #Crypto",
+    "kind": "move_down",
+    "badge": "-5.6%",
+    "data_url": "https://finance.yahoo.com/quote/BTC-USD",
+    "fired_at": "2026-06-24T13:10:45.464131"
   }
 }
