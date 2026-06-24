@@ -1,42 +1,61 @@
 [
   {
-    "id": "c4f64a1f",
+    "id": "7cf599e9",
     "format": "MARKET_MOVE",
     "status": "pending",
-    "draft_text": "Wake up \u2014 here's the tape: WTI crude tumbles 14.4% in 5 sessions to $72.62.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "draft_text": "This is the take-notes part. VIX surges 10.2% in 5 sessions to 19.49.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CBOE \u00b7 ^VIX",
+    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "source_title": "VIX (S&P 500 volatility)",
+    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "drafted_at": "2026-06-24T06:35:37.790638",
+    "data": {
+      "signal_id": "^VIX:move:2026-06-23",
+      "kind": "move_up",
+      "current": "19.49"
+    },
+    "content_hash": "995f4d67e7e875d2"
+  },
+  {
+    "id": "973d576b",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "You blink, you miss this: WTI crude tumbles 14.4% in 5 sessions to $72.68.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "NYMEX \u00b7 CL=F",
     "source_url": "https://finance.yahoo.com/quote/CL%3DF",
     "source_title": "WTI crude oil futures",
     "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-06-24T02:07:21.282426",
+    "drafted_at": "2026-06-24T06:35:37.790906",
     "data": {
-      "signal_id": "CL=F:move:2026-06-23",
+      "signal_id": "CL=F:move:2026-06-24",
       "kind": "move_down",
-      "current": "$72.62"
+      "current": "$72.68"
     },
     "content_hash": "c272de0720a2f459"
   },
   {
-    "id": "4abe79b5",
+    "id": "32ea1d35",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "China policy update: On Wednesday, the People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.8195 compared to the previous day's fix of 6.8171 and 6.7913 Reuters estimate.\n\nhttps://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-68195-vs-68171-previous-202606240115",
+    "draft_text": "RATE-PATH READ: Gold (XAU/USD) drifts lower for the second straight day \u2013 also marking the fifth day of a negative move in the previous six \u2013 and drops to a nearly two-week low during the Asian session on Wednesday.\n\nhttps://www.fxstreet.com/news/4-050-gold-dives-to-fresh-two-week-low-as-fed-rate-hike-bets-boost-us-dollar-202606240340",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "PBOC",
-    "source_url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-68195-vs-68171-previous-202606240115",
-    "source_title": "PBOC sets USD/CNY reference rate at 6.8195 vs. 6.8171 previous",
-    "source_summary": "On Wednesday, the People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.8195 compared to the previous day's fix of 6.8171 and 6.7913 Reuters estimate.",
-    "drafted_at": "2026-06-24T02:07:21.292171",
+    "primary_source": "Fed",
+    "source_url": "https://www.fxstreet.com/news/4-050-gold-dives-to-fresh-two-week-low-as-fed-rate-hike-bets-boost-us-dollar-202606240340",
+    "source_title": "$4,050: Gold seems vulnerable near two-week low amid Fed hike bets and bullish US Dollar",
+    "source_summary": "Gold (XAU/USD) drifts lower for the second straight day \u2013 also marking the fifth day of a negative move in the previous six \u2013 and drops to a nearly two-week low during the Asian session on Wednesday.",
+    "drafted_at": "2026-06-24T06:35:37.800970",
     "data": {
-      "actor": "PBOC"
+      "actor": "Fed"
     },
-    "content_hash": "71c09f450cd7c1e6"
+    "content_hash": "76c78369420081ff"
   },
   {
-    "id": "f4058ed3",
+    "id": "e5a8acaa",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FOMC update. During his 18 years as Chairman, he guided the Federal Reserve through periods of significant economic expansion as well as periods of considerable stress.\n\nUnder his leadership, the Federal Reserve achieved a sustained era of price stability that supported economic growth and helped anchor the public's confidence in the institution.\n\nHe brought rigorous analytical discipline to monetary policymaking and helped establish the credibility that remains one of the Federal Reserve's most important assets.\n\nChairman Greenspan's legacy endures at the Federal Reserve\u2014in those he mentored directly, in the economists and public servants he inspired, and in the frameworks and practices he helped shape.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/other20260622a.htm",
@@ -46,14 +65,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260622a.htm",
     "source_title": "Federal Reserve notes with deep sadness the passing of Alan Greenspan",
     "source_summary": "Federal Reserve notes with deep sadness the passing of Alan Greenspan",
-    "drafted_at": "2026-06-24T02:07:21.293272",
+    "drafted_at": "2026-06-24T06:35:37.802056",
     "data": {
       "actor": "FED"
     },
     "content_hash": "7cecd64de0418546"
   },
   {
-    "id": "6f44307c",
+    "id": "bec8e80f",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "RATE-PATH READ: Engelbrecht is the former chief executive officer of Bank of Eufaula and a former director of the bank and its holding company, S N B Bancshares, Inc. In his former roles, Engelbrecht leveraged his position to cause the bank to provide imprudent extensions of credit to his relative's company and he participated in the fabrication of board meeting minutes.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260618b.htm",
@@ -63,14 +82,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260618b.htm",
     "source_title": "Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc.",
     "source_summary": "Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc.",
-    "drafted_at": "2026-06-24T02:07:21.293823",
+    "drafted_at": "2026-06-24T06:35:37.802569",
     "data": {
       "actor": "FED"
     },
     "content_hash": "52b15b90987fc933"
   },
   {
-    "id": "2357caca",
+    "id": "d051025a",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "RATE-PATH READ: Comments on the proposal are due 60 days after publication in the Federal Register.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260618a.htm",
@@ -80,14 +99,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260618a.htm",
     "source_title": "Federal Reserve Board requests comment on proposal to require certain payment stablecoin issuers to maintain an effective customer identification program",
     "source_summary": "Federal Reserve Board requests comment on proposal to require certain payment stablecoin issuers to maintain an effective customer identification program",
-    "drafted_at": "2026-06-24T02:07:21.294092",
+    "drafted_at": "2026-06-24T06:35:37.802865",
     "data": {
       "actor": "FED"
     },
     "content_hash": "a8838c582bb87e8b"
   },
   {
-    "id": "f3b93988",
+    "id": "40d55cde",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FOMC desk: The Committee decided to maintain the target range for the federal funds rate at 3-1/2 to 3-3/4 percent, in support of the Federal Reserve's dual mandate.\n\nJob gains have kept pace with the workforce, and the unemployment rate has changed little.\n\nInflation remains elevated relative to the Committee's 2 percent goal, in part reflecting supply shocks that have driven price increases in certain sectors, including energy.\n\nThe Committee reaffirmed its policy of maintaining ample reserves in the banking system.\n\nEconomic activity is expanding at a solid pace despite elevated uncertainty that owes, in part, to the conflict in the Middle East.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
@@ -97,48 +116,114 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
     "source_title": "Federal Reserve issues FOMC statement",
     "source_summary": "Federal Reserve issues FOMC statement",
-    "drafted_at": "2026-06-24T02:07:21.294941",
+    "drafted_at": "2026-06-24T06:35:37.803712",
     "data": {
       "actor": "FED"
     },
     "content_hash": "6de2e15325531532"
   },
   {
-    "id": "cc81d10a",
-    "format": "CORRUPTION_WATCH",
+    "id": "343ae0e0",
+    "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "North Korea's naval expansion, funded by crypto theft, may lead to stricter regulations, impacting crypto platforms and increasing user costs.\n\nThe post North Korea commissions first 5,000-ton destroyer, vows to build a nuclear navy appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/north-korea-destroyer-nuclear-navy-crypto/",
+    "draft_text": "$LILA insider bought $108,718,438 on 2026-06-18, 3 insiders. \ud83d\udc40\n\nLiberty Latin America Ltd.. 12,691,377 shares at $8.57.\n\n-30.6% since the purchase.\n\nhttp://openinsider.com/screener?s=LILA",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/north-korea-destroyer-nuclear-navy-crypto/",
-    "source_title": "North Korea commissions first 5,000-ton destroyer, vows to build a nuclear navy",
-    "source_summary": "North Korea's naval expansion, funded by crypto theft, may lead to stricter regulations, impacting crypto platforms and increasing user costs. The post North Korea commissions first 5,000-ton destroyer, vows to build a nuclear navy appeared first on Crypto Briefing .",
-    "drafted_at": "2026-06-24T02:07:21.295408",
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=LILA",
+    "source_title": "Liberty Latin America Ltd. (LILA) insider bought $108,718,438",
+    "source_summary": "3 insider(s) bought 12,691,377 shares at $8.57 on 2026-06-18.",
+    "drafted_at": "2026-06-24T06:35:37.803903",
     "data": {
-      "source": "CRYPTO BRIEFING"
+      "ticker": "LILA",
+      "type": "P",
+      "dollar_value": 108718438.0,
+      "pct_since": -30.571764185937727
     },
-    "content_hash": "935f70b31df62ec4"
+    "content_hash": "6076c2cc9d64aa5e"
   },
   {
-    "id": "911fa14f",
-    "format": "CORRUPTION_WATCH",
+    "id": "ede0994c",
+    "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "Nations are increasingly battling for control in the space domain to strengthen military signals against disruptions and spoofing attacks on GPS navigation systems.\n\nhttps://www.forbes.com/sites/zitaballingerfletcher/2026/06/23/why-space-is-becoming-a-critical-domain-of-modern-warfare/",
+    "draft_text": "$PSUS insider bought $70,735,390 on 2026-06-17, 7 insiders. \ud83d\udc40\n\nPershing Square Usa, Ltd.. 1,417,000 shares at $49.92.\n\n-24.1% since the purchase.\n\nhttp://openinsider.com/screener?s=PSUS",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FORBES",
-    "source_url": "https://www.forbes.com/sites/zitaballingerfletcher/2026/06/23/why-space-is-becoming-a-critical-domain-of-modern-warfare/",
-    "source_title": "Why Space Is Becoming A Critical Domain Of Modern Warfare",
-    "source_summary": "Nations are increasingly battling for control in the space domain to strengthen military signals against disruptions and spoofing attacks on GPS navigation systems.",
-    "drafted_at": "2026-06-24T02:07:21.295705",
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=PSUS",
+    "source_title": "Pershing Square Usa, Ltd. (PSUS) insider bought $70,735,390",
+    "source_summary": "7 insider(s) bought 1,417,000 shares at $49.92 on 2026-06-17.",
+    "drafted_at": "2026-06-24T06:35:37.804038",
     "data": {
-      "source": "FORBES"
+      "ticker": "PSUS",
+      "type": "P",
+      "dollar_value": 70735390.0,
+      "pct_since": -24.078522584377193
     },
-    "content_hash": "70c9e41abc3f11dd"
+    "content_hash": "06b51d7fce606b41"
   },
   {
-    "id": "ab302c04",
+    "id": "3170aa05",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$HLNE insider bought $14,241,108 on 2026-06-11, 3 insiders. \ud83d\udc40\n\nHamilton Lane Inc. 165,505 shares at $86.05.\n\n-12.1% since the purchase.\n\nhttp://openinsider.com/screener?s=HLNE",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=HLNE",
+    "source_title": "Hamilton Lane Inc (HLNE) insider bought $14,241,108",
+    "source_summary": "3 insider(s) bought 165,505 shares at $86.05 on 2026-06-11.",
+    "drafted_at": "2026-06-24T06:35:37.804160",
+    "data": {
+      "ticker": "HLNE",
+      "type": "P",
+      "dollar_value": 14241108.0,
+      "pct_since": -12.10924200648696
+    },
+    "content_hash": "44918ed475624ad2"
+  },
+  {
+    "id": "f76e521b",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$FUN insider bought $6,174,038 on 2026-06-12, 3 insiders. \ud83d\udc40\n\nSix Flags Entertainment Corporation/New. 265,000 shares at $23.30.\n\n-0.6% since the purchase.\n\nhttp://openinsider.com/screener?s=FUN",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=FUN",
+    "source_title": "Six Flags Entertainment Corporation/New (FUN) insider bought $6,174,038",
+    "source_summary": "3 insider(s) bought 265,000 shares at $23.30 on 2026-06-12.",
+    "drafted_at": "2026-06-24T06:35:37.804292",
+    "data": {
+      "ticker": "FUN",
+      "type": "P",
+      "dollar_value": 6174038.0,
+      "pct_since": -0.6437784612434647
+    },
+    "content_hash": "bd45ae1ea9778c7e"
+  },
+  {
+    "id": "a4e85b25",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$LODE insider bought $4,243,906 on 2026-06-11, 4 insiders. \ud83d\udc40\n\nComstock Inc.. 1,132,651 shares at $3.75.\n\n+14.1% since the purchase.\n\nhttp://openinsider.com/screener?s=LODE",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=LODE",
+    "source_title": "Comstock Inc. (LODE) insider bought $4,243,906",
+    "source_summary": "4 insider(s) bought 1,132,651 shares at $3.75 on 2026-06-11.",
+    "drafted_at": "2026-06-24T06:35:37.804409",
+    "data": {
+      "ticker": "LODE",
+      "type": "P",
+      "dollar_value": 4243906.0,
+      "pct_since": 14.133338928222654
+    },
+    "content_hash": "81666070a417a65a"
+  },
+  {
+    "id": "a9d76160",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "FRAUDSTER DOWN: Tech trillionaire Elon Musk threatened to file a lawsuit against Rep.\n\nRo Khanna of California after the Democrat accused him of \"possibly\" causing millions of child deaths: \"Time to sue this liar.\" Musk helmed the Department of Government Efficiency and presided over massive cuts in foreign aid that he said were mostly waste, fraud, and abuse.\n\nHe has since left the DOGE and returned to his various tech ventures.\n\n'The richest man in the world announced that he plans to sue me and called for my arrest.\n\nI will not be intimidated.' Critics of the DOGE cuts have since accused Musk of being responsible for child deaths that were supposedly caused by the cessation of foreign aid.\n\nThey cite a study claiming that the number of child deaths could reach into the millions by 2030.\n\nWhile many have repeated the accusation, Musk finally fired back when Khanna used it as a part of his campaign to increase taxes on the wealthy to pay for liberal social programs.\n\n\"He\u2019s such an evil liar,\" Musk said Sunday on X, the social media platform he owns.\n\nhttps://www.theblaze.com/news/ro-khanna-musk-doge-deaths",
@@ -148,31 +233,14 @@
     "source_url": "https://www.theblaze.com/news/ro-khanna-musk-doge-deaths",
     "source_title": "'Time to sue this liar': Elon Musk bristles at Democrat's accusations of DOGE child deaths",
     "source_summary": "Tech trillionaire Elon Musk threatened to file a lawsuit against Rep. Ro Khanna of California after the Democrat accused him of \"possibly\" causing millions of child deaths: \"Time to sue this liar.\" Musk helmed the Department of Government Efficiency and presided over massive cuts in foreign aid that he said were mostly waste, fraud, and abuse. He has since left the DOGE and returned to his various",
-    "drafted_at": "2026-06-24T02:07:21.297936",
+    "drafted_at": "2026-06-24T06:35:37.807604",
     "data": {
       "source": "THE BLAZE"
     },
     "content_hash": "693a7121f7a9a594"
   },
   {
-    "id": "cb390913",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Watch your wallets: Elizabeth Warren has spent much of the past decade warning Americans about the risks posed by privately issued and decentralized digital assets.\n\nOver the years, the Massachusetts Democrat has built a reputation as one of crypto industry\u2019s most recognizable critics by persistently linking the emerging industry to money laundering, speculative excess, consumer losses, and sanctions [\u2026] The post Elizabeth Warren once said CBDCs have a \u201cgreat promise\u201d \u2013 Now she\u2019s helping block it appeared first on CryptoSlate.\n\nhttps://cryptoslate.com/elizabeth-warren-said-cbdcs-great-promise-shes-helping-block-it/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CRYPTOSLATE",
-    "source_url": "https://cryptoslate.com/elizabeth-warren-said-cbdcs-great-promise-shes-helping-block-it/",
-    "source_title": "Elizabeth Warren once said CBDCs have a \u201cgreat promise\u201d \u2013 Now she\u2019s helping block it",
-    "source_summary": "Elizabeth Warren has spent much of the past decade warning Americans about the risks posed by privately issued and decentralized digital assets. Over the years, the Massachusetts Democrat has built a reputation as one of crypto industry\u2019s most recognizable critics by persistently linking the emerging industry to money laundering, speculative excess, consumer losses, and sanctions [\u2026] The post Eliz",
-    "drafted_at": "2026-06-24T02:07:21.298694",
-    "data": {
-      "source": "CRYPTOSLATE"
-    },
-    "content_hash": "784040dcb9b2867f"
-  },
-  {
-    "id": "57ffc3f4",
+    "id": "b2825e13",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Here\u2019s What He Told Me About an Oil Tycoon and Major Donor. appeared first on ProPublica.\n\nhttps://www.propublica.org/article/propublica-called-trump-hildebrand",
@@ -182,133 +250,184 @@
     "source_url": "https://www.propublica.org/article/propublica-called-trump-hildebrand",
     "source_title": "I Cold-Called President Trump. Here\u2019s What He Told Me About an Oil Tycoon and Major Donor.",
     "source_summary": "The post I Cold-Called President Trump. Here\u2019s What He Told Me About an Oil Tycoon and Major Donor. appeared first on ProPublica .",
-    "drafted_at": "2026-06-24T02:07:21.298934",
+    "drafted_at": "2026-06-24T06:35:37.807851",
     "data": {
       "source": "PROPUBLICA"
     },
     "content_hash": "92599fa3390fafad"
   },
   {
-    "id": "28010857",
-    "format": "GLOBAL_DESK",
+    "id": "302e74dc",
+    "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "EU/UK wire: Push marks fresh test of Europe's effort to outsource migration controls after years of legal setbacks and political controversy.\n\nhttps://www.politico.eu/article/eu-countries-eye-setting-up-migrant-return-hubs-in-rwanda-and-uzbekistan/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+    "draft_text": "Americans are seeing more employment scams than ever as job seekers, facing a tough job market, report a bombardment of messages from swindlers try to lure them into giving sensitive information.\n\nReports of employment scams doubled in 2025 from the year before, according to a recent study from the Better Business Bureau (BBB).\n\nAnd gen Z applicants looking to jumpstart their careers have in particular been hit hard: about 32% of gen-Zers report have been a victim of a job scam, compared with 15% of gen-Xers.\n\nhttps://www.theguardian.com/money/2026/jun/22/job-scams-employment-ai",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "POLITICO EU",
-    "source_url": "https://www.politico.eu/article/eu-countries-eye-setting-up-migrant-return-hubs-in-rwanda-and-uzbekistan/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-    "source_title": "EU countries eye setting up migrant \u2018return hubs\u2019 in Rwanda and Uzbekistan",
-    "source_summary": "Push marks fresh test of Europe's effort to outsource migration controls after years of legal setbacks and political controversy.",
-    "drafted_at": "2026-06-24T02:07:21.301910",
+    "primary_source": "GUARDIAN",
+    "source_url": "https://www.theguardian.com/money/2026/jun/22/job-scams-employment-ai",
+    "source_title": "Job scams are growing and getting tougher to spot: \u2018That\u2019s the reality of this hell job market\u2019",
+    "source_summary": "Swindlers now use AI to send out floods of fraudulent messages to gain the personal information of job seekers Americans are seeing more employment scams than ever as job seekers, facing a tough job market, report a bombardment of messages from swindlers try to lure them into giving sensitive information. Experts say the technology behind these scams has only gotten better over time, allowing frau",
+    "drafted_at": "2026-06-24T06:35:37.809275",
     "data": {
-      "source": "POLITICO EU"
+      "source": "GUARDIAN"
     },
-    "content_hash": "d36d112d93df5e5b"
+    "content_hash": "b08da4f5aaaf5f22"
   },
   {
-    "id": "b71c8906",
+    "id": "39018b7f",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Researchers found that Keytruda \u2014 the focus of ICIJ's recent Cancer Calculus investigation \u2014 accounted for nearly half of the potential annual savings.\n\nhttps://www.icij.org/investigations/cancer-calculus/lowering-doses-of-cancer-drugs-could-slash-global-health-spending-by-30b-new-research-shows/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "ICIJ",
+    "source_url": "https://www.icij.org/investigations/cancer-calculus/lowering-doses-of-cancer-drugs-could-slash-global-health-spending-by-30b-new-research-shows/",
+    "source_title": "Lowering doses of cancer drugs could slash global health spending by $30B, new research shows",
+    "source_summary": "Researchers found that Keytruda \u2014 the focus of ICIJ's recent Cancer Calculus investigation \u2014 accounted for nearly half of the potential annual savings.",
+    "drafted_at": "2026-06-24T06:35:37.809568",
+    "data": {
+      "source": "ICIJ"
+    },
+    "content_hash": "1b607a2e5a414fdf"
+  },
+  {
+    "id": "a9ca9842",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Amaryllis Fox Kennedy, who recently stepped down from two senior administration posts, was serving as a CIA officer during the dispute.\n\nhttps://www.icij.org/investigations/paradise-papers/trump-intelligence-adviser-previously-helped-father-pursue-millions-from-kremlin-linked-bank-leaked-documents-show/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "ICIJ",
+    "source_url": "https://www.icij.org/investigations/paradise-papers/trump-intelligence-adviser-previously-helped-father-pursue-millions-from-kremlin-linked-bank-leaked-documents-show/",
+    "source_title": "Trump intelligence adviser previously helped father pursue millions from Kremlin-linked bank, leaked documents show",
+    "source_summary": "Amaryllis Fox Kennedy, who recently stepped down from two senior administration posts, was serving as a CIA officer during the dispute.",
+    "drafted_at": "2026-06-24T06:35:37.809863",
+    "data": {
+      "source": "ICIJ"
+    },
+    "content_hash": "f9a4e2950958d2cd"
+  },
+  {
+    "id": "77466801",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: Bessent's disinflation bet suggests potential easing of monetary policy, impacting risk assets positively if inflation pressures subside.\n\nThe post Scott Bessent backs Kevin Warsh and bets on disinflation as Iran conflict cools appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/bessent-warsh-fed-iran-disinflation/",
+    "draft_text": "ASIA DESK: Japan's reserve review could impact global markets by influencing US Treasury yields, highlighting fiscal challenges amid tax policy shifts.\n\nThe post Japan plans review of $1.3T foreign exchange reserves as fiscal pressures mount appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/japan-reviews-foreign-exchange-reserves/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/bessent-warsh-fed-iran-disinflation/",
-    "source_title": "Scott Bessent backs Kevin Warsh and bets on disinflation as Iran conflict cools",
-    "source_summary": "Bessent's disinflation bet suggests potential easing of monetary policy, impacting risk assets positively if inflation pressures subside. The post Scott Bessent backs Kevin Warsh and bets on disinflation as Iran conflict cools appeared first on Crypto Briefing .",
-    "drafted_at": "2026-06-24T02:07:21.302473",
+    "source_url": "https://cryptobriefing.com/japan-reviews-foreign-exchange-reserves/",
+    "source_title": "Japan plans review of $1.3T foreign exchange reserves as fiscal pressures mount",
+    "source_summary": "Japan's reserve review could impact global markets by influencing US Treasury yields, highlighting fiscal challenges amid tax policy shifts. The post Japan plans review of $1.3T foreign exchange reserves as fiscal pressures mount appeared first on Crypto Briefing .",
+    "drafted_at": "2026-06-24T06:35:37.810995",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "90a98f526dd91a77"
+    "content_hash": "a40211d9052cda89"
   },
   {
-    "id": "c8b28b78",
+    "id": "0b5069cf",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "World wire: Cyber Partisans from Belarus helped disrupt Russian troop movements in 2022.\n\nNow the anti-Lukashenka hacker group is increasingly targeting Russia itself.\n\nhttps://www.forbes.com/sites/davidkirichenko/2026/06/23/belaruss-cyber-partisans-are-taking-the-fight-to-russia/",
+    "draft_text": "MIDDLE EAST DESK: EUROPEAN SESSION In the European session, the only highlight is the German IFO survey which is expected to show an improvement to 85.6 vs 84.9 prior on lower energy prices and the end of the US-Iran war.\n\nThe data is not going to change much for the ECB, so the market reaction will likely be muted.\n\nAMERICAN SESSION In the American session, we just get a couple of low tier releases like the US new home sales that are not going to change anything for the Fed.\n\nI think the hawkish repricing has reached a peak in the short-term and markets are just moving by inertia given the lack of other significant catalysts since the FOMC.\n\nCENTRAL BANK SPEAKERS 06:30 GMT/02:30 ET - RBA's Hauser (hawkish - voter) 07:00 GMT/03:00 ET - SNB's Martin (neutral - voter) 09:00 GMT/05:00 ET - ECB's Nagel (hawkish - voter) 11:15 GMT/07:15 ET - BoC's Rogers (neutral - voter) 11:20 GMT/07:20 ET - BoE's Breeden (neutral - voter) 13.35 GMT/09:35 ET - ECB's Cipollone (neutral - voter) 15:00 GMT/11:00 ET - BoE's Dhingra (dovish - voter) 20:00 GMT/16:00 ET - BoJ Governor Ueda (neutral - voter) This article was written by Giuseppe Dellamotta at investinglive.com.\n\nhttps://investinglive.com/news/what-are-the-main-events-for-today-20260624/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FORBES",
-    "source_url": "https://www.forbes.com/sites/davidkirichenko/2026/06/23/belaruss-cyber-partisans-are-taking-the-fight-to-russia/",
-    "source_title": "Belarus's Cyber Partisans Are Taking The Fight To Russia",
-    "source_summary": "Cyber Partisans from Belarus helped disrupt Russian troop movements in 2022. Now the anti-Lukashenka hacker group is increasingly targeting Russia itself.",
-    "drafted_at": "2026-06-24T02:07:21.303022",
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/what-are-the-main-events-for-today-20260624/",
+    "source_title": "What are the main events for today?",
+    "source_summary": "EUROPEAN SESSION In the European session, the only highlight is the German IFO survey which is expected to show an improvement to 85.6 vs 84.9 prior on lower energy prices and the end of the US-Iran war. The data is not going to change much for the ECB, so the market reaction will likely be muted. AMERICAN SESSION In the American session, we just get a couple of low tier releases like the US new h",
+    "drafted_at": "2026-06-24T06:35:37.812267",
     "data": {
-      "source": "FORBES"
+      "source": "FOREXLIVE"
     },
-    "content_hash": "33007a68b4a352e7"
+    "content_hash": "57b80ced87badf63"
   },
   {
-    "id": "48ebed57",
+    "id": "66838bcf",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From the Americas: MEXICO, 24 juin 2026 /PRNewswire/ -- Frontera Copper Corporation, S.A.P.I. de CV et Kupari Investments Ltd. (\u00ab Kupari \u00bb), d\u00e9sign\u00e9es collectivement sous le nom de \u00ab Soci\u00e9t\u00e9s \u00bb, ont annonc\u00e9 aujourd'hui que Frontera Copper Corporation (\u00ab Frontera \u00bb) et Kupari Metals A.G., filiale \u00e0 100 % de...\n\nhttps://www.prnewswire.com/news-releases/frontera-et-kupari-annoncent-le-lancement-dun-processus-de-vente-strategique-du-complexe-minier-de-cuivre-de-piedras-verdes-situe-dans-letat-de-sonora-au-mexique-et-dont-elles-sont-coproprietaires-302808514.html",
+    "draft_text": "LATAM DESK: VANCOUVER, British Columbia, June 24, 2026 (GLOBE NEWSWIRE) \u2014 Li-FT Power Ltd. (\u201cLIFT\u201d or the \u201cCompany\u201d) (TSXV: LIFT) (ASX: LFT) (OTCQX: LIFFF) (Frankfurt: WS0) is pleased to announce that it has entered into a binding call option agreement dated June 23, 2026 (the \u201cOption Agreement\u201d) with Stornoway Diamonds (Canada) Inc. (\u201cStornoway\u201d), 11272420 Canada Inc. (\u201c1127 Canada\u201d) and [\u2026].\n\nhttps://financialpost.com/globe-newswire/lift-enters-into-binding-call-option-agreement-for-the-acquisition-of-the-renard-mine-site",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "PR NEWSWIRE",
-    "source_url": "https://www.prnewswire.com/news-releases/frontera-et-kupari-annoncent-le-lancement-dun-processus-de-vente-strategique-du-complexe-minier-de-cuivre-de-piedras-verdes-situe-dans-letat-de-sonora-au-mexique-et-dont-elles-sont-coproprietaires-302808514.html",
-    "source_title": "FRONTERA ET KUPARI ANNONCENT LE LANCEMENT D'UN PROCESSUS DE VENTE STRAT\u00c9GIQUE DU COMPLEXE MINIER DE CUIVRE DE PIEDRAS VERDES, SITU\u00c9 DANS L'\u00c9TAT DE SONORA, AU MEXIQUE, ET DONT ELLES SONT COPROPRI\u00c9TAIRES",
-    "source_summary": "MEXICO, 24 juin 2026 /PRNewswire/ -- Frontera Copper Corporation, S.A.P.I. de CV et Kupari Investments Ltd. (\u00ab Kupari \u00bb), d\u00e9sign\u00e9es collectivement sous le nom de \u00ab Soci\u00e9t\u00e9s \u00bb, ont annonc\u00e9 aujourd'hui que Frontera Copper Corporation (\u00ab Frontera \u00bb) et Kupari Metals A.G., filiale \u00e0 100 % de...",
-    "drafted_at": "2026-06-24T02:07:21.303635",
+    "primary_source": "FINANCIAL POST",
+    "source_url": "https://financialpost.com/globe-newswire/lift-enters-into-binding-call-option-agreement-for-the-acquisition-of-the-renard-mine-site",
+    "source_title": "LIFT Enters into Binding Call Option Agreement for the Acquisition of the Renard Mine Site",
+    "source_summary": "VANCOUVER, British Columbia, June 24, 2026 (GLOBE NEWSWIRE) \u2014 Li-FT Power Ltd. (\u201cLIFT\u201d or the \u201cCompany\u201d) (TSXV: LIFT) (ASX: LFT) (OTCQX: LIFFF) (Frankfurt: WS0) is pleased to announce that it has entered into a binding call option agreement dated June 23, 2026 (the \u201cOption Agreement\u201d) with Stornoway Diamonds (Canada) Inc. (\u201cStornoway\u201d), 11272420 Canada Inc. (\u201c1127 Canada\u201d) and [\u2026]",
+    "drafted_at": "2026-06-24T06:35:37.813060",
     "data": {
-      "source": "PR NEWSWIRE"
+      "source": "FINANCIAL POST"
     },
-    "content_hash": "c1f02fac23cfc4c3"
+    "content_hash": "886aa95acc5c0084"
   },
   {
-    "id": "9b15878b",
+    "id": "b8e27b10",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From the Gulf: Iran\u2019s President Masoud Pezeshkian said that Tehran\u2019s ballistic missile program will not be included in negotiations with the United States (US), BBC reported on Tuesday.\n\nhttps://www.fxstreet.com/news/irans-pezeshkian-says-no-negotiation-on-ballistic-missiles-202606240125",
+    "draft_text": "From the Americas: VANCOUVER, British Columbia, June 24, 2026 (GLOBE NEWSWIRE) -- Li-FT Power Ltd. (\u201c LIFT \u201d or the \u201c Company \u201d) ( TSXV: LIFT ) (ASX: LFT) ( OTCQX: LIFFF ) ( Frankfurt: WS0 ) is pleased to announce that it has entered into a binding call option agreement dated June 23, 2026 (the \u201c Option Agreement \u201d) with Stornoway Diamonds (Canada) Inc. (\u201c Stornoway \u201d), 11272420 Canada Inc. (\u201c 1127 Canada \u201d) and Deloitte Restructuring Inc. (the \u201c Monitor \u201d), in its capacity as monitor in the CCAA Proceedings (as defined below) pursuant to which LIFT has been granted the sole and exclusive option to acquire, at its election, the assets comprising the Renard diamond mine, processing facility and associated infrastructure (\u201c Renard \u201d) or all of the issued shares in the capital in Stornoway or 1127 Canada, subject to the approval of the Superior Court of Qu\u00e9bec (the \u201c Court \u201d) pursuant to the Companies\u2019 Creditors Arrangement Act (Canada) (the \u201c CCAA \u201d).\n\nhttps://www.globenewswire.com/news-release/2026/06/24/3316596/0/en/LIFT-Enters-into-Binding-Call-Option-Agreement-for-the-Acquisition-of-the-Renard-Mine-Site.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/irans-pezeshkian-says-no-negotiation-on-ballistic-missiles-202606240125",
-    "source_title": "Iran\u2019s Pezeshkian says no negotiation on ballistic missiles",
-    "source_summary": "Iran\u2019s President Masoud Pezeshkian said that Tehran\u2019s ballistic missile program will not be included in negotiations with the United States (US), BBC reported on Tuesday.",
-    "drafted_at": "2026-06-24T02:07:21.303914",
+    "primary_source": "GLOBENEWSWIRE",
+    "source_url": "https://www.globenewswire.com/news-release/2026/06/24/3316596/0/en/LIFT-Enters-into-Binding-Call-Option-Agreement-for-the-Acquisition-of-the-Renard-Mine-Site.html",
+    "source_title": "LIFT Enters into Binding Call Option Agreement for the Acquisition of the Renard Mine Site",
+    "source_summary": "VANCOUVER, British Columbia, June 24, 2026 (GLOBE NEWSWIRE) -- Li-FT Power Ltd. (\u201c LIFT \u201d or the \u201c Company \u201d) ( TSXV: LIFT ) (ASX: LFT) ( OTCQX: LIFFF ) ( Frankfurt: WS0 ) is pleased to announce that it has entered into a binding call option agreement dated June 23, 2026 (the \u201c Option Agreement \u201d) with Stornoway Diamonds (Canada) Inc. (\u201c Stornoway \u201d), 11272420 Canada Inc. (\u201c 1127 Canada \u201d) and Del",
+    "drafted_at": "2026-06-24T06:35:37.814615",
     "data": {
-      "source": "FXSTREET"
+      "source": "GLOBENEWSWIRE"
     },
-    "content_hash": "b80a4df41a2accb2"
+    "content_hash": "21b1239fd817b2fc"
   },
   {
-    "id": "a9bcb228",
+    "id": "f43e67f1",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "EUROPE DESK: A blistering heatwave has swept across Europe triggering the highest-level red heat warnings in Britain and France.\n\nhttps://www.aljazeera.com/video/newsfeed/2026/6/24/aje-onl-nf_deadly-heatwave-grips-europe-as-temperatures-soars-240626?traffic_source=rss",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "AL JAZEERA",
+    "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/24/aje-onl-nf_deadly-heatwave-grips-europe-as-temperatures-soars-240626?traffic_source=rss",
+    "source_title": "Deadly heatwave grips Europe as temperatures soar across continent",
+    "source_summary": "A blistering heatwave has swept across Europe triggering the highest-level red heat warnings in Britain and France.",
+    "drafted_at": "2026-06-24T06:35:37.815056",
+    "data": {
+      "source": "AL JAZEERA"
+    },
+    "content_hash": "59f2a3740896d03c"
+  },
+  {
+    "id": "a592a6cd",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "INFLATION READ: The AUD/USD pair attracts some buyers following the release of softer Australian consumer inflation figures during the Asian session on Wednesday and reverses a part of the previous day's slump to the 0.6900 mark, or its lowest level since early April.\n\nhttps://www.fxstreet.com/news/australian-dollar-bulls-seem-hesitant-on-mixed-cpi-report-hangs-near-april-lows-vs-usd-202606240144",
+    "draft_text": "From the housing desk: EUROPEAN SESSION In the European session, the only highlight is the German IFO survey which is expected to show an improvement to 85.6 vs 84.9 prior on lower energy prices and the end of the US-Iran war.\n\nThe data is not going to change much for the ECB, so the market reaction will likely be muted.\n\nAMERICAN SESSION In the American session, we just get a couple of low tier releases like the US new home sales that are not going to change anything for the Fed.\n\nI think the hawkish repricing has reached a peak in the short-term and markets are just moving by inertia given the lack of other significant catalysts since the FOMC.\n\nCENTRAL BANK SPEAKERS 06:30 GMT/02:30 ET - RBA's Hauser (hawkish - voter) 07:00 GMT/03:00 ET - SNB's Martin (neutral - voter) 09:00 GMT/05:00 ET - ECB's Nagel (hawkish - voter) 11:15 GMT/07:15 ET - BoC's Rogers (neutral - voter) 11:20 GMT/07:20 ET - BoE's Breeden (neutral - voter) 13.35 GMT/09:35 ET - ECB's Cipollone (neutral - voter) 15:00 GMT/11:00 ET - BoE's Dhingra (dovish - voter) 20:00 GMT/16:00 ET - BoJ Governor Ueda (neutral - voter) This article was written by Giuseppe Dellamotta at investinglive.com.\n\nhttps://investinglive.com/news/what-are-the-main-events-for-today-20260624/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/australian-dollar-bulls-seem-hesitant-on-mixed-cpi-report-hangs-near-april-lows-vs-usd-202606240144",
-    "source_title": "Australian Dollar bulls seem hesitant on mixed CPI data; hangs near April lows vs USD",
-    "source_summary": "The AUD/USD pair attracts some buyers following the release of softer Australian consumer inflation figures during the Asian session on Wednesday and reverses a part of the previous day's slump to the 0.6900 mark, or its lowest level since early April.",
-    "drafted_at": "2026-06-24T02:07:21.364844",
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/what-are-the-main-events-for-today-20260624/",
+    "source_title": "What are the main events for today?",
+    "source_summary": "EUROPEAN SESSION In the European session, the only highlight is the German IFO survey which is expected to show an improvement to 85.6 vs 84.9 prior on lower energy prices and the end of the US-Iran war. The data is not going to change much for the ECB, so the market reaction will likely be muted. AMERICAN SESSION In the American session, we just get a couple of low tier releases like the US new h",
+    "drafted_at": "2026-06-24T06:35:37.869157",
     "data": {
-      "source": "FXSTREET"
+      "source": "FOREXLIVE"
     },
-    "content_hash": "43d54fb5ca4b3277"
+    "content_hash": "57b80ced87badf63"
   },
   {
-    "id": "da9fed8b",
+    "id": "574dfda7",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "CPI just printed. Australia\u2019s Consumer Price Index (CPI) rose by 4.0% year-over-year (YoY) in May, compared to a 4.2% increase reported in the previous reading, the latest data published by the Australian Bureau of Statistics (ABS) showed on Wednesday.\n\nhttps://www.fxstreet.com/news/australia-cpi-set-to-show-inflation-accelerated-again-in-may-202606232230",
+    "draft_text": "Inflation update: Westpac warns of Middle East second-round CPI effects, still forecast an August RBA hike BOJ June summary flags faster hike calls as markets price another move by year-end.\n\nAustralia May CPI undershoots on headline but core inflation tops forecasts at 3.6% Samsung $65bn buyback and new chip cluster talks spark South Korea equity bounce BofA lifts Nikkei target to 76,000 on AI demand, Hormuz relief and rising corporate ROE Australian May 2026 Headline CPI 4% y/y (vs. expected 4.3%), core 3.6% y/y (expected 3.5%) PBOC sets USD/ CNY mid-point today at 6.8195 (vs. estimate at 6.7) Anthropic's Mythos model exposes major flaws in classified US systems UBS sees market pricing of two Fed hikes as too aggressive... get gold!\n\nJapan May services PPI holds at 3.3% as freight and air costs surge on fuel shock BOJ June summary reveals broad support for rate hike alongside sharp deflation warning TD joins big four banks flagging Australian inflation relief, all roads lead to RBA hold Gold faces $3,800 risk if Fed pivots to hikes, Deutsche Bank warns Retail investors chase AI upside as pros stay cautious and Nasdaq longs pile up UN shipping agency begins evacuating hundreds of ships stranded in Gulf via Hormuz Alphabet will replace Verizon in the Dow Jones Industrial Average Congress delivers historic but toothless war powers rebuke over Iran conflict Morgan Stanley North Haven fund pays out less than half of Q2 investor withdrawal requests investingLive Americas FX news wrap 23 Jun: Stocks tumble as USD extends gain.\n\nPrivate survey inventory shows a headline crude oil draw smaller than expected Session wrap summary points: Australia's May headline CPI slowed to 4.0%, well below the 4.3% forecast, but trimmed mean core inflation accelerated to 3.6% year-on-year, above estimates, keeping RBA August hike odds at around 36% and December at 67% The Australian dollar languished near 11-week lows and the kiwi sat at a seven-month trough as the mixed CPI data and broad USD strength weighed on antipodean currencies Gold extended losses as markets continued to price two to three Federal Reserve rate hikes over the next 12 months, with Fed Chair Warsh's hawkish signals from last week's FOMC meeting remaining the dominant narrative The BOJ's June Summary of Opinions showed some members calling for hikes every few months to reach neutral rate, with roughly 90% of economists now expecting another move by December and the cycle peak revised up to around 1.75% Samsung jumped as much as 10% in early Seoul trade on a Yonhap report of a 90 trillion won share buyback plan, with South Korea's government simultaneously flagging imminent announcements on a new AI chip cluster with Samsung and SK Hynix; gains faded as the morning progressed Morgan Stanley's $7 billion North Haven private credit fund said it would pay out less than half of Q2 redemption requests, capping exits at 5% as withdrawal demand hit 11.6% of shares Alphabet will replace Verizon in the Dow Jones Industrial Average ahead of Monday's open next week, S&P Global confirmed A split Australian inflation print set the tone for Asia-Pacific markets on Wednesday, with headline CPI undershooting forecasts but core measures accelerating, leaving the RBA's policy path unresolved and the Australian dollar pinned near 11-week lows.\n\nThe kiwi fared no better, sitting at a seven-month trough as broad US dollar strength compounded the pressure on antipodean currencies.\n\nWestpac retained its August hike call, arguing that Middle East second-round effects are broadening across consumer prices in ways that the headline miss obscures, while markets settled on 36% odds for August and 67% for December.\n\nIn Japan, the BOJ's June Summary of Opinions confirmed a board majority pushing toward neutral, with some members explicitly calling for hikes at intervals of a few months.\n\nRoughly 90% of economists now expect another move by December, and the projected cycle peak has been revised up to around 1.75%.\n\nhttps://investinglive.com/news/investinglive-asia-pacific-fx-news-wrap-boj-june-summary-flag-hikes-ahead-toward-175-20260624/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/australia-cpi-set-to-show-inflation-accelerated-again-in-may-202606232230",
-    "source_title": "Breaking: Australia\u2019s CPI inflation falls to 4.0% YoY in May vs. 4.4% expected",
-    "source_summary": "Australia\u2019s Consumer Price Index (CPI) rose by 4.0% year-over-year (YoY) in May, compared to a 4.2% increase reported in the previous reading, the latest data published by the Australian Bureau of Statistics (ABS) showed on Wednesday.",
-    "drafted_at": "2026-06-24T02:07:21.365184",
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/investinglive-asia-pacific-fx-news-wrap-boj-june-summary-flag-hikes-ahead-toward-175-20260624/",
+    "source_title": "investingLive Asia-Pacific FX news wrap: BoJ June summary flag hikes ahead toward 1.75%",
+    "source_summary": "Westpac warns of Middle East second-round CPI effects, still forecast an August RBA hike BOJ June summary flags faster hike calls as markets price another move by year-end. Recap. Australia May CPI undershoots on headline but core inflation tops forecasts at 3.6% Samsung $65bn buyback and new chip cluster talks spark South Korea equity bounce BofA lifts Nikkei target to 76,000 on AI demand, Hormuz",
+    "drafted_at": "2026-06-24T06:35:37.873271",
     "data": {
-      "source": "FXSTREET"
+      "source": "FOREXLIVE"
     },
-    "content_hash": "8d0ee930e48026f2"
+    "content_hash": "2f625f33fb6b6fca"
   },
   {
-    "id": "e88ab825",
+    "id": "3993c011",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "INFLATION READ: Australian May 2026 inflation data: Headline 4.0% y/y expected 4.3%, prior 4.2% -0.7% m/m (expected -0.4%, prior 0.4% Trimmed Mean core CPI 3.6% y/y expected 3.5%, prior 3.4% 0.4% m/m (expected 0.3%, prior 0.3%) The Weighted Median is the second core measure, 3.6% y/y prior 3.5% 0.4 % m/m (prior 0.2%) I'll have more to come on this separately.\n\nThis article was written by Eamonn Sheridan at investinglive.com.\n\nhttps://investinglive.com/news/australian-may-2026-headline-cpi-4-yy-vs-expected-43-core-36-yy-expected-35-20260624/",
@@ -318,31 +437,14 @@
     "source_url": "https://investinglive.com/news/australian-may-2026-headline-cpi-4-yy-vs-expected-43-core-36-yy-expected-35-20260624/",
     "source_title": "Australian May 2026 Headline CPI 4% y/y (vs. expected 4.3%), core 3.6% y/y (expected 3.5%)",
     "source_summary": "Australian May 2026 inflation data: Headline 4.0% y/y expected 4.3%, prior 4.2% -0.7% m/m (expected -0.4%, prior 0.4% Trimmed Mean core CPI 3.6% y/y expected 3.5%, prior 3.4% 0.4% m/m (expected 0.3%, prior 0.3%) The Weighted Median is the second core measure, 3.6% y/y prior 3.5% 0.4 % m/m (prior 0.2%) I'll have more to come on this separately. This article was written by Eamonn Sheridan at investi",
-    "drafted_at": "2026-06-24T02:07:21.365732",
+    "drafted_at": "2026-06-24T06:35:37.873793",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "27bbc0f4b13d48ca"
   },
   {
-    "id": "2b7c153c",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "PPI just dropped. A services PPI print that holds at 3.3% for a second consecutive month, driven by transport cost surges of this magnitude, is precisely the kind of data the BOJ's June summary flagged as a transmission risk: business-to-business price increases in distribution and logistics that have a well-established track record of feeding through into broader consumer prices with a lag.\n\nThe 61.8% surge in ocean freight and 17.3% rise in international air passenger costs are not noise; they are structural cost pressures that firms will eventually pass downstream.\n\nFor JPY, the data reinforces the case for further BOJ tightening, which the June Summary of Opinions already pointed toward, and will keep rate hike expectations for the second half of 2026 well supported.\n\nFor oil markets, the data provides a concrete downstream illustration of how the Hormuz disruption translated into real economy cost pressures in one of Asia's largest import-dependent economies. --- Japan's May Corporate Services Price Index rose 3.3% y/y, matching April's revised gain, as ocean freight costs surged 61.8% and air transport rose 17.3% on Middle East fuel shock.\n\nSummary: Japan's Corporate Services Price Index rose 3.3% year-on-year in May, matching a revised 3.3% gain in April, according to Bank of Japan data released Wednesday The increase was driven by a 61.8% surge in ocean freight transportation costs and a 17.3% rise in international air passenger transportation, reflecting elevated fuel costs stemming from the Middle East conflict, per the BOJ data The CSPI tracks prices that companies charge each other for services, making it a key leading indicator of downstream consumer price pressures and a closely watched input for BOJ policy deliberations The sustained elevation in services producer prices is consistent with the BOJ June Summary of Opinions, which flagged the spread of business-to-business price increases into distribution and logistics as a specific upside inflation risk Japan's Corporate Services Price Index held at 3.3% year-on-year in May, Bank of Japan data showed on Wednesday, sustaining a level of services producer price inflation that will keep market expectations of further interest rate hikes firmly in place.\n\nThe CSPI, which measures the prices businesses charge one another for services rather than goods, is a closely watched leading indicator of broader inflationary pressure.\n\nUnlike consumer prices, which can be temporarily compressed by government subsidies or one-off factors, the CSPI captures cost dynamics within the business-to-business pipeline that tend to feed through into consumer prices over time.\n\nA second consecutive month at 3.3% signals that those pipeline pressures are not abating.\n\nhttps://investinglive.com/news/japan-may-services-ppi-holds-at-33-as-freight-and-air-costs-surge-on-fuel-shock-20260624/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/japan-may-services-ppi-holds-at-33-as-freight-and-air-costs-surge-on-fuel-shock-20260624/",
-    "source_title": "Japan May services PPI holds at 3.3% as freight and air costs surge on fuel shock",
-    "source_summary": "A services PPI print that holds at 3.3% for a second consecutive month, driven by transport cost surges of this magnitude, is precisely the kind of data the BOJ's June summary flagged as a transmission risk: business-to-business price increases in distribution and logistics that have a well-established track record of feeding through into broader consumer prices with a lag. The 61.8% surge in ocea",
-    "drafted_at": "2026-06-24T02:07:21.368896",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "683665cfb6978283"
-  },
-  {
-    "id": "6fb29023",
+    "id": "dd2a2f28",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "Fresh print: Expect NATO leadership to focus on three main issues: defense spending, defense industrial production, and aid to Ukraine.\n\nThe post How European NATO allies are stepping up, by the numbers appeared first on Atlantic Council.\n\nhttps://www.atlanticcouncil.org/dispatches/how-european-nato-allies-are-stepping-up-by-the-numbers/",
@@ -352,14 +454,14 @@
     "source_url": "https://www.atlanticcouncil.org/dispatches/how-european-nato-allies-are-stepping-up-by-the-numbers/",
     "source_title": "How European NATO allies are stepping up, by the numbers",
     "source_summary": "Expect NATO leadership to focus on three main issues: defense spending, defense industrial production, and aid to Ukraine. The post How European NATO allies are stepping up, by the numbers appeared first on Atlantic Council .",
-    "drafted_at": "2026-06-24T02:07:21.369245",
+    "drafted_at": "2026-06-24T06:35:37.874130",
     "data": {
       "source": "ATLANTIC CNCL"
     },
     "content_hash": "41c8ec56380e4597"
   },
   {
-    "id": "63c07d38",
+    "id": "c17601cd",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -369,7 +471,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-06-24T02:07:21.373273",
+    "drafted_at": "2026-06-24T06:35:37.875678",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -377,7 +479,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "2b7d50ad",
+    "id": "cde78c5e",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "The strong dollar makes everything cheaper for someone who isn't you.",
@@ -387,14 +489,14 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "The strong dollar makes everything cheaper for someone who isn't you.",
-    "drafted_at": "2026-06-24T02:07:21.373360",
+    "drafted_at": "2026-06-24T06:35:37.875773",
     "data": {
       "take_seed": "2026-06-24-pack-1"
     },
     "content_hash": "9b0f7be55d8ef71c"
   },
   {
-    "id": "2792f4bd",
+    "id": "74066fad",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Recessions are obvious in retrospect and invisible in real time.",
@@ -404,7 +506,7 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Recessions are obvious in retrospect and invisible in real time.",
-    "drafted_at": "2026-06-24T02:07:21.373422",
+    "drafted_at": "2026-06-24T06:35:37.875835",
     "data": {
       "take_seed": "2026-06-24-pack-2"
     },
