@@ -1,44 +1,16 @@
 {
-  "^VIX:move:2026-06-24": {
-    "headline": "VIX climbs 5.4% in 5 sessions to 18.63",
+  "^VIX:move:2026-06-25": {
+    "headline": "VIX surges 10.9% in 5 sessions to 17.96",
     "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
     "source": "CBOE \u00b7 ^VIX",
     "chart_path": null,
-    "signal_id": "^VIX:move:2026-06-24",
-    "current_str": "18.63",
+    "signal_id": "^VIX:move:2026-06-25",
+    "current_str": "17.96",
     "label": "VIX (S&P 500 volatility)",
     "hashtags": "#VIX #Volatility #Markets",
     "kind": "move_up",
-    "badge": "+5.4%",
+    "badge": "+10.9%",
     "data_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "fired_at": "2026-06-25T04:56:48.674571"
-  },
-  "GC=F:move:2026-06-25": {
-    "headline": "Gold slides 7.3% in 5 sessions to $4,010.50",
-    "matters": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
-    "source": "COMEX \u00b7 GC=F",
-    "chart_path": null,
-    "signal_id": "GC=F:move:2026-06-25",
-    "current_str": "$4,010.50",
-    "label": "Gold futures",
-    "hashtags": "#Gold #PreciousMetals #Commodities",
-    "kind": "move_down",
-    "badge": "-7.3%",
-    "data_url": "https://finance.yahoo.com/quote/GC%3DF",
-    "fired_at": "2026-06-25T04:56:48.674571"
-  },
-  "CL=F:move:2026-06-25": {
-    "headline": "WTI crude tumbles 14.0% in 5 sessions to $69.43",
-    "matters": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "source": "NYMEX \u00b7 CL=F",
-    "chart_path": null,
-    "signal_id": "CL=F:move:2026-06-25",
-    "current_str": "$69.43",
-    "label": "WTI crude oil futures",
-    "hashtags": "#Oil #WTI #Energy #Commodities",
-    "kind": "move_down",
-    "badge": "-14.0%",
-    "data_url": "https://finance.yahoo.com/quote/CL%3DF",
-    "fired_at": "2026-06-25T04:56:48.674571"
+    "fired_at": "2026-06-25T08:17:55.809661"
   }
 }
