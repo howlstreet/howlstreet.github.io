@@ -1,1 +1,30 @@
-{}
+{
+  "^IXIC:move:2026-06-25": {
+    "headline": "Nasdaq drops 5.6% in 5 sessions to 25,186.98",
+    "matters": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
+    "source": "Yahoo Finance \u00b7 ^IXIC",
+    "chart_path": null,
+    "signal_id": "^IXIC:move:2026-06-25",
+    "current_str": "25,186.98",
+    "label": "Nasdaq Composite",
+    "hashtags": "#Nasdaq #Tech #Stocks",
+    "kind": "move_down",
+    "badge": "-5.6%",
+    "data_url": "https://finance.yahoo.com/quote/%5EIXIC",
+    "fired_at": "2026-06-25T14:00:56.816019"
+  },
+  "^DJI:high:2026-06-25": {
+    "headline": "Dow just hit 52,081.63 \u2014 highest in 9+ years",
+    "matters": "30 large U.S. industrials. Slower-moving than the S&P but the headline number retail readers track.",
+    "source": "Yahoo Finance \u00b7 ^DJI",
+    "chart_path": null,
+    "signal_id": "^DJI:high:2026-06-25",
+    "current_str": "52,081.63",
+    "label": "Dow Jones Industrial Average",
+    "hashtags": "#Dow #Stocks #Markets",
+    "kind": "high",
+    "badge": "9Y HIGH",
+    "data_url": "https://finance.yahoo.com/quote/%5EDJI",
+    "fired_at": "2026-06-25T14:00:56.816019"
+  }
+}
