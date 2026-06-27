@@ -1,16 +1,44 @@
 {
-  "BTC-USD:move:2026-06-27": {
-    "headline": "Bitcoin drops 6.9% in 5 sessions to $59,983",
-    "matters": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
-    "source": "Yahoo Finance \u00b7 BTC-USD",
+  "^VIX:move:2026-06-26": {
+    "headline": "VIX surges 12.2% in 5 sessions to 18.41",
+    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "source": "CBOE \u00b7 ^VIX",
     "chart_path": null,
-    "signal_id": "BTC-USD:move:2026-06-27",
-    "current_str": "$59,983",
-    "label": "Bitcoin",
-    "hashtags": "#Bitcoin #BTC #Crypto",
+    "signal_id": "^VIX:move:2026-06-26",
+    "current_str": "18.41",
+    "label": "VIX (S&P 500 volatility)",
+    "hashtags": "#VIX #Volatility #Markets",
+    "kind": "move_up",
+    "badge": "+12.2%",
+    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "fired_at": "2026-06-27T04:44:10.652230"
+  },
+  "GC=F:move:2026-06-26": {
+    "headline": "Gold drops 5.8% in 5 sessions to $4,078.70",
+    "matters": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
+    "source": "COMEX \u00b7 GC=F",
+    "chart_path": null,
+    "signal_id": "GC=F:move:2026-06-26",
+    "current_str": "$4,078.70",
+    "label": "Gold futures",
+    "hashtags": "#Gold #PreciousMetals #Commodities",
     "kind": "move_down",
-    "badge": "-6.9%",
-    "data_url": "https://finance.yahoo.com/quote/BTC-USD",
-    "fired_at": "2026-06-27T00:03:19.410385"
+    "badge": "-5.8%",
+    "data_url": "https://finance.yahoo.com/quote/GC%3DF",
+    "fired_at": "2026-06-27T04:44:10.652230"
+  },
+  "CL=F:move:2026-06-26": {
+    "headline": "WTI crude slides 9.0% in 5 sessions to $69.23",
+    "matters": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "source": "NYMEX \u00b7 CL=F",
+    "chart_path": null,
+    "signal_id": "CL=F:move:2026-06-26",
+    "current_str": "$69.23",
+    "label": "WTI crude oil futures",
+    "hashtags": "#Oil #WTI #Energy #Commodities",
+    "kind": "move_down",
+    "badge": "-9.0%",
+    "data_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "fired_at": "2026-06-27T04:44:10.652230"
   }
 }
