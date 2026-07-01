@@ -1,1 +1,44 @@
-{}
+{
+  "GC=F:move:2026-06-30": {
+    "headline": "Gold drops 5.6% in 5 sessions to $3,989.10",
+    "matters": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
+    "source": "COMEX \u00b7 GC=F",
+    "chart_path": null,
+    "signal_id": "GC=F:move:2026-06-30",
+    "current_str": "$3,989.10",
+    "label": "Gold futures",
+    "hashtags": "#Gold #PreciousMetals #Commodities",
+    "kind": "move_down",
+    "badge": "-5.6%",
+    "data_url": "https://finance.yahoo.com/quote/GC%3DF",
+    "fired_at": "2026-07-01T02:13:43.896435"
+  },
+  "BTC-USD:move:2026-07-01": {
+    "headline": "Bitcoin slides 7.1% in 5 sessions to $58,739",
+    "matters": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
+    "source": "Yahoo Finance \u00b7 BTC-USD",
+    "chart_path": null,
+    "signal_id": "BTC-USD:move:2026-07-01",
+    "current_str": "$58,739",
+    "label": "Bitcoin",
+    "hashtags": "#Bitcoin #BTC #Crypto",
+    "kind": "move_down",
+    "badge": "-7.1%",
+    "data_url": "https://finance.yahoo.com/quote/BTC-USD",
+    "fired_at": "2026-07-01T02:13:43.896435"
+  },
+  "CL=F:move:2026-06-30": {
+    "headline": "WTI crude slides 8.9% in 5 sessions to $69.76",
+    "matters": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "source": "NYMEX \u00b7 CL=F",
+    "chart_path": null,
+    "signal_id": "CL=F:move:2026-06-30",
+    "current_str": "$69.76",
+    "label": "WTI crude oil futures",
+    "hashtags": "#Oil #WTI #Energy #Commodities",
+    "kind": "move_down",
+    "badge": "-8.9%",
+    "data_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "fired_at": "2026-07-01T02:13:43.896435"
+  }
+}

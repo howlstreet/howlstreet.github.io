@@ -1,40 +1,97 @@
 [
   {
-    "id": "4380b85e",
-    "format": "LOUD_HOWL",
+    "id": "4dbacddc",
+    "format": "MARKET_MOVE",
     "status": "pending",
-    "draft_text": "PACK FRONT-PAGE: The US Dollar Index (DXY) traded on a neutral stance near the 101.20 level on Tuesday as investors digested mixed United States (US) data and hawkish Federal Reserve (Fed) commentary.\n\nhttps://www.fxstreet.com/news/forex-today-us-dollar-neutral-as-fed-rate-hike-bets-stay-alive-202606302011",
+    "draft_text": "Skip the noise. Gold drops 5.6% in 5 sessions to $3,989.10.\n\nGold tracks real yields and central bank demand.\n\nMulti-year highs flag debasement or geopolitical hedging flows.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/GC%3DF",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/forex-today-us-dollar-neutral-as-fed-rate-hike-bets-stay-alive-202606302011",
-    "source_title": "Forex Today: US Dollar neutral as Fed rate hike bets stay alive",
-    "source_summary": "The US Dollar Index (DXY) traded on a neutral stance near the 101.20 level on Tuesday as investors digested mixed United States (US) data and hawkish Federal Reserve (Fed) commentary.",
-    "drafted_at": "2026-06-30T23:02:33.796144",
+    "primary_source": "COMEX \u00b7 GC=F",
+    "source_url": "https://finance.yahoo.com/quote/GC%3DF",
+    "source_title": "Gold futures",
+    "source_summary": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
+    "drafted_at": "2026-07-01T02:13:47.134870",
     "data": {
-      "source": "FXSTREET"
+      "signal_id": "GC=F:move:2026-06-30",
+      "kind": "move_down",
+      "current": "$3,989.10"
     },
-    "content_hash": "3a4f613b15af57f8"
+    "content_hash": "514096a7b4f87c16"
   },
   {
-    "id": "7e2e8b97",
+    "id": "30791bd1",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "The market did a thing: Bitcoin slides 7.1% in 5 sessions to $58,739.\n\nBitcoin is now treated as a macro asset alongside gold and tech.\n\nIts swings move alt-coins, public miners, and crypto-exposed stocks.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/BTC-USD",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Yahoo Finance \u00b7 BTC-USD",
+    "source_url": "https://finance.yahoo.com/quote/BTC-USD",
+    "source_title": "Bitcoin",
+    "source_summary": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
+    "drafted_at": "2026-07-01T02:13:47.135144",
+    "data": {
+      "signal_id": "BTC-USD:move:2026-07-01",
+      "kind": "move_down",
+      "current": "$58,739"
+    },
+    "content_hash": "0e3396ceb3da7211"
+  },
+  {
+    "id": "dcdbd306",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Here's what the talking heads missed: WTI crude slides 8.9% in 5 sessions to $69.76.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NYMEX \u00b7 CL=F",
+    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "source_title": "WTI crude oil futures",
+    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "drafted_at": "2026-07-01T02:13:47.135391",
+    "data": {
+      "signal_id": "CL=F:move:2026-06-30",
+      "kind": "move_down",
+      "current": "$69.76"
+    },
+    "content_hash": "c272de0720a2f459"
+  },
+  {
+    "id": "7f0fd235",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "FED WATCH: The US Dollar Index (DXY) traded on a neutral stance near the 101.20 level on Tuesday as investors digested mixed United States (US) data and hawkish Federal Reserve (Fed) commentary.\n\nhttps://www.fxstreet.com/news/forex-today-us-dollar-neutral-as-fed-rate-hike-bets-stay-alive-202606302011",
+    "draft_text": "From Beijing's central bank: On Wednesday, the People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.8067 compared to the previous day's fix of 6.8109 and 6.7795 Reuters estimate.\n\nhttps://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-68067-vs-68109-previous-202607010115",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://www.fxstreet.com/news/forex-today-us-dollar-neutral-as-fed-rate-hike-bets-stay-alive-202606302011",
-    "source_title": "Forex Today: US Dollar neutral as Fed rate hike bets stay alive",
-    "source_summary": "The US Dollar Index (DXY) traded on a neutral stance near the 101.20 level on Tuesday as investors digested mixed United States (US) data and hawkish Federal Reserve (Fed) commentary.",
-    "drafted_at": "2026-06-30T23:02:33.807605",
+    "primary_source": "PBOC",
+    "source_url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-68067-vs-68109-previous-202607010115",
+    "source_title": "PBOC sets USD/CNY reference rate at 6.8067 vs. 6.8109 previous",
+    "source_summary": "On Wednesday, the People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.8067 compared to the previous day's fix of 6.8109 and 6.7795 Reuters estimate.",
+    "drafted_at": "2026-07-01T02:13:47.145398",
     "data": {
-      "actor": "Fed"
+      "actor": "PBOC"
     },
-    "content_hash": "3a4f613b15af57f8"
+    "content_hash": "15f274fcb453d637"
   },
   {
-    "id": "e83162ab",
+    "id": "38ec1c07",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "From Frankfurt: The EUR/USD pair loses momentum to near 1.1410 during the early Asian trading hours on Wednesday, pressured by receding bets for aggressive tightening by the European Central Bank (ECB).\n\nhttps://www.fxstreet.com/news/euro-declines-to-near-11400-as-softer-german-inflation-undercuts-ecb-hike-bets-202607010115",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "ECB",
+    "source_url": "https://www.fxstreet.com/news/euro-declines-to-near-11400-as-softer-german-inflation-undercuts-ecb-hike-bets-202607010115",
+    "source_title": "Euro declines to near 1.1400 as softer German inflation undercuts ECB hike bets",
+    "source_summary": "The EUR/USD pair loses momentum to near 1.1410 during the early Asian trading hours on Wednesday, pressured by receding bets for aggressive tightening by the European Central Bank (ECB).",
+    "drafted_at": "2026-07-01T02:13:47.145656",
+    "data": {
+      "actor": "ECB"
+    },
+    "content_hash": "e47da261a860831b"
+  },
+  {
+    "id": "fd461086",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Policy update for the pack: The designations reflect local economic conditions, including unemployment, poverty, and population changes.\n\nUnder the CRA, the agencies assess a bank's record of meeting the credit needs of its entire community, including low- and moderate-income neighborhoods, consistent with safe and sound operations.\n\nThe list released by the agencies includes distressed or underserved nonmetropolitan middle-income geographies where revitalization or stabilization activities are eligible to receive CRA consideration.\n\nPrevious years' lists and criteria for designating these areas are available here.\n\nRevitalization or stabilization activities in these geographies are eligible to receive CRA consideration under the community development definition for 12 months after publication of the current list.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260630a.htm",
@@ -44,14 +101,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260630a.htm",
     "source_title": "Agencies release list of distressed or underserved nonmetropolitan middle-income geographies",
     "source_summary": "Agencies release list of distressed or underserved nonmetropolitan middle-income geographies",
-    "drafted_at": "2026-06-30T23:02:33.808739",
+    "drafted_at": "2026-07-01T02:13:47.146721",
     "data": {
       "actor": "FED"
     },
     "content_hash": "6a8c213ad120f159"
   },
   {
-    "id": "82e83f59",
+    "id": "307e12a3",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Powell on the wire. The hypothetical scenario this year included a severe global recession with a 39 percent decline in commercial real estate prices and a 30 percent decline in house prices.\n\nThe unemployment rate also increased to a peak of 10 percent, and economic output declined commensurately.\n\nThe total projected losses include roughly $200 billion in credit card losses, $160 billion in losses from commercial and industrial loans, and $75 billion in losses from commercial real estate.\n\n\"Today's results underscore the strength of the banking system,\" Vice Chair for Supervision Michelle W.\n\nBowman said.\n\nAs the Board previously announced, today's results will not impact large bank capital requirements, which have been published today.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260624a.htm",
@@ -61,14 +118,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260624a.htm",
     "source_title": "Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
     "source_summary": "Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
-    "drafted_at": "2026-06-30T23:02:33.810005",
+    "drafted_at": "2026-07-01T02:13:47.147803",
     "data": {
       "actor": "FED"
     },
     "content_hash": "643d9a3d6daf7e58"
   },
   {
-    "id": "fd56802f",
+    "id": "073de696",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FOMC update. During his 18 years as Chairman, he guided the Federal Reserve through periods of significant economic expansion as well as periods of considerable stress.\n\nUnder his leadership, the Federal Reserve achieved a sustained era of price stability that supported economic growth and helped anchor the public's confidence in the institution.\n\nHe brought rigorous analytical discipline to monetary policymaking and helped establish the credibility that remains one of the Federal Reserve's most important assets.\n\nChairman Greenspan's legacy endures at the Federal Reserve\u2014in those he mentored directly, in the economists and public servants he inspired, and in the frameworks and practices he helped shape.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/other20260622a.htm",
@@ -78,31 +135,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260622a.htm",
     "source_title": "Federal Reserve notes with deep sadness the passing of Alan Greenspan",
     "source_summary": "Federal Reserve notes with deep sadness the passing of Alan Greenspan",
-    "drafted_at": "2026-06-30T23:02:33.811030",
+    "drafted_at": "2026-07-01T02:13:47.148653",
     "data": {
       "actor": "FED"
     },
     "content_hash": "7cecd64de0418546"
   },
   {
-    "id": "ad2a692a",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "RATE-PATH READ: Engelbrecht is the former chief executive officer of Bank of Eufaula and a former director of the bank and its holding company, S N B Bancshares, Inc. In his former roles, Engelbrecht leveraged his position to cause the bank to provide imprudent extensions of credit to his relative's company and he participated in the fabrication of board meeting minutes.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260618b.htm",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FED",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260618b.htm",
-    "source_title": "Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc.",
-    "source_summary": "Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc.",
-    "drafted_at": "2026-06-30T23:02:33.811525",
-    "data": {
-      "actor": "FED"
-    },
-    "content_hash": "52b15b90987fc933"
-  },
-  {
-    "id": "b719a194",
+    "id": "b3da3109",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$LILA insider bought $140,345,259 on 2026-06-26, 5 insiders. \ud83d\udc40\n\nLiberty Latin America Ltd.. 15,763,878 shares at $8.90.\n\n-11.9% since the purchase.\n\nhttp://openinsider.com/screener?s=LILA",
@@ -112,7 +152,7 @@
     "source_url": "http://openinsider.com/screener?s=LILA",
     "source_title": "Liberty Latin America Ltd. (LILA) insider bought $140,345,259",
     "source_summary": "5 insider(s) bought 15,763,878 shares at $8.90 on 2026-06-26.",
-    "drafted_at": "2026-06-30T23:02:33.811696",
+    "drafted_at": "2026-07-01T02:13:47.149223",
     "data": {
       "ticker": "LILA",
       "type": "P",
@@ -122,7 +162,7 @@
     "content_hash": "d57b678aa6fbc928"
   },
   {
-    "id": "0916a740",
+    "id": "08da9dfa",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$DPC insider bought $75,821,493 on 2026-06-26, 9 insiders. \ud83d\udc40\n\nDpc Holdings Ltd. 2,297,621 shares at $33.00.\n\n+48.7% since the purchase.\n\nhttp://openinsider.com/screener?s=DPC",
@@ -132,7 +172,7 @@
     "source_url": "http://openinsider.com/screener?s=DPC",
     "source_title": "Dpc Holdings Ltd (DPC) insider bought $75,821,493",
     "source_summary": "9 insider(s) bought 2,297,621 shares at $33.00 on 2026-06-26.",
-    "drafted_at": "2026-06-30T23:02:33.811842",
+    "drafted_at": "2026-07-01T02:13:47.149338",
     "data": {
       "ticker": "DPC",
       "type": "P",
@@ -142,7 +182,7 @@
     "content_hash": "dd6559b51a6d411c"
   },
   {
-    "id": "adf05f1d",
+    "id": "be03bf6a",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$PSUS insider bought $70,735,390 on 2026-06-17, 7 insiders. \ud83d\udc40\n\nPershing Square Usa, Ltd.. 1,417,000 shares at $49.92.\n\n-25.1% since the purchase.\n\nhttp://openinsider.com/screener?s=PSUS",
@@ -152,7 +192,7 @@
     "source_url": "http://openinsider.com/screener?s=PSUS",
     "source_title": "Pershing Square Usa, Ltd. (PSUS) insider bought $70,735,390",
     "source_summary": "7 insider(s) bought 1,417,000 shares at $49.92 on 2026-06-17.",
-    "drafted_at": "2026-06-30T23:02:33.811976",
+    "drafted_at": "2026-07-01T02:13:47.149449",
     "data": {
       "ticker": "PSUS",
       "type": "P",
@@ -162,27 +202,7 @@
     "content_hash": "06b51d7fce606b41"
   },
   {
-    "id": "3435ffbb",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$FISV insider bought $1,723,401 on 2026-06-16, 6 insiders. \ud83d\udc40\n\nFiserv Inc. 34,781 shares at $49.55.\n\n-1.0% since the purchase.\n\nhttp://openinsider.com/screener?s=FISV",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=FISV",
-    "source_title": "Fiserv Inc (FISV) insider bought $1,723,401",
-    "source_summary": "6 insider(s) bought 34,781 shares at $49.55 on 2026-06-16.",
-    "drafted_at": "2026-06-30T23:02:33.812087",
-    "data": {
-      "ticker": "FISV",
-      "type": "P",
-      "dollar_value": 1723401.0,
-      "pct_since": -1.0090832753571146
-    },
-    "content_hash": "132e669d39dc2531"
-  },
-  {
-    "id": "fa4c8f3f",
+    "id": "f94e50de",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$FCBM insider bought $1,623,863 on 2026-06-18, 12 insiders. \ud83d\udc40\n\nFirst Carolina Financial Services, Inc.. 129,905 shares at $12.50.\n\n+5.9% since the purchase.\n\nhttp://openinsider.com/screener?s=FCBM",
@@ -192,7 +212,7 @@
     "source_url": "http://openinsider.com/screener?s=FCBM",
     "source_title": "First Carolina Financial Services, Inc. (FCBM) insider bought $1,623,863",
     "source_summary": "12 insider(s) bought 129,905 shares at $12.50 on 2026-06-18.",
-    "drafted_at": "2026-06-30T23:02:33.812216",
+    "drafted_at": "2026-07-01T02:13:47.149566",
     "data": {
       "ticker": "FCBM",
       "type": "P",
@@ -202,7 +222,61 @@
     "content_hash": "bd7e46bc711b54e4"
   },
   {
-    "id": "185598b0",
+    "id": "9924f1df",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$KMX insider bought $1,268,037 on 2026-06-25, 5 insiders. \ud83d\udc40\n\nCarmax Inc. 24,074 shares at $52.67.\n\n+0.4% since the purchase.\n\nhttp://openinsider.com/screener?s=KMX",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=KMX",
+    "source_title": "Carmax Inc (KMX) insider bought $1,268,037",
+    "source_summary": "5 insider(s) bought 24,074 shares at $52.67 on 2026-06-25.",
+    "drafted_at": "2026-07-01T02:13:47.149664",
+    "data": {
+      "ticker": "KMX",
+      "type": "P",
+      "dollar_value": 1268037.0,
+      "pct_since": 0.4176939237676776
+    },
+    "content_hash": "eac796c0792900e2"
+  },
+  {
+    "id": "9f82b666",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Caught. A man pleaded guilty to fraud charges after prosecutors said he tricked people into the promise of making returns in crypto liquidity pools.\n\nhttps://www.theblock.co/post/406789/florida-man-pleads-guilty-crypto-fraud?utm_source=rss&utm_medium=rss",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "THE BLOCK",
+    "source_url": "https://www.theblock.co/post/406789/florida-man-pleads-guilty-crypto-fraud?utm_source=rss&utm_medium=rss",
+    "source_title": "Million-dollar homes, luxury bags and Lamborghinis: Florida man pleads guilty in crypto fraud scheme",
+    "source_summary": "A man pleaded guilty to fraud charges after prosecutors said he tricked people into the promise of making returns in crypto liquidity pools.",
+    "drafted_at": "2026-07-01T02:13:47.150509",
+    "data": {
+      "source": "THE BLOCK"
+    },
+    "content_hash": "515407684c62edb8"
+  },
+  {
+    "id": "1c126a16",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "The Alaska Supreme Court has delivered the final blow to Republicans' efforts to keep a Senate challenger by the same name as incumbent Sen.\n\nIn a short order handed down Monday, the court affirmed a ruling from a superior court that Daniel J.\n\n'The only reason he is running is to deceive voters and manipulate Alaska\u2019s election system.' \u201cThe 6/26/2026 order of the superior court directing the Division to include appellee Sullivan as a candidate for United States Senator on the primary election ballot is AFFIRMED,\u201d the order said.\n\nThe court remanded the matter to the Division of Elections to determine how J.\n\nSullivan should be listed on the primary ballot.\n\n\u201cA full opinion will be issued at a later date,\u201d concluded the order.\n\nSullivan, released a statement on the ruling: \u201cWe\u2019re disappointed in the court\u2019s decision, because, as the sham candidate Dan J.\n\nSullivan\u2019s lawyers made clear in their legal arguments, the only reason he is running is to deceive voters and manipulate Alaska\u2019s election system.\u201d \u201cHowever, we are encouraged by the fact that the Director of the Division of Elections will be able to use her expertise to differentiate between the Petersburg fraud and the incumbent \u2014 Senator Dan Sullivan \u2014 to the benefit of Alaska voters,\u201d Adams added.\n\nhttps://www.theblaze.com/news/alaska-supreme-court-delivers-blow-to-republicans-rules-in-favor-of-sham-candidate",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "THE BLAZE",
+    "source_url": "https://www.theblaze.com/news/alaska-supreme-court-delivers-blow-to-republicans-rules-in-favor-of-sham-candidate",
+    "source_title": "Alaska Supreme Court delivers blow to Republicans, rules in favor of 'sham candidate'",
+    "source_summary": "The Alaska Supreme Court has delivered the final blow to Republicans' efforts to keep a Senate challenger by the same name as incumbent Sen. Dan Sullivan (R) off the ballot. In a short order handed down Monday, the court affirmed a ruling from a superior court that Daniel J. Sullivan Jr. must appear on the Aug. 18 primary ballot for U.S. Senate. 'The only reason he is running is to deceive voters ",
+    "drafted_at": "2026-07-01T02:13:47.153788",
+    "data": {
+      "source": "THE BLAZE"
+    },
+    "content_hash": "4f4561797992555e"
+  },
+  {
+    "id": "815dbbd7",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "NEW YORK, June 30, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Zoetis Inc. (NYSE: ZTS) between January 14, 2025 and May 6, 2026, inclusive (the \"Class Period\"), of the important July 27, 2026 lead plaintiff deadline.\n\nhttps://www.prnewswire.com/news-releases/zoetis-deadline-zts-investors-with-losses-in-excess-of-100k-have-opportunity-to-lead-zoetis-inc-securities-fraud-lawsuit-302815085.html",
@@ -212,14 +286,14 @@
     "source_url": "https://www.prnewswire.com/news-releases/zoetis-deadline-zts-investors-with-losses-in-excess-of-100k-have-opportunity-to-lead-zoetis-inc-securities-fraud-lawsuit-302815085.html",
     "source_title": "Zoetis Deadline: ZTS Investors with Losses in Excess of $100K Have Opportunity to Lead Zoetis Inc. Securities Fraud Lawsuit",
     "source_summary": "NEW YORK, June 30, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Zoetis Inc. (NYSE: ZTS) between January 14, 2025 and May 6, 2026, inclusive (the \"Class Period\"), of the important July 27, 2026 lead plaintiff deadline. So...",
-    "drafted_at": "2026-06-30T23:02:33.813456",
+    "drafted_at": "2026-07-01T02:13:47.154227",
     "data": {
       "source": "PR NEWSWIRE"
     },
     "content_hash": "38be740bacdb3884"
   },
   {
-    "id": "9c0a4ff8",
+    "id": "ce63f420",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The post To Protect Its Drinking Water, This City Has to Appeal to the Oil Regulators That Put It at Risk appeared first on ProPublica.\n\nhttps://www.propublica.org/article/enid-oklahoma-oil-gas-pollution-water-protections",
@@ -229,14 +303,14 @@
     "source_url": "https://www.propublica.org/article/enid-oklahoma-oil-gas-pollution-water-protections",
     "source_title": "To Protect Its Drinking Water, This City Has to Appeal to the Oil Regulators That Put It at Risk",
     "source_summary": "The post To Protect Its Drinking Water, This City Has to Appeal to the Oil Regulators That Put It at Risk appeared first on ProPublica .",
-    "drafted_at": "2026-06-30T23:02:33.813731",
+    "drafted_at": "2026-07-01T02:13:47.154503",
     "data": {
       "source": "PROPUBLICA"
     },
     "content_hash": "889c58e010824a7f"
   },
   {
-    "id": "bb9895dc",
+    "id": "b8ce5fa7",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Shares in major housebuilders have tumbled after it emerged they are facing a class action lawsuit potentially worth more than \u00a34bn.\n\nhttps://news.sky.com/story/housebuilders-face-4bn-lawsuit-over-price-conduct-claims-13559099",
@@ -246,184 +320,116 @@
     "source_url": "https://news.sky.com/story/housebuilders-face-4bn-lawsuit-over-price-conduct-claims-13559099",
     "source_title": "Housebuilders face \u00a34bn lawsuit over price conduct claims",
     "source_summary": "Shares in major housebuilders have tumbled after it emerged they are facing a class action lawsuit potentially worth more than \u00a34bn.",
-    "drafted_at": "2026-06-30T23:02:33.813989",
+    "drafted_at": "2026-07-01T02:13:47.154721",
     "data": {
       "source": "SKY NEWS"
     },
     "content_hash": "e0bbb8e33af06c48"
   },
   {
-    "id": "eb6b031b",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Pack \u2014 got one. Guo Wengui, who was once believed to be one of China's richest businessmen, has been sentenced to 30 years in jail in the US for running a billion dollar scam.\n\nThe former property tycoon fled China to the US in 2017, where he reinvented himself as a Communist Party critic and built a loyal online following.\n\nBut Guo was later convicted on charges of racketeering, fraud and money laundering.\n\nNew York court judge Analisa Torres said Guo had \"preyed on those seeking to bring democracy to China\", taking their money to fund his lavish lifestyle.\n\nGuo - who goes by several names, including Miles Guo and Ho Wan Kwok - was sentenced in a courtroom packed with his supporters.\n\nhttps://www.bbc.co.uk/news/articles/cjeg15vw3z9o?at_medium=RSS&at_campaign=rss",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "BBC",
-    "source_url": "https://www.bbc.co.uk/news/articles/cjeg15vw3z9o?at_medium=RSS&at_campaign=rss",
-    "source_title": "Chinese tycoon sentenced to 30 years in US jail",
-    "source_summary": "Guo Wengui branded himself as a China critic, gaining followers who backed his fraudulent schemes.",
-    "drafted_at": "2026-06-30T23:02:33.815110",
-    "data": {
-      "source": "BBC"
-    },
-    "content_hash": "29b661822fa4b979"
-  },
-  {
-    "id": "b39c1a80",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Cook is the first Black woman to serve on the Fed\u2019s board.\n\nThe justices\u2019 protection over the Fed decision is a departure from how the court has handled Trump in his second term, allowing the president broad power to carry out his agenda without congressional approval.\n\nThe US supreme court has refused Donald Trump \u2019s attempts to immediately fire a Federal Reserve governor, in a landmark ruling that limits a president\u2019s authority over the central bank.\n\nIn a 5-4 opinion, the court said that Lisa Cook can stay on as a governor while she fights unproved allegations of mortgage fraud made by the Trump officials.\n\nhttps://www.theguardian.com/us-news/2026/jun/29/supreme-court-trump-lisa-cook-ruling",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "GUARDIAN",
-    "source_url": "https://www.theguardian.com/us-news/2026/jun/29/supreme-court-trump-lisa-cook-ruling",
-    "source_title": "US supreme court rules Trump\u2019s firing of Lisa Cook from Fed was unconstitutional",
-    "source_summary": "Justices find president does not have constitutional authority to fire Federal Reserve governor without cause US supreme court decisions \u2013 live updates Sign up for the Breaking News US email The US supreme court has refused Donald Trump \u2019s attempts to immediately fire a Federal Reserve governor, in a landmark ruling that limits a president\u2019s authority over the central bank. In a 5-4 opinion, the c",
-    "drafted_at": "2026-06-30T23:02:33.816669",
-    "data": {
-      "source": "GUARDIAN"
-    },
-    "content_hash": "a2c365bf92e848af"
-  },
-  {
-    "id": "81304f29",
+    "id": "694941e3",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "World wire: Indian crude imports set several records in June.\n\nTotal inflows reached about 5 million b/d, the highest level ever recorded for the month.\n\nOf that, 2.6 million b/d came from Russia, equivalent to 54% of India\u2019s total crude imports and a historic record for Russian-Indian trade.\n\nRussian supplies, which had fallen to around 1.1 million b/d in February under sanctions pressure from Washington, more than doubled within four months and became a key pillar of India\u2019s energy-security strategy.\n\nhttps://oilprice.com/Energy/Crude-Oil/Indias-Russian-Oil-Boom-Outlives-the-Hormuz-Shock.html",
+    "draft_text": "Mainland wire: China's push for domestic automotive chips could reshape global semiconductor markets, challenging established players and altering trade dynamics.\n\nThe post Chinese carmakers boost local chip demand to enhance self-reliance appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/chinese-carmakers-domestic-chip-demand/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "OILPRICE",
-    "source_url": "https://oilprice.com/Energy/Crude-Oil/Indias-Russian-Oil-Boom-Outlives-the-Hormuz-Shock.html",
-    "source_title": "India\u2019s Russian Oil Boom Outlives the Hormuz Shock",
-    "source_summary": "Indian crude imports set several records in June. Total inflows reached about 5 million b/d, the highest level ever recorded for the month. Of that, 2.6 million b/d came from Russia, equivalent to 54% of India\u2019s total crude imports and a historic record for Russian-Indian trade. Russian supplies, which had fallen to around 1.1 million b/d in February under sanctions pressure from Washington, more ",
-    "drafted_at": "2026-06-30T23:02:33.819359",
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/chinese-carmakers-domestic-chip-demand/",
+    "source_title": "Chinese carmakers boost local chip demand to enhance self-reliance",
+    "source_summary": "China's push for domestic automotive chips could reshape global semiconductor markets, challenging established players and altering trade dynamics. The post Chinese carmakers boost local chip demand to enhance self-reliance appeared first on Crypto Briefing .",
+    "drafted_at": "2026-07-01T02:13:47.158561",
     "data": {
-      "source": "OILPRICE"
+      "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "1578d760779e5f26"
+    "content_hash": "3c893572e0d9df62"
   },
   {
-    "id": "edb106d0",
+    "id": "1ec8e44d",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Mainland wire: BEIJING, China, June 30, 2026 (GLOBE NEWSWIRE) -- Zhihu Inc. (NYSE: ZH; HKEX: 2390) (\u201cZhihu\u201d or the \u201cCompany\u201d), a leading online content community in China, today announced that each of the proposed resolutions submitted for shareholders\u2019 approval (the \u201cProposed Resolutions\u201d) as set forth in the notice of annual general meeting dated June 8, 2026 (the \u201cAGM Notice\u201d) has been adopted at its annual general meeting of shareholders held in Beijing, China today.\n\nhttps://www.globenewswire.com/news-release/2026/06/30/3320251/0/en/Zhihu-Inc-Announces-Results-of-the-Annual-General-Meeting.html",
+    "draft_text": "EUROPE DESK: The EU's stringent MiCA regulations may lead to a significant talent and capital shift to Dubai, impacting Europe's crypto innovation landscape.\n\nThe post Dubai braces for influx of European crypto founders ahead of MiCA deadline appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/dubai-european-crypto-founders-mica-deadline/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "GLOBENEWSWIRE",
-    "source_url": "https://www.globenewswire.com/news-release/2026/06/30/3320251/0/en/Zhihu-Inc-Announces-Results-of-the-Annual-General-Meeting.html",
-    "source_title": "Zhihu Inc. Announces Results of the Annual General Meeting",
-    "source_summary": "BEIJING, China, June 30, 2026 (GLOBE NEWSWIRE) -- Zhihu Inc. (NYSE: ZH; HKEX: 2390) (\u201cZhihu\u201d or the \u201cCompany\u201d), a leading online content community in China, today announced that each of the proposed resolutions submitted for shareholders\u2019 approval (the \u201cProposed Resolutions\u201d) as set forth in the notice of annual general meeting dated June 8, 2026 (the \u201cAGM Notice\u201d) has been adopted at its annual g",
-    "drafted_at": "2026-06-30T23:02:33.819987",
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/dubai-european-crypto-founders-mica-deadline/",
+    "source_title": "Dubai braces for influx of European crypto founders ahead of MiCA deadline",
+    "source_summary": "The EU's stringent MiCA regulations may lead to a significant talent and capital shift to Dubai, impacting Europe's crypto innovation landscape. The post Dubai braces for influx of European crypto founders ahead of MiCA deadline appeared first on Crypto Briefing .",
+    "drafted_at": "2026-07-01T02:13:47.159041",
     "data": {
-      "source": "GLOBENEWSWIRE"
+      "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "09ed955029643dd0"
+    "content_hash": "cab0678f9c299292"
   },
   {
-    "id": "37aba89b",
+    "id": "9df95a61",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 ASIA: Experienced insurance executive brings deep U.S. and Japan market leadership to Athene\u2019s growing international retirement platform Experienced insurance executive brings deep U.S. and Japan market leadership to Athene\u2019s growing international retirement platform.\n\nhttps://www.globenewswire.com/news-release/2026/06/30/3320252/0/en/Athene-Names-Larik-Hall-as-Senior-Vice-President-Head-of-Athene-Japan.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "GLOBENEWSWIRE",
-    "source_url": "https://www.globenewswire.com/news-release/2026/06/30/3320252/0/en/Athene-Names-Larik-Hall-as-Senior-Vice-President-Head-of-Athene-Japan.html",
-    "source_title": "Athene Names Larik Hall as Senior Vice President, Head of Athene Japan",
-    "source_summary": "Experienced insurance executive brings deep U.S. and Japan market leadership to Athene\u2019s growing international retirement platform Experienced insurance executive brings deep U.S. and Japan market leadership to Athene\u2019s growing international retirement platform",
-    "drafted_at": "2026-06-30T23:02:33.820437",
-    "data": {
-      "source": "GLOBENEWSWIRE"
-    },
-    "content_hash": "c9c85be6ec7d273b"
-  },
-  {
-    "id": "f0e9e544",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Continental update: The banned film about migrant crime rightly indicts Europe\u2019s elites.\n\nBut it could stoke intemperate rage along with righteous anger.\n\nhttps://www.thefp.com/p/douglas-murray-citizen-vigilante-migration",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FREE PRESS",
-    "source_url": "https://www.thefp.com/p/douglas-murray-citizen-vigilante-migration",
-    "source_title": "Douglas Murray: What Really Makes \u2018Citizen Vigilante\u2019 So Dangerous",
-    "source_summary": "The banned film about migrant crime rightly indicts Europe\u2019s elites. But it could stoke intemperate rage along with righteous anger.",
-    "drafted_at": "2026-06-30T23:02:33.821075",
-    "data": {
-      "source": "FREE PRESS"
-    },
-    "content_hash": "cbbb7dc5735bcd82"
-  },
-  {
-    "id": "271438fe",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 AFRICA: Alcoa Corp. agreed to buy South32 Ltd.\u2019s bauxite, alumina and aluminum assets in Australia, Brazil and South Africa in a deal valued at as much as $5.6 billion, cementing its position among the world\u2019s largest aluminum producers as long-term demand strengthens.\n\nhttps://financialpost.com/pmn/business-pmn/alcoa-bets-on-aluminum-boom-with-5-6-billion-south32-deal",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/pmn/business-pmn/alcoa-bets-on-aluminum-boom-with-5-6-billion-south32-deal",
-    "source_title": "Alcoa Bets on Aluminum Boom With $5.6 Billion South32 Deal",
-    "source_summary": "Alcoa Corp. agreed to buy South32 Ltd.\u2019s bauxite, alumina and aluminum assets in Australia, Brazil and South Africa in a deal valued at as much as $5.6 billion, cementing its position among the world\u2019s largest aluminum producers as long-term demand strengthens.",
-    "drafted_at": "2026-06-30T23:02:33.821783",
-    "data": {
-      "source": "FINANCIAL POST"
-    },
-    "content_hash": "7fb10cc70f3daf9e"
-  },
-  {
-    "id": "cbaf4296",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "How fast is the economy moving? Now we know: DBS Group Research economist Chua Han Teng upgrades Singapore\u2019s Gross Domestic Product (GDP) outlook, noting that Singapore\u2019s economy has remained resilient to renewed geopolitical shocks from the Middle East conflict.\n\nhttps://www.fxstreet.com/news/singapore-growth-profile-raised-dbs-202606302141",
+    "draft_text": "CHINA DESK: The AUD/USD pair struggles to capitalize on the previous day's goodish rebound from the 0.6865 region, or a three-month low, and meets with a fresh supply during the Asian session on Wednesday.\n\nhttps://www.fxstreet.com/news/australian-dollar-remains-depressed-below-06900-vs-firmer-usd-after-chinas-pmi-202607010201",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/singapore-growth-profile-raised-dbs-202606302141",
-    "source_title": "Singapore: Growth profile raised \u2013 DBS",
-    "source_summary": "DBS Group Research economist Chua Han Teng upgrades Singapore\u2019s Gross Domestic Product (GDP) outlook, noting that Singapore\u2019s economy has remained resilient to renewed geopolitical shocks from the Middle East conflict.",
-    "drafted_at": "2026-06-30T23:02:33.881706",
+    "source_url": "https://www.fxstreet.com/news/australian-dollar-remains-depressed-below-06900-vs-firmer-usd-after-chinas-pmi-202607010201",
+    "source_title": "Australian Dollar remains depressed below 0.6900 vs firmer USD after China's PMI",
+    "source_summary": "The AUD/USD pair struggles to capitalize on the previous day's goodish rebound from the 0.6865 region, or a three-month low, and meets with a fresh supply during the Asian session on Wednesday.",
+    "drafted_at": "2026-07-01T02:13:47.159272",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "8d6c26b5f5b149d3"
+    "content_hash": "a9ca437bbc8d9491"
   },
   {
-    "id": "156a1adc",
-    "format": "DATA_DROP",
+    "id": "6e960ba3",
+    "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "INFLATION READ: JOLTs job openings 7.594M vs 7.300M estimate US June consumer confidence 91.2 vs 94.8 expected Canada April GDP +0.5% vs +0.4% expected US April CaseShiller 20-city house price index +1.1% y/y vs +0.9% expected FHFA monthly home price index for April -0.1% versus a revised 0.2% last month Iran's Ghalibaf: We won't enter any more negotiations until MOU conditions are met ECB debating doubling banks' minimum reserve requirement to 2% from 1% - report BOE's Bailey: We have time to judge the pass through of higher energy prices Fed's Hammack: The jobs market is right around full employment, growth looks good US Supreme Court upholds birthright citizenship, striking down Trump order Oman proposes a fee plan for the Strait of Hormuz -- report Germany June preliminary CPI +2.3% vs +2.6% y/y expected The top-25 stocks in the S&P 500 so far this year are dominated by chip and AI names Markets: Gold flat at $4016 US 10-year yields up 6.2 bps to 4.44% WTI crude oil down 72-cents to $70.02 S&P 500 up 0.9% AUD leads, JPY lags The yen bulls capitulated on Tuesday as the currency continued to carve out 40-year lows in an accelerating fashion.\n\nThe pair did most of its damage early in the day as it rose as high as 162.66 in a steady climb through the London fix.\n\nThe caveat on the move is that it came on the final day of the quarter and that could be skewing things.\n\nThere was a fundamental backing though as the JOLTS report showed job openings at a two year high and boosted optimism for this week's non-farm payrolls report.\n\nElsewhere, the US dollar was generally softer with commodity currencies making gains.\n\nOptimism about global growth is creeping up and that's put a small bid into the antipodeans.\n\nTalk is shifting towards the wage gains in the US jobs report as a possible catalyst towards a rate hike in July or September.\n\nElsewhere, stocks were nicely bid to wrap up a sensational quarter for the AI trade.\n\nhttps://investinglive.com/news/investinglive-americas-market-news-wrap-jolts-boosts-optimism-on-jobs-20260630/",
+    "draft_text": "From Beijing: BEIJING, China, July 01, 2026 (GLOBE NEWSWIRE) -- Li Auto Inc. (\u201cLi Auto\u201d or the \u201cCompany\u201d) (Nasdaq: LI; HKEX: 2015), a leader in China\u2019s new energy vehicle market, today announced that it delivered 30,895 vehicles in June 2026.\n\nAs of June 30, 2026, Li Auto\u2019s cumulative deliveries reached 1,733,687.\n\nhttps://www.globenewswire.com/news-release/2026/07/01/3320278/0/en/Li-Auto-Inc-June-2026-Delivery-Update.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "GLOBENEWSWIRE",
+    "source_url": "https://www.globenewswire.com/news-release/2026/07/01/3320278/0/en/Li-Auto-Inc-June-2026-Delivery-Update.html",
+    "source_title": "Li Auto Inc. June 2026 Delivery Update",
+    "source_summary": "BEIJING, China, July 01, 2026 (GLOBE NEWSWIRE) -- Li Auto Inc. (\u201cLi Auto\u201d or the \u201cCompany\u201d) (Nasdaq: LI; HKEX: 2015), a leader in China\u2019s new energy vehicle market, today announced that it delivered 30,895 vehicles in June 2026. As of June 30, 2026, Li Auto\u2019s cumulative deliveries reached 1,733,687.",
+    "drafted_at": "2026-07-01T02:13:47.159875",
+    "data": {
+      "source": "GLOBENEWSWIRE"
+    },
+    "content_hash": "095af879f7137cae"
+  },
+  {
+    "id": "802773dd",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "From Beijing: A 51.7 reading, even easing slightly from May, still confirms China's strongest manufacturing quarter since Q4 2020, a constructive signal for risk sentiment tied to Chinese growth even as the headline print itself eased to a three-month low.\n\nThe combination of slowing input cost inflation and accelerating job creation is a favourable mix for margins and should support the read-through to broader China demand indicators, though the continued fall in new export orders, now a second straight month, flags external demand as the weaker leg of the recovery.\n\nSoftening 12-month sentiment to its lowest since January is worth flagging for anyone using this print to extrapolate momentum into the second half, since it suggests manufacturers themselves see the current pace as harder to sustain.\n\nRating Dog Manufacturing PMI, June 2026: 51.7 expected 51.6, prior 51.8 --- China's RatingDog manufacturing PMI eased to 51.7 in June but capped the strongest quarter for the sector since 2020, with input inflation cooling and hiring accelerating.\n\nYesterday, official, National Bureau of Statistics (NBS) data: China factory PMI beats forecast at 50.3 as AI-linked exports drive expansion China's domestic demand engine sputtering despite stronger headline PMI Summary: The RatingDog China General Manufacturing PMI eased to a three-month low of 51.7 in June from 51.8 in May, according to the survey, marking a seventh straight month above the 50.0 no-change mark The second-quarter average of 51.9 was the strongest for any quarter since the fourth quarter of 2020 New orders rose for a thirteenth consecutive month, the joint-longest run since 2018, even as new export orders fell for a second straight month Manufacturing output grew for a seventh successive month, though the pace eased to a three-month low; output growth for the quarter was still the strongest since the second quarter of 2024 Employment rose for the first time in three months, with job creation at its fastest pace since August 2023 Input cost inflation slowed to a five-month low, while output price inflation edged up slightly for a sixth straight month of increases Suppliers' delivery times lengthened for a fourth month, though delays were only marginal and confined to the investment goods sector Business sentiment on the 12-month outlook stayed positive but softened to its weakest level since January China's manufacturing sector closed out its strongest quarter since 2020 in June, even as the pace of improvement itself eased slightly, according to the latest RatingDog China General Manufacturing PMI survey.\n\nThe headline index slipped to a three-month low of 51.7 from 51.8 in May, marking a seventh consecutive month above the 50.0 threshold that separates expansion from contraction and keeping the reading above the survey's long-run average of 50.8 since 2004.\n\nThe second-quarter average of 51.9 was the strongest for any quarter since the final three months of 2020.\n\nNew orders extended their run of growth to thirteen consecutive months, matching the joint-longest sequence since 2018, with all five components of the index contributing positively to the headline figure.\n\nhttps://investinglive.com/news/ratingdog-pmi-caps-chinas-strongest-quarter-for-manufacturing-since-2020-20260701/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-jolts-boosts-optimism-on-jobs-20260630/",
-    "source_title": "investingLive Americas market news wrap: JOLTS boosts optimism on jobs",
-    "source_summary": "JOLTs job openings 7.594M vs 7.300M estimate US June consumer confidence 91.2 vs 94.8 expected Canada April GDP +0.5% vs +0.4% expected US April CaseShiller 20-city house price index +1.1% y/y vs +0.9% expected FHFA monthly home price index for April -0.1% versus a revised 0.2% last month Iran's Ghalibaf: We won't enter any more negotiations until MOU conditions are met ECB debating doubling banks",
-    "drafted_at": "2026-06-30T23:02:33.883713",
+    "source_url": "https://investinglive.com/news/ratingdog-pmi-caps-chinas-strongest-quarter-for-manufacturing-since-2020-20260701/",
+    "source_title": "RatingDog PMI caps China's strongest quarter for manufacturing since 2020",
+    "source_summary": "A 51.7 reading, even easing slightly from May, still confirms China's strongest manufacturing quarter since Q4 2020, a constructive signal for risk sentiment tied to Chinese growth even as the headline print itself eased to a three-month low. The combination of slowing input cost inflation and accelerating job creation is a favourable mix for margins and should support the read-through to broader ",
+    "drafted_at": "2026-07-01T02:13:47.163177",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "9eb01ba49351a10c"
+    "content_hash": "39d19fc781179a36"
   },
   {
-    "id": "59a7ddfb",
+    "id": "05cff5d4",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "How fast is the economy moving? Now we know: RBC Economics highlights a firmer start to Q2 in today's Canadian GDP report after a small contraction in the first quarter of the year.\n\nCanadian economic activity increased 0.5% in April, slightly higher than Statistics Canada's 0.4% advance estimate, which was also the consensus view.\n\nRBC writes: As expected, the increase was driven primarily by stronger activity in goods-producing industries, particularly mining, quarrying, and oil and gas extraction, alongside a pickup in manufacturing output.\n\nService-producing industries also expanded, though at a more moderate pace.\n\nRBC highlights that trade will continue to be a drag as the USMCA countries intensify negotiations around tweaks to the agreement.\n\nThe small advance gain in May matches with what RBC is seeing.\n\nManufacturing and home resales strengthened in May, with the latter posting its largest monthly increase since October 2024.\n\nThose gains were partly offset by weaker wholesale activity, suggesting trade-related headwinds continued to weigh on parts of the goods sector.\n\nhttps://investinglive.com/news/canadian-gdp-off-to-a-strong-start-in-q2-but-trade-uncertainty-continues-rbc-20260630/",
+    "draft_text": "Fresh print: Australia May 2026 Building Permits -1.1% m/m, 5 falls in the past 6 months expected 1.0%, prior \u20133.4% Building Permits 5.3% y/y expected 9.5%, prior 10.2% Private House Approvals 2.8% m/m expected \u20130.2%, prior \u20131.0% This article was written by Eamonn Sheridan at investinglive.com.\n\nhttps://investinglive.com/news/australia-may-2026-building-permits-11-mm-expected-10-prior-34-20260701/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/canadian-gdp-off-to-a-strong-start-in-q2-but-trade-uncertainty-continues-rbc-20260630/",
-    "source_title": "Canadian GDP off to a strong start in Q2 but trade uncertainty continues",
-    "source_summary": "RBC Economics highlights a firmer start to Q2 in today's Canadian GDP report after a small contraction in the first quarter of the year. Canadian economic activity increased 0.5% in April, slightly higher than Statistics Canada's 0.4% advance estimate, which was also the consensus view. The May advance reading was +0.1%. RBC writes: As expected, the increase was driven primarily by stronger activi",
-    "drafted_at": "2026-06-30T23:02:33.884955",
+    "source_url": "https://investinglive.com/news/australia-may-2026-building-permits-11-mm-expected-10-prior-34-20260701/",
+    "source_title": "Australia May 2026 Building Permits -1.1% m/m (expected 1.0%, prior \u20133.4%)",
+    "source_summary": "Australia May 2026 Building Permits -1.1% m/m, 5 falls in the past 6 months expected 1.0%, prior \u20133.4% Building Permits 5.3% y/y expected 9.5%, prior 10.2% Private House Approvals 2.8% m/m expected \u20130.2%, prior \u20131.0% This article was written by Eamonn Sheridan at investinglive.com.",
+    "drafted_at": "2026-07-01T02:13:47.218110",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "2ca5c469bf6dd5d1"
+    "content_hash": "bbd1d041170cebbe"
   },
   {
-    "id": "e98db818",
+    "id": "773a47d8",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -433,7 +439,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-06-30T23:02:33.886455",
+    "drafted_at": "2026-07-01T02:13:47.219510",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -441,7 +447,24 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "72102aa7",
+    "id": "00076572",
+    "format": "PACK_TAKE",
+    "status": "pending",
+    "draft_text": "Your alerts didn't go off because the pack got there first.",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Howl Street",
+    "source_url": "",
+    "source_title": "PACK TAKE",
+    "source_summary": "Your alerts didn't go off because the pack got there first.",
+    "drafted_at": "2026-07-01T02:13:47.219585",
+    "data": {
+      "take_seed": "2026-07-01-pack-1"
+    },
+    "content_hash": "9b0f7be55d8ef71c"
+  },
+  {
+    "id": "b0874d65",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Information is free. Conviction is rare. Patience is rarer.",
@@ -451,26 +474,9 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Information is free. Conviction is rare. Patience is rarer.",
-    "drafted_at": "2026-06-30T23:02:33.886532",
+    "drafted_at": "2026-07-01T02:13:47.219633",
     "data": {
-      "take_seed": "2026-06-30-pack-1"
-    },
-    "content_hash": "9b0f7be55d8ef71c"
-  },
-  {
-    "id": "93d70fba",
-    "format": "PACK_TAKE",
-    "status": "pending",
-    "draft_text": "Inflation is a tax that doesn't show up on your W-2.",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Howl Street",
-    "source_url": "",
-    "source_title": "PACK TAKE",
-    "source_summary": "Inflation is a tax that doesn't show up on your W-2.",
-    "drafted_at": "2026-06-30T23:02:33.886586",
-    "data": {
-      "take_seed": "2026-06-30-pack-2"
+      "take_seed": "2026-07-01-pack-2"
     },
     "content_hash": "9b0f7be55d8ef71c"
   }
