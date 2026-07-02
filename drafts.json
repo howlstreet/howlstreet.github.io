@@ -1,61 +1,40 @@
 [
   {
-    "id": "ebc24598",
-    "format": "LOUD_HOWL",
+    "id": "6830f1d8",
+    "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "TODAY'S LOUDEST HOWL: Peter Navarro, RealClear Today's jobs report paints a picture of a steady and stable economy that the Federal Reserve should not derail with a rate hike....\n\nhttps://www.realclearmarkets.com/2026/07/02/steady_jobs_report_pours_cold_water_on_fed_rate_hawks_1192270.html",
+    "draft_text": "BOE DESK: Earlier today, BoE policymaker Catherine Mann reiterated a hawkish stance, saying that at the June policy meeting she saw greater upside risks to inflation than downside risks to economic activity.\n\nAs a result, the balance of risks has shifted her toward favoring a longer period of restrictive policy and, if necessary, additional tightening to guard against persistent inflation.\n\nShe emphasized that incoming data during the second half of the year will be critical, particularly in determining whether inflation pressures are becoming more entrenched.\n\nWhile restrictive financial conditions are helping to offset cost-driven inflation, she argued that fiscal policy will also play an important role in returning inflation to the Bank of England's 2% target.\n\nMann also pointed to underlying labor market resilience, noting that conditions in some sectors appear stronger than suggested by the headline unemployment rate.\n\nIn addition, both short- and long-term inflation expectations remain elevated, reinforcing her concern that inflation persistence remains a meaningful risk.\n\nShe now adds that: Loosening of financial conditions since June will be important for her rate vote at the next meeting.\n\nThis article was written by Greg Michalowski at investinglive.com.\n\nhttps://investinglive.com/news/boe-mann-loosening-of-financial-conditions-since-june-will-be-important-for-her-rate-vote-20260702/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "REALCLEAR",
-    "source_url": "https://www.realclearmarkets.com/2026/07/02/steady_jobs_report_pours_cold_water_on_fed_rate_hawks_1192270.html",
-    "source_title": "Steady Jobs Report Pours Cold Water On Fed Rate Hawks",
-    "source_summary": "Peter Navarro, RealClear Today's jobs report paints a picture of a steady and stable economy that the Federal Reserve should not derail with a rate hike....",
-    "drafted_at": "2026-07-02T15:18:37.554115",
+    "primary_source": "BOE",
+    "source_url": "https://investinglive.com/news/boe-mann-loosening-of-financial-conditions-since-june-will-be-important-for-her-rate-vote-20260702/",
+    "source_title": "BOE Mann: Loosening of financial conditions since June will be important for her rate vote",
+    "source_summary": "Earlier today, BoE policymaker Catherine Mann reiterated a hawkish stance, saying that at the June policy meeting she saw greater upside risks to inflation than downside risks to economic activity. As a result, the balance of risks has shifted her toward favoring a longer period of restrictive policy and, if necessary, additional tightening to guard against persistent inflation. She emphasized tha",
+    "drafted_at": "2026-07-02T17:12:09.177943",
     "data": {
-      "source": "REALCLEAR"
+      "actor": "BOE"
     },
-    "content_hash": "4c28ede1af9b0e6b"
+    "content_hash": "8ef4f1b4d5567203"
   },
   {
-    "id": "2a468402",
-    "format": "MARKET_MOVE",
+    "id": "9534c099",
+    "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "You feeling that? VIX drops 6.2% in 5 sessions to 16.21.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
+    "draft_text": "RATE-PATH READ: The Pound Sterling (GBP) registers solid gains against the US Dollar (USD) on Thursday after the latest US employment report missed estimates, reducing the chances of a Federal Reserve (Fed) rate hike.\n\nhttps://www.fxstreet.com/news/british-pound-rallies-as-weak-nfp-smashes-fed-hike-bets-202607021614",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CBOE \u00b7 ^VIX",
-    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "source_title": "VIX (S&P 500 volatility)",
-    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-07-02T15:18:37.554385",
+    "primary_source": "Fed",
+    "source_url": "https://www.fxstreet.com/news/british-pound-rallies-as-weak-nfp-smashes-fed-hike-bets-202607021614",
+    "source_title": "British Pound rallies as weak NFP smashes Fed hike bets",
+    "source_summary": "The Pound Sterling (GBP) registers solid gains against the US Dollar (USD) on Thursday after the latest US employment report missed estimates, reducing the chances of a Federal Reserve (Fed) rate hike.",
+    "drafted_at": "2026-07-02T17:12:09.178260",
     "data": {
-      "signal_id": "^VIX:move:2026-07-02",
-      "kind": "move_down",
-      "current": "16.21"
+      "actor": "Fed"
     },
-    "content_hash": "995f4d67e7e875d2"
+    "content_hash": "cab59393df0da270"
   },
   {
-    "id": "f9db47a5",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "Heads up, pack. Dow just hit 52,680.52 \u2014 highest in 9+ years.\n\n30 large U.S. industrials.\n\nSlower-moving than the S&P but the headline number retail readers track.\n\nMulti-year high. The pack remembers what comes after these.\n\nhttps://finance.yahoo.com/quote/%5EDJI",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Yahoo Finance \u00b7 ^DJI",
-    "source_url": "https://finance.yahoo.com/quote/%5EDJI",
-    "source_title": "Dow Jones Industrial Average",
-    "source_summary": "30 large U.S. industrials. Slower-moving than the S&P but the headline number retail readers track.",
-    "drafted_at": "2026-07-02T15:18:37.554644",
-    "data": {
-      "signal_id": "^DJI:high:2026-07-02",
-      "kind": "high",
-      "current": "52,680.52"
-    },
-    "content_hash": "21c4cea90ac8748c"
-  },
-  {
-    "id": "9edceadb",
+    "id": "5cca3159",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "POWELL POSTCARD: Peter Navarro, RealClear Today's jobs report paints a picture of a steady and stable economy that the Federal Reserve should not derail with a rate hike....\n\nhttps://www.realclearmarkets.com/2026/07/02/steady_jobs_report_pours_cold_water_on_fed_rate_hawks_1192270.html",
@@ -65,14 +44,14 @@
     "source_url": "https://www.realclearmarkets.com/2026/07/02/steady_jobs_report_pours_cold_water_on_fed_rate_hawks_1192270.html",
     "source_title": "Steady Jobs Report Pours Cold Water On Fed Rate Hawks",
     "source_summary": "Peter Navarro, RealClear Today's jobs report paints a picture of a steady and stable economy that the Federal Reserve should not derail with a rate hike....",
-    "drafted_at": "2026-07-02T15:18:37.566277",
+    "drafted_at": "2026-07-02T17:12:09.178646",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "4c28ede1af9b0e6b"
   },
   {
-    "id": "4074180a",
+    "id": "32a56921",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "POWELL POSTCARD: The study shows that the total number of noncash payments made by consumers and businesses increased to 236.6 billion in 2024.\n\nOverall, the number of noncash payments more than tripled since 2000.\n\nCards once again were used most frequently, accounting for over three quarters of payments by number.\n\nDebit cards continued to account for the majority of all card payments, although credit card payments grew faster than debit card payments for the first time in almost a decade.\n\nPayments using the ACH system continued to account for the majority of noncash payments by value.\n\nIn 2024, ACH's share of noncash payments by value reached almost three quarters for the first time.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/other20260701a.htm",
@@ -82,31 +61,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260701a.htm",
     "source_title": "Federal Reserve issues initial findings from its 2025 triennial payments study",
     "source_summary": "Federal Reserve issues initial findings from its 2025 triennial payments study",
-    "drafted_at": "2026-07-02T15:18:37.567505",
+    "drafted_at": "2026-07-02T17:12:09.179857",
     "data": {
       "actor": "FED"
     },
     "content_hash": "93c75ae746d4a5c8"
   },
   {
-    "id": "5eea4ecc",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "FOMC update. US and European central banks are weighing inflation risks ahead of key policy decisions, with energy prices and an AI-driven investment boom shaping the outlook.\n\nhttp://www.euronews.com/business/2026/07/01/us-federal-reserve-expected-to-decide-on-rate-hike-in-four-weeks-warsh-says",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Federal Reserve",
-    "source_url": "http://www.euronews.com/business/2026/07/01/us-federal-reserve-expected-to-decide-on-rate-hike-in-four-weeks-warsh-says",
-    "source_title": "US Federal Reserve expected to decide on rate hike in four weeks, Warsh says",
-    "source_summary": "US and European central banks are weighing inflation risks ahead of key policy decisions, with energy prices and an AI-driven investment boom shaping the outlook.",
-    "drafted_at": "2026-07-02T15:18:37.567775",
-    "data": {
-      "actor": "Federal Reserve"
-    },
-    "content_hash": "59c34fa0846d4e0d"
-  },
-  {
-    "id": "37311a6f",
+    "id": "c67d56cb",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Policy update for the pack: The designations reflect local economic conditions, including unemployment, poverty, and population changes.\n\nUnder the CRA, the agencies assess a bank's record of meeting the credit needs of its entire community, including low- and moderate-income neighborhoods, consistent with safe and sound operations.\n\nThe list released by the agencies includes distressed or underserved nonmetropolitan middle-income geographies where revitalization or stabilization activities are eligible to receive CRA consideration.\n\nPrevious years' lists and criteria for designating these areas are available here.\n\nRevitalization or stabilization activities in these geographies are eligible to receive CRA consideration under the community development definition for 12 months after publication of the current list.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260630a.htm",
@@ -116,148 +78,131 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260630a.htm",
     "source_title": "Agencies release list of distressed or underserved nonmetropolitan middle-income geographies",
     "source_summary": "Agencies release list of distressed or underserved nonmetropolitan middle-income geographies",
-    "drafted_at": "2026-07-02T15:18:37.568884",
+    "drafted_at": "2026-07-02T17:12:09.180975",
     "data": {
       "actor": "FED"
     },
     "content_hash": "6a8c213ad120f159"
   },
   {
-    "id": "76a8736d",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "Powell on the wire. The hypothetical scenario this year included a severe global recession with a 39 percent decline in commercial real estate prices and a 30 percent decline in house prices.\n\nThe unemployment rate also increased to a peak of 10 percent, and economic output declined commensurately.\n\nThe total projected losses include roughly $200 billion in credit card losses, $160 billion in losses from commercial and industrial loans, and $75 billion in losses from commercial real estate.\n\n\"Today's results underscore the strength of the banking system,\" Vice Chair for Supervision Michelle W.\n\nBowman said.\n\nAs the Board previously announced, today's results will not impact large bank capital requirements, which have been published today.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260624a.htm",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FED",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260624a.htm",
-    "source_title": "Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
-    "source_summary": "Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
-    "drafted_at": "2026-07-02T15:18:37.570107",
-    "data": {
-      "actor": "FED"
-    },
-    "content_hash": "643d9a3d6daf7e58"
-  },
-  {
-    "id": "6282fa90",
+    "id": "6910b199",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$LILA insider bought $140,345,259 on 2026-06-26, 5 insiders. \ud83d\udc40\n\nLiberty Latin America Ltd.. 15,763,878 shares at $8.90.\n\n-12.0% since the purchase.\n\nhttp://openinsider.com/screener?s=LILA",
+    "draft_text": "$LILA insider bought $140,345,259 on 2026-06-26, 5 insiders. \ud83d\udc40\n\nLiberty Latin America Ltd.. 15,763,878 shares at $8.90.\n\n-15.8% since the purchase.\n\nhttp://openinsider.com/screener?s=LILA",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=LILA",
     "source_title": "Liberty Latin America Ltd. (LILA) insider bought $140,345,259",
     "source_summary": "5 insider(s) bought 15,763,878 shares at $8.90 on 2026-06-26.",
-    "drafted_at": "2026-07-02T15:18:37.570278",
+    "drafted_at": "2026-07-02T17:12:09.182350",
     "data": {
       "ticker": "LILA",
       "type": "P",
       "dollar_value": 140345259.0,
-      "pct_since": -12.022472767347704
+      "pct_since": -15.7865181397856
     },
     "content_hash": "d57b678aa6fbc928"
   },
   {
-    "id": "d4e61b8f",
+    "id": "ca8ce388",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$DPC insider bought $75,821,493 on 2026-06-26, 9 insiders. \ud83d\udc40\n\nDpc Holdings Ltd. 2,297,621 shares at $33.00.\n\n+37.7% since the purchase.\n\nhttp://openinsider.com/screener?s=DPC",
+    "draft_text": "$DPC insider bought $75,821,493 on 2026-06-26, 9 insiders. \ud83d\udc40\n\nDpc Holdings Ltd. 2,297,621 shares at $33.00.\n\n+37.8% since the purchase.\n\nhttp://openinsider.com/screener?s=DPC",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=DPC",
     "source_title": "Dpc Holdings Ltd (DPC) insider bought $75,821,493",
     "source_summary": "9 insider(s) bought 2,297,621 shares at $33.00 on 2026-06-26.",
-    "drafted_at": "2026-07-02T15:18:37.570405",
+    "drafted_at": "2026-07-02T17:12:09.182487",
     "data": {
       "ticker": "DPC",
       "type": "P",
       "dollar_value": 75821493.0,
-      "pct_since": 37.68182234330611
+      "pct_since": 37.84848993474787
     },
     "content_hash": "dd6559b51a6d411c"
   },
   {
-    "id": "a5061df9",
+    "id": "709218f0",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$RH insider bought $1,832,322 on 2026-06-29. \ud83d\udc40\n\nRh. 11,388 shares at $160.90.\n\n+2.5% since the purchase.\n\nhttp://openinsider.com/screener?s=RH",
+    "draft_text": "$RH insider bought $1,832,322 on 2026-06-29. \ud83d\udc40\n\nRh. 11,388 shares at $160.90.\n\n+1.5% since the purchase.\n\nhttp://openinsider.com/screener?s=RH",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=RH",
     "source_title": "Rh (RH) insider bought $1,832,322",
     "source_summary": "1 insider(s) bought 11,388 shares at $160.90 on 2026-06-29.",
-    "drafted_at": "2026-07-02T15:18:37.570504",
+    "drafted_at": "2026-07-02T17:12:09.182582",
     "data": {
       "ticker": "RH",
       "type": "P",
       "dollar_value": 1832322.0,
-      "pct_since": 2.4860123657454127
+      "pct_since": 1.4729672296214615
     },
     "content_hash": "9835021a3aecaae7"
   },
   {
-    "id": "6eba9bf5",
+    "id": "1c975b59",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$FCBM insider bought $1,623,863 on 2026-06-18, 12 insiders. \ud83d\udc40\n\nFirst Carolina Financial Services, Inc.. 129,905 shares at $12.50.\n\n+2.5% since the purchase.\n\nhttp://openinsider.com/screener?s=FCBM",
+    "draft_text": "$FCBM insider bought $1,623,863 on 2026-06-18, 12 insiders. \ud83d\udc40\n\nFirst Carolina Financial Services, Inc.. 129,905 shares at $12.50.\n\n+1.6% since the purchase.\n\nhttp://openinsider.com/screener?s=FCBM",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=FCBM",
     "source_title": "First Carolina Financial Services, Inc. (FCBM) insider bought $1,623,863",
     "source_summary": "12 insider(s) bought 129,905 shares at $12.50 on 2026-06-18.",
-    "drafted_at": "2026-07-02T15:18:37.570636",
+    "drafted_at": "2026-07-02T17:12:09.182715",
     "data": {
       "ticker": "FCBM",
       "type": "P",
       "dollar_value": 1623863.0,
-      "pct_since": 2.4800033569335938
+      "pct_since": 1.55999755859375
     },
     "content_hash": "bd7e46bc711b54e4"
   },
   {
-    "id": "032f8efa",
+    "id": "6f8966fe",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$KMX insider bought $1,268,037 on 2026-06-25, 5 insiders. \ud83d\udc40\n\nCarmax Inc. 24,074 shares at $52.67.\n\n-4.9% since the purchase.\n\nhttp://openinsider.com/screener?s=KMX",
+    "draft_text": "$KMX insider bought $1,268,037 on 2026-06-25, 5 insiders. \ud83d\udc40\n\nCarmax Inc. 24,074 shares at $52.67.\n\n-4.1% since the purchase.\n\nhttp://openinsider.com/screener?s=KMX",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=KMX",
     "source_title": "Carmax Inc (KMX) insider bought $1,268,037",
     "source_summary": "5 insider(s) bought 24,074 shares at $52.67 on 2026-06-25.",
-    "drafted_at": "2026-07-02T15:18:37.570766",
+    "drafted_at": "2026-07-02T17:12:09.182822",
     "data": {
       "ticker": "KMX",
       "type": "P",
       "dollar_value": 1268037.0,
-      "pct_since": -4.869945809310183
+      "pct_since": -4.101009452186821
     },
     "content_hash": "eac796c0792900e2"
   },
   {
-    "id": "5b414309",
+    "id": "af2344d6",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "As the Senate weighs the CLARITY Act, gaps in oversight could hand adversaries new ways to evade sanctions and launder money.\n\nhttps://fortune.com/2026/07/02/crypto-legislation-is-a-ticket-to-sanctions-evasion/",
+    "draft_text": "PHILADELPHIA, July 2, 2026 /PRNewswire/ -- National plaintiffs' law firm Berger Montague PC announces a class action lawsuit against FS KKR Capital Corp. (NYSE: FSK) (\"FS KKR\" or the \"Company\") on behalf of investors who purchased or acquired FS KKR securities during the period from May...\n\nhttps://www.prnewswire.com/news-releases/monday-deadline-berger-montague-advises-fs-kkr-capital-corp-nyse-fsk-investors-to-inquire-about-a-securities-fraud-class-action-by-july-6-2026-302816560.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FORTUNE",
-    "source_url": "https://fortune.com/2026/07/02/crypto-legislation-is-a-ticket-to-sanctions-evasion/",
-    "source_title": "Former Iran director at NSC: Crypto legislation is a ticket to sanctions evasion",
-    "source_summary": "As the Senate weighs the CLARITY Act, gaps in oversight could hand adversaries new ways to evade sanctions and launder money.",
-    "drafted_at": "2026-07-02T15:18:37.571717",
+    "primary_source": "PR NEWSWIRE",
+    "source_url": "https://www.prnewswire.com/news-releases/monday-deadline-berger-montague-advises-fs-kkr-capital-corp-nyse-fsk-investors-to-inquire-about-a-securities-fraud-class-action-by-july-6-2026-302816560.html",
+    "source_title": "MONDAY DEADLINE: Berger Montague Advises FS KKR Capital Corp. (NYSE: FSK) Investors to Inquire About a Securities Fraud Class Action by July 6, 2026",
+    "source_summary": "PHILADELPHIA, July 2, 2026 /PRNewswire/ -- National plaintiffs' law firm Berger Montague PC announces a class action lawsuit against FS KKR Capital Corp. (NYSE: FSK) (\"FS KKR\" or the \"Company\") on behalf of investors who purchased or acquired FS KKR securities during the period from May...",
+    "drafted_at": "2026-07-02T17:12:09.183992",
     "data": {
-      "source": "FORTUNE"
+      "source": "PR NEWSWIRE"
     },
-    "content_hash": "99076707d01762ff"
+    "content_hash": "b3ff6024d08e8626"
   },
   {
-    "id": "c0bec9ce",
+    "id": "e9b69941",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "FBI agents extradited alleged Scattered Spider hacker Peter Stokes, 19, as the group faces $100 million ransom claims.\n\nThe post US DOJ Charges 19-Year-Old Tied to $100 Million Scattered Spider Crew appeared first on BeInCrypto.\n\nhttps://beincrypto.com/scattered-spider-hacker-extradited-us/",
@@ -267,14 +212,14 @@
     "source_url": "https://beincrypto.com/scattered-spider-hacker-extradited-us/",
     "source_title": "US DOJ Charges 19-Year-Old Tied to $100 Million Scattered Spider Crew",
     "source_summary": "FBI agents extradited alleged Scattered Spider hacker Peter Stokes, 19, as the group faces $100 million ransom claims. The post US DOJ Charges 19-Year-Old Tied to $100 Million Scattered Spider Crew appeared first on BeInCrypto .",
-    "drafted_at": "2026-07-02T15:18:37.572073",
+    "drafted_at": "2026-07-02T17:12:09.184348",
     "data": {
       "source": "BEINCRYPTO"
     },
     "content_hash": "18610fa72ad631d2"
   },
   {
-    "id": "0be68e75",
+    "id": "0ec753a7",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Critics described President Trump's money-making ventures as \"bribery\" and \"corruption.\" The White House denied any conflicts of interest.\n\nhttps://www.latimes.com/politics/story/2026-07-01/trumps-reported-2-2-billion-in-2025-income-sets-off-ethics-alarms",
@@ -284,14 +229,14 @@
     "source_url": "https://www.latimes.com/politics/story/2026-07-01/trumps-reported-2-2-billion-in-2025-income-sets-off-ethics-alarms",
     "source_title": "As Trump reports $2.2 billion in 2025 income, ethics experts raise alarms",
     "source_summary": "Critics described President Trump's money-making ventures as \"bribery\" and \"corruption.\" The White House denied any conflicts of interest.",
-    "drafted_at": "2026-07-02T15:18:37.572302",
+    "drafted_at": "2026-07-02T17:12:09.184591",
     "data": {
       "source": "LA TIMES"
     },
     "content_hash": "2edeaaad1abb35bd"
   },
   {
-    "id": "46447c9b",
+    "id": "7b21b66a",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "'Continues to work day and night to ensure that American tax dollars are used for Americans, not for fraudsters'.\n\nhttps://www.wnd.com/2026/07/5-taxpayer-wins-jd-vances-fraud-fighting-task/?utm_source=rss&utm_medium=rss&utm_campaign=5-taxpayer-wins-jd-vances-fraud-fighting-task",
@@ -301,14 +246,14 @@
     "source_url": "https://www.wnd.com/2026/07/5-taxpayer-wins-jd-vances-fraud-fighting-task/?utm_source=rss&utm_medium=rss&utm_campaign=5-taxpayer-wins-jd-vances-fraud-fighting-task",
     "source_title": "5 taxpayer wins from JD Vance\u2019s fraud-fighting task force",
     "source_summary": "'Continues to work day and night to ensure that American tax dollars are used for Americans, not for fraudsters'",
-    "drafted_at": "2026-07-02T15:18:37.572511",
+    "drafted_at": "2026-07-02T17:12:09.184799",
     "data": {
       "source": "WND"
     },
     "content_hash": "7d23d2fb003b1073"
   },
   {
-    "id": "416bccac",
+    "id": "5bfe8732",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The post To Protect Its Drinking Water, This City Has to Appeal to the Oil Regulators That Put It at Risk appeared first on ProPublica.\n\nhttps://www.propublica.org/article/enid-oklahoma-oil-gas-pollution-water-protections",
@@ -318,167 +263,167 @@
     "source_url": "https://www.propublica.org/article/enid-oklahoma-oil-gas-pollution-water-protections",
     "source_title": "To Protect Its Drinking Water, This City Has to Appeal to the Oil Regulators That Put It at Risk",
     "source_summary": "The post To Protect Its Drinking Water, This City Has to Appeal to the Oil Regulators That Put It at Risk appeared first on ProPublica .",
-    "drafted_at": "2026-07-02T15:18:37.572791",
+    "drafted_at": "2026-07-02T17:12:09.185066",
     "data": {
       "source": "PROPUBLICA"
     },
     "content_hash": "889c58e010824a7f"
   },
   {
-    "id": "5f89201e",
+    "id": "808fb382",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "ASIA DESK: America's young men and women packed the National Mall in the nation's capital and created scenes that likely haven't been witnessed in decades.\n\nThe United States faced Bosnia-Herzegovina at Levi's Stadium in Santa Clara, California, on Wednesday, with fans across the country taking in the monumental game.\n\n'It's so crazy over here!' Team USA has now matched their performance for their last three World Cups by winning 2-0 and advancing to the round of 16, but by being one of the host nations, fans are noticing a huge change in support from young Americans.\n\nThere exists no better example than the FIFA World Cup 2026 Fan Zone, an experience put on by the Trump administration's Freedom 250 initiative at the National Mall, right in the heart of Washington, D.C.\n\nThousands packed the mall to watch the game in what seemed like a college football stadium atmosphere, with fans losing their minds when Team USA scored their first goal in the 45th minute to go up 1-0.\n\nDC News Now's reporter Tyger Munn was in the eye of the storm when the goal happened, and attendees went ballistic.\n\n\"You can't even see me right now it's so crazy over here!\" he yelled into the microphone.\n\nAfter leading a chant with the crowd, the reporter passionately described the feeling: \"Just look at all this energy, the patriotism, it's beautiful to see here at National Mall, guys.\" RELATED: Democrats hoping to blame Trump for World Cup failures forced to change strategy after great success When Team USA scored their second goal in the 82nd minute, video captured what seemed like an even more massive crowd erupting late into the evening.\n\nhttps://www.theblaze.com/fearless/national-mall-young-american-crowd",
+    "draft_text": "From the Gulf: The US-Iran deal waives sanctions on Iranian oil sales, but Washington will need further steps to meaningfully shift global crude trade and ensure clearer visibility into Iranian oil transactions.\n\nThe post With US sanctions temporarily lifted, is Iranian crude back on the menu? appeared first on Atlantic Council.\n\nhttps://www.atlanticcouncil.org/blogs/energysource/with-us-sanctions-temporarily-lifted-is-iranian-crude-back-on-the-menu/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "THE BLAZE",
-    "source_url": "https://www.theblaze.com/fearless/national-mall-young-american-crowd",
-    "source_title": "Trump's USA World Cup watch party a raucous hit on National Mall",
-    "source_summary": "America's young men and women packed the National Mall in the nation's capital and created scenes that likely haven't been witnessed in decades. The United States faced Bosnia-Herzegovina at Levi's Stadium in Santa Clara, California, on Wednesday, with fans across the country taking in the monumental game. 'It's so crazy over here!' Team USA has now matched their performance for their last three W",
-    "drafted_at": "2026-07-02T15:18:37.578581",
+    "primary_source": "ATLANTIC CNCL",
+    "source_url": "https://www.atlanticcouncil.org/blogs/energysource/with-us-sanctions-temporarily-lifted-is-iranian-crude-back-on-the-menu/",
+    "source_title": "With US sanctions temporarily lifted, is Iranian crude back on the menu?",
+    "source_summary": "The US-Iran deal waives sanctions on Iranian oil sales, but Washington will need further steps to meaningfully shift global crude trade and ensure clearer visibility into Iranian oil transactions. The post With US sanctions temporarily lifted, is Iranian crude back on the menu? appeared first on Atlantic Council .",
+    "drafted_at": "2026-07-02T17:12:09.187461",
     "data": {
-      "source": "THE BLAZE"
+      "source": "ATLANTIC CNCL"
     },
-    "content_hash": "82c75c777078e086"
+    "content_hash": "08b2d4a32d63045c"
   },
   {
-    "id": "4368ba13",
+    "id": "9b7feeeb",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Asia overnight: The ripple effect from a severe gas shortage in Russia caused by Ukrainian drone strikes is being felt in Central Asia, where seasonal demand is rising.\n\nKyrgyzstan and Tajikistan are heavily dependent on Russia for energy supplies, so it is no surprise that the ongoing destruction of Russian energy infrastructure threatens to hit two Central Asian states the hardest.\n\nGas stations across Kyrgyzstan are already reporting shortages of high-octane auto fuel, the Moscow Times has reported.\n\nState regulators have established price controls on fuels and\u2026\n\nhttps://oilprice.com/Energy/Energy-General/Russias-Fuel-Crisis-Spreads-to-Central-Asia-as-Drone-Strikes-Escalate.html",
+    "draft_text": "EUROPE DESK: The recent heatwaves across Europe have reignited a familiar debate in parts of the American media.\n\nArticles in publications including The Washington Post and The New York Times have questioned why Europe continues to lag behind the United States in air conditioning, with some suggesting that Europeans remain culturally reluctant to embrace cooling or that governments have actively discouraged its deployment.\n\nAs temperatures continue to break records, the implication is that\u2026\n\nhttps://oilprice.com/Energy/Energy-General/Europe-Isnt-Anti-Air-Conditioning-Its-Just-Calling-It-Heat-Pumps.html",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "OILPRICE",
-    "source_url": "https://oilprice.com/Energy/Energy-General/Russias-Fuel-Crisis-Spreads-to-Central-Asia-as-Drone-Strikes-Escalate.html",
-    "source_title": "Russia's Fuel Crisis Spreads to Central Asia as Drone Strikes Escalate",
-    "source_summary": "The ripple effect from a severe gas shortage in Russia caused by Ukrainian drone strikes is being felt in Central Asia, where seasonal demand is rising. Kyrgyzstan and Tajikistan are heavily dependent on Russia for energy supplies, so it is no surprise that the ongoing destruction of Russian energy infrastructure threatens to hit two Central Asian states the hardest. Gas stations across Kyrgyzstan",
-    "drafted_at": "2026-07-02T15:18:37.579665",
+    "source_url": "https://oilprice.com/Energy/Energy-General/Europe-Isnt-Anti-Air-Conditioning-Its-Just-Calling-It-Heat-Pumps.html",
+    "source_title": "Europe Isn't Anti-Air Conditioning. It's Just Calling It Heat Pumps",
+    "source_summary": "Europe Isn't Anti-Air Conditioning. It's Just Calling It Something Else. The recent heatwaves across Europe have reignited a familiar debate in parts of the American media. Articles in publications including The Washington Post and The New York Times have questioned why Europe continues to lag behind the United States in air conditioning, with some suggesting that Europeans remain culturally reluc",
+    "drafted_at": "2026-07-02T17:12:09.188519",
     "data": {
       "source": "OILPRICE"
     },
-    "content_hash": "ad4e2fdbb6117ac4"
+    "content_hash": "160e1c6de4c12779"
   },
   {
-    "id": "9f121bae",
+    "id": "d806dc34",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "EU/UK wire: The American Heritage Dictionary of the English Language puts \"room temperature\" somewhere between 68\u00b0F and 72\u00b0F.\n\nUnder socialist Mayor Zohran Mamdani, New Yorkers are expected to adjust to a warmer norm.\n\nNew York is facing a heatwave with temperatures expected to hover around 100\u00b0F on Thursday and Friday.\n\nThis heat wave, which the National Weather System indicates will impact multiple states and could bring temperatures as high as 115 degrees, threatens the stability of the power grid \u2014 which in New York was deprived of 1,040 megawatts of additional nuclear generating capacity in April 2021 when the Indian Point nuclear plant was shut down.\n\n'Just say no.' \"The power grid is working overtime to keep us cool,\" Mamdani told New Yorkers on Wednesday.\n\n\"Set your AC to 78 degrees, turn off lights/electronics you're not using, and unplug what you can.\" The leftist mayor noted further that the city has adopted the \"78 degrees rule\" in its buildings and will dim or turn off lights during peak electricity demand as well as power down \"non-essential equipment.\" \"A stable grid means the AC stays on, and lives are saved,\" said Mamdani.\n\n\"Let's ease demand \u2014 and get through the heat \u2014 together.\" Critics blasted Mamdani's 78-degree rule as yet another foretaste of the socialistic nightmare he and his ilk have in store for America.\n\nRELATED: Democrat who wants to 'seize the means of production' won't deny she's a commie CHARLY TRIBALLEAU/AFP/Getty Images \"This is what socialism looks like, folks,\" said Ohio Republican gubernatorial candidate Vivek Ramaswamy.\n\nhttps://www.theblaze.com/news/mamdani-torched-for-telling-new-yorkers-to-keep-acs-at-78-degrees-retarded-post",
+    "draft_text": "From the Americas: Fans celebrate England's Euro 2025 victory.\n\nThe government allowed extended licensing hours last year for the semi-final and final of the tournament.\n\nPubs in England and Wales will now be allowed to stay open until 05:00 on Monday, allowing football fans to watch the Three Lions' World Cup clash with Mexico to the final whistle.\n\nThe government had initially said it would not relax licensing laws further than they already have been for the World Cup.\n\nBut in a U-turn later on Thursday, Prime Minister Sir Keir Starmer said pubs could stay open until the final whistle.\n\n\"Football might be coming home but we're making sure fans don't have to,\" he said on Thursday afternoon.\n\nhttps://www.bbc.co.uk/news/articles/c1kyr8747m9o?at_medium=RSS&at_campaign=rss",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "THE BLAZE",
-    "source_url": "https://www.theblaze.com/news/mamdani-torched-for-telling-new-yorkers-to-keep-acs-at-78-degrees-retarded-post",
-    "source_title": "Mamdani torched for demanding New Yorkers swelter rather than crank up the AC: 'Retarded post'",
-    "source_summary": "The American Heritage Dictionary of the English Language puts \"room temperature\" somewhere between 68\u00b0F and 72\u00b0F. Under socialist Mayor Zohran Mamdani, New Yorkers are expected to adjust to a warmer norm. New York is facing a heatwave with temperatures expected to hover around 100\u00b0F on Thursday and Friday. This heat wave, which the National Weather System indicates will impact multiple states and ",
-    "drafted_at": "2026-07-02T15:18:37.585398",
+    "primary_source": "BBC",
+    "source_url": "https://www.bbc.co.uk/news/articles/c1kyr8747m9o?at_medium=RSS&at_campaign=rss",
+    "source_title": "Pubs allowed to stay open until 5am for England Mexico match",
+    "source_summary": "The government had initially said it would not relax licensing laws further for the World Cup.",
+    "drafted_at": "2026-07-02T17:12:09.190625",
     "data": {
-      "source": "THE BLAZE"
+      "source": "BBC"
     },
-    "content_hash": "df9f6e4f4ec8c6cc"
+    "content_hash": "6d2b1d8bcbc87a2b"
   },
   {
-    "id": "f3812cda",
+    "id": "b3b8c851",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Levant update: Oil price fall deepens as Saudi exports recover, while Bitcoin jumps 5% to $61,400 and gold holds above $4,000.\n\nThe post Oil Extends Fall After Saudi Exports Surge: Why Are Bitcoin and Gold Rallying? appeared first on BeInCrypto.\n\nhttps://beincrypto.com/oil-falls-bitcoin-gold-rally/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "BEINCRYPTO",
-    "source_url": "https://beincrypto.com/oil-falls-bitcoin-gold-rally/",
-    "source_title": "Oil Extends Fall After Saudi Exports Surge: Why Are Bitcoin and Gold Rallying?",
-    "source_summary": "Oil price fall deepens as Saudi exports recover, while Bitcoin jumps 5% to $61,400 and gold holds above $4,000. The post Oil Extends Fall After Saudi Exports Surge: Why Are Bitcoin and Gold Rallying? appeared first on BeInCrypto .",
-    "drafted_at": "2026-07-02T15:18:37.585852",
-    "data": {
-      "source": "BEINCRYPTO"
-    },
-    "content_hash": "2bd73d06386a8f18"
-  },
-  {
-    "id": "51ac7143",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "From Tokyo to Hong Kong: Kyrgyzstan, which imports more than 90% of its gasoline supply from Russia, is concerned that the Russian fuel crisis could cripple supply to the Central Asian nation.\n\nThus, the Energy Ministry of Kyrgyzstan has asked its neighbors, as well as Russia, to help with its fuel supplies.\n\nCurrently, fuel stocks in Kyrgyzstan remain sufficient, Kyrgyzstan\u2019s authorities have assured the public, but the crisis in Russia could soon begin to be felt in the central Asian nation.\n\n\u201cTo ensure sustainable fuel supplies, official requests have been\u2026\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Kyrgyzstan-Scrambles-for-Backup-Fuel-Supplies-as-Russian-Shortage-Bites.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "OILPRICE",
-    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Kyrgyzstan-Scrambles-for-Backup-Fuel-Supplies-as-Russian-Shortage-Bites.html",
-    "source_title": "Kyrgyzstan Scrambles for Backup Fuel Supplies as Russian Shortage Bites",
-    "source_summary": "Kyrgyzstan, which imports more than 90% of its gasoline supply from Russia, is concerned that the Russian fuel crisis could cripple supply to the Central Asian nation. Thus, the Energy Ministry of Kyrgyzstan has asked its neighbors, as well as Russia, to help with its fuel supplies. Currently, fuel stocks in Kyrgyzstan remain sufficient, Kyrgyzstan\u2019s authorities have assured the public, but the cr",
-    "drafted_at": "2026-07-02T15:18:37.587079",
-    "data": {
-      "source": "OILPRICE"
-    },
-    "content_hash": "1d387a693820dab2"
-  },
-  {
-    "id": "5e7e1e85",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "Fresh print: The decline in US factory orders may prompt the Federal Reserve to reconsider interest rate strategies amid fluctuating economic signals.\n\nThe post US factory orders drop 1.3% in May as durable goods plunge 4.5% appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/us-factory-orders-decline-durable-goods-drop/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/us-factory-orders-decline-durable-goods-drop/",
-    "source_title": "US factory orders drop 1.3% in May as durable goods plunge 4.5%",
-    "source_summary": "The decline in US factory orders may prompt the Federal Reserve to reconsider interest rate strategies amid fluctuating economic signals. The post US factory orders drop 1.3% in May as durable goods plunge 4.5% appeared first on Crypto Briefing .",
-    "drafted_at": "2026-07-02T15:18:37.634489",
-    "data": {
-      "source": "CRYPTO BRIEFING"
-    },
-    "content_hash": "792e0c5b0b00f31e"
-  },
-  {
-    "id": "45a30acf",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "Imports vs. exports scoreboard: Manufacturing job growth may boost industrial stocks and consumer spending, but rising tariffs could offset these gains, impacting GDP sustainability.\n\nThe post US Trade Representative Greer touts manufacturing job gains as macro tailwinds build for risk assets appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/greer-manufacturing-jobs-crypto-macro/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/greer-manufacturing-jobs-crypto-macro/",
-    "source_title": "US Trade Representative Greer touts manufacturing job gains as macro tailwinds build for risk assets",
-    "source_summary": "Manufacturing job growth may boost industrial stocks and consumer spending, but rising tariffs could offset these gains, impacting GDP sustainability. The post US Trade Representative Greer touts manufacturing job gains as macro tailwinds build for risk assets appeared first on Crypto Briefing .",
-    "drafted_at": "2026-07-02T15:18:37.634911",
-    "data": {
-      "source": "CRYPTO BRIEFING"
-    },
-    "content_hash": "0e42bfbebf3c9b70"
-  },
-  {
-    "id": "8b883de1",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "GDP DAY. NATO\u2019s June 2025 Hague Summit produced a target that will reshape the aerospace and defense industry for the next decade.\n\nAlliance members are committed to spending 5% of GDP on defense by 2035, split between 3.5% for core military capabilities and 1.5% for resilience and security, covering cyber defense, critical infrastructure, and supply chain innovation....\n\nNATO Just Committed to 5% of GDP on Defense by 2035 and These 3 ETFs Capture the Multi Year Spending Wave\n\nhttps://247wallst.com/investing/2026/07/02/nato-just-committed-to-5-percent-of-gdp-on-defense-by-2035-and-these-3-etfs-capture-the-multi-year-spending-wave/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "247 WALL ST",
-    "source_url": "https://247wallst.com/investing/2026/07/02/nato-just-committed-to-5-percent-of-gdp-on-defense-by-2035-and-these-3-etfs-capture-the-multi-year-spending-wave/",
-    "source_title": "NATO Just Committed to 5% of GDP on Defense by 2035 and These 3 ETFs Capture the Multi Year Spending Wave",
-    "source_summary": "NATO\u2019s June 2025 Hague Summit produced a target that will reshape the aerospace and defense industry for the next decade. Alliance members are committed to spending 5% of GDP on defense by 2035, split between 3.5% for core military capabilities and 1.5% for resilience and security, covering cyber defense, critical infrastructure, and supply chain innovation. ... NATO Just Committed to 5% of GDP on",
-    "drafted_at": "2026-07-02T15:18:37.635493",
-    "data": {
-      "source": "247 WALL ST"
-    },
-    "content_hash": "dc2db8bf2e46a099"
-  },
-  {
-    "id": "d5194bcd",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "NFP just dropped. The Euro (EUR) gains against the US Dollar (USD) on Thursday after weaker-than-expected US Nonfarm Payrolls (NFP) data reduced expectations of an imminent Federal Reserve (Fed) rate hike.\n\nhttps://www.fxstreet.com/news/euro-hits-a-nine-day-high-as-softer-than-expected-us-nfp-weighs-on-the-greenback-202607021429",
+    "draft_text": "PACK BRIEFING \u2014 CHINA: BNY\u2019s Geoff Yu notes that clients have largely capitulated on Japanese Yen (JPY) and South Korean Won (KRW) longs as these currencies stay weak versus US Dollar (USD) and Chinese Yuan (CNY).\n\nhttps://www.fxstreet.com/news/asian-fx-scope-for-sharp-rebound-on-us-pressure-bny-202607021623",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/euro-hits-a-nine-day-high-as-softer-than-expected-us-nfp-weighs-on-the-greenback-202607021429",
-    "source_title": "Euro hits a nine-day high after softer-than-expected US NFP",
-    "source_summary": "The Euro (EUR) gains against the US Dollar (USD) on Thursday after weaker-than-expected US Nonfarm Payrolls (NFP) data reduced expectations of an imminent Federal Reserve (Fed) rate hike.",
-    "drafted_at": "2026-07-02T15:18:37.635769",
+    "source_url": "https://www.fxstreet.com/news/asian-fx-scope-for-sharp-rebound-on-us-pressure-bny-202607021623",
+    "source_title": "Asian FX: Scope for sharp rebound on US pressure \u2013 BNY",
+    "source_summary": "BNY\u2019s Geoff Yu notes that clients have largely capitulated on Japanese Yen (JPY) and South Korean Won (KRW) longs as these currencies stay weak versus US Dollar (USD) and Chinese Yuan (CNY).",
+    "drafted_at": "2026-07-02T17:12:09.192480",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "d06e768af7f7a326"
+    "content_hash": "ab0463186bbf2f48"
   },
   {
-    "id": "525ca543",
+    "id": "238b6ef3",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Mainland wire: Crude oil prices are crashing on reports that flows out of the Strait of Hormuz are recovering, and analysts are back to predicting oversupply, even though Iran just said it will not be meeting with the U.S. envoys to negotiate peace, and that comes after strikes on a couple of ships in Hormuz.\n\n\u201cThe Strait is reopening faster than expected, yet the \u2018twin solvers\u2019 of high US exports and low Chinese imports remain in place,\u201d Morgan Stanley commodity analysts wrote this week in a note, as quoted by Bloomberg.\n\nhttps://oilprice.com/Energy/Crude-Oil/Oil-Glut-Calls-May-Be-Getting-Ahead-of-Reality.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "OILPRICE",
+    "source_url": "https://oilprice.com/Energy/Crude-Oil/Oil-Glut-Calls-May-Be-Getting-Ahead-of-Reality.html",
+    "source_title": "Oil Glut Calls May Be Getting Ahead of Reality",
+    "source_summary": "Crude oil prices are crashing on reports that flows out of the Strait of Hormuz are recovering, and analysts are back to predicting oversupply, even though Iran just said it will not be meeting with the U.S. envoys to negotiate peace, and that comes after strikes on a couple of ships in Hormuz. \u201cThe Strait is reopening faster than expected, yet the \u2018twin solvers\u2019 of high US exports and low Chinese",
+    "drafted_at": "2026-07-02T17:12:09.193794",
+    "data": {
+      "source": "OILPRICE"
+    },
+    "content_hash": "30acb8a954cfd85a"
+  },
+  {
+    "id": "2c617e2f",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "The CPI scoreboard: Earlier today, BoE policymaker Catherine Mann reiterated a hawkish stance, saying that at the June policy meeting she saw greater upside risks to inflation than downside risks to economic activity.\n\nAs a result, the balance of risks has shifted her toward favoring a longer period of restrictive policy and, if necessary, additional tightening to guard against persistent inflation.\n\nShe emphasized that incoming data during the second half of the year will be critical, particularly in determining whether inflation pressures are becoming more entrenched.\n\nWhile restrictive financial conditions are helping to offset cost-driven inflation, she argued that fiscal policy will also play an important role in returning inflation to the Bank of England's 2% target.\n\nMann also pointed to underlying labor market resilience, noting that conditions in some sectors appear stronger than suggested by the headline unemployment rate.\n\nIn addition, both short- and long-term inflation expectations remain elevated, reinforcing her concern that inflation persistence remains a meaningful risk.\n\nShe now adds that: Loosening of financial conditions since June will be important for her rate vote at the next meeting.\n\nThis article was written by Greg Michalowski at investinglive.com.\n\nhttps://investinglive.com/news/boe-mann-loosening-of-financial-conditions-since-june-will-be-important-for-her-rate-vote-20260702/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/boe-mann-loosening-of-financial-conditions-since-june-will-be-important-for-her-rate-vote-20260702/",
+    "source_title": "BOE Mann: Loosening of financial conditions since June will be important for her rate vote",
+    "source_summary": "Earlier today, BoE policymaker Catherine Mann reiterated a hawkish stance, saying that at the June policy meeting she saw greater upside risks to inflation than downside risks to economic activity. As a result, the balance of risks has shifted her toward favoring a longer period of restrictive policy and, if necessary, additional tightening to guard against persistent inflation. She emphasized tha",
+    "drafted_at": "2026-07-02T17:12:09.249756",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "8ef4f1b4d5567203"
+  },
+  {
+    "id": "774ff503",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "Inflation update: Arm Holdings (ARM) stock is up 194% this year.\n\nHowever, it has stalled and slipped since mid-June, and big investors are quietly selling.\n\nArm is the chip stock most exposed to rising interest rates.\n\nThe next test comes on July 14, when new inflation data is due.\n\nA hot reading would The post Why a Hot July CPI Print Could Hit This Semiconductor Chip Hard appeared first on BeInCrypto.\n\nhttps://beincrypto.com/arm-stock-rate-hike-cpi-risk-analysis/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "BEINCRYPTO",
+    "source_url": "https://beincrypto.com/arm-stock-rate-hike-cpi-risk-analysis/",
+    "source_title": "Why a Hot July CPI Print Could Hit This Semiconductor Chip Hard",
+    "source_summary": "Arm Holdings (ARM) stock is up 194% this year. However, it has stalled and slipped since mid-June, and big investors are quietly selling. The reason is simple. Arm is the chip stock most exposed to rising interest rates. The next test comes on July 14, when new inflation data is due. A hot reading would The post Why a Hot July CPI Print Could Hit This Semiconductor Chip Hard appeared first on BeIn",
+    "drafted_at": "2026-07-02T17:12:09.250209",
+    "data": {
+      "source": "BEINCRYPTO"
+    },
+    "content_hash": "78dc06b0697ce91a"
+  },
+  {
+    "id": "684144a9",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "Hiring scoreboard: The AUD/USD pair climbed near the 0.6930 area on Thursday as the US Dollar (USD) came under pressure following softer-than-expected United States (US) labor market data.\n\nhttps://www.fxstreet.com/news/australian-dollar-rises-as-weak-us-nfp-weighs-on-the-us-dollar-202607021619",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/australian-dollar-rises-as-weak-us-nfp-weighs-on-the-us-dollar-202607021619",
+    "source_title": "Australian Dollar rises as weak US NFP weighs on the US Dollar",
+    "source_summary": "The AUD/USD pair climbed near the 0.6930 area on Thursday as the US Dollar (USD) came under pressure following softer-than-expected United States (US) labor market data.",
+    "drafted_at": "2026-07-02T17:12:09.250444",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "b1432161a6e82807"
+  },
+  {
+    "id": "9d38ca92",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "LABOR MARKET READ: The Pound Sterling (GBP) registers solid gains against the US Dollar (USD) on Thursday after the latest US employment report missed estimates, reducing the chances of a Federal Reserve (Fed) rate hike.\n\nhttps://www.fxstreet.com/news/british-pound-rallies-as-weak-nfp-smashes-fed-hike-bets-202607021614",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/british-pound-rallies-as-weak-nfp-smashes-fed-hike-bets-202607021614",
+    "source_title": "British Pound rallies as weak NFP smashes Fed hike bets",
+    "source_summary": "The Pound Sterling (GBP) registers solid gains against the US Dollar (USD) on Thursday after the latest US employment report missed estimates, reducing the chances of a Federal Reserve (Fed) rate hike.",
+    "drafted_at": "2026-07-02T17:12:09.250690",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "cab59393df0da270"
+  },
+  {
+    "id": "5dc19831",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "Numbers just hit: Prior was +4.8% (revised to +5.3%) Durable doods revision for May -4.5% vs -4.5% preliminary.\n\nDurable goods in April was +8.5% Durable goods ex Transportation 1.4% versus 1.3% preliminary.\n\nLast month 1.4% Non defense capital goods ex-air +1.4% versus +1.6% preliminary.\n\nLast month -0.7% Factory orders ex tansportation 1.9% versus 1.3% prior Factory orders measure the dollar value of new orders placed with U.S. manufacturers and are one of the broader gauges of demand across the goods-producing economy.\n\nThe series includes both durable goods, such as aircraft, autos, machinery and electronics, and nondurable goods, such as chemicals, food, petroleum products and paper.\n\nBecause aircraft and defense bookings can swing sharply from month to month, markets often look beneath the headline at orders excluding transportation, defense, and nondefense capital goods excluding aircraft as a cleaner read on underlying business investment.\n\nT he recent trend has been mixed but generally firmer than it looked through much of the post-pandemic manufacturing slowdown.\n\nIn April, total factory orders rose 4.8% to $662.7 billion, the fifth increase in six months.\n\nhttps://investinglive.com/news/us-may-factory-orders-13-vs-18-expected-20260702/",
@@ -488,14 +433,14 @@
     "source_url": "https://investinglive.com/news/us-may-factory-orders-13-vs-18-expected-20260702/",
     "source_title": "US May factory orders -1.3% vs -1.8% expected",
     "source_summary": "Prior was +4.8% (revised to +5.3%) Durable doods revision for May -4.5% vs -4.5% preliminary. Durable goods in April was +8.5% Durable goods ex Transportation 1.4% versus 1.3% preliminary. Last month 1.4% Non defense capital goods ex-air +1.4% versus +1.6% preliminary. Last month -0.7% Factory orders ex tansportation 1.9% versus 1.3% prior Factory orders measure the dollar value of new orders plac",
-    "drafted_at": "2026-07-02T15:18:37.637580",
+    "drafted_at": "2026-07-02T17:12:09.252427",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "7e171ca77d9815a6"
   },
   {
-    "id": "e8d940e5",
+    "id": "fa5c18ee",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -505,7 +450,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-07-02T15:18:37.647770",
+    "drafted_at": "2026-07-02T17:12:09.262070",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -513,7 +458,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "adc9616f",
+    "id": "cc3c45c1",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Information is free. Conviction is rare. Patience is rarer.",
@@ -523,14 +468,14 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Information is free. Conviction is rare. Patience is rarer.",
-    "drafted_at": "2026-07-02T15:18:37.647849",
+    "drafted_at": "2026-07-02T17:12:09.262150",
     "data": {
       "take_seed": "2026-07-02-pack-1"
     },
     "content_hash": "9b0f7be55d8ef71c"
   },
   {
-    "id": "966b4833",
+    "id": "0f3ab510",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Inflation is a tax that doesn't show up on your W-2.",
@@ -540,7 +485,7 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Inflation is a tax that doesn't show up on your W-2.",
-    "drafted_at": "2026-07-02T15:18:37.647901",
+    "drafted_at": "2026-07-02T17:12:09.262199",
     "data": {
       "take_seed": "2026-07-02-pack-2"
     },
