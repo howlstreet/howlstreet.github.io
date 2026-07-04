@@ -1,23 +1,25 @@
 [
   {
-    "id": "a53c3537",
-    "format": "LOUD_HOWL",
+    "id": "4370a04f",
+    "format": "MARKET_MOVE",
     "status": "pending",
-    "draft_text": "FLAGSHIP READ: The European Central Bank is in a \u201cgood position\u201d following an interest-rate hike last month and data showing inflation has eased with the slump in oil prices, Governing Council member Emmanuel Moulin said on Saturday.\n\nhttps://financialpost.com/pmn/business-pmn/ecb-is-in-good-position-given-inflation-data-moulin-says",
+    "draft_text": "This is the kind of move that hits twice. WTI crude drops 6.1% in 5 sessions to $68.78.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/pmn/business-pmn/ecb-is-in-good-position-given-inflation-data-moulin-says",
-    "source_title": "ECB Is in \u2018Good Position\u2019 Given Inflation Data, Moulin Says",
-    "source_summary": "The European Central Bank is in a \u201cgood position\u201d following an interest-rate hike last month and data showing inflation has eased with the slump in oil prices, Governing Council member Emmanuel Moulin said on Saturday.",
-    "drafted_at": "2026-07-04T12:00:59.146008",
+    "primary_source": "NYMEX \u00b7 CL=F",
+    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "source_title": "WTI crude oil futures",
+    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "drafted_at": "2026-07-04T22:45:48.292699",
     "data": {
-      "source": "FINANCIAL POST"
+      "signal_id": "CL=F:move:2026-07-03",
+      "kind": "move_down",
+      "current": "$68.78"
     },
-    "content_hash": "bb35878f4e26fc70"
+    "content_hash": "c272de0720a2f459"
   },
   {
-    "id": "243eb954",
+    "id": "43a5cac6",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "RATE-PATH READ: The upcoming week will bring a fresh test for major currency pairs as investors return from the US Independence Day holiday and continue to digest weaker US labor market data.\n\nhttps://www.fxstreet.com/news/forecasting-the-upcoming-week-us-dollars-resilience-faces-fed-minutes-and-jobless-claims-202607032036",
@@ -27,14 +29,14 @@
     "source_url": "https://www.fxstreet.com/news/forecasting-the-upcoming-week-us-dollars-resilience-faces-fed-minutes-and-jobless-claims-202607032036",
     "source_title": "Forecasting the upcoming week: US Dollar's resilience faces Fed minutes and jobless claims",
     "source_summary": "The upcoming week will bring a fresh test for major currency pairs as investors return from the US Independence Day holiday and continue to digest weaker US labor market data.",
-    "drafted_at": "2026-07-04T12:00:59.158535",
+    "drafted_at": "2026-07-04T22:45:48.302858",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "fed97f05657599c2"
   },
   {
-    "id": "d3de5a40",
+    "id": "4a5e3767",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "POWELL POSTCARD: The study shows that the total number of noncash payments made by consumers and businesses increased to 236.6 billion in 2024.\n\nOverall, the number of noncash payments more than tripled since 2000.\n\nCards once again were used most frequently, accounting for over three quarters of payments by number.\n\nDebit cards continued to account for the majority of all card payments, although credit card payments grew faster than debit card payments for the first time in almost a decade.\n\nPayments using the ACH system continued to account for the majority of noncash payments by value.\n\nIn 2024, ACH's share of noncash payments by value reached almost three quarters for the first time.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/other20260701a.htm",
@@ -44,14 +46,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260701a.htm",
     "source_title": "Federal Reserve issues initial findings from its 2025 triennial payments study",
     "source_summary": "Federal Reserve issues initial findings from its 2025 triennial payments study",
-    "drafted_at": "2026-07-04T12:00:59.159899",
+    "drafted_at": "2026-07-04T22:45:48.303889",
     "data": {
       "actor": "FED"
     },
     "content_hash": "93c75ae746d4a5c8"
   },
   {
-    "id": "cf8ac4cf",
+    "id": "50398f6e",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Policy update for the pack: The designations reflect local economic conditions, including unemployment, poverty, and population changes.\n\nUnder the CRA, the agencies assess a bank's record of meeting the credit needs of its entire community, including low- and moderate-income neighborhoods, consistent with safe and sound operations.\n\nThe list released by the agencies includes distressed or underserved nonmetropolitan middle-income geographies where revitalization or stabilization activities are eligible to receive CRA consideration.\n\nPrevious years' lists and criteria for designating these areas are available here.\n\nRevitalization or stabilization activities in these geographies are eligible to receive CRA consideration under the community development definition for 12 months after publication of the current list.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260630a.htm",
@@ -61,14 +63,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260630a.htm",
     "source_title": "Agencies release list of distressed or underserved nonmetropolitan middle-income geographies",
     "source_summary": "Agencies release list of distressed or underserved nonmetropolitan middle-income geographies",
-    "drafted_at": "2026-07-04T12:00:59.161029",
+    "drafted_at": "2026-07-04T22:45:48.304745",
     "data": {
       "actor": "FED"
     },
     "content_hash": "6a8c213ad120f159"
   },
   {
-    "id": "e3864eb6",
+    "id": "1ad4ad15",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Powell on the wire. The hypothetical scenario this year included a severe global recession with a 39 percent decline in commercial real estate prices and a 30 percent decline in house prices.\n\nThe unemployment rate also increased to a peak of 10 percent, and economic output declined commensurately.\n\nThe total projected losses include roughly $200 billion in credit card losses, $160 billion in losses from commercial and industrial loans, and $75 billion in losses from commercial real estate.\n\n\"Today's results underscore the strength of the banking system,\" Vice Chair for Supervision Michelle W.\n\nBowman said.\n\nAs the Board previously announced, today's results will not impact large bank capital requirements, which have been published today.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260624a.htm",
@@ -78,14 +80,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260624a.htm",
     "source_title": "Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
     "source_summary": "Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
-    "drafted_at": "2026-07-04T12:00:59.162319",
+    "drafted_at": "2026-07-04T22:45:48.305736",
     "data": {
       "actor": "FED"
     },
     "content_hash": "643d9a3d6daf7e58"
   },
   {
-    "id": "89385feb",
+    "id": "a51f80c9",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$LILA insider bought $140,345,259 on 2026-06-26, 5 insiders. \ud83d\udc40\n\nLiberty Latin America Ltd.. 15,763,878 shares at $8.90.\n\n-14.4% since the purchase.\n\nhttp://openinsider.com/screener?s=LILA",
@@ -95,7 +97,7 @@
     "source_url": "http://openinsider.com/screener?s=LILA",
     "source_title": "Liberty Latin America Ltd. (LILA) insider bought $140,345,259",
     "source_summary": "5 insider(s) bought 15,763,878 shares at $8.90 on 2026-06-26.",
-    "drafted_at": "2026-07-04T12:00:59.162489",
+    "drafted_at": "2026-07-04T22:45:48.305866",
     "data": {
       "ticker": "LILA",
       "type": "P",
@@ -105,7 +107,7 @@
     "content_hash": "d57b678aa6fbc928"
   },
   {
-    "id": "35f6e134",
+    "id": "a1b077e1",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$DPC insider bought $75,821,493 on 2026-06-26, 9 insiders. \ud83d\udc40\n\nDpc Holdings Ltd. 2,297,621 shares at $33.00.\n\n+46.5% since the purchase.\n\nhttp://openinsider.com/screener?s=DPC",
@@ -115,7 +117,7 @@
     "source_url": "http://openinsider.com/screener?s=DPC",
     "source_title": "Dpc Holdings Ltd (DPC) insider bought $75,821,493",
     "source_summary": "9 insider(s) bought 2,297,621 shares at $33.00 on 2026-06-26.",
-    "drafted_at": "2026-07-04T12:00:59.162634",
+    "drafted_at": "2026-07-04T22:45:48.305961",
     "data": {
       "ticker": "DPC",
       "type": "P",
@@ -125,7 +127,7 @@
     "content_hash": "dd6559b51a6d411c"
   },
   {
-    "id": "70426bac",
+    "id": "a2ee265c",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$BGDE insider bought $16,700,000 on 2026-06-30. \ud83d\udc40\n\nBig Digital Energy, Inc.. 16,700 shares at $1,000.00.\n\n-99.3% since the purchase.\n\nhttp://openinsider.com/screener?s=BGDE",
@@ -135,7 +137,7 @@
     "source_url": "http://openinsider.com/screener?s=BGDE",
     "source_title": "Big Digital Energy, Inc. (BGDE) insider bought $16,700,000",
     "source_summary": "1 insider(s) bought 16,700 shares at $1,000.00 on 2026-06-30.",
-    "drafted_at": "2026-07-04T12:00:59.162760",
+    "drafted_at": "2026-07-04T22:45:48.306051",
     "data": {
       "ticker": "BGDE",
       "type": "P",
@@ -145,7 +147,7 @@
     "content_hash": "022ac6424b34ce58"
   },
   {
-    "id": "fbe997ff",
+    "id": "8cd098f3",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$HDSN insider bought $4,477,207 on 2026-06-30. \ud83d\udc40\n\nHudson Technologies Inc /Ny. 764,202 shares at $5.86.\n\n+2.2% since the purchase.\n\nhttp://openinsider.com/screener?s=HDSN",
@@ -155,7 +157,7 @@
     "source_url": "http://openinsider.com/screener?s=HDSN",
     "source_title": "Hudson Technologies Inc /Ny (HDSN) insider bought $4,477,207",
     "source_summary": "1 insider(s) bought 764,202 shares at $5.86 on 2026-06-30.",
-    "drafted_at": "2026-07-04T12:00:59.162877",
+    "drafted_at": "2026-07-04T22:45:48.306136",
     "data": {
       "ticker": "HDSN",
       "type": "P",
@@ -165,7 +167,7 @@
     "content_hash": "c6e191164085ff73"
   },
   {
-    "id": "c87ded5b",
+    "id": "d02b1fde",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$KMX insider bought $1,268,037 on 2026-06-25, 5 insiders. \ud83d\udc40\n\nCarmax Inc. 24,074 shares at $52.67.\n\n-3.2% since the purchase.\n\nhttp://openinsider.com/screener?s=KMX",
@@ -175,7 +177,7 @@
     "source_url": "http://openinsider.com/screener?s=KMX",
     "source_title": "Carmax Inc (KMX) insider bought $1,268,037",
     "source_summary": "5 insider(s) bought 24,074 shares at $52.67 on 2026-06-25.",
-    "drafted_at": "2026-07-04T12:00:59.162988",
+    "drafted_at": "2026-07-04T22:45:48.306216",
     "data": {
       "ticker": "KMX",
       "type": "P",
@@ -185,24 +187,7 @@
     "content_hash": "eac796c0792900e2"
   },
   {
-    "id": "010f0554",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "FRAUDSTER DOWN: The most remarkable aspect of the American Revolution is how ordinary \u2014 even mundane \u2014 the initial grievances were that drove our founders to rebel and form a new government.\n\nThe level of government control over our lives today, even in the freest parts of the country, is tyrannically officious compared with the reach King George III wielded over the colonists in the early 1770s.\n\nThat solemn thought should infuse our celebrations with a fiery dedication to reconstitute what is rightfully ours.\n\nWe have failed to \u2018keep\u2019 the republic the founders bequeathed to us.\n\nYet even as we celebrate the 250th anniversary of the Declaration of Independence, most self-identified patriots will not contemplate pledging \u201cour Lives, our Fortunes and our sacred Honor\u201d \u2014 or even using the constitutional tools still available to rectify today\u2019s \u201clong train of abuses and usurpations.\u201d How hollow will this anniversary ring if we celebrate a document we ignore when its moral logic applies more urgently now than when Thomas Jefferson\u2019s mighty pen etched the shot heard \u2019round the world?\n\nTragically, 250 years after declaring independence from a monarch, we have embraced the \u201celective despotism\u201d Jefferson feared.\n\nWe have allowed every sector of our economy to be distorted, manipulated, and monopolized by government and its allies.\n\nWe have allowed them to surveil and track our lives.\n\nhttps://www.theblaze.com/columns/opinion/how-to-party-like-its-1776-and-honor-the-founders-memory-in-2026",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "THE BLAZE",
-    "source_url": "https://www.theblaze.com/columns/opinion/how-to-party-like-its-1776-and-honor-the-founders-memory-in-2026",
-    "source_title": "How to party like it\u2019s 1776 \u2014 and honor the founders\u2019 memory in 2026",
-    "source_summary": "The most remarkable aspect of the American Revolution is how ordinary \u2014 even mundane \u2014 the initial grievances were that drove our founders to rebel and form a new government. The level of government control over our lives today, even in the freest parts of the country, is tyrannically officious compared with the reach King George III wielded over the colonists in the early 1770s. That solemn thoug",
-    "drafted_at": "2026-07-04T12:00:59.176967",
-    "data": {
-      "source": "THE BLAZE"
-    },
-    "content_hash": "04ba26ffa89e9a54"
-  },
-  {
-    "id": "8177d11a",
+    "id": "4a06f11a",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "If you're invested, you'll want to read this: The woman said she met the scammer posing as the prince on a dating site before their conversations shifted to WhatsApp.\n\nhttps://nypost.com/2026/07/03/business/woman-loses-savings-in-ai-scam-with-deepfake-dubai-prince/",
@@ -212,31 +197,14 @@
     "source_url": "https://nypost.com/2026/07/03/business/woman-loses-savings-in-ai-scam-with-deepfake-dubai-prince/",
     "source_title": "Woman loses savings to AI-powered romance scam featuring intimate video calls with deepfake \u2018Dubai prince\u2019",
     "source_summary": "The woman said she met the scammer posing as the prince on a dating site before their conversations shifted to WhatsApp.",
-    "drafted_at": "2026-07-04T12:00:59.177251",
+    "drafted_at": "2026-07-04T22:45:48.306714",
     "data": {
       "source": "NY POST"
     },
     "content_hash": "e129936d994ef873"
   },
   {
-    "id": "bf7b1b4b",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Israeli prosecutors charged a 21-year-old American man with spying for Iran while studying at a seminary in Jerusalem.\n\nhttps://decrypt.co/372729/american-charged-israel-spying-iran-exchange-crypto",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "DECRYPT",
-    "source_url": "https://decrypt.co/372729/american-charged-israel-spying-iran-exchange-crypto",
-    "source_title": "American Charged in Israel With Spying for Iran in Exchange for Crypto",
-    "source_summary": "Israeli prosecutors charged a 21-year-old American man with spying for Iran while studying at a seminary in Jerusalem.",
-    "drafted_at": "2026-07-04T12:00:59.177470",
-    "data": {
-      "source": "DECRYPT"
-    },
-    "content_hash": "9d022b9df1b1fc47"
-  },
-  {
-    "id": "3759aa23",
+    "id": "45f4794b",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Maggie Hassan cited ICIJ's Cancer Calculus investigation and expressed concerns that the pharma giant is boosting profits at the expense of patients.\n\nhttps://www.icij.org/investigations/cancer-calculus/senator-questions-merck-over-patent-strategy-for-blockbuster-cancer-drug-keytruda/",
@@ -246,14 +214,14 @@
     "source_url": "https://www.icij.org/investigations/cancer-calculus/senator-questions-merck-over-patent-strategy-for-blockbuster-cancer-drug-keytruda/",
     "source_title": "Senator questions Merck over patent strategy for blockbuster cancer drug Keytruda",
     "source_summary": "In a letter, Sen. Maggie Hassan cited ICIJ's Cancer Calculus investigation and expressed concerns that the pharma giant is boosting profits at the expense of patients.",
-    "drafted_at": "2026-07-04T12:00:59.177731",
+    "drafted_at": "2026-07-04T22:45:48.306913",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "dafbc09dc5bb0a4d"
   },
   {
-    "id": "856a8803",
+    "id": "c00b9e88",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The post To Protect Its Drinking Water, This City Has to Appeal to the Oil Regulators That Put It at Risk appeared first on ProPublica.\n\nhttps://www.propublica.org/article/enid-oklahoma-oil-gas-pollution-water-protections",
@@ -263,99 +231,133 @@
     "source_url": "https://www.propublica.org/article/enid-oklahoma-oil-gas-pollution-water-protections",
     "source_title": "To Protect Its Drinking Water, This City Has to Appeal to the Oil Regulators That Put It at Risk",
     "source_summary": "The post To Protect Its Drinking Water, This City Has to Appeal to the Oil Regulators That Put It at Risk appeared first on ProPublica .",
-    "drafted_at": "2026-07-04T12:00:59.177989",
+    "drafted_at": "2026-07-04T22:45:48.307111",
     "data": {
       "source": "PROPUBLICA"
     },
     "content_hash": "889c58e010824a7f"
   },
   {
-    "id": "36ea3522",
+    "id": "c6a82ff2",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "EXCLUSIVE \u2014 The Department of Health and Human Services is scrutinizing the automatic deduction of union dues from home healthcare workers pay by state Medicaid programs as part of the Trump administration\u2019s broader goal of reducing waste in social safety net programs.\n\nCenters for Medicare and Medicaid Services administrator Dr. Mehmet Oz is requesting that nine states [\u2026]\n\nhttps://www.washingtonexaminer.com/policy/healthcare/4624216/dr-oz-demands-fraud-audits-union-dues-home-health-workers/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "WASH EXAMINER",
+    "source_url": "https://www.washingtonexaminer.com/policy/healthcare/4624216/dr-oz-demands-fraud-audits-union-dues-home-health-workers/",
+    "source_title": "Dr. Oz demands fraud audits of union dues of home-health workers",
+    "source_summary": "EXCLUSIVE \u2014 The Department of Health and Human Services is scrutinizing the automatic deduction of union dues from home healthcare workers pay by state Medicaid programs as part of the Trump administration\u2019s broader goal of reducing waste in social safety net programs. Centers for Medicare and Medicaid Services administrator Dr. Mehmet Oz is requesting that nine states [\u2026]",
+    "drafted_at": "2026-07-04T22:45:48.307568",
+    "data": {
+      "source": "WASH EXAMINER"
+    },
+    "content_hash": "6b0ea131c511af0d"
+  },
+  {
+    "id": "19f090c4",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Heads up, the wolves at the door. The crypto industry and law enforcement groups are in the midst of a lobbying showdown over the proposed Clarity Act.\n\nhttps://www.icij.org/investigations/coin-laundry/law-enforcement-banks-warn-of-money-laundering-gaps-in-major-us-crypto-bill/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "ICIJ",
+    "source_url": "https://www.icij.org/investigations/coin-laundry/law-enforcement-banks-warn-of-money-laundering-gaps-in-major-us-crypto-bill/",
+    "source_title": "Law enforcement, banks warn of money laundering gaps in major US crypto bill",
+    "source_summary": "The crypto industry and law enforcement groups are in the midst of a lobbying showdown over the proposed Clarity Act.",
+    "drafted_at": "2026-07-04T22:45:48.307740",
+    "data": {
+      "source": "ICIJ"
+    },
+    "content_hash": "8b0915726546ca53"
+  },
+  {
+    "id": "fb38e813",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: Pezeshkian's potential resignation highlights Iran's internal power struggles and could shift geopolitical dynamics amid economic pressures.\n\nThe post Iranian President Pezeshkian threatens resignation over US agreement rejection appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iranian-president-pezeshkian-threatens-resignation-over-us-agreement-rejection/",
+    "draft_text": "LATAM DESK: The intersection of sports betting and crypto in Brazil's World Cup run could reshape financial regulations and fan engagement globally.\n\nThe post Brazil\u2019s World Cup run spotlights the growing collision between sports betting markets and crypto appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/world-cup-crypto-prediction-markets-brazil-norway/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/iranian-president-pezeshkian-threatens-resignation-over-us-agreement-rejection/",
-    "source_title": "Iranian President Pezeshkian threatens resignation over US agreement rejection",
-    "source_summary": "Pezeshkian's potential resignation highlights Iran's internal power struggles and could shift geopolitical dynamics amid economic pressures. The post Iranian President Pezeshkian threatens resignation over US agreement rejection appeared first on Crypto Briefing .",
-    "drafted_at": "2026-07-04T12:00:59.180280",
+    "source_url": "https://cryptobriefing.com/world-cup-crypto-prediction-markets-brazil-norway/",
+    "source_title": "Brazil\u2019s World Cup run spotlights the growing collision between sports betting markets and crypto",
+    "source_summary": "The intersection of sports betting and crypto in Brazil's World Cup run could reshape financial regulations and fan engagement globally. The post Brazil\u2019s World Cup run spotlights the growing collision between sports betting markets and crypto appeared first on Crypto Briefing .",
+    "drafted_at": "2026-07-04T22:45:48.308952",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "5e7c1103f4702e2e"
+    "content_hash": "ef8f84a5739d9792"
   },
   {
-    "id": "b5fd560c",
+    "id": "85acbc79",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: The protests highlight global diaspora concerns over US diplomacy potentially legitimizing Iran's regime without securing political change.\n\nThe post Iranians protest outside US Embassy in Helsinki against Tehran agreements appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iranians-protest-outside-us-embassy-in-helsinki-against-tehran-agreements/",
+    "draft_text": "GLOBAL DESK: Putin's stance may heighten geopolitical tensions, influencing market dynamics and strategic military assessments in the region.\n\nThe post Putin tells Trump Russia aims to capture entire Donbas region appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/putin-tells-trump-russia-aims-to-capture-entire-donbas-region/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/iranians-protest-outside-us-embassy-in-helsinki-against-tehran-agreements/",
-    "source_title": "Iranians protest outside US Embassy in Helsinki against Tehran agreements",
-    "source_summary": "The protests highlight global diaspora concerns over US diplomacy potentially legitimizing Iran's regime without securing political change. The post Iranians protest outside US Embassy in Helsinki against Tehran agreements appeared first on Crypto Briefing .",
-    "drafted_at": "2026-07-04T12:00:59.180825",
+    "source_url": "https://cryptobriefing.com/putin-tells-trump-russia-aims-to-capture-entire-donbas-region/",
+    "source_title": "Putin tells Trump Russia aims to capture entire Donbas region",
+    "source_summary": "Putin's stance may heighten geopolitical tensions, influencing market dynamics and strategic military assessments in the region. The post Putin tells Trump Russia aims to capture entire Donbas region appeared first on Crypto Briefing .",
+    "drafted_at": "2026-07-04T22:45:48.309282",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "15448a7678107a5b"
+    "content_hash": "8cd8a18e9e721fc2"
   },
   {
-    "id": "102105b8",
+    "id": "4751095c",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "LATAM DESK: The pitch at the Azteca is 2,240 metres above sea level.\n\nAt that altitude, air is thinner and makes breathing difficult.\n\nhttps://www.aljazeera.com/sports/2026/7/4/england-mexico-fifa-world-cup-azteca-kickoff-altitude-weather-explained?traffic_source=rss",
+    "draft_text": "From the international wire: Energy analysts have estimated that 25% or more of Russia\u2019s oil refining capacity has been taken offline by Ukraine's drone attacks.\n\nhttps://fortune.com/2026/07/04/russia-fuel-crisis-gasoline-shortage-rationing-ukraine-drones-oil-refineries-soviet-union/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FORTUNE",
+    "source_url": "https://fortune.com/2026/07/04/russia-fuel-crisis-gasoline-shortage-rationing-ukraine-drones-oil-refineries-soviet-union/",
+    "source_title": "Russia\u2019s fuel crisis is so bad that a mom and her baby waited in line for 18 hours to get gas \u2014 \u2018Are we in the Soviet Union?\u2019",
+    "source_summary": "Energy analysts have estimated that 25% or more of Russia\u2019s oil refining capacity has been taken offline by Ukraine's drone attacks.",
+    "drafted_at": "2026-07-04T22:45:48.309727",
+    "data": {
+      "source": "FORTUNE"
+    },
+    "content_hash": "501d4bf9a70632d5"
+  },
+  {
+    "id": "5abed13f",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "From the Gulf: Iran has marked the second day of funeral processions for its late Supreme Leader Ali Khamenei.\n\nhttps://www.aljazeera.com/video/newsfeed/2026/7/4/masses-of-iranians-defy-heatwave-on-second-day-of-khameneis-funeral?traffic_source=rss",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/sports/2026/7/4/england-mexico-fifa-world-cup-azteca-kickoff-altitude-weather-explained?traffic_source=rss",
-    "source_title": "England vs Mexico at Azteca: Kickoff, altitude and weather explained",
-    "source_summary": "The pitch at the Azteca is 2,240 metres above sea level. At that altitude, air is thinner and makes breathing difficult.",
-    "drafted_at": "2026-07-04T12:00:59.181352",
+    "source_url": "https://www.aljazeera.com/video/newsfeed/2026/7/4/masses-of-iranians-defy-heatwave-on-second-day-of-khameneis-funeral?traffic_source=rss",
+    "source_title": "Masses of Iranians defy heatwave on second day of Khamenei\u2019s funeral",
+    "source_summary": "Iran has marked the second day of funeral processions for its late Supreme Leader Ali Khamenei.",
+    "drafted_at": "2026-07-04T22:45:48.309945",
     "data": {
       "source": "AL JAZEERA"
     },
-    "content_hash": "14d66dfa4c36c782"
+    "content_hash": "20cfb898d3a7b863"
   },
   {
-    "id": "9da50fa1",
+    "id": "2c6d5b9f",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 ASIA: Washington has started dealing with regional players without regard for Indian interests.\n\nhttps://www.aljazeera.com/opinions/2026/7/4/in-south-asia-america-has-stopped-asking-india-for-permission?traffic_source=rss",
+    "draft_text": "MIDDLE EAST DESK: German data in the coming week showing the cumulative impact of the Iran war will set the stage for the government\u2019s latest bid to awaken animal spirits in Europe\u2019s biggest economy.\n\nhttps://financialpost.com/pmn/business-pmn/germanys-second-chance-for-growth-rebound-starts-now",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/opinions/2026/7/4/in-south-asia-america-has-stopped-asking-india-for-permission?traffic_source=rss",
-    "source_title": "In South Asia, America has stopped asking India for permission",
-    "source_summary": "Washington has started dealing with regional players without regard for Indian interests.",
-    "drafted_at": "2026-07-04T12:00:59.183939",
+    "primary_source": "FINANCIAL POST",
+    "source_url": "https://financialpost.com/pmn/business-pmn/germanys-second-chance-for-growth-rebound-starts-now",
+    "source_title": "Germany\u2019s Second Chance for Growth Rebound Starts Now",
+    "source_summary": "German data in the coming week showing the cumulative impact of the Iran war will set the stage for the government\u2019s latest bid to awaken animal spirits in Europe\u2019s biggest economy.",
+    "drafted_at": "2026-07-04T22:45:48.310302",
     "data": {
-      "source": "AL JAZEERA"
+      "source": "FINANCIAL POST"
     },
-    "content_hash": "3d77db7b7b435855"
+    "content_hash": "9a666949def241f4"
   },
   {
-    "id": "188510df",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "World wire: Kyiv's drones disrupt St Petersburg internet and flights as Russian strikes halt a gas facility in central Ukraine.\n\nhttps://www.aljazeera.com/news/2026/7/4/ukraine-hits-oil-and-military-facilities-near-russias-st-petersburg?traffic_source=rss",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/news/2026/7/4/ukraine-hits-oil-and-military-facilities-near-russias-st-petersburg?traffic_source=rss",
-    "source_title": "Ukraine hits oil and military facilities near Russia\u2019s St Petersburg",
-    "source_summary": "Kyiv's drones disrupt St Petersburg internet and flights as Russian strikes halt a gas facility in central Ukraine.",
-    "drafted_at": "2026-07-04T12:00:59.184194",
-    "data": {
-      "source": "AL JAZEERA"
-    },
-    "content_hash": "8d4ad6a60d769531"
-  },
-  {
-    "id": "a80fcf36",
+    "id": "03b28064",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "From the unemployment desk: The upcoming week will bring a fresh test for major currency pairs as investors return from the US Independence Day holiday and continue to digest weaker US labor market data.\n\nhttps://www.fxstreet.com/news/forecasting-the-upcoming-week-us-dollars-resilience-faces-fed-minutes-and-jobless-claims-202607032036",
@@ -365,14 +367,14 @@
     "source_url": "https://www.fxstreet.com/news/forecasting-the-upcoming-week-us-dollars-resilience-faces-fed-minutes-and-jobless-claims-202607032036",
     "source_title": "Forecasting the upcoming week: US Dollar's resilience faces Fed minutes and jobless claims",
     "source_summary": "The upcoming week will bring a fresh test for major currency pairs as investors return from the US Independence Day holiday and continue to digest weaker US labor market data.",
-    "drafted_at": "2026-07-04T12:00:59.244594",
+    "drafted_at": "2026-07-04T22:45:48.361569",
     "data": {
       "source": "FXSTREET"
     },
     "content_hash": "fed97f05657599c2"
   },
   {
-    "id": "9d902f6d",
+    "id": "e02e369f",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "How fast is the economy moving? Now we know: Commerzbank highlights that strong Singapore manufacturing and electronics PMIs underpin a constructive growth outlook, with Q2 GDP expected to exceed Q1\u2019s 6% expansion.\n\nAgainst this backdrop, USD/SGD has eased slightly but remains near this year\u2019s highs.\n\nhttps://www.fxstreet.com/news/singapore-dollar-seen-consolidating-in-range-against-us-dollar-commerzbank-202607031939",
@@ -382,14 +384,14 @@
     "source_url": "https://www.fxstreet.com/news/singapore-dollar-seen-consolidating-in-range-against-us-dollar-commerzbank-202607031939",
     "source_title": "Singapore Dollar: Seen consolidating in range against US Dollar \u2013 Commerzbank",
     "source_summary": "Commerzbank highlights that strong Singapore manufacturing and electronics PMIs underpin a constructive growth outlook, with Q2 GDP expected to exceed Q1\u2019s 6% expansion. Against this backdrop, USD/SGD has eased slightly but remains near this year\u2019s highs.",
-    "drafted_at": "2026-07-04T12:00:59.245053",
+    "drafted_at": "2026-07-04T22:45:48.361929",
     "data": {
       "source": "FXSTREET"
     },
     "content_hash": "8806e262cdd3af6f"
   },
   {
-    "id": "8f741cd8",
+    "id": "059aaecb",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "Numbers just hit: The country\u2019s unemployment rate dropped slightly to 4.2%, but the number of unemployed people changed little, according to the latest data, as 720,000 people left the labor force.\n\nThough the numbers fell short of economists\u2019s expectations, the average number of jobs added in the last three months was about 111,000, indicating a relatively strong job market despite economic uncertainty and higher inflation brought on by the war in the Middle East.\n\nThe hospitality and leisure industry unexpectedly declined by 61,000, reflecting weaker than usual seasonal hiring despite the World Cup soccer matches hosted across the US.\n\nhttps://www.theguardian.com/business/2026/jul/02/us-job-growth-slowed-june",
@@ -399,14 +401,14 @@
     "source_url": "https://www.theguardian.com/business/2026/jul/02/us-job-growth-slowed-june",
     "source_title": "US employers added just 57,000 new jobs in June, lower than expected",
     "source_summary": "The country\u2019s unemployment rate dropped slightly to 4.2% as US job growth also slowed for the month Sign up for the Breaking News US newsletter email US job growth slowed in June as employers added 57,000 new jobs \u2013 just about half of what economists had predicted \u2013 and the Bureau of Labor Statistics revised its figures from the past two months down by a total of 74,000. The country\u2019s unemployment",
-    "drafted_at": "2026-07-04T12:00:59.246695",
+    "drafted_at": "2026-07-04T22:45:48.363280",
     "data": {
       "source": "GUARDIAN"
     },
     "content_hash": "3ff4e7048f19161c"
   },
   {
-    "id": "f330f0d2",
+    "id": "95acd272",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "NFP just dropped. The Ring is Euronews\u2019 weekly political showdown, where Europe\u2019s toughest debates meet their boldest voices.\n\nIn each episode, two political heavyweights from across the EU face off to propose a diversity of opinions and spark conversations around the most important issues of EU affairs and the wider European political life.\n\nEuronews Tech Talks goes beyond discussions to explore the impact of new technologies on our lives.\n\nWith explanations, engaging Q&As, and lively conversations, the podcast provides valuable insights into the intersection of technology and society.\n\nEurope's best food experts are joining forces to crack down on fraud.\n\nhttp://www.euronews.com/business/2026/07/02/us-job-growth-plummets-as-eurozone-unemployment-holds-at-record-low",
@@ -416,14 +418,14 @@
     "source_url": "http://www.euronews.com/business/2026/07/02/us-job-growth-plummets-as-eurozone-unemployment-holds-at-record-low",
     "source_title": "US job growth plummets as eurozone unemployment holds at record low",
     "source_summary": "New labour market data highlights a growing transatlantic divide, with US payroll additions slowing drastically, while the Eurozone unemployment rate remains anchored at an all-time low.",
-    "drafted_at": "2026-07-04T12:00:59.248245",
+    "drafted_at": "2026-07-04T22:45:48.364562",
     "data": {
       "source": "EURONEWS"
     },
     "content_hash": "a2a0e727e1eb1621"
   },
   {
-    "id": "8ea02142",
+    "id": "26bc7505",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "DATA DROP: Employers added 57,000 jobs in June, the Labor Department said on Friday, as jobs growth slowed from the previous two months, while the unemployment rate ticked down to 4.2%.\n\nhttps://www.npr.org/2026/07/02/nx-s1-5877491/labor-department-to-release-latest-jobs-report-thursday",
@@ -433,14 +435,14 @@
     "source_url": "https://www.npr.org/2026/07/02/nx-s1-5877491/labor-department-to-release-latest-jobs-report-thursday",
     "source_title": "U.S. job market slows in June",
     "source_summary": "Employers added 57,000 jobs in June, the Labor Department said on Friday, as jobs growth slowed from the previous two months, while the unemployment rate ticked down to 4.2%.",
-    "drafted_at": "2026-07-04T12:00:59.248532",
+    "drafted_at": "2026-07-04T22:45:48.364789",
     "data": {
       "source": "NPR"
     },
     "content_hash": "b1aed491dcce0152"
   },
   {
-    "id": "1f760d55",
+    "id": "075f651d",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -450,7 +452,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-07-04T12:00:59.250096",
+    "drafted_at": "2026-07-04T22:45:48.366042",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -458,7 +460,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "51fd5408",
+    "id": "9c44e890",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Real rates eat sentiment for breakfast.",
@@ -468,14 +470,14 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Real rates eat sentiment for breakfast.",
-    "drafted_at": "2026-07-04T12:00:59.250165",
+    "drafted_at": "2026-07-04T22:45:48.366096",
     "data": {
       "take_seed": "2026-07-04-pack-1"
     },
     "content_hash": "9b0f7be55d8ef71c"
   },
   {
-    "id": "d724ef36",
+    "id": "bb396bc5",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "The strong dollar makes everything cheaper for someone who isn't you.",
@@ -485,7 +487,7 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "The strong dollar makes everything cheaper for someone who isn't you.",
-    "drafted_at": "2026-07-04T12:00:59.250227",
+    "drafted_at": "2026-07-04T22:45:48.366142",
     "data": {
       "take_seed": "2026-07-04-pack-2"
     },
