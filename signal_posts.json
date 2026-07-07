@@ -1,16 +1,16 @@
 {
-  "BTC-USD:move:2026-07-07": {
-    "headline": "Bitcoin climbs 5.9% in 5 sessions to $63,477",
-    "matters": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
-    "source": "Yahoo Finance \u00b7 BTC-USD",
+  "^VIX:move:2026-07-06": {
+    "headline": "VIX craters 15.4% in 5 sessions to 15.57",
+    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "source": "CBOE \u00b7 ^VIX",
     "chart_path": null,
-    "signal_id": "BTC-USD:move:2026-07-07",
-    "current_str": "$63,477",
-    "label": "Bitcoin",
-    "hashtags": "#Bitcoin #BTC #Crypto",
-    "kind": "move_up",
-    "badge": "+5.9%",
-    "data_url": "https://finance.yahoo.com/quote/BTC-USD",
-    "fired_at": "2026-07-07T02:36:35.677657"
+    "signal_id": "^VIX:move:2026-07-06",
+    "current_str": "15.57",
+    "label": "VIX (S&P 500 volatility)",
+    "hashtags": "#VIX #Volatility #Markets",
+    "kind": "move_down",
+    "badge": "-15.4%",
+    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "fired_at": "2026-07-07T06:35:38.135936"
   }
 }
