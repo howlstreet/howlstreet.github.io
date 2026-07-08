@@ -1,57 +1,76 @@
 [
   {
-    "id": "ccb3b6b3",
+    "id": "cb605b72",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "The story the pack is talking about: Gold (XAU/USD) sees a sharp move lower on Wednesday after US President Donald Trump declared that the ceasefire deal with Iran was \u201cover\u201d during the NATO Summit in Ankara, Turkey.\n\nHowever, Reuters later reported that Trump did not repeat those remarks, citing a source familiar with the talks.\n\nhttps://www.fxstreet.com/news/gold-retreats-below-4-100-after-us-president-trump-says-iran-ceasefire-is-over-202607081123",
+    "draft_text": "PACK FRONT-PAGE: Today's Iran war news: As many expected, the MOU is coming apart as the US-Iran fight for control of the Strait of Hormuz escalates.\n\nhttps://www.nakedcapitalism.com/2026/07/iran-war-trump-declares-mou-over-after-biggest-us-iran-exchange-of-strikes-since-signing-in-struggle-over-strait-of-hormuz-control-us-suspends-iran-oil-sanction-waiver.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/gold-retreats-below-4-100-after-us-president-trump-says-iran-ceasefire-is-over-202607081123",
-    "source_title": "Gold slides as renewed US-Iran tensions revive Fed rate hike bets, FOMC Minutes loom",
-    "source_summary": "Gold (XAU/USD) sees a sharp move lower on Wednesday after US President Donald Trump declared that the ceasefire deal with Iran was \u201cover\u201d during the NATO Summit in Ankara, Turkey. However, Reuters later reported that Trump did not repeat those remarks, citing a source familiar with the talks.",
-    "drafted_at": "2026-07-08T15:24:20.339404",
+    "primary_source": "NAKED CAPITAL",
+    "source_url": "https://www.nakedcapitalism.com/2026/07/iran-war-trump-declares-mou-over-after-biggest-us-iran-exchange-of-strikes-since-signing-in-struggle-over-strait-of-hormuz-control-us-suspends-iran-oil-sanction-waiver.html",
+    "source_title": "Iran War: Trump Declares MOU Over After Biggest US-Iran Exchange of Strikes Since Signing in Struggle Over Strait of Hormuz Control; US Suspends Iran Oil Sanction Waiver",
+    "source_summary": "Today's Iran war news: As many expected, the MOU is coming apart as the US-Iran fight for control of the Strait of Hormuz escalates.",
+    "drafted_at": "2026-07-08T16:57:45.947745",
     "data": {
-      "source": "FXSTREET"
+      "source": "NAKED CAPITAL"
     },
-    "content_hash": "e24d273a5559fb84"
+    "content_hash": "497e7c2e184ffc60"
   },
   {
-    "id": "e49b34a4",
+    "id": "f05c5759",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "If you're not watching this, you're behind. VIX drops 6.2% in 5 sessions to 17.26.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CBOE \u00b7 ^VIX",
+    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "source_title": "VIX (S&P 500 volatility)",
+    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "drafted_at": "2026-07-08T16:57:45.948073",
+    "data": {
+      "signal_id": "^VIX:move:2026-07-08",
+      "kind": "move_down",
+      "current": "17.26"
+    },
+    "content_hash": "995f4d67e7e875d2"
+  },
+  {
+    "id": "457af7ed",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "FOMC update. ING\u2019s Francesco Pesole notes that recent equity jitters and firm Oil prices have underlined the Dollar\u2019s safe-haven appeal, while markets look to the June Federal Open Market Committee (FOMC) minutes.\n\nhttps://www.fxstreet.com/news/us-dollar-index-hawkish-fed-minutes-may-support-greenback-ing-202607081430",
+    "draft_text": "Bailey on the wire. Increased rate hike expectations could strengthen the pound, impacting UK-based crypto traders and creating volatility in risk assets.\n\nThe post Traders boost Bank of England rate bets, favor two 25bps hikes by year-end appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/bank-of-england-rate-hike-bets-2026/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Bank of England",
+    "source_url": "https://cryptobriefing.com/bank-of-england-rate-hike-bets-2026/",
+    "source_title": "Traders boost Bank of England rate bets, favor two 25bps hikes by year-end",
+    "source_summary": "Increased rate hike expectations could strengthen the pound, impacting UK-based crypto traders and creating volatility in risk assets. The post Traders boost Bank of England rate bets, favor two 25bps hikes by year-end appeared first on Crypto Briefing .",
+    "drafted_at": "2026-07-08T16:57:45.958491",
+    "data": {
+      "actor": "Bank of England"
+    },
+    "content_hash": "b80a0d114051e76e"
+  },
+  {
+    "id": "32121496",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "POWELL POSTCARD: The US Dollar Index (DXY) consolidates modest gains on Wednesday as traders assess renewed tensions between the United States and Iran and the potential economic fallout.\n\nhttps://www.fxstreet.com/news/united-states-dollar-index-climbs-as-middle-east-tensions-fed-rate-hike-bets-lift-demand-202607081528",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "Fed",
-    "source_url": "https://www.fxstreet.com/news/us-dollar-index-hawkish-fed-minutes-may-support-greenback-ing-202607081430",
-    "source_title": "US Dollar Index: Hawkish Fed minutes may support greenback \u2013 ING",
-    "source_summary": "ING\u2019s Francesco Pesole notes that recent equity jitters and firm Oil prices have underlined the Dollar\u2019s safe-haven appeal, while markets look to the June Federal Open Market Committee (FOMC) minutes.",
-    "drafted_at": "2026-07-08T15:24:20.349647",
+    "source_url": "https://www.fxstreet.com/news/united-states-dollar-index-climbs-as-middle-east-tensions-fed-rate-hike-bets-lift-demand-202607081528",
+    "source_title": "United States Dollar Index climbs as Middle East tensions, Fed rate hike bets lift demand",
+    "source_summary": "The US Dollar Index (DXY) consolidates modest gains on Wednesday as traders assess renewed tensions between the United States and Iran and the potential economic fallout.",
+    "drafted_at": "2026-07-08T16:57:45.958752",
     "data": {
       "actor": "Fed"
     },
-    "content_hash": "92362f0bb4ec2983"
+    "content_hash": "79071509e63794a9"
   },
   {
-    "id": "99b812e3",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "Powell on the wire. Gold (XAU/USD) sees a sharp move lower on Wednesday after US President Donald Trump declared that the ceasefire deal with Iran was \u201cover\u201d during the NATO Summit in Ankara, Turkey.\n\nHowever, Reuters later reported that Trump did not repeat those remarks, citing a source familiar with the talks.\n\nhttps://www.fxstreet.com/news/gold-retreats-below-4-100-after-us-president-trump-says-iran-ceasefire-is-over-202607081123",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://www.fxstreet.com/news/gold-retreats-below-4-100-after-us-president-trump-says-iran-ceasefire-is-over-202607081123",
-    "source_title": "Gold slides as renewed US-Iran tensions revive Fed rate hike bets, FOMC Minutes loom",
-    "source_summary": "Gold (XAU/USD) sees a sharp move lower on Wednesday after US President Donald Trump declared that the ceasefire deal with Iran was \u201cover\u201d during the NATO Summit in Ankara, Turkey. However, Reuters later reported that Trump did not repeat those remarks, citing a source familiar with the talks.",
-    "drafted_at": "2026-07-08T15:24:20.350036",
-    "data": {
-      "actor": "Fed"
-    },
-    "content_hash": "e24d273a5559fb84"
-  },
-  {
-    "id": "559f60de",
+    "id": "26a21c02",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "RATE-PATH READ: The United States (US) Federal Reserve (Fed) will release the Minutes of the June 16-17 Federal Open Market Committee (FOMC) meeting on Wednesday at 18:00 GMT.\n\nThe Minutes should shed more light on the Fed\u2019s hawkish hold delivered at Kevin Warsh\u2019s first meeting as Fed Chair.\n\nhttps://www.fxstreet.com/news/fed-minutes-to-shed-light-on-warshs-first-meeting-as-chair-202607081315",
@@ -59,33 +78,16 @@
     "og_image_url": null,
     "primary_source": "Fed",
     "source_url": "https://www.fxstreet.com/news/fed-minutes-to-shed-light-on-warshs-first-meeting-as-chair-202607081315",
-    "source_title": "Fed Minutes to offer clues on Warsh's Fed debut",
+    "source_title": "Fed Minutes to reveal more about the Warsh era",
     "source_summary": "The United States (US) Federal Reserve (Fed) will release the Minutes of the June 16-17 Federal Open Market Committee (FOMC) meeting on Wednesday at 18:00 GMT. The Minutes should shed more light on the Fed\u2019s hawkish hold delivered at Kevin Warsh\u2019s first meeting as Fed Chair.",
-    "drafted_at": "2026-07-08T15:24:20.350371",
+    "drafted_at": "2026-07-08T16:57:45.959174",
     "data": {
       "actor": "Fed"
     },
-    "content_hash": "622b719ac66861ce"
+    "content_hash": "c228b5a7c4435ab2"
   },
   {
-    "id": "98aaff60",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "FED WATCH: Silver (XAG/USD) extends its decline on Wednesday and trades around $58.45 at the time of writing.\n\nThe white metal remains under pressure after comments from US President Donald Trump revived concerns about renewed conflict in the Middle East, supporting the US Dollar (USD) and US Treasury yields.\n\nhttps://www.fxstreet.com/news/silver-falls-as-trump-renews-iran-threats-boosts-us-dollar-ahead-of-fed-minutes-202607081412",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://www.fxstreet.com/news/silver-falls-as-trump-renews-iran-threats-boosts-us-dollar-ahead-of-fed-minutes-202607081412",
-    "source_title": "Silver falls as Trump renews Iran threats, boosts US Dollar ahead of Fed Minutes",
-    "source_summary": "Silver (XAG/USD) extends its decline on Wednesday and trades around $58.45 at the time of writing. The white metal remains under pressure after comments from US President Donald Trump revived concerns about renewed conflict in the Middle East, supporting the US Dollar (USD) and US Treasury yields.",
-    "drafted_at": "2026-07-08T15:24:20.350685",
-    "data": {
-      "actor": "Fed"
-    },
-    "content_hash": "96aaec7489b8ed4b"
-  },
-  {
-    "id": "d3753dfc",
+    "id": "598dc45e",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "The Fed just spoke. Here's what matters: Among other changes, the proposal would require banks to focus their anti-money laundering resources based on risk, with more attention given to higher-risk customers and activities.\n\nThe proposed amendments would also require banks to incorporate the Financial Crimes Enforcement Network's anti-money laundering priorities into their risk assessment processes.\n\nUnder the proposal, once a bank has established an anti-money laundering program, the Federal Reserve would focus supervision and enforcement activities on significant failures to implement the program.\n\nComments on the proposal are due 60 days after publication in the Federal Register.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260707a.htm",
@@ -95,14 +97,31 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260707a.htm",
     "source_title": "Federal Reserve Board requests comment on a proposal to amend its requirements for banks to maintain anti-money laundering programs",
     "source_summary": "Federal Reserve Board requests comment on a proposal to amend its requirements for banks to maintain anti-money laundering programs",
-    "drafted_at": "2026-07-08T15:24:20.351455",
+    "drafted_at": "2026-07-08T16:57:45.960059",
     "data": {
       "actor": "FED"
     },
     "content_hash": "042d10bca0fa7a82"
   },
   {
-    "id": "948666e3",
+    "id": "c29880ac",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "POWELL POSTCARD: The study shows that the total number of noncash payments made by consumers and businesses increased to 236.6 billion in 2024.\n\nOverall, the number of noncash payments more than tripled since 2000.\n\nCards once again were used most frequently, accounting for over three quarters of payments by number.\n\nDebit cards continued to account for the majority of all card payments, although credit card payments grew faster than debit card payments for the first time in almost a decade.\n\nPayments using the ACH system continued to account for the majority of noncash payments by value.\n\nIn 2024, ACH's share of noncash payments by value reached almost three quarters for the first time.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/other20260701a.htm",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260701a.htm",
+    "source_title": "Federal Reserve issues initial findings from its 2025 triennial payments study",
+    "source_summary": "Federal Reserve issues initial findings from its 2025 triennial payments study",
+    "drafted_at": "2026-07-08T16:57:45.961362",
+    "data": {
+      "actor": "FED"
+    },
+    "content_hash": "93c75ae746d4a5c8"
+  },
+  {
+    "id": "7408b6af",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$LILA insider bought $140,345,259 on 2026-06-26, 5 insiders. \ud83d\udc40\n\nLiberty Latin America Ltd.. 15,763,878 shares at $8.90.\n\n-15.8% since the purchase.\n\nhttp://openinsider.com/screener?s=LILA",
@@ -112,7 +131,7 @@
     "source_url": "http://openinsider.com/screener?s=LILA",
     "source_title": "Liberty Latin America Ltd. (LILA) insider bought $140,345,259",
     "source_summary": "5 insider(s) bought 15,763,878 shares at $8.90 on 2026-06-26.",
-    "drafted_at": "2026-07-08T15:24:20.353787",
+    "drafted_at": "2026-07-08T16:57:45.962713",
     "data": {
       "ticker": "LILA",
       "type": "P",
@@ -122,47 +141,67 @@
     "content_hash": "d57b678aa6fbc928"
   },
   {
-    "id": "3627235f",
+    "id": "fb1b0302",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$DPC insider bought $75,821,493 on 2026-06-26, 9 insiders. \ud83d\udc40\n\nDpc Holdings Ltd. 2,297,621 shares at $33.00.\n\n+39.9% since the purchase.\n\nhttp://openinsider.com/screener?s=DPC",
+    "draft_text": "$DPC insider bought $75,821,493 on 2026-06-26, 9 insiders. \ud83d\udc40\n\nDpc Holdings Ltd. 2,297,621 shares at $33.00.\n\n+41.0% since the purchase.\n\nhttp://openinsider.com/screener?s=DPC",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=DPC",
     "source_title": "Dpc Holdings Ltd (DPC) insider bought $75,821,493",
     "source_summary": "9 insider(s) bought 2,297,621 shares at $33.00 on 2026-06-26.",
-    "drafted_at": "2026-07-08T15:24:20.353926",
+    "drafted_at": "2026-07-08T16:57:45.962857",
     "data": {
       "ticker": "DPC",
       "type": "P",
       "dollar_value": 75821493.0,
-      "pct_since": 39.909085360440336
+      "pct_since": 41.03030580462831
     },
     "content_hash": "dd6559b51a6d411c"
   },
   {
-    "id": "3adc8712",
+    "id": "d96ed0ef",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$COE insider bought $23,487,344 on 2026-06-29. \ud83d\udc40\n\n51Talk Online Education Group. 1,444,920 shares at $16.26.\n\n+0.2% since the purchase.\n\nhttp://openinsider.com/screener?s=COE",
+    "draft_text": "$COE insider bought $23,487,344 on 2026-06-29. \ud83d\udc40\n\n51Talk Online Education Group. 1,444,920 shares at $16.26.\n\n+1.9% since the purchase.\n\nhttp://openinsider.com/screener?s=COE",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=COE",
     "source_title": "51Talk Online Education Group (COE) insider bought $23,487,344",
     "source_summary": "1 insider(s) bought 1,444,920 shares at $16.26 on 2026-06-29.",
-    "drafted_at": "2026-07-08T15:24:20.354037",
+    "drafted_at": "2026-07-08T16:57:45.962976",
     "data": {
       "ticker": "COE",
       "type": "P",
       "dollar_value": 23487344.0,
-      "pct_since": 0.24599776790003264
+      "pct_since": 1.906517188340819
     },
     "content_hash": "2c45cb120778e09c"
   },
   {
-    "id": "5e451768",
+    "id": "69c9cb85",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$CADEX insider bought $10,521,000 on 2026-07-06. \ud83d\udc40\n\nCion Ares Diversified Credit Fund. 450,000 shares at $23.38.\n\n+1.5% since the purchase.\n\nhttp://openinsider.com/screener?s=CADEX",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=CADEX",
+    "source_title": "Cion Ares Diversified Credit Fund (CADEX) insider bought $10,521,000",
+    "source_summary": "1 insider(s) bought 450,000 shares at $23.38 on 2026-07-06.",
+    "drafted_at": "2026-07-08T16:57:45.963094",
+    "data": {
+      "ticker": "CADEX",
+      "type": "P",
+      "dollar_value": 10521000.0,
+      "pct_since": 1.4542314514734525
+    },
+    "content_hash": "287d058b860951c1"
+  },
+  {
+    "id": "c4830189",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$VFLEX insider bought $6,499,990 on 2026-07-02, 2 insiders. \ud83d\udc40\n\nFirst Trust Alternative Opportunities Fund. 234,996 shares at $27.66.\n\n+0.0% since the purchase.\n\nhttp://openinsider.com/screener?s=VFLEX",
@@ -172,7 +211,7 @@
     "source_url": "http://openinsider.com/screener?s=VFLEX",
     "source_title": "First Trust Alternative Opportunities Fund (VFLEX) insider bought $6,499,990",
     "source_summary": "2 insider(s) bought 234,996 shares at $27.66 on 2026-07-02.",
-    "drafted_at": "2026-07-08T15:24:20.354161",
+    "drafted_at": "2026-07-08T16:57:45.963225",
     "data": {
       "ticker": "VFLEX",
       "type": "P",
@@ -182,27 +221,24 @@
     "content_hash": "448472e9c3d4896c"
   },
   {
-    "id": "d9e03893",
-    "format": "CORRUPTION_WATCH_INSIDER",
+    "id": "23554cd4",
+    "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "$FTECX insider bought $1,899,980 on 2026-07-02, 2 insiders. \ud83d\udc40\n\nFirst Trust Enhanced Private Credit Fund. 201,697 shares at $9.42.\n\n+0.0% since the purchase.\n\nhttp://openinsider.com/screener?s=FTECX",
+    "draft_text": "FROM THE COURTHOUSE: A court ruling has allowed Le Pen to campaign despite embezzlement conviction, sparking heated debates across France.\n\nhttps://www.aljazeera.com/news/2026/7/8/far-right-leader-le-pen-starts-campaign-faces-mixed-reactions-in-france?traffic_source=rss",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=FTECX",
-    "source_title": "First Trust Enhanced Private Credit Fund (FTECX) insider bought $1,899,980",
-    "source_summary": "2 insider(s) bought 201,697 shares at $9.42 on 2026-07-02.",
-    "drafted_at": "2026-07-08T15:24:20.354283",
+    "primary_source": "AL JAZEERA",
+    "source_url": "https://www.aljazeera.com/news/2026/7/8/far-right-leader-le-pen-starts-campaign-faces-mixed-reactions-in-france?traffic_source=rss",
+    "source_title": "Far-right leader Le Pen starts campaign, faces mixed reactions in France",
+    "source_summary": "A court ruling has allowed Le Pen to campaign despite embezzlement conviction, sparking heated debates across France.",
+    "drafted_at": "2026-07-08T16:57:45.964198",
     "data": {
-      "ticker": "FTECX",
-      "type": "P",
-      "dollar_value": 1899980.0,
-      "pct_since": 0
+      "source": "AL JAZEERA"
     },
-    "content_hash": "52b8fe34483b2a75"
+    "content_hash": "2ed06f5fdf366d59"
   },
   {
-    "id": "fa3f13ed",
+    "id": "c89071d6",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The far-right leader was found guilty of embezzlement but has challenged the decision so she can run for the presidency.\n\nhttps://www.politico.eu/article/french-court-marinele-pen-appeal-before-2027-presidential-election/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
@@ -212,14 +248,31 @@
     "source_url": "https://www.politico.eu/article/french-court-marinele-pen-appeal-before-2027-presidential-election/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
     "source_title": "Top French court will rule on Le Pen\u2019s appeal before 2027 presidential election",
     "source_summary": "The far-right leader was found guilty of embezzlement but has challenged the decision so she can run for the presidency.",
-    "drafted_at": "2026-07-08T15:24:20.355082",
+    "drafted_at": "2026-07-08T16:57:45.964426",
     "data": {
       "source": "POLITICO EU"
     },
     "content_hash": "6db5a8a1cf1fd6a6"
   },
   {
-    "id": "0944f973",
+    "id": "d1855dd3",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "ACTIVE THREAT: Law enforcement in Wisconsin and New York accuse the firm of refusing to help recoup funds, even under court orders.\n\nhttps://www.icij.org/investigations/coin-laundry/crypto-giant-circle-rebuffed-efforts-to-help-scam-victims-police-say/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "ICIJ",
+    "source_url": "https://www.icij.org/investigations/coin-laundry/crypto-giant-circle-rebuffed-efforts-to-help-scam-victims-police-say/",
+    "source_title": "Crypto giant Circle rebuffed efforts to help scam victims, police say",
+    "source_summary": "Law enforcement in Wisconsin and New York accuse the firm of refusing to help recoup funds, even under court orders.",
+    "drafted_at": "2026-07-08T16:57:45.964635",
+    "data": {
+      "source": "ICIJ"
+    },
+    "content_hash": "c9af09f7fa0462bb"
+  },
+  {
+    "id": "61047f46",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "FRAUDSTER DOWN: India's central bank called for banks to be barred from crypto exposure as it reiterated support for tighter restrictions on digital assets.\n\nhttps://www.theblock.co/post/407549/india-central-bank-seeks-to-bar-financial-institutions-from-exposure-to-crypto-assets-reuters?utm_source=rss&utm_medium=rss",
@@ -229,48 +282,14 @@
     "source_url": "https://www.theblock.co/post/407549/india-central-bank-seeks-to-bar-financial-institutions-from-exposure-to-crypto-assets-reuters?utm_source=rss&utm_medium=rss",
     "source_title": "India central bank seeks to bar financial institutions from exposure to crypto assets: Reuters",
     "source_summary": "India's central bank called for banks to be barred from crypto exposure as it reiterated support for tighter restrictions on digital assets.",
-    "drafted_at": "2026-07-08T15:24:20.355305",
+    "drafted_at": "2026-07-08T16:57:45.964898",
     "data": {
       "source": "THE BLOCK"
     },
     "content_hash": "f3c14f2a8b302546"
   },
   {
-    "id": "ebb790f9",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Score one for the good guys. Nigel Farage resigned as an MP amid two probes over gifts from Tether investor Christopher Harborne and convicted fraudster George Cottrell.\n\nhttps://www.theblock.co/post/407542/nigel-farage-to-quit-uk-parliament-seek-new-mandate-amid-probes-into-crypto-linked-gifts?utm_source=rss&utm_medium=rss",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "THE BLOCK",
-    "source_url": "https://www.theblock.co/post/407542/nigel-farage-to-quit-uk-parliament-seek-new-mandate-amid-probes-into-crypto-linked-gifts?utm_source=rss&utm_medium=rss",
-    "source_title": "Nigel Farage to quit UK Parliament, seek new mandate amid probes into crypto-linked gifts",
-    "source_summary": "Nigel Farage resigned as an MP amid two probes over gifts from Tether investor Christopher Harborne and convicted fraudster George Cottrell.",
-    "drafted_at": "2026-07-08T15:24:20.355534",
-    "data": {
-      "source": "THE BLOCK"
-    },
-    "content_hash": "7a407a6194666818"
-  },
-  {
-    "id": "ffc4b585",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Sung Moo Cho preyed on his unnamed victim between 2023 and 2025, spending the embezzled money on fancy vacations, and expensive jewelery as well as paying off student loans and credit card debt, according to documents.\n\nhttps://nypost.com/2026/07/07/business/citi-slicker-rogue-wall-street-adviser-steals-3-5m-from-client-to-fund-lavish-lifestyle/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "NY POST",
-    "source_url": "https://nypost.com/2026/07/07/business/citi-slicker-rogue-wall-street-adviser-steals-3-5m-from-client-to-fund-lavish-lifestyle/",
-    "source_title": "Rogue Wall Street adviser stole $3.5M from client to fund lavish lifestyle filled with luxe getaways",
-    "source_summary": "Sung Moo Cho preyed on his unnamed victim between 2023 and 2025, spending the embezzled money on fancy vacations, and expensive jewelery as well as paying off student loans and credit card debt, according to documents",
-    "drafted_at": "2026-07-08T15:24:20.355861",
-    "data": {
-      "source": "NY POST"
-    },
-    "content_hash": "fe0202ec5b42157c"
-  },
-  {
-    "id": "d4977086",
+    "id": "d9572b88",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Among other changes, the proposal would require banks to focus their anti-money laundering resources based on risk, with more attention given to higher-risk customers and activities.\n\nThe proposed amendments would also require banks to incorporate the Financial Crimes Enforcement Network's anti-money laundering priorities into their risk assessment processes.\n\nUnder the proposal, once a bank has established an anti-money laundering program, the Federal Reserve would focus supervision and enforcement activities on significant failures to implement the program.\n\nComments on the proposal are due 60 days after publication in the Federal Register.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260707a.htm",
@@ -280,14 +299,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260707a.htm",
     "source_title": "Federal Reserve Board requests comment on a proposal to amend its requirements for banks to maintain anti-money laundering programs",
     "source_summary": "Federal Reserve Board requests comment on a proposal to amend its requirements for banks to maintain anti-money laundering programs",
-    "drafted_at": "2026-07-08T15:24:20.356611",
+    "drafted_at": "2026-07-08T16:57:45.965763",
     "data": {
       "source": "FED"
     },
     "content_hash": "042d10bca0fa7a82"
   },
   {
-    "id": "4f83f621",
+    "id": "f2c1bc40",
     "format": "GLOBAL_DESK",
     "status": "pending",
     "draft_text": "PACK BRIEFING \u2014 ASIA: EDX Markets, an institutional-only crypto trading venue with its own central clearinghouse, closed a $76 million Series C funding round led by SBI Holdings, the firm said in a press release.\n\nThe Tokyo-listed financial group becomes a strategic investor in the U.S. exchange.\n\nhttps://thedefiant.io/converge/tradfi-and-fintech/edx-markets-closes-76m-series-c-led-by-sbi-holdings",
@@ -297,99 +316,82 @@
     "source_url": "https://thedefiant.io/converge/tradfi-and-fintech/edx-markets-closes-76m-series-c-led-by-sbi-holdings",
     "source_title": "EDX Markets Closes $76M Series C Led by SBI Holdings",
     "source_summary": "EDX Markets, an institutional-only crypto trading venue with its own central clearinghouse, closed a $76 million Series C funding round led by SBI Holdings, the firm said in a press release. The Tokyo-listed financial group becomes a strategic investor in the U.S. exchange. The capital will fund\u2026",
-    "drafted_at": "2026-07-08T15:24:20.358747",
+    "drafted_at": "2026-07-08T16:57:45.967860",
     "data": {
       "source": "THE DEFIANT"
     },
     "content_hash": "766a40daeebddf43"
   },
   {
-    "id": "26cae725",
+    "id": "551aa1ae",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Levant update: Heightened geopolitical tensions could destabilize markets, influencing commodity prices and investor sentiment amid potential military actions.\n\nThe post An israeli official told local media Israel has been placed on its highest state of alert to guard against a renewed war with Iran appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/an-israeli-official-told-local-media-israel-has-been-placed-on-its-highest/",
+    "draft_text": "From the Gulf: Saudi Arabia\u2019s attempts to revive oil flows from its reopened Ras Tanura terminal on the Persian Gulf are running into caution from customers, who are reluctant to load there because of renewed threats to shipping, according to people familiar with the matter.\n\nhttps://financialpost.com/pmn/business-pmn/saudi-efforts-to-revive-gulf-oil-loadings-run-into-buyer-caution",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FINANCIAL POST",
+    "source_url": "https://financialpost.com/pmn/business-pmn/saudi-efforts-to-revive-gulf-oil-loadings-run-into-buyer-caution",
+    "source_title": "Saudi Efforts to Revive Gulf Oil Loadings Run Into Buyer Caution",
+    "source_summary": "Saudi Arabia\u2019s attempts to revive oil flows from its reopened Ras Tanura terminal on the Persian Gulf are running into caution from customers, who are reluctant to load there because of renewed threats to shipping, according to people familiar with the matter.",
+    "drafted_at": "2026-07-08T16:57:45.968553",
+    "data": {
+      "source": "FINANCIAL POST"
+    },
+    "content_hash": "7dd457d5f8c0a68e"
+  },
+  {
+    "id": "d2aaacd8",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "MIDDLE EAST DESK: Trump's claim highlights potential for renewed conflict, affecting regional stability and market confidence in Iran's leadership continuity.\n\nThe post Trump claims top spot on Iran\u2019s kill list amid ongoing tensions appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/trump-claims-top-spot-on-irans-kill-list-amid-ongoing-tensions/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/an-israeli-official-told-local-media-israel-has-been-placed-on-its-highest/",
-    "source_title": "An israeli official told local media Israel has been placed on its highest state of alert to guard against a renewed war with Iran",
-    "source_summary": "Heightened geopolitical tensions could destabilize markets, influencing commodity prices and investor sentiment amid potential military actions. The post An israeli official told local media Israel has been placed on its highest state of alert to guard against a renewed war with Iran appeared first on Crypto Briefing .",
-    "drafted_at": "2026-07-08T15:24:20.359254",
+    "source_url": "https://cryptobriefing.com/trump-claims-top-spot-on-irans-kill-list-amid-ongoing-tensions/",
+    "source_title": "Trump claims top spot on Iran\u2019s kill list amid ongoing tensions",
+    "source_summary": "Trump's claim highlights potential for renewed conflict, affecting regional stability and market confidence in Iran's leadership continuity. The post Trump claims top spot on Iran\u2019s kill list amid ongoing tensions appeared first on Crypto Briefing .",
+    "drafted_at": "2026-07-08T16:57:45.968931",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "9365eb67a97b2a34"
+    "content_hash": "3532e53720729d91"
   },
   {
-    "id": "09f229c2",
+    "id": "fae10b47",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 CHINA: China's strategic push for semiconductor self-sufficiency may limit the impact of Nvidia's chip sales, affecting global tech dynamics.\n\nThe post China plans to allow top AI firms to buy limited Nvidia H200 chips appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/china-nvidia-h200-chips-limited-purchases/",
+    "draft_text": "Levant update: Rising US-Iran tensions may hinder diplomatic progress, affecting nuclear negotiations and reducing chances of sanctions relief by 2026.\n\nThe post US dollar strengthens amid rising US-Iran tensions and military actions appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/us-dollar-strengthens-amid-rising-us-iran-tensions-and-military-actions/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/china-nvidia-h200-chips-limited-purchases/",
-    "source_title": "China plans to allow top AI firms to buy limited Nvidia H200 chips",
-    "source_summary": "China's strategic push for semiconductor self-sufficiency may limit the impact of Nvidia's chip sales, affecting global tech dynamics. The post China plans to allow top AI firms to buy limited Nvidia H200 chips appeared first on Crypto Briefing .",
-    "drafted_at": "2026-07-08T15:24:20.359716",
+    "source_url": "https://cryptobriefing.com/us-dollar-strengthens-amid-rising-us-iran-tensions-and-military-actions/",
+    "source_title": "US dollar strengthens amid rising US-Iran tensions and military actions",
+    "source_summary": "Rising US-Iran tensions may hinder diplomatic progress, affecting nuclear negotiations and reducing chances of sanctions relief by 2026. The post US dollar strengthens amid rising US-Iran tensions and military actions appeared first on Crypto Briefing .",
+    "drafted_at": "2026-07-08T16:57:45.969351",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "e81c9e680181d56f"
+    "content_hash": "f0afb23dec659116"
   },
   {
-    "id": "fa5c1f66",
+    "id": "c0025d4a",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Gulf wire: Netanyahu's claims could escalate tensions, complicating diplomatic efforts and impacting global security and market stability.\n\nThe post Iran \u2018definitely\u2019 possesses chemical weapons, would not hesitate to kill americans: Netanyahu appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iran-definitely-possesses-chemical-weapons-would-not-hesitate-to-kill-americans/",
+    "draft_text": "Cross-border read: On July 8, Transatlantic Security Initiative senior fellow Elisabeth Braw published an article in Foreign Policy discussing how European governments need to respond to Russia arming its shadow fleet.\n\nThe post Braw in Foreign Policy on European response to Russia\u2019s shadow fleet appeared first on Atlantic Council.\n\nhttps://www.atlanticcouncil.org/commentary/braw-in-foreign-policy-on-european-response-to-russias-shadow-fleet/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/iran-definitely-possesses-chemical-weapons-would-not-hesitate-to-kill-americans/",
-    "source_title": "Iran \u2018definitely\u2019 possesses chemical weapons, would not hesitate to kill americans: Netanyahu",
-    "source_summary": "Netanyahu's claims could escalate tensions, complicating diplomatic efforts and impacting global security and market stability. The post Iran \u2018definitely\u2019 possesses chemical weapons, would not hesitate to kill americans: Netanyahu appeared first on Crypto Briefing .",
-    "drafted_at": "2026-07-08T15:24:20.360031",
+    "primary_source": "ATLANTIC CNCL",
+    "source_url": "https://www.atlanticcouncil.org/commentary/braw-in-foreign-policy-on-european-response-to-russias-shadow-fleet/",
+    "source_title": "Braw in Foreign Policy on European response to Russia\u2019s shadow fleet",
+    "source_summary": "On July 8, Transatlantic Security Initiative senior fellow Elisabeth Braw published an article in Foreign Policy discussing how European governments need to respond to Russia arming its shadow fleet. The post Braw in Foreign Policy on European response to Russia\u2019s shadow fleet appeared first on Atlantic Council .",
+    "drafted_at": "2026-07-08T16:57:45.970804",
     "data": {
-      "source": "CRYPTO BRIEFING"
+      "source": "ATLANTIC CNCL"
     },
-    "content_hash": "28d1646d4afabb9f"
+    "content_hash": "7851a29a4586bf5a"
   },
   {
-    "id": "e9d76261",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "ASIA DESK: Russia's diesel export ban could tighten global supply, raising prices in Europe and Asia, impacting logistics, agriculture, and energy sectors.\n\nThe post Russia bans diesel exports to prevent domestic shortages after drone attacks appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/russia-bans-diesel-exports-drone-attacks/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/russia-bans-diesel-exports-drone-attacks/",
-    "source_title": "Russia bans diesel exports to prevent domestic shortages after drone attacks",
-    "source_summary": "Russia's diesel export ban could tighten global supply, raising prices in Europe and Asia, impacting logistics, agriculture, and energy sectors. The post Russia bans diesel exports to prevent domestic shortages after drone attacks appeared first on Crypto Briefing .",
-    "drafted_at": "2026-07-08T15:24:20.360547",
-    "data": {
-      "source": "CRYPTO BRIEFING"
-    },
-    "content_hash": "c34f95a056426a18"
-  },
-  {
-    "id": "65cace09",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "Inflation update: Societe Generale strategist Kunal Kundu expects India\u2019s June 2026 headline Consumer Price Index (CPI) inflation to print around 4.1% year-on-year, slightly above May\u2019s 3.9% but still within the RBI\u2019s tolerance band.\n\nhttps://www.fxstreet.com/news/india-gradual-firming-cpi-supports-rbi-patience-societe-generale-202607081415",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/india-gradual-firming-cpi-supports-rbi-patience-societe-generale-202607081415",
-    "source_title": "India: Gradual firming CPI supports RBI patience \u2013 Societe Generale",
-    "source_summary": "Societe Generale strategist Kunal Kundu expects India\u2019s June 2026 headline Consumer Price Index (CPI) inflation to print around 4.1% year-on-year, slightly above May\u2019s 3.9% but still within the RBI\u2019s tolerance band.",
-    "drafted_at": "2026-07-08T15:24:20.408412",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "3aff3083cdd62f18"
-  },
-  {
-    "id": "54da33cb",
+    "id": "866300b5",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -399,7 +401,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-07-08T15:24:20.409846",
+    "drafted_at": "2026-07-08T16:57:46.028347",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -407,7 +409,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "9f771104",
+    "id": "b5798e41",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "When everyone's positioned for a crash, the crash takes a vacation.",
@@ -417,14 +419,14 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "When everyone's positioned for a crash, the crash takes a vacation.",
-    "drafted_at": "2026-07-08T15:24:20.409923",
+    "drafted_at": "2026-07-08T16:57:46.028441",
     "data": {
       "take_seed": "2026-07-08-pack-1"
     },
     "content_hash": "9b0f7be55d8ef71c"
   },
   {
-    "id": "fbf7134d",
+    "id": "dde09982",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Gold doesn't pay a dividend. Neither does a fire extinguisher.",
@@ -434,7 +436,7 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Gold doesn't pay a dividend. Neither does a fire extinguisher.",
-    "drafted_at": "2026-07-08T15:24:20.409971",
+    "drafted_at": "2026-07-08T16:57:46.028499",
     "data": {
       "take_seed": "2026-07-08-pack-2"
     },
