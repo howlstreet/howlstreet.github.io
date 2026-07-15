@@ -1,76 +1,59 @@
 [
   {
-    "id": "d1fa846c",
+    "id": "153b0db3",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "THE BIG ONE: China\u2019s economy slowed more than expected last quarter to the weakest in more than three years, raising pressure on policymakers to speed up public spending to ensure their annual growth goal is met.\n\nhttps://financialpost.com/pmn/business-pmn/chinas-gdp-growth-unexpectedly-dips-below-official-target-range",
+    "draft_text": "The story the pack is talking about: Chinese refiners further slashed crude processing in June, with volumes crumbling to the pandemic lows of 2020 amid Strait of Hormuz supply disruptions and weakening domestic fuel demand.\n\nChina\u2019s refinery throughput slumped by 17.7% from a year earlier, to just 12.47 million barrels per day (bpd) in June, according to data from the National Bureau of Statistics published on Wednesday.\n\nThat was the lowest processing volume in six years, since the onset of the Covid pandemic in March 2020, according to the data series.\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Chinas-Refinery-Runs-Crash-to-Pandemic-Lows-as-Crude-Imports-Collapse.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/pmn/business-pmn/chinas-gdp-growth-unexpectedly-dips-below-official-target-range",
-    "source_title": "China\u2019s GDP Growth Unexpectedly Dips Below Official Target Range",
-    "source_summary": "China\u2019s economy slowed more than expected last quarter to the weakest in more than three years, raising pressure on policymakers to speed up public spending to ensure their annual growth goal is met.",
-    "drafted_at": "2026-07-15T04:39:19.089433",
+    "primary_source": "OILPRICE",
+    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Refinery-Runs-Crash-to-Pandemic-Lows-as-Crude-Imports-Collapse.html",
+    "source_title": "China\u2019s Refinery Runs Crash to Pandemic Lows as Crude Imports Collapse",
+    "source_summary": "Chinese refiners further slashed crude processing in June, with volumes crumbling to the pandemic lows of 2020 amid Strait of Hormuz supply disruptions and weakening domestic fuel demand. China\u2019s refinery throughput slumped by 17.7% from a year earlier, to just 12.47 million barrels per day (bpd) in June, according to data from the National Bureau of Statistics published on Wednesday. That was the",
+    "drafted_at": "2026-07-15T07:05:39.157893",
     "data": {
-      "source": "FINANCIAL POST"
+      "source": "OILPRICE"
     },
-    "content_hash": "e496158813df0ba4"
+    "content_hash": "9f76a69616ffe473"
   },
   {
-    "id": "922513b9",
+    "id": "18a91b09",
     "format": "MARKET_MOVE",
     "status": "pending",
-    "draft_text": "I don't say this often, but pay attention: WTI crude rips 16.2% in 5 sessions to $79.83.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "draft_text": "This is the take-notes part. VIX climbs 6.3% in 5 sessions to 17.16.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "NYMEX \u00b7 CL=F",
-    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
-    "source_title": "WTI crude oil futures",
-    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-07-15T04:39:19.089712",
+    "primary_source": "CBOE \u00b7 ^VIX",
+    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "source_title": "VIX (S&P 500 volatility)",
+    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "drafted_at": "2026-07-15T07:05:39.158144",
     "data": {
-      "signal_id": "CL=F:move:2026-07-15",
+      "signal_id": "^VIX:move:2026-07-13",
       "kind": "move_up",
-      "current": "$79.83"
+      "current": "17.16"
     },
-    "content_hash": "c272de0720a2f459"
+    "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "498f9da1",
+    "id": "de100731",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "Live from the Federal Reserve: A hawkish shift in Fed policy could stabilize inflation but may also slow economic growth, impacting markets and borrowing costs.\n\nThe post Fed Chair Warsh signals potential shift to hawkish policy amid inflation concerns appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/fed-chair-warsh-signals-potential-shift-to-hawkish-policy-amid-inflation/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://cryptobriefing.com/fed-chair-warsh-signals-potential-shift-to-hawkish-policy-amid-inflation/",
-    "source_title": "Fed Chair Warsh signals potential shift to hawkish policy amid inflation concerns",
-    "source_summary": "A hawkish shift in Fed policy could stabilize inflation but may also slow economic growth, impacting markets and borrowing costs. The post Fed Chair Warsh signals potential shift to hawkish policy amid inflation concerns appeared first on Crypto Briefing .",
-    "drafted_at": "2026-07-15T04:39:19.102360",
-    "data": {
-      "actor": "Fed"
-    },
-    "content_hash": "d42bca63939b22ec"
-  },
-  {
-    "id": "871b372d",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "Live from the Federal Reserve: Gold (XAU/USD) attracts some sellers after failing to find acceptance above the $4,100 mark the previous day, though it holds above the $4,000 psychological mark during the Asian session on Wednesday.\n\nhttps://www.fxstreet.com/news/gold-edges-lower-as-elevated-oil-prices-bolster-fed-hike-prospects-and-offset-soft-usd-202607150350",
+    "draft_text": "Live from the Federal Reserve: Gold (XAU/USD) attracts fresh sellers after failing to find acceptance above the $4,100 mark the previous day and maintains its offered tone heading into the European session on Wednesday.\n\nhttps://www.fxstreet.com/news/gold-edges-lower-as-elevated-oil-prices-bolster-fed-hike-prospects-and-offset-soft-usd-202607150350",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "Fed",
     "source_url": "https://www.fxstreet.com/news/gold-edges-lower-as-elevated-oil-prices-bolster-fed-hike-prospects-and-offset-soft-usd-202607150350",
-    "source_title": "Gold edges lower as elevated oil prices bolster Fed hike prospects and offset soft USD",
-    "source_summary": "Gold (XAU/USD) attracts some sellers after failing to find acceptance above the $4,100 mark the previous day, though it holds above the $4,000 psychological mark during the Asian session on Wednesday.",
-    "drafted_at": "2026-07-15T04:39:19.102674",
+    "source_title": "Gold remains vulnerable as higher oil prices revive inflation fears and Fed hike bets",
+    "source_summary": "Gold (XAU/USD) attracts fresh sellers after failing to find acceptance above the $4,100 mark the previous day and maintains its offered tone heading into the European session on Wednesday.",
+    "drafted_at": "2026-07-15T07:05:39.167446",
     "data": {
       "actor": "Fed"
     },
-    "content_hash": "584706f60d19b5ea"
+    "content_hash": "1c1084c23a8fbc71"
   },
   {
-    "id": "b81527e1",
+    "id": "e10997bb",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FED WATCH: Peter Navarro, RealClearMarkets This wasn't egg on the face.\n\nOn Monday, Fed Governor Christopher Waller was effectively...\n\nhttps://www.realclearmarkets.com/2026/07/14/june_cpi_showers_fed_rate_hawks_with_cold_water_1194348.html",
@@ -80,14 +63,14 @@
     "source_url": "https://www.realclearmarkets.com/2026/07/14/june_cpi_showers_fed_rate_hawks_with_cold_water_1194348.html",
     "source_title": "June CPI Showers Fed Rate Hawks With Cold Water",
     "source_summary": "Peter Navarro, RealClearMarkets This wasn't egg on the face. It was a whole omelet. On Monday, Fed Governor Christopher Waller was effectively...",
-    "drafted_at": "2026-07-15T04:39:19.102888",
+    "drafted_at": "2026-07-15T07:05:39.167664",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "1b32aab9fcfe9c3b"
   },
   {
-    "id": "7cd5a13b",
+    "id": "8a7bd6c6",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Central bank corner: The Board's process for setting the discount rate is distinct from the process the Federal Open Market Committee follows in setting the target range for the federal funds rate.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
@@ -97,14 +80,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
     "source_title": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
     "source_summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
-    "drafted_at": "2026-07-15T04:39:19.103255",
+    "drafted_at": "2026-07-15T07:05:39.167948",
     "data": {
       "actor": "FED"
     },
     "content_hash": "5fb63e04cb74e9a2"
   },
   {
-    "id": "ae09e5c7",
+    "id": "588cc643",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FED WATCH: \"The Federal Reserve's commitment to price stability and maximum employment is unwavering.\n\nAs is our resolve to pursue our mandate with rigor,\" said Chairman Kevin Warsh.\n\n\"The U.S. economy has changed significantly over the last generation, and never more so than right now.\n\nEach task force will carefully consider whether policymakers' means and methods, analytical tools and policy approaches can be improved upon.\n\nI am honored that the best minds from a range of disciplines have agreed to work with us to sharpen our performance as an institution.\n\nThe five task forces will examine areas central to the broad conduct of monetary policy.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
@@ -114,14 +97,31 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
     "source_title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
     "source_summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-    "drafted_at": "2026-07-15T04:39:19.104384",
+    "drafted_at": "2026-07-15T07:05:39.168917",
     "data": {
       "actor": "FED"
     },
     "content_hash": "ed14be39878da65d"
   },
   {
-    "id": "18aa4996",
+    "id": "6b9d9644",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "RATE-PATH READ: TS Banking Group, Inc., Treynor, Iowa and TS Contrarian Bancshares, Inc., Treynor, Iowa Written Agreement dated July 6, 2026 Additional enforcement actions can be searched for here.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260709a.htm",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260709a.htm",
+    "source_title": "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc.",
+    "source_summary": "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc.",
+    "drafted_at": "2026-07-15T07:05:39.169176",
+    "data": {
+      "actor": "FED"
+    },
+    "content_hash": "2da0384c8b59f120"
+  },
+  {
+    "id": "3eda8374",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$GLOO insider bought $9,514,464 on 2026-07-10, 4 insiders. \ud83d\udc40\n\nGloo Holdings, Inc.. 2,839,768 shares at $3.35.\n\n+0.9% since the purchase.\n\nhttp://openinsider.com/screener?s=GLOO",
@@ -131,7 +131,7 @@
     "source_url": "http://openinsider.com/screener?s=GLOO",
     "source_title": "Gloo Holdings, Inc. (GLOO) insider bought $9,514,464",
     "source_summary": "4 insider(s) bought 2,839,768 shares at $3.35 on 2026-07-10.",
-    "drafted_at": "2026-07-15T04:39:19.106383",
+    "drafted_at": "2026-07-15T07:05:39.170592",
     "data": {
       "ticker": "GLOO",
       "type": "P",
@@ -141,7 +141,7 @@
     "content_hash": "2c48d6a67f578a0c"
   },
   {
-    "id": "45f7bc76",
+    "id": "891cdfb2",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$VFLEX insider bought $6,499,990 on 2026-07-02, 2 insiders. \ud83d\udc40\n\nFirst Trust Alternative Opportunities Fund. 234,996 shares at $27.66.\n\n-0.1% since the purchase.\n\nhttp://openinsider.com/screener?s=VFLEX",
@@ -151,7 +151,7 @@
     "source_url": "http://openinsider.com/screener?s=VFLEX",
     "source_title": "First Trust Alternative Opportunities Fund (VFLEX) insider bought $6,499,990",
     "source_summary": "2 insider(s) bought 234,996 shares at $27.66 on 2026-07-02.",
-    "drafted_at": "2026-07-15T04:39:19.106525",
+    "drafted_at": "2026-07-15T07:05:39.170714",
     "data": {
       "ticker": "VFLEX",
       "type": "P",
@@ -161,7 +161,7 @@
     "content_hash": "448472e9c3d4896c"
   },
   {
-    "id": "0cb0a411",
+    "id": "ebe624db",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$IPX insider bought $4,949,802 on 2026-07-10, 2 insiders. \ud83d\udc40\n\nIperionx Ltd. 1,253,720 shares at $3.95.\n\n+545.3% since the purchase.\n\nhttp://openinsider.com/screener?s=IPX",
@@ -171,7 +171,7 @@
     "source_url": "http://openinsider.com/screener?s=IPX",
     "source_title": "Iperionx Ltd (IPX) insider bought $4,949,802",
     "source_summary": "2 insider(s) bought 1,253,720 shares at $3.95 on 2026-07-10.",
-    "drafted_at": "2026-07-15T04:39:19.106644",
+    "drafted_at": "2026-07-15T07:05:39.170817",
     "data": {
       "ticker": "IPX",
       "type": "P",
@@ -181,7 +181,7 @@
     "content_hash": "16eb220a30bf134e"
   },
   {
-    "id": "8f4e66c8",
+    "id": "5221766a",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$NTSK insider bought $3,765,698 on 2026-07-10. \ud83d\udc40\n\nNetskope Inc. 306,399 shares at $12.29.\n\n+16.1% since the purchase.\n\nhttp://openinsider.com/screener?s=NTSK",
@@ -191,7 +191,7 @@
     "source_url": "http://openinsider.com/screener?s=NTSK",
     "source_title": "Netskope Inc (NTSK) insider bought $3,765,698",
     "source_summary": "1 insider(s) bought 306,399 shares at $12.29 on 2026-07-10.",
-    "drafted_at": "2026-07-15T04:39:19.106748",
+    "drafted_at": "2026-07-15T07:05:39.170908",
     "data": {
       "ticker": "NTSK",
       "type": "P",
@@ -201,7 +201,7 @@
     "content_hash": "930a075497c5d113"
   },
   {
-    "id": "ccb4ca27",
+    "id": "0b68416b",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$CCCTU insider bought $2,650,000 on 2026-07-10. \ud83d\udc40\n\nColumbus Circle Capital Corp III. 265,000 shares at $10.00.\n\n+0.2% since the purchase.\n\nhttp://openinsider.com/screener?s=CCCTU",
@@ -211,7 +211,7 @@
     "source_url": "http://openinsider.com/screener?s=CCCTU",
     "source_title": "Columbus Circle Capital Corp III (CCCTU) insider bought $2,650,000",
     "source_summary": "1 insider(s) bought 265,000 shares at $10.00 on 2026-07-10.",
-    "drafted_at": "2026-07-15T04:39:19.106869",
+    "drafted_at": "2026-07-15T07:05:39.171009",
     "data": {
       "ticker": "CCCTU",
       "type": "P",
@@ -221,7 +221,7 @@
     "content_hash": "4a22f4640d5ccd03"
   },
   {
-    "id": "4ec0090d",
+    "id": "8bd86215",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "SAN FRANCISCO, July 14, 2026 /PRNewswire/ -- National shareholder rights firm Hagens Berman (HBSS) is actively investigating claims alleged against Veritone, Inc. (NASDAQ: VERI) and certain of its executives in a pending securities class action filed after the company admitted its...\n\nhttps://www.prnewswire.com/news-releases/veri-investor-notice-veritone-inc-investors-with-substantial-losses-have-opportunity-to-lead-investor-class-action-lawsuit--hbss-302825719.html",
@@ -231,14 +231,14 @@
     "source_url": "https://www.prnewswire.com/news-releases/veri-investor-notice-veritone-inc-investors-with-substantial-losses-have-opportunity-to-lead-investor-class-action-lawsuit--hbss-302825719.html",
     "source_title": "VERI INVESTOR NOTICE: Veritone, Inc. Investors with Substantial Losses Have Opportunity to Lead Investor Class Action Lawsuit",
     "source_summary": "SAN FRANCISCO, July 14, 2026 /PRNewswire/ -- National shareholder rights firm Hagens Berman (HBSS) is actively investigating claims alleged against Veritone, Inc. (NASDAQ: VERI) and certain of its executives in a pending securities class action filed after the company admitted its...",
-    "drafted_at": "2026-07-15T04:39:19.108211",
+    "drafted_at": "2026-07-15T07:05:39.172123",
     "data": {
       "source": "PR NEWSWIRE"
     },
     "content_hash": "e4c0077eaccd8c67"
   },
   {
-    "id": "9d0d0c5c",
+    "id": "12cf0046",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Bitcoin Magazine China\u2019s Prosecutors Move to Treat Crypto Mixers as Evidence of Money Laundering China's Supreme People's Procuratorate published proposals that would make it easier to prosecute crypto-related money laundering, including treating the use of mixers and privacy coins as presumptive evidence of laundering intent.\n\nThis post China\u2019s Prosecutors Move to Treat Crypto Mixers as Evidence of Money Laundering first appeared on Bitcoin Magazine and is written by Micah Zimmerman.\n\nhttps://bitcoinmagazine.com/news/chinas-prosecutors-treat-crypto-mixers",
@@ -248,14 +248,31 @@
     "source_url": "https://bitcoinmagazine.com/news/chinas-prosecutors-treat-crypto-mixers",
     "source_title": "China\u2019s Prosecutors Move to Treat Crypto Mixers as Evidence of Money Laundering",
     "source_summary": "Bitcoin Magazine China\u2019s Prosecutors Move to Treat Crypto Mixers as Evidence of Money Laundering China's Supreme People's Procuratorate published proposals that would make it easier to prosecute crypto-related money laundering, including treating the use of mixers and privacy coins as presumptive evidence of laundering intent. This post China\u2019s Prosecutors Move to Treat Crypto Mixers as Evidence o",
-    "drafted_at": "2026-07-15T04:39:19.108964",
+    "drafted_at": "2026-07-15T07:05:39.172773",
     "data": {
       "source": "BITCOIN MAG"
     },
     "content_hash": "d574473bd7d80f90"
   },
   {
-    "id": "411d72d6",
+    "id": "66aaf773",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "CMS says it canceled 250,000 unauthorized enrollments; health economists say the real driver is premiums that rose 58% on average.\n\nhttps://fortune.com/2026/07/14/aca-subsidies-expire-fraud-price-shock/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FORTUNE",
+    "source_url": "https://fortune.com/2026/07/14/aca-subsidies-expire-fraud-price-shock/",
+    "source_title": "2.6 million Americans dropped ACA coverage as subsidies expired \u2014 fraud or price shock?",
+    "source_summary": "CMS says it canceled 250,000 unauthorized enrollments; health economists say the real driver is premiums that rose 58% on average.",
+    "drafted_at": "2026-07-15T07:05:39.172989",
+    "data": {
+      "source": "FORTUNE"
+    },
+    "content_hash": "21af9807b87f7601"
+  },
+  {
+    "id": "7c5eede7",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "ACTIVE THREAT: Law enforcement in Wisconsin and New York accuse the firm of refusing to help recoup funds, even under court orders.\n\nhttps://www.icij.org/investigations/coin-laundry/crypto-giant-circle-rebuffed-efforts-to-help-scam-victims-police-say/",
@@ -265,14 +282,14 @@
     "source_url": "https://www.icij.org/investigations/coin-laundry/crypto-giant-circle-rebuffed-efforts-to-help-scam-victims-police-say/",
     "source_title": "Crypto giant Circle rebuffed efforts to help scam victims, police say",
     "source_summary": "Law enforcement in Wisconsin and New York accuse the firm of refusing to help recoup funds, even under court orders.",
-    "drafted_at": "2026-07-15T04:39:19.109240",
+    "drafted_at": "2026-07-15T07:05:39.173182",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "c9af09f7fa0462bb"
   },
   {
-    "id": "0855f84f",
+    "id": "52cb5533",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Among other changes, the proposal would require banks to focus their anti-money laundering resources based on risk, with more attention given to higher-risk customers and activities.\n\nThe proposed amendments would also require banks to incorporate the Financial Crimes Enforcement Network's anti-money laundering priorities into their risk assessment processes.\n\nUnder the proposal, once a bank has established an anti-money laundering program, the Federal Reserve would focus supervision and enforcement activities on significant failures to implement the program.\n\nComments on the proposal are due 60 days after publication in the Federal Register.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260707a.htm",
@@ -282,31 +299,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260707a.htm",
     "source_title": "Federal Reserve Board requests comment on a proposal to amend its requirements for banks to maintain anti-money laundering programs",
     "source_summary": "Federal Reserve Board requests comment on a proposal to amend its requirements for banks to maintain anti-money laundering programs",
-    "drafted_at": "2026-07-15T04:39:19.110153",
+    "drafted_at": "2026-07-15T07:05:39.173929",
     "data": {
       "source": "FED"
     },
     "content_hash": "042d10bca0fa7a82"
   },
   {
-    "id": "3f531f55",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Maggie Hassan cited ICIJ's Cancer Calculus investigation and expressed concerns that the pharma giant is boosting profits at the expense of patients.\n\nhttps://www.icij.org/investigations/cancer-calculus/senator-questions-merck-over-patent-strategy-for-blockbuster-cancer-drug-keytruda/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "ICIJ",
-    "source_url": "https://www.icij.org/investigations/cancer-calculus/senator-questions-merck-over-patent-strategy-for-blockbuster-cancer-drug-keytruda/",
-    "source_title": "Senator questions Merck over patent strategy for blockbuster cancer drug Keytruda",
-    "source_summary": "In a letter, Sen. Maggie Hassan cited ICIJ's Cancer Calculus investigation and expressed concerns that the pharma giant is boosting profits at the expense of patients.",
-    "drafted_at": "2026-07-15T04:39:19.110407",
-    "data": {
-      "source": "ICIJ"
-    },
-    "content_hash": "dafbc09dc5bb0a4d"
-  },
-  {
-    "id": "99cac5d7",
+    "id": "685cb6c4",
     "format": "GLOBAL_DESK",
     "status": "pending",
     "draft_text": "PACK BRIEFING \u2014 ASIA: EDX Markets, an institutional-only crypto trading venue with its own central clearinghouse, closed a $76 million Series C funding round led by SBI Holdings, the firm said in a press release.\n\nThe Tokyo-listed financial group becomes a strategic investor in the U.S. exchange.\n\nhttps://thedefiant.io/converge/tradfi-and-fintech/edx-markets-closes-76m-series-c-led-by-sbi-holdings",
@@ -316,167 +316,167 @@
     "source_url": "https://thedefiant.io/converge/tradfi-and-fintech/edx-markets-closes-76m-series-c-led-by-sbi-holdings",
     "source_title": "EDX Markets Closes $76M Series C Led by SBI Holdings",
     "source_summary": "EDX Markets, an institutional-only crypto trading venue with its own central clearinghouse, closed a $76 million Series C funding round led by SBI Holdings, the firm said in a press release. The Tokyo-listed financial group becomes a strategic investor in the U.S. exchange. The capital will fund\u2026",
-    "drafted_at": "2026-07-15T04:39:19.112292",
+    "drafted_at": "2026-07-15T07:05:39.175835",
     "data": {
       "source": "THE DEFIANT"
     },
     "content_hash": "766a40daeebddf43"
   },
   {
-    "id": "784c5e25",
+    "id": "5c0d7c4e",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Gulf wire: The US-Iran conflict's impact on global oil routes could shift geopolitical dynamics, yet crypto markets remain largely unaffected, signaling resilience.\n\nThe post Iran\u2019s IRIB reports US strike hit wheat storage silo in Hoveyzeh as crypto markets shrug appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iran-us-strike-wheat-silo-hoveyzeh-crypto-markets/",
+    "draft_text": "Levant update: The escalation in Iran heightens geopolitical tensions, impacting global markets, energy prices, and regulatory scrutiny on cryptocurrencies.\n\nThe post US strikes in southern Iran kill dozens of civilians, rattling global risk markets appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iran-strikes-civilian-deaths-market-risk/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/iran-us-strike-wheat-silo-hoveyzeh-crypto-markets/",
-    "source_title": "Iran\u2019s IRIB reports US strike hit wheat storage silo in Hoveyzeh as crypto markets shrug",
-    "source_summary": "The US-Iran conflict's impact on global oil routes could shift geopolitical dynamics, yet crypto markets remain largely unaffected, signaling resilience. The post Iran\u2019s IRIB reports US strike hit wheat storage silo in Hoveyzeh as crypto markets shrug appeared first on Crypto Briefing .",
-    "drafted_at": "2026-07-15T04:39:19.112738",
+    "source_url": "https://cryptobriefing.com/iran-strikes-civilian-deaths-market-risk/",
+    "source_title": "US strikes in southern Iran kill dozens of civilians, rattling global risk markets",
+    "source_summary": "The escalation in Iran heightens geopolitical tensions, impacting global markets, energy prices, and regulatory scrutiny on cryptocurrencies. The post US strikes in southern Iran kill dozens of civilians, rattling global risk markets appeared first on Crypto Briefing .",
+    "drafted_at": "2026-07-15T07:05:39.176179",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "f3a6468de09221f4"
+    "content_hash": "18d5131df4d0b132"
   },
   {
-    "id": "072fe77a",
+    "id": "4fdc7551",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Gulf wire: The resumed blockade heightens U.S.-Iran tensions, potentially destabilizing regional security and impacting global oil market dynamics.\n\nThe post Trump warns of total destruction as US resumes Iran naval blockade appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/trump-warns-of-total-destruction-as-us-resumes-iran-naval-blockade/",
+    "draft_text": "MIDDLE EAST DESK: The Strait of Hormuz is effectively off-limits to commercial shipping in the near term unless the US-Iran conflict can be resolved, the head of a major Japanese business lobby said on Wednesday.\n\nhttps://financialpost.com/pmn/business-pmn/japan-trade-chief-says-hormuz-off-limits-while-war-rumbles-on",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FINANCIAL POST",
+    "source_url": "https://financialpost.com/pmn/business-pmn/japan-trade-chief-says-hormuz-off-limits-while-war-rumbles-on",
+    "source_title": "Japan Trade Chief Says Hormuz Off-Limits While War Rumbles On",
+    "source_summary": "The Strait of Hormuz is effectively off-limits to commercial shipping in the near term unless the US-Iran conflict can be resolved, the head of a major Japanese business lobby said on Wednesday.",
+    "drafted_at": "2026-07-15T07:05:39.176707",
+    "data": {
+      "source": "FINANCIAL POST"
+    },
+    "content_hash": "ba1a67023362f928"
+  },
+  {
+    "id": "1e902a45",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "From Beijing: Chinese refiners further slashed crude processing in June, with volumes crumbling to the pandemic lows of 2020 amid Strait of Hormuz supply disruptions and weakening domestic fuel demand.\n\nChina\u2019s refinery throughput slumped by 17.7% from a year earlier, to just 12.47 million barrels per day (bpd) in June, according to data from the National Bureau of Statistics published on Wednesday.\n\nThat was the lowest processing volume in six years, since the onset of the Covid pandemic in March 2020, according to the data series.\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Chinas-Refinery-Runs-Crash-to-Pandemic-Lows-as-Crude-Imports-Collapse.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "OILPRICE",
+    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Refinery-Runs-Crash-to-Pandemic-Lows-as-Crude-Imports-Collapse.html",
+    "source_title": "China\u2019s Refinery Runs Crash to Pandemic Lows as Crude Imports Collapse",
+    "source_summary": "Chinese refiners further slashed crude processing in June, with volumes crumbling to the pandemic lows of 2020 amid Strait of Hormuz supply disruptions and weakening domestic fuel demand. China\u2019s refinery throughput slumped by 17.7% from a year earlier, to just 12.47 million barrels per day (bpd) in June, according to data from the National Bureau of Statistics published on Wednesday. That was the",
+    "drafted_at": "2026-07-15T07:05:39.177547",
+    "data": {
+      "source": "OILPRICE"
+    },
+    "content_hash": "9f76a69616ffe473"
+  },
+  {
+    "id": "377e69b4",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Gulf wire: The conflict's escalation highlights geopolitical risks impacting global markets, with crypto volatility reflecting broader economic uncertainties.\n\nThe post US airstrikes wound over 260 in Iran as Bitcoin drops 2% and $350M in crypto positions get liquidated appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/us-iran-airstrikes-bitcoin-crypto-liquidations/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/trump-warns-of-total-destruction-as-us-resumes-iran-naval-blockade/",
-    "source_title": "Trump warns of total destruction as US resumes Iran naval blockade",
-    "source_summary": "The resumed blockade heightens U.S.-Iran tensions, potentially destabilizing regional security and impacting global oil market dynamics. The post Trump warns of total destruction as US resumes Iran naval blockade appeared first on Crypto Briefing .",
-    "drafted_at": "2026-07-15T04:39:19.113114",
+    "source_url": "https://cryptobriefing.com/us-iran-airstrikes-bitcoin-crypto-liquidations/",
+    "source_title": "US airstrikes wound over 260 in Iran as Bitcoin drops 2% and $350M in crypto positions get liquidated",
+    "source_summary": "The conflict's escalation highlights geopolitical risks impacting global markets, with crypto volatility reflecting broader economic uncertainties. The post US airstrikes wound over 260 in Iran as Bitcoin drops 2% and $350M in crypto positions get liquidated appeared first on Crypto Briefing .",
+    "drafted_at": "2026-07-15T07:05:39.177930",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "2eb04bf71dfa3c0a"
+    "content_hash": "56873547bd6bf4af"
   },
   {
-    "id": "e946b290",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 CHINA: China\u2019s economy slowed more than expected last quarter to the weakest in more than three years, raising pressure on policymakers to speed up public spending to ensure their annual growth goal is met.\n\nhttps://financialpost.com/pmn/business-pmn/chinas-gdp-growth-unexpectedly-dips-below-official-target-range",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/pmn/business-pmn/chinas-gdp-growth-unexpectedly-dips-below-official-target-range",
-    "source_title": "China\u2019s GDP Growth Unexpectedly Dips Below Official Target Range",
-    "source_summary": "China\u2019s economy slowed more than expected last quarter to the weakest in more than three years, raising pressure on policymakers to speed up public spending to ensure their annual growth goal is met.",
-    "drafted_at": "2026-07-15T04:39:19.113655",
-    "data": {
-      "source": "FINANCIAL POST"
-    },
-    "content_hash": "e496158813df0ba4"
-  },
-  {
-    "id": "08f75f5d",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "From the international wire: European allies are moving to help strengthen Ukraine as Kyiv ups the pressure in its war against Russia.\n\nAs a part of that push, Commission President Ursula von der Leyen and a group of EU leaders are making a surprise trip to Kyiv to push through a string of new defense initiatives.\n\nZoya Sheftalovich and Ian Wishart discuss these [\u2026]\n\nhttps://www.politico.eu/podcast/brussels-playbook-podcast/the-border-that-vanished-overnight/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "POLITICO EU",
-    "source_url": "https://www.politico.eu/podcast/brussels-playbook-podcast/the-border-that-vanished-overnight/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-    "source_title": "The border that vanished overnight",
-    "source_summary": "European allies are moving to help strengthen Ukraine as Kyiv ups the pressure in its war against Russia. As a part of that push, Commission President Ursula von der Leyen and a group of EU leaders are making a surprise trip to Kyiv to push through a string of new defense initiatives. Zoya Sheftalovich and Ian Wishart discuss these [\u2026]",
-    "drafted_at": "2026-07-15T04:39:19.114360",
-    "data": {
-      "source": "POLITICO EU"
-    },
-    "content_hash": "e25ef85fffc8860c"
-  },
-  {
-    "id": "60fafb0a",
+    "id": "1bbf1ac9",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "From the BEA desk: China\u2019s economy slowed more than expected last quarter to the weakest in more than three years, raising pressure on policymakers to speed up public spending to ensure their annual growth goal is met.\n\nhttps://financialpost.com/pmn/business-pmn/chinas-gdp-growth-unexpectedly-dips-below-official-target-range",
+    "draft_text": "From the inflation desk: June final CPI +3.2% vs +3.2% y/y prelim Prior +3.2% June final HICP +3.6% vs +3.6% y/y prelim Prior +3.6% \ufeffCore CPI +2.9% y/y\ufeff Prior +3.0% More to come..\n\nThis article was written by Justin Low at investinglive.com.\n\nhttps://investinglive.com/news/spain-june-final-cpi-vs-3-2-y-y-prelim/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/pmn/business-pmn/chinas-gdp-growth-unexpectedly-dips-below-official-target-range",
-    "source_title": "China\u2019s GDP Growth Unexpectedly Dips Below Official Target Range",
-    "source_summary": "China\u2019s economy slowed more than expected last quarter to the weakest in more than three years, raising pressure on policymakers to speed up public spending to ensure their annual growth goal is met.",
-    "drafted_at": "2026-07-15T04:39:19.190371",
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/spain-june-final-cpi-vs-3-2-y-y-prelim/",
+    "source_title": "Spain June final CPI +3.2% vs +3.2% y/y prelim",
+    "source_summary": "June final CPI +3.2% vs +3.2% y/y prelim Prior +3.2% June final HICP +3.6% vs +3.6% y/y prelim Prior +3.6% \ufeffCore CPI +2.9% y/y\ufeff Prior +3.0% More to come.. This article was written by Justin Low at investinglive.com.",
+    "drafted_at": "2026-07-15T07:05:39.235007",
     "data": {
-      "source": "FINANCIAL POST"
+      "source": "FOREXLIVE"
     },
-    "content_hash": "e496158813df0ba4"
+    "content_hash": "bc2dfe1d01946f50"
   },
   {
-    "id": "ce50181c",
+    "id": "fd47a915",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "CPI just printed. The US Dollar (USD) underperforms its major currency peers as traders have trimmed Federal Reserve (Fed) interest rate hike expectations for the current year, following the release of the softer-than-expected United States (US) Consumer Price Index (CPI) data for June.\n\nhttps://www.fxstreet.com/news/united-states-dollar-index-stays-below-101-as-traders-trim-hawkish-fed-bets-202607150329",
+    "draft_text": "CPI just printed. DBS Group Research economist Philip Wee warns that speculative long positions in the US Dollar (USD) look vulnerable after June US CPI surprised on the downside.\n\nhttps://www.fxstreet.com/news/us-dollar-long-positioning-faces-reality-check-dbs-202607150645",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/united-states-dollar-index-stays-below-101-as-traders-trim-hawkish-fed-bets-202607150329",
-    "source_title": "United States Dollar Index stays below 101 as traders trim hawkish Fed bets",
-    "source_summary": "The US Dollar (USD) underperforms its major currency peers as traders have trimmed Federal Reserve (Fed) interest rate hike expectations for the current year, following the release of the softer-than-expected United States (US) Consumer Price Index (CPI) data for June.",
-    "drafted_at": "2026-07-15T04:39:19.190763",
+    "source_url": "https://www.fxstreet.com/news/us-dollar-long-positioning-faces-reality-check-dbs-202607150645",
+    "source_title": "US Dollar: Long positioning faces reality check \u2013 DBS",
+    "source_summary": "DBS Group Research economist Philip Wee warns that speculative long positions in the US Dollar (USD) look vulnerable after June US CPI surprised on the downside.",
+    "drafted_at": "2026-07-15T07:05:39.235238",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "cfcefcdbb406527f"
+    "content_hash": "69771930c66a45f6"
   },
   {
-    "id": "2a5631e6",
+    "id": "c6199b66",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "Inflation update: Nikkei rises but gains checked ahead of ASML earnings, Kospi surges China Q2 GDP growth cools to 4.3%, weakest pace in three and a half years US forces hit dozens of Iranian military sites near Strait of Hormuz China June Retail sales +1.0% y/y (expected -0.1%) and Industrial output +5.3% y/y (expected 4.6%) China Q2 GDP 0.9% q/q (expected 0.9%) and 4.3% y/y (expected 4.5%) New home prices in China fell for a fourth straight year in June China House prices June 2026 -3.3% y/y (prior -3.5%) Oil escalation - Iran hit US bases in Bahrain, Kuwait and Jordan Korea Exchange halted trading twice as Kospi and Kosdaq futures rocketed.\n\nSK Hynix +12% PBOC sets USD/ CNY mid-point today at 6.7910 (vs. estimate at 6.7965) Gulf states race to pipeline oil around Hormuz, Goldman Sachs finds.\n\nNew Zealand retail data, June 2026: +1.3% y/y (vs. prior +3.3%) Japan - Reuters Tankan shows split business mood as Middle East risks linger Here's the key test for next Bank of Japan (BoJ) rate hike: Whether price rises stick Trump confirms US held talks with Iran, urged Tehran to reach a deal ICYMI - China targets 60tn yuan (~US$8.84tn) retail sales by 2030 under new consumption plan Heads up for Lucid funded traders, the talk about Lucid bankruptcy is a completely different firm Recapping a crude Tuesday: Oil prices climb to one-month high as Middle East conflict escalates Private survey inventory shows a headline crude oil draw smaller than expected Summary: Trump told Fox News strikes on Iran will continue until he deems it enough, confirmed the US held talks with Tehran and urged a deal, while flagging energy targets are being saved for later in the campaign Axios reported Trump convened a Situation Room meeting on Tuesday to weigh a larger new wave of strikes on Iran, with Trump having already floated hitting more sensitive sites including bridges and infrastructure Iran struck US bases in Bahrain, Kuwait and Jordan overnight in retaliation Centcom said it completed a fresh seven-hour wave of strikes on dozens of Iranian targets near the Strait of Hormuz, coinciding with the resumed naval blockade of Iranian ports from 4pm ET Net oil price impact from the latest escalation has been comparatively minor so far, while the US dollar lost further ground Japan's Reuters Tankan held at +13 for manufacturers in July, unchanged from June, while the non-manufacturers' index eased to +25 from +32; both are seen holding into October, with the data unlikely to shift the BOJ's hawkish bias, though markets still see little chance of a hike this month, more likely September or October Japan's May core machinery orders fell 12.4% month-on-month, far below the 4.2% decline expected and reversing an 8.7% rise in April, with the year-on-year reading also missing forecasts; the data is dated and volatile, and likely reflects payback from April's strength given manufacturers' otherwise upbeat mood China's Q2 GDP grew 4.3% year-on-year, the weakest since Q4 2022 and below forecasts, as June retail sales and industrial output beat expectations but property investment and broader fixed-asset investment continued to slump, alongside a further, if slightly slower, decline in June new home prices Asian equities rallied hard on a softer-than-expected US inflation print that cooled July Fed hike bets, with Korea's Kospi surging 6.9%, triggering sidecar halts on both the Kospi and Kosdaq as SK Hynix jumped nearly 12%, while Japan's Nikkei and Topix, and Australian shares, also posted gains It was a session defined by two parallel tracks, an escalating US-Iran conflict running alongside a broad, inflation-driven risk rally across Asian equities, with the two dynamics so far coexisting rather than colliding.\n\nOn the geopolitical side, President Trump told Fox News in an interview aired Tuesday night that strikes on Iran would continue until he personally judged the campaign had done enough, adding that Tehran retained some fight but not much, and that energy targets were being deliberately held back for later in the campaign.\n\nHe also confirmed that the US had held talks with Iran on Tuesday and had urged Tehran to reach a deal, keeping a diplomatic track alive alongside the military one.\n\nThat picture of restraint sat uneasily against a separate Axios report that Trump convened a Situation Room meeting on Tuesday to weigh a larger new wave of strikes on Iran, with Trump having already talked publicly about potentially hitting more sensitive targets, including bridges and broader infrastructure.\n\nIran responded with strikes on US bases in Bahrain, Kuwait and Jordan overnight, widening the conflict's reach across the region.\n\nInto the Asian session, Centcom confirmed it had completed an additional, seven-hour wave of strikes on dozens of Iranian military targets near the Strait of Hormuz, timed alongside the resumption of the US naval blockade of Iranian ports and coastal areas from 4pm ET.\n\nhttps://investinglive.com/news/investinglive-asia-pacific-fx-news-wrap-15-jul/",
+    "draft_text": "CPI POSTCARD: OCBC\u2019s Sim Moh Siong and Christopher Wong report that Gold has rebounded from sub-4000 levels after softer United States (US) Consumer Price Index (CPI) prompted markets to pare Fed hike expectations and pushed USD and front-end US Treasury yields lower.\n\nhttps://www.fxstreet.com/news/gold-rebound-needs-softer-oil-and-data-ocbc-202607150638",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/gold-rebound-needs-softer-oil-and-data-ocbc-202607150638",
+    "source_title": "Gold: Rebound needs softer Oil and data \u2013 OCBC",
+    "source_summary": "OCBC\u2019s Sim Moh Siong and Christopher Wong report that Gold has rebounded from sub-4000 levels after softer United States (US) Consumer Price Index (CPI) prompted markets to pare Fed hike expectations and pushed USD and front-end US Treasury yields lower.",
+    "drafted_at": "2026-07-15T07:05:39.235570",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "00b024208bbf1c50"
+  },
+  {
+    "id": "1630282e",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "The CPI scoreboard: EUROPEAN SESSION In the European session, we don't have much on the agenda other than a couple of low tier releases like the final Spanish CPI and the Eurozone Industrial Production.\n\nThe data won't change anything for the ECB, so the market reaction will likely be muted.\n\nThe surprisingly soft US CPI has given the markets a breather and we've seen some positive risk sentiment as Fed tightening risk eased a bit.\n\nUnfortunately, due to the US-Iran crisis in the background, the reaction to the CPI wasn't as strong as it would have been without the tensions in the Middle East.\n\nAMERICAN SESSION In the American session, we have the US PPI report and the Bank of Canada rate decision.\n\nThe US PPI Y/Y is expected at 6.2% vs 6.5% prior, while the M/M measure is seen at 0.0% vs 1.1% prior.\n\nThe Core PPI Y/Y is expected at 5.1% vs 4.9% prior, while the M/M figure is seen at 0.3% vs 0.4% prior.\n\nThis is unlikely to be a game changer as the Fed placed more focus on yesterday's data.\n\nhttps://investinglive.com/news/what-are-the-main-events-for-today-3/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/investinglive-asia-pacific-fx-news-wrap-15-jul/",
-    "source_title": "investingLive Asia-pacific FX news wrap 15 Jul",
-    "source_summary": "Nikkei rises but gains checked ahead of ASML earnings, Kospi surges China Q2 GDP growth cools to 4.3%, weakest pace in three and a half years US forces hit dozens of Iranian military sites near Strait of Hormuz China June Retail sales +1.0% y/y (expected -0.1%) and Industrial output +5.3% y/y (expected 4.6%) China Q2 GDP 0.9% q/q (expected 0.9%) and 4.3% y/y (expected 4.5%) New home prices in Chin",
-    "drafted_at": "2026-07-15T04:39:19.196649",
+    "source_url": "https://investinglive.com/news/what-are-the-main-events-for-today-3/",
+    "source_title": "What are the main events for today?",
+    "source_summary": "EUROPEAN SESSION In the European session, we don't have much on the agenda other than a couple of low tier releases like the final Spanish CPI and the Eurozone Industrial Production. The data won't change anything for the ECB, so the market reaction will likely be muted. The surprisingly soft US CPI has given the markets a breather and we've seen some positive risk sentiment as Fed tightening risk",
+    "drafted_at": "2026-07-15T07:05:39.236808",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "b3493508b80f3786"
+    "content_hash": "245503c248600b1b"
   },
   {
-    "id": "2bd2f034",
+    "id": "59fd4d14",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "From the BEA desk: Economic growth data for China in the April - June quarter.\n\nChina Q2 GDP 0.9% q/q expected 0.9%, prior 1.3% 4.3% y/y, well down from the Q1 growth rate of 5% expected 4.5%, prior 5.0% H1 2026 national urban surveyed unemployment rate averaged 5.2% I'll have more to come on this separately.\n\nHere: \ufeff China Q2 GDP growth cools to 4.3%, weakest pace in three and a half years \ufeff This article was written by Eamonn Sheridan at investinglive.com.\n\nhttps://investinglive.com/news/china-q2-gdp-q-q-expected-0-9-and-y-y-expected-4-5/",
+    "draft_text": "How sticky is inflation? Let's see: Deutsche Bank strategists note that softer United States (US) Consumer Price Index (CPI), gains in chipmakers and strong bank earnings supported US equities despite sharp weakness in software stocks.\n\nhttps://www.fxstreet.com/news/equities-cpi-driven-gains-and-tech-dispersion-deutsche-bank-202607150626",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/china-q2-gdp-q-q-expected-0-9-and-y-y-expected-4-5/",
-    "source_title": "China Q2 GDP 0.9% q/q (expected 0.9%) and 4.3% y/y (expected 4.5%)",
-    "source_summary": "Economic growth data for China in the April - June quarter. China Q2 GDP 0.9% q/q expected 0.9%, prior 1.3% 4.3% y/y, well down from the Q1 growth rate of 5% expected 4.5%, prior 5.0% H1 2026 national urban surveyed unemployment rate averaged 5.2% I'll have more to come on this separately. Here: \ufeff China Q2 GDP growth cools to 4.3%, weakest pace in three and a half years \ufeff This article was written ",
-    "drafted_at": "2026-07-15T04:39:19.197239",
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/equities-cpi-driven-gains-and-tech-dispersion-deutsche-bank-202607150626",
+    "source_title": "Equities: CPI-driven gains and tech dispersion \u2013 Deutsche Bank",
+    "source_summary": "Deutsche Bank strategists note that softer United States (US) Consumer Price Index (CPI), gains in chipmakers and strong bank earnings supported US equities despite sharp weakness in software stocks.",
+    "drafted_at": "2026-07-15T07:05:39.237036",
     "data": {
-      "source": "FOREXLIVE"
+      "source": "FXSTREET"
     },
-    "content_hash": "543cb0b8f5399c4b"
+    "content_hash": "abc6285e2785d030"
   },
   {
-    "id": "6812e058",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "Consumer scoreboard: Economic 'activity' data from China, June 2026 Fixed Asset Investment (YTD) (YoY) (Jun) -5.7% a big miss, but the other data is strong expected -4.9%, prior -4.1% Industrial Production (YoY) (Jun) +5.3% expected 4.6%, prior 4.5% Retail Sales (YoY) (Jun) +1.0% expected -0.1%, prior -0.6% Urban surveyed unemployment rate 5.0%, down 0.1% m/m More here: \ufeffChina Q2 GDP growth cools to 4.3%, weakest pace in three and a half years\ufeff I'll have more to come on this separately This article was written by Eamonn Sheridan at investinglive.com.\n\nhttps://investinglive.com/news/china-june-retail-sales-y-y-expected-0-1-and-industrial-output-y-y-expected-4-6/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/china-june-retail-sales-y-y-expected-0-1-and-industrial-output-y-y-expected-4-6/",
-    "source_title": "China June Retail sales +1.0% y/y (expected -0.1%) and Industrial output +5.3% y/y (expected 4.6%)",
-    "source_summary": "Economic 'activity' data from China, June 2026 Fixed Asset Investment (YTD) (YoY) (Jun) -5.7% a big miss, but the other data is strong expected -4.9%, prior -4.1% Industrial Production (YoY) (Jun) +5.3% expected 4.6%, prior 4.5% Retail Sales (YoY) (Jun) +1.0% expected -0.1%, prior -0.6% Urban surveyed unemployment rate 5.0%, down 0.1% m/m More here: \ufeffChina Q2 GDP growth cools to 4.3%, weakest pace",
-    "drafted_at": "2026-07-15T04:39:19.197921",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "dd9e04184ac9b2fd"
-  },
-  {
-    "id": "b53ea439",
+    "id": "084769b7",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -486,7 +486,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-07-15T04:39:19.208925",
+    "drafted_at": "2026-07-15T07:05:39.251305",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -494,7 +494,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "b8882a3d",
+    "id": "9b755424",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Recessions are obvious in retrospect and invisible in real time.",
@@ -504,14 +504,14 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Recessions are obvious in retrospect and invisible in real time.",
-    "drafted_at": "2026-07-15T04:39:19.209023",
+    "drafted_at": "2026-07-15T07:05:39.251386",
     "data": {
       "take_seed": "2026-07-15-pack-1"
     },
     "content_hash": "9b0f7be55d8ef71c"
   },
   {
-    "id": "86ed92c7",
+    "id": "30f82cf3",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Soft landing is the most dangerous phrase in central banking.",
@@ -521,7 +521,7 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Soft landing is the most dangerous phrase in central banking.",
-    "drafted_at": "2026-07-15T04:39:19.209082",
+    "drafted_at": "2026-07-15T07:05:39.251433",
     "data": {
       "take_seed": "2026-07-15-pack-2"
     },
