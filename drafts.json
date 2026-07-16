@@ -1,6 +1,6 @@
 [
   {
-    "id": "3b9e4651",
+    "id": "9bd796c7",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "If you read one thing today: The average price of diesel fuel in the US has increased again to more than $5 a gallon, according to the AAA, and the average price of gas is almost $4, returning to their highs before the June memorandum of understanding between the US and Iran.\n\nA year ago today, the AAA says, the average price for a gallon of diesel was $3.72, almost a dollar and a quarter less than it is now.\n\nThe price of a barrel of oil stands at about $81.\n\nIt is a reminder to consumers and truckers of the costs of the Iran war and the unpredictable rhetoric from both Washington and Tehran.\n\nEarlier this week, Iran declared the strait of Hormuz shut, after both Iran and the US claimed to be the guarantors of safe passage through the strategic waterway.\n\nhttps://www.theguardian.com/world/2026/jul/16/us-gas-prices-rise-strait-of-hormuz",
@@ -10,14 +10,67 @@
     "source_url": "https://www.theguardian.com/world/2026/jul/16/us-gas-prices-rise-strait-of-hormuz",
     "source_title": "US gas prices edge up again as US-Iran tensions heighten over strait of Hormuz",
     "source_summary": "Diesel tops $5 a gallon as regular gas reaches almost $4, nearly a dollar and a quarter more than a year ago Middle East crisis live \u2013 latest updates The average price of diesel fuel in the US has increased again to more than $5 a gallon, according to the AAA , and the average price of gas is almost $4, returning to their highs before the June memorandum of understanding between the US and Iran . ",
-    "drafted_at": "2026-07-16T16:49:49.938347",
+    "drafted_at": "2026-07-16T18:08:19.228464",
     "data": {
       "source": "GUARDIAN"
     },
     "content_hash": "1aac7991e57eaffe"
   },
   {
-    "id": "8809c330",
+    "id": "f5e16dec",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Two seconds, trust me. VIX climbs 5.5% in 5 sessions to 16.43.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CBOE \u00b7 ^VIX",
+    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "source_title": "VIX (S&P 500 volatility)",
+    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "drafted_at": "2026-07-16T18:08:19.228756",
+    "data": {
+      "signal_id": "^VIX:move:2026-07-16",
+      "kind": "move_up",
+      "current": "16.43"
+    },
+    "content_hash": "995f4d67e7e875d2"
+  },
+  {
+    "id": "796151bf",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "Policy update for the pack: The statement discusses a coordinated approach to identifying highly sensitive data and documents and discusses enhanced procedures for the review of such information to reduce any cybersecurity risks while ensuring that the agencies have access to such information at all times during an examination.\n\nThe agencies recognize the importance of keeping a bank's highly sensitive information confidential and protecting it against disclosure to or from access by unauthorized persons as a result of cybersecurity vulnerabilities.\n\nThe agencies have committed to notify affected banks of any potential or confirmed material data breach involving confidential supervisory information.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
+    "source_title": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
+    "source_summary": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
+    "drafted_at": "2026-07-16T18:08:19.239689",
+    "data": {
+      "actor": "FED"
+    },
+    "content_hash": "59a82190f82073b0"
+  },
+  {
+    "id": "0d46127f",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "EURO RATES READ: EUR/JPY trades around 185.80 at the time of writing on Thursday, little changed on the day after reaching a one-month high earlier this week.\n\nhttps://www.fxstreet.com/news/euro-edges-lower-against-the-japanese-yen-despite-ecb-rate-hike-expectations-202607161715",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "ECB",
+    "source_url": "https://www.fxstreet.com/news/euro-edges-lower-against-the-japanese-yen-despite-ecb-rate-hike-expectations-202607161715",
+    "source_title": "Euro edges lower against the Japanese Yen despite ECB rate hike expectations",
+    "source_summary": "EUR/JPY trades around 185.80 at the time of writing on Thursday, little changed on the day after reaching a one-month high earlier this week.",
+    "drafted_at": "2026-07-16T18:08:19.240247",
+    "data": {
+      "actor": "ECB"
+    },
+    "content_hash": "08ad6345d98b6058"
+  },
+  {
+    "id": "cb1a7d11",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FOMC update. Gold (XAU/USD) edges lower on Thursday as traders look past back-to-back, softer-than-expected US inflation reports and remain focused on renewed Middle East tensions, which are fueling concerns that higher energy prices could reignite inflationary pressure.\n\nhttps://www.fxstreet.com/news/gold-slips-as-energy-driven-inflation-fears-keep-fed-rate-hike-bets-in-play-202607161146",
@@ -27,31 +80,14 @@
     "source_url": "https://www.fxstreet.com/news/gold-slips-as-energy-driven-inflation-fears-keep-fed-rate-hike-bets-in-play-202607161146",
     "source_title": "Gold tests $4,000 as energy-driven inflation fears keep Fed rate hike bets in play",
     "source_summary": "Gold (XAU/USD) edges lower on Thursday as traders look past back-to-back, softer-than-expected US inflation reports and remain focused on renewed Middle East tensions, which are fueling concerns that higher energy prices could reignite inflationary pressure.",
-    "drafted_at": "2026-07-16T16:49:49.949092",
+    "drafted_at": "2026-07-16T18:08:19.240578",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "4843a7ec207f9081"
   },
   {
-    "id": "5a8892eb",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "RATE-PATH READ: The Swiss Franc (CHF) weakens against the US Dollar (USD) on Thursday as the Greenback regains its footing following a two-day decline.\n\nAt the time of writing, USD/CHF trades around 0.8080, up nearly 0.35% on the day, rebounding from an intraday low of 0.8044.\n\nhttps://www.fxstreet.com/news/swiss-franc-falls-as-middle-east-tensions-keep-fed-rate-hike-expectations-alive-202607161526",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://www.fxstreet.com/news/swiss-franc-falls-as-middle-east-tensions-keep-fed-rate-hike-expectations-alive-202607161526",
-    "source_title": "Swiss Franc falls as Middle East tensions keep Fed rate hike expectations alive",
-    "source_summary": "The Swiss Franc (CHF) weakens against the US Dollar (USD) on Thursday as the Greenback regains its footing following a two-day decline. At the time of writing, USD/CHF trades around 0.8080, up nearly 0.35% on the day, rebounding from an intraday low of 0.8044.",
-    "drafted_at": "2026-07-16T16:49:49.949448",
-    "data": {
-      "actor": "Fed"
-    },
-    "content_hash": "319ed13660494f0c"
-  },
-  {
-    "id": "a85283b7",
+    "id": "d3bd8b46",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Central bank corner: The Board's process for setting the discount rate is distinct from the process the Federal Open Market Committee follows in setting the target range for the federal funds rate.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
@@ -61,14 +97,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
     "source_title": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
     "source_summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
-    "drafted_at": "2026-07-16T16:49:49.949860",
+    "drafted_at": "2026-07-16T18:08:19.240955",
     "data": {
       "actor": "FED"
     },
     "content_hash": "5fb63e04cb74e9a2"
   },
   {
-    "id": "3fde5fa3",
+    "id": "c9d566df",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FED WATCH: \"The Federal Reserve's commitment to price stability and maximum employment is unwavering.\n\nAs is our resolve to pursue our mandate with rigor,\" said Chairman Kevin Warsh.\n\n\"The U.S. economy has changed significantly over the last generation, and never more so than right now.\n\nEach task force will carefully consider whether policymakers' means and methods, analytical tools and policy approaches can be improved upon.\n\nI am honored that the best minds from a range of disciplines have agreed to work with us to sharpen our performance as an institution.\n\nThe five task forces will examine areas central to the broad conduct of monetary policy.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
@@ -78,48 +114,114 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
     "source_title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
     "source_summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-    "drafted_at": "2026-07-16T16:49:49.950954",
+    "drafted_at": "2026-07-16T18:08:19.242023",
     "data": {
       "actor": "FED"
     },
     "content_hash": "ed14be39878da65d"
   },
   {
-    "id": "8782d378",
-    "format": "POLICY_READ",
+    "id": "52ec197c",
+    "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "RATE-PATH READ: TS Banking Group, Inc., Treynor, Iowa and TS Contrarian Bancshares, Inc., Treynor, Iowa Written Agreement dated July 6, 2026 Additional enforcement actions can be searched for here.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260709a.htm",
+    "draft_text": "$BOT insider bought $9,999,988 on 2026-07-14. \ud83d\udc40\n\nRobostrategy, Inc.. 272,405 shares at $36.71.\n\n-19.0% since the purchase.\n\nhttp://openinsider.com/screener?s=BOT",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FED",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260709a.htm",
-    "source_title": "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc.",
-    "source_summary": "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc.",
-    "drafted_at": "2026-07-16T16:49:49.951251",
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=BOT",
+    "source_title": "Robostrategy, Inc. (BOT) insider bought $9,999,988",
+    "source_summary": "1 insider(s) bought 272,405 shares at $36.71 on 2026-07-14.",
+    "drafted_at": "2026-07-16T18:08:19.242919",
     "data": {
-      "actor": "FED"
+      "ticker": "BOT",
+      "type": "P",
+      "dollar_value": 9999988.0,
+      "pct_since": -18.986652761868257
     },
-    "content_hash": "2da0384c8b59f120"
+    "content_hash": "1812894642b9c15d"
   },
   {
-    "id": "e1dc9bcc",
-    "format": "CORRUPTION_WATCH",
+    "id": "c0dad2ca",
+    "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "PHILADELPHIA, July 16, 2026 /PRNewswire/ -- National plaintiffs' law firm Berger Montague PC announces a class action lawsuit against ADMA Biologics, Inc. (NASDAQ: ADMA) (\"ADMA\" or the \"Company\") on behalf of investors who purchased or acquired ADMA common stock during the period from...\n\nhttps://www.prnewswire.com/news-releases/nasdaq-adma-class-action-notice-berger-montague-encourages-adma-biologics-inc-nasdaq-adma-investors-to-inquire-about-a-securities-fraud-class-action-302827385.html",
+    "draft_text": "$ENR insider bought $2,020,832 on 2026-07-13. \ud83d\udc40\n\nEnergizer Holdings, Inc.. 100,000 shares at $20.21.\n\n+2.9% since the purchase.\n\nhttp://openinsider.com/screener?s=ENR",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "PR NEWSWIRE",
-    "source_url": "https://www.prnewswire.com/news-releases/nasdaq-adma-class-action-notice-berger-montague-encourages-adma-biologics-inc-nasdaq-adma-investors-to-inquire-about-a-securities-fraud-class-action-302827385.html",
-    "source_title": "NASDAQ: ADMA CLASS ACTION NOTICE: Berger Montague Encourages ADMA Biologics, Inc. (NASDAQ: ADMA) Investors to Inquire About a Securities Fraud Class Action",
-    "source_summary": "PHILADELPHIA, July 16, 2026 /PRNewswire/ -- National plaintiffs' law firm Berger Montague PC announces a class action lawsuit against ADMA Biologics, Inc. (NASDAQ: ADMA) (\"ADMA\" or the \"Company\") on behalf of investors who purchased or acquired ADMA common stock during the period from...",
-    "drafted_at": "2026-07-16T16:49:49.953110",
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=ENR",
+    "source_title": "Energizer Holdings, Inc. (ENR) insider bought $2,020,832",
+    "source_summary": "1 insider(s) bought 100,000 shares at $20.21 on 2026-07-13.",
+    "drafted_at": "2026-07-16T18:08:19.243029",
     "data": {
-      "source": "PR NEWSWIRE"
+      "ticker": "ENR",
+      "type": "P",
+      "dollar_value": 2020832.0,
+      "pct_since": 2.9193430829319444
     },
-    "content_hash": "c00e8c9c75d3eb16"
+    "content_hash": "cac657d71f037ce7"
   },
   {
-    "id": "c49a5994",
+    "id": "f62337bc",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$VANI insider bought $999,999 on 2026-07-15. \ud83d\udc40\n\nVivani Medical, Inc.. 793,650 shares at $1.26.\n\n+7.5% since the purchase.\n\nhttp://openinsider.com/screener?s=VANI",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=VANI",
+    "source_title": "Vivani Medical, Inc. (VANI) insider bought $999,999",
+    "source_summary": "1 insider(s) bought 793,650 shares at $1.26 on 2026-07-15.",
+    "drafted_at": "2026-07-16T18:08:19.243130",
+    "data": {
+      "ticker": "VANI",
+      "type": "P",
+      "dollar_value": 999999.0,
+      "pct_since": 7.539684053451295
+    },
+    "content_hash": "1a7eecd2686240ea"
+  },
+  {
+    "id": "3798d004",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$FULC insider bought $891,067 on 2026-07-13. \ud83d\udc40\n\nFulcrum Therapeutics, Inc.. 249,946 shares at $3.57.\n\n-1.5% since the purchase.\n\nhttp://openinsider.com/screener?s=FULC",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=FULC",
+    "source_title": "Fulcrum Therapeutics, Inc. (FULC) insider bought $891,067",
+    "source_summary": "1 insider(s) bought 249,946 shares at $3.57 on 2026-07-13.",
+    "drafted_at": "2026-07-16T18:08:19.243233",
+    "data": {
+      "ticker": "FULC",
+      "type": "P",
+      "dollar_value": 891067.0,
+      "pct_since": -1.5406133080063036
+    },
+    "content_hash": "5f2d7964958e2a2e"
+  },
+  {
+    "id": "c2a3424c",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$ECAT insider bought $566,648 on 2026-07-13. \ud83d\udc40\n\nBlackrock Esg Capital Allocation Term Trust. 35,734 shares at $15.86.\n\n-1.8% since the purchase.\n\nhttp://openinsider.com/screener?s=ECAT",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=ECAT",
+    "source_title": "Blackrock Esg Capital Allocation Term Trust (ECAT) insider bought $566,648",
+    "source_summary": "1 insider(s) bought 35,734 shares at $15.86 on 2026-07-13.",
+    "drafted_at": "2026-07-16T18:08:19.243346",
+    "data": {
+      "ticker": "ECAT",
+      "type": "P",
+      "dollar_value": 566648.0,
+      "pct_since": -1.7654481481333213
+    },
+    "content_hash": "1bd6389c0ecac937"
+  },
+  {
+    "id": "33948afa",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "FRAUDSTER DOWN: DOJ indicted Sioux Falls crypto investor Benjamin Paul Wiener on 29 counts over an alleged $20 million fraud, with a trial set for Sept.\n\nhttps://www.theblock.co/post/408654/us-jury-indicts-south-dakota-crypto-investor-29-counts-alleged-20m-investor-fraud?utm_source=rss&utm_medium=rss",
@@ -129,31 +231,14 @@
     "source_url": "https://www.theblock.co/post/408654/us-jury-indicts-south-dakota-crypto-investor-29-counts-alleged-20m-investor-fraud?utm_source=rss&utm_medium=rss",
     "source_title": "US jury indicts South Dakota crypto investor on 29 counts over alleged $20 million investor fraud",
     "source_summary": "DOJ indicted Sioux Falls crypto investor Benjamin Paul Wiener on 29 counts over an alleged $20 million fraud, with a trial set for Sept. 15.",
-    "drafted_at": "2026-07-16T16:49:49.953355",
+    "drafted_at": "2026-07-16T18:08:19.243618",
     "data": {
       "source": "THE BLOCK"
     },
     "content_hash": "89c570e9243053bd"
   },
   {
-    "id": "d0c0949a",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "JUSTICE SERVED: The Fort Bend County Sheriff's Office said they arrested a local mayor this week for charges that included illegal voting and other fraud.\n\nArcola Mayor Fred Burton, 68, spent a night in jail over the two counts of illegal voting, misuse of information, tampering with a government record, and fraudulently securing document execution, according to an indictment released Wednesday.\n\nHe faces a separate indictment in connection with a city contract.\n\nIn the 2026 election where Burton took back the mayor's office from Williams, he received 101 total votes, and she received 79 votes.\n\nProsecutors say Burton allegedly made two city council members sign fraudulent checks totaling at least $30,000 in 2023.\n\nBurton also allegedly attempted to help people vote in the Arcola election despite knowing they did not live in the city, during this year's election and the election in 2025, according to the indictment.\n\nThe mayor made headlines in April 2024 when he claimed that someone had sent him a noose in the mail as a racist threat during a contentious political disagreement.\n\nThe threatening package had been sent to Burton at Arcola City Hall as he was running for his fourth term as mayor.\n\nhttps://www.theblaze.com/news/texas-mayor-illegal-voting-arrest",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "THE BLAZE",
-    "source_url": "https://www.theblaze.com/news/texas-mayor-illegal-voting-arrest",
-    "source_title": "Texas mayor who received noose in package has been ARRESTED for illegal voting",
-    "source_summary": "The Fort Bend County Sheriff's Office said they arrested a local mayor this week for charges that included illegal voting and other fraud. Arcola Mayor Fred Burton, 68, spent a night in jail over the two counts of illegal voting, misuse of information, tampering with a government record, and fraudulently securing document execution, according to an indictment released Wednesday. He faces a separat",
-    "drafted_at": "2026-07-16T16:49:49.955480",
-    "data": {
-      "source": "THE BLAZE"
-    },
-    "content_hash": "400ba8e61f3ecfed"
-  },
-  {
-    "id": "08e5ebb6",
+    "id": "f354e1a0",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "PROTECTION BRIEFING: Plus, Stripe makes a $53 billion move that could crown a stablecoin king.\n\nAnd Ostium gets drained of $18M in the latest DeFi exploit.\n\nhttps://decrypt.co/373636/morning-minute-base-hands-its-app-over-to-cobie",
@@ -163,14 +248,14 @@
     "source_url": "https://decrypt.co/373636/morning-minute-base-hands-its-app-over-to-cobie",
     "source_title": "Morning Minute: Base Hands Its App Over to Cobie",
     "source_summary": "Plus, Stripe makes a $53 billion move that could crown a stablecoin king. And Ostium gets drained of $18M in the latest DeFi exploit.",
-    "drafted_at": "2026-07-16T16:49:49.955763",
+    "drafted_at": "2026-07-16T18:08:19.243875",
     "data": {
       "source": "DECRYPT"
     },
     "content_hash": "f47bb3b33faa2b3d"
   },
   {
-    "id": "373c052a",
+    "id": "628dc9b3",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "RETAIL BEWARE: The post DHS Plans \u201cAll-Out War\u201d on Immigration Scammers as Fraud Complaints Double appeared first on ProPublica.\n\nhttps://www.propublica.org/article/trump-dhs-immigration-scams-fraud-homeland-security",
@@ -180,14 +265,48 @@
     "source_url": "https://www.propublica.org/article/trump-dhs-immigration-scams-fraud-homeland-security",
     "source_title": "DHS Plans \u201cAll-Out War\u201d on Immigration Scammers as Fraud Complaints Double",
     "source_summary": "The post DHS Plans \u201cAll-Out War\u201d on Immigration Scammers as Fraud Complaints Double appeared first on ProPublica .",
-    "drafted_at": "2026-07-16T16:49:49.956005",
+    "drafted_at": "2026-07-16T18:08:19.244111",
     "data": {
       "source": "PROPUBLICA"
     },
     "content_hash": "4e6b5e311091b56e"
   },
   {
-    "id": "ed36a0be",
+    "id": "f1ea36c6",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "The head of an internal auditor resigned after the board of the World Bank\u2019s private investment arm rejected her office\u2019s findings that the deal violated internal safeguard policies.\n\nhttps://www.icij.org/news/2026/07/international-finance-corporation-watchdog-in-turmoil-following-scathing-report-on-microfinance-in-cambodia/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "ICIJ",
+    "source_url": "https://www.icij.org/news/2026/07/international-finance-corporation-watchdog-in-turmoil-following-scathing-report-on-microfinance-in-cambodia/",
+    "source_title": "International Finance Corporation watchdog in turmoil following scathing report on microfinance in Cambodia",
+    "source_summary": "The head of an internal auditor resigned after the board of the World Bank\u2019s private investment arm rejected her office\u2019s findings that the deal violated internal safeguard policies.",
+    "drafted_at": "2026-07-16T18:08:19.244450",
+    "data": {
+      "source": "ICIJ"
+    },
+    "content_hash": "1b8c12671bc79473"
+  },
+  {
+    "id": "706e274d",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "The post FCC Officials Took Pricey Gifts From Paramount as the Company Needed Approval for Billion-Dollar Deals appeared first on ProPublica.\n\nhttps://www.propublica.org/article/paramount-mergers-fcc-kennedy-center-gala",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "PROPUBLICA",
+    "source_url": "https://www.propublica.org/article/paramount-mergers-fcc-kennedy-center-gala",
+    "source_title": "FCC Officials Took Pricey Gifts From Paramount as the Company Needed Approval for Billion-Dollar Deals",
+    "source_summary": "The post FCC Officials Took Pricey Gifts From Paramount as the Company Needed Approval for Billion-Dollar Deals appeared first on ProPublica .",
+    "drafted_at": "2026-07-16T18:08:19.244710",
+    "data": {
+      "source": "PROPUBLICA"
+    },
+    "content_hash": "6af883da7b088e07"
+  },
+  {
+    "id": "d3c06fc1",
     "format": "GLOBAL_DESK",
     "status": "pending",
     "draft_text": "PACK BRIEFING \u2014 ASIA: EDX Markets, an institutional-only crypto trading venue with its own central clearinghouse, closed a $76 million Series C funding round led by SBI Holdings, the firm said in a press release.\n\nThe Tokyo-listed financial group becomes a strategic investor in the U.S. exchange.\n\nhttps://thedefiant.io/converge/tradfi-and-fintech/edx-markets-closes-76m-series-c-led-by-sbi-holdings",
@@ -197,116 +316,116 @@
     "source_url": "https://thedefiant.io/converge/tradfi-and-fintech/edx-markets-closes-76m-series-c-led-by-sbi-holdings",
     "source_title": "EDX Markets Closes $76M Series C Led by SBI Holdings",
     "source_summary": "EDX Markets, an institutional-only crypto trading venue with its own central clearinghouse, closed a $76 million Series C funding round led by SBI Holdings, the firm said in a press release. The Tokyo-listed financial group becomes a strategic investor in the U.S. exchange. The capital will fund\u2026",
-    "drafted_at": "2026-07-16T16:49:49.959020",
+    "drafted_at": "2026-07-16T18:08:19.246200",
     "data": {
       "source": "THE DEFIANT"
     },
     "content_hash": "766a40daeebddf43"
   },
   {
-    "id": "21f453b8",
+    "id": "40c02763",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Levant update: 'Dena Karari has finally been released and is on her way home to the United States'.\n\nhttps://www.wnd.com/2026/07/midst-war-trump-gets-detained-american-freed-iran/?utm_source=rss&utm_medium=rss&utm_campaign=midst-war-trump-gets-detained-american-freed-iran",
+    "draft_text": "MIDDLE EAST DESK: Continued US-Iran talks amid military tensions highlight the complex interplay between diplomacy and conflict, impacting global stability and markets.\n\nThe post US-Iran diplomatic talks continue despite military tensions appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/us-iran-diplomatic-talks-continue-despite-military-tensions/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "WND",
-    "source_url": "https://www.wnd.com/2026/07/midst-war-trump-gets-detained-american-freed-iran/?utm_source=rss&utm_medium=rss&utm_campaign=midst-war-trump-gets-detained-american-freed-iran",
-    "source_title": "In midst of war, Trump gets detained American freed from Iran",
-    "source_summary": "'Dena Karari has finally been released and is on her way home to the United States'",
-    "drafted_at": "2026-07-16T16:49:49.959675",
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/us-iran-diplomatic-talks-continue-despite-military-tensions/",
+    "source_title": "US-Iran diplomatic talks continue despite military tensions",
+    "source_summary": "Continued US-Iran talks amid military tensions highlight the complex interplay between diplomacy and conflict, impacting global stability and markets. The post US-Iran diplomatic talks continue despite military tensions appeared first on Crypto Briefing .",
+    "drafted_at": "2026-07-16T18:08:19.246774",
     "data": {
-      "source": "WND"
+      "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "a98c5bd226d853e5"
+    "content_hash": "b1c4a877b032fb15"
   },
   {
-    "id": "b5afba7c",
+    "id": "3de7b87f",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "LATAM DESK: Beef, coffee, and rare-earth materials escaped US tariffs amid trade tensions with Brazil over alleged unfair practices.\n\nhttps://www.aljazeera.com/economy/2026/7/16/us-to-impose-new-25-percent-tariffs-on-some-brazilian-imports?traffic_source=rss",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/economy/2026/7/16/us-to-impose-new-25-percent-tariffs-on-some-brazilian-imports?traffic_source=rss",
-    "source_title": "US to impose new 25 percent tariffs on some Brazilian imports",
-    "source_summary": "Beef, coffee, and rare-earth materials escaped US tariffs amid trade tensions with Brazil over alleged unfair practices.",
-    "drafted_at": "2026-07-16T16:49:49.960581",
-    "data": {
-      "source": "AL JAZEERA"
-    },
-    "content_hash": "d0ab3c91c67a0af1"
-  },
-  {
-    "id": "3ea0e0b7",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "LATAM DESK: Despite Lionel Messi's presence, Argentina enter the 2026 final as underdogs to Spain and their starlet Lamine Yamal.\n\nhttps://www.aljazeera.com/sports/2026/7/16/how-can-argentina-beat-favourites-spain-to-win-back-to-back-world-cups?traffic_source=rss",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/sports/2026/7/16/how-can-argentina-beat-favourites-spain-to-win-back-to-back-world-cups?traffic_source=rss",
-    "source_title": "How can Argentina and Messi beat Spain and Yamal to defend World Cup?",
-    "source_summary": "Despite Lionel Messi's presence, Argentina enter the 2026 final as underdogs to Spain and their starlet Lamine Yamal.",
-    "drafted_at": "2026-07-16T16:49:49.960908",
-    "data": {
-      "source": "AL JAZEERA"
-    },
-    "content_hash": "6aeebfd0082f2a3e"
-  },
-  {
-    "id": "09c9d841",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 EUROPE: After more than three years of regulatory work and collaborations, the future may finally be here.\n\nYou'll probably just have to travel a bit to participate.\n\n'Flying cars are coming, and the Jetson ONE is a first step towards that goal.' In September 2025, tech entrepreneur Palmer Luckey was the first notable customer of the Jetson ONE, a personal aircraft right out of a sci-fi movie.\n\nLuckey strapped in and went for a ride in the electric vertical takeoff and landing (eVTOL) aircraft, a term meaning the vehicle takes off and lands just like a helicopter would.\n\nLess than a year later, the vehicle \u2014 dubbed the modern \"flying car\" by creator Jetson \u2014 has been approved for personal use in Italy.\n\nJetson announced the breakthrough last week after being granted the first official ultralight identification number in Italy for an eVTOL, which means it is no longer considered an experimental craft and is under the same operational guidelines as an ultralight helicopter.\n\nThe craft is powered by eight electric motors and can fly for up to 20 minutes on lithium-ion batteries.\n\nThe Jetson ONE moves at a top speed of 63 mph and can carry a pilot who weighs up to 210 pounds.\n\nhttps://www.theblaze.com/tech/flying-car-gets-authorization-europe",
+    "draft_text": "LATAM DESK: George Santos (N.Y.), whose fabricated life story once dominated headlines, the internet performed its little eulogy \u2014 diva down, rest in power.\n\nTwo years later, the resurrection arrives precisely on schedule, because Santos is back.\n\nAnd this time, it's as a reality TV contestant on the fifth season of Fox's \"Special Forces: World's Toughest Test,\" a military-themed endurance contest filming in the Malaysian jungle, Fox announced Wednesday.\n\n'I took my fat behind off the coach and tried something new!' The show subjects contestants to chemical gassing and other military-themed challenges, including a claustrophobic, high-pressure search of an underground bunker to find crucial military weapons and a supply load retrieval while suspended 300 feet above the jungle floor.\n\nSantos announced the news on social media.\n\n\u201cI took my fat behind off the coach and tried something new!\u201d he wrote in a post on X along with a promotional image of himself kneeling in the wild.\n\nI can\u2019t wait to share this experience with y\u2019all!\u201d He won't be doing it alone.\n\nSantos will compete against 14 other celebrities, including former NBA player Matt Barnes and actress Ruby Rose, on a season Fox is promoting as the \"ultimate test of physical, mental, and emotional resilience.\" The season premieres September 24 at 9 p.m. ET on Fox, with episodes streaming the next day on Hulu.\n\nhttps://www.theblaze.com/news/diva-down-diva-up-disgraced-congressman-george-santos-enlists-in-jungle-survival-show",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "THE BLAZE",
-    "source_url": "https://www.theblaze.com/tech/flying-car-gets-authorization-europe",
-    "source_title": "You can finally buy Palmer Luckey's favorite 'flying car'",
-    "source_summary": "After more than three years of regulatory work and collaborations, the future may finally be here. You'll probably just have to travel a bit to participate. 'Flying cars are coming, and the Jetson ONE is a first step towards that goal.' In September 2025, tech entrepreneur Palmer Luckey was the first notable customer of the Jetson ONE, a personal aircraft right out of a sci-fi movie. Luckey strapp",
-    "drafted_at": "2026-07-16T16:49:49.964501",
+    "source_url": "https://www.theblaze.com/news/diva-down-diva-up-disgraced-congressman-george-santos-enlists-in-jungle-survival-show",
+    "source_title": "Diva down, diva up: Disgraced Congressman George Santos enlists in jungle survival show",
+    "source_summary": "When Congress expelled former Rep. George Santos (N.Y.), whose fabricated life story once dominated headlines, the internet performed its little eulogy \u2014 diva down, rest in power. Two years later, the resurrection arrives precisely on schedule, because Santos is back. And this time, it's as a reality TV contestant on the fifth season of Fox's \"Special Forces: World's Toughest Test,\" a military-the",
+    "drafted_at": "2026-07-16T18:08:19.250549",
     "data": {
       "source": "THE BLAZE"
     },
-    "content_hash": "872155df5bcd5a85"
+    "content_hash": "051d9eb57444ae76"
   },
   {
-    "id": "76c03560",
-    "format": "DATA_DROP",
+    "id": "6d767926",
+    "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "HOUSING READ: Existing, single-family home sales totaled 279,880 in June on a seasonally adjusted annualized rate, up 4.1 percent from May and 6.0 percent from June 2025.\n\nThe statewide median home price declined to $904,640, down 2.8 percent from its record-breaking price of $930,260 in May, but up 0.4...\n\nhttps://www.prnewswire.com/news-releases/california-home-sales-rebound-in-june-as-home-prices-moderate-car-reports-302827817.html",
+    "draft_text": "PACK BRIEFING \u2014 AMERICAS: Apollo Global Management Inc. plans to put as much as $20 billion to work financing projects in Mexico as the giant asset manager seeks new outlets for its private credit business.\n\nhttps://financialpost.com/pmn/business-pmn/apollo-bets-on-mexico-with-20-billion-target-for-private-credit",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "PR NEWSWIRE",
-    "source_url": "https://www.prnewswire.com/news-releases/california-home-sales-rebound-in-june-as-home-prices-moderate-car-reports-302827817.html",
-    "source_title": "California Home Sales Rebound in June as Home Prices Moderate, C.A.R. Reports",
-    "source_summary": "Existing, single-family home sales totaled 279,880 in June on a seasonally adjusted annualized rate, up 4.1 percent from May and 6.0 percent from June 2025. The statewide median home price declined to $904,640, down 2.8 percent from its record-breaking price of $930,260 in May, but up 0.4...",
-    "drafted_at": "2026-07-16T16:49:50.021459",
+    "primary_source": "FINANCIAL POST",
+    "source_url": "https://financialpost.com/pmn/business-pmn/apollo-bets-on-mexico-with-20-billion-target-for-private-credit",
+    "source_title": "Apollo Bets on Mexico With $20 Billion Target for Private Credit",
+    "source_summary": "Apollo Global Management Inc. plans to put as much as $20 billion to work financing projects in Mexico as the giant asset manager seeks new outlets for its private credit business.",
+    "drafted_at": "2026-07-16T18:08:19.250983",
     "data": {
-      "source": "PR NEWSWIRE"
+      "source": "FINANCIAL POST"
     },
-    "content_hash": "db86110c189c164a"
+    "content_hash": "7725cbf3f31c4ae4"
   },
   {
-    "id": "737175f8",
-    "format": "DATA_DROP",
+    "id": "c25c9064",
+    "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "RETAIL-SALES READ: AUD/USD trades slightly higher near the 0.7010 area on Thursday, extending its recent recovery as the US Dollar (USD) struggles to gain sustained momentum following mixed United States (US) economic data.\n\nhttps://www.fxstreet.com/news/australian-dollar-holds-above-07000-as-us-retail-sales-lose-momentum-202607161515",
+    "draft_text": "MIDDLE EAST DESK: The European Union has unveiled the Electrification Action Plan, aiming for electricity to account for 46% of total energy consumption within the bloc by 2040, effectively doubling the current rate.\n\nSpearheaded by the European Commission, the aggressive policy shift is a direct economic and security response to the energy fallout amid the Middle East conflict.\n\nCurrently, ~23% of the EU's final energy consumption is powered by electricity, a level that has plateaued for a decade.\n\nIn effect, Europe now considers electrification no longer purely a\u2026\n\nhttps://oilprice.com/Latest-Energy-News/World-News/EU-Sets-Target-To-Double-Electrification-Rate-Cut-Oil-Gas-Use.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/australian-dollar-holds-above-07000-as-us-retail-sales-lose-momentum-202607161515",
-    "source_title": "Australian Dollar holds above 0.7000 as US Retail Sales lose momentum",
-    "source_summary": "AUD/USD trades slightly higher near the 0.7010 area on Thursday, extending its recent recovery as the US Dollar (USD) struggles to gain sustained momentum following mixed United States (US) economic data.",
-    "drafted_at": "2026-07-16T16:49:50.021790",
+    "primary_source": "OILPRICE",
+    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/EU-Sets-Target-To-Double-Electrification-Rate-Cut-Oil-Gas-Use.html",
+    "source_title": "EU Sets Target To Double Electrification Rate, Cut Oil & Gas Use",
+    "source_summary": "The European Union has unveiled the Electrification Action Plan, aiming for electricity to account for 46% of total energy consumption within the bloc by 2040, effectively doubling the current rate. Spearheaded by the European Commission, the aggressive policy shift is a direct economic and security response to the energy fallout amid the Middle East conflict. Currently, ~23% of the EU's final ene",
+    "drafted_at": "2026-07-16T18:08:19.253038",
     "data": {
-      "source": "FXSTREET"
+      "source": "OILPRICE"
     },
-    "content_hash": "ded0c3c50d2befed"
+    "content_hash": "942ab223793c3824"
   },
   {
-    "id": "26690838",
+    "id": "a4fb5ea6",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "HOUSING READ: Mortgage rates are high, home prices at record levels and consumers stressed.\n\nThese are all contributing to a drop in existing home sales and builder sentiment.\n\nhttps://www.cnbc.com/2026/07/16/housing-market-mortgages-homebuilding.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/07/16/housing-market-mortgages-homebuilding.html",
+    "source_title": "Here's why the housing market is hurting so much this summer",
+    "source_summary": "Mortgage rates are high, home prices at record levels and consumers stressed. These are all contributing to a drop in existing home sales and builder sentiment.",
+    "drafted_at": "2026-07-16T18:08:19.305242",
+    "data": {
+      "source": "CNBC"
+    },
+    "content_hash": "e9d4c65e893f7bd2"
+  },
+  {
+    "id": "695c47c4",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "How sticky is inflation? Let's see: Now the chart is filling in the picture.\n\nhttps://decrypt.co/373649/xrp-price-cant-keep-up-bitcoin-takes-breather",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "DECRYPT",
+    "source_url": "https://decrypt.co/373649/xrp-price-cant-keep-up-bitcoin-takes-breather",
+    "source_title": "XRP Can't Keep Up as Bitcoin Takes a Breather: Analysis",
+    "source_summary": "The post-CPI rally gave XRP a nudge. The coin barely moved. Now the chart is filling in the picture.",
+    "drafted_at": "2026-07-16T18:08:19.305383",
+    "data": {
+      "source": "DECRYPT"
+    },
+    "content_hash": "1e678eab83abf626"
+  },
+  {
+    "id": "3bd55d8a",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "From the BEA desk: Prior was +0.5% (revised to +0.6%) This is in-line with estimates but there is a slight upwards revision to the April reading, which should add a touch to GDP estimates.\ufeff This article was written by Adam Button at investinglive.com.\n\nhttps://investinglive.com/news/us-may-business-inventories-vs-0-3/",
@@ -316,14 +435,14 @@
     "source_url": "https://investinglive.com/news/us-may-business-inventories-vs-0-3/",
     "source_title": "US May business inventories +0.3% vs +0.3% expected",
     "source_summary": "Prior was +0.5% (revised to +0.6%) This is in-line with estimates but there is a slight upwards revision to the April reading, which should add a touch to GDP estimates.\ufeff This article was written by Adam Button at investinglive.com.",
-    "drafted_at": "2026-07-16T16:49:50.022239",
+    "drafted_at": "2026-07-16T18:08:19.305843",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "c83748ada43ac912"
   },
   {
-    "id": "e6c7b79f",
+    "id": "48eb4ce3",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "From the unemployment desk: Prior week 215K revised to 216K initial jobless claims 208K vs 217K estimate 4 week moving average of initial claims 214.25K versus 219.0K last week Continuing claims prior 1.814 million revised to 1.821 million Continuing claims 1.805 million versus 1.815 million estimate The 4-week moving average was 1.811M vs previous week's average 1.810M last week.\n\nThe move lower in jobless claims takes the figure back below the middle of the range (see chart below), and is consistent with a strong labor market.\n\nContinuing \ufeffclaims moving down in the current week supports that as well.\n\nThis article was written by Greg Michalowski at investinglive.com.\n\nhttps://investinglive.com/news/us-initial-jobless-claims-208k-vs-217k-estimate-2/",
@@ -333,14 +452,14 @@
     "source_url": "https://investinglive.com/news/us-initial-jobless-claims-208k-vs-217k-estimate-2/",
     "source_title": "US initial jobless claims 208K vs 217K estimate",
     "source_summary": "Prior week 215K revised to 216K initial jobless claims 208K vs 217K estimate 4 week moving average of initial claims 214.25K versus 219.0K last week Continuing claims prior 1.814 million revised to 1.821 million Continuing claims 1.805 million versus 1.815 million estimate The 4-week moving average was 1.811M vs previous week's average 1.810M last week. The move lower in jobless claims takes the f",
-    "drafted_at": "2026-07-16T16:49:50.023062",
+    "drafted_at": "2026-07-16T18:08:19.306658",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "793cd12ea55738bf"
   },
   {
-    "id": "2daaa7c9",
+    "id": "676fd19f",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "From the data desk: Prior was +10.3 Details: New orders 37.0 versus 27.3 last month Shipments 33.7 versus 14.9 last month Unfilled orders 18.1 versus 10.5 last month Delivery times 9.6 versus 10.8 last month Inventories 0.3 versus 23.0 last month Prices paid 53.9 versus 53.2 last month Prices received 27.4 versus 20.3 last month Number of employees 10.0 versus 7.9 last month Average employee workweek 14.0 versus -6.5 last month Six-months from now indicators: 6 month index 34.4 vs 53.2 last month Capex index 6-month forward 30.1 versus 41.2 last month New orders 35.1 versus 60.8 last month Shipments 39.3 versus 60.3 last month Unfilled orders 20.9 versus 17.3 last month Delivery times 9.3 versus 2.5 last month Inventories 12.5 versus 10.0 last month Prices paid 56.7 versus 63.2 last month Prices received 41.4 versus 67.2 last month Number of employees 29.5 versus 30.8 last month Average employee workweek 12.0 versus 34.3 last month Manufacturing activity in the region continued to expand overall.\n\nThe survey\u2019s indicators for general activity and new orders both rose this month \ufeff\ufeffto nearly five-year highs and the shipments index also increased.\n\nThe employment index was positive for a second consecutive month and continued to suggest overall increases in employment.\n\nThe prices paid index changed little this month, and the prices received index rose.\n\nThe firms continue to expect overall growth over the next six months, although most future indicators moved down from elevated levels.\n\nThe Philadelphia Fed Manufacturing Survey, also known as the Philly Fed Index, is one of the earliest monthly indicators of manufacturing sector health in the United States.\n\nPublished by the Federal Reserve Bank of Philadelphia, it surveys manufacturers in the Third Federal Reserve District, covering eastern Pennsylvania, southern New Jersey, and Delaware.\n\nReadings above zero indicate expanding activity, while readings below zero signal contraction.\n\nhttps://investinglive.com/news/us-july-philly-fed-business-index-41-4-vs-13-0-expected/",
@@ -350,14 +469,14 @@
     "source_url": "https://investinglive.com/news/us-july-philly-fed-business-index-41-4-vs-13-0-expected/",
     "source_title": "US July Philly Fed business index +41.4 vs +13.0 expected",
     "source_summary": "Prior was +10.3 Details: New orders 37.0 versus 27.3 last month Shipments 33.7 versus 14.9 last month Unfilled orders 18.1 versus 10.5 last month Delivery times 9.6 versus 10.8 last month Inventories 0.3 versus 23.0 last month Prices paid 53.9 versus 53.2 last month Prices received 27.4 versus 20.3 last month Number of employees 10.0 versus 7.9 last month Average employee workweek 14.0 versus -6.5",
-    "drafted_at": "2026-07-16T16:49:50.026064",
+    "drafted_at": "2026-07-16T18:08:19.309703",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "e3456f108d12269e"
   },
   {
-    "id": "5a2be218",
+    "id": "fb9f7f40",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -367,7 +486,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-07-16T16:49:50.029948",
+    "drafted_at": "2026-07-16T18:08:19.313762",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -375,7 +494,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "c016e7ad",
+    "id": "4a4abcdb",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Soft landing is the most dangerous phrase in central banking.",
@@ -385,14 +504,14 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Soft landing is the most dangerous phrase in central banking.",
-    "drafted_at": "2026-07-16T16:49:50.030033",
+    "drafted_at": "2026-07-16T18:08:19.313888",
     "data": {
       "take_seed": "2026-07-16-pack-1"
     },
     "content_hash": "9b0f7be55d8ef71c"
   },
   {
-    "id": "9b089db7",
+    "id": "a72b8e38",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "When everyone's positioned for a crash, the crash takes a vacation.",
@@ -402,7 +521,7 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "When everyone's positioned for a crash, the crash takes a vacation.",
-    "drafted_at": "2026-07-16T16:49:50.030091",
+    "drafted_at": "2026-07-16T18:08:19.313984",
     "data": {
       "take_seed": "2026-07-16-pack-2"
     },
