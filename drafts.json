@@ -1,23 +1,76 @@
 [
   {
-    "id": "3d065ec8",
-    "format": "POLICY_READ",
+    "id": "714b0cab",
+    "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "From Beijing's central bank: On Friday, the People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7934 compared to the previous day's fix of 6.7909 and 6.7734 Reuters estimate.\n\nhttps://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67934-vs-67909-previous-202607170115",
+    "draft_text": "FLAGSHIP READ: Fatih Birol says 'oil security is still a critical issue' and world should be 'worried' if situation does not improve.\n\nhttps://www.aljazeera.com/news/2026/7/17/iea-chief-warns-strait-of-hormuz-crisis-threatens-global-energy-security?traffic_source=rss",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "PBOC",
-    "source_url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67934-vs-67909-previous-202607170115",
-    "source_title": "PBOC sets USD/CNY reference rate at 6.7934 vs. 6.7909 previous",
-    "source_summary": "On Friday, the People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7934 compared to the previous day's fix of 6.7909 and 6.7734 Reuters estimate.",
-    "drafted_at": "2026-07-17T01:29:09.255398",
+    "primary_source": "AL JAZEERA",
+    "source_url": "https://www.aljazeera.com/news/2026/7/17/iea-chief-warns-strait-of-hormuz-crisis-threatens-global-energy-security?traffic_source=rss",
+    "source_title": "IEA chief warns Strait of Hormuz crisis threatens global energy security",
+    "source_summary": "Fatih Birol says 'oil security is still a critical issue' and world should be 'worried' if situation does not improve.",
+    "drafted_at": "2026-07-17T04:52:42.319520",
     "data": {
-      "actor": "PBOC"
+      "source": "AL JAZEERA"
     },
-    "content_hash": "509376b347fde9c5"
+    "content_hash": "28acf18f6c0471e4"
   },
   {
-    "id": "0ab4b5d7",
+    "id": "1506f7e3",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Real-time update for the pack: WTI crude surges 12.4% in 5 sessions to $79.20.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NYMEX \u00b7 CL=F",
+    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "source_title": "WTI crude oil futures",
+    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "drafted_at": "2026-07-17T04:52:42.319901",
+    "data": {
+      "signal_id": "CL=F:move:2026-07-17",
+      "kind": "move_up",
+      "current": "$79.20"
+    },
+    "content_hash": "c272de0720a2f459"
+  },
+  {
+    "id": "71cf1aec",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "ECB POSTCARD: The European Central Bank will probably pause to assess inflation next week before delivering a final interest-rate hike in September, economists say.\n\nhttps://financialpost.com/pmn/business-pmn/ecb-set-to-wait-for-september-to-hike-one-last-time-poll-shows",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "ECB",
+    "source_url": "https://financialpost.com/pmn/business-pmn/ecb-set-to-wait-for-september-to-hike-one-last-time-poll-shows",
+    "source_title": "ECB Set to Wait for September to Hike One Last Time, Poll Shows",
+    "source_summary": "The European Central Bank will probably pause to assess inflation next week before delivering a final interest-rate hike in September, economists say.",
+    "drafted_at": "2026-07-17T04:52:42.330975",
+    "data": {
+      "actor": "ECB"
+    },
+    "content_hash": "a8f36475d8631257"
+  },
+  {
+    "id": "caa6281b",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "RATE-PATH READ: The AUD/USD pair remains on the back foot for the second straight day and slides to the 0.7980 region during the Asian session on Friday.\n\nhttps://www.fxstreet.com/news/australian-dollar-moves-away-from-three-week-top-as-geopolitics-and-fed-hike-bets-lift-usd-202607170224",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Fed",
+    "source_url": "https://www.fxstreet.com/news/australian-dollar-moves-away-from-three-week-top-as-geopolitics-and-fed-hike-bets-lift-usd-202607170224",
+    "source_title": "Australian Dollar moves away from three-week top as geopolitics and Fed hike bets lift USD",
+    "source_summary": "The AUD/USD pair remains on the back foot for the second straight day and slides to the 0.7980 region during the Asian session on Friday.",
+    "drafted_at": "2026-07-17T04:52:42.331258",
+    "data": {
+      "actor": "Fed"
+    },
+    "content_hash": "f272ef5b00d5c27d"
+  },
+  {
+    "id": "0487b259",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Policy update for the pack: The statement discusses a coordinated approach to identifying highly sensitive data and documents and discusses enhanced procedures for the review of such information to reduce any cybersecurity risks while ensuring that the agencies have access to such information at all times during an examination.\n\nThe agencies recognize the importance of keeping a bank's highly sensitive information confidential and protecting it against disclosure to or from access by unauthorized persons as a result of cybersecurity vulnerabilities.\n\nThe agencies have committed to notify affected banks of any potential or confirmed material data breach involving confidential supervisory information.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
@@ -27,14 +80,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
     "source_title": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
     "source_summary": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
-    "drafted_at": "2026-07-17T01:29:09.256395",
+    "drafted_at": "2026-07-17T04:52:42.332222",
     "data": {
       "actor": "FED"
     },
     "content_hash": "59a82190f82073b0"
   },
   {
-    "id": "832fd461",
+    "id": "1f364372",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Central bank corner: The Board's process for setting the discount rate is distinct from the process the Federal Open Market Committee follows in setting the target range for the federal funds rate.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
@@ -44,14 +97,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
     "source_title": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
     "source_summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
-    "drafted_at": "2026-07-17T01:29:09.256795",
+    "drafted_at": "2026-07-17T04:52:42.332594",
     "data": {
       "actor": "FED"
     },
     "content_hash": "5fb63e04cb74e9a2"
   },
   {
-    "id": "0d59192e",
+    "id": "7f74c3ff",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FED WATCH: \"The Federal Reserve's commitment to price stability and maximum employment is unwavering.\n\nAs is our resolve to pursue our mandate with rigor,\" said Chairman Kevin Warsh.\n\n\"The U.S. economy has changed significantly over the last generation, and never more so than right now.\n\nEach task force will carefully consider whether policymakers' means and methods, analytical tools and policy approaches can be improved upon.\n\nI am honored that the best minds from a range of disciplines have agreed to work with us to sharpen our performance as an institution.\n\nThe five task forces will examine areas central to the broad conduct of monetary policy.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
@@ -61,82 +114,128 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
     "source_title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
     "source_summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-    "drafted_at": "2026-07-17T01:29:09.257906",
+    "drafted_at": "2026-07-17T04:52:42.333683",
     "data": {
       "actor": "FED"
     },
     "content_hash": "ed14be39878da65d"
   },
   {
-    "id": "69127032",
-    "format": "POLICY_READ",
+    "id": "1032eb20",
+    "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "RATE-PATH READ: TS Banking Group, Inc., Treynor, Iowa and TS Contrarian Bancshares, Inc., Treynor, Iowa Written Agreement dated July 6, 2026 Additional enforcement actions can be searched for here.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260709a.htm",
+    "draft_text": "$GLOO insider bought $9,051,828 on 2026-07-10, 4 insiders. \ud83d\udc40\n\nGloo Holdings, Inc.. 2,775,729 shares at $3.26.\n\n-0.0% since the purchase.\n\nhttp://openinsider.com/screener?s=GLOO",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FED",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260709a.htm",
-    "source_title": "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc.",
-    "source_summary": "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc.",
-    "drafted_at": "2026-07-17T01:29:09.258205",
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=GLOO",
+    "source_title": "Gloo Holdings, Inc. (GLOO) insider bought $9,051,828",
+    "source_summary": "4 insider(s) bought 2,775,729 shares at $3.26 on 2026-07-10.",
+    "drafted_at": "2026-07-17T04:52:42.334642",
     "data": {
-      "actor": "FED"
+      "ticker": "GLOO",
+      "type": "P",
+      "dollar_value": 9051828.0,
+      "pct_since": -2.9253812732821106e-07
     },
-    "content_hash": "2da0384c8b59f120"
+    "content_hash": "673bfc8dd3d989bc"
   },
   {
-    "id": "b2bc40c8",
-    "format": "CORRUPTION_WATCH",
+    "id": "17fe3666",
+    "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "Watch your wallets: NEW YORK, July 16, 2026 /PRNewswire/ -- Pomerantz LLP announces that a class action lawsuit has been filed against GPGI, Inc. (\"GPGI\" or the \"Company\") (NYSE: GPGI).\n\nSuch investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, (or 888.4-POMLAW)...\n\nhttps://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-reminds-investors-with-losses-on-their-investment-in-gpgi-inc-of-class-action-lawsuit-and-upcoming-deadlines--gpgi-302828036.html",
+    "draft_text": "$IPX insider bought $4,949,802 on 2026-07-10, 2 insiders. \ud83d\udc40\n\nIperionx Ltd. 1,253,720 shares at $3.95.\n\n+488.9% since the purchase.\n\nhttp://openinsider.com/screener?s=IPX",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "PR NEWSWIRE",
-    "source_url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-reminds-investors-with-losses-on-their-investment-in-gpgi-inc-of-class-action-lawsuit-and-upcoming-deadlines--gpgi-302828036.html",
-    "source_title": "INVESTOR ALERT: Pomerantz Law Firm Reminds Investors with Losses on their Investment in GPGI, Inc. of Class Action Lawsuit and Upcoming Deadlines",
-    "source_summary": "NEW YORK, July 16, 2026 /PRNewswire/ -- Pomerantz LLP announces that a class action lawsuit has been filed against GPGI, Inc. (\"GPGI\" or the \"Company\") (NYSE: GPGI). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, (or 888.4-POMLAW),...",
-    "drafted_at": "2026-07-17T01:29:09.259149",
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=IPX",
+    "source_title": "Iperionx Ltd (IPX) insider bought $4,949,802",
+    "source_summary": "2 insider(s) bought 1,253,720 shares at $3.95 on 2026-07-10.",
+    "drafted_at": "2026-07-17T04:52:42.334764",
     "data": {
-      "source": "PR NEWSWIRE"
+      "ticker": "IPX",
+      "type": "P",
+      "dollar_value": 4949802.0,
+      "pct_since": 488.8607652881477
     },
-    "content_hash": "5e759769b97181c0"
+    "content_hash": "16eb220a30bf134e"
   },
   {
-    "id": "e12b2c6e",
-    "format": "CORRUPTION_WATCH",
+    "id": "14a227aa",
+    "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "Gabriel Perez, White House teleprompter operator, faces a CFTC probe over allegations that he earned $100K from bets on Trump's speeches using Kalshi.\n\nhttps://www.businessinsider.com/white-house-teleprompter-operator-unpaid-leave-kalshi-betting-scandal-investigation-2026-7",
+    "draft_text": "$UUUU insider bought $1,018,700 on 2026-07-08, 2 insiders. \ud83d\udc40\n\nEnergy Fuels Inc. 78,000 shares at $13.06.\n\n-10.6% since the purchase.\n\nhttp://openinsider.com/screener?s=UUUU",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "BUSINESS INSIDER",
-    "source_url": "https://www.businessinsider.com/white-house-teleprompter-operator-unpaid-leave-kalshi-betting-scandal-investigation-2026-7",
-    "source_title": "White House teleprompter operator on unpaid leave after reports he made more than $100k betting on Trump's speeches",
-    "source_summary": "Gabriel Perez, White House teleprompter operator, faces a CFTC probe over allegations that he earned $100K from bets on Trump's speeches using Kalshi.",
-    "drafted_at": "2026-07-17T01:29:09.259433",
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=UUUU",
+    "source_title": "Energy Fuels Inc (UUUU) insider bought $1,018,700",
+    "source_summary": "2 insider(s) bought 78,000 shares at $13.06 on 2026-07-08.",
+    "drafted_at": "2026-07-17T04:52:42.334883",
     "data": {
-      "source": "BUSINESS INSIDER"
+      "ticker": "UUUU",
+      "type": "P",
+      "dollar_value": 1018700.0,
+      "pct_since": -10.643184714441462
     },
-    "content_hash": "d62f750a3f3f5b57"
+    "content_hash": "22d5678d838a822c"
   },
   {
-    "id": "26a2722f",
+    "id": "6e4bf8cd",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$SWZ insider bought $252,926 on 2026-07-06, 2 insiders. \ud83d\udc40\n\nTotal Return Securities Fund. 42,245 shares at $5.99.\n\n-1.0% since the purchase.\n\nhttp://openinsider.com/screener?s=SWZ",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=SWZ",
+    "source_title": "Total Return Securities Fund (SWZ) insider bought $252,926",
+    "source_summary": "2 insider(s) bought 42,245 shares at $5.99 on 2026-07-06.",
+    "drafted_at": "2026-07-17T04:52:42.335004",
+    "data": {
+      "ticker": "SWZ",
+      "type": "P",
+      "dollar_value": 252926.0,
+      "pct_since": -1.0016723148810878
+    },
+    "content_hash": "1bb12afdfcd940a1"
+  },
+  {
+    "id": "c6dff63d",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "CFTC probes a Kalshi insider trading case where Trump's teleprompter operator allegedly made over $100,000 on speech bets.\n\nThe post Trump\u2019s Teleprompter Operator Made $100,000 Betting on a President Who Ignores the Script appeared first on BeInCrypto.\n\nhttps://beincrypto.com/trump-teleprompter-kalshi-insider-trading/",
+    "draft_text": "The president claimed without evidence that the networks and others in the media were \u201cengaged in a plot\u201d and want to \u201ccontinue this fraud.\u201d.\n\nhttps://www.forbes.com/sites/siladityaray/2026/07/17/trump-threatens-to-revoke-abc-and-nbc-broadcast-licenses-for-not-carrying-his-speech-live/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FORBES",
+    "source_url": "https://www.forbes.com/sites/siladityaray/2026/07/17/trump-threatens-to-revoke-abc-and-nbc-broadcast-licenses-for-not-carrying-his-speech-live/",
+    "source_title": "Trump Threatens To Revoke ABC And NBC Broadcast Licenses For Not Carrying His Speech Live",
+    "source_summary": "The president claimed without evidence that the networks and others in the media were \u201cengaged in a plot\u201d and want to \u201ccontinue this fraud.\u201d",
+    "drafted_at": "2026-07-17T04:52:42.335354",
+    "data": {
+      "source": "FORBES"
+    },
+    "content_hash": "ecad713d7f5aedb6"
+  },
+  {
+    "id": "41eba79a",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Indictment of the day: A federal grand jury indicted Sioux Falls crypto investor Benjamin Paul Wiener, 43, on 29 counts tied to an alleged fraud scheme that prosecutors estimate cost victims roughly $20 million.\n\nThe charges include wire fraud, money laundering, bank fraud, and aggravated identity theft.\n\nWiener pleaded not guilty on July 10 and was released on bond The post Federal Prosecutors Say This Sioux Falls Crypto Investor Ran a $20 Million Fraud appeared first on BeInCrypto.\n\nhttps://beincrypto.com/sioux-falls-investor-crypto-fraud-indictment/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "BEINCRYPTO",
-    "source_url": "https://beincrypto.com/trump-teleprompter-kalshi-insider-trading/",
-    "source_title": "Trump\u2019s Teleprompter Operator Made $100,000 Betting on a President Who Ignores the Script",
-    "source_summary": "CFTC probes a Kalshi insider trading case where Trump's teleprompter operator allegedly made over $100,000 on speech bets. The post Trump\u2019s Teleprompter Operator Made $100,000 Betting on a President Who Ignores the Script appeared first on BeInCrypto .",
-    "drafted_at": "2026-07-17T01:29:09.259883",
+    "source_url": "https://beincrypto.com/sioux-falls-investor-crypto-fraud-indictment/",
+    "source_title": "Federal Prosecutors Say This Sioux Falls Crypto Investor Ran a $20 Million Fraud",
+    "source_summary": "A federal grand jury indicted Sioux Falls crypto investor Benjamin Paul Wiener, 43, on 29 counts tied to an alleged fraud scheme that prosecutors estimate cost victims roughly $20 million. The charges include wire fraud, money laundering, bank fraud, and aggravated identity theft. Wiener pleaded not guilty on July 10 and was released on bond The post Federal Prosecutors Say This Sioux Falls Crypto",
+    "drafted_at": "2026-07-17T04:52:42.335909",
     "data": {
       "source": "BEINCRYPTO"
     },
-    "content_hash": "0ebd550e4163db83"
+    "content_hash": "56096cc7dbcedca1"
   },
   {
-    "id": "6c2173dc",
+    "id": "ed2260fd",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "RETAIL BEWARE: The post DHS Plans \u201cAll-Out War\u201d on Immigration Scammers as Fraud Complaints Double appeared first on ProPublica.\n\nhttps://www.propublica.org/article/trump-dhs-immigration-scams-fraud-homeland-security",
@@ -146,14 +245,31 @@
     "source_url": "https://www.propublica.org/article/trump-dhs-immigration-scams-fraud-homeland-security",
     "source_title": "DHS Plans \u201cAll-Out War\u201d on Immigration Scammers as Fraud Complaints Double",
     "source_summary": "The post DHS Plans \u201cAll-Out War\u201d on Immigration Scammers as Fraud Complaints Double appeared first on ProPublica .",
-    "drafted_at": "2026-07-17T01:29:09.260128",
+    "drafted_at": "2026-07-17T04:52:42.336194",
     "data": {
       "source": "PROPUBLICA"
     },
     "content_hash": "4e6b5e311091b56e"
   },
   {
-    "id": "7c494ced",
+    "id": "e06e4c6c",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Pack \u2014 got one. She's not the only one: Whether its protecting the safety net for Americans who need help, or protecting tax dollars, this indictment is a small but telling data point in a debate that affects tens of millions of Americans and how much they pay to fund a welfare program plagued by fraudsters.\n\nhttps://justthenews.com/accountability/waste-fraud-and-abuse/kansas-city-woman-faces-20-years-prison-welfare-fraud?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "JUST THE NEWS",
+    "source_url": "https://justthenews.com/accountability/waste-fraud-and-abuse/kansas-city-woman-faces-20-years-prison-welfare-fraud?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+    "source_title": "Kansas City woman faces 20 years in prison for welfare fraud",
+    "source_summary": "She's not the only one: Whether its protecting the safety net for Americans who need help, or protecting tax dollars, this indictment is a small but telling data point in a debate that affects tens of millions of Americans and how much they pay to fund a welfare program plagued by fraudsters.",
+    "drafted_at": "2026-07-17T04:52:42.336666",
+    "data": {
+      "source": "JUST THE NEWS"
+    },
+    "content_hash": "1c44b215ba6ce909"
+  },
+  {
+    "id": "9f442c5d",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The head of an internal auditor resigned after the board of the World Bank\u2019s private investment arm rejected her office\u2019s findings that the deal violated internal safeguard policies.\n\nhttps://www.icij.org/news/2026/07/international-finance-corporation-watchdog-in-turmoil-following-scathing-report-on-microfinance-in-cambodia/",
@@ -163,14 +279,14 @@
     "source_url": "https://www.icij.org/news/2026/07/international-finance-corporation-watchdog-in-turmoil-following-scathing-report-on-microfinance-in-cambodia/",
     "source_title": "International Finance Corporation watchdog in turmoil following scathing report on microfinance in Cambodia",
     "source_summary": "The head of an internal auditor resigned after the board of the World Bank\u2019s private investment arm rejected her office\u2019s findings that the deal violated internal safeguard policies.",
-    "drafted_at": "2026-07-17T01:29:09.260479",
+    "drafted_at": "2026-07-17T04:52:42.337005",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "1b8c12671bc79473"
   },
   {
-    "id": "402431d5",
+    "id": "e896fbc4",
     "format": "GLOBAL_DESK",
     "status": "pending",
     "draft_text": "PACK BRIEFING \u2014 ASIA: EDX Markets, an institutional-only crypto trading venue with its own central clearinghouse, closed a $76 million Series C funding round led by SBI Holdings, the firm said in a press release.\n\nThe Tokyo-listed financial group becomes a strategic investor in the U.S. exchange.\n\nhttps://thedefiant.io/converge/tradfi-and-fintech/edx-markets-closes-76m-series-c-led-by-sbi-holdings",
@@ -180,99 +296,82 @@
     "source_url": "https://thedefiant.io/converge/tradfi-and-fintech/edx-markets-closes-76m-series-c-led-by-sbi-holdings",
     "source_title": "EDX Markets Closes $76M Series C Led by SBI Holdings",
     "source_summary": "EDX Markets, an institutional-only crypto trading venue with its own central clearinghouse, closed a $76 million Series C funding round led by SBI Holdings, the firm said in a press release. The Tokyo-listed financial group becomes a strategic investor in the U.S. exchange. The capital will fund\u2026",
-    "drafted_at": "2026-07-17T01:29:09.262045",
+    "drafted_at": "2026-07-17T04:52:42.338516",
     "data": {
       "source": "THE DEFIANT"
     },
     "content_hash": "766a40daeebddf43"
   },
   {
-    "id": "60b1815d",
+    "id": "c5a7fe23",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Mainland wire: Investor sentiment on China's technology hardware sector hits a four-year low as chip stocks cool after STAR 50 Index surged over 60% in Q2 2026.\n\nThe post Investor sentiment on China technology hardware hits four-year low as chip rally unravels appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/china-tech-hardware-sentiment-four-year-low/",
+    "draft_text": "Asia overnight: Eoptolink Technology files for up to $5B Hong Kong listing after 236% profit growth.\n\nWhat the AI infrastructure boom means for crypto capital flows.\n\nThe post Eoptolink Technology files for up to $5B Hong Kong listing as AI infrastructure demand surges appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/eoptolink-5b-hong-kong-listing/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/china-tech-hardware-sentiment-four-year-low/",
-    "source_title": "Investor sentiment on China technology hardware hits four-year low as chip rally unravels",
-    "source_summary": "Investor sentiment on China's technology hardware sector hits a four-year low as chip stocks cool after STAR 50 Index surged over 60% in Q2 2026. The post Investor sentiment on China technology hardware hits four-year low as chip rally unravels appeared first on Crypto Briefing .",
-    "drafted_at": "2026-07-17T01:29:09.262449",
+    "source_url": "https://cryptobriefing.com/eoptolink-5b-hong-kong-listing/",
+    "source_title": "Eoptolink Technology files for up to $5B Hong Kong listing as AI infrastructure demand surges",
+    "source_summary": "Eoptolink Technology files for up to $5B Hong Kong listing after 236% profit growth. What the AI infrastructure boom means for crypto capital flows. The post Eoptolink Technology files for up to $5B Hong Kong listing as AI infrastructure demand surges appeared first on Crypto Briefing .",
+    "drafted_at": "2026-07-17T04:52:42.339038",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "50b575bc40f2d6eb"
+    "content_hash": "c91561f43cc299e8"
   },
   {
-    "id": "f2689ba1",
+    "id": "2fbb88c3",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 CHINA: China injected $62B into its banking system to support growth.\n\nBitcoin reaching $82,500 in July at 0.4% YES, while $67,500 at 36.5% YES.\n\nThe post China injects $62B into banking system via 7-day reverse repos appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/china-injects-62b-into-banking-system-via-7-day-reverse-repos/",
+    "draft_text": "From the Gulf: Oil prices rise amid US-Iran tensions threatening supply routes.\n\nCrude oil reaching a new all-time high by December 31 at 12% YES.\n\nThe post Oil prices climb as US-Iran tensions threaten Red Sea oil route appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/oil-prices-climb-as-us-iran-tensions-threaten-red-sea-oil-route/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/china-injects-62b-into-banking-system-via-7-day-reverse-repos/",
-    "source_title": "China injects $62B into banking system via 7-day reverse repos",
-    "source_summary": "China injected $62B into its banking system to support growth. Bitcoin reaching $82,500 in July at 0.4% YES, while $67,500 at 36.5% YES. The post China injects $62B into banking system via 7-day reverse repos appeared first on Crypto Briefing .",
-    "drafted_at": "2026-07-17T01:29:09.262794",
+    "source_url": "https://cryptobriefing.com/oil-prices-climb-as-us-iran-tensions-threaten-red-sea-oil-route/",
+    "source_title": "Oil prices climb as US-Iran tensions threaten Red Sea oil route",
+    "source_summary": "Oil prices rise amid US-Iran tensions threatening supply routes. Crude oil reaching a new all-time high by December 31 at 12% YES. The post Oil prices climb as US-Iran tensions threaten Red Sea oil route appeared first on Crypto Briefing .",
+    "drafted_at": "2026-07-17T04:52:42.339359",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "20ebe8d30a4c95a5"
+    "content_hash": "c60acaf7bf264276"
   },
   {
-    "id": "51e54ab2",
+    "id": "bfd07777",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: US strikes Bandar Abbas rail junction in Iran.\n\nIAEA visit to nuclear sites by July 31 at 1.1% YES.\n\nThe post US strikes Bandar Abbas rail junction in ongoing Iran conflict appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/us-strikes-bandar-abbas-rail-junction-in-ongoing-iran-conflict/",
+    "draft_text": "World wire: Tata Electronics is building India's first $11 billion semiconductor fab in Gujarat, targeting mature chip nodes critical to crypto mining and AI hardware The post Tata prepares to produce India\u2019s first semiconductor wafers, and crypto miners should pay attention appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/tata-india-semiconductor-wafers-crypto-impact/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/us-strikes-bandar-abbas-rail-junction-in-ongoing-iran-conflict/",
-    "source_title": "US strikes Bandar Abbas rail junction in ongoing Iran conflict",
-    "source_summary": "US strikes Bandar Abbas rail junction in Iran. IAEA visit to nuclear sites by July 31 at 1.1% YES. The post US strikes Bandar Abbas rail junction in ongoing Iran conflict appeared first on Crypto Briefing .",
-    "drafted_at": "2026-07-17T01:29:09.263134",
+    "source_url": "https://cryptobriefing.com/tata-india-semiconductor-wafers-crypto-impact/",
+    "source_title": "Tata prepares to produce India\u2019s first semiconductor wafers, and crypto miners should pay attention",
+    "source_summary": "Tata Electronics is building India's first $11 billion semiconductor fab in Gujarat, targeting mature chip nodes critical to crypto mining and AI hardware The post Tata prepares to produce India\u2019s first semiconductor wafers, and crypto miners should pay attention appeared first on Crypto Briefing .",
+    "drafted_at": "2026-07-17T04:52:42.339950",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "554f1d80c3a21323"
+    "content_hash": "0e78817e346dd968"
   },
   {
-    "id": "de7fb706",
+    "id": "6e0da907",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Levant update: US airstrike injures one in Bushehr amid rising tensions.\n\nWar declaration on Iran by December 31, 2026 at 5.5% YES.\n\nThe post US airstrike hits Iranian city Bushehr, injures one amid rising tensions appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/us-airstrike-hits-iranian-city-bushehr-injures-one-amid-rising-tensions/",
+    "draft_text": "World wire: The European Central Bank will probably pause to assess inflation next week before delivering a final interest-rate hike in September, economists say.\n\nhttps://financialpost.com/pmn/business-pmn/ecb-set-to-wait-for-september-to-hike-one-last-time-poll-shows",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/us-airstrike-hits-iranian-city-bushehr-injures-one-amid-rising-tensions/",
-    "source_title": "US airstrike hits Iranian city Bushehr, injures one amid rising tensions",
-    "source_summary": "US airstrike injures one in Bushehr amid rising tensions. War declaration on Iran by December 31, 2026 at 5.5% YES. The post US airstrike hits Iranian city Bushehr, injures one amid rising tensions appeared first on Crypto Briefing .",
-    "drafted_at": "2026-07-17T01:29:09.263450",
+    "primary_source": "FINANCIAL POST",
+    "source_url": "https://financialpost.com/pmn/business-pmn/ecb-set-to-wait-for-september-to-hike-one-last-time-poll-shows",
+    "source_title": "ECB Set to Wait for September to Hike One Last Time, Poll Shows",
+    "source_summary": "The European Central Bank will probably pause to assess inflation next week before delivering a final interest-rate hike in September, economists say.",
+    "drafted_at": "2026-07-17T04:52:42.340251",
     "data": {
-      "source": "CRYPTO BRIEFING"
+      "source": "FINANCIAL POST"
     },
-    "content_hash": "4a9bbd73b3bfd690"
+    "content_hash": "a8f36475d8631257"
   },
   {
-    "id": "3ea0c86b",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "Fresh print: The EUR/USD pair holds steady around 1.1445 during the early Asian session on Friday.\n\nTraders continue to digest the developments surrounding the Middle East conflicts.\n\nThe preliminary reading of the Michigan Consumer Sentiment Index for July will be published later on Friday.\n\nhttps://www.fxstreet.com/news/euro-flatlines-near-11450-amid-renewed-hormuz-hostilities-202607170039",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/euro-flatlines-near-11450-amid-renewed-hormuz-hostilities-202607170039",
-    "source_title": "Euro flatlines near 1.1450 amid renewed Hormuz hostilities",
-    "source_summary": "The EUR/USD pair holds steady around 1.1445 during the early Asian session on Friday. Traders continue to digest the developments surrounding the Middle East conflicts. The preliminary reading of the Michigan Consumer Sentiment Index for July will be published later on Friday.",
-    "drafted_at": "2026-07-17T01:29:09.322746",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "6ea53c565edab5d6"
-  },
-  {
-    "id": "4ca00be0",
+    "id": "7433d364",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "From the trade desk: The miss against consensus, and the sharp deceleration from May's two-decade high, suggests the AI-driven electronics export surge may be starting to normalize after several months of extraordinary growth, even though the underlying electronics strength to Taiwan and the US remains intact.\n\nThe divergence between surging electronics shipments and declining non-electronics exports points to a narrowing, rather than broadening, export recovery, which could weigh on sentiment toward Singapore's more diversified manufacturing base.\n\nWith Q2 GDP growth still running at a healthy 5.7% annually, the export slowdown looks more like a moderation from an unsustainable pace than a signal of a broader downturn, though the size of the miss versus the 30% consensus forecast may prompt some downward revisions to near-term trade expectations. --- Singapore's export engine cools sharply from a 20-year high, missing forecasts even as AI-fuelled electronics demand keeps driving blowout growth to Taiwan and the US.\n\nSummary: Singapore's non-oil domestic exports rose 20.7% year on year in June, according to government data released Friday.\n\nThe figure missed the median forecast of 30% growth in a Reuters poll and slowed sharply from May's 38.4% annual increase, which had been the largest export rise in 20 years.\n\nElectronics exports continued to surge on AI-related demand, while non-electronics exports declined.\n\nShipments rose to all of Singapore's top 10 markets, led by Taiwan, the United States and South Korea, according to Enterprise Singapore.\n\nElectronics exports to Taiwan rose 278.2% year on year, and those to the US rose 228.9%.\n\nhttps://investinglive.com/news/singapore-june-exports-rise-20-7-but-miss-forecasts-on-non-electronics-weakness/",
@@ -282,14 +381,14 @@
     "source_url": "https://investinglive.com/news/singapore-june-exports-rise-20-7-but-miss-forecasts-on-non-electronics-weakness/",
     "source_title": "Singapore June exports rise 20.7% but miss forecasts on non-electronics weakness",
     "source_summary": "The miss against consensus, and the sharp deceleration from May's two-decade high, suggests the AI-driven electronics export surge may be starting to normalize after several months of extraordinary growth, even though the underlying electronics strength to Taiwan and the US remains intact. The divergence between surging electronics shipments and declining non-electronics exports points to a narrow",
-    "drafted_at": "2026-07-17T01:29:09.325046",
+    "drafted_at": "2026-07-17T04:52:42.404036",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "cd68ea71e7bd11ce"
   },
   {
-    "id": "e4bb4954",
+    "id": "b73122f3",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "CPI just printed. The June inflation report looks like good news until you hear what Moody's chief economist says keeps him up at night.\n\nOne geopolitical flashpoint could unwind everything the Fed has spent seven months holding together.\n\nhttps://247wallst.com/investing/2026/07/16/economist-the-biggest-threat-to-inflation-isnt-buried-in-the-june-cpi-report/",
@@ -299,14 +398,14 @@
     "source_url": "https://247wallst.com/investing/2026/07/16/economist-the-biggest-threat-to-inflation-isnt-buried-in-the-june-cpi-report/",
     "source_title": "Economist: \u201cThe Biggest Threat\u201d to Inflation Isn\u2019t Buried in the June CPI Report",
     "source_summary": "The June inflation report looks like good news until you hear what Moody's chief economist says keeps him up at night. One geopolitical flashpoint could unwind everything the Fed has spent seven months holding together.",
-    "drafted_at": "2026-07-17T01:29:09.325334",
+    "drafted_at": "2026-07-17T04:52:42.404337",
     "data": {
       "source": "247 WALL ST"
     },
     "content_hash": "58f1c9716742264a"
   },
   {
-    "id": "34b3b2a2",
+    "id": "9e2b0204",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "Inflation update: InvestorPlace - Stock Market News, Stock Advice & Trading Tips In today\u2019s Market 360, I\u2019ll explain what the latest Consumer Price Index (CPI) and Producer Price Index (PPI) reports reveal about inflation, why oil and gasoline prices reversed course and why quickly changing conditions like these can make it so difficult to know when to buy, sell or simply stand pat.\n\nHere\u2019s What Will Decide the Market\u2019s Next Big Winners appeared first on InvestorPlace.\n\nhttps://investorplace.com/market360/2026/07/inflation-is-cooling-heres-what-will-decide-the-markets-next-big-winners/",
@@ -316,31 +415,48 @@
     "source_url": "https://investorplace.com/market360/2026/07/inflation-is-cooling-heres-what-will-decide-the-markets-next-big-winners/",
     "source_title": "Inflation Is Cooling. Here\u2019s What Will Decide the Market\u2019s Next Big Winners",
     "source_summary": "InvestorPlace - Stock Market News, Stock Advice & Trading Tips In today\u2019s Market 360, I\u2019ll explain what the latest Consumer Price Index (CPI) and Producer Price Index (PPI) reports reveal about inflation, why oil and gasoline prices reversed course and why quickly changing conditions like these can make it so difficult to know when to buy, sell or simply stand pat. The post Inflation Is Cooling. H",
-    "drafted_at": "2026-07-17T01:29:09.325948",
+    "drafted_at": "2026-07-17T04:52:42.404928",
     "data": {
       "source": "INVESTORPLACE"
     },
     "content_hash": "044c7784f13d33cb"
   },
   {
-    "id": "5b4edc19",
+    "id": "6c2bf2a7",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "From the consumption desk: Trump to sell faster access to his Truth Social posts Google Gemini launch delayed as tech falls short of goals - report Fed's Logan: Investment demand for AI is big, real and near-term inflationary Fed's Schmid: Recent inflation encouraging but too early to say What United Airlines tells us about the shape of the US customer US May business inventories +0.3% vs +0.3% expected US Pending Home sales for June -5.4% versus -0.5% expected US initial jobless claims 208K vs 217K estimate US June retail sales +0.2% vs +0.2% expected US July Philly Fed business index +41.4 vs +13.0 expected Canada June housing starts 239.0K vs 257.9K expected Markets: Nasdaq Comp -1.5% Gold down $83 to $3976 WTI crude oil down 57-cents to $79.03 US 10-year yields up 1.6 bps to 4.56% USD leads, CHF lags The chipmaker bloodbath continued with Micron shares falling 5.9% to the lowest since May 26 and Sandisk down 12.6%.\n\nOverall, more stocks in the S&P 500 gained than declined and banks were particularly healthy.\n\nHowever the big names struggled and Google was also hit by a report that its latest Gemini model is a disappointment.\n\nSelling accelerated into the late afternoon before a solid bounce in the final 30 minutes of trading.\n\nShares of Netflix are choppy after reporting earnings following the close.\n\nIn terms of economic data, the retail sales report was essentially in line with estimates along with slight upward revisions to the prior.\n\nThat's a decent sign for the consumer and the commentary from United Airlines was positive, particularly on affluent consumers.\n\nIn FX, the US dollar was generally bid and USD/JPY made some headway once again after the brief reprieve on this week's CPI.\n\nhttps://investinglive.com/news/investinglive-americas-fx-news-wrap-us-retail-sales-match-estimates-but-tech-slumps/",
+    "draft_text": "HOUSING READ: Mortgage rates are high, home prices at record levels, and consumers stressed \u2014 all contributing to a drop in existing home sales and builder sentiment.\n\nhttps://www.cnbc.com/2026/07/16/housing-market-mortgages-homebuilding.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-us-retail-sales-match-estimates-but-tech-slumps/",
-    "source_title": "investingLive Americas FX news wrap: US retail sales match estimates but tech slumps",
-    "source_summary": "Trump to sell faster access to his Truth Social posts Google Gemini launch delayed as tech falls short of goals - report Fed's Logan: Investment demand for AI is big, real and near-term inflationary Fed's Schmid: Recent inflation encouraging but too early to say What United Airlines tells us about the shape of the US customer US May business inventories +0.3% vs +0.3% expected US Pending Home sale",
-    "drafted_at": "2026-07-17T01:29:09.327800",
+    "primary_source": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/07/16/housing-market-mortgages-homebuilding.html",
+    "source_title": "Here's why the housing market is hurting so much this summer",
+    "source_summary": "Mortgage rates are high, home prices at record levels, and consumers stressed \u2014 all contributing to a drop in existing home sales and builder sentiment.",
+    "drafted_at": "2026-07-17T04:52:42.405212",
     "data": {
-      "source": "FOREXLIVE"
+      "source": "CNBC"
     },
-    "content_hash": "8442440688358426"
+    "content_hash": "e9d4c65e893f7bd2"
   },
   {
-    "id": "6ec59cf7",
+    "id": "2b7397a5",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "How sticky is inflation? Let's see: Now the chart is filling in the picture.\n\nhttps://decrypt.co/373649/xrp-price-cant-keep-up-bitcoin-takes-breather",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "DECRYPT",
+    "source_url": "https://decrypt.co/373649/xrp-price-cant-keep-up-bitcoin-takes-breather",
+    "source_title": "XRP Can't Keep Up as Bitcoin Takes a Breather: Analysis",
+    "source_summary": "The post-CPI rally gave XRP a nudge. The coin barely moved. Now the chart is filling in the picture.",
+    "drafted_at": "2026-07-17T04:52:42.405359",
+    "data": {
+      "source": "DECRYPT"
+    },
+    "content_hash": "1e678eab83abf626"
+  },
+  {
+    "id": "3f0581cb",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -350,7 +466,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-07-17T01:29:09.330254",
+    "drafted_at": "2026-07-17T04:52:42.406900",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -358,7 +474,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "f1a5e15f",
+    "id": "8f3bada2",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "When everyone's positioned for a crash, the crash takes a vacation.",
@@ -368,14 +484,14 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "When everyone's positioned for a crash, the crash takes a vacation.",
-    "drafted_at": "2026-07-17T01:29:09.330347",
+    "drafted_at": "2026-07-17T04:52:42.406986",
     "data": {
       "take_seed": "2026-07-17-pack-1"
     },
     "content_hash": "9b0f7be55d8ef71c"
   },
   {
-    "id": "755dc885",
+    "id": "2ecf3df1",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Gold doesn't pay a dividend. Neither does a fire extinguisher.",
@@ -385,7 +501,7 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Gold doesn't pay a dividend. Neither does a fire extinguisher.",
-    "drafted_at": "2026-07-17T01:29:09.330406",
+    "drafted_at": "2026-07-17T04:52:42.407045",
     "data": {
       "take_seed": "2026-07-17-pack-2"
     },
