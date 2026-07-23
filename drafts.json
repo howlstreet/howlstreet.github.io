@@ -1,42 +1,95 @@
 [
   {
-    "id": "b118c7a8",
+    "id": "9ffc660f",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "If you read one thing today: Renewed Houthi blockade of Saudi Red Sea ports threatens up to 4 million bpd of redirected Saudi crude exports, adding fresh supply risks as the Strait of Hormuz remains effectively disrupted The latest reignition of hostilities between the United States and Iran led to a spike in oil prices that, contrary to some observers\u2019 expectations proved to be temporary.\n\nAfter jumping, prices once again moved lower, driven by hope for peace.\n\nYet the recent announcement by Yemen\u2019s Houthis that they would blockade Saudi Arabia\u2019s Red Sea ports\u2026\n\nhttps://oilprice.com/Energy/Oil-Prices/Houthi-Red-Sea-Blockade-Could-Shatter-Hopes-for-Lower-Oil-Prices.html",
+    "draft_text": "FRONT-PAGE FOR THE PACK: Treasury yields are approaching the highest levels seen since the Iran war started in February as oil prices rise.\n\nhttps://www.marketwatch.com/story/the-bull-market-faces-higher-likelihood-of-a-fed-rate-hike-as-iran-crisis-intensifies-58f268e8?mod=mw_rss_topstories",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "OILPRICE",
-    "source_url": "https://oilprice.com/Energy/Oil-Prices/Houthi-Red-Sea-Blockade-Could-Shatter-Hopes-for-Lower-Oil-Prices.html",
-    "source_title": "Houthi Red Sea Blockade Could Shatter Hopes for Lower Oil Prices",
-    "source_summary": "Renewed Houthi blockade of Saudi Red Sea ports threatens up to 4 million bpd of redirected Saudi crude exports, adding fresh supply risks as the Strait of Hormuz remains effectively disrupted The latest reignition of hostilities between the United States and Iran led to a spike in oil prices that, contrary to some observers\u2019 expectations proved to be temporary. After jumping, prices once again mov",
-    "drafted_at": "2026-07-22T23:53:36.577077",
+    "primary_source": "MARKETWATCH",
+    "source_url": "https://www.marketwatch.com/story/the-bull-market-faces-higher-likelihood-of-a-fed-rate-hike-as-iran-crisis-intensifies-58f268e8?mod=mw_rss_topstories",
+    "source_title": "The bull market faces higher likelihood of a Fed rate hike as Iran crisis intensifies",
+    "source_summary": "Treasury yields are approaching the highest levels seen since the Iran war started in February as oil prices rise",
+    "drafted_at": "2026-07-23T01:44:55.574526",
     "data": {
-      "source": "OILPRICE"
+      "source": "MARKETWATCH"
     },
-    "content_hash": "285c44201e73a693"
+    "content_hash": "6b0a63af6c433d0a"
   },
   {
-    "id": "89d64817",
+    "id": "aab58dad",
     "format": "MARKET_MOVE",
     "status": "pending",
-    "draft_text": "Wake up \u2014 here's the tape: WTI crude rips 23.0% in 5 sessions to $87.87.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "draft_text": "This is the take-notes part. VIX surges 10.7% in 5 sessions to 16.64.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "NYMEX \u00b7 CL=F",
-    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
-    "source_title": "WTI crude oil futures",
-    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-07-22T23:53:36.577384",
+    "primary_source": "CBOE \u00b7 ^VIX",
+    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "source_title": "VIX (S&P 500 volatility)",
+    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "drafted_at": "2026-07-23T01:44:55.574737",
     "data": {
-      "signal_id": "CL=F:move:2026-07-22",
+      "signal_id": "^VIX:move:2026-07-22",
       "kind": "move_up",
-      "current": "$87.87"
+      "current": "16.64"
     },
-    "content_hash": "c272de0720a2f459"
+    "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "e174174f",
+    "id": "cf6c6ac9",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Heads up, pack. Bitcoin climbs 5.7% in 5 sessions to $65,762.\n\nBitcoin is now treated as a macro asset alongside gold and tech.\n\nIts swings move alt-coins, public miners, and crypto-exposed stocks.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/BTC-USD",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Yahoo Finance \u00b7 BTC-USD",
+    "source_url": "https://finance.yahoo.com/quote/BTC-USD",
+    "source_title": "Bitcoin",
+    "source_summary": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
+    "drafted_at": "2026-07-23T01:44:55.574902",
+    "data": {
+      "signal_id": "BTC-USD:move:2026-07-23",
+      "kind": "move_up",
+      "current": "$65,762"
+    },
+    "content_hash": "0e3396ceb3da7211"
+  },
+  {
+    "id": "45d12942",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "China policy update: The People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Thursday at 6.7906 compared to the previous day's fix of 6.7933 and 6.7712 Reuters estimate.\n\nhttps://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67906-vs-67933-previous-202607230115",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "PBOC",
+    "source_url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67906-vs-67933-previous-202607230115",
+    "source_title": "PBOC sets USD/CNY reference rate at 6.7906 vs. 6.7933 previous",
+    "source_summary": "The People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Thursday at 6.7906 compared to the previous day's fix of 6.7933 and 6.7712 Reuters estimate.",
+    "drafted_at": "2026-07-23T01:44:55.582252",
+    "data": {
+      "actor": "PBOC"
+    },
+    "content_hash": "08c09527bfe72f2d"
+  },
+  {
+    "id": "dc987981",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "From the Eccles Building: Treasury yields are approaching the highest levels seen since the Iran war started in February as oil prices rise.\n\nhttps://www.marketwatch.com/story/the-bull-market-faces-higher-likelihood-of-a-fed-rate-hike-as-iran-crisis-intensifies-58f268e8?mod=mw_rss_topstories",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Fed",
+    "source_url": "https://www.marketwatch.com/story/the-bull-market-faces-higher-likelihood-of-a-fed-rate-hike-as-iran-crisis-intensifies-58f268e8?mod=mw_rss_topstories",
+    "source_title": "The bull market faces higher likelihood of a Fed rate hike as Iran crisis intensifies",
+    "source_summary": "Treasury yields are approaching the highest levels seen since the Iran war started in February as oil prices rise",
+    "drafted_at": "2026-07-23T01:44:55.582389",
+    "data": {
+      "actor": "Fed"
+    },
+    "content_hash": "6b0a63af6c433d0a"
+  },
+  {
+    "id": "8c881e89",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Policy update for the pack: The statement discusses a coordinated approach to identifying highly sensitive data and documents and discusses enhanced procedures for the review of such information to reduce any cybersecurity risks while ensuring that the agencies have access to such information at all times during an examination.\n\nThe agencies recognize the importance of keeping a bank's highly sensitive information confidential and protecting it against disclosure to or from access by unauthorized persons as a result of cybersecurity vulnerabilities.\n\nThe agencies have committed to notify affected banks of any potential or confirmed material data breach involving confidential supervisory information.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
@@ -46,14 +99,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
     "source_title": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
     "source_summary": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
-    "drafted_at": "2026-07-22T23:53:36.588682",
+    "drafted_at": "2026-07-23T01:44:55.582985",
     "data": {
       "actor": "FED"
     },
     "content_hash": "59a82190f82073b0"
   },
   {
-    "id": "e7048c4e",
+    "id": "923b1379",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Central bank corner: The Board's process for setting the discount rate is distinct from the process the Federal Open Market Committee follows in setting the target range for the federal funds rate.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
@@ -63,14 +116,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
     "source_title": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
     "source_summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
-    "drafted_at": "2026-07-22T23:53:36.589056",
+    "drafted_at": "2026-07-23T01:44:55.583235",
     "data": {
       "actor": "FED"
     },
     "content_hash": "5fb63e04cb74e9a2"
   },
   {
-    "id": "006afc37",
+    "id": "16c79fb3",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FED WATCH: \"The Federal Reserve's commitment to price stability and maximum employment is unwavering.\n\nAs is our resolve to pursue our mandate with rigor,\" said Chairman Kevin Warsh.\n\n\"The U.S. economy has changed significantly over the last generation, and never more so than right now.\n\nEach task force will carefully consider whether policymakers' means and methods, analytical tools and policy approaches can be improved upon.\n\nI am honored that the best minds from a range of disciplines have agreed to work with us to sharpen our performance as an institution.\n\nThe five task forces will examine areas central to the broad conduct of monetary policy.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
@@ -80,48 +133,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
     "source_title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
     "source_summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-    "drafted_at": "2026-07-22T23:53:36.590172",
+    "drafted_at": "2026-07-23T01:44:55.583906",
     "data": {
       "actor": "FED"
     },
     "content_hash": "ed14be39878da65d"
   },
   {
-    "id": "7915d54d",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "RATE-PATH READ: TS Banking Group, Inc., Treynor, Iowa and TS Contrarian Bancshares, Inc., Treynor, Iowa Written Agreement dated July 6, 2026 Additional enforcement actions can be searched for here.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260709a.htm",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FED",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260709a.htm",
-    "source_title": "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc.",
-    "source_summary": "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc.",
-    "drafted_at": "2026-07-22T23:53:36.590464",
-    "data": {
-      "actor": "FED"
-    },
-    "content_hash": "2da0384c8b59f120"
-  },
-  {
-    "id": "a4065f55",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "Policy update for the pack: The minutes for each regularly scheduled meeting of the Committee are generally published three weeks after the day of the policy decision.\n\nThe descriptions of economic and financial conditions contained in these minutes are based solely on the information that was available to the Committee at the time of the meeting.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FED",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
-    "source_title": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
-    "source_summary": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
-    "drafted_at": "2026-07-22T23:53:36.590931",
-    "data": {
-      "actor": "FED"
-    },
-    "content_hash": "011d5c8194ca6a9e"
-  },
-  {
-    "id": "047dd1bc",
+    "id": "3212ceeb",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$GLOO insider bought $8,999,995 on 2026-07-10, 4 insiders. \ud83d\udc40\n\nGloo Holdings, Inc.. 2,769,229 shares at $3.25.\n\n+0.9% since the purchase.\n\nhttp://openinsider.com/screener?s=GLOO",
@@ -131,7 +150,7 @@
     "source_url": "http://openinsider.com/screener?s=GLOO",
     "source_title": "Gloo Holdings, Inc. (GLOO) insider bought $8,999,995",
     "source_summary": "4 insider(s) bought 2,769,229 shares at $3.25 on 2026-07-10.",
-    "drafted_at": "2026-07-22T23:53:36.591088",
+    "drafted_at": "2026-07-23T01:44:55.584513",
     "data": {
       "ticker": "GLOO",
       "type": "P",
@@ -141,7 +160,7 @@
     "content_hash": "cef0c8ea4778faaf"
   },
   {
-    "id": "5bfba01e",
+    "id": "f5fbeff1",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$PBLS insider bought $6,919,551 on 2026-07-20. \ud83d\udc40\n\nParabilis Medicines, Inc.. 244,593 shares at $28.29.\n\n+8.9% since the purchase.\n\nhttp://openinsider.com/screener?s=PBLS",
@@ -151,7 +170,7 @@
     "source_url": "http://openinsider.com/screener?s=PBLS",
     "source_title": "Parabilis Medicines, Inc. (PBLS) insider bought $6,919,551",
     "source_summary": "1 insider(s) bought 244,593 shares at $28.29 on 2026-07-20.",
-    "drafted_at": "2026-07-22T23:53:36.591202",
+    "drafted_at": "2026-07-23T01:44:55.584592",
     "data": {
       "ticker": "PBLS",
       "type": "P",
@@ -161,7 +180,7 @@
     "content_hash": "6b4909534aae879d"
   },
   {
-    "id": "efac4d05",
+    "id": "e4c38974",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$IPX insider bought $4,949,802 on 2026-07-10, 2 insiders. \ud83d\udc40\n\nIperionx Ltd. 1,253,720 shares at $3.95.\n\n+502.5% since the purchase.\n\nhttp://openinsider.com/screener?s=IPX",
@@ -171,7 +190,7 @@
     "source_url": "http://openinsider.com/screener?s=IPX",
     "source_title": "Iperionx Ltd (IPX) insider bought $4,949,802",
     "source_summary": "2 insider(s) bought 1,253,720 shares at $3.95 on 2026-07-10.",
-    "drafted_at": "2026-07-22T23:53:36.591314",
+    "drafted_at": "2026-07-23T01:44:55.584671",
     "data": {
       "ticker": "IPX",
       "type": "P",
@@ -181,7 +200,27 @@
     "content_hash": "16eb220a30bf134e"
   },
   {
-    "id": "daffdc09",
+    "id": "1cab2d25",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$CLBK insider bought $4,778,740 on 2026-07-20, 16 insiders. \ud83d\udc40\n\nColumbia Financial, Inc./Md/. 477,874 shares at $10.00.\n\n+9.4% since the purchase.\n\nhttp://openinsider.com/screener?s=CLBK",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=CLBK",
+    "source_title": "Columbia Financial, Inc./Md/ (CLBK) insider bought $4,778,740",
+    "source_summary": "16 insider(s) bought 477,874 shares at $10.00 on 2026-07-20.",
+    "drafted_at": "2026-07-23T01:44:55.584756",
+    "data": {
+      "ticker": "CLBK",
+      "type": "P",
+      "dollar_value": 4778740.0,
+      "pct_since": 9.399995803833008
+    },
+    "content_hash": "997c6258ef1b8326"
+  },
+  {
+    "id": "2a6e9f69",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$ELV insider bought $1,368,280 on 2026-07-17, 2 insiders. \ud83d\udc40\n\nElevance Health, Inc.. 3,725 shares at $367.32.\n\n+5.9% since the purchase.\n\nhttp://openinsider.com/screener?s=ELV",
@@ -191,7 +230,7 @@
     "source_url": "http://openinsider.com/screener?s=ELV",
     "source_title": "Elevance Health, Inc. (ELV) insider bought $1,368,280",
     "source_summary": "2 insider(s) bought 3,725 shares at $367.32 on 2026-07-17.",
-    "drafted_at": "2026-07-22T23:53:36.591425",
+    "drafted_at": "2026-07-23T01:44:55.584834",
     "data": {
       "ticker": "ELV",
       "type": "P",
@@ -201,27 +240,58 @@
     "content_hash": "4fd6fdf5d8f3eb4a"
   },
   {
-    "id": "ba61c2ba",
-    "format": "CORRUPTION_WATCH_INSIDER",
+    "id": "49fe5cd3",
+    "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "$UUUU insider bought $1,018,700 on 2026-07-08, 2 insiders. \ud83d\udc40\n\nEnergy Fuels Inc. 78,000 shares at $13.06.\n\n-5.7% since the purchase.\n\nhttp://openinsider.com/screener?s=UUUU",
+    "draft_text": "PROTECTION BRIEFING: PeckShield flagged that the attacker bridged the stolen funds from Arbitrum to Ethereum and swapped them for 12,467 ETH.\n\nhttps://www.theblock.co/post/409482/arbitrum-protocol-afx-trade-exploit?utm_source=rss&utm_medium=rss",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=UUUU",
-    "source_title": "Energy Fuels Inc (UUUU) insider bought $1,018,700",
-    "source_summary": "2 insider(s) bought 78,000 shares at $13.06 on 2026-07-08.",
-    "drafted_at": "2026-07-22T23:53:36.591535",
+    "primary_source": "THE BLOCK",
+    "source_url": "https://www.theblock.co/post/409482/arbitrum-protocol-afx-trade-exploit?utm_source=rss&utm_medium=rss",
+    "source_title": "Arbitrum protocol AFX Trade hit by $24 million bridge exploit: Blockaid",
+    "source_summary": "PeckShield flagged that the attacker bridged the stolen funds from Arbitrum to Ethereum and swapped them for 12,467 ETH.",
+    "drafted_at": "2026-07-23T01:44:55.585331",
     "data": {
-      "ticker": "UUUU",
-      "type": "P",
-      "dollar_value": 1018700.0,
-      "pct_since": -5.742722667559734
+      "source": "THE BLOCK"
     },
-    "content_hash": "22d5678d838a822c"
+    "content_hash": "ce9cc2a501cca656"
   },
   {
-    "id": "fa330234",
+    "id": "05963cdd",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "FRAUDSTER DOWN: Amazon must pay $1.5 billion in refunds after its FTC settlement.\n\nHere's how to know if you're eligible to claim a share of the class action lawsuit.\n\nhttps://www.businessinsider.com/amazon-prime-ftc-settlement-check-eligibility-file-claim-compensation-2026-7",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "BUSINESS INSIDER",
+    "source_url": "https://www.businessinsider.com/amazon-prime-ftc-settlement-check-eligibility-file-claim-compensation-2026-7",
+    "source_title": "Here's how to claim the Amazon Prime FTC lawsuit payout before the deadline",
+    "source_summary": "Amazon must pay $1.5 billion in refunds after its FTC settlement. Here's how to know if you're eligible to claim a share of the class action lawsuit.",
+    "drafted_at": "2026-07-23T01:44:55.585499",
+    "data": {
+      "source": "BUSINESS INSIDER"
+    },
+    "content_hash": "e934ad9a6accb7a5"
+  },
+  {
+    "id": "4b4eeadb",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Commodity traders are having the rug pulled out from under one of their biggest paydays yet as refiners start bypassing oil and traders and buying Venezuelan crude directly, according to Reuters.\n\nRefiners and major oil-producing firms are rapidly gaining market share in Venezuelan crude by locking in direct supply contracts with state-run Petr\u00f3leos de Venezuela, S.A. (PDVSA), bypassing the global middlemen and commodity trading houses such as Trafigura and Vitol that previously dominated the space.\n\nSix months after traders reopened Venezuela\u2019s\u2026\n\nhttps://oilprice.com/Energy/Crude-Oil/Global-Refiners-Are-Cutting-Out-Oil-Traders-To-Buy-Venezuelan-Crude-Directly.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "OILPRICE",
+    "source_url": "https://oilprice.com/Energy/Crude-Oil/Global-Refiners-Are-Cutting-Out-Oil-Traders-To-Buy-Venezuelan-Crude-Directly.html",
+    "source_title": "Global Refiners Are Cutting Out Oil Traders To Buy Venezuelan Crude Directly",
+    "source_summary": "Commodity traders are having the rug pulled out from under one of their biggest paydays yet as refiners start bypassing oil and traders and buying Venezuelan crude directly, according to Reuters. Refiners and major oil-producing firms are rapidly gaining market share in Venezuelan crude by locking in direct supply contracts with state-run Petr\u00f3leos de Venezuela, S.A. (PDVSA), bypassing the global ",
+    "drafted_at": "2026-07-23T01:44:55.586018",
+    "data": {
+      "source": "OILPRICE"
+    },
+    "content_hash": "02fc7d7c8a2707fb"
+  },
+  {
+    "id": "39770b84",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The most reliable way to earn online in 2026 remains straightforward: sell a useful skill to a real employer or client.\n\nOffers built around effortless clicks, guaranteed crypto returns or payments required before work begins carry a high risk of fraud.\n\nChainalysis estimates that crypto scams received at The post How People Really Make Money Online in 2026 and Where Scams Start appeared first on BeInCrypto.\n\nhttps://beincrypto.com/how-people-make-money-online-2026-without-getting-scammed/",
@@ -231,14 +301,14 @@
     "source_url": "https://beincrypto.com/how-people-make-money-online-2026-without-getting-scammed/",
     "source_title": "How People Really Make Money Online in 2026 and Where Scams Start",
     "source_summary": "The most reliable way to earn online in 2026 remains straightforward: sell a useful skill to a real employer or client. Offers built around effortless clicks, guaranteed crypto returns or payments required before work begins carry a high risk of fraud. The scale of that risk keeps growing. Chainalysis estimates that crypto scams received at The post How People Really Make Money Online in 2026 and ",
-    "drafted_at": "2026-07-22T23:53:36.592799",
+    "drafted_at": "2026-07-23T01:44:55.586413",
     "data": {
       "source": "BEINCRYPTO"
     },
     "content_hash": "a06d53dd221b8502"
   },
   {
-    "id": "11fbb0b2",
+    "id": "8b3c50a3",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Kennedy Jr. says the deferrals are part of a strategy to 'stop the fraud before it happens'.\n\nhttps://fortune.com/2026/07/22/donald-trump-1-billion-medicaid-california-minnesota-fraud/",
@@ -248,65 +318,14 @@
     "source_url": "https://fortune.com/2026/07/22/donald-trump-1-billion-medicaid-california-minnesota-fraud/",
     "source_title": "Trump admin deferring $1 billion-plus Medicaid payments to California and Minnesota amid \u2018suspected fraud\u2019",
     "source_summary": "Health Secretary Robert F. Kennedy Jr. says the deferrals are part of a strategy to 'stop the fraud before it happens'.",
-    "drafted_at": "2026-07-22T23:53:36.593022",
+    "drafted_at": "2026-07-23T01:44:55.586551",
     "data": {
       "source": "FORTUNE"
     },
     "content_hash": "db6afb75633cb6e2"
   },
   {
-    "id": "4b7f4c1a",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "The wolves howled, the regulators listened. A Missouri state prosecutor has been yanked from office after allegedly engaging in sexual relations with a criminal defense attorney whose clients she was prosecuting, a prospective defendant accused of domestic abuse, and an illegal alien facing prosecution for sexual assault.\n\nA judge for the Circuit Court of Ray County issued an order on July 17 barring Camille Johnston on a preliminary basis \"from engaging in any activity, or exercising any authority, as the Prosecuting Attorney of Ray County.\" 'Removal isn\u2019t a suggestion; it\u2019s a necessity.' In addition to stripping Johnston of her power, the judge prohibited her from entering the Ray County Courthouse and the prosecutor's office unless and until the court says otherwise.\n\nThe order was issued in response to the quo warranto petition filed by Missouri Attorney General Catherine Hanaway (R), which painted Johnston \u2014 who has held that elected position since Jan.\n\n1, 2023 \u2014 in a particularly unflattering light, accusing her of engaging \"in willful acts of misconduct, malfeasance, misfeasance, and nonfeasance.\" For starters, the petition alleges that Johnston has been engaged in an \"intimate and romantic relationship\" with a criminal defense attorney in the county \u2014 a relationship that she allegedly hid from individuals she has prosecuted, the judicial officers before whom she and her supposed lover appeared, and the general public.\n\nHanaway's filing noted that this alleged relationship created \"at the very least, an obvious appearance of a conflict of interest.\" It is, however, not the most scandalous affair detailed in the petition.\n\nRELATED: Convicted scammer and former aide to Minneapolis mayor arrested AGAIN The petition alleges that Johnston also had a fling with a prospective defendant who was charged with acts of domestic violence against his wife \u2014 and that Johnston fired a female employee who became aware of the affair.\n\nJohnston didn't bother notifying the court, her employees, or the victim of her ties to the would-be defendant even when poised to prosecute him, claimed the petition.\n\nShe was, however, eventually disqualified when local law enforcement learned of the alleged relationship.\n\nhttps://www.theblaze.com/news/sex-crime-and-a-getaway-truck-missouri-prosecutor-removed-for-allegedly-helping-illegal-alien-lover-flee-sodomy-charges",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "THE BLAZE",
-    "source_url": "https://www.theblaze.com/news/sex-crime-and-a-getaway-truck-missouri-prosecutor-removed-for-allegedly-helping-illegal-alien-lover-flee-sodomy-charges",
-    "source_title": "Sex, crime, and a getaway truck: Missouri prosecutor removed for allegedly helping illegal alien lover flee sodomy charges",
-    "source_summary": "A Missouri state prosecutor has been yanked from office after allegedly engaging in sexual relations with a criminal defense attorney whose clients she was prosecuting, a prospective defendant accused of domestic abuse, and an illegal alien facing prosecution for sexual assault. A judge for the Circuit Court of Ray County issued an order on July 17 barring Camille Johnston on a preliminary basis \"",
-    "drafted_at": "2026-07-22T23:53:36.596855",
-    "data": {
-      "source": "THE BLAZE"
-    },
-    "content_hash": "b37f63907193f759"
-  },
-  {
-    "id": "25803de2",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "JUSTICE SERVED: The filings show an asset-first strategy, but restraint, forfeiture and victim repayment remain separate stages.\n\nThe post US targets $26.4 million in five crypto scam cases as DOJ says $800 million recovered appeared first on CryptoSlate.\n\nhttps://cryptoslate.com/us-targets-26-4-million-in-five-crypto-scam-cases-as-doj-says-800-million-recovered/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CRYPTOSLATE",
-    "source_url": "https://cryptoslate.com/us-targets-26-4-million-in-five-crypto-scam-cases-as-doj-says-800-million-recovered/",
-    "source_title": "US targets $26.4 million in five crypto scam cases as DOJ says $800 million recovered",
-    "source_summary": "The filings show an asset-first strategy, but restraint, forfeiture and victim repayment remain separate stages. The post US targets $26.4 million in five crypto scam cases as DOJ says $800 million recovered appeared first on CryptoSlate .",
-    "drafted_at": "2026-07-22T23:53:36.597208",
-    "data": {
-      "source": "CRYPTOSLATE"
-    },
-    "content_hash": "f1f419177704a177"
-  },
-  {
-    "id": "02b14c92",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Score one for the good guys. Together, the court-entered orders restrict marketing across deposit, exchange, investment, withdrawal and trading products, including assisted activity.\n\nThe post Celsius founders face permanent crypto bans that could cost more than their $16.5M obligations appeared first on CryptoSlate.\n\nhttps://cryptoslate.com/celsius-founders-face-permanent-crypto-bans-that-could-cost-more-than-their-16-5m-in-obligations/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CRYPTOSLATE",
-    "source_url": "https://cryptoslate.com/celsius-founders-face-permanent-crypto-bans-that-could-cost-more-than-their-16-5m-in-obligations/",
-    "source_title": "Celsius founders face permanent crypto bans that could cost more than their $16.5M obligations",
-    "source_summary": "Together, the court-entered orders restrict marketing across deposit, exchange, investment, withdrawal and trading products, including assisted activity. The post Celsius founders face permanent crypto bans that could cost more than their $16.5M obligations appeared first on CryptoSlate .",
-    "drafted_at": "2026-07-22T23:53:36.597584",
-    "data": {
-      "source": "CRYPTOSLATE"
-    },
-    "content_hash": "75db5583d37a720a"
-  },
-  {
-    "id": "7864bcc1",
+    "id": "a7f30062",
     "format": "GLOBAL_DESK",
     "status": "pending",
     "draft_text": "PACK BRIEFING \u2014 ASIA: EDX Markets, an institutional-only crypto trading venue with its own central clearinghouse, closed a $76 million Series C funding round led by SBI Holdings, the firm said in a press release.\n\nThe Tokyo-listed financial group becomes a strategic investor in the U.S. exchange.\n\nhttps://thedefiant.io/converge/tradfi-and-fintech/edx-markets-closes-76m-series-c-led-by-sbi-holdings",
@@ -316,82 +335,116 @@
     "source_url": "https://thedefiant.io/converge/tradfi-and-fintech/edx-markets-closes-76m-series-c-led-by-sbi-holdings",
     "source_title": "EDX Markets Closes $76M Series C Led by SBI Holdings",
     "source_summary": "EDX Markets, an institutional-only crypto trading venue with its own central clearinghouse, closed a $76 million Series C funding round led by SBI Holdings, the firm said in a press release. The Tokyo-listed financial group becomes a strategic investor in the U.S. exchange. The capital will fund\u2026",
-    "drafted_at": "2026-07-22T23:53:36.602709",
+    "drafted_at": "2026-07-23T01:44:55.590500",
     "data": {
       "source": "THE DEFIANT"
     },
     "content_hash": "766a40daeebddf43"
   },
   {
-    "id": "d356410c",
+    "id": "f616c889",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: The Houthis, the Iran-backed group in Yemen, on Thursday claimed an attack on two Saudi oil tankers transiting through the Red Sea, identified as ENCELA and LAYLIA, saying the vessels violated \u200cthe \u200cnaval blockade imposed \u200cby the group on Monday, the Guardian reported.\n\nhttps://www.fxstreet.com/news/yemens-houthis-say-they-targeted-two-saudi-oil-tankers-202607222344",
+    "draft_text": "MIDDLE EAST DESK: Saudi vessel Encelia attacked in the Red Sea, with crew unharmed.\n\nBab el-Mandeb Strait effectively closed by September 30 at 26% YES.\n\nThe post Saudi vessel Encelia attacked in Red Sea, fire contained; crew unharmed appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/saudi-vessel-encelia-attacked-in-red-sea-fire-contained-crew-unharmed/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/saudi-vessel-encelia-attacked-in-red-sea-fire-contained-crew-unharmed/",
+    "source_title": "Saudi vessel Encelia attacked in Red Sea, fire contained; crew unharmed",
+    "source_summary": "Saudi vessel Encelia attacked in the Red Sea, with crew unharmed. Bab el-Mandeb Strait effectively closed by September 30 at 26% YES. The post Saudi vessel Encelia attacked in Red Sea, fire contained; crew unharmed appeared first on Crypto Briefing .",
+    "drafted_at": "2026-07-23T01:44:55.590771",
+    "data": {
+      "source": "CRYPTO BRIEFING"
+    },
+    "content_hash": "2c62bf3b3d56b593"
+  },
+  {
+    "id": "5982ed91",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "From the Gulf: Saudi vessel Encelia attacked in the Red Sea, raising security concerns.\n\nBab el-Mandeb Strait effectively closed by September 30 at 26% YES.\n\nThe post Saudi vessel Encelia attacked in Red Sea, crew safe amid rising security concerns appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/saudi-vessel-encelia-attacked-in-red-sea-crew-safe-amid-rising-security-concerns/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/saudi-vessel-encelia-attacked-in-red-sea-crew-safe-amid-rising-security-concerns/",
+    "source_title": "Saudi vessel Encelia attacked in Red Sea, crew safe amid rising security concerns",
+    "source_summary": "Saudi vessel Encelia attacked in the Red Sea, raising security concerns. Bab el-Mandeb Strait effectively closed by September 30 at 26% YES. The post Saudi vessel Encelia attacked in Red Sea, crew safe amid rising security concerns appeared first on Crypto Briefing .",
+    "drafted_at": "2026-07-23T01:44:55.590971",
+    "data": {
+      "source": "CRYPTO BRIEFING"
+    },
+    "content_hash": "94d0532dc053a024"
+  },
+  {
+    "id": "8784a860",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "MIDDLE EAST DESK: US dollar index surpasses 100 amid Iran tensions and oil price concerns.\n\nCrude oil reaching a new all-time high by September 30 at 6.5% YES.\n\nThe post US dollar surges past 100 index amid Iran tensions, oil price concerns appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/us-dollar-surges-past-100-index-amid-iran-tensions-oil-price-concerns/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/us-dollar-surges-past-100-index-amid-iran-tensions-oil-price-concerns/",
+    "source_title": "US dollar surges past 100 index amid Iran tensions, oil price concerns",
+    "source_summary": "US dollar index surpasses 100 amid Iran tensions and oil price concerns. Crude oil reaching a new all-time high by September 30 at 6.5% YES. The post US dollar surges past 100 index amid Iran tensions, oil price concerns appeared first on Crypto Briefing .",
+    "drafted_at": "2026-07-23T01:44:55.591202",
+    "data": {
+      "source": "CRYPTO BRIEFING"
+    },
+    "content_hash": "54568b3b50105303"
+  },
+  {
+    "id": "d607de57",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "PACK BRIEFING \u2014 ASIA: Japanese Finance Minister Satsuki Katayama reiterated on Thursday that his government was \u201cready to take decisive action on foreign exchange as needed.\u201d.\n\nhttps://www.fxstreet.com/news/japans-katayama-ready-to-take-decisive-action-on-foreign-exchange-as-needed-202607230132",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/yemens-houthis-say-they-targeted-two-saudi-oil-tankers-202607222344",
-    "source_title": "Yemen\u2019s Houthis say they targeted two Saudi oil tankers",
-    "source_summary": "The Houthis, the Iran-backed group in Yemen, on Thursday claimed an attack on two Saudi oil tankers transiting through the Red Sea, identified as ENCELA and LAYLIA, saying the vessels violated \u200cthe \u200cnaval blockade imposed \u200cby the group on Monday, the Guardian reported.",
-    "drafted_at": "2026-07-22T23:53:36.603357",
+    "source_url": "https://www.fxstreet.com/news/japans-katayama-ready-to-take-decisive-action-on-foreign-exchange-as-needed-202607230132",
+    "source_title": "Japan\u2019s Katayama: Ready to take decisive action on foreign exchange as needed",
+    "source_summary": "Japanese Finance Minister Satsuki Katayama reiterated on Thursday that his government was \u201cready to take decisive action on foreign exchange as needed.\u201d",
+    "drafted_at": "2026-07-23T01:44:55.591457",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "b1482c2f1dbe439a"
+    "content_hash": "4e3292b3d6dc0458"
   },
   {
-    "id": "0499f4ac",
-    "format": "GLOBAL_DESK",
+    "id": "f7b92727",
+    "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "From the Americas: Signs of a delayed, piecemeal approach to USMCA renegotiation add to the uncertainty already weighing on North American trade flows, particularly for autos, steel and aluminum exporters awaiting relief from Section 232 tariffs.\n\nMarkets are likely to view an interim deal with Mexico as more achievable near term, given Mexico's direct engagement in bilateral talks, while a genuine breakthrough with Canada looks harder to square with Trump's freshly imposed 50% tariff on a swathe of Canadian goods this same week.\n\nThat escalation raises real questions over how credible Greer's timeline for a Canada arrangement by year end actually is, and whether Ottawa's exclusion from the Mexico talks leaves it with little leverage to negotiate better terms.\n\nThe prospect of tougher rules of origin and labor standards slipping into 2027 also prolongs the investment uncertainty already weighing on regional manufacturing decisions. --- Washington is angling for quick interim trade patches with Mexico and Canada, even as a fresh 50% tariff on Canadian goods clouds the path to any deal with Ottawa.\n\nSummary: US Trade Representative Jamieson Greer says he hopes for interim deals with Canada and Mexico by year end Harder USMCA issues, including autos rules of origin and labor and environmental standards, pushed into 2027 talks with Congress Mexico and Canada are seeking relief from Trump's Section 232 tariffs of 25% on autos and 50% on steel and aluminum Canada excluded from bilateral USMCA talks in Mexico City, raising the risk it must accept terms set by Mexico Trump this week imposed a 50% tariff on about $20bln of Canadian goods, including beer, dairy and hockey sticks Trump declined to renew USMCA on 1 July, triggering a 10 year countdown to its expiration absent a renewal agreement US Trade Representative Jamieson Greer said on Wednesday he hopes to secure interim trade arrangements with Mexico and Canada before the end of the year, while pushing thornier changes to the US Mexico Canada Agreement into 2027, according to Reuters.\n\nTestifying before the Senate Finance Committee, Greer said he would like to have some arrangement in place with each country, though he offered no specifics on what such deals might look like.\n\nGreer said tougher issues, including tighter rules of origin for autos and labor and environmental standards, would likely require further discussion with Congress next year, effectively confirming that a full USMCA renewal will not happen in 2026.\n\nMexico's Economy Ministry declined to comment on his remarks, and Canada's trade ministry did not immediately respond.\n\nhttps://investinglive.com/news/us-trade-rep-greer-eyes-interim-us-deals-with-canada-mexico-by-year-end/",
+    "draft_text": "Hiring scoreboard: Australian June 2026 jobs report, just the numbers here on this post.\n\nA very strong job added number, tempered somewhat by most being part-time.\n\nI'll have more to come on this separately.\n\nThis article was written by Eamonn Sheridan at investinglive.com.\n\nhttps://investinglive.com/news/australian-june-2026-jobs-report-unemployment-rate-expected-4-4-prior-4-4/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/us-trade-rep-greer-eyes-interim-us-deals-with-canada-mexico-by-year-end/",
-    "source_title": "US Trade Rep. Greer eyes interim US deals with Canada, Mexico by year end",
-    "source_summary": "Signs of a delayed, piecemeal approach to USMCA renegotiation add to the uncertainty already weighing on North American trade flows, particularly for autos, steel and aluminum exporters awaiting relief from Section 232 tariffs. Markets are likely to view an interim deal with Mexico as more achievable near term, given Mexico's direct engagement in bilateral talks, while a genuine breakthrough with ",
-    "drafted_at": "2026-07-22T23:53:36.606959",
+    "source_url": "https://investinglive.com/news/australian-june-2026-jobs-report-unemployment-rate-expected-4-4-prior-4-4/",
+    "source_title": "Australian June 2026 jobs report: Unemployment rate 4.4% (expected 4.4%, prior 4.4%)",
+    "source_summary": "Australian June 2026 jobs report, just the numbers here on this post. A very strong job added number, tempered somewhat by most being part-time. I'll have more to come on this separately. This article was written by Eamonn Sheridan at investinglive.com.",
+    "drafted_at": "2026-07-23T01:44:55.634205",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "421d5aca24d4dfb2"
+    "content_hash": "ed93f26ed10835a9"
   },
   {
-    "id": "cbaefad2",
-    "format": "GLOBAL_DESK",
+    "id": "2c2b4d2d",
+    "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "Gulf wire: The agreement has been explored since the Obama administration, but concerns over how security would be monitored prevented prior agreements.\n\nhttps://www.politico.com/news/2026/07/22/trump-administration-saudi-arabia-nuclear-deal-01008843?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "POLITICO EU",
-    "source_url": "https://www.politico.com/news/2026/07/22/trump-administration-saudi-arabia-nuclear-deal-01008843?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-    "source_title": "Trump administration announces deal to export nuclear materials to Saudi Arabia",
-    "source_summary": "The agreement has been explored since the Obama administration, but concerns over how security would be monitored prevented prior agreements.",
-    "drafted_at": "2026-07-22T23:53:36.607281",
-    "data": {
-      "source": "POLITICO EU"
-    },
-    "content_hash": "77e55270ebf58ba9"
-  },
-  {
-    "id": "eb74788d",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "MIDDLE EAST DESK: Iran\u2019s Foreign Minister Abbas Araghchi said that Tehran would respond in kind to any attack on its infrastructure after US President Donald Trump threatened to bomb a bridge or power plant for every ship targeted in the Strait of Hormuz, the Guardian reported on Wednesday.\n\nhttps://www.fxstreet.com/news/iran-warns-of-eye-for-an-eye-response-if-us-carries-out-trumps-threat-202607222327",
+    "draft_text": "Fresh print: Australia\u2019s Unemployment Rate stayed at 4.4% in June, according to the official data released by the Australian Bureau of Statistics (ABS) on Thursday.\n\nThe figure came in line with the market consensus of 4.4%.\n\nhttps://www.fxstreet.com/news/australia-unemployment-rate-set-to-steady-at-44-in-june-signaling-strong-job-market-202607222130",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/iran-warns-of-eye-for-an-eye-response-if-us-carries-out-trumps-threat-202607222327",
-    "source_title": "Iran warns of \u2018eye for an eye\u2019 response if US carries out Trump\u2019s threat",
-    "source_summary": "Iran\u2019s Foreign Minister Abbas Araghchi said that Tehran would respond in kind to any attack on its infrastructure after US President Donald Trump threatened to bomb a bridge or power plant for every ship targeted in the Strait of Hormuz, the Guardian reported on Wednesday.",
-    "drafted_at": "2026-07-22T23:53:36.607712",
+    "source_url": "https://www.fxstreet.com/news/australia-unemployment-rate-set-to-steady-at-44-in-june-signaling-strong-job-market-202607222130",
+    "source_title": "Breaking: Australia\u2019s Unemployment Rate holds steady at 4.4% in June, as expected",
+    "source_summary": "Australia\u2019s Unemployment Rate stayed at 4.4% in June, according to the official data released by the Australian Bureau of Statistics (ABS) on Thursday. The figure came in line with the market consensus of 4.4%.",
+    "drafted_at": "2026-07-23T01:44:55.634438",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "983a13369412dc20"
+    "content_hash": "1be8e86ca3013c15"
   },
   {
-    "id": "f753db60",
+    "id": "c4c96c68",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "Fresh print: The labour market report from Australia features today.\n\nThe unemployment rate is expected to remain steady at a low, by historical standards, 4.4%.\n\nIts risen over past months as the three Reserve Bank of Australia rate hikes in succession have weighed on jobs growth, at the margin, but unless its some sort of blow up higher, or jobs added shunt substantially into the negative, the data today is unlikely to impact the RBA, or AUD, too much.\n\nThis article was written by Eamonn Sheridan at investinglive.com.\n\nhttps://investinglive.com/news/economic-and-event-calendar-in-asia-australian-jobs-report/",
@@ -401,14 +454,14 @@
     "source_url": "https://investinglive.com/news/economic-and-event-calendar-in-asia-australian-jobs-report/",
     "source_title": "Economic and event calendar in Asia",
     "source_summary": "The labour market report from Australia features today. The unemployment rate is expected to remain steady at a low, by historical standards, 4.4%. Its risen over past months as the three Reserve Bank of Australia rate hikes in succession have weighed on jobs growth, at the margin, but unless its some sort of blow up higher, or jobs added shunt substantially into the negative, the data today is un",
-    "drafted_at": "2026-07-22T23:53:36.675967",
+    "drafted_at": "2026-07-23T01:44:55.634861",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "75d2fd1f98758b83"
   },
   {
-    "id": "d41f053c",
+    "id": "9d1a30a4",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -418,7 +471,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-07-22T23:53:36.677520",
+    "drafted_at": "2026-07-23T01:44:55.635900",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -426,24 +479,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "faeed4ef",
-    "format": "PACK_TAKE",
-    "status": "pending",
-    "draft_text": "Real rates eat sentiment for breakfast.",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Howl Street",
-    "source_url": "",
-    "source_title": "PACK TAKE",
-    "source_summary": "Real rates eat sentiment for breakfast.",
-    "drafted_at": "2026-07-22T23:53:36.677590",
-    "data": {
-      "take_seed": "2026-07-22-pack-1"
-    },
-    "content_hash": "9b0f7be55d8ef71c"
-  },
-  {
-    "id": "73c84768",
+    "id": "0725306c",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "The strong dollar makes everything cheaper for someone who isn't you.",
@@ -453,9 +489,26 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "The strong dollar makes everything cheaper for someone who isn't you.",
-    "drafted_at": "2026-07-22T23:53:36.677661",
+    "drafted_at": "2026-07-23T01:44:55.635958",
     "data": {
-      "take_seed": "2026-07-22-pack-2"
+      "take_seed": "2026-07-23-pack-1"
+    },
+    "content_hash": "9b0f7be55d8ef71c"
+  },
+  {
+    "id": "fecad7bc",
+    "format": "PACK_TAKE",
+    "status": "pending",
+    "draft_text": "Recessions are obvious in retrospect and invisible in real time.",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Howl Street",
+    "source_url": "",
+    "source_title": "PACK TAKE",
+    "source_summary": "Recessions are obvious in retrospect and invisible in real time.",
+    "drafted_at": "2026-07-23T01:44:55.635993",
+    "data": {
+      "take_seed": "2026-07-23-pack-2"
     },
     "content_hash": "9b0f7be55d8ef71c"
   }
