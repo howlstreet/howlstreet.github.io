@@ -1,76 +1,59 @@
 [
   {
-    "id": "a17e53c0",
+    "id": "c1561113",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "If you read one thing today: Russian businesses are grappling with the bleakest conditions since the early months of the war on Ukraine, putting the central bank in a bind as it weighs a pause in its yearlong easing cycle that would prolong punishing borrowing costs.\n\nhttps://financialpost.com/pmn/business-pmn/kyivs-strikes-battering-russian-economy-hang-over-rate-decision",
+    "draft_text": "FLAGSHIP READ: Gold (XAU/USD) recovers modest intraday losses amid a modest US Dollar (USD) pullback, though remains below the $4,050 level heading into the European session on Friday.\n\nhttps://www.fxstreet.com/news/gold-extends-slide-as-inflation-fears-lift-fed-hike-bets-and-usd-amid-trumps-tariffs-202607240405",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/pmn/business-pmn/kyivs-strikes-battering-russian-economy-hang-over-rate-decision",
-    "source_title": "Kyiv\u2019s Strikes Battering Russian Economy Hang Over Rate Decision",
-    "source_summary": "Russian businesses are grappling with the bleakest conditions since the early months of the war on Ukraine, putting the central bank in a bind as it weighs a pause in its yearlong easing cycle that would prolong punishing borrowing costs.",
-    "drafted_at": "2026-07-24T04:59:21.944715",
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/gold-extends-slide-as-inflation-fears-lift-fed-hike-bets-and-usd-amid-trumps-tariffs-202607240405",
+    "source_title": "Gold bounces off daily low on softer USD; not out of the woods amid Fed rate hike bets",
+    "source_summary": "Gold (XAU/USD) recovers modest intraday losses amid a modest US Dollar (USD) pullback, though remains below the $4,050 level heading into the European session on Friday.",
+    "drafted_at": "2026-07-24T07:30:10.430602",
     "data": {
-      "source": "FINANCIAL POST"
+      "source": "FXSTREET"
     },
-    "content_hash": "dbef31a825155874"
+    "content_hash": "468adacb7acd41e4"
   },
   {
-    "id": "95d692fb",
+    "id": "8055852b",
     "format": "MARKET_MOVE",
     "status": "pending",
-    "draft_text": "I don't say this often, but pay attention: WTI crude rips 15.6% in 5 sessions to $91.74.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "draft_text": "I'll keep it short: VIX surges 14.9% in 5 sessions to 18.96.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "NYMEX \u00b7 CL=F",
-    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
-    "source_title": "WTI crude oil futures",
-    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-07-24T04:59:21.944922",
+    "primary_source": "CBOE \u00b7 ^VIX",
+    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "source_title": "VIX (S&P 500 volatility)",
+    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "drafted_at": "2026-07-24T07:30:10.430923",
     "data": {
-      "signal_id": "CL=F:move:2026-07-24",
+      "signal_id": "^VIX:move:2026-07-24",
       "kind": "move_up",
-      "current": "$91.74"
+      "current": "18.96"
     },
-    "content_hash": "c272de0720a2f459"
+    "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "d02d73fd",
+    "id": "315bebee",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "The Fed just spoke. Here's what matters: Gold (XAU/USD) attracts sellers for the second straight day on Friday and weakens further below the $4,050 level during the Asian session.\n\nhttps://www.fxstreet.com/news/gold-extends-slide-as-inflation-fears-lift-fed-hike-bets-and-usd-amid-trumps-tariffs-202607240405",
+    "draft_text": "The Fed just spoke. Here's what matters: Gold (XAU/USD) recovers modest intraday losses amid a modest US Dollar (USD) pullback, though remains below the $4,050 level heading into the European session on Friday.\n\nhttps://www.fxstreet.com/news/gold-extends-slide-as-inflation-fears-lift-fed-hike-bets-and-usd-amid-trumps-tariffs-202607240405",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "Fed",
     "source_url": "https://www.fxstreet.com/news/gold-extends-slide-as-inflation-fears-lift-fed-hike-bets-and-usd-amid-trumps-tariffs-202607240405",
-    "source_title": "Gold extends slide as inflation fears lift Fed hike bets and USD amid Trump's tariffs",
-    "source_summary": "Gold (XAU/USD) attracts sellers for the second straight day on Friday and weakens further below the $4,050 level during the Asian session.",
-    "drafted_at": "2026-07-24T04:59:21.952192",
+    "source_title": "Gold bounces off daily low on softer USD; not out of the woods amid Fed rate hike bets",
+    "source_summary": "Gold (XAU/USD) recovers modest intraday losses amid a modest US Dollar (USD) pullback, though remains below the $4,050 level heading into the European session on Friday.",
+    "drafted_at": "2026-07-24T07:30:10.441204",
     "data": {
       "actor": "Fed"
     },
-    "content_hash": "a19b3b9b9922d40c"
+    "content_hash": "468adacb7acd41e4"
   },
   {
-    "id": "ae3bb24e",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "From Frankfurt: The Ring is Euronews\u2019 weekly political showdown, where Europe\u2019s toughest debates meet their boldest voices.\n\nIn each episode, two political heavyweights from across the EU face off to propose a diversity of opinions and spark conversations around the most important issues of EU affairs and the wider European political life.\n\nEuronews Tech Talks goes beyond discussions to explore the impact of new technologies on our lives.\n\nWith explanations, engaging Q&As, and lively conversations, the podcast provides valuable insights into the intersection of technology and society.\n\nEurope's best food experts are joining forces to crack down on fraud.\n\nhttp://www.euronews.com/business/2026/07/23/ecb-hostage-to-oil-prices-lagarde-leaves-door-open-for-a-september-hike",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "ECB",
-    "source_url": "http://www.euronews.com/business/2026/07/23/ecb-hostage-to-oil-prices-lagarde-leaves-door-open-for-a-september-hike",
-    "source_title": "ECB hostage to oil prices? Lagarde leaves door open for a September hike",
-    "source_summary": "ECB President Christine Lagarde warned that surging oil prices could shape the September rate decision, leaving the door open to another interest rate hike at the next meeting.",
-    "drafted_at": "2026-07-24T04:59:21.953240",
-    "data": {
-      "actor": "ECB"
-    },
-    "content_hash": "924d750ff6ed98ae"
-  },
-  {
-    "id": "a07033be",
+    "id": "8d8e2f39",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Policy update for the pack: The statement discusses a coordinated approach to identifying highly sensitive data and documents and discusses enhanced procedures for the review of such information to reduce any cybersecurity risks while ensuring that the agencies have access to such information at all times during an examination.\n\nThe agencies recognize the importance of keeping a bank's highly sensitive information confidential and protecting it against disclosure to or from access by unauthorized persons as a result of cybersecurity vulnerabilities.\n\nThe agencies have committed to notify affected banks of any potential or confirmed material data breach involving confidential supervisory information.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
@@ -80,14 +63,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
     "source_title": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
     "source_summary": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
-    "drafted_at": "2026-07-24T04:59:21.953825",
+    "drafted_at": "2026-07-24T07:30:10.442206",
     "data": {
       "actor": "FED"
     },
     "content_hash": "59a82190f82073b0"
   },
   {
-    "id": "8b99507d",
+    "id": "588ee3ae",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Central bank corner: The Board's process for setting the discount rate is distinct from the process the Federal Open Market Committee follows in setting the target range for the federal funds rate.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
@@ -97,14 +80,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
     "source_title": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
     "source_summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
-    "drafted_at": "2026-07-24T04:59:21.954074",
+    "drafted_at": "2026-07-24T07:30:10.442584",
     "data": {
       "actor": "FED"
     },
     "content_hash": "5fb63e04cb74e9a2"
   },
   {
-    "id": "7a78abc1",
+    "id": "2be4514b",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FED WATCH: \"The Federal Reserve's commitment to price stability and maximum employment is unwavering.\n\nAs is our resolve to pursue our mandate with rigor,\" said Chairman Kevin Warsh.\n\n\"The U.S. economy has changed significantly over the last generation, and never more so than right now.\n\nEach task force will carefully consider whether policymakers' means and methods, analytical tools and policy approaches can be improved upon.\n\nI am honored that the best minds from a range of disciplines have agreed to work with us to sharpen our performance as an institution.\n\nThe five task forces will examine areas central to the broad conduct of monetary policy.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
@@ -114,14 +97,31 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
     "source_title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
     "source_summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-    "drafted_at": "2026-07-24T04:59:21.954744",
+    "drafted_at": "2026-07-24T07:30:10.443686",
     "data": {
       "actor": "FED"
     },
     "content_hash": "ed14be39878da65d"
   },
   {
-    "id": "09e4cc00",
+    "id": "8df71112",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "RATE-PATH READ: TS Banking Group, Inc., Treynor, Iowa and TS Contrarian Bancshares, Inc., Treynor, Iowa Written Agreement dated July 6, 2026 Additional enforcement actions can be searched for here.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260709a.htm",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260709a.htm",
+    "source_title": "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc.",
+    "source_summary": "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc.",
+    "drafted_at": "2026-07-24T07:30:10.443982",
+    "data": {
+      "actor": "FED"
+    },
+    "content_hash": "2da0384c8b59f120"
+  },
+  {
+    "id": "ed157220",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$COE insider bought $10,490,558 on 2026-07-14. \ud83d\udc40\n\n51Talk Online Education Group. 622,140 shares at $16.86.\n\n-7.5% since the purchase.\n\nhttp://openinsider.com/screener?s=COE",
@@ -131,7 +131,7 @@
     "source_url": "http://openinsider.com/screener?s=COE",
     "source_title": "51Talk Online Education Group (COE) insider bought $10,490,558",
     "source_summary": "1 insider(s) bought 622,140 shares at $16.86 on 2026-07-14.",
-    "drafted_at": "2026-07-24T04:59:21.955336",
+    "drafted_at": "2026-07-24T07:30:10.444630",
     "data": {
       "ticker": "COE",
       "type": "P",
@@ -141,7 +141,7 @@
     "content_hash": "5095294315c913b7"
   },
   {
-    "id": "5d2d276c",
+    "id": "a9c841ec",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$GLOO insider bought $8,999,995 on 2026-07-10, 4 insiders. \ud83d\udc40\n\nGloo Holdings, Inc.. 2,769,229 shares at $3.25.\n\n-2.8% since the purchase.\n\nhttp://openinsider.com/screener?s=GLOO",
@@ -151,7 +151,7 @@
     "source_url": "http://openinsider.com/screener?s=GLOO",
     "source_title": "Gloo Holdings, Inc. (GLOO) insider bought $8,999,995",
     "source_summary": "4 insider(s) bought 2,769,229 shares at $3.25 on 2026-07-10.",
-    "drafted_at": "2026-07-24T04:59:21.955419",
+    "drafted_at": "2026-07-24T07:30:10.444763",
     "data": {
       "ticker": "GLOO",
       "type": "P",
@@ -161,7 +161,7 @@
     "content_hash": "cef0c8ea4778faaf"
   },
   {
-    "id": "59929be4",
+    "id": "4c8ee703",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$BRTMU insider bought $6,875,000 on 2026-07-22. \ud83d\udc40\n\nB&R Technology Merger Corp.. 687,500 shares at $10.00.\n\n-0.5% since the purchase.\n\nhttp://openinsider.com/screener?s=BRTMU",
@@ -171,7 +171,7 @@
     "source_url": "http://openinsider.com/screener?s=BRTMU",
     "source_title": "B&R Technology Merger Corp. (BRTMU) insider bought $6,875,000",
     "source_summary": "1 insider(s) bought 687,500 shares at $10.00 on 2026-07-22.",
-    "drafted_at": "2026-07-24T04:59:21.955496",
+    "drafted_at": "2026-07-24T07:30:10.444883",
     "data": {
       "ticker": "BRTMU",
       "type": "P",
@@ -181,7 +181,7 @@
     "content_hash": "7ecad12917662217"
   },
   {
-    "id": "61072139",
+    "id": "702e9e90",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$IPX insider bought $4,949,802 on 2026-07-10, 2 insiders. \ud83d\udc40\n\nIperionx Ltd. 1,253,720 shares at $3.95.\n\n+455.4% since the purchase.\n\nhttp://openinsider.com/screener?s=IPX",
@@ -191,7 +191,7 @@
     "source_url": "http://openinsider.com/screener?s=IPX",
     "source_title": "Iperionx Ltd (IPX) insider bought $4,949,802",
     "source_summary": "2 insider(s) bought 1,253,720 shares at $3.95 on 2026-07-10.",
-    "drafted_at": "2026-07-24T04:59:21.955573",
+    "drafted_at": "2026-07-24T07:30:10.445004",
     "data": {
       "ticker": "IPX",
       "type": "P",
@@ -201,7 +201,7 @@
     "content_hash": "16eb220a30bf134e"
   },
   {
-    "id": "f7ea31d3",
+    "id": "2772bd90",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$CLBK insider bought $4,778,740 on 2026-07-20, 16 insiders. \ud83d\udc40\n\nColumbia Financial, Inc./Md/. 477,874 shares at $10.00.\n\n+10.1% since the purchase.\n\nhttp://openinsider.com/screener?s=CLBK",
@@ -211,7 +211,7 @@
     "source_url": "http://openinsider.com/screener?s=CLBK",
     "source_title": "Columbia Financial, Inc./Md/ (CLBK) insider bought $4,778,740",
     "source_summary": "16 insider(s) bought 477,874 shares at $10.00 on 2026-07-20.",
-    "drafted_at": "2026-07-24T04:59:21.955658",
+    "drafted_at": "2026-07-24T07:30:10.445154",
     "data": {
       "ticker": "CLBK",
       "type": "P",
@@ -221,24 +221,7 @@
     "content_hash": "997c6258ef1b8326"
   },
   {
-    "id": "85480766",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "New agentic AI tool, powered by Genspark, lets users upload any private investment offering and receive a free 1\u201310 risk score in minutes \u2014 before they send a dime.\n\nEvery new Minkow investigation now breaks on FNN first.\n\nLAS VEGAS, July 23, 2026 /PRNewswire/ -- Pro-Active Fraud Researcher...\n\nhttps://www.prnewswire.com/news-releases/pro-active-fraud-researcher-and-uncoverer-barry-minkow-launches-fraud-news-network--real-time-news-302833751.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "PR NEWSWIRE",
-    "source_url": "https://www.prnewswire.com/news-releases/pro-active-fraud-researcher-and-uncoverer-barry-minkow-launches-fraud-news-network--real-time-news-302833751.html",
-    "source_title": "Pro-Active Fraud Researcher and Uncoverer Barry Minkow Launches Fraud News Network -- Real-Time News",
-    "source_summary": "New agentic AI tool, powered by Genspark, lets users upload any private investment offering and receive a free 1\u201310 risk score in minutes \u2014 before they send a dime. Every new Minkow investigation now breaks on FNN first. LAS VEGAS, July 23, 2026 /PRNewswire/ -- Pro-Active Fraud Researcher...",
-    "drafted_at": "2026-07-24T04:59:21.956565",
-    "data": {
-      "source": "PR NEWSWIRE"
-    },
-    "content_hash": "49c0d750b5dd3b41"
-  },
-  {
-    "id": "75b8070e",
+    "id": "d29ed46d",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "New scam vector: The deleted post touted a bogus \"Vladhood\" token as the mascot of Robinhood Chain\u2014the latest fraud to exploit a network currently dominated by memes.\n\nhttps://decrypt.co/374175/robinhood-ceo-vlad-tenevs-x-account-hacked-to-shill-fake-vladhood-token",
@@ -248,14 +231,14 @@
     "source_url": "https://decrypt.co/374175/robinhood-ceo-vlad-tenevs-x-account-hacked-to-shill-fake-vladhood-token",
     "source_title": "Robinhood CEO Vlad Tenev's X Account Hacked to Shill Fake 'Vladhood' Token",
     "source_summary": "The deleted post touted a bogus \"Vladhood\" token as the mascot of Robinhood Chain\u2014the latest fraud to exploit a network currently dominated by memes.",
-    "drafted_at": "2026-07-24T04:59:21.956747",
+    "drafted_at": "2026-07-24T07:30:10.446353",
     "data": {
       "source": "DECRYPT"
     },
     "content_hash": "86423c4eda2b17f3"
   },
   {
-    "id": "15e419c6",
+    "id": "2677531e",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Moderate Democrats want to put a stop to Trump\u2019s meme coin self-dealing.\n\nBut that might cut off campaign donations from crypto interests.\n\nThe post Trump\u2019s Crypto Corruption Puts Centrist Democrats in Bind appeared first on The Intercept.\n\nhttps://theintercept.com/2026/07/23/trump-crypto-conflict-clarity-act-democrats/",
@@ -265,14 +248,14 @@
     "source_url": "https://theintercept.com/2026/07/23/trump-crypto-conflict-clarity-act-democrats/",
     "source_title": "Trump\u2019s Crypto Corruption Puts Centrist Democrats in Bind",
     "source_summary": "Moderate Democrats want to put a stop to Trump\u2019s meme coin self-dealing. But that might cut off campaign donations from crypto interests. The post Trump\u2019s Crypto Corruption Puts Centrist Democrats in Bind appeared first on The Intercept .",
-    "drafted_at": "2026-07-24T04:59:21.957012",
+    "drafted_at": "2026-07-24T07:30:10.446773",
     "data": {
       "source": "INTERCEPT"
     },
     "content_hash": "18516cda3e985539"
   },
   {
-    "id": "a9cedde7",
+    "id": "cb7f4ac6",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Women on four continents told ICIJ that global pay-per-action dating sites owned by a Russian businessman and self-styled philosopher left them financially broke and heartbroken.\n\nhttps://www.icij.org/news/2026/07/dating-app-scam-models-influencers-social-discovery-group/",
@@ -282,14 +265,14 @@
     "source_url": "https://www.icij.org/news/2026/07/dating-app-scam-models-influencers-social-discovery-group/",
     "source_title": "Inside the Matrix: How models, influencers and engagement quotas power the Social Discovery Group\u2019s dating machine and global profits",
     "source_summary": "Women on four continents told ICIJ that global pay-per-action dating sites owned by a Russian businessman and self-styled philosopher left them financially broke and heartbroken.",
-    "drafted_at": "2026-07-24T04:59:21.957212",
+    "drafted_at": "2026-07-24T07:30:10.447114",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "b0972ed90c219ce4"
   },
   {
-    "id": "37258cdc",
+    "id": "9afedc13",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "An internal report obtained says that crypto brokers are moving millions while dodging rules to guard against dirty money.\n\nhttps://www.icij.org/investigations/coin-laundry/canadian-intelligence-flags-crypto-to-cash-services-as-knowingly-facilitating-money-laundering-document-shows/",
@@ -299,14 +282,31 @@
     "source_url": "https://www.icij.org/investigations/coin-laundry/canadian-intelligence-flags-crypto-to-cash-services-as-knowingly-facilitating-money-laundering-document-shows/",
     "source_title": "Canadian intelligence flags crypto-to-cash services as \u2018knowingly facilitating money laundering,\u2019 document shows",
     "source_summary": "An internal report obtained says that crypto brokers are moving millions while dodging rules to guard against dirty money.",
-    "drafted_at": "2026-07-24T04:59:21.957357",
+    "drafted_at": "2026-07-24T07:30:10.447355",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "7be227a50b3ce3c2"
   },
   {
-    "id": "f5f29ed2",
+    "id": "c68b88a5",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Pack \u2014 got one. The Swedish bank and its New York subsidiary agreed to the penalty to settle final U.S. probe tied to money laundering case, officials say.\n\nhttps://www.icij.org/investigations/panama-papers/swedbank-fined-50-million-by-new-york-authorities-over-panama-papers-revelations/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "ICIJ",
+    "source_url": "https://www.icij.org/investigations/panama-papers/swedbank-fined-50-million-by-new-york-authorities-over-panama-papers-revelations/",
+    "source_title": "Swedbank fined $50 million by New York authorities over Panama Papers revelations",
+    "source_summary": "The Swedish bank and its New York subsidiary agreed to the penalty to settle final U.S. probe tied to money laundering case, officials say.",
+    "drafted_at": "2026-07-24T07:30:10.447606",
+    "data": {
+      "source": "ICIJ"
+    },
+    "content_hash": "64763685b6b6197a"
+  },
+  {
+    "id": "a2e8f196",
     "format": "GLOBAL_DESK",
     "status": "pending",
     "draft_text": "PACK BRIEFING \u2014 ASIA: EDX Markets, an institutional-only crypto trading venue with its own central clearinghouse, closed a $76 million Series C funding round led by SBI Holdings, the firm said in a press release.\n\nThe Tokyo-listed financial group becomes a strategic investor in the U.S. exchange.\n\nhttps://thedefiant.io/converge/tradfi-and-fintech/edx-markets-closes-76m-series-c-led-by-sbi-holdings",
@@ -316,167 +316,167 @@
     "source_url": "https://thedefiant.io/converge/tradfi-and-fintech/edx-markets-closes-76m-series-c-led-by-sbi-holdings",
     "source_title": "EDX Markets Closes $76M Series C Led by SBI Holdings",
     "source_summary": "EDX Markets, an institutional-only crypto trading venue with its own central clearinghouse, closed a $76 million Series C funding round led by SBI Holdings, the firm said in a press release. The Tokyo-listed financial group becomes a strategic investor in the U.S. exchange. The capital will fund\u2026",
-    "drafted_at": "2026-07-24T04:59:21.958651",
+    "drafted_at": "2026-07-24T07:30:10.449424",
     "data": {
       "source": "THE DEFIANT"
     },
     "content_hash": "766a40daeebddf43"
   },
   {
-    "id": "63d0a577",
+    "id": "6d32144a",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From the Gulf: The latest development is that Iran has rejected a ceasefire proposal from Iraq, believed to be passed on from US president Trump.\n\nThe main excuse that Iran is going with this time is that the proposal fails to address the question of control over the Strait of Hormuz.\n\nIran said that they were not going to accept a \"temporary deal\".\n\nAnd so, that leaves both sides with little to nothing to work with ahead of the weekend.\n\nNow, we've seen this sort of dance before between the US and Iran.\n\nIt was the same kind of back and forth we had back in May before both sides agreed to a ceasefire deal in June.\n\nSo, it's not to say that these words are binding and that both sides will be uncompromising on their positions.\n\nBut as mentioned before, Iran's main tactic in all of this is to continue to play for more time.\n\nhttps://investinglive.com/news/middle-east-tensions-remain-heightened-with-the-weekend-drawing-closer/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/middle-east-tensions-remain-heightened-with-the-weekend-drawing-closer/",
-    "source_title": "Middle East tensions remain heightened with the weekend drawing closer",
-    "source_summary": "The latest development is that Iran has rejected a ceasefire proposal from Iraq, believed to be passed on from US president Trump. The main excuse that Iran is going with this time is that the proposal fails to address the question of control over the Strait of Hormuz. Dum, dum, dum. Iran said that they were not going to accept a \"temporary deal\". And so, that leaves both sides with little to noth",
-    "drafted_at": "2026-07-24T04:59:21.959651",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "faa7474532454560"
-  },
-  {
-    "id": "c691a133",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "MIDDLE EAST DESK: Iran strikes Gulf states as sirens sound in Bahrain.\n\nMilitary action against a Gulf state on July 30 at 44.5% YES.\n\nThe post Iran strikes Gulf states, sirens sound in Bahrain amid second week of conflict appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iran-strikes-gulf-states-sirens-sound-in-bahrain-amid-second-week-of-conflict/",
+    "draft_text": "From the Gulf: US missile strike damages an IRGC naval base in Iran.\n\nFull airspace closure by August 31 at 59% YES.\n\nThe post US missile strike damages IRGC naval base on Iran\u2019s Caspian coast appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/us-missile-strike-damages-irgc-naval-base-on-irans-caspian-coast/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/iran-strikes-gulf-states-sirens-sound-in-bahrain-amid-second-week-of-conflict/",
-    "source_title": "Iran strikes Gulf states, sirens sound in Bahrain amid second week of conflict",
-    "source_summary": "Iran strikes Gulf states as sirens sound in Bahrain. Military action against a Gulf state on July 30 at 44.5% YES. The post Iran strikes Gulf states, sirens sound in Bahrain amid second week of conflict appeared first on Crypto Briefing .",
-    "drafted_at": "2026-07-24T04:59:21.959884",
+    "source_url": "https://cryptobriefing.com/us-missile-strike-damages-irgc-naval-base-on-irans-caspian-coast/",
+    "source_title": "US missile strike damages IRGC naval base on Iran\u2019s Caspian coast",
+    "source_summary": "US missile strike damages an IRGC naval base in Iran. Full airspace closure by August 31 at 59% YES. The post US missile strike damages IRGC naval base on Iran\u2019s Caspian coast appeared first on Crypto Briefing .",
+    "drafted_at": "2026-07-24T07:30:10.449804",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "9fea3973eb0d273e"
+    "content_hash": "cec82fb466a023ca"
   },
   {
-    "id": "e53058b5",
+    "id": "aa95dcbf",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Gulf wire: Oil prices hit $100 amid Trump's military considerations against Iran.\n\nNew all-time high by December 31 at 19.5% YES.\n\nThe post Oil hits $100 as Trump considers major military action against Iran: FT appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/oil-hits-100-as-trump-considers-major-military-action-against-iran-ft/",
+    "draft_text": "EUROPE DESK: Samsung Bioepis reports revenue of 847.1 billion KRW and an operating profit of 230.6 billion KRW in the first half of 2026, recording 6% year-over-year growth Expanding direct commercialization in Europe to five products with the launch of OPUVIZ\u2122 40 mg/mL vial, a biosimilar to Eylea1 (aflibercept) First to announce preliminary results from Phase 1, [\u2026].\n\nhttps://financialpost.com/pmn/business-wire-news-releases-pmn/samsung-epis-holdings-reports-second-quarter-and-half-year-2026-financial-results",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/oil-hits-100-as-trump-considers-major-military-action-against-iran-ft/",
-    "source_title": "Oil hits $100 as Trump considers major military action against Iran: FT",
-    "source_summary": "Oil prices hit $100 amid Trump's military considerations against Iran. New all-time high by December 31 at 19.5% YES. The post Oil hits $100 as Trump considers major military action against Iran: FT appeared first on Crypto Briefing .",
-    "drafted_at": "2026-07-24T04:59:21.960132",
+    "primary_source": "FINANCIAL POST",
+    "source_url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/samsung-epis-holdings-reports-second-quarter-and-half-year-2026-financial-results",
+    "source_title": "Samsung Epis Holdings Reports Second Quarter and Half-Year 2026 Financial Results",
+    "source_summary": "Samsung Bioepis reports revenue of 847.1 billion KRW and an operating profit of 230.6 billion KRW in the first half of 2026, recording 6% year-over-year growth Expanding direct commercialization in Europe to five products with the launch of OPUVIZ\u2122 40 mg/mL vial, a biosimilar to Eylea1 (aflibercept) First to announce preliminary results from Phase 1, [\u2026]",
+    "drafted_at": "2026-07-24T07:30:10.450547",
     "data": {
-      "source": "CRYPTO BRIEFING"
+      "source": "FINANCIAL POST"
     },
-    "content_hash": "9b24ba321857cdd1"
+    "content_hash": "d356fae628d8e7e3"
   },
   {
-    "id": "1d4c30e1",
+    "id": "da4ef151",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From the Gulf: US drone strike in Khorramabad wounds two amid ongoing conflict.\n\nIranian regime fall by end of 2026 at 10.5% YES.\n\nThe post US drone strike in Khorramabad wounds two amid ongoing Iran conflict appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/us-drone-strike-in-khorramabad-wounds-two-amid-ongoing-iran-conflict/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/us-drone-strike-in-khorramabad-wounds-two-amid-ongoing-iran-conflict/",
-    "source_title": "US drone strike in Khorramabad wounds two amid ongoing Iran conflict",
-    "source_summary": "US drone strike in Khorramabad wounds two amid ongoing conflict. Iranian regime fall by end of 2026 at 10.5% YES. The post US drone strike in Khorramabad wounds two amid ongoing Iran conflict appeared first on Crypto Briefing .",
-    "drafted_at": "2026-07-24T04:59:21.960341",
-    "data": {
-      "source": "CRYPTO BRIEFING"
-    },
-    "content_hash": "a91a904d2135fa3c"
-  },
-  {
-    "id": "b4d05807",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "Inflation update: ICYMI - Iran rejects Trump ceasefire offer carried by Iraqi PM, NYT reports Gold extends slide below $4,040 support to test $4,025 as yields bite Asian shares slump as AI spending fears and oil spike hit sentiment, rates Preview - BOJ to hold next week, keep inflation overshoot warning. but see risks easing Trump losing patience with Iran war, in revenge mode, WSJ reports Singapore - MAS seen holding policy steady on July 27 as inflation stays mild, Reuters poll shows Japan finmin Katayama signals readiness for decisive forex action on yen PBOC sets USD/ CNY reference rate for today at 6.7939 (vs. estimate at 6.7795) Japan warns of faster cost pass-through inflation while BOJ expected to hold rates next week Japan composite PMI rises to 53.1 as war related cost pressures persist Japan core CPI rises 1.6% in June, matching forecast, USD/JPY little changed Japan June 2026 inflation: Headline jumps to 1.7% y/y (prior 1.5%) Complacency fades as analysts warn oil crisis now graver than March Australia composite PMI rises to 52.6 in July as new orders return to growth US presses BOJ on rate hikes as yen hits 40-year low... intervention threat looms Satellite images show Iran rebuilding fast despite US Israeli strikes Trump unveils new tariffs designed to survive legal challenge, WSJ reports investingLive Americas FX news wrap 23 Jul: Risk off sentiment as geopolitical tensions rise.\n\nOIL - Opec+'s slow unwind continues even as a second chokepoint closes It was an ugly day for US stocks.\n\nGold holds support near $4,040 (... for now!) as oil driven yields blunt haven bid Summary: Oil prices were little changed on the session Opec+ is expected to raise September output by around 188,000 bpd at its August 2 meeting, sticking to its existing schedule even though the Red Sea disruption means much of that extra oil cannot reach the market US Centcom confirmed a 13th consecutive night of strikes on Iranian military targets, aimed at curbing threats to commercial shipping from the Revolutionary Guard Iran rejected a ceasefire proposal from Trump delivered via Iraq's prime minister, warning it would strike Tel Aviv and push Houthi allies to close Bab al-Mandeb if the US targets Tehran directly The Trump administration will impose new tariffs of 10 to 12.5 percent on 60 trading partners from Friday, built on more legally durable grounds than the levies struck down by the Supreme Court The US Treasury pressed the BOJ to keep raising rates as the yen hit a 40 year low; Japan's finance minister Katayama said Tokyo and Washington are in close contact and Japan stands ready to act decisively on the currency Japan's June CPI landed in line with forecasts, leaving USD/JPY little changed and trading steadily around 163.80, with only a slight touch of broader dollar weakness elsewhere in FX Regional equities sold off heavily: Korea Exchange triggered sidecar curbs on both the KOSPI and KOSDAQ, while Japan's Nikkei fell around 2.5 percent South Korea's regulator moved up a higher deposit requirement for retail trading of single stock leveraged ETFs to July 31, aiming to curb speculative trading blamed for adding to volatility Wrap: Oil prices were little changed on the session, holding their ground even as the Middle East conflict showed no sign of cooling.\n\nOpec+ is on track to approve another output increase of around 188,000 barrels a day for September at its meeting on August 2, sticking to the same incremental schedule it has followed for months.\n\nBut with a fresh flare up in the Red Sea alongside the ongoing Strait of Hormuz disruption, much of that additional supply looks unlikely to actually reach buyers, leaving the quota rise largely symbolic.\n\nThe military backdrop remains the dominant driver.\n\nUS Central Command confirmed American forces carried out a 13th consecutive night of strikes against Iranian military targets, part of a campaign aimed at holding Iran accountable and reducing threats posed by the Revolutionary Guard to commercial shipping.\n\nDiplomacy showed little traction in parallel: Iran rejected a ceasefire proposal from President Trump that was delivered to Tehran by Iraq's prime minister, with Iranian officials warning that any US strike on Tehran itself would prompt Iran to widen the war, including retaliatory strikes on Tel Aviv and a push for its Houthi allies to close Bab al-Mandeb.\n\nhttps://investinglive.com/news/investinglive-asia-pacific-market-moving-news-24-july-2026-asian-equities-slapped-down/",
+    "draft_text": "Levant update: July flash services PMI 49.8 vs 47.5 expected Prior 46.8 July flash manufacturing PMI 50.0 vs 51.0 expected Prior 51.2 July flash composite PMI 49.6 vs 47.8 expected Prior 47.2 The services print is a 7-month high and that is carrying the French economy in July, amid a step back in the manufacturing sector on the month.\n\nOf note, demand for services was seen rising for the first time since November last year.\n\nSo, that brought much stabilisation to the overall economy - even if still in contraction territory, albeit marginally.\n\nThat being said, private sector employment remained under pressure and declined again while business optimism stayed subdued.\n\nThe only other good news at least is that input cost and output price inflation rates eased for the second month in succession.\n\nBut with renewed tensions between the US and Iran, it's hard to imagine that as being much of an optimistic takeaway at this stage.\n\nS&P Global notes that: \"While the latest survey data brought with it good news in the form of the France PMI rising further from its May low and inflationary pressures easing, it feels overly optimistic to bank on this momentum continuing given renewed pressures on oil and gas markets in recent days.\n\nThis also raises the odds of the European Central Bank delivering more monetary policy tightening, which would exacerbate these headwinds.\n\nhttps://investinglive.com/news/france-july-flash-services-pmi-vs-47-5-expected/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/investinglive-asia-pacific-market-moving-news-24-july-2026-asian-equities-slapped-down/",
-    "source_title": "investingLive Asia-Pacific market moving news: 24 July 2026: Asian equities slapped down",
-    "source_summary": "ICYMI - Iran rejects Trump ceasefire offer carried by Iraqi PM, NYT reports Gold extends slide below $4,040 support to test $4,025 as yields bite Asian shares slump as AI spending fears and oil spike hit sentiment, rates Preview - BOJ to hold next week, keep inflation overshoot warning. but see risks easing Trump losing patience with Iran war, in revenge mode, WSJ reports Singapore - MAS seen hold",
-    "drafted_at": "2026-07-24T04:59:22.005011",
+    "source_url": "https://investinglive.com/news/france-july-flash-services-pmi-vs-47-5-expected/",
+    "source_title": "French business activity stabilises in July amid strong rebound in the services economy",
+    "source_summary": "July flash services PMI 49.8 vs 47.5 expected Prior 46.8 July flash manufacturing PMI 50.0 vs 51.0 expected Prior 51.2 July flash composite PMI 49.6 vs 47.8 expected Prior 47.2 The services print is a 7-month high and that is carrying the French economy in July, amid a step back in the manufacturing sector on the month. Of note, demand for services was seen rising for the first time since November",
+    "drafted_at": "2026-07-24T07:30:10.452306",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "009fe7b33e5f59c2"
+    "content_hash": "06b472021cce70e2"
   },
   {
-    "id": "d38c36d0",
+    "id": "e5fbf341",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Cross-border read: Commerzbank\u2019s Tatha Ghose expects Russia\u2019s central bank to keep its key rate at 14.25%, despite political and economic pressure for a cut.\n\nSurging inflation expectations, higher Oil and commodity prices, and accelerating Consumer Price Index (CPI) argue against easing.\n\nhttps://www.fxstreet.com/news/russian-ruble-cbr-seen-holding-rate-despite-pressure-to-cut-commerzbank-202607240710",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/russian-ruble-cbr-seen-holding-rate-despite-pressure-to-cut-commerzbank-202607240710",
+    "source_title": "Russian Ruble: CBR seen holding rate despite pressure to cut \u2013 Commerzbank",
+    "source_summary": "Commerzbank\u2019s Tatha Ghose expects Russia\u2019s central bank to keep its key rate at 14.25%, despite political and economic pressure for a cut. Surging inflation expectations, higher Oil and commodity prices, and accelerating Consumer Price Index (CPI) argue against easing.",
+    "drafted_at": "2026-07-24T07:30:10.453004",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "a11fe9ec6ce79e3b"
+  },
+  {
+    "id": "3add0d91",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "The CPI scoreboard: Just the data this post, I'll have more to come on this separately....\n\nAdded, this now: Japan core CPI rises 1.6% in June, matching forecast, USD/JPY little changed --- Japan Inflation Rate June 2026: Headline Y/Y 1.7% expected 1.7%, prior.5% Core (ex-food) Y/Y 1.6% expected 1.6%, prior 1.4% Ex-Food and Energy Y/Y 1.7%, AKA core-core, slowest rise since Agust 2022 expected 2%, prior 1.8% This article was written by Eamonn Sheridan at investinglive.com.\n\nhttps://investinglive.com/news/japan-june-inflation/",
+    "draft_text": "CPI POSTCARD: Commerzbank\u2019s Tatha Ghose expects Russia\u2019s central bank to keep its key rate at 14.25%, despite political and economic pressure for a cut.\n\nSurging inflation expectations, higher Oil and commodity prices, and accelerating Consumer Price Index (CPI) argue against easing.\n\nhttps://www.fxstreet.com/news/russian-ruble-cbr-seen-holding-rate-despite-pressure-to-cut-commerzbank-202607240710",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/russian-ruble-cbr-seen-holding-rate-despite-pressure-to-cut-commerzbank-202607240710",
+    "source_title": "Russian Ruble: CBR seen holding rate despite pressure to cut \u2013 Commerzbank",
+    "source_summary": "Commerzbank\u2019s Tatha Ghose expects Russia\u2019s central bank to keep its key rate at 14.25%, despite political and economic pressure for a cut. Surging inflation expectations, higher Oil and commodity prices, and accelerating Consumer Price Index (CPI) argue against easing.",
+    "drafted_at": "2026-07-24T07:30:10.513180",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "a11fe9ec6ce79e3b"
+  },
+  {
+    "id": "01e899d9",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "Consumer scoreboard: GBP/JPY remains calm after six days of losses, trading around 218.20 during the early European hours on Friday.\n\nThe currency cross holds its ground as the British Pound (GBP) receives support from the release of stronger-than-expected UK Retail Sales data.\n\nhttps://www.fxstreet.com/news/british-pound-steadies-against-japanese-yen-following-outperformance-in-uk-retail-sales-202607240706",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/british-pound-steadies-against-japanese-yen-following-outperformance-in-uk-retail-sales-202607240706",
+    "source_title": "British Pound steadies against Japanese Yen following outperformance in UK Retail Sales",
+    "source_summary": "GBP/JPY remains calm after six days of losses, trading around 218.20 during the early European hours on Friday. The currency cross holds its ground as the British Pound (GBP) receives support from the release of stronger-than-expected UK Retail Sales data.",
+    "drafted_at": "2026-07-24T07:30:10.513522",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "57bc2a1f9df1eb56"
+  },
+  {
+    "id": "eb6a1a9c",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "How sticky is inflation? Let's see: August consumer sentiment -29.6 vs -28.5 expected Prior -29.2; revised to -29.3 The German consumer climate remains gloomy heading into August as households remain cautious about spending amid more pessimism surrounding income expectations.\n\nWhile economic expectations may have improved (-6.3 from -8.7 previously), income expectations remain depressed (-14.5 from -12.2 previously).\n\nAnd the latter is still a cause of concern for German households at this stage, that especially with consumers being worried about how their finances will be impacted over the coming year.\n\nThe more cautious behaviour is also reflected in an increase in the willingness to save among households (17.0 from 13.9 previously).\n\nSo, that tells a bit of the story that growing inflation pressures are also weighing on sentiment.\n\nGfK/NIM notes that: \"Income prospects have seen another slight decrease, while the willingness to save has picked up moderately once again.\n\nThe ongoing uncertainty means that many households remain cautious about spending.\" This article was written by Justin Low at investinglive.com.\n\nhttps://investinglive.com/news/germany-august-gfk-consumer-sentiment-29-6-vs-28-5-expected/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/japan-june-inflation/",
-    "source_title": "Japan June 2026 inflation: Headline jumps to 1.7% y/y (prior 1.5%)",
-    "source_summary": "Just the data this post, I'll have more to come on this separately. ... Added, this now: Japan core CPI rises 1.6% in June, matching forecast, USD/JPY little changed --- Japan Inflation Rate June 2026: Headline Y/Y 1.7% expected 1.7%, prior .5% Core (ex-food) Y/Y 1.6% expected 1.6%, prior 1.4% Ex-Food and Energy Y/Y 1.7%, AKA core-core, slowest rise since Agust 2022 expected 2%, prior 1.8% This ar",
-    "drafted_at": "2026-07-24T04:59:22.005345",
+    "source_url": "https://investinglive.com/news/germany-august-gfk-consumer-sentiment-29-6-vs-28-5-expected/",
+    "source_title": "German household sentiment eases a little more heading into August",
+    "source_summary": "August consumer sentiment -29.6 vs -28.5 expected Prior -29.2; revised to -29.3 The German consumer climate remains gloomy heading into August as households remain cautious about spending amid more pessimism surrounding income expectations. While economic expectations may have improved (-6.3 from -8.7 previously), income expectations remain depressed (-14.5 from -12.2 previously). And the latter i",
+    "drafted_at": "2026-07-24T07:30:10.514684",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "700caca1c55d8c9e"
+    "content_hash": "19f0ab1aba6a4c38"
   },
   {
-    "id": "54b64d8f",
+    "id": "b5d3a65f",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "INFLATION READ: The pickup in the composite output index to 52.6 from 50.4 signals a second straight month of expansion and the strongest reading since the start of the year, driven almost entirely by services rather than manufacturing.\n\nThe return to new order growth after four months of decline, together with the fastest hiring since April, points to a private sector regaining some momentum even as confidence remains near a two and a half year low.\n\nEasing cost pressures give the Reserve Bank some room, though a weaker export performance and persistent business caution suggest the recovery is domestically led and not yet broad based.\n\nTraders are likely to read this as modestly supportive for the Australian dollar without shifting the near term rate outlook. --- Yesterday we had on OK jobs report from Australia: Australian June 2026 jobs report: Unemployment rate 4.4% (expected 4.4%, prior 4.4%) --- Australian businesses are seeing renewed demand and softer costs, but confidence is recovering only slowly from multi year lows.\n\nSummary: Flash Australia Composite PMI Output Index rose to 52.6 in July from 50.4 in June, the strongest reading since the start of the year Flash Services PMI Business Activity Index climbed to 53.0 from 50.5, the fastest services growth since January Flash Manufacturing PMI edged up to 51.7 from 51.5, while the Manufacturing PMI Output Index rose to 49.9 from 49.5 New business increased for the first time in five months, ending a four month run of decline, though export sales fell more sharply Job creation was the strongest since April, with hiring up across both services and manufacturing Input cost inflation eased to its softest pace since February, while output price inflation ticked higher since June but remained below April and May levels Business confidence rose only slightly from June's more than two and a half year low Australia's private sector picked up further momentum in July, with the flash composite output index rising to 52.6 from 50.4 in June, according to data from S&P Global.\n\nThe reading marks a second consecutive month of expansion and the strongest since the start of the year, with growth running ahead of the series average.\n\nThe improvement was concentrated in services, where the business activity index rose to 53.0 from 50.5, the fastest pace of growth since January.\n\nManufacturing was comparatively subdued, with the headline manufacturing PMI edging up to 51.7 from 51.5 and the manufacturing output index rising to 49.9 from 49.5, still shy of the 50 growth threshold but the best outcome since the start of 2026.\n\nhttps://investinglive.com/news/australia-composite-pmi-rises-to-52-6-in-july-as-new-orders-return-to-growth/",
+    "draft_text": "RETAIL-SALES READ: June retail sales +1.0% vs -0.3% m/m expected Prior +1.2% June retail sales +4.2% vs +2.3% y/y expected Prior +3.2%; revised to +3.5% June retail sales (ex fuel, autos) +1.1% vs -0.4% m/m expected Prior +1.2% June retail sales (ex fuel, autos) +5.4% vs +3.2% y/y expected Prior +4.6%; revised to +4.9% UK retail sales rose unexpectedly in June, with non-store retailing in particular seeing a strong surge in volume (+4.4%) on the month.\n\nRetailers reported that sales promotions and the warm weather boosted sales of outdoor products and items such as fans.\n\nBesides that, increased sales of clothing and sports merchandise also benefitted the June figures for non-store retailers.\n\nI'm guessing England performing well in the World Cup has a lot to do with that.\n\nSo, keep in mind that this bump may yet be a bit of a one-off.\n\nThat said, non-food store sales were also solid (+1.2%) on the month.\n\nOf note, computer and telecoms retailers' sales rose, which retailers attributed to continued strong demand for products following releases back in March 2026.\n\nAll in all, it's a good report ahead of the summer months.\n\nhttps://investinglive.com/news/uk-june-retail-sales-1-0-vs-0-3-m-m-expected/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/australia-composite-pmi-rises-to-52-6-in-july-as-new-orders-return-to-growth/",
-    "source_title": "Australia composite PMI rises to 52.6 in July as new orders return to growth",
-    "source_summary": "The pickup in the composite output index to 52.6 from 50.4 signals a second straight month of expansion and the strongest reading since the start of the year, driven almost entirely by services rather than manufacturing. The return to new order growth after four months of decline, together with the fastest hiring since April, points to a private sector regaining some momentum even as confidence re",
-    "drafted_at": "2026-07-24T04:59:22.007289",
+    "source_url": "https://investinglive.com/news/uk-june-retail-sales-1-0-vs-0-3-m-m-expected/",
+    "source_title": "UK retail sales rose unexpectedly in June amid summer heat and World Cup fever",
+    "source_summary": "June retail sales +1.0% vs -0.3% m/m expected Prior +1.2% June retail sales +4.2% vs +2.3% y/y expected Prior +3.2%; revised to +3.5% June retail sales (ex fuel, autos) +1.1% vs -0.4% m/m expected Prior +1.2% June retail sales (ex fuel, autos) +5.4% vs +3.2% y/y expected Prior +4.6%; revised to +4.9% UK retail sales rose unexpectedly in June, with non-store retailing in particular seeing a strong ",
+    "drafted_at": "2026-07-24T07:30:10.515941",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "8f92c98618c64d1c"
+    "content_hash": "5429a746a8c6a66d"
   },
   {
-    "id": "2a6faf77",
+    "id": "59800fb5",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "How sticky is inflation? Let's see: Carney: Canada Focused on a Comprehensive USMCA Deal Crude oil futures settled at $92.19 up $5.36 or 6.17% AMD and Cerbras form a partnership that makes chips faster and more efficient.\n\nEU Google Fine Escalates U.S.-EU Trade Tensions US Senate blocks resolution curbing Trump's Iran War Powers.\n\nThe story gets worse: 30 year mortgage rates reach the highest level since August 2025 Pres.\n\nTrump: Considering a massive attack greater than anything before.\n\nWSJ Timiraos: Fed is heading into one of the most unpredictable meetings Middle East tensions remains high with Iran increasing hostilities Canada PM Carney: Will not hesitate to defend its interest in trade war with the US ECB's Lagarde: Recent data points to some improvement in economic activity.\n\nUS initial jobless claims 187K versus 212K expected Canada Retail sales for May 1.0% versus 1.0% expected The full statement from the ECB as they keep rates unchanged.\n\nECB leaves deposit rate unchanged at 2.25%, as widely expected Kickstart the North American session with a technical look at the EURUSD, USDJPY and GBPUSD investingLive European markets wrap: Oil prices continue to surge higher, dollar climbs alongside bond yields It was a long day in the market, much like the epic Christopher Nolan movie Odessey.\n\nThe markets closed sharply lower on Thursday as investors grappled with escalating Middle East tensions, surging oil prices, and rising Treasury yields.\n\nhttps://investinglive.com/news/investinglive-americas-fx-news-wrap-23-jul-risk-off-sentiment-as-geopolitical-tensions-rise/",
+    "draft_text": "Weekly claims just printed. US initial claims for state jobless benefits dropped by 22,000 to 187,000 for the week ending July 18, the lowest level since September 1969.\n\nThe drop hardened bets that the Federal Reserve (Fed) could raise interest rates at next week\u2019s meeting.\n\nThe CME FedWatch tool now puts the odds of a hike at 33.7%, up The post US Weekly Jobless Claims Hit 1969 Low: What Does It Mean For Crypto? appeared first on BeInCrypto.\n\nhttps://beincrypto.com/us-jobless-claims-1969-low-crypto/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-23-jul-risk-off-sentiment-as-geopolitical-tensions-rise/",
-    "source_title": "investingLive Americas FX news wrap 23 Jul: Risk off sentiment as geopolitical tensions rise.",
-    "source_summary": "It was an ugly day for US stocks. Carney: Canada Focused on a Comprehensive USMCA Deal Crude oil futures settled at $92.19 up $5.36 or 6.17% AMD and Cerbras form a partnership that makes chips faster and more efficient. EU Google Fine Escalates U.S.-EU Trade Tensions US Senate blocks resolution curbing Trump's Iran War Powers. Tensions remain high. The story gets worse: 30 year mortgage rates reac",
-    "drafted_at": "2026-07-24T04:59:22.008948",
+    "primary_source": "BEINCRYPTO",
+    "source_url": "https://beincrypto.com/us-jobless-claims-1969-low-crypto/",
+    "source_title": "US Weekly Jobless Claims Hit 1969 Low: What Does It Mean For Crypto?",
+    "source_summary": "US initial claims for state jobless benefits dropped by 22,000 to 187,000 for the week ending July 18, the lowest level since September 1969. The drop hardened bets that the Federal Reserve (Fed) could raise interest rates at next week\u2019s meeting. The CME FedWatch tool now puts the odds of a hike at 33.7%, up The post US Weekly Jobless Claims Hit 1969 Low: What Does It Mean For Crypto? appeared fir",
+    "drafted_at": "2026-07-24T07:30:10.516509",
     "data": {
-      "source": "FOREXLIVE"
+      "source": "BEINCRYPTO"
     },
-    "content_hash": "196f9170a135cc0e"
+    "content_hash": "615a139889ef307d"
   },
   {
-    "id": "15a6053e",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "How fast is the economy moving? Now we know: The Ring is Euronews\u2019 weekly political showdown, where Europe\u2019s toughest debates meet their boldest voices.\n\nIn each episode, two political heavyweights from across the EU face off to propose a diversity of opinions and spark conversations around the most important issues of EU affairs and the wider European political life.\n\nEuronews Tech Talks goes beyond discussions to explore the impact of new technologies on our lives.\n\nWith explanations, engaging Q&As, and lively conversations, the podcast provides valuable insights into the intersection of technology and society.\n\nEurope's best food experts are joining forces to crack down on fraud.\n\nhttp://www.euronews.com/business/2026/07/23/polands-debt-climbs-above-500bn-as-borrowing-reaches-record-pace",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "EURONEWS",
-    "source_url": "http://www.euronews.com/business/2026/07/23/polands-debt-climbs-above-500bn-as-borrowing-reaches-record-pace",
-    "source_title": "Poland's debt climbs above \u20ac500bn as borrowing reaches record pace",
-    "source_summary": "Poland is now among the fastest-indebting countries in the European Union. According to the latest Eurostat data, only Finland and Bulgaria recorded a larger increase in the public debt-to-GDP ratio in the first quarter of 2026.",
-    "drafted_at": "2026-07-24T04:59:22.009980",
-    "data": {
-      "source": "EURONEWS"
-    },
-    "content_hash": "e411e3e8db84bbdf"
-  },
-  {
-    "id": "dd133b6d",
+    "id": "8ca290f9",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -486,7 +486,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-07-24T04:59:22.011058",
+    "drafted_at": "2026-07-24T07:30:10.524528",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -494,7 +494,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "72489204",
+    "id": "699cac45",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Recessions are obvious in retrospect and invisible in real time.",
@@ -504,14 +504,14 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Recessions are obvious in retrospect and invisible in real time.",
-    "drafted_at": "2026-07-24T04:59:22.011116",
+    "drafted_at": "2026-07-24T07:30:10.524618",
     "data": {
       "take_seed": "2026-07-24-pack-1"
     },
     "content_hash": "9b0f7be55d8ef71c"
   },
   {
-    "id": "45adb9c2",
+    "id": "f6608e69",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Soft landing is the most dangerous phrase in central banking.",
@@ -521,7 +521,7 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Soft landing is the most dangerous phrase in central banking.",
-    "drafted_at": "2026-07-24T04:59:22.011150",
+    "drafted_at": "2026-07-24T07:30:10.524680",
     "data": {
       "take_seed": "2026-07-24-pack-2"
     },
