@@ -1,57 +1,42 @@
 [
   {
-    "id": "8736db14",
-    "format": "LOUD_HOWL",
+    "id": "1bca08e6",
+    "format": "MARKET_MOVE",
     "status": "pending",
-    "draft_text": "FLAGSHIP READ: The market is currently pricing in an interest rate hike by the Fed later this year.\n\nhttps://www.fool.com/investing/2026/07/25/prediction-kevin-warsh-and-the-federal-open-market/?source=iedfolrf0000001",
+    "draft_text": "I don't say this often, but pay attention: WTI crude surges 12.6% in 5 sessions to $89.31.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "MOTLEY FOOL",
-    "source_url": "https://www.fool.com/investing/2026/07/25/prediction-kevin-warsh-and-the-federal-open-market/?source=iedfolrf0000001",
-    "source_title": "Prediction: Kevin Warsh and the Federal Open Market Committee (FOMC) Will Not Raise Interest Rates in 2026",
-    "source_summary": "The market is currently pricing in an interest rate hike by the Fed later this year.",
-    "drafted_at": "2026-07-25T12:04:17.242761",
+    "primary_source": "NYMEX \u00b7 CL=F",
+    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "source_title": "WTI crude oil futures",
+    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "drafted_at": "2026-07-25T22:42:31.134210",
     "data": {
-      "source": "MOTLEY FOOL"
+      "signal_id": "CL=F:move:2026-07-24",
+      "kind": "move_up",
+      "current": "$89.31"
     },
-    "content_hash": "101e76ea3b466e3f"
+    "content_hash": "c272de0720a2f459"
   },
   {
-    "id": "1dd9c105",
+    "id": "c36eaa6d",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "Powell on the wire. Fed Chair Kevin Warsh embraces constructive ambiguity ahead of the July FOMC meeting, with a 33% chance of a rate hike and no bailout promises The post Federal Reserve faces investor uncertainty ahead of policy decision as Warsh embraces ambiguity appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/fed-warsh-policy-uncertainty-crypto/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Federal Reserve",
-    "source_url": "https://cryptobriefing.com/fed-warsh-policy-uncertainty-crypto/",
-    "source_title": "Federal Reserve faces investor uncertainty ahead of policy decision as Warsh embraces ambiguity",
-    "source_summary": "Fed Chair Kevin Warsh embraces constructive ambiguity ahead of the July FOMC meeting, with a 33% chance of a rate hike and no bailout promises The post Federal Reserve faces investor uncertainty ahead of policy decision as Warsh embraces ambiguity appeared first on Crypto Briefing .",
-    "drafted_at": "2026-07-25T12:04:17.253587",
-    "data": {
-      "actor": "Federal Reserve"
-    },
-    "content_hash": "6d41447649379db5"
-  },
-  {
-    "id": "1c60797f",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "Live from the Federal Reserve: Fasten your seat belts for the decision on Wednesday.\n\nhttps://www.marketwatch.com/story/investors-are-in-the-dark-about-the-feds-decision-this-week-and-thats-just-how-warsh-wants-it-c9cbfd3f?mod=mw_rss_topstories",
+    "draft_text": "Live from the Federal Reserve: From Washington to London to Tokyo, central bankers are set to reveal just how worried they are about a return of oil to about $100 a barrel.\n\nhttps://financialpost.com/pmn/business-pmn/oil-near-100-puts-fed-and-peers-in-interest-rate-spotlight",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "Fed",
-    "source_url": "https://www.marketwatch.com/story/investors-are-in-the-dark-about-the-feds-decision-this-week-and-thats-just-how-warsh-wants-it-c9cbfd3f?mod=mw_rss_topstories",
-    "source_title": "Investors are in the dark about the Fed\u2019s decision this week \u2014 and that\u2019s just how Warsh wants it",
-    "source_summary": "Will Kevin Warsh support a rate hike? Fasten your seat belts for the decision on Wednesday.",
-    "drafted_at": "2026-07-25T12:04:17.253763",
+    "source_url": "https://financialpost.com/pmn/business-pmn/oil-near-100-puts-fed-and-peers-in-interest-rate-spotlight",
+    "source_title": "Oil Near $100 Puts Fed and Peers in Interest-Rate Spotlight",
+    "source_summary": "From Washington to London to Tokyo, central bankers are set to reveal just how worried they are about a return of oil to about $100 a barrel.",
+    "drafted_at": "2026-07-25T22:42:31.142877",
     "data": {
       "actor": "Fed"
     },
-    "content_hash": "f7c87d7d6a218964"
+    "content_hash": "e474747d0f576ce9"
   },
   {
-    "id": "3cbf4c7a",
+    "id": "160b37fc",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Policy update for the pack: The statement discusses a coordinated approach to identifying highly sensitive data and documents and discusses enhanced procedures for the review of such information to reduce any cybersecurity risks while ensuring that the agencies have access to such information at all times during an examination.\n\nThe agencies recognize the importance of keeping a bank's highly sensitive information confidential and protecting it against disclosure to or from access by unauthorized persons as a result of cybersecurity vulnerabilities.\n\nThe agencies have committed to notify affected banks of any potential or confirmed material data breach involving confidential supervisory information.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
@@ -61,14 +46,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
     "source_title": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
     "source_summary": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
-    "drafted_at": "2026-07-25T12:04:17.254719",
+    "drafted_at": "2026-07-25T22:42:31.143624",
     "data": {
       "actor": "FED"
     },
     "content_hash": "59a82190f82073b0"
   },
   {
-    "id": "549180fd",
+    "id": "c7987e28",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Central bank corner: The Board's process for setting the discount rate is distinct from the process the Federal Open Market Committee follows in setting the target range for the federal funds rate.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
@@ -78,14 +63,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
     "source_title": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
     "source_summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
-    "drafted_at": "2026-07-25T12:04:17.255076",
+    "drafted_at": "2026-07-25T22:42:31.143930",
     "data": {
       "actor": "FED"
     },
     "content_hash": "5fb63e04cb74e9a2"
   },
   {
-    "id": "da949508",
+    "id": "ac33762b",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FED WATCH: \"The Federal Reserve's commitment to price stability and maximum employment is unwavering.\n\nAs is our resolve to pursue our mandate with rigor,\" said Chairman Kevin Warsh.\n\n\"The U.S. economy has changed significantly over the last generation, and never more so than right now.\n\nEach task force will carefully consider whether policymakers' means and methods, analytical tools and policy approaches can be improved upon.\n\nI am honored that the best minds from a range of disciplines have agreed to work with us to sharpen our performance as an institution.\n\nThe five task forces will examine areas central to the broad conduct of monetary policy.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
@@ -95,14 +80,31 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
     "source_title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
     "source_summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-    "drafted_at": "2026-07-25T12:04:17.256135",
+    "drafted_at": "2026-07-25T22:42:31.144759",
     "data": {
       "actor": "FED"
     },
     "content_hash": "ed14be39878da65d"
   },
   {
-    "id": "88c69b4b",
+    "id": "c9b7ca0f",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "RATE-PATH READ: TS Banking Group, Inc., Treynor, Iowa and TS Contrarian Bancshares, Inc., Treynor, Iowa Written Agreement dated July 6, 2026 Additional enforcement actions can be searched for here.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260709a.htm",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260709a.htm",
+    "source_title": "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc.",
+    "source_summary": "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc.",
+    "drafted_at": "2026-07-25T22:42:31.144988",
+    "data": {
+      "actor": "FED"
+    },
+    "content_hash": "2da0384c8b59f120"
+  },
+  {
+    "id": "feaefcdd",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$BRTMU insider bought $6,875,000 on 2026-07-22. \ud83d\udc40\n\nB&R Technology Merger Corp.. 687,500 shares at $10.00.\n\n-0.5% since the purchase.\n\nhttp://openinsider.com/screener?s=BRTMU",
@@ -112,7 +114,7 @@
     "source_url": "http://openinsider.com/screener?s=BRTMU",
     "source_title": "B&R Technology Merger Corp. (BRTMU) insider bought $6,875,000",
     "source_summary": "1 insider(s) bought 687,500 shares at $10.00 on 2026-07-22.",
-    "drafted_at": "2026-07-25T12:04:17.257039",
+    "drafted_at": "2026-07-25T22:42:31.145457",
     "data": {
       "ticker": "BRTMU",
       "type": "P",
@@ -122,104 +124,138 @@
     "content_hash": "7ecad12917662217"
   },
   {
-    "id": "202bc440",
+    "id": "ca542418",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$CLBK insider bought $4,778,740 on 2026-07-20, 16 insiders. \ud83d\udc40\n\nColumbia Financial, Inc./Md/. 477,874 shares at $10.00.\n\n+8.8% since the purchase.\n\nhttp://openinsider.com/screener?s=CLBK",
+    "draft_text": "$CLBK insider bought $4,778,740 on 2026-07-20, 16 insiders. \ud83d\udc40\n\nColumbia Financial, Inc./Md/. 477,874 shares at $10.00.\n\n+10.1% since the purchase.\n\nhttp://openinsider.com/screener?s=CLBK",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=CLBK",
     "source_title": "Columbia Financial, Inc./Md/ (CLBK) insider bought $4,778,740",
     "source_summary": "16 insider(s) bought 477,874 shares at $10.00 on 2026-07-20.",
-    "drafted_at": "2026-07-25T12:04:17.257163",
+    "drafted_at": "2026-07-25T22:42:31.145559",
     "data": {
       "ticker": "CLBK",
       "type": "P",
       "dollar_value": 4778740.0,
-      "pct_since": 8.80000114440918
+      "pct_since": 10.10000228881836
     },
     "content_hash": "997c6258ef1b8326"
   },
   {
-    "id": "e2a5d9f5",
+    "id": "1e0610b7",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$FSBC insider bought $4,250,004 on 2026-07-22. \ud83d\udc40\n\nFive Star Bancorp. 96,591 shares at $44.00.\n\n+6.4% since the purchase.\n\nhttp://openinsider.com/screener?s=FSBC",
+    "draft_text": "$FSBC insider bought $4,250,004 on 2026-07-22. \ud83d\udc40\n\nFive Star Bancorp. 96,591 shares at $44.00.\n\n+7.6% since the purchase.\n\nhttp://openinsider.com/screener?s=FSBC",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=FSBC",
     "source_title": "Five Star Bancorp (FSBC) insider bought $4,250,004",
     "source_summary": "1 insider(s) bought 96,591 shares at $44.00 on 2026-07-22.",
-    "drafted_at": "2026-07-25T12:04:17.257264",
+    "drafted_at": "2026-07-25T22:42:31.145641",
     "data": {
       "ticker": "FSBC",
       "type": "P",
       "dollar_value": 4250004.0,
-      "pct_since": 6.386366757479581
+      "pct_since": 7.613632895729759
     },
     "content_hash": "2dbcc93f05853367"
   },
   {
-    "id": "e9974f41",
+    "id": "535e057a",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$ARTV insider bought $2,583,314 on 2026-07-21. \ud83d\udc40\n\nArtiva Biotherapeutics, Inc.. 264,586 shares at $9.76.\n\n+2.8% since the purchase.\n\nhttp://openinsider.com/screener?s=ARTV",
+    "draft_text": "$ARTV insider bought $2,583,314 on 2026-07-21. \ud83d\udc40\n\nArtiva Biotherapeutics, Inc.. 264,586 shares at $9.76.\n\n+3.8% since the purchase.\n\nhttp://openinsider.com/screener?s=ARTV",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=ARTV",
     "source_title": "Artiva Biotherapeutics, Inc. (ARTV) insider bought $2,583,314",
     "source_summary": "1 insider(s) bought 264,586 shares at $9.76 on 2026-07-21.",
-    "drafted_at": "2026-07-25T12:04:17.257370",
+    "drafted_at": "2026-07-25T22:42:31.145728",
     "data": {
       "ticker": "ARTV",
       "type": "P",
       "dollar_value": 2583314.0,
-      "pct_since": 2.7663907066720452
+      "pct_since": 3.7909847791077684
     },
     "content_hash": "fe4b57592d8a58bb"
   },
   {
-    "id": "15e83bc4",
+    "id": "3301d1db",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$CLIR insider bought $1,770,000 on 2026-07-22. \ud83d\udc40\n\nClearsign Technologies Corp. 500,000 shares at $3.54.\n\n-1.4% since the purchase.\n\nhttp://openinsider.com/screener?s=CLIR",
+    "draft_text": "$CLIR insider bought $1,770,000 on 2026-07-22. \ud83d\udc40\n\nClearsign Technologies Corp. 500,000 shares at $3.54.\n\n-5.4% since the purchase.\n\nhttp://openinsider.com/screener?s=CLIR",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
     "source_url": "http://openinsider.com/screener?s=CLIR",
     "source_title": "Clearsign Technologies Corp (CLIR) insider bought $1,770,000",
     "source_summary": "1 insider(s) bought 500,000 shares at $3.54 on 2026-07-22.",
-    "drafted_at": "2026-07-25T12:04:17.257473",
+    "drafted_at": "2026-07-25T22:42:31.145822",
     "data": {
       "ticker": "CLIR",
       "type": "P",
       "dollar_value": 1770000.0,
-      "pct_since": -1.4124291091315502
+      "pct_since": -5.367234332413324
     },
     "content_hash": "13ee038f4364d352"
   },
   {
-    "id": "b0ea35ad",
+    "id": "a9d0606c",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "According to Senator Elizabeth Warren, the House bill \u201cwon\u2019t solve the problem\u201c of insider trading in Congress as lawmakers will still be allowed to own and sell stocks.\n\nhttps://cointelegraph.com/news/house-bill-lawmakers-insider-information-stock-trading?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "draft_text": "Districts have lost $225 million, documented in department inspector general\u2019s report to Congress.\n\nhttps://www.wnd.com/2026/07/education-fraud-sweeping-nation/?utm_source=rss&utm_medium=rss&utm_campaign=education-fraud-sweeping-nation",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "WND",
+    "source_url": "https://www.wnd.com/2026/07/education-fraud-sweeping-nation/?utm_source=rss&utm_medium=rss&utm_campaign=education-fraud-sweeping-nation",
+    "source_title": "Education fraud sweeping the nation",
+    "source_summary": "Districts have lost $225 million, documented in department inspector general\u2019s report to Congress",
+    "drafted_at": "2026-07-25T22:42:31.146608",
+    "data": {
+      "source": "WND"
+    },
+    "content_hash": "306f629cb086c66a"
+  },
+  {
+    "id": "1d1cc77d",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "One off the streets: The European Union has sanctioned HTX, widening a Russia crackdown that has already affected counterparties beyond the exchange.\n\nThe bloc placed Huobi Global S.A., the entity behind HTX, under a transaction ban in its 21st sanctions package adopted July 23.\n\n23, EU operators will be prohibited from transacting with the exchange, though the [\u2026] The post EU expands HTX crackdown as Russia-linked crypto network keeps shifting its financial rails appeared first on CryptoSlate.\n\nhttps://cryptoslate.com/eu-expands-htx-crackdown-as-russia-linked-crypto-network-keeps-shifting-its-financial-rails/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CRYPTOSLATE",
+    "source_url": "https://cryptoslate.com/eu-expands-htx-crackdown-as-russia-linked-crypto-network-keeps-shifting-its-financial-rails/",
+    "source_title": "EU expands HTX crackdown as Russia-linked crypto network keeps shifting its financial rails",
+    "source_summary": "The European Union has sanctioned HTX, widening a Russia crackdown that has already affected counterparties beyond the exchange. The bloc placed Huobi Global S.A., the entity behind HTX, under a transaction ban in its 21st sanctions package adopted July 23. From Aug. 23, EU operators will be prohibited from transacting with the exchange, though the [\u2026] The post EU expands HTX crackdown as Russia-l",
+    "drafted_at": "2026-07-25T22:42:31.147163",
+    "data": {
+      "source": "CRYPTOSLATE"
+    },
+    "content_hash": "26fe2e52b8fb4d6a"
+  },
+  {
+    "id": "833cabf6",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "About damn time. Daily NK reported that North Korea arrested former state cyber operators accused of hacking two state banks and laundering funds through crypto.\n\nhttps://cointelegraph.com/news/north-korea-bank-hacking-ring-crypto-laundering-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "COINTELEGRAPH",
-    "source_url": "https://cointelegraph.com/news/house-bill-lawmakers-insider-information-stock-trading?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "source_title": "House passes bill on lawmakers using insider information for stock trading",
-    "source_summary": "According to Senator Elizabeth Warren, the House bill \u201cwon\u2019t solve the problem\u201c of insider trading in Congress as lawmakers will still be allowed to own and sell stocks.",
-    "drafted_at": "2026-07-25T12:04:17.258611",
+    "source_url": "https://cointelegraph.com/news/north-korea-bank-hacking-ring-crypto-laundering-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source_title": "North Korea arrests bank hacking ring tied to crypto laundering: Report",
+    "source_summary": "Daily NK reported that North Korea arrested former state cyber operators accused of hacking two state banks and laundering funds through crypto.",
+    "drafted_at": "2026-07-25T22:42:31.147336",
     "data": {
       "source": "COINTELEGRAPH"
     },
-    "content_hash": "4f0188b275b7305b"
+    "content_hash": "5a17d396f7bb3b81"
   },
   {
-    "id": "a5e95563",
+    "id": "0b7fe90d",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The post Ken Paxton Touts His Efforts to Fight Voter Fraud.\n\nHis Senate Opponent Is Now Accusing Him of Committing It. appeared first on ProPublica.\n\nhttps://www.propublica.org/article/ken-paxton-voter-registration-james-talarico",
@@ -229,31 +265,14 @@
     "source_url": "https://www.propublica.org/article/ken-paxton-voter-registration-james-talarico",
     "source_title": "Ken Paxton Touts His Efforts to Fight Voter Fraud. His Senate Opponent Is Now Accusing Him of Committing It.",
     "source_summary": "The post Ken Paxton Touts His Efforts to Fight Voter Fraud. His Senate Opponent Is Now Accusing Him of Committing It. appeared first on ProPublica .",
-    "drafted_at": "2026-07-25T12:04:17.258880",
+    "drafted_at": "2026-07-25T22:42:31.147545",
     "data": {
       "source": "PROPUBLICA"
     },
     "content_hash": "78b7977b5174283f"
   },
   {
-    "id": "81201495",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "BitMEX, Arthur Hayes, Samuel Reed and Benjamin Delo face a proposed class action alleging insider trading and deliberate server freezes.\n\nhttps://www.theblock.co/post/409595/arthur-hayes-bitmex-co-founders-face-fraud-claims-over-alleged-insider-trading-desk-as-exchange-winds-down?utm_source=rss&utm_medium=rss",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "THE BLOCK",
-    "source_url": "https://www.theblock.co/post/409595/arthur-hayes-bitmex-co-founders-face-fraud-claims-over-alleged-insider-trading-desk-as-exchange-winds-down?utm_source=rss&utm_medium=rss",
-    "source_title": "Arthur Hayes, BitMEX co-founders face fraud claims over alleged \u2018Insider Trading Desk\u2019 as exchange winds down",
-    "source_summary": "BitMEX, Arthur Hayes, Samuel Reed and Benjamin Delo face a proposed class action alleging insider trading and deliberate server freezes.",
-    "drafted_at": "2026-07-25T12:04:17.259134",
-    "data": {
-      "source": "THE BLOCK"
-    },
-    "content_hash": "651dbeb9d0472259"
-  },
-  {
-    "id": "f0afc80d",
+    "id": "dc0f2faa",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Moderate Democrats want to put a stop to Trump\u2019s meme coin self-dealing.\n\nBut that might cut off campaign donations from crypto interests.\n\nThe post Trump\u2019s Crypto Corruption Puts Centrist Democrats in Bind appeared first on The Intercept.\n\nhttps://theintercept.com/2026/07/23/trump-crypto-conflict-clarity-act-democrats/",
@@ -263,31 +282,14 @@
     "source_url": "https://theintercept.com/2026/07/23/trump-crypto-conflict-clarity-act-democrats/",
     "source_title": "Trump\u2019s Crypto Corruption Puts Centrist Democrats in Bind",
     "source_summary": "Moderate Democrats want to put a stop to Trump\u2019s meme coin self-dealing. But that might cut off campaign donations from crypto interests. The post Trump\u2019s Crypto Corruption Puts Centrist Democrats in Bind appeared first on The Intercept .",
-    "drafted_at": "2026-07-25T12:04:17.259535",
+    "drafted_at": "2026-07-25T22:42:31.147872",
     "data": {
       "source": "INTERCEPT"
     },
     "content_hash": "18516cda3e985539"
   },
   {
-    "id": "dd9ed596",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Women on four continents told ICIJ that global pay-per-action dating sites owned by a Russian businessman and self-styled philosopher left them financially broke and heartbroken.\n\nhttps://www.icij.org/news/2026/07/dating-app-scam-models-influencers-social-discovery-group/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "ICIJ",
-    "source_url": "https://www.icij.org/news/2026/07/dating-app-scam-models-influencers-social-discovery-group/",
-    "source_title": "Inside the Matrix: How models, influencers and engagement quotas power the Social Discovery Group\u2019s dating machine and global profits",
-    "source_summary": "Women on four continents told ICIJ that global pay-per-action dating sites owned by a Russian businessman and self-styled philosopher left them financially broke and heartbroken.",
-    "drafted_at": "2026-07-25T12:04:17.259860",
-    "data": {
-      "source": "ICIJ"
-    },
-    "content_hash": "b0972ed90c219ce4"
-  },
-  {
-    "id": "998cadf7",
+    "id": "1b4bbf63",
     "format": "GLOBAL_DESK",
     "status": "pending",
     "draft_text": "PACK BRIEFING \u2014 ASIA: EDX Markets, an institutional-only crypto trading venue with its own central clearinghouse, closed a $76 million Series C funding round led by SBI Holdings, the firm said in a press release.\n\nThe Tokyo-listed financial group becomes a strategic investor in the U.S. exchange.\n\nhttps://thedefiant.io/converge/tradfi-and-fintech/edx-markets-closes-76m-series-c-led-by-sbi-holdings",
@@ -297,82 +299,82 @@
     "source_url": "https://thedefiant.io/converge/tradfi-and-fintech/edx-markets-closes-76m-series-c-led-by-sbi-holdings",
     "source_title": "EDX Markets Closes $76M Series C Led by SBI Holdings",
     "source_summary": "EDX Markets, an institutional-only crypto trading venue with its own central clearinghouse, closed a $76 million Series C funding round led by SBI Holdings, the firm said in a press release. The Tokyo-listed financial group becomes a strategic investor in the U.S. exchange. The capital will fund\u2026",
-    "drafted_at": "2026-07-25T12:04:17.262144",
+    "drafted_at": "2026-07-25T22:42:31.149907",
     "data": {
       "source": "THE DEFIANT"
     },
     "content_hash": "766a40daeebddf43"
   },
   {
-    "id": "0060bfe9",
+    "id": "e2d84772",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "MIDDLE EAST DESK: The US paused strikes on Iran after 13 consecutive nights, triggering $80 billion in crypto market losses as Bitcoin and Ethereum fell amid The post US pauses strikes on Iran after 13 consecutive nights as crypto markets feel the heat appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/us-pauses-iran-strikes-crypto-markets/",
+    "draft_text": "From the Gulf: Saudi Arabia launched airstrikes on Houthi positions in Yemen after tanker attacks, pushing Brent crude past $100 and threatening global oil The post Saudi Arabia strikes Houthis after attacks on energy sites, sending Brent crude past $100 appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/saudi-arabia-strikes-houthis-oil-prices/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/us-pauses-iran-strikes-crypto-markets/",
-    "source_title": "US pauses strikes on Iran after 13 consecutive nights as crypto markets feel the heat",
-    "source_summary": "The US paused strikes on Iran after 13 consecutive nights, triggering $80 billion in crypto market losses as Bitcoin and Ethereum fell amid The post US pauses strikes on Iran after 13 consecutive nights as crypto markets feel the heat appeared first on Crypto Briefing .",
-    "drafted_at": "2026-07-25T12:04:17.262779",
+    "source_url": "https://cryptobriefing.com/saudi-arabia-strikes-houthis-oil-prices/",
+    "source_title": "Saudi Arabia strikes Houthis after attacks on energy sites, sending Brent crude past $100",
+    "source_summary": "Saudi Arabia launched airstrikes on Houthi positions in Yemen after tanker attacks, pushing Brent crude past $100 and threatening global oil The post Saudi Arabia strikes Houthis after attacks on energy sites, sending Brent crude past $100 appeared first on Crypto Briefing .",
+    "drafted_at": "2026-07-25T22:42:31.150381",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "f9c3133b7a431ae4"
+    "content_hash": "a02364f911d0b7e7"
   },
   {
-    "id": "77e4b790",
+    "id": "8de17628",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "GLOBAL DESK: Modi built his political brand through social media.\n\nNow protesters are using same platforms to mock his administration.\n\nhttps://www.aljazeera.com/news/2026/7/25/indias-youth-protesters-are-fighting-modi-with-irreverent-humour-and-memes?traffic_source=rss",
+    "draft_text": "Levant update: Saudi Arabia strikes Houthi positions after rebel attacks on energy sites.\n\nHouthi military action against Israel by July 31 at 6.5% YES.\n\nThe post Saudi Arabia strikes Houthis after rebel attacks on energy sites appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/saudi-arabia-strikes-houthis-after-rebel-attacks-on-energy-sites/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/news/2026/7/25/indias-youth-protesters-are-fighting-modi-with-irreverent-humour-and-memes?traffic_source=rss",
-    "source_title": "India\u2019s youth protesters are fighting Modi with irreverent humour and memes",
-    "source_summary": "Modi built his political brand through social media. Now protesters are using same platforms to mock his administration.",
-    "drafted_at": "2026-07-25T12:04:17.264453",
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/saudi-arabia-strikes-houthis-after-rebel-attacks-on-energy-sites/",
+    "source_title": "Saudi Arabia strikes Houthis after rebel attacks on energy sites",
+    "source_summary": "Saudi Arabia strikes Houthi positions after rebel attacks on energy sites. Houthi military action against Israel by July 31 at 6.5% YES. The post Saudi Arabia strikes Houthis after rebel attacks on energy sites appeared first on Crypto Briefing .",
+    "drafted_at": "2026-07-25T22:42:31.150601",
     "data": {
-      "source": "AL JAZEERA"
+      "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "cf57fcdfd5ad2b7a"
+    "content_hash": "8a0bf5a35396f2af"
   },
   {
-    "id": "fcae487b",
+    "id": "e1fc76b4",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Levant update: Shane Gillis put on a night that his fans will never forget last week in Philadelphia, and it wasn't an anomaly, it was the new normal.\n\nGillis broke two Guinness World Records at a sold-out Lincoln Financial Field that night, a venue that typically hosts NFL games.\n\n'I put all of your lives at risk.' Gillis not only set a new mark for the largest audience for a comedian with 73,946 attendees, but he also sold the most tickets for a comedy show ever for a single billing with 77,047 tickets.\n\nMoreover, what Gillis was able to do with nearly a city-sized group of fans sitting all around him was culminate almost 15 years of hard work into a cultural moment.\n\nGillis brought with him everything he loves, a protest in its own right given how he was treated by the media for simply being a regular guy.\n\nThe Gillis tribute opened with a flyover followed by Millennials' favorite rambunctious skateboarder Bam Margera, a Pennsylvania native, announcing a new season of Gillis' Netflix comedy \"Tires.\" A festival for the rest of us Gillis tapped two of his friends and fellow comedians from the area to open for him, Matt McCusker and Jay Oakerson.\n\nWhile they were the only other comedy acts on the card, a series of unannounced appearances followed, each more surprising than the last.\n\nFor a comedian who was unilaterally labeled a bigot, racist, and homophobe just seven years ago, Gillis had no shortage of celebrities willing to appear under his banner.\n\nhttps://www.theblaze.com/lifestyle/shane-gillis-philly-record-breaking",
+    "draft_text": "From the Gulf: Satellite images reveal Iran is rapidly rebuilding nuclear and missile sites after 2025 US strikes, raising geopolitical risks for global and The post Iran accelerates rebuilding of nuclear sites after US strikes, raising geopolitical risk for markets appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iran-rebuilds-nuclear-sites-market-risk/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "THE BLAZE",
-    "source_url": "https://www.theblaze.com/lifestyle/shane-gillis-philly-record-breaking",
-    "source_title": "Boys will be boys: Shane Gillis' record-breaking Philadelphia show was more than just a comedy set",
-    "source_summary": "Shane Gillis put on a night that his fans will never forget last week in Philadelphia, and it wasn't an anomaly, it was the new normal. Gillis broke two Guinness World Records at a sold-out Lincoln Financial Field that night, a venue that typically hosts NFL games. 'I put all of your lives at risk.' Gillis not only set a new mark for the largest audience for a comedian with 73,946 attendees, but h",
-    "drafted_at": "2026-07-25T12:04:17.267772",
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/iran-rebuilds-nuclear-sites-market-risk/",
+    "source_title": "Iran accelerates rebuilding of nuclear sites after US strikes, raising geopolitical risk for markets",
+    "source_summary": "Satellite images reveal Iran is rapidly rebuilding nuclear and missile sites after 2025 US strikes, raising geopolitical risks for global and The post Iran accelerates rebuilding of nuclear sites after US strikes, raising geopolitical risk for markets appeared first on Crypto Briefing .",
+    "drafted_at": "2026-07-25T22:42:31.151202",
     "data": {
-      "source": "THE BLAZE"
+      "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "0acd2a904596ebc7"
+    "content_hash": "292849ca9f0430d0"
   },
   {
-    "id": "aed63ca4",
+    "id": "06841626",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From Beijing: America remains deeply divided over whether the 2020 presidential election was stolen from Donald Trump.\n\nMillions believe the system failed them, while the media, intelligence bureaucracy, and the left have treated their doubts as something to suppress rather than investigate.\n\nThe documents released this week by the Trump administration do not close the case.\n\nThey reopen it \u2014 and make the \u201cnothing to see here\u201d narrative indefensible.\n\nThe released intelligence reports that approximately 220 million American voter records are in Chinese hands.\n\nTens of millions of records across 18 states were bought, stolen, or hacked and included names, addresses, phone numbers, party preferences, and other sensitive information.\n\nA sovereign nation must know that the people selecting its government are its citizens.\n\nThat does not prove China changed a single ballot, but it does prove Beijing possessed a political targeting asset.\n\nhttps://www.theblaze.com/columns/opinion/trump-changed-the-game-with-the-2020-files-now-congress-must-act",
+    "draft_text": "Cross-border read: Other crypto platforms listed alongside HTX include EXMO, Rapira, BitPapa, Aifory Pro, WhiteBird, NoOnecrypto and Exnode.\n\nhttps://www.theblock.co/post/409668/eu-adds-htx-to-russia-sanctions-list-barring-transactions-starting-aug-23?utm_source=rss&utm_medium=rss",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "THE BLAZE",
-    "source_url": "https://www.theblaze.com/columns/opinion/trump-changed-the-game-with-the-2020-files-now-congress-must-act",
-    "source_title": "Trump changed the game with the 2020 files, now Congress must act",
-    "source_summary": "America remains deeply divided over whether the 2020 presidential election was stolen from Donald Trump. Millions believe the system failed them, while the media, intelligence bureaucracy, and the left have treated their doubts as something to suppress rather than investigate. The documents released this week by the Trump administration do not close the case. They reopen it \u2014 and make the \u201cnothing",
-    "drafted_at": "2026-07-25T12:04:17.270380",
+    "primary_source": "THE BLOCK",
+    "source_url": "https://www.theblock.co/post/409668/eu-adds-htx-to-russia-sanctions-list-barring-transactions-starting-aug-23?utm_source=rss&utm_medium=rss",
+    "source_title": "EU adds HTX to Russia sanctions list, barring transactions starting Aug. 23",
+    "source_summary": "Other crypto platforms listed alongside HTX include EXMO, Rapira, BitPapa, Aifory Pro, WhiteBird, NoOnecrypto and Exnode.",
+    "drafted_at": "2026-07-25T22:42:31.151409",
     "data": {
-      "source": "THE BLAZE"
+      "source": "THE BLOCK"
     },
-    "content_hash": "a4f5c2810e6f2f25"
+    "content_hash": "2a6b02944882d9a7"
   },
   {
-    "id": "e770dc77",
+    "id": "d49866bc",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "INFLATION READ: Nasdaq down Next week's earnings calendar heats up Trump: Iran not ready to make a deal.\n\nCrude oil futures settled at $89.31 NY Times: Trump meets with top advisors to decide whether to increase military pressure on Iran EU fines today, Trump 301 tariffs tomorrow?\n\nUS and the UK planning on having a meeting on protecting shipping in the Strait of Hormuz Major European indices are closing the day and the week higher Pakistan is exploring a path toward a resumption of US \u2013 Iran talks.\n\nTrump to meet with Israel Prime Minister Netanyahu on Tuesday at the White House US new-home sales for the month of June 0.628M versus 0.610M estimate The July Flash S&P Global Manufacturing 53.8 vs 54.3 estimate Canada June PPI -1.4% versus -0.4% expected Canada new housing price index for June -0.1% vs -0.3% last month The EURUSD, USDJPY and GBPUSD are little changed to start the NA trading session.\n\nECB policymakers reiterate they are not seeing second-round effects, stress data dependence investingLive European session wrap: Oil prices come off the boil, markets take a light breather in final stretch of the week Stocks finished the week on a mixed note as investors balanced another busy round of earnings with profit-taking in many of the market's largest technology names.\n\nThe Dow Jones Industrial Average outperformed, rising 235.04 points (+0.45%) to 51,952.20, The S&P 500 managed a modest gain of 3.68 points (+0.05%) to 7,411.97.\n\nTechnology shares remained under pressure, however, with the Nasdaq Composite falling 161.87 points (-0.64%) and the Nasdaq 100 dropping -1.15%, highlighting continued rotation away from some of the year's biggest growth winners.\n\nSmall-cap stocks also lagged, with the Russell 2000 declining by -0.35%.\n\nhttps://investinglive.com/news/investinglive-americas-fx-news-wrap-24-jul-geopolitics-remain-the-focus-for-traders/",
@@ -382,14 +384,14 @@
     "source_url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-24-jul-geopolitics-remain-the-focus-for-traders/",
     "source_title": "investingLive Americas FX news wrap 24 Jul: Geopolitics remain the focus for traders.",
     "source_summary": "US indices close mixed. Dow up. S&P unchanged. Nasdaq down Next week's earnings calendar heats up Trump: Iran not ready to make a deal. Crude oil futures settled at $89.31 NY Times: Trump meets with top advisors to decide whether to increase military pressure on Iran EU fines today, Trump 301 tariffs tomorrow? US and the UK planning on having a meeting on protecting shipping in the Strait of Hormu",
-    "drafted_at": "2026-07-25T12:04:17.327249",
+    "drafted_at": "2026-07-25T22:42:31.210446",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "b9d30b1ae8bc7e8e"
   },
   {
-    "id": "5e6bf38f",
+    "id": "7faba448",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "CPI just printed. OCBC\u2019s Sim Moh Siong and Christopher Wong expect the Monetary Authority of Singapore (MAS) to leave the Singapore Dollar (SGD) Nominal Effective Exchange Rate (S$NEER) policy unchanged at Monday\u2019s meeting despite a modest rebound in core Consumer Price Index (CPI) to 1.6% year-on-year in June.\n\nhttps://www.fxstreet.com/news/singapore-dollar-mas-seen-on-hold-with-cautious-inflation-tone-ocbc-202607242105",
@@ -399,14 +401,14 @@
     "source_url": "https://www.fxstreet.com/news/singapore-dollar-mas-seen-on-hold-with-cautious-inflation-tone-ocbc-202607242105",
     "source_title": "Singapore Dollar: MAS seen on hold with cautious inflation tone \u2013 OCBC",
     "source_summary": "OCBC\u2019s Sim Moh Siong and Christopher Wong expect the Monetary Authority of Singapore (MAS) to leave the Singapore Dollar (SGD) Nominal Effective Exchange Rate (S$NEER) policy unchanged at Monday\u2019s meeting despite a modest rebound in core Consumer Price Index (CPI) to 1.6% year-on-year in June.",
-    "drafted_at": "2026-07-25T12:04:17.327737",
+    "drafted_at": "2026-07-25T22:42:31.210810",
     "data": {
       "source": "FXSTREET"
     },
     "content_hash": "2d656b7476927aae"
   },
   {
-    "id": "54bb8901",
+    "id": "03b55cc4",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "Growth read just printed. Commerzbank reports that South Korea\u2019s advance Q2 GDP rose 0.6% quarter-on-quarter and 3.7% year-on-year, beating expectations.\n\nRobust AI-related semiconductor demand and resilient domestic spending underpin growth.\n\nThe strong data support prospects of a further 25bp Bank of Korea hike in August.\n\nhttps://www.fxstreet.com/news/south-korean-won-strong-gdp-and-inflows-support-won-commerzbank-202607241939",
@@ -416,14 +418,14 @@
     "source_url": "https://www.fxstreet.com/news/south-korean-won-strong-gdp-and-inflows-support-won-commerzbank-202607241939",
     "source_title": "South Korean Won: Strong GDP and inflows support Won \u2013 Commerzbank",
     "source_summary": "Commerzbank reports that South Korea\u2019s advance Q2 GDP rose 0.6% quarter-on-quarter and 3.7% year-on-year, beating expectations. Robust AI-related semiconductor demand and resilient domestic spending underpin growth. The strong data support prospects of a further 25bp Bank of Korea hike in August.",
-    "drafted_at": "2026-07-25T12:04:17.328159",
+    "drafted_at": "2026-07-25T22:42:31.211128",
     "data": {
       "source": "FXSTREET"
     },
     "content_hash": "591910baf97b8062"
   },
   {
-    "id": "0afd3cf2",
+    "id": "a72045c0",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -433,7 +435,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-07-25T12:04:17.329699",
+    "drafted_at": "2026-07-25T22:42:31.212355",
     "data": {
       "manual": true,
       "via": "manual_news.md"
@@ -441,7 +443,7 @@
     "content_hash": "565d240f5343e625"
   },
   {
-    "id": "b1cb9cfb",
+    "id": "99229e4f",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "Soft landing is the most dangerous phrase in central banking.",
@@ -451,14 +453,14 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "Soft landing is the most dangerous phrase in central banking.",
-    "drafted_at": "2026-07-25T12:04:17.329781",
+    "drafted_at": "2026-07-25T22:42:31.212421",
     "data": {
       "take_seed": "2026-07-25-pack-1"
     },
     "content_hash": "9b0f7be55d8ef71c"
   },
   {
-    "id": "9b064b1c",
+    "id": "72a7668e",
     "format": "PACK_TAKE",
     "status": "pending",
     "draft_text": "When everyone's positioned for a crash, the crash takes a vacation.",
@@ -468,7 +470,7 @@
     "source_url": "",
     "source_title": "PACK TAKE",
     "source_summary": "When everyone's positioned for a crash, the crash takes a vacation.",
-    "drafted_at": "2026-07-25T12:04:17.329840",
+    "drafted_at": "2026-07-25T22:42:31.212467",
     "data": {
       "take_seed": "2026-07-25-pack-2"
     },
