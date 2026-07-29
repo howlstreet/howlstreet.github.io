@@ -38,7 +38,7 @@ jobs:
           git config user.name "howlstreet-bot"
           git config user.email "bot@howlstreet.local"
           git config pull.rebase true
-          git add index.html sitemap.xml hero_lock.json signal_state.json signal_posts.json insider_posts.json drafts.json review.html
+          git add index.html sitemap.xml hero_lock.json signal_state.json signal_posts.json insider_posts.json drafts.json
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else

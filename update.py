@@ -2512,8 +2512,8 @@ def main():
     # insider_posts is collected up above (before site render) so the
     # Insider Wire panel can use the same data the drafter consumes.
 
-    # Editorial drafter — produces drafts.json + review.html for human
-    # review. Replaces the old queue.html / feed.xml / cards.py pipeline.
+    # Editorial drafter — produces drafts.json for human review.
+    # Replaces the old queue.html / feed.xml / cards.py pipeline.
     rss_corruption = [i for i in all_items if _is_corruption_item(i)]
     try:
         drafter.collect_drafts(

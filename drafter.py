@@ -24,9 +24,7 @@ Six post formats:
 
 No auto-posting. drafter.py emits:
   - drafts.json : pending tweet drafts for human review
-  - review.html : local-only UI to approve / reject / edit / mark posted
-  - posted.json : reviewed by user; pasted back to repo to dedupe
-                  future runs
+  - posted.json : already-sent records used to dedupe future runs
 
 Each format function is a PURE function: input dict in, draft dict out.
 No global state mutation. All thresholds + caps are constants at the top
@@ -49,7 +47,6 @@ from zoneinfo import ZoneInfo
 REPO_ROOT = Path(__file__).parent
 DRAFTS_PATH = REPO_ROOT / "drafts.json"
 POSTED_PATH = REPO_ROOT / "posted.json"
-REVIEW_PATH = REPO_ROOT / "review.html"
 THE_TAKE_PATH = REPO_ROOT / "the_take.md"
 NY = ZoneInfo("America/New_York")
 
@@ -1155,7 +1152,7 @@ def _make_draft(*, fmt, body, primary_source, source_url,
     image_path is currently always set to None — user feedback was that
     the matplotlib-generated charts/cards are redundant with the tweet
     text (same info twice). Article og:image fetching is a separate
-    decision (see review.html behavior)."""
+    decision (human review before posting)."""
     body = _strip_banned_phrases(body)
     # Trailer is just the article URL. No CTA, no site link — X uses the
     # article's og:image as the card and the body carries the editorial
@@ -1582,8 +1579,8 @@ def draft_loud_howl(top_item):
     selected for the site's Loudest Howl, drafted as a tweet in the
     new editorial voice. One per run.
 
-    Lead with the consequence. The user heavily edits in review.html
-    before approving — drafter just sets up the skeleton with real
+    Lead with the consequence. Expect human edit before posting —
+    drafter just sets up the skeleton with real
     fact-check data."""
     if not top_item:
         return None
@@ -1836,8 +1833,7 @@ def collect_drafts(items, signal_posts=None, insider_posts=None,
                    rss_corruption_items=None, megacap_filter=None,
                    top_item=None):
     """Top-level call from update.py. Pulls all format drafters, dedupes
-    against posted.json, caps per-format count, writes drafts.json +
-    review.html.
+    against posted.json, caps per-format count, writes drafts.json.
 
     rss_corruption_items: pre-filtered list of RSS items already classified
                           as corruption by update.py (so drafter doesn't
@@ -1966,309 +1962,8 @@ def collect_drafts(items, signal_posts=None, insider_posts=None,
     # No og:image fetch — X auto-renders the article card from the
     # source URL embedded in the tweet body. The review queue is text-only.
 
-    # Persist + render
+    # Persist
     _save_drafts(drafts)
-    write_review_html(drafts)
     print(f"  drafter: emitted {len(drafts)} drafts across "
           f"{len({d['format'].split('_')[0] for d in drafts})} formats")
     return drafts
-
-
-# ────────────────────────────────────────────────────────────────────
-# review.html RENDERER — local-only, client-side. No localStorage —
-# state lives in-page only; user pastes JSON blob into posted.json
-# and commits.
-# ────────────────────────────────────────────────────────────────────
-
-_FORMAT_LABELS = {
-    "LOUD_HOWL":   ("LOUD HOWL", "#00ff88"),
-    "MARKET_MOVE": ("MARKET MOVE", "#00bfff"),
-    "POLICY_READ": ("POLICY READ", "#ffaa00"),
-    "CORRUPTION_WATCH": ("CORRUPTION WATCH", "#b042ff"),
-    "CORRUPTION_WATCH_INSIDER": ("INSIDER TRADING ALERT", "#ff66c4"),
-    "GLOBAL_DESK": ("GLOBAL DESK", "#cccccc"),
-    "DATA_DROP":   ("DATA DROP", "#ff4d4d"),
-    "THE_TAKE":    ("THE TAKE", "#ffffff"),
-    "PACK_TAKE":   ("PACK TAKE", "#ffd966"),
-}
-
-
-def write_review_html(drafts):
-    """Generate review.html — local approve/edit/reject UI. State stays
-    in-page (no localStorage so it's device-portable); user clicks "Copy
-    state to clipboard" and pastes into posted.json + commits."""
-    drafts = drafts or []
-    now_str = datetime.now(NY).strftime("%Y-%m-%d %H:%M EDT")
-    formats_present = sorted({d["format"].replace("_INSIDER", "") for d in drafts})
-
-    cards_html = []
-    for d in drafts:
-        label, color = _FORMAT_LABELS.get(
-            d["format"], (d["format"], "#888"))
-        # No image preview — X handles the article card from the URL in
-        # the tweet body. Review queue is text-only, just the draft text.
-        img_block = ""
-        source_block = (
-            f'<div class="source-block">'
-            f'  <div class="source-label">SOURCE — fact-check before approving</div>'
-            f'  <div class="source-headline">{html_lib.escape(d.get("source_title", ""))}</div>'
-            f'  <div class="source-snippet">{html_lib.escape(d.get("source_summary", ""))}</div>'
-        )
-        if d.get("source_url"):
-            source_block += (
-                f'  <a class="source-link" href="{html_lib.escape(d["source_url"], quote=True)}" '
-                f'target="_blank" rel="noopener">View source ↗</a>'
-            )
-        source_block += '</div>'
-
-        cards_html.append(
-            f'<article class="draft" data-id="{html_lib.escape(d["id"])}" '
-            f'data-format="{html_lib.escape(d["format"])}" '
-            f'data-hash="{html_lib.escape(d["content_hash"])}" '
-            f'data-url="{html_lib.escape(d.get("source_url", ""), quote=True)}">'
-            f'  <header class="draft-head">'
-            f'    <span class="badge" style="background:{color};color:#000;">{html_lib.escape(label)}</span>'
-            f'    <span class="meta">{html_lib.escape(d.get("primary_source", ""))}</span>'
-            f'    <span class="status-pill" data-status="pending">PENDING</span>'
-            f'    <span class="check" aria-hidden="true">✓ POSTED</span>'
-            f'  </header>'
-            f'  {source_block}'
-            f'  <textarea class="draft-text">{html_lib.escape(d["draft_text"])}</textarea>'
-            f'  <div class="char-counter">— chars</div>'
-            f'  {img_block}'
-            f'  <div class="actions">'
-            f'    <button class="btn btn-postx" onclick="postOnX(this)">Post on X ↗</button>'
-            f'    <button class="btn btn-copy" onclick="copyDraft(this)">Copy</button>'
-            f'    <button class="btn btn-posted" onclick="markPosted(this)">Mark posted</button>'
-            f'  </div>'
-            f'</article>'
-        )
-
-    page = f"""<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex,nofollow">
-<title>Howl Street — Review Queue</title>
-<style>
-  :root {{ --bg:#000; --fg:#ddd; --dim:#777; --green:#00ff88; --border:#1f1f1f; --card:#0a0a0a; }}
-  * {{ box-sizing: border-box; }}
-  body {{ background:var(--bg); color:var(--fg); font:14px/1.5 -apple-system,BlinkMacSystemFont,monospace; margin:0; padding:24px; }}
-  .wrap {{ max-width: 760px; margin: 0 auto; }}
-  h1 {{ color:var(--green); font-size:22px; margin:0 0 4px; letter-spacing:1px; }}
-  .summary {{ color:var(--dim); font-size:12px; margin-bottom:16px; }}
-  .top-actions {{ position:sticky; top:0; background:var(--bg); padding:8px 0 16px; border-bottom:1px solid var(--border); margin-bottom:24px; z-index:10; }}
-  .draft {{ background:var(--card); border:1px solid var(--border); border-radius:8px; padding:16px; margin-bottom:18px; transition: opacity 0.2s, border-color 0.2s; }}
-  .draft.posted {{ border-color: var(--green); opacity: 0.55; }}
-  .draft.posted textarea.draft-text {{ opacity: 0.7; }}
-  .draft-head {{ display:flex; align-items:center; gap:10px; font-size:11px; margin-bottom:10px; }}
-  .badge {{ padding:3px 8px; border-radius:3px; font-weight:bold; letter-spacing:0.5px; font-size:10px; }}
-  .meta {{ color:var(--dim); flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }}
-  .status-pill {{ font-size:10px; color:var(--dim); padding:2px 6px; border:1px solid var(--border); border-radius:3px; }}
-  .check {{ display:none; font-size:11px; color:var(--green); font-weight:bold; letter-spacing:0.5px; }}
-  .draft.posted .status-pill {{ display:none; }}
-  .draft.posted .check {{ display:inline; }}
-  .source-block {{ background:#050505; border:1px dashed #222; border-radius:4px; padding:10px; margin-bottom:12px; font-size:12px; }}
-  .source-label {{ color:var(--dim); font-size:10px; letter-spacing:0.5px; margin-bottom:4px; }}
-  .source-headline {{ color:#bbb; font-weight:bold; margin-bottom:4px; }}
-  .source-snippet {{ color:#888; line-height:1.4; }}
-  .source-link {{ color:var(--green); font-size:11px; text-decoration:none; display:inline-block; margin-top:4px; }}
-  textarea.draft-text {{ width:100%; min-height:140px; background:#050505; color:var(--fg); border:1px solid var(--border); border-radius:4px; padding:10px; font:13px/1.5 -apple-system,monospace; resize:vertical; white-space:pre-wrap; }}
-  .char-counter {{ color:var(--dim); font-size:10px; text-align:right; margin-top:4px; }}
-  .actions {{ display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; }}
-  .btn {{ font-size:12px; padding:7px 14px; border-radius:4px; cursor:pointer; border:none; font-weight:bold; letter-spacing:0.4px; }}
-  .btn-postx {{ background:#000; color:#fff; border:1px solid #fff; }}
-  .btn-postx:hover {{ background:#fff; color:#000; }}
-  .btn-copy {{ background:var(--green); color:#000; }}
-  .btn-posted {{ background:#1a1a1a; color:var(--green); border:1px solid var(--green); }}
-  .btn-posted:hover {{ background:var(--green); color:#000; }}
-  .draft.posted .btn-posted {{ background:var(--green); color:#000; }}
-  .btn-state {{ background:#1a1a1a; color:#fff; border:1px solid var(--border); padding:8px 16px; }}
-  .btn-state:hover {{ border-color: var(--green); color: var(--green); }}
-  .btn-refresh {{ background:var(--green); color:#000; padding:8px 16px; font-weight:bold; }}
-  .btn-refresh:hover {{ background:#00cc70; }}
-  .btn-refresh.loading {{ background:#1a1a1a; color:var(--green); border:1px solid var(--green); }}
-  /* PIN gate */
-  #pin-gate {{ position:fixed; inset:0; background:#000; z-index:9999; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:18px; }}
-  #pin-gate.hidden {{ display:none; }}
-  #pin-gate h2 {{ color:var(--green); font-size:18px; letter-spacing:3px; margin:0; font-family:-apple-system,monospace; }}
-  #pin-gate .pin-sub {{ color:var(--dim); font-size:12px; letter-spacing:1px; }}
-  #pin-input {{ background:#050505; border:1px solid var(--border); color:var(--fg); font:24px/1 -apple-system,monospace; padding:14px 18px; width:200px; text-align:center; letter-spacing:8px; border-radius:4px; outline:none; }}
-  #pin-input:focus {{ border-color:var(--green); box-shadow:0 0 0 1px var(--green); }}
-  #pin-error {{ color:#ff4d4d; font-size:11px; height:14px; letter-spacing:1px; }}
-  #app-content.hidden {{ display:none; }}
-</style>
-</head>
-<body>
-<div id="pin-gate">
-  <h2>HOWL STREET — REVIEW QUEUE</h2>
-  <div class="pin-sub">Enter PIN to access</div>
-  <input id="pin-input" type="password" inputmode="numeric" maxlength="4" autocomplete="off" autofocus />
-  <div id="pin-error"></div>
-</div>
-<div id="app-content" class="hidden">
-<div class="wrap">
-  <header>
-    <h1>HOWL STREET — REVIEW QUEUE</h1>
-    <div class="summary" id="summary">{len(drafts)} drafts pending across {len(formats_present)} formats — last updated {now_str}</div>
-  </header>
-  <div class="top-actions">
-    <button class="btn btn-refresh" onclick="hardRefresh()">↻ Refresh</button>
-    <button class="btn btn-state" onclick="copyStateBlob()">Copy state blob</button>
-    <span class="meta" style="margin-left:12px;font-size:11px;" id="refresh-status">last fetch: page-load</span>
-  </div>
-  <main>
-{chr(10).join(cards_html) if cards_html else '<div class="meta">No pending drafts. Nothing surfaced this run.</div>'}
-  </main>
-</div>
-</div>
-<script>
-// Hard refresh — bypasses GitHub Pages CDN cache by appending a
-// fresh cache-buster query param. Works without CORS since we're
-// re-loading the same origin.
-function hardRefresh() {{
-  const btn = document.querySelector('.btn-refresh');
-  const status = document.getElementById('refresh-status');
-  btn.classList.add('loading');
-  btn.textContent = 'Refreshing...';
-  status.textContent = 'fetching latest review.html...';
-  // Build a URL with a cache-buster and force-reload
-  const url = new URL(window.location.href);
-  url.searchParams.set('_t', Date.now().toString());
-  window.location.replace(url.toString());
-}}
-
-// PIN gate — required to view the queue. Once unlocked in this browser,
-// stays unlocked (sessionStorage so a fresh browser session re-prompts).
-const PIN_KEY = 'howlstreet_review_pin_unlocked';
-const PIN_VALUE = '0470';
-
-function unlockApp() {{
-  document.getElementById('pin-gate').classList.add('hidden');
-  document.getElementById('app-content').classList.remove('hidden');
-}}
-
-if (sessionStorage.getItem(PIN_KEY) === '1') {{
-  unlockApp();
-}} else {{
-  const input = document.getElementById('pin-input');
-  const errEl = document.getElementById('pin-error');
-  input.addEventListener('input', () => {{
-    if (input.value.length === 4) {{
-      if (input.value === PIN_VALUE) {{
-        sessionStorage.setItem(PIN_KEY, '1');
-        unlockApp();
-      }} else {{
-        errEl.textContent = 'Wrong PIN';
-        input.value = '';
-        setTimeout(() => {{ errEl.textContent = ''; }}, 1500);
-      }}
-    }}
-  }});
-}}
-
-// State keyed by content_hash (stable across cron re-draft of the same
-// story) so a post stays marked posted even when drafts.json regenerates.
-const STORAGE_KEY = 'howlstreet_review_state_v2';
-
-function loadState() {{
-  try {{ return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{{}}'); }}
-  catch (e) {{ return {{}}; }}
-}}
-function saveState(s) {{ localStorage.setItem(STORAGE_KEY, JSON.stringify(s)); }}
-const STATE = loadState();
-
-document.querySelectorAll('textarea.draft-text').forEach(ta => {{
-  const counter = ta.parentElement.querySelector('.char-counter');
-  function update() {{ counter.textContent = ta.value.length + ' chars'; }}
-  ta.addEventListener('input', () => {{
-    update();
-    const card = ta.closest('.draft');
-    const hash = card.dataset.hash;
-    if (STATE[hash]) {{
-      STATE[hash].edited_text = ta.value;
-      saveState(STATE);
-    }}
-  }});
-  update();
-}});
-
-// Rehydrate posted state on page load — keyed by content_hash so the
-// same story stays marked even after a re-draft.
-document.querySelectorAll('article.draft').forEach(card => {{
-  const hash = card.dataset.hash;
-  const saved = STATE[hash];
-  if (!saved) return;
-  if (saved.edited_text) {{
-    card.querySelector('textarea.draft-text').value = saved.edited_text;
-    card.querySelector('.char-counter').textContent = saved.edited_text.length + ' chars';
-  }}
-  if (saved.status === 'posted') {{
-    card.classList.add('posted');
-  }}
-}});
-
-function copyDraft(btn) {{
-  const card = btn.closest('.draft');
-  const ta = card.querySelector('textarea.draft-text');
-  navigator.clipboard.writeText(ta.value).then(() => {{
-    const orig = btn.textContent;
-    btn.textContent = 'Copied';
-    setTimeout(() => {{ btn.textContent = orig; }}, 1500);
-  }});
-}}
-
-function postOnX(btn) {{
-  const card = btn.closest('.draft');
-  const ta = card.querySelector('textarea.draft-text');
-  const url = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(ta.value);
-  window.open(url, '_blank', 'noopener');
-  // Auto-mark as posted — the user is going to send the tweet now.
-  markPosted(btn);
-}}
-
-function markPosted(btn) {{
-  const card = btn.closest('.draft');
-  const hash = card.dataset.hash;
-  const ta = card.querySelector('textarea.draft-text');
-  STATE[hash] = {{
-    status: 'posted',
-    format: card.dataset.format,
-    content_hash: hash,
-    source_url: card.dataset.url || '',
-    edited_text: ta.value,
-    ts: new Date().toISOString(),
-  }};
-  saveState(STATE);
-  card.classList.add('posted');
-}}
-
-function copyStateBlob() {{
-  // Emit only posted entries — these are what go into posted.json.
-  const out = [];
-  for (const [hash, s] of Object.entries(STATE)) {{
-    if (s.status === 'posted') {{
-      out.push({{
-        content_hash: s.content_hash,
-        source_url: s.source_url,
-        format: s.format,
-        posted_at: s.ts,
-        tweet_text: s.edited_text,
-      }});
-    }}
-  }}
-  if (out.length === 0) {{
-    alert('Nothing posted yet.');
-    return;
-  }}
-  const blob = JSON.stringify(out, null, 2);
-  navigator.clipboard.writeText(blob).then(() => {{
-    alert(out.length + ' entries copied. Paste into posted.json (merge with existing array).');
-  }});
-}}
-</script>
-</body>
-</html>
-"""
-    REVIEW_PATH.write_text(page, encoding="utf-8")
