@@ -23,6 +23,7 @@ from zoneinfo import ZoneInfo
 
 import signals  # macro signal detector + chart engine
 import insider_trades  # corporate insider trades (Form 4 data)
+import congress_trades  # STOCK Act Capitol Wire clusters (Type D)
 import drafter  # editorial drafter — replaces queue.html / feed.xml / cards.py
 
 # Cap per-feed network wait so one slow source can't stall the build
@@ -1636,6 +1637,53 @@ def build_insider_wire(insider_posts, total=10):
     return "\n".join(parts)
 
 
+def build_capitol_wire(congress_posts, total=8):
+    """Render Capitol Wire — STOCK Act clusters (multiple members, one ticker).
+
+    Sits beside The Hunt and Insider Wire on Predator Desk. Click-through
+    hits the PTR PDF / CongressInvests ticker page."""
+    if not congress_posts:
+        return ('<div class="headline"><div class="headline-text" '
+                'style="color:var(--text-dim)">No multi-member Congress buy '
+                'clusters in the lookback window.</div></div>')
+
+    posts = sorted(
+        congress_posts,
+        key=lambda p: (p.get("member_count", 0), p.get("fired_at", "")),
+        reverse=True,
+    )[:total]
+
+    parts = []
+    for p in posts:
+        ticker = p.get("ticker", "")
+        n = p.get("member_count", 0) or 0
+        pct = p.get("pct_since_first", 0) or 0
+        pct_sign = "+" if pct >= 0 else ""
+        pct_color = "#00ff9d" if pct >= 0 else "#ff3b3b"
+        names = [m.get("name", "").split()[-1] for m in (p.get("members") or [])[:4]]
+        name_line = ", ".join(names)
+        if n > 4:
+            name_line += f" +{n - 4}"
+        biggest = p.get("biggest_amount") or ""
+        link = p.get("source_url") or f"https://congressinvests.com/trades/{ticker}"
+
+        parts.append(
+            f'<a href="{html.escape(link)}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">'
+            f'<div class="headline">'
+            f'<div class="headline-meta">'
+            f'<span class="source-tag" style="color:#ffd966;">${html.escape(ticker)} · {n} bought</span>'
+            f'<span style="color:{pct_color};">{pct_sign}{pct:.1f}%</span>'
+            f'</div>'
+            f'<div class="headline-text">{html.escape(name_line)}</div>'
+            f'<div class="headline-meta" style="margin-top:4px;">'
+            f'<span>Largest band: {html.escape(biggest) if biggest else "undisclosed"}</span>'
+            f'<span>STOCK Act</span>'
+            f'</div>'
+            f'</div></a>'
+        )
+    return "\n".join(parts)
+
+
 def build_regional_panels(items, exclude_link=None):
     """Per-continent wire panels for the regional desk.
     Returns dict: region_code → rendered HTML for that panel's body."""
@@ -2455,6 +2503,14 @@ def main():
         insider_posts = []
     insider_wire_html = build_insider_wire(insider_posts)
 
+    print("  Capitol Wire (STOCK Act clusters)...")
+    try:
+        congress_posts = congress_trades.collect_congress_posts()
+    except Exception as e:
+        print(f"  ! congress trades pipeline failed: {e}", file=sys.stderr)
+        congress_posts = []
+    capitol_wire_html = build_capitol_wire(congress_posts)
+
     print("  Regional desk...")
     regional = build_regional_panels(all_items, exclude_link=hero_link)
 
@@ -2482,6 +2538,7 @@ def main():
         .replace("{{HEADLINES}}", headlines_html)
         .replace("{{CORRUPTION_WATCH}}", corruption_html)
         .replace("{{INSIDER_WIRE}}", insider_wire_html)
+        .replace("{{CAPITOL_WIRE}}", capitol_wire_html)
         .replace("{{SECTORS}}", "\n".join(sector_rows))
         .replace("{{MEGACAPS}}", "\n".join(megacap_rows))
         .replace("{{REGIONAL_US}}", regional.get("US", ""))
@@ -2523,6 +2580,7 @@ def main():
             rss_corruption_items=rss_corruption,
             megacap_filter=_matches_megacap,
             top_item=auto_hero_item,  # LOUD HOWL = same pick as site's Loudest Howl
+            congress_posts=congress_posts,
         )
     except Exception as e:
         print(f"  ! drafter pipeline failed: {e}", file=sys.stderr)

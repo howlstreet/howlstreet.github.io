@@ -5,9 +5,17 @@ Auto-updating global financial news terminal. Live at [howlstreet.github.io](htt
 ## How it works
 
 - `template.html` — the page layout with `{{PLACEHOLDERS}}` for live data
-- `update.py` — fetches data from yfinance + RSS feeds, fills the template, writes `index.html`
-- `.github/workflows/update.yml` — runs `update.py` on a schedule via GitHub Actions
-- GitHub Pages serves `index.html` as the live site
+- `update.py` — fetches markets + RSS, fills the template, writes `index.html`
+- `insider_trades.py` — SEC Form 4 cluster/big trades → Insider Wire + charts
+- `congress_trades.py` — STOCK Act multi-member buy clusters → Capitol Wire + charts
+- `drafter.py` — short truth-forward post drafts in `drafts.json` (manual X for now)
+- `.github/workflows/update.yml` — runs on a schedule via GitHub Actions
+
+## Predator Desk (site)
+
+- **The Hunt** — corruption / fraud headlines
+- **Insider Wire** — corporate Form 4 buys/sells
+- **Capitol Wire** — Congress STOCK Act clusters (Type D)
 
 ## Schedule
 

@@ -14,17 +14,20 @@ Editorial rules — every draft must obey these:
      cited in plain text ("via Reuters", "per Fed release") — never
      linked, since the goal is to make Howl Street the destination.
 
-Six post formats:
+Six post formats (public X priority: Loudest Howl, Hunt, Insider, Congress):
   A) MARKET MOVE      — fed by signals.py big-move detections
   B) POLICY READ      — Fed/Treasury/ECB/BoJ releases
-  C) CORRUPTION WATCH — insider trades (Form 4) + RSS corruption items
-  D) GLOBAL DESK      — non-US story FinTwit ignores
-  E) DATA DROP        — economic releases (CPI, NFP, GDP, etc.)
-  F) THE TAKE         — manual only (the_take.md), v1
+  C) CORRUPTION WATCH — Hunt RSS + Form 4 insider trades
+  D) CONGRESS WATCH   — STOCK Act multi-member buy clusters (Capitol Wire)
+  E) GLOBAL DESK      — non-US story FinTwit ignores
+  F) DATA DROP / TAKE — economic releases + manual
 
 No auto-posting. drafter.py emits:
   - drafts.json : pending tweet drafts for human review
   - posted.json : already-sent records used to dedupe future runs
+
+Voice: concerned citizen speaking plain truth. No pack-marketing
+openers, no brand plugs, no emoji. Charts attached when available.
 
 Each format function is a PURE function: input dict in, draft dict out.
 No global state mutation. All thresholds + caps are constants at the top
@@ -1149,32 +1152,36 @@ def _make_draft(*, fmt, body, primary_source, source_url,
                 source_title, source_summary, image_path=None, data=None):
     """Common draft-dict builder. Strips banned phrases, computes hash.
 
-    image_path is currently always set to None — user feedback was that
-    the matplotlib-generated charts/cards are redundant with the tweet
-    text (same info twice). Article og:image fetching is a separate
-    decision (human review before posting)."""
+    Voice: plain-spoken citizen telling the truth. No brand plugs, no
+    pack-marketing openers. Charts (image_path) are first-class for
+    Insider / Congress packages — that's what people share."""
     body = _strip_banned_phrases(body)
-    # Trailer is just the article URL. No CTA, no site link — X uses the
-    # article's og:image as the card and the body carries the editorial
-    # voice. The user wanted the queue posts to be punchy without the
-    # 'visit our site' boilerplate at the bottom.
     if body:
         body = body.rstrip()
-        # Strip any leftover CTA fragments from older runs that might
-        # still be cached in drafts via content_hash dedup.
         for marker in ("24/7 global market", "Check out our 24/7",
-                       "howlstreet.github.io"):
+                       "howlstreet.github.io", "This is the Loudest Howl",
+                       "on Howl Street"):
             if marker in body:
                 body = body.split(marker)[0].rstrip()
-        if source_url and not body.endswith(source_url):
+        # Filing / chart posts don't need a URL trailer when the image
+        # already carries the story. News drafts keep the source link.
+        if source_url and not image_path and not body.endswith(source_url):
             body = f"{body}\n\n{source_url}"
+    # Prefer repo-relative chart paths that actually exist.
+    resolved_image = None
+    if image_path:
+        p = Path(image_path)
+        if not p.is_absolute():
+            p = REPO_ROOT / p
+        if p.exists():
+            resolved_image = str(Path(image_path))
     return {
         "id": str(uuid.uuid4())[:8],
         "format": fmt,
         "status": "pending",
         "draft_text": body,
-        "image_path": None,  # forced — no matplotlib output in drafts
-        "og_image_url": None,  # populated by parallel fetch in collect_drafts
+        "image_path": resolved_image,
+        "og_image_url": None,
         "primary_source": primary_source or "",
         "source_url": source_url or "",
         "source_title": source_title or "",
@@ -1442,10 +1449,7 @@ def _build_insider_kicker(ttype, num_insiders, dollar_value, pct_since):
 
 
 def draft_corruption_watch_from_insider(insider_post):
-    """C-1) CORRUPTION WATCH from corporate insider trade (Form 4).
-
-    Filter on dollar threshold so we surface only the meaningful trades,
-    not director $5K nibbles."""
+    """Type C — corporate Form 4. Facts only. Citizen voice. Chart when ready."""
     if not insider_post:
         return None
     dv = insider_post.get("dollar_value", 0) or 0
@@ -1463,23 +1467,29 @@ def draft_corruption_watch_from_insider(insider_post):
 
     verb = "bought" if ttype == "P" else "sold"
     noun = "purchase" if ttype == "P" else "sale"
-    cluster_note = f", {num_insiders} insiders" if num_insiders > 1 else ""
+    who = (f"{num_insiders} company insiders" if num_insiders > 1
+           else "A company insider")
     sign = "+" if pct_since >= 0 else ""
+    dollar = (f"${dv/1_000_000:.1f}M" if dv >= 1_000_000 else f"${dv:,.0f}")
 
-    # Insider drafts are facts-only per user — no opener, no kicker.
-    # The data is the story: who bought how much, when, and how the
-    # stock moved since.
+    try:
+        nice_date = datetime.strptime(trade_date, "%Y-%m-%d").strftime("%b %d")
+    except (ValueError, TypeError):
+        nice_date = trade_date
+
+    company_line = (company or "").rstrip(".")
     body = (
-        f"${ticker} insider {verb} ${dv:,.0f} on {trade_date}{cluster_note}. \U0001f440\n\n"
-        f"{company}. {qty:,.0f} shares at ${price:,.2f}.\n\n"
-        f"{sign}{pct_since:.1f}% since the {noun}."
+        f"${ticker} — {who.lower()} {verb} {dollar} on {nice_date}.\n\n"
+        f"{company_line}. {qty:,.0f} shares at ${price:,.2f}.\n\n"
+        f"Stock is {sign}{pct_since:.1f}% since the {noun}. "
+        f"This is a public SEC Form 4 filing."
     )
     return _make_draft(
         fmt="CORRUPTION_WATCH_INSIDER",
         body=body,
         primary_source="SEC Form 4 via openinsider",
-        source_url=f"http://openinsider.com/screener?s={ticker}",
-        source_title=f"{company} ({ticker}) insider {verb} ${dv:,.0f}",
+        source_url=insider_post.get("link") or f"http://openinsider.com/screener?s={ticker}",
+        source_title=f"{company} ({ticker}) insider {verb} {dollar}",
         source_summary=f"{num_insiders} insider(s) {verb} {qty:,.0f} shares at ${price:,.2f} on {trade_date}.",
         image_path=chart_path,
         data={
@@ -1492,8 +1502,7 @@ def draft_corruption_watch_from_insider(insider_post):
 
 
 def draft_corruption_watch_from_rss(item):
-    """C-2) CORRUPTION WATCH from RSS — items already classified as
-    corruption by the upstream filter (caller passes pre-filtered)."""
+    """Type B — The Hunt. Short, plain, no marketing openers."""
     if not item:
         return None
     title = item.get("title", "") or ""
@@ -1501,16 +1510,104 @@ def draft_corruption_watch_from_rss(item):
     source = item.get("source", "")
     body_paras = item.get("_body_paras") or []
     sentences = _compose_body_from_article(title, summary, body_paras,
-                                            want_sentences=8)
+                                            want_sentences=3)
     if not sentences:
-        return None
-    sentences = _decorate_rss_body(sentences, "CORRUPTION_WATCH", item)
-    body = "\n\n".join(sentences)
+        # Fall back to a tight title + first summary sentence
+        sents = _split_sentences(summary) if summary else []
+        lead = sents[0] if sents else title
+        if not lead:
+            return None
+        sentences = [lead]
+    # No pack openers. Lead with the fact.
+    body = "\n\n".join(sentences[:3])
     return _make_draft(
         fmt="CORRUPTION_WATCH",
         body=body,
         primary_source=source,
         source_url=item.get("link", ""),
+        source_title=title,
+        source_summary=summary,
+        data={"source": source},
+    )
+
+
+def draft_congress_watch(congress_post):
+    """Type D — Capitol Wire cluster. Named politicians + ticker + receipts."""
+    if not congress_post:
+        return None
+    ticker = congress_post.get("ticker", "")
+    members = congress_post.get("members") or []
+    if not ticker or len(members) < 2:
+        return None
+
+    lines = []
+    for m in members[:8]:
+        party = m.get("party") or ""
+        tag = f" ({party})" if party else ""
+        lines.append(f"• {m.get('name', '')}{tag}")
+
+    n = congress_post.get("member_count") or len(members)
+    biggest = congress_post.get("biggest_amount") or ""
+    biggest_name = congress_post.get("biggest_name") or ""
+    biggest_date = congress_post.get("biggest_date") or ""
+    try:
+        nice = datetime.strptime(biggest_date, "%Y-%m-%d").strftime("%b %d")
+    except (ValueError, TypeError):
+        nice = biggest_date
+    opt = " in options" if congress_post.get("biggest_is_options") else ""
+    pct = congress_post.get("pct_since_first", 0) or 0
+    sign = "+" if pct >= 0 else ""
+
+    body = (
+        f"{n} members of Congress bought ${ticker} this year — "
+        f"and these filings don't show them selling:\n\n"
+        + "\n".join(lines)
+        + "\n\n"
+    )
+    if biggest and biggest_name:
+        body += f"Largest disclosed here: {biggest_name}, {biggest}{opt} on {nice}.\n\n"
+    body += (
+        f"Price since the first buy in this group: {sign}{pct:.1f}%.\n\n"
+        f"STOCK Act disclosures. Public record."
+    )
+    return _make_draft(
+        fmt="CONGRESS_WATCH",
+        body=body,
+        primary_source="STOCK Act PTR filings",
+        source_url=congress_post.get("source_url", ""),
+        source_title=f"{n} Congress members bought ${ticker}",
+        source_summary=f"{n} politicians bought ${ticker}; largest {biggest} by {biggest_name}.",
+        image_path=congress_post.get("chart_path"),
+        data={
+            "ticker": ticker,
+            "member_count": n,
+            "pct_since_first": pct,
+        },
+    )
+
+
+def draft_loud_howl(top_item):
+    """Loudest Howl — consequence first, no brand plug, no pack opener."""
+    if not top_item:
+        return None
+    title = top_item.get("title", "") or ""
+    summary = top_item.get("summary", "") or ""
+    source = top_item.get("source", "")
+    body_paras = top_item.get("_body_paras") or []
+    sentences = _compose_body_from_article(title, summary, body_paras,
+                                            want_sentences=3)
+    if not sentences:
+        sents = _split_sentences(summary) if summary else []
+        lead = sents[0] if sents else title
+        if not lead:
+            return None
+        sentences = [lead]
+    body = "\n\n".join(sentences[:3])
+    return _make_draft(
+        fmt="LOUD_HOWL",
+        body=body,
+        primary_source=source,
+        source_url=top_item.get("link", ""),
         source_title=title,
         source_summary=summary,
         data={"source": source},
@@ -1574,35 +1671,7 @@ def draft_data_drop(item):
     )
 
 
-def draft_loud_howl(top_item):
-    """LOUD HOWL — the daily flagship pick. Same item pick_top_story
-    selected for the site's Loudest Howl, drafted as a tweet in the
-    new editorial voice. One per run.
 
-    Lead with the consequence. Expect human edit before posting —
-    drafter just sets up the skeleton with real
-    fact-check data."""
-    if not top_item:
-        return None
-    title = top_item.get("title", "") or ""
-    summary = top_item.get("summary", "") or ""
-    source = top_item.get("source", "")
-    body_paras = top_item.get("_body_paras") or []
-    sentences = _compose_body_from_article(title, summary, body_paras,
-                                            want_sentences=8)
-    if not sentences:
-        return None
-    sentences = _decorate_rss_body(sentences, "LOUD_HOWL", top_item)
-    body = "\n\n".join(sentences)
-    return _make_draft(
-        fmt="LOUD_HOWL",
-        body=body,
-        primary_source=source,
-        source_url=top_item.get("link", ""),
-        source_title=title,
-        source_summary=summary,
-        data={"source": source},
-    )
 
 
 # Curated pool of witty, politically-neutral one-liners. Finance/markets/
@@ -1831,7 +1900,7 @@ def draft_the_take():
 
 def collect_drafts(items, signal_posts=None, insider_posts=None,
                    rss_corruption_items=None, megacap_filter=None,
-                   top_item=None):
+                   top_item=None, congress_posts=None):
     """Top-level call from update.py. Pulls all format drafters, dedupes
     against posted.json, caps per-format count, writes drafts.json.
 
@@ -1839,11 +1908,13 @@ def collect_drafts(items, signal_posts=None, insider_posts=None,
                           as corruption by update.py (so drafter doesn't
                           re-import the regex).
     megacap_filter:      callable returning True if an item mentions a
-                          mega-cap. Used to bias GLOBAL DESK selection."""
+                          mega-cap. Used to bias GLOBAL DESK selection.
+    congress_posts:      Type D Capitol Wire cluster packages."""
     items = items or []
     signal_posts = signal_posts or []
     insider_posts = insider_posts or []
     rss_corruption_items = rss_corruption_items or []
+    congress_posts = congress_posts or []
 
     posted = _load_posted()
     drafts = []
@@ -1917,7 +1988,11 @@ def collect_drafts(items, signal_posts=None, insider_posts=None,
     drafts += _take("CORRUPTION_WATCH",
                     [draft_corruption_watch_from_rss(i) for i in rss_corruption_sorted])
 
-    # D) GLOBAL DESK
+    # D) Capitol Wire — Congress buy clusters (viral ceiling)
+    drafts += _take("CONGRESS_WATCH",
+                    [draft_congress_watch(cp) for cp in congress_posts])
+
+    # E) GLOBAL DESK
     global_candidates = sorted(
         items,
         key=lambda x: x.get("ts", datetime(2000, 1, 1, tzinfo=NY)),
@@ -1926,7 +2001,7 @@ def collect_drafts(items, signal_posts=None, insider_posts=None,
     drafts += _take("GLOBAL_DESK",
                     [draft_global_desk(i) for i in global_candidates])
 
-    # E) DATA DROP
+    # F) DATA DROP
     data_candidates = sorted(
         [i for i in items
          if DATA_DROP_KEYWORDS.search((i.get("title", "") or "") + " " + (i.get("summary", "") or ""))],
@@ -1936,33 +2011,17 @@ def collect_drafts(items, signal_posts=None, insider_posts=None,
     drafts += _take("DATA_DROP",
                     [draft_data_drop(i) for i in data_candidates])
 
-    # F) THE TAKE
+    # G) THE TAKE + manual news
     take = draft_the_take()
     if take and not _is_already_posted(take["content_hash"], take.get("source_url"), posted):
         drafts.append(take)
 
-    # F-2) MANUAL NEWS — catch viral X-only news the cron missed.
     manual = draft_manual_news()
     for m in manual:
         if not _is_already_posted(m["content_hash"], m.get("source_url"), posted):
             drafts.append(m)
 
-    # G) PACK TAKE — 2 evergreen one-liners per run, deterministic by
-    # the day so the same takes don't churn every 30 minutes. Different
-    # day → different takes; same day → stable picks.
-    today = datetime.utcnow().strftime("%Y-%m-%d")
-    pack_takes = []
-    for slot in (1, 2):
-        seed = f"{today}-pack-{slot}"
-        t = draft_pack_take(seed)
-        if t and not _is_already_posted(t["content_hash"], t.get("source_url"), posted):
-            pack_takes.append(t)
-    drafts += _take("PACK_TAKE", pack_takes)
-
-    # No og:image fetch — X auto-renders the article card from the
-    # source URL embedded in the tweet body. The review queue is text-only.
-
-    # Persist
+    # Persist — no pack one-liners (marketing voice, not citizen truth).
     _save_drafts(drafts)
     print(f"  drafter: emitted {len(drafts)} drafts across "
           f"{len({d['format'].split('_')[0] for d in drafts})} formats")

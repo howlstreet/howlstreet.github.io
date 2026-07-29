@@ -338,9 +338,14 @@ def _load_recent_posts():
             ts = datetime.fromisoformat(post.get("fired_at", ""))
         except (TypeError, ValueError):
             continue
-        if ts > cutoff and post.get("chart_path"):
-            if (REPO_ROOT / post["chart_path"]).exists():
-                out[post_id] = post
+        if ts <= cutoff:
+            continue
+        # Keep text posts even if chart is missing; drop only expired ones.
+        chart = post.get("chart_path")
+        if chart and not (REPO_ROOT / chart).exists():
+            post = dict(post)
+            post["chart_path"] = None
+        out[post_id] = post
     return out
 
 
@@ -367,12 +372,24 @@ def collect_insider_posts():
     print(f"    {len(recent)} carryover trades still in TTL window")
 
     now_iso = datetime.utcnow().isoformat()
-    for tr in trades:
+    # Cap new charts per cron so Actions stays inside the timeout.
+    MAX_NEW_CHARTS = 5
+    charts_made = 0
+    # Prefer largest dollar trades for charting first.
+    pending = [tr for tr in trades
+               if f"{tr['ticker']}_{tr['type']}_{tr['trade_date']}" not in recent]
+    pending.sort(key=lambda t: t.get("dollar_value", 0) or 0, reverse=True)
+
+    for tr in pending:
         post_id = f"{tr['ticker']}_{tr['type']}_{tr['trade_date']}"
-        if post_id in recent:
-            continue
-        # Chart rendering disabled — user wants only real article photos.
-        # Trade data still flows as text-only drafts.
+        chart_path = None
+        if charts_made < MAX_NEW_CHARTS:
+            try:
+                chart_path = render_trade_chart(tr)
+                if chart_path:
+                    charts_made += 1
+            except Exception as e:
+                print(f"  ! insider chart {tr.get('ticker')}: {e}", file=sys.stderr)
         try:
             ticker_obj = yf.Ticker(tr["ticker"])
             cur = float(ticker_obj.history(period="5d")["Close"].dropna().iloc[-1])
@@ -382,7 +399,7 @@ def collect_insider_posts():
         recent[post_id] = {
             **tr,
             "post_id": post_id,
-            "chart_path": None,
+            "chart_path": chart_path,
             "pct_since": pct_since,
             "fired_at": now_iso,
         }
