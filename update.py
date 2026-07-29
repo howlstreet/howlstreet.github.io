@@ -2628,6 +2628,13 @@ def main():
     except Exception as e:
         print(f"  ! drafter pipeline failed: {e}", file=sys.stderr)
 
+    # Local-only post kit (queue.html + ready/) — never published to Pages.
+    try:
+        import make_queue
+        make_queue.main()
+    except Exception as e:
+        print(f"  ! post kit failed: {e}", file=sys.stderr)
+
     print(f"  Wrote {OUTPUT_PATH} ({len(output):,} bytes)")
     print(f"  Updated at {ts_str}")
 
