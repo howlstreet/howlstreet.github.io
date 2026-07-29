@@ -1684,6 +1684,51 @@ def build_capitol_wire(congress_posts, total=8):
     return "\n".join(parts)
 
 
+def build_move_wire(signal_posts, total=8):
+    """Render Move Wire — macro / tape alerts from signals.py.
+
+    Fourth panel of the Predator Desk 2×2. Empty state is fine on quiet
+    days; the cron fills it when a big move or multi-year high/low fires."""
+    if not signal_posts:
+        return ('<div class="headline"><div class="headline-text" '
+                'style="color:var(--text-dim)">No multi-year highs/lows or '
+                'outsize moves flagged right now.</div></div>')
+
+    posts = sorted(
+        signal_posts,
+        key=lambda p: p.get("fired_at", ""),
+        reverse=True,
+    )[:total]
+
+    kind_color = {
+        "move_up": "#00ff9d",
+        "high": "#00ff9d",
+        "move_down": "#ff3b3b",
+        "low": "#ff3b3b",
+    }
+    parts = []
+    for p in posts:
+        kind = p.get("kind", "") or ""
+        color = kind_color.get(kind, "#00bfff")
+        badge = (p.get("badge") or kind.replace("_", " ") or "MOVE").upper()
+        label = p.get("label") or p.get("headline") or ""
+        current = p.get("current_str") or ""
+        headline = p.get("headline") or label
+        link = p.get("data_url") or "https://howlstreet.github.io/"
+
+        parts.append(
+            f'<a href="{html.escape(link)}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">'
+            f'<div class="headline">'
+            f'<div class="headline-meta">'
+            f'<span class="source-tag" style="color:{color};">{html.escape(badge)}</span>'
+            f'<span>{html.escape(current)}</span>'
+            f'</div>'
+            f'<div class="headline-text">{html.escape(headline)}</div>'
+            f'</div></a>'
+        )
+    return "\n".join(parts)
+
+
 def build_regional_panels(items, exclude_link=None):
     """Per-continent wire panels for the regional desk.
     Returns dict: region_code → rendered HTML for that panel's body."""
@@ -2511,6 +2556,14 @@ def main():
         congress_posts = []
     capitol_wire_html = build_capitol_wire(congress_posts)
 
+    print("  Move Wire (macro / tape alerts)...")
+    try:
+        signal_posts = signals.collect_signal_posts()
+    except Exception as e:
+        print(f"  ! signals pipeline failed: {e}", file=sys.stderr)
+        signal_posts = []
+    move_wire_html = build_move_wire(signal_posts)
+
     print("  Regional desk...")
     regional = build_regional_panels(all_items, exclude_link=hero_link)
 
@@ -2539,6 +2592,7 @@ def main():
         .replace("{{CORRUPTION_WATCH}}", corruption_html)
         .replace("{{INSIDER_WIRE}}", insider_wire_html)
         .replace("{{CAPITOL_WIRE}}", capitol_wire_html)
+        .replace("{{MOVE_WIRE}}", move_wire_html)
         .replace("{{SECTORS}}", "\n".join(sector_rows))
         .replace("{{MEGACAPS}}", "\n".join(megacap_rows))
         .replace("{{REGIONAL_US}}", regional.get("US", ""))
@@ -2559,18 +2613,7 @@ def main():
     OUTPUT_PATH.write_text(output, encoding="utf-8")
     write_sitemap()
 
-    # Macro signals (FRED + yfinance, multi-year highs/lows, big moves).
-    try:
-        signal_posts = signals.collect_signal_posts()
-    except Exception as e:
-        print(f"  ! signals pipeline failed: {e}", file=sys.stderr)
-        signal_posts = []
-
-    # insider_posts is collected up above (before site render) so the
-    # Insider Wire panel can use the same data the drafter consumes.
-
     # Editorial drafter — produces drafts.json for human review.
-    # Replaces the old queue.html / feed.xml / cards.py pipeline.
     rss_corruption = [i for i in all_items if _is_corruption_item(i)]
     try:
         drafter.collect_drafts(
@@ -2579,7 +2622,7 @@ def main():
             insider_posts=insider_posts,
             rss_corruption_items=rss_corruption,
             megacap_filter=_matches_megacap,
-            top_item=auto_hero_item,  # LOUD HOWL = same pick as site's Loudest Howl
+            top_item=auto_hero_item,
             congress_posts=congress_posts,
         )
     except Exception as e:

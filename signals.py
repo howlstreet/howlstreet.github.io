@@ -507,10 +507,13 @@ def _load_recent_posts():
             ts = datetime.fromisoformat(post.get("fired_at", ""))
         except (TypeError, ValueError):
             continue
-        if ts > cutoff and post.get("chart_path"):
-            # Verify chart file still exists on disk
-            if (REPO_ROOT / post["chart_path"]).exists():
-                out[sig_id] = post
+        if ts <= cutoff:
+            continue
+        chart = post.get("chart_path")
+        if chart and not (REPO_ROOT / chart).exists():
+            post = dict(post)
+            post["chart_path"] = None
+        out[sig_id] = post
     return out
 
 
