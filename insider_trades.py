@@ -217,9 +217,9 @@ def _fetch_price_history(ticker, years=1):
 
 
 def render_trade_chart(trade):
-    """Render a 1Y price chart with the line color-split at the trade date.
-    Gray before; green-after for buys, red-after for sells. Returns a
-    repo-relative chart path or None on failure."""
+    """Clean Form 4 share chart: tight scale, single mark, side legend."""
+    import post_graphics as gfx
+
     INSIDER_CHARTS_DIR.mkdir(parents=True, exist_ok=True)
     ticker = trade["ticker"]
     safe_ticker = re.sub(r"[^A-Za-z0-9]", "_", ticker)
@@ -235,89 +235,44 @@ def render_trade_chart(trade):
     except ValueError:
         return None
 
-    before_d = [d for d in dates if d < trade_dt]
-    before_v = [v for d, v in zip(dates, values) if d < trade_dt]
-    after_d = [d for d in dates if d >= trade_dt]
-    after_v = [v for d, v in zip(dates, values) if d >= trade_dt]
-
-    if not before_d or not after_d:
-        return None  # trade falls outside our 1Y window
-
     is_buy = trade["type"] == "P"
-    after_color = BRAND_GREEN if is_buy else BRAND_RED
+    verb = "BOUGHT" if is_buy else "SOLD"
+    pct_since = 0.0
+    if trade.get("price"):
+        pct_since = (values[-1] - trade["price"]) / trade["price"] * 100
+    badge = f"{'+' if pct_since >= 0 else ''}{pct_since:.1f}%"
+    dollar = trade.get("dollar_value") or 0
+    if dollar >= 1_000_000:
+        dollar_str = f"${dollar/1_000_000:.1f}M"
+    else:
+        dollar_str = f"${dollar:,.0f}"
+    try:
+        nice = trade_dt.strftime("%b %d")
+    except Exception:
+        nice = trade["trade_date"]
+    n = trade.get("num_insiders", 1) or 1
+    who = f"{n} insiders" if n > 1 else "1 insider"
 
-    fig, ax = plt.subplots(figsize=(12, 6.75), dpi=100)
-    fig.patch.set_facecolor(BRAND_BG)
-    ax.set_facecolor(BRAND_BG)
+    marks = [{
+        "date": trade_dt,
+        "label": f"{verb}",
+        "detail": f"{nice} · {dollar_str} · {who}",
+    }]
+    title = f"{ticker} · {trade.get('company') or ''}".rstrip(" ·")
 
-    ax.plot(before_d, before_v, color=BRAND_GRAY, linewidth=2.0, label="Before trade")
-    ax.plot(after_d, after_v, color=after_color, linewidth=2.5, label="After trade")
-
-    # Trade date annotation
-    pivot_v = after_v[0] if after_v else (before_v[-1] if before_v else 0)
-    ax.scatter([trade_dt], [pivot_v], color=after_color, s=140, zorder=5,
-               edgecolors=BRAND_BG, linewidths=2.5)
-    ax.annotate(f"{'BOUGHT' if is_buy else 'SOLD'} HERE",
-                xy=(trade_dt, pivot_v),
-                xytext=(15, 15), textcoords="offset points",
-                color=after_color, fontsize=13, fontweight="bold",
-                arrowprops=dict(arrowstyle="->", color=after_color, lw=2))
-
-    # Current value marker
-    cur_v = values[-1]
-    ax.scatter([dates[-1]], [cur_v], color=after_color, s=120, zorder=5,
-               edgecolors=BRAND_BG, linewidths=2.5)
-    ax.annotate(f"${cur_v:,.2f}",
-                xy=(dates[-1], cur_v),
-                xytext=(10, 0), textcoords="offset points",
-                color=after_color, fontsize=14, fontweight="bold",
-                va="center")
-
-    # Style
-    ax.spines["top"].set_visible(False)
-    ax.spines["right"].set_visible(False)
-    ax.spines["bottom"].set_color(BRAND_DIM)
-    ax.spines["left"].set_color(BRAND_DIM)
-    ax.tick_params(colors=BRAND_DIM, labelsize=10)
-    ax.grid(True, color=BRAND_DIM, alpha=0.15, linestyle="-", linewidth=0.5)
-    ax.xaxis.set_major_locator(mdates.MonthLocator(interval=2))
-    ax.xaxis.set_major_formatter(mdates.DateFormatter("%b %Y"))
-
-    # Title
-    ax.set_title(f"{trade['ticker']} · {trade['company']}",
-                 color=BRAND_FG, fontsize=20, fontweight="bold",
-                 loc="left", pad=24)
-
-    # Big % since-trade badge top-right
-    pct_since = (cur_v - trade["price"]) / trade["price"] * 100 if trade["price"] else 0
-    badge_color = BRAND_GREEN if pct_since > 0 else BRAND_RED
-    badge = f"{'+' if pct_since > 0 else ''}{pct_since:.1f}% since"
-    fig.text(0.985, 0.93, badge,
-             ha="right", va="top",
-             color="#000", fontsize=22, fontweight="bold",
-             family="monospace",
-             bbox=dict(boxstyle="round,pad=0.5", facecolor=badge_color, edgecolor="none"))
-
-    # HOWL STREET watermark
-    fig.text(0.01, 0.965, "HOWL STREET",
-             ha="left", va="top", color=BRAND_GREEN,
-             fontsize=15, fontweight="bold", family="monospace")
-    fig.text(0.01, 0.93, "@HowlStreet · Your Wolf of Wall Street",
-             ha="left", va="top", color=BRAND_DIM, fontsize=10,
-             family="monospace")
-
-    # Source attribution + URL
-    fig.text(0.99, 0.02, "Source: openinsider.com · SEC Form 4",
-             ha="right", va="bottom", color=BRAND_DIM, fontsize=10,
-             family="monospace")
-    fig.text(0.01, 0.02, "howlstreet.github.io",
-             ha="left", va="bottom", color=BRAND_DIM, fontsize=10,
-             family="monospace")
-
-    plt.tight_layout(rect=(0.01, 0.05, 0.99, 0.91))
-    plt.savefig(out_path, facecolor=BRAND_BG, dpi=100, bbox_inches="tight")
-    plt.close(fig)
-    return str(out_path.relative_to(REPO_ROOT))
+    return gfx.render_price_chart_with_marks(
+        ticker=ticker,
+        title=title,
+        dates=dates,
+        values=values,
+        marks=marks,
+        out_path=out_path,
+        badge_text=badge,
+        badge_positive=pct_since >= 0,
+        desk_label="INSIDER WIRE · SEC FORM 4",
+        source_label="Source: openinsider.com · SEC Form 4",
+        accent=gfx.GREEN if is_buy else gfx.RED,
+    )
 
 
 # ----------------------------------------------------------------------------

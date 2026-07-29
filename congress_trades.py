@@ -291,7 +291,9 @@ def _fetch_price_history(ticker, years=1):
 
 
 def render_congress_cluster_chart(cluster, party_map):
-    """Uber-style chart: YTD-ish price path with politician buy marks."""
+    """Clean share chart: tight scale, numbered marks, side legend."""
+    import post_graphics as gfx
+
     CONGRESS_CHARTS_DIR.mkdir(parents=True, exist_ok=True)
     ticker = cluster["ticker"]
     safe = re.sub(r"[^A-Za-z0-9]", "_", ticker)
@@ -301,72 +303,6 @@ def render_congress_cluster_chart(cluster, party_map):
     if len(dates) < 10:
         return None
 
-    fig, ax = plt.subplots(figsize=(12, 6.75), dpi=100)
-    fig.patch.set_facecolor(BRAND_BG)
-    ax.set_facecolor(BRAND_BG)
-
-    # Color the line by YTD direction vs first point of calendar year
-    ytd_start = datetime(date.today().year, 1, 1)
-    ytd_vals = [v for d, v in zip(dates, values) if d >= ytd_start]
-    ytd_pct = 0.0
-    if ytd_vals and values:
-        ytd_pct = (values[-1] - ytd_vals[0]) / ytd_vals[0] * 100
-    line_color = BRAND_RED if ytd_pct < 0 else BRAND_GREEN
-
-    ax.plot(dates, values, color=line_color, linewidth=2.2)
-    ax.fill_between(dates, values, color=line_color, alpha=0.12)
-
-    # Annotate each member buy
-    for i, tr in enumerate(cluster["members"][:8]):
-        try:
-            td = datetime.strptime(tr["tx_date"], "%Y-%m-%d")
-        except ValueError:
-            continue
-        # Nearest price on/after trade date
-        pivot = None
-        for d, v in zip(dates, values):
-            if d >= td:
-                pivot = (d, v)
-                break
-        if not pivot:
-            continue
-        last = tr["member"].split()[-1]
-        party = _party_for(tr["member"], party_map)
-        label = f"{last}" + (f" ({party})" if party else "")
-        # Stagger vertical offsets so labels don't stack
-        y_off = 18 + (i % 4) * 14
-        x_off = 8 if i % 2 == 0 else -8
-        ax.scatter([pivot[0]], [pivot[1]], color="#ffffff", s=70, zorder=5,
-                   edgecolors=BRAND_BG, linewidths=1.5)
-        ax.annotate(
-            label,
-            xy=pivot,
-            xytext=(x_off, y_off),
-            textcoords="offset points",
-            color="#ffffff",
-            fontsize=10,
-            fontweight="bold",
-            arrowprops=dict(arrowstyle="->", color="#ffffff", lw=1.2),
-            ha="left" if x_off >= 0 else "right",
-        )
-
-    cur_v = values[-1]
-    ax.scatter([dates[-1]], [cur_v], color=line_color, s=110, zorder=6,
-               edgecolors=BRAND_BG, linewidths=2)
-    ax.annotate(f"${cur_v:,.2f}",
-                xy=(dates[-1], cur_v),
-                xytext=(10, 0), textcoords="offset points",
-                color=line_color, fontsize=14, fontweight="bold", va="center")
-
-    ax.spines["top"].set_visible(False)
-    ax.spines["right"].set_visible(False)
-    ax.spines["bottom"].set_color(BRAND_DIM)
-    ax.spines["left"].set_color(BRAND_DIM)
-    ax.tick_params(colors=BRAND_DIM, labelsize=10)
-    ax.grid(True, color=BRAND_DIM, alpha=0.15, linewidth=0.5)
-    ax.xaxis.set_major_locator(mdates.MonthLocator(interval=2))
-    ax.xaxis.set_major_formatter(mdates.DateFormatter("%b %Y"))
-
     company = ""
     try:
         info = yf.Ticker(ticker).info or {}
@@ -374,33 +310,45 @@ def render_congress_cluster_chart(cluster, party_map):
     except Exception:
         company = ""
     title = f"{company} · ${ticker}" if company else f"${ticker}"
-    ax.set_title(title, color=BRAND_FG, fontsize=18, fontweight="bold",
-                 loc="left", pad=22)
 
-    badge_color = BRAND_GREEN if ytd_pct >= 0 else BRAND_RED
+    # YTD badge
+    ytd_start = datetime(date.today().year, 1, 1)
+    ytd_vals = [v for d, v in zip(dates, values) if d >= ytd_start]
+    ytd_pct = 0.0
+    if ytd_vals:
+        ytd_pct = (values[-1] - ytd_vals[0]) / ytd_vals[0] * 100
     badge = f"{'+' if ytd_pct >= 0 else ''}{ytd_pct:.1f}% YTD"
-    fig.text(0.985, 0.93, badge, ha="right", va="top", color="#000",
-             fontsize=20, fontweight="bold", family="monospace",
-             bbox=dict(boxstyle="round,pad=0.45", facecolor=badge_color,
-                       edgecolor="none"))
 
-    fig.text(0.01, 0.965, "HOWL STREET", ha="left", va="top",
-             color=BRAND_GREEN, fontsize=15, fontweight="bold",
-             family="monospace")
-    fig.text(0.01, 0.93, "CAPITOL WIRE · STOCK Act disclosures",
-             ha="left", va="top", color=BRAND_DIM, fontsize=10,
-             family="monospace")
-    fig.text(0.99, 0.02, "Source: STOCK Act PTR filings",
-             ha="right", va="bottom", color=BRAND_DIM, fontsize=10,
-             family="monospace")
-    fig.text(0.01, 0.02, "howlstreet.github.io",
-             ha="left", va="bottom", color=BRAND_DIM, fontsize=10,
-             family="monospace")
+    marks = []
+    for tr in cluster["members"][:8]:
+        try:
+            td = datetime.strptime(tr["tx_date"], "%Y-%m-%d")
+        except ValueError:
+            continue
+        last = tr["member"].split()[-1]
+        party = _party_for(tr["member"], party_map)
+        label = f"{last}" + (f" ({party})" if party else "")
+        try:
+            nice = td.strftime("%b %d")
+        except Exception:
+            nice = tr["tx_date"]
+        amt = gfx.short_amount(tr.get("amount_label") or "")
+        detail = f"{nice}" + (f" · {amt}" if amt else "")
+        marks.append({"date": td, "label": label, "detail": detail})
 
-    plt.tight_layout(rect=(0.01, 0.05, 0.99, 0.91))
-    plt.savefig(out_path, facecolor=BRAND_BG, dpi=100, bbox_inches="tight")
-    plt.close(fig)
-    return str(out_path.relative_to(REPO_ROOT))
+    return gfx.render_price_chart_with_marks(
+        ticker=ticker,
+        title=title,
+        dates=dates,
+        values=values,
+        marks=marks,
+        out_path=out_path,
+        badge_text=badge,
+        badge_positive=ytd_pct >= 0,
+        desk_label="CAPITOL WIRE · STOCK ACT",
+        source_label="Source: STOCK Act PTR filings",
+        accent=gfx.RED if ytd_pct < 0 else gfx.GREEN,
+    )
 
 
 # ----------------------------------------------------------------------------

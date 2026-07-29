@@ -68,52 +68,91 @@ def _slug(s, n=40):
 
 def render_text_card(*, tag, headline, subline=""):
     """Branded PNG for posts that don't already have a chart."""
+    import post_graphics as gfx
     CARDS_DIR.mkdir(parents=True, exist_ok=True)
     safe = _slug(f"{tag}-{headline}", 48)
     out = CARDS_DIR / f"{safe}.png"
+    accent = {
+        "Capitol Wire": gfx.GOLD,
+        "Insider Wire": gfx.PINK,
+        "Loudest Howl": gfx.GREEN,
+        "The Hunt": "#b042ff",
+        "Move Wire": gfx.CYAN,
+    }.get(tag, gfx.GREEN)
+    return gfx.render_caption_card(
+        tag=tag,
+        headline=headline,
+        subline=subline,
+        accent=accent,
+        out_path=out,
+    )
 
-    fig = plt.figure(figsize=(12, 6.75), dpi=100, facecolor=BRAND_BG)
-    ax = fig.add_axes([0, 0, 1, 1])
-    ax.set_xlim(0, 1)
-    ax.set_ylim(0, 1)
-    ax.axis("off")
-    ax.set_facecolor(BRAND_BG)
 
-    fig.text(0.05, 0.90, "HOWL STREET", color=BRAND_GREEN, fontsize=18,
-             fontweight="bold", family="monospace", ha="left", va="top")
-    fig.text(0.05, 0.84, tag.upper(), color=BRAND_DIM, fontsize=12,
-             family="monospace", ha="left", va="top")
+def rebuild_charts():
+    """Force-redraw congress + insider charts with the new graphics engine."""
+    import congress_trades
+    import insider_trades
 
-    # Word-wrap headline
-    words = (headline or "").split()
-    lines, cur = [], ""
-    for w in words:
-        trial = (cur + " " + w).strip()
-        if len(trial) > 42:
-            if cur:
-                lines.append(cur)
-            cur = w
-        else:
-            cur = trial
-    if cur:
-        lines.append(cur)
-    lines = lines[:5] or ["(no headline)"]
+    party_map = congress_trades._load_party_map()
+    congress = _load_json(CONGRESS_PATH, {})
+    updated_c = 0
+    for post in congress.values():
+        members = []
+        for m in post.get("members") or []:
+            members.append({
+                "member": m.get("name") or "",
+                "tx_date": m.get("tx_date") or "",
+                "amount_label": m.get("amount_label") or "",
+                "amount_mid": m.get("amount_mid") or 0,
+                "is_options": m.get("is_options") or False,
+                "chamber": m.get("chamber") or "",
+                "link": m.get("link") or "",
+            })
+        if len(members) < 2:
+            continue
+        cluster = {
+            "ticker": post["ticker"],
+            "members": members,
+            "member_count": post.get("member_count") or len(members),
+            "first_buy_date": post.get("first_buy_date"),
+            "biggest": members[0],
+            "all_buys": members,
+        }
+        try:
+            path = congress_trades.render_congress_cluster_chart(cluster, party_map)
+            if path:
+                post["chart_path"] = path
+                updated_c += 1
+        except Exception as e:
+            print(f"  ! rebuild congress {post.get('ticker')}: {e}", file=sys.stderr)
+    if updated_c:
+        CONGRESS_PATH.write_text(json.dumps(congress, indent=2))
 
-    y = 0.62
-    for line in lines:
-        fig.text(0.05, y, line, color=BRAND_FG, fontsize=28, fontweight="bold",
-                 family="sans-serif", ha="left", va="top")
-        y -= 0.09
-
-    if subline:
-        fig.text(0.05, 0.12, subline[:90], color=BRAND_DIM, fontsize=13,
-                 family="monospace", ha="left", va="bottom")
-    fig.text(0.95, 0.08, "howlstreet.github.io", color=BRAND_DIM, fontsize=11,
-             family="monospace", ha="right", va="bottom")
-
-    fig.savefig(out, facecolor=BRAND_BG, dpi=100)
-    plt.close(fig)
-    return str(out.relative_to(REPO_ROOT))
+    insider = _load_json(INSIDER_PATH, {})
+    updated_i = 0
+    for post in insider.values():
+        trade = {
+            "ticker": post.get("ticker"),
+            "company": post.get("company"),
+            "type": post.get("type"),
+            "trade_date": post.get("trade_date"),
+            "price": post.get("price") or 0,
+            "dollar_value": post.get("dollar_value") or 0,
+            "num_insiders": post.get("num_insiders") or 1,
+            "qty": post.get("qty") or 0,
+        }
+        if not trade["ticker"] or not trade["trade_date"]:
+            continue
+        try:
+            path = insider_trades.render_trade_chart(trade)
+            if path:
+                post["chart_path"] = path
+                updated_i += 1
+        except Exception as e:
+            print(f"  ! rebuild insider {trade.get('ticker')}: {e}", file=sys.stderr)
+    if updated_i:
+        INSIDER_PATH.write_text(json.dumps(insider, indent=2))
+    print(f"  rebuilt charts: congress={updated_c} insider={updated_i}")
 
 
 def _resolve_image(path):
@@ -415,6 +454,7 @@ function copyCap(i) {{
 
 
 def main():
+    rebuild_charts()
     packs = collect_packs()
     written = write_ready(packs)
     write_queue_html(packs)
