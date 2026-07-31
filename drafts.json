@@ -1,23 +1,42 @@
 [
   {
-    "id": "1e02e27a",
+    "id": "871b799c",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "U.S. sanctions Iran-linked bitcoin insurance scheme for Strait of Hormuz ships\n\nhttps://www.coindesk.com/policy/2026/07/31/u-s-sanctions-iran-linked-bitcoin-insurance-scheme-for-strait-of-hormuz-ships",
+    "draft_text": "OFAC sanctioned two Iranian firms including Hormuz Safe, which \u201caccepts payment in Bitcoin and other digital assets.\u201d.\n\nhttps://decrypt.co/374789/us-treasury-sanctions-iranian-firms-taking-bitcoin-for-hormuz-passage",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "COINDESK",
-    "source_url": "https://www.coindesk.com/policy/2026/07/31/u-s-sanctions-iran-linked-bitcoin-insurance-scheme-for-strait-of-hormuz-ships",
-    "source_title": "U.S. sanctions Iran-linked bitcoin insurance scheme for Strait of Hormuz ships",
-    "source_summary": "",
-    "drafted_at": "2026-07-31T13:29:13.626005",
+    "primary_source": "DECRYPT",
+    "source_url": "https://decrypt.co/374789/us-treasury-sanctions-iranian-firms-taking-bitcoin-for-hormuz-passage",
+    "source_title": "US Treasury Sanctions Iranian Firms Taking Bitcoin for Hormuz Passage",
+    "source_summary": "OFAC sanctioned two Iranian firms including Hormuz Safe, which \u201caccepts payment in Bitcoin and other digital assets.\u201d",
+    "drafted_at": "2026-07-31T15:21:43.874681",
     "data": {
-      "source": "COINDESK"
+      "source": "DECRYPT"
     },
-    "content_hash": "f1fe14762d793280"
+    "content_hash": "9d5304d30fc12ac4"
   },
   {
-    "id": "f8f7d766",
+    "id": "66d7e582",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "The pack is watching. Bitcoin drops 6.0% in 5 sessions to $62,517.\n\nBitcoin is now treated as a macro asset alongside gold and tech.\n\nIts swings move alt-coins, public miners, and crypto-exposed stocks.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/BTC-USD",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Yahoo Finance \u00b7 BTC-USD",
+    "source_url": "https://finance.yahoo.com/quote/BTC-USD",
+    "source_title": "Bitcoin",
+    "source_summary": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
+    "drafted_at": "2026-07-31T15:21:43.874940",
+    "data": {
+      "signal_id": "BTC-USD:move:2026-07-31",
+      "kind": "move_down",
+      "current": "$62,517"
+    },
+    "content_hash": "0e3396ceb3da7211"
+  },
+  {
+    "id": "6a31fe9f",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Look at this number. Then look again. VIX slides 8.7% in 5 sessions to 17.03.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
@@ -27,7 +46,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EVIX",
     "source_title": "VIX (S&P 500 volatility)",
     "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-07-31T13:29:13.626294",
+    "drafted_at": "2026-07-31T15:21:43.875117",
     "data": {
       "signal_id": "^VIX:move:2026-07-30",
       "kind": "move_down",
@@ -36,7 +55,41 @@
     "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "70c9d529",
+    "id": "64f56ddb",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "Powell on the wire. It addresses unnecessary applications of the rule to passive interests in companies held by investment funds, codifies other statutory requirements, incorporates long-standing regulatory interpretations, and simplifies the application of the rule.\n\nRegulation O has not been comprehensively updated since 1979.\n\nThe rule addresses a unique challenge for community banks, where board members and executives are often local business owners and civic leaders who provide valuable perspective and expertise to bank governance and information on the local economy.\n\nThe proposal updates dollar-based thresholds and indexes them to economic growth going forward.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731b.htm",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731b.htm",
+    "source_title": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"\u2014bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
+    "source_summary": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"\u2014bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
+    "drafted_at": "2026-07-31T15:21:43.884613",
+    "data": {
+      "actor": "FED"
+    },
+    "content_hash": "4057886fa20ad5ad"
+  },
+  {
+    "id": "3f3edf38",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "FOMC update. The Board assumed regulatory and supervisory authority over mutual banks from the Office of Thrift Supervision in 2011.\n\nThe rules governing these banks were first established in 1993.\n\nThey have not been updated and have proven over time to be overly burdensome and complex.\n\n\"Today's proposal is another important step in our work to modernize the bank regulatory framework by updating mutual bank regulations for the first time in 30 years.\n\nThe continued success of this model contributes to the institutional diversity of the U.S. banking system, which is one of the greatest strengths of our financial system,\" said Vice Chair for Supervision Michelle W.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731a.htm",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731a.htm",
+    "source_title": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
+    "source_summary": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
+    "drafted_at": "2026-07-31T15:21:43.885488",
+    "data": {
+      "actor": "FED"
+    },
+    "content_hash": "1672ee5ef82f19a2"
+  },
+  {
+    "id": "2ed14d3b",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "POWELL POSTCARD: Consent prohibition order against Ralph A.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730a.htm",
@@ -46,14 +99,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730a.htm",
     "source_title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank",
     "source_summary": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank",
-    "drafted_at": "2026-07-31T13:29:13.637043",
+    "drafted_at": "2026-07-31T15:21:43.885959",
     "data": {
       "actor": "FED"
     },
     "content_hash": "23feb4de7d35586a"
   },
   {
-    "id": "454b8745",
+    "id": "fbff0d9d",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Bailey on the wire. I realise the World Cup is over and, more to the point, no-one particularly wants to hear any more about the Argentinian football team, but indulge me for a moment.\n\nhttps://news.sky.com/story/the-maradona-effect-the-bank-of-englands-banking-on-markets-to-prevent-rate-hikes-13568319",
@@ -63,14 +116,14 @@
     "source_url": "https://news.sky.com/story/the-maradona-effect-the-bank-of-englands-banking-on-markets-to-prevent-rate-hikes-13568319",
     "source_title": "The Maradona effect: Bank of England's banking on markets to prevent rate hikes",
     "source_summary": "I realise the World Cup is over and, more to the point, no-one particularly wants to hear any more about the Argentinian football team, but indulge me for a moment",
-    "drafted_at": "2026-07-31T13:29:13.637382",
+    "drafted_at": "2026-07-31T15:21:43.886172",
     "data": {
       "actor": "Bank of England"
     },
     "content_hash": "36460bc4a205adbe"
   },
   {
-    "id": "2abfcc53",
+    "id": "b53049c5",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "RATE-PATH READ: InvestorPlace - Stock Market News, Stock Advice & Trading Tips The Fed holds rates steady\u2026 Warsh puts on a masterclass in saying nothing\u2026 why AI might keep a rate hike at bay\u2026 two more hyperscalers report today\u2026 last chance for Luke Lango\u2019s AI MegaDeal Event The post The Fed Holds \u2013 But Is a September Hike a Lock? appeared first on InvestorPlace.\n\nhttps://investorplace.com/2026/07/fed-holds-is-september-hike-lock/",
@@ -80,48 +133,94 @@
     "source_url": "https://investorplace.com/2026/07/fed-holds-is-september-hike-lock/",
     "source_title": "The Fed Holds \u2013 But Is a September Hike a Lock?",
     "source_summary": "InvestorPlace - Stock Market News, Stock Advice & Trading Tips The Fed holds rates steady\u2026 Warsh puts on a masterclass in saying nothing\u2026 why AI might keep a rate hike at bay\u2026 two more hyperscalers report today\u2026 last chance for Luke Lango\u2019s AI MegaDeal Event The post The Fed Holds \u2013 But Is a September Hike a Lock? appeared first on InvestorPlace .",
-    "drafted_at": "2026-07-31T13:29:13.637854",
+    "drafted_at": "2026-07-31T15:21:43.886569",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "bec82d157ffd5726"
   },
   {
-    "id": "54bba2f1",
-    "format": "POLICY_READ",
+    "id": "68156fc4",
+    "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "Powell on the wire. The Committee decided to maintain the target range for the federal funds rate at 3-1/2 to 3-3/4 percent, in support of the Federal Reserve's dual mandate.\n\nJob gains have kept pace with the workforce, and the unemployment rate has changed little.\n\nInflation remains elevated relative to the Committee's 2 percent goal, in part reflecting supply shocks that have driven price increases in certain sectors, including energy.\n\nThe Committee is continuing its policy of maintaining ample reserves in the banking system.\n\nEconomic activity is expanding at a solid pace despite elevated uncertainty that owes, in part, to the conflict in the Middle East.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
-    "image_path": null,
+    "draft_text": "$SCTX \u2014 6 company insiders bought $71.3M on Jul 23.\n\nScribe Therapeutics, Inc. 4,730,237 shares at $15.08.\n\nStock is +33.9% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/SCTX_P_20260723.png",
     "og_image_url": null,
-    "primary_source": "FED",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
-    "source_title": "Federal Reserve issues FOMC statement",
-    "source_summary": "Federal Reserve issues FOMC statement",
-    "drafted_at": "2026-07-31T13:29:13.638844",
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=SCTX",
+    "source_title": "Scribe Therapeutics, Inc. (SCTX) insider bought $71.3M",
+    "source_summary": "6 insider(s) bought 4,730,237 shares at $15.08 on 2026-07-23.",
+    "drafted_at": "2026-07-31T15:21:43.888261",
     "data": {
-      "actor": "FED"
+      "ticker": "SCTX",
+      "type": "P",
+      "dollar_value": 71344746.0,
+      "pct_since": 33.88594518605847
     },
-    "content_hash": "660b93fd984a88d2"
+    "content_hash": "b85b72a5eaea87e1"
   },
   {
-    "id": "a20a0e87",
-    "format": "POLICY_READ",
+    "id": "d587c949",
+    "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "Policy update for the pack: The statement discusses a coordinated approach to identifying highly sensitive data and documents and discusses enhanced procedures for the review of such information to reduce any cybersecurity risks while ensuring that the agencies have access to such information at all times during an examination.\n\nThe agencies recognize the importance of keeping a bank's highly sensitive information confidential and protecting it against disclosure to or from access by unauthorized persons as a result of cybersecurity vulnerabilities.\n\nThe agencies have committed to notify affected banks of any potential or confirmed material data breach involving confidential supervisory information.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
-    "image_path": null,
+    "draft_text": "$CLBK \u2014 16 company insiders bought $4.8M on Jul 20.\n\nColumbia Financial, Inc./Md/. 477,874 shares at $10.00.\n\nStock is +8.0% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/CLBK_P_20260720.png",
     "og_image_url": null,
-    "primary_source": "FED",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
-    "source_title": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
-    "source_summary": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
-    "drafted_at": "2026-07-31T13:29:13.639774",
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=CLBK",
+    "source_title": "Columbia Financial, Inc./Md/ (CLBK) insider bought $4.8M",
+    "source_summary": "16 insider(s) bought 477,874 shares at $10.00 on 2026-07-20.",
+    "drafted_at": "2026-07-31T15:21:43.888424",
     "data": {
-      "actor": "FED"
+      "ticker": "CLBK",
+      "type": "P",
+      "dollar_value": 4778740.0,
+      "pct_since": 8.000001907348633
     },
-    "content_hash": "59a82190f82073b0"
+    "content_hash": "0f427b812615ee02"
   },
   {
-    "id": "44abeb48",
+    "id": "742ac182",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$ELV \u2014 2 company insiders bought $1.4M on Jul 17.\n\nElevance Health, Inc. 3,725 shares at $367.32.\n\nStock is +2.8% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/ELV_P_20260717.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=ELV",
+    "source_title": "Elevance Health, Inc. (ELV) insider bought $1.4M",
+    "source_summary": "2 insider(s) bought 3,725 shares at $367.32 on 2026-07-17.",
+    "drafted_at": "2026-07-31T15:21:43.888568",
+    "data": {
+      "ticker": "ELV",
+      "type": "P",
+      "dollar_value": 1368280.0,
+      "pct_since": 2.8177102874154367
+    },
+    "content_hash": "613cd4077e90da62"
+  },
+  {
+    "id": "742cdd50",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$RBKB \u2014 4 company insiders bought $656,409 on Jul 22.\n\nRhinebeck Bancorp, Inc. 54,925 shares at $11.95.\n\nStock is +2.3% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/RBKB_P_20260722.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=RBKB",
+    "source_title": "Rhinebeck Bancorp, Inc. (RBKB) insider bought $656,409",
+    "source_summary": "4 insider(s) bought 54,925 shares at $11.95 on 2026-07-22.",
+    "drafted_at": "2026-07-31T15:21:43.888710",
+    "data": {
+      "ticker": "RBKB",
+      "type": "P",
+      "dollar_value": 656409.0,
+      "pct_since": 2.3430924036512875
+    },
+    "content_hash": "35aa3c8203c69de7"
+  },
+  {
+    "id": "59594d10",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$NMM \u2014 a company insider bought $250,501 on Jul 28.\n\nNavios Maritime Partners L.P. 3,191 shares at $78.50.\n\nStock is +1.0% since the purchase. This is a public SEC Form 4 filing.",
@@ -131,7 +230,7 @@
     "source_url": "http://openinsider.com/screener?s=NMM",
     "source_title": "Navios Maritime Partners L.P. (NMM) insider bought $250,501",
     "source_summary": "1 insider(s) bought 3,191 shares at $78.50 on 2026-07-28.",
-    "drafted_at": "2026-07-31T13:29:13.640427",
+    "drafted_at": "2026-07-31T15:21:43.888851",
     "data": {
       "ticker": "NMM",
       "type": "P",
@@ -141,87 +240,24 @@
     "content_hash": "7eee46215efcd362"
   },
   {
-    "id": "d90ed207",
-    "format": "CORRUPTION_WATCH_INSIDER",
+    "id": "5de8205c",
+    "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "$MLPT \u2014 a company insider bought $15.3M on Jul 28.\n\nMaplight Therapeutics, Inc. 1,209,225 shares at $12.67.\n\nStock is +0.0% since the purchase. This is a public SEC Form 4 filing.\n\nhttp://openinsider.com/screener?s=MLPT",
+    "draft_text": "The exchange is rapidly generating new accounts in a way that can confuse authorities and compliance officials, experts told ICIJ.\n\nhttps://www.icij.org/investigations/coin-laundry/europe-sanctioned-crypto-exchange-htx-experts-say-the-firm-is-deploying-tactics-that-could-blunt-the-impact/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=MLPT",
-    "source_title": "Maplight Therapeutics, Inc. (MLPT) insider bought $15.3M",
-    "source_summary": "1 insider(s) bought 1,209,225 shares at $12.67 on 2026-07-28.",
-    "drafted_at": "2026-07-31T13:29:13.640608",
+    "primary_source": "ICIJ",
+    "source_url": "https://www.icij.org/investigations/coin-laundry/europe-sanctioned-crypto-exchange-htx-experts-say-the-firm-is-deploying-tactics-that-could-blunt-the-impact/",
+    "source_title": "Europe sanctioned crypto exchange HTX. Experts say the firm is deploying tactics that could blunt the impact.",
+    "source_summary": "The exchange is rapidly generating new accounts in a way that can confuse authorities and compliance officials, experts told ICIJ.",
+    "drafted_at": "2026-07-31T15:21:43.890122",
     "data": {
-      "ticker": "MLPT",
-      "type": "P",
-      "dollar_value": 15314794.0,
-      "pct_since": 0
+      "source": "ICIJ"
     },
-    "content_hash": "20b1975ac07b717e"
+    "content_hash": "3709a6f20adf85ef"
   },
   {
-    "id": "e0fb40d9",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$LBRT \u2014 a company insider bought $250,009 on Jul 28.\n\nLiberty Energy Inc. 14,053 shares at $17.79.\n\nStock is +0.9% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/LBRT_P_20260728.png",
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=LBRT",
-    "source_title": "Liberty Energy Inc. (LBRT) insider bought $250,009",
-    "source_summary": "1 insider(s) bought 14,053 shares at $17.79 on 2026-07-28.",
-    "drafted_at": "2026-07-31T13:29:13.640799",
-    "data": {
-      "ticker": "LBRT",
-      "type": "P",
-      "dollar_value": 250009.0,
-      "pct_since": 0.8993859636843956
-    },
-    "content_hash": "b690362ca333a2fd"
-  },
-  {
-    "id": "37c66169",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$ACI \u2014 2 company insiders bought $2.4M on Jul 28.\n\nAlbertsons Companies, Inc. 209,909 shares at $11.49.\n\nStock is +1.5% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/ACI_P_20260728.png",
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=ACI",
-    "source_title": "Albertsons Companies, Inc. (ACI) insider bought $2.4M",
-    "source_summary": "2 insider(s) bought 209,909 shares at $11.49 on 2026-07-28.",
-    "drafted_at": "2026-07-31T13:29:13.641017",
-    "data": {
-      "ticker": "ACI",
-      "type": "P",
-      "dollar_value": 2412223.0,
-      "pct_since": 1.5230632015058931
-    },
-    "content_hash": "3e3857355f367358"
-  },
-  {
-    "id": "0d84ad72",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$COE \u2014 a company insider bought $10.7M on Jul 24.\n\n51Talk Online Education Group. 637,200 shares at $16.76.\n\nStock is +1.0% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/COE_P_20260724.png",
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=COE",
-    "source_title": "51Talk Online Education Group (COE) insider bought $10.7M",
-    "source_summary": "1 insider(s) bought 637,200 shares at $16.76 on 2026-07-24.",
-    "drafted_at": "2026-07-31T13:29:13.641216",
-    "data": {
-      "ticker": "COE",
-      "type": "P",
-      "dollar_value": 10681309.0,
-      "pct_since": 1.0143216299270863
-    },
-    "content_hash": "9f5825fbce6aa07a"
-  },
-  {
-    "id": "d7d37a6e",
+    "id": "a87050ae",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Trump officials are focused on immigrants, but the Department of Health and Human Services report on fraud doesn\u2019t even mention them.\n\nThe post Corporations, Not Immigrants, Are Responsible for Vast Majority of Healthcare Fraud, OIG Report Shows appeared first on The Intercept.\n\nhttps://theintercept.com/2026/07/31/immigrants-healthcare-medicare-fraud-scam/",
@@ -231,14 +267,14 @@
     "source_url": "https://theintercept.com/2026/07/31/immigrants-healthcare-medicare-fraud-scam/",
     "source_title": "Corporations, Not Immigrants, Are Responsible for Vast Majority of Healthcare Fraud, OIG Report Shows",
     "source_summary": "Trump officials are focused on immigrants, but the Department of Health and Human Services report on fraud doesn\u2019t even mention them. The post Corporations, Not Immigrants, Are Responsible for Vast Majority of Healthcare Fraud, OIG Report Shows appeared first on The Intercept .",
-    "drafted_at": "2026-07-31T13:29:13.643392",
+    "drafted_at": "2026-07-31T15:21:43.890397",
     "data": {
       "source": "INTERCEPT"
     },
     "content_hash": "2503ddf5a1fa129f"
   },
   {
-    "id": "09b9eb8d",
+    "id": "167f07f1",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The post Andy Beshear Set Out to Make Drug Treatment Widely Available in Kentucky.\n\nFraud and Abuse Followed. appeared first on ProPublica.\n\nhttps://www.propublica.org/article/andy-beshear-kentucky-opioid-drug-crisis-medicaid-spending-fraud",
@@ -248,14 +284,14 @@
     "source_url": "https://www.propublica.org/article/andy-beshear-kentucky-opioid-drug-crisis-medicaid-spending-fraud",
     "source_title": "Andy Beshear Set Out to Make Drug Treatment Widely Available in Kentucky. Fraud and Abuse Followed.",
     "source_summary": "The post Andy Beshear Set Out to Make Drug Treatment Widely Available in Kentucky. Fraud and Abuse Followed. appeared first on ProPublica .",
-    "drafted_at": "2026-07-31T13:29:13.643567",
+    "drafted_at": "2026-07-31T15:21:43.890526",
     "data": {
       "source": "PROPUBLICA"
     },
     "content_hash": "3a6aa3078ab6db36"
   },
   {
-    "id": "a99e453a",
+    "id": "b1f35249",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Women on four continents told ICIJ that global pay-per-action dating sites owned by a Russian businessman and self-styled philosopher left them financially broke and heartbroken.\n\nhttps://www.icij.org/news/2026/07/dating-app-scam-models-influencers-social-discovery-group/",
@@ -265,14 +301,14 @@
     "source_url": "https://www.icij.org/news/2026/07/dating-app-scam-models-influencers-social-discovery-group/",
     "source_title": "Inside the Matrix: How models, influencers and engagement quotas power the Social Discovery Group\u2019s dating machine and global profits",
     "source_summary": "Women on four continents told ICIJ that global pay-per-action dating sites owned by a Russian businessman and self-styled philosopher left them financially broke and heartbroken.",
-    "drafted_at": "2026-07-31T13:29:13.643783",
+    "drafted_at": "2026-07-31T15:21:43.890684",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "b0972ed90c219ce4"
   },
   {
-    "id": "0784f7cd",
+    "id": "525ba3d4",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "An internal report obtained says that crypto brokers are moving millions while dodging rules to guard against dirty money.\n\nhttps://www.icij.org/investigations/coin-laundry/canadian-intelligence-flags-crypto-to-cash-services-as-knowingly-facilitating-money-laundering-document-shows/",
@@ -282,31 +318,14 @@
     "source_url": "https://www.icij.org/investigations/coin-laundry/canadian-intelligence-flags-crypto-to-cash-services-as-knowingly-facilitating-money-laundering-document-shows/",
     "source_title": "Canadian intelligence flags crypto-to-cash services as \u2018knowingly facilitating money laundering,\u2019 document shows",
     "source_summary": "An internal report obtained says that crypto brokers are moving millions while dodging rules to guard against dirty money.",
-    "drafted_at": "2026-07-31T13:29:13.643944",
+    "drafted_at": "2026-07-31T15:21:43.890804",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "7be227a50b3ce3c2"
   },
   {
-    "id": "acec4f16",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "The Swedish bank and its New York subsidiary agreed to the penalty to settle final U.S. probe tied to money laundering case, officials say.\n\nhttps://www.icij.org/investigations/panama-papers/swedbank-fined-50-million-by-new-york-authorities-over-panama-papers-revelations/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "ICIJ",
-    "source_url": "https://www.icij.org/investigations/panama-papers/swedbank-fined-50-million-by-new-york-authorities-over-panama-papers-revelations/",
-    "source_title": "Swedbank fined $50 million by New York authorities over Panama Papers revelations",
-    "source_summary": "The Swedish bank and its New York subsidiary agreed to the penalty to settle final U.S. probe tied to money laundering case, officials say.",
-    "drafted_at": "2026-07-31T13:29:13.644153",
-    "data": {
-      "source": "ICIJ"
-    },
-    "content_hash": "64763685b6b6197a"
-  },
-  {
-    "id": "f5e6c2e9",
+    "id": "d28bc30e",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "6 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 David J. Taylor (R)\n\u2022 John Boozman (R)\n\u2022 Cleo Fields (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 John Fetterman (D)\n\u2022 John McGuire (R)\n\nLargest disclosed here: David J. Taylor, $1,001 - $15,000 on Feb 26.\n\nPrice since the first buy in this group: -2.4%.\n\nSTOCK Act disclosures. Public record.",
@@ -316,7 +335,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034138.pdf",
     "source_title": "6 Congress members bought $MSFT",
     "source_summary": "6 politicians bought $MSFT; largest $1,001 - $15,000 by David J. Taylor.",
-    "drafted_at": "2026-07-31T13:29:13.645047",
+    "drafted_at": "2026-07-31T15:21:43.891607",
     "data": {
       "ticker": "MSFT",
       "member_count": 6,
@@ -325,7 +344,7 @@
     "content_hash": "7c24415ac3c0b542"
   },
   {
-    "id": "830f4305",
+    "id": "656e72ef",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "5 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Markwayne Mullin (D)\n\u2022 Josh Gottheimer (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Markwayne Mullin, $50,001 - $100,000 on Feb 25.\n\nPrice since the first buy in this group: +58.4%.\n\nSTOCK Act disclosures. Public record.",
@@ -335,7 +354,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/f586922d-6083-44e5-8a32-769290389416/",
     "source_title": "5 Congress members bought $UNH",
     "source_summary": "5 politicians bought $UNH; largest $50,001 - $100,000 by Markwayne Mullin.",
-    "drafted_at": "2026-07-31T13:29:13.645392",
+    "drafted_at": "2026-07-31T15:21:43.891872",
     "data": {
       "ticker": "UNH",
       "member_count": 5,
@@ -344,7 +363,7 @@
     "content_hash": "7cbacf41d412a41b"
   },
   {
-    "id": "55a64e5b",
+    "id": "c7ba62a9",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Markwayne Mullin (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Markwayne Mullin, $50,001 - $100,000 on Feb 25.\n\nPrice since the first buy in this group: +48.3%.\n\nSTOCK Act disclosures. Public record.",
@@ -354,7 +373,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/f586922d-6083-44e5-8a32-769290389416/",
     "source_title": "4 Congress members bought $UNH",
     "source_summary": "4 politicians bought $UNH; largest $50,001 - $100,000 by Markwayne Mullin.",
-    "drafted_at": "2026-07-31T13:29:13.645720",
+    "drafted_at": "2026-07-31T15:21:43.892119",
     "data": {
       "ticker": "UNH",
       "member_count": 4,
@@ -363,7 +382,7 @@
     "content_hash": "029ae5a8d0ca395b"
   },
   {
-    "id": "777560cf",
+    "id": "91ff7500",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Richard Dean Dr McCormick, $1,001 - $15,000 on Mar 19.\n\nPrice since the first buy in this group: +50.3%.\n\nSTOCK Act disclosures. Public record.",
@@ -373,7 +392,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033648.pdf",
     "source_title": "3 Congress members bought $UNH",
     "source_summary": "3 politicians bought $UNH; largest $1,001 - $15,000 by Richard Dean Dr McCormick.",
-    "drafted_at": "2026-07-31T13:29:13.646053",
+    "drafted_at": "2026-07-31T15:21:43.892348",
     "data": {
       "ticker": "UNH",
       "member_count": 3,
@@ -382,7 +401,7 @@
     "content_hash": "ef6027c31bcd522a"
   },
   {
-    "id": "39a9f58f",
+    "id": "c9b6f963",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 John Fetterman (D)\n\u2022 John McGuire (R)\n\nLargest disclosed here: Richard Dean Dr McCormick, $1,001 - $15,000 on Mar 19.\n\nPrice since the first buy in this group: +16.0%.\n\nSTOCK Act disclosures. Public record.",
@@ -392,7 +411,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033648.pdf",
     "source_title": "3 Congress members bought $MSFT",
     "source_summary": "3 politicians bought $MSFT; largest $1,001 - $15,000 by Richard Dean Dr McCormick.",
-    "drafted_at": "2026-07-31T13:29:13.646355",
+    "drafted_at": "2026-07-31T15:21:43.892587",
     "data": {
       "ticker": "MSFT",
       "member_count": 3,
@@ -401,7 +420,7 @@
     "content_hash": "dc58af0a214ea198"
   },
   {
-    "id": "1605bf8b",
+    "id": "5a249f07",
     "format": "GLOBAL_DESK",
     "status": "pending",
     "draft_text": "PACK BRIEFING \u2014 ASIA: EDX Markets, an institutional-only crypto trading venue with its own central clearinghouse, closed a $76 million Series C funding round led by SBI Holdings, the firm said in a press release.\n\nThe Tokyo-listed financial group becomes a strategic investor in the U.S. exchange.\n\nhttps://thedefiant.io/converge/tradfi-and-fintech/edx-markets-closes-76m-series-c-led-by-sbi-holdings",
@@ -411,116 +430,133 @@
     "source_url": "https://thedefiant.io/converge/tradfi-and-fintech/edx-markets-closes-76m-series-c-led-by-sbi-holdings",
     "source_title": "EDX Markets Closes $76M Series C Led by SBI Holdings",
     "source_summary": "EDX Markets, an institutional-only crypto trading venue with its own central clearinghouse, closed a $76 million Series C funding round led by SBI Holdings, the firm said in a press release. The Tokyo-listed financial group becomes a strategic investor in the U.S. exchange. The capital will fund\u2026",
-    "drafted_at": "2026-07-31T13:29:13.648285",
+    "drafted_at": "2026-07-31T15:21:43.894106",
     "data": {
       "source": "THE DEFIANT"
     },
     "content_hash": "766a40daeebddf43"
   },
   {
-    "id": "84651f01",
+    "id": "b6204776",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From the Gulf: Sustained high oil prices could exacerbate inflation, prompting regulatory scrutiny and impacting sectors reliant on energy, including crypto.\n\nThe post ExxonMobil and Chevron profits quadruple amid Iran war as oil tops $112, reigniting inflation hedge debate appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/exxon-chevron-profits-quadruple-iran-war-crypto/",
+    "draft_text": "From the international wire: OFAC sanctioned two Iranian firms including Hormuz Safe, which \u201caccepts payment in Bitcoin and other digital assets.\u201d.\n\nhttps://decrypt.co/374789/us-treasury-sanctions-iranian-firms-taking-bitcoin-for-hormuz-passage",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "DECRYPT",
+    "source_url": "https://decrypt.co/374789/us-treasury-sanctions-iranian-firms-taking-bitcoin-for-hormuz-passage",
+    "source_title": "US Treasury Sanctions Iranian Firms Taking Bitcoin for Hormuz Passage",
+    "source_summary": "OFAC sanctioned two Iranian firms including Hormuz Safe, which \u201caccepts payment in Bitcoin and other digital assets.\u201d",
+    "drafted_at": "2026-07-31T15:21:43.894747",
+    "data": {
+      "source": "DECRYPT"
+    },
+    "content_hash": "9d5304d30fc12ac4"
+  },
+  {
+    "id": "200b4fa5",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Cross-border read: Russia's regulatory move may boost global crypto confidence, potentially influencing other nations and impacting Bitcoin's market dynamics.\n\nThe post Russia unveils Bitcoin margin trading rules, impacting global crypto markets appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/russia-unveils-bitcoin-margin-trading-rules-impacting-global-crypto-markets/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/exxon-chevron-profits-quadruple-iran-war-crypto/",
-    "source_title": "ExxonMobil and Chevron profits quadruple amid Iran war as oil tops $112, reigniting inflation hedge debate",
-    "source_summary": "Sustained high oil prices could exacerbate inflation, prompting regulatory scrutiny and impacting sectors reliant on energy, including crypto. The post ExxonMobil and Chevron profits quadruple amid Iran war as oil tops $112, reigniting inflation hedge debate appeared first on Crypto Briefing .",
-    "drafted_at": "2026-07-31T13:29:13.648761",
+    "source_url": "https://cryptobriefing.com/russia-unveils-bitcoin-margin-trading-rules-impacting-global-crypto-markets/",
+    "source_title": "Russia unveils Bitcoin margin trading rules, impacting global crypto markets",
+    "source_summary": "Russia's regulatory move may boost global crypto confidence, potentially influencing other nations and impacting Bitcoin's market dynamics. The post Russia unveils Bitcoin margin trading rules, impacting global crypto markets appeared first on Crypto Briefing .",
+    "drafted_at": "2026-07-31T15:21:43.895135",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "927698f8e2d4d397"
+    "content_hash": "f81f0eb829e113f2"
   },
   {
-    "id": "9c3ee1cc",
+    "id": "6341c884",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Cross-border read: ING economists Deepali Bhargava and Lynn Song expect the Reserve Bank of India to keep the repo rate at 5.25% this week.\n\nThey note that while June headline inflation rose on higher fuel prices, core inflation remains below target.\n\nhttps://www.fxstreet.com/news/india-rbi-hold-expectations-shape-policy-outlook-ing-202607311320",
+    "draft_text": "Gulf wire: Rising Gulf tensions could destabilize regional security and impact global oil markets, while crypto investments remain resilient amid unrest.\n\nThe post UAE condemns Iran\u2019s drone strikes on Kuwait as Gulf tensions reach new heights appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/uae-condemns-iran-drone-strikes-kuwait/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/uae-condemns-iran-drone-strikes-kuwait/",
+    "source_title": "UAE condemns Iran\u2019s drone strikes on Kuwait as Gulf tensions reach new heights",
+    "source_summary": "Rising Gulf tensions could destabilize regional security and impact global oil markets, while crypto investments remain resilient amid unrest. The post UAE condemns Iran\u2019s drone strikes on Kuwait as Gulf tensions reach new heights appeared first on Crypto Briefing .",
+    "drafted_at": "2026-07-31T15:21:43.895408",
+    "data": {
+      "source": "CRYPTO BRIEFING"
+    },
+    "content_hash": "d07ebf63699e0316"
+  },
+  {
+    "id": "45e75a45",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "PACK BRIEFING \u2014 EUROPE: The exchange is rapidly generating new accounts in a way that can confuse authorities and compliance officials, experts told ICIJ.\n\nhttps://www.icij.org/investigations/coin-laundry/europe-sanctioned-crypto-exchange-htx-experts-say-the-firm-is-deploying-tactics-that-could-blunt-the-impact/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "ICIJ",
+    "source_url": "https://www.icij.org/investigations/coin-laundry/europe-sanctioned-crypto-exchange-htx-experts-say-the-firm-is-deploying-tactics-that-could-blunt-the-impact/",
+    "source_title": "Europe sanctioned crypto exchange HTX. Experts say the firm is deploying tactics that could blunt the impact.",
+    "source_summary": "The exchange is rapidly generating new accounts in a way that can confuse authorities and compliance officials, experts told ICIJ.",
+    "drafted_at": "2026-07-31T15:21:43.896428",
+    "data": {
+      "source": "ICIJ"
+    },
+    "content_hash": "3709a6f20adf85ef"
+  },
+  {
+    "id": "38ba400d",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "GROWTH POSTCARD: TD Securities\u2019 Robert Both and Emma Lawrence note that stronger-than-expected Canadian Gross Domestic Product (GDP) data support a brighter growth outlook but do not materially change their Bank of Canada (BoC) view.\n\nhttps://www.fxstreet.com/news/bank-of-canada-strong-gdp-lowers-cut-risk-td-securities-202607311459",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/india-rbi-hold-expectations-shape-policy-outlook-ing-202607311320",
-    "source_title": "India: RBI hold expectations shape policy outlook \u2013 ING",
-    "source_summary": "ING economists Deepali Bhargava and Lynn Song expect the Reserve Bank of India to keep the repo rate at 5.25% this week. They note that while June headline inflation rose on higher fuel prices, core inflation remains below target.",
-    "drafted_at": "2026-07-31T13:29:13.649391",
+    "source_url": "https://www.fxstreet.com/news/bank-of-canada-strong-gdp-lowers-cut-risk-td-securities-202607311459",
+    "source_title": "Bank of Canada: Strong GDP lowers cut risk \u2013 TD Securities",
+    "source_summary": "TD Securities\u2019 Robert Both and Emma Lawrence note that stronger-than-expected Canadian Gross Domestic Product (GDP) data support a brighter growth outlook but do not materially change their Bank of Canada (BoC) view.",
+    "drafted_at": "2026-07-31T15:21:43.942677",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "7ff6a3884346fb4e"
+    "content_hash": "8f186c19aeef8f06"
   },
   {
-    "id": "e5d8239c",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "ASIA DESK: HONG KONG, July 31, 2026 /PRNewswire/ -- Alchemy Pay, the world-leading fiat-crypto payment solutions provider, announced today that it has secured a Money Transmitter License (MTL) in Michigan, extending its regulated U.S. footprint to 19 states.\n\nThe latest approval marks another step in...\n\nhttps://www.prnewswire.com/news-releases/alchemy-pay-expands-us-compliance-network-through-michigan-money-transmitter-license-302840045.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "PR NEWSWIRE",
-    "source_url": "https://www.prnewswire.com/news-releases/alchemy-pay-expands-us-compliance-network-through-michigan-money-transmitter-license-302840045.html",
-    "source_title": "Alchemy Pay Expands U.S. Compliance Network Through Michigan Money Transmitter License",
-    "source_summary": "HONG KONG, July 31, 2026 /PRNewswire/ -- Alchemy Pay, the world-leading fiat-crypto payment solutions provider, announced today that it has secured a Money Transmitter License (MTL) in Michigan, extending its regulated U.S. footprint to 19 states. The latest approval marks another step in...",
-    "drafted_at": "2026-07-31T13:29:13.650108",
-    "data": {
-      "source": "PR NEWSWIRE"
-    },
-    "content_hash": "e1b792241ddc5a14"
-  },
-  {
-    "id": "e966d31f",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Cross-border read: Reports emerge from the front that Russia has infiltrated most of Kostiantynivka as it tries to regain the offensive.\n\nhttps://www.aljazeera.com/features/2026/7/31/russia-appears-to-infiltrate-first-fortress-city-as-ukraine-changes-guard?traffic_source=rss",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/features/2026/7/31/russia-appears-to-infiltrate-first-fortress-city-as-ukraine-changes-guard?traffic_source=rss",
-    "source_title": "Russia appears to infiltrate first \u2018fortress city\u2019 as Ukraine changes guard",
-    "source_summary": "Reports emerge from the front that Russia has infiltrated most of Kostiantynivka as it tries to regain the offensive.",
-    "drafted_at": "2026-07-31T13:29:13.650434",
-    "data": {
-      "source": "AL JAZEERA"
-    },
-    "content_hash": "0a2b8a4f03afee34"
-  },
-  {
-    "id": "4b73d3d3",
+    "id": "fd2b4bdf",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "From the BEA desk: USD/CAD trades around 1.4045 on Friday at the time of writing, recovering from a two-week low hit on Thursday at 1.3991.\n\nhttps://www.fxstreet.com/news/canadian-dollar-shrugs-off-upbeat-gdp-as-us-dollar-stages-a-comeback-202607311302",
+    "draft_text": "From the inflation desk: Scotiabank\u2019s FX team notes EUR/USD is drifting toward 1.15 after a Fed\u2011driven rally, with euro area CPI broadly in line with expectations and French data briefly lifting the Euro.\n\nRate expectations are stabilizing, with about 42 bps of tightening priced by December.\n\nhttps://www.fxstreet.com/news/euro-range-seen-around-mid-115s-against-us-dollar-scotiabank-202607311435",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/canadian-dollar-shrugs-off-upbeat-gdp-as-us-dollar-stages-a-comeback-202607311302",
-    "source_title": "Canadian Dollar shrugs off upbeat GDP as US Dollar stages a comeback",
-    "source_summary": "USD/CAD trades around 1.4045 on Friday at the time of writing, recovering from a two-week low hit on Thursday at 1.3991.",
-    "drafted_at": "2026-07-31T13:29:13.717884",
+    "source_url": "https://www.fxstreet.com/news/euro-range-seen-around-mid-115s-against-us-dollar-scotiabank-202607311435",
+    "source_title": "Euro: Range seen around mid\u20111.15s against US Dollar \u2013 Scotiabank",
+    "source_summary": "Scotiabank\u2019s FX team notes EUR/USD is drifting toward 1.15 after a Fed\u2011driven rally, with euro area CPI broadly in line with expectations and French data briefly lifting the Euro. Rate expectations are stabilizing, with about 42 bps of tightening priced by December.",
+    "drafted_at": "2026-07-31T15:21:43.942994",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "e284186113722dc0"
+    "content_hash": "2879d4b610a468f0"
   },
   {
-    "id": "70380271",
+    "id": "f5e26b96",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "How fast is the economy moving? Now we know: Second quarter on track for 3.4% annualized growth.\n\nhttps://financialpost.com/news/economy/canada-gdp-beats-expectations-economy-rebounds",
+    "draft_text": "GDP DAY. Prior 0.6% (was 0.5%) Real GDP: +0.3% m/m vs 0.2% estimate and marking the second consecutive monthly increase.\n\nBroad-based growth: 13 of 20 industrial sectors posted gains during the month.\n\nGoods-producing industries: +0.6%, with most sectors contributing to the increase.\n\nServices-producing industries: +0.2%, led primarily by gains in: Real estate and rental & leasing Public administration For June: Advance information indicates that real GDP increased 0.2% in June.\n\nIncreases in wholesale, finance and insurance, and retail trade were partially offset by decreases in utilities and agriculture, forestry, fishing and hunting.\n\nOwing to its preliminary nature, this estimate will be updated on August 28, 2026, with the release of the official GDP by industry data for June.\n\nDetails: Mining, quarrying, oil & gas extraction: +1.0% Two of the three subsectors expanded for the second consecutive month.\n\nPublic sector: +0.3% Gains were seen across education, health care & social assistance, and public administration.\n\nhttps://investinglive.com/news/canada-may-gdp-0-3-versus-0-2-expected/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/news/economy/canada-gdp-beats-expectations-economy-rebounds",
-    "source_title": "Canada\u2019s GDP beats expectations as rebound gathers steam",
-    "source_summary": "Second quarter on track for 3.4% annualized growth",
-    "drafted_at": "2026-07-31T13:29:13.718057",
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/canada-may-gdp-0-3-versus-0-2-expected/",
+    "source_title": "Canada May GDP 0.3% versus 0.2% expected",
+    "source_summary": "Prior 0.6% (was 0.5%) Real GDP: +0.3% m/m vs 0.2% estimate and marking the second consecutive monthly increase. Broad-based growth: 13 of 20 industrial sectors posted gains during the month. Goods-producing industries: +0.6%, with most sectors contributing to the increase. Services-producing industries: +0.2%, led primarily by gains in: Real estate and rental & leasing Public administration For Ju",
+    "drafted_at": "2026-07-31T15:21:43.943995",
     "data": {
-      "source": "FINANCIAL POST"
+      "source": "FOREXLIVE"
     },
-    "content_hash": "fbc8499918c9e79a"
+    "content_hash": "24c9fa26e47e3d5f"
   },
   {
-    "id": "217f3459",
+    "id": "766956e4",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "From the inflation desk: Headlines: How have interest rate expectations changed after this week's events?\n\nBOJ governor Ueda says to expect to keep raising interest rates in response to economic, financial conditions BOJ governor Ueda says will conduct monetary policy in a manner so as to not fall behind the curve BOJ leaves rates unchanged as expected.\n\nVote was 8-1 ECB's Kocher: Decisions to be based on incoming data to bring inflation back to the 2% target Euro area inflation nudges up in July, keeps the pressure on the ECB French inflation accelerates in July, reaffirming the broader trend in the region Italy July preliminary CPI +2.8% vs +2.8% y/y expected German unemployment rises by slightly more than anticipated in July South Korea's KOSPI extends rebound in closing stages of the week, now up 17% today Market update: USD and AUD lead, CHF lags on the day WTI crude up 0.7% to $84.20 European indices mostly higher; S&P 500 futures up 0.5% US 10-year yields up 1.2 bps to 4.675% Gold down 1.1% to $4,057 Bitcoin down 1.3% to $63,887 As we count down to the end of the month, markets are still seeing some volatile swings in ending the week.\n\nThe rebound in tech shares continues after South Korea's benchmark KOSPI index posted near 18% gains today.\n\nAnd that's setting a more positive backdrop for broader markets.\n\nEuropean stocks are pushing modestly higher with the DAX up 0.7% and CAC 40 up 0.9%, while US futures are posting solid gains as well in looking to wrap up the week.\n\nS&P 500 futures are up 0.5% with Nasdaq futures up 1.3% currently.\n\nNo hyperscaler worries this week is also helping to bolster the mood, for now at least.\n\nhttps://investinglive.com/news/investinglive-european-markets-wrap-eurozone-inflation-ticks-up-in-july-usd-jpy-intervention-again/",
@@ -530,14 +566,14 @@
     "source_url": "https://investinglive.com/news/investinglive-european-markets-wrap-eurozone-inflation-ticks-up-in-july-usd-jpy-intervention-again/",
     "source_title": "investingLive European markets wrap: Eurozone inflation ticks up in July; USD/JPY intervention again?",
     "source_summary": "Headlines: How have interest rate expectations changed after this week's events? BOJ governor Ueda says to expect to keep raising interest rates in response to economic, financial conditions BOJ governor Ueda says will conduct monetary policy in a manner so as to not fall behind the curve BOJ leaves rates unchanged as expected. Vote was 8-1 ECB's Kocher: Decisions to be based on incoming data to b",
-    "drafted_at": "2026-07-31T13:29:13.720129",
+    "drafted_at": "2026-07-31T15:21:43.945515",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "33b149fc599900cb"
   },
   {
-    "id": "e4483d82",
+    "id": "848ff142",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "From the inflation desk: Rate hikes by year-end RBNZ: 58 bps (97% probability of rate hike at the next meeting) ECB: 38 bps (68% probability of rate hike at the next meeting) Fed: 34 bps (68% probability of rate hike at the next meeting) BoE: 30 bps (72% probability of no change at the next meeting) BoJ: 27 bps (72% probability of no change at the next meeting) BoC: 16 bps (98% probability of no change at the next meeting) RBA: 14 bps (97% probability of no change at the next meeting) SNB: 9 bps (95% probability of no change at the next meeting) Last week's market pricing here There's been a slightly dovish repricing almost across the board following more central bank decisions and a couple of key data releases.\n\nThe piricing for the RBNZ remained unchanged due to lack of significant news from New Zealand.\n\nOn the ECB side, several policymakers highlighted the lack of clear second-round effects and refrained from giving signals on a September rate hike.\n\nThis led to some minor dovish repricing but today's beat in Eurozone core inflation will keep the September meeting live.\n\nThe Fed left interest rates unchanged with three dissenters voting for a hike.\n\nThe consensus was that Fed's Logan and Fed's Hammack would prefer a rate increase, but we also got Fed's Kashkari joining the dissenting camp.\n\nI guess the fact that Fed's Kashkari is a hawkish member, combined with the roughly 30% probability of a rate hike that was priced in before the release, led to some dovish repricing, even though nothing has changed in the bigger picture.\n\nFed Chair Warsh didn't offer any clues about the next meeting as he continues to limit forward guidance.\n\nhttps://investinglive.com/news/how-have-interest-rate-expectations-changed-after-this-week-s-events-0/",
@@ -547,31 +583,14 @@
     "source_url": "https://investinglive.com/news/how-have-interest-rate-expectations-changed-after-this-week-s-events-0/",
     "source_title": "How have interest rate expectations changed after this week's events?",
     "source_summary": "Rate hikes by year-end RBNZ: 58 bps (97% probability of rate hike at the next meeting) ECB: 38 bps (68% probability of rate hike at the next meeting) Fed: 34 bps (68% probability of rate hike at the next meeting) BoE: 30 bps (72% probability of no change at the next meeting) BoJ: 27 bps (72% probability of no change at the next meeting) BoC: 16 bps (98% probability of no change at the next meeting",
-    "drafted_at": "2026-07-31T13:29:13.722618",
+    "drafted_at": "2026-07-31T15:21:43.947412",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "65fce8fae805a2c4"
   },
   {
-    "id": "2416ac30",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "How sticky is inflation? Let's see: Prior +3.0% HICP +2.9% vs +2.8% y/y expected Prior +3.0% Italy's preliminary inflation data for July ticked slightly higher.\n\nAccording to the preliminary estimate, Italy's headline CPI rose 2.8% year-on-year in July, matching market expectations and slowing from the previous 3.0% pace.\n\nThe harmonized measure of inflation (HICP), which is used by the ECB to compare price developments across the euro area, increased 2.9% year-on-year, slightly above the 2.8% consensus forecast but down from the prior 3.0% reading.\n\nFrom a broader perspective, the data is unlikely to materially alter expectations for ECB policy, especially after the Eurozone Core CPI Y/Y beat expectations coming at 2.5% vs 2.4% expected.\n\nThis will keep expectations for a rate hike in September alive.\n\nThis article was written by Giuseppe Dellamotta at investinglive.com.\n\nhttps://investinglive.com/news/italy-july-preliminary-cpi-xx-vs-2-8-y-y-expected/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/italy-july-preliminary-cpi-xx-vs-2-8-y-y-expected/",
-    "source_title": "Italy July preliminary CPI +2.8% vs +2.8% y/y expected",
-    "source_summary": "Prior +3.0% HICP +2.9% vs +2.8% y/y expected Prior +3.0% Italy's preliminary inflation data for July ticked slightly higher. According to the preliminary estimate, Italy's headline CPI rose 2.8% year-on-year in July, matching market expectations and slowing from the previous 3.0% pace. The harmonized measure of inflation (HICP), which is used by the ECB to compare price developments across the eur",
-    "drafted_at": "2026-07-31T13:29:13.723518",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "e4aa926e95482161"
-  },
-  {
-    "id": "0dfd72ac",
+    "id": "66aec96c",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -581,7 +600,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-07-31T13:29:13.731346",
+    "drafted_at": "2026-07-31T15:21:43.951431",
     "data": {
       "manual": true,
       "via": "manual_news.md"
