@@ -1,18 +1,4 @@
 {
-  "^VIX:move:2026-07-30": {
-    "headline": "VIX slides 8.7% in 5 sessions to 17.03",
-    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "source": "CBOE \u00b7 ^VIX",
-    "chart_path": null,
-    "signal_id": "^VIX:move:2026-07-30",
-    "current_str": "17.03",
-    "label": "VIX (S&P 500 volatility)",
-    "hashtags": "#VIX #Volatility #Markets",
-    "kind": "move_down",
-    "badge": "-8.7%",
-    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "fired_at": "2026-07-30T20:17:08.445717"
-  },
   "BTC-USD:move:2026-07-31": {
     "headline": "Bitcoin drops 6.0% in 5 sessions to $62,517",
     "matters": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
@@ -26,5 +12,19 @@
     "badge": "-6.0%",
     "data_url": "https://finance.yahoo.com/quote/BTC-USD",
     "fired_at": "2026-07-31T15:21:40.251216"
+  },
+  "^VIX:move:2026-07-31": {
+    "headline": "VIX drops 5.7% in 5 sessions to 16.08",
+    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "source": "CBOE \u00b7 ^VIX",
+    "chart_path": null,
+    "signal_id": "^VIX:move:2026-07-31",
+    "current_str": "16.08",
+    "label": "VIX (S&P 500 volatility)",
+    "hashtags": "#VIX #Volatility #Markets",
+    "kind": "move_down",
+    "badge": "-5.7%",
+    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "fired_at": "2026-07-31T20:21:38.810132"
   }
 }
