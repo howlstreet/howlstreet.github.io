@@ -1,21 +1,4 @@
 {
-  "TSM_P_2026-07-28": {
-    "ticker": "TSM",
-    "company": "Taiwan Semiconductor Manufacturing Co Ltd",
-    "industry": "Semiconductors & Related Devices",
-    "num_insiders": 3,
-    "type": "P",
-    "price": 73.88,
-    "qty": 16025,
-    "dollar_value": 1183910.0,
-    "trade_date": "2026-07-28",
-    "category": "CLUSTER_BUY",
-    "link": "http://openinsider.com/screener?s=TSM",
-    "post_id": "TSM_P_2026-07-28",
-    "chart_path": "charts/insider/TSM_P_20260728.png",
-    "pct_since": 447.17108825121824,
-    "fired_at": "2026-08-01T12:52:58.078274"
-  },
   "ACI_P_2026-07-28": {
     "ticker": "ACI",
     "company": "Albertsons Companies, Inc.",
@@ -236,5 +219,56 @@
     "chart_path": "charts/insider/FTAI_P_20260731.png",
     "pct_since": 2.3500770109802698,
     "fired_at": "2026-08-03T12:20:46.175045"
+  },
+  "BCML_P_2026-07-31": {
+    "ticker": "BCML",
+    "company": "Baycom Corp",
+    "industry": "State Commercial Banks",
+    "num_insiders": 2,
+    "type": "P",
+    "price": 30.26,
+    "qty": 43082,
+    "dollar_value": 1303785.0,
+    "trade_date": "2026-07-31",
+    "category": "CLUSTER_BUY",
+    "link": "http://openinsider.com/screener?s=BCML",
+    "post_id": "BCML_P_2026-07-31",
+    "chart_path": "charts/insider/BCML_P_20260731.png",
+    "pct_since": 2.1480497270723986,
+    "fired_at": "2026-08-03T15:44:35.363284"
+  },
+  "TSM_P_2026-07-28": {
+    "ticker": "TSM",
+    "company": "Taiwan Semiconductor Manufacturing Co Ltd",
+    "industry": "Semiconductors & Related Devices",
+    "num_insiders": 3,
+    "type": "P",
+    "price": 73.88,
+    "qty": 16025,
+    "dollar_value": 1183910.0,
+    "trade_date": "2026-07-28",
+    "category": "CLUSTER_BUY",
+    "link": "http://openinsider.com/screener?s=TSM",
+    "post_id": "TSM_P_2026-07-28",
+    "chart_path": "charts/insider/TSM_P_20260728.png",
+    "pct_since": 446.1085494557264,
+    "fired_at": "2026-08-03T15:44:35.363284"
+  },
+  "PFBX_P_2026-07-31": {
+    "ticker": "PFBX",
+    "company": "Peoples Financial Corp /Ms/",
+    "industry": "Stilwell Joseph",
+    "num_insiders": 0,
+    "type": "P",
+    "price": 22.25,
+    "qty": 42658,
+    "dollar_value": 949094.0,
+    "trade_date": "2026-07-31",
+    "category": "BIG_SALE",
+    "link": "http://openinsider.com/screener?s=PFBX",
+    "post_id": "PFBX_P_2026-07-31",
+    "chart_path": "charts/insider/PFBX_P_20260731.png",
+    "pct_since": 1.3483111778002106,
+    "fired_at": "2026-08-03T15:44:35.363284"
   }
 }
