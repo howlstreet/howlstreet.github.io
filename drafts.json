@@ -1,23 +1,80 @@
 [
   {
-    "id": "cbbd9b92",
+    "id": "70cb47c0",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "The U.S. Navy's escort signals potential regional stabilization, impacting market confidence and future maritime security dynamics.\n\nThe post US Navy escorts tankers through Strait of Hormuz amid 2026 crisis appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/us-navy-escorts-tankers-through-strait-of-hormuz-amid-2026-crisis/",
+    "draft_text": "The Dow Jones and S&P 500 both closed at record highs on Tuesday, driven by optimism over progress toward fully reopening the Strait of Hormuz.\n\nCrude fell roughly 5% amid diplomatic signals, easing inflationary pressure that had capped equities for months.\n\nThe Diplomatic Signals Behind Wall Street\u2019s Record Session The Strait of Hormuz is a The post Wall Street Closes at Records as the Strait of Hormuz Holds the Key: What\u2019s Next? appeared first on BeInCrypto.\n\nhttps://beincrypto.com/wall-street-records-strait-of-hormuz/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/us-navy-escorts-tankers-through-strait-of-hormuz-amid-2026-crisis/",
-    "source_title": "US Navy escorts tankers through Strait of Hormuz amid 2026 crisis",
-    "source_summary": "The U.S. Navy's escort signals potential regional stabilization, impacting market confidence and future maritime security dynamics. The post US Navy escorts tankers through Strait of Hormuz amid 2026 crisis appeared first on Crypto Briefing .",
-    "drafted_at": "2026-08-05T07:31:54.460230",
+    "primary_source": "BEINCRYPTO",
+    "source_url": "https://beincrypto.com/wall-street-records-strait-of-hormuz/",
+    "source_title": "Wall Street Closes at Records as the Strait of Hormuz Holds the Key: What\u2019s Next?",
+    "source_summary": "The Dow Jones and S&P 500 both closed at record highs on Tuesday, driven by optimism over progress toward fully reopening the Strait of Hormuz. Crude fell roughly 5% amid diplomatic signals, easing inflationary pressure that had capped equities for months. The Diplomatic Signals Behind Wall Street\u2019s Record Session The Strait of Hormuz is a The post Wall Street Closes at Records as the Strait of Ho",
+    "drafted_at": "2026-08-05T10:23:39.065191",
     "data": {
-      "source": "CRYPTO BRIEFING"
+      "source": "BEINCRYPTO"
     },
-    "content_hash": "65d870cceab67559"
+    "content_hash": "6da1303b5a81b9be"
   },
   {
-    "id": "88bbba1f",
+    "id": "295625d4",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Eyes up. S&P 500 just hit 7,736.52 \u2014 highest in 9+ years.\n\nThe benchmark of U.S. equities.\n\nWatched globally as the proxy for risk-on / risk-off.\n\nMulti-year high. The pack remembers what comes after these.\n\nhttps://finance.yahoo.com/quote/%5EGSPC",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Yahoo Finance \u00b7 ^GSPC",
+    "source_url": "https://finance.yahoo.com/quote/%5EGSPC",
+    "source_title": "S&P 500",
+    "source_summary": "The benchmark of U.S. equities. Watched globally as the proxy for risk-on / risk-off.",
+    "drafted_at": "2026-08-05T10:23:39.065496",
+    "data": {
+      "signal_id": "^GSPC:high:2026-08-04",
+      "kind": "high",
+      "current": "7,736.52"
+    },
+    "content_hash": "3fefe25d3b818aa2"
+  },
+  {
+    "id": "5f5525e9",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Eyes up. Dow just hit 54,085.88 \u2014 highest in 9+ years.\n\n30 large U.S. industrials.\n\nSlower-moving than the S&P but the headline number retail readers track.\n\nMulti-year high. The pack remembers what comes after these.\n\nhttps://finance.yahoo.com/quote/%5EDJI",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Yahoo Finance \u00b7 ^DJI",
+    "source_url": "https://finance.yahoo.com/quote/%5EDJI",
+    "source_title": "Dow Jones Industrial Average",
+    "source_summary": "30 large U.S. industrials. Slower-moving than the S&P but the headline number retail readers track.",
+    "drafted_at": "2026-08-05T10:23:39.065754",
+    "data": {
+      "signal_id": "^DJI:high:2026-08-04",
+      "kind": "high",
+      "current": "54,085.88"
+    },
+    "content_hash": "21c4cea90ac8748c"
+  },
+  {
+    "id": "e7b4f74e",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Skip the noise. Nasdaq climbs 6.4% in 5 sessions to 26,584.99.\n\nTech-heavy index.\n\nLeads risk appetite and is most sensitive to rate moves.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EIXIC",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Yahoo Finance \u00b7 ^IXIC",
+    "source_url": "https://finance.yahoo.com/quote/%5EIXIC",
+    "source_title": "Nasdaq Composite",
+    "source_summary": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
+    "drafted_at": "2026-08-05T10:23:39.065976",
+    "data": {
+      "signal_id": "^IXIC:move:2026-08-04",
+      "kind": "move_up",
+      "current": "26,584.99"
+    },
+    "content_hash": "ce08e8b71b40219b"
+  },
+  {
+    "id": "10ecddb4",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "I'll keep it short: VIX tumbles 13.1% in 5 sessions to 16.15.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
@@ -27,7 +84,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EVIX",
     "source_title": "VIX (S&P 500 volatility)",
     "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-08-05T07:31:54.460470",
+    "drafted_at": "2026-08-05T10:23:39.066236",
     "data": {
       "signal_id": "^VIX:move:2026-08-05",
       "kind": "move_down",
@@ -36,7 +93,7 @@
     "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "ebd6a7c3",
+    "id": "c682892f",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Whatever you're doing, stop and read this. VIX tumbles 11.2% in 5 sessions to 16.50.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
@@ -46,7 +103,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EVIX",
     "source_title": "VIX (S&P 500 volatility)",
     "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-08-05T07:31:54.460664",
+    "drafted_at": "2026-08-05T10:23:39.066487",
     "data": {
       "signal_id": "^VIX:move:2026-08-04",
       "kind": "move_down",
@@ -55,81 +112,7 @@
     "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "9058dd9f",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "I don't say this often, but pay attention: WTI crude craters 15.9% in 5 sessions to $75.15.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "NYMEX \u00b7 CL=F",
-    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
-    "source_title": "WTI crude oil futures",
-    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-08-05T07:31:54.460881",
-    "data": {
-      "signal_id": "CL=F:move:2026-08-05",
-      "kind": "move_down",
-      "current": "$75.15"
-    },
-    "content_hash": "c272de0720a2f459"
-  },
-  {
-    "id": "e6fc6532",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "You blink, you miss this: WTI crude craters 15.9% in 5 sessions to $75.12.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "NYMEX \u00b7 CL=F",
-    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
-    "source_title": "WTI crude oil futures",
-    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-08-05T07:31:54.461068",
-    "data": {
-      "signal_id": "CL=F:move:2026-08-04",
-      "kind": "move_down",
-      "current": "$75.12"
-    },
-    "content_hash": "c272de0720a2f459"
-  },
-  {
-    "id": "f4384a54",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "Skip the noise. Nasdaq climbs 5.8% in 5 sessions to 26,412.98.\n\nTech-heavy index.\n\nLeads risk appetite and is most sensitive to rate moves.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EIXIC",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Yahoo Finance \u00b7 ^IXIC",
-    "source_url": "https://finance.yahoo.com/quote/%5EIXIC",
-    "source_title": "Nasdaq Composite",
-    "source_summary": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
-    "drafted_at": "2026-08-05T07:31:54.461230",
-    "data": {
-      "signal_id": "^IXIC:move:2026-08-04",
-      "kind": "move_up",
-      "current": "26,412.98"
-    },
-    "content_hash": "ce08e8b71b40219b"
-  },
-  {
-    "id": "9068b001",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "BOE DESK: A halt in QT by the BoE could shift global market dynamics, affecting asset prices and potentially boosting cryptocurrency valuations.\n\nThe post Bank of England considers ending quantitative tightening: FT appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/bank-of-england-considers-ending-quantitative-tightening-ft/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Bank of England",
-    "source_url": "https://cryptobriefing.com/bank-of-england-considers-ending-quantitative-tightening-ft/",
-    "source_title": "Bank of England considers ending quantitative tightening: FT",
-    "source_summary": "A halt in QT by the BoE could shift global market dynamics, affecting asset prices and potentially boosting cryptocurrency valuations. The post Bank of England considers ending quantitative tightening: FT appeared first on Crypto Briefing .",
-    "drafted_at": "2026-08-05T07:31:54.470361",
-    "data": {
-      "actor": "Bank of England"
-    },
-    "content_hash": "437374227020dafa"
-  },
-  {
-    "id": "349eced2",
+    "id": "64a0231f",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Powell on the wire. It addresses unnecessary applications of the rule to passive interests in companies held by investment funds, codifies other statutory requirements, incorporates long-standing regulatory interpretations, and simplifies the application of the rule.\n\nRegulation O has not been comprehensively updated since 1979.\n\nThe rule addresses a unique challenge for community banks, where board members and executives are often local business owners and civic leaders who provide valuable perspective and expertise to bank governance and information on the local economy.\n\nThe proposal updates dollar-based thresholds and indexes them to economic growth going forward.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731b.htm",
@@ -139,14 +122,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731b.htm",
     "source_title": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"\u2014bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
     "source_summary": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"\u2014bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
-    "drafted_at": "2026-08-05T07:31:54.471340",
+    "drafted_at": "2026-08-05T10:23:39.077250",
     "data": {
       "actor": "FED"
     },
     "content_hash": "4057886fa20ad5ad"
   },
   {
-    "id": "f78b6308",
+    "id": "84cf4d3b",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FOMC update. The Board assumed regulatory and supervisory authority over mutual banks from the Office of Thrift Supervision in 2011.\n\nThe rules governing these banks were first established in 1993.\n\nThey have not been updated and have proven over time to be overly burdensome and complex.\n\n\"Today's proposal is another important step in our work to modernize the bank regulatory framework by updating mutual bank regulations for the first time in 30 years.\n\nThe continued success of this model contributes to the institutional diversity of the U.S. banking system, which is one of the greatest strengths of our financial system,\" said Vice Chair for Supervision Michelle W.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731a.htm",
@@ -156,14 +139,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731a.htm",
     "source_title": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
     "source_summary": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
-    "drafted_at": "2026-08-05T07:31:54.472169",
+    "drafted_at": "2026-08-05T10:23:39.078190",
     "data": {
       "actor": "FED"
     },
     "content_hash": "1672ee5ef82f19a2"
   },
   {
-    "id": "326df8e7",
+    "id": "624ff505",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "POWELL POSTCARD: Consent prohibition order against Ralph A.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730a.htm",
@@ -173,14 +156,34 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730a.htm",
     "source_title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank",
     "source_summary": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank",
-    "drafted_at": "2026-08-05T07:31:54.472310",
+    "drafted_at": "2026-08-05T10:23:39.078351",
     "data": {
       "actor": "FED"
     },
     "content_hash": "23feb4de7d35586a"
   },
   {
-    "id": "5ec7f764",
+    "id": "2698f5f8",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$BYRN \u2014 4 company insiders bought $282,807 on Jul 24.\n\nByrna Technologies Inc. 80,939 shares at $3.49.\n\nStock is +35.8% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/BYRN_P_20260724.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=BYRN",
+    "source_title": "Byrna Technologies Inc. (BYRN) insider bought $282,807",
+    "source_summary": "4 insider(s) bought 80,939 shares at $3.49 on 2026-07-24.",
+    "drafted_at": "2026-08-05T10:23:39.078615",
+    "data": {
+      "ticker": "BYRN",
+      "type": "P",
+      "dollar_value": 282807.0,
+      "pct_since": 35.816612352955985
+    },
+    "content_hash": "15b70de234b7c133"
+  },
+  {
+    "id": "c2c3c66e",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$EWAV \u2014 a company insider bought $10.9M on Jul 31.\n\nEast West Ave Acquisition Corp. 1,087,000 shares at $10.00.\n\nStock is +0.0% since the purchase. This is a public SEC Form 4 filing.\n\nhttp://openinsider.com/screener?s=EWAV",
@@ -190,7 +193,7 @@
     "source_url": "http://openinsider.com/screener?s=EWAV",
     "source_title": "East West Ave Acquisition Corp. (EWAV) insider bought $10.9M",
     "source_summary": "1 insider(s) bought 1,087,000 shares at $10.00 on 2026-07-31.",
-    "drafted_at": "2026-08-05T07:31:54.472503",
+    "drafted_at": "2026-08-05T10:23:39.078774",
     "data": {
       "ticker": "EWAV",
       "type": "P",
@@ -200,7 +203,7 @@
     "content_hash": "34b477156894a6e7"
   },
   {
-    "id": "e37331a2",
+    "id": "bc2e9f24",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$BRTMU \u2014 a company insider bought $6.9M on Jul 22.\n\nB&R Technology Merger Corp. 687,500 shares at $10.00.\n\nStock is -0.4% since the purchase. This is a public SEC Form 4 filing.",
@@ -210,7 +213,7 @@
     "source_url": "http://openinsider.com/screener?s=BRTMU",
     "source_title": "B&R Technology Merger Corp. (BRTMU) insider bought $6.9M",
     "source_summary": "1 insider(s) bought 687,500 shares at $10.00 on 2026-07-22.",
-    "drafted_at": "2026-08-05T07:31:54.472691",
+    "drafted_at": "2026-08-05T10:23:39.078936",
     "data": {
       "ticker": "BRTMU",
       "type": "P",
@@ -220,7 +223,7 @@
     "content_hash": "a940a58bdf268d0b"
   },
   {
-    "id": "580d0a38",
+    "id": "cbee4e16",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$SCTX \u2014 6 company insiders bought $71.3M on Jul 23.\n\nScribe Therapeutics, Inc. 4,730,237 shares at $15.08.\n\nStock is +46.3% since the purchase. This is a public SEC Form 4 filing.",
@@ -230,7 +233,7 @@
     "source_url": "http://openinsider.com/screener?s=SCTX",
     "source_title": "Scribe Therapeutics, Inc. (SCTX) insider bought $71.3M",
     "source_summary": "6 insider(s) bought 4,730,237 shares at $15.08 on 2026-07-23.",
-    "drafted_at": "2026-08-05T07:31:54.472841",
+    "drafted_at": "2026-08-05T10:23:39.079131",
     "data": {
       "ticker": "SCTX",
       "type": "P",
@@ -240,7 +243,7 @@
     "content_hash": "b85b72a5eaea87e1"
   },
   {
-    "id": "6a6ca690",
+    "id": "8ebd7fbb",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$RBKB \u2014 4 company insiders bought $656,409 on Jul 22.\n\nRhinebeck Bancorp, Inc. 54,925 shares at $11.95.\n\nStock is +0.3% since the purchase. This is a public SEC Form 4 filing.",
@@ -250,7 +253,7 @@
     "source_url": "http://openinsider.com/screener?s=RBKB",
     "source_title": "Rhinebeck Bancorp, Inc. (RBKB) insider bought $656,409",
     "source_summary": "4 insider(s) bought 54,925 shares at $11.95 on 2026-07-22.",
-    "drafted_at": "2026-08-05T07:31:54.472985",
+    "drafted_at": "2026-08-05T10:23:39.079293",
     "data": {
       "ticker": "RBKB",
       "type": "P",
@@ -260,27 +263,75 @@
     "content_hash": "35aa3c8203c69de7"
   },
   {
-    "id": "fdb810ba",
-    "format": "CORRUPTION_WATCH_INSIDER",
+    "id": "b573726c",
+    "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "$CVNA \u2014 a company insider bought $1.5M on Jul 31.\n\nCarvana Co. 25,000 shares at $61.80.\n\nStock is +10.1% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/CVNA_P_20260731.png",
+    "draft_text": "Expansion reflects a shift from day-zero verification to ongoing recognition, replacing traditional ID scans to radically boost conversion rates, reduce friction and fraud, and build trust with every interaction SUNNYVALE, Calif. \u2014 Jumio, the leading provider of AI-powered identity intelligence, today announced the launch of its reusable identity solution, selfie.DONE, across North America.\n\nhttps://financialpost.com/pmn/business-wire-news-releases-pmn/jumios-selfie-done-eliminates-the-id-scan-for-trusted-users-in-north-america",
+    "image_path": null,
     "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=CVNA",
-    "source_title": "Carvana Co. (CVNA) insider bought $1.5M",
-    "source_summary": "1 insider(s) bought 25,000 shares at $61.80 on 2026-07-31.",
-    "drafted_at": "2026-08-05T07:31:54.473133",
+    "primary_source": "FINANCIAL POST",
+    "source_url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/jumios-selfie-done-eliminates-the-id-scan-for-trusted-users-in-north-america",
+    "source_title": "Jumio\u2019s selfie.DONE\u2122 Eliminates the ID Scan for Trusted Users in North America",
+    "source_summary": "Expansion reflects a shift from day-zero verification to ongoing recognition, replacing traditional ID scans to radically boost conversion rates, reduce friction and fraud, and build trust with every interaction SUNNYVALE, Calif. \u2014 Jumio, the leading provider of AI-powered identity intelligence, today announced the launch of its reusable identity solution, selfie.DONE, across North America. This e",
+    "drafted_at": "2026-08-05T10:23:39.082522",
     "data": {
-      "ticker": "CVNA",
-      "type": "P",
-      "dollar_value": 1544981.0,
-      "pct_since": 10.080904173619544
+      "source": "FINANCIAL POST"
     },
-    "content_hash": "6afcfdeda557f74f"
+    "content_hash": "40c4af0f7bd61f9a"
   },
   {
-    "id": "cab53ab4",
+    "id": "aa19988f",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "The post James Talarico Accused Ken Paxton of Voter Fraud.\n\nHis Own Voter Registration Is Raising Questions. appeared first on ProPublica.\n\nhttps://www.propublica.org/article/james-talarico-texas-election-law-ken-paxton",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "PROPUBLICA",
+    "source_url": "https://www.propublica.org/article/james-talarico-texas-election-law-ken-paxton",
+    "source_title": "James Talarico Accused Ken Paxton of Voter Fraud. His Own Voter Registration Is Raising Questions.",
+    "source_summary": "The post James Talarico Accused Ken Paxton of Voter Fraud. His Own Voter Registration Is Raising Questions. appeared first on ProPublica .",
+    "drafted_at": "2026-08-05T10:23:39.082680",
+    "data": {
+      "source": "PROPUBLICA"
+    },
+    "content_hash": "350cb4f9de089ef8"
+  },
+  {
+    "id": "b95515ad",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "US prosecutors have charged three Missouri men for allegedly joining a 2024 plot to rob a Connecticut man of hundreds of millions of dollars in stolen Bitcoin (BTC) by threatening his family.\n\nThe US Attorney\u2019s Office for the District of Connecticut announced the indictment on August 4.\n\nSedric Louis, 32, John Davis, 34, and Martel The post US Charges 3 Men in Failed Bitcoin Robbery Tied to Crypto Theft appeared first on BeInCrypto.\n\nhttps://beincrypto.com/missouri-men-bitcoin-robbery-charges/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "BEINCRYPTO",
+    "source_url": "https://beincrypto.com/missouri-men-bitcoin-robbery-charges/",
+    "source_title": "US Charges 3 Men in Failed Bitcoin Robbery Tied to Crypto Theft",
+    "source_summary": "US prosecutors have charged three Missouri men for allegedly joining a 2024 plot to rob a Connecticut man of hundreds of millions of dollars in stolen Bitcoin (BTC) by threatening his family. The US Attorney\u2019s Office for the District of Connecticut announced the indictment on August 4. Sedric Louis, 32, John Davis, 34, and Martel The post US Charges 3 Men in Failed Bitcoin Robbery Tied to Crypto T",
+    "drafted_at": "2026-08-05T10:23:39.083122",
+    "data": {
+      "source": "BEINCRYPTO"
+    },
+    "content_hash": "a9826e5713643a08"
+  },
+  {
+    "id": "7088bdba",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Walters said the team used its remaining treasury and available funds to settle the class action lawsuit represented by Burwick Law.\n\nhttps://www.theblock.co/post/410774/eliza-labs-native-token-dead?utm_source=rss&utm_medium=rss",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "THE BLOCK",
+    "source_url": "https://www.theblock.co/post/410774/eliza-labs-native-token-dead?utm_source=rss&utm_medium=rss",
+    "source_title": "Eliza Labs founder declares native token \u2018dead,\u2019 winds down foundation after Burwick Law settlement",
+    "source_summary": "Walters said the team used its remaining treasury and available funds to settle the class action lawsuit represented by Burwick Law.",
+    "drafted_at": "2026-08-05T10:23:39.083274",
+    "data": {
+      "source": "THE BLOCK"
+    },
+    "content_hash": "94c8433eaf6622bd"
+  },
+  {
+    "id": "7d72a2db",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "An ICIJ analysis found that at least 11 firms received roughly $10 million in 2025 after opaque deals and seizures reshaped their ownership.\n\nhttps://www.icij.org/investigations/damascus-dossier/companies-once-tied-to-assad-kept-winning-un-contracts-under-syrias-new-rulers/",
@@ -290,82 +341,14 @@
     "source_url": "https://www.icij.org/investigations/damascus-dossier/companies-once-tied-to-assad-kept-winning-un-contracts-under-syrias-new-rulers/",
     "source_title": "Companies once tied to Assad kept winning UN contracts under Syria\u2019s new rulers",
     "source_summary": "An ICIJ analysis found that at least 11 firms received roughly $10 million in 2025 after opaque deals and seizures reshaped their ownership.",
-    "drafted_at": "2026-08-05T07:31:54.475701",
+    "drafted_at": "2026-08-05T10:23:39.083431",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "8f611edb38e93fe5"
   },
   {
-    "id": "dc31b2dc",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Bitcoin Magazine FBI Agent Accused of $1 Million Crypto Theft From \u2018Adversarial Nation\u2019 Court documents allege that Patrick Steven Yaroch was planning on going abroad with the stolen crypto.\n\nThis post FBI Agent Accused of $1 Million Crypto Theft From \u2018Adversarial Nation\u2019 first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.\n\nhttps://bitcoinmagazine.com/news/fbi-agent-accused-of-1million-crypto-theft",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "BITCOIN MAG",
-    "source_url": "https://bitcoinmagazine.com/news/fbi-agent-accused-of-1million-crypto-theft",
-    "source_title": "FBI Agent Accused of $1 Million Crypto Theft From \u2018Adversarial Nation\u2019",
-    "source_summary": "Bitcoin Magazine FBI Agent Accused of $1 Million Crypto Theft From \u2018Adversarial Nation\u2019 Court documents allege that Patrick Steven Yaroch was planning on going abroad with the stolen crypto. This post FBI Agent Accused of $1 Million Crypto Theft From \u2018Adversarial Nation\u2019 first appeared on Bitcoin Magazine and is written by Mathew Di Salvo .",
-    "drafted_at": "2026-08-05T07:31:54.476021",
-    "data": {
-      "source": "BITCOIN MAG"
-    },
-    "content_hash": "56747ed75b1d51f6"
-  },
-  {
-    "id": "d270345e",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Hong Kong, Macau police arrest 8 over HK$100m Vietnam coffee investment scam South China Morning Post\n\nhttps://news.google.com/rss/articles/CBMi1wFBVV95cUxOcFFDQ2MxSnk1TWVCV1NmMDQ2X0ctU2NFdGlOVmFrY09SSDZ1a3ZKM0p2TmRqcnBzM3VIYlQtazZyOWJxekVvQ2hhc0NRak9zeTZkbXJCczB2TUFwc0pmQkROQ3ctWkRacnZ6MjF6QVRIZHE1S3IwQ3JrQlZWb0wwV21RbHB5UjdLNzlVUGFGQVFWV3J2TkhMMDN3ZlBPdDlOQ0M2bF9HODQwN2t0TVp2eUUwWG83aVlWSUJQcnBoU3hybU5rVm5WM2lrMll2b2pqNVFqcmdZc9IB1wFBVV95cUxNQkFVTUtIYnFZb2xYLVlIeG9fSm5lNHpSdi0tMmhWeDFyWG4xMUlyNnpSdXZ0enVuQ1k0WGNyMkJtd3FGeUhlRjUtRVU3bm11SFNqLUJFczhKendyaXpkTUw3NUJtZ050bGcwc2g4aEQ4TXlBRS1oYmZQaDd3VGI0SXZCWXBnUHhRMUs1bUlLcnd1SGV5cTVnTjhrN2RmNTJSNVBweUNxZXJFMUFyUlZBUGhqQzk1QXhIWEJHRWh0RFlXWDdhNjdINEU4YVkyelJNQ0o5a0k2WQ?oc=5",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "SCMP",
-    "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcFFDQ2MxSnk1TWVCV1NmMDQ2X0ctU2NFdGlOVmFrY09SSDZ1a3ZKM0p2TmRqcnBzM3VIYlQtazZyOWJxekVvQ2hhc0NRak9zeTZkbXJCczB2TUFwc0pmQkROQ3ctWkRacnZ6MjF6QVRIZHE1S3IwQ3JrQlZWb0wwV21RbHB5UjdLNzlVUGFGQVFWV3J2TkhMMDN3ZlBPdDlOQ0M2bF9HODQwN2t0TVp2eUUwWG83aVlWSUJQcnBoU3hybU5rVm5WM2lrMll2b2pqNVFqcmdZc9IB1wFBVV95cUxNQkFVTUtIYnFZb2xYLVlIeG9fSm5lNHpSdi0tMmhWeDFyWG4xMUlyNnpSdXZ0enVuQ1k0WGNyMkJtd3FGeUhlRjUtRVU3bm11SFNqLUJFczhKendyaXpkTUw3NUJtZ050bGcwc2g4aEQ4TXlBRS1oYmZQaDd3VGI0SXZCWXBnUHhRMUs1bUlLcnd1SGV5cTVnTjhrN2RmNTJSNVBweUNxZXJFMUFyUlZBUGhqQzk1QXhIWEJHRWh0RFlXWDdhNjdINEU4YVkyelJNQ0o5a0k2WQ?oc=5",
-    "source_title": "Hong Kong, Macau police arrest 8 over HK$100m Vietnam coffee investment scam",
-    "source_summary": "Hong Kong, Macau police arrest 8 over HK$100m Vietnam coffee investment scam South China Morning Post",
-    "drafted_at": "2026-08-05T07:31:54.476137",
-    "data": {
-      "source": "SCMP"
-    },
-    "content_hash": "fe20b4d93331f3a0"
-  },
-  {
-    "id": "5c17c079",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "The exchange is rapidly generating new accounts in a way that can confuse authorities and compliance officials, experts told ICIJ.\n\nhttps://www.icij.org/investigations/coin-laundry/europe-sanctioned-crypto-exchange-htx-experts-say-the-firm-is-deploying-tactics-that-could-blunt-the-impact/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "ICIJ",
-    "source_url": "https://www.icij.org/investigations/coin-laundry/europe-sanctioned-crypto-exchange-htx-experts-say-the-firm-is-deploying-tactics-that-could-blunt-the-impact/",
-    "source_title": "Europe sanctioned crypto exchange HTX. Experts say the firm is deploying tactics that could blunt the impact.",
-    "source_summary": "The exchange is rapidly generating new accounts in a way that can confuse authorities and compliance officials, experts told ICIJ.",
-    "drafted_at": "2026-08-05T07:31:54.476286",
-    "data": {
-      "source": "ICIJ"
-    },
-    "content_hash": "3709a6f20adf85ef"
-  },
-  {
-    "id": "302af2ca",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Women on four continents told ICIJ that global pay-per-action dating sites owned by a Russian businessman and self-styled philosopher left them financially broke and heartbroken.\n\nhttps://www.icij.org/news/2026/07/dating-app-scam-models-influencers-social-discovery-group/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "ICIJ",
-    "source_url": "https://www.icij.org/news/2026/07/dating-app-scam-models-influencers-social-discovery-group/",
-    "source_title": "Inside the Matrix: How models, influencers and engagement quotas power the Social Discovery Group\u2019s dating machine and global profits",
-    "source_summary": "Women on four continents told ICIJ that global pay-per-action dating sites owned by a Russian businessman and self-styled philosopher left them financially broke and heartbroken.",
-    "drafted_at": "2026-08-05T07:31:54.476450",
-    "data": {
-      "source": "ICIJ"
-    },
-    "content_hash": "b0972ed90c219ce4"
-  },
-  {
-    "id": "6b0f6b94",
+    "id": "98550b22",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "6 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 David J. Taylor (R)\n\u2022 John Boozman (R)\n\u2022 Cleo Fields (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 John Fetterman (D)\n\u2022 John McGuire (R)\n\nLargest disclosed here: David J. Taylor, $1,001 - $15,000 on Feb 26.\n\nPrice since the first buy in this group: +22.7%.\n\nSTOCK Act disclosures. Public record.",
@@ -375,7 +358,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034138.pdf",
     "source_title": "6 Congress members bought $MSFT",
     "source_summary": "6 politicians bought $MSFT; largest $1,001 - $15,000 by David J. Taylor.",
-    "drafted_at": "2026-08-05T07:31:54.477190",
+    "drafted_at": "2026-08-05T10:23:39.085066",
     "data": {
       "ticker": "MSFT",
       "member_count": 6,
@@ -384,7 +367,7 @@
     "content_hash": "7c24415ac3c0b542"
   },
   {
-    "id": "cbc8529f",
+    "id": "61dfb9d9",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "5 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Markwayne Mullin (D)\n\u2022 Josh Gottheimer (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Markwayne Mullin, $50,001 - $100,000 on Feb 25.\n\nPrice since the first buy in this group: +51.8%.\n\nSTOCK Act disclosures. Public record.",
@@ -394,7 +377,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/f586922d-6083-44e5-8a32-769290389416/",
     "source_title": "5 Congress members bought $UNH",
     "source_summary": "5 politicians bought $UNH; largest $50,001 - $100,000 by Markwayne Mullin.",
-    "drafted_at": "2026-08-05T07:31:54.477446",
+    "drafted_at": "2026-08-05T10:23:39.085354",
     "data": {
       "ticker": "UNH",
       "member_count": 5,
@@ -403,7 +386,7 @@
     "content_hash": "7cbacf41d412a41b"
   },
   {
-    "id": "5d1f45d4",
+    "id": "7dcbe016",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $HD this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Lloyd Doggett (D)\n\u2022 Jared Moskowitz (D)\n\nLargest disclosed here: Richard Dean Dr McCormick, $1,001 - $15,000 on Mar 19.\n\nPrice since the first buy in this group: +6.1%.\n\nSTOCK Act disclosures. Public record.",
@@ -413,7 +396,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033648.pdf",
     "source_title": "3 Congress members bought $HD",
     "source_summary": "3 politicians bought $HD; largest $1,001 - $15,000 by Richard Dean Dr McCormick.",
-    "drafted_at": "2026-08-05T07:31:54.477666",
+    "drafted_at": "2026-08-05T10:23:39.085603",
     "data": {
       "ticker": "HD",
       "member_count": 3,
@@ -422,7 +405,7 @@
     "content_hash": "8c0eaad1e4da4036"
   },
   {
-    "id": "b1b17470",
+    "id": "bff10a9e",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $TSM this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard W. Allen (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Cleo Fields (D)\n\nLargest disclosed here: Richard W. Allen, $1,001 - $15,000 on Feb 19.\n\nPrice since the first buy in this group: +15.8%.\n\nSTOCK Act disclosures. Public record.",
@@ -432,7 +415,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034133.pdf",
     "source_title": "3 Congress members bought $TSM",
     "source_summary": "3 politicians bought $TSM; largest $1,001 - $15,000 by Richard W. Allen.",
-    "drafted_at": "2026-08-05T07:31:54.477877",
+    "drafted_at": "2026-08-05T10:23:39.085841",
     "data": {
       "ticker": "TSM",
       "member_count": 3,
@@ -441,7 +424,7 @@
     "content_hash": "5d9078569296551f"
   },
   {
-    "id": "626728e6",
+    "id": "67891819",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Richard Dean Dr McCormick, $1,001 - $15,000 on Mar 19.\n\nPrice since the first buy in this group: +48.3%.\n\nSTOCK Act disclosures. Public record.",
@@ -451,7 +434,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033648.pdf",
     "source_title": "3 Congress members bought $UNH",
     "source_summary": "3 politicians bought $UNH; largest $1,001 - $15,000 by Richard Dean Dr McCormick.",
-    "drafted_at": "2026-08-05T07:31:54.478112",
+    "drafted_at": "2026-08-05T10:23:39.086102",
     "data": {
       "ticker": "UNH",
       "member_count": 3,
@@ -460,7 +443,7 @@
     "content_hash": "ef6027c31bcd522a"
   },
   {
-    "id": "4377279f",
+    "id": "332cb336",
     "format": "GLOBAL_DESK",
     "status": "pending",
     "draft_text": "PACK BRIEFING \u2014 ASIA: EDX Markets, an institutional-only crypto trading venue with its own central clearinghouse, closed a $76 million Series C funding round led by SBI Holdings, the firm said in a press release.\n\nThe Tokyo-listed financial group becomes a strategic investor in the U.S. exchange.\n\nhttps://thedefiant.io/converge/tradfi-and-fintech/edx-markets-closes-76m-series-c-led-by-sbi-holdings",
@@ -470,116 +453,133 @@
     "source_url": "https://thedefiant.io/converge/tradfi-and-fintech/edx-markets-closes-76m-series-c-led-by-sbi-holdings",
     "source_title": "EDX Markets Closes $76M Series C Led by SBI Holdings",
     "source_summary": "EDX Markets, an institutional-only crypto trading venue with its own central clearinghouse, closed a $76 million Series C funding round led by SBI Holdings, the firm said in a press release. The Tokyo-listed financial group becomes a strategic investor in the U.S. exchange. The capital will fund\u2026",
-    "drafted_at": "2026-08-05T07:31:54.479197",
+    "drafted_at": "2026-08-05T10:23:39.087353",
     "data": {
       "source": "THE DEFIANT"
     },
     "content_hash": "766a40daeebddf43"
   },
   {
-    "id": "03923a5b",
+    "id": "24740ca3",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From Brussels and beyond: July services PMI 58.3 vs 54.9 expected Prior 54.2 July composite PMI 56.5 Prior 53.3 That's quite the beat with Spain services activity growing strongly in July, with the headline estimate being the highest since March 2023.\n\nMarket demand was widely reported to have improved while price pressures did show further signs of easing for the most part.\n\nNew business growth played a key role in the latest uplift with new work rising by the greatest degree since January last year.\n\nHowever, growth was primarily driven by the domestic market as new export work rose only modestly and at a rate well below that of total new work.\n\nOn the price front, input price inflation fell further in July for a second successive month to the lowest since February.\n\nThat being said, there remained plenty of reports amongst service providers of higher energy and fuel prices on the month - albeit lower than those reported in June.\n\nAll in all, it's a solid report and will cast aside any worries of stagflation pressures for the Spanish economy.\n\nAs it has been over the years, Spain remains one of Europe's brighter spots in terms of economic showing despite the trials and tribulations across the region.\n\nhttps://investinglive.com/news/spain-july-services-pmi-vs-54-9-expected/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/spain-july-services-pmi-vs-54-9-expected/",
-    "source_title": "Spain's services sector continues to impress as business activity rose markedly in July",
-    "source_summary": "July services PMI 58.3 vs 54.9 expected Prior 54.2 July composite PMI 56.5 Prior 53.3 That's quite the beat with Spain services activity growing strongly in July, with the headline estimate being the highest since March 2023. Market demand was widely reported to have improved while price pressures did show further signs of easing for the most part. New business growth played a key role in the late",
-    "drafted_at": "2026-08-05T07:31:54.481239",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "cdf4e521ca7f526a"
-  },
-  {
-    "id": "ab888c23",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Mainland wire: China has partially lifted fuel export restrictions imposed earlier this year, allowing refiners to export 2.7 million tons of oil derivatives to destinations excluding Hong Kong and Macau, Reuters has reported, citing unnamed sources with knowledge of the matter.\n\nThe temporary easing of export caps will be in effect this month, but refiners would also be allowed to roll some of the volumes over to September if they fail to secure purchase deals for the whole allotment.\n\nThe new export quotas cover gasoline, diesel fuel, and jet fuel.\n\nhttps://oilprice.com/Latest-Energy-News/World-News/China-Eases-Fuel-Export-Curbs-as-Global-Supply-Crunch-Deepens.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "OILPRICE",
-    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/China-Eases-Fuel-Export-Curbs-as-Global-Supply-Crunch-Deepens.html",
-    "source_title": "China Eases Fuel Export Curbs as Global Supply Crunch Deepens",
-    "source_summary": "China has partially lifted fuel export restrictions imposed earlier this year, allowing refiners to export 2.7 million tons of oil derivatives to destinations excluding Hong Kong and Macau, Reuters has reported, citing unnamed sources with knowledge of the matter. The temporary easing of export caps will be in effect this month, but refiners would also be allowed to roll some of the volumes over t",
-    "drafted_at": "2026-08-05T07:31:54.481674",
-    "data": {
-      "source": "OILPRICE"
-    },
-    "content_hash": "4dbb47277090aa9e"
-  },
-  {
-    "id": "1207be67",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "From Tokyo to Hong Kong: The British Pound (GBP) claws back its early losses against the Japanese Yen (JPY) and edges higher to near 212.25 during the European trading session on Wednesday.\n\nhttps://www.fxstreet.com/news/experts-agree-us-japan-intervention-to-boost-yen-wont-last-long-202608050712",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/experts-agree-us-japan-intervention-to-boost-yen-wont-last-long-202608050712",
-    "source_title": "Experts agree: US-Japan intervention to boost Yen won't last long",
-    "source_summary": "The British Pound (GBP) claws back its early losses against the Japanese Yen (JPY) and edges higher to near 212.25 during the European trading session on Wednesday.",
-    "drafted_at": "2026-08-05T07:31:54.481888",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "3c74893bb33ebe5c"
-  },
-  {
-    "id": "a8a6942e",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "GLOBAL DESK: The U.S. Navy's escort signals potential regional stabilization, impacting market confidence and future maritime security dynamics.\n\nThe post US Navy escorts tankers through Strait of Hormuz amid 2026 crisis appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/us-navy-escorts-tankers-through-strait-of-hormuz-amid-2026-crisis/",
+    "draft_text": "From the international wire: AI startups' rapid valuation growth and IPO pursuits highlight shifting investor focus from crypto to AI, influencing tech market dynamics.\n\nThe post Vast targets $2B valuation with Alibaba backing as AI startups outpace crypto for investor attention appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/vast-2b-valuation-alibaba-ai-ipo/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/us-navy-escorts-tankers-through-strait-of-hormuz-amid-2026-crisis/",
-    "source_title": "US Navy escorts tankers through Strait of Hormuz amid 2026 crisis",
-    "source_summary": "The U.S. Navy's escort signals potential regional stabilization, impacting market confidence and future maritime security dynamics. The post US Navy escorts tankers through Strait of Hormuz amid 2026 crisis appeared first on Crypto Briefing .",
-    "drafted_at": "2026-08-05T07:31:54.482203",
+    "source_url": "https://cryptobriefing.com/vast-2b-valuation-alibaba-ai-ipo/",
+    "source_title": "Vast targets $2B valuation with Alibaba backing as AI startups outpace crypto for investor attention",
+    "source_summary": "AI startups' rapid valuation growth and IPO pursuits highlight shifting investor focus from crypto to AI, influencing tech market dynamics. The post Vast targets $2B valuation with Alibaba backing as AI startups outpace crypto for investor attention appeared first on Crypto Briefing .",
+    "drafted_at": "2026-08-05T10:23:39.087809",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "65d870cceab67559"
+    "content_hash": "fb34abca699c09c2"
   },
   {
-    "id": "cf746239",
+    "id": "0faafc74",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Levant update: The Houthi blockade heightens geopolitical tensions, impacting global oil prices and crypto markets, potentially prompting stricter regulations.\n\nThe post Houthi militants threaten Saudi oil tankers in Red Sea, sending oil past $100 and rattling crypto markets appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/houthi-saudi-oil-tanker-threat-crypto-impact/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/houthi-saudi-oil-tanker-threat-crypto-impact/",
+    "source_title": "Houthi militants threaten Saudi oil tankers in Red Sea, sending oil past $100 and rattling crypto markets",
+    "source_summary": "The Houthi blockade heightens geopolitical tensions, impacting global oil prices and crypto markets, potentially prompting stricter regulations. The post Houthi militants threaten Saudi oil tankers in Red Sea, sending oil past $100 and rattling crypto markets appeared first on Crypto Briefing .",
+    "drafted_at": "2026-08-05T10:23:39.088228",
+    "data": {
+      "source": "CRYPTO BRIEFING"
+    },
+    "content_hash": "535ff9fd9aa95fc7"
+  },
+  {
+    "id": "3dd87272",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "CHINA DESK: 05, 2026 (GLOBE NEWSWIRE) -- H World Group Limited (NASDAQ: HTHT and HKEX: 1179) (\u201cH World\u201d, \u201cwe\u201d or \u201cour\u201d) a key player in the global hotel industry, today announced that it will schedule to release its unaudited financial results for the second quarter and interim of 2026 on Monday, August 17, 2026 (Hong Kong time), after the trading hours of The Stock Exchange of Hong Kong Limited and before the opening of the U.S. market.\n\nhttps://www.globenewswire.com/news-release/2026/08/05/3339107/19355/en/H-World-Group-Limited-Schedules-Second-Quarter-and-Interim-of-2026-Earnings-Release-on-August-17-2026.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "GLOBENEWSWIRE",
+    "source_url": "https://www.globenewswire.com/news-release/2026/08/05/3339107/19355/en/H-World-Group-Limited-Schedules-Second-Quarter-and-Interim-of-2026-Earnings-Release-on-August-17-2026.html",
+    "source_title": "H World Group Limited Schedules Second Quarter and Interim of 2026 Earnings Release on August 17, 2026",
+    "source_summary": "SINGAPORE and SHANGHAI, Aug. 05, 2026 (GLOBE NEWSWIRE) -- H World Group Limited (NASDAQ: HTHT and HKEX: 1179) (\u201cH World\u201d, \u201cwe\u201d or \u201cour\u201d) a key player in the global hotel industry, today announced that it will schedule to release its unaudited financial results for the second quarter and interim of 2026 on Monday, August 17, 2026 (Hong Kong time), after the trading hours of The Stock Exchange of Ho",
+    "drafted_at": "2026-08-05T10:23:39.088757",
+    "data": {
+      "source": "GLOBENEWSWIRE"
+    },
+    "content_hash": "7f5d4e9b5faf2fb0"
+  },
+  {
+    "id": "4ae4cd71",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "GLOBAL DESK: Monsoon downpours cause floods and landslides as climate change and El Nino disrupt rainfall patterns.\n\nhttps://www.aljazeera.com/news/2026/8/5/indias-severe-monsoon-season-causes-more-than-100-deaths-since-july?traffic_source=rss",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "AL JAZEERA",
+    "source_url": "https://www.aljazeera.com/news/2026/8/5/indias-severe-monsoon-season-causes-more-than-100-deaths-since-july?traffic_source=rss",
+    "source_title": "India\u2019s severe monsoon season causes more than 100 deaths since July",
+    "source_summary": "Monsoon downpours cause floods and landslides as climate change and El Nino disrupt rainfall patterns.",
+    "drafted_at": "2026-08-05T10:23:39.089941",
+    "data": {
+      "source": "AL JAZEERA"
+    },
+    "content_hash": "3999d500186b766c"
+  },
+  {
+    "id": "c0734ee4",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "INFLATION READ: EUROPEAN SESSION In the European session, we don't have much on the agenda other than the final services PMIs for the major Eurozone economies and the UK.\n\nThe data is not going to change anything for the respective central banks, so the market reaction will likely be muted.\n\nThe markets are currently being driven by expectations of an imminent US-Iran deal and the reopening of the Strait of Hormuz.\n\nThis is setting trends into the US CPI, which is going to be the next major event.\n\nAMERICAN SESSION In the American session, we get the US ADP and the US ISM Services PMI.\n\nThe ADP is expected to show 65K jobs added in July vs 98K in the prior month.\n\nThe data is not going to change much given the stable labour market conditions and the Fed's focus on inflation.\n\nThe US ISM Services PMI is expected at 54.5 vs 54.0 prior.\n\nhttps://investinglive.com/news/what-are-the-main-events-for-today-18/",
+    "draft_text": "INFLATION READ: June PPI -0.3% vs -0.3% m/m expected Prior +0.2% Euro area producer prices came in lower in June, matching estimates with a drop of 0.3% on the month.\n\nThat being said, there is a big caveat to the figure with it owing mostly to a drop back in energy prices at the time.\n\nIf you exclude energy prices from the equation, producer prices were actually up by 0.2% in June.\n\nMind you, energy prices have since seen a resurgence in July.\n\nAs such, this report is very much a lagging data point.\n\nThus, it's not one that will have any material impact or consequence towards the current euro area economic and inflation outlook.\n\nThe breakdown for prices in the month of June shows: Intermediate goods +0.3% Energy -1.5% Capital goods +0.2% Durable consumer goods +0.2% Non-durable consumer goods 0.0% This article was written by Justin Low at investinglive.com.\n\nhttps://investinglive.com/news/eurozone-june-producer-prices-0-3-vs-0-3-m-m-expected/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/what-are-the-main-events-for-today-18/",
-    "source_title": "What are the main events for today?",
-    "source_summary": "EUROPEAN SESSION In the European session, we don't have much on the agenda other than the final services PMIs for the major Eurozone economies and the UK. The data is not going to change anything for the respective central banks, so the market reaction will likely be muted. The markets are currently being driven by expectations of an imminent US-Iran deal and the reopening of the Strait of Hormuz.",
-    "drafted_at": "2026-08-05T07:31:54.533699",
+    "source_url": "https://investinglive.com/news/eurozone-june-producer-prices-0-3-vs-0-3-m-m-expected/",
+    "source_title": "Drop in energy prices drive fall in Eurozone producer prices in June",
+    "source_summary": "June PPI -0.3% vs -0.3% m/m expected Prior +0.2% Euro area producer prices came in lower in June, matching estimates with a drop of 0.3% on the month. That being said, there is a big caveat to the figure with it owing mostly to a drop back in energy prices at the time. If you exclude energy prices from the equation, producer prices were actually up by 0.2% in June. Mind you, energy prices have sin",
+    "drafted_at": "2026-08-05T10:23:39.141582",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "26cfbff3ef7a0513"
+    "content_hash": "551f0f9a3b5d084c"
   },
   {
-    "id": "f6f0a2d5",
+    "id": "e596e091",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "Inflation update: Follow up - Kiwi dips as jobless rate climbs ahead of RBNZ's September decision Gold climbs for third day as Hormuz deal hopes ease inflation fears, holds above $4,100 US, Iran and Oman near interim deal to reopen Strait of Hormuz China Rating Dog PMI (July 2026) 50.4 (expected 53.7) More - BOJ minutes show board debated mounting price risks despite June hike US officials reviewing an air-traffic safety incident involving a military helicopter carrying Trump NZ commodity prices post biggest monthly fall since 2022 on dairy slide PBOC sets USD/ CNY mid-point today at 6.7889 (vs. estimate at 6.7480) Japan services PMI: Growth slows in July as selling prices near record high Rate hike watch - Fed's Schmid says tighter policy needed as inflation stays too high Situational Awareness backers included Silicon Valley elite before AI bets soured Bank of Japan June meeting minutes: 7-1 vote to raise rate to 1.0% amid inflation risk Iran rejects US claim of open southern route through Strait of Hormuz Japan real wages rise for sixth straight month, supporting BoJ rate hike (eventually) case Australia services PMI hits six-month high of 53.6 as new orders return New Zealand unemployment rate jumps to 5.6% vs. 5.4% expected and 5.3% prior ICYMI - Bank of Korea to resume gold buying after 13 years, not large buying.\n\nIsraeli official says Trump wants Iran deal 'at any cost', report says US Treasury Secretary Bessent waffling on about the yen and BoJ Oil update: Iran and Oman said to have agreed broad outlines of strait reopening deal Oil recap - Oil settles around 5% lower as Iran talks raise hopes on Hormuz reopening Oil: Private inventory survey shows a headline crude oil build vs draw expected Stocks surge to records as Wall Street scrambles to explain the rally after the fact S&P and NASDAQ indices close at new record levels AMD beats on Q2 earnings and revenue, guides Q3 above estimates SpaceX posts $7.8bn revenue in debut earnings, beats estimates on Starlink growth Booking Holdings shares jump after hours as Americans continue to travel Key points: Iran and Oman reported near agreement on Hormuz reopening mechanics, with Iran managing inbound traffic and Oman outbound plus a service fee, before later reports said no deal had been finalised yet Iran also weighing a voluntary fund to charge European states for strait upkeep Senior Israeli official said Trump wants an Iran deal at any cost, per Al Arabiya Saudi Arabia reportedly struck Yemen's capital Sanaa Axios later reported the US, Iran and Oman are nearing an interim deal targeting a Wednesday announcement, with a 60-day arrangement giving Iran greater control over strait traffic than before the war and no tolls initially Trump told Fox News talks with Iran are going well and the strait will open soon, adding the \"heavy blow\" has not yet come Oil eased and gold surged back above $4,130 as diminishing energy price risk trimmed inflation and Fed rate hike expectations NZD fell as New Zealand's unemployment rate hit an 11 year high, even as other details of the report were less downbeat ANZ's NZ World Commodity Price Index fell 3.9% in July, its largest monthly drop since November 2022, though still up 0.5% on the year Yen strengthened after a garbled Bessent message on the BoJ via NHK capped USD/JPY, alongside data showing Japan real wages rose for a sixth straight month and BoJ minutes supportive of further hikes China's RatingDog services PMI slumped to 50.4 in July from 54.1, well below the 53.7 expected, the weakest reading since September 2024 Kansas City Fed's Schmid said tighter policy is needed as inflation remains too high, and that AI investment is adding to price pressures The PBOC set the USD/CNY reference rate at a fresh 41 month high for the yuan SpaceX posted Q2 revenue of $7.8bn, up 92% year on year and above estimates, in its first results since June's IPO, with the AI segment loss narrower than forecast AMD beat on Q2 EPS and revenue and guided Q3 revenue above consensus Detail: Diplomatic developments around the Strait of Hormuz dominated the session, with the narrative refining as the day progressed.\n\nEarly reports suggested Iran and Oman had largely agreed on the mechanics of reopening the strait, with Iran set to manage inbound traffic and Oman handling outbound shipping alongside a proposed service fee, though later reports cautioned that a final agreement had not yet been reached.\n\nIran was also said to be weighing a voluntary fund that would see European states contribute toward the cost of maintaining the strait.\n\nAdding a political dimension, a senior Israeli official told N12, as reported by Al Arabiya, that President Trump wants a deal with Iran at any cost, describing the gap between peace and war under the current administration as narrow as the distance between letters on a keyboard.\n\nSeparately, Saudi Arabia was reported to have struck Yemen's capital, Sanaa, a reminder that regional tensions remain far from fully resolved even as the Hormuz diplomacy advances.\n\nThe picture firmed up later in the session when Axios reported the US, Iran and Oman are nearing an interim deal to reopen the strait, targeting a Wednesday announcement that would restore the US-Iran ceasefire and pave the way for resumed nuclear talks.\n\nUnder the reported terms, Trump has paused planned military strikes to allow diplomacy to continue, and the 60 day arrangement would grant Iran greater control over strait traffic than it held before the war began, with no tolls charged during the initial period.\n\nhttps://investinglive.com/news/investinglive-asia-pacific-market-news-5-august-2026-gold-jumped-above-us-4130/",
+    "draft_text": "The CPI scoreboard: July final services PMI 51.7 vs 51.6 prelim Prior 49.4 July final composite PMI 52.0 vs 51.9 prelim Prior 50.0 The final estimate here reaffirms a solid rebound in euro area business activity to start the third quarter.\n\nThat as the services print is a 5-month high with the composite print being a 8-month high.\n\nOf note, output and new orders rose at strongest rates since last November as inflation cools.\n\nThe July expansion was broad-based amid further growth in the services sector as well as a more sustained uplift in the manufacturing side.\n\nGermany posted its first rise in private sector output since March, while both Italy and Spain saw stronger rates of growth.\n\nLooking to price pressures, the rates of both input cost and output charge inflation dropped in July.\n\nAnd adding to that, prices set for euro area goods and services were lifted by the smallest margin since March.\n\nAll that being said, the pace of both input and output price inflation were elevated relative to the survey average historically (chart below).\n\nhttps://investinglive.com/news/eurozone-july-final-services-pmi-vs-51-6-prelim/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-5-august-2026-gold-jumped-above-us-4130/",
-    "source_title": "investingLive Asia-Pacific market news 5 August 2026: Gold jumped above US$4130",
-    "source_summary": "Follow up - Kiwi dips as jobless rate climbs ahead of RBNZ's September decision Gold climbs for third day as Hormuz deal hopes ease inflation fears, holds above $4,100 US, Iran and Oman near interim deal to reopen Strait of Hormuz China Rating Dog PMI (July 2026) 50.4 (expected 53.7) More - BOJ minutes show board debated mounting price risks despite June hike US officials reviewing an air-traffic ",
-    "drafted_at": "2026-08-05T07:31:54.538934",
+    "source_url": "https://investinglive.com/news/eurozone-july-final-services-pmi-vs-51-6-prelim/",
+    "source_title": "Euro area services sector drives business activity rebound in July",
+    "source_summary": "July final services PMI 51.7 vs 51.6 prelim Prior 49.4 July final composite PMI 52.0 vs 51.9 prelim Prior 50.0 The final estimate here reaffirms a solid rebound in euro area business activity to start the third quarter. That as the services print is a 5-month high with the composite print being a 8-month high. Of note, output and new orders rose at strongest rates since last November as inflation ",
+    "drafted_at": "2026-08-05T10:23:39.143062",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "f8785fe54fe4863d"
+    "content_hash": "0751145510767604"
   },
   {
-    "id": "f73decae",
+    "id": "6b9b4144",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "How sticky is inflation? Let's see: July final services PMI 49.6 vs 49.8 prelim Prior 46.8 July final composite PMI 49.4 vs 49.6 prelim Prior 47.2 After a struggling second quarter, the start of the third quarter is at least seen looking better for the French economy.\n\nNew business volumes rose for the first time since November last year, with greater business confidence observed alongside easing cost pressures.\n\nIt's still not great with overall business activity pointing to a mild contraction but it at least is an improvement to how conditions were in the months before.\n\nThe rebound in new orders was largely domestic-driven though amid a further and sharper drop in new business from abroad.\n\nMeanwhile, French service providers also recorded a faster reduction in employment levels in July.\n\nSo, it's not exactly all rosy with the report here.\n\nBut looking at the positives, there was a rise in business confidence although the level of positivity was historically subdued amid concerns about the political environment and higher interest rates.\n\nBesides that, at least there was another easing in the rate of input cost inflation.\n\nhttps://investinglive.com/news/france-july-final-services-pmi-vs-49-8-prelim/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/france-july-final-services-pmi-vs-49-8-prelim/",
+    "source_title": "French services sector confirmed to see a modest pick up in July",
+    "source_summary": "July final services PMI 49.6 vs 49.8 prelim Prior 46.8 July final composite PMI 49.4 vs 49.6 prelim Prior 47.2 After a struggling second quarter, the start of the third quarter is at least seen looking better for the French economy. New business volumes rose for the first time since November last year, with greater business confidence observed alongside easing cost pressures. It's still not great ",
+    "drafted_at": "2026-08-05T10:23:39.144332",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "b2f84a28d329ccd1"
+  },
+  {
+    "id": "ccd8369a",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "The CPI scoreboard: The economy grew at an inflation-adjusted 1.5% annual rate in the second quarter, the Bureau of Labor Statistics said in a preliminary estimate of GDP that also indicated that consumer spending and artificial intelligence investment are keeping commerce steady.\n\nThe reading, the first of three estimates for second-quarter GDP, indicates that economic growth slowed from [\u2026]\n\nhttps://www.washingtonexaminer.com/policy/economy/4668430/economy-expanded-second-quarter-2026/",
@@ -589,14 +589,14 @@
     "source_url": "https://www.washingtonexaminer.com/policy/economy/4668430/economy-expanded-second-quarter-2026/",
     "source_title": "In slowdown, the economy expanded at 1.5% rate in second quarter",
     "source_summary": "The economy grew at an inflation-adjusted 1.5% annual rate in the second quarter, the Bureau of Labor Statistics said in a preliminary estimate of GDP that also indicated that consumer spending and artificial intelligence investment are keeping commerce steady. The reading, the first of three estimates for second-quarter GDP, indicates that economic growth slowed from [\u2026]",
-    "drafted_at": "2026-08-05T07:31:54.539399",
+    "drafted_at": "2026-08-05T10:23:39.144750",
     "data": {
       "source": "WASH EXAMINER"
     },
     "content_hash": "7be86725c91f67c3"
   },
   {
-    "id": "46843303",
+    "id": "d91e3654",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -606,7 +606,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-08-05T07:31:54.540782",
+    "drafted_at": "2026-08-05T10:23:39.146152",
     "data": {
       "manual": true,
       "via": "manual_news.md"
