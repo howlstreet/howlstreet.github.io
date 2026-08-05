@@ -1,18 +1,4 @@
 {
-  "^VIX:move:2026-07-31": {
-    "headline": "VIX drops 6.2% in 5 sessions to 15.99",
-    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "source": "CBOE \u00b7 ^VIX",
-    "chart_path": null,
-    "signal_id": "^VIX:move:2026-07-31",
-    "current_str": "15.99",
-    "label": "VIX (S&P 500 volatility)",
-    "hashtags": "#VIX #Volatility #Markets",
-    "kind": "move_down",
-    "badge": "-6.2%",
-    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "fired_at": "2026-08-04T05:37:53.575956"
-  },
   "CL=F:move:2026-08-04": {
     "headline": "WTI crude craters 15.9% in 5 sessions to $75.12",
     "matters": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
@@ -96,5 +82,19 @@
     "badge": "-15.9%",
     "data_url": "https://finance.yahoo.com/quote/CL%3DF",
     "fired_at": "2026-08-05T04:53:56.740137"
+  },
+  "^VIX:move:2026-08-05": {
+    "headline": "VIX tumbles 13.1% in 5 sessions to 16.15",
+    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "source": "CBOE \u00b7 ^VIX",
+    "chart_path": null,
+    "signal_id": "^VIX:move:2026-08-05",
+    "current_str": "16.15",
+    "label": "VIX (S&P 500 volatility)",
+    "hashtags": "#VIX #Volatility #Markets",
+    "kind": "move_down",
+    "badge": "-13.1%",
+    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "fired_at": "2026-08-05T07:31:51.051699"
   }
 }
