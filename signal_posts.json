@@ -138,5 +138,19 @@
     "badge": "-15.2%",
     "data_url": "https://finance.yahoo.com/quote/%5EVIX",
     "fired_at": "2026-08-06T07:31:38.513784"
+  },
+  "^IXIC:move:2026-08-06": {
+    "headline": "Nasdaq climbs 6.0% in 5 sessions to 26,427.21",
+    "matters": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
+    "source": "Yahoo Finance \u00b7 ^IXIC",
+    "chart_path": null,
+    "signal_id": "^IXIC:move:2026-08-06",
+    "current_str": "26,427.21",
+    "label": "Nasdaq Composite",
+    "hashtags": "#Nasdaq #Tech #Stocks",
+    "kind": "move_up",
+    "badge": "+6.0%",
+    "data_url": "https://finance.yahoo.com/quote/%5EIXIC",
+    "fired_at": "2026-08-06T15:15:23.798552"
   }
 }

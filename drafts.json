@@ -1,23 +1,42 @@
 [
   {
-    "id": "6522ea30",
+    "id": "88ad6c81",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "Gold (XAU/USD) trims intraday gains on Thursday after briefly climbing above $4,300 as the US Dollar (USD) steadies while traders await confirmation of a possible Iran-Oman agreement on the Strait of Hormuz.\n\nAt the time of writing, XAU/USD trades around $4,260, up 0.30% on the day.\n\nhttps://www.fxstreet.com/news/gold-steadies-near-seven-week-high-as-markets-await-strait-of-hormuz-deal-202608061118",
+    "draft_text": "Vessel traffic at the Strait of Hormuz and the Bab el-Mandeb Strait crumbled on Wednesday from the previous day amid a Houthi claim they have hit a Saudi oil tanker in the Red Sea and hopes that Oman and Iran could reach a deal on jointly managing Hormuz.\n\nOn Wednesday, only two vessels transited the Strait of Hormuz, down from 8 on Tuesday, according to ship-tracking data reviewed by Reuters.\n\nAt Bab el-Mandeb, the chokepoint on the Red Sea into the Arabian Sea, only one commodity vessel, a Bahamas-flagged dry bulk carrier, transited on Wednesday,\u2026\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Gulf-Shipping-Grinds-to-a-Halt-Following-Houthi-Missile-Claim.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/gold-steadies-near-seven-week-high-as-markets-await-strait-of-hormuz-deal-202608061118",
-    "source_title": "Gold holds near seven-week high as markets await Strait of Hormuz deal",
-    "source_summary": "Gold (XAU/USD) trims intraday gains on Thursday after briefly climbing above $4,300 as the US Dollar (USD) steadies while traders await confirmation of a possible Iran-Oman agreement on the Strait of Hormuz. At the time of writing, XAU/USD trades around $4,260, up 0.30% on the day.",
-    "drafted_at": "2026-08-06T12:49:36.993562",
+    "primary_source": "OILPRICE",
+    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Gulf-Shipping-Grinds-to-a-Halt-Following-Houthi-Missile-Claim.html",
+    "source_title": "Gulf Shipping Grinds to a Halt Following Houthi Missile Claim",
+    "source_summary": "Vessel traffic at the Strait of Hormuz and the Bab el-Mandeb Strait crumbled on Wednesday from the previous day amid a Houthi claim they have hit a Saudi oil tanker in the Red Sea and hopes that Oman and Iran could reach a deal on jointly managing Hormuz. On Wednesday, only two vessels transited the Strait of Hormuz, down from 8 on Tuesday, according to ship-tracking data reviewed by Reuters. At B",
+    "drafted_at": "2026-08-06T15:15:26.107046",
     "data": {
-      "source": "FXSTREET"
+      "source": "OILPRICE"
     },
-    "content_hash": "64e4eef764d02d2a"
+    "content_hash": "0261adbe7bca3020"
   },
   {
-    "id": "0e474edb",
+    "id": "628aae21",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "I love a good move. This is a great one. Nasdaq climbs 6.0% in 5 sessions to 26,427.21.\n\nTech-heavy index.\n\nLeads risk appetite and is most sensitive to rate moves.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EIXIC",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Yahoo Finance \u00b7 ^IXIC",
+    "source_url": "https://finance.yahoo.com/quote/%5EIXIC",
+    "source_title": "Nasdaq Composite",
+    "source_summary": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
+    "drafted_at": "2026-08-06T15:15:26.107298",
+    "data": {
+      "signal_id": "^IXIC:move:2026-08-06",
+      "kind": "move_up",
+      "current": "26,427.21"
+    },
+    "content_hash": "ce08e8b71b40219b"
+  },
+  {
+    "id": "faf33e26",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Print this and put it on the fridge. Nasdaq climbs 5.6% in 5 sessions to 26,363.44.\n\nTech-heavy index.\n\nLeads risk appetite and is most sensitive to rate moves.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EIXIC",
@@ -27,7 +46,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EIXIC",
     "source_title": "Nasdaq Composite",
     "source_summary": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
-    "drafted_at": "2026-08-06T12:49:36.993834",
+    "drafted_at": "2026-08-06T15:15:26.107505",
     "data": {
       "signal_id": "^IXIC:move:2026-08-05",
       "kind": "move_up",
@@ -36,7 +55,7 @@
     "content_hash": "ce08e8b71b40219b"
   },
   {
-    "id": "6ef7bee7",
+    "id": "2760d478",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Tracks in the snow. Dow just hit 54,349.12 \u2014 highest in 9+ years.\n\n30 large U.S. industrials.\n\nSlower-moving than the S&P but the headline number retail readers track.\n\nMulti-year high. The pack remembers what comes after these.\n\nhttps://finance.yahoo.com/quote/%5EDJI",
@@ -46,7 +65,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EDJI",
     "source_title": "Dow Jones Industrial Average",
     "source_summary": "30 large U.S. industrials. Slower-moving than the S&P but the headline number retail readers track.",
-    "drafted_at": "2026-08-06T12:49:36.994096",
+    "drafted_at": "2026-08-06T15:15:26.107785",
     "data": {
       "signal_id": "^DJI:high:2026-08-05",
       "kind": "high",
@@ -55,7 +74,7 @@
     "content_hash": "21c4cea90ac8748c"
   },
   {
-    "id": "3af6d202",
+    "id": "da867dda",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Two seconds, trust me. VIX craters 15.2% in 5 sessions to 15.83.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
@@ -65,7 +84,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EVIX",
     "source_title": "VIX (S&P 500 volatility)",
     "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-08-06T12:49:36.994353",
+    "drafted_at": "2026-08-06T15:15:26.108015",
     "data": {
       "signal_id": "^VIX:move:2026-08-06",
       "kind": "move_down",
@@ -74,7 +93,7 @@
     "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "9acf3e56",
+    "id": "04d0a115",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "I'll keep it short: VIX tumbles 14.9% in 5 sessions to 15.81.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
@@ -84,7 +103,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EVIX",
     "source_title": "VIX (S&P 500 volatility)",
     "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-08-06T12:49:36.994580",
+    "drafted_at": "2026-08-06T15:15:26.108230",
     "data": {
       "signal_id": "^VIX:move:2026-08-05",
       "kind": "move_down",
@@ -93,26 +112,24 @@
     "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "395b19f7",
-    "format": "MARKET_MOVE",
+    "id": "5fb74c45",
+    "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "Here's what the talking heads missed: Gold climbs 6.0% in 5 sessions to $4,317.40.\n\nGold tracks real yields and central bank demand.\n\nMulti-year highs flag debasement or geopolitical hedging flows.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/GC%3DF",
+    "draft_text": "From the Eccles Building: Warsh's market-driven approach may increase financial volatility, challenging traditional Fed roles and impacting crypto market dynamics.\n\nThe post Federal Reserve\u2019s Warsh favors market-driven policy over nuanced tools appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/fed-warsh-market-driven-policy-crypto/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "COMEX \u00b7 GC=F",
-    "source_url": "https://finance.yahoo.com/quote/GC%3DF",
-    "source_title": "Gold futures",
-    "source_summary": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
-    "drafted_at": "2026-08-06T12:49:36.994819",
+    "primary_source": "Federal Reserve",
+    "source_url": "https://cryptobriefing.com/fed-warsh-market-driven-policy-crypto/",
+    "source_title": "Federal Reserve\u2019s Warsh favors market-driven policy over nuanced tools",
+    "source_summary": "Warsh's market-driven approach may increase financial volatility, challenging traditional Fed roles and impacting crypto market dynamics. The post Federal Reserve\u2019s Warsh favors market-driven policy over nuanced tools appeared first on Crypto Briefing .",
+    "drafted_at": "2026-08-06T15:15:26.120329",
     "data": {
-      "signal_id": "GC=F:move:2026-08-06",
-      "kind": "move_up",
-      "current": "$4,317.40"
+      "actor": "Federal Reserve"
     },
-    "content_hash": "514096a7b4f87c16"
+    "content_hash": "113e1c39cfb6094a"
   },
   {
-    "id": "a63e0265",
+    "id": "7890b3dd",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Powell on the wire. InvestorPlace - Stock Market News, Stock Advice & Trading Tips Kashkari goes full hawk\u2026 the ADP jobs report comes in soft\u2026 the FedWatch Tool says hike, but what will Warsh say?... why 3 analysts are backing up the truck on AI The post More Traders Predict a Fed Hike.\n\nDon\u2019t Bet On It appeared first on InvestorPlace.\n\nhttps://investorplace.com/2026/08/more-traders-predict-fed-hike-dont-bet/",
@@ -122,14 +139,14 @@
     "source_url": "https://investorplace.com/2026/08/more-traders-predict-fed-hike-dont-bet/",
     "source_title": "More Traders Predict a Fed Hike. Don\u2019t Bet On It",
     "source_summary": "InvestorPlace - Stock Market News, Stock Advice & Trading Tips Kashkari goes full hawk\u2026 the ADP jobs report comes in soft\u2026 the FedWatch Tool says hike, but what will Warsh say?... why 3 analysts are backing up the truck on AI The post More Traders Predict a Fed Hike. Don\u2019t Bet On It appeared first on InvestorPlace .",
-    "drafted_at": "2026-08-06T12:49:37.006759",
+    "drafted_at": "2026-08-06T15:15:26.120801",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "fd90de103f935043"
   },
   {
-    "id": "c538b328",
+    "id": "c29bd778",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Powell on the wire. It addresses unnecessary applications of the rule to passive interests in companies held by investment funds, codifies other statutory requirements, incorporates long-standing regulatory interpretations, and simplifies the application of the rule.\n\nRegulation O has not been comprehensively updated since 1979.\n\nThe rule addresses a unique challenge for community banks, where board members and executives are often local business owners and civic leaders who provide valuable perspective and expertise to bank governance and information on the local economy.\n\nThe proposal updates dollar-based thresholds and indexes them to economic growth going forward.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731b.htm",
@@ -139,14 +156,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731b.htm",
     "source_title": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"\u2014bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
     "source_summary": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"\u2014bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
-    "drafted_at": "2026-08-06T12:49:37.007957",
+    "drafted_at": "2026-08-06T15:15:26.121974",
     "data": {
       "actor": "FED"
     },
     "content_hash": "4057886fa20ad5ad"
   },
   {
-    "id": "fa73c065",
+    "id": "2ff377fa",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FOMC update. The Board assumed regulatory and supervisory authority over mutual banks from the Office of Thrift Supervision in 2011.\n\nThe rules governing these banks were first established in 1993.\n\nThey have not been updated and have proven over time to be overly burdensome and complex.\n\n\"Today's proposal is another important step in our work to modernize the bank regulatory framework by updating mutual bank regulations for the first time in 30 years.\n\nThe continued success of this model contributes to the institutional diversity of the U.S. banking system, which is one of the greatest strengths of our financial system,\" said Vice Chair for Supervision Michelle W.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731a.htm",
@@ -156,14 +173,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731a.htm",
     "source_title": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
     "source_summary": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
-    "drafted_at": "2026-08-06T12:49:37.009018",
+    "drafted_at": "2026-08-06T15:15:26.123029",
     "data": {
       "actor": "FED"
     },
     "content_hash": "1672ee5ef82f19a2"
   },
   {
-    "id": "53b2ce5d",
+    "id": "c552ad0f",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "POWELL POSTCARD: Consent prohibition order against Ralph A.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730a.htm",
@@ -173,14 +190,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730a.htm",
     "source_title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank",
     "source_summary": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank",
-    "drafted_at": "2026-08-06T12:49:37.009201",
+    "drafted_at": "2026-08-06T15:15:26.123212",
     "data": {
       "actor": "FED"
     },
     "content_hash": "23feb4de7d35586a"
   },
   {
-    "id": "448459a2",
+    "id": "437757a5",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$TSM \u2014 3 company insiders bought $1.3M on Aug 03.\n\nTaiwan Semiconductor Manufacturing Co Ltd. 17,025 shares at $73.83.\n\nStock is +460.7% since the purchase. This is a public SEC Form 4 filing.",
@@ -190,7 +207,7 @@
     "source_url": "http://openinsider.com/screener?s=TSM",
     "source_title": "Taiwan Semiconductor Manufacturing Co Ltd (TSM) insider bought $1.3M",
     "source_summary": "3 insider(s) bought 17,025 shares at $73.83 on 2026-08-03.",
-    "drafted_at": "2026-08-06T12:49:37.009510",
+    "drafted_at": "2026-08-06T15:15:26.123506",
     "data": {
       "ticker": "TSM",
       "type": "P",
@@ -200,7 +217,7 @@
     "content_hash": "440c82e6ae1d56e7"
   },
   {
-    "id": "b34e8b79",
+    "id": "c0b75bc5",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$TM \u2014 a company insider bought $1.6M on Aug 05.\n\nToyota Motor Corp/. 85,000 shares at $18.41.\n\nStock is +909.7% since the purchase. This is a public SEC Form 4 filing.",
@@ -210,7 +227,7 @@
     "source_url": "http://openinsider.com/screener?s=TM",
     "source_title": "Toyota Motor Corp/ (TM) insider bought $1.6M",
     "source_summary": "1 insider(s) bought 85,000 shares at $18.41 on 2026-08-05.",
-    "drafted_at": "2026-08-06T12:49:37.009720",
+    "drafted_at": "2026-08-06T15:15:26.123712",
     "data": {
       "ticker": "TM",
       "type": "P",
@@ -220,7 +237,7 @@
     "content_hash": "dc419dcd8a16f8de"
   },
   {
-    "id": "bb75600e",
+    "id": "79cd4b23",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$IR \u2014 a company insider bought $1.0M on Aug 03.\n\nIngersoll Rand Inc. 11,538 shares at $86.68.\n\nStock is +3.8% since the purchase. This is a public SEC Form 4 filing.",
@@ -230,7 +247,7 @@
     "source_url": "http://openinsider.com/screener?s=IR",
     "source_title": "Ingersoll Rand Inc. (IR) insider bought $1.0M",
     "source_summary": "1 insider(s) bought 11,538 shares at $86.68 on 2026-08-03.",
-    "drafted_at": "2026-08-06T12:49:37.009916",
+    "drafted_at": "2026-08-06T15:15:26.123931",
     "data": {
       "ticker": "IR",
       "type": "P",
@@ -240,7 +257,7 @@
     "content_hash": "a002d71c4b42030c"
   },
   {
-    "id": "3fa0a44a",
+    "id": "8b8a48ce",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$XIIIU \u2014 a company insider bought $3.5M on Aug 03.\n\nChurchill Capital Corp Xiii. 350,000 shares at $10.00.\n\nStock is +4.5% since the purchase. This is a public SEC Form 4 filing.\n\nhttp://openinsider.com/screener?s=XIIIU",
@@ -250,7 +267,7 @@
     "source_url": "http://openinsider.com/screener?s=XIIIU",
     "source_title": "Churchill Capital Corp Xiii (XIIIU) insider bought $3.5M",
     "source_summary": "1 insider(s) bought 350,000 shares at $10.00 on 2026-08-03.",
-    "drafted_at": "2026-08-06T12:49:37.010094",
+    "drafted_at": "2026-08-06T15:15:26.124112",
     "data": {
       "ticker": "XIIIU",
       "type": "P",
@@ -260,7 +277,7 @@
     "content_hash": "f1d2b20976878f27"
   },
   {
-    "id": "0ac68afa",
+    "id": "eb920409",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$ACI \u2014 3 company insiders bought $2.5M on Jul 31.\n\nAlbertsons Companies, Inc. 218,909 shares at $11.49.\n\nStock is +3.1% since the purchase. This is a public SEC Form 4 filing.",
@@ -270,7 +287,7 @@
     "source_url": "http://openinsider.com/screener?s=ACI",
     "source_title": "Albertsons Companies, Inc. (ACI) insider bought $2.5M",
     "source_summary": "3 insider(s) bought 218,909 shares at $11.49 on 2026-07-31.",
-    "drafted_at": "2026-08-06T12:49:37.010288",
+    "drafted_at": "2026-08-06T15:15:26.124310",
     "data": {
       "ticker": "ACI",
       "type": "P",
@@ -280,7 +297,24 @@
     "content_hash": "b7266a8b42e28ff4"
   },
   {
-    "id": "b2e2df67",
+    "id": "c8c54f5f",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "06, 2026 (GLOBE NEWSWIRE) \u2014 Kaplan Fox & Kilsheimer LLP announces that a class action lawsuit has been filed against Capricor Therapeutics, Inc. (\u201cCapricor\u201d or the \u201cCompany\u201d) (NASDAQ: CAPR) on behalf of investors that purchased or otherwise acquired Capricor securities between December 17, 2025 and July 26, 2026 (the \u201cClass Period\u201d).\n\nhttps://financialpost.com/globe-newswire/kaplan-fox-reminds-capricor-therapeutics-inc-nasdaq-capr-investors-with-significant-losses-to-seek-a-leadership-role-before-deadline-on-september-28-2026",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FINANCIAL POST",
+    "source_url": "https://financialpost.com/globe-newswire/kaplan-fox-reminds-capricor-therapeutics-inc-nasdaq-capr-investors-with-significant-losses-to-seek-a-leadership-role-before-deadline-on-september-28-2026",
+    "source_title": "Kaplan Fox Reminds Capricor Therapeutics, Inc. (NASDAQ: CAPR) Investors with Significant Losses to Seek a Leadership Role Before Deadline on September 28, 2026",
+    "source_summary": "NEW YORK, Aug. 06, 2026 (GLOBE NEWSWIRE) \u2014 Kaplan Fox & Kilsheimer LLP announces that a class action lawsuit has been filed against Capricor Therapeutics, Inc. (\u201cCapricor\u201d or the \u201cCompany\u201d) (NASDAQ: CAPR) on behalf of investors that purchased or otherwise acquired Capricor securities between December 17, 2025 and July 26, 2026 (the \u201cClass Period\u201d). CLICK [\u2026]",
+    "drafted_at": "2026-08-06T15:15:26.129594",
+    "data": {
+      "source": "FINANCIAL POST"
+    },
+    "content_hash": "f22eec4001aba5c9"
+  },
+  {
+    "id": "fb6369d0",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "For two decades, Zillow has assembled the pieces of a real estate empire.\n\nIt acquired Trulia, StreetEasy, and ShowingTime in a series of deals regulators allowed to proceed.\n\nIt launched mortgage and closing products.\n\nhttps://www.theblaze.com/columns/opinion/zillow-put-a-toll-booth-on-the-american-dream",
@@ -290,14 +324,14 @@
     "source_url": "https://www.theblaze.com/columns/opinion/zillow-put-a-toll-booth-on-the-american-dream",
     "source_title": "Zillow put a toll booth on the American dream",
     "source_summary": "For two decades, Zillow has assembled the pieces of a real estate empire. It acquired Trulia , StreetEasy , and ShowingTime in a series of deals regulators allowed to proceed. It launched mortgage and closing products. It drew buyers, sellers, agents, brokers, and lenders into the same expanding system. Zillow calls itself 'the front door to the housing market.' Regulators should act before the co",
-    "drafted_at": "2026-08-06T12:49:37.017142",
+    "drafted_at": "2026-08-06T15:15:26.131640",
     "data": {
       "source": "THE BLAZE"
     },
     "content_hash": "945b4d7f590b58fc"
   },
   {
-    "id": "39531b0c",
+    "id": "6c1523d6",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The post He\u2019s Eligible for Up to $480,000 After Being Wrongly Imprisoned for 42 Years.\n\nThe State Says No. appeared first on ProPublica.\n\nhttps://www.propublica.org/article/louisiana-wrongful-conviction-compensation-liz-murrill-elvis-brooks",
@@ -307,31 +341,14 @@
     "source_url": "https://www.propublica.org/article/louisiana-wrongful-conviction-compensation-liz-murrill-elvis-brooks",
     "source_title": "He\u2019s Eligible for Up to $480,000 After Being Wrongly Imprisoned for 42 Years. The State Says No.",
     "source_summary": "The post He\u2019s Eligible for Up to $480,000 After Being Wrongly Imprisoned for 42 Years. The State Says No. appeared first on ProPublica .",
-    "drafted_at": "2026-08-06T12:49:37.017364",
+    "drafted_at": "2026-08-06T15:15:26.131867",
     "data": {
       "source": "PROPUBLICA"
     },
     "content_hash": "c9152e91b379a33c"
   },
   {
-    "id": "77ec67e5",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "'This is wrong and it could go toward deceptive trade practices, fraud'.\n\nhttps://www.wnd.com/2026/08/brand-new-subpoena-state-attorney-general-probing-if/?utm_source=rss&utm_medium=rss&utm_campaign=brand-new-subpoena-state-attorney-general-probing-if",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "WND",
-    "source_url": "https://www.wnd.com/2026/08/brand-new-subpoena-state-attorney-general-probing-if/?utm_source=rss&utm_medium=rss&utm_campaign=brand-new-subpoena-state-attorney-general-probing-if",
-    "source_title": "Brand-new subpoena: State attorney general probing if Fauci personally profited from COVID",
-    "source_summary": "'This is wrong and it could go toward deceptive trade practices, fraud'",
-    "drafted_at": "2026-08-06T12:49:37.017483",
-    "data": {
-      "source": "WND"
-    },
-    "content_hash": "3e10b11865668c35"
-  },
-  {
-    "id": "25f996ac",
+    "id": "505b0a1d",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The post James Talarico Accused Ken Paxton of Voter Fraud.\n\nHis Own Voter Registration Is Raising Questions. appeared first on ProPublica.\n\nhttps://www.propublica.org/article/james-talarico-texas-election-law-ken-paxton",
@@ -341,14 +358,14 @@
     "source_url": "https://www.propublica.org/article/james-talarico-texas-election-law-ken-paxton",
     "source_title": "James Talarico Accused Ken Paxton of Voter Fraud. His Own Voter Registration Is Raising Questions.",
     "source_summary": "The post James Talarico Accused Ken Paxton of Voter Fraud. His Own Voter Registration Is Raising Questions. appeared first on ProPublica .",
-    "drafted_at": "2026-08-06T12:49:37.017653",
+    "drafted_at": "2026-08-06T15:15:26.132041",
     "data": {
       "source": "PROPUBLICA"
     },
     "content_hash": "350cb4f9de089ef8"
   },
   {
-    "id": "4f70f6ec",
+    "id": "a3963815",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "An ICIJ analysis found that at least 11 firms received roughly $10 million in 2025 after opaque deals and seizures reshaped their ownership.\n\nhttps://www.icij.org/investigations/damascus-dossier/companies-once-tied-to-assad-kept-winning-un-contracts-under-syrias-new-rulers/",
@@ -358,14 +375,14 @@
     "source_url": "https://www.icij.org/investigations/damascus-dossier/companies-once-tied-to-assad-kept-winning-un-contracts-under-syrias-new-rulers/",
     "source_title": "Companies once tied to Assad kept winning UN contracts under Syria\u2019s new rulers",
     "source_summary": "An ICIJ analysis found that at least 11 firms received roughly $10 million in 2025 after opaque deals and seizures reshaped their ownership.",
-    "drafted_at": "2026-08-06T12:49:37.017829",
+    "drafted_at": "2026-08-06T15:15:26.132219",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "8f611edb38e93fe5"
   },
   {
-    "id": "ce958424",
+    "id": "63b14734",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "6 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 David J. Taylor (R)\n\u2022 John Boozman (R)\n\u2022 Cleo Fields (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 John Fetterman (D)\n\u2022 John McGuire (R)\n\nLargest disclosed here: David J. Taylor, $1,001 - $15,000 on Feb 26.\n\nPrice since the first buy in this group: +22.7%.\n\nSTOCK Act disclosures. Public record.",
@@ -375,7 +392,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034138.pdf",
     "source_title": "6 Congress members bought $MSFT",
     "source_summary": "6 politicians bought $MSFT; largest $1,001 - $15,000 by David J. Taylor.",
-    "drafted_at": "2026-08-06T12:49:37.018936",
+    "drafted_at": "2026-08-06T15:15:26.133335",
     "data": {
       "ticker": "MSFT",
       "member_count": 6,
@@ -384,7 +401,7 @@
     "content_hash": "7c24415ac3c0b542"
   },
   {
-    "id": "0ce63c6e",
+    "id": "6bc8b3d0",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "5 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Markwayne Mullin (D)\n\u2022 Josh Gottheimer (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Markwayne Mullin, $50,001 - $100,000 on Feb 25.\n\nPrice since the first buy in this group: +51.8%.\n\nSTOCK Act disclosures. Public record.",
@@ -394,7 +411,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/f586922d-6083-44e5-8a32-769290389416/",
     "source_title": "5 Congress members bought $UNH",
     "source_summary": "5 politicians bought $UNH; largest $50,001 - $100,000 by Markwayne Mullin.",
-    "drafted_at": "2026-08-06T12:49:37.019282",
+    "drafted_at": "2026-08-06T15:15:26.133699",
     "data": {
       "ticker": "UNH",
       "member_count": 5,
@@ -403,7 +420,7 @@
     "content_hash": "7cbacf41d412a41b"
   },
   {
-    "id": "d5ba7c7e",
+    "id": "25bc5815",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $HD this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Lloyd Doggett (D)\n\u2022 Jared Moskowitz (D)\n\nLargest disclosed here: Richard Dean Dr McCormick, $1,001 - $15,000 on Mar 19.\n\nPrice since the first buy in this group: +6.1%.\n\nSTOCK Act disclosures. Public record.",
@@ -413,7 +430,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033648.pdf",
     "source_title": "3 Congress members bought $HD",
     "source_summary": "3 politicians bought $HD; largest $1,001 - $15,000 by Richard Dean Dr McCormick.",
-    "drafted_at": "2026-08-06T12:49:37.019619",
+    "drafted_at": "2026-08-06T15:15:26.134030",
     "data": {
       "ticker": "HD",
       "member_count": 3,
@@ -422,7 +439,7 @@
     "content_hash": "8c0eaad1e4da4036"
   },
   {
-    "id": "e390ed57",
+    "id": "76dcc5b8",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $TSM this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard W. Allen (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Cleo Fields (D)\n\nLargest disclosed here: Richard W. Allen, $1,001 - $15,000 on Feb 19.\n\nPrice since the first buy in this group: +15.8%.\n\nSTOCK Act disclosures. Public record.",
@@ -432,7 +449,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034133.pdf",
     "source_title": "3 Congress members bought $TSM",
     "source_summary": "3 politicians bought $TSM; largest $1,001 - $15,000 by Richard W. Allen.",
-    "drafted_at": "2026-08-06T12:49:37.019917",
+    "drafted_at": "2026-08-06T15:15:26.134333",
     "data": {
       "ticker": "TSM",
       "member_count": 3,
@@ -441,7 +458,7 @@
     "content_hash": "5d9078569296551f"
   },
   {
-    "id": "b946a7c8",
+    "id": "2725b751",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Richard Dean Dr McCormick, $1,001 - $15,000 on Mar 19.\n\nPrice since the first buy in this group: +48.3%.\n\nSTOCK Act disclosures. Public record.",
@@ -451,7 +468,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033648.pdf",
     "source_title": "3 Congress members bought $UNH",
     "source_summary": "3 politicians bought $UNH; largest $1,001 - $15,000 by Richard Dean Dr McCormick.",
-    "drafted_at": "2026-08-06T12:49:37.020233",
+    "drafted_at": "2026-08-06T15:15:26.134649",
     "data": {
       "ticker": "UNH",
       "member_count": 3,
@@ -460,109 +477,126 @@
     "content_hash": "ef6027c31bcd522a"
   },
   {
-    "id": "8946583c",
+    "id": "0a6a8464",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From the Gulf: A report from the Washington Post claiming President Donald Trump is angry at Secretary of War Pete Hegseth has been vehemently denied by the White House on social media.\n\nThe report said that the military's stockpile of long-range missiles had been extremely depleted by the strikes against Iran, and the president was blaming Hegseth.\n\n'Unfortunately for them, the President loves the Secretary and thinks he\u2019s doing a tremendous job.\n\nFAKE NEWS!' \"I was at Camp David with President Trump and Secretary Hegseth.\n\nThis literally never happened, and we told the Washington Post that repeatedly,\" wrote Leavitt on social media Wednesday.\n\n\"This B.S. story was shopped to many outlets by someone clearly out to disparage the Secretary, for whatever reason,\" she added.\n\nFAKE NEWS!\" The report depended on two sources who claimed to have knowledge about the interaction between Trump and Hegseth at Camp David.\n\nOne source said the depletion of military resources was limiting what options the president had going forward.\n\nhttps://www.theblaze.com/news/leavitt-trump-hegseth-bs-story",
+    "draft_text": "PACK BRIEFING \u2014 ASIA: 6, 2026 /PRNewswire/ -- According to Mordor Intelligence, the mobile banking market size is projected to grow from USD 28.73 trillion in 2025 to USD 58.02 trillion by 2031, rising from USD 32.11 trillion in 2026 at a 12.56% CAGR (2026\u20132031).\n\nhttps://www.prnewswire.com/news-releases/mobile-banking-market-to-hit-usd-58-02-trillion-by-2031-with-asia-pacific-holding-46-6-market-share-in-2025--says-mordor-intelligence-302844947.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "THE BLAZE",
-    "source_url": "https://www.theblaze.com/news/leavitt-trump-hegseth-bs-story",
-    "source_title": "Karoline Leavitt rips into WaPo for 'BS story' about Trump and Hegseth",
-    "source_summary": "A report from the Washington Post claiming President Donald Trump is angry at Secretary of War Pete Hegseth has been vehemently denied by the White House on social media. The report said that the military's stockpile of long-range missiles had been extremely depleted by the strikes against Iran, and the president was blaming Hegseth. 'Unfortunately for them, the President loves the Secretary and t",
-    "drafted_at": "2026-08-06T12:49:37.022843",
+    "primary_source": "PR NEWSWIRE",
+    "source_url": "https://www.prnewswire.com/news-releases/mobile-banking-market-to-hit-usd-58-02-trillion-by-2031-with-asia-pacific-holding-46-6-market-share-in-2025--says-mordor-intelligence-302844947.html",
+    "source_title": "Mobile Banking Market to Hit USD 58.02 Trillion by 2031 with Asia-Pacific Holding 46.6% Market Share in 2025, Says Mordor Intelligence",
+    "source_summary": "HYDERABAD, India, Aug. 6, 2026 /PRNewswire/ -- According to Mordor Intelligence, the mobile banking market size is projected to grow from USD 28.73 trillion in 2025 to USD 58.02 trillion by 2031, rising from USD 32.11 trillion in 2026 at a 12.56% CAGR (2026\u20132031). The market is benefiting...",
+    "drafted_at": "2026-08-06T15:15:26.136018",
     "data": {
-      "source": "THE BLAZE"
+      "source": "PR NEWSWIRE"
     },
-    "content_hash": "f1db302176541d03"
+    "content_hash": "7654d3cf2f4c1455"
   },
   {
-    "id": "0befe393",
+    "id": "77e3702e",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: US stock futures were mixed during the premarket session on Thursday as investors weighed progress in the Middle East and grappled with the continued fracturing in the artificial-intelligence trade following results from key memory names.\n\nhttps://financialpost.com/pmn/business-pmn/us-futures-mixed-as-traders-weigh-memory-results-iran-progress",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/pmn/business-pmn/us-futures-mixed-as-traders-weigh-memory-results-iran-progress",
-    "source_title": "US Futures Mixed as Traders Weigh Memory Results, Iran Progress",
-    "source_summary": "US stock futures were mixed during the premarket session on Thursday as investors weighed progress in the Middle East and grappled with the continued fracturing in the artificial-intelligence trade following results from key memory names.",
-    "drafted_at": "2026-08-06T12:49:37.023327",
-    "data": {
-      "source": "FINANCIAL POST"
-    },
-    "content_hash": "321e9d08f51e9124"
-  },
-  {
-    "id": "ae0c3212",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Cross-border read: The Cockroach Janta Party, which spearheaded India\u2019s biggest student protests in recent years, said it won\u2019t become a political party, opting instead to remain a \u201cpressure group\u201d after weeks of demonstrations forced Prime Minister Narendra Modi to replace his education minister.\n\nhttps://financialpost.com/pmn/business-pmn/indias-student-movement-shuns-politics-stays-pressure-group",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/pmn/business-pmn/indias-student-movement-shuns-politics-stays-pressure-group",
-    "source_title": "India\u2019s Student Movement Shuns Politics, Stays Pressure Group",
-    "source_summary": "The Cockroach Janta Party, which spearheaded India\u2019s biggest student protests in recent years, said it won\u2019t become a political party, opting instead to remain a \u201cpressure group\u201d after weeks of demonstrations forced Prime Minister Narendra Modi to replace his education minister.",
-    "drafted_at": "2026-08-06T12:49:37.024160",
-    "data": {
-      "source": "FINANCIAL POST"
-    },
-    "content_hash": "7517c6fb8df34c21"
-  },
-  {
-    "id": "41bd7889",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Continental update: Repeated heat waves and droughts this summer have put Europe\u2019s power system on high alert, with shrinking hydro reserves in key markets threatening to drive electricity prices higher later in the year.\n\nhttps://financialpost.com/pmn/business-pmn/low-hydropower-stocks-in-europe-threaten-high-prices-for-months",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/pmn/business-pmn/low-hydropower-stocks-in-europe-threaten-high-prices-for-months",
-    "source_title": "Low Hydropower Stocks in Europe Threaten High Prices for Months",
-    "source_summary": "Repeated heat waves and droughts this summer have put Europe\u2019s power system on high alert, with shrinking hydro reserves in key markets threatening to drive electricity prices higher later in the year.",
-    "drafted_at": "2026-08-06T12:49:37.024597",
-    "data": {
-      "source": "FINANCIAL POST"
-    },
-    "content_hash": "d713d1b7dab2508d"
-  },
-  {
-    "id": "a102ae90",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "GLOBAL DESK: Prior was 2.3% Productivity +1.4% vs +0.6% expected Prior productivity was +0.8% This isn't really a useful report because productivity is so hard to measure and it's often revised many times.\n\nIn theory, unit labor costs are a critical inflation number but it's rarely a market mover because measuring it is so variable quarter-to-quarter.\n\nThe dollar has much bigger questions to answer at the moment with all the intervention in the yen.\n\nThe Treasury market also doesn't like what it's been hearing from Bessent.\n\nThis article was written by Adam Button at investinglive.com.\n\nhttps://investinglive.com/news/us-q2-prelim-unit-labor-costs-vs-2-1-expected/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/us-q2-prelim-unit-labor-costs-vs-2-1-expected/",
-    "source_title": "US Q2 prelim unit labor costs +1.3% vs +2.1% expected",
-    "source_summary": "Prior was 2.3% Productivity +1.4% vs +0.6% expected Prior productivity was +0.8% This isn't really a useful report because productivity is so hard to measure and it's often revised many times. In theory, unit labor costs are a critical inflation number but it's rarely a market mover because measuring it is so variable quarter-to-quarter. The dollar has much bigger questions to answer at the moment",
-    "drafted_at": "2026-08-06T12:49:37.026535",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "e701ef43c538cce8"
-  },
-  {
-    "id": "59658dd5",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "From the unemployment desk: According to a report from the US Department of Labor (DOL) released on Thursday, the number of US citizens submitting new applications for unemployment insurance rose marginally to 199K for the week ending August 1.\n\nhttps://www.fxstreet.com/news/us-initial-jobless-claims-increased-to-199k-last-week-202608061235",
+    "draft_text": "APAC wire: USD/JPY trades modestly higher near 158.20 on Thursday, extending a fourth session of Japanese Yen (JPY) softness as the pair claws back ground lost to last week's coordinated Japan-United States (US) intervention.\n\nhttps://www.fxstreet.com/news/japanese-yen-falls-as-initial-jobless-claims-hold-tight-202608061510",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/us-initial-jobless-claims-increased-to-199k-last-week-202608061235",
-    "source_title": "US Initial Jobless Claims increased to 199K last week",
-    "source_summary": "According to a report from the US Department of Labor (DOL) released on Thursday, the number of US citizens submitting new applications for unemployment insurance rose marginally to 199K for the week ending August 1.",
-    "drafted_at": "2026-08-06T12:49:37.082874",
+    "source_url": "https://www.fxstreet.com/news/japanese-yen-falls-as-initial-jobless-claims-hold-tight-202608061510",
+    "source_title": "Japanese Yen falls as Initial Jobless claims hold tight",
+    "source_summary": "USD/JPY trades modestly higher near 158.20 on Thursday, extending a fourth session of Japanese Yen (JPY) softness as the pair claws back ground lost to last week's coordinated Japan-United States (US) intervention.",
+    "drafted_at": "2026-08-06T15:15:26.136459",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "30297fb3b956c93e"
+    "content_hash": "38e9b20e0e833fd4"
   },
   {
-    "id": "f50ca2b2",
+    "id": "a95dad05",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "From the international wire: The Indian Rupee (INR) has found local support against the US Dollar (USD), with USD/INR easing to around 95.10 following the Reserve Bank of India\u2019s (RBI) decision to hold its benchmark repo rate steady at 5.25% for a fourth consecutive meeting.\n\nhttps://www.fxstreet.com/news/the-rbi-held-at-525-and-india-attracted-41-billion-why-the-rupee-still-faces-a-ceiling-202608061510",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/the-rbi-held-at-525-and-india-attracted-41-billion-why-the-rupee-still-faces-a-ceiling-202608061510",
+    "source_title": "The RBI held at 5.25% and India attracted $41 billion: Why the Rupee still faces a ceiling",
+    "source_summary": "The Indian Rupee (INR) has found local support against the US Dollar (USD), with USD/INR easing to around 95.10 following the Reserve Bank of India\u2019s (RBI) decision to hold its benchmark repo rate steady at 5.25% for a fourth consecutive meeting.",
+    "drafted_at": "2026-08-06T15:15:26.137000",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "46f2600f3b304c7d"
+  },
+  {
+    "id": "ec033484",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Levant update: ING economists Deepali Bhargava and Lynn Song note that the Indian Rupee (INR) has given back much of its June gains as US\u2013Iran tensions and rising Oil prices hurt sentiment.\n\nhttps://www.fxstreet.com/news/indian-rupee-foreign-inflows-to-aid-inr-against-us-dollar-ing-202608061504",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/indian-rupee-foreign-inflows-to-aid-inr-against-us-dollar-ing-202608061504",
+    "source_title": "Indian Rupee: Foreign inflows to aid INR against US Dollar \u2013 ING",
+    "source_summary": "ING economists Deepali Bhargava and Lynn Song note that the Indian Rupee (INR) has given back much of its June gains as US\u2013Iran tensions and rising Oil prices hurt sentiment.",
+    "drafted_at": "2026-08-06T15:15:26.137527",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "6b4db01d1cbbe008"
+  },
+  {
+    "id": "2f6dd49c",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "From the Americas: Argentina's recent record unconventional oil and natural gas output from the Vaca Muerta shale is boosting energy security in the Americas.\n\nIn a decade, shale oil and gas production has grown at a stunning clip to now comprise over 70% of Argentina\u2019s hydrocarbon output.\n\nThis rapid growth will continue with the Vaca Muerta, which is still in the early stages of development, poised to become a leading shale oil and gas play that will bolster energy security in the Americas.\n\nFor June 2026, government data shows Argentina\u2019s oil production\u2026\n\nhttps://oilprice.com/Energy/Energy-General/Argentinas-Shale-Boom-Is-Reshaping-Energy-Security-Across-the-Americas.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "OILPRICE",
+    "source_url": "https://oilprice.com/Energy/Energy-General/Argentinas-Shale-Boom-Is-Reshaping-Energy-Security-Across-the-Americas.html",
+    "source_title": "Argentina's Shale Boom Is Reshaping Energy Security Across the Americas",
+    "source_summary": "Argentina's recent record unconventional oil and natural gas output from the Vaca Muerta shale is boosting energy security in the Americas. In a decade, shale oil and gas production has grown at a stunning clip to now comprise over 70% of Argentina\u2019s hydrocarbon output. This rapid growth will continue with the Vaca Muerta, which is still in the early stages of development, poised to become a leadi",
+    "drafted_at": "2026-08-06T15:15:26.138614",
+    "data": {
+      "source": "OILPRICE"
+    },
+    "content_hash": "62d08df6bf9a47a7"
+  },
+  {
+    "id": "52afdbc6",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "JOBLESS-CLAIMS READ: USD/JPY trades modestly higher near 158.20 on Thursday, extending a fourth session of Japanese Yen (JPY) softness as the pair claws back ground lost to last week's coordinated Japan-United States (US) intervention.\n\nhttps://www.fxstreet.com/news/japanese-yen-falls-as-initial-jobless-claims-hold-tight-202608061510",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/japanese-yen-falls-as-initial-jobless-claims-hold-tight-202608061510",
+    "source_title": "Japanese Yen falls as Initial Jobless claims hold tight",
+    "source_summary": "USD/JPY trades modestly higher near 158.20 on Thursday, extending a fourth session of Japanese Yen (JPY) softness as the pair claws back ground lost to last week's coordinated Japan-United States (US) intervention.",
+    "drafted_at": "2026-08-06T15:15:26.192005",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "38e9b20e0e833fd4"
+  },
+  {
+    "id": "a7b49ae5",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "From the unemployment desk: Rising sales and a labor shortage are deterring job cuts.\n\nJobless claims haven\u2019t been this low since 1969.\n\nhttps://www.marketwatch.com/story/layoffs-fall-to-the-lowest-level-since-the-u-s-put-men-on-the-moon-heres-what-that-says-about-the-economy-71f7bd23?mod=mw_rss_topstories",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "MARKETWATCH",
+    "source_url": "https://www.marketwatch.com/story/layoffs-fall-to-the-lowest-level-since-the-u-s-put-men-on-the-moon-heres-what-that-says-about-the-economy-71f7bd23?mod=mw_rss_topstories",
+    "source_title": "Layoffs fall to the lowest level since the U.S. put men on the moon. Here\u2019s what that says about the economy.",
+    "source_summary": "Rising sales and a labor shortage are deterring job cuts. Jobless claims haven\u2019t been this low since 1969.",
+    "drafted_at": "2026-08-06T15:15:26.192252",
+    "data": {
+      "source": "MARKETWATCH"
+    },
+    "content_hash": "64d88b96c3906568"
+  },
+  {
+    "id": "cdebcfa1",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "Labor-market thermometer: Prior week initial jobless claims 197K revised to 198K Initial jobless claims 199K vs 202K estimate 4-week MA of initial jobless claims 198.75K vs 203.25K last week.\n\nPrior week continuing claims 1.782M revised to 1.777M Continuing claims 1.801M vs 1.790M estimate 4-week MA of continuing claims 1.791M vs 1.796M Some facts: Initial jobless claims remain near historically low levels (see chart ABOVE), suggesting layoffs are still limited.\n\nWhile payroll growth has slowed, businesses continue to retain workers rather than reduce headcount.\n\nThe labor market has increasingly been described as \"low-hire, low-fire.\" Hiring is modest, but employers are also hesitant to let employees go after experiencing labor shortages over the last several years.\n\nUnemployment has remained relatively stable despite slower job creation, reinforcing the Fed's view that employment is not deteriorating in a meaningful way.\n\nWhat Fed officials have said John Williams (New York Fed) Williams has repeatedly said the labor market remains stable and that current monetary policy is appropriately positioned.\n\nHe continues to expect inflation to ease while emphasizing that the Fed will respond if inflation fails to move back toward target.\n\nMary Daly (San Francisco Fed) Daly said the Fed was right to leave rates unchanged in July because officials want more data before deciding on September.\n\nhttps://investinglive.com/news/us-initial-jobless-claims-199k-versus-202k-estimate/",
@@ -572,14 +606,14 @@
     "source_url": "https://investinglive.com/news/us-initial-jobless-claims-199k-versus-202k-estimate/",
     "source_title": "US initial jobless claims 199K versus 202K estimate",
     "source_summary": "Prior week initial jobless claims 197K revised to 198K Initial jobless claims 199K vs 202K estimate 4-week MA of initial jobless claims 198.75K vs 203.25K last week. Prior week continuing claims 1.782M revised to 1.777M Continuing claims 1.801M vs 1.790M estimate 4-week MA of continuing claims 1.791M vs 1.796M Some facts: Initial jobless claims remain near historically low levels (see chart ABOVE)",
-    "drafted_at": "2026-08-06T12:49:37.084903",
+    "drafted_at": "2026-08-06T15:15:26.194307",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "7d0ecc055e82a065"
   },
   {
-    "id": "29e97cfc",
+    "id": "cbbd2d5d",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "CPI just printed. Headlines: Gold sees early gains ease but buyers stay in a good spot in second half of the week Equities take a step back as investors can't shake off AI spending concerns S&P 500 soars to record highs as geopolitical risks ease; focus shifts to US CPI data The dollar's next move hinges on inflation, while the yen waits for the BoJ US-based employers announce fewest job cuts in two years in July German construction activity continues to struggle at the start of Q3 UK construction slump eases in July amid rebound in client demand Markets: WTI crude oil up 0.8% to $75.80 USD leads, CHF lags on the day Gold up 0.2% to $4,255 S&P 500 futures up 0.1%, Nasdaq futures down 0.4% US 10-year yields up 2.6 bps to 4.64% Bitcoin down 0.3% to $64,565 It was a session where markets are taking a bit of a breather in not really chasing any moves too much.\n\nThe jump higher in gold and tech selloff yesterday is still reverberating, and market players are gathering their steps again in approaching the second half of the week.\n\nWithout any fresh developments on the US-Iran conflict, there wasn't much else to work with on the session.\n\nAs such, the focus and attention now shifts to the US non-farm payrolls tomorrow.\n\nGold remains in the spotlight after early buying in Asia saw price run to a high of $4,303 before settling to $4,255 now - still up 0.2% on the day.\n\nMeanwhile, oil prices are also keeping a little higher with WTI crude up 0.8% to $75.80 amid a more cautious mood surrounding the situation in the Middle East.\n\nIn other markets, the dollar was not up to much as currency traders continue to be sidelined in trying to figure out their next steps after the USD/JPY joint intervention.\n\nThe dollar is keeping steadier today with EUR/USD down 0.1% to 1.1540 and USD/JPY up 0.1% to 157.90 currently.\n\nhttps://investinglive.com/news/investinglive-european-markets-wrap-dollar-steadies-gold-stays-poised-but-off-early-highs/",
@@ -589,14 +623,14 @@
     "source_url": "https://investinglive.com/news/investinglive-european-markets-wrap-dollar-steadies-gold-stays-poised-but-off-early-highs/",
     "source_title": "investingLive European markets wrap: Dollar steadies, gold stays poised but off early highs",
     "source_summary": "Headlines: Gold sees early gains ease but buyers stay in a good spot in second half of the week Equities take a step back as investors can't shake off AI spending concerns S&P 500 soars to record highs as geopolitical risks ease; focus shifts to US CPI data The dollar's next move hinges on inflation, while the yen waits for the BoJ US-based employers announce fewest job cuts in two years in July G",
-    "drafted_at": "2026-08-06T12:49:37.086941",
+    "drafted_at": "2026-08-06T15:15:26.196305",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "824226012fccc132"
   },
   {
-    "id": "dec7910f",
+    "id": "4b859021",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "Consumer scoreboard: June retail sales -0.3% vs +0.1% m/m expected Prior +0.2%; revised to +0.4% June retail sales +0.7% vs +1.0% y/y expected Prior +1.6%; revised to +1.9% Euro area retail sales disappointed in June amid a broad decrease in food store and non-food store sales combined.\n\nThat's a poor look but it at least comes together with a positive revision to the May numbers.\n\nHence, it perhaps exacerbates the decline seen in the June report.\n\nOf note, the volume of retail trade for food, drinks, tobacco fell by 0.5% on the month.\n\nMeanwhile, the volume of retail trade for non-food products dropped by 0.4%.\n\nThat is all slightly offset by an increase in the volume of retail trade for automotive fuel in specialised stores, which increased by 1.5%.\n\nThe overall report mirrors the same kind of look from Germany.\n\nIn case you missed it: Germany retail sales slump in June despite stronger petrol station sales again That also explains better to contrast and increase in petrol station sales on the month for the region.\n\nhttps://investinglive.com/news/euro-area-retail-sales-unexpectedly-fall-in-june-amid-broader-slump-in-overall-activity/",
@@ -606,31 +640,14 @@
     "source_url": "https://investinglive.com/news/euro-area-retail-sales-unexpectedly-fall-in-june-amid-broader-slump-in-overall-activity/",
     "source_title": "Euro area retail sales unexpectedly fall in June amid broader slump in overall activity",
     "source_summary": "June retail sales -0.3% vs +0.1% m/m expected Prior +0.2%; revised to +0.4% June retail sales +0.7% vs +1.0% y/y expected Prior +1.6%; revised to +1.9% Euro area retail sales disappointed in June amid a broad decrease in food store and non-food store sales combined. That's a poor look but it at least comes together with a positive revision to the May numbers. Hence, it perhaps exacerbates the decl",
-    "drafted_at": "2026-08-06T12:49:37.088070",
+    "drafted_at": "2026-08-06T15:15:26.197402",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "971b11de48563380"
   },
   {
-    "id": "45bf5036",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "The CPI scoreboard: The economy grew at an inflation-adjusted 1.5% annual rate in the second quarter, the Bureau of Labor Statistics said in a preliminary estimate of GDP that also indicated that consumer spending and artificial intelligence investment are keeping commerce steady.\n\nThe reading, the first of three estimates for second-quarter GDP, indicates that economic growth slowed from [\u2026]\n\nhttps://www.washingtonexaminer.com/policy/economy/4668430/economy-expanded-second-quarter-2026/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "WASH EXAMINER",
-    "source_url": "https://www.washingtonexaminer.com/policy/economy/4668430/economy-expanded-second-quarter-2026/",
-    "source_title": "In slowdown, the economy expanded at 1.5% rate in second quarter",
-    "source_summary": "The economy grew at an inflation-adjusted 1.5% annual rate in the second quarter, the Bureau of Labor Statistics said in a preliminary estimate of GDP that also indicated that consumer spending and artificial intelligence investment are keeping commerce steady. The reading, the first of three estimates for second-quarter GDP, indicates that economic growth slowed from [\u2026]",
-    "drafted_at": "2026-08-06T12:49:37.088570",
-    "data": {
-      "source": "WASH EXAMINER"
-    },
-    "content_hash": "7be86725c91f67c3"
-  },
-  {
-    "id": "ab363af4",
+    "id": "185a44cc",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -640,7 +657,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-08-06T12:49:37.090025",
+    "drafted_at": "2026-08-06T15:15:26.199412",
     "data": {
       "manual": true,
       "via": "manual_news.md"
