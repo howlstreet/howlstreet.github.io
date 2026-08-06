@@ -1,18 +1,4 @@
 {
-  "^VIX:move:2026-08-04": {
-    "headline": "VIX tumbles 11.2% in 5 sessions to 16.50",
-    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "source": "CBOE \u00b7 ^VIX",
-    "chart_path": null,
-    "signal_id": "^VIX:move:2026-08-04",
-    "current_str": "16.50",
-    "label": "VIX (S&P 500 volatility)",
-    "hashtags": "#VIX #Volatility #Markets",
-    "kind": "move_down",
-    "badge": "-11.2%",
-    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "fired_at": "2026-08-05T04:53:56.740137"
-  },
   "^GSPC:high:2026-08-04": {
     "headline": "S&P 500 just hit 7,736.52 \u2014 highest in 9+ years",
     "matters": "The benchmark of U.S. equities. Watched globally as the proxy for risk-on / risk-off.",
@@ -70,18 +56,18 @@
     "fired_at": "2026-08-05T23:46:06.050737"
   },
   "^VIX:move:2026-08-05": {
-    "headline": "VIX tumbles 13.1% in 5 sessions to 16.15",
+    "headline": "VIX tumbles 14.9% in 5 sessions to 15.81",
     "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
     "source": "CBOE \u00b7 ^VIX",
     "chart_path": null,
     "signal_id": "^VIX:move:2026-08-05",
-    "current_str": "16.15",
+    "current_str": "15.81",
     "label": "VIX (S&P 500 volatility)",
     "hashtags": "#VIX #Volatility #Markets",
     "kind": "move_down",
-    "badge": "-13.1%",
+    "badge": "-14.9%",
     "data_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "fired_at": "2026-08-05T07:31:51.051699"
+    "fired_at": "2026-08-06T04:54:08.739436"
   },
   "^GSPC:high:2026-08-05": {
     "headline": "S&P 500 just hit 7,747.93 \u2014 highest in 9+ years",
@@ -152,5 +138,33 @@
     "badge": "+6.1%",
     "data_url": "https://finance.yahoo.com/quote/GC%3DF",
     "fired_at": "2026-08-05T15:16:21.636356"
+  },
+  "GC=F:move:2026-08-06": {
+    "headline": "Gold climbs 6.0% in 5 sessions to $4,317.40",
+    "matters": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
+    "source": "COMEX \u00b7 GC=F",
+    "chart_path": null,
+    "signal_id": "GC=F:move:2026-08-06",
+    "current_str": "$4,317.40",
+    "label": "Gold futures",
+    "hashtags": "#Gold #PreciousMetals #Commodities",
+    "kind": "move_up",
+    "badge": "+6.0%",
+    "data_url": "https://finance.yahoo.com/quote/GC%3DF",
+    "fired_at": "2026-08-06T04:54:08.739436"
+  },
+  "CL=F:move:2026-08-06": {
+    "headline": "WTI crude slides 9.5% in 5 sessions to $74.80",
+    "matters": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "source": "NYMEX \u00b7 CL=F",
+    "chart_path": null,
+    "signal_id": "CL=F:move:2026-08-06",
+    "current_str": "$74.80",
+    "label": "WTI crude oil futures",
+    "hashtags": "#Oil #WTI #Energy #Commodities",
+    "kind": "move_down",
+    "badge": "-9.5%",
+    "data_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "fired_at": "2026-08-06T04:54:08.739436"
   }
 }
