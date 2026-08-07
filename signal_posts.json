@@ -70,18 +70,18 @@
     "fired_at": "2026-08-07T00:41:57.737009"
   },
   "^VIX:move:2026-08-06": {
-    "headline": "VIX craters 15.2% in 5 sessions to 15.83",
+    "headline": "VIX craters 18.9% in 5 sessions to 15.15",
     "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
     "source": "CBOE \u00b7 ^VIX",
     "chart_path": null,
     "signal_id": "^VIX:move:2026-08-06",
-    "current_str": "15.83",
+    "current_str": "15.15",
     "label": "VIX (S&P 500 volatility)",
     "hashtags": "#VIX #Volatility #Markets",
     "kind": "move_down",
-    "badge": "-15.2%",
+    "badge": "-18.9%",
     "data_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "fired_at": "2026-08-06T07:31:38.513784"
+    "fired_at": "2026-08-07T04:17:55.187996"
   },
   "^IXIC:move:2026-08-06": {
     "headline": "Nasdaq climbs 6.0% in 5 sessions to 26,427.21",
@@ -96,5 +96,19 @@
     "badge": "+6.0%",
     "data_url": "https://finance.yahoo.com/quote/%5EIXIC",
     "fired_at": "2026-08-06T15:15:23.798552"
+  },
+  "GC=F:move:2026-08-07": {
+    "headline": "Gold jumps 7.1% in 5 sessions to $4,324.80",
+    "matters": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
+    "source": "COMEX \u00b7 GC=F",
+    "chart_path": null,
+    "signal_id": "GC=F:move:2026-08-07",
+    "current_str": "$4,324.80",
+    "label": "Gold futures",
+    "hashtags": "#Gold #PreciousMetals #Commodities",
+    "kind": "move_up",
+    "badge": "+7.1%",
+    "data_url": "https://finance.yahoo.com/quote/GC%3DF",
+    "fired_at": "2026-08-07T04:17:55.187996"
   }
 }
