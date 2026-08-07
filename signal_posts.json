@@ -1,18 +1,4 @@
 {
-  "CL=F:move:2026-08-05": {
-    "headline": "WTI crude craters 16.0% in 5 sessions to $74.98",
-    "matters": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "source": "NYMEX \u00b7 CL=F",
-    "chart_path": null,
-    "signal_id": "CL=F:move:2026-08-05",
-    "current_str": "$74.98",
-    "label": "WTI crude oil futures",
-    "hashtags": "#Oil #WTI #Energy #Commodities",
-    "kind": "move_down",
-    "badge": "-16.0%",
-    "data_url": "https://finance.yahoo.com/quote/CL%3DF",
-    "fired_at": "2026-08-05T23:46:06.050737"
-  },
   "^VIX:move:2026-08-05": {
     "headline": "VIX tumbles 14.9% in 5 sessions to 15.81",
     "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
@@ -26,20 +12,6 @@
     "badge": "-14.9%",
     "data_url": "https://finance.yahoo.com/quote/%5EVIX",
     "fired_at": "2026-08-06T04:54:08.739436"
-  },
-  "^GSPC:high:2026-08-05": {
-    "headline": "S&P 500 just hit 7,747.93 \u2014 highest in 9+ years",
-    "matters": "The benchmark of U.S. equities. Watched globally as the proxy for risk-on / risk-off.",
-    "source": "Yahoo Finance \u00b7 ^GSPC",
-    "chart_path": null,
-    "signal_id": "^GSPC:high:2026-08-05",
-    "current_str": "7,747.93",
-    "label": "S&P 500",
-    "hashtags": "#SPX #SP500 #Stocks #Markets",
-    "kind": "high",
-    "badge": "9Y HIGH",
-    "data_url": "https://finance.yahoo.com/quote/%5EGSPC",
-    "fired_at": "2026-08-05T15:16:21.636356"
   },
   "^IXIC:move:2026-08-05": {
     "headline": "Nasdaq climbs 5.6% in 5 sessions to 26,363.44",
@@ -69,61 +41,33 @@
     "data_url": "https://finance.yahoo.com/quote/%5EDJI",
     "fired_at": "2026-08-06T10:25:54.213045"
   },
-  "^DJI:move:2026-08-05": {
-    "headline": "Dow climbs 5.1% in 5 sessions to 54,577.52",
-    "matters": "30 large U.S. industrials. Slower-moving than the S&P but the headline number retail readers track.",
-    "source": "Yahoo Finance \u00b7 ^DJI",
-    "chart_path": null,
-    "signal_id": "^DJI:move:2026-08-05",
-    "current_str": "54,577.52",
-    "label": "Dow Jones Industrial Average",
-    "hashtags": "#Dow #Stocks #Markets",
-    "kind": "move_up",
-    "badge": "+5.1%",
-    "data_url": "https://finance.yahoo.com/quote/%5EDJI",
-    "fired_at": "2026-08-05T15:16:21.636356"
-  },
-  "GC=F:move:2026-08-05": {
-    "headline": "Gold climbs 6.1% in 5 sessions to $4,315.50",
-    "matters": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
-    "source": "COMEX \u00b7 GC=F",
-    "chart_path": null,
-    "signal_id": "GC=F:move:2026-08-05",
-    "current_str": "$4,315.50",
-    "label": "Gold futures",
-    "hashtags": "#Gold #PreciousMetals #Commodities",
-    "kind": "move_up",
-    "badge": "+6.1%",
-    "data_url": "https://finance.yahoo.com/quote/GC%3DF",
-    "fired_at": "2026-08-05T15:16:21.636356"
-  },
   "GC=F:move:2026-08-06": {
-    "headline": "Gold climbs 6.0% in 5 sessions to $4,317.40",
+    "headline": "Gold climbs 5.5% in 5 sessions to $4,300.30",
     "matters": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
     "source": "COMEX \u00b7 GC=F",
     "chart_path": null,
     "signal_id": "GC=F:move:2026-08-06",
-    "current_str": "$4,317.40",
+    "current_str": "$4,300.30",
     "label": "Gold futures",
     "hashtags": "#Gold #PreciousMetals #Commodities",
     "kind": "move_up",
-    "badge": "+6.0%",
+    "badge": "+5.5%",
     "data_url": "https://finance.yahoo.com/quote/GC%3DF",
-    "fired_at": "2026-08-06T04:54:08.739436"
+    "fired_at": "2026-08-07T00:41:57.737009"
   },
   "CL=F:move:2026-08-06": {
-    "headline": "WTI crude slides 9.5% in 5 sessions to $74.80",
+    "headline": "WTI crude drops 5.3% in 5 sessions to $78.20",
     "matters": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
     "source": "NYMEX \u00b7 CL=F",
     "chart_path": null,
     "signal_id": "CL=F:move:2026-08-06",
-    "current_str": "$74.80",
+    "current_str": "$78.20",
     "label": "WTI crude oil futures",
     "hashtags": "#Oil #WTI #Energy #Commodities",
     "kind": "move_down",
-    "badge": "-9.5%",
+    "badge": "-5.3%",
     "data_url": "https://finance.yahoo.com/quote/CL%3DF",
-    "fired_at": "2026-08-06T04:54:08.739436"
+    "fired_at": "2026-08-07T00:41:57.737009"
   },
   "^VIX:move:2026-08-06": {
     "headline": "VIX craters 15.2% in 5 sessions to 15.83",
