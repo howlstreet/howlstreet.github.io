@@ -1,6 +1,6 @@
 [
   {
-    "id": "a249d787",
+    "id": "cbf41f63",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "US nonfarm payrolls unexpectedly decline in July; unemployment rate eases to 4.1% Reuters\n\nhttps://news.google.com/rss/articles/CBMiowFBVV95cUxNN1B4WTMtdXVhNDJJNjJ2Sjl5dm14MXI4M3FUc2dYUDN5blRtOTBXQVZqX0ZaUWNQTFpZMDdlU24tY1BLWHVORE03Y0p3ekNQM0RHQjZJWEhpckhfLXl1QWFlVlV2UU9OWFhkWDZZNXA1eHdFVmlkQVlVUWdaQWVKUl9NMC1QcW8zT09NRks4eGViOXpESU82MmpuaWYydkljM1Fv?oc=5",
@@ -10,14 +10,33 @@
     "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNN1B4WTMtdXVhNDJJNjJ2Sjl5dm14MXI4M3FUc2dYUDN5blRtOTBXQVZqX0ZaUWNQTFpZMDdlU24tY1BLWHVORE03Y0p3ekNQM0RHQjZJWEhpckhfLXl1QWFlVlV2UU9OWFhkWDZZNXA1eHdFVmlkQVlVUWdaQWVKUl9NMC1QcW8zT09NRks4eGViOXpESU82MmpuaWYydkljM1Fv?oc=5",
     "source_title": "US nonfarm payrolls unexpectedly decline in July; unemployment rate eases to 4.1%",
     "source_summary": "US nonfarm payrolls unexpectedly decline in July; unemployment rate eases to 4.1% Reuters",
-    "drafted_at": "2026-08-07T14:14:19.764640",
+    "drafted_at": "2026-08-07T15:26:44.049146",
     "data": {
       "source": "REUTERS"
     },
     "content_hash": "a735da00300809e7"
   },
   {
-    "id": "48f84218",
+    "id": "8593e18c",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Don't sleep on this. S&P 500 just hit 7,761.64 \u2014 highest in 9+ years.\n\nThe benchmark of U.S. equities.\n\nWatched globally as the proxy for risk-on / risk-off.\n\nMulti-year high. The pack remembers what comes after these.\n\nhttps://finance.yahoo.com/quote/%5EGSPC",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Yahoo Finance \u00b7 ^GSPC",
+    "source_url": "https://finance.yahoo.com/quote/%5EGSPC",
+    "source_title": "S&P 500",
+    "source_summary": "The benchmark of U.S. equities. Watched globally as the proxy for risk-on / risk-off.",
+    "drafted_at": "2026-08-07T15:26:44.049439",
+    "data": {
+      "signal_id": "^GSPC:high:2026-08-07",
+      "kind": "high",
+      "current": "7,761.64"
+    },
+    "content_hash": "3fefe25d3b818aa2"
+  },
+  {
+    "id": "89c8da30",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Boring? Maybe. Actionable? Definitely. Nasdaq climbs 6.6% in 5 sessions to 26,507.81.\n\nTech-heavy index.\n\nLeads risk appetite and is most sensitive to rate moves.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EIXIC",
@@ -27,7 +46,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EIXIC",
     "source_title": "Nasdaq Composite",
     "source_summary": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
-    "drafted_at": "2026-08-07T14:14:19.764847",
+    "drafted_at": "2026-08-07T15:26:44.049654",
     "data": {
       "signal_id": "^IXIC:move:2026-08-07",
       "kind": "move_up",
@@ -36,7 +55,7 @@
     "content_hash": "ce08e8b71b40219b"
   },
   {
-    "id": "570d6226",
+    "id": "2c6afd99",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "I love a good move. This is a great one. Nasdaq climbs 5.7% in 5 sessions to 26,348.35.\n\nTech-heavy index.\n\nLeads risk appetite and is most sensitive to rate moves.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EIXIC",
@@ -46,7 +65,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EIXIC",
     "source_title": "Nasdaq Composite",
     "source_summary": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
-    "drafted_at": "2026-08-07T14:14:19.765003",
+    "drafted_at": "2026-08-07T15:26:44.049899",
     "data": {
       "signal_id": "^IXIC:move:2026-08-06",
       "kind": "move_up",
@@ -55,7 +74,7 @@
     "content_hash": "ce08e8b71b40219b"
   },
   {
-    "id": "dddba3cf",
+    "id": "8522cafd",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "If you're not watching this, you're behind. VIX craters 16.0% in 5 sessions to 15.29.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
@@ -65,7 +84,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EVIX",
     "source_title": "VIX (S&P 500 volatility)",
     "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-08-07T14:14:19.765183",
+    "drafted_at": "2026-08-07T15:26:44.050132",
     "data": {
       "signal_id": "^VIX:move:2026-08-07",
       "kind": "move_down",
@@ -74,7 +93,7 @@
     "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "f2570944",
+    "id": "9f477276",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Two seconds, trust me. VIX craters 18.9% in 5 sessions to 15.15.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
@@ -84,7 +103,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EVIX",
     "source_title": "VIX (S&P 500 volatility)",
     "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-08-07T14:14:19.765342",
+    "drafted_at": "2026-08-07T15:26:44.050339",
     "data": {
       "signal_id": "^VIX:move:2026-08-06",
       "kind": "move_down",
@@ -93,94 +112,7 @@
     "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "2196b894",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "This is the kind of move that hits twice. Gold jumps 7.1% in 5 sessions to $4,324.80.\n\nGold tracks real yields and central bank demand.\n\nMulti-year highs flag debasement or geopolitical hedging flows.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/GC%3DF",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "COMEX \u00b7 GC=F",
-    "source_url": "https://finance.yahoo.com/quote/GC%3DF",
-    "source_title": "Gold futures",
-    "source_summary": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
-    "drafted_at": "2026-08-07T14:14:19.765539",
-    "data": {
-      "signal_id": "GC=F:move:2026-08-07",
-      "kind": "move_up",
-      "current": "$4,324.80"
-    },
-    "content_hash": "514096a7b4f87c16"
-  },
-  {
-    "id": "a67a5443",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "Powell on the wire. The Fed's potential shift away from rate hikes could stabilize markets, but may also signal concerns about economic growth and labor market health.\n\nThe post BlackRock\u2019s Rieder sees Fed rate hike unlikely after July jobs report appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/blackrocks-rieder-sees-fed-rate-hike-unlikely-after-july-jobs-report/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://cryptobriefing.com/blackrocks-rieder-sees-fed-rate-hike-unlikely-after-july-jobs-report/",
-    "source_title": "BlackRock\u2019s Rieder sees Fed rate hike unlikely after July jobs report",
-    "source_summary": "The Fed's potential shift away from rate hikes could stabilize markets, but may also signal concerns about economic growth and labor market health. The post BlackRock\u2019s Rieder sees Fed rate hike unlikely after July jobs report appeared first on Crypto Briefing .",
-    "drafted_at": "2026-08-07T14:14:19.774246",
-    "data": {
-      "actor": "Fed"
-    },
-    "content_hash": "6e9616c1314b6f1d"
-  },
-  {
-    "id": "a2c020d1",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "The Fed just spoke. Here's what matters: US Treasuries rallied after data showed employers unexpectedly cut jobs in July, suggesting labor market challenges that could impact the Federal Reserve\u2019s willingness to raise interest rates.\n\nhttps://financialpost.com/pmn/business-pmn/us-treasuries-rally-as-soft-jobs-data-trims-fed-rate-hike-bets",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://financialpost.com/pmn/business-pmn/us-treasuries-rally-as-soft-jobs-data-trims-fed-rate-hike-bets",
-    "source_title": "US Treasuries Rally as Soft Jobs Data Trims Fed Rate-Hike Bets",
-    "source_summary": "US Treasuries rallied after data showed employers unexpectedly cut jobs in July, suggesting labor market challenges that could impact the Federal Reserve\u2019s willingness to raise interest rates.",
-    "drafted_at": "2026-08-07T14:14:19.774523",
-    "data": {
-      "actor": "Fed"
-    },
-    "content_hash": "ec3d97520bc206ef"
-  },
-  {
-    "id": "ac27eebf",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "Live from the Federal Reserve: USD/JPY falls toward 157.40 on Friday, down 0.65% on the day at the time of writing, as the US Dollar (USD) comes under heavy selling pressure following a much weaker-than-expected US employment report.\n\nhttps://www.fxstreet.com/news/japanese-yen-surges-as-weak-us-jobs-data-questions-fed-rate-hike-expectations-202608071338",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://www.fxstreet.com/news/japanese-yen-surges-as-weak-us-jobs-data-questions-fed-rate-hike-expectations-202608071338",
-    "source_title": "Japanese Yen surges as weak US jobs data questions Fed rate hike expectations",
-    "source_summary": "USD/JPY falls toward 157.40 on Friday, down 0.65% on the day at the time of writing, as the US Dollar (USD) comes under heavy selling pressure following a much weaker-than-expected US employment report.",
-    "drafted_at": "2026-08-07T14:14:19.774748",
-    "data": {
-      "actor": "Fed"
-    },
-    "content_hash": "51896aa116e31c57"
-  },
-  {
-    "id": "175eceb2",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "Live from the Federal Reserve: EUR/USD jumps 0.43% on the day and trades around 1.1570 at the time of writing, as the US Dollar (USD) comes under heavy selling pressure following a much weaker-than-expected US employment report.\n\nhttps://www.fxstreet.com/news/euro-surges-as-shocking-us-nfp-reverses-fed-september-hike-expectations-202608071300",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://www.fxstreet.com/news/euro-surges-as-shocking-us-nfp-reverses-fed-september-hike-expectations-202608071300",
-    "source_title": "Euro surges as shocking US NFP reverses Fed September hike expectations",
-    "source_summary": "EUR/USD jumps 0.43% on the day and trades around 1.1570 at the time of writing, as the US Dollar (USD) comes under heavy selling pressure following a much weaker-than-expected US employment report.",
-    "drafted_at": "2026-08-07T14:14:19.774964",
-    "data": {
-      "actor": "Fed"
-    },
-    "content_hash": "8e6d44a55a220462"
-  },
-  {
-    "id": "1420bbb5",
+    "id": "f2dc6353",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Powell on the wire. InvestorPlace - Stock Market News, Stock Advice & Trading Tips Kashkari goes full hawk\u2026 the ADP jobs report comes in soft\u2026 the FedWatch Tool says hike, but what will Warsh say?... why 3 analysts are backing up the truck on AI The post More Traders Predict a Fed Hike.\n\nDon\u2019t Bet On It appeared first on InvestorPlace.\n\nhttps://investorplace.com/2026/08/more-traders-predict-fed-hike-dont-bet/",
@@ -190,14 +122,65 @@
     "source_url": "https://investorplace.com/2026/08/more-traders-predict-fed-hike-dont-bet/",
     "source_title": "More Traders Predict a Fed Hike. Don\u2019t Bet On It",
     "source_summary": "InvestorPlace - Stock Market News, Stock Advice & Trading Tips Kashkari goes full hawk\u2026 the ADP jobs report comes in soft\u2026 the FedWatch Tool says hike, but what will Warsh say?... why 3 analysts are backing up the truck on AI The post More Traders Predict a Fed Hike. Don\u2019t Bet On It appeared first on InvestorPlace .",
-    "drafted_at": "2026-08-07T14:14:19.775339",
+    "drafted_at": "2026-08-07T15:26:44.062856",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "fd90de103f935043"
   },
   {
-    "id": "00b556dd",
+    "id": "2c5235e6",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "Powell on the wire. It addresses unnecessary applications of the rule to passive interests in companies held by investment funds, codifies other statutory requirements, incorporates long-standing regulatory interpretations, and simplifies the application of the rule.\n\nRegulation O has not been comprehensively updated since 1979.\n\nThe rule addresses a unique challenge for community banks, where board members and executives are often local business owners and civic leaders who provide valuable perspective and expertise to bank governance and information on the local economy.\n\nThe proposal updates dollar-based thresholds and indexes them to economic growth going forward.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731b.htm",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731b.htm",
+    "source_title": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"\u2014bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
+    "source_summary": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"\u2014bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
+    "drafted_at": "2026-08-07T15:26:44.064094",
+    "data": {
+      "actor": "FED"
+    },
+    "content_hash": "4057886fa20ad5ad"
+  },
+  {
+    "id": "e831a19a",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "FOMC update. The Board assumed regulatory and supervisory authority over mutual banks from the Office of Thrift Supervision in 2011.\n\nThe rules governing these banks were first established in 1993.\n\nThey have not been updated and have proven over time to be overly burdensome and complex.\n\n\"Today's proposal is another important step in our work to modernize the bank regulatory framework by updating mutual bank regulations for the first time in 30 years.\n\nThe continued success of this model contributes to the institutional diversity of the U.S. banking system, which is one of the greatest strengths of our financial system,\" said Vice Chair for Supervision Michelle W.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731a.htm",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731a.htm",
+    "source_title": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
+    "source_summary": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
+    "drafted_at": "2026-08-07T15:26:44.065212",
+    "data": {
+      "actor": "FED"
+    },
+    "content_hash": "1672ee5ef82f19a2"
+  },
+  {
+    "id": "f0bdf026",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "POWELL POSTCARD: Consent prohibition order against Ralph A.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730a.htm",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730a.htm",
+    "source_title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank",
+    "source_summary": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank",
+    "drafted_at": "2026-08-07T15:26:44.065400",
+    "data": {
+      "actor": "FED"
+    },
+    "content_hash": "23feb4de7d35586a"
+  },
+  {
+    "id": "3a6f5794",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$VFC \u2014 2 company insiders bought $1.0M on Jul 31.\n\nV F Corp. 62,894 shares at $16.02.\n\nStock is -8.4% since the purchase. This is a public SEC Form 4 filing.",
@@ -207,7 +190,7 @@
     "source_url": "http://openinsider.com/screener?s=VFC",
     "source_title": "V F Corp (VFC) insider bought $1.0M",
     "source_summary": "2 insider(s) bought 62,894 shares at $16.02 on 2026-07-31.",
-    "drafted_at": "2026-08-07T14:14:19.777462",
+    "drafted_at": "2026-08-07T15:26:44.065687",
     "data": {
       "ticker": "VFC",
       "type": "P",
@@ -217,7 +200,7 @@
     "content_hash": "12299b8e1af200c6"
   },
   {
-    "id": "de4f3283",
+    "id": "25a8c290",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$ATTO \u2014 a company insider bought $10.0M on Aug 06.\n\nAttovia Therapeutics, Inc. 588,235 shares at $17.00.\n\nStock is +19.9% since the purchase. This is a public SEC Form 4 filing.\n\nhttp://openinsider.com/screener?s=ATTO",
@@ -227,7 +210,7 @@
     "source_url": "http://openinsider.com/screener?s=ATTO",
     "source_title": "Attovia Therapeutics, Inc. (ATTO) insider bought $10.0M",
     "source_summary": "1 insider(s) bought 588,235 shares at $17.00 on 2026-08-06.",
-    "drafted_at": "2026-08-07T14:14:19.777597",
+    "drafted_at": "2026-08-07T15:26:44.065885",
     "data": {
       "ticker": "ATTO",
       "type": "P",
@@ -237,7 +220,7 @@
     "content_hash": "81b88f5a9e238ab7"
   },
   {
-    "id": "768eb905",
+    "id": "e044a693",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$THRY \u2014 a company insider bought $1.1M on Aug 04.\n\nThryv Holdings, Inc. 399,548 shares at $2.81.\n\nStock is -12.5% since the purchase. This is a public SEC Form 4 filing.",
@@ -247,7 +230,7 @@
     "source_url": "http://openinsider.com/screener?s=THRY",
     "source_title": "Thryv Holdings, Inc. (THRY) insider bought $1.1M",
     "source_summary": "1 insider(s) bought 399,548 shares at $2.81 on 2026-08-04.",
-    "drafted_at": "2026-08-07T14:14:19.777735",
+    "drafted_at": "2026-08-07T15:26:44.066068",
     "data": {
       "ticker": "THRY",
       "type": "P",
@@ -257,7 +240,7 @@
     "content_hash": "ed755ae211ed2f6d"
   },
   {
-    "id": "e4ab1e7d",
+    "id": "9cbb0128",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$JMKE \u2014 5 company insiders bought $1.0M on Jul 31.\n\nJersey Mike'S Subs Inc. 44,565 shares at $23.00.\n\nStock is -0.5% since the purchase. This is a public SEC Form 4 filing.",
@@ -267,7 +250,7 @@
     "source_url": "http://openinsider.com/screener?s=JMKE",
     "source_title": "Jersey Mike'S Subs Inc. (JMKE) insider bought $1.0M",
     "source_summary": "5 insider(s) bought 44,565 shares at $23.00 on 2026-07-31.",
-    "drafted_at": "2026-08-07T14:14:19.777868",
+    "drafted_at": "2026-08-07T15:26:44.066245",
     "data": {
       "ticker": "JMKE",
       "type": "P",
@@ -277,7 +260,7 @@
     "content_hash": "1e42744664265e53"
   },
   {
-    "id": "ec844431",
+    "id": "17b3ca69",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$SITE \u2014 a company insider bought $816,280 on Aug 04.\n\nSiteone Landscape Supply, Inc. 8,000 shares at $102.04.\n\nStock is -3.4% since the purchase. This is a public SEC Form 4 filing.",
@@ -287,7 +270,7 @@
     "source_url": "http://openinsider.com/screener?s=SITE",
     "source_title": "Siteone Landscape Supply, Inc. (SITE) insider bought $816,280",
     "source_summary": "1 insider(s) bought 8,000 shares at $102.04 on 2026-08-04.",
-    "drafted_at": "2026-08-07T14:14:19.778005",
+    "drafted_at": "2026-08-07T15:26:44.066425",
     "data": {
       "ticker": "SITE",
       "type": "P",
@@ -297,7 +280,58 @@
     "content_hash": "fd004e33664dab5f"
   },
   {
-    "id": "54016046",
+    "id": "febcd97e",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "07, 2026 (GLOBE NEWSWIRE) \u2014 Kaplan Fox & Kilsheimer LLP announces that a class action lawsuit has been filed against Rackspace Technology, Inc. (\u201cRackspace\u201d or the \u201cCompany\u201d) (NASDAQ: RXT) on behalf of investors that purchased or otherwise acquired Rackspace securities between May 7, 2026 and July 8, 2026 (the \u201cClass Period\u201d).\n\nhttps://financialpost.com/globe-newswire/kaplan-fox-reminds-rackspace-technology-inc-nasdaq-rxt-investors-with-significant-losses-to-seek-a-leadership-role-before-deadline-on-september-28-2026",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FINANCIAL POST",
+    "source_url": "https://financialpost.com/globe-newswire/kaplan-fox-reminds-rackspace-technology-inc-nasdaq-rxt-investors-with-significant-losses-to-seek-a-leadership-role-before-deadline-on-september-28-2026",
+    "source_title": "Kaplan Fox Reminds Rackspace Technology, Inc. (NASDAQ: RXT) Investors with Significant Losses to Seek a Leadership Role Before Deadline on September 28, 2026",
+    "source_summary": "NEW YORK, Aug. 07, 2026 (GLOBE NEWSWIRE) \u2014 Kaplan Fox & Kilsheimer LLP announces that a class action lawsuit has been filed against Rackspace Technology, Inc. (\u201cRackspace\u201d or the \u201cCompany\u201d) (NASDAQ: RXT) on behalf of investors that purchased or otherwise acquired Rackspace securities between May 7, 2026 and July 8, 2026 (the \u201cClass Period\u201d). CLICK [\u2026]",
+    "drafted_at": "2026-08-07T15:26:44.069962",
+    "data": {
+      "source": "FINANCIAL POST"
+    },
+    "content_hash": "484f572f281d69fc"
+  },
+  {
+    "id": "c8cc6f70",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "07, 2026 (GLOBE NEWSWIRE) \u2014 Kaplan Fox & Kilsheimer LLP announces that a class action lawsuit has been filed against Bloom Energy Corporation (\u201cBloom Energy\u201d or the \u201cCompany\u201d) (NYSE: BE) on behalf of investors that purchased or otherwise acquired Bloom Energy securities between February 27, 2025 and July 8, 2026 (the \u201cClass [\u2026]\n\nhttps://financialpost.com/globe-newswire/kaplan-fox-reminds-bloom-energy-corporation-nyse-be-investors-with-significant-losses-to-seek-a-leadership-role-before-deadline-on-september-28-2026",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FINANCIAL POST",
+    "source_url": "https://financialpost.com/globe-newswire/kaplan-fox-reminds-bloom-energy-corporation-nyse-be-investors-with-significant-losses-to-seek-a-leadership-role-before-deadline-on-september-28-2026",
+    "source_title": "Kaplan Fox Reminds Bloom Energy Corporation (NYSE: BE) Investors with Significant Losses to Seek a Leadership Role Before Deadline on September 28, 2026",
+    "source_summary": "NEW YORK, Aug. 07, 2026 (GLOBE NEWSWIRE) \u2014 Kaplan Fox & Kilsheimer LLP announces that a class action lawsuit has been filed against Bloom Energy Corporation (\u201cBloom Energy\u201d or the \u201cCompany\u201d) (NYSE: BE) on behalf of investors that purchased or otherwise acquired Bloom Energy securities between February 27, 2025 and July 8, 2026 (the \u201cClass [\u2026]",
+    "drafted_at": "2026-08-07T15:26:44.070370",
+    "data": {
+      "source": "FINANCIAL POST"
+    },
+    "content_hash": "87bf990d66b18d53"
+  },
+  {
+    "id": "c2a430f4",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Watch a Talarico Staffer Shut Off Event Attendee's Camera When Asked About Voter Fraud Scandal\n\nhttps://townhall.com/news/josephchalfant/2026/08/07/watch-a-talarico-staffer-shut-off-event-attendees-camera-when-asked-about-voter-fraud-scandal-n2680837",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "TOWNHALL FIN",
+    "source_url": "https://townhall.com/news/josephchalfant/2026/08/07/watch-a-talarico-staffer-shut-off-event-attendees-camera-when-asked-about-voter-fraud-scandal-n2680837",
+    "source_title": "Watch a Talarico Staffer Shut Off Event Attendee's Camera When Asked About Voter Fraud Scandal",
+    "source_summary": "",
+    "drafted_at": "2026-08-07T15:26:44.070459",
+    "data": {
+      "source": "TOWNHALL FIN"
+    },
+    "content_hash": "7842bcb63b7ca1e8"
+  },
+  {
+    "id": "07879da7",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Russia cracks down on unlicensed crypto exchanges it claims are linked to Ukraine\n\nhttps://www.coindesk.com/policy/2026/08/07/russia-cracks-down-on-unlicensed-crypto-exchanges-it-claims-are-linked-to-ukraine",
@@ -307,14 +341,14 @@
     "source_url": "https://www.coindesk.com/policy/2026/08/07/russia-cracks-down-on-unlicensed-crypto-exchanges-it-claims-are-linked-to-ukraine",
     "source_title": "Russia cracks down on unlicensed crypto exchanges it claims are linked to Ukraine",
     "source_summary": "",
-    "drafted_at": "2026-08-07T14:14:19.780511",
+    "drafted_at": "2026-08-07T15:26:44.070536",
     "data": {
       "source": "COINDESK"
     },
     "content_hash": "5fa7357f6804866f"
   },
   {
-    "id": "24838c3e",
+    "id": "215ccfd8",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "DOJ Probe Finds That Duke Law School Intentionally Tried to Keep Whites and Asians Out\n\nhttps://townhall.com/news/josephchalfant/2026/08/07/doj-probe-finds-that-duke-law-school-intentionally-tried-to-keep-whites-and-asians-out-n2680835",
@@ -324,65 +358,14 @@
     "source_url": "https://townhall.com/news/josephchalfant/2026/08/07/doj-probe-finds-that-duke-law-school-intentionally-tried-to-keep-whites-and-asians-out-n2680835",
     "source_title": "DOJ Probe Finds That Duke Law School Intentionally Tried to Keep Whites and Asians Out",
     "source_summary": "",
-    "drafted_at": "2026-08-07T14:14:19.780575",
+    "drafted_at": "2026-08-07T15:26:44.070611",
     "data": {
       "source": "TOWNHALL FIN"
     },
     "content_hash": "0eb842ec10a8e158"
   },
   {
-    "id": "8a21705f",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "The Problem Is Not Just DEI or Academic Fraud; Academic Standards Are Gone\n\nhttps://hotair.com/david-strom/2026/08/07/the-problem-is-not-just-dei-or-academic-fraud-its-that-gibberish-is-considered-scholarship-n3817731",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "HOT AIR",
-    "source_url": "https://hotair.com/david-strom/2026/08/07/the-problem-is-not-just-dei-or-academic-fraud-its-that-gibberish-is-considered-scholarship-n3817731",
-    "source_title": "The Problem Is Not Just DEI or Academic Fraud; Academic Standards Are Gone",
-    "source_summary": "",
-    "drafted_at": "2026-08-07T14:14:19.780630",
-    "data": {
-      "source": "HOT AIR"
-    },
-    "content_hash": "eed6aac4e0b0a42c"
-  },
-  {
-    "id": "171f5884",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Researchers warn betting on clinical trials could incentivize insider trading and interfere with drug development.\n\nBut Kalshi and Polymarket say they provide valuable information to patients.\n\nhttps://www.npr.org/2026/08/07/nx-s1-5922530/patients-betting-kalshi-polymarket-clinical-trials",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "NPR",
-    "source_url": "https://www.npr.org/2026/08/07/nx-s1-5922530/patients-betting-kalshi-polymarket-clinical-trials",
-    "source_title": "Kalshi and Polymarket bets on clinical trials criticized as 'ghastly'",
-    "source_summary": "Researchers warn betting on clinical trials could incentivize insider trading and interfere with drug development. But Kalshi and Polymarket say they provide valuable information to patients.",
-    "drafted_at": "2026-08-07T14:14:19.780794",
-    "data": {
-      "source": "NPR"
-    },
-    "content_hash": "b814657e345e56c0"
-  },
-  {
-    "id": "f6ee42c0",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Its USDT crypto token underpins a trillion-dollar market, but cryptocurrency giant Tether won\u2019t answer questions about its ownership.\n\nhttps://www.icij.org/investigations/coin-laundry/the-200-billion-company-you-cant-look-inside/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "ICIJ",
-    "source_url": "https://www.icij.org/investigations/coin-laundry/the-200-billion-company-you-cant-look-inside/",
-    "source_title": "The $200 billion company you can\u2019t look inside",
-    "source_summary": "Its USDT crypto token underpins a trillion-dollar market, but cryptocurrency giant Tether won\u2019t answer questions about its ownership.",
-    "drafted_at": "2026-08-07T14:14:19.780936",
-    "data": {
-      "source": "ICIJ"
-    },
-    "content_hash": "73b772a66fc7444b"
-  },
-  {
-    "id": "60408a43",
+    "id": "dfdfe99e",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "6 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 David J. Taylor (R)\n\u2022 John Boozman (R)\n\u2022 Cleo Fields (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 John Fetterman (D)\n\u2022 John McGuire (R)\n\nLargest disclosed here: David J. Taylor, $1,001 - $15,000 on Feb 26.\n\nPrice since the first buy in this group: +22.7%.\n\nSTOCK Act disclosures. Public record.",
@@ -392,7 +375,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034138.pdf",
     "source_title": "6 Congress members bought $MSFT",
     "source_summary": "6 politicians bought $MSFT; largest $1,001 - $15,000 by David J. Taylor.",
-    "drafted_at": "2026-08-07T14:14:19.782138",
+    "drafted_at": "2026-08-07T15:26:44.072677",
     "data": {
       "ticker": "MSFT",
       "member_count": 6,
@@ -401,7 +384,7 @@
     "content_hash": "7c24415ac3c0b542"
   },
   {
-    "id": "ae0db30a",
+    "id": "5bd1f3de",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "5 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Markwayne Mullin (D)\n\u2022 Josh Gottheimer (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Markwayne Mullin, $50,001 - $100,000 on Feb 25.\n\nPrice since the first buy in this group: +51.8%.\n\nSTOCK Act disclosures. Public record.",
@@ -411,7 +394,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/f586922d-6083-44e5-8a32-769290389416/",
     "source_title": "5 Congress members bought $UNH",
     "source_summary": "5 politicians bought $UNH; largest $50,001 - $100,000 by Markwayne Mullin.",
-    "drafted_at": "2026-08-07T14:14:19.782395",
+    "drafted_at": "2026-08-07T15:26:44.073033",
     "data": {
       "ticker": "UNH",
       "member_count": 5,
@@ -420,7 +403,7 @@
     "content_hash": "7cbacf41d412a41b"
   },
   {
-    "id": "891d55fc",
+    "id": "6f1f878e",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $HD this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Lloyd Doggett (D)\n\u2022 Jared Moskowitz (D)\n\nLargest disclosed here: Richard Dean Dr McCormick, $1,001 - $15,000 on Mar 19.\n\nPrice since the first buy in this group: +6.1%.\n\nSTOCK Act disclosures. Public record.",
@@ -430,7 +413,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033648.pdf",
     "source_title": "3 Congress members bought $HD",
     "source_summary": "3 politicians bought $HD; largest $1,001 - $15,000 by Richard Dean Dr McCormick.",
-    "drafted_at": "2026-08-07T14:14:19.782629",
+    "drafted_at": "2026-08-07T15:26:44.073333",
     "data": {
       "ticker": "HD",
       "member_count": 3,
@@ -439,7 +422,7 @@
     "content_hash": "8c0eaad1e4da4036"
   },
   {
-    "id": "bb2697fe",
+    "id": "d12c4e23",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $TSM this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard W. Allen (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Cleo Fields (D)\n\nLargest disclosed here: Richard W. Allen, $1,001 - $15,000 on Feb 19.\n\nPrice since the first buy in this group: +15.8%.\n\nSTOCK Act disclosures. Public record.",
@@ -449,7 +432,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034133.pdf",
     "source_title": "3 Congress members bought $TSM",
     "source_summary": "3 politicians bought $TSM; largest $1,001 - $15,000 by Richard W. Allen.",
-    "drafted_at": "2026-08-07T14:14:19.782833",
+    "drafted_at": "2026-08-07T15:26:44.073614",
     "data": {
       "ticker": "TSM",
       "member_count": 3,
@@ -458,177 +441,177 @@
     "content_hash": "5d9078569296551f"
   },
   {
-    "id": "dd1c08d7",
+    "id": "c24200e4",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Canada/LatAm wire: Societe Generale\u2019s Dev Ashish reports that Banxico left its policy rate at 6.50%, signalling an extended pause as inflation hovers near target and real rates sit close to neutral.\n\nhttps://www.fxstreet.com/news/mexico-banxico-extended-hold-stance-societe-generale-202608071408",
+    "draft_text": "Cross-border read: The detentions exacerbate Russia-Ukraine tensions, reducing ceasefire prospects and highlighting intensified scrutiny on financial networks.\n\nThe post FSB detains over 20 in Moscow for unregistered crypto exchanges aiding Ukraine appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/fsb-detains-over-20-in-moscow-for-unregistered-crypto-exchanges-aiding-ukraine/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/mexico-banxico-extended-hold-stance-societe-generale-202608071408",
-    "source_title": "Mexico: Banxico extended hold stance \u2013 Societe Generale",
-    "source_summary": "Societe Generale\u2019s Dev Ashish reports that Banxico left its policy rate at 6.50%, signalling an extended pause as inflation hovers near target and real rates sit close to neutral.",
-    "drafted_at": "2026-08-07T14:14:19.783584",
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/fsb-detains-over-20-in-moscow-for-unregistered-crypto-exchanges-aiding-ukraine/",
+    "source_title": "FSB detains over 20 in Moscow for unregistered crypto exchanges aiding Ukraine",
+    "source_summary": "The detentions exacerbate Russia-Ukraine tensions, reducing ceasefire prospects and highlighting intensified scrutiny on financial networks. The post FSB detains over 20 in Moscow for unregistered crypto exchanges aiding Ukraine appeared first on Crypto Briefing .",
+    "drafted_at": "2026-08-07T15:26:44.074458",
     "data": {
-      "source": "FXSTREET"
+      "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "bc2f22cb4799e1cb"
+    "content_hash": "ed0d6800eedd8b04"
   },
   {
-    "id": "cc7202af",
+    "id": "9888b306",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From Tokyo to Hong Kong: TOKYO \u2014 Unicharm Corporation (TOKYO: 8113) announced that \u201cDELECTABLES\u00ae,\u201d a wet cat treat brand developed and marketed by its U.S. consolidated subsidiary, The Hartz Mountain Corporation, has been officially recognized as the #1 Global Wet Cat Treat Brand*.\n\nThis announcement is timed to coincide with International Cat Day on August 8.\n\nhttps://financialpost.com/pmn/business-wire-news-releases-pmn/unicharm-announces-delectables-is-the-1-global-wet-cat-treat-brand-accelerates-pet-care-expansion",
+    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: July's unemployment rate eased slightly to 4.1% from 4.2% in June, as more Americans leave the labour market.\n\nhttp://www.euronews.com/business/2026/08/07/us-employers-slash-23000-jobs-amid-ongoing-iran-war-pressure",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/unicharm-announces-delectables-is-the-1-global-wet-cat-treat-brand-accelerates-pet-care-expansion",
-    "source_title": "Unicharm Announces \u2018DELECTABLES\u00ae\u2019 is the #1 Global Wet Cat Treat Brand, Accelerates Pet Care Expansion",
-    "source_summary": "TOKYO \u2014 Unicharm Corporation (TOKYO: 8113) announced that \u201cDELECTABLES\u00ae,\u201d a wet cat treat brand developed and marketed by its U.S. consolidated subsidiary, The Hartz Mountain Corporation, has been officially recognized as the #1 Global Wet Cat Treat Brand*. This announcement is timed to coincide with International Cat Day on August 8. Along with this achievement, [\u2026]",
-    "drafted_at": "2026-08-07T14:14:19.784234",
+    "primary_source": "EURONEWS",
+    "source_url": "http://www.euronews.com/business/2026/08/07/us-employers-slash-23000-jobs-amid-ongoing-iran-war-pressure",
+    "source_title": "US employers slash 23,000 jobs amid ongoing Iran war pressure",
+    "source_summary": "July's unemployment rate eased slightly to 4.1% from 4.2% in June, as more Americans leave the labour market.",
+    "drafted_at": "2026-08-07T15:26:44.075591",
     "data": {
-      "source": "FINANCIAL POST"
+      "source": "EURONEWS"
     },
-    "content_hash": "d790ea045d69d9cc"
+    "content_hash": "450c26ac7d916661"
   },
   {
-    "id": "034bde82",
+    "id": "3c4e1936",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "MIDDLE EAST DESK: Brazilian oil producer Petrobras outperformed expectations after supply disruptions stemming from the US-Iran conflict lifted second-quarter prices for crude, gasoline and diesel.\n\nhttps://financialpost.com/pmn/business-pmn/petrobras-profit-tops-estimates-on-iran-war-driven-oil-rally",
+    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: The new military alliance may escalate regional tensions, complicating diplomatic efforts and altering power dynamics in the Middle East.\n\nThe post Saudi-Turkey-Pakistan military alliance forms amid regional tensions appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/saudi-turkey-pakistan-military-alliance-forms-amid-regional-tensions/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/pmn/business-pmn/petrobras-profit-tops-estimates-on-iran-war-driven-oil-rally",
-    "source_title": "Petrobras Profit Tops Estimates on Iran War-Driven Oil Rally",
-    "source_summary": "Brazilian oil producer Petrobras outperformed expectations after supply disruptions stemming from the US-Iran conflict lifted second-quarter prices for crude, gasoline and diesel.",
-    "drafted_at": "2026-08-07T14:14:19.784627",
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/saudi-turkey-pakistan-military-alliance-forms-amid-regional-tensions/",
+    "source_title": "Saudi-Turkey-Pakistan military alliance forms amid regional tensions",
+    "source_summary": "The new military alliance may escalate regional tensions, complicating diplomatic efforts and altering power dynamics in the Middle East. The post Saudi-Turkey-Pakistan military alliance forms amid regional tensions appeared first on Crypto Briefing .",
+    "drafted_at": "2026-08-07T15:26:44.076532",
     "data": {
-      "source": "FINANCIAL POST"
+      "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "93d2f9f95cd2bc7e"
+    "content_hash": "57c0293ad9f174a6"
   },
   {
-    "id": "b063cec2",
+    "id": "66d29cf4",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "GLOBAL DESK: Ukraine's failure to intercept a single Russian missile during a large-scale overnight attack this week has raised fresh concerns over Kyiv's dwindling supply of air-defense interceptors as Moscow escalates its ballistic missile strikes on the nearly defenseless capital and other regions.\n\nUkrainian President Volodymyr Zelenskyy has warned that deliveries of anti-ballistic interceptor missiles from partner countries have fallen sharply, leaving Ukraine vulnerable to deadly attacks that are being launched by Russia with increasing frequency.\n\nhttps://oilprice.com/Geopolitics/Europe/Ukraine-Faces-a-Growing-Air-Defense-Crisis-as-Patriot-Supplies-Dwindle.html",
+    "draft_text": "Levant update: Rising nuclear tensions in the Middle East could destabilize regional security and complicate future US-Iran nuclear negotiations.\n\nThe post Israel wary of Saudi uranium enrichment, fears Middle East nuclear race appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/israel-wary-of-saudi-uranium-enrichment-fears-middle-east-nuclear-race/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/israel-wary-of-saudi-uranium-enrichment-fears-middle-east-nuclear-race/",
+    "source_title": "Israel wary of Saudi uranium enrichment, fears Middle East nuclear race",
+    "source_summary": "Rising nuclear tensions in the Middle East could destabilize regional security and complicate future US-Iran nuclear negotiations. The post Israel wary of Saudi uranium enrichment, fears Middle East nuclear race appeared first on Crypto Briefing .",
+    "drafted_at": "2026-08-07T15:26:44.077300",
+    "data": {
+      "source": "CRYPTO BRIEFING"
+    },
+    "content_hash": "b5832fe495a2d4e7"
+  },
+  {
+    "id": "b31827f8",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "MIDDLE EAST DESK: The latest Saudi oil route looks absurd on a map.\n\nCrude moves west across Saudi Arabia to Yanbu, north through the Red Sea to Egypt, across the SUMED pipeline from Ain Sokhna to Sidi Kerir, then west through the Mediterranean before tankers sail around the Cape of Good Hope to reach customers in Asia.\n\nOil that started relatively close to Asia first travels thousands of kilometres in the opposite direction.\n\nThe detour reportedly adds around $5 per barrel once extra freight, fuel, insurance and pipeline charges are included.\n\nhttps://oilprice.com/Energy/Crude-Oil/Saudi-Arabias-5-Oil-Detour-Is-Expensiveand-Worth-It.html",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "OILPRICE",
-    "source_url": "https://oilprice.com/Geopolitics/Europe/Ukraine-Faces-a-Growing-Air-Defense-Crisis-as-Patriot-Supplies-Dwindle.html",
-    "source_title": "Ukraine Faces a Growing Air Defense Crisis as Patriot Supplies Dwindle",
-    "source_summary": "Ukraine's failure to intercept a single Russian missile during a large-scale overnight attack this week has raised fresh concerns over Kyiv's dwindling supply of air-defense interceptors as Moscow escalates its ballistic missile strikes on the nearly defenseless capital and other regions. Ukrainian President Volodymyr Zelenskyy has warned that deliveries of anti-ballistic interceptor missiles from",
-    "drafted_at": "2026-08-07T14:14:19.785403",
+    "source_url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Arabias-5-Oil-Detour-Is-Expensiveand-Worth-It.html",
+    "source_title": "Saudi Arabia\u2019s $5 Oil Detour Is Expensive\u2014and Worth It",
+    "source_summary": "The latest Saudi oil route looks absurd on a map. Crude moves west across Saudi Arabia to Yanbu, north through the Red Sea to Egypt, across the SUMED pipeline from Ain Sokhna to Sidi Kerir, then west through the Mediterranean before tankers sail around the Cape of Good Hope to reach customers in Asia. Oil that started relatively close to Asia first travels thousands of kilometres in the opposite d",
+    "drafted_at": "2026-08-07T15:26:44.078324",
     "data": {
       "source": "OILPRICE"
     },
-    "content_hash": "58705ab484ad9b20"
+    "content_hash": "45da5c77f33dd579"
   },
   {
-    "id": "5dc4199b",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "MIDDLE EAST DESK: Defense Secretary Pete Hegseth recently told Congress that the US government has spent an estimated $37.5 billion to date on the Iran war and requested an additional $67 billion in emergency funding.\n\nBut there are several hidden costs that don\u2019t factor into Hegseth\u2019s accounting\u2014ones that the rest of us are actually paying.\n\nhttps://www.motherjones.com/politics/2026/08/the-iran-wars-other-bill-and-youre-paying-it/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "MOTHER JONES",
-    "source_url": "https://www.motherjones.com/politics/2026/08/the-iran-wars-other-bill-and-youre-paying-it/",
-    "source_title": "The Iran War\u2019s Other Bill\u2014And You\u2019re Paying It",
-    "source_summary": "Defense Secretary Pete Hegseth recently told Congress that the US government has spent an estimated $37.5 billion to date on the Iran war and requested an additional $67 billion in emergency funding. But there are several hidden costs that don\u2019t factor into Hegseth\u2019s accounting\u2014ones that the rest of us are actually paying. The most obvious [\u2026]",
-    "drafted_at": "2026-08-07T14:14:19.785817",
-    "data": {
-      "source": "MOTHER JONES"
-    },
-    "content_hash": "51ecd18abeddaddb"
-  },
-  {
-    "id": "04072aed",
+    "id": "4ab7d490",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "Numbers just hit: The unemployment rate ticked down to 4.1 percent, according to new Labor Department data, due mainly to people leaving the workforce.\n\nhttps://www.washingtonpost.com/business/2026/08/07/economy-shed-23000-jobs-july-labor-market-weakened/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "WAPO",
-    "source_url": "https://www.washingtonpost.com/business/2026/08/07/economy-shed-23000-jobs-july-labor-market-weakened/",
-    "source_title": "Hiring slumped unexpectedly in July, as the economy shed 23,000 jobs",
-    "source_summary": "The unemployment rate ticked down to 4.1 percent, according to new Labor Department data, due mainly to people leaving the workforce.",
-    "drafted_at": "2026-08-07T14:14:19.829181",
-    "data": {
-      "source": "WAPO"
-    },
-    "content_hash": "0711791c0a6d1b78"
-  },
-  {
-    "id": "6286618e",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "From the BLS desk: The British Pound (GBP) strengthens against the US Dollar (USD) on Friday after a disappointing US Nonfarm Payrolls report prompts traders to scale back bets on Federal Reserve (Fed) interest-rate hikes.\n\nAt the time of writing, GBP/USD trades around 1.3506, hovering near three-week highs.\n\nhttps://www.fxstreet.com/news/british-pound-climbs-above-13500-after-weak-us-nfp-data-202608071328",
+    "draft_text": "The CPI scoreboard: TD Securities strategists note that the US Dollar (USD) weakened after the disappointing July Payrolls report, but see limited downside against G10 currencies unless softer US inflation further reduces Fed hike expectations.\n\nhttps://www.fxstreet.com/news/us-dollar-payrolls-driven-consolidation-as-cpi-looms-td-securities-202608071525",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/british-pound-climbs-above-13500-after-weak-us-nfp-data-202608071328",
-    "source_title": "British Pound climbs above 1.3500 after weak US NFP data",
-    "source_summary": "The British Pound (GBP) strengthens against the US Dollar (USD) on Friday after a disappointing US Nonfarm Payrolls report prompts traders to scale back bets on Federal Reserve (Fed) interest-rate hikes. At the time of writing, GBP/USD trades around 1.3506, hovering near three-week highs.",
-    "drafted_at": "2026-08-07T14:14:19.829469",
+    "source_url": "https://www.fxstreet.com/news/us-dollar-payrolls-driven-consolidation-as-cpi-looms-td-securities-202608071525",
+    "source_title": "US Dollar: Payrolls-driven consolidation as CPI looms \u2013 TD Securities",
+    "source_summary": "TD Securities strategists note that the US Dollar (USD) weakened after the disappointing July Payrolls report, but see limited downside against G10 currencies unless softer US inflation further reduces Fed hike expectations.",
+    "drafted_at": "2026-08-07T15:26:44.137530",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "b907915f5cba60ee"
+    "content_hash": "bbadac6b6369cc05"
   },
   {
-    "id": "e3041bf5",
+    "id": "d51397a8",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "JOBS DAY. Labor Department revisions also shaved 103,000 jobs off payrolls in May and June.\n\nThe unemployment rate dipped to 4.1% as Americans left the job market.\n\nhttps://fortune.com/2026/08/07/us-jobs-report-july-23000-cut-revisions/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FORTUNE",
-    "source_url": "https://fortune.com/2026/08/07/us-jobs-report-july-23000-cut-revisions/",
-    "source_title": "The economy has been weaker than we thought as jobs report reveals 23,000 deficit in July",
-    "source_summary": "Labor Department revisions also shaved 103,000 jobs off payrolls in May and June. The unemployment rate dipped to 4.1% as Americans left the job market.",
-    "drafted_at": "2026-08-07T14:14:19.829635",
-    "data": {
-      "source": "FORTUNE"
-    },
-    "content_hash": "729873ae43ba23cb"
-  },
-  {
-    "id": "17bc34b4",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "NFP just dropped. EUR/USD jumps 0.43% on the day and trades around 1.1570 at the time of writing, as the US Dollar (USD) comes under heavy selling pressure following a much weaker-than-expected US employment report.\n\nhttps://www.fxstreet.com/news/euro-surges-as-shocking-us-nfp-reverses-fed-september-hike-expectations-202608071300",
+    "draft_text": "JOBS DAY. ABN AMRO\u2019s Chief Economist Nick Kounis highlights renewed US labour market weakness, with Nonfarm Payrolls falling and household employment data softening.\n\nHe notes the unemployment rate declined as labour force participation dropped to multi-decade lows, signalling cyclical weakness.\n\nhttps://www.fxstreet.com/news/federal-reserve-fed-focus-shifts-to-jobs-abn-amro-202608071515",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/euro-surges-as-shocking-us-nfp-reverses-fed-september-hike-expectations-202608071300",
-    "source_title": "Euro surges as shocking US NFP reverses Fed September hike expectations",
-    "source_summary": "EUR/USD jumps 0.43% on the day and trades around 1.1570 at the time of writing, as the US Dollar (USD) comes under heavy selling pressure following a much weaker-than-expected US employment report.",
-    "drafted_at": "2026-08-07T14:14:19.829832",
+    "source_url": "https://www.fxstreet.com/news/federal-reserve-fed-focus-shifts-to-jobs-abn-amro-202608071515",
+    "source_title": "Federal Reserve: Fed focus shifts to jobs \u2013 ABN AMRO",
+    "source_summary": "ABN AMRO\u2019s Chief Economist Nick Kounis highlights renewed US labour market weakness, with Nonfarm Payrolls falling and household employment data softening. He notes the unemployment rate declined as labour force participation dropped to multi-decade lows, signalling cyclical weakness.",
+    "drafted_at": "2026-08-07T15:26:44.137960",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "8e6d44a55a220462"
+    "content_hash": "779ff8fa978bc394"
   },
   {
-    "id": "023f585c",
+    "id": "1a7aeea5",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "LABOR MARKET READ: Payrolls across the American economy contracted by 23,000 jobs in July and the unemployment rate ticked down to 4.1 percent.\n\nThe public sector's payrolls fell sharply, and the services sector hiring was soft, with a large contraction in retail and leisure.\n\nThe goods-producing side of the economy, however, saw a solid expansion, with both construction and durable goods manufacturing expanding at a rapid pace.\n\nThe post The Economy Unexpectedly Shed 23,000 Jobs in July\u2014Yet Unemployment Fell to 4.1 appeared first on Breitbart.\n\nhttps://www.breitbart.com/economy/2026/08/07/america-shed-23000-jobs-in-july-yet-unemployment-fell-to-4-1/",
+    "draft_text": "EMPLOYMENT POSTCARD: USD/CHF edges lower on Friday, erasing most of the previous day\u2019s gains as the US Dollar (USD) weakens following a downside surprise in the US Nonfarm Payrolls (NFP) report.\n\nAt the time of writing, the pair trades around 0.8080, down 0.53% on the day.\n\nhttps://www.fxstreet.com/news/swiss-franc-gains-against-us-dollar-after-surprise-decline-in-us-payrolls-202608071513",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "BREITBART",
-    "source_url": "https://www.breitbart.com/economy/2026/08/07/america-shed-23000-jobs-in-july-yet-unemployment-fell-to-4-1/",
-    "source_title": "The Economy Unexpectedly Shed 23,000 Jobs in July\u2014Yet Unemployment Fell to 4.1",
-    "source_summary": "Payrolls across the American economy contracted by 23,000 jobs in July and the unemployment rate ticked down to 4.1 percent. The public sector's payrolls fell sharply, and the services sector hiring was soft, with a large contraction in retail and leisure. The goods-producing side of the economy, however, saw a solid expansion, with both construction and durable goods manufacturing expanding at a ",
-    "drafted_at": "2026-08-07T14:14:19.830401",
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/swiss-franc-gains-against-us-dollar-after-surprise-decline-in-us-payrolls-202608071513",
+    "source_title": "Swiss Franc gains against US Dollar after surprise decline in US payrolls",
+    "source_summary": "USD/CHF edges lower on Friday, erasing most of the previous day\u2019s gains as the US Dollar (USD) weakens following a downside surprise in the US Nonfarm Payrolls (NFP) report. At the time of writing, the pair trades around 0.8080, down 0.53% on the day.",
+    "drafted_at": "2026-08-07T15:26:44.138346",
     "data": {
-      "source": "BREITBART"
+      "source": "FXSTREET"
     },
-    "content_hash": "7b50dc2da9ee6f08"
+    "content_hash": "11cd02d655c06930"
   },
   {
-    "id": "5ee98ead",
+    "id": "44f961b6",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "Fresh print: July's unemployment rate eased slightly to 4.1% from 4.2% in June, as more Americans leave the labour market.\n\nhttp://www.euronews.com/business/2026/08/07/us-employers-slash-23000-jobs-amid-ongoing-iran-war-pressure",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "EURONEWS",
+    "source_url": "http://www.euronews.com/business/2026/08/07/us-employers-slash-23000-jobs-amid-ongoing-iran-war-pressure",
+    "source_title": "US employers slash 23,000 jobs amid ongoing Iran war pressure",
+    "source_summary": "July's unemployment rate eased slightly to 4.1% from 4.2% in June, as more Americans leave the labour market.",
+    "drafted_at": "2026-08-07T15:26:44.138560",
+    "data": {
+      "source": "EURONEWS"
+    },
+    "content_hash": "450c26ac7d916661"
+  },
+  {
+    "id": "4f23cf91",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "DATA DROP: National Bank of Canada (NBC) economists Matthieu Arseneau and Alexandra Ducharme highlight robust Canadian labour data for July, with 75.1K jobs added, a lower unemployment rate and stronger private-sector hiring.\n\nhttps://www.fxstreet.com/news/canada-labour-market-resilience-supports-cautious-bank-of-canada-nbc-202608071507",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/canada-labour-market-resilience-supports-cautious-bank-of-canada-nbc-202608071507",
+    "source_title": "Canada: Labour market resilience supports cautious Bank of Canada \u2013 NBC",
+    "source_summary": "National Bank of Canada (NBC) economists Matthieu Arseneau and Alexandra Ducharme highlight robust Canadian labour data for July, with 75.1K jobs added, a lower unemployment rate and stronger private-sector hiring.",
+    "drafted_at": "2026-08-07T15:26:44.138906",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "f949aa25c7a18d60"
+  },
+  {
+    "id": "0585e913",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -638,7 +621,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-08-07T14:14:19.837895",
+    "drafted_at": "2026-08-07T15:26:44.148443",
     "data": {
       "manual": true,
       "via": "manual_news.md"
