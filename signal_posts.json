@@ -1,18 +1,4 @@
 {
-  "^IXIC:move:2026-08-06": {
-    "headline": "Nasdaq climbs 5.7% in 5 sessions to 26,348.35",
-    "matters": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
-    "source": "Yahoo Finance \u00b7 ^IXIC",
-    "chart_path": null,
-    "signal_id": "^IXIC:move:2026-08-06",
-    "current_str": "26,348.35",
-    "label": "Nasdaq Composite",
-    "hashtags": "#Nasdaq #Tech #Stocks",
-    "kind": "move_up",
-    "badge": "+5.7%",
-    "data_url": "https://finance.yahoo.com/quote/%5EIXIC",
-    "fired_at": "2026-08-07T09:49:07.554645"
-  },
   "GC=F:move:2026-08-07": {
     "headline": "Gold jumps 9.0% in 5 sessions to $4,401.30",
     "matters": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
@@ -56,17 +42,17 @@
     "fired_at": "2026-08-08T08:26:51.205964"
   },
   "^GSPC:high:2026-08-07": {
-    "headline": "S&P 500 just hit 7,761.64 \u2014 highest in 9+ years",
+    "headline": "S&P 500 just hit 7,757.64 \u2014 highest in 9+ years",
     "matters": "The benchmark of U.S. equities. Watched globally as the proxy for risk-on / risk-off.",
     "source": "Yahoo Finance \u00b7 ^GSPC",
     "chart_path": null,
     "signal_id": "^GSPC:high:2026-08-07",
-    "current_str": "7,761.64",
+    "current_str": "7,757.64",
     "label": "S&P 500",
     "hashtags": "#SPX #SP500 #Stocks #Markets",
     "kind": "high",
     "badge": "9Y HIGH",
     "data_url": "https://finance.yahoo.com/quote/%5EGSPC",
-    "fired_at": "2026-08-07T15:26:41.609449"
+    "fired_at": "2026-08-08T10:19:39.232083"
   }
 }
