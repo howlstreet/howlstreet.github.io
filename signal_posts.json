@@ -1,18 +1,4 @@
 {
-  "^VIX:move:2026-08-06": {
-    "headline": "VIX craters 18.9% in 5 sessions to 15.15",
-    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "source": "CBOE \u00b7 ^VIX",
-    "chart_path": null,
-    "signal_id": "^VIX:move:2026-08-06",
-    "current_str": "15.15",
-    "label": "VIX (S&P 500 volatility)",
-    "hashtags": "#VIX #Volatility #Markets",
-    "kind": "move_down",
-    "badge": "-18.9%",
-    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "fired_at": "2026-08-07T04:17:55.187996"
-  },
   "^IXIC:move:2026-08-06": {
     "headline": "Nasdaq climbs 5.7% in 5 sessions to 26,348.35",
     "matters": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
