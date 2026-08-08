@@ -1,32 +1,4 @@
 {
-  "GC=F:move:2026-08-06": {
-    "headline": "Gold climbs 5.5% in 5 sessions to $4,300.30",
-    "matters": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
-    "source": "COMEX \u00b7 GC=F",
-    "chart_path": null,
-    "signal_id": "GC=F:move:2026-08-06",
-    "current_str": "$4,300.30",
-    "label": "Gold futures",
-    "hashtags": "#Gold #PreciousMetals #Commodities",
-    "kind": "move_up",
-    "badge": "+5.5%",
-    "data_url": "https://finance.yahoo.com/quote/GC%3DF",
-    "fired_at": "2026-08-07T00:41:57.737009"
-  },
-  "CL=F:move:2026-08-06": {
-    "headline": "WTI crude drops 5.3% in 5 sessions to $78.20",
-    "matters": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "source": "NYMEX \u00b7 CL=F",
-    "chart_path": null,
-    "signal_id": "CL=F:move:2026-08-06",
-    "current_str": "$78.20",
-    "label": "WTI crude oil futures",
-    "hashtags": "#Oil #WTI #Energy #Commodities",
-    "kind": "move_down",
-    "badge": "-5.3%",
-    "data_url": "https://finance.yahoo.com/quote/CL%3DF",
-    "fired_at": "2026-08-07T00:41:57.737009"
-  },
   "^VIX:move:2026-08-06": {
     "headline": "VIX craters 18.9% in 5 sessions to 15.15",
     "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",

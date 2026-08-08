@@ -1,21 +1,4 @@
 {
-  "IR_P_2026-08-03": {
-    "ticker": "IR",
-    "company": "Ingersoll Rand Inc.",
-    "industry": "Satpathy Aurobind",
-    "num_insiders": 0,
-    "type": "P",
-    "price": 86.68,
-    "qty": 11538,
-    "dollar_value": 1000091.0,
-    "trade_date": "2026-08-03",
-    "category": "BIG_SALE",
-    "link": "http://openinsider.com/screener?s=IR",
-    "post_id": "IR_P_2026-08-03",
-    "chart_path": "charts/insider/IR_P_20260803.png",
-    "pct_since": 3.8301799723119436,
-    "fired_at": "2026-08-05T23:46:02.727050"
-  },
   "TM_P_2026-08-05": {
     "ticker": "TM",
     "company": "Toyota Motor Corp/",
@@ -389,5 +372,39 @@
     "chart_path": "charts/insider/BBBY_P_20260806.png",
     "pct_since": -2.8774656029554044e-06,
     "fired_at": "2026-08-07T23:23:51.344082"
+  },
+  "CCB_P_2026-08-06": {
+    "ticker": "CCB",
+    "company": "Coastal Financial Corp",
+    "industry": "State Commercial Banks",
+    "num_insiders": 2,
+    "type": "P",
+    "price": 44.11,
+    "qty": 25000,
+    "dollar_value": 1102750.0,
+    "trade_date": "2026-08-06",
+    "category": "CLUSTER_BUY",
+    "link": "http://openinsider.com/screener?s=CCB",
+    "post_id": "CCB_P_2026-08-06",
+    "chart_path": "charts/insider/CCB_P_20260806.png",
+    "pct_since": 2.7884836830376134,
+    "fired_at": "2026-08-08T00:45:49.912282"
+  },
+  "CCB_P_2026-08-05": {
+    "ticker": "CCB",
+    "company": "Coastal Financial Corp",
+    "industry": "Hovde Steven D",
+    "num_insiders": 0,
+    "type": "P",
+    "price": 43.88,
+    "qty": 15000,
+    "dollar_value": 658250.0,
+    "trade_date": "2026-08-05",
+    "category": "BIG_SALE",
+    "link": "http://openinsider.com/screener?s=CCB",
+    "post_id": "CCB_P_2026-08-05",
+    "chart_path": "charts/insider/CCB_P_20260805.png",
+    "pct_since": 3.3272565008839745,
+    "fired_at": "2026-08-08T00:45:49.912282"
   }
 }
