@@ -1,61 +1,42 @@
 [
   {
-    "id": "5df7817e",
+    "id": "4abe9b1f",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "Berkshire Hathaway Q2 operating earnings +16% Y/Y, cash at $365.5B\n\nhttps://seekingalpha.com/news/4629644-berkshire-hathaway-q2-operating-earnings?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "draft_text": "Prices paid by US consumers probably inched up marginally last month after falling for the first time in six years, a welcome tempering in recent war-driven inflationary pressures.\n\nhttps://financialpost.com/pmn/business-pmn/us-cpi-to-show-inflationary-pressures-cooling-some",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "SEEKING ALPHA",
-    "source_url": "https://seekingalpha.com/news/4629644-berkshire-hathaway-q2-operating-earnings?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-    "source_title": "Berkshire Hathaway Q2 operating earnings +16% Y/Y, cash at $365.5B",
-    "source_summary": "",
-    "drafted_at": "2026-08-08T12:23:10.022303",
+    "primary_source": "FINANCIAL POST",
+    "source_url": "https://financialpost.com/pmn/business-pmn/us-cpi-to-show-inflationary-pressures-cooling-some",
+    "source_title": "US CPI to Show Inflationary Pressures Cooling Some",
+    "source_summary": "Prices paid by US consumers probably inched up marginally last month after falling for the first time in six years, a welcome tempering in recent war-driven inflationary pressures.",
+    "drafted_at": "2026-08-08T22:16:32.732327",
     "data": {
-      "source": "SEEKING ALPHA"
+      "source": "FINANCIAL POST"
     },
-    "content_hash": "b424074878913a41"
+    "content_hash": "f68b4493214b43cc"
   },
   {
-    "id": "bb2cf8e1",
+    "id": "34522bd5",
     "format": "MARKET_MOVE",
     "status": "pending",
-    "draft_text": "Don't sleep on this. S&P 500 just hit 7,757.64 \u2014 highest in 9+ years.\n\nThe benchmark of U.S. equities.\n\nWatched globally as the proxy for risk-on / risk-off.\n\nMulti-year high. The pack remembers what comes after these.\n\nhttps://finance.yahoo.com/quote/%5EGSPC",
+    "draft_text": "This is the kind of move that hits twice. Gold jumps 7.5% in 5 sessions to $4,340.70.\n\nGold tracks real yields and central bank demand.\n\nMulti-year highs flag debasement or geopolitical hedging flows.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/GC%3DF",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "Yahoo Finance \u00b7 ^GSPC",
-    "source_url": "https://finance.yahoo.com/quote/%5EGSPC",
-    "source_title": "S&P 500",
-    "source_summary": "The benchmark of U.S. equities. Watched globally as the proxy for risk-on / risk-off.",
-    "drafted_at": "2026-08-08T12:23:10.022593",
+    "primary_source": "COMEX \u00b7 GC=F",
+    "source_url": "https://finance.yahoo.com/quote/GC%3DF",
+    "source_title": "Gold futures",
+    "source_summary": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
+    "drafted_at": "2026-08-08T22:16:32.732609",
     "data": {
-      "signal_id": "^GSPC:high:2026-08-07",
-      "kind": "high",
-      "current": "7,757.64"
-    },
-    "content_hash": "3fefe25d3b818aa2"
-  },
-  {
-    "id": "46a78f1b",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "Boring? Maybe. Actionable? Definitely. Nasdaq jumps 7.3% in 5 sessions to 26,690.62.\n\nTech-heavy index.\n\nLeads risk appetite and is most sensitive to rate moves.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EIXIC",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Yahoo Finance \u00b7 ^IXIC",
-    "source_url": "https://finance.yahoo.com/quote/%5EIXIC",
-    "source_title": "Nasdaq Composite",
-    "source_summary": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
-    "drafted_at": "2026-08-08T12:23:10.022804",
-    "data": {
-      "signal_id": "^IXIC:move:2026-08-07",
+      "signal_id": "GC=F:move:2026-08-07",
       "kind": "move_up",
-      "current": "26,690.62"
+      "current": "$4,340.70"
     },
-    "content_hash": "ce08e8b71b40219b"
+    "content_hash": "514096a7b4f87c16"
   },
   {
-    "id": "283c4a63",
+    "id": "18a836a3",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "If you're not watching this, you're behind. VIX craters 18.2% in 5 sessions to 14.90.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
@@ -65,7 +46,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EVIX",
     "source_title": "VIX (S&P 500 volatility)",
     "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-08-08T12:23:10.023087",
+    "drafted_at": "2026-08-08T22:16:32.732884",
     "data": {
       "signal_id": "^VIX:move:2026-08-07",
       "kind": "move_down",
@@ -74,26 +55,62 @@
     "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "75ff97f4",
+    "id": "eac7b11a",
     "format": "MARKET_MOVE",
     "status": "pending",
-    "draft_text": "This is the kind of move that hits twice. Gold jumps 9.0% in 5 sessions to $4,401.30.\n\nGold tracks real yields and central bank demand.\n\nMulti-year highs flag debasement or geopolitical hedging flows.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/GC%3DF",
+    "draft_text": "Don't sleep on this. S&P 500 just hit 7,757.64 \u2014 highest in 9+ years.\n\nThe benchmark of U.S. equities.\n\nWatched globally as the proxy for risk-on / risk-off.\n\nMulti-year high. The pack remembers what comes after these.\n\nhttps://finance.yahoo.com/quote/%5EGSPC",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "COMEX \u00b7 GC=F",
-    "source_url": "https://finance.yahoo.com/quote/GC%3DF",
-    "source_title": "Gold futures",
-    "source_summary": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
-    "drafted_at": "2026-08-08T12:23:10.023337",
+    "primary_source": "Yahoo Finance \u00b7 ^GSPC",
+    "source_url": "https://finance.yahoo.com/quote/%5EGSPC",
+    "source_title": "S&P 500",
+    "source_summary": "The benchmark of U.S. equities. Watched globally as the proxy for risk-on / risk-off.",
+    "drafted_at": "2026-08-08T22:16:32.733131",
     "data": {
-      "signal_id": "GC=F:move:2026-08-07",
-      "kind": "move_up",
-      "current": "$4,401.30"
+      "signal_id": "^GSPC:high:2026-08-07",
+      "kind": "high",
+      "current": "7,757.64"
     },
-    "content_hash": "514096a7b4f87c16"
+    "content_hash": "3fefe25d3b818aa2"
   },
   {
-    "id": "f5177f5a",
+    "id": "0134282a",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Boring? Maybe. Actionable? Definitely. Nasdaq jumps 7.3% in 5 sessions to 26,690.62.\n\nTech-heavy index.\n\nLeads risk appetite and is most sensitive to rate moves.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EIXIC",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Yahoo Finance \u00b7 ^IXIC",
+    "source_url": "https://finance.yahoo.com/quote/%5EIXIC",
+    "source_title": "Nasdaq Composite",
+    "source_summary": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
+    "drafted_at": "2026-08-08T22:16:32.733335",
+    "data": {
+      "signal_id": "^IXIC:move:2026-08-07",
+      "kind": "move_up",
+      "current": "26,690.62"
+    },
+    "content_hash": "ce08e8b71b40219b"
+  },
+  {
+    "id": "8aeedc73",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "POWELL POSTCARD: Wells Fargo chief economist Tom Porcelli is pushing back against market bets on a Federal Reserve (Fed) rate hike, saying he expects the central bank to hold rates through 2026.\n\nHis view clashes with a hawkish turn across Wall Street, where several major banks now forecast higher rates.\n\nTraders have also sharply lifted their expectations The post Why One Top Economist Says the Fed\u2019s Inflation Fight Can\u2019t Be Won With Rate Hikes appeared first on BeInCrypto.\n\nhttps://beincrypto.com/wells-fargo-economist-fed-rate-hike/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Fed",
+    "source_url": "https://beincrypto.com/wells-fargo-economist-fed-rate-hike/",
+    "source_title": "Why One Top Economist Says the Fed\u2019s Inflation Fight Can\u2019t Be Won With Rate Hikes",
+    "source_summary": "Wells Fargo chief economist Tom Porcelli is pushing back against market bets on a Federal Reserve (Fed) rate hike, saying he expects the central bank to hold rates through 2026. His view clashes with a hawkish turn across Wall Street, where several major banks now forecast higher rates. Traders have also sharply lifted their expectations The post Why One Top Economist Says the Fed\u2019s Inflation Figh",
+    "drafted_at": "2026-08-08T22:16:32.744871",
+    "data": {
+      "actor": "Fed"
+    },
+    "content_hash": "f10ef3481ffe02e7"
+  },
+  {
+    "id": "013e7a99",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Powell on the wire. It addresses unnecessary applications of the rule to passive interests in companies held by investment funds, codifies other statutory requirements, incorporates long-standing regulatory interpretations, and simplifies the application of the rule.\n\nRegulation O has not been comprehensively updated since 1979.\n\nThe rule addresses a unique challenge for community banks, where board members and executives are often local business owners and civic leaders who provide valuable perspective and expertise to bank governance and information on the local economy.\n\nThe proposal updates dollar-based thresholds and indexes them to economic growth going forward.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731b.htm",
@@ -103,14 +120,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731b.htm",
     "source_title": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"\u2014bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
     "source_summary": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"\u2014bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
-    "drafted_at": "2026-08-08T12:23:10.035597",
+    "drafted_at": "2026-08-08T22:16:32.746049",
     "data": {
       "actor": "FED"
     },
     "content_hash": "4057886fa20ad5ad"
   },
   {
-    "id": "252ccb90",
+    "id": "67a1ee8d",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FOMC update. The Board assumed regulatory and supervisory authority over mutual banks from the Office of Thrift Supervision in 2011.\n\nThe rules governing these banks were first established in 1993.\n\nThey have not been updated and have proven over time to be overly burdensome and complex.\n\n\"Today's proposal is another important step in our work to modernize the bank regulatory framework by updating mutual bank regulations for the first time in 30 years.\n\nThe continued success of this model contributes to the institutional diversity of the U.S. banking system, which is one of the greatest strengths of our financial system,\" said Vice Chair for Supervision Michelle W.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731a.htm",
@@ -120,14 +137,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731a.htm",
     "source_title": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
     "source_summary": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
-    "drafted_at": "2026-08-08T12:23:10.036703",
+    "drafted_at": "2026-08-08T22:16:32.747136",
     "data": {
       "actor": "FED"
     },
     "content_hash": "1672ee5ef82f19a2"
   },
   {
-    "id": "84c8dbf1",
+    "id": "51fa3f53",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "POWELL POSTCARD: Consent prohibition order against Ralph A.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730a.htm",
@@ -137,14 +154,34 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730a.htm",
     "source_title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank",
     "source_summary": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank",
-    "drafted_at": "2026-08-08T12:23:10.036909",
+    "drafted_at": "2026-08-08T22:16:32.747323",
     "data": {
       "actor": "FED"
     },
     "content_hash": "23feb4de7d35586a"
   },
   {
-    "id": "d36df84e",
+    "id": "c691b0d3",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$TSM \u2014 3 company insiders bought $1.3M on Aug 03.\n\nTaiwan Semiconductor Manufacturing Co Ltd. 17,025 shares at $73.83.\n\nStock is +468.9% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/TSM_P_20260803.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=TSM",
+    "source_title": "Taiwan Semiconductor Manufacturing Co Ltd (TSM) insider bought $1.3M",
+    "source_summary": "3 insider(s) bought 17,025 shares at $73.83 on 2026-08-03.",
+    "drafted_at": "2026-08-08T22:16:32.747609",
+    "data": {
+      "ticker": "TSM",
+      "type": "P",
+      "dollar_value": 1256970.0,
+      "pct_since": 468.92863137602853
+    },
+    "content_hash": "440c82e6ae1d56e7"
+  },
+  {
+    "id": "7670ee59",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$CCB \u2014 2 company insiders bought $1.1M on Aug 06.\n\nCoastal Financial Corp. 25,000 shares at $44.11.\n\nStock is +2.8% since the purchase. This is a public SEC Form 4 filing.",
@@ -154,7 +191,7 @@
     "source_url": "http://openinsider.com/screener?s=CCB",
     "source_title": "Coastal Financial Corp (CCB) insider bought $1.1M",
     "source_summary": "2 insider(s) bought 25,000 shares at $44.11 on 2026-08-06.",
-    "drafted_at": "2026-08-08T12:23:10.037193",
+    "drafted_at": "2026-08-08T22:16:32.747838",
     "data": {
       "ticker": "CCB",
       "type": "P",
@@ -164,7 +201,7 @@
     "content_hash": "e5ba0cfd2f0965c1"
   },
   {
-    "id": "034caa27",
+    "id": "391b1517",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$CCB \u2014 a company insider bought $658,250 on Aug 05.\n\nCoastal Financial Corp. 15,000 shares at $43.88.\n\nStock is +3.3% since the purchase. This is a public SEC Form 4 filing.",
@@ -174,7 +211,7 @@
     "source_url": "http://openinsider.com/screener?s=CCB",
     "source_title": "Coastal Financial Corp (CCB) insider bought $658,250",
     "source_summary": "1 insider(s) bought 15,000 shares at $43.88 on 2026-08-05.",
-    "drafted_at": "2026-08-08T12:23:10.037409",
+    "drafted_at": "2026-08-08T22:16:32.748041",
     "data": {
       "ticker": "CCB",
       "type": "P",
@@ -184,7 +221,7 @@
     "content_hash": "12a0a3930f190d32"
   },
   {
-    "id": "8b16197c",
+    "id": "d2f6d187",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$ACI \u2014 3 company insiders bought $2.5M on Jul 31.\n\nAlbertsons Companies, Inc. 218,909 shares at $11.49.\n\nStock is +4.5% since the purchase. This is a public SEC Form 4 filing.",
@@ -194,7 +231,7 @@
     "source_url": "http://openinsider.com/screener?s=ACI",
     "source_title": "Albertsons Companies, Inc. (ACI) insider bought $2.5M",
     "source_summary": "3 insider(s) bought 218,909 shares at $11.49 on 2026-07-31.",
-    "drafted_at": "2026-08-08T12:23:10.037618",
+    "drafted_at": "2026-08-08T22:16:32.748275",
     "data": {
       "ticker": "ACI",
       "type": "P",
@@ -204,7 +241,7 @@
     "content_hash": "b7266a8b42e28ff4"
   },
   {
-    "id": "b58be946",
+    "id": "0c27bd53",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$BBBY \u2014 2 company insiders bought $293,994 on Aug 06.\n\nBed Bath & Beyond, Inc. 63,382 shares at $4.64.\n\nStock is -0.0% since the purchase. This is a public SEC Form 4 filing.",
@@ -214,7 +251,7 @@
     "source_url": "http://openinsider.com/screener?s=BBBY",
     "source_title": "Bed Bath & Beyond, Inc. (BBBY) insider bought $293,994",
     "source_summary": "2 insider(s) bought 63,382 shares at $4.64 on 2026-08-06.",
-    "drafted_at": "2026-08-08T12:23:10.037824",
+    "drafted_at": "2026-08-08T22:16:32.748483",
     "data": {
       "ticker": "BBBY",
       "type": "P",
@@ -224,61 +261,58 @@
     "content_hash": "57509018caefc021"
   },
   {
-    "id": "b16e1574",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$ONMD \u2014 a company insider bought $1.0M on Jul 30.\n\nOnemednet Corp. 1,449,275 shares at $0.69.\n\nStock is -9.5% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/ONMD_P_20260730.png",
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=ONMD",
-    "source_title": "Onemednet Corp (ONMD) insider bought $1.0M",
-    "source_summary": "1 insider(s) bought 1,449,275 shares at $0.69 on 2026-07-30.",
-    "drafted_at": "2026-08-08T12:23:10.038041",
-    "data": {
-      "ticker": "ONMD",
-      "type": "P",
-      "dollar_value": 1000000.0,
-      "pct_since": -9.49275700942329
-    },
-    "content_hash": "8fc552af808698fd"
-  },
-  {
-    "id": "c3e8a248",
+    "id": "a0902a4c",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "When the Supreme Court struck down President Trump\u2019s birthright citizenship executive order in Trump v.\n\nBarbara, it settled for now in the courts who becomes a citizen at birth.\n\nIt did not settle \u2014 and could not settle \u2014 whether American citizenship may be bought and sold.\n\nhttps://www.theblaze.com/columns/opinion/birth-tourism-is-only-the-beginning",
+    "draft_text": "Talarico Might Have Committed Election Fraud\n\nhttps://pjmedia.com/catherinesalgado/2026/08/08/talarico-might-have-committed-election-fraud-n4955942",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "THE BLAZE",
-    "source_url": "https://www.theblaze.com/columns/opinion/birth-tourism-is-only-the-beginning",
-    "source_title": "Birth tourism is only the beginning",
-    "source_summary": "When the Supreme Court struck down President Trump\u2019s birthright citizenship executive order in Trump v. Barbara , it settled for now in the courts who becomes a citizen at birth. It did not settle \u2014 and could not settle \u2014 whether American citizenship may be bought and sold. It remains well within the power of Congress and the president to shut down the contracts, clinics, agencies, and visas that ",
-    "drafted_at": "2026-08-08T12:23:10.044451",
+    "primary_source": "PJ MEDIA",
+    "source_url": "https://pjmedia.com/catherinesalgado/2026/08/08/talarico-might-have-committed-election-fraud-n4955942",
+    "source_title": "Talarico Might Have Committed Election Fraud",
+    "source_summary": "",
+    "drafted_at": "2026-08-08T22:16:32.752068",
     "data": {
-      "source": "THE BLAZE"
+      "source": "PJ MEDIA"
     },
-    "content_hash": "689e25f6f8d260e0"
+    "content_hash": "46ecf4a164d1b666"
   },
   {
-    "id": "34acc324",
+    "id": "2eb64a4d",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "The US Treasury sanctioned two Iranian digital asset exchanges, Shelbit and Aban Tether, along with network operator Siavash Kayvanpour, over crypto transfers tied to Iran\u2019s Islamic Revolutionary Guard Corps (IRGC).\n\nThe Office of Foreign Assets Control (OFAC) issued the designations on Friday.\n\nThe designations mark the latest US strike on Iran\u2019s crypto rails this year.\n\nhttps://beincrypto.com/iran-crypto-sanctions-shelbit-aban-tether/",
+    "draft_text": "Business Email Compromise scams cost companies billions.\n\nCriminals are use AI, deepfakes and voice cloning to commit fraud.\n\nLearn how businesses can protect themselves.\n\nhttps://www.forbes.com/sites/steveweisman/2026/08/08/how-ai-powered-business-email-compromise-scams-are-stealing-billions/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FORBES",
+    "source_url": "https://www.forbes.com/sites/steveweisman/2026/08/08/how-ai-powered-business-email-compromise-scams-are-stealing-billions/",
+    "source_title": "How AI-Powered Business Email Compromise Scams Are Stealing Billions",
+    "source_summary": "Business Email Compromise scams cost companies billions. Criminals are use AI, deepfakes and voice cloning to commit fraud. Learn how businesses can protect themselves.",
+    "drafted_at": "2026-08-08T22:16:32.752271",
+    "data": {
+      "source": "FORBES"
+    },
+    "content_hash": "6da858383d44bae7"
+  },
+  {
+    "id": "326c2841",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Brazil\u2019s central bank has introduced a rule requiring covered crypto service providers to delay certain transfers for 24 hours as a precaution against fraud.\n\nThe Central Bank of Brazil (BCB) published Resolution 584 on Friday, amending existing fraud-prevention rules for payment services to also cover virtual asset services.\n\nThe rules require qualifying transfers to be The post No More Instant Crypto Transfers in Brazil?\n\nhttps://beincrypto.com/brazil-central-bank-crypto-transfer-delay/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "BEINCRYPTO",
-    "source_url": "https://beincrypto.com/iran-crypto-sanctions-shelbit-aban-tether/",
-    "source_title": "US Treasury Sanctions Two Iranian Crypto Exchanges Over IRGC Money Laundering",
-    "source_summary": "The US Treasury sanctioned two Iranian digital asset exchanges, Shelbit and Aban Tether, along with network operator Siavash Kayvanpour, over crypto transfers tied to Iran\u2019s Islamic Revolutionary Guard Corps (IRGC). The Office of Foreign Assets Control (OFAC) issued the designations on Friday. The designations mark the latest US strike on Iran\u2019s crypto rails this year. The post US Treasury Sanctio",
-    "drafted_at": "2026-08-08T12:23:10.044955",
+    "source_url": "https://beincrypto.com/brazil-central-bank-crypto-transfer-delay/",
+    "source_title": "No More Instant Crypto Transfers in Brazil? Central Bank Introduces New Law",
+    "source_summary": "Brazil\u2019s central bank has introduced a rule requiring covered crypto service providers to delay certain transfers for 24 hours as a precaution against fraud. The Central Bank of Brazil (BCB) published Resolution 584 on Friday, amending existing fraud-prevention rules for payment services to also cover virtual asset services. The rules require qualifying transfers to be The post No More Instant Cry",
+    "drafted_at": "2026-08-08T22:16:32.752814",
     "data": {
       "source": "BEINCRYPTO"
     },
-    "content_hash": "ff0405a967eec6e0"
+    "content_hash": "972eab2a97c59fd3"
   },
   {
-    "id": "65f7b683",
+    "id": "07799f21",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Treasury sanctioned two crypto exchanges it says laundered millions of dollars for Iran's Revolutionary Guard, naming a Georgia- and UAE-based operator and an Iran-based platform.\n\nhttps://decrypt.co/375163/treasury-sanctions-crypto-exchanges-laundered-millions-iran",
@@ -288,48 +322,31 @@
     "source_url": "https://decrypt.co/375163/treasury-sanctions-crypto-exchanges-laundered-millions-iran",
     "source_title": "Treasury Sanctions Crypto Exchanges It Says Laundered Millions for Iran",
     "source_summary": "The U.S. Treasury sanctioned two crypto exchanges it says laundered millions of dollars for Iran's Revolutionary Guard, naming a Georgia- and UAE-based operator and an Iran-based platform.",
-    "drafted_at": "2026-08-08T12:23:10.045177",
+    "drafted_at": "2026-08-08T22:16:32.753037",
     "data": {
       "source": "DECRYPT"
     },
     "content_hash": "4f8a368727a28614"
   },
   {
-    "id": "55f753c0",
+    "id": "0291a422",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "President Trump is reviving his effort to oust Federal Reserve Gov.\n\nLisa Cook, with the White House giving her several weeks to answer mortgage-fraud allegations\n\nhttps://nypost.com/2026/08/07/business/trump-revives-bid-to-fire-fed-gov-lisa-cook-after-supreme-court-setback/",
+    "draft_text": "Trump is once again threatening to fire Cook over unproven allegations of mortgage fraud after an earlier effort to remove Cook was struck down by the Supreme Court.\n\nhttps://www.npr.org/2026/08/07/nx-s1-5925167/trump-lisa-cook-federal-reserve",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "NY POST",
-    "source_url": "https://nypost.com/2026/08/07/business/trump-revives-bid-to-fire-fed-gov-lisa-cook-after-supreme-court-setback/",
-    "source_title": "Trump revives bid to fire Fed Gov. Lisa Cook after Supreme Court setback",
-    "source_summary": "President Trump is reviving his effort to oust Federal Reserve Gov. Lisa Cook, with the White House giving her several weeks to answer mortgage-fraud allegations in the wake of comments from her voicing support of hiking interest rates.",
-    "drafted_at": "2026-08-08T12:23:10.045402",
+    "primary_source": "NPR",
+    "source_url": "https://www.npr.org/2026/08/07/nx-s1-5925167/trump-lisa-cook-federal-reserve",
+    "source_title": "Trump renews push to fire Fed Governor Lisa Cook",
+    "source_summary": "Trump is once again threatening to fire Cook over unproven allegations of mortgage fraud after an earlier effort to remove Cook was struck down by the Supreme Court.",
+    "drafted_at": "2026-08-08T22:16:32.753234",
     "data": {
-      "source": "NY POST"
+      "source": "NPR"
     },
-    "content_hash": "4c904cac10d5de67"
+    "content_hash": "a365facd7fbeea25"
   },
   {
-    "id": "ab42c890",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "The US government sanctioned an individual and two crypto exchanges it said facilitated money laundering for a combined $5 million in digital assets linked to Iran.\n\nhttps://cointelegraph.com/news/us-treasury-sanctions-iran-crypto-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "COINTELEGRAPH",
-    "source_url": "https://cointelegraph.com/news/us-treasury-sanctions-iran-crypto-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "source_title": "US Treasury\u2019s OFAC sanctions 2 Iran-linked crypto exchanges",
-    "source_summary": "The US government sanctioned an individual and two crypto exchanges it said facilitated money laundering for a combined $5 million in digital assets linked to Iran.",
-    "drafted_at": "2026-08-08T12:23:10.045602",
-    "data": {
-      "source": "COINTELEGRAPH"
-    },
-    "content_hash": "53dacdc22cfd6cb9"
-  },
-  {
-    "id": "afbf649b",
+    "id": "825b8e0e",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "6 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 David J. Taylor (R)\n\u2022 John Boozman (R)\n\u2022 Cleo Fields (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 John Fetterman (D)\n\u2022 John McGuire (R)\n\nLargest disclosed here: David J. Taylor, $1,001 - $15,000 on Feb 26.\n\nPrice since the first buy in this group: +24.5%.\n\nSTOCK Act disclosures. Public record.",
@@ -339,7 +356,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034138.pdf",
     "source_title": "6 Congress members bought $MSFT",
     "source_summary": "6 politicians bought $MSFT; largest $1,001 - $15,000 by David J. Taylor.",
-    "drafted_at": "2026-08-08T12:23:10.047710",
+    "drafted_at": "2026-08-08T22:16:32.755111",
     "data": {
       "ticker": "MSFT",
       "member_count": 6,
@@ -348,7 +365,7 @@
     "content_hash": "7c24415ac3c0b542"
   },
   {
-    "id": "d94135a0",
+    "id": "140a3193",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "5 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Markwayne Mullin (D)\n\u2022 Josh Gottheimer (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Markwayne Mullin, $50,001 - $100,000 on Feb 25.\n\nPrice since the first buy in this group: +51.6%.\n\nSTOCK Act disclosures. Public record.",
@@ -358,7 +375,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/f586922d-6083-44e5-8a32-769290389416/",
     "source_title": "5 Congress members bought $UNH",
     "source_summary": "5 politicians bought $UNH; largest $50,001 - $100,000 by Markwayne Mullin.",
-    "drafted_at": "2026-08-08T12:23:10.048089",
+    "drafted_at": "2026-08-08T22:16:32.755458",
     "data": {
       "ticker": "UNH",
       "member_count": 5,
@@ -367,7 +384,7 @@
     "content_hash": "7cbacf41d412a41b"
   },
   {
-    "id": "bd27654f",
+    "id": "23997ffd",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 Cleo Fields (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 John Fetterman (D)\n\u2022 John McGuire (R)\n\nLargest disclosed here: Cleo Fields, $1,001 - $15,000 on Mar 12.\n\nPrice since the first buy in this group: +25.1%.\n\nSTOCK Act disclosures. Public record.",
@@ -377,7 +394,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034179.pdf",
     "source_title": "4 Congress members bought $MSFT",
     "source_summary": "4 politicians bought $MSFT; largest $1,001 - $15,000 by Cleo Fields.",
-    "drafted_at": "2026-08-08T12:23:10.048409",
+    "drafted_at": "2026-08-08T22:16:32.755793",
     "data": {
       "ticker": "MSFT",
       "member_count": 4,
@@ -386,7 +403,7 @@
     "content_hash": "4ff8eafa69ce40c2"
   },
   {
-    "id": "582c61d6",
+    "id": "4c1dcad0",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $HD this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Lloyd Doggett (D)\n\u2022 Jared Moskowitz (D)\n\nLargest disclosed here: Richard Dean Dr McCormick, $1,001 - $15,000 on Mar 19.\n\nPrice since the first buy in this group: +8.4%.\n\nSTOCK Act disclosures. Public record.",
@@ -396,7 +413,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033648.pdf",
     "source_title": "3 Congress members bought $HD",
     "source_summary": "3 politicians bought $HD; largest $1,001 - $15,000 by Richard Dean Dr McCormick.",
-    "drafted_at": "2026-08-08T12:23:10.048717",
+    "drafted_at": "2026-08-08T22:16:32.756098",
     "data": {
       "ticker": "HD",
       "member_count": 3,
@@ -405,7 +422,7 @@
     "content_hash": "8c0eaad1e4da4036"
   },
   {
-    "id": "9fddb830",
+    "id": "347f87b5",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $TSM this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard W. Allen (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Cleo Fields (D)\n\nLargest disclosed here: Richard W. Allen, $1,001 - $15,000 on Feb 19.\n\nPrice since the first buy in this group: +16.6%.\n\nSTOCK Act disclosures. Public record.",
@@ -415,7 +432,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034133.pdf",
     "source_title": "3 Congress members bought $TSM",
     "source_summary": "3 politicians bought $TSM; largest $1,001 - $15,000 by Richard W. Allen.",
-    "drafted_at": "2026-08-08T12:23:10.049034",
+    "drafted_at": "2026-08-08T22:16:32.756388",
     "data": {
       "ticker": "TSM",
       "member_count": 3,
@@ -424,92 +441,109 @@
     "content_hash": "5d9078569296551f"
   },
   {
-    "id": "b5a368d1",
+    "id": "412945ff",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From the Gulf: The US blockade on Iran's oil exports disrupts global oil markets, forcing buyers to seek alternatives and creating price volatility.\n\nThe post Iran\u2019s oil exports halt as US naval blockade shuts down Kharg Island appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iran-oil-exports-halt-us-naval-blockade/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/iran-oil-exports-halt-us-naval-blockade/",
-    "source_title": "Iran\u2019s oil exports halt as US naval blockade shuts down Kharg Island",
-    "source_summary": "The US blockade on Iran's oil exports disrupts global oil markets, forcing buyers to seek alternatives and creating price volatility. The post Iran\u2019s oil exports halt as US naval blockade shuts down Kharg Island appeared first on Crypto Briefing .",
-    "drafted_at": "2026-08-08T12:23:10.050422",
-    "data": {
-      "source": "CRYPTO BRIEFING"
-    },
-    "content_hash": "a6b0ff9edcbd2d64"
-  },
-  {
-    "id": "1da3e5e8",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Canada/LatAm wire: Brazil international signed on a four-year contract with further one-year option for reported fee of about $101m.\n\nhttps://www.aljazeera.com/sports/2026/8/8/arsenal-complete-signing-of-newcastle-midfielder-bruno-guimaraes?traffic_source=rss",
+    "draft_text": "Gulf wire: Some\n\nhttps://www.aljazeera.com/news/2026/8/8/will-pakistan-saudi-turkiye-defence-pact-change-us-strategy?traffic_source=rss",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/sports/2026/8/8/arsenal-complete-signing-of-newcastle-midfielder-bruno-guimaraes?traffic_source=rss",
-    "source_title": "Arsenal complete signing of Newcastle midfielder Bruno Guimaraes",
-    "source_summary": "Brazil international signed on a four-year contract with further one-year option for reported fee of about $101m.",
-    "drafted_at": "2026-08-08T12:23:10.051206",
+    "source_url": "https://www.aljazeera.com/news/2026/8/8/will-pakistan-saudi-turkiye-defence-pact-change-us-strategy?traffic_source=rss",
+    "source_title": "Will Pakistan-Saudi-Turkiye defence pact change US strategy?",
+    "source_summary": "Some experts say the deal precipitates a larger strategic shift in Middle East while others say it reinforces US goals.",
+    "drafted_at": "2026-08-08T22:16:32.757863",
     "data": {
       "source": "AL JAZEERA"
     },
-    "content_hash": "1232920fa9fe7310"
+    "content_hash": "814927d7279dac13"
   },
   {
-    "id": "d890c844",
+    "id": "1ec18804",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From the international wire: For Gen Z in India, PM Narendra Modi is trying to become an unlikely friend through late-night Instagram reels.\n\nhttps://www.aljazeera.com/video/newsfeed/2026/8/8/hi-friends-modis-curious-campaign-to-win-over-gen-z?traffic_source=rss",
+    "draft_text": "MIDDLE EAST DESK: Southeast Asia has been hit harder than anywhere else on Earth by the energy crisis stemming from the War in Iran, leaving many nations scrambling to shore up localized energy supply chains.\n\nThe newfound volatility in global energy markets has catalyzed the clean energy transition worldwide, but particularly in cash-strapped, import-dependent nations, of which there are many in Southeast Asia.\n\nBut the rapidly developing region\u2019s ageing and overburdened grids are ill prepared for a quick build-out of indigenous renewable energy capacity, threatening\u2026\n\nhttps://oilprice.com/Energy/Energy-General/Why-Southeast-Asias-Clean-Energy-Surge-Could-Stall-Before-It-Starts.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "OILPRICE",
+    "source_url": "https://oilprice.com/Energy/Energy-General/Why-Southeast-Asias-Clean-Energy-Surge-Could-Stall-Before-It-Starts.html",
+    "source_title": "Why Southeast Asia's Clean Energy Surge Could Stall Before It Starts",
+    "source_summary": "Southeast Asia has been hit harder than anywhere else on Earth by the energy crisis stemming from the War in Iran, leaving many nations scrambling to shore up localized energy supply chains. The newfound volatility in global energy markets has catalyzed the clean energy transition worldwide, but particularly in cash-strapped, import-dependent nations, of which there are many in Southeast Asia. But",
+    "drafted_at": "2026-08-08T22:16:32.759005",
+    "data": {
+      "source": "OILPRICE"
+    },
+    "content_hash": "5adc2ad2451ec581"
+  },
+  {
+    "id": "06ad0ce9",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "From the Gulf: The Supreme National Security Council said the Strait of Hormuz will not open until the United States \"corrects its behavior.\".\n\nhttps://fortune.com/2026/08/08/iran-demands-strait-of-hormuz-us-conditions-total-compensation-war-damage/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FORTUNE",
+    "source_url": "https://fortune.com/2026/08/08/iran-demands-strait-of-hormuz-us-conditions-total-compensation-war-damage/",
+    "source_title": "Iran issues long list of steep demands the U.S. must satisfy before the Strait of Hormuz will be reopened, including total compensation for war damage",
+    "source_summary": "The Supreme National Security Council said the Strait of Hormuz will not open until the United States \"corrects its behavior.\"",
+    "drafted_at": "2026-08-08T22:16:32.759233",
+    "data": {
+      "source": "FORTUNE"
+    },
+    "content_hash": "a8b00e3572fd4b6b"
+  },
+  {
+    "id": "91111d13",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Levant update: Saudi Arabia turns to Turkiye and Pakistan for defence ties, raising questions overreliance on the US.\n\nhttps://www.aljazeera.com/video/inside-story/2026/8/8/challenges-facing-mecca-agreement?traffic_source=rss",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/video/newsfeed/2026/8/8/hi-friends-modis-curious-campaign-to-win-over-gen-z?traffic_source=rss",
-    "source_title": "\u2018Hi friends\u2019: Modi\u2019s curious campaign to win over Gen Z",
-    "source_summary": "For Gen Z in India, PM Narendra Modi is trying to become an unlikely friend through late-night Instagram reels.",
-    "drafted_at": "2026-08-08T12:23:10.051492",
+    "source_url": "https://www.aljazeera.com/video/inside-story/2026/8/8/challenges-facing-mecca-agreement?traffic_source=rss",
+    "source_title": "What are the challenges facing the Mecca agreement?",
+    "source_summary": "Saudi Arabia turns to Turkiye and Pakistan for defence ties, raising questions overreliance on the US.",
+    "drafted_at": "2026-08-08T22:16:32.759535",
     "data": {
       "source": "AL JAZEERA"
     },
-    "content_hash": "2585e7322746150c"
+    "content_hash": "c94b47ec33ad0650"
   },
   {
-    "id": "9cdcc432",
+    "id": "837aac78",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "MIDDLE EAST DESK: The pact between Saudi Arabia, Pakistan and Turkiye is yet another step towards a new regional security architecture.\n\nhttps://www.aljazeera.com/opinions/2026/8/8/the-post-american-middle-east-is-beginning-to-take-shape?traffic_source=rss",
+    "draft_text": "From the Gulf: But Iran's aggressive demands cool hopes that the strait will see traffic return to normal anytime soon or that the U.S. will stop applying economic pressure on Iran.\n\nhttps://fortune.com/2026/08/08/iran-economic-collapse-us-naval-blockade-hormuz-sanctions-relief/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/opinions/2026/8/8/the-post-american-middle-east-is-beginning-to-take-shape?traffic_source=rss",
-    "source_title": "The post-American Middle East is beginning to take shape",
-    "source_summary": "The pact between Saudi Arabia, Pakistan and Turkiye is yet another step towards a new regional security architecture.",
-    "drafted_at": "2026-08-08T12:23:10.051753",
+    "primary_source": "FORTUNE",
+    "source_url": "https://fortune.com/2026/08/08/iran-economic-collapse-us-naval-blockade-hormuz-sanctions-relief/",
+    "source_title": "Iranian officials are worried the U.S. blockade will cause an economic collapse and admit sanctions relief is desperately needed",
+    "source_summary": "But Iran's aggressive demands cool hopes that the strait will see traffic return to normal anytime soon or that the U.S. will stop applying economic pressure on Iran.",
+    "drafted_at": "2026-08-08T22:16:32.759879",
     "data": {
-      "source": "AL JAZEERA"
+      "source": "FORTUNE"
     },
-    "content_hash": "32907d5483816877"
+    "content_hash": "0691b08bc8f056e6"
   },
   {
-    "id": "ab0c1273",
-    "format": "GLOBAL_DESK",
+    "id": "9140ea33",
+    "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "GLOBAL DESK: Bitcoin traded near $65,000 heading into the weekend, sitting at the center of two macro forces pulling in opposite directions.\n\n7 jobs report weakened the case for a September rate hike, and tensions around the Strait of Hormuz threaten to revive the inflation trade that the report just cooled.\n\nThe US economy lost [\u2026] The post Bitcoin faces $70,000 breakout or $60,000 drop this weekend as Hormuz tensions rise appeared first on CryptoSlate.\n\nhttps://cryptoslate.com/bitcoin-faces-70000-breakout-or-60000-drop-this-weekend-as-hormuz-tensions-rise/",
+    "draft_text": "CPI just printed. Prices paid by US consumers probably inched up marginally last month after falling for the first time in six years, a welcome tempering in recent war-driven inflationary pressures.\n\nhttps://financialpost.com/pmn/business-pmn/us-cpi-to-show-inflationary-pressures-cooling-some",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CRYPTOSLATE",
-    "source_url": "https://cryptoslate.com/bitcoin-faces-70000-breakout-or-60000-drop-this-weekend-as-hormuz-tensions-rise/",
-    "source_title": "Bitcoin faces $70,000 breakout or $60,000 drop this weekend as Hormuz tensions rise",
-    "source_summary": "Bitcoin traded near $65,000 heading into the weekend, sitting at the center of two macro forces pulling in opposite directions. The Aug. 7 jobs report weakened the case for a September rate hike, and tensions around the Strait of Hormuz threaten to revive the inflation trade that the report just cooled. The US economy lost [\u2026] The post Bitcoin faces $70,000 breakout or $60,000 drop this weekend as",
-    "drafted_at": "2026-08-08T12:23:10.053696",
+    "primary_source": "FINANCIAL POST",
+    "source_url": "https://financialpost.com/pmn/business-pmn/us-cpi-to-show-inflationary-pressures-cooling-some",
+    "source_title": "US CPI to Show Inflationary Pressures Cooling Some",
+    "source_summary": "Prices paid by US consumers probably inched up marginally last month after falling for the first time in six years, a welcome tempering in recent war-driven inflationary pressures.",
+    "drafted_at": "2026-08-08T22:16:32.818204",
     "data": {
-      "source": "CRYPTOSLATE"
+      "source": "FINANCIAL POST"
     },
-    "content_hash": "3beb1079aad92378"
+    "content_hash": "f68b4493214b43cc"
   },
   {
-    "id": "315c83f0",
+    "id": "5e033a72",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "The CPI scoreboard: A weekly roundup of MarketBeat analysis covering earnings from AbbVie, AMD, Palantir, Meta, Reddit, SpaceX and others, plus upcoming CPI and PPI inflation data.\n\nhttps://www.marketbeat.com/articles/marketbeat-week-in-review-08-03-08-07/",
@@ -519,14 +553,14 @@
     "source_url": "https://www.marketbeat.com/articles/marketbeat-week-in-review-08-03-08-07/",
     "source_title": "MarketBeat Week in Review \u2013 08/03 - 08/07",
     "source_summary": "A weekly roundup of MarketBeat analysis covering earnings from AbbVie, AMD, Palantir, Meta, Reddit, SpaceX and others, plus upcoming CPI and PPI inflation data.",
-    "drafted_at": "2026-08-08T12:23:10.113567",
+    "drafted_at": "2026-08-08T22:16:32.818465",
     "data": {
       "source": "MARKETBEAT"
     },
     "content_hash": "4d615c1f6da51de8"
   },
   {
-    "id": "95229b81",
+    "id": "6db04cee",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "INFLATION READ: The stock market, including the Dow Jones index, rallies after a weak jobs report.\n\nThe post Stock Market Gains After Weak Jobs Report Triggers This Shift; CPI Inflation Data Looms appeared first on Investor's Business Daily.\n\nhttps://www.investors.com/market-trend/the-big-picture/dow-jones-stock-market-nasdaq-weak-jobs-report-cpi-inflation-data/",
@@ -536,14 +570,14 @@
     "source_url": "https://www.investors.com/market-trend/the-big-picture/dow-jones-stock-market-nasdaq-weak-jobs-report-cpi-inflation-data/",
     "source_title": "Stock Market Gains After Weak Jobs Report Triggers This Shift; CPI Inflation Data Looms",
     "source_summary": "The stock market, including the Dow Jones index, rallies after a weak jobs report. Palantir stock soars. CPI inflation data is on deck. The post Stock Market Gains After Weak Jobs Report Triggers This Shift; CPI Inflation Data Looms appeared first on Investor's Business Daily .",
-    "drafted_at": "2026-08-08T12:23:10.113876",
+    "drafted_at": "2026-08-08T22:16:32.818786",
     "data": {
       "source": "IBD"
     },
     "content_hash": "f751a26f979c156a"
   },
   {
-    "id": "622cd480",
+    "id": "a36e2350",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "GDP DAY. DBS Group Research expects Singapore\u2019s final 2Q26 GDP to be revised up to 5.9% year-on-year and 1.3% quarter-on-quarter seasonally adjusted, driven by stronger manufacturing and services.\n\nhttps://www.fxstreet.com/news/singapore-gdp-revision-and-forecast-upgrade-dbs-202608072027",
@@ -553,14 +587,14 @@
     "source_url": "https://www.fxstreet.com/news/singapore-gdp-revision-and-forecast-upgrade-dbs-202608072027",
     "source_title": "Singapore: GDP revision and forecast upgrade \u2013 DBS",
     "source_summary": "DBS Group Research expects Singapore\u2019s final 2Q26 GDP to be revised up to 5.9% year-on-year and 1.3% quarter-on-quarter seasonally adjusted, driven by stronger manufacturing and services.",
-    "drafted_at": "2026-08-08T12:23:10.114165",
+    "drafted_at": "2026-08-08T22:16:32.819069",
     "data": {
       "source": "FXSTREET"
     },
     "content_hash": "406d4c0a9db088b7"
   },
   {
-    "id": "3c8f3c21",
+    "id": "2157ae33",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "LABOR MARKET READ: US July non-farm payrolls -23K vs +80K expected Canada July employment change +75.1K vs +15K expected Canada and the US discussing tariff relief deal Fed's Barkin: We are in a zero-to-modest gain jobs environment New York Fed survey: One year inflation expectations dip to 3.6% from 3.7% Baker Hughes US weekly oil rig count: Unchanged at 588 US official says there is progress on Iran-Oman on Strait of Hormuz Markets: Gold up $106 to $4345 US 10-year yields down 2.8 bps to 4.64% WTI crude oil down 42-cents to $76.87 JPY leads, USD lags S&P 500 up 0.6%.\n\nNasdaq up 1.3% S&P 500 up 3.5% on the week, best since April The weak non-farm payrolls report put to bed some of the worries about an overheating US jobs market and sustained rise in inflation.\n\nInstead, we're back to the low-hiring, low-firing paradigm that many Fed officials have highlighted over the past year.\n\nThat's an improvement in the inflation outlook and odds for a Sept hike are now below 50%.\n\nOf course, expect another swing after next week's CPI report.\n\nUSD/JPY fell hardest after the data as Japan's finance minister piled on with some intervention talk.\n\nThe pair sank to 157.04 from 158.35 but there were dip buyers waiting and they walked it back to 157.99 before a second wave of selling left it near 157.50 late in the day.\n\nThe dollar was universally weak after the data, as you would expect.\n\nhttps://investinglive.com/news/investinglive-americas-market-news-wrap-non-farm-payrolls-turn-negative-dollar-drops/",
@@ -570,31 +604,14 @@
     "source_url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-non-farm-payrolls-turn-negative-dollar-drops/",
     "source_title": "investingLive Americas market news wrap: Non-farm payrolls turn negative, dollar drops",
     "source_summary": "US July non-farm payrolls -23K vs +80K expected Canada July employment change +75.1K vs +15K expected Canada and the US discussing tariff relief deal Fed's Barkin: We are in a zero-to-modest gain jobs environment New York Fed survey: One year inflation expectations dip to 3.6% from 3.7% Baker Hughes US weekly oil rig count: Unchanged at 588 US official says there is progress on Iran-Oman on Strait",
-    "drafted_at": "2026-08-08T12:23:10.116016",
+    "drafted_at": "2026-08-08T22:16:32.820895",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "6f396ba5af06ea37"
   },
   {
-    "id": "12e2be47",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "LABOR MARKET READ: The Labor Department reported Friday that American nonfarm employers cut 23,000 jobs in July, a drop some attribute to employers\u2019 wariness to hire amidst tariffs and the costs of the war in Iran.\n\nAt the same time, the unemployment rate fell slightly, from 4.2 percent to 4.1 percent, a drop economists attributed not to more [\u2026]\n\nhttps://www.motherjones.com/politics/2026/08/the-us-lost-23000-jobs-in-july/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "MOTHER JONES",
-    "source_url": "https://www.motherjones.com/politics/2026/08/the-us-lost-23000-jobs-in-july/",
-    "source_title": "The US Lost 23,000 Jobs in July",
-    "source_summary": "The Labor Department reported Friday that American nonfarm employers cut 23,000 jobs in July, a drop some attribute to employers\u2019 wariness to hire amidst tariffs and the costs of the war in Iran. At the same time, the unemployment rate fell slightly, from 4.2 percent to 4.1 percent, a drop economists attributed not to more [\u2026]",
-    "drafted_at": "2026-08-08T12:23:10.116487",
-    "data": {
-      "source": "MOTHER JONES"
-    },
-    "content_hash": "ca5e1fe5a0451fc9"
-  },
-  {
-    "id": "b2e5c408",
+    "id": "b481ac3c",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -604,7 +621,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-08-08T12:23:10.124927",
+    "drafted_at": "2026-08-08T22:16:32.831310",
     "data": {
       "manual": true,
       "via": "manual_news.md"
