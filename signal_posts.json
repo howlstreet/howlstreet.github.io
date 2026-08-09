@@ -1,32 +1,4 @@
 {
-  "GC=F:move:2026-08-07": {
-    "headline": "Gold jumps 7.5% in 5 sessions to $4,340.70",
-    "matters": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
-    "source": "COMEX \u00b7 GC=F",
-    "chart_path": null,
-    "signal_id": "GC=F:move:2026-08-07",
-    "current_str": "$4,340.70",
-    "label": "Gold futures",
-    "hashtags": "#Gold #PreciousMetals #Commodities",
-    "kind": "move_up",
-    "badge": "+7.5%",
-    "data_url": "https://finance.yahoo.com/quote/GC%3DF",
-    "fired_at": "2026-08-08T22:16:29.519213"
-  },
-  "^VIX:move:2026-08-07": {
-    "headline": "VIX craters 18.2% in 5 sessions to 14.90",
-    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "source": "CBOE \u00b7 ^VIX",
-    "chart_path": null,
-    "signal_id": "^VIX:move:2026-08-07",
-    "current_str": "14.90",
-    "label": "VIX (S&P 500 volatility)",
-    "hashtags": "#VIX #Volatility #Markets",
-    "kind": "move_down",
-    "badge": "-18.2%",
-    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "fired_at": "2026-08-08T22:16:29.519213"
-  },
   "^IXIC:move:2026-08-07": {
     "headline": "Nasdaq jumps 7.3% in 5 sessions to 26,690.62",
     "matters": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
@@ -39,7 +11,7 @@
     "kind": "move_up",
     "badge": "+7.3%",
     "data_url": "https://finance.yahoo.com/quote/%5EIXIC",
-    "fired_at": "2026-08-09T02:56:19.140256"
+    "fired_at": "2026-08-09T22:18:06.891108"
   },
   "^GSPC:high:2026-08-07": {
     "headline": "S&P 500 just hit 7,757.64 \u2014 highest in 9+ years",
@@ -54,5 +26,47 @@
     "badge": "9Y HIGH",
     "data_url": "https://finance.yahoo.com/quote/%5EGSPC",
     "fired_at": "2026-08-09T05:40:13.005134"
+  },
+  "^VIX:move:2026-08-07": {
+    "headline": "VIX craters 18.2% in 5 sessions to 14.90",
+    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "source": "CBOE \u00b7 ^VIX",
+    "chart_path": null,
+    "signal_id": "^VIX:move:2026-08-07",
+    "current_str": "14.90",
+    "label": "VIX (S&P 500 volatility)",
+    "hashtags": "#VIX #Volatility #Markets",
+    "kind": "move_down",
+    "badge": "-18.2%",
+    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "fired_at": "2026-08-09T22:18:06.891108"
+  },
+  "GC=F:move:2026-08-09": {
+    "headline": "Gold jumps 7.3% in 5 sessions to $4,399.70",
+    "matters": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
+    "source": "COMEX \u00b7 GC=F",
+    "chart_path": null,
+    "signal_id": "GC=F:move:2026-08-09",
+    "current_str": "$4,399.70",
+    "label": "Gold futures",
+    "hashtags": "#Gold #PreciousMetals #Commodities",
+    "kind": "move_up",
+    "badge": "+7.3%",
+    "data_url": "https://finance.yahoo.com/quote/GC%3DF",
+    "fired_at": "2026-08-09T22:18:06.891108"
+  },
+  "CL=F:move:2026-08-09": {
+    "headline": "WTI crude drops 6.5% in 5 sessions to $78.18",
+    "matters": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "source": "NYMEX \u00b7 CL=F",
+    "chart_path": null,
+    "signal_id": "CL=F:move:2026-08-09",
+    "current_str": "$78.18",
+    "label": "WTI crude oil futures",
+    "hashtags": "#Oil #WTI #Energy #Commodities",
+    "kind": "move_down",
+    "badge": "-6.5%",
+    "data_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "fired_at": "2026-08-09T22:18:06.891108"
   }
 }
