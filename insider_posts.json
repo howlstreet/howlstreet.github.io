@@ -1,21 +1,4 @@
 {
-  "TSM_P_2026-08-03": {
-    "ticker": "TSM",
-    "company": "Taiwan Semiconductor Manufacturing Co Ltd",
-    "industry": "Semiconductors & Related Devices",
-    "num_insiders": 3,
-    "type": "P",
-    "price": 73.83,
-    "qty": 17025,
-    "dollar_value": 1256970.0,
-    "trade_date": "2026-08-03",
-    "category": "CLUSTER_BUY",
-    "link": "http://openinsider.com/screener?s=TSM",
-    "post_id": "TSM_P_2026-08-03",
-    "chart_path": "charts/insider/TSM_P_20260803.png",
-    "pct_since": 468.92863137602853,
-    "fired_at": "2026-08-08T22:16:27.348389"
-  },
   "ATTO_P_2026-08-06": {
     "ticker": "ATTO",
     "company": "Attovia Therapeutics, Inc.",
@@ -321,5 +304,39 @@
     "chart_path": "charts/insider/FBIN_P_20260806.png",
     "pct_since": -6.452238443534504,
     "fired_at": "2026-08-10T21:43:34.651909"
+  },
+  "MRP_P_2026-08-07": {
+    "ticker": "MRP",
+    "company": "Millrose Properties, Inc.",
+    "industry": "Real Estate",
+    "num_insiders": 5,
+    "type": "P",
+    "price": 27.32,
+    "qty": 246372,
+    "dollar_value": 6732063.0,
+    "trade_date": "2026-08-07",
+    "category": "CLUSTER_BUY",
+    "link": "http://openinsider.com/screener?s=MRP",
+    "post_id": "MRP_P_2026-08-07",
+    "chart_path": "charts/insider/MRP_P_20260807.png",
+    "pct_since": 5.417273927747242,
+    "fired_at": "2026-08-10T22:25:16.020211"
+  },
+  "TSM_P_2026-08-03": {
+    "ticker": "TSM",
+    "company": "Taiwan Semiconductor Manufacturing Co Ltd",
+    "industry": "Semiconductors & Related Devices",
+    "num_insiders": 3,
+    "type": "P",
+    "price": 73.83,
+    "qty": 17025,
+    "dollar_value": 1256970.0,
+    "trade_date": "2026-08-03",
+    "category": "CLUSTER_BUY",
+    "link": "http://openinsider.com/screener?s=TSM",
+    "post_id": "TSM_P_2026-08-03",
+    "chart_path": "charts/insider/TSM_P_20260803.png",
+    "pct_since": 466.8021146156077,
+    "fired_at": "2026-08-10T22:25:16.020211"
   }
 }
