@@ -96,5 +96,47 @@
     "badge": "-7.3%",
     "data_url": "https://finance.yahoo.com/quote/CL%3DF",
     "fired_at": "2026-08-10T05:14:40.962851"
+  },
+  "^VIX:move:2026-08-10": {
+    "headline": "VIX drops 5.0% in 5 sessions to 15.19",
+    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "source": "CBOE \u00b7 ^VIX",
+    "chart_path": null,
+    "signal_id": "^VIX:move:2026-08-10",
+    "current_str": "15.19",
+    "label": "VIX (S&P 500 volatility)",
+    "hashtags": "#VIX #Volatility #Markets",
+    "kind": "move_down",
+    "badge": "-5.0%",
+    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "fired_at": "2026-08-10T14:21:03.472681"
+  },
+  "^GSPC:high:2026-08-10": {
+    "headline": "S&P 500 just hit 7,767.24 \u2014 highest in 9+ years",
+    "matters": "The benchmark of U.S. equities. Watched globally as the proxy for risk-on / risk-off.",
+    "source": "Yahoo Finance \u00b7 ^GSPC",
+    "chart_path": null,
+    "signal_id": "^GSPC:high:2026-08-10",
+    "current_str": "7,767.24",
+    "label": "S&P 500",
+    "hashtags": "#SPX #SP500 #Stocks #Markets",
+    "kind": "high",
+    "badge": "9Y HIGH",
+    "data_url": "https://finance.yahoo.com/quote/%5EGSPC",
+    "fired_at": "2026-08-10T14:21:03.472681"
+  },
+  "^IXIC:move:2026-08-10": {
+    "headline": "Nasdaq climbs 5.3% in 5 sessions to 26,712.19",
+    "matters": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
+    "source": "Yahoo Finance \u00b7 ^IXIC",
+    "chart_path": null,
+    "signal_id": "^IXIC:move:2026-08-10",
+    "current_str": "26,712.19",
+    "label": "Nasdaq Composite",
+    "hashtags": "#Nasdaq #Tech #Stocks",
+    "kind": "move_up",
+    "badge": "+5.3%",
+    "data_url": "https://finance.yahoo.com/quote/%5EIXIC",
+    "fired_at": "2026-08-10T14:21:03.472681"
   }
 }

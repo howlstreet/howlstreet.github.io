@@ -1,23 +1,80 @@
 [
   {
-    "id": "6a29ead4",
+    "id": "06f69b7c",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "The most-traded wheat contract on the Chicago board of trade rose 1.5% to $6.49 a bushel.\n\nOn Euronext, the front-month wheat contract rose 0.6% to \u20ac224.25 a metric ton.\n\nChicago wheat futures prices are well below the highs of more than $7 a bushel hit last month when disruptions to Black Sea exports began, but are still up nearly 30% so far this year.\n\nhttps://www.theguardian.com/business/live/2026/aug/10/uk-employment-market-shows-rays-of-light-for-jobseekers-with-upturn-in-pay-study-shows-business-live",
+    "draft_text": "Oil prices have climbed more than 2%, with investors nervous about likelihood of the reopening of the strait of Hormuz.\n\nOn stock markets, the FTSE 100 index in London lost 0.5% or 55 points to 10,845 and other European indices are either flat or slightly lower.\n\nOn Wall Street, the Nasdaq slipped 0.3% while the S&P 500 was flat and the Dow Jones 0.1% lower.\n\nhttps://www.theguardian.com/business/live/2026/aug/10/uk-employment-market-shows-rays-of-light-for-jobseekers-with-upturn-in-pay-study-shows-business-live",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "GUARDIAN",
     "source_url": "https://www.theguardian.com/business/live/2026/aug/10/uk-employment-market-shows-rays-of-light-for-jobseekers-with-upturn-in-pay-study-shows-business-live",
     "source_title": "Oil prices rise as Iran tempers optimism around strait of Hormuz reopening",
     "source_summary": "European shares mixed; UK employment market shows \u2018rays of light\u2019 for jobseekers with upturn in pay, study says More retail news: The John Lewis Partnership , Britain\u2019s biggest employee-owned retailer, has said that Peter Ruis , the boss of its department store chain, will step down \u201cto pursue new projects\u201d. It said Ruis, who has been managing director of John Lewis department stores since 2024, w",
-    "drafted_at": "2026-08-10T12:41:46.930260",
+    "drafted_at": "2026-08-10T14:21:06.490918",
     "data": {
       "source": "GUARDIAN"
     },
     "content_hash": "a1ca3d0453b72696"
   },
   {
-    "id": "829c92aa",
+    "id": "66979cc2",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "You feeling that? VIX drops 5.0% in 5 sessions to 15.19.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CBOE \u00b7 ^VIX",
+    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "source_title": "VIX (S&P 500 volatility)",
+    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "drafted_at": "2026-08-10T14:21:06.491198",
+    "data": {
+      "signal_id": "^VIX:move:2026-08-10",
+      "kind": "move_down",
+      "current": "15.19"
+    },
+    "content_hash": "995f4d67e7e875d2"
+  },
+  {
+    "id": "ee26a841",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Heads up, pack. S&P 500 just hit 7,767.24 \u2014 highest in 9+ years.\n\nThe benchmark of U.S. equities.\n\nWatched globally as the proxy for risk-on / risk-off.\n\nMulti-year high. The pack remembers what comes after these.\n\nhttps://finance.yahoo.com/quote/%5EGSPC",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Yahoo Finance \u00b7 ^GSPC",
+    "source_url": "https://finance.yahoo.com/quote/%5EGSPC",
+    "source_title": "S&P 500",
+    "source_summary": "The benchmark of U.S. equities. Watched globally as the proxy for risk-on / risk-off.",
+    "drafted_at": "2026-08-10T14:21:06.491461",
+    "data": {
+      "signal_id": "^GSPC:high:2026-08-10",
+      "kind": "high",
+      "current": "7,767.24"
+    },
+    "content_hash": "3fefe25d3b818aa2"
+  },
+  {
+    "id": "c7f67c4b",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Numbers walked into the room. Nasdaq climbs 5.3% in 5 sessions to 26,712.19.\n\nTech-heavy index.\n\nLeads risk appetite and is most sensitive to rate moves.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EIXIC",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Yahoo Finance \u00b7 ^IXIC",
+    "source_url": "https://finance.yahoo.com/quote/%5EIXIC",
+    "source_title": "Nasdaq Composite",
+    "source_summary": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
+    "drafted_at": "2026-08-10T14:21:06.491668",
+    "data": {
+      "signal_id": "^IXIC:move:2026-08-10",
+      "kind": "move_up",
+      "current": "26,712.19"
+    },
+    "content_hash": "ce08e8b71b40219b"
+  },
+  {
+    "id": "dc105bbc",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Skip the noise. Gold jumps 8.6% in 5 sessions to $4,396.60.\n\nGold tracks real yields and central bank demand.\n\nMulti-year highs flag debasement or geopolitical hedging flows.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/GC%3DF",
@@ -27,7 +84,7 @@
     "source_url": "https://finance.yahoo.com/quote/GC%3DF",
     "source_title": "Gold futures",
     "source_summary": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
-    "drafted_at": "2026-08-10T12:41:46.930548",
+    "drafted_at": "2026-08-10T14:21:06.491886",
     "data": {
       "signal_id": "GC=F:move:2026-08-10",
       "kind": "move_up",
@@ -36,7 +93,7 @@
     "content_hash": "514096a7b4f87c16"
   },
   {
-    "id": "49524398",
+    "id": "f1410dbe",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Here's what the talking heads missed: WTI crude slides 7.3% in 5 sessions to $78.51.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
@@ -46,7 +103,7 @@
     "source_url": "https://finance.yahoo.com/quote/CL%3DF",
     "source_title": "WTI crude oil futures",
     "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-08-10T12:41:46.930764",
+    "drafted_at": "2026-08-10T14:21:06.492111",
     "data": {
       "signal_id": "CL=F:move:2026-08-10",
       "kind": "move_down",
@@ -55,98 +112,7 @@
     "content_hash": "c272de0720a2f459"
   },
   {
-    "id": "644d232f",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "Don't sleep on this. S&P 500 just hit 7,757.64 \u2014 highest in 9+ years.\n\nThe benchmark of U.S. equities.\n\nWatched globally as the proxy for risk-on / risk-off.\n\nMulti-year high. The pack remembers what comes after these.\n\nhttps://finance.yahoo.com/quote/%5EGSPC",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Yahoo Finance \u00b7 ^GSPC",
-    "source_url": "https://finance.yahoo.com/quote/%5EGSPC",
-    "source_title": "S&P 500",
-    "source_summary": "The benchmark of U.S. equities. Watched globally as the proxy for risk-on / risk-off.",
-    "drafted_at": "2026-08-10T12:41:46.930980",
-    "data": {
-      "signal_id": "^GSPC:high:2026-08-07",
-      "kind": "high",
-      "current": "7,757.64"
-    },
-    "content_hash": "3fefe25d3b818aa2"
-  },
-  {
-    "id": "723bee35",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "Boring? Maybe. Actionable? Definitely. Nasdaq jumps 7.3% in 5 sessions to 26,690.62.\n\nTech-heavy index.\n\nLeads risk appetite and is most sensitive to rate moves.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EIXIC",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Yahoo Finance \u00b7 ^IXIC",
-    "source_url": "https://finance.yahoo.com/quote/%5EIXIC",
-    "source_title": "Nasdaq Composite",
-    "source_summary": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
-    "drafted_at": "2026-08-10T12:41:46.931183",
-    "data": {
-      "signal_id": "^IXIC:move:2026-08-07",
-      "kind": "move_up",
-      "current": "26,690.62"
-    },
-    "content_hash": "ce08e8b71b40219b"
-  },
-  {
-    "id": "c1783459",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "If you're not watching this, you're behind. VIX craters 18.2% in 5 sessions to 14.90.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CBOE \u00b7 ^VIX",
-    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "source_title": "VIX (S&P 500 volatility)",
-    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-08-10T12:41:46.931385",
-    "data": {
-      "signal_id": "^VIX:move:2026-08-07",
-      "kind": "move_down",
-      "current": "14.90"
-    },
-    "content_hash": "995f4d67e7e875d2"
-  },
-  {
-    "id": "25c1d517",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "BOJ DESK: BNY\u2019s Wee Khoon Chong highlights that long-end JGB yields are rising on inflation and fiscal concerns, with markets pricing a roughly 50% chance of a 25bp BoJ hike in September and a full hike by year-end.\n\nhttps://www.fxstreet.com/news/japanese-yen-boj-tightening-risks-support-jpy-bny-202608101230",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "BoJ",
-    "source_url": "https://www.fxstreet.com/news/japanese-yen-boj-tightening-risks-support-jpy-bny-202608101230",
-    "source_title": "Japanese Yen: BoJ tightening risks support JPY \u2013 BNY",
-    "source_summary": "BNY\u2019s Wee Khoon Chong highlights that long-end JGB yields are rising on inflation and fiscal concerns, with markets pricing a roughly 50% chance of a 25bp BoJ hike in September and a full hike by year-end.",
-    "drafted_at": "2026-08-10T12:41:46.942041",
-    "data": {
-      "actor": "BoJ"
-    },
-    "content_hash": "456b720d3d2959fc"
-  },
-  {
-    "id": "7c1998bc",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "FED WATCH: The new Fed Chair is trying to reset the way the Fed communicates with Wall Street.\n\nhttps://www.fool.com/investing/2026/08/10/new-fed-chair-kevin-warsh-sparked-a-credibility-sh/?source=iedfolrf0000001",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://www.fool.com/investing/2026/08/10/new-fed-chair-kevin-warsh-sparked-a-credibility-sh/?source=iedfolrf0000001",
-    "source_title": "New Fed Chair Kevin Warsh Sparked a \"Credibility Shock\" on Wall Street After His Latest Rate Decision. Here's Why Investors Should Care.",
-    "source_summary": "The new Fed Chair is trying to reset the way the Fed communicates with Wall Street.",
-    "drafted_at": "2026-08-10T12:41:46.942250",
-    "data": {
-      "actor": "Fed"
-    },
-    "content_hash": "86a9a12ce87dedca"
-  },
-  {
-    "id": "8eae1c6f",
+    "id": "dd406401",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "POWELL POSTCARD: Bitcoin spiked to a new August high into Sunday\u2019s weekly close as market participants turned their attention to the next US inflation reports.\n\nhttps://cointelegraph.com/markets/markets-drop-september-rate-hike-bet-into-cpi-five-things-to-know-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -156,14 +122,14 @@
     "source_url": "https://cointelegraph.com/markets/markets-drop-september-rate-hike-bet-into-cpi-five-things-to-know-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "source_title": "Markets flip for Fed rate-hike pause into CPI: Five things to know in Bitcoin this week",
     "source_summary": "Bitcoin spiked to a new August high into Sunday\u2019s weekly close as market participants turned their attention to the next US inflation reports.",
-    "drafted_at": "2026-08-10T12:41:46.942471",
+    "drafted_at": "2026-08-10T14:21:06.504432",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "d1c8f743972a87a1"
   },
   {
-    "id": "c2666d28",
+    "id": "bd033932",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Powell on the wire. It addresses unnecessary applications of the rule to passive interests in companies held by investment funds, codifies other statutory requirements, incorporates long-standing regulatory interpretations, and simplifies the application of the rule.\n\nRegulation O has not been comprehensively updated since 1979.\n\nThe rule addresses a unique challenge for community banks, where board members and executives are often local business owners and civic leaders who provide valuable perspective and expertise to bank governance and information on the local economy.\n\nThe proposal updates dollar-based thresholds and indexes them to economic growth going forward.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731b.htm",
@@ -173,14 +139,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731b.htm",
     "source_title": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"\u2014bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
     "source_summary": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"\u2014bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
-    "drafted_at": "2026-08-10T12:41:46.943561",
+    "drafted_at": "2026-08-10T14:21:06.505636",
     "data": {
       "actor": "FED"
     },
     "content_hash": "4057886fa20ad5ad"
   },
   {
-    "id": "773eaba7",
+    "id": "6283cd42",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FOMC update. The Board assumed regulatory and supervisory authority over mutual banks from the Office of Thrift Supervision in 2011.\n\nThe rules governing these banks were first established in 1993.\n\nThey have not been updated and have proven over time to be overly burdensome and complex.\n\n\"Today's proposal is another important step in our work to modernize the bank regulatory framework by updating mutual bank regulations for the first time in 30 years.\n\nThe continued success of this model contributes to the institutional diversity of the U.S. banking system, which is one of the greatest strengths of our financial system,\" said Vice Chair for Supervision Michelle W.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731a.htm",
@@ -190,14 +156,31 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731a.htm",
     "source_title": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
     "source_summary": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
-    "drafted_at": "2026-08-10T12:41:46.944486",
+    "drafted_at": "2026-08-10T14:21:06.506683",
     "data": {
       "actor": "FED"
     },
     "content_hash": "1672ee5ef82f19a2"
   },
   {
-    "id": "255d1a17",
+    "id": "09b75f82",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "POWELL POSTCARD: Consent prohibition order against Ralph A.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730a.htm",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730a.htm",
+    "source_title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank",
+    "source_summary": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank",
+    "drafted_at": "2026-08-10T14:21:06.506862",
+    "data": {
+      "actor": "FED"
+    },
+    "content_hash": "23feb4de7d35586a"
+  },
+  {
+    "id": "f06d4974",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$BWFG \u2014 a company insider bought $666,254 on Aug 07.\n\nBankwell Financial Group, Inc. 10,000 shares at $66.63.\n\nStock is +0.4% since the purchase. This is a public SEC Form 4 filing.",
@@ -207,7 +190,7 @@
     "source_url": "http://openinsider.com/screener?s=BWFG",
     "source_title": "Bankwell Financial Group, Inc. (BWFG) insider bought $666,254",
     "source_summary": "1 insider(s) bought 10,000 shares at $66.63 on 2026-08-07.",
-    "drafted_at": "2026-08-10T12:41:46.944975",
+    "drafted_at": "2026-08-10T14:21:06.507189",
     "data": {
       "ticker": "BWFG",
       "type": "P",
@@ -217,7 +200,7 @@
     "content_hash": "42000532dcbf3097"
   },
   {
-    "id": "26190b50",
+    "id": "7300112a",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$COE \u2014 a company insider bought $13.8M on Jul 31.\n\n51Talk Online Education Group. 740,760 shares at $18.58.\n\nStock is +5.0% since the purchase. This is a public SEC Form 4 filing.",
@@ -227,7 +210,7 @@
     "source_url": "http://openinsider.com/screener?s=COE",
     "source_title": "51Talk Online Education Group (COE) insider bought $13.8M",
     "source_summary": "1 insider(s) bought 740,760 shares at $18.58 on 2026-07-31.",
-    "drafted_at": "2026-08-10T12:41:46.945179",
+    "drafted_at": "2026-08-10T14:21:06.507402",
     "data": {
       "ticker": "COE",
       "type": "P",
@@ -237,7 +220,7 @@
     "content_hash": "da1f552394b22b67"
   },
   {
-    "id": "0b513fc9",
+    "id": "47d23a82",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$ACI \u2014 3 company insiders bought $2.5M on Jul 31.\n\nAlbertsons Companies, Inc. 218,909 shares at $11.49.\n\nStock is +4.5% since the purchase. This is a public SEC Form 4 filing.",
@@ -247,7 +230,7 @@
     "source_url": "http://openinsider.com/screener?s=ACI",
     "source_title": "Albertsons Companies, Inc. (ACI) insider bought $2.5M",
     "source_summary": "3 insider(s) bought 218,909 shares at $11.49 on 2026-07-31.",
-    "drafted_at": "2026-08-10T12:41:46.945351",
+    "drafted_at": "2026-08-10T14:21:06.507589",
     "data": {
       "ticker": "ACI",
       "type": "P",
@@ -257,7 +240,7 @@
     "content_hash": "b7266a8b42e28ff4"
   },
   {
-    "id": "9a8ad091",
+    "id": "b1def77f",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$CCB \u2014 2 company insiders bought $1.1M on Aug 06.\n\nCoastal Financial Corp. 25,000 shares at $44.11.\n\nStock is +2.8% since the purchase. This is a public SEC Form 4 filing.",
@@ -267,7 +250,7 @@
     "source_url": "http://openinsider.com/screener?s=CCB",
     "source_title": "Coastal Financial Corp (CCB) insider bought $1.1M",
     "source_summary": "2 insider(s) bought 25,000 shares at $44.11 on 2026-08-06.",
-    "drafted_at": "2026-08-10T12:41:46.945512",
+    "drafted_at": "2026-08-10T14:21:06.507761",
     "data": {
       "ticker": "CCB",
       "type": "P",
@@ -277,7 +260,7 @@
     "content_hash": "e5ba0cfd2f0965c1"
   },
   {
-    "id": "e0d94b4f",
+    "id": "670a7e19",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$CCB \u2014 a company insider bought $658,250 on Aug 05.\n\nCoastal Financial Corp. 15,000 shares at $43.88.\n\nStock is +3.3% since the purchase. This is a public SEC Form 4 filing.",
@@ -287,7 +270,7 @@
     "source_url": "http://openinsider.com/screener?s=CCB",
     "source_title": "Coastal Financial Corp (CCB) insider bought $658,250",
     "source_summary": "1 insider(s) bought 15,000 shares at $43.88 on 2026-08-05.",
-    "drafted_at": "2026-08-10T12:41:46.945671",
+    "drafted_at": "2026-08-10T14:21:06.507931",
     "data": {
       "ticker": "CCB",
       "type": "P",
@@ -297,41 +280,24 @@
     "content_hash": "12a0a3930f190d32"
   },
   {
-    "id": "bf5dc21d",
+    "id": "621eec9f",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "10, 2026 /PRNewswire/ -- Hagens Berman alerts investors in ADMA Biologics, Inc. (NASDAQ: ADMA) that a securities fraud class action lawsuit has been filed.\n\nThe lawsuit focuses on alleged misrepresentations concerning the company's financial condition, revenue...\n\nhttps://www.prnewswire.com/news-releases/adma-biologics-inc-notice-of-august-10-2026-application-deadline-for-class-action-lawsuit---contact-reed-kathrein-at-hagens-berman-sobol-shapiro-llp-by-application-deadline-302846842.html",
+    "draft_text": "10, 2026 (GLOBE NEWSWIRE) \u2014 Kaplan Fox & Kilsheimer LLP announces that a class action lawsuit has been filed against Embecta Corp. (\u201cEmbecta\u201d or the \u201cCompany\u201d) (NASDAQ: EMBC) on behalf of investors that purchased or otherwise acquired Embecta securities between November 25, 2025 and May 4, 2026 (the \u201cClass Period\u201d).\n\nhttps://financialpost.com/globe-newswire/kaplan-fox-kilsheimer-llp-alerts-embecta-corp-nasdaq-embc-investors-to-a-securities-class-action-deadline-on-august-17-2026",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "PR NEWSWIRE",
-    "source_url": "https://www.prnewswire.com/news-releases/adma-biologics-inc-notice-of-august-10-2026-application-deadline-for-class-action-lawsuit---contact-reed-kathrein-at-hagens-berman-sobol-shapiro-llp-by-application-deadline-302846842.html",
-    "source_title": "ADMA Biologics, Inc. Notice of August 10, 2026 Application Deadline for Class Action Lawsuit - Contact Reed Kathrein at Hagens Berman Sobol Shapiro LLP By Application Deadline",
-    "source_summary": "SAN FRANCISCO, Aug. 10, 2026 /PRNewswire/ -- Hagens Berman alerts investors in ADMA Biologics, Inc. (NASDAQ: ADMA) that a securities fraud class action lawsuit has been filed. The lawsuit focuses on alleged misrepresentations concerning the company's financial condition, revenue...",
-    "drafted_at": "2026-08-10T12:41:46.947425",
+    "primary_source": "FINANCIAL POST",
+    "source_url": "https://financialpost.com/globe-newswire/kaplan-fox-kilsheimer-llp-alerts-embecta-corp-nasdaq-embc-investors-to-a-securities-class-action-deadline-on-august-17-2026",
+    "source_title": "Kaplan Fox & Kilsheimer LLP Alerts Embecta Corp. (NASDAQ: EMBC) Investors to a Securities Class Action Deadline on August 17, 2026",
+    "source_summary": "NEW YORK, Aug. 10, 2026 (GLOBE NEWSWIRE) \u2014 Kaplan Fox & Kilsheimer LLP announces that a class action lawsuit has been filed against Embecta Corp. (\u201cEmbecta\u201d or the \u201cCompany\u201d) (NASDAQ: EMBC) on behalf of investors that purchased or otherwise acquired Embecta securities between November 25, 2025 and May 4, 2026 (the \u201cClass Period\u201d). CLICK HERE [\u2026]",
+    "drafted_at": "2026-08-10T14:21:06.509852",
     "data": {
-      "source": "PR NEWSWIRE"
+      "source": "FINANCIAL POST"
     },
-    "content_hash": "2780cbe8c6d6974c"
+    "content_hash": "06cd87341a025233"
   },
   {
-    "id": "9088228c",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "10, 2026 /PRNewswire/ -- Hagens Berman, a national shareholder rights firm, is actively investigating claims in a class action alleging securities law violations at Erasca, Inc. (NASDAQ: ERAS).\n\nThe litigation alleges Erasca and its senior executives misled investors by...\n\nhttps://www.prnewswire.com/news-releases/erasca-inc-notice-of-august-10-2026-application-deadline-for-class-action-lawsuit---contact-reed-kathrein-at-hagens-berman-sobol-shapiro-llp-by-application-deadline-302846829.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "PR NEWSWIRE",
-    "source_url": "https://www.prnewswire.com/news-releases/erasca-inc-notice-of-august-10-2026-application-deadline-for-class-action-lawsuit---contact-reed-kathrein-at-hagens-berman-sobol-shapiro-llp-by-application-deadline-302846829.html",
-    "source_title": "Erasca, Inc. Notice of August 10, 2026 Application Deadline for Class Action Lawsuit - Contact Reed Kathrein at Hagens Berman Sobol Shapiro LLP By Application Deadline",
-    "source_summary": "SAN FRANCISCO, Aug. 10, 2026 /PRNewswire/ -- Hagens Berman, a national shareholder rights firm, is actively investigating claims in a class action alleging securities law violations at Erasca, Inc. (NASDAQ: ERAS). The litigation alleges Erasca and its senior executives misled investors by...",
-    "drafted_at": "2026-08-10T12:41:46.947701",
-    "data": {
-      "source": "PR NEWSWIRE"
-    },
-    "content_hash": "8db45b569226af38"
-  },
-  {
-    "id": "fcae80fd",
+    "id": "7007c1fc",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The Australian Transaction Reports and Analysis Centre (AUSTRAC) has suspended crypto ATM operator Cryptolink\u2019s registration for 3 months, forcing its 96 cryptocurrency ATMs across Australia offline.\n\nThe regulator cited ongoing concerns over the company\u2019s anti-money laundering and counter-terrorism financing compliance.\n\nReporting Failures Trigger AUSTRAC\u2019s Action Against Cryptolink The suspension began Sunday, August 9, according to The post Australia Pulls 96 Crypto ATMs Offline Over AML Reporting Failures appeared first on BeInCrypto.\n\nhttps://beincrypto.com/austrac-suspends-cryptolink-crypto-atms/",
@@ -341,48 +307,65 @@
     "source_url": "https://beincrypto.com/austrac-suspends-cryptolink-crypto-atms/",
     "source_title": "Australia Pulls 96 Crypto ATMs Offline Over AML Reporting Failures",
     "source_summary": "The Australian Transaction Reports and Analysis Centre (AUSTRAC) has suspended crypto ATM operator Cryptolink\u2019s registration for 3 months, forcing its 96 cryptocurrency ATMs across Australia offline. The regulator cited ongoing concerns over the company\u2019s anti-money laundering and counter-terrorism financing compliance. Reporting Failures Trigger AUSTRAC\u2019s Action Against Cryptolink The suspension ",
-    "drafted_at": "2026-08-10T12:41:46.948254",
+    "drafted_at": "2026-08-10T14:21:06.510469",
     "data": {
       "source": "BEINCRYPTO"
     },
     "content_hash": "3815952f6736c739"
   },
   {
-    "id": "ecab2f24",
+    "id": "76c83e20",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "The businessman, Guren \"Bobby\" Zhou, has not been charged, though British officials told the Times that the investigation remained active as of late July.\n\nhttps://www.theblock.co/news/regulation/2026-08-09-world-liberty-received-100-million-from-businessman-investigated-for-money-laundering-nyt-411221?utm_source=rss&utm_medium=rss",
+    "draft_text": "Trump is once again threatening to fire Cook over unproven allegations of mortgage fraud after an earlier effort to remove Cook was struck down by the Supreme Court.\n\nhttps://www.npr.org/2026/08/07/nx-s1-5925167/trump-lisa-cook-federal-reserve",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "THE BLOCK",
-    "source_url": "https://www.theblock.co/news/regulation/2026-08-09-world-liberty-received-100-million-from-businessman-investigated-for-money-laundering-nyt-411221?utm_source=rss&utm_medium=rss",
-    "source_title": "World Liberty received $100 million from businessman investigated for money laundering: NYT",
-    "source_summary": "The businessman, Guren \"Bobby\" Zhou, has not been charged, though British officials told the Times that the investigation remained active as of late July.",
-    "drafted_at": "2026-08-10T12:41:46.948426",
+    "primary_source": "NPR",
+    "source_url": "https://www.npr.org/2026/08/07/nx-s1-5925167/trump-lisa-cook-federal-reserve",
+    "source_title": "Trump renews push to fire Fed Governor Lisa Cook",
+    "source_summary": "Trump is once again threatening to fire Cook over unproven allegations of mortgage fraud after an earlier effort to remove Cook was struck down by the Supreme Court.",
+    "drafted_at": "2026-08-10T14:21:06.510664",
     "data": {
-      "source": "THE BLOCK"
+      "source": "NPR"
     },
-    "content_hash": "7c468f16c5511e18"
+    "content_hash": "a365facd7fbeea25"
   },
   {
-    "id": "9b5afc1e",
+    "id": "7eef0d04",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "1, 2027, and will cover cryptocurrencies including fiat-backed stablecoins.\n\nhttps://www.theblock.co/news/regulation/2026-08-09-brazil-to-tighten-crypto-fraud-controls-with-new-24-hour-wait-on-transfers-to-self-custody-wallets-411219?utm_source=rss&utm_medium=rss",
+    "draft_text": "Researchers warn betting on clinical trials could incentivize insider trading and interfere with drug development.\n\nBut Kalshi and Polymarket say they provide valuable information to patients.\n\nhttps://www.npr.org/2026/08/07/nx-s1-5922530/patients-betting-kalshi-polymarket-clinical-trials",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "THE BLOCK",
-    "source_url": "https://www.theblock.co/news/regulation/2026-08-09-brazil-to-tighten-crypto-fraud-controls-with-new-24-hour-wait-on-transfers-to-self-custody-wallets-411219?utm_source=rss&utm_medium=rss",
-    "source_title": "Brazil to tighten crypto fraud controls with new 24-hour wait on transfers to self-custody wallets",
-    "source_summary": "The new rule will take effect on Jan. 1, 2027, and will cover cryptocurrencies including fiat-backed stablecoins.",
-    "drafted_at": "2026-08-10T12:41:46.948533",
+    "primary_source": "NPR",
+    "source_url": "https://www.npr.org/2026/08/07/nx-s1-5922530/patients-betting-kalshi-polymarket-clinical-trials",
+    "source_title": "Kalshi and Polymarket bets on clinical trials criticized as 'ghastly'",
+    "source_summary": "Researchers warn betting on clinical trials could incentivize insider trading and interfere with drug development. But Kalshi and Polymarket say they provide valuable information to patients.",
+    "drafted_at": "2026-08-10T14:21:06.510862",
     "data": {
-      "source": "THE BLOCK"
+      "source": "NPR"
     },
-    "content_hash": "a86f0df6e9e0bf16"
+    "content_hash": "b814657e345e56c0"
   },
   {
-    "id": "c1e14c55",
+    "id": "9982a656",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Its USDT crypto token underpins a trillion-dollar market, but cryptocurrency giant Tether won\u2019t answer questions about its ownership.\n\nhttps://www.icij.org/investigations/coin-laundry/the-200-billion-company-you-cant-look-inside/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "ICIJ",
+    "source_url": "https://www.icij.org/investigations/coin-laundry/the-200-billion-company-you-cant-look-inside/",
+    "source_title": "The $200 billion company you can\u2019t look inside",
+    "source_summary": "Its USDT crypto token underpins a trillion-dollar market, but cryptocurrency giant Tether won\u2019t answer questions about its ownership.",
+    "drafted_at": "2026-08-10T14:21:06.511044",
+    "data": {
+      "source": "ICIJ"
+    },
+    "content_hash": "73b772a66fc7444b"
+  },
+  {
+    "id": "065af381",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "6 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 David J. Taylor (R)\n\u2022 John Boozman (R)\n\u2022 Cleo Fields (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 John Fetterman (D)\n\u2022 John McGuire (R)\n\nLargest disclosed here: David J. Taylor, $1,001 - $15,000 on Feb 26.\n\nPrice since the first buy in this group: +24.5%.\n\nSTOCK Act disclosures. Public record.",
@@ -392,7 +375,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034138.pdf",
     "source_title": "6 Congress members bought $MSFT",
     "source_summary": "6 politicians bought $MSFT; largest $1,001 - $15,000 by David J. Taylor.",
-    "drafted_at": "2026-08-10T12:41:46.950359",
+    "drafted_at": "2026-08-10T14:21:06.512454",
     "data": {
       "ticker": "MSFT",
       "member_count": 6,
@@ -401,7 +384,7 @@
     "content_hash": "7c24415ac3c0b542"
   },
   {
-    "id": "ee453d69",
+    "id": "3b1ac955",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "5 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Markwayne Mullin (D)\n\u2022 Josh Gottheimer (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Markwayne Mullin, $50,001 - $100,000 on Feb 25.\n\nPrice since the first buy in this group: +51.6%.\n\nSTOCK Act disclosures. Public record.",
@@ -411,7 +394,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/f586922d-6083-44e5-8a32-769290389416/",
     "source_title": "5 Congress members bought $UNH",
     "source_summary": "5 politicians bought $UNH; largest $50,001 - $100,000 by Markwayne Mullin.",
-    "drafted_at": "2026-08-10T12:41:46.950653",
+    "drafted_at": "2026-08-10T14:21:06.512779",
     "data": {
       "ticker": "UNH",
       "member_count": 5,
@@ -420,7 +403,7 @@
     "content_hash": "7cbacf41d412a41b"
   },
   {
-    "id": "7600d7e3",
+    "id": "99f1976f",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 Cleo Fields (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 John Fetterman (D)\n\u2022 John McGuire (R)\n\nLargest disclosed here: Cleo Fields, $1,001 - $15,000 on Mar 12.\n\nPrice since the first buy in this group: +25.1%.\n\nSTOCK Act disclosures. Public record.",
@@ -430,7 +413,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034179.pdf",
     "source_title": "4 Congress members bought $MSFT",
     "source_summary": "4 politicians bought $MSFT; largest $1,001 - $15,000 by Cleo Fields.",
-    "drafted_at": "2026-08-10T12:41:46.950911",
+    "drafted_at": "2026-08-10T14:21:06.513058",
     "data": {
       "ticker": "MSFT",
       "member_count": 4,
@@ -439,7 +422,7 @@
     "content_hash": "4ff8eafa69ce40c2"
   },
   {
-    "id": "9e53d5f7",
+    "id": "d17f9374",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $HD this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Lloyd Doggett (D)\n\u2022 Jared Moskowitz (D)\n\nLargest disclosed here: Richard Dean Dr McCormick, $1,001 - $15,000 on Mar 19.\n\nPrice since the first buy in this group: +8.4%.\n\nSTOCK Act disclosures. Public record.",
@@ -449,7 +432,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033648.pdf",
     "source_title": "3 Congress members bought $HD",
     "source_summary": "3 politicians bought $HD; largest $1,001 - $15,000 by Richard Dean Dr McCormick.",
-    "drafted_at": "2026-08-10T12:41:46.951172",
+    "drafted_at": "2026-08-10T14:21:06.513328",
     "data": {
       "ticker": "HD",
       "member_count": 3,
@@ -458,7 +441,7 @@
     "content_hash": "8c0eaad1e4da4036"
   },
   {
-    "id": "378567cc",
+    "id": "73071022",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $TSM this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard W. Allen (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Cleo Fields (D)\n\nLargest disclosed here: Richard W. Allen, $1,001 - $15,000 on Feb 19.\n\nPrice since the first buy in this group: +16.6%.\n\nSTOCK Act disclosures. Public record.",
@@ -468,7 +451,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034133.pdf",
     "source_title": "3 Congress members bought $TSM",
     "source_summary": "3 politicians bought $TSM; largest $1,001 - $15,000 by Richard W. Allen.",
-    "drafted_at": "2026-08-10T12:41:46.951416",
+    "drafted_at": "2026-08-10T14:21:06.513603",
     "data": {
       "ticker": "TSM",
       "member_count": 3,
@@ -477,92 +460,143 @@
     "content_hash": "5d9078569296551f"
   },
   {
-    "id": "1be0641e",
+    "id": "edc2333e",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: President Donald Trump announced on July 30 that his Board of Peace had \"reached a HISTORIC agreement\" in Gaza that would bring an end to a conflict that has claimed well over 70,000 lives.\n\nWhile the president characterized his proposed resolution as a major win for the Palestinian people and for Israel alike, Israeli Prime Minister Benjamin Netanyahu is evidently of a different mind.\n\n'President Trump will be very, very disappointed.' Netanyahu \u2014 whom Trump has rebuked repeatedly in recent months for undermining his initiatives in the region \u2014 rejected the Board of Peace's 15-point peace plan on Sunday, telling his cabinet that some of its terms are unacceptable.\n\nPeace proposal The peace plan released by Trump's Board of Peace, which would be undertaken in stages, requires, among other things, that: Israel, Hamas, and \"other Palestinian factions\" suspend military operations in Gaza; Hamas and other factions in Gaza agree not only that all civilian governance and security functions in Gaza will be taken over by the National Committee for the Administration of Gaza, but that the committee can carry out its responsibilities independently; the NCAG will oversee the disarmament process; Gaza will be \"governed according to the principle of One Authority, One Law, One Weapon\"; Israeli forces \u2014 who presently occupy more than half of Gaza \u2014 will execute a phased withdrawal from Gaza; and the International Stabilization Force will separate Israeli forces from NCAG-controlled areas during the withdrawal.\n\n\"This agreement is a critical step towards Gaza finally being governed by a new Palestinian government that will work closely with the Board of Peace to help the Palestinian people,\" Trump said in a statement.\n\n\"At the same time, Israel will have the security it deserves, with Gaza no longer used as a base for terror attacks.\" RELATED: It\u2019s the economy, stupid \u2014 again Khan Yunis in the southern Gazan Strip on July 31, 2026.\n\n\"The threat that emerged from Gaza on October 7 will NOT be allowed to rebuild!\" continued the president.\n\n\"Under this agreement, Gaza will finally be in the hands of a new Palestinian government that serves its PEOPLE.\" After announcing the deal, which Hamas accepted through Egyptian mediators, Trump told reporters that \"Israel is very happy.\" While the Israeli security cabinet initially approved of having the International Stabilization Force enter Gaza to aid in the disarmament of Hamas and the transition, top officials called on Netanyahu to reject the plan, reported the Times of Israel.\n\nhttps://www.theblaze.com/news/netanyahu-rejects-trumps-gaza-peace-plan-they-have-ideas",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "THE BLAZE",
-    "source_url": "https://www.theblaze.com/news/netanyahu-rejects-trumps-gaza-peace-plan-they-have-ideas",
-    "source_title": "Netanyahu REJECTS Trump's Gaza peace plan: 'They have ideas'",
-    "source_summary": "President Donald Trump announced on July 30 that his Board of Peace had \"reached a HISTORIC agreement\" in Gaza that would bring an end to a conflict that has claimed well over 70,000 lives. While the president characterized his proposed resolution as a major win for the Palestinian people and for Israel alike, Israeli Prime Minister Benjamin Netanyahu is evidently of a different mind. 'President T",
-    "drafted_at": "2026-08-10T12:41:46.956759",
-    "data": {
-      "source": "THE BLAZE"
-    },
-    "content_hash": "fdd24278cd2ed9ab"
-  },
-  {
-    "id": "c5fb6b29",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "GLOBAL DESK: BNY\u2019s Wee Khoon Chong highlights that long-end JGB yields are rising on inflation and fiscal concerns, with markets pricing a roughly 50% chance of a 25bp BoJ hike in September and a full hike by year-end.\n\nhttps://www.fxstreet.com/news/japanese-yen-boj-tightening-risks-support-jpy-bny-202608101230",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/japanese-yen-boj-tightening-risks-support-jpy-bny-202608101230",
-    "source_title": "Japanese Yen: BoJ tightening risks support JPY \u2013 BNY",
-    "source_summary": "BNY\u2019s Wee Khoon Chong highlights that long-end JGB yields are rising on inflation and fiscal concerns, with markets pricing a roughly 50% chance of a 25bp BoJ hike in September and a full hike by year-end.",
-    "drafted_at": "2026-08-10T12:41:46.957320",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "456b720d3d2959fc"
-  },
-  {
-    "id": "803405d8",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "From Beijing: 10, 2026 /PRNewswire/ -- Taoping Inc. (Nasdaq: TAOP) (\"Taoping\" or the \"Company\"), a provider of innovative cloud-based technologies, Smart City IoT platforms, and related products and services, today announced that its wholly owned subsidiary, Skyladder (Tianjin)...\n\nhttps://www.prnewswire.com/news-releases/taoping-launches-new-smart-elevator-insurance-pilot-program-302846778.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "PR NEWSWIRE",
-    "source_url": "https://www.prnewswire.com/news-releases/taoping-launches-new-smart-elevator-insurance-pilot-program-302846778.html",
-    "source_title": "Taoping Launches New Smart Elevator Insurance Pilot Program",
-    "source_summary": "TIANJIN, China, Aug. 10, 2026 /PRNewswire/ -- Taoping Inc. (Nasdaq: TAOP) (\"Taoping\" or the \"Company\"), a provider of innovative cloud-based technologies, Smart City IoT platforms, and related products and services, today announced that its wholly owned subsidiary, Skyladder (Tianjin)...",
-    "drafted_at": "2026-08-10T12:41:46.957773",
-    "data": {
-      "source": "PR NEWSWIRE"
-    },
-    "content_hash": "89c08b4d66d6ad07"
-  },
-  {
-    "id": "4c6b8f9b",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "LATAM DESK: Brazil's premier jet manufacturer reported booming earnings and another record backlog.\n\nEmbraer is set to fly out of a buy zone.\n\nThe post Embraer Flies On Booming Earnings And Backlog, Outpacing Boeing, Airbus appeared first on Investor's Business Daily.\n\nhttps://www.investors.com/news/embraer-earnings-boeing-airbus-aerospace-jet-planes/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "IBD",
-    "source_url": "https://www.investors.com/news/embraer-earnings-boeing-airbus-aerospace-jet-planes/",
-    "source_title": "Embraer Flies On Booming Earnings And Backlog, Outpacing Boeing, Airbus",
-    "source_summary": "Brazil's premier jet manufacturer reported booming earnings and another record backlog. Embraer is set to fly out of a buy zone. The post Embraer Flies On Booming Earnings And Backlog, Outpacing Boeing, Airbus appeared first on Investor's Business Daily .",
-    "drafted_at": "2026-08-10T12:41:46.958212",
-    "data": {
-      "source": "IBD"
-    },
-    "content_hash": "0fa6a1a3889229a6"
-  },
-  {
-    "id": "673431c3",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Levant update: Iran's demands highlight geopolitical tensions, potentially disrupting global oil markets and complicating diplomatic resolutions.\n\nThe post Iran demands end to hostilities before reopening Strait of Hormuz appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iran-demands-end-to-hostilities-before-reopening-strait-of-hormuz/",
+    "draft_text": "CHINA DESK: Deutsche Bank's role as an RMB clearing bank in Europe could accelerate yuan adoption, impacting global currency dynamics and trade flows.\n\nThe post Deutsche Bank appointed as RMB clearing bank for Europe, expanding China\u2019s currency reach appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/deutsche-bank-rmb-clearing-europe/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/iran-demands-end-to-hostilities-before-reopening-strait-of-hormuz/",
-    "source_title": "Iran demands end to hostilities before reopening Strait of Hormuz",
-    "source_summary": "Iran's demands highlight geopolitical tensions, potentially disrupting global oil markets and complicating diplomatic resolutions. The post Iran demands end to hostilities before reopening Strait of Hormuz appeared first on Crypto Briefing .",
-    "drafted_at": "2026-08-10T12:41:46.958492",
+    "source_url": "https://cryptobriefing.com/deutsche-bank-rmb-clearing-europe/",
+    "source_title": "Deutsche Bank appointed as RMB clearing bank for Europe, expanding China\u2019s currency reach",
+    "source_summary": "Deutsche Bank's role as an RMB clearing bank in Europe could accelerate yuan adoption, impacting global currency dynamics and trade flows. The post Deutsche Bank appointed as RMB clearing bank for Europe, expanding China\u2019s currency reach appeared first on Crypto Briefing .",
+    "drafted_at": "2026-08-10T14:21:06.515556",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "c45926fbb48356cb"
+    "content_hash": "0b26edbb55150158"
   },
   {
-    "id": "08b592d2",
+    "id": "163dc6f1",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Gulf wire: Oil prices have climbed more than 2%, with investors nervous about likelihood of the reopening of the strait of Hormuz.\n\nOn stock markets, the FTSE 100 index in London lost 0.5% or 55 points to 10,845 and other European indices are either flat or slightly lower.\n\nOn Wall Street, the Nasdaq slipped 0.3% while the S&P 500 was flat and the Dow Jones 0.1% lower.\n\nIt is a world away from the collection of grand West End property controlled by the duke which forms the backbone of his near \u00a310bn fortune, a decade on from becoming Britain\u2019s youngest billionaire.\n\nThis comes after US stocks hit record highs on Friday after a weaker-than-expected jobs report which led markets to scale back bets on rate hikes.\n\nhttps://www.theguardian.com/business/live/2026/aug/10/uk-employment-market-shows-rays-of-light-for-jobseekers-with-upturn-in-pay-study-shows-business-live",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "GUARDIAN",
+    "source_url": "https://www.theguardian.com/business/live/2026/aug/10/uk-employment-market-shows-rays-of-light-for-jobseekers-with-upturn-in-pay-study-shows-business-live",
+    "source_title": "Oil prices rise as Iran tempers optimism around strait of Hormuz reopening",
+    "source_summary": "European shares mixed; UK employment market shows \u2018rays of light\u2019 for jobseekers with upturn in pay, study says More retail news: The John Lewis Partnership , Britain\u2019s biggest employee-owned retailer, has said that Peter Ruis , the boss of its department store chain, will step down \u201cto pursue new projects\u201d. It said Ruis, who has been managing director of John Lewis department stores since 2024, w",
+    "drafted_at": "2026-08-10T14:21:06.517033",
+    "data": {
+      "source": "GUARDIAN"
+    },
+    "content_hash": "a1ca3d0453b72696"
+  },
+  {
+    "id": "16147b00",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Levant update: Iran gained leverage in Hormuz, but its neighbours are reshaping regional security to limit what Tehran can do with it.\n\nhttps://www.aljazeera.com/opinions/2026/8/10/iran-changed-the-rules-in-hormuz-the-gulf-is-changing-the-rules-for-iran?traffic_source=rss",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "AL JAZEERA",
+    "source_url": "https://www.aljazeera.com/opinions/2026/8/10/iran-changed-the-rules-in-hormuz-the-gulf-is-changing-the-rules-for-iran?traffic_source=rss",
+    "source_title": "Iran changed the rules in Hormuz. The Gulf is changing the rules for Iran",
+    "source_summary": "Iran gained leverage in Hormuz, but its neighbours are reshaping regional security to limit what Tehran can do with it.",
+    "drafted_at": "2026-08-10T14:21:06.518049",
+    "data": {
+      "source": "AL JAZEERA"
+    },
+    "content_hash": "a1d51b1814f508d7"
+  },
+  {
+    "id": "7f203ed9",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Cross-border read: Money managers have reduced their bullish bets on both Brent and WTI crude futures over the past two weeks despite little progress on a potential reopening of the Strait of Hormuz.\n\nIn the latest reporting week to August 4, portfolio managers trimmed their net long position in NYMEX WTI by 7,257 lots to 101,050 lots, data from the exchanges found.\n\nThe net long position, the difference between bullish and bearish bets, in ICE Brent crude oil futures was slashed by 11%, or by 20,361 lots to 164,722 lots.\n\nThis was the second consecutive weekly decline\u2026\n\nhttps://oilprice.com/Energy/Crude-Oil/Bullish-Oil-Bets-Shrink-for-a-Second-Week-Running-COT-Data-Show.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "OILPRICE",
+    "source_url": "https://oilprice.com/Energy/Crude-Oil/Bullish-Oil-Bets-Shrink-for-a-Second-Week-Running-COT-Data-Show.html",
+    "source_title": "Bullish Oil Bets Shrink for a Second Week Running, COT Data Show",
+    "source_summary": "Money managers have reduced their bullish bets on both Brent and WTI crude futures over the past two weeks despite little progress on a potential reopening of the Strait of Hormuz. In the latest reporting week to August 4, portfolio managers trimmed their net long position in NYMEX WTI by 7,257 lots to 101,050 lots, data from the exchanges found. The net long position, the difference between bulli",
+    "drafted_at": "2026-08-10T14:21:06.519077",
+    "data": {
+      "source": "OILPRICE"
+    },
+    "content_hash": "6bbc9218cc7647a3"
+  },
+  {
+    "id": "4b084800",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "EUROPE DESK: ING\u2019s Francesco Pesole notes that with key Eurozone data behind and European Central Bank (ECB) communication subdued, EUR/USD is now driven mainly by the United States (US) side.\n\nhttps://www.fxstreet.com/news/euro-softer-cpi-may-unlock-11600-against-us-dollar-ing-202608101358",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/euro-softer-cpi-may-unlock-11600-against-us-dollar-ing-202608101358",
+    "source_title": "Euro: Softer CPI may unlock 1.1600 against US Dollar \u2013 ING",
+    "source_summary": "ING\u2019s Francesco Pesole notes that with key Eurozone data behind and European Central Bank (ECB) communication subdued, EUR/USD is now driven mainly by the United States (US) side.",
+    "drafted_at": "2026-08-10T14:21:06.519784",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "00e64116f995356d"
+  },
+  {
+    "id": "21297c03",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "CPI just printed. BNY\u2019s Wee Khoon Chong notes that the US Dollar (USD) has been the weakest G10 currency on iFlow metrics as markets scale back expectations for a September Fed hike.\n\nhttps://www.fxstreet.com/news/us-dollar-positioning-driven-softness-ahead-of-cpi-bny-202608101409",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/us-dollar-positioning-driven-softness-ahead-of-cpi-bny-202608101409",
+    "source_title": "US Dollar: Positioning-driven softness ahead of CPI \u2013 BNY",
+    "source_summary": "BNY\u2019s Wee Khoon Chong notes that the US Dollar (USD) has been the weakest G10 currency on iFlow metrics as markets scale back expectations for a September Fed hike.",
+    "drafted_at": "2026-08-10T14:21:06.590264",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "05d509bf3427867e"
+  },
+  {
+    "id": "19d8c603",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "From the unemployment desk: Prior was 106.69 (revised to 106.74) Notably, this index flagged some weakness last month and that proved to be prescient (or lucky) as the weakness showed up in Friday's non-farm payrolls report.\n\n\"The ETI rebounded in July after declining in May and June, suggesting continued resilience in the labor market, despite the 'low-hire, low-fire' backdrop,\" said Conrad Qi, Economic Data Scientist Associate, The Conference Board.\n\n\"Nonetheless, the ETI remains only 0.6% above its level one year ago, suggesting that payroll growth may remain modest in the months ahead.\n\nSetting aside numerous special factors that caused hiring volatility this year\u2014including seasonal education worker cuts and normalizing leisure and hospitality hiring after the FIFA World Cup, which lowered non-farm payrolls by 23,000 in July\u2014underlying job growth remains modest but positive.\" Note that this is a composite indicator of data already released and is never a market mover but it's a decent cross-check.\n\nTwo of the ETI's eight components contributed negatively to the index in July: the Ratio of Involuntarily Part-time to All Part-time Workers Industrial Production.\n\nThe following six components contributed positively: Percentage of Firms with Positions Not Able to Fill Right Now, Initial Claims for Unemployment Insurance, Job Openings, Real Manufacturing and Trade Sales, Percentage of Respondents Who Say They Find 'Jobs Hard to Get,' and Number of Employees Hired by the Temporary-Help Industry This article was written by Adam Button at investinglive.com.\n\nhttps://investinglive.com/news/us-july-employment-trends-107-71-vs-106-74-prior/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/us-july-employment-trends-107-71-vs-106-74-prior/",
+    "source_title": "US July employment trends 107.71 vs 106.74 prior",
+    "source_summary": "Prior was 106.69 (revised to 106.74) Notably, this index flagged some weakness last month and that proved to be prescient (or lucky) as the weakness showed up in Friday's non-farm payrolls report. \"The ETI rebounded in July after declining in May and June, suggesting continued resilience in the labor market, despite the 'low-hire, low-fire' backdrop,\" said Conrad Qi, Economic Data Scientist Associ",
+    "drafted_at": "2026-08-10T14:21:06.592308",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "24a8b626afe29546"
+  },
+  {
+    "id": "3e28da5c",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "From the inflation desk: ING\u2019s Francesco Pesole notes that with key Eurozone data behind and European Central Bank (ECB) communication subdued, EUR/USD is now driven mainly by the United States (US) side.\n\nhttps://www.fxstreet.com/news/euro-softer-cpi-may-unlock-11600-against-us-dollar-ing-202608101358",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/euro-softer-cpi-may-unlock-11600-against-us-dollar-ing-202608101358",
+    "source_title": "Euro: Softer CPI may unlock 1.1600 against US Dollar \u2013 ING",
+    "source_summary": "ING\u2019s Francesco Pesole notes that with key Eurozone data behind and European Central Bank (ECB) communication subdued, EUR/USD is now driven mainly by the United States (US) side.",
+    "drafted_at": "2026-08-10T14:21:06.592594",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "00e64116f995356d"
+  },
+  {
+    "id": "c62db0e8",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "Growth read just printed. This year\u2019s heat waves and related productivity declines and lower agricultural output could erase as much as 1% of the gross domestic product of the European Union, wiping out most of the EU\u2019s economic growth expected for 2026, according to Dutch bank Triodos.\n\nThe bank and wealth manager, which focuses on financing environmentally and socially sustainable projects, expects labor productivity losses due to the extreme heat waves to reduce the European Union\u2019s GDP by some 0.6% this year.\n\nAgricultural output alone is expected to\u2026\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Heat-Waves-Could-Cost-the-EU-1-of-GDP-Dutch-Bank-Says.html",
@@ -572,31 +606,14 @@
     "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Heat-Waves-Could-Cost-the-EU-1-of-GDP-Dutch-Bank-Says.html",
     "source_title": "Heat Waves Could Cost the EU 1% of GDP, Dutch Bank Says",
     "source_summary": "This year\u2019s heat waves and related productivity declines and lower agricultural output could erase as much as 1% of the gross domestic product of the European Union, wiping out most of the EU\u2019s economic growth expected for 2026, according to Dutch bank Triodos. The bank and wealth manager, which focuses on financing environmentally and socially sustainable projects, expects labor productivity loss",
-    "drafted_at": "2026-08-10T12:41:47.029883",
+    "drafted_at": "2026-08-10T14:21:06.593269",
     "data": {
       "source": "OILPRICE"
     },
     "content_hash": "f64ae6a50ba4cab8"
   },
   {
-    "id": "322b08a8",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "The CPI scoreboard: Surging oil prices, a CPI spike not seen in three years, and Treasury yields at levels last touched in 2007 are forcing a September rate decision that could reshape which stocks lead the market through the rest of 2026.\n\nhttps://247wallst.com/investing/2026/08/10/interest-rates-are-going-up-in-september-5-high-yield-passive-income-stocks-will-benefit/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "247 WALL ST",
-    "source_url": "https://247wallst.com/investing/2026/08/10/interest-rates-are-going-up-in-september-5-high-yield-passive-income-stocks-will-benefit/",
-    "source_title": "Interest Rates Could Still Rise in September: 5 High-Yield Passive Income Stocks Will Benefit",
-    "source_summary": "Surging oil prices, a CPI spike not seen in three years, and Treasury yields at levels last touched in 2007 are forcing a September rate decision that could reshape which stocks lead the market through the rest of 2026.",
-    "drafted_at": "2026-08-10T12:41:47.030184",
-    "data": {
-      "source": "247 WALL ST"
-    },
-    "content_hash": "636c36d6c2154621"
-  },
-  {
-    "id": "a25e97df",
+    "id": "fd865920",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "CPI POSTCARD: Headlines: The USD is at a crossroads ahead of CPI, while the AUD awaits RBA rate decision Iran foreign ministry reaffirms that there are no negotiations with the US currently Oil prices trim losses on delayed US-Iran deal; lack of US attacks keeps hopes alive Gold price forecast: Why 4,432 could decide whether the bullish move extends Euro area investor confidence returns to positive territory in August - Sentix Markets: Gold down 0.2% to $4,333 GBP leads, JPY lags on the day WTI crude up 1.6% to $79.43 S&P 500 futures flat, Nasdaq futures flat US 10-year yields up 0.5 bps to 4.66% Bitcoin flat at $65,079 There wasn't much in it to start the new week with no follow through from the soft US jobs report on Friday last week.\n\nThe focus and attention now turns to the US CPI report for July, which will be released on Wednesday.\n\nAs such, broader markets are keeping more tentative with not much else to work with for now.\n\nUS-Iran developments continue to stall, with the Strait of Hormuz arrangement not yet being put into place yet.\n\nOil prices are a little higher again, with WTI crude up 1.6% to $79.43 on the day.\n\nIn the major currencies space, the yen fell back again with USD/JPY up 0.7% to 158.85.\n\nAs for the dollar itself, it was very much little changed with tight ranges still prevailing against the rest of the major currencies bloc.\n\nThis comes amid a more tepid risk mood as well, with US futures flat on the day.\n\nhttps://investinglive.com/news/investinglive-european-session-wrap-yen-drops-markets-tentative-to-start-the-week/",
@@ -606,48 +623,14 @@
     "source_url": "https://investinglive.com/news/investinglive-european-session-wrap-yen-drops-markets-tentative-to-start-the-week/",
     "source_title": "investingLive European session wrap: Yen drops, markets tentative to start the week",
     "source_summary": "Headlines: The USD is at a crossroads ahead of CPI, while the AUD awaits RBA rate decision Iran foreign ministry reaffirms that there are no negotiations with the US currently Oil prices trim losses on delayed US-Iran deal; lack of US attacks keeps hopes alive Gold price forecast: Why 4,432 could decide whether the bullish move extends Euro area investor confidence returns to positive territory in",
-    "drafted_at": "2026-08-10T12:41:47.031623",
+    "drafted_at": "2026-08-10T14:21:06.594821",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "1dc1620df030fe8f"
   },
   {
-    "id": "f8e136c7",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "CPI just printed. Bitcoin spiked to a new August high into Sunday\u2019s weekly close as market participants turned their attention to the next US inflation reports.\n\nhttps://cointelegraph.com/markets/markets-drop-september-rate-hike-bet-into-cpi-five-things-to-know-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "COINTELEGRAPH",
-    "source_url": "https://cointelegraph.com/markets/markets-drop-september-rate-hike-bet-into-cpi-five-things-to-know-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "source_title": "Markets flip for Fed rate-hike pause into CPI: Five things to know in Bitcoin this week",
-    "source_summary": "Bitcoin spiked to a new August high into Sunday\u2019s weekly close as market participants turned their attention to the next US inflation reports.",
-    "drafted_at": "2026-08-10T12:41:47.031829",
-    "data": {
-      "source": "COINTELEGRAPH"
-    },
-    "content_hash": "d1c8f743972a87a1"
-  },
-  {
-    "id": "2b3de9a5",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "CPI just printed. EUROPEAN SESSION In the European session, we just have the Eurozone Sentix investor confidence index which is expected at -0.5 vs -3.1 in the prior month.\n\nThis is never a market-moving release and it won't change anything for the ECB.\n\nThe price action will likely rangebound, with traders waiting for the US CPI report and further Middle East developments.\n\nAMERICAN SESSION In the American session, we don't have anything on the agenda.\n\nThe US NFP report brought down the probabilities for a September hike to 48% vs 54% before the data release.\n\nThe data was soft but not as soft as the headline figure suggested as it was distorted by huge drop in government jobs.\n\nOverall, the labour market remains on a better trajectory than in the past three years.\n\nThe US CPI report on Wednesday will likely decide whether we get a September hike or not...\n\nhttps://investinglive.com/news/what-are-the-main-events-for-today-21/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/what-are-the-main-events-for-today-21/",
-    "source_title": "What are the main events for today?",
-    "source_summary": "EUROPEAN SESSION In the European session, we just have the Eurozone Sentix investor confidence index which is expected at -0.5 vs -3.1 in the prior month. This is never a market-moving release and it won't change anything for the ECB. The price action will likely rangebound, with traders waiting for the US CPI report and further Middle East developments. AMERICAN SESSION In the American session, w",
-    "drafted_at": "2026-08-10T12:41:47.032651",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "7627875b4c2ffa2c"
-  },
-  {
-    "id": "9c7e4dd4",
+    "id": "fe0be56e",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -657,7 +640,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-08-10T12:41:47.047905",
+    "drafted_at": "2026-08-10T14:21:06.604246",
     "data": {
       "manual": true,
       "via": "manual_news.md"
