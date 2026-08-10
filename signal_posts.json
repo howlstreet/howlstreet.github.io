@@ -68,5 +68,33 @@
     "badge": "-6.5%",
     "data_url": "https://finance.yahoo.com/quote/CL%3DF",
     "fired_at": "2026-08-09T22:18:06.891108"
+  },
+  "GC=F:move:2026-08-10": {
+    "headline": "Gold jumps 8.6% in 5 sessions to $4,396.60",
+    "matters": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
+    "source": "COMEX \u00b7 GC=F",
+    "chart_path": null,
+    "signal_id": "GC=F:move:2026-08-10",
+    "current_str": "$4,396.60",
+    "label": "Gold futures",
+    "hashtags": "#Gold #PreciousMetals #Commodities",
+    "kind": "move_up",
+    "badge": "+8.6%",
+    "data_url": "https://finance.yahoo.com/quote/GC%3DF",
+    "fired_at": "2026-08-10T05:14:40.962851"
+  },
+  "CL=F:move:2026-08-10": {
+    "headline": "WTI crude slides 7.3% in 5 sessions to $78.51",
+    "matters": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "source": "NYMEX \u00b7 CL=F",
+    "chart_path": null,
+    "signal_id": "CL=F:move:2026-08-10",
+    "current_str": "$78.51",
+    "label": "WTI crude oil futures",
+    "hashtags": "#Oil #WTI #Energy #Commodities",
+    "kind": "move_down",
+    "badge": "-7.3%",
+    "data_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "fired_at": "2026-08-10T05:14:40.962851"
   }
 }
