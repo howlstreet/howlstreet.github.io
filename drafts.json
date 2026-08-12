@@ -1,23 +1,61 @@
 [
   {
-    "id": "e85a629d",
+    "id": "fd18706c",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "A potential September rate hike could signal a more aggressive Fed approach, impacting market expectations and economic growth forecasts.\n\nThe post Boston Fed\u2019s Collins supports September rate hike if inflation remains high: FT appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/boston-feds-collins-supports-september-rate-hike-if-inflation-remains-high-ft/",
+    "draft_text": "Commerzbank analysts highlight cautious positioning in the Dollar ahead of July US CPI, with the Dollar Index steady near 99.83 and EUR/USD around 1.1540.\n\nhttps://www.fxstreet.com/news/us-dollar-cpi-and-fed-rhetoric-in-focus-commerzbank-202608120637",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/boston-feds-collins-supports-september-rate-hike-if-inflation-remains-high-ft/",
-    "source_title": "Boston Fed\u2019s Collins supports September rate hike if inflation remains high: FT",
-    "source_summary": "A potential September rate hike could signal a more aggressive Fed approach, impacting market expectations and economic growth forecasts. The post Boston Fed\u2019s Collins supports September rate hike if inflation remains high: FT appeared first on Crypto Briefing .",
-    "drafted_at": "2026-08-12T05:23:22.846642",
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/us-dollar-cpi-and-fed-rhetoric-in-focus-commerzbank-202608120637",
+    "source_title": "US Dollar: CPI and Fed rhetoric in focus \u2013 Commerzbank",
+    "source_summary": "Commerzbank analysts highlight cautious positioning in the Dollar ahead of July US CPI, with the Dollar Index steady near 99.83 and EUR/USD around 1.1540.",
+    "drafted_at": "2026-08-12T07:05:48.927203",
     "data": {
-      "source": "CRYPTO BRIEFING"
+      "source": "FXSTREET"
     },
-    "content_hash": "0e1bdf8d79760dd4"
+    "content_hash": "3d2230a241b3ae1b"
   },
   {
-    "id": "e798c7d1",
+    "id": "424f49f8",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Look at this number. Then look again. VIX tumbles 10.6% in 5 sessions to 15.28.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CBOE \u00b7 ^VIX",
+    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "source_title": "VIX (S&P 500 volatility)",
+    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "drafted_at": "2026-08-12T07:05:48.927454",
+    "data": {
+      "signal_id": "^VIX:move:2026-08-11",
+      "kind": "move_down",
+      "current": "15.28"
+    },
+    "content_hash": "995f4d67e7e875d2"
+  },
+  {
+    "id": "cd310e55",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "While everyone's debating, this happened: Nasdaq climbs 5.3% in 5 sessions to 26,445.45.\n\nTech-heavy index.\n\nLeads risk appetite and is most sensitive to rate moves.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EIXIC",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Yahoo Finance \u00b7 ^IXIC",
+    "source_url": "https://finance.yahoo.com/quote/%5EIXIC",
+    "source_title": "Nasdaq Composite",
+    "source_summary": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
+    "drafted_at": "2026-08-12T07:05:48.927659",
+    "data": {
+      "signal_id": "^IXIC:move:2026-08-11",
+      "kind": "move_up",
+      "current": "26,445.45"
+    },
+    "content_hash": "ce08e8b71b40219b"
+  },
+  {
+    "id": "de4a5425",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "I love a good move. This is a great one. Gold surges 10.2% in 5 sessions to $4,463.50.\n\nGold tracks real yields and central bank demand.\n\nMulti-year highs flag debasement or geopolitical hedging flows.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/GC%3DF",
@@ -27,7 +65,7 @@
     "source_url": "https://finance.yahoo.com/quote/GC%3DF",
     "source_title": "Gold futures",
     "source_summary": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
-    "drafted_at": "2026-08-12T05:23:22.846925",
+    "drafted_at": "2026-08-12T07:05:48.927878",
     "data": {
       "signal_id": "GC=F:move:2026-08-12",
       "kind": "move_up",
@@ -36,7 +74,7 @@
     "content_hash": "514096a7b4f87c16"
   },
   {
-    "id": "2953e757",
+    "id": "e1f1958a",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Print this and put it on the fridge. Gold jumps 9.5% in 5 sessions to $4,434.10.\n\nGold tracks real yields and central bank demand.\n\nMulti-year highs flag debasement or geopolitical hedging flows.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/GC%3DF",
@@ -46,7 +84,7 @@
     "source_url": "https://finance.yahoo.com/quote/GC%3DF",
     "source_title": "Gold futures",
     "source_summary": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
-    "drafted_at": "2026-08-12T05:23:22.847137",
+    "drafted_at": "2026-08-12T07:05:48.928090",
     "data": {
       "signal_id": "GC=F:move:2026-08-11",
       "kind": "move_up",
@@ -55,7 +93,7 @@
     "content_hash": "514096a7b4f87c16"
   },
   {
-    "id": "0f7bd3e8",
+    "id": "61fca0ff",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Caught a move. S&P 500 just hit 7,760.52 \u2014 highest in 9+ years.\n\nThe benchmark of U.S. equities.\n\nWatched globally as the proxy for risk-on / risk-off.\n\nMulti-year high. The pack remembers what comes after these.\n\nhttps://finance.yahoo.com/quote/%5EGSPC",
@@ -65,7 +103,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EGSPC",
     "source_title": "S&P 500",
     "source_summary": "The benchmark of U.S. equities. Watched globally as the proxy for risk-on / risk-off.",
-    "drafted_at": "2026-08-12T05:23:22.847357",
+    "drafted_at": "2026-08-12T07:05:48.928297",
     "data": {
       "signal_id": "^GSPC:high:2026-08-11",
       "kind": "high",
@@ -74,7 +112,7 @@
     "content_hash": "3fefe25d3b818aa2"
   },
   {
-    "id": "7a0f9384",
+    "id": "266776e5",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "RATE-PATH READ: A potential September rate hike could signal a more aggressive Fed approach, impacting market expectations and economic growth forecasts.\n\nThe post Boston Fed\u2019s Collins supports September rate hike if inflation remains high: FT appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/boston-feds-collins-supports-september-rate-hike-if-inflation-remains-high-ft/",
@@ -84,31 +122,14 @@
     "source_url": "https://cryptobriefing.com/boston-feds-collins-supports-september-rate-hike-if-inflation-remains-high-ft/",
     "source_title": "Boston Fed\u2019s Collins supports September rate hike if inflation remains high: FT",
     "source_summary": "A potential September rate hike could signal a more aggressive Fed approach, impacting market expectations and economic growth forecasts. The post Boston Fed\u2019s Collins supports September rate hike if inflation remains high: FT appeared first on Crypto Briefing .",
-    "drafted_at": "2026-08-12T05:23:22.857219",
+    "drafted_at": "2026-08-12T07:05:48.938066",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "0e1bdf8d79760dd4"
   },
   {
-    "id": "35344fa2",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "From the Eccles Building: Gold (XAU/USD) attracts fresh buyers during the Asian session on Wednesday and climbs back above the $4,400 mark, closer to its highest level since June 5, which was touched the previous day.\n\nhttps://www.fxstreet.com/news/gold-trades-with-positive-bias-below-4-400-fed-hike-bets-cap-gains-ahead-of-us-cpi-202608120138",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://www.fxstreet.com/news/gold-trades-with-positive-bias-below-4-400-fed-hike-bets-cap-gains-ahead-of-us-cpi-202608120138",
-    "source_title": "Gold retakes $4,400, eyes two-month high as traders look to US CPI for Fed hike cues",
-    "source_summary": "Gold (XAU/USD) attracts fresh buyers during the Asian session on Wednesday and climbs back above the $4,400 mark, closer to its highest level since June 5, which was touched the previous day.",
-    "drafted_at": "2026-08-12T05:23:22.857488",
-    "data": {
-      "actor": "Fed"
-    },
-    "content_hash": "0d8816b0ca9895e5"
-  },
-  {
-    "id": "089190a8",
+    "id": "37addf98",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Powell on the wire. It addresses unnecessary applications of the rule to passive interests in companies held by investment funds, codifies other statutory requirements, incorporates long-standing regulatory interpretations, and simplifies the application of the rule.\n\nRegulation O has not been comprehensively updated since 1979.\n\nThe rule addresses a unique challenge for community banks, where board members and executives are often local business owners and civic leaders who provide valuable perspective and expertise to bank governance and information on the local economy.\n\nThe proposal updates dollar-based thresholds and indexes them to economic growth going forward.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731b.htm",
@@ -118,14 +139,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731b.htm",
     "source_title": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"\u2014bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
     "source_summary": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"\u2014bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
-    "drafted_at": "2026-08-12T05:23:22.858596",
+    "drafted_at": "2026-08-12T07:05:48.939142",
     "data": {
       "actor": "FED"
     },
     "content_hash": "4057886fa20ad5ad"
   },
   {
-    "id": "d27baa5f",
+    "id": "1e8c81e6",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FOMC update. The Board assumed regulatory and supervisory authority over mutual banks from the Office of Thrift Supervision in 2011.\n\nThe rules governing these banks were first established in 1993.\n\nThey have not been updated and have proven over time to be overly burdensome and complex.\n\n\"Today's proposal is another important step in our work to modernize the bank regulatory framework by updating mutual bank regulations for the first time in 30 years.\n\nThe continued success of this model contributes to the institutional diversity of the U.S. banking system, which is one of the greatest strengths of our financial system,\" said Vice Chair for Supervision Michelle W.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731a.htm",
@@ -135,14 +156,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731a.htm",
     "source_title": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
     "source_summary": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
-    "drafted_at": "2026-08-12T05:23:22.859548",
+    "drafted_at": "2026-08-12T07:05:48.940063",
     "data": {
       "actor": "FED"
     },
     "content_hash": "1672ee5ef82f19a2"
   },
   {
-    "id": "b236c0ca",
+    "id": "4a5a36bd",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "POWELL POSTCARD: Consent prohibition order against Ralph A.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730a.htm",
@@ -152,14 +173,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730a.htm",
     "source_title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank",
     "source_summary": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank",
-    "drafted_at": "2026-08-12T05:23:22.859722",
+    "drafted_at": "2026-08-12T07:05:48.940219",
     "data": {
       "actor": "FED"
     },
     "content_hash": "23feb4de7d35586a"
   },
   {
-    "id": "5c6495a0",
+    "id": "71f80fd8",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$ACI \u2014 3 company insiders bought $2.5M on Jul 31.\n\nAlbertsons Companies, Inc. 218,909 shares at $11.49.\n\nStock is +6.6% since the purchase. This is a public SEC Form 4 filing.",
@@ -169,7 +190,7 @@
     "source_url": "http://openinsider.com/screener?s=ACI",
     "source_title": "Albertsons Companies, Inc. (ACI) insider bought $2.5M",
     "source_summary": "3 insider(s) bought 218,909 shares at $11.49 on 2026-07-31.",
-    "drafted_at": "2026-08-12T05:23:22.860008",
+    "drafted_at": "2026-08-12T07:05:48.940479",
     "data": {
       "ticker": "ACI",
       "type": "P",
@@ -179,7 +200,7 @@
     "content_hash": "b7266a8b42e28ff4"
   },
   {
-    "id": "7fc82d78",
+    "id": "b18ac84a",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$CCB \u2014 2 company insiders bought $1.1M on Aug 06.\n\nCoastal Financial Corp. 25,000 shares at $44.11.\n\nStock is +17.6% since the purchase. This is a public SEC Form 4 filing.",
@@ -189,7 +210,7 @@
     "source_url": "http://openinsider.com/screener?s=CCB",
     "source_title": "Coastal Financial Corp (CCB) insider bought $1.1M",
     "source_summary": "2 insider(s) bought 25,000 shares at $44.11 on 2026-08-06.",
-    "drafted_at": "2026-08-12T05:23:22.860178",
+    "drafted_at": "2026-08-12T07:05:48.940684",
     "data": {
       "ticker": "CCB",
       "type": "P",
@@ -199,7 +220,7 @@
     "content_hash": "e5ba0cfd2f0965c1"
   },
   {
-    "id": "a34753c0",
+    "id": "ec6bf940",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$BRVE \u2014 6 company insiders bought $89.1M on Aug 07.\n\nBraveheart Bio, Inc. 4,949,998 shares at $18.00.\n\nStock is +38.9% since the purchase. This is a public SEC Form 4 filing.\n\nhttp://openinsider.com/screener?s=BRVE",
@@ -209,7 +230,7 @@
     "source_url": "http://openinsider.com/screener?s=BRVE",
     "source_title": "Braveheart Bio, Inc. (BRVE) insider bought $89.1M",
     "source_summary": "6 insider(s) bought 4,949,998 shares at $18.00 on 2026-08-07.",
-    "drafted_at": "2026-08-12T05:23:22.860327",
+    "drafted_at": "2026-08-12T07:05:48.940831",
     "data": {
       "ticker": "BRVE",
       "type": "P",
@@ -219,7 +240,7 @@
     "content_hash": "9296280780494dc6"
   },
   {
-    "id": "bed90220",
+    "id": "4523aad2",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$BSX \u2014 4 company insiders bought $9.9M on Aug 05.\n\nBoston Scientific Corp. 204,322 shares at $48.65.\n\nStock is +5.2% since the purchase. This is a public SEC Form 4 filing.",
@@ -229,7 +250,7 @@
     "source_url": "http://openinsider.com/screener?s=BSX",
     "source_title": "Boston Scientific Corp (BSX) insider bought $9.9M",
     "source_summary": "4 insider(s) bought 204,322 shares at $48.65 on 2026-08-05.",
-    "drafted_at": "2026-08-12T05:23:22.860489",
+    "drafted_at": "2026-08-12T07:05:48.940986",
     "data": {
       "ticker": "BSX",
       "type": "P",
@@ -239,7 +260,7 @@
     "content_hash": "7af93c8b6a5ca177"
   },
   {
-    "id": "096be172",
+    "id": "0816ce32",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$GBFH \u2014 5 company insiders bought $2.6M on Aug 05.\n\nGbank Financial Holdings Inc. 109,463 shares at $23.34.\n\nStock is -7.7% since the purchase. This is a public SEC Form 4 filing.",
@@ -249,7 +270,7 @@
     "source_url": "http://openinsider.com/screener?s=GBFH",
     "source_title": "Gbank Financial Holdings Inc. (GBFH) insider bought $2.6M",
     "source_summary": "5 insider(s) bought 109,463 shares at $23.34 on 2026-08-05.",
-    "drafted_at": "2026-08-12T05:23:22.860668",
+    "drafted_at": "2026-08-12T07:05:48.941144",
     "data": {
       "ticker": "GBFH",
       "type": "P",
@@ -259,7 +280,41 @@
     "content_hash": "ede41d5e9e3e546e"
   },
   {
-    "id": "96aaf561",
+    "id": "90377482",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Two US financial regulators sued Goliath Ventures and its CEO, Christopher Delgado, this week, two months after he pleaded guilty to charges in the same crypto Ponzi scheme.\n\nThe Securities and Exchange Commission (SEC) noted that the multi-year operation raised at least $425 million from more than 1,300 investors.\n\nInside the Alleged Goliath Ventures Scheme The post SEC and CFTC Hit Goliath Ventures With Parallel Crypto Fraud Complaints appeared first on BeInCrypto.\n\nhttps://beincrypto.com/goliath-ventures-sec-cftc-crypto-ponzi/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "BEINCRYPTO",
+    "source_url": "https://beincrypto.com/goliath-ventures-sec-cftc-crypto-ponzi/",
+    "source_title": "SEC and CFTC Hit Goliath Ventures With Parallel Crypto Fraud Complaints",
+    "source_summary": "Two US financial regulators sued Goliath Ventures and its CEO, Christopher Delgado, this week, two months after he pleaded guilty to charges in the same crypto Ponzi scheme. The Securities and Exchange Commission (SEC) noted that the multi-year operation raised at least $425 million from more than 1,300 investors. Inside the Alleged Goliath Ventures Scheme The post SEC and CFTC Hit Goliath Venture",
+    "drafted_at": "2026-08-12T07:05:48.945112",
+    "data": {
+      "source": "BEINCRYPTO"
+    },
+    "content_hash": "7235f64524109ecc"
+  },
+  {
+    "id": "7aae2a12",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Walz announced he would not seek reelection\n\nhttps://www.forbes.com/sites/saradorn/2026/08/12/trump-backed-mypillow-founder-mike-lindell-loses-minnesota-republican-gubernatorial-primary/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FORBES",
+    "source_url": "https://www.forbes.com/sites/saradorn/2026/08/12/trump-backed-mypillow-founder-mike-lindell-loses-minnesota-republican-gubernatorial-primary/",
+    "source_title": "Trump-Backed MyPillow Founder Mike Lindell Loses Minnesota Republican Gubernatorial Primary",
+    "source_summary": "Walz announced he would not seek reelection in the wake of a massive social service and welfare fraud scandal in Minnesota.",
+    "drafted_at": "2026-08-12T07:05:48.945223",
+    "data": {
+      "source": "FORBES"
+    },
+    "content_hash": "b79aeb4d0d403b9b"
+  },
+  {
+    "id": "e869501c",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "XRP bridge drained for $200,000 after software mistook fake deposits for real ones\n\nhttps://www.coindesk.com/tech/2026/08/12/xrp-bridge-drained-for-usd200-000-after-software-mistook-fake-deposits-for-real-ones",
@@ -269,14 +324,14 @@
     "source_url": "https://www.coindesk.com/tech/2026/08/12/xrp-bridge-drained-for-usd200-000-after-software-mistook-fake-deposits-for-real-ones",
     "source_title": "XRP bridge drained for $200,000 after software mistook fake deposits for real ones",
     "source_summary": "",
-    "drafted_at": "2026-08-12T05:23:22.864404",
+    "drafted_at": "2026-08-12T07:05:48.945290",
     "data": {
       "source": "COINDESK"
     },
     "content_hash": "beb3bd1662371b16"
   },
   {
-    "id": "642dbfc9",
+    "id": "2318662a",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The rules, intended to combat money laundering and other financial crimes, imposed an undue burden on American businesses, Treasury Secretary Scott Bessent said.\n\nhttps://www.washingtonpost.com/business/2026/08/11/treasury-ends-ownership-reporting-rules-us-companies/",
@@ -286,14 +341,14 @@
     "source_url": "https://www.washingtonpost.com/business/2026/08/11/treasury-ends-ownership-reporting-rules-us-companies/",
     "source_title": "Treasury ends ownership reporting rules for U.S. companies",
     "source_summary": "The rules, intended to combat money laundering and other financial crimes, imposed an undue burden on American businesses, Treasury Secretary Scott Bessent said.",
-    "drafted_at": "2026-08-12T05:23:22.864586",
+    "drafted_at": "2026-08-12T07:05:48.945452",
     "data": {
       "source": "WAPO"
     },
     "content_hash": "9c88b58ecb9bd6c3"
   },
   {
-    "id": "02bbf81e",
+    "id": "6f2add65",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Regulators allege Goliath promised crypto liquidity-pool returns but instead paid earlier investors and funded its founder\u2019s luxury spending.\n\nhttps://cointelegraph.com/news/sec-cftc-sue-goliath-ventures-400m-crypto-ponzi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -303,48 +358,14 @@
     "source_url": "https://cointelegraph.com/news/sec-cftc-sue-goliath-ventures-400m-crypto-ponzi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "source_title": "SEC, CFTC sue Goliath Ventures over $400M crypto Ponzi scheme",
     "source_summary": "Regulators allege Goliath promised crypto liquidity-pool returns but instead paid earlier investors and funded its founder\u2019s luxury spending.",
-    "drafted_at": "2026-08-12T05:23:22.864781",
+    "drafted_at": "2026-08-12T07:05:48.945630",
     "data": {
       "source": "COINTELEGRAPH"
     },
     "content_hash": "25bf01997e04738c"
   },
   {
-    "id": "fc3e7d46",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "The complaint says $87 million went to Ponzi payments, $174 million to recruiter commissions and $48 million to CEO Christopher Delgado's personal spending, with recoveries for roughly 1,600 customers now running through a bankruptcy estate.\n\nhttps://thedefiant.io/news/regulation/cftc-sues-goliath-ventures-over-alleged-397m-defi-liquidity-pool-ponzi",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "THE DEFIANT",
-    "source_url": "https://thedefiant.io/news/regulation/cftc-sues-goliath-ventures-over-alleged-397m-defi-liquidity-pool-ponzi",
-    "source_title": "CFTC Sues Goliath Ventures Over Alleged $397M DeFi Liquidity Pool Ponzi",
-    "source_summary": "The complaint says $87 million went to Ponzi payments, $174 million to recruiter commissions and $48 million to CEO Christopher Delgado's personal spending, with recoveries for roughly 1,600 customers now running through a bankruptcy estate.",
-    "drafted_at": "2026-08-12T05:23:22.865031",
-    "data": {
-      "source": "THE DEFIANT"
-    },
-    "content_hash": "3615fc2dda94038b"
-  },
-  {
-    "id": "bebe2cd6",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "A Florida man is facing fresh charges from the CFTC after the agency says he misappropriated $48 million dollars of customers' money.\n\nhttps://www.theblock.co/news/regulation/2026-08-11-florida-man-charged-by-cftc-over-397-million-crypto-ponzi-scheme-411491",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "THE BLOCK",
-    "source_url": "https://www.theblock.co/news/regulation/2026-08-11-florida-man-charged-by-cftc-over-397-million-crypto-ponzi-scheme-411491",
-    "source_title": "Florida man charged by CFTC over $397 million crypto Ponzi scheme",
-    "source_summary": "A Florida man is facing fresh charges from the CFTC after the agency says he misappropriated $48 million dollars of customers' money.",
-    "drafted_at": "2026-08-12T05:23:22.865180",
-    "data": {
-      "source": "THE BLOCK"
-    },
-    "content_hash": "19543a19af4578e8"
-  },
-  {
-    "id": "5e9b5b94",
+    "id": "8401f0a1",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "6 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 David J. Taylor (R)\n\u2022 John Boozman (R)\n\u2022 Cleo Fields (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 John Fetterman (D)\n\u2022 John McGuire (R)\n\nLargest disclosed here: David J. Taylor, $1,001 - $15,000 on Feb 26.\n\nPrice since the first buy in this group: +26.0%.\n\nSTOCK Act disclosures. Public record.",
@@ -354,7 +375,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034138.pdf",
     "source_title": "6 Congress members bought $MSFT",
     "source_summary": "6 politicians bought $MSFT; largest $1,001 - $15,000 by David J. Taylor.",
-    "drafted_at": "2026-08-12T05:23:22.868295",
+    "drafted_at": "2026-08-12T07:05:48.948967",
     "data": {
       "ticker": "MSFT",
       "member_count": 6,
@@ -363,7 +384,7 @@
     "content_hash": "7c24415ac3c0b542"
   },
   {
-    "id": "b9285cdf",
+    "id": "8bdb2539",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "5 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Markwayne Mullin (D)\n\u2022 Josh Gottheimer (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Markwayne Mullin, $50,001 - $100,000 on Feb 25.\n\nPrice since the first buy in this group: +52.2%.\n\nSTOCK Act disclosures. Public record.",
@@ -373,7 +394,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/f586922d-6083-44e5-8a32-769290389416/",
     "source_title": "5 Congress members bought $UNH",
     "source_summary": "5 politicians bought $UNH; largest $50,001 - $100,000 by Markwayne Mullin.",
-    "drafted_at": "2026-08-12T05:23:22.868622",
+    "drafted_at": "2026-08-12T07:05:48.949263",
     "data": {
       "ticker": "UNH",
       "member_count": 5,
@@ -382,7 +403,7 @@
     "content_hash": "7cbacf41d412a41b"
   },
   {
-    "id": "1b9e998d",
+    "id": "29c0f398",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 Cleo Fields (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 John Fetterman (D)\n\u2022 John McGuire (R)\n\nLargest disclosed here: Cleo Fields, $1,001 - $15,000 on Mar 12.\n\nPrice since the first buy in this group: +25.9%.\n\nSTOCK Act disclosures. Public record.",
@@ -392,7 +413,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034179.pdf",
     "source_title": "4 Congress members bought $MSFT",
     "source_summary": "4 politicians bought $MSFT; largest $1,001 - $15,000 by Cleo Fields.",
-    "drafted_at": "2026-08-12T05:23:22.868896",
+    "drafted_at": "2026-08-12T07:05:48.949532",
     "data": {
       "ticker": "MSFT",
       "member_count": 4,
@@ -401,7 +422,7 @@
     "content_hash": "4ff8eafa69ce40c2"
   },
   {
-    "id": "aa1058bc",
+    "id": "82ecc5e5",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $HD this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Lloyd Doggett (D)\n\u2022 Jared Moskowitz (D)\n\nLargest disclosed here: Richard Dean Dr McCormick, $1,001 - $15,000 on Mar 19.\n\nPrice since the first buy in this group: +6.9%.\n\nSTOCK Act disclosures. Public record.",
@@ -411,7 +432,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033648.pdf",
     "source_title": "3 Congress members bought $HD",
     "source_summary": "3 politicians bought $HD; largest $1,001 - $15,000 by Richard Dean Dr McCormick.",
-    "drafted_at": "2026-08-12T05:23:22.869169",
+    "drafted_at": "2026-08-12T07:05:48.949790",
     "data": {
       "ticker": "HD",
       "member_count": 3,
@@ -420,7 +441,7 @@
     "content_hash": "8c0eaad1e4da4036"
   },
   {
-    "id": "0818afbf",
+    "id": "d2d6cf81",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $TSM this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard W. Allen (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Cleo Fields (D)\n\nLargest disclosed here: Richard W. Allen, $1,001 - $15,000 on Feb 19.\n\nPrice since the first buy in this group: +16.1%.\n\nSTOCK Act disclosures. Public record.",
@@ -430,7 +451,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034133.pdf",
     "source_title": "3 Congress members bought $TSM",
     "source_summary": "3 politicians bought $TSM; largest $1,001 - $15,000 by Richard W. Allen.",
-    "drafted_at": "2026-08-12T05:23:22.869423",
+    "drafted_at": "2026-08-12T07:05:48.950032",
     "data": {
       "ticker": "TSM",
       "member_count": 3,
@@ -439,177 +460,177 @@
     "content_hash": "5d9078569296551f"
   },
   {
-    "id": "bbd7e58c",
+    "id": "b930be88",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Continental update: Germany\u2019s biggest naval shipbuilder raised its full-year outlook again as Europe\u2019s rearmament boom drives surging demand for warships, submarines and underwater electronics.\n\nhttps://financialpost.com/pmn/business-pmn/german-shipbuilder-tkms-raises-outlook-as-defense-boom-builds",
+    "draft_text": "APAC wire: MUFG\u2019s Teppei Ino reviews recent USD/JPY price action following coordinated Japan-US intervention.\n\nThe pair opened near 157.58, dropped toward 155.20 on official confirmation of joint action, then recovered and traded above 158 by 7 August.\n\nhttps://www.fxstreet.com/news/japanese-yen-policy-focus-after-intervention-mufg-202608120649",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/japanese-yen-policy-focus-after-intervention-mufg-202608120649",
+    "source_title": "Japanese Yen: Policy focus after intervention",
+    "source_summary": "MUFG\u2019s Teppei Ino reviews recent USD/JPY price action following coordinated Japan-US intervention. The pair opened near 157.58, dropped toward 155.20 on official confirmation of joint action, then recovered and traded above 158 by 7 August.",
+    "drafted_at": "2026-08-12T07:05:48.951435",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "2cee46368f35d334"
+  },
+  {
+    "id": "b9a319f5",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Gulf wire: Emirates Global Aluminium aims to restore production early next year after an Iranian strike shut its main smelter in March, potentially helping a metal market that\u2019s seen prices surge on supply shortages.\n\nhttps://financialpost.com/pmn/business-pmn/uae-aims-to-restore-war-hit-aluminum-output-in-first-quarter",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/pmn/business-pmn/german-shipbuilder-tkms-raises-outlook-as-defense-boom-builds",
-    "source_title": "German Shipbuilder TKMS Raises Outlook as Defense Boom Builds",
-    "source_summary": "Germany\u2019s biggest naval shipbuilder raised its full-year outlook again as Europe\u2019s rearmament boom drives surging demand for warships, submarines and underwater electronics.",
-    "drafted_at": "2026-08-12T05:23:22.870410",
+    "source_url": "https://financialpost.com/pmn/business-pmn/uae-aims-to-restore-war-hit-aluminum-output-in-first-quarter",
+    "source_title": "UAE Aims to Restore War-Hit Aluminum Output in First Quarter",
+    "source_summary": "Emirates Global Aluminium aims to restore production early next year after an Iranian strike shut its main smelter in March, potentially helping a metal market that\u2019s seen prices surge on supply shortages.",
+    "drafted_at": "2026-08-12T07:05:48.951810",
     "data": {
       "source": "FINANCIAL POST"
     },
-    "content_hash": "8764356c666e191b"
+    "content_hash": "2147a4b78327e8a8"
   },
   {
-    "id": "bd37a980",
+    "id": "dc31187d",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 EUROPE: Coalburn 1, a 500 MW, two-hour duration battery energy storage system in Scotland, is now the largest operational battery in Europe.\n\n12, 2026 (GLOBE NEWSWIRE) \u2014 Copenhagen Infrastructure Partners (CIP), through its flagship fund Copenhagen Infrastructure IV (CI IV), is pleased to announce that Coalburn 1 has commenced commercial operations.\n\nhttps://financialpost.com/globe-newswire/copenhagen-infrastructure-partners-large-scale-bess-project-coalburn-1-reaches-commercial-operation",
+    "draft_text": "Levant update: President Donald Trump claimed the US had \u201ctotal control over the Hormuz Strait,\u201d as Washington and Tehran hardened their stances in deadlocked negotiations over the waterway.\n\nhttps://financialpost.com/pmn/business-pmn/trump-claims-hormuz-control-as-us-iran-harden-their-positions",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/globe-newswire/copenhagen-infrastructure-partners-large-scale-bess-project-coalburn-1-reaches-commercial-operation",
-    "source_title": "Copenhagen Infrastructure Partners\u2019 large-scale BESS project Coalburn 1 reaches commercial operation",
-    "source_summary": "Coalburn 1, a 500 MW, two-hour duration battery energy storage system in Scotland, is now the largest operational battery in Europe. COPENHAGEN, Denmark, Aug. 12, 2026 (GLOBE NEWSWIRE) \u2014 Copenhagen Infrastructure Partners (CIP), through its flagship fund Copenhagen Infrastructure IV (CI IV), is pleased to announce that Coalburn 1 has commenced commercial operations. Coalburn 1 [\u2026]",
-    "drafted_at": "2026-08-12T05:23:22.871255",
+    "source_url": "https://financialpost.com/pmn/business-pmn/trump-claims-hormuz-control-as-us-iran-harden-their-positions",
+    "source_title": "Trump Claims Hormuz Control as US, Iran Harden Their Positions",
+    "source_summary": "President Donald Trump claimed the US had \u201ctotal control over the Hormuz Strait,\u201d as Washington and Tehran hardened their stances in deadlocked negotiations over the waterway.",
+    "drafted_at": "2026-08-12T07:05:48.952110",
     "data": {
       "source": "FINANCIAL POST"
     },
-    "content_hash": "b9671ef58dcd6e77"
+    "content_hash": "78085f9acff333c1"
   },
   {
-    "id": "6428c9b8",
+    "id": "8087fbd5",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From the international wire: Gold prices rose in India on Wednesday, according to data compiled by FXStreet.\n\nhttps://www.fxstreet.com/news/india-gold-price-today-gold-rises-according-to-fxstreet-data-202608120435",
+    "draft_text": "PACK BRIEFING \u2014 EUROPE: Technology Group Tesonet and one of the leading private equity funds in Central and Eastern Europe, INVL Private Equity Fund II, having decided earlier this year to invest jointly in the private education sector, will acquire the \u0160iaur\u0117s Lic\u0117jus network of schools and kindergartens.\n\nThe companies will execute the project through a joint venture Kurianti Karta.\n\nThis transaction aims to develop high-quality private education in Lithuania that meets contemporary needs.\n\nhttps://www.globenewswire.com/news-release/2026/08/12/3343385/0/en/invl-fund-and-tesonet-to-jointly-acquire-%C5%A1iaur%C4%97s-lic%C4%97jus-schools-and-kindergartens.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "GLOBENEWSWIRE",
+    "source_url": "https://www.globenewswire.com/news-release/2026/08/12/3343385/0/en/invl-fund-and-tesonet-to-jointly-acquire-%C5%A1iaur%C4%97s-lic%C4%97jus-schools-and-kindergartens.html",
+    "source_title": "INVL Fund and Tesonet to Jointly Acquire \u0160iaur\u0117s Lic\u0117jus Schools and Kindergartens",
+    "source_summary": "Technology Group Tesonet and one of the leading private equity funds in Central and Eastern Europe, INVL Private Equity Fund II, having decided earlier this year to invest jointly in the private education sector, will acquire the \u0160iaur\u0117s Lic\u0117jus network of schools and kindergartens. The companies will execute the project through a joint venture Kurianti Karta. This transaction aims to develop high",
+    "drafted_at": "2026-08-12T07:05:48.952876",
+    "data": {
+      "source": "GLOBENEWSWIRE"
+    },
+    "content_hash": "15454647ea16ea89"
+  },
+  {
+    "id": "f5b38d95",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "EUROPE DESK: EUROPEAN SESSION In the European session, we don't have much on the agenda other than the final Italy's CPI report.\n\nThe data is not going to change anything for the ECB, so the market reaction will be muted.\n\nThe price action will likely be mostly rangebound as traders will be waiting for the key US CPI report.\n\nAMERICAN SESSION In the American session, all eyes will be on the US CPI report.\n\nThe US CPI Y/Y is expected at 3.4% vs 3.5% prior, while the M/M measure is seen at 0.1% vs -0.4% prior.\n\nThe Core CPI Y/Y is expected at 2.5% vs 2.6% prior, while the M/M figure is seen at 0.2% vs 0.0% prior.\n\nThe data will be critical for Fed Chair Warsh's speech at the Jackson Hole Symposium and for the September rate hike expectations.\n\nThe focus will be mainly on the Core CPI M/M measure since a few FOMC members mentioned that the monthly pace in core inflation will be key for their decision.\n\nhttps://investinglive.com/news/what-are-the-main-events-for-today-23/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/what-are-the-main-events-for-today-23/",
+    "source_title": "What are the main events for today?",
+    "source_summary": "EUROPEAN SESSION In the European session, we don't have much on the agenda other than the final Italy's CPI report. The data is not going to change anything for the ECB, so the market reaction will be muted. The price action will likely be mostly rangebound as traders will be waiting for the key US CPI report. AMERICAN SESSION In the American session, all eyes will be on the US CPI report. The US ",
+    "drafted_at": "2026-08-12T07:05:48.954284",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "a77312a6e6ec7bfa"
+  },
+  {
+    "id": "8e3dbe80",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "CPI POSTCARD: The British Pound (GBP) remains in a limited range at around 1.3500 against the US Dollar (USD) during the European trading session on Wednesday.\n\nhttps://www.fxstreet.com/news/gbp-usd-price-forecast-continues-to-remain-flat-ahead-of-us-cpi-data-202608120647",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/india-gold-price-today-gold-rises-according-to-fxstreet-data-202608120435",
-    "source_title": "India Gold price today: Gold rises, according to FXStreet data",
-    "source_summary": "Gold prices rose in India on Wednesday, according to data compiled by FXStreet.",
-    "drafted_at": "2026-08-12T05:23:22.871886",
+    "source_url": "https://www.fxstreet.com/news/gbp-usd-price-forecast-continues-to-remain-flat-ahead-of-us-cpi-data-202608120647",
+    "source_title": "GBP/USD Price Forecast: Continues to remain flat ahead of US CPI data",
+    "source_summary": "The British Pound (GBP) remains in a limited range at around 1.3500 against the US Dollar (USD) during the European trading session on Wednesday.",
+    "drafted_at": "2026-08-12T07:05:49.008674",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "7914dc3dc4b02089"
+    "content_hash": "95f521aec8da6ca9"
   },
   {
-    "id": "5ed0d1eb",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Cross-border read: Russia has released former US marine Robert Gilman, who had been jailed since 2022 for attacking a police officer.\n\nhttps://www.aljazeera.com/video/newsfeed/2026/8/12/russia-frees-ex-us-marine-gilman-jailed-since-2022?traffic_source=rss",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/russia-frees-ex-us-marine-gilman-jailed-since-2022?traffic_source=rss",
-    "source_title": "Russia frees ex-US marine Gilman jailed since 2022",
-    "source_summary": "Russia has released former US marine Robert Gilman, who had been jailed since 2022 for attacking a police officer.",
-    "drafted_at": "2026-08-12T05:23:22.872493",
-    "data": {
-      "source": "AL JAZEERA"
-    },
-    "content_hash": "59e903977c774482"
-  },
-  {
-    "id": "479a1bfd",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Gulf wire: Australia sets world leading pay floor for 250,000 gig delivery workers Gulf states quietly by-pass choke points as Hormuz risk lingers, Saudi Oman deal fits pattern Asian shares diverge as chip rally lifts Kospi, Nikkei awaits US CPI World's biggest private gold holder Tether gives users weeks to exit vault Trump says has total control of Hormuz.\n\nRemarks that jar with weeks of shipping attacks.\n\nPBOC sets USD/ CNY mid-point today at 6.7882 (vs. estimate at 6.7430) Goldman chief economist Hatzius expects a benign July US CPI print Japan bond yields rise as oil gains stoke fresh inflation concerns Fed's Goolsbee \"said\" ((7 weeks ago!) inflation is economy's biggest problem MUFG says Hormuz impasse and hawkish Trump keep RBA hike risk alive Reuters Tankan hits highest manufacturing reading since March on chip boom NAB on RBA wording shift: Outlook relatively even handed, sees first rate cut mid-2027 Westpac says RBA hold looks entrenched despite hawkish inflation guardrail RBA holds cash rate at 4.35pc for second meeting, flags scope to hike again - analyst take Oil Tuesday recap - settles higher as Iran keeps Hormuz shut and new Gulf attacks resume investingLive Americas FX news wrap 11 Aug: Stocks /yields Slip as markets await US CPI Oil: Private survey of inventory shows a huge headline crude oil build vs draw expected What I've missed - Hormuz hopes clash with new shipping attacks (oil up) US stocks close mostly lower; Nasdaq leads declines with a fall of -0.60% Summary Oil edges higher as Iran's Rezaei insists Hormuz stays shut on US terms; fresh attacks reported in Bab al-Mandab and Gulf of Oman Trump claims \"total control\" over Hormuz in tarmac remarks that sit oddly against the on-the-ground picture API reports a surprise 9 million-plus barrel crude build against an expected draw, ahead of official EIA data tomorrow Nikkei flat awaiting US CPI; Kospi jumps circa 3.5% on chip rally, triggering a sidecar after KOSPI 200 futures rose 5% Japan's 2-year JGB yield hits a fresh high back to May 1995 North Korea fires a second short-range ballistic missile this week toward the Sea of Japan Trump reportedly weighing capital gains relief, including inflation-indexing, ahead of the midterms; policy signal only, not law FX ranges tight, modest USD strength ahead of the 8.30am ET CPI release Oil prices edged mildly higher on Wednesday as geopolitical uncertainty in the Middle East showed no sign of easing. Iran's Supreme National Security Council Secretary Mohsen Rezaei reiterated that the Strait of Hormuz would remain closed until the United States changed its behaviour and accepted Iran's conditions, while fresh reports emerged of vessels targeted in both the Bab al-Mandab strait and the Gulf of Oman, extending a pattern of attacks that has spread beyond the Strait of Hormuz itself in recent weeks. President Trump offered a notably different assessment of the situation, telling reporters on the tarmac after a trip to Ohio that matters with Iran are going fine, absolutely fine. Pressed on whether that suggested he trusted Tehran, he said he remained the last person who would trust Iran, citing a pattern of broken commitments, and claimed the United States currently holds total control over the Strait of Hormuz, adding that Iran lacks control and that the US effectively owns the waterway. He said Iran might eventually attempt something, in which case it would be met with force, but characterised the current US position as a strong one. Those remarks stand in contrast to the reported situation on the ground, where shipping through the strait remains severely curtailed and attacks on vessels have continued in the surrounding waters. Separately in oil markets, a private survey of US crude inventories pointed to a substantially larger build than expected. American Petroleum Institute data showed crude stockpiles rose by just over 9 million barrels in the week to August 7, against expectations for a roughly half a million barrel draw, a significant miss that will be tested against official Energy Information Administration figures due Wednesday morning in the US. In Asian equities, Japan's Nikkei traded close to flat as investors awaited the US Consumer Price Index release and further clarity on the Middle East situation, while South Korea's Kospi jumped around 3.5% on a rally in chipmakers, with Samsung Electronics and SK Hynix both surging on strong signals of AI infrastructure demand. The Korea Exchange later activated a sidecar mechanism on the Kospi after KOSPI 200 futures rose 5%. In fixed income, Japan's two year government bond yield advanced 2 basis points to 1.63%, its highest level since May 1995. Elsewhere, North Korea launched a short range ballistic missile toward the Sea of Japan, the second such test this week. In Washington, Trump is reportedly considering capital gains tax relief ahead of the midterm elections, including inflation indexing of capital gains and a higher exclusion threshold on home sales, currently set at $250,000 for individuals and $500,000 for married couples. Indexing would tax only real, inflation adjusted gains rather than nominal ones, for example taxing only the residual appreciation on a 50% nominal gain if inflation over the holding period ran at 20%, a change that would lower the effective tax burden on long term holdings of equities, real estate and businesses and could support asset prices and trading activity. Any such measures remain policy signals rather than settled law, since direct rate changes or an expanded exclusion would require congressional legislation, and administrative inflation indexing would likely face significant legal challenge. In currency markets, major pairs traded in narrow ranges, with the US dollar showing modest strength ahead of the CPI report due at 8.30am US Eastern time. --- US CPI due at 0.830 US Eastern time: This article was written by Eamonn Sheridan at investinglive.com.\n\nhttps://investinglive.com/news/investinglive-asia-pacific-financial-market-news-oil-edges-higher/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/investinglive-asia-pacific-financial-market-news-oil-edges-higher/",
-    "source_title": "investingLive Asia-Pacific Financial Market news: Oil edges higher",
-    "source_summary": "Australia sets world leading pay floor for 250,000 gig delivery workers Gulf states quietly by-pass choke points as Hormuz risk lingers, Saudi Oman deal fits pattern Asian shares diverge as chip rally lifts Kospi, Nikkei awaits US CPI World's biggest private gold holder Tether gives users weeks to exit vault Trump says has total control of Hormuz. Remarks that jar with weeks of shipping attacks. P",
-    "drafted_at": "2026-08-12T05:23:22.877676",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "7c7e3c3fc079ee50"
-  },
-  {
-    "id": "8bc5a4dc",
+    "id": "c7d1c516",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "CPI just printed. Australia sets world leading pay floor for 250,000 gig delivery workers Gulf states quietly by-pass choke points as Hormuz risk lingers, Saudi Oman deal fits pattern Asian shares diverge as chip rally lifts Kospi, Nikkei awaits US CPI World's biggest private gold holder Tether gives users weeks to exit vault Trump says has total control of Hormuz.\n\nRemarks that jar with weeks of shipping attacks.\n\nPBOC sets USD/ CNY mid-point today at 6.7882 (vs. estimate at 6.7430) Goldman chief economist Hatzius expects a benign July US CPI print Japan bond yields rise as oil gains stoke fresh inflation concerns Fed's Goolsbee \"said\" ((7 weeks ago!) inflation is economy's biggest problem MUFG says Hormuz impasse and hawkish Trump keep RBA hike risk alive Reuters Tankan hits highest manufacturing reading since March on chip boom NAB on RBA wording shift: Outlook relatively even handed, sees first rate cut mid-2027 Westpac says RBA hold looks entrenched despite hawkish inflation guardrail RBA holds cash rate at 4.35pc for second meeting, flags scope to hike again - analyst take Oil Tuesday recap - settles higher as Iran keeps Hormuz shut and new Gulf attacks resume investingLive Americas FX news wrap 11 Aug: Stocks /yields Slip as markets await US CPI Oil: Private survey of inventory shows a huge headline crude oil build vs draw expected What I've missed - Hormuz hopes clash with new shipping attacks (oil up) US stocks close mostly lower; Nasdaq leads declines with a fall of -0.60% Summary Oil edges higher as Iran's Rezaei insists Hormuz stays shut on US terms; fresh attacks reported in Bab al-Mandab and Gulf of Oman Trump claims \"total control\" over Hormuz in tarmac remarks that sit oddly against the on-the-ground picture API reports a surprise 9 million-plus barrel crude build against an expected draw, ahead of official EIA data tomorrow Nikkei flat awaiting US CPI; Kospi jumps circa 3.5% on chip rally, triggering a sidecar after KOSPI 200 futures rose 5% Japan's 2-year JGB yield hits a fresh high back to May 1995 North Korea fires a second short-range ballistic missile this week toward the Sea of Japan Trump reportedly weighing capital gains relief, including inflation-indexing, ahead of the midterms; policy signal only, not law FX ranges tight, modest USD strength ahead of the 8.30am ET CPI release Oil prices edged mildly higher on Wednesday as geopolitical uncertainty in the Middle East showed no sign of easing. Iran's Supreme National Security Council Secretary Mohsen Rezaei reiterated that the Strait of Hormuz would remain closed until the United States changed its behaviour and accepted Iran's conditions, while fresh reports emerged of vessels targeted in both the Bab al-Mandab strait and the Gulf of Oman, extending a pattern of attacks that has spread beyond the Strait of Hormuz itself in recent weeks. President Trump offered a notably different assessment of the situation, telling reporters on the tarmac after a trip to Ohio that matters with Iran are going fine, absolutely fine. Pressed on whether that suggested he trusted Tehran, he said he remained the last person who would trust Iran, citing a pattern of broken commitments, and claimed the United States currently holds total control over the Strait of Hormuz, adding that Iran lacks control and that the US effectively owns the waterway. He said Iran might eventually attempt something, in which case it would be met with force, but characterised the current US position as a strong one. Those remarks stand in contrast to the reported situation on the ground, where shipping through the strait remains severely curtailed and attacks on vessels have continued in the surrounding waters. Separately in oil markets, a private survey of US crude inventories pointed to a substantially larger build than expected. American Petroleum Institute data showed crude stockpiles rose by just over 9 million barrels in the week to August 7, against expectations for a roughly half a million barrel draw, a significant miss that will be tested against official Energy Information Administration figures due Wednesday morning in the US. In Asian equities, Japan's Nikkei traded close to flat as investors awaited the US Consumer Price Index release and further clarity on the Middle East situation, while South Korea's Kospi jumped around 3.5% on a rally in chipmakers, with Samsung Electronics and SK Hynix both surging on strong signals of AI infrastructure demand. The Korea Exchange later activated a sidecar mechanism on the Kospi after KOSPI 200 futures rose 5%. In fixed income, Japan's two year government bond yield advanced 2 basis points to 1.63%, its highest level since May 1995. Elsewhere, North Korea launched a short range ballistic missile toward the Sea of Japan, the second such test this week. In Washington, Trump is reportedly considering capital gains tax relief ahead of the midterm elections, including inflation indexing of capital gains and a higher exclusion threshold on home sales, currently set at $250,000 for individuals and $500,000 for married couples. Indexing would tax only real, inflation adjusted gains rather than nominal ones, for example taxing only the residual appreciation on a 50% nominal gain if inflation over the holding period ran at 20%, a change that would lower the effective tax burden on long term holdings of equities, real estate and businesses and could support asset prices and trading activity. Any such measures remain policy signals rather than settled law, since direct rate changes or an expanded exclusion would require congressional legislation, and administrative inflation indexing would likely face significant legal challenge. In currency markets, major pairs traded in narrow ranges, with the US dollar showing modest strength ahead of the CPI report due at 8.30am US Eastern time. --- US CPI due at 0.830 US Eastern time: This article was written by Eamonn Sheridan at investinglive.com.\n\nhttps://investinglive.com/news/investinglive-asia-pacific-financial-market-news-oil-edges-higher/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/investinglive-asia-pacific-financial-market-news-oil-edges-higher/",
-    "source_title": "investingLive Asia-Pacific Financial Market news: Oil edges higher",
-    "source_summary": "Australia sets world leading pay floor for 250,000 gig delivery workers Gulf states quietly by-pass choke points as Hormuz risk lingers, Saudi Oman deal fits pattern Asian shares diverge as chip rally lifts Kospi, Nikkei awaits US CPI World's biggest private gold holder Tether gives users weeks to exit vault Trump says has total control of Hormuz. Remarks that jar with weeks of shipping attacks. P",
-    "drafted_at": "2026-08-12T05:23:22.940804",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "7c7e3c3fc079ee50"
-  },
-  {
-    "id": "76c4b79f",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "INFLATION READ: The direct macro effect here is likely to be modest but real, and skews inflationary at the margin.\n\nA mandated hourly floor of A$31.30, roughly 18% above the national minimum wage, lifts labour costs across a delivery sector that touches food and grocery prices for a large share of households, and platforms will need to decide how much of that cost gets absorbed versus passed through in delivery fees or service charges.\n\nWith around 250,000 workers covered from August 17, the aggregate wage bill increase is meaningful in dollar terms even if it barely moves headline CPI on its own, and any pass through would likely show up gradually in services inflation rather than as an immediate shock.\n\nThe insurance requirement adds a further modest cost layer for platforms, though the lack of a specified minimum coverage level gives companies some flexibility in how they meet it.\n\nMore broadly, the reform is a genuinely positive story for a workforce that has long sat outside standard protections, and it arrives alongside the ILO's first binding gig worker standards adopted in June, suggesting Australia's move could become a reference point as other jurisdictions consider similar rules. --- Earlier: NAB on RBA wording shift: Outlook relatively even handed, sees first rate cut mid-2027 Westpac says RBA hold looks entrenched despite hawkish inflation guardrail RBA holds cash rate at 4.35pc for second meeting, flags scope to hike again - analyst take --- Australia just gave a quarter of a million gig workers a pay floor they've waited years for, and the modest cost of that fairness will likely show up in delivery fees rather than headline inflation.\n\nSummary: Australia's Fair Work Commission has approved new minimum standards requiring food and grocery delivery workers to be paid at least A$31.30 an hour, above the national minimum wage of A$26.44, effective from August 17 Companies must also provide a reasonable minimum level of personal accident insurance cover for gig workers, though the order does not specify a minimum coverage level, while workers remain responsible for their own third-party vehicle insurance The order applies to engaged time, covering the period from accepting a delivery job through to completing it, and is expected to benefit around 250,000 workers The Transport Workers Union called the order a landmark moment for the Australian gig economy, with national secretary Michael Kaine describing it as an absolute world leading set of standards in a joint statement with Uber Eats and DoorDash Uber Eats and DoorDash both welcomed the changes, saying the rules show stronger worker protections and gig work flexibility can coexist The reform follows Australian parliament laws passed in 2023 and 2024 under the Labor government that empowered the Fair Work Commission to set gig worker pay and insurance standards, and follows the International Labour Organization's June adoption of the first binding international employment standards for gig workers, which still require government ratification Economically, the change is likely to be mildly inflationary at the margin as delivery platforms weigh absorbing higher labour costs against passing them through in fees, though the effect on broader consumer prices is expected to be gradual and modest Australia's industrial umpire has approved new minimum standards for gig delivery workers that unions and workers have long campaigned for, marking what the Transport Workers Union has called a landmark moment for the country's gig economy.\n\nThe Fair Work Commission's order, issued late Tuesday, requires food and grocery delivery workers to be paid an hourly rate of at least A$31.30, equivalent to around $22.11, well above Australia's national minimum wage of A$26.44.\n\nThe order takes effect on August 17 and is expected to benefit approximately 250,000 workers.\n\nhttps://investinglive.com/news/australia-sets-world-leading-pay-floor-for-250-000-gig-delivery-workers/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/australia-sets-world-leading-pay-floor-for-250-000-gig-delivery-workers/",
-    "source_title": "Australia sets world leading pay floor for 250,000 gig delivery workers",
-    "source_summary": "The direct macro effect here is likely to be modest but real, and skews inflationary at the margin. A mandated hourly floor of A$31.30, roughly 18% above the national minimum wage, lifts labour costs across a delivery sector that touches food and grocery prices for a large share of households, and platforms will need to decide how much of that cost gets absorbed versus passed through in delivery f",
-    "drafted_at": "2026-08-12T05:23:22.944895",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "1cc5b5654e0a4192"
-  },
-  {
-    "id": "4b177f6a",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "From the inflation desk: Silver price (XAG/USD) trades 1.1% higher at around $65.40 during the Asian trading session on Wednesday.\n\nThe white metal reflects strength ahead of the United States (US) Consumer Price Index (CPI) data for July, which will be published at 12:30 GMT.\n\nhttps://www.fxstreet.com/news/silver-price-forecast-xag-usd-rises-to-near-6540-with-us-inflation-in-focus-202608120322",
+    "draft_text": "The CPI scoreboard: Commerzbank analysts highlight cautious positioning in the Dollar ahead of July US CPI, with the Dollar Index steady near 99.83 and EUR/USD around 1.1540.\n\nhttps://www.fxstreet.com/news/us-dollar-cpi-and-fed-rhetoric-in-focus-commerzbank-202608120637",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-rises-to-near-6540-with-us-inflation-in-focus-202608120322",
-    "source_title": "Silver Price Forecast: XAG/USD rises to near $65.40 with US inflation in focus",
-    "source_summary": "Silver price (XAG/USD) trades 1.1% higher at around $65.40 during the Asian trading session on Wednesday. The white metal reflects strength ahead of the United States (US) Consumer Price Index (CPI) data for July, which will be published at 12:30 GMT.",
-    "drafted_at": "2026-08-12T05:23:22.945203",
+    "source_url": "https://www.fxstreet.com/news/us-dollar-cpi-and-fed-rhetoric-in-focus-commerzbank-202608120637",
+    "source_title": "US Dollar: CPI and Fed rhetoric in focus \u2013 Commerzbank",
+    "source_summary": "Commerzbank analysts highlight cautious positioning in the Dollar ahead of July US CPI, with the Dollar Index steady near 99.83 and EUR/USD around 1.1540.",
+    "drafted_at": "2026-08-12T07:05:49.008861",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "f5cb4da86796e774"
+    "content_hash": "3d2230a241b3ae1b"
   },
   {
-    "id": "62ccdb27",
+    "id": "6bce7e9d",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "How sticky is inflation? Let's see: Gold (XAU/USD) attracts fresh buyers during the Asian session on Wednesday and climbs back above the $4,400 mark, closer to its highest level since June 5, which was touched the previous day.\n\nhttps://www.fxstreet.com/news/gold-trades-with-positive-bias-below-4-400-fed-hike-bets-cap-gains-ahead-of-us-cpi-202608120138",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/gold-trades-with-positive-bias-below-4-400-fed-hike-bets-cap-gains-ahead-of-us-cpi-202608120138",
-    "source_title": "Gold retakes $4,400, eyes two-month high as traders look to US CPI for Fed hike cues",
-    "source_summary": "Gold (XAU/USD) attracts fresh buyers during the Asian session on Wednesday and climbs back above the $4,400 mark, closer to its highest level since June 5, which was touched the previous day.",
-    "drafted_at": "2026-08-12T05:23:22.945466",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "0d8816b0ca9895e5"
-  },
-  {
-    "id": "62cfb1ad",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "The CPI scoreboard: Hatzius's forecast, a headline print around 0.05% month on month and core near 0.19%, would sit in line with or slightly below consensus and reinforce the softer trend he says began in June, a read that would ease pressure on the Fed heading into September if it holds.\n\nThe more consequential number in the interview may be the sharp downward revision to Goldman's underlying payrolls trend, from around 75,000 to just 5,000 a month, which underscores how quickly the labour picture has deteriorated beneath the noisy monthly headlines.\n\nHatzius's view that no hike is needed this year, resting on rent and wage inflation continuing to trend down.\n\nThe exchange over whether the Fed sticks with core PCE as its primary gauge also matters for how markets interpret future data, given Warsh has left open the possibility of shifting the preferred metric, a change former New York Fed president Bill Dudley has already criticised as a credibility risk. --- Hatzius thinks the inflation fight is still winnable without a hike, even as he guts his own jobs forecast.\n\nSummary: Goldman Sachs chief economist and head of global investment research Jan Hatzius told Fox Business in an exclusive interview he expects July's CPI print to look similar to June's more benign reading, forecasting around 0.05% month on month on the headline index and 0.19% on core, both in line with or slightly below consensus He attributed the first five months of 2026's worse than expected inflation to temporary drivers, tariff pass-through, the oil price impact, and a World Cup effect, all of which he says are now fading Tariff pass-through is largely behind the economy on a month to month basis but still adds about 0.7 percentage points to core PCE inflation, currently running at 3.3% year on year, a drag he expects to trend toward zero over the next 6 to 12 months Asked about Fed Chair Kevin Warsh's suggestion the Fed may move away from core PCE as its preferred inflation gauge, Hatzius said he still expects PCE to remain the Fed's primary long-term focus even into 2027 and beyond, though he said Warsh's comments need clarification Hatzius agreed with Warsh's firm restatement of a 2% inflation target, but said Goldman's forecast does not include a rate hike for the remainder of the year, arguing natural downward forces including rent and wage inflation make one unnecessary even though one remains possible Following July's surprise nonfarm payrolls decline of 23,000 against an expected 80,000 gain, Goldman sharply cut its estimate of the underlying monthly job creation trend to around 5,000 from roughly 75,000 previously Asked how the US economy is doing overall, Hatzius said \"pretty well,\" citing GDP growth of 2% to 2.5% expected over the next one to two years and a low, stable unemployment rate, while acknowledging inflation remains the persistent problem of the past five years Goldman Sachs chief economist and head of global investment research Jan Hatzius told Fox Business in an exclusive interview that he expects Wednesday's July consumer price index reading to look similar to June's more benign print, ahead of a release that could shape the Federal Reserve's next move on interest rates.\n\nHatzius said the first five months of 2026 came in worse than expected on inflation, but that June marked the start of a softer trend, with July likely to bring a headline reading around 0.05% month on month and a core reading near 0.19%, both in line with or slightly below consensus expectations.\n\nHatzius pointed to several temporary factors behind the earlier run of hotter inflation, including tariff pass-through, the impact of higher oil prices, particularly on the headline index, and a World Cup related effect, all of which he said are now fading.\n\nOn tariffs specifically, he said the month to month impact is largely behind the economy, though the year on year effect still adds about 0.7 percentage points to core personal consumption expenditures inflation, the Fed's preferred gauge, which is currently running at 3.3%.\n\nhttps://investinglive.com/news/goldman-chief-economist-hatzius-expects-a-benign-july-us-cpi-print/",
+    "draft_text": "Inflation update: EUROPEAN SESSION In the European session, we don't have much on the agenda other than the final Italy's CPI report.\n\nThe data is not going to change anything for the ECB, so the market reaction will be muted.\n\nThe price action will likely be mostly rangebound as traders will be waiting for the key US CPI report.\n\nAMERICAN SESSION In the American session, all eyes will be on the US CPI report.\n\nThe US CPI Y/Y is expected at 3.4% vs 3.5% prior, while the M/M measure is seen at 0.1% vs -0.4% prior.\n\nThe Core CPI Y/Y is expected at 2.5% vs 2.6% prior, while the M/M figure is seen at 0.2% vs 0.0% prior.\n\nThe data will be critical for Fed Chair Warsh's speech at the Jackson Hole Symposium and for the September rate hike expectations.\n\nThe focus will be mainly on the Core CPI M/M measure since a few FOMC members mentioned that the monthly pace in core inflation will be key for their decision.\n\nhttps://investinglive.com/news/what-are-the-main-events-for-today-23/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/goldman-chief-economist-hatzius-expects-a-benign-july-us-cpi-print/",
-    "source_title": "Goldman chief economist Hatzius expects a benign July US CPI print",
-    "source_summary": "Hatzius's forecast, a headline print around 0.05% month on month and core near 0.19%, would sit in line with or slightly below consensus and reinforce the softer trend he says began in June, a read that would ease pressure on the Fed heading into September if it holds. The more consequential number in the interview may be the sharp downward revision to Goldman's underlying payrolls trend, from aro",
-    "drafted_at": "2026-08-12T05:23:22.949533",
+    "source_url": "https://investinglive.com/news/what-are-the-main-events-for-today-23/",
+    "source_title": "What are the main events for today?",
+    "source_summary": "EUROPEAN SESSION In the European session, we don't have much on the agenda other than the final Italy's CPI report. The data is not going to change anything for the ECB, so the market reaction will be muted. The price action will likely be mostly rangebound as traders will be waiting for the key US CPI report. AMERICAN SESSION In the American session, all eyes will be on the US CPI report. The US ",
+    "drafted_at": "2026-08-12T07:05:49.009755",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "9cb25470d6f21eb7"
+    "content_hash": "a77312a6e6ec7bfa"
   },
   {
-    "id": "bf422e50",
+    "id": "6b10ebef",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "How sticky is inflation? Let's see: July final CPI +2.8% vs +2.8% y/y prelim Prior +2.3% July final HICP +2.8% vs +2.8% y/y prelim Prior +2.4% German headline annual inflation is reaffirmed to have nudged up in July.\n\nHowever, the good news at least is that core annual inflation is seen easing marginally to 2.4% - down from 2.5% in June.\n\nFood price inflation was seen at 2.5% with services inflation seen at 2.9%.\n\nThe latter is still on the high side but at least is seen slowing from 3.1% in June.\n\nOverall, price pressures remain elevated as energy prices continue to stay underpinned for the most part.\n\nDestatis notes that one additional reason to the higher headline print for the July report was likely the expiry of the fuel rebate on 30 June.\n\nAs such, that saw fuel prices rise by a whopping 23.0% year-on-year in July.\n\nThat's much higher than the preceding two months of 11.3% in June and 18.0% in May.\n\nhttps://investinglive.com/news/germany-july-final-cpi-vs-2-8-y-y-prelim/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/germany-july-final-cpi-vs-2-8-y-y-prelim/",
+    "source_title": "Germany inflation confirmed to accelerate in July but core prices remain steadier",
+    "source_summary": "July final CPI +2.8% vs +2.8% y/y prelim Prior +2.3% July final HICP +2.8% vs +2.8% y/y prelim Prior +2.4% German headline annual inflation is reaffirmed to have nudged up in July. However, the good news at least is that core annual inflation is seen easing marginally to 2.4% - down from 2.5% in June. Food price inflation was seen at 2.5% with services inflation seen at 2.9%. The latter is still o",
+    "drafted_at": "2026-08-12T07:05:49.010650",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "69f5f6315b66b835"
+  },
+  {
+    "id": "827e2f64",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "Inflation update: The Indian Rupee (INR) extends its decline against the US Dollar (USD) on Wednesday as the former continues to face pressure due to surging oil prices.\n\nhttps://www.fxstreet.com/news/indian-rupee-falls-further-as-oil-prices-extend-surge-india-us-cpi-awaited-202608120529",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/indian-rupee-falls-further-as-oil-prices-extend-surge-india-us-cpi-awaited-202608120529",
+    "source_title": "Indian Rupee trades lower ahead of India-US CPI data",
+    "source_summary": "The Indian Rupee (INR) extends its decline against the US Dollar (USD) on Wednesday as the former continues to face pressure due to surging oil prices.",
+    "drafted_at": "2026-08-12T07:05:49.010834",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "2294b0973ca108ff"
+  },
+  {
+    "id": "0fbf84af",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -619,7 +640,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-08-12T05:23:22.957112",
+    "drafted_at": "2026-08-12T07:05:49.028698",
     "data": {
       "manual": true,
       "via": "manual_news.md"
