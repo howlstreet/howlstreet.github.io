@@ -1,23 +1,42 @@
 [
   {
-    "id": "13216c00",
+    "id": "ae28403d",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "The Euro holds firm above 1.1500 as inflation data in the US curbed Fed rate hike bets, as traders shifted from expecting a rate hike to a hold in the September 16 meeting, while investors await the release of economic growth figures in the European Union (EU).\n\nhttps://www.fxstreet.com/news/euro-holds-above-11500-as-us-inflation-curbs-fed-bets-202608132122",
+    "draft_text": "Gold price (XAU/USD) holds positive ground near $4,360 during the early Asian session on Friday.\n\nThe precious metal gains momentum following US inflation data.\n\nTraders will take more cues from the US July Retail Sales report, which is due later on Friday.\n\nhttps://www.fxstreet.com/news/gold-drifts-higher-above-4-350-as-softer-us-ppi-data-reduces-september-fed-hike-bets-202608132327",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/euro-holds-above-11500-as-us-inflation-curbs-fed-bets-202608132122",
-    "source_title": "Euro holds above 1.1500 as US inflation curbs Fed bets",
-    "source_summary": "The Euro holds firm above 1.1500 as inflation data in the US curbed Fed rate hike bets, as traders shifted from expecting a rate hike to a hold in the September 16 meeting, while investors await the release of economic growth figures in the European Union (EU).",
-    "drafted_at": "2026-08-13T22:29:44.132536",
+    "source_url": "https://www.fxstreet.com/news/gold-drifts-higher-above-4-350-as-softer-us-ppi-data-reduces-september-fed-hike-bets-202608132327",
+    "source_title": "Gold drifts higher above $4,350 as softer US PPI data reduces September Fed hike bets",
+    "source_summary": "Gold price (XAU/USD) holds positive ground near $4,360 during the early Asian session on Friday. The precious metal gains momentum following US inflation data. Traders will take more cues from the US July Retail Sales report, which is due later on Friday.",
+    "drafted_at": "2026-08-13T23:30:24.668825",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "d72d0f88071ce760"
+    "content_hash": "2f9172d164add475"
   },
   {
-    "id": "d2343b80",
+    "id": "1c9e8c6d",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Boring? Maybe. Actionable? Definitely. Gold jumps 9.4% in 5 sessions to $4,412.90.\n\nGold tracks real yields and central bank demand.\n\nMulti-year highs flag debasement or geopolitical hedging flows.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/GC%3DF",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "COMEX \u00b7 GC=F",
+    "source_url": "https://finance.yahoo.com/quote/GC%3DF",
+    "source_title": "Gold futures",
+    "source_summary": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
+    "drafted_at": "2026-08-13T23:30:24.669126",
+    "data": {
+      "signal_id": "GC=F:move:2026-08-13",
+      "kind": "move_up",
+      "current": "$4,412.90"
+    },
+    "content_hash": "514096a7b4f87c16"
+  },
+  {
+    "id": "5f629d25",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Eyes up. S&P 500 just hit 7,812.97 \u2014 highest in 9+ years.\n\nThe benchmark of U.S. equities.\n\nWatched globally as the proxy for risk-on / risk-off.\n\nMulti-year high. The pack remembers what comes after these.\n\nhttps://finance.yahoo.com/quote/%5EGSPC",
@@ -27,7 +46,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EGSPC",
     "source_title": "S&P 500",
     "source_summary": "The benchmark of U.S. equities. Watched globally as the proxy for risk-on / risk-off.",
-    "drafted_at": "2026-08-13T22:29:44.132851",
+    "drafted_at": "2026-08-13T23:30:24.669355",
     "data": {
       "signal_id": "^GSPC:high:2026-08-13",
       "kind": "high",
@@ -36,7 +55,7 @@
     "content_hash": "3fefe25d3b818aa2"
   },
   {
-    "id": "0e569fcd",
+    "id": "f58ed1b3",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Whatever you're doing, stop and read this. VIX slides 7.4% in 5 sessions to 14.69.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
@@ -46,7 +65,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EVIX",
     "source_title": "VIX (S&P 500 volatility)",
     "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-08-13T22:29:44.133090",
+    "drafted_at": "2026-08-13T23:30:24.669626",
     "data": {
       "signal_id": "^VIX:move:2026-08-13",
       "kind": "move_down",
@@ -55,45 +74,41 @@
     "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "cf695d9d",
-    "format": "MARKET_MOVE",
+    "id": "df77037c",
+    "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "Boring? Maybe. Actionable? Definitely. Gold surges 10.6% in 5 sessions to $4,460.20.\n\nGold tracks real yields and central bank demand.\n\nMulti-year highs flag debasement or geopolitical hedging flows.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/GC%3DF",
+    "draft_text": "POWELL POSTCARD: Gold price (XAU/USD) holds positive ground near $4,360 during the early Asian session on Friday.\n\nThe precious metal gains momentum following US inflation data.\n\nTraders will take more cues from the US July Retail Sales report, which is due later on Friday.\n\nhttps://www.fxstreet.com/news/gold-drifts-higher-above-4-350-as-softer-us-ppi-data-reduces-september-fed-hike-bets-202608132327",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "COMEX \u00b7 GC=F",
-    "source_url": "https://finance.yahoo.com/quote/GC%3DF",
-    "source_title": "Gold futures",
-    "source_summary": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
-    "drafted_at": "2026-08-13T22:29:44.133335",
+    "primary_source": "Fed",
+    "source_url": "https://www.fxstreet.com/news/gold-drifts-higher-above-4-350-as-softer-us-ppi-data-reduces-september-fed-hike-bets-202608132327",
+    "source_title": "Gold drifts higher above $4,350 as softer US PPI data reduces September Fed hike bets",
+    "source_summary": "Gold price (XAU/USD) holds positive ground near $4,360 during the early Asian session on Friday. The precious metal gains momentum following US inflation data. Traders will take more cues from the US July Retail Sales report, which is due later on Friday.",
+    "drafted_at": "2026-08-13T23:30:24.680176",
     "data": {
-      "signal_id": "GC=F:move:2026-08-13",
-      "kind": "move_up",
-      "current": "$4,460.20"
+      "actor": "Fed"
     },
-    "content_hash": "514096a7b4f87c16"
+    "content_hash": "2f9172d164add475"
   },
   {
-    "id": "e13da6d2",
-    "format": "MARKET_MOVE",
+    "id": "2301a4a6",
+    "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "I love a good move. This is a great one. Gold surges 10.3% in 5 sessions to $4,466.40.\n\nGold tracks real yields and central bank demand.\n\nMulti-year highs flag debasement or geopolitical hedging flows.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/GC%3DF",
+    "draft_text": "Ueda on the wire. BOJ's lack of clear rate signals risks undermining yen stability, impacting global markets and investor confidence in Japanese assets.\n\nThe post BlackRock\u2019s Rick Rieder says yen needs BOJ rate signals, not just intervention appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/blackrock-rieder-yen-boj-rate-signals/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "COMEX \u00b7 GC=F",
-    "source_url": "https://finance.yahoo.com/quote/GC%3DF",
-    "source_title": "Gold futures",
-    "source_summary": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
-    "drafted_at": "2026-08-13T22:29:44.133603",
+    "primary_source": "BOJ",
+    "source_url": "https://cryptobriefing.com/blackrock-rieder-yen-boj-rate-signals/",
+    "source_title": "BlackRock\u2019s Rick Rieder says yen needs BOJ rate signals, not just intervention",
+    "source_summary": "BOJ's lack of clear rate signals risks undermining yen stability, impacting global markets and investor confidence in Japanese assets. The post BlackRock\u2019s Rick Rieder says yen needs BOJ rate signals, not just intervention appeared first on Crypto Briefing .",
+    "drafted_at": "2026-08-13T23:30:24.680616",
     "data": {
-      "signal_id": "GC=F:move:2026-08-12",
-      "kind": "move_up",
-      "current": "$4,466.40"
+      "actor": "BOJ"
     },
-    "content_hash": "514096a7b4f87c16"
+    "content_hash": "6106e0697fe1a154"
   },
   {
-    "id": "8329c5c2",
+    "id": "65fa3e10",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Powell on the wire. It addresses unnecessary applications of the rule to passive interests in companies held by investment funds, codifies other statutory requirements, incorporates long-standing regulatory interpretations, and simplifies the application of the rule.\n\nRegulation O has not been comprehensively updated since 1979.\n\nThe rule addresses a unique challenge for community banks, where board members and executives are often local business owners and civic leaders who provide valuable perspective and expertise to bank governance and information on the local economy.\n\nThe proposal updates dollar-based thresholds and indexes them to economic growth going forward.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731b.htm",
@@ -103,14 +118,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731b.htm",
     "source_title": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"\u2014bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
     "source_summary": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"\u2014bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
-    "drafted_at": "2026-08-13T22:29:44.144147",
+    "drafted_at": "2026-08-13T23:30:24.681868",
     "data": {
       "actor": "FED"
     },
     "content_hash": "4057886fa20ad5ad"
   },
   {
-    "id": "efd4616b",
+    "id": "bb32577c",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FOMC update. The Board assumed regulatory and supervisory authority over mutual banks from the Office of Thrift Supervision in 2011.\n\nThe rules governing these banks were first established in 1993.\n\nThey have not been updated and have proven over time to be overly burdensome and complex.\n\n\"Today's proposal is another important step in our work to modernize the bank regulatory framework by updating mutual bank regulations for the first time in 30 years.\n\nThe continued success of this model contributes to the institutional diversity of the U.S. banking system, which is one of the greatest strengths of our financial system,\" said Vice Chair for Supervision Michelle W.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731a.htm",
@@ -120,14 +135,74 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731a.htm",
     "source_title": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
     "source_summary": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
-    "drafted_at": "2026-08-13T22:29:44.145263",
+    "drafted_at": "2026-08-13T23:30:24.682945",
     "data": {
       "actor": "FED"
     },
     "content_hash": "1672ee5ef82f19a2"
   },
   {
-    "id": "14350ce1",
+    "id": "e73d27bc",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$BRVE \u2014 6 company insiders bought $89.1M on Aug 07.\n\nBraveheart Bio, Inc. 4,949,998 shares at $18.00.\n\nStock is +44.3% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/BRVE_P_20260807.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=BRVE",
+    "source_title": "Braveheart Bio, Inc. (BRVE) insider bought $89.1M",
+    "source_summary": "6 insider(s) bought 4,949,998 shares at $18.00 on 2026-08-07.",
+    "drafted_at": "2026-08-13T23:30:24.683229",
+    "data": {
+      "ticker": "BRVE",
+      "type": "P",
+      "dollar_value": 89099964.0,
+      "pct_since": 44.27777396308051
+    },
+    "content_hash": "9296280780494dc6"
+  },
+  {
+    "id": "08b813ee",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$BSX \u2014 4 company insiders bought $9.9M on Aug 05.\n\nBoston Scientific Corp. 204,322 shares at $48.65.\n\nStock is +6.2% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/BSX_P_20260805.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=BSX",
+    "source_title": "Boston Scientific Corp (BSX) insider bought $9.9M",
+    "source_summary": "4 insider(s) bought 204,322 shares at $48.65 on 2026-08-05.",
+    "drafted_at": "2026-08-13T23:30:24.683429",
+    "data": {
+      "ticker": "BSX",
+      "type": "P",
+      "dollar_value": 9939631.0,
+      "pct_since": 6.248712490665953
+    },
+    "content_hash": "7af93c8b6a5ca177"
+  },
+  {
+    "id": "a7e4c5eb",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$GBFH \u2014 5 company insiders bought $2.6M on Aug 05.\n\nGbank Financial Holdings Inc. 109,463 shares at $23.34.\n\nStock is -6.6% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/GBFH_P_20260805.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=GBFH",
+    "source_title": "Gbank Financial Holdings Inc. (GBFH) insider bought $2.6M",
+    "source_summary": "5 insider(s) bought 109,463 shares at $23.34 on 2026-08-05.",
+    "drafted_at": "2026-08-13T23:30:24.683649",
+    "data": {
+      "ticker": "GBFH",
+      "type": "P",
+      "dollar_value": 2554873.0,
+      "pct_since": -6.640955803224748
+    },
+    "content_hash": "ede41d5e9e3e546e"
+  },
+  {
+    "id": "3bbd2256",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$DINO \u2014 2 company insiders bought $2.4M on Aug 11.\n\nHf Sinclair Corp. 31,508 shares at $76.68.\n\nStock is +19.8% since the purchase. This is a public SEC Form 4 filing.",
@@ -137,7 +212,7 @@
     "source_url": "http://openinsider.com/screener?s=DINO",
     "source_title": "Hf Sinclair Corp (DINO) insider bought $2.4M",
     "source_summary": "2 insider(s) bought 31,508 shares at $76.68 on 2026-08-11.",
-    "drafted_at": "2026-08-13T22:29:44.145540",
+    "drafted_at": "2026-08-13T23:30:24.683841",
     "data": {
       "ticker": "DINO",
       "type": "P",
@@ -147,7 +222,7 @@
     "content_hash": "1900ac9a3b2a8b29"
   },
   {
-    "id": "5c13ffdb",
+    "id": "266a510d",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$AMRZ \u2014 6 company insiders bought $3.1M on Aug 11.\n\nAmrize Ltd. 62,418 shares at $49.21.\n\nStock is -5.8% since the purchase. This is a public SEC Form 4 filing.",
@@ -157,7 +232,7 @@
     "source_url": "http://openinsider.com/screener?s=AMRZ",
     "source_title": "Amrize Ltd (AMRZ) insider bought $3.1M",
     "source_summary": "6 insider(s) bought 62,418 shares at $49.21 on 2026-08-11.",
-    "drafted_at": "2026-08-13T22:29:44.145778",
+    "drafted_at": "2026-08-13T23:30:24.684024",
     "data": {
       "ticker": "AMRZ",
       "type": "P",
@@ -167,67 +242,7 @@
     "content_hash": "c6aacaca7a0027b5"
   },
   {
-    "id": "3786fa5f",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$COE \u2014 a company insider bought $11.8M on Aug 11.\n\n51Talk Online Education Group. 592,320 shares at $19.93.\n\nStock is +1.4% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/COE_P_20260811.png",
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=COE",
-    "source_title": "51Talk Online Education Group (COE) insider bought $11.8M",
-    "source_summary": "1 insider(s) bought 592,320 shares at $19.93 on 2026-08-11.",
-    "drafted_at": "2026-08-13T22:29:44.145987",
-    "data": {
-      "ticker": "COE",
-      "type": "P",
-      "dollar_value": 11804395.0,
-      "pct_since": 1.4049126165211065
-    },
-    "content_hash": "309d79c73457bb7d"
-  },
-  {
-    "id": "bc7a5fb5",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$PNAQ \u2014 6 company insiders bought $29.8M on Aug 10.\n\nPinnacle Acquisition Corp. 2,980,000 shares at $10.00.\n\nStock is +0.0% since the purchase. This is a public SEC Form 4 filing.\n\nhttp://openinsider.com/screener?s=PNAQ",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=PNAQ",
-    "source_title": "Pinnacle Acquisition Corp (PNAQ) insider bought $29.8M",
-    "source_summary": "6 insider(s) bought 2,980,000 shares at $10.00 on 2026-08-10.",
-    "drafted_at": "2026-08-13T22:29:44.146166",
-    "data": {
-      "ticker": "PNAQ",
-      "type": "P",
-      "dollar_value": 29800000.0,
-      "pct_since": 0
-    },
-    "content_hash": "d3949b99cfe271b1"
-  },
-  {
-    "id": "b019112a",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$BLSM \u2014 5 company insiders bought $25.2M on Aug 07.\n\nBlossomhill Therapeutics, Inc. 1,573,200 shares at $16.00.\n\nStock is +1.5% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/BLSM_P_20260807.png",
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=BLSM",
-    "source_title": "Blossomhill Therapeutics, Inc. (BLSM) insider bought $25.2M",
-    "source_summary": "5 insider(s) bought 1,573,200 shares at $16.00 on 2026-08-07.",
-    "drafted_at": "2026-08-13T22:29:44.146370",
-    "data": {
-      "ticker": "BLSM",
-      "type": "P",
-      "dollar_value": 25170700.0,
-      "pct_since": 1.4999985694885254
-    },
-    "content_hash": "e682db7016944cbc"
-  },
-  {
-    "id": "0a83811c",
+    "id": "ea253609",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Michigan AG Charges Five Non-Citizens Over 2024 Voter Fraud\n\nhttps://townhall.com/news/scott-mcclallen/2026/08/13/michigan-ag-charges-six-non-citizens-over-2024-voter-fraud-n2681205",
@@ -237,14 +252,14 @@
     "source_url": "https://townhall.com/news/scott-mcclallen/2026/08/13/michigan-ag-charges-six-non-citizens-over-2024-voter-fraud-n2681205",
     "source_title": "Michigan AG Charges Five Non-Citizens Over 2024 Voter Fraud",
     "source_summary": "",
-    "drafted_at": "2026-08-13T22:29:44.149399",
+    "drafted_at": "2026-08-13T23:30:24.687020",
     "data": {
       "source": "TOWNHALL FIN"
     },
     "content_hash": "972dc816a571ced5"
   },
   {
-    "id": "67b47b13",
+    "id": "94307bad",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Maryland Labor Insider Pleads Guilty to Fraud Scheme Targeting COVID-19 Unemployment Benefits\n\nhttps://townhall.com/news/scott-mcclallen/2026/08/13/maryland-dol-insider-pleads-guilty-to-fraud-scheme-targeting-covid-19-unemployment-benefits-n2681202",
@@ -254,48 +269,14 @@
     "source_url": "https://townhall.com/news/scott-mcclallen/2026/08/13/maryland-dol-insider-pleads-guilty-to-fraud-scheme-targeting-covid-19-unemployment-benefits-n2681202",
     "source_title": "Maryland Labor Insider Pleads Guilty to Fraud Scheme Targeting COVID-19 Unemployment Benefits",
     "source_summary": "",
-    "drafted_at": "2026-08-13T22:29:44.149482",
+    "drafted_at": "2026-08-13T23:30:24.687106",
     "data": {
       "source": "TOWNHALL FIN"
     },
     "content_hash": "a8739a795d1fdfa5"
   },
   {
-    "id": "88317e6f",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Watch James Talarico Squirm When Asked About Voter Fraud Allegations\n\nhttps://townhall.com/news/jeff-charles/2026/08/13/watch-james-talarico-squirm-when-asked-about-voter-fraud-allegations-n2681201",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "TOWNHALL FIN",
-    "source_url": "https://townhall.com/news/jeff-charles/2026/08/13/watch-james-talarico-squirm-when-asked-about-voter-fraud-allegations-n2681201",
-    "source_title": "Watch James Talarico Squirm When Asked About Voter Fraud Allegations",
-    "source_summary": "",
-    "drafted_at": "2026-08-13T22:29:44.149550",
-    "data": {
-      "source": "TOWNHALL FIN"
-    },
-    "content_hash": "512ff54981feed09"
-  },
-  {
-    "id": "170861fa",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Supposed 'Muslim woman' told: 'If you're all in the same precinct and you are already registered, you can vouch for them as ID'.\n\nhttps://www.wnd.com/2026/08/undercover-video-shows-election-workers-confirming-open-door/?utm_source=rss&utm_medium=rss&utm_campaign=undercover-video-shows-election-workers-confirming-open-door",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "WND",
-    "source_url": "https://www.wnd.com/2026/08/undercover-video-shows-election-workers-confirming-open-door/?utm_source=rss&utm_medium=rss&utm_campaign=undercover-video-shows-election-workers-confirming-open-door",
-    "source_title": "Undercover video shows election workers confirming open door to vast election fraud",
-    "source_summary": "Supposed 'Muslim woman' told: 'If you're all in the same precinct and you are already registered, you can vouch for them as ID'",
-    "drafted_at": "2026-08-13T22:29:44.149742",
-    "data": {
-      "source": "WND"
-    },
-    "content_hash": "2b7023dd6d909ada"
-  },
-  {
-    "id": "d0540d09",
+    "id": "c25a210a",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "More than a year after being indicted on fraud charges related to his activities at crypto company Delio, Jeong Sang-ho faces prison time in South Korea.\n\nhttps://cointelegraph.com/news/delio-ceo-prison-crypto-fraud-south-korea?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -305,14 +286,48 @@
     "source_url": "https://cointelegraph.com/news/delio-ceo-prison-crypto-fraud-south-korea?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "source_title": "Delio CEO sentenced to 15 years in prison on crypto fraud in South Korea",
     "source_summary": "More than a year after being indicted on fraud charges related to his activities at crypto company Delio, Jeong Sang-ho faces prison time in South Korea.",
-    "drafted_at": "2026-08-13T22:29:44.149936",
+    "drafted_at": "2026-08-13T23:30:24.687307",
     "data": {
       "source": "COINTELEGRAPH"
     },
     "content_hash": "cbd89d9fe2a52c6e"
   },
   {
-    "id": "a08842c8",
+    "id": "224060b7",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "The post Fiasco in the Factory: Taxpayers Funded a $533 Million Artillery Plant That Made Nothing appeared first on ProPublica.\n\nhttps://www.propublica.org/article/general-dynamics-artillery-factory-failed",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "PROPUBLICA",
+    "source_url": "https://www.propublica.org/article/general-dynamics-artillery-factory-failed",
+    "source_title": "Fiasco in the Factory: Taxpayers Funded a $533 Million Artillery Plant That Made Nothing",
+    "source_summary": "The post Fiasco in the Factory: Taxpayers Funded a $533 Million Artillery Plant That Made Nothing appeared first on ProPublica .",
+    "drafted_at": "2026-08-13T23:30:24.687474",
+    "data": {
+      "source": "PROPUBLICA"
+    },
+    "content_hash": "edb11f5d5c7555c4"
+  },
+  {
+    "id": "1f753f16",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Its USDT crypto token underpins a trillion-dollar market, but cryptocurrency giant Tether won\u2019t answer questions about its ownership.\n\nhttps://www.icij.org/investigations/coin-laundry/the-200-billion-company-you-cant-look-inside/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "ICIJ",
+    "source_url": "https://www.icij.org/investigations/coin-laundry/the-200-billion-company-you-cant-look-inside/",
+    "source_title": "The $200 billion company you can\u2019t look inside",
+    "source_summary": "Its USDT crypto token underpins a trillion-dollar market, but cryptocurrency giant Tether won\u2019t answer questions about its ownership.",
+    "drafted_at": "2026-08-13T23:30:24.687686",
+    "data": {
+      "source": "ICIJ"
+    },
+    "content_hash": "73b772a66fc7444b"
+  },
+  {
+    "id": "efa9cdcf",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "6 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 David J. Taylor (R)\n\u2022 John Boozman (R)\n\u2022 Cleo Fields (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 John Fetterman (D)\n\u2022 John McGuire (R)\n\nLargest disclosed here: David J. Taylor, $1,001 - $15,000 on Feb 26.\n\nPrice since the first buy in this group: +26.0%.\n\nSTOCK Act disclosures. Public record.",
@@ -322,7 +337,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034138.pdf",
     "source_title": "6 Congress members bought $MSFT",
     "source_summary": "6 politicians bought $MSFT; largest $1,001 - $15,000 by David J. Taylor.",
-    "drafted_at": "2026-08-13T22:29:44.152035",
+    "drafted_at": "2026-08-13T23:30:24.688634",
     "data": {
       "ticker": "MSFT",
       "member_count": 6,
@@ -331,7 +346,7 @@
     "content_hash": "7c24415ac3c0b542"
   },
   {
-    "id": "316bbd1e",
+    "id": "caaaac65",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "5 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Markwayne Mullin (D)\n\u2022 Josh Gottheimer (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Markwayne Mullin, $50,001 - $100,000 on Feb 25.\n\nPrice since the first buy in this group: +52.2%.\n\nSTOCK Act disclosures. Public record.",
@@ -341,7 +356,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/f586922d-6083-44e5-8a32-769290389416/",
     "source_title": "5 Congress members bought $UNH",
     "source_summary": "5 politicians bought $UNH; largest $50,001 - $100,000 by Markwayne Mullin.",
-    "drafted_at": "2026-08-13T22:29:44.152392",
+    "drafted_at": "2026-08-13T23:30:24.688995",
     "data": {
       "ticker": "UNH",
       "member_count": 5,
@@ -350,7 +365,7 @@
     "content_hash": "7cbacf41d412a41b"
   },
   {
-    "id": "4e4bd591",
+    "id": "ab097ef5",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $HD this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Lloyd Doggett (D)\n\u2022 Jared Moskowitz (D)\n\nLargest disclosed here: Richard Dean Dr McCormick, $1,001 - $15,000 on Mar 19.\n\nPrice since the first buy in this group: +6.9%.\n\nSTOCK Act disclosures. Public record.",
@@ -360,7 +375,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033648.pdf",
     "source_title": "3 Congress members bought $HD",
     "source_summary": "3 politicians bought $HD; largest $1,001 - $15,000 by Richard Dean Dr McCormick.",
-    "drafted_at": "2026-08-13T22:29:44.152721",
+    "drafted_at": "2026-08-13T23:30:24.689313",
     "data": {
       "ticker": "HD",
       "member_count": 3,
@@ -369,7 +384,7 @@
     "content_hash": "8c0eaad1e4da4036"
   },
   {
-    "id": "cb3e665e",
+    "id": "7d867bea",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $TSM this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard W. Allen (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Cleo Fields (D)\n\nLargest disclosed here: Richard W. Allen, $1,001 - $15,000 on Feb 19.\n\nPrice since the first buy in this group: +16.1%.\n\nSTOCK Act disclosures. Public record.",
@@ -379,7 +394,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034133.pdf",
     "source_title": "3 Congress members bought $TSM",
     "source_summary": "3 politicians bought $TSM; largest $1,001 - $15,000 by Richard W. Allen.",
-    "drafted_at": "2026-08-13T22:29:44.153021",
+    "drafted_at": "2026-08-13T23:30:24.689625",
     "data": {
       "ticker": "TSM",
       "member_count": 3,
@@ -388,92 +403,109 @@
     "content_hash": "5d9078569296551f"
   },
   {
-    "id": "c7f41267",
+    "id": "df8668b4",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Levant update: The indefinite blockade could exacerbate U.S.-Iran tensions, destabilize global oil markets, and strain geopolitical relations further.\n\nThe post US considers indefinite Iran naval blockade amid oil supply shortfall appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/us-considers-indefinite-iran-naval-blockade-amid-oil-supply-shortfall/",
+    "draft_text": "EUROPE DESK: The GBP/JPY remains directionless on Thursday as traders turn cautious about opening fresh directional bets amid intervention fears in the FX markets, which could strengthen the Yen, and after solid UK data.\n\nThe cross-pair sits at around 215.00, down 0.02%.\n\nhttps://www.fxstreet.com/news/gbp-jpy-price-forecast-steadies-above-21500-capped-by-50-day-sma-202608132322",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/gbp-jpy-price-forecast-steadies-above-21500-capped-by-50-day-sma-202608132322",
+    "source_title": "GBP/JPY Price Forecast: Steadies above 215.00 capped by 50-day SMA",
+    "source_summary": "The GBP/JPY remains directionless on Thursday as traders turn cautious about opening fresh directional bets amid intervention fears in the FX markets, which could strengthen the Yen, and after solid UK data. The cross-pair sits at around 215.00, down 0.02%.",
+    "drafted_at": "2026-08-13T23:30:24.690514",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "a8c2d1837a8b9d1c"
+  },
+  {
+    "id": "14e40231",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Cross-border read: The proposed truce could stabilize global grain markets, but ongoing tensions risk further disruptions, impacting food security worldwide.\n\nThe post Ukraine offers Russia a Black Sea truce as grain exports collapse 76% appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/ukraine-russia-black-sea-truce-grain/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/us-considers-indefinite-iran-naval-blockade-amid-oil-supply-shortfall/",
-    "source_title": "US considers indefinite Iran naval blockade amid oil supply shortfall",
-    "source_summary": "The indefinite blockade could exacerbate U.S.-Iran tensions, destabilize global oil markets, and strain geopolitical relations further. The post US considers indefinite Iran naval blockade amid oil supply shortfall appeared first on Crypto Briefing .",
-    "drafted_at": "2026-08-13T22:29:44.154935",
+    "source_url": "https://cryptobriefing.com/ukraine-russia-black-sea-truce-grain/",
+    "source_title": "Ukraine offers Russia a Black Sea truce as grain exports collapse 76%",
+    "source_summary": "The proposed truce could stabilize global grain markets, but ongoing tensions risk further disruptions, impacting food security worldwide. The post Ukraine offers Russia a Black Sea truce as grain exports collapse 76% appeared first on Crypto Briefing .",
+    "drafted_at": "2026-08-13T23:30:24.690927",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "8afa2f03ae48c691"
+    "content_hash": "8bb2751dd2d61911"
   },
   {
-    "id": "345d1945",
+    "id": "7461adfc",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "CHINA DESK: 13, 2026 /PRNewswire/ -- Entrepreneur Universe Bright Group (\"EUBG\" or the \"Company\"), a Nevada corporation, reported its unaudited financial results for the period ended June 30, 2026.\n\nSecond Quarter 2026 Financial Highlights Revenue: $746,113 for the three months...\n\nhttps://www.prnewswire.com/news-releases/entrepreneur-universe-bright-group-reports-second-quarter-2026-financial-results-302851420.html",
+    "draft_text": "PACK BRIEFING \u2014 AMERICAS: Mexico\u2019s push for fuel self-sufficiency has run into a stubborn problem: Pemex has built and upgraded refining capacity faster than it has learned to operate it reliably.\n\nThe state oil company is being asked to send more crude into domestic refineries and less onto the export market, a strategy that looks increasingly sensible when refined products\u2019 cracks are strong.\n\nBut the second quarter of 2026 showed the weakness of that model.\n\nMexican refineries processed only around 1 million b/d (58% of installed capacity), while fuel imports\u2026\n\nhttps://oilprice.com/Energy/Crude-Oil/Mexico-Has-More-Refining-Capacity-So-Why-Are-Fuel-Imports-Rising.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "PR NEWSWIRE",
-    "source_url": "https://www.prnewswire.com/news-releases/entrepreneur-universe-bright-group-reports-second-quarter-2026-financial-results-302851420.html",
-    "source_title": "Entrepreneur Universe Bright Group Reports Second Quarter 2026 Financial Results",
-    "source_summary": "XI'AN, China, Aug. 13, 2026 /PRNewswire/ -- Entrepreneur Universe Bright Group (\"EUBG\" or the \"Company\"), a Nevada corporation, reported its unaudited financial results for the period ended June 30, 2026. Second Quarter 2026 Financial Highlights Revenue: $746,113 for the three months...",
-    "drafted_at": "2026-08-13T22:29:44.155730",
+    "primary_source": "OILPRICE",
+    "source_url": "https://oilprice.com/Energy/Crude-Oil/Mexico-Has-More-Refining-Capacity-So-Why-Are-Fuel-Imports-Rising.html",
+    "source_title": "Mexico Has More Refining Capacity. So Why Are Fuel Imports Rising?",
+    "source_summary": "Mexico\u2019s push for fuel self-sufficiency has run into a stubborn problem: Pemex has built and upgraded refining capacity faster than it has learned to operate it reliably. The state oil company is being asked to send more crude into domestic refineries and less onto the export market, a strategy that looks increasingly sensible when refined products\u2019 cracks are strong. But the second quarter of 202",
+    "drafted_at": "2026-08-13T23:30:24.692042",
     "data": {
-      "source": "PR NEWSWIRE"
+      "source": "OILPRICE"
     },
-    "content_hash": "088c91917695260f"
+    "content_hash": "d9228f427b5ca347"
   },
   {
-    "id": "ccab5697",
+    "id": "6c7f87fd",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Canada/LatAm wire: BELO HORIZONTE, Brazil and SINGAPORE, Aug.\n\n13, 2026 (GLOBE NEWSWIRE) \u2014 Verde AgriTech Ltd (TSX: NPK | OTCQX: VNPKF) (\u201cVerde\u201d or the \u201cCompany\u201d) today reported its financial and operating results for the three and six months ended June 30, 2026 (\u201cQ2 2026\u201d).\n\n\u201cQ2 2026 was marked by greater selectivity in fertilizer purchasing across Brazilian agriculture. [\u2026]\n\nhttps://financialpost.com/globe-newswire/verde-agritech-announces-q2-2026-financial-and-operating-results",
+    "draft_text": "From the international wire: The Dollar changes hands at 159.50 against the Yen on Thursday, a fraction higher on the session inside a range of barely 55 pips.\n\nhttps://www.fxstreet.com/news/half-of-the-record-japanese-yen-intervention-is-already-gone-202608132234",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/globe-newswire/verde-agritech-announces-q2-2026-financial-and-operating-results",
-    "source_title": "Verde AgriTech Announces Q2 2026 Financial and Operating Results",
-    "source_summary": "BELO HORIZONTE, Brazil and SINGAPORE, Aug. 13, 2026 (GLOBE NEWSWIRE) \u2014 Verde AgriTech Ltd (TSX: NPK | OTCQX: VNPKF) (\u201cVerde\u201d or the \u201cCompany\u201d) today reported its financial and operating results for the three and six months ended June 30, 2026 (\u201cQ2 2026\u201d). \u201cQ2 2026 was marked by greater selectivity in fertilizer purchasing across Brazilian agriculture. [\u2026]",
-    "drafted_at": "2026-08-13T22:29:44.156388",
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/half-of-the-record-japanese-yen-intervention-is-already-gone-202608132234",
+    "source_title": "Half of the record Japanese Yen intervention is already gone",
+    "source_summary": "The Dollar changes hands at 159.50 against the Yen on Thursday, a fraction higher on the session inside a range of barely 55 pips.",
+    "drafted_at": "2026-08-13T23:30:24.693358",
     "data": {
-      "source": "FINANCIAL POST"
+      "source": "FXSTREET"
     },
-    "content_hash": "1b910aec153fa09e"
+    "content_hash": "2811cff4e02c7050"
   },
   {
-    "id": "29bf9429",
+    "id": "78975449",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "LATAM DESK: Colombia denies politics played a role after Mexico said its military rescuers were refused entry.\n\nhttps://www.aljazeera.com/news/2026/8/13/mexico-says-colombia-rejected-its-earthquake-rescue-team?traffic_source=rss",
+    "draft_text": "From the international wire: BOJ's lack of clear rate signals risks undermining yen stability, impacting global markets and investor confidence in Japanese assets.\n\nThe post BlackRock\u2019s Rick Rieder says yen needs BOJ rate signals, not just intervention appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/blackrock-rieder-yen-boj-rate-signals/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/news/2026/8/13/mexico-says-colombia-rejected-its-earthquake-rescue-team?traffic_source=rss",
-    "source_title": "Mexico says Colombia rejected its earthquake rescue team",
-    "source_summary": "Colombia denies politics played a role after Mexico said its military rescuers were refused entry.",
-    "drafted_at": "2026-08-13T22:29:44.157660",
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/blackrock-rieder-yen-boj-rate-signals/",
+    "source_title": "BlackRock\u2019s Rick Rieder says yen needs BOJ rate signals, not just intervention",
+    "source_summary": "BOJ's lack of clear rate signals risks undermining yen stability, impacting global markets and investor confidence in Japanese assets. The post BlackRock\u2019s Rick Rieder says yen needs BOJ rate signals, not just intervention appeared first on Crypto Briefing .",
+    "drafted_at": "2026-08-13T23:30:24.694007",
     "data": {
-      "source": "AL JAZEERA"
+      "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "7010b7ff12186317"
+    "content_hash": "6106e0697fe1a154"
   },
   {
-    "id": "e8e83eb6",
-    "format": "GLOBAL_DESK",
+    "id": "2a778d76",
+    "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "World wire: Russia is attempting to portray the bombardment of Ukrainian cities and civilian infrastructure as \"retaliation\" for Ukraine's own efforts to defend itself against Putin's invasion.\n\nThis \"retaliation\" narrative is dangerously misleading, writes Zahar Hryniv.\n\nThe post Russia\u2019s escalating bombardment of Ukraine is not \u2018retaliation\u2019 appeared first on Atlantic Council.\n\nhttps://www.atlanticcouncil.org/blogs/ukrainealert/russias-escalating-bombardment-of-ukraine-is-not-retaliation/",
+    "draft_text": "PPI desk: Gold price (XAU/USD) holds positive ground near $4,360 during the early Asian session on Friday.\n\nThe precious metal gains momentum following US inflation data.\n\nTraders will take more cues from the US July Retail Sales report, which is due later on Friday.\n\nhttps://www.fxstreet.com/news/gold-drifts-higher-above-4-350-as-softer-us-ppi-data-reduces-september-fed-hike-bets-202608132327",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "ATLANTIC CNCL",
-    "source_url": "https://www.atlanticcouncil.org/blogs/ukrainealert/russias-escalating-bombardment-of-ukraine-is-not-retaliation/",
-    "source_title": "Russia\u2019s escalating bombardment of Ukraine is not \u2018retaliation\u2019",
-    "source_summary": "Russia is attempting to portray the bombardment of Ukrainian cities and civilian infrastructure as \"retaliation\" for Ukraine's own efforts to defend itself against Putin's invasion. This \"retaliation\" narrative is dangerously misleading, writes Zahar Hryniv. The post Russia\u2019s escalating bombardment of Ukraine is not \u2018retaliation\u2019 appeared first on Atlantic Council .",
-    "drafted_at": "2026-08-13T22:29:44.158283",
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/gold-drifts-higher-above-4-350-as-softer-us-ppi-data-reduces-september-fed-hike-bets-202608132327",
+    "source_title": "Gold drifts higher above $4,350 as softer US PPI data reduces September Fed hike bets",
+    "source_summary": "Gold price (XAU/USD) holds positive ground near $4,360 during the early Asian session on Friday. The precious metal gains momentum following US inflation data. Traders will take more cues from the US July Retail Sales report, which is due later on Friday.",
+    "drafted_at": "2026-08-13T23:30:24.748076",
     "data": {
-      "source": "ATLANTIC CNCL"
+      "source": "FXSTREET"
     },
-    "content_hash": "0ed89c5085af42c0"
+    "content_hash": "2f9172d164add475"
   },
   {
-    "id": "b37d9c07",
+    "id": "545cc262",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "CPI POSTCARD: The affirmation removes near term downgrade risk from the US sovereign story, but the accompanying commentary leans cautious rather than reassuring.\n\nFitch's growth downgrade from 2.8% to 1.9% alongside a weakening labor market gives fixed income desks another data point supporting the softer Fed rate hike odds already in play this week.\n\nThe agency's explicit flag on gridlock and shutdown risk, combined with a structural fiscal deterioration tied to entitlement spending, keeps the long end of the Treasury curve sensitive to any fresh political dysfunction out of Washington.\n\nNone of this is new information for the market, given Fitch's 2023 downgrade to AA+ already priced in much of this fiscal narrative, so the reaction should be muted rather than a fresh catalyst. --- Earlier: investingLive Americas market news wrap: S&P 500 hits a fresh record --- Fitch keeps America's credit score unchanged, but the fine print reads like a warning about Washington's ability to fund its own promises.\n\nSummary: Fitch affirmed the United States at AA+ with a stable outlook Growth is forecast to slow to 1.9% in 2026 and 2027, down from 2.8% in 2025 The rating is supported by the size of the US economy, high per capita income, a dynamic business environment and exceptional financing flexibility Labor demand has weakened and job creation has dropped significantly in 2026 Fitch expects inflation to reach target by the end of 2028 The agency warns gridlock and government shutdowns may become more likely and more protracted, while Medicare and Social Security costs are set to expand by nearly one percentage point of GDP by 2032, adding to high deficits, a substantial interest burden and rising debt levels that constrain the rating Fitch Ratings affirmed the United States' long term sovereign credit rating at AA+ on Thursday, maintaining a stable outlook even as the agency flagged a slowing economy and mounting fiscal strain over the coming years.\n\nThe rating agency now expects US growth to moderate to 1.9% in both 2026 and 2027, a step down from 2.8% recorded in 2025.\n\nFitch pointed to a clear cooling in the labor market as a key driver of that slowdown, noting that labor demand has weakened and job creation has dropped significantly this year.\n\nOn inflation, the agency struck a more patient tone than some Fed officials currently debating further rate hikes, projecting that price growth will not return to target until the end of 2028.\n\nhttps://investinglive.com/news/fitch-affirms-us-at-aa-keeps-outlook-stable-amid-growth-slowdown/",
@@ -483,14 +515,14 @@
     "source_url": "https://investinglive.com/news/fitch-affirms-us-at-aa-keeps-outlook-stable-amid-growth-slowdown/",
     "source_title": "Fitch affirms US at AA+, keeps outlook stable amid growth slowdown",
     "source_summary": "The affirmation removes near term downgrade risk from the US sovereign story, but the accompanying commentary leans cautious rather than reassuring. Fitch's growth downgrade from 2.8% to 1.9% alongside a weakening labor market gives fixed income desks another data point supporting the softer Fed rate hike odds already in play this week. The agency's explicit flag on gridlock and shutdown risk, com",
-    "drafted_at": "2026-08-13T22:29:44.211994",
+    "drafted_at": "2026-08-13T23:30:24.751473",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "2b4a418b6d618fe8"
   },
   {
-    "id": "09ea673e",
+    "id": "51182b01",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "CPI POSTCARD: US July PPI 4.7% y/y vs 4.9% expected US initial claims for the current week 209K vs 202K estimate Fed's Barkin: Still an open question on whether the FOMC needs to hike rates Fed's Hammack: Need some restraint from mon pol to bring down inflation Fed's Barkin: It's hard to know whether policy is restrictive given standard errors in models US 30 year average mortgage rate averages 6.67% vs 6.69% last week.\n\nUS treasury sells 30 year bonds at a high yield of 5.216% Markets: WTI crude oil down $2.05 to $81.21 US 10-year yields down 4.3 bps to 4.64% Gold down $58 to $4348 S&P 500 up 0.65%, touches intraday record EUR leads, CHF lags It was a dull day in FX but lively elsewhere.\n\nThe oil market was a strange one and made even stranger beacuse oil companies didn't follow the price of crude lower.\n\nVirtually all the headlines have been about attacks in the oil chokepoints in the Middle East and crude fell notably.\n\nThat left the lingering feeling that someone knows something.\n\nTreasury yields declined and that could have been oil related but it also could have been on a lower PPI, helping the inflation picture.\n\nThe Fed's Barkin sounded reluctant to hike, though certainly not close-minded.\n\nGold was also lower, perhaps on profit taking or in response to lower signs of inflation -- though it didn't respond to cooling CPI or non-farm payrolls data earlier this month.\n\nhttps://investinglive.com/news/investinglive-americas-market-news-wrap-s-p-500-hits-a-fresh-record/",
@@ -500,31 +532,14 @@
     "source_url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-s-p-500-hits-a-fresh-record/",
     "source_title": "investingLive Americas market news wrap: S&P 500 hits a fresh record",
     "source_summary": "US July PPI 4.7% y/y vs 4.9% expected US initial claims for the current week 209K vs 202K estimate Fed's Barkin: Still an open question on whether the FOMC needs to hike rates Fed's Hammack: Need some restraint from mon pol to bring down inflation Fed's Barkin: It's hard to know whether policy is restrictive given standard errors in models US 30 year average mortgage rate averages 6.67% vs 6.69% l",
-    "drafted_at": "2026-08-13T22:29:44.213522",
+    "drafted_at": "2026-08-13T23:30:24.753009",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "41e788b06da2260b"
   },
   {
-    "id": "64feeaf9",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "How is the consumer holding up? Let's see: The US Dollar (USD) has softened with the US Dollar Index (DXY) slipping back below the 100.00 mark after Thursday's lower-than-expected Producer Price Index (PPI) data and a higher-than-expected weekly Jobless Claims print trimmed bets on further Federal Reserve (Fed) tightening.\n\nhttps://www.fxstreet.com/news/forex-today-us-dollar-holds-steady-ahead-of-us-retail-sales-202608132001",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/forex-today-us-dollar-holds-steady-ahead-of-us-retail-sales-202608132001",
-    "source_title": "Forex Today: US Dollar holds steady ahead of US Retail Sales",
-    "source_summary": "The US Dollar (USD) has softened with the US Dollar Index (DXY) slipping back below the 100.00 mark after Thursday's lower-than-expected Producer Price Index (PPI) data and a higher-than-expected weekly Jobless Claims print trimmed bets on further Federal Reserve (Fed) tightening.",
-    "drafted_at": "2026-08-13T22:29:44.213907",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "84b5324a4f62dcbb"
-  },
-  {
-    "id": "9798a618",
+    "id": "4a3fce0a",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "The CPI scoreboard: Peter Navarro, RealClear One day after July's CPI report told the Fed hawks to stand down, today's Producer Price Index delivered the same broad message...\n\nhttps://www.realclearmarkets.com/2026/08/13/ppi_confirms_cpi_tells_fed_to_not_invent_inflation_crisis_1200203.html",
@@ -534,14 +549,14 @@
     "source_url": "https://www.realclearmarkets.com/2026/08/13/ppi_confirms_cpi_tells_fed_to_not_invent_inflation_crisis_1200203.html",
     "source_title": "PPI Confirms CPI, Tells Fed to Not Invent Inflation Crisis",
     "source_summary": "Peter Navarro, RealClear One day after July's CPI report told the Fed hawks to stand down, today's Producer Price Index delivered the same broad message...",
-    "drafted_at": "2026-08-13T22:29:44.214123",
+    "drafted_at": "2026-08-13T23:30:24.753227",
     "data": {
       "source": "REALCLEAR"
     },
     "content_hash": "4282b7eaca09a45e"
   },
   {
-    "id": "2f434fb9",
+    "id": "b3f9b99a",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "Affordability scoreboard: The average 30 year fixed rate mortgage fell to 6.67% from 6.69% last week.\n\nA year ago the 30 year yield was at 6.58%.\n\nMortgage rates aren't set directly by the Fed; they are driven primarily by mortgage-backed securities, which tend to move with longer-term Treasury yields, particularly the 10-year.\n\nThe 10 year yield last Thurday was at 4.676%.\n\nThe current 10 year is at 4.643% but is down from a high close from Monday near 4.71%.\n\nWith yesterday's CPI followed by today's softer-than-expected PPI, inflation pressure looks somewhat less threatening.\n\nIf that bond-market rally holds, it creates an opportunity for 30-year mortgage rates to move lower from the current 6.67% level.\n\nFor perspective, rates briefly fell below 6% earlier this year\u2014Freddie Mac noted a 5.98% low during Q1\u2014before moving back above 6%.\n\nhttps://investinglive.com/news/us-30-year-average-mortgage-rate-averages-6-67-vs-6-69-last-week/",
@@ -551,14 +566,14 @@
     "source_url": "https://investinglive.com/news/us-30-year-average-mortgage-rate-averages-6-67-vs-6-69-last-week/",
     "source_title": "US 30 year average mortgage rate averages 6.67% vs 6.69% last week.",
     "source_summary": "The average 30 year fixed rate mortgage fell to 6.67% from 6.69% last week. A year ago the 30 year yield was at 6.58%. Mortgage rates aren't set directly by the Fed; they are driven primarily by mortgage-backed securities, which tend to move with longer-term Treasury yields, particularly the 10-year. The 10 year yield last Thurday was at 4.676%. The current 10 year is at 4.643% but is down from a ",
-    "drafted_at": "2026-08-13T22:29:44.215375",
+    "drafted_at": "2026-08-13T23:30:24.754508",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "eb90d5f4aeb1fa8f"
   },
   {
-    "id": "e61f071e",
+    "id": "69834c71",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -568,7 +583,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-08-13T22:29:44.219472",
+    "drafted_at": "2026-08-13T23:30:24.756522",
     "data": {
       "manual": true,
       "via": "manual_news.md"
