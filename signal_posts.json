@@ -28,18 +28,18 @@
     "fired_at": "2026-08-14T03:22:40.960554"
   },
   "^GSPC:high:2026-08-13": {
-    "headline": "S&P 500 just hit 7,812.97 \u2014 highest in 9+ years",
+    "headline": "S&P 500 just hit 7,798.99 \u2014 highest in 9+ years",
     "matters": "The benchmark of U.S. equities. Watched globally as the proxy for risk-on / risk-off.",
     "source": "Yahoo Finance \u00b7 ^GSPC",
     "chart_path": null,
     "signal_id": "^GSPC:high:2026-08-13",
-    "current_str": "7,812.97",
+    "current_str": "7,798.99",
     "label": "S&P 500",
     "hashtags": "#SPX #SP500 #Stocks #Markets",
     "kind": "high",
     "badge": "9Y HIGH",
     "data_url": "https://finance.yahoo.com/quote/%5EGSPC",
-    "fired_at": "2026-08-13T14:23:09.256880"
+    "fired_at": "2026-08-14T08:56:51.538099"
   },
   "GC=F:move:2026-08-14": {
     "headline": "Gold climbs 6.9% in 5 sessions to $4,376.80",
@@ -68,5 +68,19 @@
     "badge": "+7.3%",
     "data_url": "https://finance.yahoo.com/quote/CL%3DF",
     "fired_at": "2026-08-14T05:23:32.865796"
+  },
+  "^VIX:move:2026-08-14": {
+    "headline": "VIX tumbles 11.4% in 5 sessions to 14.62",
+    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "source": "CBOE \u00b7 ^VIX",
+    "chart_path": null,
+    "signal_id": "^VIX:move:2026-08-14",
+    "current_str": "14.62",
+    "label": "VIX (S&P 500 volatility)",
+    "hashtags": "#VIX #Volatility #Markets",
+    "kind": "move_down",
+    "badge": "-11.4%",
+    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "fired_at": "2026-08-14T08:56:51.538099"
   }
 }
