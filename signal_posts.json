@@ -1,17 +1,31 @@
 {
+  "^VIX:move:2026-08-14": {
+    "headline": "VIX tumbles 13.6% in 5 sessions to 14.25",
+    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "source": "CBOE \u00b7 ^VIX",
+    "chart_path": null,
+    "signal_id": "^VIX:move:2026-08-14",
+    "current_str": "14.25",
+    "label": "VIX (S&P 500 volatility)",
+    "hashtags": "#VIX #Volatility #Markets",
+    "kind": "move_down",
+    "badge": "-13.6%",
+    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "fired_at": "2026-08-16T22:09:39.453537"
+  },
   "GC=F:move:2026-08-14": {
-    "headline": "Gold climbs 7.0% in 5 sessions to $4,380.40",
+    "headline": "Gold jumps 8.3% in 5 sessions to $4,437.30",
     "matters": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
     "source": "COMEX \u00b7 GC=F",
     "chart_path": null,
     "signal_id": "GC=F:move:2026-08-14",
-    "current_str": "$4,380.40",
+    "current_str": "$4,437.30",
     "label": "Gold futures",
     "hashtags": "#Gold #PreciousMetals #Commodities",
     "kind": "move_up",
-    "badge": "+7.0%",
+    "badge": "+8.3%",
     "data_url": "https://finance.yahoo.com/quote/GC%3DF",
-    "fired_at": "2026-08-15T22:09:14.735350"
+    "fired_at": "2026-08-16T22:09:39.453537"
   },
   "CL=F:move:2026-08-14": {
     "headline": "WTI crude jumps 8.8% in 5 sessions to $82.40",
@@ -25,20 +39,6 @@
     "kind": "move_up",
     "badge": "+8.8%",
     "data_url": "https://finance.yahoo.com/quote/CL%3DF",
-    "fired_at": "2026-08-15T22:09:14.735350"
-  },
-  "^VIX:move:2026-08-14": {
-    "headline": "VIX tumbles 13.6% in 5 sessions to 14.25",
-    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "source": "CBOE \u00b7 ^VIX",
-    "chart_path": null,
-    "signal_id": "^VIX:move:2026-08-14",
-    "current_str": "14.25",
-    "label": "VIX (S&P 500 volatility)",
-    "hashtags": "#VIX #Volatility #Markets",
-    "kind": "move_down",
-    "badge": "-13.6%",
-    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "fired_at": "2026-08-15T22:09:14.735350"
+    "fired_at": "2026-08-16T22:09:39.453537"
   }
 }
