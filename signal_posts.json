@@ -26,5 +26,19 @@
     "badge": "+9.1%",
     "data_url": "https://finance.yahoo.com/quote/CL%3DF",
     "fired_at": "2026-08-18T04:24:17.040338"
+  },
+  "^VIX:move:2026-08-14": {
+    "headline": "VIX tumbles 13.6% in 5 sessions to 14.25",
+    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "source": "CBOE \u00b7 ^VIX",
+    "chart_path": null,
+    "signal_id": "^VIX:move:2026-08-14",
+    "current_str": "14.25",
+    "label": "VIX (S&P 500 volatility)",
+    "hashtags": "#VIX #Volatility #Markets",
+    "kind": "move_down",
+    "badge": "-13.6%",
+    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "fired_at": "2026-08-18T05:19:19.216295"
   }
 }
