@@ -1,23 +1,42 @@
 [
   {
-    "id": "108f58f6",
+    "id": "acc44f55",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "Oil edges higher as Iranian attacks on ships in Strait of Hormuz without U.S. response rise\n\nhttps://seekingalpha.com/news/4634591-oil-edges-higher-as-iranian-attacks-on-ships-in-strait-of-hormuz-without-us-response-rise?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "draft_text": "The USD/JPY pair edges lower to around 159.45 during the Asian trading hours on Wednesday.\n\nThe Japanese Yen (JPY) strengthens against the US Dollar (USD) as market expectations grow for another interest rate hike by the Bank of Japan (BoJ).\n\nhttps://www.fxstreet.com/news/japanese-yen-gains-ground-as-boj-rate-hike-bets-rise-202608190229",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "SEEKING ALPHA",
-    "source_url": "https://seekingalpha.com/news/4634591-oil-edges-higher-as-iranian-attacks-on-ships-in-strait-of-hormuz-without-us-response-rise?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-    "source_title": "Oil edges higher as Iranian attacks on ships in Strait of Hormuz without U.S. response rise",
-    "source_summary": "",
-    "drafted_at": "2026-08-19T02:11:05.765722",
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/japanese-yen-gains-ground-as-boj-rate-hike-bets-rise-202608190229",
+    "source_title": "Japanese Yen gains ground as BoJ rate hike bets rise",
+    "source_summary": "The USD/JPY pair edges lower to around 159.45 during the Asian trading hours on Wednesday. The Japanese Yen (JPY) strengthens against the US Dollar (USD) as market expectations grow for another interest rate hike by the Bank of Japan (BoJ).",
+    "drafted_at": "2026-08-19T03:37:39.951717",
     "data": {
-      "source": "SEEKING ALPHA"
+      "source": "FXSTREET"
     },
-    "content_hash": "3cef3d20abaf9460"
+    "content_hash": "c530a1a39d389ba5"
   },
   {
-    "id": "5a03f097",
+    "id": "cb294954",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Nobody on TV said this today. VIX climbs 6.3% in 5 sessions to 15.84.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CBOE \u00b7 ^VIX",
+    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "source_title": "VIX (S&P 500 volatility)",
+    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "drafted_at": "2026-08-19T03:37:39.952023",
+    "data": {
+      "signal_id": "^VIX:move:2026-08-18",
+      "kind": "move_up",
+      "current": "15.84"
+    },
+    "content_hash": "995f4d67e7e875d2"
+  },
+  {
+    "id": "0f4ba1f1",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Read this twice. WTI crude jumps 8.7% in 5 sessions to $84.98.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
@@ -27,7 +46,7 @@
     "source_url": "https://finance.yahoo.com/quote/CL%3DF",
     "source_title": "WTI crude oil futures",
     "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-08-19T02:11:05.766006",
+    "drafted_at": "2026-08-19T03:37:39.952282",
     "data": {
       "signal_id": "CL=F:move:2026-08-19",
       "kind": "move_up",
@@ -36,7 +55,7 @@
     "content_hash": "c272de0720a2f459"
   },
   {
-    "id": "ca419305",
+    "id": "fff94fd9",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "The market did a thing: WTI crude jumps 8.0% in 5 sessions to $84.47.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
@@ -46,7 +65,7 @@
     "source_url": "https://finance.yahoo.com/quote/CL%3DF",
     "source_title": "WTI crude oil futures",
     "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-08-19T02:11:05.766223",
+    "drafted_at": "2026-08-19T03:37:39.952520",
     "data": {
       "signal_id": "CL=F:move:2026-08-18",
       "kind": "move_up",
@@ -55,26 +74,7 @@
     "content_hash": "c272de0720a2f459"
   },
   {
-    "id": "c3f0d9cb",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "Nobody on TV said this today. VIX jumps 7.9% in 5 sessions to 16.08.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CBOE \u00b7 ^VIX",
-    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "source_title": "VIX (S&P 500 volatility)",
-    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-08-19T02:11:05.766445",
-    "data": {
-      "signal_id": "^VIX:move:2026-08-18",
-      "kind": "move_up",
-      "current": "16.08"
-    },
-    "content_hash": "995f4d67e7e875d2"
-  },
-  {
-    "id": "796e407f",
+    "id": "ec897cca",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "I'll keep it short: VIX tumbles 13.6% in 5 sessions to 14.25.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
@@ -84,7 +84,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EVIX",
     "source_title": "VIX (S&P 500 volatility)",
     "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-08-19T02:11:05.766670",
+    "drafted_at": "2026-08-19T03:37:39.952779",
     "data": {
       "signal_id": "^VIX:move:2026-08-14",
       "kind": "move_down",
@@ -93,41 +93,58 @@
     "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "11664653",
+    "id": "7ec5628a",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "FOMC desk: The NZD/USD pair is seen extending this week's retracement slide from the 0.5925 area, or the highest since June 3, and drifting lower for the second straight day on Wednesday.\n\nhttps://www.fxstreet.com/news/new-zealand-dollar-declines-to-weekly-low-as-usd-holds-firm-ahead-of-fomc-minutes-202608190145",
+    "draft_text": "POWELL POSTCARD: Gold (XAU/USD) rebounds from the weekly low, which it touched during the Asian session on Wednesday, and climbs above $4,350 in the last hour.\n\nhttps://www.fxstreet.com/news/gold-recovers-from-weekly-low-as-usd-softens-ahead-of-fomc-minutes-202608190336",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOMC",
-    "source_url": "https://www.fxstreet.com/news/new-zealand-dollar-declines-to-weekly-low-as-usd-holds-firm-ahead-of-fomc-minutes-202608190145",
-    "source_title": "New Zealand Dollar declines to weekly low as USD holds firm ahead of FOMC Minutes",
-    "source_summary": "The NZD/USD pair is seen extending this week's retracement slide from the 0.5925 area, or the highest since June 3, and drifting lower for the second straight day on Wednesday.",
-    "drafted_at": "2026-08-19T02:11:05.776498",
+    "source_url": "https://www.fxstreet.com/news/gold-recovers-from-weekly-low-as-usd-softens-ahead-of-fomc-minutes-202608190336",
+    "source_title": "Gold recovers from weekly low as USD softens ahead of FOMC Minutes",
+    "source_summary": "Gold (XAU/USD) rebounds from the weekly low, which it touched during the Asian session on Wednesday, and climbs above $4,350 in the last hour.",
+    "drafted_at": "2026-08-19T03:37:39.963087",
     "data": {
       "actor": "FOMC"
     },
-    "content_hash": "6d2f4a6da49a9289"
+    "content_hash": "b4df7be2a17997aa"
   },
   {
-    "id": "6cdbd105",
+    "id": "15ef9b1d",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "FOMC update. The USD/CAD pair struggles to capitalize on this week's modest recovery from its lowest level since June 3 and oscillates in a range around the 1.3900 mark during the Asian session on Wednesday.\n\nhttps://www.fxstreet.com/news/canadian-dollar-consolidates-near-13900-vs-usd-ahead-of-us-tariffs-deadline-fomc-minutes-202608190116",
+    "draft_text": "JAPAN POLICY READ: The USD/JPY pair edges lower to around 159.45 during the Asian trading hours on Wednesday.\n\nThe Japanese Yen (JPY) strengthens against the US Dollar (USD) as market expectations grow for another interest rate hike by the Bank of Japan (BoJ).\n\nhttps://www.fxstreet.com/news/japanese-yen-gains-ground-as-boj-rate-hike-bets-rise-202608190229",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FOMC",
-    "source_url": "https://www.fxstreet.com/news/canadian-dollar-consolidates-near-13900-vs-usd-ahead-of-us-tariffs-deadline-fomc-minutes-202608190116",
-    "source_title": "Canadian Dollar consolidates near 1.3900 vs USD ahead of US tariffs deadline, FOMC Minutes",
-    "source_summary": "The USD/CAD pair struggles to capitalize on this week's modest recovery from its lowest level since June 3 and oscillates in a range around the 1.3900 mark during the Asian session on Wednesday.",
-    "drafted_at": "2026-08-19T02:11:05.776787",
+    "primary_source": "BoJ",
+    "source_url": "https://www.fxstreet.com/news/japanese-yen-gains-ground-as-boj-rate-hike-bets-rise-202608190229",
+    "source_title": "Japanese Yen gains ground as BoJ rate hike bets rise",
+    "source_summary": "The USD/JPY pair edges lower to around 159.45 during the Asian trading hours on Wednesday. The Japanese Yen (JPY) strengthens against the US Dollar (USD) as market expectations grow for another interest rate hike by the Bank of Japan (BoJ).",
+    "drafted_at": "2026-08-19T03:37:39.963440",
     "data": {
-      "actor": "FOMC"
+      "actor": "BoJ"
     },
-    "content_hash": "8dd50183966e3218"
+    "content_hash": "c530a1a39d389ba5"
   },
   {
-    "id": "74307040",
+    "id": "3c256f27",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "POWELL POSTCARD: Kevin Warsh is sticking to his guns, and that could mean vastly more uncertainty for some companies.\n\nhttps://www.fool.com/investing/2026/08/18/fed-chair-kevin-warsh-testified-to-congress-that-t/?source=iedfolrf0000001",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Fed",
+    "source_url": "https://www.fool.com/investing/2026/08/18/fed-chair-kevin-warsh-testified-to-congress-that-t/?source=iedfolrf0000001",
+    "source_title": "Fed Chair Kevin Warsh Testified to Congress That the Fed Has \"Only a Target, and It's 2%,\" Rejecting Any Soft Inflation Goal. What Does That Mean for Rate-Sensitive Stocks?",
+    "source_summary": "Kevin Warsh is sticking to his guns, and that could mean vastly more uncertainty for some companies.",
+    "drafted_at": "2026-08-19T03:37:39.963618",
+    "data": {
+      "actor": "Fed"
+    },
+    "content_hash": "7625952a40c3ab7b"
+  },
+  {
+    "id": "209d1f25",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Powell on the wire. It addresses unnecessary applications of the rule to passive interests in companies held by investment funds, codifies other statutory requirements, incorporates long-standing regulatory interpretations, and simplifies the application of the rule.\n\nRegulation O has not been comprehensively updated since 1979.\n\nThe rule addresses a unique challenge for community banks, where board members and executives are often local business owners and civic leaders who provide valuable perspective and expertise to bank governance and information on the local economy.\n\nThe proposal updates dollar-based thresholds and indexes them to economic growth going forward.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731b.htm",
@@ -137,14 +154,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731b.htm",
     "source_title": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"\u2014bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
     "source_summary": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"\u2014bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
-    "drafted_at": "2026-08-19T02:11:05.778072",
+    "drafted_at": "2026-08-19T03:37:39.964978",
     "data": {
       "actor": "FED"
     },
     "content_hash": "4057886fa20ad5ad"
   },
   {
-    "id": "e93a5580",
+    "id": "ff13b4bd",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FOMC update. The Board assumed regulatory and supervisory authority over mutual banks from the Office of Thrift Supervision in 2011.\n\nThe rules governing these banks were first established in 1993.\n\nThey have not been updated and have proven over time to be overly burdensome and complex.\n\n\"Today's proposal is another important step in our work to modernize the bank regulatory framework by updating mutual bank regulations for the first time in 30 years.\n\nThe continued success of this model contributes to the institutional diversity of the U.S. banking system, which is one of the greatest strengths of our financial system,\" said Vice Chair for Supervision Michelle W.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731a.htm",
@@ -154,14 +171,94 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731a.htm",
     "source_title": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
     "source_summary": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
-    "drafted_at": "2026-08-19T02:11:05.779135",
+    "drafted_at": "2026-08-19T03:37:39.966092",
     "data": {
       "actor": "FED"
     },
     "content_hash": "1672ee5ef82f19a2"
   },
   {
-    "id": "3a5d91c3",
+    "id": "becee2ed",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$PNAQ \u2014 6 company insiders bought $29.8M on Aug 10.\n\nPinnacle Acquisition Corp. 2,980,000 shares at $10.00.\n\nStock is +0.0% since the purchase. This is a public SEC Form 4 filing.\n\nhttp://openinsider.com/screener?s=PNAQ",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=PNAQ",
+    "source_title": "Pinnacle Acquisition Corp (PNAQ) insider bought $29.8M",
+    "source_summary": "6 insider(s) bought 2,980,000 shares at $10.00 on 2026-08-10.",
+    "drafted_at": "2026-08-19T03:37:39.966316",
+    "data": {
+      "ticker": "PNAQ",
+      "type": "P",
+      "dollar_value": 29800000.0,
+      "pct_since": 0
+    },
+    "content_hash": "d3949b99cfe271b1"
+  },
+  {
+    "id": "b7d4ca1f",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$BLSM \u2014 5 company insiders bought $25.2M on Aug 07.\n\nBlossomhill Therapeutics, Inc. 1,573,200 shares at $16.00.\n\nStock is +0.6% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/BLSM_P_20260807.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=BLSM",
+    "source_title": "Blossomhill Therapeutics, Inc. (BLSM) insider bought $25.2M",
+    "source_summary": "5 insider(s) bought 1,573,200 shares at $16.00 on 2026-08-07.",
+    "drafted_at": "2026-08-19T03:37:39.966548",
+    "data": {
+      "ticker": "BLSM",
+      "type": "P",
+      "dollar_value": 25170700.0,
+      "pct_since": 0.625002384185791
+    },
+    "content_hash": "e682db7016944cbc"
+  },
+  {
+    "id": "2c1c7b0a",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$GLIBK \u2014 2 company insiders bought $15.0M on Aug 10.\n\nLiberty Capital Corp/Nv. 609,732 shares at $24.56.\n\nStock is +5.9% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/GLIBK_P_20260810.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=GLIBK",
+    "source_title": "Liberty Capital Corp/Nv (GLIBK) insider bought $15.0M",
+    "source_summary": "2 insider(s) bought 609,732 shares at $24.56 on 2026-08-10.",
+    "drafted_at": "2026-08-19T03:37:39.966770",
+    "data": {
+      "ticker": "GLIBK",
+      "type": "P",
+      "dollar_value": 14977997.0,
+      "pct_since": 5.944627271024728
+    },
+    "content_hash": "c4587428e1c4127c"
+  },
+  {
+    "id": "0c848690",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$ACDC \u2014 2 company insiders bought $4.0M on Aug 10.\n\nProfrac Holding Corp. 800,000 shares at $5.02.\n\nStock is +1.4% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/ACDC_P_20260810.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=ACDC",
+    "source_title": "Profrac Holding Corp. (ACDC) insider bought $4.0M",
+    "source_summary": "2 insider(s) bought 800,000 shares at $5.02 on 2026-08-10.",
+    "drafted_at": "2026-08-19T03:37:39.966963",
+    "data": {
+      "ticker": "ACDC",
+      "type": "P",
+      "dollar_value": 4018492.0,
+      "pct_since": 1.3944253503563957
+    },
+    "content_hash": "790e43b63574a76e"
+  },
+  {
+    "id": "51d22491",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$MLPT \u2014 a company insider bought $50.1M on Aug 14.\n\nMaplight Therapeutics, Inc. 4,400,000 shares at $11.38.\n\nStock is +0.0% since the purchase. This is a public SEC Form 4 filing.\n\nhttp://openinsider.com/screener?s=MLPT",
@@ -171,7 +268,7 @@
     "source_url": "http://openinsider.com/screener?s=MLPT",
     "source_title": "Maplight Therapeutics, Inc. (MLPT) insider bought $50.1M",
     "source_summary": "1 insider(s) bought 4,400,000 shares at $11.38 on 2026-08-14.",
-    "drafted_at": "2026-08-19T02:11:05.779374",
+    "drafted_at": "2026-08-19T03:37:39.967135",
     "data": {
       "ticker": "MLPT",
       "type": "P",
@@ -181,87 +278,7 @@
     "content_hash": "8a98ee949fe997d9"
   },
   {
-    "id": "9fe41fd4",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$PFE \u2014 3 company insiders bought $3.0M on Aug 12.\n\nPfizer Inc. 114,863 shares at $25.77.\n\nStock is +5.7% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/PFE_P_20260812.png",
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=PFE",
-    "source_title": "Pfizer Inc (PFE) insider bought $3.0M",
-    "source_summary": "3 insider(s) bought 114,863 shares at $25.77 on 2026-08-12.",
-    "drafted_at": "2026-08-19T02:11:05.779622",
-    "data": {
-      "ticker": "PFE",
-      "type": "P",
-      "dollar_value": 2960110.0,
-      "pct_since": 5.743112145906094
-    },
-    "content_hash": "7c090727171685a1"
-  },
-  {
-    "id": "2ff53178",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$CDNL \u2014 7 company insiders bought $9.6M on Aug 17.\n\nCardinal Infrastructure Group Inc. 241,597 shares at $39.60.\n\nStock is +14.0% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/CDNL_P_20260817.png",
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=CDNL",
-    "source_title": "Cardinal Infrastructure Group Inc. (CDNL) insider bought $9.6M",
-    "source_summary": "7 insider(s) bought 241,597 shares at $39.60 on 2026-08-17.",
-    "drafted_at": "2026-08-19T02:11:05.779826",
-    "data": {
-      "ticker": "CDNL",
-      "type": "P",
-      "dollar_value": 9567174.0,
-      "pct_since": 13.989897448607161
-    },
-    "content_hash": "3ef1df9bbde6d417"
-  },
-  {
-    "id": "f354fef7",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$RSG \u2014 a company insider bought $76.6M on Aug 14.\n\nRepublic Services, Inc. 356,050 shares at $215.26.\n\nStock is +0.8% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/RSG_P_20260814.png",
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=RSG",
-    "source_title": "Republic Services, Inc. (RSG) insider bought $76.6M",
-    "source_summary": "1 insider(s) bought 356,050 shares at $215.26 on 2026-08-14.",
-    "drafted_at": "2026-08-19T02:11:05.780002",
-    "data": {
-      "ticker": "RSG",
-      "type": "P",
-      "dollar_value": 76643506.0,
-      "pct_since": 0.7943887488168421
-    },
-    "content_hash": "aea9057cfef52870"
-  },
-  {
-    "id": "ca821c84",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$MOBI \u2014 a company insider bought $797,173 on Aug 13.\n\nMobia Medical, Inc. 68,559 shares at $11.63.\n\nStock is +3.7% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/MOBI_P_20260813.png",
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=MOBI",
-    "source_title": "Mobia Medical, Inc. (MOBI) insider bought $797,173",
-    "source_summary": "1 insider(s) bought 68,559 shares at $11.63 on 2026-08-13.",
-    "drafted_at": "2026-08-19T02:11:05.780170",
-    "data": {
-      "ticker": "MOBI",
-      "type": "P",
-      "dollar_value": 797173.0,
-      "pct_since": 3.6973380878477937
-    },
-    "content_hash": "7b1d0f3734ea1213"
-  },
-  {
-    "id": "0a8efeb1",
+    "id": "d82f604e",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Top Fauci Ally Pleads Guilty to Conspiracy to Defraud the United States\n\nhttps://townhall.com/news/josephchalfant/2026/08/18/top-fauci-ally-pleads-guilty-to-conspiracy-to-defraud-the-united-states-n2681491",
@@ -271,14 +288,14 @@
     "source_url": "https://townhall.com/news/josephchalfant/2026/08/18/top-fauci-ally-pleads-guilty-to-conspiracy-to-defraud-the-united-states-n2681491",
     "source_title": "Top Fauci Ally Pleads Guilty to Conspiracy to Defraud the United States",
     "source_summary": "",
-    "drafted_at": "2026-08-19T02:11:05.783083",
+    "drafted_at": "2026-08-19T03:37:39.970022",
     "data": {
       "source": "TOWNHALL FIN"
     },
     "content_hash": "bc491580e4984c6f"
   },
   {
-    "id": "da07d24d",
+    "id": "75c34db3",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The Office of the Comptroller of the Currency granted conditional approval for the Trump family's World Liberty Trust Co. to become a bank handling cryptocurrency and digital assets.\n\nhttps://www.latimes.com/politics/story/2026-08-18/democrats-seek-to-block-trump-linked-crypto-bank",
@@ -288,14 +305,14 @@
     "source_url": "https://www.latimes.com/politics/story/2026-08-18/democrats-seek-to-block-trump-linked-crypto-bank",
     "source_title": "'Brazen act of self-dealing': Democrats seek to block a Trump-linked crypto bank",
     "source_summary": "The Office of the Comptroller of the Currency granted conditional approval for the Trump family's World Liberty Trust Co. to become a bank handling cryptocurrency and digital assets.",
-    "drafted_at": "2026-08-19T02:11:05.783300",
+    "drafted_at": "2026-08-19T03:37:39.970260",
     "data": {
       "source": "LA TIMES"
     },
     "content_hash": "7e81c5a1a1638adb"
   },
   {
-    "id": "fe0dcb20",
+    "id": "ada660ed",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The SEC accuses a Long Island firm of running a $74 million boiler room that sold retirees marked-up shares in Anduril, Anthropic, Perplexity, and SpaceX.\n\nhttps://fortune.com/2026/08/18/ai-gets-its-own-boiler-room-scandal/",
@@ -305,14 +322,14 @@
     "source_url": "https://fortune.com/2026/08/18/ai-gets-its-own-boiler-room-scandal/",
     "source_title": "AI gets its own \u201cboiler room\u201d scandal",
     "source_summary": "The SEC accuses a Long Island firm of running a $74 million boiler room that sold retirees marked-up shares in Anduril, Anthropic, Perplexity, and SpaceX.",
-    "drafted_at": "2026-08-19T02:11:05.783503",
+    "drafted_at": "2026-08-19T03:37:39.970464",
     "data": {
       "source": "FORTUNE"
     },
     "content_hash": "46145541b330934b"
   },
   {
-    "id": "a4bb0594",
+    "id": "6b12d2a4",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The allegations, which are at the heart of a confidential arbitration, signal an aggressive new stance by the Central Asian country toward longstanding international partners.\n\nhttps://www.icij.org/investigations/caspian-cabals/kazakhstan-alleges-big-oil-corruption-tainted-10-7-billion-in-contracts-delayed-key-oil-project/",
@@ -322,14 +339,14 @@
     "source_url": "https://www.icij.org/investigations/caspian-cabals/kazakhstan-alleges-big-oil-corruption-tainted-10-7-billion-in-contracts-delayed-key-oil-project/",
     "source_title": "Kazakhstan alleges Big Oil corruption tainted $10.7 billion in contracts, delayed key oil project",
     "source_summary": "The allegations, which are at the heart of a confidential arbitration, signal an aggressive new stance by the Central Asian country toward longstanding international partners.",
-    "drafted_at": "2026-08-19T02:11:05.783699",
+    "drafted_at": "2026-08-19T03:37:39.970701",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "7a4f2a9afcac6e3a"
   },
   {
-    "id": "0ac0ab6e",
+    "id": "b175bd75",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The post Fiasco in the Factory: Taxpayers Funded a $533 Million Artillery Plant That Made Nothing appeared first on ProPublica.\n\nhttps://www.propublica.org/article/general-dynamics-artillery-factory-failed",
@@ -339,14 +356,14 @@
     "source_url": "https://www.propublica.org/article/general-dynamics-artillery-factory-failed",
     "source_title": "Fiasco in the Factory: Taxpayers Funded a $533 Million Artillery Plant That Made Nothing",
     "source_summary": "The post Fiasco in the Factory: Taxpayers Funded a $533 Million Artillery Plant That Made Nothing appeared first on ProPublica .",
-    "drafted_at": "2026-08-19T02:11:05.783855",
+    "drafted_at": "2026-08-19T03:37:39.970880",
     "data": {
       "source": "PROPUBLICA"
     },
     "content_hash": "edb11f5d5c7555c4"
   },
   {
-    "id": "a3bdb651",
+    "id": "ec2656b5",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "6 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 David J. Taylor (R)\n\u2022 John Boozman (R)\n\u2022 Cleo Fields (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 John Fetterman (D)\n\u2022 John McGuire (R)\n\nLargest disclosed here: David J. Taylor, $1,001 - $15,000 on Feb 26.\n\nPrice since the first buy in this group: +23.3%.\n\nSTOCK Act disclosures. Public record.",
@@ -356,7 +373,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034138.pdf",
     "source_title": "6 Congress members bought $MSFT",
     "source_summary": "6 politicians bought $MSFT; largest $1,001 - $15,000 by David J. Taylor.",
-    "drafted_at": "2026-08-19T02:11:05.784736",
+    "drafted_at": "2026-08-19T03:37:39.971807",
     "data": {
       "ticker": "MSFT",
       "member_count": 6,
@@ -365,7 +382,7 @@
     "content_hash": "7c24415ac3c0b542"
   },
   {
-    "id": "89f97e1d",
+    "id": "9eb21e02",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "5 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Markwayne Mullin (D)\n\u2022 Josh Gottheimer (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Markwayne Mullin, $50,001 - $100,000 on Feb 25.\n\nPrice since the first buy in this group: +49.6%.\n\nSTOCK Act disclosures. Public record.",
@@ -375,7 +392,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/f586922d-6083-44e5-8a32-769290389416/",
     "source_title": "5 Congress members bought $UNH",
     "source_summary": "5 politicians bought $UNH; largest $50,001 - $100,000 by Markwayne Mullin.",
-    "drafted_at": "2026-08-19T02:11:05.785084",
+    "drafted_at": "2026-08-19T03:37:39.972151",
     "data": {
       "ticker": "UNH",
       "member_count": 5,
@@ -384,7 +401,7 @@
     "content_hash": "7cbacf41d412a41b"
   },
   {
-    "id": "1011012d",
+    "id": "a32757b6",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Markwayne Mullin (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Markwayne Mullin, $50,001 - $100,000 on Feb 25.\n\nPrice since the first buy in this group: +39.3%.\n\nSTOCK Act disclosures. Public record.",
@@ -394,7 +411,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/f586922d-6083-44e5-8a32-769290389416/",
     "source_title": "4 Congress members bought $UNH",
     "source_summary": "4 politicians bought $UNH; largest $50,001 - $100,000 by Markwayne Mullin.",
-    "drafted_at": "2026-08-19T02:11:05.785396",
+    "drafted_at": "2026-08-19T03:37:39.972469",
     "data": {
       "ticker": "UNH",
       "member_count": 4,
@@ -403,7 +420,7 @@
     "content_hash": "029ae5a8d0ca395b"
   },
   {
-    "id": "9d7c88c2",
+    "id": "660a6291",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Richard Dean Dr McCormick, $1,001 - $15,000 on Mar 19.\n\nPrice since the first buy in this group: +40.5%.\n\nSTOCK Act disclosures. Public record.",
@@ -413,7 +430,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033648.pdf",
     "source_title": "3 Congress members bought $UNH",
     "source_summary": "3 politicians bought $UNH; largest $1,001 - $15,000 by Richard Dean Dr McCormick.",
-    "drafted_at": "2026-08-19T02:11:05.785707",
+    "drafted_at": "2026-08-19T03:37:39.972793",
     "data": {
       "ticker": "UNH",
       "member_count": 3,
@@ -422,7 +439,7 @@
     "content_hash": "ef6027c31bcd522a"
   },
   {
-    "id": "1f801007",
+    "id": "832563ac",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $LLY this year \u2014 and these filings don't show them selling:\n\n\u2022 David J. Taylor (R)\n\u2022 Byron Donalds (R)\n\u2022 Gilbert Cisneros (D)\n\nLargest disclosed here: David J. Taylor, $1,001 - $15,000 on Feb 26.\n\nPrice since the first buy in this group: +19.4%.\n\nSTOCK Act disclosures. Public record.",
@@ -432,7 +449,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034138.pdf",
     "source_title": "3 Congress members bought $LLY",
     "source_summary": "3 politicians bought $LLY; largest $1,001 - $15,000 by David J. Taylor.",
-    "drafted_at": "2026-08-19T02:11:05.785982",
+    "drafted_at": "2026-08-19T03:37:39.973080",
     "data": {
       "ticker": "LLY",
       "member_count": 3,
@@ -441,126 +458,92 @@
     "content_hash": "563c1444106a5429"
   },
   {
-    "id": "eec85819",
+    "id": "150811f3",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Mainland wire: In the highly anticipated initial public offering (IPO), the firm's shares opened at 1,100 yuan (\u00a3120.60; $163.12), well above the 150.8 yuan offer price.\n\nThe world's biggest humanoid robot maker Unitree Robotics made its stock market debut in Shanghai on Wednesday, with its shares soaring by more than 600%.\n\nThe listing on the tech-focused Star Market - which is widely known as China's Nasdaq - marks a milestone for Beijing's ambitious plans for the country's robotics industry.\n\nIt comes as the US and China are locked in a battle to dominate the global market for robots and artificial intelligence (AI) models that power them.\n\nhttps://www.bbc.co.uk/news/articles/c0qv4w9492zo?at_medium=RSS&at_campaign=rss",
+    "draft_text": "PACK BRIEFING \u2014 CHINA: RBA dep Gov Hauser says inflation is too high, monetary policy needs to bring it down China eases limits on Nvidia H200 chips as AI race escalates, FT reports Trump pauses 50% Canada tariffs for 'three day period' UAE-Iran trade halt more significant than US embargo, ex-official says Australia Q2 2026 Wage price Index +0.8% q/q (expected +0.8%) PBOC sets USD/ CNY mid-point today at 6.7854 (vs. estimate at 6.7421) Update: Oil extends gains to fourth day as Hormuz fighting drags on South Korea stock market halt called already as Kospi plunges Japan June Machine Orders +16.9% y/y (expected +10.8%) Canada, US race against midnight tariff deadline as talks continue Fund managers pile into stocks, BofA finds.\n\nFund manager bullishness near four-year high New Zealand Q2 2026 producer price index rises Iraq backs new oil export routes to bypass Hormuz Gulf bottleneck Preview: What to watch as July FOMC minutes drop Wednesday Mizuho sees BOJ hiking rates faster as weak yen fuels inflation risk Iran rejects UAE missile accusation, warns against unfounded claims Oil catch up - prices hit three-week high as Iran vows offensive stance, denies UAE missile claim Oil: Private survey of inventory shows headline crude oil draw and huge diesel draw UAE halts all trade and financial dealings with Iran, MoFA official says Trump is weighing whether to grant Canada a tariff reprieve - Politico investingLive Americas FX news wrap: US data mixed as Iran headlines and Canada tariffs dominate Summary: UAE formally halted all trade, commercial and financial transactions with Iran; MoFA's Afra Al Hameli confirmed the move amid regional escalations Iran's foreign ministry rejected UAE accusations that it fired missiles at the country, calling the claims unfounded France will expel two Iranian diplomats after French embassy staff in Tehran were detained and allegedly intimidated in July Oil extended gains into a fourth session in Asia trade on continued Gulf supply uncertainty South Korea's KOSPI opened down 5%, widening to 6% and triggering a five-minute sidecar halt on program selling; Samsung Electronics and SK Hynix both fell around 7% Japan's Nikkei fell more than 3%, with Tokyo Electron down 4% and Kioxia down 9%; China also opened lower RBA Deputy Governor Andrew Hauser said inflation remains too high and further rate hikes are possible if it doesn't ease, though he does not see a recession, only a slowdown Japan's core machinery orders jumped 9.7% month-on-month in June, well above forecasts and the fastest pace since February; annual orders rose 16.9% Australian wages grew 0.8% in the June quarter as expected, with the annual pace holding at 3.2% The US delayed 50% tariffs on Canadian goods by three days after talks in Washington; Carney says \"substantial progress\" made Beijing is allowing small H200 chip shipments to Chinese tech firms, with ByteDance and Tencent each receiving around 10,000 units, per the FT Joint US-South Korea military drills are set to be cut by about half following a Trump order, South Korean media reported Asian markets sold off sharply on Wednesday as escalating tension between the UAE and Iran, together with a fresh diplomatic rupture involving France, added to an already elevated risk backdrop across the region. the drop followed falls on Wall Street.\n\nThe UAE has formally halted all trade, commercial and financial transactions with Iran, according to Ministry of Foreign Affairs Director of Strategic Communications Afra Al Hameli.\n\nThe move follows the UAE's earlier allegation that Iran launched missiles against the country, an accusation Iran's foreign ministry has firmly rejected, describing the claims as unfounded and pointing to what it characterised as false flag operations attributed to the US and Israel.\n\nAnalysts have separately described the trade suspension as a significant blow to Iran given the scale of Dubai's role in Iranian import markets and its function as a financial channel.\n\nFrance added a further layer to the diplomatic strain, announcing it will expel two Iranian diplomats in the coming days after two French embassy staff in Tehran were detained and allegedly intimidated in July.\n\nAgainst that backdrop, oil extended its gains into a fourth consecutive session in Asian trade, continuing a run driven by ongoing uncertainty over the operational status of the Strait of Hormuz.\n\nEquity markets bore the brunt of the risk-off move.\n\nhttps://investinglive.com/news/investinglive-asia-pacific-market-news-asian-equities-slide-kospi-circuit-breaker/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-asian-equities-slide-kospi-circuit-breaker/",
+    "source_title": "investingLive Asia-Pacific market news: Asian equities slide, KOSPI circuit breaker",
+    "source_summary": "RBA dep Gov Hauser says inflation is too high, monetary policy needs to bring it down China eases limits on Nvidia H200 chips as AI race escalates, FT reports Trump pauses 50% Canada tariffs for 'three day period' UAE-Iran trade halt more significant than US embargo, ex-official says Australia Q2 2026 Wage price Index +0.8% q/q (expected +0.8%) PBOC sets USD/ CNY mid-point today at 6.7854 (vs. est",
+    "drafted_at": "2026-08-19T03:37:39.979156",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "ab8a5a4dc52b7d25"
+  },
+  {
+    "id": "b7b7bcd0",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Mainland wire: In the highly anticipated initial public offering (IPO), the Chinese firm's shares opened at 1,100 yuan (\u00a3120.60; $163.12), before giving up some of the gains to trade at around 900 yuan.\n\nUnitree, officially known as Yushu Technology Co Ltd, was founded in 2016 and now plays a key role in Beijing's ambitions to develop advanced technology.\n\nThe world's biggest humanoid robot maker Unitree Robotics made its stock market debut in Shanghai on Wednesday, with its shares soaring by more than 600% in early trading.\n\nThe listing on the technology-focused Star Market - which is widely known as China's Nasdaq - marks a milestone for Beijing's ambitious plans for the country's robotics industry.\n\nhttps://www.bbc.co.uk/news/articles/c0qv4w9492zo?at_medium=RSS&at_campaign=rss",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "BBC",
     "source_url": "https://www.bbc.co.uk/news/articles/c0qv4w9492zo?at_medium=RSS&at_campaign=rss",
     "source_title": "Chinese robotics giant Unitree soars in stock market debut",
     "source_summary": "Shares in the world's biggest humanoid robot maker started trading on Shanghai's Star market on Wednesday.",
-    "drafted_at": "2026-08-19T02:11:05.788082",
+    "drafted_at": "2026-08-19T03:37:39.980452",
     "data": {
       "source": "BBC"
     },
     "content_hash": "b06a9b51e40bddb5"
   },
   {
-    "id": "25bb359c",
+    "id": "7bbfc1a0",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Cross-border read: The incident underscores the potential for hybrid warfare tactics, influencing NATO-Russia dynamics and regional security perceptions.\n\nThe post Estonia investigates possible Russian sabotage at Milrem Robotics facility fire appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/estonia-investigates-possible-russian-sabotage-at-milrem-robotics-facility-fire/",
+    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: Escalating regional tensions may hinder diplomatic efforts and reshape economic alliances, impacting future negotiations and stability.\n\nThe post Israel strikes Lebanon, Syria; UAE halts Iran trade amid tensions appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/israel-strikes-lebanon-syria-uae-halts-iran-trade-amid-tensions/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/estonia-investigates-possible-russian-sabotage-at-milrem-robotics-facility-fire/",
-    "source_title": "Estonia investigates possible Russian sabotage at Milrem Robotics facility fire",
-    "source_summary": "The incident underscores the potential for hybrid warfare tactics, influencing NATO-Russia dynamics and regional security perceptions. The post Estonia investigates possible Russian sabotage at Milrem Robotics facility fire appeared first on Crypto Briefing .",
-    "drafted_at": "2026-08-19T02:11:05.788805",
+    "source_url": "https://cryptobriefing.com/israel-strikes-lebanon-syria-uae-halts-iran-trade-amid-tensions/",
+    "source_title": "Israel strikes Lebanon, Syria; UAE halts Iran trade amid tensions",
+    "source_summary": "Escalating regional tensions may hinder diplomatic efforts and reshape economic alliances, impacting future negotiations and stability. The post Israel strikes Lebanon, Syria; UAE halts Iran trade amid tensions appeared first on Crypto Briefing .",
+    "drafted_at": "2026-08-19T03:37:39.980818",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "b1dc9e30ab184764"
+    "content_hash": "b6105a94f46cab60"
   },
   {
-    "id": "b605b00d",
+    "id": "6484af58",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "World wire: Gold's stability amid geopolitical tensions and bond market shifts highlights its role as a hedge against economic uncertainty and inflation.\n\nThe post Gold faces fresh headwinds from bond rout and Hormuz tensions appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/gold-steadies-bond-rout-hormuz-deadlock/",
+    "draft_text": "From Beijing: 18, 2026 /PRNewswire/ -- The China-based manufacturer \u2014 Wayon Stone, was named China's Top 10 Quartz Stone Brands in 2026.\n\nThis prestigious accolade highlights Wayon's four-decade commitment to material innovation, industrial-scale manufacturing, and its pioneering...\n\nhttps://www.prnewswire.com/news-releases/wayon-stone-named-chinas-top-10-quartz-stone-brands-in-2026-expanding-architectural-surface-solutions-for-global-projects-302854776.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/gold-steadies-bond-rout-hormuz-deadlock/",
-    "source_title": "Gold faces fresh headwinds from bond rout and Hormuz tensions",
-    "source_summary": "Gold's stability amid geopolitical tensions and bond market shifts highlights its role as a hedge against economic uncertainty and inflation. The post Gold faces fresh headwinds from bond rout and Hormuz tensions appeared first on Crypto Briefing .",
-    "drafted_at": "2026-08-19T02:11:05.789319",
+    "primary_source": "PR NEWSWIRE",
+    "source_url": "https://www.prnewswire.com/news-releases/wayon-stone-named-chinas-top-10-quartz-stone-brands-in-2026-expanding-architectural-surface-solutions-for-global-projects-302854776.html",
+    "source_title": "Wayon Stone Named China's Top 10 Quartz Stone Brands in 2026, Expanding Architectural Surface Solutions for Global Projects",
+    "source_summary": "FOSHAN, China, Aug. 18, 2026 /PRNewswire/ -- The China-based manufacturer \u2014 Wayon Stone, was named China's Top 10 Quartz Stone Brands in 2026. This prestigious accolade highlights Wayon's four-decade commitment to material innovation, industrial-scale manufacturing, and its pioneering...",
+    "drafted_at": "2026-08-19T03:37:39.981385",
     "data": {
-      "source": "CRYPTO BRIEFING"
+      "source": "PR NEWSWIRE"
     },
-    "content_hash": "9ff20918d4d27205"
+    "content_hash": "c78d818aff8bdc59"
   },
   {
-    "id": "51019d04",
+    "id": "8639c411",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Gulf wire: The increased scrutiny on financial transfers may strain Saudi-UAE economic ties, complicate regional business operations, and shift financial flows.\n\nThe post Saudi Arabia imposes extra oversight on financial transfers to UAE appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/saudi-arabia-oversight-financial-transfers-uae/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/saudi-arabia-oversight-financial-transfers-uae/",
-    "source_title": "Saudi Arabia imposes extra oversight on financial transfers to UAE",
-    "source_summary": "The increased scrutiny on financial transfers may strain Saudi-UAE economic ties, complicate regional business operations, and shift financial flows. The post Saudi Arabia imposes extra oversight on financial transfers to UAE appeared first on Crypto Briefing .",
-    "drafted_at": "2026-08-19T02:11:05.789677",
-    "data": {
-      "source": "CRYPTO BRIEFING"
-    },
-    "content_hash": "1e692d1d763e4aff"
-  },
-  {
-    "id": "de4b5dd8",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Levant update: West Texas Intermediate (WTI) oil price extends its gains for the fourth consecutive day, trading around $84.80 per barrel during the Asian hours on Wednesday.\n\nhttps://www.fxstreet.com/news/wti-rises-to-near-8500-amid-escalating-us-iran-tensions-202608190123",
+    "draft_text": "APAC wire: The USD/JPY pair edges lower to around 159.45 during the Asian trading hours on Wednesday.\n\nThe Japanese Yen (JPY) strengthens against the US Dollar (USD) as market expectations grow for another interest rate hike by the Bank of Japan (BoJ).\n\nhttps://www.fxstreet.com/news/japanese-yen-gains-ground-as-boj-rate-hike-bets-rise-202608190229",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/wti-rises-to-near-8500-amid-escalating-us-iran-tensions-202608190123",
-    "source_title": "WTI rises to near $85.00 amid escalating US-Iran tensions",
-    "source_summary": "West Texas Intermediate (WTI) oil price extends its gains for the fourth consecutive day, trading around $84.80 per barrel during the Asian hours on Wednesday.",
-    "drafted_at": "2026-08-19T02:11:05.790821",
+    "source_url": "https://www.fxstreet.com/news/japanese-yen-gains-ground-as-boj-rate-hike-bets-rise-202608190229",
+    "source_title": "Japanese Yen gains ground as BoJ rate hike bets rise",
+    "source_summary": "The USD/JPY pair edges lower to around 159.45 during the Asian trading hours on Wednesday. The Japanese Yen (JPY) strengthens against the US Dollar (USD) as market expectations grow for another interest rate hike by the Bank of Japan (BoJ).",
+    "drafted_at": "2026-08-19T03:37:39.982597",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "b1dbdd0d83d473af"
+    "content_hash": "c530a1a39d389ba5"
   },
   {
-    "id": "042b2dae",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "How sticky is inflation? Let's see: The United Kingdom (UK) Office for National Statistics (ONS) will release the high-impact Consumer Price Index (CPI) report for July at 06:00 GMT.\n\nhttps://www.fxstreet.com/news/uk-cpi-set-to-show-inflation-rebounding-to-four-month-high-due-to-higher-energy-bill-202608190200",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/uk-cpi-set-to-show-inflation-rebounding-to-four-month-high-due-to-higher-energy-bill-202608190200",
-    "source_title": "UK CPI set to show inflation rebounding to four-month high due to higher energy bill",
-    "source_summary": "The United Kingdom (UK) Office for National Statistics (ONS) will release the high-impact Consumer Price Index (CPI) report for July at 06:00 GMT.",
-    "drafted_at": "2026-08-19T02:11:05.851368",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "70e4024ce05848c9"
-  },
-  {
-    "id": "62ed609c",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "Inflation update: The GBP/USD pair loses ground to around 1.3535 during the early Asian trading hours on Wednesday.\n\nThe British Pound (GBP) weakens against the US Dollar (USD) amid disappointing UK labour data.\n\nhttps://www.fxstreet.com/news/british-pound-declines-below-13550-on-soft-uk-labour-figures-traders-brace-for-cpi-data-202608190135",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/british-pound-declines-below-13550-on-soft-uk-labour-figures-traders-brace-for-cpi-data-202608190135",
-    "source_title": "British Pound declines below 1.3550 on soft UK labour figures, traders brace for CPI data",
-    "source_summary": "The GBP/USD pair loses ground to around 1.3535 during the early Asian trading hours on Wednesday. The British Pound (GBP) weakens against the US Dollar (USD) amid disappointing UK labour data.",
-    "drafted_at": "2026-08-19T02:11:05.851645",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "b71cdb00805dfa21"
-  },
-  {
-    "id": "fdba6526",
+    "id": "8bd9d24e",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "The CPI scoreboard: Even with the Russian economy suffering from low growth, high inflation, and relentless Ukrainian long-range drone strikes on energy infrastructure, President Vladimir Putin has thrown fiscal caution to the wind and allowed the government\u2019s budget deficit to balloon to 2.8% of GDP.\n\nhttps://www.project-syndicate.org/commentary/russian-economy-facing-stagflation-fiscal-and-financial-instability-by-anders-aslund-2026-08",
@@ -570,14 +553,14 @@
     "source_url": "https://www.project-syndicate.org/commentary/russian-economy-facing-stagflation-fiscal-and-financial-instability-by-anders-aslund-2026-08",
     "source_title": "Putin Has Run Out of Moves",
     "source_summary": "Even with the Russian economy suffering from low growth, high inflation, and relentless Ukrainian long-range drone strikes on energy infrastructure, President Vladimir Putin has thrown fiscal caution to the wind and allowed the government\u2019s budget deficit to balloon to 2.8% of GDP. It isn\u2019t likely to end well.",
-    "drafted_at": "2026-08-19T02:11:05.852079",
+    "drafted_at": "2026-08-19T03:37:40.042528",
     "data": {
       "source": "PROJECT SYND"
     },
     "content_hash": "0b7548c44d113f62"
   },
   {
-    "id": "4e90fbd1",
+    "id": "8b6ae191",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "Scoreboard update: An expected drop in the unemployment rate has failed to materialise, dealing a setback to Andy Burnham\u2019s hopes of reviving Britain\u2019s ailing economy.\n\nUnemployment remained stuck at 4.9pc in the three months to June, while the number of payrolled employees fell by 13,000, according to figures from the Office for National Statistics.\n\nEconomists had predicted that the unemployment rate would ease to 4.8pc.\n\nUnemployment jumped to 5.4pc in June, up from 4.6pc the previous month.\n\nMeanwhile, vacancies dropped to 707,000 in the three months to July \u2013 the lowest level since 2021 \u2013 with a particular strain on entry-level job openings.\n\nhttps://www.telegraph.co.uk/business/2026/08/18/unemployment-uk-economy-jobs-burnham/",
@@ -587,14 +570,14 @@
     "source_url": "https://www.telegraph.co.uk/business/2026/08/18/unemployment-uk-economy-jobs-burnham/",
     "source_title": "Unemployment rate fails to fall for Burnham",
     "source_summary": "Unemployment rate fails to fall for Burnham",
-    "drafted_at": "2026-08-19T02:11:05.853176",
+    "drafted_at": "2026-08-19T03:37:40.043592",
     "data": {
       "source": "TELEGRAPH"
     },
     "content_hash": "c4b0ba3c5fc34102"
   },
   {
-    "id": "f24e7a10",
+    "id": "d8c9508c",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "CPI just printed. InvestorPlace - Stock Market News, Stock Advice & Trading Tips Luke Lango breaks down the earnings that dismantled the peak spending narrative, what the July CPI print means for rates, and why the AI stock buying window reopened.\n\nThe post The AI Stock \u2018Peak Spending\u2019 Panic Just Lost Its \u2018Ehrlich Bet\u2019 appeared first on InvestorPlace.\n\nhttps://investorplace.com/hypergrowthinvesting/2026/08/the-ai-stock-peak-spending-panic-just-lost-its-ehrlich-bet/",
@@ -604,14 +587,48 @@
     "source_url": "https://investorplace.com/hypergrowthinvesting/2026/08/the-ai-stock-peak-spending-panic-just-lost-its-ehrlich-bet/",
     "source_title": "The AI Stock \u2018Peak Spending\u2019 Panic Just Lost Its \u2018Ehrlich Bet\u2019",
     "source_summary": "InvestorPlace - Stock Market News, Stock Advice & Trading Tips Luke Lango breaks down the earnings that dismantled the peak spending narrative, what the July CPI print means for rates, and why the AI stock buying window reopened. The post The AI Stock \u2018Peak Spending\u2019 Panic Just Lost Its \u2018Ehrlich Bet\u2019 appeared first on InvestorPlace .",
-    "drafted_at": "2026-08-19T02:11:05.853672",
+    "drafted_at": "2026-08-19T03:37:40.044072",
     "data": {
       "source": "INVESTORPLACE"
     },
     "content_hash": "d86226964c930293"
   },
   {
-    "id": "095f4342",
+    "id": "06ec1306",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "Scoreboard update: The unemployment rate for young adults with new degrees is higher than the rate for all workers, according to the New York Fed.\n\nIs AI the problem, or is it more complicated?\n\nhttps://www.npr.org/2026/08/18/nx-s1-5910677/recent-college-graduates-employment-job-artificial-intelligence",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NPR",
+    "source_url": "https://www.npr.org/2026/08/18/nx-s1-5910677/recent-college-graduates-employment-job-artificial-intelligence",
+    "source_title": "Many recent grads say AI is making it harder to get a job. Economists aren't so sure",
+    "source_summary": "The unemployment rate for young adults with new degrees is higher than the rate for all workers, according to the New York Fed. Is AI the problem, or is it more complicated?",
+    "drafted_at": "2026-08-19T03:37:40.044377",
+    "data": {
+      "source": "NPR"
+    },
+    "content_hash": "475e9ba4e594bc80"
+  },
+  {
+    "id": "108c9154",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "Consumer scoreboard: China\u2019s economy is showing signs of extending a slowdown with a slump in industrial output and retail sales in July, adding to pressure on Beijing to intervene with measures to support activity.\n\nAfter the world\u2019s second largest economy posted one of its lowest quarterly growth readings on record in the three months to June, the latest figures suggest it continued to falter in July.\n\nFactory output grew 4.5% from a year earlier last month, compared with 5.3% in June, official figures from the National Bureau of Statistics (NBS) showed on Monday, missing a Reuters poll forecast for 4.8% growth.\n\nSeparate figures showed retail sales grew 0.6%, a slowdown from a 1% rise in June despite summer holiday tourism spending.\n\nhttps://www.theguardian.com/business/2026/aug/17/china-economy-slowdown-signs-extending",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "GUARDIAN",
+    "source_url": "https://www.theguardian.com/business/2026/aug/17/china-economy-slowdown-signs-extending",
+    "source_title": "China\u2019s economy showing signs that slowdown may be extending",
+    "source_summary": "Industrial output and retail sales slump in July after one of the country\u2019s weakest quarterly growth rates ever China\u2019s economy is showing signs of extending a slowdown with a slump in industrial output and retail sales in July, adding to pressure on Beijing to intervene with measures to support activity. After the world\u2019s second largest economy posted one of its lowest quarterly growth readings o",
+    "drafted_at": "2026-08-19T03:37:40.045717",
+    "data": {
+      "source": "GUARDIAN"
+    },
+    "content_hash": "1bd001d31f1b6680"
+  },
+  {
+    "id": "de825070",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -621,7 +638,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-08-19T02:11:05.856889",
+    "drafted_at": "2026-08-19T03:37:40.047276",
     "data": {
       "manual": true,
       "via": "manual_news.md"
