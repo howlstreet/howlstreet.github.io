@@ -1,44 +1,44 @@
 {
-  "GC=F:move:2026-08-21": {
-    "headline": "Gold climbs 5.5% in 5 sessions to $4,624.10",
-    "matters": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
-    "source": "COMEX \u00b7 GC=F",
-    "chart_path": null,
-    "signal_id": "GC=F:move:2026-08-21",
-    "current_str": "$4,624.10",
-    "label": "Gold futures",
-    "hashtags": "#Gold #PreciousMetals #Commodities",
-    "kind": "move_up",
-    "badge": "+5.5%",
-    "data_url": "https://finance.yahoo.com/quote/GC%3DF",
-    "fired_at": "2026-08-22T22:10:24.154552"
-  },
-  "BTC-USD:move:2026-08-22": {
-    "headline": "Bitcoin rips 21.6% in 5 sessions to $77,097",
-    "matters": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
-    "source": "Yahoo Finance \u00b7 BTC-USD",
-    "chart_path": null,
-    "signal_id": "BTC-USD:move:2026-08-22",
-    "current_str": "$77,097",
-    "label": "Bitcoin",
-    "hashtags": "#Bitcoin #BTC #Crypto",
-    "kind": "move_up",
-    "badge": "+21.6%",
-    "data_url": "https://finance.yahoo.com/quote/BTC-USD",
-    "fired_at": "2026-08-22T22:10:24.154552"
-  },
   "BTC-USD:move:2026-08-23": {
-    "headline": "Bitcoin rips 21.9% in 5 sessions to $77,272",
+    "headline": "Bitcoin rips 22.7% in 5 sessions to $77,771",
     "matters": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
     "source": "Yahoo Finance \u00b7 BTC-USD",
     "chart_path": null,
     "signal_id": "BTC-USD:move:2026-08-23",
-    "current_str": "$77,272",
+    "current_str": "$77,771",
     "label": "Bitcoin",
     "hashtags": "#Bitcoin #BTC #Crypto",
     "kind": "move_up",
-    "badge": "+21.9%",
+    "badge": "+22.7%",
     "data_url": "https://finance.yahoo.com/quote/BTC-USD",
-    "fired_at": "2026-08-23T00:37:21.665704"
+    "fired_at": "2026-08-23T22:10:37.770558"
+  },
+  "GC=F:move:2026-08-23": {
+    "headline": "Gold jumps 7.3% in 5 sessions to $4,680.60",
+    "matters": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
+    "source": "COMEX \u00b7 GC=F",
+    "chart_path": null,
+    "signal_id": "GC=F:move:2026-08-23",
+    "current_str": "$4,680.60",
+    "label": "Gold futures",
+    "hashtags": "#Gold #PreciousMetals #Commodities",
+    "kind": "move_up",
+    "badge": "+7.3%",
+    "data_url": "https://finance.yahoo.com/quote/GC%3DF",
+    "fired_at": "2026-08-23T22:10:37.770558"
+  },
+  "CL=F:move:2026-08-23": {
+    "headline": "WTI crude jumps 7.2% in 5 sessions to $87.06",
+    "matters": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "source": "NYMEX \u00b7 CL=F",
+    "chart_path": null,
+    "signal_id": "CL=F:move:2026-08-23",
+    "current_str": "$87.06",
+    "label": "WTI crude oil futures",
+    "hashtags": "#Oil #WTI #Energy #Commodities",
+    "kind": "move_up",
+    "badge": "+7.2%",
+    "data_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "fired_at": "2026-08-23T22:10:37.770558"
   }
 }
