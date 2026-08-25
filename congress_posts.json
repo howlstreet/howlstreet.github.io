@@ -324,5 +324,51 @@
     "chart_path": "charts/congress/MSFT_cluster.png",
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033648.pdf",
     "fired_at": "2026-08-24T10:27:19.141094"
+  },
+  "congress_LLY_2026-02-26_3": {
+    "post_id": "congress_LLY_2026-02-26_3",
+    "ticker": "LLY",
+    "member_count": 3,
+    "members": [
+      {
+        "name": "David J. Taylor",
+        "party": "R",
+        "chamber": "House",
+        "amount_label": "$1,001 - $15,000",
+        "amount_mid": 8000.5,
+        "tx_date": "2026-02-26",
+        "is_options": false,
+        "link": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034138.pdf"
+      },
+      {
+        "name": "Byron Donalds",
+        "party": "R",
+        "chamber": "House",
+        "amount_label": "$1,001 - $15,000",
+        "amount_mid": 8000.5,
+        "tx_date": "2026-04-02",
+        "is_options": false,
+        "link": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034478.pdf"
+      },
+      {
+        "name": "Gilbert Cisneros",
+        "party": "D",
+        "chamber": "House",
+        "amount_label": "$1,001 - $15,000",
+        "amount_mid": 8000.5,
+        "tx_date": "2026-04-14",
+        "is_options": false,
+        "link": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034500.pdf"
+      }
+    ],
+    "first_buy_date": "2026-02-26",
+    "biggest_name": "David J. Taylor",
+    "biggest_amount": "$1,001 - $15,000",
+    "biggest_date": "2026-02-26",
+    "biggest_is_options": false,
+    "pct_since_first": 20.70801066553533,
+    "chart_path": "charts/congress/LLY_cluster.png",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034138.pdf",
+    "fired_at": "2026-08-25T22:14:40.192846"
   }
 }
