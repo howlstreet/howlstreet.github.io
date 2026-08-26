@@ -1,23 +1,42 @@
 [
   {
-    "id": "e2b39224",
+    "id": "fdb8aed0",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "Oil prices add to losses as Iran, Oman in talks to temporarily reopen Strait of Hormuz\n\nhttps://seekingalpha.com/news/4636828-oil-prices-add-to-losses-as-iran-oman-in-talks-to-temporarily-reopen-strait-of-hormuz?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "draft_text": "Oil prices slide 2% on Iran-Oman talks to reopen Strait of Hormuz Reuters\n\nhttps://news.google.com/rss/articles/CBMiugFBVV95cUxNWGpaTWZvaVNwRmNHZEJSYm5oVkZEanpaNEMyLXlEQUZWM0dDSVVycmxLdlJXUXg0MVlCVTN4SUptQ3pqUWg1dlVYV1k3aTgwWlhYMTZHcURfcEZZR1BydDNIVVBQbXhkendYWnRzbWJSbWVndmpyYnljV3ZpVlE3X2dmNmxPMjYyMWJQQ1VCUWs1RmR1UWdIY1ZGTXRiNzlKbmN1WGtBX2Y3TG5LUDBfVW1Ud0ZkVWhMbWc?oc=5",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "SEEKING ALPHA",
-    "source_url": "https://seekingalpha.com/news/4636828-oil-prices-add-to-losses-as-iran-oman-in-talks-to-temporarily-reopen-strait-of-hormuz?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-    "source_title": "Oil prices add to losses as Iran, Oman in talks to temporarily reopen Strait of Hormuz",
-    "source_summary": "",
-    "drafted_at": "2026-08-26T00:36:41.031346",
+    "primary_source": "REUTERS",
+    "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWGpaTWZvaVNwRmNHZEJSYm5oVkZEanpaNEMyLXlEQUZWM0dDSVVycmxLdlJXUXg0MVlCVTN4SUptQ3pqUWg1dlVYV1k3aTgwWlhYMTZHcURfcEZZR1BydDNIVVBQbXhkendYWnRzbWJSbWVndmpyYnljV3ZpVlE3X2dmNmxPMjYyMWJQQ1VCUWs1RmR1UWdIY1ZGTXRiNzlKbmN1WGtBX2Y3TG5LUDBfVW1Ud0ZkVWhMbWc?oc=5",
+    "source_title": "Oil prices slide 2% on Iran-Oman talks to reopen Strait of Hormuz",
+    "source_summary": "Oil prices slide 2% on Iran-Oman talks to reopen Strait of Hormuz Reuters",
+    "drafted_at": "2026-08-26T02:18:02.811111",
     "data": {
-      "source": "SEEKING ALPHA"
+      "source": "REUTERS"
     },
-    "content_hash": "60ef4cc74d579525"
+    "content_hash": "4c98a844ca10c123"
   },
   {
-    "id": "175f2c58",
+    "id": "52b7a525",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "If you're not watching this, you're behind. VIX jumps 8.4% in 5 sessions to 15.45.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CBOE \u00b7 ^VIX",
+    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "source_title": "VIX (S&P 500 volatility)",
+    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "drafted_at": "2026-08-26T02:18:02.811440",
+    "data": {
+      "signal_id": "^VIX:move:2026-08-25",
+      "kind": "move_up",
+      "current": "15.45"
+    },
+    "content_hash": "995f4d67e7e875d2"
+  },
+  {
+    "id": "2ad8cfed",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Tracks in the snow. Bitcoin rips 25.1% in 5 sessions to $78,573.\n\nBitcoin is now treated as a macro asset alongside gold and tech.\n\nIts swings move alt-coins, public miners, and crypto-exposed stocks.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/BTC-USD",
@@ -27,7 +46,7 @@
     "source_url": "https://finance.yahoo.com/quote/BTC-USD",
     "source_title": "Bitcoin",
     "source_summary": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
-    "drafted_at": "2026-08-26T00:36:41.031614",
+    "drafted_at": "2026-08-26T02:18:02.811709",
     "data": {
       "signal_id": "BTC-USD:move:2026-08-26",
       "kind": "move_up",
@@ -36,7 +55,7 @@
     "content_hash": "0e3396ceb3da7211"
   },
   {
-    "id": "e1bdeac5",
+    "id": "b1973bda",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "This is the kind of move that hits twice. Gold jumps 7.9% in 5 sessions to $4,728.60.\n\nGold tracks real yields and central bank demand.\n\nMulti-year highs flag debasement or geopolitical hedging flows.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/GC%3DF",
@@ -46,7 +65,7 @@
     "source_url": "https://finance.yahoo.com/quote/GC%3DF",
     "source_title": "Gold futures",
     "source_summary": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
-    "drafted_at": "2026-08-26T00:36:41.031805",
+    "drafted_at": "2026-08-26T02:18:02.811970",
     "data": {
       "signal_id": "GC=F:move:2026-08-25",
       "kind": "move_up",
@@ -55,7 +74,7 @@
     "content_hash": "514096a7b4f87c16"
   },
   {
-    "id": "d30130c9",
+    "id": "f0c35d8c",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Eyes up. Bitcoin rips 25.6% in 5 sessions to $79,141.\n\nBitcoin is now treated as a macro asset alongside gold and tech.\n\nIts swings move alt-coins, public miners, and crypto-exposed stocks.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/BTC-USD",
@@ -65,7 +84,7 @@
     "source_url": "https://finance.yahoo.com/quote/BTC-USD",
     "source_title": "Bitcoin",
     "source_summary": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
-    "drafted_at": "2026-08-26T00:36:41.032006",
+    "drafted_at": "2026-08-26T02:18:02.812234",
     "data": {
       "signal_id": "BTC-USD:move:2026-08-25",
       "kind": "move_up",
@@ -74,45 +93,41 @@
     "content_hash": "0e3396ceb3da7211"
   },
   {
-    "id": "a3af343c",
-    "format": "MARKET_MOVE",
+    "id": "2f788485",
+    "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "If you're not watching this, you're behind. VIX surges 10.5% in 5 sessions to 15.75.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
+    "draft_text": "Ueda on the wire. According to August 17-24 survey in a Reuters poll, 57% of economists expected the Bank of Japan (BoJ) to raise its interest rate in September, a sharp turnaround from a July poll.\n\nhttps://www.fxstreet.com/news/boj-to-raise-rate-to-125-in-september-reuters-poll-202608260213",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CBOE \u00b7 ^VIX",
-    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "source_title": "VIX (S&P 500 volatility)",
-    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-08-26T00:36:41.032184",
+    "primary_source": "BoJ",
+    "source_url": "https://www.fxstreet.com/news/boj-to-raise-rate-to-125-in-september-reuters-poll-202608260213",
+    "source_title": "BoJ to raise rate to 1.25% in September",
+    "source_summary": "According to August 17-24 survey in a Reuters poll, 57% of economists expected the Bank of Japan (BoJ) to raise its interest rate in September, a sharp turnaround from a July poll.",
+    "drafted_at": "2026-08-26T02:18:02.822641",
     "data": {
-      "signal_id": "^VIX:move:2026-08-25",
-      "kind": "move_up",
-      "current": "15.75"
+      "actor": "BoJ"
     },
-    "content_hash": "995f4d67e7e875d2"
+    "content_hash": "68b64471185c0474"
   },
   {
-    "id": "ceacf113",
-    "format": "MARKET_MOVE",
+    "id": "c745ba73",
+    "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "Two seconds, trust me. VIX surges 11.2% in 5 sessions to 15.85.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
+    "draft_text": "Yen-watchers, this is for you: ART's yen bet highlights shifting global monetary dynamics, potentially influencing currency markets and investment strategies worldwide.\n\nThe post Australia\u2019s second-largest pension fund builds biggest yen position in years, betting on BOJ rate hikes appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/australia-pension-fund-yen-overweight-boj/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CBOE \u00b7 ^VIX",
-    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "source_title": "VIX (S&P 500 volatility)",
-    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-08-26T00:36:41.032365",
+    "primary_source": "BOJ",
+    "source_url": "https://cryptobriefing.com/australia-pension-fund-yen-overweight-boj/",
+    "source_title": "Australia\u2019s second-largest pension fund builds biggest yen position in years, betting on BOJ rate hikes",
+    "source_summary": "ART's yen bet highlights shifting global monetary dynamics, potentially influencing currency markets and investment strategies worldwide. The post Australia\u2019s second-largest pension fund builds biggest yen position in years, betting on BOJ rate hikes appeared first on Crypto Briefing .",
+    "drafted_at": "2026-08-26T02:18:02.823097",
     "data": {
-      "signal_id": "^VIX:move:2026-08-24",
-      "kind": "move_up",
-      "current": "15.85"
+      "actor": "BOJ"
     },
-    "content_hash": "995f4d67e7e875d2"
+    "content_hash": "7f101140d06050e0"
   },
   {
-    "id": "b19a38ee",
+    "id": "9be75812",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Policy update for the pack: The Board's process for setting the discount rate is distinct from the process the Federal Open Market Committee follows in setting the target range for the federal funds rate.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
@@ -122,14 +137,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
     "source_title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
     "source_summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
-    "drafted_at": "2026-08-26T00:36:41.041149",
+    "drafted_at": "2026-08-26T02:18:02.823478",
     "data": {
       "actor": "FED"
     },
     "content_hash": "da9833991b6c87c5"
   },
   {
-    "id": "b2765afd",
+    "id": "331b2218",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "POWELL POSTCARD: Consent prohibition against Stephanie R.\n\nConsent prohibition against Crystal A.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm",
@@ -139,14 +154,54 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm",
     "source_title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
     "source_summary": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
-    "drafted_at": "2026-08-26T00:36:41.041387",
+    "drafted_at": "2026-08-26T02:18:02.823742",
     "data": {
       "actor": "FED"
     },
     "content_hash": "1899c878ef68bdd8"
   },
   {
-    "id": "77aab66a",
+    "id": "446a3b7a",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$APLM \u2014 3 company insiders bought $8.3M on Aug 14.\n\nApollomics Inc. 583,334 shares at $14.14.\n\nStock is +87.4% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/APLM_P_20260814.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=APLM",
+    "source_title": "Apollomics Inc. (APLM) insider bought $8.3M",
+    "source_summary": "3 insider(s) bought 583,334 shares at $14.14 on 2026-08-14.",
+    "drafted_at": "2026-08-26T02:18:02.824233",
+    "data": {
+      "ticker": "APLM",
+      "type": "P",
+      "dollar_value": 8250009.0,
+      "pct_since": 87.4115983026874
+    },
+    "content_hash": "1a5e31401f63bcf6"
+  },
+  {
+    "id": "506ec4ab",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$TTMI \u2014 2 company insiders bought $1.6M on Aug 25.\n\nTtm Technologies Inc. 15,000 shares at $109.48.\n\nStock is +2.6% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/TTMI_P_20260825.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=TTMI",
+    "source_title": "Ttm Technologies Inc (TTMI) insider bought $1.6M",
+    "source_summary": "2 insider(s) bought 15,000 shares at $109.48 on 2026-08-25.",
+    "drafted_at": "2026-08-26T02:18:02.824437",
+    "data": {
+      "ticker": "TTMI",
+      "type": "P",
+      "dollar_value": 1642200.0,
+      "pct_since": 2.575815721371765
+    },
+    "content_hash": "3d126c7b205fc749"
+  },
+  {
+    "id": "b834f1c1",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$SUJA \u2014 a company insider bought $5.7M on Aug 21.\n\nSuja Life, Inc. 656,548 shares at $8.72.\n\nStock is +7.0% since the purchase. This is a public SEC Form 4 filing.",
@@ -156,7 +211,7 @@
     "source_url": "http://openinsider.com/screener?s=SUJA",
     "source_title": "Suja Life, Inc. (SUJA) insider bought $5.7M",
     "source_summary": "1 insider(s) bought 656,548 shares at $8.72 on 2026-08-21.",
-    "drafted_at": "2026-08-26T00:36:41.041781",
+    "drafted_at": "2026-08-26T02:18:02.824623",
     "data": {
       "ticker": "SUJA",
       "type": "P",
@@ -166,7 +221,7 @@
     "content_hash": "d469fc305f987635"
   },
   {
-    "id": "4fed9615",
+    "id": "23dfd835",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$NVRI \u2014 4 company insiders bought $1.6M on Aug 18.\n\nEnviri Corp. 81,673 shares at $19.28.\n\nStock is +12.1% since the purchase. This is a public SEC Form 4 filing.",
@@ -176,7 +231,7 @@
     "source_url": "http://openinsider.com/screener?s=NVRI",
     "source_title": "Enviri Corp (NVRI) insider bought $1.6M",
     "source_summary": "4 insider(s) bought 81,673 shares at $19.28 on 2026-08-18.",
-    "drafted_at": "2026-08-26T00:36:41.041924",
+    "drafted_at": "2026-08-26T02:18:02.824795",
     "data": {
       "ticker": "NVRI",
       "type": "P",
@@ -186,7 +241,7 @@
     "content_hash": "c83ff666b7ca9b97"
   },
   {
-    "id": "ddb094a3",
+    "id": "967db3da",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$ANGX \u2014 3 company insiders bought $2.8M on Aug 14.\n\nAngel Studios, Inc. 700,046 shares at $4.00.\n\nStock is +14.5% since the purchase. This is a public SEC Form 4 filing.",
@@ -196,7 +251,7 @@
     "source_url": "http://openinsider.com/screener?s=ANGX",
     "source_title": "Angel Studios, Inc. (ANGX) insider bought $2.8M",
     "source_summary": "3 insider(s) bought 700,046 shares at $4.00 on 2026-08-14.",
-    "drafted_at": "2026-08-26T00:36:41.042061",
+    "drafted_at": "2026-08-26T02:18:02.824970",
     "data": {
       "ticker": "ANGX",
       "type": "P",
@@ -206,47 +261,7 @@
     "content_hash": "2d9860e33e20c48e"
   },
   {
-    "id": "57c43780",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$APTV \u2014 4 company insiders bought $8.3M on Aug 13.\n\nAptiv Plc. 171,921 shares at $48.01.\n\nStock is -2.9% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/APTV_P_20260813.png",
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=APTV",
-    "source_title": "Aptiv Plc (APTV) insider bought $8.3M",
-    "source_summary": "4 insider(s) bought 171,921 shares at $48.01 on 2026-08-13.",
-    "drafted_at": "2026-08-26T00:36:41.042193",
-    "data": {
-      "ticker": "APTV",
-      "type": "P",
-      "dollar_value": 8254508.0,
-      "pct_since": -2.8743989416470814
-    },
-    "content_hash": "c186908cf80b925e"
-  },
-  {
-    "id": "67bd4e03",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$ONON \u2014 2 company insiders bought $4.0M on Aug 14.\n\nOn Holding AG. 130,000 shares at $30.67.\n\nStock is -6.0% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/ONON_P_20260814.png",
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=ONON",
-    "source_title": "On Holding AG (ONON) insider bought $4.0M",
-    "source_summary": "2 insider(s) bought 130,000 shares at $30.67 on 2026-08-14.",
-    "drafted_at": "2026-08-26T00:36:41.042355",
-    "data": {
-      "ticker": "ONON",
-      "type": "P",
-      "dollar_value": 3987582.0,
-      "pct_since": -5.999348145725292
-    },
-    "content_hash": "72d016af0ec5a713"
-  },
-  {
-    "id": "7bfc9308",
+    "id": "a6886852",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "There are rumors of a Russian media saying there is an Iran-US deal ECB sources report: Policymakers are ready to raise rates in Sep US Treas.\n\nBessent: Iran leadership is feeling the economic pressure Iran and Oman propose a joint temporary shipping lane Canada announces counter tariffs convering roughly $20 billion of products Fed's Collins: Inflation is still too high Richmond Fed manufacturing composite index +4 vs +5 prior US Conference Board August consumer confidence 89.4 vs 90.2 expected US New home sales for July 0.607M vs 0.620M estimate US June CaseShiller 20-city home price index +2.1% y/y vs +1.7% expected Canada July flash wholesale trade -0.6% Markets: WTI crude oil down $4.25 to $80.77 US 10-year yields down 8.1 bps to 4.62% Gold up $14 to $4665 NZD leads, CHF lags S&P 500 up 0.3% The most interesting news late in the day is a vague report in the state-owned Russian press saying there is an Iran peace deal, citing Iranian and Pakistani sources.\n\nRussia media hasn't been part of the reporting on the conflict and the many fake leaks so the market is giving it some creedence and oil finished the day at the lows.\n\nhttps://investinglive.com/news/investinglive-americas-market-news-wrap-some-late-talk-of-iran-peace/",
@@ -256,14 +271,14 @@
     "source_url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-some-late-talk-of-iran-peace/",
     "source_title": "investingLive Americas market news wrap: Some late talk of Iran peace",
     "source_summary": "There are rumors of a Russian media saying there is an Iran-US deal ECB sources report: Policymakers are ready to raise rates in Sep US Treas. Sec. Bessent: Iran leadership is feeling the economic pressure Iran and Oman propose a joint temporary shipping lane Canada announces counter tariffs convering roughly $20 billion of products Fed's Collins: Inflation is still too high Richmond Fed manufactu",
-    "drafted_at": "2026-08-26T00:36:41.045592",
+    "drafted_at": "2026-08-26T02:18:02.829307",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "75b56161d2b6919f"
   },
   {
-    "id": "6f69244b",
+    "id": "01557f8e",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The tech titan last year had offered voters a chance at a $1 million prize.\n\nhttps://www.washingtonpost.com/politics/2026/08/25/elon-musk-will-not-be-charged-over-allegedly-bribing-wisconsin-voters-2025/",
@@ -273,14 +288,14 @@
     "source_url": "https://www.washingtonpost.com/politics/2026/08/25/elon-musk-will-not-be-charged-over-allegedly-bribing-wisconsin-voters-2025/",
     "source_title": "Wisconsin prosecutor declines to charge Musk in election bribery investigation",
     "source_summary": "The tech titan last year had offered voters a chance at a $1 million prize.",
-    "drafted_at": "2026-08-26T00:36:41.045694",
+    "drafted_at": "2026-08-26T02:18:02.829428",
     "data": {
       "source": "WAPO"
     },
     "content_hash": "34c78c5028526b30"
   },
   {
-    "id": "75262209",
+    "id": "10d63404",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "A federal jury convicted Las Vegas businessman Brent Kovar in a $24 million cryptocurrency scheme involving at least 400 investors.\n\nhttps://www.theblock.co/news/regulation/2026-08-25-las-vegas-businessman-24-million-crypto-fraud-412690",
@@ -290,14 +305,14 @@
     "source_url": "https://www.theblock.co/news/regulation/2026-08-25-las-vegas-businessman-24-million-crypto-fraud-412690",
     "source_title": "Las Vegas businessman faces 280 years in prison after $24 million crypto fraud conviction",
     "source_summary": "A federal jury convicted Las Vegas businessman Brent Kovar in a $24 million cryptocurrency scheme involving at least 400 investors.",
-    "drafted_at": "2026-08-26T00:36:41.045829",
+    "drafted_at": "2026-08-26T02:18:02.829594",
     "data": {
       "source": "THE BLOCK"
     },
     "content_hash": "7ec75e59934aaf52"
   },
   {
-    "id": "b71a8001",
+    "id": "9fe142ee",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The allegations, which are at the heart of a confidential arbitration, signal an aggressive new stance by the Central Asian country toward longstanding international partners.\n\nhttps://www.icij.org/investigations/caspian-cabals/kazakhstan-alleges-big-oil-corruption-tainted-10-7-billion-in-contracts-delayed-key-oil-project/",
@@ -307,14 +322,14 @@
     "source_url": "https://www.icij.org/investigations/caspian-cabals/kazakhstan-alleges-big-oil-corruption-tainted-10-7-billion-in-contracts-delayed-key-oil-project/",
     "source_title": "Kazakhstan alleges Big Oil corruption tainted $10.7 billion in contracts, delayed key oil project",
     "source_summary": "The allegations, which are at the heart of a confidential arbitration, signal an aggressive new stance by the Central Asian country toward longstanding international partners.",
-    "drafted_at": "2026-08-26T00:36:41.045995",
+    "drafted_at": "2026-08-26T02:18:02.829796",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "7a4f2a9afcac6e3a"
   },
   {
-    "id": "b01f4cc6",
+    "id": "428a294f",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Its USDT crypto token underpins a trillion-dollar market, but cryptocurrency giant Tether won\u2019t answer questions about its ownership.\n\nhttps://www.icij.org/investigations/coin-laundry/the-200-billion-company-you-cant-look-inside/",
@@ -324,14 +339,14 @@
     "source_url": "https://www.icij.org/investigations/coin-laundry/the-200-billion-company-you-cant-look-inside/",
     "source_title": "The $200 billion company you can\u2019t look inside",
     "source_summary": "Its USDT crypto token underpins a trillion-dollar market, but cryptocurrency giant Tether won\u2019t answer questions about its ownership.",
-    "drafted_at": "2026-08-26T00:36:41.046146",
+    "drafted_at": "2026-08-26T02:18:02.829986",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "73b772a66fc7444b"
   },
   {
-    "id": "35db89c0",
+    "id": "1b2d64cb",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "6 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 David J. Taylor (R)\n\u2022 John Boozman (R)\n\u2022 Cleo Fields (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 John Fetterman (D)\n\u2022 John McGuire (R)\n\nLargest disclosed here: David J. Taylor, $1,001 - $15,000 on Feb 26.\n\nPrice since the first buy in this group: +20.3%.\n\nSTOCK Act disclosures. Public record.",
@@ -341,7 +356,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034138.pdf",
     "source_title": "6 Congress members bought $MSFT",
     "source_summary": "6 politicians bought $MSFT; largest $1,001 - $15,000 by David J. Taylor.",
-    "drafted_at": "2026-08-26T00:36:41.046570",
+    "drafted_at": "2026-08-26T02:18:02.830537",
     "data": {
       "ticker": "MSFT",
       "member_count": 6,
@@ -350,7 +365,7 @@
     "content_hash": "7c24415ac3c0b542"
   },
   {
-    "id": "060ab862",
+    "id": "5a78da9d",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "5 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Markwayne Mullin (D)\n\u2022 Josh Gottheimer (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Markwayne Mullin, $50,001 - $100,000 on Feb 25.\n\nPrice since the first buy in this group: +45.3%.\n\nSTOCK Act disclosures. Public record.",
@@ -360,7 +375,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/f586922d-6083-44e5-8a32-769290389416/",
     "source_title": "5 Congress members bought $UNH",
     "source_summary": "5 politicians bought $UNH; largest $50,001 - $100,000 by Markwayne Mullin.",
-    "drafted_at": "2026-08-26T00:36:41.046844",
+    "drafted_at": "2026-08-26T02:18:02.830877",
     "data": {
       "ticker": "UNH",
       "member_count": 5,
@@ -369,7 +384,7 @@
     "content_hash": "7cbacf41d412a41b"
   },
   {
-    "id": "5fef31fa",
+    "id": "ae1a6db9",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $LLY this year \u2014 and these filings don't show them selling:\n\n\u2022 David J. Taylor (R)\n\u2022 Byron Donalds (R)\n\u2022 Gilbert Cisneros (D)\n\nLargest disclosed here: David J. Taylor, $1,001 - $15,000 on Feb 26.\n\nPrice since the first buy in this group: +20.7%.\n\nSTOCK Act disclosures. Public record.",
@@ -379,7 +394,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034138.pdf",
     "source_title": "3 Congress members bought $LLY",
     "source_summary": "3 politicians bought $LLY; largest $1,001 - $15,000 by David J. Taylor.",
-    "drafted_at": "2026-08-26T00:36:41.047066",
+    "drafted_at": "2026-08-26T02:18:02.831156",
     "data": {
       "ticker": "LLY",
       "member_count": 3,
@@ -388,7 +403,7 @@
     "content_hash": "563c1444106a5429"
   },
   {
-    "id": "53f89d6f",
+    "id": "8f759fb4",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Richard Dean Dr McCormick, $1,001 - $15,000 on Mar 19.\n\nPrice since the first buy in this group: +39.1%.\n\nSTOCK Act disclosures. Public record.",
@@ -398,7 +413,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033648.pdf",
     "source_title": "3 Congress members bought $UNH",
     "source_summary": "3 politicians bought $UNH; largest $1,001 - $15,000 by Richard Dean Dr McCormick.",
-    "drafted_at": "2026-08-26T00:36:41.047311",
+    "drafted_at": "2026-08-26T02:18:02.831470",
     "data": {
       "ticker": "UNH",
       "member_count": 3,
@@ -407,7 +422,7 @@
     "content_hash": "ef6027c31bcd522a"
   },
   {
-    "id": "23829aa8",
+    "id": "d9e0ad2e",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 John Fetterman (D)\n\u2022 John McGuire (R)\n\nLargest disclosed here: Richard Dean Dr McCormick, $1,001 - $15,000 on Mar 19.\n\nPrice since the first buy in this group: +24.2%.\n\nSTOCK Act disclosures. Public record.",
@@ -417,7 +432,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033648.pdf",
     "source_title": "3 Congress members bought $MSFT",
     "source_summary": "3 politicians bought $MSFT; largest $1,001 - $15,000 by Richard Dean Dr McCormick.",
-    "drafted_at": "2026-08-26T00:36:41.047528",
+    "drafted_at": "2026-08-26T02:18:02.831755",
     "data": {
       "ticker": "MSFT",
       "member_count": 3,
@@ -426,177 +441,177 @@
     "content_hash": "dc58af0a214ea198"
   },
   {
-    "id": "fca34110",
+    "id": "998ef36e",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Levant update: The upside surprise adds another data point to the case for a near term BOJ hike, arriving alongside already sharply shifted economist expectations for a September move to 1.25%.\n\nWith core consumer inflation also accelerating on the back of a weak yen and elevated import costs tied to the Iran conflict, the breadth of price pressure now spans both consumer and business facing measures, which strengthens the argument that the BOJ is genuinely behind the curve rather than facing a temporary spike.\n\nFor yen crosses, this reinforces rather than shifts the existing narrative, since a September hike is already the majority view among economists, but it raises the cost of any surprise hold, since the data keeps stacking in favour of tightening rather than easing that pressure. --- Japanese firms are passing on rising costs faster than expected, and the BOJ's hand looks increasingly forced.\n\nSummary: Japan's Corporate Services Price Index rose 3.6% year on year in July, above the 3.2% forecast and up from a revised 3.4% gain in June On a month on month basis, the index rose 0.4%, reversing a 0.4% decline in the prior month The index tracks prices companies charge each other for services and is viewed as a signal of how far firms are passing rising costs on to consumers The Bank of Japan has cited a tight labour market as a key driver pushing businesses to raise service prices The data follows separate figures showing Japan's core consumer inflation accelerated in July, driven by rising import costs tied to a weak yen and the US-Israeli war with Iran Reuters sources say the BOJ is set to raise its policy rate as soon as September and may consider a more aggressive hiking pace than its historical rhythm of roughly two moves a year A key gauge of inflation in Japan's services sector accelerated further in July, adding to signs of broadening price pressure that are reinforcing expectations for a near term interest rate increase from the Bank of Japan.\n\nData released Wednesday showed the Corporate Services Price Index, which tracks prices companies charge one another for services, rose 3.6% year on year in July, above the 3.2% forecast and up from a revised 3.4% gain in June.\n\nOn a monthly basis, the index rose 0.4%, reversing a 0.4% decline recorded the previous month.\n\nThe acceleration reinforces the Bank of Japan's existing view that a tight domestic labour market is pushing firms to pass on rising costs to consumers rather than absorbing them through margins, a dynamic the central bank has been monitoring closely as a signal of underlying inflation persistence beyond temporary import cost pressures.\n\nThe services data follows separately released figures showing Japan's core consumer inflation also accelerated in July, with firms passing on higher import costs stemming from a weak yen alongside broader price pressures linked to the ongoing US-Israeli war with Iran.\n\nhttps://investinglive.com/news/japan-s-services-inflation-accelerates-to-3-6pct-in-july-beating-forecasts/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/japan-s-services-inflation-accelerates-to-3-6pct-in-july-beating-forecasts/",
-    "source_title": "Japan's services inflation accelerates to 3.6pct in July, beating forecasts",
-    "source_summary": "The upside surprise adds another data point to the case for a near term BOJ hike, arriving alongside already sharply shifted economist expectations for a September move to 1.25%. With core consumer inflation also accelerating on the back of a weak yen and elevated import costs tied to the Iran conflict, the breadth of price pressure now spans both consumer and business facing measures, which stren",
-    "drafted_at": "2026-08-26T00:36:41.051145",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "3e399d235ddfdf41"
-  },
-  {
-    "id": "666f75f0",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "From the Gulf: Tehran says the agreement with Oman on routes through Hormuz does not indicate that the strait is open.\n\nhttps://www.aljazeera.com/news/liveblog/2026/8/26/iran-war-live-iran-says-hormuz-remains-closed-despite-oman-rout-deal?traffic_source=rss",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/news/liveblog/2026/8/26/iran-war-live-iran-says-hormuz-remains-closed-despite-oman-rout-deal?traffic_source=rss",
-    "source_title": "Iran war live: Iran says Hormuz remains closed despite Oman route deal",
-    "source_summary": "Tehran says the agreement with Oman on routes through Hormuz does not indicate that the strait is open.",
-    "drafted_at": "2026-08-26T00:36:41.051462",
-    "data": {
-      "source": "AL JAZEERA"
-    },
-    "content_hash": "4e40831da9f4baa5"
-  },
-  {
-    "id": "bf493cbe",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "EU/UK wire: After decades confined largely to laboratories, nuclear fusion is beginning to attract the kind of money and industrial planning normally reserved for technologies expected to make it onto the grid.\n\nGlobal private investment in fusion hit a record $4.48 billion in 2025, up 69% from a year earlier, while some of the world\u2019s largest energy companies are moving beyond simply backing fusion startups.\n\nItalian energy giant Eni S.p.A. (NYSE:E) now plans to deploy a commercial fusion power plant in Europe by the early 2040s or sooner, building on\u2026\n\nhttps://oilprice.com/Alternative-Energy/Nuclear-Power/Big-Oil-Is-Betting-Billions-On-Nuclear-Fusion.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "OILPRICE",
-    "source_url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Big-Oil-Is-Betting-Billions-On-Nuclear-Fusion.html",
-    "source_title": "Big Oil Is Betting Billions On Nuclear Fusion",
-    "source_summary": "After decades confined largely to laboratories, nuclear fusion is beginning to attract the kind of money and industrial planning normally reserved for technologies expected to make it onto the grid. Global private investment in fusion hit a record $4.48 billion in 2025, up 69% from a year earlier, while some of the world\u2019s largest energy companies are moving beyond simply backing fusion startups. ",
-    "drafted_at": "2026-08-26T00:36:41.052227",
-    "data": {
-      "source": "OILPRICE"
-    },
-    "content_hash": "9ed85de91e4e938b"
-  },
-  {
-    "id": "f9255cbd",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: An escalation of the US Canada trade dispute adds a fresh source of policy uncertainty at a moment when markets are already digesting a volatile Fed rate outlook and unresolved Middle East risk.\n\nCanada remains one of the largest US trading partners, so further tariff action carries meaningful cross border supply chain implications, particularly for steel, aluminium, autos and agricultural sectors already caught up in the current dispute.\n\nThe dollar and broader risk sentiment are unlikely to move sharply on early stage White House commentary alone, but a further escalation once Canada's own retaliatory tariffs take effect in September would raise the stakes considerably, particularly for sectors with tightly integrated cross border supply chains. --- Washington's response to Canada's retaliation is still being drawn up, but the message is that more tariffs remain firmly on the table.\n\nSummary: A White House official says the Trump administration is discussing further trade sanctions against Canada following Prime Minister Mark Carney's announcement of retaliatory tariffs The official said escalation options could include raising tariffs further and other trade measures, with a government response expected Canadian retaliatory tariffs are set to take effect from 8 September, matching US tariffs \"dollar for dollar\" according to Carney The dispute follows the collapse of US Canada trade talks in mid-August, after which the US imposed 50% tariffs on a range of Canadian goods including steel, dairy, appliances, agricultural equipment, pulp and paper, and electronics The White House official said President Trump has a range of tools available to resolve the dispute should negotiations fail to resume The Trump administration is considering further trade sanctions against Canada, according to a White House official, following Canadian Prime Minister Mark Carney's announcement of retaliatory tariffs against the United States.\n\nThe official said the escalation under discussion could include additional tariff increases and other trade measures, with a formal government response to Canada's latest moves expected.\n\nThe dispute traces back to the collapse of US Canada trade negotiations in mid-August, after which the United States began enforcing tariffs of 50% on a broad range of Canadian goods, including steel, dairy products, appliances, agricultural equipment, pulp and paper, and electronics.\n\nCarney responded by announcing that Canada would match the US tariffs \"dollar for dollar,\" with retaliatory measures set to take effect from 8 September, targeting comparable American sectors.\n\nCarney has characterised the US tariffs as a \"miscalculation,\" arguing that the measures were designed to divide Canadians rather than resolve underlying trade issues, and has pointed to Canadian resolve in response, including public calls to buy Canadian products.\n\nhttps://investinglive.com/news/us-weighs-further-trade-escalation-after-canada-sets-retaliatory-tariffs/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/us-weighs-further-trade-escalation-after-canada-sets-retaliatory-tariffs/",
-    "source_title": "US weighs further trade escalation after Canada sets retaliatory tariffs",
-    "source_summary": "An escalation of the US Canada trade dispute adds a fresh source of policy uncertainty at a moment when markets are already digesting a volatile Fed rate outlook and unresolved Middle East risk. Canada remains one of the largest US trading partners, so further tariff action carries meaningful cross border supply chain implications, particularly for steel, aluminium, autos and agricultural sectors ",
-    "drafted_at": "2026-08-26T00:36:41.055252",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "6335921a986ff370"
-  },
-  {
-    "id": "a1519448",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "APAC wire: Japan's bond market heads for a blockchain makeover as regulators plan instant, 24/7 settlement of JGBs and stocks.\n\nThe post $7 Trillion Japan Bond Market is Moving to the Blockchain appeared first on BeInCrypto.\n\nhttps://beincrypto.com/japan-bond-market-blockchain-settlement/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "BEINCRYPTO",
-    "source_url": "https://beincrypto.com/japan-bond-market-blockchain-settlement/",
-    "source_title": "$7 Trillion Japan Bond Market is Moving to the Blockchain",
-    "source_summary": "Japan's bond market heads for a blockchain makeover as regulators plan instant, 24/7 settlement of JGBs and stocks. The post $7 Trillion Japan Bond Market is Moving to the Blockchain appeared first on BeInCrypto .",
-    "drafted_at": "2026-08-26T00:36:41.055816",
-    "data": {
-      "source": "BEINCRYPTO"
-    },
-    "content_hash": "1bd6eb7d2b42829b"
-  },
-  {
-    "id": "8a64b85c",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "The CPI scoreboard: The Australian Bureau of Statistics (ABS) will publish the July Consumer Price Index (CPI) on Wednesday at 01:30 GMT.\n\nThe report is expected to show that inflation rose 3.2% from a year earlier, easing from the 3.8% posted in June.\n\nhttps://www.fxstreet.com/news/australia-cpi-expected-to-show-inflation-easing-in-july-202608252230",
+    "draft_text": "APAC wire: AUD/JPY gains ground for the second consecutive day, trading around 114.20 during the Asian hours on Wednesday.\n\nhttps://www.fxstreet.com/news/australian-dollar-strengthens-against-japanese-yen-following-cpi-data-202608260214",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/australia-cpi-expected-to-show-inflation-easing-in-july-202608252230",
-    "source_title": "Australia CPI forecast to show cooling inflation in July, still above RBA target",
-    "source_summary": "The Australian Bureau of Statistics (ABS) will publish the July Consumer Price Index (CPI) on Wednesday at 01:30 GMT. The report is expected to show that inflation rose 3.2% from a year earlier, easing from the 3.8% posted in June.",
-    "drafted_at": "2026-08-26T00:36:41.099340",
+    "source_url": "https://www.fxstreet.com/news/australian-dollar-strengthens-against-japanese-yen-following-cpi-data-202608260214",
+    "source_title": "Australian Dollar strengthens against Japanese Yen following CPI data",
+    "source_summary": "AUD/JPY gains ground for the second consecutive day, trading around 114.20 during the Asian hours on Wednesday.",
+    "drafted_at": "2026-08-26T02:18:02.832947",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "8ffee2bf91a14e2c"
+    "content_hash": "4b5a48781136bdf7"
   },
   {
-    "id": "3a0e6be4",
+    "id": "4535beea",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "ASIA DESK: According to August 17-24 survey in a Reuters poll, 57% of economists expected the Bank of Japan (BoJ) to raise its interest rate in September, a sharp turnaround from a July poll.\n\nhttps://www.fxstreet.com/news/boj-to-raise-rate-to-125-in-september-reuters-poll-202608260213",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/boj-to-raise-rate-to-125-in-september-reuters-poll-202608260213",
+    "source_title": "BoJ to raise rate to 1.25% in September",
+    "source_summary": "According to August 17-24 survey in a Reuters poll, 57% of economists expected the Bank of Japan (BoJ) to raise its interest rate in September, a sharp turnaround from a July poll.",
+    "drafted_at": "2026-08-26T02:18:02.833297",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "68b64471185c0474"
+  },
+  {
+    "id": "5be684e7",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "GLOBAL DESK: It\u2019s official: Ukraine is out of Patriot missiles to defend against Russia\u2019s intensifying air attacks, with less than one percent...\n\nhttps://spectator.org/the-chink-in-ukraines-armor/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "AM SPECTATOR",
+    "source_url": "https://spectator.org/the-chink-in-ukraines-armor/",
+    "source_title": "The Chink in Ukraine\u2019s Armor",
+    "source_summary": "It\u2019s official: Ukraine is out of Patriot missiles to defend against Russia\u2019s intensifying air attacks, with less than one percent...",
+    "drafted_at": "2026-08-26T02:18:02.833862",
+    "data": {
+      "source": "AM SPECTATOR"
+    },
+    "content_hash": "2f55ed0a0eab97f1"
+  },
+  {
+    "id": "5dffa223",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Gulf wire: The agreement could reshape Middle East alliances, impacting regional stability and U.S. influence, contingent on Saudi-Israel relations.\n\nThe post Trump signs civil nuclear agreement with Saudi Arabia, ties it to Israel relations appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/trump-saudi-nuclear-deal-israel-normalization-4/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/trump-saudi-nuclear-deal-israel-normalization-4/",
+    "source_title": "Trump signs civil nuclear agreement with Saudi Arabia, ties it to Israel relations",
+    "source_summary": "The agreement could reshape Middle East alliances, impacting regional stability and U.S. influence, contingent on Saudi-Israel relations. The post Trump signs civil nuclear agreement with Saudi Arabia, ties it to Israel relations appeared first on Crypto Briefing .",
+    "drafted_at": "2026-08-26T02:18:02.834339",
+    "data": {
+      "source": "CRYPTO BRIEFING"
+    },
+    "content_hash": "4c3c433284f32299"
+  },
+  {
+    "id": "259b11d4",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: Oil prices fell 2% as Iran and Oman resumed talks on a temporary Strait of Hormuz shipping corridor.\n\nThe post Oil Falls Near 3% as Iran, Oman Restart Hormuz Corridor Talks appeared first on BeInCrypto.\n\nhttps://beincrypto.com/oil-falls-iran-oman-hormuz-talks/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "BEINCRYPTO",
+    "source_url": "https://beincrypto.com/oil-falls-iran-oman-hormuz-talks/",
+    "source_title": "Oil Falls Near 3% as Iran, Oman Restart Hormuz Corridor Talks",
+    "source_summary": "Oil prices fell 2% as Iran and Oman resumed talks on a temporary Strait of Hormuz shipping corridor. The post Oil Falls Near 3% as Iran, Oman Restart Hormuz Corridor Talks appeared first on BeInCrypto .",
+    "drafted_at": "2026-08-26T02:18:02.834753",
+    "data": {
+      "source": "BEINCRYPTO"
+    },
+    "content_hash": "f71ad89787498513"
+  },
+  {
+    "id": "9d44222d",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "From the inflation desk: There are rumors of a Russian media saying there is an Iran-US deal ECB sources report: Policymakers are ready to raise rates in Sep US Treas.\n\nBessent: Iran leadership is feeling the economic pressure Iran and Oman propose a joint temporary shipping lane Canada announces counter tariffs convering roughly $20 billion of products Fed's Collins: Inflation is still too high Richmond Fed manufacturing composite index +4 vs +5 prior US Conference Board August consumer confidence 89.4 vs 90.2 expected US New home sales for July 0.607M vs 0.620M estimate US June CaseShiller 20-city home price index +2.1% y/y vs +1.7% expected Canada July flash wholesale trade -0.6% Markets: WTI crude oil down $4.25 to $80.77 US 10-year yields down 8.1 bps to 4.62% Gold up $14 to $4665 NZD leads, CHF lags S&P 500 up 0.3% The most interesting news late in the day is a vague report in the state-owned Russian press saying there is an Iran peace deal, citing Iranian and Pakistani sources.\n\nRussia media hasn't been part of the reporting on the conflict and the many fake leaks so the market is giving it some creedence and oil finished the day at the lows.\n\nThe decline adds to some curious selling in crude since the start of the week and many traders believe there is rampant insider trading ongoing.\n\nWith that rumor/report, the US dollar also dipped late and gold held a decent bid after getting bounced around.\n\nThe stock market remains largely focused on AI but the meme-driven names were strong on the day in a sign of some optimism.\n\nIn much sadder news, Dolly Parton died at 80.\n\nThis article was written by Adam Button at investinglive.com.\n\nhttps://investinglive.com/news/investinglive-americas-market-news-wrap-some-late-talk-of-iran-peace/",
+    "draft_text": "How sticky is inflation? Let's see: AUD/JPY gains ground for the second consecutive day, trading around 114.20 during the Asian hours on Wednesday.\n\nhttps://www.fxstreet.com/news/australian-dollar-strengthens-against-japanese-yen-following-cpi-data-202608260214",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/australian-dollar-strengthens-against-japanese-yen-following-cpi-data-202608260214",
+    "source_title": "Australian Dollar strengthens against Japanese Yen following CPI data",
+    "source_summary": "AUD/JPY gains ground for the second consecutive day, trading around 114.20 during the Asian hours on Wednesday.",
+    "drafted_at": "2026-08-26T02:18:02.898826",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "4b5a48781136bdf7"
+  },
+  {
+    "id": "a7b076af",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "The CPI scoreboard: The AUD/USD pair attracts buyers for the second straight day and climbs to the 0.7170 area following the release of Australian consumer inflation figures during the Asian session on Wednesday.\n\nhttps://www.fxstreet.com/news/australian-dollar-strengthens-after-hot-cpi-report-eyes-multi-month-high-ahead-of-us-pce-202608260147",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/australian-dollar-strengthens-after-hot-cpi-report-eyes-multi-month-high-ahead-of-us-pce-202608260147",
+    "source_title": "Australian Dollar strengthens after hot CPI report; eyes multi-month high ahead of US PCE",
+    "source_summary": "The AUD/USD pair attracts buyers for the second straight day and climbs to the 0.7170 area following the release of Australian consumer inflation figures during the Asian session on Wednesday.",
+    "drafted_at": "2026-08-26T02:18:02.899091",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "019dfa09a059e44d"
+  },
+  {
+    "id": "0cbdaeac",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "From the inflation desk: July 2026 inflation data from Australia.\n\nConsumer Price Index (YoY) 3.5% expected 3.2%, prior 3.8% 1% (MoM) expected 0.8%, prior -0.1% Core inflation, the Trimmed Mean CPI 3.6% (YoY) expected 3.5%, prior 3.6% Trimmed Mean 0.5% (MoM) expected 0.3%, prior 0.3% I'll have more to come on this separately, details and RBA implications This article was written by Eamonn Sheridan at investinglive.com.\n\nhttps://investinglive.com/news/australian-monthly-cpi-july-2026-y-y-vs-3-2-expected/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-some-late-talk-of-iran-peace/",
-    "source_title": "investingLive Americas market news wrap: Some late talk of Iran peace",
-    "source_summary": "There are rumors of a Russian media saying there is an Iran-US deal ECB sources report: Policymakers are ready to raise rates in Sep US Treas. Sec. Bessent: Iran leadership is feeling the economic pressure Iran and Oman propose a joint temporary shipping lane Canada announces counter tariffs convering roughly $20 billion of products Fed's Collins: Inflation is still too high Richmond Fed manufactu",
-    "drafted_at": "2026-08-26T00:36:41.100725",
+    "source_url": "https://investinglive.com/news/australian-monthly-cpi-july-2026-y-y-vs-3-2-expected/",
+    "source_title": "Australian monthly CPI (July 2026) 3.5 % y/y (vs. 3.2% expected)",
+    "source_summary": "July 2026 inflation data from Australia. B ackground this here, preview . Consumer Price Index (YoY) 3.5% expected 3.2%, prior 3.8% 1% (MoM) expected 0.8%, prior -0.1% Core inflation, the Trimmed Mean CPI 3.6% (YoY) expected 3.5%, prior 3.6% Trimmed Mean 0.5% (MoM) expected 0.3%, prior 0.3% I'll have more to come on this separately, details and RBA implications This article was written by Eamonn S",
+    "drafted_at": "2026-08-26T02:18:02.899574",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "75b56161d2b6919f"
+    "content_hash": "38dfc8570e6b622f"
   },
   {
-    "id": "e7a6da0e",
+    "id": "6fd68a6b",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "How sticky is inflation? Let's see: Before i go on... some news to be aware of: There are rumors of a Russian media saying there is an Iran-US deal Back to the data agenda... eyes on the Australian July month CPI data today.\n\nMonthly CPI data used to be very much in second place compared to the quarterly data, but not any more.\n\nI'll get a preview of today's data posted separately (ADDED, here it is: Preview - Australia's July CPI set to ease to 3.2-3.3pct as trimmed mean holds near 3.5pct ).\n\nUntil then, as background info: Australia's shift to a monthly Consumer Price Index as the nation's primary inflation measure marks the most significant change to the country's price statistics in decades, ending the quarterly release's century-long role as the headline benchmark for monetary policy.\n\nThe transition traces back to September 2022, when the Australian Bureau of Statistics introduced a monthly CPI indicator to give policymakers and markets an earlier read on inflation between quarterly releases.\n\nThat early indicator drew on existing data collection methods and updated prices for roughly two thirds of the CPI basket each month, using data the ABS was already gathering for the quarterly series.\n\nAt the time, the ABS and the Reserve Bank both flagged that the quarterly CPI would likely remain the principal measure for the foreseeable future, given large parts of the basket, particularly consumer durables and many administered prices, were only priced once a quarter.\n\nThat changed as the ABS invested in broader monthly price collection.\n\nhttps://investinglive.com/news/economic-and-event-calendar-in-asia-26-august-2026-australian-inflation-data-due/",
+    "draft_text": "From the data desk: The USD/CAD pair edges higher during the Asian session on Wednesday, though it remains confined within the previous day\u2019s range.\n\nSpot prices currently trade around mid-1.3800s as traders now look to the US Personal Consumption Expenditures (PCE) Price Index for some meaningful impetus.\n\nhttps://www.fxstreet.com/news/canadian-dollar-weakens-amid-falling-oil-prices-as-usd-holds-steady-ahead-of-us-pce-202608260120",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/canadian-dollar-weakens-amid-falling-oil-prices-as-usd-holds-steady-ahead-of-us-pce-202608260120",
+    "source_title": "Canadian Dollar weakens amid falling oil prices as USD holds steady ahead of US PCE",
+    "source_summary": "The USD/CAD pair edges higher during the Asian session on Wednesday, though it remains confined within the previous day\u2019s range. Spot prices currently trade around mid-1.3800s as traders now look to the US Personal Consumption Expenditures (PCE) Price Index for some meaningful impetus.",
+    "drafted_at": "2026-08-26T02:18:02.900042",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "de91e8269bfe21b6"
+  },
+  {
+    "id": "6ac1115e",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "How sticky is inflation? Let's see: Today's PCE print carries added weight given its timing, landing just two days ahead of Fed Chair Warsh's first Jackson Hole keynote and before Nvidia's earnings, making this a genuinely stacked stretch for US macro risk.\n\nA softer than expected core reading would likely reinforce the case for continued rate cuts and could pressure the dollar while supporting risk assets, whereas a hotter print would revive the hawkish argument that has already produced an unusually split FOMC vote and rising discount rate dissen t.\n\nGiven June's headline figure was a rare negative print, today's data will also be read as a signal of whether that dip was a genuine turn or a one off distortion, with the answer likely to shape how much weight markets place on Warsh's remarks on Friday. --- The Fed's preferred inflation gauge is expected to confirm progress is real but slow, leaving Warsh's Friday speech to decide what that means for rates.\n\nSummary: The Bureau of Economic Analysis releases its Personal Income and Outlays report for July today, Wednesday 26 August, at 8:30am Eastern (12:30pm GMT) FactSet consensus sees headline PCE rising 0.07% month on month, following a 0.11% decline in June, with the year on year rate easing to 3.6% from 3.7% Core PCE, which excludes food and energy, is forecast to rise 0.18% month on month, with year on year estimates ranging from holding at 3.3% to easing slightly to 3.2% Independent forecaster Continuum Economics expects the data to track July's CPI closely, seeing headline at 0.1% and core at 0.2% month on month Natixis chief US economist Christopher Hodge takes a slightly more hawkish view, forecasting headline PCE unchanged at 3.70% year on year, citing continued upward pressure from computer hardware and software prices tied to AI and data centre investment June's PCE reading was the first negative month on month print since 2020, meaning today's data will be watched closely for whether that dip proves durable or reverses The release lands two days ahead of Fed Chair Kevin Warsh's first Jackson Hole keynote address as chair, scheduled for Friday The Bureau of Economic Analysis releases its Personal Income and Outlays report for July today, Wednesday 26 August, at 8:30am Eastern time, delivering the Federal Reserve's preferred inflation gauge at a moment when the central bank's rate path remains genuinely contested.\n\nConsensus forecasts compiled by FactSet see headline PCE inflation rising 0.07% on the month, a rebound from June's 0.11% decline, which was the first negative monthly PCE reading since 2020.\n\nOn an annual basis, headline inflation is expected to ease modestly to 3.6% from 3.7%.\n\nCore PCE, which strips out volatile food and energy prices and is the measure the Fed watches most closely, is forecast to rise 0.18% month on month, with economists divided over whether the year on year rate holds at 3.3% or eases slightly to 3.2%.\n\nIndependent forecasters broadly align with that picture, though with some divergence in emphasis.\n\nhttps://investinglive.com/news/preview-today-fed-s-favoured-inflation-gauge-lands-two-days-before-warsh-s-jackson-hole-speech/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/economic-and-event-calendar-in-asia-26-august-2026-australian-inflation-data-due/",
-    "source_title": "Economic and event calendar in Asia 26 August 2026",
-    "source_summary": "Before i go on ... some news to be aware of: There are rumors of a Russian media saying there is an Iran-US deal Back to the data agenda ... eyes on the Australian July month CPI data today. Monthly CPI data used to be very much in second place compared to the quarterly data, but not any more. I'll get a preview of today's data posted separately (ADDED, here it is: Preview - Australia's July CPI s",
-    "drafted_at": "2026-08-26T00:36:41.102271",
+    "source_url": "https://investinglive.com/news/preview-today-fed-s-favoured-inflation-gauge-lands-two-days-before-warsh-s-jackson-hole-speech/",
+    "source_title": "Preview, today: Fed's favoured inflation gauge lands two days before Warsh's Jackson Hole speech",
+    "source_summary": "Today's PCE print carries added weight given its timing, landing just two days ahead of Fed Chair Warsh's first Jackson Hole keynote and before Nvidia's earnings , making this a genuinely stacked stretch for US macro risk. A softer than expected core reading would likely reinforce the case for continued rate cuts and could pressure the dollar while supporting risk assets, whereas a hotter print wo",
+    "drafted_at": "2026-08-26T02:18:02.903645",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "60aee77a6967248b"
+    "content_hash": "a42018b74c1860b8"
   },
   {
-    "id": "6553b8d7",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "From the housing desk: Today\u2019s busy slate of economic data included multiple housing releases.\n\nNew home sales were light, falling to 607K SAAR in July versus 628K in June.\n\nThat was also below expectations of a drop to only 620K.\n\nGiven continued weakness in home sales, prices have reflected that weak demand.\n\nThe median sales price for a new [\u2026] The post New Home Sale Prices Continue to Fall first appeared on Bespoke Investment Group.\n\nhttps://www.bespokepremium.com/think-big-blog/new-home-sale-prices-continue-to-fall/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "BESPOKE",
-    "source_url": "https://www.bespokepremium.com/think-big-blog/new-home-sale-prices-continue-to-fall/",
-    "source_title": "New Home Sale Prices Continue to Fall",
-    "source_summary": "Today\u2019s busy slate of economic data included multiple housing releases. New home sales were light, falling to 607K SAAR in July versus 628K in June. That was also below expectations of a drop to only 620K. Given continued weakness in home sales, prices have reflected that weak demand. The median sales price for a new [\u2026] The post New Home Sale Prices Continue to Fall first appeared on Bespoke Inve",
-    "drafted_at": "2026-08-26T00:36:41.102695",
-    "data": {
-      "source": "BESPOKE"
-    },
-    "content_hash": "83807a34c59d68bc"
-  },
-  {
-    "id": "6ad319c2",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "GDP DAY. With the federal deficit near 6% of GDP and the national debt surpassing $40 trillion, America\u2019s fiscal position looks increasingly precarious.\n\nBy trying to strong-arm the bond market rather than address the underlying problem, Treasury Secretary Scott Bessent may have squandered his hard-earned credibility.\n\nhttps://www.project-syndicate.org/commentary/trump-treasury-secretary-bessent-bond-market-intervention-is-backfiring-by-kenneth-rogoff-2026-08",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "PROJECT SYND",
-    "source_url": "https://www.project-syndicate.org/commentary/trump-treasury-secretary-bessent-bond-market-intervention-is-backfiring-by-kenneth-rogoff-2026-08",
-    "source_title": "Is the Trump Treasury Panicking?",
-    "source_summary": "With the federal deficit near 6% of GDP and the national debt surpassing $40 trillion, America\u2019s fiscal position looks increasingly precarious. By trying to strong-arm the bond market rather than address the underlying problem, Treasury Secretary Scott Bessent may have squandered his hard-earned credibility.",
-    "drafted_at": "2026-08-26T00:36:41.103066",
-    "data": {
-      "source": "PROJECT SYND"
-    },
-    "content_hash": "11b3ab02354bcf51"
-  },
-  {
-    "id": "ac0dfb49",
+    "id": "f7a7fd1f",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -606,7 +621,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-08-26T00:36:41.105117",
+    "drafted_at": "2026-08-26T02:18:02.909504",
     "data": {
       "manual": true,
       "via": "manual_news.md"
