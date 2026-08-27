@@ -1,18 +1,4 @@
 {
-  "GC=F:move:2026-08-25": {
-    "headline": "Gold jumps 7.9% in 5 sessions to $4,728.60",
-    "matters": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
-    "source": "COMEX \u00b7 GC=F",
-    "chart_path": null,
-    "signal_id": "GC=F:move:2026-08-25",
-    "current_str": "$4,728.60",
-    "label": "Gold futures",
-    "hashtags": "#Gold #PreciousMetals #Commodities",
-    "kind": "move_up",
-    "badge": "+7.9%",
-    "data_url": "https://finance.yahoo.com/quote/GC%3DF",
-    "fired_at": "2026-08-25T23:16:10.482742"
-  },
   "^VIX:move:2026-08-25": {
     "headline": "VIX jumps 8.4% in 5 sessions to 15.45",
     "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
@@ -42,18 +28,18 @@
     "fired_at": "2026-08-26T20:38:08.759067"
   },
   "GC=F:move:2026-08-26": {
-    "headline": "Gold jumps 7.3% in 5 sessions to $4,699.00",
+    "headline": "Gold climbs 6.7% in 5 sessions to $4,675.00",
     "matters": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
     "source": "COMEX \u00b7 GC=F",
     "chart_path": null,
     "signal_id": "GC=F:move:2026-08-26",
-    "current_str": "$4,699.00",
+    "current_str": "$4,675.00",
     "label": "Gold futures",
     "hashtags": "#Gold #PreciousMetals #Commodities",
     "kind": "move_up",
-    "badge": "+7.3%",
+    "badge": "+6.7%",
     "data_url": "https://finance.yahoo.com/quote/GC%3DF",
-    "fired_at": "2026-08-26T04:29:15.196311"
+    "fired_at": "2026-08-27T00:32:59.074136"
   },
   "^VIX:move:2026-08-26": {
     "headline": "VIX jumps 10.0% in 5 sessions to 15.67",
@@ -68,5 +54,19 @@
     "badge": "+10.0%",
     "data_url": "https://finance.yahoo.com/quote/%5EVIX",
     "fired_at": "2026-08-26T07:36:51.721316"
+  },
+  "BTC-USD:move:2026-08-27": {
+    "headline": "Bitcoin rips 22.2% in 5 sessions to $78,838",
+    "matters": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
+    "source": "Yahoo Finance \u00b7 BTC-USD",
+    "chart_path": null,
+    "signal_id": "BTC-USD:move:2026-08-27",
+    "current_str": "$78,838",
+    "label": "Bitcoin",
+    "hashtags": "#Bitcoin #BTC #Crypto",
+    "kind": "move_up",
+    "badge": "+22.2%",
+    "data_url": "https://finance.yahoo.com/quote/BTC-USD",
+    "fired_at": "2026-08-27T00:32:59.074136"
   }
 }
