@@ -1,32 +1,4 @@
 {
-  "GC=F:move:2026-08-26": {
-    "headline": "Gold climbs 6.7% in 5 sessions to $4,675.00",
-    "matters": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
-    "source": "COMEX \u00b7 GC=F",
-    "chart_path": null,
-    "signal_id": "GC=F:move:2026-08-26",
-    "current_str": "$4,675.00",
-    "label": "Gold futures",
-    "hashtags": "#Gold #PreciousMetals #Commodities",
-    "kind": "move_up",
-    "badge": "+6.7%",
-    "data_url": "https://finance.yahoo.com/quote/GC%3DF",
-    "fired_at": "2026-08-27T00:32:59.074136"
-  },
-  "^VIX:move:2026-08-26": {
-    "headline": "VIX climbs 6.7% in 5 sessions to 15.21",
-    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "source": "CBOE \u00b7 ^VIX",
-    "chart_path": null,
-    "signal_id": "^VIX:move:2026-08-26",
-    "current_str": "15.21",
-    "label": "VIX (S&P 500 volatility)",
-    "hashtags": "#VIX #Volatility #Markets",
-    "kind": "move_up",
-    "badge": "+6.7%",
-    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "fired_at": "2026-08-27T02:22:30.408326"
-  },
   "BTC-USD:move:2026-08-27": {
     "headline": "Bitcoin rips 24.4% in 5 sessions to $80,248",
     "matters": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
@@ -54,5 +26,33 @@
     "badge": "+5.1%",
     "data_url": "https://finance.yahoo.com/quote/GC%3DF",
     "fired_at": "2026-08-27T13:16:50.535451"
+  },
+  "GC=F:move:2026-08-28": {
+    "headline": "Gold climbs 6.0% in 5 sessions to $4,628.40",
+    "matters": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
+    "source": "COMEX \u00b7 GC=F",
+    "chart_path": null,
+    "signal_id": "GC=F:move:2026-08-28",
+    "current_str": "$4,628.40",
+    "label": "Gold futures",
+    "hashtags": "#Gold #PreciousMetals #Commodities",
+    "kind": "move_up",
+    "badge": "+6.0%",
+    "data_url": "https://finance.yahoo.com/quote/GC%3DF",
+    "fired_at": "2026-08-28T05:52:16.912227"
+  },
+  "BTC-USD:move:2026-08-28": {
+    "headline": "Bitcoin rips 23.4% in 5 sessions to $79,818",
+    "matters": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
+    "source": "Yahoo Finance \u00b7 BTC-USD",
+    "chart_path": null,
+    "signal_id": "BTC-USD:move:2026-08-28",
+    "current_str": "$79,818",
+    "label": "Bitcoin",
+    "hashtags": "#Bitcoin #BTC #Crypto",
+    "kind": "move_up",
+    "badge": "+23.4%",
+    "data_url": "https://finance.yahoo.com/quote/BTC-USD",
+    "fired_at": "2026-08-28T05:52:16.912227"
   }
 }
