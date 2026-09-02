@@ -1,23 +1,42 @@
 [
   {
-    "id": "db4a1670",
+    "id": "c2f5a717",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "Oil: Private survey of inventory shows a headline crude oil draw greater than expected Nasdaq indices close sharply lower as Iran war heats up All aboard!.\n\nThe Bond Bears take the 10 year yield above 4.75% and up to 4.80% Here we go again.\n\nTrump says \"Iran will be totally wiped out as a country\".\n\nhttps://investinglive.com/news/investinglive-americas-fx-news-wrap-1-sept-it-s-a-wrap-but-not-for-the-iran-war-fighting-resumes/",
+    "draft_text": "Bank of Japan (BoJ) board member Hajime Takata said on Wednesday that the central bank must conduct rate hikes nimbly after assessing accommodation in domestic financial conditions and developments.\n\nhttps://www.fxstreet.com/news/bojs-takata-says-central-bank-must-hike-rates-mimbly-after-assessing-financial-conditions-202609020146",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-1-sept-it-s-a-wrap-but-not-for-the-iran-war-fighting-resumes/",
-    "source_title": "investingLive Americas FX news wrap 1 Sept: It's a wrap but not for the Iran War.  Fighting resumes.",
-    "source_summary": "Oil: Private survey of inventory shows a headline crude oil draw greater than expected Nasdaq indices close sharply lower as Iran war heats up All aboard!. The Bond Bears take the 10 year yield above 4.75% and up to 4.80% Here we go again. Trump says \"Iran will be totally wiped out as a country\". Crude oil trades at $90.50 Trump confirms US striking Iran. Crude oil moves higher. Stocks move lower ",
-    "drafted_at": "2026-09-01T23:39:39.344977",
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/bojs-takata-says-central-bank-must-hike-rates-mimbly-after-assessing-financial-conditions-202609020146",
+    "source_title": "BoJ\u2019s Takata says central bank must hike rates mimbly after assessing financial conditions",
+    "source_summary": "Bank of Japan (BoJ) board member Hajime Takata said on Wednesday that the central bank must conduct rate hikes nimbly after assessing accommodation in domestic financial conditions and developments.",
+    "drafted_at": "2026-09-02T01:48:05.674909",
     "data": {
-      "source": "FOREXLIVE"
+      "source": "FXSTREET"
     },
-    "content_hash": "612b2b512af2c903"
+    "content_hash": "fb29d9345393cc37"
   },
   {
-    "id": "f168be13",
+    "id": "0a8a8fba",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "This is the kind of move that hits twice. WTI crude climbs 5.5% in 5 sessions to $91.89.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NYMEX \u00b7 CL=F",
+    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "source_title": "WTI crude oil futures",
+    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "drafted_at": "2026-09-02T01:48:05.675130",
+    "data": {
+      "signal_id": "CL=F:move:2026-09-01",
+      "kind": "move_up",
+      "current": "$91.89"
+    },
+    "content_hash": "c272de0720a2f459"
+  },
+  {
+    "id": "fa06326c",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Look at this number. Then look again. VIX jumps 8.2% in 5 sessions to 16.37.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
@@ -27,7 +46,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EVIX",
     "source_title": "VIX (S&P 500 volatility)",
     "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-09-01T23:39:39.345261",
+    "drafted_at": "2026-09-02T01:48:05.675287",
     "data": {
       "signal_id": "^VIX:move:2026-09-01",
       "kind": "move_up",
@@ -36,7 +55,7 @@
     "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "2e04f87c",
+    "id": "ea4d5cc4",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Print this and put it on the fridge. Gold drops 5.4% in 5 sessions to $4,374.80.\n\nGold tracks real yields and central bank demand.\n\nMulti-year highs flag debasement or geopolitical hedging flows.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/GC%3DF",
@@ -46,7 +65,7 @@
     "source_url": "https://finance.yahoo.com/quote/GC%3DF",
     "source_title": "Gold futures",
     "source_summary": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
-    "drafted_at": "2026-09-01T23:39:39.345489",
+    "drafted_at": "2026-09-02T01:48:05.675452",
     "data": {
       "signal_id": "GC=F:move:2026-09-01",
       "kind": "move_down",
@@ -55,7 +74,41 @@
     "content_hash": "514096a7b4f87c16"
   },
   {
-    "id": "5c734a9d",
+    "id": "39f357b4",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "JAPAN POLICY READ: Bank of Japan (BoJ) board member Hajime Takata said on Wednesday that the central bank must conduct rate hikes nimbly after assessing accommodation in domestic financial conditions and developments.\n\nhttps://www.fxstreet.com/news/bojs-takata-says-central-bank-must-hike-rates-mimbly-after-assessing-financial-conditions-202609020146",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "BoJ",
+    "source_url": "https://www.fxstreet.com/news/bojs-takata-says-central-bank-must-hike-rates-mimbly-after-assessing-financial-conditions-202609020146",
+    "source_title": "BoJ\u2019s Takata says central bank must hike rates mimbly after assessing financial conditions",
+    "source_summary": "Bank of Japan (BoJ) board member Hajime Takata said on Wednesday that the central bank must conduct rate hikes nimbly after assessing accommodation in domestic financial conditions and developments.",
+    "drafted_at": "2026-09-02T01:48:05.683177",
+    "data": {
+      "actor": "BoJ"
+    },
+    "content_hash": "fb29d9345393cc37"
+  },
+  {
+    "id": "72e515ca",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "PBOC postcard: On Wednesday, the People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7829 compared to the previous day's fix of 6.7809 and 6.7238 Reuters estimate.\n\nhttps://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67829-vs-67809-previous-202609020115",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "PBOC",
+    "source_url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67829-vs-67809-previous-202609020115",
+    "source_title": "PBOC sets USD/CNY reference rate at 6.7829 vs. 6.7809 previous",
+    "source_summary": "On Wednesday, the People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7829 compared to the previous day's fix of 6.7809 and 6.7238 Reuters estimate.",
+    "drafted_at": "2026-09-02T01:48:05.683405",
+    "data": {
+      "actor": "PBOC"
+    },
+    "content_hash": "77ef9f73f97fcb07"
+  },
+  {
+    "id": "992ab1d0",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "From the Eccles Building: Fed Chair Kevin Warsh reiterated his commitment to fighting inflation in a major speech \u2014 raising expectations that rate hikes may be coming, though he did not clearly spell out a path going forward.\n\nhttps://www.npr.org/2026/08/28/nx-s1-5947903/federal-reserve-inflation-jackson-hole-interest-rates",
@@ -65,14 +118,14 @@
     "source_url": "https://www.npr.org/2026/08/28/nx-s1-5947903/federal-reserve-inflation-jackson-hole-interest-rates",
     "source_title": "Fed's Kevin Warsh warns inflation is too high, sparking bets rate hikes are coming",
     "source_summary": "Fed Chair Kevin Warsh reiterated his commitment to fighting inflation in a major speech \u2014 raising expectations that rate hikes may be coming, though he did not clearly spell out a path going forward.",
-    "drafted_at": "2026-09-01T23:39:39.356441",
+    "drafted_at": "2026-09-02T01:48:05.683629",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "46f9ad0d213a5019"
   },
   {
-    "id": "e8ec4474",
+    "id": "4f2f49ac",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FOMC desk: The US central bank \"will have work to do\" unless inflationary pressures recede, according to its Trump-appointed chair who was under pressure to signal if interest rates would rise in response.\n\nhttps://news.sky.com/story/jackson-hole-warsh-gives-clear-us-rate-rise-signal-amid-inflation-threat-13578046",
@@ -82,14 +135,14 @@
     "source_url": "https://news.sky.com/story/jackson-hole-warsh-gives-clear-us-rate-rise-signal-amid-inflation-threat-13578046",
     "source_title": "Fed chair hints at US rate rise amid inflation threat",
     "source_summary": "The US central bank \"will have work to do\" unless inflationary pressures recede, according to its Trump-appointed chair who was under pressure to signal if interest rates would rise in response.",
-    "drafted_at": "2026-09-01T23:39:39.356696",
+    "drafted_at": "2026-09-02T01:48:05.683805",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "df9c475231e2ec02"
   },
   {
-    "id": "0635fd9b",
+    "id": "a53cc0b5",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Policy update for the pack: The Board's process for setting the discount rate is distinct from the process the Federal Open Market Committee follows in setting the target range for the federal funds rate.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
@@ -99,31 +152,94 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
     "source_title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
     "source_summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
-    "drafted_at": "2026-09-01T23:39:39.357068",
+    "drafted_at": "2026-09-02T01:48:05.684047",
     "data": {
       "actor": "FED"
     },
     "content_hash": "da9833991b6c87c5"
   },
   {
-    "id": "fc02b2bd",
-    "format": "POLICY_READ",
+    "id": "6fb3991a",
+    "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "POWELL POSTCARD: Consent prohibition against Stephanie R.\n\nConsent prohibition against Crystal A.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm",
-    "image_path": null,
+    "draft_text": "$AUGO \u2014 a company insider bought $21.8M on Aug 28.\n\nAura Minerals Inc. 252,000 shares at $86.48.\n\nStock is -8.6% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/AUGO_P_20260828.png",
     "og_image_url": null,
-    "primary_source": "FED",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm",
-    "source_title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
-    "source_summary": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
-    "drafted_at": "2026-09-01T23:39:39.357295",
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=AUGO",
+    "source_title": "Aura Minerals Inc. (AUGO) insider bought $21.8M",
+    "source_summary": "1 insider(s) bought 252,000 shares at $86.48 on 2026-08-28.",
+    "drafted_at": "2026-09-02T01:48:05.684495",
     "data": {
-      "actor": "FED"
+      "ticker": "AUGO",
+      "type": "P",
+      "dollar_value": 21792751.0,
+      "pct_since": -8.597365669582205
     },
-    "content_hash": "1899c878ef68bdd8"
+    "content_hash": "8db179619ea24805"
   },
   {
-    "id": "3a952abf",
+    "id": "7f7d1303",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$NSLR \u2014 2 company insiders bought $760,984 on Aug 26.\n\nNeostellar Capital Corp. 76,040 shares at $10.01.\n\nStock is -1.1% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/NSLR_P_20260826.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=NSLR",
+    "source_title": "Neostellar Capital Corp. (NSLR) insider bought $760,984",
+    "source_summary": "2 insider(s) bought 76,040 shares at $10.01 on 2026-08-26.",
+    "drafted_at": "2026-09-02T01:48:05.684653",
+    "data": {
+      "ticker": "NSLR",
+      "type": "P",
+      "dollar_value": 760984.0,
+      "pct_since": -1.0989049097874761
+    },
+    "content_hash": "671482594bed7f85"
+  },
+  {
+    "id": "af868264",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$LUCK \u2014 a company insider bought $633,944 on Aug 28.\n\nLucky Strike Entertainment Corp. 4,200 shares at $150.94.\n\nStock is -96.0% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/LUCK_P_20260828.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=LUCK",
+    "source_title": "Lucky Strike Entertainment Corp (LUCK) insider bought $633,944",
+    "source_summary": "1 insider(s) bought 4,200 shares at $150.94 on 2026-08-28.",
+    "drafted_at": "2026-09-02T01:48:05.684780",
+    "data": {
+      "ticker": "LUCK",
+      "type": "P",
+      "dollar_value": 633944.0,
+      "pct_since": -95.95865913301141
+    },
+    "content_hash": "35605d70ffee0404"
+  },
+  {
+    "id": "d1a1e124",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$SRTS \u2014 2 company insiders bought $563,538 on Aug 28.\n\nSensus Healthcare, Inc. 171,171 shares at $3.29.\n\nStock is +1.2% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/SRTS_P_20260828.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=SRTS",
+    "source_title": "Sensus Healthcare, Inc. (SRTS) insider bought $563,538",
+    "source_summary": "2 insider(s) bought 171,171 shares at $3.29 on 2026-08-28.",
+    "drafted_at": "2026-09-02T01:48:05.684897",
+    "data": {
+      "ticker": "SRTS",
+      "type": "P",
+      "dollar_value": 563538.0,
+      "pct_since": 1.215803152159716
+    },
+    "content_hash": "06894cc6c10cecec"
+  },
+  {
+    "id": "3e973420",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$LILA \u2014 a company insider bought $1.0M on Aug 28.\n\nLiberty Latin America Ltd. 121,286 shares at $8.49.\n\nStock is +0.8% since the purchase. This is a public SEC Form 4 filing.",
@@ -133,7 +249,7 @@
     "source_url": "http://openinsider.com/screener?s=LILA",
     "source_title": "Liberty Latin America Ltd. (LILA) insider bought $1.0M",
     "source_summary": "1 insider(s) bought 121,286 shares at $8.49 on 2026-08-28.",
-    "drafted_at": "2026-09-01T23:39:39.357707",
+    "drafted_at": "2026-09-02T01:48:05.685014",
     "data": {
       "ticker": "LILA",
       "type": "P",
@@ -143,87 +259,24 @@
     "content_hash": "b6b9d6ec192d701d"
   },
   {
-    "id": "d19ee906",
-    "format": "CORRUPTION_WATCH_INSIDER",
+    "id": "e2114ea8",
+    "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "$ITT \u2014 a company insider bought $1.0M on Aug 31.\n\nItt Inc. 5,019 shares at $199.56.\n\nStock is -2.7% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/ITT_P_20260831.png",
+    "draft_text": "The SEC moves to put stock records on-chain, while the CFTC fines a swaps trader $90,000 for deleting his messages.\n\nThe post Wall Street Stock Records Could Move On-Chain.\n\nOne Trader Punished for Deleting His appeared first on BeInCrypto.\n\nhttps://beincrypto.com/sec-transfer-agent-stock-records-onchain/",
+    "image_path": null,
     "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=ITT",
-    "source_title": "Itt Inc. (ITT) insider bought $1.0M",
-    "source_summary": "1 insider(s) bought 5,019 shares at $199.56 on 2026-08-31.",
-    "drafted_at": "2026-09-01T23:39:39.357877",
+    "primary_source": "BEINCRYPTO",
+    "source_url": "https://beincrypto.com/sec-transfer-agent-stock-records-onchain/",
+    "source_title": "Wall Street Stock Records Could Move On-Chain. One Trader Punished for Deleting His",
+    "source_summary": "The SEC moves to put stock records on-chain, while the CFTC fines a swaps trader $90,000 for deleting his messages. The post Wall Street Stock Records Could Move On-Chain. One Trader Punished for Deleting His appeared first on BeInCrypto .",
+    "drafted_at": "2026-09-02T01:48:05.687267",
     "data": {
-      "ticker": "ITT",
-      "type": "P",
-      "dollar_value": 1001592.0,
-      "pct_since": -2.65584560691725
+      "source": "BEINCRYPTO"
     },
-    "content_hash": "d7e6c27af2c68322"
+    "content_hash": "f2f4244a5349986e"
   },
   {
-    "id": "8ba05f4a",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$NOMD \u2014 2 company insiders bought $954,231 on Aug 19.\n\nNomad Foods Ltd. 78,290 shares at $12.19.\n\nStock is -4.0% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/NOMD_P_20260819.png",
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=NOMD",
-    "source_title": "Nomad Foods Ltd (NOMD) insider bought $954,231",
-    "source_summary": "2 insider(s) bought 78,290 shares at $12.19 on 2026-08-19.",
-    "drafted_at": "2026-09-01T23:39:39.358065",
-    "data": {
-      "ticker": "NOMD",
-      "type": "P",
-      "dollar_value": 954231.0,
-      "pct_since": -4.019689833756052
-    },
-    "content_hash": "88c83c715f3b4903"
-  },
-  {
-    "id": "683c3b3a",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$TTMI \u2014 2 company insiders bought $1.6M on Aug 25.\n\nTtm Technologies Inc. 15,000 shares at $109.48.\n\nStock is +8.6% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/TTMI_P_20260825.png",
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=TTMI",
-    "source_title": "Ttm Technologies Inc (TTMI) insider bought $1.6M",
-    "source_summary": "2 insider(s) bought 15,000 shares at $109.48 on 2026-08-25.",
-    "drafted_at": "2026-09-01T23:39:39.358237",
-    "data": {
-      "ticker": "TTMI",
-      "type": "P",
-      "dollar_value": 1642200.0,
-      "pct_since": 8.622577794067691
-    },
-    "content_hash": "3d126c7b205fc749"
-  },
-  {
-    "id": "e8a811c6",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$NVRI \u2014 4 company insiders bought $1.6M on Aug 18.\n\nEnviri Corp. 81,673 shares at $19.28.\n\nStock is +15.6% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/NVRI_P_20260818.png",
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=NVRI",
-    "source_title": "Enviri Corp (NVRI) insider bought $1.6M",
-    "source_summary": "4 insider(s) bought 81,673 shares at $19.28 on 2026-08-18.",
-    "drafted_at": "2026-09-01T23:39:39.358393",
-    "data": {
-      "ticker": "NVRI",
-      "type": "P",
-      "dollar_value": 1574286.0,
-      "pct_since": 15.560169536543084
-    },
-    "content_hash": "c83ff666b7ca9b97"
-  },
-  {
-    "id": "0248c43b",
+    "id": "a534ffe6",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "DOJ charges it was 'propping up the extremism that it claims it exists to oppose'.\n\nhttps://www.wnd.com/2026/09/judge-rejects-splc-motion-sever-its-case-former/?utm_source=rss&utm_medium=rss&utm_campaign=judge-rejects-splc-motion-sever-its-case-former",
@@ -233,14 +286,14 @@
     "source_url": "https://www.wnd.com/2026/09/judge-rejects-splc-motion-sever-its-case-former/?utm_source=rss&utm_medium=rss&utm_campaign=judge-rejects-splc-motion-sever-its-case-former",
     "source_title": "Judge rejects SPLC motion to sever its case from former CFO, delaying trial",
     "source_summary": "DOJ charges it was 'propping up the extremism that it claims it exists to oppose'",
-    "drafted_at": "2026-09-01T23:39:39.361351",
+    "drafted_at": "2026-09-02T01:48:05.687347",
     "data": {
       "source": "WND"
     },
     "content_hash": "e73b39ad032d664f"
   },
   {
-    "id": "83b47775",
+    "id": "82e51e3c",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The 46-year-old oil baron reportedly played a crucial role in helping the Trump administration oust Nicolas Maduro from power \u2013 and has his own checkered past.\n\nhttps://nypost.com/2026/09/01/business/who-is-alejandro-betancourt-the-controversial-man-behind-trumps-venezuela-oil-deal/",
@@ -250,31 +303,31 @@
     "source_url": "https://nypost.com/2026/09/01/business/who-is-alejandro-betancourt-the-controversial-man-behind-trumps-venezuela-oil-deal/",
     "source_title": "Who is Alejandro Betancourt, the controversial man behind Trump\u2019s Venezuela oil deal accused of money laundering?",
     "source_summary": "The 46-year-old oil baron reportedly played a crucial role in helping the Trump administration oust Nicolas Maduro from power \u2013 and has his own checkered past.",
-    "drafted_at": "2026-09-01T23:39:39.361566",
+    "drafted_at": "2026-09-02T01:48:05.687492",
     "data": {
       "source": "NY POST"
     },
     "content_hash": "daaaf952b5a78174"
   },
   {
-    "id": "cf2ab02d",
+    "id": "82db713a",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "ActBlue board member Kimberly Peeler-Allen invoked the Fifth Amendment as lawmakers probed her in their investigation into how the company vets foreign donations and whether it weakened its fraud protections during the 2024 election.\n\nhttps://justthenews.com/government/congress/actblue-board-member-becomes-latest-plead-fifth-house-investigation?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+    "draft_text": "Couple who survived Tai Po fire await trial for fraud, cannot leave Hong Kong South China Morning Post\n\nhttps://news.google.com/rss/articles/CBMi1AFBVV95cUxNdE5wNjllMk54bC1jZ3BqRVZrVXlXUnBUR2RaQzNLck9WdFE0WnIwVkRXXzZpZW16cnNhbFpqaC1iNGQwSElXYmtRX1pMcjQzVUFCb1RqYkphRTU3RGNlc3dwUFZoZy1sYjJfYjMtSkFCRlhOd3BXT2huVHliLTBybWtOSl9NT0M5SFRXSlIzamgtLWVyNU5lSWVTdGtVdHZ0VmtRMXdNZnZHandkY2lUOWlQaGU4NUJoWjZmZTdzWHpCcmZMbEdMMnNtc2hxaXg3bDRKQdIB1AFBVV95cUxNNThkZHNFeThKUktsdG5wdG1aSFhqUXpvZElvTkhQY2dPclJWN3dfLUo2Mk1wMGhGeHBnc2h2Mzk3bzQ0Y0tiWVAzdTRlMTJXMW1ZLWZpYmNDWkFPdVNjaEExQXBqVnNRcnRYZ09kN2lVNFpsbXdXWDhYTi1hUWlQQmw4bzY0cTJyNUZXWWlmdVZhYXNoeTRWWkxqd0cwUm5BOVU5RERHZ1dYQnBXMjhIWi03djVlLUstU0pmRWFubF95TGMzaWRSc1FhUG5rTUhxVlg3aw?oc=5",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "JUST THE NEWS",
-    "source_url": "https://justthenews.com/government/congress/actblue-board-member-becomes-latest-plead-fifth-house-investigation?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
-    "source_title": "ActBlue board member becomes latest to plead the Fifth in House investigation",
-    "source_summary": "ActBlue board member Kimberly Peeler-Allen invoked the Fifth Amendment as lawmakers probed her in their investigation into how the company vets foreign donations and whether it weakened its fraud protections during the 2024 election.",
-    "drafted_at": "2026-09-01T23:39:39.361817",
+    "primary_source": "SCMP",
+    "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNdE5wNjllMk54bC1jZ3BqRVZrVXlXUnBUR2RaQzNLck9WdFE0WnIwVkRXXzZpZW16cnNhbFpqaC1iNGQwSElXYmtRX1pMcjQzVUFCb1RqYkphRTU3RGNlc3dwUFZoZy1sYjJfYjMtSkFCRlhOd3BXT2huVHliLTBybWtOSl9NT0M5SFRXSlIzamgtLWVyNU5lSWVTdGtVdHZ0VmtRMXdNZnZHandkY2lUOWlQaGU4NUJoWjZmZTdzWHpCcmZMbEdMMnNtc2hxaXg3bDRKQdIB1AFBVV95cUxNNThkZHNFeThKUktsdG5wdG1aSFhqUXpvZElvTkhQY2dPclJWN3dfLUo2Mk1wMGhGeHBnc2h2Mzk3bzQ0Y0tiWVAzdTRlMTJXMW1ZLWZpYmNDWkFPdVNjaEExQXBqVnNRcnRYZ09kN2lVNFpsbXdXWDhYTi1hUWlQQmw4bzY0cTJyNUZXWWlmdVZhYXNoeTRWWkxqd0cwUm5BOVU5RERHZ1dYQnBXMjhIWi03djVlLUstU0pmRWFubF95TGMzaWRSc1FhUG5rTUhxVlg3aw?oc=5",
+    "source_title": "Couple who survived Tai Po fire await trial for fraud, cannot leave Hong Kong",
+    "source_summary": "Couple who survived Tai Po fire await trial for fraud, cannot leave Hong Kong South China Morning Post",
+    "drafted_at": "2026-09-02T01:48:05.687575",
     "data": {
-      "source": "JUST THE NEWS"
+      "source": "SCMP"
     },
-    "content_hash": "0954c4de3cdbda8a"
+    "content_hash": "c64ddd18000faf41"
   },
   {
-    "id": "de1e4030",
+    "id": "110282d0",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Financial records obtained by ICIJ show that they included individuals later accused of or sanctioned for money laundering and other financial crimes.\n\nhttps://www.icij.org/investigations/coin-laundry/crypto-giant-tether-promised-careful-vetting-some-early-customers-were-later-implicated-in-financial-crimes/",
@@ -284,31 +337,14 @@
     "source_url": "https://www.icij.org/investigations/coin-laundry/crypto-giant-tether-promised-careful-vetting-some-early-customers-were-later-implicated-in-financial-crimes/",
     "source_title": "Crypto giant Tether promised careful vetting. Some early customers were later implicated in financial crimes.",
     "source_summary": "Financial records obtained by ICIJ show that they included individuals later accused of or sanctioned for money laundering and other financial crimes.",
-    "drafted_at": "2026-09-01T23:39:39.361999",
+    "drafted_at": "2026-09-02T01:48:05.687708",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "b5dc549473d7ec96"
   },
   {
-    "id": "cf7e61d2",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "The allegations, which are at the heart of a confidential arbitration, signal an aggressive new stance by the Central Asian country toward longstanding international partners.\n\nhttps://www.icij.org/investigations/caspian-cabals/kazakhstan-alleges-big-oil-corruption-tainted-10-7-billion-in-contracts-delayed-key-oil-project/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "ICIJ",
-    "source_url": "https://www.icij.org/investigations/caspian-cabals/kazakhstan-alleges-big-oil-corruption-tainted-10-7-billion-in-contracts-delayed-key-oil-project/",
-    "source_title": "Kazakhstan alleges Big Oil corruption tainted $10.7 billion in contracts, delayed key oil project",
-    "source_summary": "The allegations, which are at the heart of a confidential arbitration, signal an aggressive new stance by the Central Asian country toward longstanding international partners.",
-    "drafted_at": "2026-09-01T23:39:39.362196",
-    "data": {
-      "source": "ICIJ"
-    },
-    "content_hash": "7a4f2a9afcac6e3a"
-  },
-  {
-    "id": "ea6b145d",
+    "id": "48eafc2c",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "6 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 David J. Taylor (R)\n\u2022 John Boozman (R)\n\u2022 Cleo Fields (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 John Fetterman (D)\n\u2022 John McGuire (R)\n\nLargest disclosed here: David J. Taylor, $1,001 - $15,000 on Feb 26.\n\nPrice since the first buy in this group: +26.3%.\n\nSTOCK Act disclosures. Public record.",
@@ -318,7 +354,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034138.pdf",
     "source_title": "6 Congress members bought $MSFT",
     "source_summary": "6 politicians bought $MSFT; largest $1,001 - $15,000 by David J. Taylor.",
-    "drafted_at": "2026-09-01T23:39:39.362694",
+    "drafted_at": "2026-09-02T01:48:05.688193",
     "data": {
       "ticker": "MSFT",
       "member_count": 6,
@@ -327,7 +363,7 @@
     "content_hash": "7c24415ac3c0b542"
   },
   {
-    "id": "2af3bf99",
+    "id": "fe0fc1b8",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "5 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Markwayne Mullin (D)\n\u2022 Josh Gottheimer (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Markwayne Mullin, $50,001 - $100,000 on Feb 25.\n\nPrice since the first buy in this group: +45.0%.\n\nSTOCK Act disclosures. Public record.",
@@ -337,7 +373,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/f586922d-6083-44e5-8a32-769290389416/",
     "source_title": "5 Congress members bought $UNH",
     "source_summary": "5 politicians bought $UNH; largest $50,001 - $100,000 by Markwayne Mullin.",
-    "drafted_at": "2026-09-01T23:39:39.363020",
+    "drafted_at": "2026-09-02T01:48:05.688405",
     "data": {
       "ticker": "UNH",
       "member_count": 5,
@@ -346,7 +382,7 @@
     "content_hash": "7cbacf41d412a41b"
   },
   {
-    "id": "dfe3e06b",
+    "id": "d94c8d6a",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Markwayne Mullin (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Markwayne Mullin, $50,001 - $100,000 on Feb 25.\n\nPrice since the first buy in this group: +39.0%.\n\nSTOCK Act disclosures. Public record.",
@@ -356,7 +392,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/f586922d-6083-44e5-8a32-769290389416/",
     "source_title": "4 Congress members bought $UNH",
     "source_summary": "4 politicians bought $UNH; largest $50,001 - $100,000 by Markwayne Mullin.",
-    "drafted_at": "2026-09-01T23:39:39.363312",
+    "drafted_at": "2026-09-02T01:48:05.688595",
     "data": {
       "ticker": "UNH",
       "member_count": 4,
@@ -365,7 +401,7 @@
     "content_hash": "029ae5a8d0ca395b"
   },
   {
-    "id": "c736e13a",
+    "id": "ff143f5c",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $LLY this year \u2014 and these filings don't show them selling:\n\n\u2022 David J. Taylor (R)\n\u2022 Byron Donalds (R)\n\u2022 Gilbert Cisneros (D)\n\nLargest disclosed here: David J. Taylor, $1,001 - $15,000 on Feb 26.\n\nPrice since the first buy in this group: +14.6%.\n\nSTOCK Act disclosures. Public record.",
@@ -375,7 +411,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034138.pdf",
     "source_title": "3 Congress members bought $LLY",
     "source_summary": "3 politicians bought $LLY; largest $1,001 - $15,000 by David J. Taylor.",
-    "drafted_at": "2026-09-01T23:39:39.363569",
+    "drafted_at": "2026-09-02T01:48:05.688786",
     "data": {
       "ticker": "LLY",
       "member_count": 3,
@@ -384,7 +420,7 @@
     "content_hash": "563c1444106a5429"
   },
   {
-    "id": "c5ab9e69",
+    "id": "5b74a5cf",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $HD this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Lloyd Doggett (D)\n\u2022 Jared Moskowitz (D)\n\nLargest disclosed here: Richard Dean Dr McCormick, $1,001 - $15,000 on Mar 19.\n\nPrice since the first buy in this group: -0.1%.\n\nSTOCK Act disclosures. Public record.",
@@ -394,7 +430,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033648.pdf",
     "source_title": "3 Congress members bought $HD",
     "source_summary": "3 politicians bought $HD; largest $1,001 - $15,000 by Richard Dean Dr McCormick.",
-    "drafted_at": "2026-09-01T23:39:39.363831",
+    "drafted_at": "2026-09-02T01:48:05.688966",
     "data": {
       "ticker": "HD",
       "member_count": 3,
@@ -403,126 +439,143 @@
     "content_hash": "8c0eaad1e4da4036"
   },
   {
-    "id": "926955d7",
+    "id": "40c193af",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Asia overnight: Rising yields signal potential global interest rate hikes, impacting borrowing costs and influencing central bank policy decisions worldwide.\n\nThe post Japan\u2019s 30-year bond yield hits record 4% amid inflation concerns appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/japans-30-year-bond-yield-hits-record-4-amid-inflation-concerns/",
+    "draft_text": "Asia overnight: Bank of Japan (BoJ) board member Hajime Takata said on Wednesday that the central bank must conduct rate hikes nimbly after assessing accommodation in domestic financial conditions and developments.\n\nhttps://www.fxstreet.com/news/bojs-takata-says-central-bank-must-hike-rates-mimbly-after-assessing-financial-conditions-202609020146",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/bojs-takata-says-central-bank-must-hike-rates-mimbly-after-assessing-financial-conditions-202609020146",
+    "source_title": "BoJ\u2019s Takata says central bank must hike rates mimbly after assessing financial conditions",
+    "source_summary": "Bank of Japan (BoJ) board member Hajime Takata said on Wednesday that the central bank must conduct rate hikes nimbly after assessing accommodation in domestic financial conditions and developments.",
+    "drafted_at": "2026-09-02T01:48:05.689686",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "fb29d9345393cc37"
+  },
+  {
+    "id": "4913f504",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "From the Gulf: Officials say at least 63 others wounded in attack on city of Kuhestak, including women and children.\n\nhttps://www.aljazeera.com/news/2026/9/2/iran-says-us-strikes-hit-a-wedding-party-in-sirik-killing-five?traffic_source=rss",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "AL JAZEERA",
+    "source_url": "https://www.aljazeera.com/news/2026/9/2/iran-says-us-strikes-hit-a-wedding-party-in-sirik-killing-five?traffic_source=rss",
+    "source_title": "Iran says US bombed a wedding party in Sirik, killing five",
+    "source_summary": "Officials say at least 63 others wounded in attack on city of Kuhestak, including women and children.",
+    "drafted_at": "2026-09-02T01:48:05.689910",
+    "data": {
+      "source": "AL JAZEERA"
+    },
+    "content_hash": "65491c9c1e00caf4"
+  },
+  {
+    "id": "b5449511",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Levant update: The strike exacerbates U.S.-Iran tensions, potentially destabilizing the region and increasing market speculation on Iran's regime change.\n\nThe post US strike on wedding ceremony in Iran\u2019s Sirik kills at least four people appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/us-strike-on-wedding-ceremony-in-irans-sirik-kills-at-least-four-people/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/japans-30-year-bond-yield-hits-record-4-amid-inflation-concerns/",
-    "source_title": "Japan\u2019s 30-year bond yield hits record 4% amid inflation concerns",
-    "source_summary": "Rising yields signal potential global interest rate hikes, impacting borrowing costs and influencing central bank policy decisions worldwide. The post Japan\u2019s 30-year bond yield hits record 4% amid inflation concerns appeared first on Crypto Briefing .",
-    "drafted_at": "2026-09-01T23:39:39.365304",
+    "source_url": "https://cryptobriefing.com/us-strike-on-wedding-ceremony-in-irans-sirik-kills-at-least-four-people/",
+    "source_title": "US strike on wedding ceremony in Iran\u2019s Sirik kills at least four people",
+    "source_summary": "The strike exacerbates U.S.-Iran tensions, potentially destabilizing the region and increasing market speculation on Iran's regime change. The post US strike on wedding ceremony in Iran\u2019s Sirik kills at least four people appeared first on Crypto Briefing .",
+    "drafted_at": "2026-09-02T01:48:05.690284",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "fd2034cfda09f853"
+    "content_hash": "c044a9079df7f47a"
   },
   {
-    "id": "fa6ccc86",
+    "id": "64ac2b10",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 AMERICAS: Argentina international Enzo Fernandez signs for Manchester City in a deal from Chelsea worth \u00a3125 million ($169m).\n\nhttps://www.aljazeera.com/sports/2026/9/1/fernandez-transfers-to-man-city-from-chelsea-in-joint-british-record-fee?traffic_source=rss",
+    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: Jim Cramer says oil, a hawkish Fed and Iran strikes are whipsawing Wall Street, and Bitcoin isn't escaping the pressure.\n\nThe post These 3 Factors Are Whipsawing Wall Street and Bitcoin appeared first on BeInCrypto.\n\nhttps://beincrypto.com/oil-fed-iran-wall-street-bitcoin/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/sports/2026/9/1/fernandez-transfers-to-man-city-from-chelsea-in-joint-british-record-fee?traffic_source=rss",
-    "source_title": "Fernandez transfers to Man City from Chelsea in joint British record fee",
-    "source_summary": "Argentina international Enzo Fernandez signs for Manchester City in a deal from Chelsea worth \u00a3125 million ($169m).",
-    "drafted_at": "2026-09-01T23:39:39.365702",
+    "primary_source": "BEINCRYPTO",
+    "source_url": "https://beincrypto.com/oil-fed-iran-wall-street-bitcoin/",
+    "source_title": "These 3 Factors Are Whipsawing Wall Street and Bitcoin",
+    "source_summary": "Jim Cramer says oil, a hawkish Fed and Iran strikes are whipsawing Wall Street, and Bitcoin isn't escaping the pressure. The post These 3 Factors Are Whipsawing Wall Street and Bitcoin appeared first on BeInCrypto .",
+    "drafted_at": "2026-09-02T01:48:05.690559",
     "data": {
-      "source": "AL JAZEERA"
+      "source": "BEINCRYPTO"
     },
-    "content_hash": "ee65c6ad9822cebd"
+    "content_hash": "5bac5053f8da398b"
   },
   {
-    "id": "a98de792",
+    "id": "c56a12cb",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Levant update: The Aussie Dollar retreats some 0.29% against the US Dollar on Tuesday as the escalation of the Middle East conflict boosted the Greenback due to its haven appeal.\n\nhttps://www.fxstreet.com/news/australian-dollar-falls-as-us-iran-conflict-lifts-usd-gdp-data-eyed-202609012239",
+    "draft_text": "PACK BRIEFING \u2014 CHINA: On Wednesday, the People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7829 compared to the previous day's fix of 6.7809 and 6.7238 Reuters estimate.\n\nhttps://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67829-vs-67809-previous-202609020115",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/australian-dollar-falls-as-us-iran-conflict-lifts-usd-gdp-data-eyed-202609012239",
-    "source_title": "Australian Dollar falls as US-Iran conflict lifts USD, GDP data eyed",
-    "source_summary": "The Aussie Dollar retreats some 0.29% against the US Dollar on Tuesday as the escalation of the Middle East conflict boosted the Greenback due to its haven appeal. The AUD/USD trades at 0.7146.",
-    "drafted_at": "2026-09-01T23:39:39.366536",
+    "source_url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67829-vs-67809-previous-202609020115",
+    "source_title": "PBOC sets USD/CNY reference rate at 6.7829 vs. 6.7809 previous",
+    "source_summary": "On Wednesday, the People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7829 compared to the previous day's fix of 6.7809 and 6.7238 Reuters estimate.",
+    "drafted_at": "2026-09-02T01:48:05.690773",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "74ac55ab34b88f5a"
+    "content_hash": "77ef9f73f97fcb07"
   },
   {
-    "id": "89f95888",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Levant update: The death penalty is not merely a punishment in Iran \u2013 it is a preemptive instrument of political control.\n\nhttps://www.wnd.com/2026/09/government-gallows-iran-is-using-executions-prepare-next/?utm_source=rss&utm_medium=rss&utm_campaign=government-gallows-iran-is-using-executions-prepare-next",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "WND",
-    "source_url": "https://www.wnd.com/2026/09/government-gallows-iran-is-using-executions-prepare-next/?utm_source=rss&utm_medium=rss&utm_campaign=government-gallows-iran-is-using-executions-prepare-next",
-    "source_title": "Government by gallows: Iran is using executions to prepare for the next uprising",
-    "source_summary": "The death penalty is not merely a punishment in Iran \u2013 it is a preemptive instrument of political control",
-    "drafted_at": "2026-09-01T23:39:39.367160",
-    "data": {
-      "source": "WND"
-    },
-    "content_hash": "65025a50c99c84b0"
-  },
-  {
-    "id": "9bb485ba",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "CHINA DESK: US Treasury Secretary Bessent urges other G20 countries to do more to protect their economies from Chinese imports.\n\nhttps://www.aljazeera.com/economy/2026/9/1/us-urges-g20-to-cut-trade-imbalances-focus-on-china?traffic_source=rss",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/economy/2026/9/1/us-urges-g20-to-cut-trade-imbalances-focus-on-china?traffic_source=rss",
-    "source_title": "US urges G20 to cut trade imbalances, focus on China",
-    "source_summary": "US Treasury Secretary Bessent urges other G20 countries to do more to protect their economies from Chinese imports.",
-    "drafted_at": "2026-09-01T23:39:39.367342",
-    "data": {
-      "source": "AL JAZEERA"
-    },
-    "content_hash": "e8b1074abb50ab36"
-  },
-  {
-    "id": "553cc772",
+    "id": "daf24556",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "From the BEA desk: The Aussie Dollar retreats some 0.29% against the US Dollar on Tuesday as the escalation of the Middle East conflict boosted the Greenback due to its haven appeal.\n\nhttps://www.fxstreet.com/news/australian-dollar-falls-as-us-iran-conflict-lifts-usd-gdp-data-eyed-202609012239",
+    "draft_text": "How fast is the economy moving? Now we know: AUD/USD inches higher after recovering its daily losses, trading around 0.7150 during the Asian hours on Wednesday.\n\nhttps://www.fxstreet.com/news/australian-dollar-rises-as-quarterly-gdp-grows-in-q2-202609020147",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/australian-dollar-falls-as-us-iran-conflict-lifts-usd-gdp-data-eyed-202609012239",
-    "source_title": "Australian Dollar falls as US-Iran conflict lifts USD, GDP data eyed",
-    "source_summary": "The Aussie Dollar retreats some 0.29% against the US Dollar on Tuesday as the escalation of the Middle East conflict boosted the Greenback due to its haven appeal. The AUD/USD trades at 0.7146.",
-    "drafted_at": "2026-09-01T23:39:39.422390",
+    "source_url": "https://www.fxstreet.com/news/australian-dollar-rises-as-quarterly-gdp-grows-in-q2-202609020147",
+    "source_title": "Australian Dollar rises as quarterly GDP grows in Q2",
+    "source_summary": "AUD/USD inches higher after recovering its daily losses, trading around 0.7150 during the Asian hours on Wednesday.",
+    "drafted_at": "2026-09-02T01:48:05.727967",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "74ac55ab34b88f5a"
+    "content_hash": "58ec4c558ff2c2af"
   },
   {
-    "id": "4e013166",
+    "id": "30b6023a",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "From the inflation desk: UOB's Jester Koh note they raise their FY27 Gross Domestic Product (GDP) forecast for India to 7.2% from 6.8% after a stronger-than-expected 1QFY27 expansion of 7.8% year-on-year.\n\nhttps://www.fxstreet.com/news/india-growth-and-inflation-forecasts-revised-higher-uob-202609012141",
+    "draft_text": "GDP DAY. Australia\u2019s Gross Domestic Product (GDP) rose 0.4% QoQ in the second quarter (Q2) of 2026 compared with the 0.3% growth in the first quarter (Q1), the Australian Bureau of Statistics (ABS) showed on Wednesday.\n\nThis reading came in stronger than the expectations of 0.3% expansion.\n\nhttps://www.fxstreet.com/news/04-australia-q2-gdp-beats-estimates-202609020131",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/india-growth-and-inflation-forecasts-revised-higher-uob-202609012141",
-    "source_title": "India: Growth and inflation forecasts revised higher \u2013 UOB",
-    "source_summary": "UOB's Jester Koh note they raise their FY27 Gross Domestic Product (GDP) forecast for India to 7.2% from 6.8% after a stronger-than-expected 1QFY27 expansion of 7.8% year-on-year.",
-    "drafted_at": "2026-09-01T23:39:39.422631",
+    "source_url": "https://www.fxstreet.com/news/04-australia-q2-gdp-beats-estimates-202609020131",
+    "source_title": "0.4%: Australia Q2 GDP beats estimates",
+    "source_summary": "Australia\u2019s Gross Domestic Product (GDP) rose 0.4% QoQ in the second quarter (Q2) of 2026 compared with the 0.3% growth in the first quarter (Q1), the Australian Bureau of Statistics (ABS) showed on Wednesday. This reading came in stronger than the expectations of 0.3% expansion.",
+    "drafted_at": "2026-09-02T01:48:05.728206",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "5aa60204aa56665a"
+    "content_hash": "f0f5ad50006cbbb6"
   },
   {
-    "id": "c6dfea4a",
+    "id": "14e8989d",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "GDP DAY. Australian Q2 GDP 0.4% q/q for a beat expected 0.3%, prior 0.3% 2.1% y/y, beat expected 1.8%, prior 2.5% Just the numbers this post.\n\nI'll have more to come on this separately, details and implications.\n\nIn brief AUD should get a supportive blip, at the margin.\n\nThis article was written by Eamonn Sheridan at investinglive.com.\n\nhttps://investinglive.com/news/australian-q2-gdp-0-4-q-q-expected-0-3-prior-0-3/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/australian-q2-gdp-0-4-q-q-expected-0-3-prior-0-3/",
+    "source_title": "Australian Q2 GDP 0.4% q/q (expected 0.3%, prior 0.3%)",
+    "source_summary": "Australian Q2 GDP 0.4% q/q for a beat expected 0.3%, prior 0.3% 2.1% y/y, beat expected 1.8%, prior 2.5% Just the numbers this post. I'll have more to come on this separately, details and implications. In brief AUD should get a supportive blip, at the margin. This article was written by Eamonn Sheridan at investinglive.com.",
+    "drafted_at": "2026-09-02T01:48:05.728468",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "bb51d85f5cf8e9ce"
+  },
+  {
+    "id": "08a1abc5",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "How sticky is inflation? Let's see: Oil: Private survey of inventory shows a headline crude oil draw greater than expected Nasdaq indices close sharply lower as Iran war heats up All aboard!.\n\nThe Bond Bears take the 10 year yield above 4.75% and up to 4.80% Here we go again.\n\nTrump says \"Iran will be totally wiped out as a country\".\n\nCrude oil trades at $90.50 Trump confirms US striking Iran.\n\nStocks move lower as reports of an American attack on Iran More Bessent: He emphasized the importance of sound formulation and communication of monetary policy US Treas.\n\nSec Bessent: I think Japan is taking right steps for economy Canada PM Carney: We never thought we had a trade deal with US during talks US construction spending for July -0.5% versus 0.0% expected.\n\nUS manufacturing PMI 54.6 versus 55.2 estimate JOLTs job openings 7.271M vs 7.300M estimate S&P global manufacturing PMI final for August 53.9 versus 53.2 preliminary Fed's Barr: Inflation remains too high.\n\nIf inflation does not moderate soon, will be time for a hike.\n\nhttps://investinglive.com/news/investinglive-americas-fx-news-wrap-1-sept-it-s-a-wrap-but-not-for-the-iran-war-fighting-resumes/",
@@ -532,14 +585,14 @@
     "source_url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-1-sept-it-s-a-wrap-but-not-for-the-iran-war-fighting-resumes/",
     "source_title": "investingLive Americas FX news wrap 1 Sept: It's a wrap but not for the Iran War.  Fighting resumes.",
     "source_summary": "Oil: Private survey of inventory shows a headline crude oil draw greater than expected Nasdaq indices close sharply lower as Iran war heats up All aboard!. The Bond Bears take the 10 year yield above 4.75% and up to 4.80% Here we go again. Trump says \"Iran will be totally wiped out as a country\". Crude oil trades at $90.50 Trump confirms US striking Iran. Crude oil moves higher. Stocks move lower ",
-    "drafted_at": "2026-09-01T23:39:39.425542",
+    "drafted_at": "2026-09-02T01:48:05.730532",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "612b2b512af2c903"
   },
   {
-    "id": "573598b4",
+    "id": "2d1c969e",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "CPI POSTCARD: Australian GDP data is due, for the months of April, May and June.\n\nBut, the focus today is on the RBNZ decision.\n\nA rate hike is expected, but that is not unanimous.\n\nEarlier: Preview: Westpac sees RBNZ hiking OCR to 2.75% tomorrow, data dependent from there Preview - Path of least resistance: ASB expects consensus RBNZ hike this week Reserve Bank of New Zealand Shadow Board split, most back 25bp rate hike this week Preview: Inflation and growth strength point to further RBNZ tightening, BNZ says 90% of economists expect RBNZ hike on September 2, poll shows As mentioned, Australia's Q2 GDP lands today, and consensus has settled in the 0.2-0.4% q/q range, NAB the pessimist at 0.2%, CBA and ANZ at 0.4%, J.P.\n\nMorgan splitting the difference at 0.3%.\n\nThe more interesting story sits beneath the headline number.\n\nNet exports (you'll need to scroll to the bottom of this post for this info), the chief handbrake on Q1 growth (-0.8ppt), swung to a modest +0.1ppt contribution in Q2, a sharp reversal after trade dragged hardest since the weather-disrupted mining quarter earlier in the year.\n\nNAB flagged this possibility ahead of time, pointing to miners destocking inventory and shipping product offshore rather than any genuine turnaround in import intensity.\n\nhttps://investinglive.com/news/economic-and-event-calendar-in-asia-wednesday-september-2-2026-rbzn-rate-hike-expected/",
@@ -549,31 +602,14 @@
     "source_url": "https://investinglive.com/news/economic-and-event-calendar-in-asia-wednesday-september-2-2026-rbzn-rate-hike-expected/",
     "source_title": "Economic and event calendar in Asia Wednesday, September 2, 2026",
     "source_summary": "Australian GDP data is due, for the months of April, May and June. But, the focus today is on the RBNZ decision. A rate hike is expected, but that is not unanimous. Earlier: Preview: Westpac sees RBNZ hiking OCR to 2.75% tomorrow, data dependent from there Preview - Path of least resistance: ASB expects consensus RBNZ hike this week Reserve Bank of New Zealand Shadow Board split, most back 25bp ra",
-    "drafted_at": "2026-09-01T23:39:39.426916",
+    "drafted_at": "2026-09-02T01:48:05.731490",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "4e3fceec7ee73b69"
   },
   {
-    "id": "73853176",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "Scoreboard update: An expected drop in the unemployment rate has failed to materialise, dealing a setback to Andy Burnham\u2019s hopes of reviving Britain\u2019s ailing economy.\n\nUnemployment remained stuck at 4.9pc in the three months to June, while the number of payrolled employees fell by 13,000, according to figures from the Office for National Statistics.\n\nEconomists had predicted that the unemployment rate would ease to 4.8pc.\n\nUnemployment jumped to 5.4pc in June, up from 4.6pc the previous month.\n\nMeanwhile, vacancies dropped to 707,000 in the three months to July \u2013 the lowest level since 2021 \u2013 with a particular strain on entry-level job openings.\n\nhttps://www.telegraph.co.uk/business/2026/08/18/unemployment-uk-economy-jobs-burnham/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "TELEGRAPH",
-    "source_url": "https://www.telegraph.co.uk/business/2026/08/18/unemployment-uk-economy-jobs-burnham/",
-    "source_title": "Unemployment rate fails to fall for Burnham",
-    "source_summary": "Unemployment rate fails to fall for Burnham",
-    "drafted_at": "2026-09-01T23:39:39.427891",
-    "data": {
-      "source": "TELEGRAPH"
-    },
-    "content_hash": "c4b0ba3c5fc34102"
-  },
-  {
-    "id": "7a165118",
+    "id": "8475a02e",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -583,7 +619,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-09-01T23:39:39.429379",
+    "drafted_at": "2026-09-02T01:48:05.733208",
     "data": {
       "manual": true,
       "via": "manual_news.md"
