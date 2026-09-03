@@ -1,23 +1,23 @@
 [
   {
-    "id": "df55478d",
+    "id": "881ba458",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "Bank of England (BoE) Chief Economist Huw Pill reiterated his support for raising the Bank Rate to 4.00%, arguing that policymakers cannot wait for uncertainty surrounding the Middle East conflict and energy prices to resolve before acting.\n\nhttps://www.fxstreet.com/news/boes-pill-backs-rate-hike-to-4-to-limit-inflation-catch-up-effects-202609031544",
+    "draft_text": "How Much Oil Is Getting Through the Strait of Hormuz?\n\nhttps://hotair.com/john-s-2/2026/09/03/how-much-oil-is-getting-through-the-strait-of-hormuz-n3818657",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/boes-pill-backs-rate-hike-to-4-to-limit-inflation-catch-up-effects-202609031544",
-    "source_title": "BoE\u2019s Pill backs rate hike to 4% to limit inflation catch-up effects",
-    "source_summary": "Bank of England (BoE) Chief Economist Huw Pill reiterated his support for raising the Bank Rate to 4.00%, arguing that policymakers cannot wait for uncertainty surrounding the Middle East conflict and energy prices to resolve before acting.",
-    "drafted_at": "2026-09-03T16:58:43.783259",
+    "primary_source": "HOT AIR",
+    "source_url": "https://hotair.com/john-s-2/2026/09/03/how-much-oil-is-getting-through-the-strait-of-hormuz-n3818657",
+    "source_title": "How Much Oil Is Getting Through the Strait of Hormuz?",
+    "source_summary": "",
+    "drafted_at": "2026-09-03T19:43:27.960390",
     "data": {
-      "source": "FXSTREET"
+      "source": "HOT AIR"
     },
-    "content_hash": "6515bf3e2982a1db"
+    "content_hash": "7a2e3bc9b937fdd0"
   },
   {
-    "id": "3348a22d",
+    "id": "0f43a1e8",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Whatever you're doing, stop and read this. VIX drops 6.4% in 5 sessions to 14.83.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
@@ -27,7 +27,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EVIX",
     "source_title": "VIX (S&P 500 volatility)",
     "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-09-03T16:58:43.783588",
+    "drafted_at": "2026-09-03T19:43:27.960684",
     "data": {
       "signal_id": "^VIX:move:2026-09-03",
       "kind": "move_down",
@@ -36,7 +36,7 @@
     "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "503061b6",
+    "id": "bcdc0dc6",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "You blink, you miss this: WTI crude climbs 5.8% in 5 sessions to $89.93.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
@@ -46,7 +46,7 @@
     "source_url": "https://finance.yahoo.com/quote/CL%3DF",
     "source_title": "WTI crude oil futures",
     "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-09-03T16:58:43.783836",
+    "drafted_at": "2026-09-03T19:43:27.960903",
     "data": {
       "signal_id": "CL=F:move:2026-09-03",
       "kind": "move_up",
@@ -55,7 +55,41 @@
     "content_hash": "c272de0720a2f459"
   },
   {
-    "id": "4d6dea1a",
+    "id": "2a51456b",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "Powell on the wire. Gold (XAU/USD) rallies more than 2% on Thursday following dovish comments by Federal Reserve (Fed) Governor Christopher Waller, who advocated holding rates steady if inflation data shows the disinflation process continues.\n\nhttps://www.fxstreet.com/news/gold-soars-as-wallers-dovish-tone-hurts-fed-hike-bets-ahead-of-nfp-202609031820",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Fed",
+    "source_url": "https://www.fxstreet.com/news/gold-soars-as-wallers-dovish-tone-hurts-fed-hike-bets-ahead-of-nfp-202609031820",
+    "source_title": "Gold soars as Waller's dovish tone hurts Fed hike bets ahead of NFP",
+    "source_summary": "Gold (XAU/USD) rallies more than 2% on Thursday following dovish comments by Federal Reserve (Fed) Governor Christopher Waller, who advocated holding rates steady if inflation data shows the disinflation process continues.",
+    "drafted_at": "2026-09-03T19:43:27.971115",
+    "data": {
+      "actor": "Fed"
+    },
+    "content_hash": "e25022d17385b877"
+  },
+  {
+    "id": "8dab09aa",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "FOMC update. Stocks jumped Thursday while Treasury yields and oil prices dipped after a Fed governor signaled he wants to keep interest rates flat \u2013 lowering the odds of a rate hike this month.\n\nhttps://nypost.com/2026/09/03/business/dow-jumps-580-points-treasury-yields-and-oil-prices-ease-as-odds-of-interest-rate-hike-drop/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Treasury",
+    "source_url": "https://nypost.com/2026/09/03/business/dow-jumps-580-points-treasury-yields-and-oil-prices-ease-as-odds-of-interest-rate-hike-drop/",
+    "source_title": "Dow jumps 580 points, Treasury yields and oil prices ease as Fed governor signals no rate hike",
+    "source_summary": "Stocks jumped Thursday while Treasury yields and oil prices dipped after a Fed governor signaled he wants to keep interest rates flat \u2013 lowering the odds of a rate hike this month.",
+    "drafted_at": "2026-09-03T19:43:27.971410",
+    "data": {
+      "actor": "Treasury"
+    },
+    "content_hash": "6ae2c284ca9e726c"
+  },
+  {
+    "id": "c5fafed4",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Live from the Federal Reserve: Stocks and crypto rallied together after Governor Christopher Waller said he could back holding rates steady, with short sellers absorbing the brunt of the squeeze.\n\nhttps://decrypt.co/377314/bitcoin-pump-fed-rate-pause-shorts-get-rekt",
@@ -65,82 +99,48 @@
     "source_url": "https://decrypt.co/377314/bitcoin-pump-fed-rate-pause-shorts-get-rekt",
     "source_title": "Bitcoin Pumps as Fed Signals Rate Pause, $415 Million in Shorts Get Rekt",
     "source_summary": "Stocks and crypto rallied together after Governor Christopher Waller said he could back holding rates steady, with short sellers absorbing the brunt of the squeeze.",
-    "drafted_at": "2026-09-03T16:58:43.794593",
+    "drafted_at": "2026-09-03T19:43:27.971632",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "a6d6f0a8f77a42bd"
   },
   {
-    "id": "de8c06ec",
+    "id": "9ef27a6e",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "BoE update: UK bond prices are strengthening, a little, which is pushing down the yield (or rate of return) on these gilts.\n\n10-year UK bond yields have dropped by over 4 basis points (0.04 of a percentage point) to 5.195%, away from the 18-year high set yesterday.\n\nWith Brent crude down about 0.5% at $95.20 a barrel, some of the fears of an inflationary shock that would drive interest rates higher may be easing.\n\nThe yield, or rate of return, on UK 10-year debt is now down 10 basis points (0.1 of a percentage point) at 5.13%, away from the 18-year high set yesterday.\n\nThe UK government bond market is open!\n\nAnd there is reassuring news for borrowers, and our political leaders.\n\nhttps://www.theguardian.com/business/live/2026/sep/03/uk-mortgage-rates-set-to-rise-bond-sell-off-borrowing-costs-latest-news-updates",
+    "draft_text": "From Frankfurt: A quick catch-up of the PMI prints that we got for today: Spain August services PMI: 57.8 (previously 58.3) Spain August composite PMI: 55.8 (previously 56.5) Italy August services PMI: 55.2 (previously 52.5) Italy August composite PMI: 53.6 (previously 52.5) France August final services PMI: 48.0 (previously 49.6) France August final composite PMI: 48.5 (previously 49.4) Germany August final services PMI: 49.7 (previously 49.8) Germany August final composite PMI: 51.8 (previously 51.3) Eurozone August final services PMI: 51.6 (previously 51.7) Eurozone August final composite PMI: 52.0 (previously 52.0) Looking to the overall euro area estimates, we can see that private sector business activity growth kept pace with that seen in July, which was the fastest in eight months.\n\nThe details show that both output and new order inflows increased at the same solid pace as recorded in July, though the August improvement in demand was the joint-strongest since November last year.\n\nBesides that, employment expanded for the first time in the year-to-date, supported by another month of solid and broad-based sales growth.\n\nAs for price pressures, they were once again more stable with input cost pressures nudging down a fraction and output prices increasing at the same pace as in July.\n\nHowever, inflation rates remained high by historical standards and were above those seen immediately prior to the US-Iran conflict.\n\nThat continues to signal that inflation risks are still present, but at least not spiraling out of control for now.\n\nBut as the US-Iran conflict rages on for longer, the risks of higher price pressures becoming more embedded into inflation expectations is something that the ECB will have to be mindful of.\n\nAs such, the central bank will look to raise interest rates again this month in order to position themselves better for the inflation battle that is to come.\n\nhttps://investinglive.com/news/euro-area-business-activity-keeps-steadier-in-august-reaffirms-ecb-policy-pathway/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "Bank of England",
-    "source_url": "https://www.theguardian.com/business/live/2026/sep/03/uk-mortgage-rates-set-to-rise-bond-sell-off-borrowing-costs-latest-news-updates",
-    "source_title": "Bond market turmoil eases, as Bank of England chief economist argues for interest rate rise \u2013 as it happened",
-    "source_summary": "Rolling coverage of the latet economic and financial news Other European government borrowing costs are dipping this morning too. The yield on 10-year German bunds is down 1.5bps to 3.36%, while French 10-year bond yields are 1.5bps lower at 4.23%. Continue reading...",
-    "drafted_at": "2026-09-03T16:58:43.795787",
+    "primary_source": "ECB",
+    "source_url": "https://investinglive.com/news/euro-area-business-activity-keeps-steadier-in-august-reaffirms-ecb-policy-pathway/",
+    "source_title": "Euro area business activity keeps steadier in August, reaffirms ECB policy pathway",
+    "source_summary": "A quick catch-up of the PMI prints that we got for today: Spain August services PMI: 57.8 (previously 58.3) Spain August composite PMI: 55.8 (previously 56.5) Italy August services PMI: 55.2 (previously 52.5) Italy August composite PMI: 53.6 (previously 52.5) France August final services PMI: 48.0 (previously 49.6) France August final composite PMI: 48.5 (previously 49.4) Germany August final serv",
+    "drafted_at": "2026-09-03T19:43:27.973513",
     "data": {
-      "actor": "Bank of England"
+      "actor": "ECB"
     },
-    "content_hash": "6b4b79621723e6d1"
+    "content_hash": "9d954d73d1f3d273"
   },
   {
-    "id": "26bf7633",
+    "id": "8881b317",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "Bailey on the wire. Bank of England (BoE) Chief Economist Huw Pill reiterated his support for raising the Bank Rate to 4.00%, arguing that policymakers cannot wait for uncertainty surrounding the Middle East conflict and energy prices to resolve before acting.\n\nhttps://www.fxstreet.com/news/boes-pill-backs-rate-hike-to-4-to-limit-inflation-catch-up-effects-202609031544",
+    "draft_text": "Policy update for the pack: The Board's process for setting the discount rate is distinct from the process the Federal Open Market Committee follows in setting the target range for the federal funds rate.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "BoE",
-    "source_url": "https://www.fxstreet.com/news/boes-pill-backs-rate-hike-to-4-to-limit-inflation-catch-up-effects-202609031544",
-    "source_title": "BoE\u2019s Pill backs rate hike to 4% to limit inflation catch-up effects",
-    "source_summary": "Bank of England (BoE) Chief Economist Huw Pill reiterated his support for raising the Bank Rate to 4.00%, arguing that policymakers cannot wait for uncertainty surrounding the Middle East conflict and energy prices to resolve before acting.",
-    "drafted_at": "2026-09-03T16:58:43.796160",
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
+    "source_title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
+    "source_summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
+    "drafted_at": "2026-09-03T19:43:27.973904",
     "data": {
-      "actor": "BoE"
+      "actor": "FED"
     },
-    "content_hash": "6515bf3e2982a1db"
+    "content_hash": "da9833991b6c87c5"
   },
   {
-    "id": "664fda31",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "POWELL POSTCARD: The Pound Sterling (GBP) rises against the US Dollar (USD) on Thursday as Federal Reserve (Fed) Governor Christopher Waller favors holding rates unchanged, shifting to a more neutral stance regarding monetary policy, while data showed that the US labor market is solid and that business activity impr.\n\nhttps://www.fxstreet.com/news/british-pound-rises-as-feds-waller-tempers-fed-hike-bets-before-nfp-202609031541",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://www.fxstreet.com/news/british-pound-rises-as-feds-waller-tempers-fed-hike-bets-before-nfp-202609031541",
-    "source_title": "British Pound rises as Fed\u2019s Waller tempers hike bets ahead of NFP",
-    "source_summary": "The Pound Sterling (GBP) rises against the US Dollar (USD) on Thursday as Federal Reserve (Fed) Governor Christopher Waller favors holding rates unchanged, shifting to a more neutral stance regarding monetary policy, while data showed that the US labor market is solid and that business activity impr",
-    "drafted_at": "2026-09-03T16:58:43.796564",
-    "data": {
-      "actor": "Fed"
-    },
-    "content_hash": "f1fb93ccfb9b50f9"
-  },
-  {
-    "id": "444011be",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "FOMC update. Gold (XAU/USD) extends its rebound on Thursday after slipping below $4,300 to a nearly four-week low on the previous day.\n\nA sharp rally in the Japanese Yen (JPY) weighs on the US Dollar (USD), while a pullback in US Treasury yields provides additional support to the precious metal.\n\nhttps://www.fxstreet.com/news/gold-climbs-as-yen-led-us-dollar-decline-outweighs-hawkish-fed-expectations-202609031112",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://www.fxstreet.com/news/gold-climbs-as-yen-led-us-dollar-decline-outweighs-hawkish-fed-expectations-202609031112",
-    "source_title": "Gold tests $4,500 as US Dollar and yields retreat, Fed hike bets ease after Waller remarks",
-    "source_summary": "Gold (XAU/USD) extends its rebound on Thursday after slipping below $4,300 to a nearly four-week low on the previous day. A sharp rally in the Japanese Yen (JPY) weighs on the US Dollar (USD), while a pullback in US Treasury yields provides additional support to the precious metal.",
-    "drafted_at": "2026-09-03T16:58:43.796955",
-    "data": {
-      "actor": "Fed"
-    },
-    "content_hash": "ed36abf47c599285"
-  },
-  {
-    "id": "5e898ca5",
+    "id": "c2bb8c92",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$AMRZ \u2014 a company insider bought $1.3M on Sep 02.\n\nAmrize Ltd. 30,000 shares at $42.47.\n\nStock is +3.4% since the purchase. This is a public SEC Form 4 filing.",
@@ -150,7 +150,7 @@
     "source_url": "http://openinsider.com/screener?s=AMRZ",
     "source_title": "Amrize Ltd (AMRZ) insider bought $1.3M",
     "source_summary": "1 insider(s) bought 30,000 shares at $42.47 on 2026-09-02.",
-    "drafted_at": "2026-09-03T16:58:43.800084",
+    "drafted_at": "2026-09-03T19:43:27.974540",
     "data": {
       "ticker": "AMRZ",
       "type": "P",
@@ -160,7 +160,7 @@
     "content_hash": "1859fdcb42eda59c"
   },
   {
-    "id": "47bcb202",
+    "id": "a9b4ac88",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$GO \u2014 2 company insiders bought $403,900 on Aug 20.\n\nGrocery Outlet Holding Corp. 38,000 shares at $10.63.\n\nStock is +12.8% since the purchase. This is a public SEC Form 4 filing.",
@@ -170,7 +170,7 @@
     "source_url": "http://openinsider.com/screener?s=GO",
     "source_title": "Grocery Outlet Holding Corp. (GO) insider bought $403,900",
     "source_summary": "2 insider(s) bought 38,000 shares at $10.63 on 2026-08-20.",
-    "drafted_at": "2026-09-03T16:58:43.800293",
+    "drafted_at": "2026-09-03T19:43:27.974724",
     "data": {
       "ticker": "GO",
       "type": "P",
@@ -180,7 +180,7 @@
     "content_hash": "4d4a0d6aa1dd91dc"
   },
   {
-    "id": "6e516d53",
+    "id": "10bf0df7",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$TTMI \u2014 2 company insiders bought $1.6M on Aug 25.\n\nTtm Technologies Inc. 15,000 shares at $109.48.\n\nStock is +5.6% since the purchase. This is a public SEC Form 4 filing.",
@@ -190,7 +190,7 @@
     "source_url": "http://openinsider.com/screener?s=TTMI",
     "source_title": "Ttm Technologies Inc (TTMI) insider bought $1.6M",
     "source_summary": "2 insider(s) bought 15,000 shares at $109.48 on 2026-08-25.",
-    "drafted_at": "2026-09-03T16:58:43.800486",
+    "drafted_at": "2026-09-03T19:43:27.974888",
     "data": {
       "ticker": "TTMI",
       "type": "P",
@@ -200,7 +200,7 @@
     "content_hash": "3d126c7b205fc749"
   },
   {
-    "id": "872e06fb",
+    "id": "f9bb964a",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$PRE \u2014 2 company insiders bought $999,698 on Aug 24.\n\nPrenetics Global Ltd. 47,781 shares at $20.92.\n\nStock is +24.5% since the purchase. This is a public SEC Form 4 filing.",
@@ -210,7 +210,7 @@
     "source_url": "http://openinsider.com/screener?s=PRE",
     "source_title": "Prenetics Global Ltd (PRE) insider bought $999,698",
     "source_summary": "2 insider(s) bought 47,781 shares at $20.92 on 2026-08-24.",
-    "drafted_at": "2026-09-03T16:58:43.800703",
+    "drafted_at": "2026-09-03T19:43:27.975053",
     "data": {
       "ticker": "PRE",
       "type": "P",
@@ -220,7 +220,7 @@
     "content_hash": "7d12e023bf28bafa"
   },
   {
-    "id": "defdb911",
+    "id": "d758748e",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$BCML \u2014 3 company insiders bought $461,368 on Aug 21.\n\nBaycom Corp. 15,250 shares at $30.25.\n\nStock is +0.5% since the purchase. This is a public SEC Form 4 filing.",
@@ -230,7 +230,7 @@
     "source_url": "http://openinsider.com/screener?s=BCML",
     "source_title": "Baycom Corp (BCML) insider bought $461,368",
     "source_summary": "3 insider(s) bought 15,250 shares at $30.25 on 2026-08-21.",
-    "drafted_at": "2026-09-03T16:58:43.800894",
+    "drafted_at": "2026-09-03T19:43:27.975209",
     "data": {
       "ticker": "BCML",
       "type": "P",
@@ -240,7 +240,24 @@
     "content_hash": "126bf83e723752a5"
   },
   {
-    "id": "ce34135b",
+    "id": "a86c0768",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "NEW: DOJ Indicts ICE Agent on Obstruction Over Minneapolis Shooting\n\nhttps://hotair.com/ed-morrissey/2026/09/03/new-doj-indicts-ice-agent-on-obstruction-over-minneapolis-shooting-n3818659",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "HOT AIR",
+    "source_url": "https://hotair.com/ed-morrissey/2026/09/03/new-doj-indicts-ice-agent-on-obstruction-over-minneapolis-shooting-n3818659",
+    "source_title": "NEW: DOJ Indicts ICE Agent on Obstruction Over Minneapolis Shooting",
+    "source_summary": "",
+    "drafted_at": "2026-09-03T19:43:27.978548",
+    "data": {
+      "source": "HOT AIR"
+    },
+    "content_hash": "4fdeb046f4b83ee8"
+  },
+  {
+    "id": "a8a63f2d",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "ICIJ\u2019s 2020 FinCEN Files revealed that major banks flagged suspicious payments involving one of the Venezuelan tycoon's companies, which remains at the heart of embezzlement investigations in Europe.\n\nhttps://www.icij.org/investigations/fincen-files/white-house-pick-to-run-venezuela-oil-deal-under-investigation-in-two-countries/",
@@ -250,14 +267,14 @@
     "source_url": "https://www.icij.org/investigations/fincen-files/white-house-pick-to-run-venezuela-oil-deal-under-investigation-in-two-countries/",
     "source_title": "White House pick to run Venezuela oil deal under investigation in two countries",
     "source_summary": "ICIJ\u2019s 2020 FinCEN Files revealed that major banks flagged suspicious payments involving one of the Venezuelan tycoon's companies, which remains at the heart of embezzlement investigations in Europe.",
-    "drafted_at": "2026-09-03T16:58:43.805057",
+    "drafted_at": "2026-09-03T19:43:27.978790",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "595e1145c36e41f0"
   },
   {
-    "id": "b557c926",
+    "id": "e04912f2",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Three directors of a tree-planting company have been jailed after running a \u00a370m investment scam that duped thousands of people, including many pensioners, out of their savings.\n\nhttps://news.sky.com/story/three-fraudsters-jailed-after-buying-supercars-and-yacht-in-70m-tree-planting-scam-13580841",
@@ -267,14 +284,14 @@
     "source_url": "https://news.sky.com/story/three-fraudsters-jailed-after-buying-supercars-and-yacht-in-70m-tree-planting-scam-13580841",
     "source_title": "Fraudsters jailed after buying supercars and yacht in \u00a370m tree-planting scam",
     "source_summary": "Three directors of a tree-planting company have been jailed after running a \u00a370m investment scam that duped thousands of people, including many pensioners, out of their savings.",
-    "drafted_at": "2026-09-03T16:58:43.805287",
+    "drafted_at": "2026-09-03T19:43:27.978996",
     "data": {
       "source": "SKY NEWS"
     },
     "content_hash": "be447b67882d67bb"
   },
   {
-    "id": "848fa362",
+    "id": "2cf61bd7",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Bitcoin Magazine Mexican Billionaire Ricardo Salinas Tells People To Escape Fiat Inflation With Bitcoin The Mexican business magnate continues to tell people to escape what he calls the \"fiat fraud.\" This post Mexican Billionaire Ricardo Salinas Tells People To Escape Fiat Inflation With Bitcoin first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.\n\nhttps://bitcoinmagazine.com/news/salinas-tells-people-to-escape-fiat",
@@ -284,14 +301,14 @@
     "source_url": "https://bitcoinmagazine.com/news/salinas-tells-people-to-escape-fiat",
     "source_title": "Mexican Billionaire Ricardo Salinas Tells People To Escape Fiat Inflation With Bitcoin",
     "source_summary": "Bitcoin Magazine Mexican Billionaire Ricardo Salinas Tells People To Escape Fiat Inflation With Bitcoin The Mexican business magnate continues to tell people to escape what he calls the \"fiat fraud.\" This post Mexican Billionaire Ricardo Salinas Tells People To Escape Fiat Inflation With Bitcoin first appeared on Bitcoin Magazine and is written by Mathew Di Salvo .",
-    "drafted_at": "2026-09-03T16:58:43.805728",
+    "drafted_at": "2026-09-03T19:43:27.979380",
     "data": {
       "source": "BITCOIN MAG"
     },
     "content_hash": "f3aa0dd1bc66fe82"
   },
   {
-    "id": "fe13e257",
+    "id": "51e706d2",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "An ICIJ review found nearly $1.7 billion in settlements and fines over a 15 year period.\n\nBut experts said many companies see the payouts as the cost of doing business.\n\nhttps://www.icij.org/investigations/cancer-calculus/big-fines-and-settlements-barely-dent-cancer-drugmakers-revenues-fail-to-deter-wrongdoing/",
@@ -301,31 +318,14 @@
     "source_url": "https://www.icij.org/investigations/cancer-calculus/big-fines-and-settlements-barely-dent-cancer-drugmakers-revenues-fail-to-deter-wrongdoing/",
     "source_title": "Big fines and settlements barely dent cancer drugmakers\u2019 revenues, fail to deter wrongdoing",
     "source_summary": "An ICIJ review found nearly $1.7 billion in settlements and fines over a 15 year period. But experts said many companies see the payouts as the cost of doing business.",
-    "drafted_at": "2026-09-03T16:58:43.805941",
+    "drafted_at": "2026-09-03T19:43:27.979565",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "2bb33397806c5f72"
   },
   {
-    "id": "c0ba538f",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Financial records obtained by ICIJ show that they included individuals later accused of or sanctioned for money laundering and other financial crimes.\n\nhttps://www.icij.org/investigations/coin-laundry/crypto-giant-tether-promised-careful-vetting-some-early-customers-were-later-implicated-in-financial-crimes/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "ICIJ",
-    "source_url": "https://www.icij.org/investigations/coin-laundry/crypto-giant-tether-promised-careful-vetting-some-early-customers-were-later-implicated-in-financial-crimes/",
-    "source_title": "Crypto giant Tether promised careful vetting. Some early customers were later implicated in financial crimes.",
-    "source_summary": "Financial records obtained by ICIJ show that they included individuals later accused of or sanctioned for money laundering and other financial crimes.",
-    "drafted_at": "2026-09-03T16:58:43.806134",
-    "data": {
-      "source": "ICIJ"
-    },
-    "content_hash": "b5dc549473d7ec96"
-  },
-  {
-    "id": "99ec5fe4",
+    "id": "2e34c832",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "6 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 David J. Taylor (R)\n\u2022 John Boozman (R)\n\u2022 Cleo Fields (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 John Fetterman (D)\n\u2022 John McGuire (R)\n\nLargest disclosed here: David J. Taylor, $1,001 - $15,000 on Feb 26.\n\nPrice since the first buy in this group: +26.3%.\n\nSTOCK Act disclosures. Public record.",
@@ -335,7 +335,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034138.pdf",
     "source_title": "6 Congress members bought $MSFT",
     "source_summary": "6 politicians bought $MSFT; largest $1,001 - $15,000 by David J. Taylor.",
-    "drafted_at": "2026-09-03T16:58:43.806728",
+    "drafted_at": "2026-09-03T19:43:27.980252",
     "data": {
       "ticker": "MSFT",
       "member_count": 6,
@@ -344,7 +344,7 @@
     "content_hash": "7c24415ac3c0b542"
   },
   {
-    "id": "f313448a",
+    "id": "07b847d4",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "5 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Markwayne Mullin (D)\n\u2022 Josh Gottheimer (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Markwayne Mullin, $50,001 - $100,000 on Feb 25.\n\nPrice since the first buy in this group: +45.0%.\n\nSTOCK Act disclosures. Public record.",
@@ -354,7 +354,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/f586922d-6083-44e5-8a32-769290389416/",
     "source_title": "5 Congress members bought $UNH",
     "source_summary": "5 politicians bought $UNH; largest $50,001 - $100,000 by Markwayne Mullin.",
-    "drafted_at": "2026-09-03T16:58:43.807070",
+    "drafted_at": "2026-09-03T19:43:27.980569",
     "data": {
       "ticker": "UNH",
       "member_count": 5,
@@ -363,7 +363,7 @@
     "content_hash": "7cbacf41d412a41b"
   },
   {
-    "id": "3db65670",
+    "id": "daef3470",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 Cleo Fields (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 John Fetterman (D)\n\u2022 John McGuire (R)\n\nLargest disclosed here: Cleo Fields, $1,001 - $15,000 on Mar 12.\n\nPrice since the first buy in this group: +23.6%.\n\nSTOCK Act disclosures. Public record.",
@@ -373,7 +373,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034179.pdf",
     "source_title": "4 Congress members bought $MSFT",
     "source_summary": "4 politicians bought $MSFT; largest $1,001 - $15,000 by Cleo Fields.",
-    "drafted_at": "2026-09-03T16:58:43.807372",
+    "drafted_at": "2026-09-03T19:43:27.980841",
     "data": {
       "ticker": "MSFT",
       "member_count": 4,
@@ -382,7 +382,7 @@
     "content_hash": "4ff8eafa69ce40c2"
   },
   {
-    "id": "25c3d532",
+    "id": "4dd82b9f",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Markwayne Mullin (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Markwayne Mullin, $50,001 - $100,000 on Feb 25.\n\nPrice since the first buy in this group: +39.0%.\n\nSTOCK Act disclosures. Public record.",
@@ -392,7 +392,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/f586922d-6083-44e5-8a32-769290389416/",
     "source_title": "4 Congress members bought $UNH",
     "source_summary": "4 politicians bought $UNH; largest $50,001 - $100,000 by Markwayne Mullin.",
-    "drafted_at": "2026-09-03T16:58:43.807705",
+    "drafted_at": "2026-09-03T19:43:27.981125",
     "data": {
       "ticker": "UNH",
       "member_count": 4,
@@ -401,7 +401,7 @@
     "content_hash": "029ae5a8d0ca395b"
   },
   {
-    "id": "509ea093",
+    "id": "7a0e784e",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Richard Dean Dr McCormick, $1,001 - $15,000 on Mar 19.\n\nPrice since the first buy in this group: +42.7%.\n\nSTOCK Act disclosures. Public record.",
@@ -411,7 +411,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033648.pdf",
     "source_title": "3 Congress members bought $UNH",
     "source_summary": "3 politicians bought $UNH; largest $1,001 - $15,000 by Richard Dean Dr McCormick.",
-    "drafted_at": "2026-09-03T16:58:43.808007",
+    "drafted_at": "2026-09-03T19:43:27.981404",
     "data": {
       "ticker": "UNH",
       "member_count": 3,
@@ -420,177 +420,177 @@
     "content_hash": "ef6027c31bcd522a"
   },
   {
-    "id": "5614d2b2",
+    "id": "630a9561",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Levant update: The recurring false claims by Iran could escalate tensions, impacting diplomatic relations and regional stability in the Gulf.\n\nThe post US defense official denies Iran\u2019s claims of strikes on bases in Kuwait and UAE appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/us-denies-iran-strikes-kuwait-uae/",
+    "draft_text": "Gulf wire: Before the 2024 election, conservative America was united under President Trump\u2019s \u201cMake America Great Again\u201d banner.\n\nLess than two years later, the base is deeply divided over many issues, especially Israel/Iran, the Epstein files, and whether MAGA still means the promises supporters voted for \u2014 or just blind loyalty to Trump.\n\n\u201cHow did a once unified coalition with a stated goal of making America great again come to a place where some of the most powerful voices in the movement are now leaving?\n\nWho has caused the MAGA divide?\u201d Those are the questions debate host Brandon Straka asked eight of the right\u2019s most provocative voices to go head to head over on last night\u2019s #WalkAway MAGA vs. America First debate.\n\nBlazeTV\u2019s John Doyle was one of those voices.\n\nWith him on the MAGA team was conservative debate host Andrew Wilson, MAGA attorney and commentator Will Chamberlain, and CEO of \u201cLouder with Crowder\u201d Gerald Morgan Jr. Their America First opponents were Infowars founder Alex Jones, former Trump counterterrorism official Joe Kent, pastor and Christian nationalist podcaster Joel Webbon, and College Republicans political director Kai Schwemmer.\n\nDespite being on opposite sides of the debate, Doyle and Jones agree that hidden psychological operations are manipulating public opinion and distracting regular Americans from the truth \u2014 but their alignment ends when it comes to identifying the biggest threat.\n\nDoyle sees the psyop issue primarily through the lens of Israel's influence and the risk of young Americans being dragged into foreign wars.\n\nhttps://www.theblaze.com/shows/the-john-doyle-show/john-doyle-and-alex-jones-clash-over-rights-biggest-psy-ops",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/us-denies-iran-strikes-kuwait-uae/",
-    "source_title": "US defense official denies Iran\u2019s claims of strikes on bases in Kuwait and UAE",
-    "source_summary": "The recurring false claims by Iran could escalate tensions, impacting diplomatic relations and regional stability in the Gulf. The post US defense official denies Iran\u2019s claims of strikes on bases in Kuwait and UAE appeared first on Crypto Briefing .",
-    "drafted_at": "2026-09-03T16:58:43.810092",
+    "primary_source": "THE BLAZE",
+    "source_url": "https://www.theblaze.com/shows/the-john-doyle-show/john-doyle-and-alex-jones-clash-over-rights-biggest-psy-ops",
+    "source_title": "John Doyle and Alex Jones clash over the right\u2019s biggest psyops in fiery MAGA debate",
+    "source_summary": "Before the 2024 election, conservative America was united under President Trump\u2019s \u201cMake America Great Again\u201d banner. But that unity didn\u2019t last. Less than two years later, the base is deeply divided over many issues, especially Israel/Iran, the Epstein files, and whether MAGA still means the promises supporters voted for \u2014 or just blind loyalty to Trump. \u201cHow did a once unified coalition with a st",
+    "drafted_at": "2026-09-03T19:43:27.985417",
     "data": {
-      "source": "CRYPTO BRIEFING"
+      "source": "THE BLAZE"
     },
-    "content_hash": "095442b30c967ae1"
+    "content_hash": "4fe63d26ff40218d"
   },
   {
-    "id": "b88f2cf4",
+    "id": "4a968144",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Levant update: Middle East tensions surge as economic pressure on Islamic regime rises.\n\nhttps://www.wnd.com/2026/09/israel-warns-if-iran-attacks-us-we-will/",
+    "draft_text": "From Beijing: It all started on a patch of waterfront property in New York, right next to the East River.\n\nThe latest wave of perceived liberal activism made its way to Joe Rogan and Shane Gillis' ears through the sage wisdom of a traveling entertainer: They were tearing apart a park.\n\n'The park should be defended!' Instead of a sign-wielding mask-wearer debating the merits of universal basic income and banning landlords, the news came from comedian Ari Shaffir.\n\nTypically, Shaffir is telling tales about getting an exorcism in South America or doing stand-up comedy in China, but this time he was looking to stop the destruction of a beloved New York City landmark.\n\nShaffir told Rogan and Gillis about Manhattan's East River Park, land that had been torn apart by floods from Hurricane Sandy.\n\nIn response, New York City officials planned to raze the park, add eight feet of dirt, and rebuild the park anew on top, all in the name of flood prevention.\n\nActivists agreed with Shaffir and said removing access to the 57 acres next to the water was unfair to locals.\n\n\"You're not defending parks!\" he said, badgering Shaffir.\n\nhttps://www.theblaze.com/lifestyle/shane-and-joe-democracy-lookslike",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "WND",
-    "source_url": "https://www.wnd.com/2026/09/israel-warns-if-iran-attacks-us-we-will/",
-    "source_title": "Israel warns: If Iran attacks us, we will send them back to \u2018Stone Age\u2019",
-    "source_summary": "Middle East tensions surge as economic pressure on Islamic regime rises",
-    "drafted_at": "2026-09-03T16:58:43.810424",
+    "primary_source": "THE BLAZE",
+    "source_url": "https://www.theblaze.com/lifestyle/shane-and-joe-democracy-lookslike",
+    "source_title": "Shane and Joe show us what real activism looks like",
+    "source_summary": "It all started on a patch of waterfront property in New York, right next to the East River. The latest wave of perceived liberal activism made its way to Joe Rogan and Shane Gillis' ears through the sage wisdom of a traveling entertainer: They were tearing apart a park. 'The park should be defended!' Instead of a sign-wielding mask-wearer debating the merits of universal basic income and banning l",
+    "drafted_at": "2026-09-03T19:43:27.988391",
     "data": {
-      "source": "WND"
+      "source": "THE BLAZE"
     },
-    "content_hash": "ec23ea9154a97f64"
+    "content_hash": "66a454d8dd693af6"
   },
   {
-    "id": "a4de90c6",
+    "id": "3b15e006",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Levant update: Bitcoin reclaims $80,000 on Iran war-end talk.\n\nThe post Bitcoin Blasts Past $81,000 as Trump Weighs Ending Iran War appeared first on BeInCrypto.\n\nhttps://beincrypto.com/bitcoin-price-impact-trump-iran-war-end/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "BEINCRYPTO",
-    "source_url": "https://beincrypto.com/bitcoin-price-impact-trump-iran-war-end/",
-    "source_title": "Bitcoin Blasts Past $81,000 as Trump Weighs Ending Iran War",
-    "source_summary": "Bitcoin reclaims $80,000 on Iran war-end talk. Oil says the war is escalating. Waller leans toward a Fed hold. The post Bitcoin Blasts Past $81,000 as Trump Weighs Ending Iran War appeared first on BeInCrypto .",
-    "drafted_at": "2026-09-03T16:58:43.812352",
-    "data": {
-      "source": "BEINCRYPTO"
-    },
-    "content_hash": "614cdf8472934984"
-  },
-  {
-    "id": "c3f3f1a1",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "EUROPE DESK: The global rise in borrowing costs is a \u201cparticular concern,\u201d the International Monetary Fund has said, as UK bond yields reach a level last seen in the financial crisis.\n\nThe yield on the 10-year UK gilt climbed four basis points on Wednesday morning to near 5.27 per cent, which followed the previous day\u2019s rally that saw yields spike as much as 15 basis points.\n\nLonger-term gilt yields were up five basis points to almost 5.89 per cent, nearing highs reached on Tuesday.\n\nSimilar moves are taking place across the globe, with India\u2019s\u2026\n\nhttps://oilprice.com/Energy/Energy-General/UK-Borrowing-Costs-Surge-as-Oil-Shock-Rattles-Global-Markets.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "OILPRICE",
-    "source_url": "https://oilprice.com/Energy/Energy-General/UK-Borrowing-Costs-Surge-as-Oil-Shock-Rattles-Global-Markets.html",
-    "source_title": "UK Borrowing Costs Surge as Oil Shock Rattles Global Markets",
-    "source_summary": "The global rise in borrowing costs is a \u201cparticular concern,\u201d the International Monetary Fund has said, as UK bond yields reach a level last seen in the financial crisis. The yield on the 10-year UK gilt climbed four basis points on Wednesday morning to near 5.27 per cent, which followed the previous day\u2019s rally that saw yields spike as much as 15 basis points. Longer-term gilt yields were up five",
-    "drafted_at": "2026-09-03T16:58:43.813846",
-    "data": {
-      "source": "OILPRICE"
-    },
-    "content_hash": "edb6dea4ada5a9c4"
-  },
-  {
-    "id": "e3028ca6",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "World wire: The goal is for local authorities and civilians to rehearse what they would do if they were under attack from Russian forces.\n\nhttps://fortune.com/2026/09/03/finland-civil-defense-russia/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FORTUNE",
-    "source_url": "https://fortune.com/2026/09/03/finland-civil-defense-russia/",
-    "source_title": "Finns who survived Soviet bombings are training the next generation for a possible war with Russia",
-    "source_summary": "The goal is for local authorities and civilians to rehearse what they would do if they were under attack from Russian forces.",
-    "drafted_at": "2026-09-03T16:58:43.814438",
-    "data": {
-      "source": "FORTUNE"
-    },
-    "content_hash": "5b15886432605bfb"
-  },
-  {
-    "id": "087b2c50",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "JOBS DAY. The Pound Sterling (GBP) rises against the US Dollar (USD) on Thursday as Federal Reserve (Fed) Governor Christopher Waller favors holding rates unchanged, shifting to a more neutral stance regarding monetary policy, while data showed that the US labor market is solid and that business activity impr.\n\nhttps://www.fxstreet.com/news/british-pound-rises-as-feds-waller-tempers-fed-hike-bets-before-nfp-202609031541",
+    "draft_text": "Cross-border read: The USD/CHF tumbles nearly 0.80% on Thursday as the Greenback weakens on rumours of a potential intervention in the FX markets to boost the Japanese Yen.\n\nConsequently, the pair fell from around daily highs of 0.8131, extending its losses to the current exchange rate near 0.8065.\n\nhttps://www.fxstreet.com/news/usd-chf-price-forecast-50-day-sma-break-exposes-08040-202609031847",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/british-pound-rises-as-feds-waller-tempers-fed-hike-bets-before-nfp-202609031541",
-    "source_title": "British Pound rises as Fed\u2019s Waller tempers hike bets ahead of NFP",
-    "source_summary": "The Pound Sterling (GBP) rises against the US Dollar (USD) on Thursday as Federal Reserve (Fed) Governor Christopher Waller favors holding rates unchanged, shifting to a more neutral stance regarding monetary policy, while data showed that the US labor market is solid and that business activity impr",
-    "drafted_at": "2026-09-03T16:58:43.867566",
+    "source_url": "https://www.fxstreet.com/news/usd-chf-price-forecast-50-day-sma-break-exposes-08040-202609031847",
+    "source_title": "USD/CHF Price Forecast: 50-day SMA break exposes 0.8040",
+    "source_summary": "The USD/CHF tumbles nearly 0.80% on Thursday as the Greenback weakens on rumours of a potential intervention in the FX markets to boost the Japanese Yen. Consequently, the pair fell from around daily highs of 0.8131, extending its losses to the current exchange rate near 0.8065.",
+    "drafted_at": "2026-09-03T19:43:27.989190",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "f1fb93ccfb9b50f9"
+    "content_hash": "b6ba78dbc91c6df2"
   },
   {
-    "id": "afe50f4d",
+    "id": "c9c1e6a0",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "From Tokyo to Hong Kong: Bitcoin rallied 5% to reclaim $80,000 as the US dollar weakened amid a suspected Bank of Japan currency intervention, though analysts remain split on the impact.\n\nhttps://cointelegraph.com/markets/bitcoin-reclaims-810-dxy-falls-amid-continuing-suspected-yen-intervention?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "COINTELEGRAPH",
+    "source_url": "https://cointelegraph.com/markets/bitcoin-reclaims-810-dxy-falls-amid-continuing-suspected-yen-intervention?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source_title": "Bitcoin reclaims $80K as DXY falls amid continuing suspected yen intervention",
+    "source_summary": "Bitcoin rallied 5% to reclaim $80,000 as the US dollar weakened amid a suspected Bank of Japan currency intervention, though analysts remain split on the impact.",
+    "drafted_at": "2026-09-03T19:43:27.989620",
+    "data": {
+      "source": "COINTELEGRAPH"
+    },
+    "content_hash": "c5e2b73e1a527a49"
+  },
+  {
+    "id": "4dee6537",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Mainland wire: Yuri Perez, Fox News Critics call it colonialism, but the U.S.-Venezuela oil partnership aims to block Cuba, China and Russia from recapturing the failed state.\n\nhttps://www.realclearmarkets.com/2026/09/03/trumps_bold_venezuela_oil_pact_could_crush_communism_1204064.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "REALCLEAR",
+    "source_url": "https://www.realclearmarkets.com/2026/09/03/trumps_bold_venezuela_oil_pact_could_crush_communism_1204064.html",
+    "source_title": "Trump's Bold Venezuela Oil Pact Could Crush Communism",
+    "source_summary": "Yuri Perez, Fox News Critics call it colonialism, but the U.S.-Venezuela oil partnership aims to block Cuba, China and Russia from recapturing the failed state.",
+    "drafted_at": "2026-09-03T19:43:27.990297",
+    "data": {
+      "source": "REALCLEAR"
+    },
+    "content_hash": "669267bfdb5ab2af"
+  },
+  {
+    "id": "8deaf855",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "The CPI scoreboard: Nonmanufacturing PMI prior month 54.1 Nonmanufacturing PMI for August 55.4 versus 54.2 estimate nonmanufacturing business activity 61.7 versus 59.1 last month Employment index 47.8 versus 47.4 last month New orders index 60.9 versus 57 42 last month Prices paid 72.6 versus 70.3 last month The US ISM nonmanufacturing PMI rose to 55.4 in August from 54.1 last month, comfortably above the 54.2 estimate.\n\nThe details show stronger activity, with business activity rising to 61.7 from 59.1 and new orders increasing to 60.9.\n\nHowever, prices paid also moved higher to 72.6 from 70.3, signaling more widespread cost pressures.\n\nEmployment improved modestly to 47.8 from 47.4 but remained below the 50 level that separates expansion from contraction.\n\nPutting it another way, service businesses are seeing stronger demand and higher costs, but that strength is not translating into an increase in staffing.\n\nFor the Fed, the combination of solid growth and persistent inflation gives policymakers a reason to remain cautious, while the employment component remains a softer spot in an otherwise stronger report.\n\nUS yields have moved a little bit higher with the two-year now down -520 basis points at 4.327%.\n\nThe 10 year is down for basis points at 4.754% What does the ISM Non-manufacturing data show?\n\nhttps://investinglive.com/news/ism-non-manufacturing-pmi-for-august-55-4-versus-54-2-estimate-stronger-than-expectations/",
+    "draft_text": "From the inflation desk: Commerzbank\u2019s Singapore-based team highlights robust Singapore manufacturing and electronics PMIs, supported by an AI-driven semiconductor cycle, alongside upgraded MAS Survey GDP and export forecasts.\n\nhttps://www.fxstreet.com/news/singapore-dollar-stronger-singapore-growth-with-contained-inflation-commerzbank-202609031938",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/singapore-dollar-stronger-singapore-growth-with-contained-inflation-commerzbank-202609031938",
+    "source_title": "Singapore Dollar: Stronger Singapore growth with contained inflation \u2013 Commerzbank",
+    "source_summary": "Commerzbank\u2019s Singapore-based team highlights robust Singapore manufacturing and electronics PMIs, supported by an AI-driven semiconductor cycle, alongside upgraded MAS Survey GDP and export forecasts.",
+    "drafted_at": "2026-09-03T19:43:28.031927",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "2d0ae03cba6f7444"
+  },
+  {
+    "id": "c4cabce7",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "EMPLOYMENT POSTCARD: The US Dollar Index (DXY), which tracks the Greenback\u2019s value against a basket of six major currencies, slides below 99.00 to its lowest level in over a week on Thursday.\n\nAt the time of writing, DXY trades around 98.90, down 0.67% on the day, after reaching 99.86 on Wednesday.\n\nhttps://www.fxstreet.com/news/us-dollar-extends-decline-as-nfp-takes-centre-stage-202609031822",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/us-dollar-extends-decline-as-nfp-takes-centre-stage-202609031822",
+    "source_title": "US Dollar extends decline as NFP takes centre stage",
+    "source_summary": "The US Dollar Index (DXY), which tracks the Greenback\u2019s value against a basket of six major currencies, slides below 99.00 to its lowest level in over a week on Thursday. At the time of writing, DXY trades around 98.90, down 0.67% on the day, after reaching 99.86 on Wednesday.",
+    "drafted_at": "2026-09-03T19:43:28.032287",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "005da0fb245af53b"
+  },
+  {
+    "id": "7f81a184",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "NFP just dropped. Gold (XAU/USD) rallies more than 2% on Thursday following dovish comments by Federal Reserve (Fed) Governor Christopher Waller, who advocated holding rates steady if inflation data shows the disinflation process continues.\n\nhttps://www.fxstreet.com/news/gold-soars-as-wallers-dovish-tone-hurts-fed-hike-bets-ahead-of-nfp-202609031820",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/gold-soars-as-wallers-dovish-tone-hurts-fed-hike-bets-ahead-of-nfp-202609031820",
+    "source_title": "Gold soars as Waller's dovish tone hurts Fed hike bets ahead of NFP",
+    "source_summary": "Gold (XAU/USD) rallies more than 2% on Thursday following dovish comments by Federal Reserve (Fed) Governor Christopher Waller, who advocated holding rates steady if inflation data shows the disinflation process continues.",
+    "drafted_at": "2026-09-03T19:43:28.032556",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "e25022d17385b877"
+  },
+  {
+    "id": "d53a4172",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "JOBLESS-CLAIMS READ: Companies, remembering the worker shortages that followed the end of COVID-19 lockdowns, are still reluctant to let go of staff.\n\nhttps://nypost.com/2026/09/03/business/us-unemployment-claims-rise-to-206000-but-remain-at-historically-low-levels/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NY POST",
+    "source_url": "https://nypost.com/2026/09/03/business/us-unemployment-claims-rise-to-206000-but-remain-at-historically-low-levels/",
+    "source_title": "US unemployment claims rise to 206K \u2014 but layoffs and jobless claims at historically low levels",
+    "source_summary": "Companies, remembering the worker shortages that followed the end of COVID-19 lockdowns, are still reluctant to let go of staff.",
+    "drafted_at": "2026-09-03T19:43:28.032735",
+    "data": {
+      "source": "NY POST"
+    },
+    "content_hash": "82b8792269b8cf4c"
+  },
+  {
+    "id": "53271145",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "From the BLS desk: What's expected: Consensus estimate +56K (range -25K to +121K) July -23K June +63K Private consensus estimate +45K Unemployment rate consensus estimate: 4.1% vs 4.1% prior Participation rate consensus 61.4% prior Prior underemployment U6 prior 7.9% Avg hourly earnings y/y exp +3.0% y/y vs +3.2% prior Avg hourly earnings m/m exp +0.3% vs +0.1% prior Avg weekly hours exp 34.3 vs 34.3 prior August jobs so far: ADP employment report +38K (lowest since Jan) vs +47K expected and +46K prior ISM services employment 47.8 vs 47.4 prior ISM manufacturing employment 51.2 vs 52.5 exp and 52.8 prior Challenger Job Cuts 52,881 vs 33,429 prior Philly employment +27.9 vs +10.0 prior Empire employment +9.3 vs +11.4 prior Initial jobless claims survey week 206K vs 187K prior Revelio Labs +36.5K vs +79.2K prior Seasonally, the headline reading is weak in August, according to BMO.\n\nIt has come in below estimates 71% of the time and beating 29% of the time, by 71k and 18k, respectively, on average.\n\nSimilarly, 36% of previous unemployment prints for August have been higher-than-expected, 28% have been lower-than-estimates, and 36% have matched the consensus.\n\nAugust can be a tricky month for seasonal adjustments because of school start times so market participants will generally try to filter out educational jobs and look through them.\n\nThe trend has been weakening in jobs lately and last week's initial benchmark revisions unexpectedly shaved jobs through March.\n\nStill, unemployment is running at just 4.1% and it's hard to see it as anything but the oft-discussed 'low hire/low fire' economy.\n\nIn terms of trading, a soft report is the hint from these numbers and that would place further pressure on the US dollar, which is already weak after surprisingly-dovish comments from Fed Governor Chris Waller on Thursday.\n\nUSD/JPY has also been hit by intervention (though not confirmed) and plunged 330 pips on the day, leaving a turbulent dynamic for FX traders through the report.\n\nhttps://investinglive.com/news/preview-august-non-farm-payrolls-by-the-numbers/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/ism-non-manufacturing-pmi-for-august-55-4-versus-54-2-estimate-stronger-than-expectations/",
-    "source_title": "ISM non manufacturing PMI for August 55.4 versus 54.2 estimate. Stronger than expectations",
-    "source_summary": "Nonmanufacturing PMI prior month 54.1 Nonmanufacturing PMI for August 55.4 versus 54.2 estimate nonmanufacturing business activity 61.7 versus 59.1 last month Employment index 47.8 versus 47.4 last month New orders index 60.9 versus 57 42 last month Prices paid 72.6 versus 70.3 last month The US ISM nonmanufacturing PMI rose to 55.4 in August from 54.1 last month, comfortably above the 54.2 estima",
-    "drafted_at": "2026-09-03T16:58:43.869887",
+    "source_url": "https://investinglive.com/news/preview-august-non-farm-payrolls-by-the-numbers/",
+    "source_title": "Preview: August non-farm payrolls by the numbers",
+    "source_summary": "What's expected: Consensus estimate +56K (range -25K to +121K) July -23K June +63K Private consensus estimate +45K Unemployment rate consensus estimate: 4.1% vs 4.1% prior Participation rate consensus 61.4% prior Prior underemployment U6 prior 7.9% Avg hourly earnings y/y exp +3.0% y/y vs +3.2% prior Avg hourly earnings m/m exp +0.3% vs +0.1% prior Avg weekly hours exp 34.3 vs 34.3 prior August jo",
+    "drafted_at": "2026-09-03T19:43:28.034813",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "9c93dda7810a6283"
+    "content_hash": "1c30a88ffb461787"
   },
   {
-    "id": "191e83a6",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "TRADE-BALANCE READ: The US trade deficit widened significantly in July, with a sharp increase in imports and a decline in exports that could weigh on economic growth in the third quarter.\n\nThe goods and services deficit rose to $88.6 billion in July from $71.2 billion in June.\n\nThe increase was driven primarily by a surge in goods imports, particularly computers, computer accessories, and semiconductors.\n\nExports fell by $6.6 billion to $310.7 billion, while imports increased by $10.8 billion to $399.3 billion.\n\nThe trade balance measures the difference between what a country exports and what it imports.\n\nExports represent demand for domestically produced goods and services.\n\nImports represent spending on foreign-produced goods and services.\n\nBecause Gross Domestic Product (GDP) measures domestic production, imports are subtracted from GDP calculations.\n\nhttps://investinglive.com/news/us-trade-deficit-widens-sharply-in-july-as-ai-related-imports-surge/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/us-trade-deficit-widens-sharply-in-july-as-ai-related-imports-surge/",
-    "source_title": "US trade deficit widens sharply in July as AI-related imports surge",
-    "source_summary": "The US trade deficit widened significantly in July, with a sharp increase in imports and a decline in exports that could weigh on economic growth in the third quarter. The goods and services deficit rose to $88.6 billion in July from $71.2 billion in June. The increase was driven primarily by a surge in goods imports, particularly computers, computer accessories, and semiconductors. Exports fell b",
-    "drafted_at": "2026-09-03T16:58:43.870986",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "ad6bf8e84e11f68c"
-  },
-  {
-    "id": "aa0d5e43",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "From the unemployment desk: Prior week 204K initial jobless claims 206K versus 205K estimate 4 week moving average 207.25K versus 205.75K continuing claims 1.779 million versus 1.790 million estimate.\n\nPrior week 1.7719 The claims data continues to show steady employment in the US.\n\nThis article was written by Greg Michalowski at investinglive.com.\n\nhttps://investinglive.com/news/us-initial-jobless-claims-206k-vs-205k-estimate/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/us-initial-jobless-claims-206k-vs-205k-estimate/",
-    "source_title": "US Initial Jobless claims 206K vs 205K estimate",
-    "source_summary": "Prior week 204K initial jobless claims 206K versus 205K estimate 4 week moving average 207.25K versus 205.75K continuing claims 1.779 million versus 1.790 million estimate. Prior week 1.7719 The claims data continues to show steady employment in the US. There is not a lot of hiring. There is not a lot of firing. This article was written by Greg Michalowski at investinglive.com.",
-    "drafted_at": "2026-09-03T16:58:43.871380",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "c3586837c5fe1ee4"
-  },
-  {
-    "id": "d7b7876e",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "CPI POSTCARD: Headlines: USD/JPY extends fall today in drop back below 158, what's next?\n\nBond yields pull back from the highs as focus turns to US jobs report next WTI Crude Oil Price Analysis: Bears Favored Below $90 Gold upside remains limited by Fed rate hike risks and Iran war; traders await US CPI for next direction Nasdaq's fate hinges on US CPI and Middle East conflict as growth expectations deteriorate Swiss inflation nudges up in August amid higher energy prices Euro area business activity keeps steadier in August, reaffirms ECB policy pathway Markets: JPY leads, USD lags on the day WTI crude up 2.2% to $93.02 US 10-year yields down 2 bps to 4.774% Gold up 1.3% to $4,443 European indices mixed; S&P 500 futures flat Bitcoin up 0.6% to $77,897 The big mover today is no doubt the Japanese yen.\n\nUSD/JPY started the day sitting close the 159.00 level in early Asia but is now down by nearly 300 pips, with the low earlier touching 155.85 on the session.\n\nIt has been one-way traffic all the way through after a tumble below the 158.00 mark earlier today.\n\nJapan's top currency diplomat Mimura declined to comment about a rate check but that seems likely either overnight or at least from earlier today.\n\nAnd markets are definitely heeding the warning, if not already feeling some pinch from a light intervention move from Tokyo.\n\nThat is sending USD/JPY down by 1.6% to 156.10 currently.\n\nBesides that, US-Iran tensions continue to persist and that is keeping oil prices underpinned.\n\nhttps://investinglive.com/news/investinglive-european-markets-wrap-japanese-yen-surges-higher-for-second-straight-day/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/investinglive-european-markets-wrap-japanese-yen-surges-higher-for-second-straight-day/",
-    "source_title": "investingLive European markets wrap: Japanese yen surges higher for second straight day",
-    "source_summary": "Headlines: USD/JPY extends fall today in drop back below 158, what's next? Bond yields pull back from the highs as focus turns to US jobs report next WTI Crude Oil Price Analysis: Bears Favored Below $90 Gold upside remains limited by Fed rate hike risks and Iran war; traders await US CPI for next direction Nasdaq's fate hinges on US CPI and Middle East conflict as growth expectations deteriorate ",
-    "drafted_at": "2026-09-03T16:58:43.873285",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "612e6424774c7bf7"
-  },
-  {
-    "id": "95c0a31d",
+    "id": "7468b7d8",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -600,7 +600,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-09-03T16:58:43.877203",
+    "drafted_at": "2026-09-03T19:43:28.041374",
     "data": {
       "manual": true,
       "via": "manual_news.md"
