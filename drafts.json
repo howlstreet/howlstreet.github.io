@@ -1,23 +1,42 @@
 [
   {
-    "id": "f046e72a",
+    "id": "838e54cd",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "The combination of stronger growth and near record cost pass through is the key signal here for BOJ policy watchers, and Fiddes explicitly linked the data to a strengthening case for another rate hike.\n\nThis is a yen supportive data point on its face, since it reinforces the narrative of accelerating domestic inflation pressure alongside decent growth momentum, a combination that gives the BOJ more room to tighten.\n\nThat said, the export orders detail complicates the picture, with new export business contracting at its sharpest rate since November 2020, suggesting external demand and yen weakness are cutting both ways, weighing on exporters while also inflating import linked costs.\n\nhttps://investinglive.com/news/yen-support-japan-services-pmi-hits-five-month-high-as-inflation-strengthens-boj-hike-case/",
+    "draft_text": "Gold gains over 1%, US nonfarm payrolls report in spotlight Reuters\n\nhttps://news.google.com/rss/articles/CBMiuwFBVV95cUxNTUhNZ1JkRGozUnRmOFd3alQyWTVjNjd4WXp4SmV4anJuRndaaEVRdzlXajB2b1pWUjh5LTJscnFjY0l6QkhINE9MaXAtRVVWVkdrVXZTSlRudFlSU2cxVVlMT1pkN21TTG55MUxyZEkxalhRUGNwRkVNYXZOeWZuX3VsSWx4alNGeENzSzdfSFRvRzlwdHNZRUppTGdIcHMtTUdrU05KV2VoQmNiWTNfOS1kVjNFMzFDQzFR?oc=5",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/yen-support-japan-services-pmi-hits-five-month-high-as-inflation-strengthens-boj-hike-case/",
-    "source_title": "Yen support: Japan services PMI hits five-month high as inflation strengthens BOJ hike case",
-    "source_summary": "The combination of stronger growth and near record cost pass through is the key signal here for BOJ policy watchers, and Fiddes explicitly linked the data to a strengthening case for another rate hike. This is a yen supportive data point on its face, since it reinforces the narrative of accelerating domestic inflation pressure alongside decent growth momentum, a combination that gives the BOJ more",
-    "drafted_at": "2026-09-03T01:54:36.162202",
+    "primary_source": "REUTERS",
+    "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTUhNZ1JkRGozUnRmOFd3alQyWTVjNjd4WXp4SmV4anJuRndaaEVRdzlXajB2b1pWUjh5LTJscnFjY0l6QkhINE9MaXAtRVVWVkdrVXZTSlRudFlSU2cxVVlMT1pkN21TTG55MUxyZEkxalhRUGNwRkVNYXZOeWZuX3VsSWx4alNGeENzSzdfSFRvRzlwdHNZRUppTGdIcHMtTUdrU05KV2VoQmNiWTNfOS1kVjNFMzFDQzFR?oc=5",
+    "source_title": "Gold gains over 1%, US nonfarm payrolls report in spotlight",
+    "source_summary": "Gold gains over 1%, US nonfarm payrolls report in spotlight Reuters",
+    "drafted_at": "2026-09-03T06:38:11.861552",
     "data": {
-      "source": "FOREXLIVE"
+      "source": "REUTERS"
     },
-    "content_hash": "1cfcc6e6ce61e07e"
+    "content_hash": "af6a157dbf8a2b81"
   },
   {
-    "id": "81db58c3",
+    "id": "5042d9a0",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "You blink, you miss this: WTI crude climbs 5.8% in 5 sessions to $89.93.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NYMEX \u00b7 CL=F",
+    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "source_title": "WTI crude oil futures",
+    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "drafted_at": "2026-09-03T06:38:11.861806",
+    "data": {
+      "signal_id": "CL=F:move:2026-09-03",
+      "kind": "move_up",
+      "current": "$89.93"
+    },
+    "content_hash": "c272de0720a2f459"
+  },
+  {
+    "id": "617cb907",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "This is the take-notes part. VIX jumps 7.9% in 5 sessions to 16.33.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
@@ -27,7 +46,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EVIX",
     "source_title": "VIX (S&P 500 volatility)",
     "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-09-03T01:54:36.162479",
+    "drafted_at": "2026-09-03T06:38:11.861981",
     "data": {
       "signal_id": "^VIX:move:2026-09-02",
       "kind": "move_up",
@@ -36,43 +55,7 @@
     "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "79054a41",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "I love a good move. This is a great one. Gold drops 5.5% in 5 sessions to $4,371.10.\n\nGold tracks real yields and central bank demand.\n\nMulti-year highs flag debasement or geopolitical hedging flows.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/GC%3DF",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "COMEX \u00b7 GC=F",
-    "source_url": "https://finance.yahoo.com/quote/GC%3DF",
-    "source_title": "Gold futures",
-    "source_summary": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
-    "drafted_at": "2026-09-03T01:54:36.162762",
-    "data": {
-      "signal_id": "GC=F:move:2026-09-02",
-      "kind": "move_down",
-      "current": "$4,371.10"
-    },
-    "content_hash": "514096a7b4f87c16"
-  },
-  {
-    "id": "83f8f121",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "China policy update: The People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Thursday at 6.7807 compared to the previous day's fix of 6.7829 and 6.7167 Reuters estimate.\n\nhttps://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67807-vs-67829-previous-202609030115",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "PBOC",
-    "source_url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67807-vs-67829-previous-202609030115",
-    "source_title": "PBOC sets USD/CNY reference rate at 6.7807 vs. 6.7829 previous",
-    "source_summary": "The People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Thursday at 6.7807 compared to the previous day's fix of 6.7829 and 6.7167 Reuters estimate.",
-    "drafted_at": "2026-09-03T01:54:36.172917",
-    "data": {
-      "actor": "PBOC"
-    },
-    "content_hash": "415340e4a360a5a3"
-  },
-  {
-    "id": "c0c43f78",
+    "id": "a184e341",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "BoJ just printed. The combination of stronger growth and near record cost pass through is the key signal here for BOJ policy watchers, and Fiddes explicitly linked the data to a strengthening case for another rate hike.\n\nThis is a yen supportive data point on its face, since it reinforces the narrative of accelerating domestic inflation pressure alongside decent growth momentum, a combination that gives the BOJ more room to tighten.\n\nThat said, the export orders detail complicates the picture, with new export business contracting at its sharpest rate since November 2020, suggesting external demand and yen weakness are cutting both ways, weighing on exporters while also inflating import linked costs.\n\nTraders should watch upcoming BOJ commentary closely, since this print adds to a run of data that has been gradually building the case for policy normalisation, even as officials continue to weigh the impact of Middle East linked supply disruption and a soft yen on the inflation outlook. --- Yesterday: BOJ hawk Takata says nimble rate hikes needed as inflation risks build Bank of Japan Governor Ueda says no comment on markets pricing a September rate hike --- Japan's service sector is growing at its fastest pace in five months, but the same forces pushing prices to near record highs are also building pressure on the Bank of Japan to act again.\n\nSummary: The S&P Global final Japan Services PMI rose to 52.5 in August from 51.2 in July, the fastest pace of growth in five months and the third straight month in expansion territory.\n\nNew business rose for a 26th consecutive month and at a faster pace than July, driven by stronger domestic demand, public sector projects and higher client enquiries.\n\nNew export business contracted for a fifth straight month, at the sharpest rate since November 2020.\n\nEmployment rose for a 12th consecutive month but only marginally, the slowest pace of job creation in a year, with some firms not replacing voluntary leavers.\n\nhttps://investinglive.com/news/yen-support-japan-services-pmi-hits-five-month-high-as-inflation-strengthens-boj-hike-case/",
@@ -82,14 +65,14 @@
     "source_url": "https://investinglive.com/news/yen-support-japan-services-pmi-hits-five-month-high-as-inflation-strengthens-boj-hike-case/",
     "source_title": "Yen support: Japan services PMI hits five-month high as inflation strengthens BOJ hike case",
     "source_summary": "The combination of stronger growth and near record cost pass through is the key signal here for BOJ policy watchers, and Fiddes explicitly linked the data to a strengthening case for another rate hike. This is a yen supportive data point on its face, since it reinforces the narrative of accelerating domestic inflation pressure alongside decent growth momentum, a combination that gives the BOJ more",
-    "drafted_at": "2026-09-03T01:54:36.176416",
+    "drafted_at": "2026-09-03T06:38:11.873049",
     "data": {
       "actor": "BOJ"
     },
     "content_hash": "1cfcc6e6ce61e07e"
   },
   {
-    "id": "beca6fcf",
+    "id": "4a7edf60",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Policy update for the pack: The Board's process for setting the discount rate is distinct from the process the Federal Open Market Committee follows in setting the target range for the federal funds rate.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
@@ -99,14 +82,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
     "source_title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
     "source_summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
-    "drafted_at": "2026-09-03T01:54:36.176845",
+    "drafted_at": "2026-09-03T06:38:11.873373",
     "data": {
       "actor": "FED"
     },
     "content_hash": "da9833991b6c87c5"
   },
   {
-    "id": "cac09e6a",
+    "id": "bf8ca67f",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "POWELL POSTCARD: Consent prohibition against Stephanie R.\n\nConsent prohibition against Crystal A.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm",
@@ -116,14 +99,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm",
     "source_title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
     "source_summary": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
-    "drafted_at": "2026-09-03T01:54:36.177091",
+    "drafted_at": "2026-09-03T06:38:11.873568",
     "data": {
       "actor": "FED"
     },
     "content_hash": "1899c878ef68bdd8"
   },
   {
-    "id": "dbb6a05b",
+    "id": "cf9f433c",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$CAVA \u2014 2 company insiders bought $502,380 on Aug 31.\n\nCava Group, Inc. 7,500 shares at $66.98.\n\nStock is -8.8% since the purchase. This is a public SEC Form 4 filing.",
@@ -133,7 +116,7 @@
     "source_url": "http://openinsider.com/screener?s=CAVA",
     "source_title": "Cava Group, Inc. (CAVA) insider bought $502,380",
     "source_summary": "2 insider(s) bought 7,500 shares at $66.98 on 2026-08-31.",
-    "drafted_at": "2026-09-03T01:54:36.177501",
+    "drafted_at": "2026-09-03T06:38:11.873945",
     "data": {
       "ticker": "CAVA",
       "type": "P",
@@ -143,7 +126,7 @@
     "content_hash": "83c4a3dafa4df57c"
   },
   {
-    "id": "5817f918",
+    "id": "f5e3da1d",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$SUJA \u2014 a company insider bought $5.4M on Aug 31.\n\nSuja Life, Inc. 525,000 shares at $10.27.\n\nStock is -0.5% since the purchase. This is a public SEC Form 4 filing.",
@@ -153,7 +136,7 @@
     "source_url": "http://openinsider.com/screener?s=SUJA",
     "source_title": "Suja Life, Inc. (SUJA) insider bought $5.4M",
     "source_summary": "1 insider(s) bought 525,000 shares at $10.27 on 2026-08-31.",
-    "drafted_at": "2026-09-03T01:54:36.177724",
+    "drafted_at": "2026-09-03T06:38:11.874098",
     "data": {
       "ticker": "SUJA",
       "type": "P",
@@ -163,7 +146,7 @@
     "content_hash": "d7d9b024016b65eb"
   },
   {
-    "id": "4b47f46e",
+    "id": "4f6ebe23",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$AAT \u2014 a company insider bought $3.7M on Aug 31.\n\nAmerican Assets Trust, Inc. 166,636 shares at $22.45.\n\nStock is -0.2% since the purchase. This is a public SEC Form 4 filing.",
@@ -173,7 +156,7 @@
     "source_url": "http://openinsider.com/screener?s=AAT",
     "source_title": "American Assets Trust, Inc. (AAT) insider bought $3.7M",
     "source_summary": "1 insider(s) bought 166,636 shares at $22.45 on 2026-08-31.",
-    "drafted_at": "2026-09-03T01:54:36.177928",
+    "drafted_at": "2026-09-03T06:38:11.874246",
     "data": {
       "ticker": "AAT",
       "type": "P",
@@ -183,7 +166,7 @@
     "content_hash": "3c933b1f299de6a0"
   },
   {
-    "id": "1d6c545d",
+    "id": "75481050",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$ADC \u2014 2 company insiders bought $2.6M on Aug 31.\n\nAgree Realty Corp. 35,136 shares at $72.74.\n\nStock is -0.2% since the purchase. This is a public SEC Form 4 filing.",
@@ -193,7 +176,7 @@
     "source_url": "http://openinsider.com/screener?s=ADC",
     "source_title": "Agree Realty Corp (ADC) insider bought $2.6M",
     "source_summary": "2 insider(s) bought 35,136 shares at $72.74 on 2026-08-31.",
-    "drafted_at": "2026-09-03T01:54:36.178118",
+    "drafted_at": "2026-09-03T06:38:11.874381",
     "data": {
       "ticker": "ADC",
       "type": "P",
@@ -203,7 +186,7 @@
     "content_hash": "9e8d17e70c2034ff"
   },
   {
-    "id": "239e6ebc",
+    "id": "fe671f1a",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$TENX \u2014 a company insider bought $1.4M on Aug 31.\n\nTenax Therapeutics, Inc. 770,333 shares at $1.79.\n\nStock is +3.4% since the purchase. This is a public SEC Form 4 filing.",
@@ -213,7 +196,7 @@
     "source_url": "http://openinsider.com/screener?s=TENX",
     "source_title": "Tenax Therapeutics, Inc. (TENX) insider bought $1.4M",
     "source_summary": "1 insider(s) bought 770,333 shares at $1.79 on 2026-08-31.",
-    "drafted_at": "2026-09-03T01:54:36.178311",
+    "drafted_at": "2026-09-03T06:38:11.874521",
     "data": {
       "ticker": "TENX",
       "type": "P",
@@ -223,7 +206,7 @@
     "content_hash": "be92f644f4498f9e"
   },
   {
-    "id": "ef0f2bbf",
+    "id": "4ac7a3ca",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Federal authorities and private-sector partners were part of an operation to disrupt malware that redirected about $150,000 in crypto over the last eight years.\n\nhttps://cointelegraph.com/news/us-officials-crowdstrike-malware-stealing-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -233,14 +216,14 @@
     "source_url": "https://cointelegraph.com/news/us-officials-crowdstrike-malware-stealing-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "source_title": "US officials work with CrowdStrike to fight malware behind crypto theft",
     "source_summary": "Federal authorities and private-sector partners were part of an operation to disrupt malware that redirected about $150,000 in crypto over the last eight years.",
-    "drafted_at": "2026-09-03T01:54:36.182228",
+    "drafted_at": "2026-09-03T06:38:11.877281",
     "data": {
       "source": "COINTELEGRAPH"
     },
     "content_hash": "ba57c4ccc623fd4f"
   },
   {
-    "id": "bce7b061",
+    "id": "73b3ccba",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Bitcoin Magazine Mexican Billionaire Ricardo Salinas Tells People To Escape Fiat Inflation With Bitcoin The Mexican business magnate continues to tell people to escape what he calls the \"fiat fraud.\" This post Mexican Billionaire Ricardo Salinas Tells People To Escape Fiat Inflation With Bitcoin first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.\n\nhttps://bitcoinmagazine.com/news/salinas-tells-people-to-escape-fiat",
@@ -250,14 +233,14 @@
     "source_url": "https://bitcoinmagazine.com/news/salinas-tells-people-to-escape-fiat",
     "source_title": "Mexican Billionaire Ricardo Salinas Tells People To Escape Fiat Inflation With Bitcoin",
     "source_summary": "Bitcoin Magazine Mexican Billionaire Ricardo Salinas Tells People To Escape Fiat Inflation With Bitcoin The Mexican business magnate continues to tell people to escape what he calls the \"fiat fraud.\" This post Mexican Billionaire Ricardo Salinas Tells People To Escape Fiat Inflation With Bitcoin first appeared on Bitcoin Magazine and is written by Mathew Di Salvo .",
-    "drafted_at": "2026-09-03T01:54:36.182666",
+    "drafted_at": "2026-09-03T06:38:11.877654",
     "data": {
       "source": "BITCOIN MAG"
     },
     "content_hash": "f3aa0dd1bc66fe82"
   },
   {
-    "id": "1bc0e893",
+    "id": "6dcb991e",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "An ICIJ review found nearly $1.7 billion in settlements and fines over a 15 year period.\n\nBut experts said many companies see the payouts as the cost of doing business.\n\nhttps://www.icij.org/investigations/cancer-calculus/big-fines-and-settlements-barely-dent-cancer-drugmakers-revenues-fail-to-deter-wrongdoing/",
@@ -267,14 +250,14 @@
     "source_url": "https://www.icij.org/investigations/cancer-calculus/big-fines-and-settlements-barely-dent-cancer-drugmakers-revenues-fail-to-deter-wrongdoing/",
     "source_title": "Big fines and settlements barely dent cancer drugmakers\u2019 revenues, fail to deter wrongdoing",
     "source_summary": "An ICIJ review found nearly $1.7 billion in settlements and fines over a 15 year period. But experts said many companies see the payouts as the cost of doing business.",
-    "drafted_at": "2026-09-03T01:54:36.182882",
+    "drafted_at": "2026-09-03T06:38:11.877817",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "2bb33397806c5f72"
   },
   {
-    "id": "a20975b1",
+    "id": "42f2d3c9",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Financial records obtained by ICIJ show that they included individuals later accused of or sanctioned for money laundering and other financial crimes.\n\nhttps://www.icij.org/investigations/coin-laundry/crypto-giant-tether-promised-careful-vetting-some-early-customers-were-later-implicated-in-financial-crimes/",
@@ -284,14 +267,14 @@
     "source_url": "https://www.icij.org/investigations/coin-laundry/crypto-giant-tether-promised-careful-vetting-some-early-customers-were-later-implicated-in-financial-crimes/",
     "source_title": "Crypto giant Tether promised careful vetting. Some early customers were later implicated in financial crimes.",
     "source_summary": "Financial records obtained by ICIJ show that they included individuals later accused of or sanctioned for money laundering and other financial crimes.",
-    "drafted_at": "2026-09-03T01:54:36.183075",
+    "drafted_at": "2026-09-03T06:38:11.877963",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "b5dc549473d7ec96"
   },
   {
-    "id": "8bbee439",
+    "id": "e3685a30",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The allegations, which are at the heart of a confidential arbitration, signal an aggressive new stance by the Central Asian country toward longstanding international partners.\n\nhttps://www.icij.org/investigations/caspian-cabals/kazakhstan-alleges-big-oil-corruption-tainted-10-7-billion-in-contracts-delayed-key-oil-project/",
@@ -301,14 +284,14 @@
     "source_url": "https://www.icij.org/investigations/caspian-cabals/kazakhstan-alleges-big-oil-corruption-tainted-10-7-billion-in-contracts-delayed-key-oil-project/",
     "source_title": "Kazakhstan alleges Big Oil corruption tainted $10.7 billion in contracts, delayed key oil project",
     "source_summary": "The allegations, which are at the heart of a confidential arbitration, signal an aggressive new stance by the Central Asian country toward longstanding international partners.",
-    "drafted_at": "2026-09-03T01:54:36.183294",
+    "drafted_at": "2026-09-03T06:38:11.878124",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "7a4f2a9afcac6e3a"
   },
   {
-    "id": "79e03225",
+    "id": "0aa65902",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "6 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 David J. Taylor (R)\n\u2022 John Boozman (R)\n\u2022 Cleo Fields (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 John Fetterman (D)\n\u2022 John McGuire (R)\n\nLargest disclosed here: David J. Taylor, $1,001 - $15,000 on Feb 26.\n\nPrice since the first buy in this group: +26.3%.\n\nSTOCK Act disclosures. Public record.",
@@ -318,7 +301,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034138.pdf",
     "source_title": "6 Congress members bought $MSFT",
     "source_summary": "6 politicians bought $MSFT; largest $1,001 - $15,000 by David J. Taylor.",
-    "drafted_at": "2026-09-03T01:54:36.183675",
+    "drafted_at": "2026-09-03T06:38:11.878407",
     "data": {
       "ticker": "MSFT",
       "member_count": 6,
@@ -327,7 +310,7 @@
     "content_hash": "7c24415ac3c0b542"
   },
   {
-    "id": "dbb4b7be",
+    "id": "594a3ab6",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "5 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Markwayne Mullin (D)\n\u2022 Josh Gottheimer (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Markwayne Mullin, $50,001 - $100,000 on Feb 25.\n\nPrice since the first buy in this group: +45.0%.\n\nSTOCK Act disclosures. Public record.",
@@ -337,7 +320,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/f586922d-6083-44e5-8a32-769290389416/",
     "source_title": "5 Congress members bought $UNH",
     "source_summary": "5 politicians bought $UNH; largest $50,001 - $100,000 by Markwayne Mullin.",
-    "drafted_at": "2026-09-03T01:54:36.184016",
+    "drafted_at": "2026-09-03T06:38:11.878676",
     "data": {
       "ticker": "UNH",
       "member_count": 5,
@@ -346,7 +329,7 @@
     "content_hash": "7cbacf41d412a41b"
   },
   {
-    "id": "80460bce",
+    "id": "668a2b05",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 Cleo Fields (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 John Fetterman (D)\n\u2022 John McGuire (R)\n\nLargest disclosed here: Cleo Fields, $1,001 - $15,000 on Mar 12.\n\nPrice since the first buy in this group: +23.6%.\n\nSTOCK Act disclosures. Public record.",
@@ -356,7 +339,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034179.pdf",
     "source_title": "4 Congress members bought $MSFT",
     "source_summary": "4 politicians bought $MSFT; largest $1,001 - $15,000 by Cleo Fields.",
-    "drafted_at": "2026-09-03T01:54:36.184314",
+    "drafted_at": "2026-09-03T06:38:11.878898",
     "data": {
       "ticker": "MSFT",
       "member_count": 4,
@@ -365,7 +348,7 @@
     "content_hash": "4ff8eafa69ce40c2"
   },
   {
-    "id": "3a5b949b",
+    "id": "133bcaea",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Markwayne Mullin (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Markwayne Mullin, $50,001 - $100,000 on Feb 25.\n\nPrice since the first buy in this group: +39.0%.\n\nSTOCK Act disclosures. Public record.",
@@ -375,7 +358,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/f586922d-6083-44e5-8a32-769290389416/",
     "source_title": "4 Congress members bought $UNH",
     "source_summary": "4 politicians bought $UNH; largest $50,001 - $100,000 by Markwayne Mullin.",
-    "drafted_at": "2026-09-03T01:54:36.184625",
+    "drafted_at": "2026-09-03T06:38:11.879127",
     "data": {
       "ticker": "UNH",
       "member_count": 4,
@@ -384,7 +367,7 @@
     "content_hash": "029ae5a8d0ca395b"
   },
   {
-    "id": "fbd0021b",
+    "id": "fd468fee",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Richard Dean Dr McCormick, $1,001 - $15,000 on Mar 19.\n\nPrice since the first buy in this group: +42.7%.\n\nSTOCK Act disclosures. Public record.",
@@ -394,7 +377,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033648.pdf",
     "source_title": "3 Congress members bought $UNH",
     "source_summary": "3 politicians bought $UNH; largest $1,001 - $15,000 by Richard Dean Dr McCormick.",
-    "drafted_at": "2026-09-03T01:54:36.184945",
+    "drafted_at": "2026-09-03T06:38:11.879344",
     "data": {
       "ticker": "UNH",
       "member_count": 3,
@@ -403,109 +386,126 @@
     "content_hash": "ef6027c31bcd522a"
   },
   {
-    "id": "b0354b57",
+    "id": "411a6092",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From Beijing: China's Services Purchasing Managers' Index (PMI) climbed to 51.4 in August from 50.4 in July, the latest data published by RatingDog showed on Thursday.\n\nThis figure came in stronger than the market expectations of 50.6.\n\nhttps://www.fxstreet.com/news/chinas-ratingdog-services-pmi-jumps-to-514-in-august-vs-506-expected-202609030146",
+    "draft_text": "APAC wire: Tokyo, Japan and Cambridge, UK, 3 September 2026 \u2013 Nxera Pharma Co., Ltd. (\u201cNxera\u201d or \u201cthe Company\u201d; TSE 4565) today announces that Centessa Pharmaceuticals Limited (\u201cCentessa\u201d), a wholly-owned subsidiary of Eli Lilly and Company (\u201cLilly\u201d), has achieved a late-stage development milestone associated with its selective orexin receptor 2 (OX2R) agonist portfolio.\n\nThis milestone triggers a payment of US$8.6 million to Nxera pursuant to its research collaboration with Centessa.\n\nThe milestone payment will be recognized as revenue in the third quarter of the fiscal year ending 31 December 2026.\n\nhttps://www.globenewswire.com/news-release/2026/09/03/3355662/0/en/nxera-pharma-to-receive-8-6-million-milestone-payment-from-centessa-pharmaceuticals-following-late-stage-development-progress.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "GLOBENEWSWIRE",
+    "source_url": "https://www.globenewswire.com/news-release/2026/09/03/3355662/0/en/nxera-pharma-to-receive-8-6-million-milestone-payment-from-centessa-pharmaceuticals-following-late-stage-development-progress.html",
+    "source_title": "Nxera Pharma to Receive $8.6 Million Milestone Payment from Centessa Pharmaceuticals Following Late-stage Development Progress",
+    "source_summary": "Tokyo, Japan and Cambridge, UK, 3 September 2026 \u2013 Nxera Pharma Co., Ltd. (\u201cNxera\u201d or \u201cthe Company\u201d; TSE 4565) today announces that Centessa Pharmaceuticals Limited (\u201cCentessa\u201d), a wholly-owned subsidiary of Eli Lilly and Company (\u201cLilly\u201d), has achieved a late-stage development milestone associated with its selective orexin receptor 2 (OX2R) agonist portfolio. This milestone triggers a payment of ",
+    "drafted_at": "2026-09-03T06:38:11.881079",
+    "data": {
+      "source": "GLOBENEWSWIRE"
+    },
+    "content_hash": "046dd34f65b5429d"
+  },
+  {
+    "id": "ddc68308",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "From Beijing: The Australian Dollar (AUD) edges down against the US Dollar (USD) on Thursday, following a narrowing trade surplus in Australia and fairly positive PMI data from China, a key trading partner.\n\nhttps://www.fxstreet.com/news/australian-dollar-stalls-below-07170-halfway-through-last-two-weeks-range-202609030630",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/chinas-ratingdog-services-pmi-jumps-to-514-in-august-vs-506-expected-202609030146",
-    "source_title": "China\u2019s RatingDog Services PMI jumps to 51.4 in August, vs. 50.6 expected",
-    "source_summary": "China's Services Purchasing Managers' Index (PMI) climbed to 51.4 in August from 50.4 in July, the latest data published by RatingDog showed on Thursday. This figure came in stronger than the market expectations of 50.6.",
-    "drafted_at": "2026-09-03T01:54:36.186639",
+    "source_url": "https://www.fxstreet.com/news/australian-dollar-stalls-below-07170-halfway-through-last-two-weeks-range-202609030630",
+    "source_title": "Australian Dollar stalls below 0.7170, halfway through last two weeks\u2019 range",
+    "source_summary": "The Australian Dollar (AUD) edges down against the US Dollar (USD) on Thursday, following a narrowing trade surplus in Australia and fairly positive PMI data from China, a key trading partner.",
+    "drafted_at": "2026-09-03T06:38:11.881320",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "beda3c06c39eb488"
+    "content_hash": "9567bfae6d83381f"
   },
   {
-    "id": "4370be07",
+    "id": "27c63321",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Mainland wire: The People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Thursday at 6.7807 compared to the previous day's fix of 6.7829 and 6.7167 Reuters estimate.\n\nhttps://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67807-vs-67829-previous-202609030115",
+    "draft_text": "Gulf wire: Renewed diplomatic efforts could reshape geopolitical dynamics, but market skepticism suggests limited immediate impact on U.S.-Iran relations.\n\nThe post Trump team ends losing streak, eyes renewed diplomacy: CNBC appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/trump-team-ends-losing-streak-eyes-renewed-diplomacy-cnbc/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67807-vs-67829-previous-202609030115",
-    "source_title": "PBOC sets USD/CNY reference rate at 6.7807 vs. 6.7829 previous",
-    "source_summary": "The People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Thursday at 6.7807 compared to the previous day's fix of 6.7829 and 6.7167 Reuters estimate.",
-    "drafted_at": "2026-09-03T01:54:36.187202",
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/trump-team-ends-losing-streak-eyes-renewed-diplomacy-cnbc/",
+    "source_title": "Trump team ends losing streak, eyes renewed diplomacy: CNBC",
+    "source_summary": "Renewed diplomatic efforts could reshape geopolitical dynamics, but market skepticism suggests limited immediate impact on U.S.-Iran relations. The post Trump team ends losing streak, eyes renewed diplomacy: CNBC appeared first on Crypto Briefing .",
+    "drafted_at": "2026-09-03T06:38:11.881713",
     "data": {
-      "source": "FXSTREET"
+      "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "415340e4a360a5a3"
+    "content_hash": "f67d04911c688f9b"
   },
   {
-    "id": "95c9c8a0",
+    "id": "06c0e239",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: The GBP/USD pair consolidates below the 1.3500 psychological mark during the Asian session on Thursday and remains close to a three-week low, touched the previous day.\n\nhttps://www.fxstreet.com/news/british-pound-consolidates-near-three-week-low-as-fed-bets-and-iran-tensions-support-usd-202609030112",
+    "draft_text": "Mainland wire: Mango Excellent Media shares jumped 64% after China's first AI-generated drama premiered, drawing analyst attention.\n\nThe post Investors Can't Get Enough of AI-Created Dramas: Chinese Broadcaster Mango Up 64% appeared first on BeInCrypto.\n\nhttps://beincrypto.com/mango-media-ai-drama-rally/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/british-pound-consolidates-near-three-week-low-as-fed-bets-and-iran-tensions-support-usd-202609030112",
-    "source_title": "British Pound consolidates near three-week low as Fed bets and Iran tensions support USD",
-    "source_summary": "The GBP/USD pair consolidates below the 1.3500 psychological mark during the Asian session on Thursday and remains close to a three-week low, touched the previous day.",
-    "drafted_at": "2026-09-03T01:54:36.187529",
+    "primary_source": "BEINCRYPTO",
+    "source_url": "https://beincrypto.com/mango-media-ai-drama-rally/",
+    "source_title": "Investors Can't Get Enough of AI-Created Dramas: Chinese Broadcaster Mango Up 64%",
+    "source_summary": "Mango Excellent Media shares jumped 64% after China's first AI-generated drama premiered, drawing analyst attention. The post Investors Can't Get Enough of AI-Created Dramas: Chinese Broadcaster Mango Up 64% appeared first on BeInCrypto .",
+    "drafted_at": "2026-09-03T06:38:11.882507",
     "data": {
-      "source": "FXSTREET"
+      "source": "BEINCRYPTO"
     },
-    "content_hash": "d2c3960f6b63c4fa"
+    "content_hash": "e07f8df9d6875bbb"
   },
   {
-    "id": "5ddba9e6",
+    "id": "e0af189e",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: The combination of stronger growth and near record cost pass through is the key signal here for BOJ policy watchers, and Fiddes explicitly linked the data to a strengthening case for another rate hike.\n\nThis is a yen supportive data point on its face, since it reinforces the narrative of accelerating domestic inflation pressure alongside decent growth momentum, a combination that gives the BOJ more room to tighten.\n\nThat said, the export orders detail complicates the picture, with new export business contracting at its sharpest rate since November 2020, suggesting external demand and yen weakness are cutting both ways, weighing on exporters while also inflating import linked costs.\n\nTraders should watch upcoming BOJ commentary closely, since this print adds to a run of data that has been gradually building the case for policy normalisation, even as officials continue to weigh the impact of Middle East linked supply disruption and a soft yen on the inflation outlook. --- Yesterday: BOJ hawk Takata says nimble rate hikes needed as inflation risks build Bank of Japan Governor Ueda says no comment on markets pricing a September rate hike --- Japan's service sector is growing at its fastest pace in five months, but the same forces pushing prices to near record highs are also building pressure on the Bank of Japan to act again.\n\nSummary: The S&P Global final Japan Services PMI rose to 52.5 in August from 51.2 in July, the fastest pace of growth in five months and the third straight month in expansion territory.\n\nNew business rose for a 26th consecutive month and at a faster pace than July, driven by stronger domestic demand, public sector projects and higher client enquiries.\n\nNew export business contracted for a fifth straight month, at the sharpest rate since November 2020.\n\nEmployment rose for a 12th consecutive month but only marginally, the slowest pace of job creation in a year, with some firms not replacing voluntary leavers.\n\nhttps://investinglive.com/news/yen-support-japan-services-pmi-hits-five-month-high-as-inflation-strengthens-boj-hike-case/",
+    "draft_text": "ASIA DESK: Moonshot AI's rapid IPO move could set a precedent for AI startups, highlighting the sector's potential for swift growth and market impact.\n\nThe post Moonshot AI eyes Hong Kong IPO within six months as Kimi K3 drives $300M revenue run rate appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/moonshot-ai-kimi-k3-hong-kong-ipo/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/moonshot-ai-kimi-k3-hong-kong-ipo/",
+    "source_title": "Moonshot AI eyes Hong Kong IPO within six months as Kimi K3 drives $300M revenue run rate",
+    "source_summary": "Moonshot AI's rapid IPO move could set a precedent for AI startups, highlighting the sector's potential for swift growth and market impact. The post Moonshot AI eyes Hong Kong IPO within six months as Kimi K3 drives $300M revenue run rate appeared first on Crypto Briefing .",
+    "drafted_at": "2026-09-03T06:38:11.883011",
+    "data": {
+      "source": "CRYPTO BRIEFING"
+    },
+    "content_hash": "0bbc9695a71dcfaa"
+  },
+  {
+    "id": "03ee363e",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "Hiring scoreboard: As we get into the second half of the week, the bond market continues to be a key spot to watch.\n\nThe big story this week is how bond yields have surged to multi-year highs globally, with some even hitting multi-decade highs.\n\nIn case you missed it: The tectonic shift that is taking place in the bond market The moves in the bond market have the potential to drive other markets and that is precisely what we're seeing since overnight trading as well.\n\nAfter hitting those highs, yields are now coming off the boil a little today.\n\nAnd that is affording broader markets with some breathing room.\n\nUSD/JPY is being driven back lower to 157.70, not least due to intervention risks as well, and gold is also now seeing a modest rebound and is up 1.1% to $4,433 today.\n\nThat comes as we see 10-year Treasury yields ease back to 4.77%, down from a high of 4.81% yesterday.\n\nMeanwhile, 10-year Japanese government bond yields are also back lower to 2.95% - down from a high of 3.02% yesterday.\n\nhttps://investinglive.com/news/bond-yields-pull-back-from-the-highs-as-focus-turns-to-us-jobs-report-next/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/yen-support-japan-services-pmi-hits-five-month-high-as-inflation-strengthens-boj-hike-case/",
-    "source_title": "Yen support: Japan services PMI hits five-month high as inflation strengthens BOJ hike case",
-    "source_summary": "The combination of stronger growth and near record cost pass through is the key signal here for BOJ policy watchers, and Fiddes explicitly linked the data to a strengthening case for another rate hike. This is a yen supportive data point on its face, since it reinforces the narrative of accelerating domestic inflation pressure alongside decent growth momentum, a combination that gives the BOJ more",
-    "drafted_at": "2026-09-03T01:54:36.191397",
+    "source_url": "https://investinglive.com/news/bond-yields-pull-back-from-the-highs-as-focus-turns-to-us-jobs-report-next/",
+    "source_title": "Bond yields pull back from the highs as focus turns to US jobs report next",
+    "source_summary": "As we get into the second half of the week, the bond market continues to be a key spot to watch. The big story this week is how bond yields have surged to multi-year highs globally, with some even hitting multi-decade highs. In case you missed it: The tectonic shift that is taking place in the bond market The moves in the bond market have the potential to drive other markets and that is precisely ",
+    "drafted_at": "2026-09-03T06:38:11.935027",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "1cfcc6e6ce61e07e"
+    "content_hash": "11b814ec55334b0c"
   },
   {
-    "id": "46ac0711",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: Iran's health ministry spokesman says the death toll from US attacks has risen to 18, including a child.\n\nhttps://www.aljazeera.com/news/liveblog/2026/9/3/iran-war-live-trump-says-renewed-us-iran-clashes-will-not-last-too?traffic_source=rss",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/news/liveblog/2026/9/3/iran-war-live-trump-says-renewed-us-iran-clashes-will-not-last-too?traffic_source=rss",
-    "source_title": "Iran war live: Trump says renewed US-Iran clashes will not last \u2018too long\u2019",
-    "source_summary": "Iran's health ministry spokesman says the death toll from US attacks has risen to 18, including a child.",
-    "drafted_at": "2026-09-03T01:54:36.191979",
-    "data": {
-      "source": "AL JAZEERA"
-    },
-    "content_hash": "17794d25943a8153"
-  },
-  {
-    "id": "70577c9d",
+    "id": "c7ee1dd7",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "Imports vs. exports scoreboard: Australia's Trade Balance narrowed to A$1,923M MoM in July, followed a surplus of 1,929M in the previous reading, according to the latest foreign trade data published by the Australian Bureau of Statistics on Thursday.\n\nThe market consensus was for a surplus of A$1,390M.\n\nhttps://www.fxstreet.com/news/australias-trade-balance-shows-a-surplus-of-1-923m-mom-in-july-vs-1-390-expected-202609030132",
+    "draft_text": "INFLATION READ: Yen extends gains below 157.80 as BOJ hawks and less hawkish Fed voices collide WSJ reports Trump privately weighs declaring Iran war over (50,000 troops to keep options open) China's RatingDog services PMI beats strongly as domestic demand offsets soft export growth Oil popping higher as Kuwait reports missile and drone attacks PBOC sets USD/ CNY reference rate for today at 6.7807 (vs. estimate at 6.7167) Bitcoin and Ethereum slide as US Iran war simmers & rate hike odds rise Yen support: Japan services PMI hits five-month high as inflation strengthens BOJ hike case CNN report US military escorts 40 tankers with 18 million barrels through Hormuz Fed's Williams calms market nerves, says Treasury yield surge reflects strong economy, not distress AUD/NZD tests key resistance after RBNZ 'sell the fact' hike and Australia GDP beat Brent and WTI hit highest levels (resistance now?) since late July as Middle East war flares ICYMI: Dutch central bank cuts US and Canada gold exposure to London, cites geopolitical unrest NZD/USD fell post RBNZ, 0.5890 and 0.5840 now the levels to watch investingLive Americas FX news wrap 2 Sept: USD mixed, stocks rise as Iran tensions simmer Summary: The Wall Street Journal reported that President Trump is privately discussing declaring the Iran war over with senior aides and has said he favours the idea, betting that sustained economic pressure will eventually force Iran's regime to dismantle its nuclear program or collapse.\n\nDefense Secretary Pete Hegseth is separately extending US troop deployments across the Middle East into 2027, a sign the Pentagon is planning for the conflict to persist even as Trump weighs an exit.\n\nThe US military escorted 40 commercial vessels carrying around 18 million barrels of oil through the Strait of Hormuz on Tuesday, a wartime high approaching pre-war flow levels, intercepting a cruise missile and repelling drone attacks, CNN reported.\n\nIran struck a US military base in Kuwait with missiles and drones, with thick smoke reported at the site as Kuwaiti air defenses responded.\n\nGold extended its rebound to above $4,420 an ounce, supported by dollar weakness and yields pulling back from recent highs.\n\nRBNZ Governor Breman defended Wednesday's hike to 2.75% as appropriate, expecting growth to broaden, while flagging inflation expectation risks and indirect oil price effects; Chief Economist Conway noted stark regional divergence and tough conditions in Auckland.\n\nNew York Fed President John Williams tempered expectations for a September rate hike; Fed Governor Waller is due to speak in the upcoming US session.\n\nJapan's services PMI rose to a five-month high of 52.5 in August from 51.2, with S&P Global saying near-record output charge growth strengthens the case for another BOJ hike.\n\nhttps://investinglive.com/news/investinglive-asia-pacific-market-news-trump-mulls-declaring-iran-war-over/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/australias-trade-balance-shows-a-surplus-of-1-923m-mom-in-july-vs-1-390-expected-202609030132",
-    "source_title": "Australia\u2019s Trade Balance shows a surplus of 1,923M MoM in July, vs. 1,390 expected",
-    "source_summary": "Australia's Trade Balance narrowed to A$1,923M MoM in July, followed a surplus of 1,929M in the previous reading, according to the latest foreign trade data published by the Australian Bureau of Statistics on Thursday. The market consensus was for a surplus of A$1,390M.",
-    "drafted_at": "2026-09-03T01:54:36.248236",
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-trump-mulls-declaring-iran-war-over/",
+    "source_title": "investingLive Asia-Pacific market news: Trump mulls declaring Iran war over",
+    "source_summary": "Yen extends gains below 157.80 as BOJ hawks and less hawkish Fed voices collide WSJ reports Trump privately weighs declaring Iran war over (50,000 troops to keep options open) China's RatingDog services PMI beats strongly as domestic demand offsets soft export growth Oil popping higher as Kuwait reports missile and drone attacks PBOC sets USD/ CNY reference rate for today at 6.7807 (vs. estimate a",
+    "drafted_at": "2026-09-03T06:38:11.938182",
     "data": {
-      "source": "FXSTREET"
+      "source": "FOREXLIVE"
     },
-    "content_hash": "ee228d66d5b2de22"
+    "content_hash": "f056b52a4e26b1f6"
   },
   {
-    "id": "bfab06e4",
+    "id": "a87b2411",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "CPI just printed. US stocks rise as small caps lead the gains EURUSD Technicals: Traders have done their ABCs in trading the EURUSD today.\n\nFed Beige Book: Modest growth, moderate inflation The political headlines are fast and furious coming out of Washington Bitcoin technicals: The price of bitcoin is back below the 100/200 hour MA and making new corrective lows Trump: Maybe the Strait of Hormuz should be renamed the Trump Strait?\n\nBank of Canada Governor Macklem answers questions after BOC rate decision.\n\nCrude oil technical analsysis: US crude oil inventories for -4.450M barrel vs -1.085M estimate.\n\nUS factory orders for the month of July 0.9% versus 0.6% expected The Opening Statement from BOC TIff Macklem by topic.\n\nBank of Canada keeps rates unchanged at 2.25%.\n\nThe USD is mixed vs the EURUSD, USDJPY and GBPUSD.\n\nWhat traders should eye technically? investingLive European session wrap: Higher bond yields continue to keep markets on edge The USD is ending the day mixed, trading lower against the JPY, CAD and AUD, but higher against the EUR, GBP, CHF and NZD.\n\nhttps://investinglive.com/news/investinglive-americas-fx-news-wrap-2-sept-usd-mixed-stocks-rise-as-iran-tensions-simmer/",
@@ -515,14 +515,14 @@
     "source_url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-2-sept-usd-mixed-stocks-rise-as-iran-tensions-simmer/",
     "source_title": "investingLive Americas FX news wrap 2 Sept: USD mixed, stocks rise as Iran tensions simmer",
     "source_summary": "US stocks rise as small caps lead the gains EURUSD Technicals: Traders have done their ABCs in trading the EURUSD today. What do I mean? Fed Beige Book: Modest growth, moderate inflation The political headlines are fast and furious coming out of Washington Bitcoin technicals: The price of bitcoin is back below the 100/200 hour MA and making new corrective lows Trump: Maybe the Strait of Hormuz sho",
-    "drafted_at": "2026-09-03T01:54:36.251914",
+    "drafted_at": "2026-09-03T06:38:11.940853",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "1463492e9f48a55b"
   },
   {
-    "id": "c96b36e7",
+    "id": "b1184634",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "Imports vs. exports scoreboard: The data release of note due today, Thursday, September 3, 2026, from the Asian timezone is the private sector services PMI survey from Rating Dog / S&P.\n\nLook back recap: this week's China PMI data Monday brought the official NBS releases for August.\n\nThe Manufacturing PMI rose to 49.8, up from 49.2 in July and slightly ahead of the 49.7 consensus.\n\nIt marked a second straight month in contraction territory (sub-50), but the underlying detail was constructive: output and new orders both flipped back into expansion, and new export orders followed suit.\n\nThe soft spot remained employment, still contracting.\n\nThe NBS Non-Manufacturing PMI (services and construction) held flat at 49.0, weighed down by a construction slowdown that Beijing attributed partly to extreme weather.\n\nTuesday's private RatingDog Manufacturing PMI told a rosier story.\n\nIt climbed to 51.5 from 50.9, beating the roughly 51 forecast and marking a two month high.\n\nhttps://investinglive.com/news/economic-and-event-calendar-in-asia-thursday-september-3-2026-another-china-pmi/",
@@ -532,14 +532,14 @@
     "source_url": "https://investinglive.com/news/economic-and-event-calendar-in-asia-thursday-september-3-2026-another-china-pmi/",
     "source_title": "Economic and event calendar in Asia Thursday, September 3, 2026",
     "source_summary": "The data release of note due today, Thursday, September 3, 2026, from the Asian timezone is the private sector services PMI survey from Rating Dog / S&P. Look back recap: this week's China PMI data Monday brought the official NBS releases for August. The Manufacturing PMI rose to 49.8, up from 49.2 in July and slightly ahead of the 49.7 consensus. It marked a second straight month in contraction t",
-    "drafted_at": "2026-09-03T01:54:36.253669",
+    "drafted_at": "2026-09-03T06:38:11.942207",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "c54e9df59f211999"
   },
   {
-    "id": "842e4f71",
+    "id": "ad9239f7",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "Inflation update: A diesel-price shock may be approaching Western economies.\n\nThat's because the industrial fuel sits at the epicenter of freight, agriculture, construction, and heavy industry; soaring prices ripple quickly through supply chains, raising transportation and construction costs, reigniting food inflation, weakening consumer sentiment, and intensifying margin pressure on small and medium-sized businesses.\n\nThe latest AAA data show that the nationwide average retail price reached $5.69 per gallon.\n\nThat leaves diesel just below its April\u2026\n\nhttps://oilprice.com/Energy/Energy-General/US-Diesel-Prices-Close-In-on-April-War-Peak.html",
@@ -549,31 +549,14 @@
     "source_url": "https://oilprice.com/Energy/Energy-General/US-Diesel-Prices-Close-In-on-April-War-Peak.html",
     "source_title": "U.S. Diesel Prices Close In on April War Peak",
     "source_summary": "A diesel-price shock may be approaching Western economies. That's because the industrial fuel sits at the epicenter of freight, agriculture, construction, and heavy industry; soaring prices ripple quickly through supply chains, raising transportation and construction costs, reigniting food inflation, weakening consumer sentiment, and intensifying margin pressure on small and medium-sized businesse",
-    "drafted_at": "2026-09-03T01:54:36.254336",
+    "drafted_at": "2026-09-03T06:38:11.942749",
     "data": {
       "source": "OILPRICE"
     },
     "content_hash": "2bd7b9b61a895959"
   },
   {
-    "id": "dd727a60",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "Goods-flow update: There is a slew of headlines coming out of Washington as the Trump administration fights fires on multiple fronts.\n\nFrom beef prices to Chinese subsidies, Venezuelan oil, AI data centers and the bond market, officials are offering explanations, defending policies and touting hopes for what comes next.\n\nDelivering the results is the next step.\n\nBeef imports are creating a political headache.\n\nAccording to Fox News, USTR Jamieson Greer told lawmakers the move to import more beef is temporary.\n\nMeanwhile, Politico reports that Republican lawmakers want to speak with Trump and White House staff about the plan, with farm-state Republicans warning it will hurt American farmers.\n\nThe administration wants relief for consumers, but domestic producers have concerns about who pays the price.\n\nVenezuelan oil offers hope for replenishing reserves.\n\nhttps://investinglive.com/news/the-political-headlines-are-fast-and-furious-coming-out-of-washington/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/the-political-headlines-are-fast-and-furious-coming-out-of-washington/",
-    "source_title": "The political headlines are fast and furious coming out of Washington",
-    "source_summary": "There is a slew of headlines coming out of Washington as the Trump administration fights fires on multiple fronts. From beef prices to Chinese subsidies, Venezuelan oil, AI data centers and the bond market, officials are offering explanations, defending policies and touting hopes for what comes next. The common thread? There are plenty of plans. Delivering the results is the next step. Beef import",
-    "drafted_at": "2026-09-03T01:54:36.256929",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "3250b1159ee727aa"
-  },
-  {
-    "id": "65719e59",
+    "id": "21c23c45",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -583,7 +566,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-09-03T01:54:36.261737",
+    "drafted_at": "2026-09-03T06:38:11.944870",
     "data": {
       "manual": true,
       "via": "manual_news.md"
