@@ -1,23 +1,42 @@
 [
   {
-    "id": "5a15df36",
+    "id": "31bd20f1",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "The Euro (EUR) is trading flat above 1.1600 against the US Dollar (USD) on Friday, with upside attempts capped below the 1.1630 area.\n\nhttps://www.fxstreet.com/news/euro-stalls-above-11600-with-eurozone-retail-sales-us-nonfarm-payrolls-on-tap-202609040621",
+    "draft_text": "Nasdaq, S&P 500 futures rise ahead of key jobs report\n\nhttps://www.investing.com/news/economy-news/nasdaq-sp-500-futures-climb-ahead-of-key-jobs-report-4889040",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/euro-stalls-above-11600-with-eurozone-retail-sales-us-nonfarm-payrolls-on-tap-202609040621",
-    "source_title": "Euro stalls\u00a0 above 1.1600 with Eurozone Retail Sales, US Nonfarm Payrolls on tap",
-    "source_summary": "The Euro (EUR) is trading flat above 1.1600 against the US Dollar (USD) on Friday, with upside attempts capped below the 1.1630 area.",
-    "drafted_at": "2026-09-04T06:41:05.708339",
+    "primary_source": "INVESTING",
+    "source_url": "https://www.investing.com/news/economy-news/nasdaq-sp-500-futures-climb-ahead-of-key-jobs-report-4889040",
+    "source_title": "Nasdaq, S&P 500 futures rise ahead of key jobs report",
+    "source_summary": "",
+    "drafted_at": "2026-09-04T11:51:52.512136",
     "data": {
-      "source": "FXSTREET"
+      "source": "INVESTING"
     },
-    "content_hash": "1a0d4b545d93a9c0"
+    "content_hash": "d8498bfb85ab1b3a"
   },
   {
-    "id": "c50ff132",
+    "id": "00485af7",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "I'll keep it short: VIX slides 8.6% in 5 sessions to 14.12.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CBOE \u00b7 ^VIX",
+    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "source_title": "VIX (S&P 500 volatility)",
+    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "drafted_at": "2026-09-04T11:51:52.512448",
+    "data": {
+      "signal_id": "^VIX:move:2026-09-04",
+      "kind": "move_down",
+      "current": "14.12"
+    },
+    "content_hash": "995f4d67e7e875d2"
+  },
+  {
+    "id": "699ec57b",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "I don't say this often, but pay attention: WTI crude surges 11.0% in 5 sessions to $91.40.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
@@ -27,7 +46,7 @@
     "source_url": "https://finance.yahoo.com/quote/CL%3DF",
     "source_title": "WTI crude oil futures",
     "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-09-04T06:41:05.708655",
+    "drafted_at": "2026-09-04T11:51:52.512697",
     "data": {
       "signal_id": "CL=F:move:2026-09-04",
       "kind": "move_up",
@@ -36,7 +55,7 @@
     "content_hash": "c272de0720a2f459"
   },
   {
-    "id": "ae3c29f4",
+    "id": "2792131a",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "You blink, you miss this: WTI crude jumps 8.1% in 5 sessions to $91.86.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
@@ -46,7 +65,7 @@
     "source_url": "https://finance.yahoo.com/quote/CL%3DF",
     "source_title": "WTI crude oil futures",
     "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-09-04T06:41:05.708879",
+    "drafted_at": "2026-09-04T11:51:52.512928",
     "data": {
       "signal_id": "CL=F:move:2026-09-03",
       "kind": "move_up",
@@ -55,7 +74,7 @@
     "content_hash": "c272de0720a2f459"
   },
   {
-    "id": "6225f847",
+    "id": "6d9c6d21",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Whatever you're doing, stop and read this. VIX drops 6.4% in 5 sessions to 14.83.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
@@ -65,7 +84,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EVIX",
     "source_title": "VIX (S&P 500 volatility)",
     "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-09-04T06:41:05.709114",
+    "drafted_at": "2026-09-04T11:51:52.513152",
     "data": {
       "signal_id": "^VIX:move:2026-09-03",
       "kind": "move_down",
@@ -74,24 +93,7 @@
     "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "346396d7",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "The Fed just spoke. Here's what matters: USD/IDR gains ground after two days of losses, trading around 17,670 during the Asian hours on Friday.\n\nThe currency pair is pushing higher as the US Dollar (USD) holds onto its recent gains after rebounding from intraday losses.\n\nhttps://www.fxstreet.com/news/indonesian-rupiah-declines-as-us-dollar-gains-despite-easing-fed-rate-hike-odds-202609040554",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://www.fxstreet.com/news/indonesian-rupiah-declines-as-us-dollar-gains-despite-easing-fed-rate-hike-odds-202609040554",
-    "source_title": "Indonesian Rupiah declines as US Dollar gains despite easing Fed rate hike odds",
-    "source_summary": "USD/IDR gains ground after two days of losses, trading around 17,670 during the Asian hours on Friday. The currency pair is pushing higher as the US Dollar (USD) holds onto its recent gains after rebounding from intraday losses.",
-    "drafted_at": "2026-09-04T06:41:05.719654",
-    "data": {
-      "actor": "Fed"
-    },
-    "content_hash": "14580171d23444e9"
-  },
-  {
-    "id": "5c7772a9",
+    "id": "f3778341",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Policy update for the pack: The Board's process for setting the discount rate is distinct from the process the Federal Open Market Committee follows in setting the target range for the federal funds rate.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
@@ -101,14 +103,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
     "source_title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
     "source_summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
-    "drafted_at": "2026-09-04T06:41:05.720124",
+    "drafted_at": "2026-09-04T11:51:52.523561",
     "data": {
       "actor": "FED"
     },
     "content_hash": "da9833991b6c87c5"
   },
   {
-    "id": "5551dc7d",
+    "id": "ce85dbb2",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "POWELL POSTCARD: Consent prohibition against Stephanie R.\n\nConsent prohibition against Crystal A.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm",
@@ -118,14 +120,34 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm",
     "source_title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
     "source_summary": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
-    "drafted_at": "2026-09-04T06:41:05.720375",
+    "drafted_at": "2026-09-04T11:51:52.523820",
     "data": {
       "actor": "FED"
     },
     "content_hash": "1899c878ef68bdd8"
   },
   {
-    "id": "1410ad8d",
+    "id": "29853ed5",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$KEEL \u2014 2 company insiders bought $525,657 on Aug 21.\n\nKeel Infrastructure Corp. 155,017 shares at $3.39.\n\nStock is -1.2% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/KEEL_P_20260821.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=KEEL",
+    "source_title": "Keel Infrastructure Corp. (KEEL) insider bought $525,657",
+    "source_summary": "2 insider(s) bought 155,017 shares at $3.39 on 2026-08-21.",
+    "drafted_at": "2026-09-04T11:51:52.524290",
+    "data": {
+      "ticker": "KEEL",
+      "type": "P",
+      "dollar_value": 525657.0,
+      "pct_since": -1.1799438161484295
+    },
+    "content_hash": "b4dbc8edb04a38fd"
+  },
+  {
+    "id": "49ca77ee",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$BSX \u2014 4 company insiders bought $9.5M on Aug 25.\n\nBoston Scientific Corp. 196,562 shares at $48.26.\n\nStock is +0.2% since the purchase. This is a public SEC Form 4 filing.",
@@ -135,7 +157,7 @@
     "source_url": "http://openinsider.com/screener?s=BSX",
     "source_title": "Boston Scientific Corp (BSX) insider bought $9.5M",
     "source_summary": "4 insider(s) bought 196,562 shares at $48.26 on 2026-08-25.",
-    "drafted_at": "2026-09-04T06:41:05.720813",
+    "drafted_at": "2026-09-04T11:51:52.524499",
     "data": {
       "ticker": "BSX",
       "type": "P",
@@ -145,7 +167,7 @@
     "content_hash": "6638633bf8f4065d"
   },
   {
-    "id": "9b71c3a9",
+    "id": "96f6d08d",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$AON \u2014 a company insider bought $6.5M on Sep 02.\n\nAon Plc. 20,000 shares at $327.48.\n\nStock is +1.0% since the purchase. This is a public SEC Form 4 filing.",
@@ -155,7 +177,7 @@
     "source_url": "http://openinsider.com/screener?s=AON",
     "source_title": "Aon Plc (AON) insider bought $6.5M",
     "source_summary": "1 insider(s) bought 20,000 shares at $327.48 on 2026-09-02.",
-    "drafted_at": "2026-09-04T06:41:05.721009",
+    "drafted_at": "2026-09-04T11:51:52.524735",
     "data": {
       "ticker": "AON",
       "type": "P",
@@ -165,7 +187,7 @@
     "content_hash": "8c4f8ad9cd6a9de4"
   },
   {
-    "id": "e46ed195",
+    "id": "21359418",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$NSLR \u2014 2 company insiders bought $760,984 on Aug 26.\n\nNeostellar Capital Corp. 76,040 shares at $10.01.\n\nStock is +0.0% since the purchase. This is a public SEC Form 4 filing.",
@@ -175,7 +197,7 @@
     "source_url": "http://openinsider.com/screener?s=NSLR",
     "source_title": "Neostellar Capital Corp. (NSLR) insider bought $760,984",
     "source_summary": "2 insider(s) bought 76,040 shares at $10.01 on 2026-08-26.",
-    "drafted_at": "2026-09-04T06:41:05.721202",
+    "drafted_at": "2026-09-04T11:51:52.524935",
     "data": {
       "ticker": "NSLR",
       "type": "P",
@@ -185,7 +207,7 @@
     "content_hash": "671482594bed7f85"
   },
   {
-    "id": "055f4528",
+    "id": "de8f8ffb",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$SRTS \u2014 2 company insiders bought $563,538 on Aug 28.\n\nSensus Healthcare, Inc. 171,171 shares at $3.29.\n\nStock is -1.2% since the purchase. This is a public SEC Form 4 filing.",
@@ -195,7 +217,7 @@
     "source_url": "http://openinsider.com/screener?s=SRTS",
     "source_title": "Sensus Healthcare, Inc. (SRTS) insider bought $563,538",
     "source_summary": "2 insider(s) bought 171,171 shares at $3.29 on 2026-08-28.",
-    "drafted_at": "2026-09-04T06:41:05.721404",
+    "drafted_at": "2026-09-04T11:51:52.525122",
     "data": {
       "ticker": "SRTS",
       "type": "P",
@@ -205,78 +227,24 @@
     "content_hash": "06894cc6c10cecec"
   },
   {
-    "id": "15dd69ff",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$AVBC \u2014 4 company insiders bought $475,969 on Sep 03.\n\nAvidia Bancorp, Inc. 21,781 shares at $21.85.\n\nStock is +0.9% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/AVBC_P_20260903.png",
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=AVBC",
-    "source_title": "Avidia Bancorp, Inc. (AVBC) insider bought $475,969",
-    "source_summary": "4 insider(s) bought 21,781 shares at $21.85 on 2026-09-03.",
-    "drafted_at": "2026-09-04T06:41:05.721590",
-    "data": {
-      "ticker": "AVBC",
-      "type": "P",
-      "dollar_value": 475969.0,
-      "pct_since": 0.9153283160665696
-    },
-    "content_hash": "22752a43bdf62dcf"
-  },
-  {
-    "id": "79f61aa0",
+    "id": "766fd0a3",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "The US-UK alliance against crypto scams could significantly enhance global cybersecurity efforts and deter transnational organized crime.\n\nThe post US and UK strike first joint pact to disrupt crypto scam centers appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/us-and-uk-strike-first-joint-pact-to-disrupt-crypto-scam-centers/",
+    "draft_text": "Romanian prosecutors indict Andrew Tate for trafficking minors, money laundering Reuters\n\nhttps://news.google.com/rss/articles/CBMiuAFBVV95cUxQMjNVYTNqcUFyRlRtX2xINnY5VFNJVV9PTVN4V0R5TFJXZ0tUcTlSVUpTTGhRZVExZFRvZ2RDeGxOc3MtRkItdU1TMVg4SHROTEZGVnJVOXNrOE5reGRic0RCbjNrT1Nrdk1OSkd1LUczYnVSNk1DX013Q25rcEl5SDZBU0JsM2RadGZxOGh2azRsd2FiSWNreTRWd1hNYjNlTENkR2hIMkRiUHhNSlNWWjA3MU1qeGF1?oc=5",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/us-and-uk-strike-first-joint-pact-to-disrupt-crypto-scam-centers/",
-    "source_title": "US and UK strike first joint pact to disrupt crypto scam centers",
-    "source_summary": "The US-UK alliance against crypto scams could significantly enhance global cybersecurity efforts and deter transnational organized crime. The post US and UK strike first joint pact to disrupt crypto scam centers appeared first on Crypto Briefing .",
-    "drafted_at": "2026-09-04T06:41:05.725518",
+    "primary_source": "REUTERS",
+    "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMjNVYTNqcUFyRlRtX2xINnY5VFNJVV9PTVN4V0R5TFJXZ0tUcTlSVUpTTGhRZVExZFRvZ2RDeGxOc3MtRkItdU1TMVg4SHROTEZGVnJVOXNrOE5reGRic0RCbjNrT1Nrdk1OSkd1LUczYnVSNk1DX013Q25rcEl5SDZBU0JsM2RadGZxOGh2azRsd2FiSWNreTRWd1hNYjNlTENkR2hIMkRiUHhNSlNWWjA3MU1qeGF1?oc=5",
+    "source_title": "Romanian prosecutors indict Andrew Tate for trafficking minors, money laundering",
+    "source_summary": "Romanian prosecutors indict Andrew Tate for trafficking minors, money laundering Reuters",
+    "drafted_at": "2026-09-04T11:51:52.528700",
     "data": {
-      "source": "CRYPTO BRIEFING"
+      "source": "REUTERS"
     },
-    "content_hash": "a357c7226197324f"
+    "content_hash": "1412516c7354372b"
   },
   {
-    "id": "8dadf92c",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "The agreement includes parallel investigations and information sharing, with US and UK authorities planning a private-sector disruption operation in London in October.\n\nhttps://cointelegraph.com/news/us-uk-joint-alliance-crypto-scam-centers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "COINTELEGRAPH",
-    "source_url": "https://cointelegraph.com/news/us-uk-joint-alliance-crypto-scam-centers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "source_title": "US, UK launch joint alliance targeting crypto scam centers",
-    "source_summary": "The agreement includes parallel investigations and information sharing, with US and UK authorities planning a private-sector disruption operation in London in October.",
-    "drafted_at": "2026-09-04T06:41:05.725721",
-    "data": {
-      "source": "COINTELEGRAPH"
-    },
-    "content_hash": "74d3d3b4fb1a5cc6"
-  },
-  {
-    "id": "98478d3f",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Thai businessmen sue Tether over $42M frozen USDT tied to pig butchering scam, Aussie crypto firms face big fines unless they meet licensing deadline.\n\nhttps://cointelegraph.com/magazine/tether-sued-over-frozen-pig-butcher-coins-6600-students-get-crypto-loans-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "COINTELEGRAPH",
-    "source_url": "https://cointelegraph.com/magazine/tether-sued-over-frozen-pig-butcher-coins-6600-students-get-crypto-loans-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "source_title": "Tether sued over frozen \u2018pig butcher\u2019 coins, 6,600 students get crypto loans: Asia Express",
-    "source_summary": "Thai businessmen sue Tether over $42M frozen USDT tied to pig butchering scam, Aussie crypto firms face big fines unless they meet licensing deadline.",
-    "drafted_at": "2026-09-04T06:41:05.725911",
-    "data": {
-      "source": "COINTELEGRAPH"
-    },
-    "content_hash": "cbf34d386251725b"
-  },
-  {
-    "id": "f6142c7c",
+    "id": "0e96bae8",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "ICIJ\u2019s 2020 FinCEN Files revealed that major banks flagged suspicious payments involving one of the Venezuelan tycoon's companies, which remains at the heart of embezzlement investigations in Europe.\n\nhttps://www.icij.org/investigations/fincen-files/white-house-pick-to-run-venezuela-oil-deal-under-investigation-in-two-countries/",
@@ -286,14 +254,14 @@
     "source_url": "https://www.icij.org/investigations/fincen-files/white-house-pick-to-run-venezuela-oil-deal-under-investigation-in-two-countries/",
     "source_title": "White House pick to run Venezuela oil deal under investigation in two countries",
     "source_summary": "ICIJ\u2019s 2020 FinCEN Files revealed that major banks flagged suspicious payments involving one of the Venezuelan tycoon's companies, which remains at the heart of embezzlement investigations in Europe.",
-    "drafted_at": "2026-09-04T06:41:05.726179",
+    "drafted_at": "2026-09-04T11:51:52.528986",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "595e1145c36e41f0"
   },
   {
-    "id": "ee818e99",
+    "id": "69796e0e",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Three directors of a tree-planting company have been jailed after running a \u00a370m investment scam that duped thousands of people, including many pensioners, out of their savings.\n\nhttps://news.sky.com/story/three-fraudsters-jailed-after-buying-supercars-and-yacht-in-70m-tree-planting-scam-13580841",
@@ -303,52 +271,86 @@
     "source_url": "https://news.sky.com/story/three-fraudsters-jailed-after-buying-supercars-and-yacht-in-70m-tree-planting-scam-13580841",
     "source_title": "Fraudsters jailed after buying supercars and yacht in \u00a370m tree-planting scam",
     "source_summary": "Three directors of a tree-planting company have been jailed after running a \u00a370m investment scam that duped thousands of people, including many pensioners, out of their savings.",
-    "drafted_at": "2026-09-04T06:41:05.726411",
+    "drafted_at": "2026-09-04T11:51:52.529211",
     "data": {
       "source": "SKY NEWS"
     },
     "content_hash": "be447b67882d67bb"
   },
   {
-    "id": "a5ba83ab",
+    "id": "e3742908",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "An ICIJ review found nearly $1.7 billion in settlements and fines over a 15 year period.\n\nBut experts said many companies see the payouts as the cost of doing business.\n\nhttps://www.icij.org/investigations/cancer-calculus/big-fines-and-settlements-barely-dent-cancer-drugmakers-revenues-fail-to-deter-wrongdoing/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "ICIJ",
+    "source_url": "https://www.icij.org/investigations/cancer-calculus/big-fines-and-settlements-barely-dent-cancer-drugmakers-revenues-fail-to-deter-wrongdoing/",
+    "source_title": "Big fines and settlements barely dent cancer drugmakers\u2019 revenues, fail to deter wrongdoing",
+    "source_summary": "An ICIJ review found nearly $1.7 billion in settlements and fines over a 15 year period. But experts said many companies see the payouts as the cost of doing business.",
+    "drafted_at": "2026-09-04T11:51:52.529433",
+    "data": {
+      "source": "ICIJ"
+    },
+    "content_hash": "2bb33397806c5f72"
+  },
+  {
+    "id": "d741e56f",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Financial records obtained by ICIJ show that they included individuals later accused of or sanctioned for money laundering and other financial crimes.\n\nhttps://www.icij.org/investigations/coin-laundry/crypto-giant-tether-promised-careful-vetting-some-early-customers-were-later-implicated-in-financial-crimes/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "ICIJ",
+    "source_url": "https://www.icij.org/investigations/coin-laundry/crypto-giant-tether-promised-careful-vetting-some-early-customers-were-later-implicated-in-financial-crimes/",
+    "source_title": "Crypto giant Tether promised careful vetting. Some early customers were later implicated in financial crimes.",
+    "source_summary": "Financial records obtained by ICIJ show that they included individuals later accused of or sanctioned for money laundering and other financial crimes.",
+    "drafted_at": "2026-09-04T11:51:52.529622",
+    "data": {
+      "source": "ICIJ"
+    },
+    "content_hash": "b5dc549473d7ec96"
+  },
+  {
+    "id": "8bf5571f",
     "format": "CONGRESS_WATCH",
     "status": "pending",
-    "draft_text": "6 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 David J. Taylor (R)\n\u2022 John Boozman (R)\n\u2022 Cleo Fields (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 John Fetterman (D)\n\u2022 John McGuire (R)\n\nLargest disclosed here: David J. Taylor, $1,001 - $15,000 on Feb 26.\n\nPrice since the first buy in this group: +26.3%.\n\nSTOCK Act disclosures. Public record.",
+    "draft_text": "6 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 David J. Taylor (R)\n\u2022 John Boozman (R)\n\u2022 Cleo Fields (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 John Fetterman (D)\n\u2022 John McGuire (R)\n\nLargest disclosed here: David J. Taylor, $1,001 - $15,000 on Feb 26.\n\nPrice since the first buy in this group: +27.0%.\n\nSTOCK Act disclosures. Public record.",
     "image_path": "charts/congress/MSFT_cluster.png",
     "og_image_url": null,
     "primary_source": "STOCK Act PTR filings",
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034138.pdf",
     "source_title": "6 Congress members bought $MSFT",
     "source_summary": "6 politicians bought $MSFT; largest $1,001 - $15,000 by David J. Taylor.",
-    "drafted_at": "2026-09-04T06:41:05.727379",
+    "drafted_at": "2026-09-04T11:51:52.530214",
     "data": {
       "ticker": "MSFT",
       "member_count": 6,
-      "pct_since_first": 26.279499901280513
+      "pct_since_first": 26.983967332243914
     },
     "content_hash": "7c24415ac3c0b542"
   },
   {
-    "id": "da89d089",
+    "id": "ae82fbbd",
     "format": "CONGRESS_WATCH",
     "status": "pending",
-    "draft_text": "5 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Markwayne Mullin (D)\n\u2022 Josh Gottheimer (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Markwayne Mullin, $50,001 - $100,000 on Feb 25.\n\nPrice since the first buy in this group: +45.0%.\n\nSTOCK Act disclosures. Public record.",
+    "draft_text": "5 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Markwayne Mullin (D)\n\u2022 Josh Gottheimer (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Markwayne Mullin, $50,001 - $100,000 on Feb 25.\n\nPrice since the first buy in this group: +49.3%.\n\nSTOCK Act disclosures. Public record.",
     "image_path": "charts/congress/UNH_cluster.png",
     "og_image_url": null,
     "primary_source": "STOCK Act PTR filings",
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/f586922d-6083-44e5-8a32-769290389416/",
     "source_title": "5 Congress members bought $UNH",
     "source_summary": "5 politicians bought $UNH; largest $50,001 - $100,000 by Markwayne Mullin.",
-    "drafted_at": "2026-09-04T06:41:05.727719",
+    "drafted_at": "2026-09-04T11:51:52.530577",
     "data": {
       "ticker": "UNH",
       "member_count": 5,
-      "pct_since_first": 45.00466258159518
+      "pct_since_first": 49.298089989302085
     },
     "content_hash": "7cbacf41d412a41b"
   },
   {
-    "id": "f473f4ce",
+    "id": "60fd55ec",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 Cleo Fields (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 John Fetterman (D)\n\u2022 John McGuire (R)\n\nLargest disclosed here: Cleo Fields, $1,001 - $15,000 on Mar 12.\n\nPrice since the first buy in this group: +23.6%.\n\nSTOCK Act disclosures. Public record.",
@@ -358,7 +360,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034179.pdf",
     "source_title": "4 Congress members bought $MSFT",
     "source_summary": "4 politicians bought $MSFT; largest $1,001 - $15,000 by Cleo Fields.",
-    "drafted_at": "2026-09-04T06:41:05.728012",
+    "drafted_at": "2026-09-04T11:51:52.530885",
     "data": {
       "ticker": "MSFT",
       "member_count": 4,
@@ -367,7 +369,7 @@
     "content_hash": "4ff8eafa69ce40c2"
   },
   {
-    "id": "b623b0cc",
+    "id": "1e883930",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Markwayne Mullin (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Markwayne Mullin, $50,001 - $100,000 on Feb 25.\n\nPrice since the first buy in this group: +39.0%.\n\nSTOCK Act disclosures. Public record.",
@@ -377,7 +379,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/f586922d-6083-44e5-8a32-769290389416/",
     "source_title": "4 Congress members bought $UNH",
     "source_summary": "4 politicians bought $UNH; largest $50,001 - $100,000 by Markwayne Mullin.",
-    "drafted_at": "2026-09-04T06:41:05.728327",
+    "drafted_at": "2026-09-04T11:51:52.531197",
     "data": {
       "ticker": "UNH",
       "member_count": 4,
@@ -386,196 +388,196 @@
     "content_hash": "029ae5a8d0ca395b"
   },
   {
-    "id": "5fd966df",
+    "id": "e090a2b1",
     "format": "CONGRESS_WATCH",
     "status": "pending",
-    "draft_text": "3 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Richard Dean Dr McCormick, $1,001 - $15,000 on Mar 19.\n\nPrice since the first buy in this group: +42.7%.\n\nSTOCK Act disclosures. Public record.",
-    "image_path": "charts/congress/UNH_cluster.png",
+    "draft_text": "3 members of Congress bought $HD this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Lloyd Doggett (D)\n\u2022 Jared Moskowitz (D)\n\nLargest disclosed here: Richard Dean Dr McCormick, $1,001 - $15,000 on Mar 19.\n\nPrice since the first buy in this group: -3.1%.\n\nSTOCK Act disclosures. Public record.",
+    "image_path": "charts/congress/HD_cluster.png",
     "og_image_url": null,
     "primary_source": "STOCK Act PTR filings",
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033648.pdf",
-    "source_title": "3 Congress members bought $UNH",
-    "source_summary": "3 politicians bought $UNH; largest $1,001 - $15,000 by Richard Dean Dr McCormick.",
-    "drafted_at": "2026-09-04T06:41:05.728622",
+    "source_title": "3 Congress members bought $HD",
+    "source_summary": "3 politicians bought $HD; largest $1,001 - $15,000 by Richard Dean Dr McCormick.",
+    "drafted_at": "2026-09-04T11:51:52.531507",
     "data": {
-      "ticker": "UNH",
+      "ticker": "HD",
       "member_count": 3,
-      "pct_since_first": 42.686489235817824
+      "pct_since_first": -3.08948063582861
     },
-    "content_hash": "ef6027c31bcd522a"
+    "content_hash": "8c0eaad1e4da4036"
   },
   {
-    "id": "234f0450",
+    "id": "43642bb4",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From the international wire: Commerzbank\u2019s Thu Lan Nguyen argues that recent interventions by Japanese authorities and the US Treasury have largely lost impact, with the Japanese Yen giving back gains against the Dollar and US yields returning to prior levels.\n\nhttps://www.fxstreet.com/news/japanese-yen-policy-signals-support-jpy-against-us-dollar-commerzbank-202609040636",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/japanese-yen-policy-signals-support-jpy-against-us-dollar-commerzbank-202609040636",
-    "source_title": "Japanese Yen: Policy signals support JPY against US Dollar",
-    "source_summary": "Commerzbank\u2019s Thu Lan Nguyen argues that recent interventions by Japanese authorities and the US Treasury have largely lost impact, with the Japanese Yen giving back gains against the Dollar and US yields returning to prior levels.",
-    "drafted_at": "2026-09-04T06:41:05.730411",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "77cff90be76c0d36"
-  },
-  {
-    "id": "7c6709db",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "EUROPE DESK: The Euro (EUR) is trading flat above 1.1600 against the US Dollar (USD) on Friday, with upside attempts capped below the 1.1630 area.\n\nhttps://www.fxstreet.com/news/euro-stalls-above-11600-with-eurozone-retail-sales-us-nonfarm-payrolls-on-tap-202609040621",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/euro-stalls-above-11600-with-eurozone-retail-sales-us-nonfarm-payrolls-on-tap-202609040621",
-    "source_title": "Euro stalls\u00a0 above 1.1600 with Eurozone Retail Sales, US Nonfarm Payrolls on tap",
-    "source_summary": "The Euro (EUR) is trading flat above 1.1600 against the US Dollar (USD) on Friday, with upside attempts capped below the 1.1630 area.",
-    "drafted_at": "2026-09-04T06:41:05.731046",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "1a0d4b545d93a9c0"
-  },
-  {
-    "id": "afef023d",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Cross-border read: School students across multiple states have held protests in recent weeks, seeking better conditions.\n\nhttps://www.aljazeera.com/news/2026/9/4/after-gen-z-indias-gen-alpha-rises-demanding-education-reforms?traffic_source=rss",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/news/2026/9/4/after-gen-z-indias-gen-alpha-rises-demanding-education-reforms?traffic_source=rss",
-    "source_title": "After Gen Z, India\u2019s Gen Alpha rises, demanding education reforms",
-    "source_summary": "School students across multiple states have held protests in recent weeks, seeking better conditions.",
-    "drafted_at": "2026-09-04T06:41:05.731291",
-    "data": {
-      "source": "AL JAZEERA"
-    },
-    "content_hash": "6a6cca6db3691fbd"
-  },
-  {
-    "id": "6df833ce",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "From Brussels and beyond: Geopolitical tensions rise as Russia's actions and AfD's gains challenge European stability, impacting security and political dynamics.\n\nThe post Europe today: Russia targets Europe, Ceuta crisis deepens, and AfD leads polls in east Germany appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/europe-today-russia-targets-europe-ceuta-crisis-deepens-and-afd-leads-polls-in/",
+    "draft_text": "From Beijing: This unprecedented dialogue may ease tensions and foster military communication, impacting future US-China relations and Taiwan's security dynamics.\n\nThe post Chinese general responsible for Taiwan meets US Indo-Pacific commander for first time appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/chinese-general-meets-us-indo-pacific-commander/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/europe-today-russia-targets-europe-ceuta-crisis-deepens-and-afd-leads-polls-in/",
-    "source_title": "Europe today: Russia targets Europe, Ceuta crisis deepens, and AfD leads polls in east Germany",
-    "source_summary": "Geopolitical tensions rise as Russia's actions and AfD's gains challenge European stability, impacting security and political dynamics. The post Europe today: Russia targets Europe, Ceuta crisis deepens, and AfD leads polls in east Germany appeared first on Crypto Briefing .",
-    "drafted_at": "2026-09-04T06:41:05.731826",
+    "source_url": "https://cryptobriefing.com/chinese-general-meets-us-indo-pacific-commander/",
+    "source_title": "Chinese general responsible for Taiwan meets US Indo-Pacific commander for first time",
+    "source_summary": "This unprecedented dialogue may ease tensions and foster military communication, impacting future US-China relations and Taiwan's security dynamics. The post Chinese general responsible for Taiwan meets US Indo-Pacific commander for first time appeared first on Crypto Briefing .",
+    "drafted_at": "2026-09-04T11:51:52.533139",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "74b2480d297d532c"
+    "content_hash": "68039dbae7d42a1c"
   },
   {
-    "id": "2a966b64",
+    "id": "888102e8",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Asia overnight: HONG KONG, 4 septembre 2026 /PRNewswire/ -- XTrend Speed, l'une des dix premi\u00e8res plateformes mondiales de n\u00e9gociation boursi\u00e8re professionnelle, a officiellement annonc\u00e9 le renouvellement de son contrat de parrainage avec la F\u00e9d\u00e9ration argentine de football.\n\nhttps://www.prnewswire.com/news-releases/quatre-ans-de-partenariat-en-quete-dexcellence--xtrend-speed-et-la-federation-argentine-de-football-afa-renouvellent-leur-accord-de-parrainage-pour-la-quatrieme-annee-consecutive-302869835.html",
+    "draft_text": "PACK BRIEFING \u2014 CHINA: 4, 2026 /PRNewswire/ -- Baidu, Inc. (\"Baidu\" or the \"Company\") (Nasdaq: BIDU; HKEX: 9888 (HKD Counter) and 89888 (RMB Counter)), a leading AI company with strong Internet foundation, today announced that the Company's Class A ordinary shares traded on The Stock Exchange of...\n\nhttps://www.prnewswire.com/news-releases/baidu-announces-upcoming-inclusion-of-its-class-a-ordinary-shares-in-the-shanghai-hong-kong-stock-connect-program-302869998.html",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "PR NEWSWIRE",
-    "source_url": "https://www.prnewswire.com/news-releases/quatre-ans-de-partenariat-en-quete-dexcellence--xtrend-speed-et-la-federation-argentine-de-football-afa-renouvellent-leur-accord-de-parrainage-pour-la-quatrieme-annee-consecutive-302869835.html",
-    "source_title": "Quatre ans de partenariat en qu\u00eate d'excellence | XTrend Speed et la F\u00e9d\u00e9ration argentine de football (AFA) renouvellent leur accord de parrainage pour la quatri\u00e8me ann\u00e9e cons\u00e9cutive",
-    "source_summary": "HONG KONG, 4 septembre 2026 /PRNewswire/ -- XTrend Speed, l'une des dix premi\u00e8res plateformes mondiales de n\u00e9gociation boursi\u00e8re professionnelle, a officiellement annonc\u00e9 le renouvellement de son contrat de parrainage avec la F\u00e9d\u00e9ration argentine de football. XTrend Speed restera le...",
-    "drafted_at": "2026-09-04T06:41:05.732500",
+    "source_url": "https://www.prnewswire.com/news-releases/baidu-announces-upcoming-inclusion-of-its-class-a-ordinary-shares-in-the-shanghai-hong-kong-stock-connect-program-302869998.html",
+    "source_title": "Baidu Announces Upcoming Inclusion of Its Class A Ordinary Shares in the Shanghai-Hong Kong Stock Connect Program",
+    "source_summary": "BEIJING, Sept. 4, 2026 /PRNewswire/ -- Baidu, Inc. (\"Baidu\" or the \"Company\") (Nasdaq: BIDU; HKEX: 9888 (HKD Counter) and 89888 (RMB Counter)), a leading AI company with strong Internet foundation, today announced that the Company's Class A ordinary shares traded on The Stock Exchange of...",
+    "drafted_at": "2026-09-04T11:51:52.533646",
     "data": {
       "source": "PR NEWSWIRE"
     },
-    "content_hash": "e640b07c6b836c3f"
+    "content_hash": "fdd3f8d6d964fdfd"
   },
   {
-    "id": "616bde10",
-    "format": "DATA_DROP",
+    "id": "cb69d08c",
+    "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "LABOR MARKET READ: The Canadian Dollar (CAD) trades broadly sideways against the US Dollar (USD) at around 1.3790 on Friday after a strong Thursday, with investors awaiting the United States (US) Nonfarm Payrolls (NFP) data for August, which will be published at 12:30 GMT.\n\nhttps://www.fxstreet.com/news/usd-cad-price-forecast-100-day-ema-remains-key-hurdle-202609040627",
+    "draft_text": "From the international wire: Bart De Wever promised a replacement would reach the Indian leader \u201cin one piece.\u201d.\n\nhttps://www.politico.eu/article/belgian-pms-bart-de-wever-chocolate-gift-to-narendra-modi-melts-en-route-to-india/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/usd-cad-price-forecast-100-day-ema-remains-key-hurdle-202609040627",
-    "source_title": "USD/CAD Price Forecast: 100-day EMA remains key hurdle",
-    "source_summary": "The Canadian Dollar (CAD) trades broadly sideways against the US Dollar (USD) at around 1.3790 on Friday after a strong Thursday, with investors awaiting the United States (US) Nonfarm Payrolls (NFP) data for August, which will be published at 12:30 GMT.",
-    "drafted_at": "2026-09-04T06:41:05.788528",
+    "primary_source": "POLITICO EU",
+    "source_url": "https://www.politico.eu/article/belgian-pms-bart-de-wever-chocolate-gift-to-narendra-modi-melts-en-route-to-india/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+    "source_title": "Belgian PM\u2019s chocolate gift to Modi doesn\u2019t survive journey to India",
+    "source_summary": "Bart De Wever promised a replacement would reach the Indian leader \u201cin one piece.\u201d",
+    "drafted_at": "2026-09-04T11:51:52.534064",
     "data": {
-      "source": "FXSTREET"
+      "source": "POLITICO EU"
     },
-    "content_hash": "1e832a6eb5410348"
+    "content_hash": "5051e82e1d0d33b1"
   },
   {
-    "id": "ed2c31fe",
-    "format": "DATA_DROP",
+    "id": "ae1bf258",
+    "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Payrolls hit the wire. The AUD/USD pair gathers strength to near 0.7210 during the early European session on Friday.\n\nThe US Dollar (USD) weakens against the Australian Dollar (AUD) following Federal Reserve (Fed) Governor Christopher Waller\u2019s remarks.\n\nhttps://www.fxstreet.com/news/australian-dollar-edges-higher-above-07200-on-rising-rba-hike-bets-eyes-on-us-nfp-data-202609040625",
+    "draft_text": "PACK BRIEFING \u2014 CHINA: China just restricted 12 minerals that defense contractors need to build the next generation of laser weapons, and Raytheon's $289 billion backlog may be sitting on a supply chain fault line nobody wants to talk about.\n\nhttps://247wallst.com/investing/2026/09/04/some-of-these-lasers-were-the-size-of-buildings-now-they-need-12-minerals-china-cut-off/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/australian-dollar-edges-higher-above-07200-on-rising-rba-hike-bets-eyes-on-us-nfp-data-202609040625",
-    "source_title": "Australian Dollar edges higher above 0.7200 on rising RBA hike bets, eyes on US NFP data",
-    "source_summary": "The AUD/USD pair gathers strength to near 0.7210 during the early European session on Friday. The US Dollar (USD) weakens against the Australian Dollar (AUD) following Federal Reserve (Fed) Governor Christopher Waller\u2019s remarks.",
-    "drafted_at": "2026-09-04T06:41:05.788873",
+    "primary_source": "247 WALL ST",
+    "source_url": "https://247wallst.com/investing/2026/09/04/some-of-these-lasers-were-the-size-of-buildings-now-they-need-12-minerals-china-cut-off/",
+    "source_title": "\u2018Some of These Lasers Were the Size of Buildings\u2019: Now They Need 12 Minerals China Cut Off",
+    "source_summary": "China just restricted 12 minerals that defense contractors need to build the next generation of laser weapons, and Raytheon's $289 billion backlog may be sitting on a supply chain fault line nobody wants to talk about.",
+    "drafted_at": "2026-09-04T11:51:52.534613",
     "data": {
-      "source": "FXSTREET"
+      "source": "247 WALL ST"
     },
-    "content_hash": "7a376dc79a20e95b"
+    "content_hash": "e8a323d68bf8cb0c"
   },
   {
-    "id": "30c8d286",
-    "format": "DATA_DROP",
+    "id": "097ce6c9",
+    "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "NFP just dropped. The Euro (EUR) is trading flat above 1.1600 against the US Dollar (USD) on Friday, with upside attempts capped below the 1.1630 area.\n\nhttps://www.fxstreet.com/news/euro-stalls-above-11600-with-eurozone-retail-sales-us-nonfarm-payrolls-on-tap-202609040621",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/euro-stalls-above-11600-with-eurozone-retail-sales-us-nonfarm-payrolls-on-tap-202609040621",
-    "source_title": "Euro stalls\u00a0 above 1.1600 with Eurozone Retail Sales, US Nonfarm Payrolls on tap",
-    "source_summary": "The Euro (EUR) is trading flat above 1.1600 against the US Dollar (USD) on Friday, with upside attempts capped below the 1.1630 area.",
-    "drafted_at": "2026-09-04T06:41:05.789083",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "1a0d4b545d93a9c0"
-  },
-  {
-    "id": "d4492919",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "NFP just dropped. The GBP/USD pair edges higher to around 1.3530 during the early European trading hours on Friday.\n\nHawkish rhetoric from a Bank of England (BoE) policymaker provides some support to the British Pound (GBP) against the US Dollar (USD).\n\nhttps://www.fxstreet.com/news/british-pound-strengthens-above-13500-as-boe-stays-hawkish-traders-brace-for-us-nfp-data-202609040550",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/british-pound-strengthens-above-13500-as-boe-stays-hawkish-traders-brace-for-us-nfp-data-202609040550",
-    "source_title": "British Pound strengthens above 1.3500 as BoE stays hawkish, traders brace for US NFP data",
-    "source_summary": "The GBP/USD pair edges higher to around 1.3530 during the early European trading hours on Friday. Hawkish rhetoric from a Bank of England (BoE) policymaker provides some support to the British Pound (GBP) against the US Dollar (USD).",
-    "drafted_at": "2026-09-04T06:41:05.789388",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "d07f8d144894fb7f"
-  },
-  {
-    "id": "10ce79a4",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "How sticky is inflation? Let's see: EUROPEAN SESSION In the European session, we don't have much on the agenda other than a couple of low-tier releases like the German factory orders or the Eurozone retail sales.\n\nThe data won't change anything for the ECB, so the market reaction will be muted.\n\nAs a reminder, the ECB is widely expected to increase interest rates at the upcoming meeting, but policymakers should also signal less appetite for further tightening.\n\nThat means the bar for more rate hikes will go much higher.\n\nAMERICAN SESSION In the American session, we get Canada's jobs report and the US NFP.\n\nCanada's employment change in August is expected at 15K vs 75K prior, with the unemployment rate seen steady at 6.4%.\n\nThe data is unlikely to influence Bank of Canada's policy outlook, as the focus remains on inflation.\n\nNevertheless, a very strong report could give the CAD a boost following the more hawkish than expected BoC rate decision.\n\nhttps://investinglive.com/news/what-are-the-main-events-for-today-35/",
+    "draft_text": "Canada/LatAm wire: How have interest rate expectations changed after this week's events?\n\nEurozone retail sales fall in July as consumer spending softens Stop making this mistake when looking at the economic calendar What is the distribution of forecasts for the US NFP?\n\nUSD/JPY bounces near the major 155.00 support; pullback or the start of a rally into new highs?\n\nFX option expiries for 4 September 10am New York cut What are the main events for today?\n\nIt's been a pretty quiet session, with no notable news or data releases.\n\nThe Eurozone retail sales report showed a decline in July, pointing to softer consumer demand.\n\nThe volume of retail trade fell by 0.6% m/m in July, reversing the 0.2% increase recorded in June.\n\nOn an annual basis, however, retail activity remained slightly positive.\n\nhttps://investinglive.com/news/investinglive-european-news-wrap-markets-consolidate-ahead-of-nfp/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/what-are-the-main-events-for-today-35/",
-    "source_title": "What are the main events for today?",
-    "source_summary": "EUROPEAN SESSION In the European session, we don't have much on the agenda other than a couple of low-tier releases like the German factory orders or the Eurozone retail sales. The data won't change anything for the ECB, so the market reaction will be muted. As a reminder, the ECB is widely expected to increase interest rates at the upcoming meeting, but policymakers should also signal less appeti",
-    "drafted_at": "2026-09-04T06:41:05.790760",
+    "source_url": "https://investinglive.com/news/investinglive-european-news-wrap-markets-consolidate-ahead-of-nfp/",
+    "source_title": "investingLive European news wrap: Markets consolidate ahead of NFP",
+    "source_summary": "How have interest rate expectations changed after this week's events? Eurozone retail sales fall in July as consumer spending softens Stop making this mistake when looking at the economic calendar What is the distribution of forecasts for the US NFP? USD/JPY bounces near the major 155.00 support; pullback or the start of a rally into new highs? FX option expiries for 4 September 10am New York cut ",
+    "drafted_at": "2026-09-04T11:51:52.536839",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "75bb6f4762c85086"
+    "content_hash": "94e2f37d5d9199cf"
   },
   {
-    "id": "77eb076e",
+    "id": "4040fde5",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "LABOR MARKET READ: The US Dollar (USD) is marginally up on Friday ahead of the United States (US) Nonfarm Payrolls (NFP) data for August, which will be published at 12:30 GMT.\n\nhttps://www.fxstreet.com/news/united-states-dollar-index-edges-higher-to-near-9900-ahead-of-us-nfp-data-202609041147",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/united-states-dollar-index-edges-higher-to-near-9900-ahead-of-us-nfp-data-202609041147",
+    "source_title": "United States Dollar Index edges higher to near 99.00 ahead of US NFP data",
+    "source_summary": "The US Dollar (USD) is marginally up on Friday ahead of the United States (US) Nonfarm Payrolls (NFP) data for August, which will be published at 12:30 GMT.",
+    "drafted_at": "2026-09-04T11:51:52.600016",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "0ea808344d0e9098"
+  },
+  {
+    "id": "7dc0aebd",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "LABOR MARKET READ: Silver (XAG/USD) consolidates with marginal losses on Friday following back-to-back daily gains, as traders avoid taking large positions ahead of the US Nonfarm Payrolls (NFP) report.\n\nhttps://www.fxstreet.com/news/silver-price-forecast-xag-usd-trapped-below-100-day-sma-as-us-nfp-approaches-202609041143",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-trapped-below-100-day-sma-as-us-nfp-approaches-202609041143",
+    "source_title": "Silver Price Forecast: XAG/USD trapped below 100-day SMA as US NFP approaches",
+    "source_summary": "Silver (XAG/USD) consolidates with marginal losses on Friday following back-to-back daily gains, as traders avoid taking large positions ahead of the US Nonfarm Payrolls (NFP) report.",
+    "drafted_at": "2026-09-04T11:51:52.600297",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "a2889690875043db"
+  },
+  {
+    "id": "5bd26068",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "Hiring scoreboard: How have interest rate expectations changed after this week's events?\n\nEurozone retail sales fall in July as consumer spending softens Stop making this mistake when looking at the economic calendar What is the distribution of forecasts for the US NFP?\n\nUSD/JPY bounces near the major 155.00 support; pullback or the start of a rally into new highs?\n\nFX option expiries for 4 September 10am New York cut What are the main events for today?\n\nIt's been a pretty quiet session, with no notable news or data releases.\n\nThe Eurozone retail sales report showed a decline in July, pointing to softer consumer demand.\n\nThe volume of retail trade fell by 0.6% m/m in July, reversing the 0.2% increase recorded in June.\n\nOn an annual basis, however, retail activity remained slightly positive.\n\nhttps://investinglive.com/news/investinglive-european-news-wrap-markets-consolidate-ahead-of-nfp/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/investinglive-european-news-wrap-markets-consolidate-ahead-of-nfp/",
+    "source_title": "investingLive European news wrap: Markets consolidate ahead of NFP",
+    "source_summary": "How have interest rate expectations changed after this week's events? Eurozone retail sales fall in July as consumer spending softens Stop making this mistake when looking at the economic calendar What is the distribution of forecasts for the US NFP? USD/JPY bounces near the major 155.00 support; pullback or the start of a rally into new highs? FX option expiries for 4 September 10am New York cut ",
+    "drafted_at": "2026-09-04T11:51:52.601585",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "94e2f37d5d9199cf"
+  },
+  {
+    "id": "8f3087b4",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "CPI just printed. Rate hikes by year-end ECB: 46 bps (99% probability of rate hike at the next meeting) 2027: 73 bps BoJ: 42 bps (75% probability of rate hike at the next meeting) 2027: 111 bps Fed: 33 bps (50% probability of rate hike at the next meeting) 2027: 46 bps RBA: 30 bps (69% probability of rate hike at the next meeting) 2027: 32 bps BoE: 26 bps (91% probability of no change at the next meeting) 2027: 66 bps BoC: 26 bps (67% probability of no change at the next meeting) 2027: 99 bps RBNZ: 25 bps (76% probability of no change at the next meeting) 2027: 86 bps SNB: 5 bps (99% probability of no change at the next meeting) 2027: 44 bps Last week's market pricing here The 2027 pricing indicates the total amount of tigthening expected by the end of 2027, not how much is expected in 2027 alone.\n\nThe most notable shifts in market pricing happened on the RBNZ, BoC and the Fed side.\n\nThe RBNZ raised interest rates by 25 bps as expected but the statement contained less hawkish language, and the new OCR projections were left mostly unchanged.\n\nRelative to expectations, the overall decision was more dovish than expected.\n\nIn fact, in July, the meeting minutes accompanying the statement said \"the Committee agreed that while further OCR increases appear likely at upcoming meetings, their timing is highly uncertain\".\n\nThis week, they said \"future policy will depend on the Committee\u2019s judgement of the balance of risks to medium-term inflation.\n\nThis approach allows the Committee to observe and assess the effects of reduced monetary stimulus\".\n\nThis indicates that there's less appetite for tightening.\n\nhttps://investinglive.com/news/how-have-interest-rate-expectations-changed-after-this-week-s-events-3/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/how-have-interest-rate-expectations-changed-after-this-week-s-events-3/",
+    "source_title": "How have interest rate expectations changed after this week's events?",
+    "source_summary": "Rate hikes by year-end ECB: 46 bps (99% probability of rate hike at the next meeting) 2027: 73 bps BoJ: 42 bps (75% probability of rate hike at the next meeting) 2027: 111 bps Fed: 33 bps (50% probability of rate hike at the next meeting) 2027: 46 bps RBA: 30 bps (69% probability of rate hike at the next meeting) 2027: 32 bps BoE: 26 bps (91% probability of no change at the next meeting) 2027: 66 ",
+    "drafted_at": "2026-09-04T11:51:52.604211",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "59d90f7d6b04baea"
+  },
+  {
+    "id": "c7ca42d7",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "From the consumption desk: Full report here Retail sales in the Eurozone declined in July, pointing to softer consumer demand.\n\nThe volume of retail trade fell by 0.6% m/m in July, reversing the 0.2% increase recorded in June.\n\nAcross the broader European Union, retail sales declined by 0.4% after also rising 0.2% in the previous month.\n\nOn an annual basis, however, retail activity remained slightly positive.\n\nCompared with July 2025, Eurozone retail sales increased 0.6%, while sales across the EU rose 1.0%.\n\nThe monthly decline was driven primarily by weaker demand for non-food products, where sales dropped 1.4% in the Eurozone.\n\nSales of automotive fuel also fell 0.8%, while spending on food, drinks and tobacco provided some support with a 0.4% increase.\n\nGermany was the main drag on the regional figures, recording a sharp 3.4% monthly decline in retail sales.\n\nhttps://investinglive.com/news/eurozone-retail-sales-fall-in-july-as-consumer-spending-softens/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/eurozone-retail-sales-fall-in-july-as-consumer-spending-softens/",
+    "source_title": "Eurozone retail sales fall in July as consumer spending softens",
+    "source_summary": "Full report here Retail sales in the Eurozone declined in July, pointing to softer consumer demand. The volume of retail trade fell by 0.6% m/m in July, reversing the 0.2% increase recorded in June. Across the broader European Union, retail sales declined by 0.4% after also rising 0.2% in the previous month. On an annual basis, however, retail activity remained slightly positive. Compared with Jul",
+    "drafted_at": "2026-09-04T11:51:52.605281",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "6f710399cb6be015"
+  },
+  {
+    "id": "812646ea",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -585,7 +587,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-09-04T06:41:05.796393",
+    "drafted_at": "2026-09-04T11:51:52.609742",
     "data": {
       "manual": true,
       "via": "manual_news.md"
