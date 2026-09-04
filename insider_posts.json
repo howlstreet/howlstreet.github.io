@@ -1,55 +1,4 @@
 {
-  "EMPD_P_2026-09-01": {
-    "ticker": "EMPD",
-    "company": "Empery Digital Inc.",
-    "industry": "Empery Asset Management, LP",
-    "num_insiders": 0,
-    "type": "P",
-    "price": 3.59,
-    "qty": 500000,
-    "dollar_value": 1793100.0,
-    "trade_date": "2026-09-01",
-    "category": "BIG_SALE",
-    "link": "http://openinsider.com/screener?s=EMPD",
-    "post_id": "EMPD_P_2026-09-01",
-    "chart_path": "charts/insider/EMPD_P_20260901.png",
-    "pct_since": -9.437326999759936,
-    "fired_at": "2026-09-02T15:31:16.374068"
-  },
-  "PNFP_P_2026-09-01": {
-    "ticker": "PNFP",
-    "company": "Pinnacle Financial Partners, Inc.",
-    "industry": "National Commercial Banks",
-    "num_insiders": 2,
-    "type": "P",
-    "price": 99.41,
-    "qty": 12578,
-    "dollar_value": 1250335.0,
-    "trade_date": "2026-09-01",
-    "category": "CLUSTER_BUY",
-    "link": "http://openinsider.com/screener?s=PNFP",
-    "post_id": "PNFP_P_2026-09-01",
-    "chart_path": "charts/insider/PNFP_P_20260901.png",
-    "pct_since": 0.8500123261422113,
-    "fired_at": "2026-09-02T15:31:16.374068"
-  },
-  "VST_P_2026-08-31": {
-    "ticker": "VST",
-    "company": "Vistra Corp.",
-    "industry": "Burke James A",
-    "num_insiders": 0,
-    "type": "P",
-    "price": 135.49,
-    "qty": 6665,
-    "dollar_value": 903069.0,
-    "trade_date": "2026-08-31",
-    "category": "BIG_SALE",
-    "link": "http://openinsider.com/screener?s=VST",
-    "post_id": "VST_P_2026-08-31",
-    "chart_path": "charts/insider/VST_P_20260831.png",
-    "pct_since": 3.7050664306118004,
-    "fired_at": "2026-09-02T15:31:16.374068"
-  },
   "BABA_P_2026-08-25": {
     "ticker": "BABA",
     "company": "Alibaba Group Holding Ltd",
@@ -423,5 +372,22 @@
     "chart_path": "charts/insider/KEEL_P_20260821.png",
     "pct_since": -1.1799438161484295,
     "fired_at": "2026-09-04T11:51:45.667296"
+  },
+  "PNFP_P_2026-09-01": {
+    "ticker": "PNFP",
+    "company": "Pinnacle Financial Partners, Inc.",
+    "industry": "National Commercial Banks",
+    "num_insiders": 2,
+    "type": "P",
+    "price": 99.41,
+    "qty": 12578,
+    "dollar_value": 1250335.0,
+    "trade_date": "2026-09-01",
+    "category": "CLUSTER_BUY",
+    "link": "http://openinsider.com/screener?s=PNFP",
+    "post_id": "PNFP_P_2026-09-01",
+    "chart_path": "charts/insider/PNFP_P_20260901.png",
+    "pct_since": 2.197969239214494,
+    "fired_at": "2026-09-04T16:47:37.825170"
   }
 }
