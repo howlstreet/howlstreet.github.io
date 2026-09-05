@@ -1,23 +1,42 @@
 [
   {
-    "id": "289c17d4",
+    "id": "834c82f8",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "Stocks fall after a surprisingly strong jobs report raises prospects of an interest rate hike AP News\n\nhttps://news.google.com/rss/articles/CBMimAFBVV95cUxOZGhkajNwYmt3YnNNa09RNjlJaHRvZk1nQnJ3bElybmJvMWRpQU1KanRhbjEzM0gyZUQ5OVByOF9aUjdZQjh5TUZGSDFjWkY4SGRzVUphYk92dk10OTROUDJuMjIxUE9zaEVLLUZUN2VUdENVS202Qi1jQ294QlctTzN0dWFWZko3TjZNWEktbUFlYWFmdnBxbA?oc=5",
+    "draft_text": "Oil prices are about to book yet another weekly gain as the war in the Middle East remains hot, with a pessimistic outlook.\n\nOil exporters from the region are rushing to diversify their export channels, and importers are rushing to diversify their suppliers.\n\nThe oil market is changing in what may well prove to be an irreversible way.\n\nhttps://oilprice.com/Energy/Crude-Oil/Iran-War-Forces-a-Rewrite-of-Global-Oil-Trade-Routes.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "AP",
-    "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZGhkajNwYmt3YnNNa09RNjlJaHRvZk1nQnJ3bElybmJvMWRpQU1KanRhbjEzM0gyZUQ5OVByOF9aUjdZQjh5TUZGSDFjWkY4SGRzVUphYk92dk10OTROUDJuMjIxUE9zaEVLLUZUN2VUdENVS202Qi1jQ294QlctTzN0dWFWZko3TjZNWEktbUFlYWFmdnBxbA?oc=5",
-    "source_title": "Stocks fall after a surprisingly strong jobs report raises prospects of an interest rate hike",
-    "source_summary": "Stocks fall after a surprisingly strong jobs report raises prospects of an interest rate hike AP News",
-    "drafted_at": "2026-09-05T13:43:30.240809",
+    "primary_source": "OILPRICE",
+    "source_url": "https://oilprice.com/Energy/Crude-Oil/Iran-War-Forces-a-Rewrite-of-Global-Oil-Trade-Routes.html",
+    "source_title": "Iran War Forces a Rewrite of Global Oil Trade Routes",
+    "source_summary": "Oil prices are about to book yet another weekly gain as the war in the Middle East remains hot, with a pessimistic outlook. Oil exporters from the region are rushing to diversify their export channels, and importers are rushing to diversify their suppliers. The oil market is changing in what may well prove to be an irreversible way. The Strait of Hormuz is one of the biggest export routes for crud",
+    "drafted_at": "2026-09-05T23:26:49.176867",
     "data": {
-      "source": "AP"
+      "source": "OILPRICE"
     },
-    "content_hash": "e25be81ddefb889d"
+    "content_hash": "7d162b5f7d69874b"
   },
   {
-    "id": "8a6794f1",
+    "id": "8c2d9d72",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "I don't say this often, but pay attention: WTI crude surges 11.1% in 5 sessions to $91.48.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NYMEX \u00b7 CL=F",
+    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "source_title": "WTI crude oil futures",
+    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "drafted_at": "2026-09-05T23:26:49.177107",
+    "data": {
+      "signal_id": "CL=F:move:2026-09-04",
+      "kind": "move_up",
+      "current": "$91.48"
+    },
+    "content_hash": "c272de0720a2f459"
+  },
+  {
+    "id": "e4ea8fc9",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "I'll keep it short: VIX drops 6.0% in 5 sessions to 14.53.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
@@ -27,7 +46,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EVIX",
     "source_title": "VIX (S&P 500 volatility)",
     "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-09-05T13:43:30.241091",
+    "drafted_at": "2026-09-05T23:26:49.177281",
     "data": {
       "signal_id": "^VIX:move:2026-09-04",
       "kind": "move_down",
@@ -36,43 +55,7 @@
     "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "140361dc",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "I don't say this often, but pay attention: WTI crude surges 10.8% in 5 sessions to $91.22.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "NYMEX \u00b7 CL=F",
-    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
-    "source_title": "WTI crude oil futures",
-    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-09-05T13:43:30.241341",
-    "data": {
-      "signal_id": "CL=F:move:2026-09-04",
-      "kind": "move_up",
-      "current": "$91.22"
-    },
-    "content_hash": "c272de0720a2f459"
-  },
-  {
-    "id": "e1aa033c",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "POWELL POSTCARD: August payrolls weakened the case for patience, leaving Sept.\n\n11 CPI as Bitcoin\u2019s next decisive volatility test.\n\nThe post Bitcoin dips below $80,000 as a hot August jobs report shifts Fed policy expectations appeared first on CryptoSlate.\n\nhttps://cryptoslate.com/bitcoins-80000-rally-just-lost-the-feds-labor-market-escape-hatch/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://cryptoslate.com/bitcoins-80000-rally-just-lost-the-feds-labor-market-escape-hatch/",
-    "source_title": "Bitcoin dips below $80,000 as a hot August jobs report shifts Fed policy expectations",
-    "source_summary": "August payrolls weakened the case for patience, leaving Sept. 11 CPI as Bitcoin\u2019s next decisive volatility test. The post Bitcoin dips below $80,000 as a hot August jobs report shifts Fed policy expectations appeared first on CryptoSlate .",
-    "drafted_at": "2026-09-05T13:43:30.253048",
-    "data": {
-      "actor": "Fed"
-    },
-    "content_hash": "480a119a22899421"
-  },
-  {
-    "id": "d3ba2151",
+    "id": "355ab5fa",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "POWELL POSTCARD: Here is the latest rant from the President following today's jobs report: Great jobs number just announced, breaking all estimates (except mine!) by double and triple - And you haven\u2019t seen anything yet!\n\nLower the interest rates because the U.S.A. is a much stronger credit than it was just a short time ago!\n\nA STRONG COUNTRY MEANS A LOWER INTEREST RATE - IT\u2019S A BETTER CREDIT\u2026Very simple!\n\nWe should have the LOWEST RATE of any country in the World, like \u201cthe old days.\u201d Without the United States agreeing to allow them their big surpluses, and we could stop that immediately, they would no longer be considered financially ELITE!\n\nLOWER THE RATE OR I\u2019LL STOP TRADING WITH COUNTRIES WITH WHICH WE HAVE A DEFICIT, which the U.S. Supreme Court, in its ridiculous and very costly Tariff decision, strongly acknowledged \u201cthe President\u201d has an absolute right to do.\n\nThe Fed Board, with its great new leader, must get smart - BE PATRIOTS for a change.\n\nHigh interest rates put the U.S.A. at a very unfair disadvantage, and I won\u2019t allow that to happen!\n\nTRUMP I don't even know where to start with this nonsense.\n\nhttps://investinglive.com/news/trump-tells-fed-lower-the-rate-or-i-ll-stop-trading-with-countries-with-which-we-have-a-deficit/",
@@ -82,14 +65,14 @@
     "source_url": "https://investinglive.com/news/trump-tells-fed-lower-the-rate-or-i-ll-stop-trading-with-countries-with-which-we-have-a-deficit/",
     "source_title": "Trump tells Fed: Lower the rate or I'll stop trading with countries with which we have a deficit",
     "source_summary": "Here is the latest rant from the President following today's jobs report: Great jobs number just announced, breaking all estimates (except mine!) by double and triple - And you haven\u2019t seen anything yet! EMPLOYERS ADDED 162,000 JOB IN AUGUST. Lower the interest rates because the U.S.A. is a much stronger credit than it was just a short time ago! A STRONG COUNTRY MEANS A LOWER INTEREST RATE - IT\u2019S ",
-    "drafted_at": "2026-09-05T13:43:30.254734",
+    "drafted_at": "2026-09-05T23:26:49.188326",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "da91e5e73a216ca9"
   },
   {
-    "id": "4ff6eb12",
+    "id": "27b4d23d",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Policy update for the pack: The Board's process for setting the discount rate is distinct from the process the Federal Open Market Committee follows in setting the target range for the federal funds rate.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
@@ -99,14 +82,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
     "source_title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
     "source_summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
-    "drafted_at": "2026-09-05T13:43:30.255126",
+    "drafted_at": "2026-09-05T23:26:49.188646",
     "data": {
       "actor": "FED"
     },
     "content_hash": "da9833991b6c87c5"
   },
   {
-    "id": "7c16f5d3",
+    "id": "31dbda13",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "POWELL POSTCARD: Consent prohibition against Stephanie R.\n\nConsent prohibition against Crystal A.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm",
@@ -116,14 +99,34 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm",
     "source_title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
     "source_summary": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
-    "drafted_at": "2026-09-05T13:43:30.255474",
+    "drafted_at": "2026-09-05T23:26:49.188935",
     "data": {
       "actor": "FED"
     },
     "content_hash": "1899c878ef68bdd8"
   },
   {
-    "id": "d10cc11b",
+    "id": "5241d57c",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$ANGX \u2014 3 company insiders bought $2.8M on Sep 01.\n\nAngel Studios, Inc. 711,025 shares at $4.01.\n\nStock is +14.2% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/ANGX_P_20260901.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=ANGX",
+    "source_title": "Angel Studios, Inc. (ANGX) insider bought $2.8M",
+    "source_summary": "3 insider(s) bought 711,025 shares at $4.01 on 2026-09-01.",
+    "drafted_at": "2026-09-05T23:26:49.189178",
+    "data": {
+      "ticker": "ANGX",
+      "type": "P",
+      "dollar_value": 2848049.0,
+      "pct_since": 14.214461937806854
+    },
+    "content_hash": "2d9860e33e20c48e"
+  },
+  {
+    "id": "88833d22",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$TTMI \u2014 2 company insiders bought $1.6M on Aug 25.\n\nTtm Technologies Inc. 15,000 shares at $109.48.\n\nStock is +14.7% since the purchase. This is a public SEC Form 4 filing.",
@@ -133,7 +136,7 @@
     "source_url": "http://openinsider.com/screener?s=TTMI",
     "source_title": "Ttm Technologies Inc (TTMI) insider bought $1.6M",
     "source_summary": "2 insider(s) bought 15,000 shares at $109.48 on 2026-08-25.",
-    "drafted_at": "2026-09-05T13:43:30.255781",
+    "drafted_at": "2026-09-05T23:26:49.189332",
     "data": {
       "ticker": "TTMI",
       "type": "P",
@@ -143,7 +146,7 @@
     "content_hash": "3d126c7b205fc749"
   },
   {
-    "id": "a790e783",
+    "id": "53161575",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$PRE \u2014 2 company insiders bought $999,698 on Aug 24.\n\nPrenetics Global Ltd. 47,781 shares at $20.92.\n\nStock is +21.6% since the purchase. This is a public SEC Form 4 filing.",
@@ -153,7 +156,7 @@
     "source_url": "http://openinsider.com/screener?s=PRE",
     "source_title": "Prenetics Global Ltd (PRE) insider bought $999,698",
     "source_summary": "2 insider(s) bought 47,781 shares at $20.92 on 2026-08-24.",
-    "drafted_at": "2026-09-05T13:43:30.255977",
+    "drafted_at": "2026-09-05T23:26:49.189475",
     "data": {
       "ticker": "PRE",
       "type": "P",
@@ -163,7 +166,7 @@
     "content_hash": "7d12e023bf28bafa"
   },
   {
-    "id": "9215bf3a",
+    "id": "e980bb4d",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$LILA \u2014 6 company insiders bought $47.8M on Aug 31.\n\nLiberty Latin America Ltd. 4,220,044 shares at $11.33.\n\nStock is -22.6% since the purchase. This is a public SEC Form 4 filing.",
@@ -173,7 +176,7 @@
     "source_url": "http://openinsider.com/screener?s=LILA",
     "source_title": "Liberty Latin America Ltd. (LILA) insider bought $47.8M",
     "source_summary": "6 insider(s) bought 4,220,044 shares at $11.33 on 2026-08-31.",
-    "drafted_at": "2026-09-05T13:43:30.256172",
+    "drafted_at": "2026-09-05T23:26:49.189619",
     "data": {
       "ticker": "LILA",
       "type": "P",
@@ -183,7 +186,7 @@
     "content_hash": "bf4180697a0d8e54"
   },
   {
-    "id": "2780ef7f",
+    "id": "e2d31a28",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$ADC \u2014 2 company insiders bought $2.6M on Aug 31.\n\nAgree Realty Corp. 35,136 shares at $72.74.\n\nStock is -0.2% since the purchase. This is a public SEC Form 4 filing.",
@@ -193,7 +196,7 @@
     "source_url": "http://openinsider.com/screener?s=ADC",
     "source_title": "Agree Realty Corp (ADC) insider bought $2.6M",
     "source_summary": "2 insider(s) bought 35,136 shares at $72.74 on 2026-08-31.",
-    "drafted_at": "2026-09-05T13:43:30.256349",
+    "drafted_at": "2026-09-05T23:26:49.189792",
     "data": {
       "ticker": "ADC",
       "type": "P",
@@ -203,27 +206,58 @@
     "content_hash": "9e8d17e70c2034ff"
   },
   {
-    "id": "7d7df683",
-    "format": "CORRUPTION_WATCH_INSIDER",
+    "id": "f769f3a7",
+    "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "$ATRA \u2014 a company insider bought $999,994 on Sep 04.\n\nAtara Biotherapeutics, Inc. 104,166 shares at $9.60.\n\nStock is +1.7% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/ATRA_P_20260904.png",
+    "draft_text": "DHS Employee Claimed 33-Hour Workdays in $250K Fraud Scheme, Feds Say\n\nhttps://townhall.com/news/scott-mcclallen/2026/09/05/dhs-employee-claimed-33-hour-workdays-in-250k-fraud-scheme-feds-say-n2682544",
+    "image_path": null,
     "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=ATRA",
-    "source_title": "Atara Biotherapeutics, Inc. (ATRA) insider bought $999,994",
-    "source_summary": "1 insider(s) bought 104,166 shares at $9.60 on 2026-09-04.",
-    "drafted_at": "2026-09-05T13:43:30.256530",
+    "primary_source": "TOWNHALL FIN",
+    "source_url": "https://townhall.com/news/scott-mcclallen/2026/09/05/dhs-employee-claimed-33-hour-workdays-in-250k-fraud-scheme-feds-say-n2682544",
+    "source_title": "DHS Employee Claimed 33-Hour Workdays in $250K Fraud Scheme, Feds Say",
+    "source_summary": "",
+    "drafted_at": "2026-09-05T23:26:49.191255",
     "data": {
-      "ticker": "ATRA",
-      "type": "P",
-      "dollar_value": 999994.0,
-      "pct_since": 1.6666690508524615
+      "source": "TOWNHALL FIN"
     },
-    "content_hash": "0bcde855cd2ec36f"
+    "content_hash": "91c327afe5b0851d"
   },
   {
-    "id": "833e0440",
+    "id": "ab74a10e",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Last summer, European news outlets reported that \u201cvolunteers\u201d from Mexican and Colombian drug cartels had infiltrated Ukraine\u2019s military \u2014 considered the world\u2019s \u201c drone superpower \u201d \u2014 to learn cutting-edge drone warfare so they could use the knowledge to kill their enemies back home.\n\nClaims that this problem is ongoing have not yet been publicly verified by the U.S. intelligence community or the media.\n\nAs yet, however, they remain undisputed.\n\nhttps://www.theblaze.com/columns/opinion/the-cartels-are-learning-drone-warfare-from-ukraine",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "THE BLAZE",
+    "source_url": "https://www.theblaze.com/columns/opinion/the-cartels-are-learning-drone-warfare-from-ukraine",
+    "source_title": "The cartels are learning drone warfare from Ukraine",
+    "source_summary": "Last summer, European news outlets reported that \u201cvolunteers\u201d from Mexican and Colombian drug cartels had infiltrated Ukraine\u2019s military \u2014 considered the world\u2019s \u201c drone superpower \u201d \u2014 to learn cutting-edge drone warfare so they could use the knowledge to kill their enemies back home. Claims that this problem is ongoing have not yet been publicly verified by the U.S. intelligence community or the ",
+    "drafted_at": "2026-09-05T23:26:49.193330",
+    "data": {
+      "source": "THE BLAZE"
+    },
+    "content_hash": "e654cdc8875af689"
+  },
+  {
+    "id": "f423ca33",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Anthropic has started marking text generated by its newest Claude models with an invisible watermark that can travel with the text after it leaves the chatbot.\n\nCopy a Claude response into a document, paste it into a website, drop it into a codebase, and the mark may still be there.\n\nAnthropic says models launched on or after August 2 support machine-readable marking at launch, and the company is applying those markings wherever Claude is offered worldwide, while it is adding support to older models as well.\n\nhttps://www.theblaze.com/tech/it-s-getting-harder-to-prove-you-re-human-and-this-solution-is-only-making-it-worse",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "THE BLAZE",
+    "source_url": "https://www.theblaze.com/tech/it-s-getting-harder-to-prove-you-re-human-and-this-solution-is-only-making-it-worse",
+    "source_title": "It's getting harder to prove you're human \u2014 and this 'solution' is only making it worse",
+    "source_summary": "Anthropic has started marking text generated by its newest Claude models with an invisible watermark that can travel with the text after it leaves the chatbot. Copy a Claude response into a document, paste it into a website, drop it into a codebase, and the mark may still be there. Anthropic says models launched on or after August 2 support machine-readable marking at launch, and the company is ap",
+    "drafted_at": "2026-09-05T23:26:49.197710",
+    "data": {
+      "source": "THE BLAZE"
+    },
+    "content_hash": "4b162226680db79d"
+  },
+  {
+    "id": "1c681aee",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "This kind of fraud, which is used to primarily target businesses, is now affecting ordinary consumers.\n\nhttps://www.washingtonpost.com/business/2026/09/05/this-credit-card-scam-involves-spam-emails-here-what-know/",
@@ -233,31 +267,14 @@
     "source_url": "https://www.washingtonpost.com/business/2026/09/05/this-credit-card-scam-involves-spam-emails-here-what-know/",
     "source_title": "Credit card scammers are using this tactic to bury bank fraud alerts",
     "source_summary": "This kind of fraud, which is used to primarily target businesses, is now affecting ordinary consumers.",
-    "drafted_at": "2026-09-05T13:43:30.259211",
+    "drafted_at": "2026-09-05T23:26:49.197826",
     "data": {
       "source": "WAPO"
     },
     "content_hash": "8455a318d0c7e145"
   },
   {
-    "id": "3078b989",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "An attorney representing Maria Bartiromo released a combative statement denying that she was fired from Fox News.\n\nThe longtime host at Fox Business had reportedly \"parted ways\" with the network effective immediately, according to a network statement Thursday.\n\n'Maria is a total professional, and a true warrior.\n\nhttps://www.theblaze.com/news/maria-bartiromo-lawyer-denies-firing",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "THE BLAZE",
-    "source_url": "https://www.theblaze.com/news/maria-bartiromo-lawyer-denies-firing",
-    "source_title": "Maria Bartiromo attorney denies she's been fired",
-    "source_summary": "An attorney representing Maria Bartiromo released a combative statement denying that she was fired from Fox News. The longtime host at Fox Business had reportedly \"parted ways\" with the network effective immediately, according to a network statement Thursday. 'Maria is a total professional, and a true warrior. Her fans, of which there are many, will not be happy.' \"The irresponsible reports that h",
-    "drafted_at": "2026-09-05T13:43:30.260191",
-    "data": {
-      "source": "THE BLAZE"
-    },
-    "content_hash": "d846aae1de90c51e"
-  },
-  {
-    "id": "38a3a25a",
+    "id": "82035f23",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "ICIJ\u2019s 2020 FinCEN Files revealed that major banks flagged suspicious payments involving one of the Venezuelan tycoon's companies, which remains at the heart of embezzlement investigations in Europe.\n\nhttps://www.icij.org/investigations/fincen-files/white-house-pick-to-run-venezuela-oil-deal-under-investigation-in-two-countries/",
@@ -267,48 +284,14 @@
     "source_url": "https://www.icij.org/investigations/fincen-files/white-house-pick-to-run-venezuela-oil-deal-under-investigation-in-two-countries/",
     "source_title": "White House pick to run Venezuela oil deal under investigation in two countries",
     "source_summary": "ICIJ\u2019s 2020 FinCEN Files revealed that major banks flagged suspicious payments involving one of the Venezuelan tycoon's companies, which remains at the heart of embezzlement investigations in Europe.",
-    "drafted_at": "2026-09-05T13:43:30.260460",
+    "drafted_at": "2026-09-05T23:26:49.198028",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "595e1145c36e41f0"
   },
   {
-    "id": "8abf66fe",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "An ICIJ review found nearly $1.7 billion in settlements and fines over a 15 year period.\n\nBut experts said many companies see the payouts as the cost of doing business.\n\nhttps://www.icij.org/investigations/cancer-calculus/big-fines-and-settlements-barely-dent-cancer-drugmakers-revenues-fail-to-deter-wrongdoing/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "ICIJ",
-    "source_url": "https://www.icij.org/investigations/cancer-calculus/big-fines-and-settlements-barely-dent-cancer-drugmakers-revenues-fail-to-deter-wrongdoing/",
-    "source_title": "Big fines and settlements barely dent cancer drugmakers\u2019 revenues, fail to deter wrongdoing",
-    "source_summary": "An ICIJ review found nearly $1.7 billion in settlements and fines over a 15 year period. But experts said many companies see the payouts as the cost of doing business.",
-    "drafted_at": "2026-09-05T13:43:30.260685",
-    "data": {
-      "source": "ICIJ"
-    },
-    "content_hash": "2bb33397806c5f72"
-  },
-  {
-    "id": "fc7d0255",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Financial records obtained by ICIJ show that they included individuals later accused of or sanctioned for money laundering and other financial crimes.\n\nhttps://www.icij.org/investigations/coin-laundry/crypto-giant-tether-promised-careful-vetting-some-early-customers-were-later-implicated-in-financial-crimes/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "ICIJ",
-    "source_url": "https://www.icij.org/investigations/coin-laundry/crypto-giant-tether-promised-careful-vetting-some-early-customers-were-later-implicated-in-financial-crimes/",
-    "source_title": "Crypto giant Tether promised careful vetting. Some early customers were later implicated in financial crimes.",
-    "source_summary": "Financial records obtained by ICIJ show that they included individuals later accused of or sanctioned for money laundering and other financial crimes.",
-    "drafted_at": "2026-09-05T13:43:30.260871",
-    "data": {
-      "source": "ICIJ"
-    },
-    "content_hash": "b5dc549473d7ec96"
-  },
-  {
-    "id": "80ce1976",
+    "id": "caaa48d4",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "6 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 David J. Taylor (R)\n\u2022 John Boozman (R)\n\u2022 Cleo Fields (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 John Fetterman (D)\n\u2022 John McGuire (R)\n\nLargest disclosed here: David J. Taylor, $1,001 - $15,000 on Feb 26.\n\nPrice since the first buy in this group: +27.0%.\n\nSTOCK Act disclosures. Public record.",
@@ -318,7 +301,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034138.pdf",
     "source_title": "6 Congress members bought $MSFT",
     "source_summary": "6 politicians bought $MSFT; largest $1,001 - $15,000 by David J. Taylor.",
-    "drafted_at": "2026-09-05T13:43:30.261459",
+    "drafted_at": "2026-09-05T23:26:49.198793",
     "data": {
       "ticker": "MSFT",
       "member_count": 6,
@@ -327,7 +310,7 @@
     "content_hash": "7c24415ac3c0b542"
   },
   {
-    "id": "7c27ab84",
+    "id": "48561ddf",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "5 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Markwayne Mullin (D)\n\u2022 Josh Gottheimer (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Markwayne Mullin, $50,001 - $100,000 on Feb 25.\n\nPrice since the first buy in this group: +49.3%.\n\nSTOCK Act disclosures. Public record.",
@@ -337,7 +320,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/f586922d-6083-44e5-8a32-769290389416/",
     "source_title": "5 Congress members bought $UNH",
     "source_summary": "5 politicians bought $UNH; largest $50,001 - $100,000 by Markwayne Mullin.",
-    "drafted_at": "2026-09-05T13:43:30.261817",
+    "drafted_at": "2026-09-05T23:26:49.199057",
     "data": {
       "ticker": "UNH",
       "member_count": 5,
@@ -346,26 +329,7 @@
     "content_hash": "7cbacf41d412a41b"
   },
   {
-    "id": "f3764393",
-    "format": "CONGRESS_WATCH",
-    "status": "pending",
-    "draft_text": "4 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 Cleo Fields (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 John Fetterman (D)\n\u2022 John McGuire (R)\n\nLargest disclosed here: Cleo Fields, $1,001 - $15,000 on Mar 12.\n\nPrice since the first buy in this group: +23.6%.\n\nSTOCK Act disclosures. Public record.",
-    "image_path": "charts/congress/MSFT_cluster.png",
-    "og_image_url": null,
-    "primary_source": "STOCK Act PTR filings",
-    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034179.pdf",
-    "source_title": "4 Congress members bought $MSFT",
-    "source_summary": "4 politicians bought $MSFT; largest $1,001 - $15,000 by Cleo Fields.",
-    "drafted_at": "2026-09-05T13:43:30.262115",
-    "data": {
-      "ticker": "MSFT",
-      "member_count": 4,
-      "pct_since_first": 23.59528462164915
-    },
-    "content_hash": "4ff8eafa69ce40c2"
-  },
-  {
-    "id": "e56c48a4",
+    "id": "9934950f",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $HD this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Lloyd Doggett (D)\n\u2022 Jared Moskowitz (D)\n\nLargest disclosed here: Richard Dean Dr McCormick, $1,001 - $15,000 on Mar 19.\n\nPrice since the first buy in this group: -3.1%.\n\nSTOCK Act disclosures. Public record.",
@@ -375,7 +339,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033648.pdf",
     "source_title": "3 Congress members bought $HD",
     "source_summary": "3 politicians bought $HD; largest $1,001 - $15,000 by Richard Dean Dr McCormick.",
-    "drafted_at": "2026-09-05T13:43:30.262402",
+    "drafted_at": "2026-09-05T23:26:49.199282",
     "data": {
       "ticker": "HD",
       "member_count": 3,
@@ -384,7 +348,7 @@
     "content_hash": "8c0eaad1e4da4036"
   },
   {
-    "id": "4c987c4a",
+    "id": "9334482c",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $TSM this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard W. Allen (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Cleo Fields (D)\n\nLargest disclosed here: Richard W. Allen, $1,001 - $15,000 on Feb 19.\n\nPrice since the first buy in this group: +15.7%.\n\nSTOCK Act disclosures. Public record.",
@@ -394,7 +358,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034133.pdf",
     "source_title": "3 Congress members bought $TSM",
     "source_summary": "3 politicians bought $TSM; largest $1,001 - $15,000 by Richard W. Allen.",
-    "drafted_at": "2026-09-05T13:43:30.262689",
+    "drafted_at": "2026-09-05T23:26:49.199495",
     "data": {
       "ticker": "TSM",
       "member_count": 3,
@@ -403,109 +367,109 @@
     "content_hash": "5d9078569296551f"
   },
   {
-    "id": "45304371",
+    "id": "329714c8",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "World wire: The diplomatic engagement could reshape geopolitical dynamics, influencing global markets and international relations, with potential ceasefire impacts.\n\nThe post Trump envoys in Moscow for Ukraine peace talks with Putin: FT appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/trump-envoys-in-moscow-for-ukraine-peace-talks-with-putin-ft/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/trump-envoys-in-moscow-for-ukraine-peace-talks-with-putin-ft/",
-    "source_title": "Trump envoys in Moscow for Ukraine peace talks with Putin: FT",
-    "source_summary": "The diplomatic engagement could reshape geopolitical dynamics, influencing global markets and international relations, with potential ceasefire impacts. The post Trump envoys in Moscow for Ukraine peace talks with Putin: FT appeared first on Crypto Briefing .",
-    "drafted_at": "2026-09-05T13:43:30.263826",
-    "data": {
-      "source": "CRYPTO BRIEFING"
-    },
-    "content_hash": "e9c484c1710e9c6b"
-  },
-  {
-    "id": "c90a15c6",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "CHINA DESK: 05, 2026 (GLOBE NEWSWIRE) \u2014 Changan Group has launched SDA Pilot, an advanced driver assistance system developed by its own engineering teams.\n\nThe system is designed to make driving safer, smoother and stress-free.\n\nIt follows sustained investment by Changan in intelligent driving technology.\n\n\u201cChangan\u2019s intelligent driving team has grown from a handful [\u2026]\n\nhttps://financialpost.com/globe-newswire/changan-officially-launches-sda-pilot-to-deliver-safer-smoother-and-stress-free-intelligent-driving",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/globe-newswire/changan-officially-launches-sda-pilot-to-deliver-safer-smoother-and-stress-free-intelligent-driving",
-    "source_title": "Changan Officially Launches SDA Pilot to Deliver Safer, Smoother and Stress-Free Intelligent Driving",
-    "source_summary": "CHONGQING, China, Sept. 05, 2026 (GLOBE NEWSWIRE) \u2014 Changan Group has launched SDA Pilot, an advanced driver assistance system developed by its own engineering teams. The system is designed to make driving safer, smoother and stress-free. It follows sustained investment by Changan in intelligent driving technology. \u201cChangan\u2019s intelligent driving team has grown from a handful [\u2026]",
-    "drafted_at": "2026-09-05T13:43:30.264760",
-    "data": {
-      "source": "FINANCIAL POST"
-    },
-    "content_hash": "6dd9e0de79efba5c"
-  },
-  {
-    "id": "4216df2e",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Gulf wire: Amid rising public discontent, Iranian authorities say adversaries are focused on encouraging domestic unrest.\n\nhttps://www.aljazeera.com/economy/2026/9/5/iran-president-pezeshkian-calls-for-unity-as-us-ramps-up-economic-pressure?traffic_source=rss",
+    "draft_text": "From the Gulf: At least six other people were injured in the tanker blast on Iran's Hamedan-Sanandaj highway, officials say.\n\nhttps://www.aljazeera.com/news/2026/9/5/fuel-tanker-blast-in-western-iran-kills-at-least-10?traffic_source=rss",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/economy/2026/9/5/iran-president-pezeshkian-calls-for-unity-as-us-ramps-up-economic-pressure?traffic_source=rss",
-    "source_title": "Iran President Pezeshkian calls for unity as US ramps up economic pressure",
-    "source_summary": "Amid rising public discontent, Iranian authorities say adversaries are focused on encouraging domestic unrest.",
-    "drafted_at": "2026-09-05T13:43:30.264933",
+    "source_url": "https://www.aljazeera.com/news/2026/9/5/fuel-tanker-blast-in-western-iran-kills-at-least-10?traffic_source=rss",
+    "source_title": "Fuel tanker blast in western Iran kills at least 10",
+    "source_summary": "At least six other people were injured in the tanker blast on Iran's Hamedan-Sanandaj highway, officials say.",
+    "drafted_at": "2026-09-05T23:26:49.200127",
     "data": {
       "source": "AL JAZEERA"
     },
-    "content_hash": "b62b4429142793ff"
+    "content_hash": "b193d6fb8ad89e1d"
   },
   {
-    "id": "eb0c98f6",
+    "id": "adf143f2",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Gulf wire: U.S. House Speaker MIKE JOHNSON (R-LA) recaps this week\u2019s votes in which House Democrats refused to condemn Socialism and refused to codify the Supreme Court justices should remain at a total of 9.\n\nHouse Judiciary Committee chairman JIM JORDAN (R-OH) says much more oversight is needed to prevent activist groups like the Southern Poverty Law Center from harassing conservative & Christian organizations and falsely labeling them as \u201chate groups.\u201d U.\n\nSenator BILL CASSIDY (R-LA) warns abortion-pill manufacturers continue to defy FDA regulations on mail-order abortion drugs being issued without doctor supervisions.\n\nCHRISTIAN DATOC, White House correspondent for The Washington Examiner, looks at the latest on the U.S./Iran conflict.\n\nAnd TONY PERKINS offers a commentary commentary on how the younger generation of voters in America apparently have no knowledge of the \u201cIron Curtain\u201d or why Socialism inevitably leads to repression and censoring information.\n\nAll this\u2014and more\u2014coming up on our latest edition of THIS WEEK ON CAPITOL HILL (TWOCH) with Tony Perkins, sponsored by AARP.\n\nhttps://townhall.com/videos/2026/09/05/socialism-on-the-rise-mike-johnson-warns-democrats-are-showing-their-true-colors-n2682536",
+    "draft_text": "Gulf wire: Oil prices are about to book yet another weekly gain as the war in the Middle East remains hot, with a pessimistic outlook.\n\nOil exporters from the region are rushing to diversify their export channels, and importers are rushing to diversify their suppliers.\n\nThe oil market is changing in what may well prove to be an irreversible way.\n\nThe Strait of Hormuz is one of the biggest export routes for crude oil\u2014and liquefied gas\u2014in the world.\n\nBefore the first U.S. and Israeli strikes on Iran, the strait handled close to 20 million barrels daily\u2026\n\nhttps://oilprice.com/Energy/Crude-Oil/Iran-War-Forces-a-Rewrite-of-Global-Oil-Trade-Routes.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "TOWNHALL FIN",
-    "source_url": "https://townhall.com/videos/2026/09/05/socialism-on-the-rise-mike-johnson-warns-democrats-are-showing-their-true-colors-n2682536",
-    "source_title": "Socialism on the Rise? Mike Johnson Warns Democrats Are Showing Their True Colors",
-    "source_summary": "U.S. House Speaker MIKE JOHNSON (R-LA) recaps this week\u2019s votes in which House Democrats refused to condemn Socialism and refused to codify the Supreme Court justices should remain at a total of 9. House Judiciary Committee chairman JIM JORDAN (R-OH) says much more oversight is needed to prevent activist groups like the Southern Poverty Law Center from harassing conservative & Christian organizati",
-    "drafted_at": "2026-09-05T13:43:30.266373",
+    "primary_source": "OILPRICE",
+    "source_url": "https://oilprice.com/Energy/Crude-Oil/Iran-War-Forces-a-Rewrite-of-Global-Oil-Trade-Routes.html",
+    "source_title": "Iran War Forces a Rewrite of Global Oil Trade Routes",
+    "source_summary": "Oil prices are about to book yet another weekly gain as the war in the Middle East remains hot, with a pessimistic outlook. Oil exporters from the region are rushing to diversify their export channels, and importers are rushing to diversify their suppliers. The oil market is changing in what may well prove to be an irreversible way. The Strait of Hormuz is one of the biggest export routes for crud",
+    "drafted_at": "2026-09-05T23:26:49.200770",
     "data": {
-      "source": "TOWNHALL FIN"
+      "source": "OILPRICE"
     },
-    "content_hash": "18a5f2bbd5cfb05b"
+    "content_hash": "7d162b5f7d69874b"
   },
   {
-    "id": "103fc477",
+    "id": "8555eebe",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "LATAM DESK: The leftist Mexican president seeks to block Washington's meddling with new citizenship requirements.\n\nThe post Claudia Sheinbaum Wants to Ban Dual Citizens From Office to Shield Mexico From Trump appeared first on The Intercept.\n\nhttps://theintercept.com/2026/09/05/mexico-president-dual-citizenship/",
+    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: The escalation could destabilize regional geopolitics, influence market dynamics, and increase the likelihood of Iran closing its airspace.\n\nThe post Iran claims missile attack on US aircraft carrier, destroyer appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iran-claims-missile-attack-on-us-aircraft-carrier-destroyer/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "INTERCEPT",
-    "source_url": "https://theintercept.com/2026/09/05/mexico-president-dual-citizenship/",
-    "source_title": "Claudia Sheinbaum Wants to Ban Dual Citizens From Office to Shield Mexico From Trump",
-    "source_summary": "The leftist Mexican president seeks to block Washington's meddling with new citizenship requirements. Critics say it's authoritarian. The post Claudia Sheinbaum Wants to Ban Dual Citizens From Office to Shield Mexico From Trump appeared first on The Intercept .",
-    "drafted_at": "2026-09-05T13:43:30.270766",
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/iran-claims-missile-attack-on-us-aircraft-carrier-destroyer/",
+    "source_title": "Iran claims missile attack on US aircraft carrier, destroyer",
+    "source_summary": "The escalation could destabilize regional geopolitics, influence market dynamics, and increase the likelihood of Iran closing its airspace. The post Iran claims missile attack on US aircraft carrier, destroyer appeared first on Crypto Briefing .",
+    "drafted_at": "2026-09-05T23:26:49.201177",
     "data": {
-      "source": "INTERCEPT"
+      "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "7ca8c29890793b34"
+    "content_hash": "2b9bf6254154f5f0"
   },
   {
-    "id": "8cee57c6",
+    "id": "5567d8c2",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Levant update: Rising fuel costs strain household budgets and political stability, highlighting vulnerabilities in global energy supply amid geopolitical tensions.\n\nThe post US gasoline prices hit record $4.03 per gallon for Labor Day weekend amid Iran tensions appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/us-gasoline-prices-record-labor-day-iran/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/us-gasoline-prices-record-labor-day-iran/",
+    "source_title": "US gasoline prices hit record $4.03 per gallon for Labor Day weekend amid Iran tensions",
+    "source_summary": "Rising fuel costs strain household budgets and political stability, highlighting vulnerabilities in global energy supply amid geopolitical tensions. The post US gasoline prices hit record $4.03 per gallon for Labor Day weekend amid Iran tensions appeared first on Crypto Briefing .",
+    "drafted_at": "2026-09-05T23:26:49.201454",
+    "data": {
+      "source": "CRYPTO BRIEFING"
+    },
+    "content_hash": "6dd865a964904d23"
+  },
+  {
+    "id": "7da42d93",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "World wire: A building collapsed in Muradabad, northern India, tearing through power lines and sending sparks into the street.\n\nhttps://www.aljazeera.com/video/newsfeed/2026/9/5/09-05-sv-india-building-collapse-mp4?traffic_source=rss",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "AL JAZEERA",
+    "source_url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/09-05-sv-india-building-collapse-mp4?traffic_source=rss",
+    "source_title": "Building collapses after heavy rain in northern India",
+    "source_summary": "A building collapsed in Muradabad, northern India, tearing through power lines and sending sparks into the street.",
+    "drafted_at": "2026-09-05T23:26:49.202131",
+    "data": {
+      "source": "AL JAZEERA"
+    },
+    "content_hash": "bb29128ee896980e"
+  },
+  {
+    "id": "a66e5bb1",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "JOBS DAY. August payrolls weakened the case for patience, leaving Sept.\n\n11 CPI as Bitcoin\u2019s next decisive volatility test.\n\nThe post Bitcoin dips below $80,000 as a hot August jobs report shifts Fed policy expectations appeared first on CryptoSlate.\n\nhttps://cryptoslate.com/bitcoins-80000-rally-just-lost-the-feds-labor-market-escape-hatch/",
+    "draft_text": "How fast is the economy moving? Now we know: US federal debt has crossed $40 trillion.\n\nThe government is still running a deficit close to 6% of GDP.\n\nYet Bitcoin is trading near $80,000, roughly 37% below its record high from last year.\n\nThat creates an awkward question for one of Bitcoin\u2019s oldest macro narratives.\n\nIf rising debt and The post US Debt Hit $40 Trillion.\n\nSo Where Is Bitcoin\u2019s Debasement Trade? appeared first on BeInCrypto.\n\nhttps://beincrypto.com/bitcoin-us-debt-debasement-trade/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CRYPTOSLATE",
-    "source_url": "https://cryptoslate.com/bitcoins-80000-rally-just-lost-the-feds-labor-market-escape-hatch/",
-    "source_title": "Bitcoin dips below $80,000 as a hot August jobs report shifts Fed policy expectations",
-    "source_summary": "August payrolls weakened the case for patience, leaving Sept. 11 CPI as Bitcoin\u2019s next decisive volatility test. The post Bitcoin dips below $80,000 as a hot August jobs report shifts Fed policy expectations appeared first on CryptoSlate .",
-    "drafted_at": "2026-09-05T13:43:30.326074",
+    "primary_source": "BEINCRYPTO",
+    "source_url": "https://beincrypto.com/bitcoin-us-debt-debasement-trade/",
+    "source_title": "US Debt Hit $40 Trillion. So Where Is Bitcoin\u2019s Debasement Trade?",
+    "source_summary": "US federal debt has crossed $40 trillion. The government is still running a deficit close to 6% of GDP. Long-term borrowing costs remain high. Yet Bitcoin is trading near $80,000, roughly 37% below its record high from last year. That creates an awkward question for one of Bitcoin\u2019s oldest macro narratives. If rising debt and The post US Debt Hit $40 Trillion. So Where Is Bitcoin\u2019s Debasement Trad",
+    "drafted_at": "2026-09-05T23:26:49.260405",
     "data": {
-      "source": "CRYPTOSLATE"
+      "source": "BEINCRYPTO"
     },
-    "content_hash": "480a119a22899421"
+    "content_hash": "8dcc8a8429c318d1"
   },
   {
-    "id": "1bd2a461",
+    "id": "2a0e20fe",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "Hiring scoreboard: The Mexican Peso appreciates against the US Dollar, testing two-year highs near 16.85 as the USD/MXN sets aside a strong US Nonfarm Payrolls report, which was ignored by the Peso\u2019s bears.\n\nhttps://www.fxstreet.com/news/usd-mxn-price-forecast-peso-rally-targets-april-2024-low-202609042159",
@@ -515,14 +479,14 @@
     "source_url": "https://www.fxstreet.com/news/usd-mxn-price-forecast-peso-rally-targets-april-2024-low-202609042159",
     "source_title": "USD/MXN Price Forecast: Peso rally targets April 2024 low",
     "source_summary": "The Mexican Peso appreciates against the US Dollar, testing two-year highs near 16.85 as the USD/MXN sets aside a strong US Nonfarm Payrolls report, which was ignored by the Peso\u2019s bears.",
-    "drafted_at": "2026-09-05T13:43:30.326438",
+    "drafted_at": "2026-09-05T23:26:49.260688",
     "data": {
       "source": "FXSTREET"
     },
     "content_hash": "996dca8bbf45fead"
   },
   {
-    "id": "33b11e72",
+    "id": "02429bdd",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "CPI POSTCARD: The stock market, including the Dow Jones index, falls after a strong jobs report and a trade threat from President Trump.\n\nThe post Stock Market Skids After Strong Jobs Report; Trump Makes Trade Threat As CPI Data Looms appeared first on Investor's Business Daily.\n\nhttps://www.investors.com/market-trend/the-big-picture/dow-jones-stock-market-jobs-report-trump-trade-threat-cpi/",
@@ -532,14 +496,14 @@
     "source_url": "https://www.investors.com/market-trend/the-big-picture/dow-jones-stock-market-jobs-report-trump-trade-threat-cpi/",
     "source_title": "Stock Market Skids After Strong Jobs Report; Trump Makes Trade Threat As CPI Data Looms",
     "source_summary": "The stock market, including the Dow Jones index, falls after a strong jobs report and a trade threat from President Trump. CPI data looms. The post Stock Market Skids After Strong Jobs Report; Trump Makes Trade Threat As CPI Data Looms appeared first on Investor's Business Daily .",
-    "drafted_at": "2026-09-05T13:43:30.326781",
+    "drafted_at": "2026-09-05T23:26:49.260943",
     "data": {
       "source": "IBD"
     },
     "content_hash": "a27cadfbf274de61"
   },
   {
-    "id": "4b4b0e91",
+    "id": "4c1b159e",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "JOBS DAY. The USD/CHF registers modest gains of over 0.30% as the Greenback is boosted by a solid US Nonfarm Payrolls report, pushing the pair above the 50-day Simple Moving Average (SMA) to reach a daily high of 0.8126.\n\nAt the time of writing, trades at 0.8098.\n\nhttps://www.fxstreet.com/news/usd-chf-price-forecast-nfp-rally-stalls-at-08100-retraces-202609042127",
@@ -549,14 +513,14 @@
     "source_url": "https://www.fxstreet.com/news/usd-chf-price-forecast-nfp-rally-stalls-at-08100-retraces-202609042127",
     "source_title": "USD/CHF Price Forecast: NFP rally stalls at 0.8100, retraces",
     "source_summary": "The USD/CHF registers modest gains of over 0.30% as the Greenback is boosted by a solid US Nonfarm Payrolls report, pushing the pair above the 50-day Simple Moving Average (SMA) to reach a daily high of 0.8126. At the time of writing, trades at 0.8098.",
-    "drafted_at": "2026-09-05T13:43:30.327130",
+    "drafted_at": "2026-09-05T23:26:49.261185",
     "data": {
       "source": "FXSTREET"
     },
     "content_hash": "785dacf78ffa9f62"
   },
   {
-    "id": "4b809f46",
+    "id": "03be031c",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "LABOR MARKET READ: Trump: Witkoff and Kushner will bring proposal to Putin to end the war Cleveland Fed President Beth Hammack is sounding decidedly hawkish on monetary policy Trump tells Fed: Lower the rate or I'll stop trading with countries with which we have a deficit Canada Employment change for August -41,7K vs 15.0K estimate US August non-farm payrolls +162K vs +56K expected Markets: WTI crude oil down $0.01 to $91.30 US 10-year yields down 1.8 bps to 4.78% Gold down $39 to $4433 AUD leads, JPY lags on the day S&P 500 down 0.4% The jobs reports from the USA and Canada were the highlights and they diverged with a big win for the US and a miss for Canada, reversing what happened a month ago.\n\nThe dollar initially jumped on non-farm payrolls, rising around 35 pips across the board but the moves seconds after the data were the extremes for the day.\n\nThere were the usual caveats in the jobs report as education and hospitality added much of the gains but overall it was still a strong report.\n\nThe big retracement in the dollar was more about Fed thinking, with Waller yesterday indicating that the jobs report wouldn't be a big factor in his thinking.\n\nStill, the implied odds of a hike moved to 58% from 49% and short-dated yields rose 4 bps.\n\nThe yen remained in focus and there were fresh signs of meddling as the pair fell more than 200 pips from the post-NFP jump.\n\nAfter reaching 155.40 the pair climbed steadily back to 156.26 to finish the day up around 50 pips.\n\nIt's been a volatile start to the month for the pair so far.\n\nhttps://investinglive.com/news/investinglive-americas-market-news-wrap-big-beat-for-non-farm-payrolls/",
@@ -566,14 +530,14 @@
     "source_url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-big-beat-for-non-farm-payrolls/",
     "source_title": "investingLive Americas market news wrap: Big beat for non-farm payrolls",
     "source_summary": "Trump: Witkoff and Kushner will bring proposal to Putin to end the war Cleveland Fed President Beth Hammack is sounding decidedly hawkish on monetary policy Trump tells Fed: Lower the rate or I'll stop trading with countries with which we have a deficit Canada Employment change for August -41,7K vs 15.0K estimate US August non-farm payrolls +162K vs +56K expected Markets: WTI crude oil down $0.01 ",
-    "drafted_at": "2026-09-05T13:43:30.329180",
+    "drafted_at": "2026-09-05T23:26:49.262666",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "40ce07226e65eb55"
   },
   {
-    "id": "9f21d7dc",
+    "id": "47eed15d",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -583,7 +547,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-09-05T13:43:30.337853",
+    "drafted_at": "2026-09-05T23:26:49.269462",
     "data": {
       "manual": true,
       "via": "manual_news.md"
