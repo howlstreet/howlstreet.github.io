@@ -1,6 +1,6 @@
 [
   {
-    "id": "0fa1f12b",
+    "id": "e0f35f80",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "The stock market, including the Dow Jones index, falls after a strong jobs report and a trade threat from President Trump.\n\nThe post Stock Market Skids After Strong Jobs Report; Trump Makes Trade Threat As CPI Data Looms appeared first on Investor's Business Daily.\n\nhttps://www.investors.com/market-trend/the-big-picture/dow-jones-stock-market-jobs-report-trump-trade-threat-cpi/",
@@ -10,14 +10,33 @@
     "source_url": "https://www.investors.com/market-trend/the-big-picture/dow-jones-stock-market-jobs-report-trump-trade-threat-cpi/",
     "source_title": "Stock Market Skids After Strong Jobs Report; Trump Makes Trade Threat As CPI Data Looms",
     "source_summary": "The stock market, including the Dow Jones index, falls after a strong jobs report and a trade threat from President Trump. CPI data looms. The post Stock Market Skids After Strong Jobs Report; Trump Makes Trade Threat As CPI Data Looms appeared first on Investor's Business Daily .",
-    "drafted_at": "2026-09-04T23:31:51.612717",
+    "drafted_at": "2026-09-05T01:48:52.071255",
     "data": {
       "source": "IBD"
     },
     "content_hash": "a27cadfbf274de61"
   },
   {
-    "id": "3b0a70e4",
+    "id": "e5d1daa6",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "I don't say this often, but pay attention: WTI crude surges 10.8% in 5 sessions to $91.22.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NYMEX \u00b7 CL=F",
+    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "source_title": "WTI crude oil futures",
+    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "drafted_at": "2026-09-05T01:48:52.071592",
+    "data": {
+      "signal_id": "CL=F:move:2026-09-04",
+      "kind": "move_up",
+      "current": "$91.22"
+    },
+    "content_hash": "c272de0720a2f459"
+  },
+  {
+    "id": "aca37434",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "I'll keep it short: VIX slides 8.6% in 5 sessions to 14.12.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
@@ -27,7 +46,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EVIX",
     "source_title": "VIX (S&P 500 volatility)",
     "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-09-04T23:31:51.612998",
+    "drafted_at": "2026-09-05T01:48:52.071829",
     "data": {
       "signal_id": "^VIX:move:2026-09-04",
       "kind": "move_down",
@@ -36,45 +55,7 @@
     "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "f25acf7e",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "I don't say this often, but pay attention: WTI crude surges 11.0% in 5 sessions to $91.40.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "NYMEX \u00b7 CL=F",
-    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
-    "source_title": "WTI crude oil futures",
-    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-09-04T23:31:51.613251",
-    "data": {
-      "signal_id": "CL=F:move:2026-09-04",
-      "kind": "move_up",
-      "current": "$91.40"
-    },
-    "content_hash": "c272de0720a2f459"
-  },
-  {
-    "id": "b279092c",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "You blink, you miss this: WTI crude jumps 8.1% in 5 sessions to $91.86.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "NYMEX \u00b7 CL=F",
-    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
-    "source_title": "WTI crude oil futures",
-    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-09-04T23:31:51.613489",
-    "data": {
-      "signal_id": "CL=F:move:2026-09-03",
-      "kind": "move_up",
-      "current": "$91.86"
-    },
-    "content_hash": "c272de0720a2f459"
-  },
-  {
-    "id": "d83f6036",
+    "id": "92689dbd",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "If you trade rates, read this: Policymakers will have CPI but not official August PCE when they decide, leaving a second market test on Sept.\n\nThe post Bitcoin faces a two-week Fed trap as inflation rewrite threatens to upend rate cuts appeared first on CryptoSlate.\n\nhttps://cryptoslate.com/bitcoin-faces-a-two-week-fed-trap-as-inflation-rewrite-threatens-to-upend-rate-cuts/",
@@ -84,14 +65,14 @@
     "source_url": "https://cryptoslate.com/bitcoin-faces-a-two-week-fed-trap-as-inflation-rewrite-threatens-to-upend-rate-cuts/",
     "source_title": "Bitcoin faces a two-week Fed trap as inflation rewrite threatens to upend rate cuts",
     "source_summary": "Policymakers will have CPI but not official August PCE when they decide, leaving a second market test on Sept. 30. The post Bitcoin faces a two-week Fed trap as inflation rewrite threatens to upend rate cuts appeared first on CryptoSlate .",
-    "drafted_at": "2026-09-04T23:31:51.624686",
+    "drafted_at": "2026-09-05T01:48:52.082250",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "b56969358f466178"
   },
   {
-    "id": "c0234946",
+    "id": "82e77fc3",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "POWELL POSTCARD: Here is the latest rant from the President following today's jobs report: Great jobs number just announced, breaking all estimates (except mine!) by double and triple - And you haven\u2019t seen anything yet!\n\nLower the interest rates because the U.S.A. is a much stronger credit than it was just a short time ago!\n\nA STRONG COUNTRY MEANS A LOWER INTEREST RATE - IT\u2019S A BETTER CREDIT\u2026Very simple!\n\nWe should have the LOWEST RATE of any country in the World, like \u201cthe old days.\u201d Without the United States agreeing to allow them their big surpluses, and we could stop that immediately, they would no longer be considered financially ELITE!\n\nLOWER THE RATE OR I\u2019LL STOP TRADING WITH COUNTRIES WITH WHICH WE HAVE A DEFICIT, which the U.S. Supreme Court, in its ridiculous and very costly Tariff decision, strongly acknowledged \u201cthe President\u201d has an absolute right to do.\n\nThe Fed Board, with its great new leader, must get smart - BE PATRIOTS for a change.\n\nHigh interest rates put the U.S.A. at a very unfair disadvantage, and I won\u2019t allow that to happen!\n\nTRUMP I don't even know where to start with this nonsense.\n\nhttps://investinglive.com/news/trump-tells-fed-lower-the-rate-or-i-ll-stop-trading-with-countries-with-which-we-have-a-deficit/",
@@ -101,14 +82,14 @@
     "source_url": "https://investinglive.com/news/trump-tells-fed-lower-the-rate-or-i-ll-stop-trading-with-countries-with-which-we-have-a-deficit/",
     "source_title": "Trump tells Fed: Lower the rate or I'll stop trading with countries with which we have a deficit",
     "source_summary": "Here is the latest rant from the President following today's jobs report: Great jobs number just announced, breaking all estimates (except mine!) by double and triple - And you haven\u2019t seen anything yet! EMPLOYERS ADDED 162,000 JOB IN AUGUST. Lower the interest rates because the U.S.A. is a much stronger credit than it was just a short time ago! A STRONG COUNTRY MEANS A LOWER INTEREST RATE - IT\u2019S ",
-    "drafted_at": "2026-09-04T23:31:51.626271",
+    "drafted_at": "2026-09-05T01:48:52.083889",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "da91e5e73a216ca9"
   },
   {
-    "id": "7cfb1ddf",
+    "id": "ca28379a",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Policy update for the pack: The Board's process for setting the discount rate is distinct from the process the Federal Open Market Committee follows in setting the target range for the federal funds rate.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
@@ -118,14 +99,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
     "source_title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
     "source_summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
-    "drafted_at": "2026-09-04T23:31:51.626697",
+    "drafted_at": "2026-09-05T01:48:52.084312",
     "data": {
       "actor": "FED"
     },
     "content_hash": "da9833991b6c87c5"
   },
   {
-    "id": "cfda4bac",
+    "id": "778f84b1",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "POWELL POSTCARD: Consent prohibition against Stephanie R.\n\nConsent prohibition against Crystal A.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm",
@@ -135,14 +116,34 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm",
     "source_title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
     "source_summary": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
-    "drafted_at": "2026-09-04T23:31:51.627056",
+    "drafted_at": "2026-09-05T01:48:52.084704",
     "data": {
       "actor": "FED"
     },
     "content_hash": "1899c878ef68bdd8"
   },
   {
-    "id": "6487b7dd",
+    "id": "8bb74bf7",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$LILA \u2014 6 company insiders bought $47.8M on Aug 31.\n\nLiberty Latin America Ltd. 4,220,044 shares at $11.33.\n\nStock is -22.6% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/LILA_P_20260831.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=LILA",
+    "source_title": "Liberty Latin America Ltd. (LILA) insider bought $47.8M",
+    "source_summary": "6 insider(s) bought 4,220,044 shares at $11.33 on 2026-08-31.",
+    "drafted_at": "2026-09-05T01:48:52.084995",
+    "data": {
+      "ticker": "LILA",
+      "type": "P",
+      "dollar_value": 47824567.0,
+      "pct_since": -22.59487680702849
+    },
+    "content_hash": "bf4180697a0d8e54"
+  },
+  {
+    "id": "928d3786",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$ADC \u2014 2 company insiders bought $2.6M on Aug 31.\n\nAgree Realty Corp. 35,136 shares at $72.74.\n\nStock is -0.2% since the purchase. This is a public SEC Form 4 filing.",
@@ -152,7 +153,7 @@
     "source_url": "http://openinsider.com/screener?s=ADC",
     "source_title": "Agree Realty Corp (ADC) insider bought $2.6M",
     "source_summary": "2 insider(s) bought 35,136 shares at $72.74 on 2026-08-31.",
-    "drafted_at": "2026-09-04T23:31:51.627350",
+    "drafted_at": "2026-09-05T01:48:52.085200",
     "data": {
       "ticker": "ADC",
       "type": "P",
@@ -162,7 +163,7 @@
     "content_hash": "9e8d17e70c2034ff"
   },
   {
-    "id": "21698209",
+    "id": "9d33cf08",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$ATRA \u2014 a company insider bought $999,994 on Sep 04.\n\nAtara Biotherapeutics, Inc. 104,166 shares at $9.60.\n\nStock is +1.7% since the purchase. This is a public SEC Form 4 filing.",
@@ -172,7 +173,7 @@
     "source_url": "http://openinsider.com/screener?s=ATRA",
     "source_title": "Atara Biotherapeutics, Inc. (ATRA) insider bought $999,994",
     "source_summary": "1 insider(s) bought 104,166 shares at $9.60 on 2026-09-04.",
-    "drafted_at": "2026-09-04T23:31:51.627589",
+    "drafted_at": "2026-09-05T01:48:52.085406",
     "data": {
       "ticker": "ATRA",
       "type": "P",
@@ -182,7 +183,7 @@
     "content_hash": "0bcde855cd2ec36f"
   },
   {
-    "id": "77db8515",
+    "id": "0c6a38e5",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$BABA \u2014 2 company insiders bought $25.7M on Aug 25.\n\nAlibaba Group Holding Ltd. 1,790,000 shares at $14.35.\n\nStock is +689.1% since the purchase. This is a public SEC Form 4 filing.",
@@ -192,7 +193,7 @@
     "source_url": "http://openinsider.com/screener?s=BABA",
     "source_title": "Alibaba Group Holding Ltd (BABA) insider bought $25.7M",
     "source_summary": "2 insider(s) bought 1,790,000 shares at $14.35 on 2026-08-25.",
-    "drafted_at": "2026-09-04T23:31:51.627798",
+    "drafted_at": "2026-09-05T01:48:52.085632",
     "data": {
       "ticker": "BABA",
       "type": "P",
@@ -202,7 +203,7 @@
     "content_hash": "7e10badf4194a119"
   },
   {
-    "id": "14285cb8",
+    "id": "6ea07285",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$PFLEX \u2014 a company insider bought $1.0M on Sep 02.\n\nPimco Flexible Credit Income Fund. 148,827 shares at $6.82.\n\nStock is +0.3% since the purchase. This is a public SEC Form 4 filing.",
@@ -212,7 +213,7 @@
     "source_url": "http://openinsider.com/screener?s=PFLEX",
     "source_title": "Pimco Flexible Credit Income Fund (PFLEX) insider bought $1.0M",
     "source_summary": "1 insider(s) bought 148,827 shares at $6.82 on 2026-09-02.",
-    "drafted_at": "2026-09-04T23:31:51.628005",
+    "drafted_at": "2026-09-05T01:48:52.085836",
     "data": {
       "ticker": "PFLEX",
       "type": "P",
@@ -222,27 +223,58 @@
     "content_hash": "6459629dfa9cfc0d"
   },
   {
-    "id": "b3ca9c2c",
-    "format": "CORRUPTION_WATCH_INSIDER",
+    "id": "80bd275c",
+    "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "$PNFP \u2014 2 company insiders bought $1.3M on Sep 01.\n\nPinnacle Financial Partners, Inc. 12,578 shares at $99.41.\n\nStock is +2.2% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/PNFP_P_20260901.png",
+    "draft_text": "Two Florida Men Sentenced in $34.8 Million Medicare Brace Fraud Scheme\n\nhttps://townhall.com/news/scott-mcclallen/2026/09/04/two-florida-men-sentenced-in-348-million-medicare-brace-fraud-scheme-n2682530",
+    "image_path": null,
     "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=PNFP",
-    "source_title": "Pinnacle Financial Partners, Inc. (PNFP) insider bought $1.3M",
-    "source_summary": "2 insider(s) bought 12,578 shares at $99.41 on 2026-09-01.",
-    "drafted_at": "2026-09-04T23:31:51.628209",
+    "primary_source": "TOWNHALL FIN",
+    "source_url": "https://townhall.com/news/scott-mcclallen/2026/09/04/two-florida-men-sentenced-in-348-million-medicare-brace-fraud-scheme-n2682530",
+    "source_title": "Two Florida Men Sentenced in $34.8 Million Medicare Brace Fraud Scheme",
+    "source_summary": "",
+    "drafted_at": "2026-09-05T01:48:52.089069",
     "data": {
-      "ticker": "PNFP",
-      "type": "P",
-      "dollar_value": 1250335.0,
-      "pct_since": 2.197969239214494
+      "source": "TOWNHALL FIN"
     },
-    "content_hash": "9bb07ef0da2ea94e"
+    "content_hash": "694733bd0fec5913"
   },
   {
-    "id": "c7c09877",
+    "id": "b348a78b",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Illegal Alien Charged in $1.3 Billion Medicare Fraud Money Laundering Scheme\n\nhttps://townhall.com/news/scott-mcclallen/2026/09/04/illegal-alien-charged-in-13-billion-medicare-fraud-money-laundering-scheme-n2682523",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "TOWNHALL FIN",
+    "source_url": "https://townhall.com/news/scott-mcclallen/2026/09/04/illegal-alien-charged-in-13-billion-medicare-fraud-money-laundering-scheme-n2682523",
+    "source_title": "Illegal Alien Charged in $1.3 Billion Medicare Fraud Money Laundering Scheme",
+    "source_summary": "",
+    "drafted_at": "2026-09-05T01:48:52.089155",
+    "data": {
+      "source": "TOWNHALL FIN"
+    },
+    "content_hash": "d16419ad1ec44124"
+  },
+  {
+    "id": "bfec38c5",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "An attorney representing Maria Bartiromo released a combative statement denying that she was fired from Fox News.\n\nThe longtime host at Fox Business had reportedly \"parted ways\" with the network effective immediately, according to a network statement Thursday.\n\n'Maria is a total professional, and a true warrior.\n\nhttps://www.theblaze.com/news/maria-bartiromo-lawyer-denies-firing",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "THE BLAZE",
+    "source_url": "https://www.theblaze.com/news/maria-bartiromo-lawyer-denies-firing",
+    "source_title": "Maria Bartiromo attorney denies she's been fired",
+    "source_summary": "An attorney representing Maria Bartiromo released a combative statement denying that she was fired from Fox News. The longtime host at Fox Business had reportedly \"parted ways\" with the network effective immediately, according to a network statement Thursday. 'Maria is a total professional, and a true warrior. Her fans, of which there are many, will not be happy.' \"The irresponsible reports that h",
+    "drafted_at": "2026-09-05T01:48:52.090094",
+    "data": {
+      "source": "THE BLAZE"
+    },
+    "content_hash": "d846aae1de90c51e"
+  },
+  {
+    "id": "2d23f673",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Another Illegal Busted in a Billion Dollar Medicare Fraud, Another Day Ending in 'Y'...or 'Why'\n\nhttps://hotair.com/tree-hugging-sister/2026/09/04/another-illegal-busted-in-a-billion-dollar-medicare-fraud-another-day-ending-in-yor-why-n3818699",
@@ -252,14 +284,14 @@
     "source_url": "https://hotair.com/tree-hugging-sister/2026/09/04/another-illegal-busted-in-a-billion-dollar-medicare-fraud-another-day-ending-in-yor-why-n3818699",
     "source_title": "Another Illegal Busted in a Billion Dollar Medicare Fraud, Another Day Ending in 'Y'...or 'Why'",
     "source_summary": "",
-    "drafted_at": "2026-09-04T23:31:51.631279",
+    "drafted_at": "2026-09-05T01:48:52.090192",
     "data": {
       "source": "HOT AIR"
     },
     "content_hash": "0413235fd5a94839"
   },
   {
-    "id": "b745fe3c",
+    "id": "08052711",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Maryland Man Sentenced to Prison for $270K Disability Fraud Scheme\n\nhttps://townhall.com/news/scott-mcclallen/2026/09/04/maryland-man-sentenced-to-prison-for-270k-disability-fraud-scheme-n2682504",
@@ -269,65 +301,14 @@
     "source_url": "https://townhall.com/news/scott-mcclallen/2026/09/04/maryland-man-sentenced-to-prison-for-270k-disability-fraud-scheme-n2682504",
     "source_title": "Maryland Man Sentenced to Prison for $270K Disability Fraud Scheme",
     "source_summary": "",
-    "drafted_at": "2026-09-04T23:31:51.631356",
+    "drafted_at": "2026-09-05T01:48:52.090269",
     "data": {
       "source": "TOWNHALL FIN"
     },
     "content_hash": "e5bd28454b897d64"
   },
   {
-    "id": "07ad4057",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "The first ballots of the midterm elections have left the building.\n\nThe Trump administration filed an emergency application to the Supreme Court on Thursday asking the court to remove a lower court\u2019s stay on the administration's new postal ballot rules.\n\nNorth Carolina, one of the states suing the administration, sent out ballots on Friday. \u2018The cheating on mail-in ballots is legendary.\u2019 More than 46,000 North Carolina ballots have been sent out, though only to those who specifically requested them.\n\nhttps://www.theblaze.com/news/trump-supreme-court-midterm-ballots",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "THE BLAZE",
-    "source_url": "https://www.theblaze.com/news/trump-supreme-court-midterm-ballots",
-    "source_title": "Deadlines are fast approaching on Trump's mail-in ballot initiatives as election season begins",
-    "source_summary": "The first ballots of the midterm elections have left the building. The Trump administration filed an emergency application to the Supreme Court on Thursday asking the court to remove a lower court\u2019s stay on the administration's new postal ballot rules. North Carolina , one of the states suing the administration, sent out ballots on Friday. \u2018The cheating on mail-in ballots is legendary.\u2019 More than ",
-    "drafted_at": "2026-09-04T23:31:51.633086",
-    "data": {
-      "source": "THE BLAZE"
-    },
-    "content_hash": "c8f88bd91806f73a"
-  },
-  {
-    "id": "fd6aa575",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Kansas City Childcare Operator Indicted in $75K COVID-19 Fraud Scheme\n\nhttps://townhall.com/news/scott-mcclallen/2026/09/04/kansas-city-childcare-operator-indicted-in-75k-covid-19-fraud-scheme-n2682502",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "TOWNHALL FIN",
-    "source_url": "https://townhall.com/news/scott-mcclallen/2026/09/04/kansas-city-childcare-operator-indicted-in-75k-covid-19-fraud-scheme-n2682502",
-    "source_title": "Kansas City Childcare Operator Indicted in $75K COVID-19 Fraud Scheme",
-    "source_summary": "",
-    "drafted_at": "2026-09-04T23:31:51.633167",
-    "data": {
-      "source": "TOWNHALL FIN"
-    },
-    "content_hash": "be58ce652a3c6bb4"
-  },
-  {
-    "id": "5efa29ed",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "The court documents allege that Gugava laundered money for the foreign-based organization that perpetrated Operation Gold Rush, the largest health care fraud case ever prosecuted by the Department of Justice.\n\nhttps://justthenews.com/nation/crime/georgian-national-charged-13-billion-health-care-fraud-operation?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "JUST THE NEWS",
-    "source_url": "https://justthenews.com/nation/crime/georgian-national-charged-13-billion-health-care-fraud-operation?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
-    "source_title": "Georgian national charged in $1.3 billion health care fraud operation",
-    "source_summary": "The court documents allege that Gugava laundered money for the foreign-based organization that perpetrated Operation Gold Rush, the largest health care fraud case ever prosecuted by the Department of Justice.",
-    "drafted_at": "2026-09-04T23:31:51.633415",
-    "data": {
-      "source": "JUST THE NEWS"
-    },
-    "content_hash": "3fd41240e9331712"
-  },
-  {
-    "id": "8050b473",
+    "id": "dee406b3",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "6 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 David J. Taylor (R)\n\u2022 John Boozman (R)\n\u2022 Cleo Fields (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 John Fetterman (D)\n\u2022 John McGuire (R)\n\nLargest disclosed here: David J. Taylor, $1,001 - $15,000 on Feb 26.\n\nPrice since the first buy in this group: +27.0%.\n\nSTOCK Act disclosures. Public record.",
@@ -337,7 +318,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034138.pdf",
     "source_title": "6 Congress members bought $MSFT",
     "source_summary": "6 politicians bought $MSFT; largest $1,001 - $15,000 by David J. Taylor.",
-    "drafted_at": "2026-09-04T23:31:51.634929",
+    "drafted_at": "2026-09-05T01:48:52.093480",
     "data": {
       "ticker": "MSFT",
       "member_count": 6,
@@ -346,7 +327,7 @@
     "content_hash": "7c24415ac3c0b542"
   },
   {
-    "id": "a0df5087",
+    "id": "ce86bc39",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "5 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Markwayne Mullin (D)\n\u2022 Josh Gottheimer (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Markwayne Mullin, $50,001 - $100,000 on Feb 25.\n\nPrice since the first buy in this group: +49.3%.\n\nSTOCK Act disclosures. Public record.",
@@ -356,7 +337,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/f586922d-6083-44e5-8a32-769290389416/",
     "source_title": "5 Congress members bought $UNH",
     "source_summary": "5 politicians bought $UNH; largest $50,001 - $100,000 by Markwayne Mullin.",
-    "drafted_at": "2026-09-04T23:31:51.635278",
+    "drafted_at": "2026-09-05T01:48:52.093866",
     "data": {
       "ticker": "UNH",
       "member_count": 5,
@@ -365,7 +346,7 @@
     "content_hash": "7cbacf41d412a41b"
   },
   {
-    "id": "8e985886",
+    "id": "8b2dfbb1",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 Cleo Fields (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 John Fetterman (D)\n\u2022 John McGuire (R)\n\nLargest disclosed here: Cleo Fields, $1,001 - $15,000 on Mar 12.\n\nPrice since the first buy in this group: +23.6%.\n\nSTOCK Act disclosures. Public record.",
@@ -375,7 +356,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034179.pdf",
     "source_title": "4 Congress members bought $MSFT",
     "source_summary": "4 politicians bought $MSFT; largest $1,001 - $15,000 by Cleo Fields.",
-    "drafted_at": "2026-09-04T23:31:51.635633",
+    "drafted_at": "2026-09-05T01:48:52.094191",
     "data": {
       "ticker": "MSFT",
       "member_count": 4,
@@ -384,7 +365,7 @@
     "content_hash": "4ff8eafa69ce40c2"
   },
   {
-    "id": "3297a212",
+    "id": "dfd2f0bd",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $HD this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Lloyd Doggett (D)\n\u2022 Jared Moskowitz (D)\n\nLargest disclosed here: Richard Dean Dr McCormick, $1,001 - $15,000 on Mar 19.\n\nPrice since the first buy in this group: -3.1%.\n\nSTOCK Act disclosures. Public record.",
@@ -394,7 +375,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033648.pdf",
     "source_title": "3 Congress members bought $HD",
     "source_summary": "3 politicians bought $HD; largest $1,001 - $15,000 by Richard Dean Dr McCormick.",
-    "drafted_at": "2026-09-04T23:31:51.635947",
+    "drafted_at": "2026-09-05T01:48:52.094504",
     "data": {
       "ticker": "HD",
       "member_count": 3,
@@ -403,7 +384,7 @@
     "content_hash": "8c0eaad1e4da4036"
   },
   {
-    "id": "71f46df7",
+    "id": "454988e4",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $TSM this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard W. Allen (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Cleo Fields (D)\n\nLargest disclosed here: Richard W. Allen, $1,001 - $15,000 on Feb 19.\n\nPrice since the first buy in this group: +15.7%.\n\nSTOCK Act disclosures. Public record.",
@@ -413,7 +394,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034133.pdf",
     "source_title": "3 Congress members bought $TSM",
     "source_summary": "3 politicians bought $TSM; largest $1,001 - $15,000 by Richard W. Allen.",
-    "drafted_at": "2026-09-04T23:31:51.636241",
+    "drafted_at": "2026-09-05T01:48:52.094832",
     "data": {
       "ticker": "TSM",
       "member_count": 3,
@@ -422,7 +403,41 @@
     "content_hash": "5d9078569296551f"
   },
   {
-    "id": "49e61741",
+    "id": "587adcc2",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "MIDDLE EAST DESK: US President Donald Trump has repeated an earlier warning that the US may attack Iran's Pickaxe Mountain \"very soon\".\n\nhttps://www.aljazeera.com/news/liveblog/2026/9/5/iran-war-live-trump-says-us-may-target-irans-pickaxe-mountain-very-soon?traffic_source=rss",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "AL JAZEERA",
+    "source_url": "https://www.aljazeera.com/news/liveblog/2026/9/5/iran-war-live-trump-says-us-may-target-irans-pickaxe-mountain-very-soon?traffic_source=rss",
+    "source_title": "Iran war live: Trump says US may target Iran\u2019s Pickaxe Mountain \u2018very soon\u2019",
+    "source_summary": "US President Donald Trump has repeated an earlier warning that the US may attack Iran's Pickaxe Mountain \"very soon\".",
+    "drafted_at": "2026-09-05T01:48:52.096502",
+    "data": {
+      "source": "AL JAZEERA"
+    },
+    "content_hash": "d7bd6a493e96a298"
+  },
+  {
+    "id": "6619f52e",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "From the Gulf: Trump tells reporters the US is 'not fighting right now' despite a recent exchange of fire with Iran.\n\nhttps://www.aljazeera.com/news/2026/9/4/small-potatoes-us-president-trump-downplays-war-on-iran?traffic_source=rss",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "AL JAZEERA",
+    "source_url": "https://www.aljazeera.com/news/2026/9/4/small-potatoes-us-president-trump-downplays-war-on-iran?traffic_source=rss",
+    "source_title": "\u2018Small potatoes\u2019: US President Trump downplays war on Iran",
+    "source_summary": "Trump tells reporters the US is 'not fighting right now' despite a recent exchange of fire with Iran.",
+    "drafted_at": "2026-09-05T01:48:52.096731",
+    "data": {
+      "source": "AL JAZEERA"
+    },
+    "content_hash": "471cb9b6e0bc1eac"
+  },
+  {
+    "id": "2ef238e5",
     "format": "GLOBAL_DESK",
     "status": "pending",
     "draft_text": "From the Americas: 04, 2026 (GLOBE NEWSWIRE) -- Grupo Aeroportuario del Pac\u00edfico, S.A.B. de C.V., (NYSE: PAC; BMV: GAP) (\u201cthe Company\u201d or \u201cGAP\u201d) announces preliminary terminal passenger traffic figures for August 2026, compared with August 2025.\n\nhttps://www.globenewswire.com/news-release/2026/09/04/3356843/0/en/grupo-aeroportuario-del-pacifico-reports-a-passenger-traffic-increase-in-august-2026-of-0-5-compared-to-2025.html",
@@ -432,31 +447,14 @@
     "source_url": "https://www.globenewswire.com/news-release/2026/09/04/3356843/0/en/grupo-aeroportuario-del-pacifico-reports-a-passenger-traffic-increase-in-august-2026-of-0-5-compared-to-2025.html",
     "source_title": "Grupo Aeroportuario del Pacifico Reports a Passenger Traffic Increase in August 2026 of 0.5% Compared to 2025",
     "source_summary": "GUADALAJARA, Mexico, Sept. 04, 2026 (GLOBE NEWSWIRE) -- Grupo Aeroportuario del Pac\u00edfico, S.A.B. de C.V., (NYSE: PAC; BMV: GAP) (\u201cthe Company\u201d or \u201cGAP\u201d) announces preliminary terminal passenger traffic figures for August 2026, compared with August 2025.",
-    "drafted_at": "2026-09-04T23:31:51.638063",
+    "drafted_at": "2026-09-05T01:48:52.098237",
     "data": {
       "source": "GLOBENEWSWIRE"
     },
     "content_hash": "43ff61185fdacd4d"
   },
   {
-    "id": "9d14f640",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: Iran's assertive stance may hinder diplomatic efforts, increasing regional instability and reducing the likelihood of a US-Iran deal by 2026.\n\nThe post Iran vows pre-emptive operations amid regional tensions appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iran-vows-pre-emptive-operations-amid-regional-tensions/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/iran-vows-pre-emptive-operations-amid-regional-tensions/",
-    "source_title": "Iran vows pre-emptive operations amid regional tensions",
-    "source_summary": "Iran's assertive stance may hinder diplomatic efforts, increasing regional instability and reducing the likelihood of a US-Iran deal by 2026. The post Iran vows pre-emptive operations amid regional tensions appeared first on Crypto Briefing .",
-    "drafted_at": "2026-09-04T23:31:51.638474",
-    "data": {
-      "source": "CRYPTO BRIEFING"
-    },
-    "content_hash": "eed64321361ab31e"
-  },
-  {
-    "id": "8055b611",
+    "id": "c79c5488",
     "format": "GLOBAL_DESK",
     "status": "pending",
     "draft_text": "From the African desk: Over 100 clean combustion units strategically positioned in the United States, Canada and Mexico, and 50 Q5000 units designated for rental and 11 Q5000 units being prepared for international sale.\n\nCanada: Short-term Q500 rental with option to purchase signed in Alberta; firm proposal pending in Western Canada Africa: A further award anticipated this month in [\u2026]\n\nhttps://financialpost.com/globe-newswire/questor-technology-reports-progress-on-execution-of-phase-iii-shareholder-value-creation-plan",
@@ -466,14 +464,14 @@
     "source_url": "https://financialpost.com/globe-newswire/questor-technology-reports-progress-on-execution-of-phase-iii-shareholder-value-creation-plan",
     "source_title": "Questor Technology Reports Progress on Execution of Phase III Shareholder Value Creation Plan",
     "source_summary": "Over 100 clean combustion units strategically positioned in the United States, Canada and Mexico, and 50 Q5000 units designated for rental and 11 Q5000 units being prepared for international sale. Canada: Short-term Q500 rental with option to purchase signed in Alberta; firm proposal pending in Western Canada Africa: A further award anticipated this month in [\u2026]",
-    "drafted_at": "2026-09-04T23:31:51.639439",
+    "drafted_at": "2026-09-05T01:48:52.099283",
     "data": {
       "source": "FINANCIAL POST"
     },
     "content_hash": "8bcfc9866e3088b8"
   },
   {
-    "id": "cb924fd9",
+    "id": "7c1336ab",
     "format": "GLOBAL_DESK",
     "status": "pending",
     "draft_text": "Gulf wire: 04, 2026 (GLOBE NEWSWIRE) -- Questor Technology Inc. (\u201cQuestor\u201d or the \u201cCompany\u201d) (TSX-V: QST) today reported significant progress in the continued execution of its Phase III shareholder value creation plan, announced on August 17, 2026, as part of the Company\u2019s strategy refresh in connection with the management team transition initiated in Q2 2026.\n\nThe Company's rental fleet is ready for deployment, commercial activity is advancing across North America, Africa and the Middle East, and a strategic partnership in Mexico is opening the path to a Pemex enterprise-wide contract.\n\nhttps://www.globenewswire.com/news-release/2026/09/04/3356835/0/en/questor-technology-reports-progress-on-execution-of-phase-iii-shareholder-value-creation-plan.html",
@@ -483,31 +481,14 @@
     "source_url": "https://www.globenewswire.com/news-release/2026/09/04/3356835/0/en/questor-technology-reports-progress-on-execution-of-phase-iii-shareholder-value-creation-plan.html",
     "source_title": "Questor Technology Reports Progress on Execution of Phase III Shareholder Value Creation Plan",
     "source_summary": "CALGARY, Alberta, Sept. 04, 2026 (GLOBE NEWSWIRE) -- Questor Technology Inc. (\u201cQuestor\u201d or the \u201cCompany\u201d) (TSX-V: QST) today reported significant progress in the continued execution of its Phase III shareholder value creation plan, announced on August 17, 2026, as part of the Company\u2019s strategy refresh in connection with the management team transition initiated in Q2 2026. The Company's rental fle",
-    "drafted_at": "2026-09-04T23:31:51.640351",
+    "drafted_at": "2026-09-05T01:48:52.100212",
     "data": {
       "source": "GLOBENEWSWIRE"
     },
     "content_hash": "2a3d720e8aaaa82a"
   },
   {
-    "id": "43e3c0d4",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "CHINA DESK: The United States is the largest producer of nuclear power in the world, solely responsible for about one-third of global output.\n\nAs of today, the U.S. has 96 operating commercial nuclear reactors in 57 power plants across 28 states.\n\nHowever, while that fleet remains highly productive, the domestic nuclear sector is rapidly aging out.\n\nAll but two of the nation\u2019s nuclear reactors are Gen II models, meaning they were constructed before the year 2000.\n\nThe average reactor age in the United States is 44, when the vast majority of those reactors\u2026\n\nhttps://oilprice.com/Alternative-Energy/Nuclear-Power/How-The-US-Fell-Behind-China-On-Nuclear-Power.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "OILPRICE",
-    "source_url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/How-The-US-Fell-Behind-China-On-Nuclear-Power.html",
-    "source_title": "How The U.S. Fell Behind China On Nuclear Power",
-    "source_summary": "The United States is the largest producer of nuclear power in the world, solely responsible for about one-third of global output. As of today, the U.S. has 96 operating commercial nuclear reactors in 57 power plants across 28 states. However, while that fleet remains highly productive, the domestic nuclear sector is rapidly aging out. All but two of the nation\u2019s nuclear reactors are Gen II models,",
-    "drafted_at": "2026-09-04T23:31:51.641760",
-    "data": {
-      "source": "OILPRICE"
-    },
-    "content_hash": "a683bca9ae5b3cd7"
-  },
-  {
-    "id": "6ac45efa",
+    "id": "c8c9a48a",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "Hiring scoreboard: The Mexican Peso appreciates against the US Dollar, testing two-year highs near 16.85 as the USD/MXN sets aside a strong US Nonfarm Payrolls report, which was ignored by the Peso\u2019s bears.\n\nhttps://www.fxstreet.com/news/usd-mxn-price-forecast-peso-rally-targets-april-2024-low-202609042159",
@@ -517,14 +498,14 @@
     "source_url": "https://www.fxstreet.com/news/usd-mxn-price-forecast-peso-rally-targets-april-2024-low-202609042159",
     "source_title": "USD/MXN Price Forecast: Peso rally targets April 2024 low",
     "source_summary": "The Mexican Peso appreciates against the US Dollar, testing two-year highs near 16.85 as the USD/MXN sets aside a strong US Nonfarm Payrolls report, which was ignored by the Peso\u2019s bears.",
-    "drafted_at": "2026-09-04T23:31:51.696619",
+    "drafted_at": "2026-09-05T01:48:52.152098",
     "data": {
       "source": "FXSTREET"
     },
     "content_hash": "996dca8bbf45fead"
   },
   {
-    "id": "2c5f9d95",
+    "id": "8c4be720",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "CPI POSTCARD: The stock market, including the Dow Jones index, falls after a strong jobs report and a trade threat from President Trump.\n\nThe post Stock Market Skids After Strong Jobs Report; Trump Makes Trade Threat As CPI Data Looms appeared first on Investor's Business Daily.\n\nhttps://www.investors.com/market-trend/the-big-picture/dow-jones-stock-market-jobs-report-trump-trade-threat-cpi/",
@@ -534,14 +515,14 @@
     "source_url": "https://www.investors.com/market-trend/the-big-picture/dow-jones-stock-market-jobs-report-trump-trade-threat-cpi/",
     "source_title": "Stock Market Skids After Strong Jobs Report; Trump Makes Trade Threat As CPI Data Looms",
     "source_summary": "The stock market, including the Dow Jones index, falls after a strong jobs report and a trade threat from President Trump. CPI data looms. The post Stock Market Skids After Strong Jobs Report; Trump Makes Trade Threat As CPI Data Looms appeared first on Investor's Business Daily .",
-    "drafted_at": "2026-09-04T23:31:51.696975",
+    "drafted_at": "2026-09-05T01:48:52.152448",
     "data": {
       "source": "IBD"
     },
     "content_hash": "a27cadfbf274de61"
   },
   {
-    "id": "fb0dcbb5",
+    "id": "ea960107",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "JOBS DAY. The USD/CHF registers modest gains of over 0.30% as the Greenback is boosted by a solid US Nonfarm Payrolls report, pushing the pair above the 50-day Simple Moving Average (SMA) to reach a daily high of 0.8126.\n\nAt the time of writing, trades at 0.8098.\n\nhttps://www.fxstreet.com/news/usd-chf-price-forecast-nfp-rally-stalls-at-08100-retraces-202609042127",
@@ -551,14 +532,14 @@
     "source_url": "https://www.fxstreet.com/news/usd-chf-price-forecast-nfp-rally-stalls-at-08100-retraces-202609042127",
     "source_title": "USD/CHF Price Forecast: NFP rally stalls at 0.8100, retraces",
     "source_summary": "The USD/CHF registers modest gains of over 0.30% as the Greenback is boosted by a solid US Nonfarm Payrolls report, pushing the pair above the 50-day Simple Moving Average (SMA) to reach a daily high of 0.8126. At the time of writing, trades at 0.8098.",
-    "drafted_at": "2026-09-04T23:31:51.697296",
+    "drafted_at": "2026-09-05T01:48:52.152790",
     "data": {
       "source": "FXSTREET"
     },
     "content_hash": "785dacf78ffa9f62"
   },
   {
-    "id": "9da2ea2e",
+    "id": "c5c0651d",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "LABOR MARKET READ: Trump: Witkoff and Kushner will bring proposal to Putin to end the war Cleveland Fed President Beth Hammack is sounding decidedly hawkish on monetary policy Trump tells Fed: Lower the rate or I'll stop trading with countries with which we have a deficit Canada Employment change for August -41,7K vs 15.0K estimate US August non-farm payrolls +162K vs +56K expected Markets: WTI crude oil down $0.01 to $91.30 US 10-year yields down 1.8 bps to 4.78% Gold down $39 to $4433 AUD leads, JPY lags on the day S&P 500 down 0.4% The jobs reports from the USA and Canada were the highlights and they diverged with a big win for the US and a miss for Canada, reversing what happened a month ago.\n\nThe dollar initially jumped on non-farm payrolls, rising around 35 pips across the board but the moves seconds after the data were the extremes for the day.\n\nThere were the usual caveats in the jobs report as education and hospitality added much of the gains but overall it was still a strong report.\n\nThe big retracement in the dollar was more about Fed thinking, with Waller yesterday indicating that the jobs report wouldn't be a big factor in his thinking.\n\nStill, the implied odds of a hike moved to 58% from 49% and short-dated yields rose 4 bps.\n\nThe yen remained in focus and there were fresh signs of meddling as the pair fell more than 200 pips from the post-NFP jump.\n\nAfter reaching 155.40 the pair climbed steadily back to 156.26 to finish the day up around 50 pips.\n\nIt's been a volatile start to the month for the pair so far.\n\nhttps://investinglive.com/news/investinglive-americas-market-news-wrap-big-beat-for-non-farm-payrolls/",
@@ -568,14 +549,14 @@
     "source_url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-big-beat-for-non-farm-payrolls/",
     "source_title": "investingLive Americas market news wrap: Big beat for non-farm payrolls",
     "source_summary": "Trump: Witkoff and Kushner will bring proposal to Putin to end the war Cleveland Fed President Beth Hammack is sounding decidedly hawkish on monetary policy Trump tells Fed: Lower the rate or I'll stop trading with countries with which we have a deficit Canada Employment change for August -41,7K vs 15.0K estimate US August non-farm payrolls +162K vs +56K expected Markets: WTI crude oil down $0.01 ",
-    "drafted_at": "2026-09-04T23:31:51.699291",
+    "drafted_at": "2026-09-05T01:48:52.154772",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "40ce07226e65eb55"
   },
   {
-    "id": "a6706ddd",
+    "id": "827a4691",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "JOBS DAY. The US economy added far more jobs than expected in August, pressuring Bitcoin lower as traders repriced the odds of a Federal Reserve rate cut this month.\n\nhttps://cointelegraph.com/markets/surprise-labor-market-print-sends-bitcoin-back-below-80k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -585,14 +566,14 @@
     "source_url": "https://cointelegraph.com/markets/surprise-labor-market-print-sends-bitcoin-back-below-80k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "source_title": "Surprise nonfarm payrolls print sends Bitcoin back below 80K",
     "source_summary": "The US economy added far more jobs than expected in August, pressuring Bitcoin lower as traders repriced the odds of a Federal Reserve rate cut this month.",
-    "drafted_at": "2026-09-04T23:31:51.699539",
+    "drafted_at": "2026-09-05T01:48:52.155005",
     "data": {
       "source": "COINTELEGRAPH"
     },
     "content_hash": "4bcc069149d28d86"
   },
   {
-    "id": "d5ff54db",
+    "id": "891eeca8",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -602,7 +583,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-09-04T23:31:51.708349",
+    "drafted_at": "2026-09-05T01:48:52.163785",
     "data": {
       "manual": true,
       "via": "manual_news.md"
