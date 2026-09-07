@@ -1,32 +1,4 @@
 {
-  "^VIX:move:2026-09-04": {
-    "headline": "VIX drops 6.0% in 5 sessions to 14.53",
-    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "source": "CBOE \u00b7 ^VIX",
-    "chart_path": null,
-    "signal_id": "^VIX:move:2026-09-04",
-    "current_str": "14.53",
-    "label": "VIX (S&P 500 volatility)",
-    "hashtags": "#VIX #Volatility #Markets",
-    "kind": "move_down",
-    "badge": "-6.0%",
-    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "fired_at": "2026-09-06T23:19:49.666601"
-  },
-  "CL=F:move:2026-09-06": {
-    "headline": "WTI crude jumps 9.5% in 5 sessions to $91.48",
-    "matters": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "source": "NYMEX \u00b7 CL=F",
-    "chart_path": null,
-    "signal_id": "CL=F:move:2026-09-06",
-    "current_str": "$91.48",
-    "label": "WTI crude oil futures",
-    "hashtags": "#Oil #WTI #Energy #Commodities",
-    "kind": "move_up",
-    "badge": "+9.5%",
-    "data_url": "https://finance.yahoo.com/quote/CL%3DF",
-    "fired_at": "2026-09-06T23:19:49.666601"
-  },
   "CL=F:move:2026-09-07": {
     "headline": "WTI crude jumps 9.7% in 5 sessions to $91.48",
     "matters": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
