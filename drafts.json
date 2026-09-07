@@ -1,23 +1,23 @@
 [
   {
-    "id": "633c1a0c",
+    "id": "b75c33e5",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "Iranian government said that it targeted three oil tankers using an unauthorized route through the Strait of Hormuz, as well as a number of US-linked ships, in retaliation for US attacks on Iranian tankers over the weekend, Bloomberg reported on Sunday.\n\nhttps://www.fxstreet.com/news/iran-us-trade-tanker-attacks-as-tehran-will-declare-prohibited-zone-202609062236",
+    "draft_text": "The comments came a day after the U.S. struck three Iranian oil tankers in response to Tehran launching ballistic missiles at Navy warships.\n\nhttps://fortune.com/2026/09/06/iran-exclusion-zone-us-naval-blockade-line-strait-of-hormuz-persian-gulf/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/iran-us-trade-tanker-attacks-as-tehran-will-declare-prohibited-zone-202609062236",
-    "source_title": "Iran, US trade tanker attacks as Tehran will declare 'prohibited zone'",
-    "source_summary": "Iranian government said that it targeted three oil tankers using an unauthorized route through the Strait of Hormuz, as well as a number of US-linked ships, in retaliation for US attacks on Iranian tankers over the weekend, Bloomberg reported on Sunday.",
-    "drafted_at": "2026-09-06T23:19:53.338338",
+    "primary_source": "FORTUNE",
+    "source_url": "https://fortune.com/2026/09/06/iran-exclusion-zone-us-naval-blockade-line-strait-of-hormuz-persian-gulf/",
+    "source_title": "Iran plans to announce an \u2018exclusion zone\u2019 that runs from the U.S. naval blockade line, through the\u00a0Strait of Hormuz, and into the Persian Gulf",
+    "source_summary": "The comments came a day after the U.S. struck three Iranian oil tankers in response to Tehran launching ballistic missiles at Navy warships.",
+    "drafted_at": "2026-09-07T01:40:34.786582",
     "data": {
-      "source": "FXSTREET"
+      "source": "FORTUNE"
     },
-    "content_hash": "5fc3a4d4f1389222"
+    "content_hash": "2758d562d50ecb9b"
   },
   {
-    "id": "307104f1",
+    "id": "58b1d4cf",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "I'll keep it short: VIX drops 6.0% in 5 sessions to 14.53.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
@@ -27,7 +27,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EVIX",
     "source_title": "VIX (S&P 500 volatility)",
     "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-09-06T23:19:53.338634",
+    "drafted_at": "2026-09-07T01:40:34.786809",
     "data": {
       "signal_id": "^VIX:move:2026-09-04",
       "kind": "move_down",
@@ -36,7 +36,7 @@
     "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "de759c2a",
+    "id": "1e1131cc",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Real-time update for the pack: WTI crude jumps 9.5% in 5 sessions to $91.48.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
@@ -46,7 +46,7 @@
     "source_url": "https://finance.yahoo.com/quote/CL%3DF",
     "source_title": "WTI crude oil futures",
     "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-09-06T23:19:53.338873",
+    "drafted_at": "2026-09-07T01:40:34.786990",
     "data": {
       "signal_id": "CL=F:move:2026-09-06",
       "kind": "move_up",
@@ -55,26 +55,58 @@
     "content_hash": "c272de0720a2f459"
   },
   {
-    "id": "5528ae7d",
-    "format": "MARKET_MOVE",
+    "id": "9d7eb619",
+    "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "I don't say this often, but pay attention: WTI crude surges 11.1% in 5 sessions to $91.48.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "draft_text": "Live from the Federal Reserve: Gold price (XAU/USD) tumbles to near $4,395 during the early European session on Monday.\n\nThe precious metal extends the decline as robust US employment data boost US Federal Reserve (Fed) rate hike bets.\n\nhttps://www.fxstreet.com/news/gold-falls-below-4-400-as-strong-us-jobs-data-raise-the-prospects-for-fed-rate-hike-202609070133",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "NYMEX \u00b7 CL=F",
-    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
-    "source_title": "WTI crude oil futures",
-    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-09-06T23:19:53.339155",
+    "primary_source": "Fed",
+    "source_url": "https://www.fxstreet.com/news/gold-falls-below-4-400-as-strong-us-jobs-data-raise-the-prospects-for-fed-rate-hike-202609070133",
+    "source_title": "Gold falls below $4,400 as strong US jobs data raise the prospects for Fed rate hike",
+    "source_summary": "Gold price (XAU/USD) tumbles to near $4,395 during the early European session on Monday. The precious metal extends the decline as robust US employment data boost US Federal Reserve (Fed) rate hike bets.",
+    "drafted_at": "2026-09-07T01:40:34.796498",
     "data": {
-      "signal_id": "CL=F:move:2026-09-04",
-      "kind": "move_up",
-      "current": "$91.48"
+      "actor": "Fed"
     },
-    "content_hash": "c272de0720a2f459"
+    "content_hash": "e41ec64cb350d8a5"
   },
   {
-    "id": "e898fae2",
+    "id": "00c059be",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "PBOC postcard: On Monday, the People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7795 compared to Friday's fix of 6.7787 and 6.7086 Reuters estimate.\n\nhttps://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67795-vs-67787-previous-202609070115",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "PBOC",
+    "source_url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67795-vs-67787-previous-202609070115",
+    "source_title": "PBOC sets USD/CNY reference rate at 6.7795 vs. 6.7787 previous",
+    "source_summary": "On Monday, the People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7795 compared to Friday's fix of 6.7787 and 6.7086 Reuters estimate.",
+    "drafted_at": "2026-09-07T01:40:34.796769",
+    "data": {
+      "actor": "PBOC"
+    },
+    "content_hash": "c8e43007a2126488"
+  },
+  {
+    "id": "126ea5a9",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "FED WATCH: GBP/USD inches higher after posting minor losses in the previous day, trading around 1.3520 during Asian hours on Monday.\n\nThe currency pair gains ground as the US Dollar (USD) struggles, possibly driven by a Goldman Sachs report emphasizing that this week's inflation data will be pivotal.\n\nhttps://www.fxstreet.com/news/british-pound-gains-as-us-dollar-weakens-despite-fed-rate-hike-odds-surge-202609070058",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Fed",
+    "source_url": "https://www.fxstreet.com/news/british-pound-gains-as-us-dollar-weakens-despite-fed-rate-hike-odds-surge-202609070058",
+    "source_title": "British Pound gains as US Dollar weakens despite Fed rate hike odds surge",
+    "source_summary": "GBP/USD inches higher after posting minor losses in the previous day, trading around 1.3520 during Asian hours on Monday. The currency pair gains ground as the US Dollar (USD) struggles, possibly driven by a Goldman Sachs report emphasizing that this week's inflation data will be pivotal.",
+    "drafted_at": "2026-09-07T01:40:34.797049",
+    "data": {
+      "actor": "Fed"
+    },
+    "content_hash": "0cb726a3a15d5831"
+  },
+  {
+    "id": "0e6dd61c",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "POWELL POSTCARD: Here is the latest rant from the President following today's jobs report: Great jobs number just announced, breaking all estimates (except mine!) by double and triple - And you haven\u2019t seen anything yet!\n\nLower the interest rates because the U.S.A. is a much stronger credit than it was just a short time ago!\n\nA STRONG COUNTRY MEANS A LOWER INTEREST RATE - IT\u2019S A BETTER CREDIT\u2026Very simple!\n\nWe should have the LOWEST RATE of any country in the World, like \u201cthe old days.\u201d Without the United States agreeing to allow them their big surpluses, and we could stop that immediately, they would no longer be considered financially ELITE!\n\nLOWER THE RATE OR I\u2019LL STOP TRADING WITH COUNTRIES WITH WHICH WE HAVE A DEFICIT, which the U.S. Supreme Court, in its ridiculous and very costly Tariff decision, strongly acknowledged \u201cthe President\u201d has an absolute right to do.\n\nThe Fed Board, with its great new leader, must get smart - BE PATRIOTS for a change.\n\nHigh interest rates put the U.S.A. at a very unfair disadvantage, and I won\u2019t allow that to happen!\n\nTRUMP I don't even know where to start with this nonsense.\n\nhttps://investinglive.com/news/trump-tells-fed-lower-the-rate-or-i-ll-stop-trading-with-countries-with-which-we-have-a-deficit/",
@@ -84,14 +116,14 @@
     "source_url": "https://investinglive.com/news/trump-tells-fed-lower-the-rate-or-i-ll-stop-trading-with-countries-with-which-we-have-a-deficit/",
     "source_title": "Trump tells Fed: Lower the rate or I'll stop trading with countries with which we have a deficit",
     "source_summary": "Here is the latest rant from the President following today's jobs report: Great jobs number just announced, breaking all estimates (except mine!) by double and triple - And you haven\u2019t seen anything yet! EMPLOYERS ADDED 162,000 JOB IN AUGUST. Lower the interest rates because the U.S.A. is a much stronger credit than it was just a short time ago! A STRONG COUNTRY MEANS A LOWER INTEREST RATE - IT\u2019S ",
-    "drafted_at": "2026-09-06T23:19:53.351994",
+    "drafted_at": "2026-09-07T01:40:34.798322",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "da91e5e73a216ca9"
   },
   {
-    "id": "4b208343",
+    "id": "0c750f8d",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Policy update for the pack: The Board's process for setting the discount rate is distinct from the process the Federal Open Market Committee follows in setting the target range for the federal funds rate.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
@@ -101,31 +133,54 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
     "source_title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
     "source_summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
-    "drafted_at": "2026-09-06T23:19:53.352405",
+    "drafted_at": "2026-09-07T01:40:34.798634",
     "data": {
       "actor": "FED"
     },
     "content_hash": "da9833991b6c87c5"
   },
   {
-    "id": "aea260c6",
-    "format": "POLICY_READ",
+    "id": "f34f621f",
+    "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "POWELL POSTCARD: Consent prohibition against Stephanie R.\n\nConsent prohibition against Crystal A.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm",
-    "image_path": null,
+    "draft_text": "$ADC \u2014 2 company insiders bought $2.6M on Aug 31.\n\nAgree Realty Corp. 35,136 shares at $72.74.\n\nStock is -0.2% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/ADC_P_20260831.png",
     "og_image_url": null,
-    "primary_source": "FED",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm",
-    "source_title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
-    "source_summary": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
-    "drafted_at": "2026-09-06T23:19:53.352762",
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=ADC",
+    "source_title": "Agree Realty Corp (ADC) insider bought $2.6M",
+    "source_summary": "2 insider(s) bought 35,136 shares at $72.74 on 2026-08-31.",
+    "drafted_at": "2026-09-07T01:40:34.799157",
     "data": {
-      "actor": "FED"
+      "ticker": "ADC",
+      "type": "P",
+      "dollar_value": 2555849.0,
+      "pct_since": -0.1649673541627215
     },
-    "content_hash": "1899c878ef68bdd8"
+    "content_hash": "9e8d17e70c2034ff"
   },
   {
-    "id": "d18ca96a",
+    "id": "eeec4e19",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$ATRA \u2014 a company insider bought $999,994 on Sep 04.\n\nAtara Biotherapeutics, Inc. 104,166 shares at $9.60.\n\nStock is +1.7% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/ATRA_P_20260904.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=ATRA",
+    "source_title": "Atara Biotherapeutics, Inc. (ATRA) insider bought $999,994",
+    "source_summary": "1 insider(s) bought 104,166 shares at $9.60 on 2026-09-04.",
+    "drafted_at": "2026-09-07T01:40:34.799334",
+    "data": {
+      "ticker": "ATRA",
+      "type": "P",
+      "dollar_value": 999994.0,
+      "pct_since": 1.6666690508524615
+    },
+    "content_hash": "0bcde855cd2ec36f"
+  },
+  {
+    "id": "341b99e4",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$BABA \u2014 2 company insiders bought $25.7M on Aug 25.\n\nAlibaba Group Holding Ltd. 1,790,000 shares at $14.35.\n\nStock is +689.1% since the purchase. This is a public SEC Form 4 filing.",
@@ -135,7 +190,7 @@
     "source_url": "http://openinsider.com/screener?s=BABA",
     "source_title": "Alibaba Group Holding Ltd (BABA) insider bought $25.7M",
     "source_summary": "2 insider(s) bought 1,790,000 shares at $14.35 on 2026-08-25.",
-    "drafted_at": "2026-09-06T23:19:53.353044",
+    "drafted_at": "2026-09-07T01:40:34.799486",
     "data": {
       "ticker": "BABA",
       "type": "P",
@@ -145,7 +200,7 @@
     "content_hash": "7e10badf4194a119"
   },
   {
-    "id": "be6dc888",
+    "id": "295f72ff",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$PNFP \u2014 2 company insiders bought $1.3M on Sep 01.\n\nPinnacle Financial Partners, Inc. 12,578 shares at $99.41.\n\nStock is +1.6% since the purchase. This is a public SEC Form 4 filing.",
@@ -155,7 +210,7 @@
     "source_url": "http://openinsider.com/screener?s=PNFP",
     "source_title": "Pinnacle Financial Partners, Inc. (PNFP) insider bought $1.3M",
     "source_summary": "2 insider(s) bought 12,578 shares at $99.41 on 2026-09-01.",
-    "drafted_at": "2026-09-06T23:19:53.353302",
+    "drafted_at": "2026-09-07T01:40:34.799629",
     "data": {
       "ticker": "PNFP",
       "type": "P",
@@ -165,7 +220,7 @@
     "content_hash": "9bb07ef0da2ea94e"
   },
   {
-    "id": "ab3a5f88",
+    "id": "954819ca",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$PFLEX \u2014 a company insider bought $1.0M on Sep 02.\n\nPimco Flexible Credit Income Fund. 148,827 shares at $6.82.\n\nStock is +0.1% since the purchase. This is a public SEC Form 4 filing.",
@@ -175,7 +230,7 @@
     "source_url": "http://openinsider.com/screener?s=PFLEX",
     "source_title": "Pimco Flexible Credit Income Fund (PFLEX) insider bought $1.0M",
     "source_summary": "1 insider(s) bought 148,827 shares at $6.82 on 2026-09-02.",
-    "drafted_at": "2026-09-06T23:19:53.353503",
+    "drafted_at": "2026-09-07T01:40:34.799771",
     "data": {
       "ticker": "PFLEX",
       "type": "P",
@@ -185,47 +240,7 @@
     "content_hash": "6459629dfa9cfc0d"
   },
   {
-    "id": "8f76fd33",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$BSX \u2014 4 company insiders bought $9.5M on Aug 25.\n\nBoston Scientific Corp. 196,562 shares at $48.26.\n\nStock is -1.0% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/BSX_P_20260825.png",
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=BSX",
-    "source_title": "Boston Scientific Corp (BSX) insider bought $9.5M",
-    "source_summary": "4 insider(s) bought 196,562 shares at $48.26 on 2026-08-25.",
-    "drafted_at": "2026-09-06T23:19:53.353688",
-    "data": {
-      "ticker": "BSX",
-      "type": "P",
-      "dollar_value": 9486040.0,
-      "pct_since": -0.9531719082873003
-    },
-    "content_hash": "6638633bf8f4065d"
-  },
-  {
-    "id": "b3434dec",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$NSLR \u2014 2 company insiders bought $760,984 on Aug 26.\n\nNeostellar Capital Corp. 76,040 shares at $10.01.\n\nStock is +0.9% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/NSLR_P_20260826.png",
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=NSLR",
-    "source_title": "Neostellar Capital Corp. (NSLR) insider bought $760,984",
-    "source_summary": "2 insider(s) bought 76,040 shares at $10.01 on 2026-08-26.",
-    "drafted_at": "2026-09-06T23:19:53.353875",
-    "data": {
-      "ticker": "NSLR",
-      "type": "P",
-      "dollar_value": 760984.0,
-      "pct_since": 0.8991047099872804
-    },
-    "content_hash": "671482594bed7f85"
-  },
-  {
-    "id": "a197f09f",
+    "id": "df0a5d24",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Indiana Daycare Owner Charged in $359K Childcare Fraud Scheme\n\nhttps://townhall.com/news/scott-mcclallen/2026/09/06/indiana-daycare-owner-charged-in-359k-childcare-fraud-scheme-n2682567",
@@ -235,14 +250,14 @@
     "source_url": "https://townhall.com/news/scott-mcclallen/2026/09/06/indiana-daycare-owner-charged-in-359k-childcare-fraud-scheme-n2682567",
     "source_title": "Indiana Daycare Owner Charged in $359K Childcare Fraud Scheme",
     "source_summary": "",
-    "drafted_at": "2026-09-06T23:19:53.355322",
+    "drafted_at": "2026-09-07T01:40:34.800810",
     "data": {
       "source": "TOWNHALL FIN"
     },
     "content_hash": "5cf8175cdf4f6eba"
   },
   {
-    "id": "014222ea",
+    "id": "a06e47cb",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Georgia Sisters Plead Guilty in $2 Million Pandemic Unemployment Fraud Scheme\n\nhttps://townhall.com/news/scott-mcclallen/2026/09/06/georgia-sisters-plead-guilty-in-2-million-pandemic-unemployment-fraud-scheme-n2682556",
@@ -252,14 +267,14 @@
     "source_url": "https://townhall.com/news/scott-mcclallen/2026/09/06/georgia-sisters-plead-guilty-in-2-million-pandemic-unemployment-fraud-scheme-n2682556",
     "source_title": "Georgia Sisters Plead Guilty in $2 Million Pandemic Unemployment Fraud Scheme",
     "source_summary": "",
-    "drafted_at": "2026-09-06T23:19:53.355404",
+    "drafted_at": "2026-09-07T01:40:34.800868",
     "data": {
       "source": "TOWNHALL FIN"
     },
     "content_hash": "7c4d270b34123bac"
   },
   {
-    "id": "9ad6d099",
+    "id": "7a44479d",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Ukrainian police took down a crypto scam that stole up to $1 million a month\n\nhttps://www.coindesk.com/business/2026/09/06/ukrainian-police-took-down-a-crypto-scam-that-stole-up-to-usd1-million-a-month",
@@ -269,31 +284,14 @@
     "source_url": "https://www.coindesk.com/business/2026/09/06/ukrainian-police-took-down-a-crypto-scam-that-stole-up-to-usd1-million-a-month",
     "source_title": "Ukrainian police took down a crypto scam that stole up to $1 million a month",
     "source_summary": "",
-    "drafted_at": "2026-09-06T23:19:53.355483",
+    "drafted_at": "2026-09-07T01:40:34.800927",
     "data": {
       "source": "COINDESK"
     },
     "content_hash": "5ebf4501d95495a9"
   },
   {
-    "id": "3942111b",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "6, 2026 /PRNewswire/ -- Bronstein, Gewirtz & Grossman, LLC, a nationally recognized investor-rights law firm, announces that a class action lawsuit has been filed against York Space Systems, Inc. (NYSE: YSS) and certain of its officers.\n\nhttps://www.prnewswire.com/news-releases/bronstein-gewirtz--grossman-llc-urges-york-space-systems-inc-investors-to-act-class-action-filed-alleging-investor-harm-302869696.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "PR NEWSWIRE",
-    "source_url": "https://www.prnewswire.com/news-releases/bronstein-gewirtz--grossman-llc-urges-york-space-systems-inc-investors-to-act-class-action-filed-alleging-investor-harm-302869696.html",
-    "source_title": "Bronstein, Gewirtz & Grossman LLC Urges York Space Systems, Inc. Investors to Act: Class Action Filed Alleging Investor Harm",
-    "source_summary": "NEW YORK, Sept. 6, 2026 /PRNewswire/ -- Bronstein, Gewirtz & Grossman, LLC, a nationally recognized investor-rights law firm, announces that a class action lawsuit has been filed against York Space Systems, Inc. (NYSE: YSS) and certain of its officers. This lawsuit seeks to recover...",
-    "drafted_at": "2026-09-06T23:19:53.355774",
-    "data": {
-      "source": "PR NEWSWIRE"
-    },
-    "content_hash": "d49db6d35ab2e5bf"
-  },
-  {
-    "id": "02ff4a97",
+    "id": "c2fe0158",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "6, 2026 /PRNewswire/ -- Bronstein, Gewirtz & Grossman, LLC, a nationally recognized investor-rights law firm, announces that a class action lawsuit has been filed against Hims & Hers Health, Inc. (NYSE: HIMS) and certain of its officers.\n\nhttps://www.prnewswire.com/news-releases/bronstein-gewirtz--grossman-llc-urges-hims--hers-health-inc-investors-to-act-class-action-filed-alleging-investor-harm-302869689.html",
@@ -303,14 +301,31 @@
     "source_url": "https://www.prnewswire.com/news-releases/bronstein-gewirtz--grossman-llc-urges-hims--hers-health-inc-investors-to-act-class-action-filed-alleging-investor-harm-302869689.html",
     "source_title": "Bronstein, Gewirtz & Grossman LLC Urges Hims & Hers Health, Inc. Investors to Act: Class Action Filed Alleging Investor Harm",
     "source_summary": "NEW YORK, Sept. 6, 2026 /PRNewswire/ -- Bronstein, Gewirtz & Grossman, LLC, a nationally recognized investor-rights law firm, announces that a class action lawsuit has been filed against Hims & Hers Health, Inc. (NYSE: HIMS) and certain of its officers. This lawsuit seeks to recover...",
-    "drafted_at": "2026-09-06T23:19:53.356059",
+    "drafted_at": "2026-09-07T01:40:34.801147",
     "data": {
       "source": "PR NEWSWIRE"
     },
     "content_hash": "52bc4a1867c43b14"
   },
   {
-    "id": "773e6d47",
+    "id": "74f5f6a1",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "6, 2026 /PRNewswire/ -- Bronstein, Gewirtz & Grossman, LLC, a nationally recognized investor-rights law firm, announces that a class action lawsuit has been filed against York Space Systems, Inc. (NYSE: YSS) and certain of its officers.\n\nhttps://www.prnewswire.com/news-releases/bronstein-gewirtz--grossman-llc-urges-york-space-systems-inc-investors-to-act-class-action-filed-alleging-investor-harm-302869696.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "PR NEWSWIRE",
+    "source_url": "https://www.prnewswire.com/news-releases/bronstein-gewirtz--grossman-llc-urges-york-space-systems-inc-investors-to-act-class-action-filed-alleging-investor-harm-302869696.html",
+    "source_title": "Bronstein, Gewirtz & Grossman LLC Urges York Space Systems, Inc. Investors to Act: Class Action Filed Alleging Investor Harm",
+    "source_summary": "NEW YORK, Sept. 6, 2026 /PRNewswire/ -- Bronstein, Gewirtz & Grossman, LLC, a nationally recognized investor-rights law firm, announces that a class action lawsuit has been filed against York Space Systems, Inc. (NYSE: YSS) and certain of its officers. This lawsuit seeks to recover...",
+    "drafted_at": "2026-09-07T01:40:34.801374",
+    "data": {
+      "source": "PR NEWSWIRE"
+    },
+    "content_hash": "d49db6d35ab2e5bf"
+  },
+  {
+    "id": "f741abc1",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "6 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 David J. Taylor (R)\n\u2022 John Boozman (R)\n\u2022 Cleo Fields (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 John Fetterman (D)\n\u2022 John McGuire (R)\n\nLargest disclosed here: David J. Taylor, $1,001 - $15,000 on Feb 26.\n\nPrice since the first buy in this group: +27.0%.\n\nSTOCK Act disclosures. Public record.",
@@ -320,7 +335,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034138.pdf",
     "source_title": "6 Congress members bought $MSFT",
     "source_summary": "6 politicians bought $MSFT; largest $1,001 - $15,000 by David J. Taylor.",
-    "drafted_at": "2026-09-06T23:19:53.357650",
+    "drafted_at": "2026-09-07T01:40:34.802443",
     "data": {
       "ticker": "MSFT",
       "member_count": 6,
@@ -329,7 +344,7 @@
     "content_hash": "7c24415ac3c0b542"
   },
   {
-    "id": "ed299ac8",
+    "id": "09f90515",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "5 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Markwayne Mullin (D)\n\u2022 Josh Gottheimer (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Markwayne Mullin, $50,001 - $100,000 on Feb 25.\n\nPrice since the first buy in this group: +49.3%.\n\nSTOCK Act disclosures. Public record.",
@@ -339,7 +354,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/f586922d-6083-44e5-8a32-769290389416/",
     "source_title": "5 Congress members bought $UNH",
     "source_summary": "5 politicians bought $UNH; largest $50,001 - $100,000 by Markwayne Mullin.",
-    "drafted_at": "2026-09-06T23:19:53.357994",
+    "drafted_at": "2026-09-07T01:40:34.802701",
     "data": {
       "ticker": "UNH",
       "member_count": 5,
@@ -348,7 +363,7 @@
     "content_hash": "7cbacf41d412a41b"
   },
   {
-    "id": "f73efd7b",
+    "id": "03f29041",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $HD this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Lloyd Doggett (D)\n\u2022 Jared Moskowitz (D)\n\nLargest disclosed here: Richard Dean Dr McCormick, $1,001 - $15,000 on Mar 19.\n\nPrice since the first buy in this group: -3.1%.\n\nSTOCK Act disclosures. Public record.",
@@ -358,7 +373,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033648.pdf",
     "source_title": "3 Congress members bought $HD",
     "source_summary": "3 politicians bought $HD; largest $1,001 - $15,000 by Richard Dean Dr McCormick.",
-    "drafted_at": "2026-09-06T23:19:53.358320",
+    "drafted_at": "2026-09-07T01:40:34.802920",
     "data": {
       "ticker": "HD",
       "member_count": 3,
@@ -367,7 +382,7 @@
     "content_hash": "8c0eaad1e4da4036"
   },
   {
-    "id": "22d7800c",
+    "id": "42e410fb",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $TSM this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard W. Allen (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Cleo Fields (D)\n\nLargest disclosed here: Richard W. Allen, $1,001 - $15,000 on Feb 19.\n\nPrice since the first buy in this group: +15.7%.\n\nSTOCK Act disclosures. Public record.",
@@ -377,7 +392,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034133.pdf",
     "source_title": "3 Congress members bought $TSM",
     "source_summary": "3 politicians bought $TSM; largest $1,001 - $15,000 by Richard W. Allen.",
-    "drafted_at": "2026-09-06T23:19:53.358624",
+    "drafted_at": "2026-09-07T01:40:34.803129",
     "data": {
       "ticker": "TSM",
       "member_count": 3,
@@ -386,109 +401,92 @@
     "content_hash": "5d9078569296551f"
   },
   {
-    "id": "5794fe90",
+    "id": "c9a58b24",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From Tokyo to Hong Kong: Russia\u2019s Northern Sea Route (NSR) is about to become a game-changer for Eurasian energy trade, and Europe\u2019s January 2027 ban on Russian LNG is pushing Moscow to bring it to life sooner than planned.\n\nLNG will remain its foundation, while crude traffic and Rosneft\u2019s vast Vostok Oil project could provide far greater scale.\n\nFor Russia, the prize is a shorter route to Asian customers that avoids foreign-controlled chokepoints and increases Moscow\u2019s command over export infrastructure.\n\nHowever, the route\u2019s seasonal availability\u2026\n\nhttps://oilprice.com/Energy/Energy-General/Russia-Is-Redrawing-Its-Energy-Map-Through-the-Arctic.html",
+    "draft_text": "From Beijing: The PBOC's modest liquidity injection signals confidence in current interbank liquidity levels, impacting market perceptions and monetary policy.\n\nThe post People\u2019s Bank of China pumps 500M yuan via 7-day reverse repos appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/pboc-500m-yuan-reverse-repos/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "OILPRICE",
-    "source_url": "https://oilprice.com/Energy/Energy-General/Russia-Is-Redrawing-Its-Energy-Map-Through-the-Arctic.html",
-    "source_title": "Russia Is Redrawing Its Energy Map Through the Arctic",
-    "source_summary": "Russia\u2019s Northern Sea Route (NSR) is about to become a game-changer for Eurasian energy trade, and Europe\u2019s January 2027 ban on Russian LNG is pushing Moscow to bring it to life sooner than planned. LNG will remain its foundation, while crude traffic and Rosneft\u2019s vast Vostok Oil project could provide far greater scale. For Russia, the prize is a shorter route to Asian customers that avoids foreig",
-    "drafted_at": "2026-09-06T23:19:53.359894",
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/pboc-500m-yuan-reverse-repos/",
+    "source_title": "People\u2019s Bank of China pumps 500M yuan via 7-day reverse repos",
+    "source_summary": "The PBOC's modest liquidity injection signals confidence in current interbank liquidity levels, impacting market perceptions and monetary policy. The post People\u2019s Bank of China pumps 500M yuan via 7-day reverse repos appeared first on Crypto Briefing .",
+    "drafted_at": "2026-09-07T01:40:34.803781",
     "data": {
-      "source": "OILPRICE"
+      "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "6ec475d7e52d1c1d"
+    "content_hash": "1d3d13aea5404e4b"
   },
   {
-    "id": "9f0e671e",
+    "id": "d521eaf8",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: Iranian government said that it targeted three oil tankers using an unauthorized route through the Strait of Hormuz, as well as a number of US-linked ships, in retaliation for US attacks on Iranian tankers over the weekend, Bloomberg reported on Sunday.\n\nhttps://www.fxstreet.com/news/iran-us-trade-tanker-attacks-as-tehran-will-declare-prohibited-zone-202609062236",
+    "draft_text": "PACK BRIEFING \u2014 CHINA: On Monday, the People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7795 compared to Friday's fix of 6.7787 and 6.7086 Reuters estimate.\n\nhttps://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67795-vs-67787-previous-202609070115",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/iran-us-trade-tanker-attacks-as-tehran-will-declare-prohibited-zone-202609062236",
-    "source_title": "Iran, US trade tanker attacks as Tehran will declare 'prohibited zone'",
-    "source_summary": "Iranian government said that it targeted three oil tankers using an unauthorized route through the Strait of Hormuz, as well as a number of US-linked ships, in retaliation for US attacks on Iranian tankers over the weekend, Bloomberg reported on Sunday.",
-    "drafted_at": "2026-09-06T23:19:53.360424",
+    "source_url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67795-vs-67787-previous-202609070115",
+    "source_title": "PBOC sets USD/CNY reference rate at 6.7795 vs. 6.7787 previous",
+    "source_summary": "On Monday, the People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7795 compared to Friday's fix of 6.7787 and 6.7086 Reuters estimate.",
+    "drafted_at": "2026-09-07T01:40:34.804091",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "5fc3a4d4f1389222"
+    "content_hash": "c8e43007a2126488"
   },
   {
-    "id": "bfbdd8b7",
+    "id": "2f7c2e2f",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Cross-border read: Increased U.S. diplomatic engagement may signal a shift towards serious peace talks, impacting geopolitical strategies and market dynamics.\n\nThe post US resumes Kyiv talks after meeting with Putin in Moscow appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/us-resumes-kyiv-talks-after-meeting-with-putin-in-moscow/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/us-resumes-kyiv-talks-after-meeting-with-putin-in-moscow/",
-    "source_title": "US resumes Kyiv talks after meeting with Putin in Moscow",
-    "source_summary": "Increased U.S. diplomatic engagement may signal a shift towards serious peace talks, impacting geopolitical strategies and market dynamics. The post US resumes Kyiv talks after meeting with Putin in Moscow appeared first on Crypto Briefing .",
-    "drafted_at": "2026-09-06T23:19:53.361106",
-    "data": {
-      "source": "CRYPTO BRIEFING"
-    },
-    "content_hash": "2a39e8b837e89f09"
-  },
-  {
-    "id": "30fcbc86",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Gulf wire: Heightened U.S.-Iran tensions risk disrupting global oil supply, potentially driving Brent crude prices to new highs amid market volatility.\n\nThe post Brent oil gains 0.8% at open after US attacks Iranian tankers appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/brent-oil-gains-08-at-open-after-us-attacks-iranian-tankers/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/brent-oil-gains-08-at-open-after-us-attacks-iranian-tankers/",
-    "source_title": "Brent oil gains 0.8% at open after US attacks Iranian tankers",
-    "source_summary": "Heightened U.S.-Iran tensions risk disrupting global oil supply, potentially driving Brent crude prices to new highs amid market volatility. The post Brent oil gains 0.8% at open after US attacks Iranian tankers appeared first on Crypto Briefing .",
-    "drafted_at": "2026-09-06T23:19:53.361434",
-    "data": {
-      "source": "CRYPTO BRIEFING"
-    },
-    "content_hash": "44abefbeba81435e"
-  },
-  {
-    "id": "259876f3",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "EU/UK wire: Heightened tensions may destabilize regional security, affecting diplomatic negotiations and increasing market uncertainty over military actions.\n\nThe post Lavrov accuses Germany of moving towards war with Russia appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/lavrov-accuses-germany-of-moving-towards-war-with-russia/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/lavrov-accuses-germany-of-moving-towards-war-with-russia/",
-    "source_title": "Lavrov accuses Germany of moving towards war with Russia",
-    "source_summary": "Heightened tensions may destabilize regional security, affecting diplomatic negotiations and increasing market uncertainty over military actions. The post Lavrov accuses Germany of moving towards war with Russia appeared first on Crypto Briefing .",
-    "drafted_at": "2026-09-06T23:19:53.361855",
-    "data": {
-      "source": "CRYPTO BRIEFING"
-    },
-    "content_hash": "e00c445c694cc7b9"
-  },
-  {
-    "id": "23e26fc4",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "Hiring scoreboard: The Mexican Peso appreciates against the US Dollar, testing two-year highs near 16.85 as the USD/MXN sets aside a strong US Nonfarm Payrolls report, which was ignored by the Peso\u2019s bears.\n\nhttps://www.fxstreet.com/news/usd-mxn-price-forecast-peso-rally-targets-april-2024-low-202609042159",
+    "draft_text": "Levant update: West Texas Intermediate (WTI) gains ground after registering losses in the previous trading day, hovering around $90.00 per barrel during Asian hours on Monday.\n\nhttps://www.fxstreet.com/news/wti-rises-to-near-9000-on-escalating-us-iran-conflict-202609070113",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/usd-mxn-price-forecast-peso-rally-targets-april-2024-low-202609042159",
-    "source_title": "USD/MXN Price Forecast: Peso rally targets April 2024 low",
-    "source_summary": "The Mexican Peso appreciates against the US Dollar, testing two-year highs near 16.85 as the USD/MXN sets aside a strong US Nonfarm Payrolls report, which was ignored by the Peso\u2019s bears.",
-    "drafted_at": "2026-09-06T23:19:53.423222",
+    "source_url": "https://www.fxstreet.com/news/wti-rises-to-near-9000-on-escalating-us-iran-conflict-202609070113",
+    "source_title": "WTI rises to near $90.00 on escalating US-Iran conflict",
+    "source_summary": "West Texas Intermediate (WTI) gains ground after registering losses in the previous trading day, hovering around $90.00 per barrel during Asian hours on Monday.",
+    "drafted_at": "2026-09-07T01:40:34.804282",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "996dca8bbf45fead"
+    "content_hash": "8c8c123ec103ecc1"
   },
   {
-    "id": "5e9cf936",
+    "id": "006cb76a",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "GLOBAL DESK: The USD/JPY pair struggles to capitalize on Friday's modest bounce from the vicinity of early August lows and kicks off the new week on a softer note.\n\nSpot prices currently trade just below the 156.00 mark, though the downside remains cushioned amid mixed fundamental cues.\n\nhttps://www.fxstreet.com/news/japanese-yen-consolidates-near-august-highs-vs-usd-as-hawkish-boj-fed-bets-clash-202609070104",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/japanese-yen-consolidates-near-august-highs-vs-usd-as-hawkish-boj-fed-bets-clash-202609070104",
+    "source_title": "Japanese Yen consolidates near August highs vs USD as hawkish BoJ, Fed bets clash",
+    "source_summary": "The USD/JPY pair struggles to capitalize on Friday's modest bounce from the vicinity of early August lows and kicks off the new week on a softer note. Spot prices currently trade just below the 156.00 mark, though the downside remains cushioned amid mixed fundamental cues.",
+    "drafted_at": "2026-09-07T01:40:34.804775",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "fbab2953d5c2c0cf"
+  },
+  {
+    "id": "ae39d2c8",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "PACK BRIEFING \u2014 CHINA: 6, 2026 /PRNewswire/ -- Baidu, Inc. (\"Baidu\" or the \"Company\") (Nasdaq: BIDU; HKEX: 9888 (HKD Counter) and 89888 (RMB Counter)), a leading AI company with strong Internet foundation, today announced that the Company's Class A ordinary shares traded on The Stock Exchange of...\n\nhttps://www.prnewswire.com/news-releases/baidu-announces-inclusion-of-its-class-a-ordinary-shares-in-the-shenzhen-hong-kong-stock-connect-and-shanghai-hong-kong-stock-connect-programs-302870913.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "PR NEWSWIRE",
+    "source_url": "https://www.prnewswire.com/news-releases/baidu-announces-inclusion-of-its-class-a-ordinary-shares-in-the-shenzhen-hong-kong-stock-connect-and-shanghai-hong-kong-stock-connect-programs-302870913.html",
+    "source_title": "Baidu Announces Inclusion of Its Class A Ordinary Shares in the Shenzhen-Hong Kong Stock Connect and Shanghai-Hong Kong Stock Connect Programs",
+    "source_summary": "BEIJING, Sept. 6, 2026 /PRNewswire/ -- Baidu, Inc. (\"Baidu\" or the \"Company\") (Nasdaq: BIDU; HKEX: 9888 (HKD Counter) and 89888 (RMB Counter)), a leading AI company with strong Internet foundation, today announced that the Company's Class A ordinary shares traded on The Stock Exchange of...",
+    "drafted_at": "2026-09-07T01:40:34.805170",
+    "data": {
+      "source": "PR NEWSWIRE"
+    },
+    "content_hash": "8b53c7ae5adb63ca"
+  },
+  {
+    "id": "f6876e7c",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "CPI POSTCARD: The stock market, including the Dow Jones index, falls after a strong jobs report and a trade threat from President Trump.\n\nThe post Stock Market Skids After Strong Jobs Report; Trump Makes Trade Threat As CPI Data Looms appeared first on Investor's Business Daily.\n\nhttps://www.investors.com/market-trend/the-big-picture/dow-jones-stock-market-jobs-report-trump-trade-threat-cpi/",
@@ -498,31 +496,14 @@
     "source_url": "https://www.investors.com/market-trend/the-big-picture/dow-jones-stock-market-jobs-report-trump-trade-threat-cpi/",
     "source_title": "Stock Market Skids After Strong Jobs Report; Trump Makes Trade Threat As CPI Data Looms",
     "source_summary": "The stock market, including the Dow Jones index, falls after a strong jobs report and a trade threat from President Trump. CPI data looms. The post Stock Market Skids After Strong Jobs Report; Trump Makes Trade Threat As CPI Data Looms appeared first on Investor's Business Daily .",
-    "drafted_at": "2026-09-06T23:19:53.423570",
+    "drafted_at": "2026-09-07T01:40:34.853703",
     "data": {
       "source": "IBD"
     },
     "content_hash": "a27cadfbf274de61"
   },
   {
-    "id": "23e9dbdd",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "JOBS DAY. The USD/CHF registers modest gains of over 0.30% as the Greenback is boosted by a solid US Nonfarm Payrolls report, pushing the pair above the 50-day Simple Moving Average (SMA) to reach a daily high of 0.8126.\n\nAt the time of writing, trades at 0.8098.\n\nhttps://www.fxstreet.com/news/usd-chf-price-forecast-nfp-rally-stalls-at-08100-retraces-202609042127",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/usd-chf-price-forecast-nfp-rally-stalls-at-08100-retraces-202609042127",
-    "source_title": "USD/CHF Price Forecast: NFP rally stalls at 0.8100, retraces",
-    "source_summary": "The USD/CHF registers modest gains of over 0.30% as the Greenback is boosted by a solid US Nonfarm Payrolls report, pushing the pair above the 50-day Simple Moving Average (SMA) to reach a daily high of 0.8126. At the time of writing, trades at 0.8098.",
-    "drafted_at": "2026-09-06T23:19:53.423898",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "785dacf78ffa9f62"
-  },
-  {
-    "id": "5c37e328",
+    "id": "2f4a742b",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "LABOR MARKET READ: Trump: Witkoff and Kushner will bring proposal to Putin to end the war Cleveland Fed President Beth Hammack is sounding decidedly hawkish on monetary policy Trump tells Fed: Lower the rate or I'll stop trading with countries with which we have a deficit Canada Employment change for August -41,7K vs 15.0K estimate US August non-farm payrolls +162K vs +56K expected Markets: WTI crude oil down $0.01 to $91.30 US 10-year yields down 1.8 bps to 4.78% Gold down $39 to $4433 AUD leads, JPY lags on the day S&P 500 down 0.4% The jobs reports from the USA and Canada were the highlights and they diverged with a big win for the US and a miss for Canada, reversing what happened a month ago.\n\nThe dollar initially jumped on non-farm payrolls, rising around 35 pips across the board but the moves seconds after the data were the extremes for the day.\n\nThere were the usual caveats in the jobs report as education and hospitality added much of the gains but overall it was still a strong report.\n\nThe big retracement in the dollar was more about Fed thinking, with Waller yesterday indicating that the jobs report wouldn't be a big factor in his thinking.\n\nStill, the implied odds of a hike moved to 58% from 49% and short-dated yields rose 4 bps.\n\nThe yen remained in focus and there were fresh signs of meddling as the pair fell more than 200 pips from the post-NFP jump.\n\nAfter reaching 155.40 the pair climbed steadily back to 156.26 to finish the day up around 50 pips.\n\nIt's been a volatile start to the month for the pair so far.\n\nhttps://investinglive.com/news/investinglive-americas-market-news-wrap-big-beat-for-non-farm-payrolls/",
@@ -532,31 +513,65 @@
     "source_url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-big-beat-for-non-farm-payrolls/",
     "source_title": "investingLive Americas market news wrap: Big beat for non-farm payrolls",
     "source_summary": "Trump: Witkoff and Kushner will bring proposal to Putin to end the war Cleveland Fed President Beth Hammack is sounding decidedly hawkish on monetary policy Trump tells Fed: Lower the rate or I'll stop trading with countries with which we have a deficit Canada Employment change for August -41,7K vs 15.0K estimate US August non-farm payrolls +162K vs +56K expected Markets: WTI crude oil down $0.01 ",
-    "drafted_at": "2026-09-06T23:19:53.425841",
+    "drafted_at": "2026-09-07T01:40:34.855165",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "40ce07226e65eb55"
   },
   {
-    "id": "a3184adb",
+    "id": "11ade3d3",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "JOBS DAY. The US economy added far more jobs than expected in August, pressuring Bitcoin lower as traders repriced the odds of a Federal Reserve rate cut this month.\n\nhttps://cointelegraph.com/markets/surprise-labor-market-print-sends-bitcoin-back-below-80k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "draft_text": "JOBS DAY. Friday\u2019s jobs report for August showed the economy adding a robust 162,000 jobs and the unemployment rate holding at 4.1%, both strong signs for the economy.\n\nBut the headline numbers from the Bureau of Labor Statistics report don\u2019t always tell the full story.\n\nA look at the trends and details underlying the figures can illustrate a lot more [\u2026]\n\nhttps://www.washingtonexaminer.com/policy/economy/4712371/what-august-jobs-report-economy-trump/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "COINTELEGRAPH",
-    "source_url": "https://cointelegraph.com/markets/surprise-labor-market-print-sends-bitcoin-back-below-80k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "source_title": "Surprise nonfarm payrolls print sends Bitcoin back below 80K",
-    "source_summary": "The US economy added far more jobs than expected in August, pressuring Bitcoin lower as traders repriced the odds of a Federal Reserve rate cut this month.",
-    "drafted_at": "2026-09-06T23:19:53.426095",
+    "primary_source": "WASH EXAMINER",
+    "source_url": "https://www.washingtonexaminer.com/policy/economy/4712371/what-august-jobs-report-economy-trump/",
+    "source_title": "What the August jobs report says about the economy and Trump",
+    "source_summary": "Friday\u2019s jobs report for August showed the economy adding a robust 162,000 jobs and the unemployment rate holding at 4.1%, both strong signs for the economy. But the headline numbers from the Bureau of Labor Statistics report don\u2019t always tell the full story. A look at the trends and details underlying the figures can illustrate a lot more [\u2026]",
+    "drafted_at": "2026-09-07T01:40:34.855533",
     "data": {
-      "source": "COINTELEGRAPH"
+      "source": "WASH EXAMINER"
     },
-    "content_hash": "4bcc069149d28d86"
+    "content_hash": "ece96c36fbdea397"
   },
   {
-    "id": "89766514",
+    "id": "3c5bc63e",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "Fresh print: The unemployment rate held steady at 4.1%, still down from its most recent peak of 4.5% last November, according to new data from the Bureau of Labor Statistics (BLS).\n\nDespite the relative stability of the unemployment rate, the number of new jobs added to the economy has been fluctuating, going from 214,000 in March down to a 21,000 gain in July and then back up in August.\n\nThe US economy added 162,000 jobs in August, an uptick after a sluggish summer for the labor market.\n\nFigures for job growth in June and July were both revised up.\n\nAfter revisions, job growth in June was 31,000 jobs, up from an initial 20,000, and July was revised up by 44,000 jobs, from an initially reported loss of 23,000 to a gain of 21,000.\n\nhttps://www.theguardian.com/business/2026/sep/04/august-economy-jobs-report",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "GUARDIAN",
+    "source_url": "https://www.theguardian.com/business/2026/sep/04/august-economy-jobs-report",
+    "source_title": "US added 162,000 jobs in August, with unemployment rate holding steady",
+    "source_summary": "Number of new jobs being added has been fluctuating, with private companies adding 38,000 jobs in August The US economy added 162,000 jobs in August, an uptick after a sluggish summer for the labor market. The unemployment rate held steady at 4.1%, still down from its most recent peak of 4.5% last November, according to new data from the Bureau of Labor Statistics (BLS). Despite the relative stabi",
+    "drafted_at": "2026-09-07T01:40:34.856733",
+    "data": {
+      "source": "GUARDIAN"
+    },
+    "content_hash": "096647d2d825416c"
+  },
+  {
+    "id": "5ff3b2cc",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "EMPLOYMENT POSTCARD: Prior month employment change: 75.1K Details for the month of August: Employment change:-41.7K vs +15.0K expected; prior +75.1K Unemployment rate:6.4% vs 6.4% expected; prior 6.4% Full-time employment change:-35.9K vs prior +38.6K Part-time employment change:-5.8K vs prior +36.6K Participation rate:65.0% vs prior 65.1% Average hourly wages for permanent employees:+2.0% YoY vs +3.0% expected; prior +3.0% The Canada employment report for August was weaker than expected.\n\nEmployment fell by 41.7K, well below the expected gain of 15.0K, with losses in both full-time and part-time positions.\n\nFull-time employment declined by 35.9K, while part-time employment fell by 5.8K.\n\nDespite the decline in employment, the unemployment rate remained unchanged at 6.4%, matching expectations.\n\nThat was partly explained by the participation rate slipping to 65.0% from 65.1%, meaning fewer people were actively participating in the labor force.\n\nAverage hourly wages for permanent employees increased by just 2.0% from a year earlier, down from 3.0% in the prior month and below the 3.0% estimate.\n\nOverall, the report points to a softer Canadian labor market, with falling employment, weaker labor-force participation and easing wage pressures.\n\nThat combination should reduce pressure on the Bank of Canada to tighten policy further and is a negative input for the Canadian dollar.\n\nhttps://investinglive.com/news/canada-employment-change-for-august-41-7k-vs-15-0k-estimate/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/canada-employment-change-for-august-41-7k-vs-15-0k-estimate/",
+    "source_title": "Canada Employment change for August -41,7K vs 15.0K estimate",
+    "source_summary": "Prior month employment change: 75.1K Details for the month of August: Employment change:-41.7K vs +15.0K expected; prior +75.1K Unemployment rate:6.4% vs 6.4% expected; prior 6.4% Full-time employment change:-35.9K vs prior +38.6K Part-time employment change:-5.8K vs prior +36.6K Participation rate:65.0% vs prior 65.1% Average hourly wages for permanent employees:+2.0% YoY vs +3.0% expected; prior",
+    "drafted_at": "2026-09-07T01:40:34.858748",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "6adcea0778d144f9"
+  },
+  {
+    "id": "1add8ab2",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -566,7 +581,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-09-06T23:19:53.432306",
+    "drafted_at": "2026-09-07T01:40:34.860009",
     "data": {
       "manual": true,
       "via": "manual_news.md"
