@@ -1,23 +1,42 @@
 [
   {
-    "id": "6d1f81dd",
+    "id": "e22d2610",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "Canada is rolling out a flurry of new tariffs on US goods on Tuesday morning, adding levies of up to 50% on items like dairy and steel.\n\nhttps://www.businessinsider.com/canada-tariffs-target-us-cheese-honey-hundreds-items-2026-9",
+    "draft_text": "The counter-tariffs will apply to nearly C$28bn ($20bn; \u00a315bn) worth of American products, from steel to furniture to cotton T-shirts, and will be as high as 50%.\n\nCanada's retaliatory tariffs on a range of US goods came into effect on Tuesday, with no sign of a trade deal on the horizon.\n\nFresh fish and lobster were also on the list, but Canada later omitted them after pushback from its seafood industry - a sign of the tricky balance it has to strike as it retaliates against its largest trading partner.\n\nhttps://www.bbc.co.uk/news/articles/c8jdev0422jo?at_medium=RSS&at_campaign=rss",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "BUSINESS INSIDER",
-    "source_url": "https://www.businessinsider.com/canada-tariffs-target-us-cheese-honey-hundreds-items-2026-9",
-    "source_title": "Canada's incoming tariffs target US cheese, honey, aluminum foil, and hundreds of other items as trade war heats up",
-    "source_summary": "Canada is rolling out a flurry of new tariffs on US goods on Tuesday morning, adding levies of up to 50% on items like dairy and steel.",
-    "drafted_at": "2026-09-08T01:52:15.141591",
+    "primary_source": "BBC",
+    "source_url": "https://www.bbc.co.uk/news/articles/c8jdev0422jo?at_medium=RSS&at_campaign=rss",
+    "source_title": "Canada braces for prolonged trade war as counter-tariffs on US take effect",
+    "source_summary": "The tariffs will apply to $20bn worth of American products, jeopardising the stability of the world's largest bilateral trading relationship.",
+    "drafted_at": "2026-09-08T06:41:37.470971",
     "data": {
-      "source": "BUSINESS INSIDER"
+      "source": "BBC"
     },
-    "content_hash": "83535238b500db52"
+    "content_hash": "61cb3bf1410b4575"
   },
   {
-    "id": "0e8953e0",
+    "id": "91eb3f5d",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "The market did a thing: WTI crude surges 12.4% in 5 sessions to $93.70.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NYMEX \u00b7 CL=F",
+    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "source_title": "WTI crude oil futures",
+    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "drafted_at": "2026-09-08T06:41:37.471253",
+    "data": {
+      "signal_id": "CL=F:move:2026-09-08",
+      "kind": "move_up",
+      "current": "$93.70"
+    },
+    "content_hash": "c272de0720a2f459"
+  },
+  {
+    "id": "4896dd8f",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Hot tape: WTI crude surges 10.9% in 5 sessions to $92.52.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
@@ -27,7 +46,7 @@
     "source_url": "https://finance.yahoo.com/quote/CL%3DF",
     "source_title": "WTI crude oil futures",
     "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-09-08T01:52:15.141813",
+    "drafted_at": "2026-09-08T06:41:37.471482",
     "data": {
       "signal_id": "CL=F:move:2026-09-07",
       "kind": "move_up",
@@ -36,7 +55,7 @@
     "content_hash": "c272de0720a2f459"
   },
   {
-    "id": "974085ca",
+    "id": "366bf414",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "The chart told me. Now I'm telling you. VIX climbs 5.3% in 5 sessions to 15.20.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
@@ -46,7 +65,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EVIX",
     "source_title": "VIX (S&P 500 volatility)",
     "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-09-08T01:52:15.141996",
+    "drafted_at": "2026-09-08T06:41:37.471725",
     "data": {
       "signal_id": "^VIX:move:2026-09-07",
       "kind": "move_up",
@@ -55,92 +74,132 @@
     "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "e9ac5334",
+    "id": "70fcf073",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "BOJ DESK: The USD/JPY pair declines for the second straight day \u2013 also marking the fourth day of a fall in the previous five \u2013 and sinks to its lowest level since February 18, around mid-153.00s during the Asian session on Tuesday.\n\nhttps://www.fxstreet.com/news/japanese-yen-rallies-to-february-18-high-as-upbeat-wage-data-and-gdp-lift-boj-hike-bets-202609080116",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "BoJ",
-    "source_url": "https://www.fxstreet.com/news/japanese-yen-rallies-to-february-18-high-as-upbeat-wage-data-and-gdp-lift-boj-hike-bets-202609080116",
-    "source_title": "Japanese Yen rallies to February 18 high as upbeat wage data and GDP lift BoJ hike bets",
-    "source_summary": "The USD/JPY pair declines for the second straight day \u2013 also marking the fourth day of a fall in the previous five \u2013 and sinks to its lowest level since February 18, around mid-153.00s during the Asian session on Tuesday.",
-    "drafted_at": "2026-09-08T01:52:15.150172",
-    "data": {
-      "actor": "BoJ"
-    },
-    "content_hash": "973a0ef386a01d65"
-  },
-  {
-    "id": "dec78342",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "China policy update: The People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Tuesday at 6.7804 compared to the previous day's fix of 6.7795 and 6.7104 Reuters estimate.\n\nhttps://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67804-vs-67795-previous-202609080115",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "PBOC",
-    "source_url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67804-vs-67795-previous-202609080115",
-    "source_title": "PBOC sets USD/CNY reference rate at 6.7804 vs. 6.7795 previous",
-    "source_summary": "The People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Tuesday at 6.7804 compared to the previous day's fix of 6.7795 and 6.7104 Reuters estimate.",
-    "drafted_at": "2026-09-08T01:52:15.150472",
-    "data": {
-      "actor": "PBOC"
-    },
-    "content_hash": "82f81a25783cff26"
-  },
-  {
-    "id": "c9de0780",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "Eurozone policy update: The EUR/USD pair trades with mild gains around 1.1625 during the early Asian session on Tuesday.\n\nThe Euro (EUR) strengthens against the US Dollar (USD) amid expectations of a rate hike from the European Central Bank (ECB).\n\nhttps://www.fxstreet.com/news/euro-holds-gains-above-11600-on-ecb-tightening-prospects-202609080039",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "ECB",
-    "source_url": "https://www.fxstreet.com/news/euro-holds-gains-above-11600-on-ecb-tightening-prospects-202609080039",
-    "source_title": "Euro holds gains above 1.1600 on ECB tightening prospects",
-    "source_summary": "The EUR/USD pair trades with mild gains around 1.1625 during the early Asian session on Tuesday. The Euro (EUR) strengthens against the US Dollar (USD) amid expectations of a rate hike from the European Central Bank (ECB).",
-    "drafted_at": "2026-09-08T01:52:15.150726",
-    "data": {
-      "actor": "ECB"
-    },
-    "content_hash": "d8935eac7ca2d447"
-  },
-  {
-    "id": "2ab9d6a0",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "From Tokyo: The news headline for the data is here ICYMI: Japan wages data, July 2026: Headline earnings +4.7% y/y (expected +3.9%, prior +4%) Since then we've had: Japan revised Q2 GDP: +1.4% y/y (preliminary 1.1%) I'll have more to come on that GDP data, but for now, wrappoing up the wages data. --- This is about as clean a data point as the BOJ could ask for heading into next week's meeting (September 17\u201318): real wages accelerating for a seventh straight month while nominal pay growth hits its fastest pace in almost three decades removes one of the central bank's main hesitations around hiking, that tightening might choke off the wage-led recovery it has been waiting on.\n\nWith a hike already largely priced in, the read-through is less about whether the BOJ moves and more about how confidently it can signal further tightening afterward, which is where the yen and JGB yields are likely to find support.\n\nThat's a mixed signal for the Nikkei: exporters benefit from the stronger domestic demand narrative and continued corporate earnings strength, but rate-sensitive sectors face further pressure if JGB yields, already at 30-year highs, extend their climb on reinforced hike conviction. --- Japan just handed the BOJ exactly the wage evidence it needed to justify hiking with confidence next week.\n\nSummary: Japan's real wages rose 2.4% year-on-year in July, the biggest gain since May 2021 and the seventh consecutive month of increases Nominal wages, or total cash earnings, rose 4.7% to 436,401 yen a month, the fastest pace since January 1997 and above economists' forecast of 3.8% Base pay increased 4.1%, the fastest rise since April 1992, while overtime pay growth slowed to 3.1% from June's 3.4% Special payments, mostly one-time bonuses, jumped 6.3% in July after a revised 4.7% gain in June The inflation rate used to calculate real wages rose to 2.2% in July from 1.9% in June, its first time reaching 2% this year BOJ Governor Kazuo Ueda said last week the bank would debate a hike at upcoming meetings including September, and markets have largely priced in a move at next week's policy meeting Japan's real wages rose 2.4% in July from a year earlier, the biggest increase since May 2021 and the seventh straight month of gains, government data showed Tuesday, adding fresh momentum to the wage recovery the Bank of Japan has been watching closely ahead of next week's policy meeting.\n\nThe reading improved on June's revised 2.2% gain and came as nominal wages, or total cash earnings, rose 4.7% to 436,401 yen a month, the fastest pace since January 1997 and well above economists' forecast of 3.8%.\n\nThe strength was broad-based rather than driven purely by one-off factors.\n\nBase pay, or regular wages, rose 4.1%, the fastest increase since April 1992 and an acceleration from June's revised 3.5% gain, marking the sixth consecutive month above 3% and the longest such streak in 34 years.\n\nOvertime pay growth slowed to 3.1% from June's 3.4%, while special payments, mostly volatile one-time bonuses, jumped 6.3% after a revised 4.7% gain the previous month.\n\nhttps://investinglive.com/news/japan-wage-growth-strongest-since-1997-cementing-boj-hike-case/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "BOJ",
-    "source_url": "https://investinglive.com/news/japan-wage-growth-strongest-since-1997-cementing-boj-hike-case/",
-    "source_title": "Japan wage growth strongest since 1997, cementing BOJ hike case",
-    "source_summary": "The news headline for the data is here ICYMI: Japan wages data, July 2026: Headline earnings +4.7% y/y (expected +3.9%, prior +4%) Since then we've had: Japan revised Q2 GDP: +1.4% y/y (preliminary 1.1%) I'll have more to come on that GDP data, but for now, wrappoing up the wages data. --- This is about as clean a data point as the BOJ could ask for heading into next week's meeting (September 17\u20131",
-    "drafted_at": "2026-09-08T01:52:15.154099",
-    "data": {
-      "actor": "BOJ"
-    },
-    "content_hash": "98f18cfa363f419e"
-  },
-  {
-    "id": "34f2fc3c",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "The Fed just spoke. Here's what matters: Gold price (XAU/USD) drifts lower to near $4,410 during the early Asian session on Tuesday.\n\nThe precious metal extends the decline as a stronger-than-expected US Nonfarm Payrolls (NFP) report for August bolsters expectations for a Federal Reserve (Fed) interest rate hike this month.\n\nhttps://www.fxstreet.com/news/gold-declines-to-near-4-400-as-robust-us-jobs-data-lifts-fed-hike-odds-202609072326",
+    "draft_text": "RATE-PATH READ: UBS has identified three places for investors to put money as volatility builds around the Federal Reserve\u2019s September decision, while withdrawing a bond recommendation.\n\nThe bank\u2019s strategists argue that the key question is not whether the Fed hikes or holds, but the conditions it acts against.\n\nMarket pricing has swung sharply in recent weeks.\n\nWhy The post UBS Names Three Places to Put Money as Fed Rate Hike Odds Reach 60% appeared first on BeInCrypto.\n\nhttps://beincrypto.com/ubs-fed-hike-odds-portfolio-positioning/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "Fed",
-    "source_url": "https://www.fxstreet.com/news/gold-declines-to-near-4-400-as-robust-us-jobs-data-lifts-fed-hike-odds-202609072326",
-    "source_title": "Gold declines to near $4,400 as robust US jobs data lifts Fed hike odds",
-    "source_summary": "Gold price (XAU/USD) drifts lower to near $4,410 during the early Asian session on Tuesday. The precious metal extends the decline as a stronger-than-expected US Nonfarm Payrolls (NFP) report for August bolsters expectations for a Federal Reserve (Fed) interest rate hike this month.",
-    "drafted_at": "2026-09-08T01:52:15.154413",
+    "source_url": "https://beincrypto.com/ubs-fed-hike-odds-portfolio-positioning/",
+    "source_title": "UBS Names Three Places to Put Money as Fed Rate Hike Odds Reach 60%",
+    "source_summary": "UBS has identified three places for investors to put money as volatility builds around the Federal Reserve\u2019s September decision, while withdrawing a bond recommendation. The bank\u2019s strategists argue that the key question is not whether the Fed hikes or holds, but the conditions it acts against. Market pricing has swung sharply in recent weeks. Why The post UBS Names Three Places to Put Money as Fe",
+    "drafted_at": "2026-09-08T06:41:37.483170",
     "data": {
       "actor": "Fed"
     },
-    "content_hash": "447c9bebe2c764d3"
+    "content_hash": "a7be2feafb37a00b"
   },
   {
-    "id": "1dbb7dc6",
+    "id": "e26082c9",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "From the Eccles Building: Gold (XAU/USD) sticks to modest intraday gains through the Asian session on Tuesday, snapping a two-day losing streak as the recent US Dollar (USD) pullback from a three-week high gains momentum amid the rallying Japanese Yen (JPY).\n\nhttps://www.fxstreet.com/news/gold-benefits-from-weak-usd-eyes-4-450-as-focus-remains-on-us-cpi-data-202609080430",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Fed",
+    "source_url": "https://www.fxstreet.com/news/gold-benefits-from-weak-usd-eyes-4-450-as-focus-remains-on-us-cpi-data-202609080430",
+    "source_title": "Gold remains below $4,450 as traders await US inflation data for Fed rate cues",
+    "source_summary": "Gold (XAU/USD) sticks to modest intraday gains through the Asian session on Tuesday, snapping a two-day losing streak as the recent US Dollar (USD) pullback from a three-week high gains momentum amid the rallying Japanese Yen (JPY).",
+    "drafted_at": "2026-09-08T06:41:37.483546",
+    "data": {
+      "actor": "Fed"
+    },
+    "content_hash": "5948479a0dddb748"
+  },
+  {
+    "id": "780aca7d",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "Live from the Federal Reserve: The odds of a September Fed rate hike returned to around 60% following Friday's jobs report, with U.S. inflation data due later this week.\n\nhttps://www.theblock.co/news/markets/2026-09-07-bitcoin-holds-near-80000-despite-renewed-fed-rate-hike-fears-as-cpi-test-looms-413692",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Fed",
+    "source_url": "https://www.theblock.co/news/markets/2026-09-07-bitcoin-holds-near-80000-despite-renewed-fed-rate-hike-fears-as-cpi-test-looms-413692",
+    "source_title": "Bitcoin holds near $80,000 despite renewed Fed rate hike fears as CPI test looms",
+    "source_summary": "The odds of a September Fed rate hike returned to around 60% following Friday's jobs report, with U.S. inflation data due later this week.",
+    "drafted_at": "2026-09-08T06:41:37.483823",
+    "data": {
+      "actor": "Fed"
+    },
+    "content_hash": "cbfaddd24008671e"
+  },
+  {
+    "id": "84312a3a",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "Policy update for the pack: The Board's process for setting the discount rate is distinct from the process the Federal Open Market Committee follows in setting the target range for the federal funds rate.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
+    "source_title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
+    "source_summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
+    "drafted_at": "2026-09-08T06:41:37.484350",
+    "data": {
+      "actor": "FED"
+    },
+    "content_hash": "da9833991b6c87c5"
+  },
+  {
+    "id": "f8a81f6e",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "POWELL POSTCARD: Consent prohibition against Stephanie R.\n\nConsent prohibition against Crystal A.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm",
+    "source_title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
+    "source_summary": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
+    "drafted_at": "2026-09-08T06:41:37.484703",
+    "data": {
+      "actor": "FED"
+    },
+    "content_hash": "1899c878ef68bdd8"
+  },
+  {
+    "id": "81a14dcb",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$NSLR \u2014 2 company insiders bought $760,984 on Aug 26.\n\nNeostellar Capital Corp. 76,040 shares at $10.01.\n\nStock is +0.9% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/NSLR_P_20260826.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=NSLR",
+    "source_title": "Neostellar Capital Corp. (NSLR) insider bought $760,984",
+    "source_summary": "2 insider(s) bought 76,040 shares at $10.01 on 2026-08-26.",
+    "drafted_at": "2026-09-08T06:41:37.485005",
+    "data": {
+      "ticker": "NSLR",
+      "type": "P",
+      "dollar_value": 760984.0,
+      "pct_since": 0.8991047099872804
+    },
+    "content_hash": "671482594bed7f85"
+  },
+  {
+    "id": "19f267f8",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$SRTS \u2014 2 company insiders bought $563,538 on Aug 28.\n\nSensus Healthcare, Inc. 171,171 shares at $3.29.\n\nStock is -3.0% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/SRTS_P_20260828.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=SRTS",
+    "source_title": "Sensus Healthcare, Inc. (SRTS) insider bought $563,538",
+    "source_summary": "2 insider(s) bought 171,171 shares at $3.29 on 2026-08-28.",
+    "drafted_at": "2026-09-08T06:41:37.485214",
+    "data": {
+      "ticker": "SRTS",
+      "type": "P",
+      "dollar_value": 563538.0,
+      "pct_since": -3.0395119385878737
+    },
+    "content_hash": "06894cc6c10cecec"
+  },
+  {
+    "id": "156a5d89",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$ENOV \u2014 2 company insiders bought $425,539 on Sep 02.\n\nEnovis Corp. 21,833 shares at $19.49.\n\nStock is -4.8% since the purchase. This is a public SEC Form 4 filing.",
@@ -150,7 +209,7 @@
     "source_url": "http://openinsider.com/screener?s=ENOV",
     "source_title": "Enovis Corp (ENOV) insider bought $425,539",
     "source_summary": "2 insider(s) bought 21,833 shares at $19.49 on 2026-09-02.",
-    "drafted_at": "2026-09-08T01:52:15.155728",
+    "drafted_at": "2026-09-08T06:41:37.485405",
     "data": {
       "ticker": "ENOV",
       "type": "P",
@@ -160,7 +219,7 @@
     "content_hash": "c7ec69bed5c39d23"
   },
   {
-    "id": "9c70d072",
+    "id": "af20b63c",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$ANGX \u2014 3 company insiders bought $2.8M on Sep 01.\n\nAngel Studios, Inc. 711,025 shares at $4.01.\n\nStock is +14.2% since the purchase. This is a public SEC Form 4 filing.",
@@ -170,7 +229,7 @@
     "source_url": "http://openinsider.com/screener?s=ANGX",
     "source_title": "Angel Studios, Inc. (ANGX) insider bought $2.8M",
     "source_summary": "3 insider(s) bought 711,025 shares at $4.01 on 2026-09-01.",
-    "drafted_at": "2026-09-08T01:52:15.155882",
+    "drafted_at": "2026-09-08T06:41:37.485597",
     "data": {
       "ticker": "ANGX",
       "type": "P",
@@ -180,7 +239,7 @@
     "content_hash": "2d9860e33e20c48e"
   },
   {
-    "id": "18637e9e",
+    "id": "ff868941",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$TTMI \u2014 2 company insiders bought $1.6M on Aug 25.\n\nTtm Technologies Inc. 15,000 shares at $109.48.\n\nStock is +14.7% since the purchase. This is a public SEC Form 4 filing.",
@@ -190,7 +249,7 @@
     "source_url": "http://openinsider.com/screener?s=TTMI",
     "source_title": "Ttm Technologies Inc (TTMI) insider bought $1.6M",
     "source_summary": "2 insider(s) bought 15,000 shares at $109.48 on 2026-08-25.",
-    "drafted_at": "2026-09-08T01:52:15.156062",
+    "drafted_at": "2026-09-08T06:41:37.485788",
     "data": {
       "ticker": "TTMI",
       "type": "P",
@@ -200,81 +259,7 @@
     "content_hash": "3d126c7b205fc749"
   },
   {
-    "id": "3fb92d1e",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$PRE \u2014 2 company insiders bought $999,698 on Aug 24.\n\nPrenetics Global Ltd. 47,781 shares at $20.92.\n\nStock is +21.6% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/PRE_P_20260824.png",
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=PRE",
-    "source_title": "Prenetics Global Ltd (PRE) insider bought $999,698",
-    "source_summary": "2 insider(s) bought 47,781 shares at $20.92 on 2026-08-24.",
-    "drafted_at": "2026-09-08T01:52:15.156211",
-    "data": {
-      "ticker": "PRE",
-      "type": "P",
-      "dollar_value": 999698.0,
-      "pct_since": 21.606121099701795
-    },
-    "content_hash": "7d12e023bf28bafa"
-  },
-  {
-    "id": "1e5754ee",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$AVBC \u2014 4 company insiders bought $475,969 on Sep 03.\n\nAvidia Bancorp, Inc. 21,781 shares at $21.85.\n\nStock is +1.1% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/AVBC_P_20260903.png",
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=AVBC",
-    "source_title": "Avidia Bancorp, Inc. (AVBC) insider bought $475,969",
-    "source_summary": "4 insider(s) bought 21,781 shares at $21.85 on 2026-09-03.",
-    "drafted_at": "2026-09-08T01:52:15.156349",
-    "data": {
-      "ticker": "AVBC",
-      "type": "P",
-      "dollar_value": 475969.0,
-      "pct_since": 1.0983988676791268
-    },
-    "content_hash": "22752a43bdf62dcf"
-  },
-  {
-    "id": "baa68e26",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Two Mexican Nationals Extradited From France in $40M Timeshare Fraud Scheme\n\nhttps://townhall.com/news/scott-mcclallen/2026/09/07/two-mexican-nationals-extradited-from-france-in-40m-timeshare-fraud-scheme-n2682588",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "TOWNHALL FIN",
-    "source_url": "https://townhall.com/news/scott-mcclallen/2026/09/07/two-mexican-nationals-extradited-from-france-in-40m-timeshare-fraud-scheme-n2682588",
-    "source_title": "Two Mexican Nationals Extradited From France in $40M Timeshare Fraud Scheme",
-    "source_summary": "",
-    "drafted_at": "2026-09-08T01:52:15.157686",
-    "data": {
-      "source": "TOWNHALL FIN"
-    },
-    "content_hash": "f95bbccddc9498de"
-  },
-  {
-    "id": "96f43318",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Government faces hundreds of billions of dollars in estimated annual fraud losses.\n\nhttps://justthenews.com/nation/states/center-square/poll-bipartisan-majority-wants-ai-aimed-government-fraud?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "JUST THE NEWS",
-    "source_url": "https://justthenews.com/nation/states/center-square/poll-bipartisan-majority-wants-ai-aimed-government-fraud?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
-    "source_title": "Bipartisan majority of Americans wants AI aimed at government fraud, poll finds",
-    "source_summary": "Government faces hundreds of billions of dollars in estimated annual fraud losses.",
-    "drafted_at": "2026-09-08T01:52:15.157782",
-    "data": {
-      "source": "JUST THE NEWS"
-    },
-    "content_hash": "e3b41d09cc3fdf06"
-  },
-  {
-    "id": "a61e3a49",
+    "id": "2a409469",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "ICIJ\u2019s 2020 FinCEN Files revealed that major banks flagged suspicious payments involving one of the Venezuelan tycoon's companies, which remains at the heart of embezzlement investigations in Europe.\n\nhttps://www.icij.org/investigations/fincen-files/white-house-pick-to-run-venezuela-oil-deal-under-investigation-in-two-countries/",
@@ -284,14 +269,14 @@
     "source_url": "https://www.icij.org/investigations/fincen-files/white-house-pick-to-run-venezuela-oil-deal-under-investigation-in-two-countries/",
     "source_title": "White House pick to run Venezuela oil deal under investigation in two countries",
     "source_summary": "ICIJ\u2019s 2020 FinCEN Files revealed that major banks flagged suspicious payments involving one of the Venezuelan tycoon's companies, which remains at the heart of embezzlement investigations in Europe.",
-    "drafted_at": "2026-09-08T01:52:15.157991",
+    "drafted_at": "2026-09-08T06:41:37.487870",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "595e1145c36e41f0"
   },
   {
-    "id": "3baf69c0",
+    "id": "f0bcc2ae",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "An ICIJ review found nearly $1.7 billion in settlements and fines over a 15 year period.\n\nBut experts said many companies see the payouts as the cost of doing business.\n\nhttps://www.icij.org/investigations/cancer-calculus/big-fines-and-settlements-barely-dent-cancer-drugmakers-revenues-fail-to-deter-wrongdoing/",
@@ -301,14 +286,14 @@
     "source_url": "https://www.icij.org/investigations/cancer-calculus/big-fines-and-settlements-barely-dent-cancer-drugmakers-revenues-fail-to-deter-wrongdoing/",
     "source_title": "Big fines and settlements barely dent cancer drugmakers\u2019 revenues, fail to deter wrongdoing",
     "source_summary": "An ICIJ review found nearly $1.7 billion in settlements and fines over a 15 year period. But experts said many companies see the payouts as the cost of doing business.",
-    "drafted_at": "2026-09-08T01:52:15.158150",
+    "drafted_at": "2026-09-08T06:41:37.488153",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "2bb33397806c5f72"
   },
   {
-    "id": "71522301",
+    "id": "a268548e",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Financial records obtained by ICIJ show that they included individuals later accused of or sanctioned for money laundering and other financial crimes.\n\nhttps://www.icij.org/investigations/coin-laundry/crypto-giant-tether-promised-careful-vetting-some-early-customers-were-later-implicated-in-financial-crimes/",
@@ -318,14 +303,31 @@
     "source_url": "https://www.icij.org/investigations/coin-laundry/crypto-giant-tether-promised-careful-vetting-some-early-customers-were-later-implicated-in-financial-crimes/",
     "source_title": "Crypto giant Tether promised careful vetting. Some early customers were later implicated in financial crimes.",
     "source_summary": "Financial records obtained by ICIJ show that they included individuals later accused of or sanctioned for money laundering and other financial crimes.",
-    "drafted_at": "2026-09-08T01:52:15.158293",
+    "drafted_at": "2026-09-08T06:41:37.488359",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "b5dc549473d7ec96"
   },
   {
-    "id": "47ec8ff1",
+    "id": "8ff29ff8",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "The allegations, which are at the heart of a confidential arbitration, signal an aggressive new stance by the Central Asian country toward longstanding international partners.\n\nhttps://www.icij.org/investigations/caspian-cabals/kazakhstan-alleges-big-oil-corruption-tainted-10-7-billion-in-contracts-delayed-key-oil-project/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "ICIJ",
+    "source_url": "https://www.icij.org/investigations/caspian-cabals/kazakhstan-alleges-big-oil-corruption-tainted-10-7-billion-in-contracts-delayed-key-oil-project/",
+    "source_title": "Kazakhstan alleges Big Oil corruption tainted $10.7 billion in contracts, delayed key oil project",
+    "source_summary": "The allegations, which are at the heart of a confidential arbitration, signal an aggressive new stance by the Central Asian country toward longstanding international partners.",
+    "drafted_at": "2026-09-08T06:41:37.488583",
+    "data": {
+      "source": "ICIJ"
+    },
+    "content_hash": "7a4f2a9afcac6e3a"
+  },
+  {
+    "id": "c3986687",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "6 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 David J. Taylor (R)\n\u2022 John Boozman (R)\n\u2022 Cleo Fields (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 John Fetterman (D)\n\u2022 John McGuire (R)\n\nLargest disclosed here: David J. Taylor, $1,001 - $15,000 on Feb 26.\n\nPrice since the first buy in this group: +24.4%.\n\nSTOCK Act disclosures. Public record.",
@@ -335,7 +337,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034138.pdf",
     "source_title": "6 Congress members bought $MSFT",
     "source_summary": "6 politicians bought $MSFT; largest $1,001 - $15,000 by David J. Taylor.",
-    "drafted_at": "2026-09-08T01:52:15.158744",
+    "drafted_at": "2026-09-08T06:41:37.488970",
     "data": {
       "ticker": "MSFT",
       "member_count": 6,
@@ -344,7 +346,7 @@
     "content_hash": "7c24415ac3c0b542"
   },
   {
-    "id": "0aef8a51",
+    "id": "2bb50262",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "5 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Markwayne Mullin (D)\n\u2022 Josh Gottheimer (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Markwayne Mullin, $50,001 - $100,000 on Feb 25.\n\nPrice since the first buy in this group: +47.9%.\n\nSTOCK Act disclosures. Public record.",
@@ -354,7 +356,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/f586922d-6083-44e5-8a32-769290389416/",
     "source_title": "5 Congress members bought $UNH",
     "source_summary": "5 politicians bought $UNH; largest $50,001 - $100,000 by Markwayne Mullin.",
-    "drafted_at": "2026-09-08T01:52:15.159002",
+    "drafted_at": "2026-09-08T06:41:37.489317",
     "data": {
       "ticker": "UNH",
       "member_count": 5,
@@ -363,7 +365,7 @@
     "content_hash": "7cbacf41d412a41b"
   },
   {
-    "id": "f5d37805",
+    "id": "c55c3b94",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 Cleo Fields (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 John Fetterman (D)\n\u2022 John McGuire (R)\n\nLargest disclosed here: Cleo Fields, $1,001 - $15,000 on Mar 12.\n\nPrice since the first buy in this group: +24.3%.\n\nSTOCK Act disclosures. Public record.",
@@ -373,7 +375,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034179.pdf",
     "source_title": "4 Congress members bought $MSFT",
     "source_summary": "4 politicians bought $MSFT; largest $1,001 - $15,000 by Cleo Fields.",
-    "drafted_at": "2026-09-08T01:52:15.159227",
+    "drafted_at": "2026-09-08T06:41:37.489624",
     "data": {
       "ticker": "MSFT",
       "member_count": 4,
@@ -382,7 +384,7 @@
     "content_hash": "4ff8eafa69ce40c2"
   },
   {
-    "id": "490194b9",
+    "id": "0436b005",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Richard Dean Dr McCormick, $1,001 - $15,000 on Mar 19.\n\nPrice since the first buy in this group: +41.6%.\n\nSTOCK Act disclosures. Public record.",
@@ -392,7 +394,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033648.pdf",
     "source_title": "3 Congress members bought $UNH",
     "source_summary": "3 politicians bought $UNH; largest $1,001 - $15,000 by Richard Dean Dr McCormick.",
-    "drafted_at": "2026-09-08T01:52:15.159460",
+    "drafted_at": "2026-09-08T06:41:37.489955",
     "data": {
       "ticker": "UNH",
       "member_count": 3,
@@ -401,7 +403,7 @@
     "content_hash": "ef6027c31bcd522a"
   },
   {
-    "id": "fd20c6ea",
+    "id": "147fffcc",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $HD this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Lloyd Doggett (D)\n\u2022 Jared Moskowitz (D)\n\nLargest disclosed here: Richard Dean Dr McCormick, $1,001 - $15,000 on Mar 19.\n\nPrice since the first buy in this group: -2.2%.\n\nSTOCK Act disclosures. Public record.",
@@ -411,7 +413,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033648.pdf",
     "source_title": "3 Congress members bought $HD",
     "source_summary": "3 politicians bought $HD; largest $1,001 - $15,000 by Richard Dean Dr McCormick.",
-    "drafted_at": "2026-09-08T01:52:15.159683",
+    "drafted_at": "2026-09-08T06:41:37.490259",
     "data": {
       "ticker": "HD",
       "member_count": 3,
@@ -420,177 +422,177 @@
     "content_hash": "8c0eaad1e4da4036"
   },
   {
-    "id": "84001c87",
+    "id": "240f6a65",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "CHINA DESK: China's anti-dumping measures on Japanese semiconductor chemicals could escalate trade tensions, impacting global chip supply chains.\n\nThe post China imposes anti-dumping measures on Japanese semiconductor chemicals appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/china-anti-dumping-japanese-semiconductor-chemicals/",
+    "draft_text": "MIDDLE EAST DESK: EUROPEAN SESSION In the European session, we don't have much on the agenda other than a couple of low-tier releases like the French trade balance and the US NFIB Small Business Optimism index.\n\nThe data is not going to change anything for the respective central banks, so the market reaction will be muted.\n\nAMERICAN SESSION In the American session, we only have the weekly ADP jobs data and the NY Fed consumer inflation expectations survey.\n\nThe data won't change anything for the Fed, so the market reaction will be muted.\n\nAs a reminder, the Fed is focused solely on inflation now, and the US CPI report on Friday will decide whether the central bank hikes at the upcoming meeting or keeps rates steady for at least another month.\n\nThe US CPI is the main event of this week (barring a surprising breakthrough in US-Iran relations).\n\nCENTRAL BANK SPEAKERS 09:30 GMT/05:30 ET - RBA's Hauser (hawkish - voter) 13:15 GMT/09:15 ET - BoE's MPC speaks at Treasury Committee 15:00 GMT/11:00 ET - ECB's Elderson (neutral - voter) This article was written by Giuseppe Dellamotta at investinglive.com.\n\nhttps://investinglive.com/news/what-are-the-main-events-for-today-37/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/what-are-the-main-events-for-today-37/",
+    "source_title": "What are the main events for today?",
+    "source_summary": "EUROPEAN SESSION In the European session, we don't have much on the agenda other than a couple of low-tier releases like the French trade balance and the US NFIB Small Business Optimism index. The data is not going to change anything for the respective central banks, so the market reaction will be muted. AMERICAN SESSION In the American session, we only have the weekly ADP jobs data and the NY Fed",
+    "drafted_at": "2026-09-08T06:41:37.492508",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "facfec703d2a5c7a"
+  },
+  {
+    "id": "c660ed2b",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Asia overnight: MUFG\u2019s Michael Wan notes the Japanese Yen has strengthened below 154 against the US Dollar (USD), its firmest level since February, as markets price faster Bank of Japan tightening.\n\nhttps://www.fxstreet.com/news/japanese-yen-strengthens-against-us-dollar-on-boj-outlook-mufg-202609080623",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/japanese-yen-strengthens-against-us-dollar-on-boj-outlook-mufg-202609080623",
+    "source_title": "Japanese Yen: Strengthens against US Dollar on BoJ outlook",
+    "source_summary": "MUFG\u2019s Michael Wan notes the Japanese Yen has strengthened below 154 against the US Dollar (USD), its firmest level since February, as markets price faster Bank of Japan tightening.",
+    "drafted_at": "2026-09-08T06:41:37.493170",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "c1f4e490931acf21"
+  },
+  {
+    "id": "f44519a7",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "From the Gulf: The planned Houthi operation could exacerbate regional instability, affecting U.S.-Iran relations and complicating Strait of Hormuz negotiations.\n\nThe post Houthis plan major operation deep in Saudi Arabia, escalating regional tensions appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/houthis-plan-major-operation-deep-in-saudi-arabia-escalating-regional-tensions/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/china-anti-dumping-japanese-semiconductor-chemicals/",
-    "source_title": "China imposes anti-dumping measures on Japanese semiconductor chemicals",
-    "source_summary": "China's anti-dumping measures on Japanese semiconductor chemicals could escalate trade tensions, impacting global chip supply chains. The post China imposes anti-dumping measures on Japanese semiconductor chemicals appeared first on Crypto Briefing .",
-    "drafted_at": "2026-09-08T01:52:15.160435",
+    "source_url": "https://cryptobriefing.com/houthis-plan-major-operation-deep-in-saudi-arabia-escalating-regional-tensions/",
+    "source_title": "Houthis plan major operation deep in Saudi Arabia, escalating regional tensions",
+    "source_summary": "The planned Houthi operation could exacerbate regional instability, affecting U.S.-Iran relations and complicating Strait of Hormuz negotiations. The post Houthis plan major operation deep in Saudi Arabia, escalating regional tensions appeared first on Crypto Briefing .",
+    "drafted_at": "2026-09-08T06:41:37.493662",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "f3fe211638ff9255"
+    "content_hash": "3c385b3e4bd2794d"
   },
   {
-    "id": "13c4a8b4",
+    "id": "db8144a2",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "APAC wire: NEC's exit from quantum hardware highlights the growing industry shift towards software solutions, concentrating Japan's hardware efforts with Fujitsu.\n\nThe post NEC halts quantum computer project after decades of research appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/nec-halts-quantum-computer-project/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/nec-halts-quantum-computer-project/",
-    "source_title": "NEC halts quantum computer project after decades of research",
-    "source_summary": "NEC's exit from quantum hardware highlights the growing industry shift towards software solutions, concentrating Japan's hardware efforts with Fujitsu. The post NEC halts quantum computer project after decades of research appeared first on Crypto Briefing .",
-    "drafted_at": "2026-09-08T01:52:15.160746",
-    "data": {
-      "source": "CRYPTO BRIEFING"
-    },
-    "content_hash": "7e1980db3ea34cdd"
-  },
-  {
-    "id": "57298148",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Gulf wire: Goldman Sachs says oil could hit $120 as Trump abandons diplomacy with Iran, escalating the risk of a wider war.\n\nThe post Goldman Sachs Says Oil Could Hit $120 as Trump Dismisses Diplomacy with Iran appeared first on BeInCrypto.\n\nhttps://beincrypto.com/goldman-120-oil-trump-iran-diplomacy/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "BEINCRYPTO",
-    "source_url": "https://beincrypto.com/goldman-120-oil-trump-iran-diplomacy/",
-    "source_title": "Goldman Sachs Says Oil Could Hit $120 as Trump Dismisses Diplomacy with Iran",
-    "source_summary": "Goldman Sachs says oil could hit $120 as Trump abandons diplomacy with Iran, escalating the risk of a wider war. The post Goldman Sachs Says Oil Could Hit $120 as Trump Dismisses Diplomacy with Iran appeared first on BeInCrypto .",
-    "drafted_at": "2026-09-08T01:52:15.161096",
-    "data": {
-      "source": "BEINCRYPTO"
-    },
-    "content_hash": "8ad15009f1c03a9b"
-  },
-  {
-    "id": "97c1a9e1",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "APAC wire: The USD/JPY pair declines for the second straight day \u2013 also marking the fourth day of a fall in the previous five \u2013 and sinks to its lowest level since February 18, around mid-153.00s during the Asian session on Tuesday.\n\nhttps://www.fxstreet.com/news/japanese-yen-rallies-to-february-18-high-as-upbeat-wage-data-and-gdp-lift-boj-hike-bets-202609080116",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/japanese-yen-rallies-to-february-18-high-as-upbeat-wage-data-and-gdp-lift-boj-hike-bets-202609080116",
-    "source_title": "Japanese Yen rallies to February 18 high as upbeat wage data and GDP lift BoJ hike bets",
-    "source_summary": "The USD/JPY pair declines for the second straight day \u2013 also marking the fourth day of a fall in the previous five \u2013 and sinks to its lowest level since February 18, around mid-153.00s during the Asian session on Tuesday.",
-    "drafted_at": "2026-09-08T01:52:15.161527",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "973a0ef386a01d65"
-  },
-  {
-    "id": "d8affc89",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Mainland wire: The People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Tuesday at 6.7804 compared to the previous day's fix of 6.7795 and 6.7104 Reuters estimate.\n\nhttps://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67804-vs-67795-previous-202609080115",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67804-vs-67795-previous-202609080115",
-    "source_title": "PBOC sets USD/CNY reference rate at 6.7804 vs. 6.7795 previous",
-    "source_summary": "The People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Tuesday at 6.7804 compared to the previous day's fix of 6.7795 and 6.7104 Reuters estimate.",
-    "drafted_at": "2026-09-08T01:52:15.161777",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "82f81a25783cff26"
-  },
-  {
-    "id": "5a35af47",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "GROWTH POSTCARD: The USD/JPY pair declines for the second straight day \u2013 also marking the fourth day of a fall in the previous five \u2013 and sinks to its lowest level since February 18, around mid-153.00s during the Asian session on Tuesday.\n\nhttps://www.fxstreet.com/news/japanese-yen-rallies-to-february-18-high-as-upbeat-wage-data-and-gdp-lift-boj-hike-bets-202609080116",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/japanese-yen-rallies-to-february-18-high-as-upbeat-wage-data-and-gdp-lift-boj-hike-bets-202609080116",
-    "source_title": "Japanese Yen rallies to February 18 high as upbeat wage data and GDP lift BoJ hike bets",
-    "source_summary": "The USD/JPY pair declines for the second straight day \u2013 also marking the fourth day of a fall in the previous five \u2013 and sinks to its lowest level since February 18, around mid-153.00s during the Asian session on Tuesday.",
-    "drafted_at": "2026-09-08T01:52:15.203609",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "973a0ef386a01d65"
-  },
-  {
-    "id": "944fdcaa",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "Inflation update: The news headline for the data is here ICYMI: Japan wages data, July 2026: Headline earnings +4.7% y/y (expected +3.9%, prior +4%) Since then we've had: Japan revised Q2 GDP: +1.4% y/y (preliminary 1.1%) I'll have more to come on that GDP data, but for now, wrappoing up the wages data. --- This is about as clean a data point as the BOJ could ask for heading into next week's meeting (September 17\u201318): real wages accelerating for a seventh straight month while nominal pay growth hits its fastest pace in almost three decades removes one of the central bank's main hesitations around hiking, that tightening might choke off the wage-led recovery it has been waiting on.\n\nWith a hike already largely priced in, the read-through is less about whether the BOJ moves and more about how confidently it can signal further tightening afterward, which is where the yen and JGB yields are likely to find support.\n\nThat's a mixed signal for the Nikkei: exporters benefit from the stronger domestic demand narrative and continued corporate earnings strength, but rate-sensitive sectors face further pressure if JGB yields, already at 30-year highs, extend their climb on reinforced hike conviction. --- Japan just handed the BOJ exactly the wage evidence it needed to justify hiking with confidence next week.\n\nSummary: Japan's real wages rose 2.4% year-on-year in July, the biggest gain since May 2021 and the seventh consecutive month of increases Nominal wages, or total cash earnings, rose 4.7% to 436,401 yen a month, the fastest pace since January 1997 and above economists' forecast of 3.8% Base pay increased 4.1%, the fastest rise since April 1992, while overtime pay growth slowed to 3.1% from June's 3.4% Special payments, mostly one-time bonuses, jumped 6.3% in July after a revised 4.7% gain in June The inflation rate used to calculate real wages rose to 2.2% in July from 1.9% in June, its first time reaching 2% this year BOJ Governor Kazuo Ueda said last week the bank would debate a hike at upcoming meetings including September, and markets have largely priced in a move at next week's policy meeting Japan's real wages rose 2.4% in July from a year earlier, the biggest increase since May 2021 and the seventh straight month of gains, government data showed Tuesday, adding fresh momentum to the wage recovery the Bank of Japan has been watching closely ahead of next week's policy meeting.\n\nThe reading improved on June's revised 2.2% gain and came as nominal wages, or total cash earnings, rose 4.7% to 436,401 yen a month, the fastest pace since January 1997 and well above economists' forecast of 3.8%.\n\nThe strength was broad-based rather than driven purely by one-off factors.\n\nBase pay, or regular wages, rose 4.1%, the fastest increase since April 1992 and an acceleration from June's revised 3.5% gain, marking the sixth consecutive month above 3% and the longest such streak in 34 years.\n\nOvertime pay growth slowed to 3.1% from June's 3.4%, while special payments, mostly volatile one-time bonuses, jumped 6.3% after a revised 4.7% gain the previous month.\n\nhttps://investinglive.com/news/japan-wage-growth-strongest-since-1997-cementing-boj-hike-case/",
+    "draft_text": "Mainland wire: Germany July trade balance \u20ac21.3 billion vs \u20ac15.9 billion expected Prior \u20ac15.4 billion Germany July exports -0.8% vs +0.1% m/m expected Prior +0.9% Germany July imports -5.7% vs -0.9% m/m expected Prior +4.4% The breakdownThe German trade surplus widened in July but it comes as both exports and imports falling on the month.\n\nIn particular, the latter dropped heavily with weakness from China being rather evident.\n\nExports to the US were a standout, climbing by over 19% compared to June.\n\nHowever, exports to the likes of the UK and China fell notably by over 7% and over 9% respectively.\n\nLooking to imports, the big drag comes from China as imports from the Asian country dropped markedly by over 7% in July.\n\nSo while the headline trade surplus looks strong, the underlying signal is mixed.\n\nExports softened and the improvement came mostly from weaker imports.\n\nWhat does the data measure?Germany\u2019s trade balance tracks the difference between goods exports and imports.\n\nhttps://investinglive.com/news/germany-s-trade-surplus-widens-sharply-in-july-as-imports-slump/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/japan-wage-growth-strongest-since-1997-cementing-boj-hike-case/",
-    "source_title": "Japan wage growth strongest since 1997, cementing BOJ hike case",
-    "source_summary": "The news headline for the data is here ICYMI: Japan wages data, July 2026: Headline earnings +4.7% y/y (expected +3.9%, prior +4%) Since then we've had: Japan revised Q2 GDP: +1.4% y/y (preliminary 1.1%) I'll have more to come on that GDP data, but for now, wrappoing up the wages data. --- This is about as clean a data point as the BOJ could ask for heading into next week's meeting (September 17\u20131",
-    "drafted_at": "2026-09-08T01:52:15.206875",
+    "source_url": "https://investinglive.com/news/germany-s-trade-surplus-widens-sharply-in-july-as-imports-slump/",
+    "source_title": "Germany's trade surplus widens sharply in July as imports slump",
+    "source_summary": "Germany July trade balance \u20ac21.3 billion vs \u20ac15.9 billion expected Prior \u20ac15.4 billion Germany July exports -0.8% vs +0.1% m/m expected Prior +0.9% Germany July imports -5.7% vs -0.9% m/m expected Prior +4.4% The breakdownThe German trade surplus widened in July but it comes as both exports and imports falling on the month. In particular, the latter dropped heavily with weakness from China being r",
+    "drafted_at": "2026-09-08T06:41:37.495157",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "98f18cfa363f419e"
+    "content_hash": "fb4b0ed7179514d9"
   },
   {
-    "id": "e990444d",
-    "format": "DATA_DROP",
+    "id": "d69aeecf",
+    "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "GROWTH POSTCARD: I'll have more to come on this separately, details and implications, etc. ADDED: Japan GDP revision cements BOJ hike bets, yen and Nikkei in focus revised Q2 GDP: +1.4% y/y (preliminary 1.1%) and +0.4% q/q (prelim 0.3%) Background here: Preview: Japan revised Q2 GDP set to test BOJ September rate hike bets Preliminary Q2 GDP showed 0.3% quarter-on-quarter growth, an annualised 1.1%, both below forecasts of 0.5% and 2% respectively This article was written by Eamonn Sheridan at investinglive.com.\n\nhttps://investinglive.com/news/japan-revised-q2-gdp-1-4-y-y-preliminary-1-1/",
+    "draft_text": "Levant update: Brent crude ticked up closer to $100 per barrel today as hopes for peace in the Middle East continued to shrink amid renewed mutual threats between the United States and Iran.\n\nAt the time of writing, the international benchmark was trading at $97.66 per barrel, with West Texas Intermediate at $93.05 per barrel, after Iran issued a threat to the United States of \u201ceconomic warfare\u201d and said it had fired a new, advanced missile at U.S. warships.\n\nOil prices were also pushed higher by the latest attack on Saudi Arabia\u2019s Jizan refinery,\u2026\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-Toward-100-as-Middle-East-Peace-Hopes-Fade.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/japan-revised-q2-gdp-1-4-y-y-preliminary-1-1/",
-    "source_title": "Japan revised Q2 GDP: +1.4% y/y (preliminary 1.1%)",
-    "source_summary": "Just the data points this post. I'll have more to come on this separately, details and implications, etc. ADDED: Japan GDP revision cements BOJ hike bets, yen and Nikkei in focus revised Q2 GDP: +1.4% y/y (preliminary 1.1%) and +0.4% q/q (prelim 0.3%) Background here: Preview: Japan revised Q2 GDP set to test BOJ September rate hike bets Preliminary Q2 GDP showed 0.3% quarter-on-quarter growth, an",
-    "drafted_at": "2026-09-08T01:52:15.207317",
+    "primary_source": "OILPRICE",
+    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-Toward-100-as-Middle-East-Peace-Hopes-Fade.html",
+    "source_title": "Oil Prices Climb Toward $100 as Middle East Peace Hopes Fade",
+    "source_summary": "Brent crude ticked up closer to $100 per barrel today as hopes for peace in the Middle East continued to shrink amid renewed mutual threats between the United States and Iran. At the time of writing, the international benchmark was trading at $97.66 per barrel, with West Texas Intermediate at $93.05 per barrel, after Iran issued a threat to the United States of \u201ceconomic warfare\u201d and said it had f",
+    "drafted_at": "2026-09-08T06:41:37.496147",
     "data": {
-      "source": "FOREXLIVE"
+      "source": "OILPRICE"
     },
-    "content_hash": "4ee3ed9dff3aeda7"
+    "content_hash": "1cd2ca38bec99bac"
   },
   {
-    "id": "f8d604cc",
+    "id": "ec40e9d9",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "How fast is the economy moving? Now we know: Average Cash Earnings YY 4.7% expected 3.9%, prior 4.0% Real wages + 2.4% y/y biggest increase since May 2021 seventh consecutive month of gains ADDED, details here: Japan wage growth strongest since 1997, cementing BOJ hike case Coming up soon: Preview: Japan revised Q2 GDP set to test BOJ September rate hike bets This article was written by Eamonn Sheridan at investinglive.com.\n\nhttps://investinglive.com/news/japan-wages-data-july-2026-headline-earnings-4-7-y-y-expected-3-9-prior-4/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/japan-wages-data-july-2026-headline-earnings-4-7-y-y-expected-3-9-prior-4/",
-    "source_title": "Japan wages data, July 2026: Headline earnings +4.7% y/y (expected +3.9%, prior +4%)",
-    "source_summary": "Just the data on this post. July 2026. Average Cash Earnings YY 4.7% expected 3.9%, prior 4.0% Real wages + 2.4% y/y biggest increase since May 2021 seventh consecutive month of gains ADDED, details here: Japan wage growth strongest since 1997, cementing BOJ hike case Coming up soon: Preview: Japan revised Q2 GDP set to test BOJ September rate hike bets This article was written by Eamonn Sheridan ",
-    "drafted_at": "2026-09-08T01:52:15.207788",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "55d4be8d4dd7ce9f"
-  },
-  {
-    "id": "d7ead6e3",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "JOBS DAY. Gold price (XAU/USD) drifts lower to near $4,410 during the early Asian session on Tuesday.\n\nThe precious metal extends the decline as a stronger-than-expected US Nonfarm Payrolls (NFP) report for August bolsters expectations for a Federal Reserve (Fed) interest rate hike this month.\n\nhttps://www.fxstreet.com/news/gold-declines-to-near-4-400-as-robust-us-jobs-data-lifts-fed-hike-odds-202609072326",
+    "draft_text": "Trade-deficit corner: The Euro (EUR) is practically flat against the US Dollar (USD) on Tuesday, after giving back previous gains, following the release of German Trade Balance data.\n\nhttps://www.fxstreet.com/news/euro-retreats-below-11630-following-the-release-of-german-trade-balance-data-202609080635",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/gold-declines-to-near-4-400-as-robust-us-jobs-data-lifts-fed-hike-odds-202609072326",
-    "source_title": "Gold declines to near $4,400 as robust US jobs data lifts Fed hike odds",
-    "source_summary": "Gold price (XAU/USD) drifts lower to near $4,410 during the early Asian session on Tuesday. The precious metal extends the decline as a stronger-than-expected US Nonfarm Payrolls (NFP) report for August bolsters expectations for a Federal Reserve (Fed) interest rate hike this month.",
-    "drafted_at": "2026-09-08T01:52:15.208090",
+    "source_url": "https://www.fxstreet.com/news/euro-retreats-below-11630-following-the-release-of-german-trade-balance-data-202609080635",
+    "source_title": "Euro retreats below 1.1630 following the release of German Trade Balance data",
+    "source_summary": "The Euro (EUR) is practically flat against the US Dollar (USD) on Tuesday, after giving back previous gains, following the release of German Trade Balance data.",
+    "drafted_at": "2026-09-08T06:41:37.552499",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "447c9bebe2c764d3"
+    "content_hash": "c5a26755a33ad922"
   },
   {
-    "id": "de3a2d10",
+    "id": "54f7caeb",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "CPI just printed. EUROPEAN SESSION In the European session, we don't have much on the agenda other than a couple of low-tier releases like the French trade balance and the US NFIB Small Business Optimism index.\n\nThe data is not going to change anything for the respective central banks, so the market reaction will be muted.\n\nAMERICAN SESSION In the American session, we only have the weekly ADP jobs data and the NY Fed consumer inflation expectations survey.\n\nThe data won't change anything for the Fed, so the market reaction will be muted.\n\nAs a reminder, the Fed is focused solely on inflation now, and the US CPI report on Friday will decide whether the central bank hikes at the upcoming meeting or keeps rates steady for at least another month.\n\nThe US CPI is the main event of this week (barring a surprising breakthrough in US-Iran relations).\n\nCENTRAL BANK SPEAKERS 09:30 GMT/05:30 ET - RBA's Hauser (hawkish - voter) 13:15 GMT/09:15 ET - BoE's MPC speaks at Treasury Committee 15:00 GMT/11:00 ET - ECB's Elderson (neutral - voter) This article was written by Giuseppe Dellamotta at investinglive.com.\n\nhttps://investinglive.com/news/what-are-the-main-events-for-today-37/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/what-are-the-main-events-for-today-37/",
+    "source_title": "What are the main events for today?",
+    "source_summary": "EUROPEAN SESSION In the European session, we don't have much on the agenda other than a couple of low-tier releases like the French trade balance and the US NFIB Small Business Optimism index. The data is not going to change anything for the respective central banks, so the market reaction will be muted. AMERICAN SESSION In the American session, we only have the weekly ADP jobs data and the NY Fed",
+    "drafted_at": "2026-09-08T06:41:37.553715",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "facfec703d2a5c7a"
+  },
+  {
+    "id": "11c28932",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "TRADE-BALANCE READ: Germany July trade balance \u20ac21.3 billion vs \u20ac15.9 billion expected Prior \u20ac15.4 billion Germany July exports -0.8% vs +0.1% m/m expected Prior +0.9% Germany July imports -5.7% vs -0.9% m/m expected Prior +4.4% The breakdownThe German trade surplus widened in July but it comes as both exports and imports falling on the month.\n\nIn particular, the latter dropped heavily with weakness from China being rather evident.\n\nExports to the US were a standout, climbing by over 19% compared to June.\n\nHowever, exports to the likes of the UK and China fell notably by over 7% and over 9% respectively.\n\nLooking to imports, the big drag comes from China as imports from the Asian country dropped markedly by over 7% in July.\n\nSo while the headline trade surplus looks strong, the underlying signal is mixed.\n\nExports softened and the improvement came mostly from weaker imports.\n\nWhat does the data measure?Germany\u2019s trade balance tracks the difference between goods exports and imports.\n\nhttps://investinglive.com/news/germany-s-trade-surplus-widens-sharply-in-july-as-imports-slump/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/germany-s-trade-surplus-widens-sharply-in-july-as-imports-slump/",
+    "source_title": "Germany's trade surplus widens sharply in July as imports slump",
+    "source_summary": "Germany July trade balance \u20ac21.3 billion vs \u20ac15.9 billion expected Prior \u20ac15.4 billion Germany July exports -0.8% vs +0.1% m/m expected Prior +0.9% Germany July imports -5.7% vs -0.9% m/m expected Prior +4.4% The breakdownThe German trade surplus widened in July but it comes as both exports and imports falling on the month. In particular, the latter dropped heavily with weakness from China being r",
+    "drafted_at": "2026-09-08T06:41:37.555136",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "fb4b0ed7179514d9"
+  },
+  {
+    "id": "274c4f0d",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "Goods-flow update: RBA's Hunter flags deliberate cooling in housing and broader growth China exports match forecast in August, imports fall short as domestic demand stays soft Kospi surges past 7,130 on chips, Nikkei ekes out modest gain China August trade balance shows imports below expectations China's Rio Tinto ore purchasing halt appears set to take effect.\n\nVitol CEO sees China oil demand picking up, flags unsustainable gap ASX, AUD, NZD softer as NAB business conditions hit six-year low PBOC sets USD/ CNY central rate at 6.7804 (vs. estimate at 6.7104) Goldman Sachs turns more constructive on Indian equities: valuations, rupee resilience + more Japan GDP revision cements BOJ hike bets, yen and Nikkei in focus ICYMI: Goldman flags $120 oil risk, lifts Brent and WTI forecasts Japan wage growth strongest since 1997, cementing BOJ hike case South Korea Q2 GDP, final, +0.6% (vs. expected +0.6%, prior +1.8%) BRC data shows summer retail boost fading fast as GBP watches consumer signals MUFG sees ECB hike this week, flags downside risk for euro Oil jumps at reopen on Saudi strikes, Iran threat to Gulf energy assets UBS still likes gold despite hawkish Fed pivot UBS: two Fed hikes incoming, but equity bull case still intact Goldman Sachs says gold bull run not over, flags $4,000 as buy zone into FOMC investingLive Americas FX news wrap 7 Sept: USD falls as the yen surges on BOJ rate-hike expectations Summary: Oil traded in a lacklustre fashion, with the only fresh Middle East headline a Houthi missile and drone attack on Khamis Mushait and Abha airport in Saudi Arabia USD/JPY dipped under 153.00 at one stage, taking the yen to a six-month high against the dollar on GPIF asset-allocation speculation and rising BOJ hike bets, reinforced by today's upwardly revised Q2 GDP and strong July wage data The stronger yen weighed on the Nikkei, which eked out just a 0.07% gain in morning trade, while Korea's Kospi rallied nearly 2% AUD and NZD both softened, AUD on a weak NAB business survey and reports that China's CMRG has moved to halt Rio Tinto negotiations, NZD on RBNZ's Gai suggesting the key rate may already be in neutral territory China's August trade data showed exports matching forecast and accelerating from July, while imports undershot at 28.2% against a 30% forecast, a softer signal on the domestic demand recovery --- Oil traded in a lacklustre fashion on Tuesday, with the only fresh development out of the Middle East a Houthi missile and drone attack on Khamis Mushait and Abha airport in Saudi Arabia, not enough to shift the broader price picture.\n\nThe bigger market mover was the yen, which extended its recent gains to hit a six-month high against the dollar, with USD/JPY dipping below 153.00 at one stage.\n\nAnalysts pointed to a more positive sentiment shift toward the currency on speculation about a potential change in the Government Pension Investment Fund's asset allocation, alongside rising expectations for faster Bank of Japan rate hikes.\n\nThat hike speculation found further support in the day's data, with July wage figures and an upward revision to second-quarter GDP both reinforcing the case for the BOJ to tighten policy at its meeting next week.\n\nThe stronger currency came at a cost for Japanese equities, with the Nikkei managing only a minuscule 0.07% gain in morning trade as yen strength offset dip-buying elsewhere in the market.\n\nSouth Korea's Kospi fared considerably better, rising nearly 2% in morning trade on broad-based buying.\n\nThe Australian and New Zealand dollars were both sent modestly lower.\n\nhttps://investinglive.com/news/investinglive-asia-pacific-market-news-yen-surges-to-six-month-high/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-yen-surges-to-six-month-high/",
+    "source_title": "investingLive Asia-Pacific market news: Yen surges to six-month high",
+    "source_summary": "RBA's Hunter flags deliberate cooling in housing and broader growth China exports match forecast in August, imports fall short as domestic demand stays soft Kospi surges past 7,130 on chips, Nikkei ekes out modest gain China August trade balance shows imports below expectations China's Rio Tinto ore purchasing halt appears set to take effect. AUD down. Vitol CEO sees China oil demand picking up, f",
+    "drafted_at": "2026-09-08T06:41:37.559690",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "c5d42ec99e7a6d2b"
+  },
+  {
+    "id": "b339a70c",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "TRADE-BALANCE READ: The headline numbers land close to consensus but the details matter more than the surface read.\n\nExports hitting the forecast exactly, while accelerating from July, confirms the export-led growth pattern that has defined China's year so far, with high-tech goods, cars and semiconductors doing the heavy lifting.\n\nThe import miss, 28.2% against a 30% forecast, is the more interesting number: it suggests the pickup in domestic demand markets had been hoping for isn't quite materialising at the pace expected, even as it still represents a clear acceleration from July.\n\nFor AUD specifically, that's a mixed read, a miss on the import side is a softer signal for the commodity-demand channel than the strong headline trade surplus might suggest at first glance, tempering some of the more optimistic read-through from the pre-release forecasts.\n\nThe exploration of reciprocal tariff cuts between Beijing and Washington ahead of this month's summit is worth watching separately, as any concrete movement there would matter more for trade-sensitive sentiment than today's data itself.\n\nAUD had fallen earlier on: China's Rio Tinto ore purchasing halt appears set to take effect.\n\nAUD down. --- Exports delivered exactly what was expected, but the import miss is a reminder that China's domestic demand recovery still isn't quite showing up in the numbers.\n\nSummary: China's exports rose 25% year-on-year in August in US dollar terms, matching the Reuters poll forecast and accelerating from 23.9% in July Imports grew 28.2% year-on-year, below the 30% forecast but up from July's 27.5% increase The trade surplus widened to $119.09 billion from $112.5 billion in July, roughly in line with the $119.05 billion forecast Export strength was driven by global demand for Chinese-made cars, semiconductors and other high-tech goods, contrasting with weaker domestic consumption, investment and the property market Premier Li Qiang called in August for efforts to stabilise external demand, while acknowledging insufficient domestic demand and rising international uncertainty Beijing and Washington are exploring reciprocal tariff cuts on $30 billion worth of goods from each side ahead of another summit later this month China's export growth picked up further in August, reinforcing the trade sector's role as the main pillar supporting an economy still grappling with tepid domestic demand.\n\nhttps://investinglive.com/news/china-exports-match-forecast-in-august-imports-fall-short-as-domestic-demand-stays-soft/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/china-exports-match-forecast-in-august-imports-fall-short-as-domestic-demand-stays-soft/",
+    "source_title": "China exports match forecast in August, imports fall short as domestic demand stays soft",
+    "source_summary": "The headline numbers land close to consensus but the details matter more than the surface read. Exports hitting the forecast exactly, while accelerating from July, confirms the export-led growth pattern that has defined China's year so far, with high-tech goods, cars and semiconductors doing the heavy lifting. The import miss, 28.2% against a 30% forecast, is the more interesting number: it sugges",
+    "drafted_at": "2026-09-08T06:41:37.562994",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "66a28b0422eebb50"
+  },
+  {
+    "id": "06e96e2a",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -600,7 +602,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-09-08T01:52:15.217513",
+    "drafted_at": "2026-09-08T06:41:37.575467",
     "data": {
       "manual": true,
       "via": "manual_news.md"
