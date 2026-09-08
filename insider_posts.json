@@ -1,21 +1,4 @@
 {
-  "BSX_P_2026-08-25": {
-    "ticker": "BSX",
-    "company": "Boston Scientific Corp",
-    "industry": "Surgical & Medical Instruments & Apparatus",
-    "num_insiders": 4,
-    "type": "P",
-    "price": 48.26,
-    "qty": 196562,
-    "dollar_value": 9486040.0,
-    "trade_date": "2026-08-25",
-    "category": "CLUSTER_BUY",
-    "link": "http://openinsider.com/screener?s=BSX",
-    "post_id": "BSX_P_2026-08-25",
-    "chart_path": "charts/insider/BSX_P_20260825.png",
-    "pct_since": -0.9531719082873003,
-    "fired_at": "2026-09-06T11:25:16.008713"
-  },
   "BABA_P_2026-08-25": {
     "ticker": "BABA",
     "company": "Alibaba Group Holding Ltd",
@@ -236,5 +219,39 @@
     "chart_path": "charts/insider/SRTS_P_20260828.png",
     "pct_since": -3.0395119385878737,
     "fired_at": "2026-09-08T06:41:32.844714"
+  },
+  "BSX_P_2026-08-25": {
+    "ticker": "BSX",
+    "company": "Boston Scientific Corp",
+    "industry": "Surgical & Medical Instruments & Apparatus",
+    "num_insiders": 4,
+    "type": "P",
+    "price": 48.26,
+    "qty": 196562,
+    "dollar_value": 9486040.0,
+    "trade_date": "2026-08-25",
+    "category": "CLUSTER_BUY",
+    "link": "http://openinsider.com/screener?s=BSX",
+    "post_id": "BSX_P_2026-08-25",
+    "chart_path": "charts/insider/BSX_P_20260825.png",
+    "pct_since": -0.9531719082873003,
+    "fired_at": "2026-09-08T11:52:30.277289"
+  },
+  "UBER_P_2026-09-04": {
+    "ticker": "UBER",
+    "company": "Uber Technologies, Inc",
+    "industry": "Macdonald Andrew",
+    "num_insiders": 0,
+    "type": "P",
+    "price": 75.83,
+    "qty": 70000,
+    "dollar_value": 5308064.0,
+    "trade_date": "2026-09-04",
+    "category": "BIG_SALE",
+    "link": "http://openinsider.com/screener?s=UBER",
+    "post_id": "UBER_P_2026-09-04",
+    "chart_path": "charts/insider/UBER_P_20260904.png",
+    "pct_since": -0.0923089328359878,
+    "fired_at": "2026-09-08T11:52:30.277289"
   }
 }
