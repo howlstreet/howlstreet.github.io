@@ -1,21 +1,4 @@
 {
-  "AVBC_P_2026-09-03": {
-    "ticker": "AVBC",
-    "company": "Avidia Bancorp, Inc.",
-    "industry": "Savings Institutions, Not Federally Chartered",
-    "num_insiders": 4,
-    "type": "P",
-    "price": 21.85,
-    "qty": 21781,
-    "dollar_value": 475969.0,
-    "trade_date": "2026-09-03",
-    "category": "CLUSTER_BUY",
-    "link": "http://openinsider.com/screener?s=AVBC",
-    "post_id": "AVBC_P_2026-09-03",
-    "chart_path": "charts/insider/AVBC_P_20260903.png",
-    "pct_since": 1.0983988676791268,
-    "fired_at": "2026-09-07T13:06:54.120082"
-  },
   "TTMI_P_2026-08-25": {
     "ticker": "TTMI",
     "company": "Ttm Technologies Inc",
@@ -423,5 +406,56 @@
     "chart_path": "charts/insider/TISI_P_20260903.png",
     "pct_since": 10.655737704918039,
     "fired_at": "2026-09-09T12:07:03.097692"
+  },
+  "CYBN_P_2026-08-31": {
+    "ticker": "CYBN",
+    "company": "Cybin Inc.",
+    "industry": "Glavine Paul",
+    "num_insiders": 0,
+    "type": "P",
+    "price": 11.59,
+    "qty": 90000,
+    "dollar_value": 1042677.0,
+    "trade_date": "2026-08-31",
+    "category": "BIG_SALE",
+    "link": "http://openinsider.com/screener?s=CYBN",
+    "post_id": "CYBN_P_2026-08-31",
+    "chart_path": null,
+    "pct_since": 0.0,
+    "fired_at": "2026-09-09T17:05:00.128345"
+  },
+  "AVBC_P_2026-09-03": {
+    "ticker": "AVBC",
+    "company": "Avidia Bancorp, Inc.",
+    "industry": "Savings Institutions, Not Federally Chartered",
+    "num_insiders": 4,
+    "type": "P",
+    "price": 21.85,
+    "qty": 21781,
+    "dollar_value": 475969.0,
+    "trade_date": "2026-09-03",
+    "category": "CLUSTER_BUY",
+    "link": "http://openinsider.com/screener?s=AVBC",
+    "post_id": "AVBC_P_2026-09-03",
+    "chart_path": "charts/insider/AVBC_P_20260903.png",
+    "pct_since": -0.5492011796964452,
+    "fired_at": "2026-09-09T17:05:00.128345"
+  },
+  "ENOV_P_2026-09-04": {
+    "ticker": "ENOV",
+    "company": "Enovis Corp",
+    "industry": "Orthopedic, Prosthetic & Surgical Appliances & Supplies",
+    "num_insiders": 2,
+    "type": "P",
+    "price": 19.42,
+    "qty": 24493,
+    "dollar_value": 475547.0,
+    "trade_date": "2026-09-04",
+    "category": "CLUSTER_BUY",
+    "link": "http://openinsider.com/screener?s=ENOV",
+    "post_id": "ENOV_P_2026-09-04",
+    "chart_path": "charts/insider/ENOV_P_20260904.png",
+    "pct_since": -0.7723972308770846,
+    "fired_at": "2026-09-09T17:05:00.128345"
   }
 }
