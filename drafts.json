@@ -1,23 +1,61 @@
 [
   {
-    "id": "d7464f79",
+    "id": "962bf2f2",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "Wharton's Jeremy Siegel says the Fed would already be hiking rates if not for one thing sitting on the calendar.\n\nThe jobs market just gave the committee every reason it needs, and working-class borrowers may feel the consequences first.\n\nhttps://247wallst.com/investing/2026/09/08/a-blowout-jobs-report-has-whartons-jeremy-siegel-saying-only-the-midterms-are-stopping-a-rate-hike/",
+    "draft_text": "The bans on the import of certain Canadian goods come a day after Ottawa enacted its retaliatory tariffs of 15-50% on around $20 billion worth of American imports.\n\nhttps://www.forbes.com/sites/siladityaray/2026/09/09/white-house-bans-some-canadian-dairy-and-alcohol-imports-escalating-trade-war/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "247 WALL ST",
-    "source_url": "https://247wallst.com/investing/2026/09/08/a-blowout-jobs-report-has-whartons-jeremy-siegel-saying-only-the-midterms-are-stopping-a-rate-hike/",
-    "source_title": "A Blowout Jobs Report Has Wharton\u2019s Jeremy Siegel Saying Only the Midterms Are Stopping a Rate Hike",
-    "source_summary": "Wharton's Jeremy Siegel says the Fed would already be hiking rates if not for one thing sitting on the calendar. The jobs market just gave the committee every reason it needs, and working-class borrowers may feel the consequences first.",
-    "drafted_at": "2026-09-09T01:58:06.543746",
+    "primary_source": "FORBES",
+    "source_url": "https://www.forbes.com/sites/siladityaray/2026/09/09/white-house-bans-some-canadian-dairy-and-alcohol-imports-escalating-trade-war/",
+    "source_title": "White House Moves To Ban Some Canadian Dairy And Alcohol Imports, Escalating Trade War",
+    "source_summary": "The bans on the import of certain Canadian goods come a day after Ottawa enacted its retaliatory tariffs of 15-50% on around $20 billion worth of American imports.",
+    "drafted_at": "2026-09-09T06:58:25.378002",
     "data": {
-      "source": "247 WALL ST"
+      "source": "FORBES"
     },
-    "content_hash": "e7b52f9b77de549c"
+    "content_hash": "b6d48969e124f149"
   },
   {
-    "id": "5fa4f77b",
+    "id": "ab608c3e",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Nobody on TV said this today. VIX jumps 8.9% in 5 sessions to 15.72.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CBOE \u00b7 ^VIX",
+    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "source_title": "VIX (S&P 500 volatility)",
+    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "drafted_at": "2026-09-09T06:58:25.378317",
+    "data": {
+      "signal_id": "^VIX:move:2026-09-08",
+      "kind": "move_up",
+      "current": "15.72"
+    },
+    "content_hash": "995f4d67e7e875d2"
+  },
+  {
+    "id": "87cb88b6",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Read this twice. WTI crude surges 13.1% in 5 sessions to $94.32.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NYMEX \u00b7 CL=F",
+    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "source_title": "WTI crude oil futures",
+    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "drafted_at": "2026-09-09T06:58:25.378549",
+    "data": {
+      "signal_id": "CL=F:move:2026-09-09",
+      "kind": "move_up",
+      "current": "$94.32"
+    },
+    "content_hash": "c272de0720a2f459"
+  },
+  {
+    "id": "a83a35d6",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "The market did a thing: WTI crude surges 13.1% in 5 sessions to $94.35.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
@@ -27,7 +65,7 @@
     "source_url": "https://finance.yahoo.com/quote/CL%3DF",
     "source_title": "WTI crude oil futures",
     "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-09-09T01:58:06.544079",
+    "drafted_at": "2026-09-09T06:58:25.378783",
     "data": {
       "signal_id": "CL=F:move:2026-09-08",
       "kind": "move_up",
@@ -36,43 +74,7 @@
     "content_hash": "c272de0720a2f459"
   },
   {
-    "id": "dfda98b4",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "Nobody on TV said this today. VIX jumps 8.9% in 5 sessions to 15.71.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CBOE \u00b7 ^VIX",
-    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "source_title": "VIX (S&P 500 volatility)",
-    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-09-09T01:58:06.544387",
-    "data": {
-      "signal_id": "^VIX:move:2026-09-08",
-      "kind": "move_up",
-      "current": "15.71"
-    },
-    "content_hash": "995f4d67e7e875d2"
-  },
-  {
-    "id": "fe3643b8",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "PBOC DESK: On Wednesday, the People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7769 compared to the previous day's fix of 6.7804 and 6.7042 Reuters estimate.\n\nhttps://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67769-vs-67804-previous-202609090115",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "PBOC",
-    "source_url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67769-vs-67804-previous-202609090115",
-    "source_title": "PBOC sets USD/CNY reference rate at 6.7769 vs. 6.7804 previous",
-    "source_summary": "On Wednesday, the People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7769 compared to the previous day's fix of 6.7804 and 6.7042 Reuters estimate.",
-    "drafted_at": "2026-09-09T01:58:06.555234",
-    "data": {
-      "actor": "PBOC"
-    },
-    "content_hash": "8afd8b3bbf1472cb"
-  },
-  {
-    "id": "bda1f574",
+    "id": "79bd1e55",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FOMC update. Bitcoin is defending its golden zone support while the S&P 500 grinds inside its tightest range yet, both waiting on Friday's inflation report before the Fed's September 16 rate call.\n\nhttps://decrypt.co/377705/bitcoin-holds-wall-street-stalls-oil-shock-fed-hike",
@@ -82,14 +84,14 @@
     "source_url": "https://decrypt.co/377705/bitcoin-holds-wall-street-stalls-oil-shock-fed-hike",
     "source_title": "Bitcoin Holds, Wall Street Stalls as Oil Shock Revives Fed Hike Bets",
     "source_summary": "Bitcoin is defending its golden zone support while the S&P 500 grinds inside its tightest range yet, both waiting on Friday's inflation report before the Fed's September 16 rate call.",
-    "drafted_at": "2026-09-09T01:58:06.555530",
+    "drafted_at": "2026-09-09T06:58:25.389716",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "15642f84f0abde18"
   },
   {
-    "id": "13383b2a",
+    "id": "eed83161",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Policy update for the pack: The Board's process for setting the discount rate is distinct from the process the Federal Open Market Committee follows in setting the target range for the federal funds rate.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
@@ -99,14 +101,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
     "source_title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
     "source_summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
-    "drafted_at": "2026-09-09T01:58:06.556028",
+    "drafted_at": "2026-09-09T06:58:25.390268",
     "data": {
       "actor": "FED"
     },
     "content_hash": "da9833991b6c87c5"
   },
   {
-    "id": "64f9124d",
+    "id": "c721f1f9",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "POWELL POSTCARD: Consent prohibition against Stephanie R.\n\nConsent prohibition against Crystal A.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm",
@@ -116,14 +118,34 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm",
     "source_title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
     "source_summary": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
-    "drafted_at": "2026-09-09T01:58:06.556401",
+    "drafted_at": "2026-09-09T06:58:25.390629",
     "data": {
       "actor": "FED"
     },
     "content_hash": "1899c878ef68bdd8"
   },
   {
-    "id": "165a374d",
+    "id": "ff5561c0",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$LILA \u2014 6 company insiders bought $47.8M on Aug 31.\n\nLiberty Latin America Ltd. 4,220,044 shares at $11.33.\n\nStock is -23.3% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/LILA_P_20260831.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=LILA",
+    "source_title": "Liberty Latin America Ltd. (LILA) insider bought $47.8M",
+    "source_summary": "6 insider(s) bought 4,220,044 shares at $11.33 on 2026-08-31.",
+    "drafted_at": "2026-09-09T06:58:25.390947",
+    "data": {
+      "ticker": "LILA",
+      "type": "P",
+      "dollar_value": 47824567.0,
+      "pct_since": -23.300974577375985
+    },
+    "content_hash": "bf4180697a0d8e54"
+  },
+  {
+    "id": "8be7fc61",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$PAMT \u2014 a company insider bought $31.2M on Sep 03.\n\nPamt Corp. 3,268,000 shares at $9.56.\n\nStock is +24.8% since the purchase. This is a public SEC Form 4 filing.",
@@ -133,7 +155,7 @@
     "source_url": "http://openinsider.com/screener?s=PAMT",
     "source_title": "Pamt Corp (PAMT) insider bought $31.2M",
     "source_summary": "1 insider(s) bought 3,268,000 shares at $9.56 on 2026-09-03.",
-    "drafted_at": "2026-09-09T01:58:06.556667",
+    "drafted_at": "2026-09-09T06:58:25.391143",
     "data": {
       "ticker": "PAMT",
       "type": "P",
@@ -143,7 +165,7 @@
     "content_hash": "67dddcf764fc46bd"
   },
   {
-    "id": "3befaa6a",
+    "id": "1008109f",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$AMR \u2014 a company insider bought $2.3M on Sep 08.\n\nAlpha Metallurgical Resources, Inc. 10,000 shares at $225.83.\n\nStock is -0.9% since the purchase. This is a public SEC Form 4 filing.",
@@ -153,7 +175,7 @@
     "source_url": "http://openinsider.com/screener?s=AMR",
     "source_title": "Alpha Metallurgical Resources, Inc. (AMR) insider bought $2.3M",
     "source_summary": "1 insider(s) bought 10,000 shares at $225.83 on 2026-09-08.",
-    "drafted_at": "2026-09-09T01:58:06.556875",
+    "drafted_at": "2026-09-09T06:58:25.391355",
     "data": {
       "ticker": "AMR",
       "type": "P",
@@ -163,7 +185,7 @@
     "content_hash": "64a312e61e043d25"
   },
   {
-    "id": "a04375f3",
+    "id": "d33db21c",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$BABA \u2014 2 company insiders bought $25.7M on Aug 25.\n\nAlibaba Group Holding Ltd. 1,790,000 shares at $14.35.\n\nStock is +685.1% since the purchase. This is a public SEC Form 4 filing.",
@@ -173,7 +195,7 @@
     "source_url": "http://openinsider.com/screener?s=BABA",
     "source_title": "Alibaba Group Holding Ltd (BABA) insider bought $25.7M",
     "source_summary": "2 insider(s) bought 1,790,000 shares at $14.35 on 2026-08-25.",
-    "drafted_at": "2026-09-09T01:58:06.557074",
+    "drafted_at": "2026-09-09T06:58:25.391547",
     "data": {
       "ticker": "BABA",
       "type": "P",
@@ -183,7 +205,7 @@
     "content_hash": "7e10badf4194a119"
   },
   {
-    "id": "3c0110ee",
+    "id": "b4fbc7b7",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$QVCG \u2014 a company insider bought $11.8M on Sep 03.\n\nQvc Group, Inc. 720,000 shares at $16.45.\n\nStock is +5.9% since the purchase. This is a public SEC Form 4 filing.",
@@ -193,7 +215,7 @@
     "source_url": "http://openinsider.com/screener?s=QVCG",
     "source_title": "Qvc Group, Inc. (QVCG) insider bought $11.8M",
     "source_summary": "1 insider(s) bought 720,000 shares at $16.45 on 2026-09-03.",
-    "drafted_at": "2026-09-09T01:58:06.557288",
+    "drafted_at": "2026-09-09T06:58:25.391723",
     "data": {
       "ticker": "QVCG",
       "type": "P",
@@ -203,27 +225,75 @@
     "content_hash": "ad585123e9598ca4"
   },
   {
-    "id": "9dc880e2",
-    "format": "CORRUPTION_WATCH_INSIDER",
+    "id": "dcfdfae9",
+    "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "$SUJA \u2014 a company insider bought $3.1M on Sep 03.\n\nSuja Life, Inc. 300,000 shares at $10.42.\n\nStock is -5.1% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/SUJA_P_20260903.png",
+    "draft_text": "09, 2026 (GLOBE NEWSWIRE) \u2014 82% of organizations have been asked to document or explain an identity-related decision to a regulator, court, or external auditor, according to a global study by Regula of 850 fraud prevention and financial crime decision-makers.\n\nAmong that group, 32% could provide only limited or indirect evidence, making [\u2026]\n\nhttps://financialpost.com/globe-newswire/82-of-organizations-had-to-explain-an-identity-decision-and-one-third-could-provide-only-limited-evidence",
+    "image_path": null,
     "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=SUJA",
-    "source_title": "Suja Life, Inc. (SUJA) insider bought $3.1M",
-    "source_summary": "1 insider(s) bought 300,000 shares at $10.42 on 2026-09-03.",
-    "drafted_at": "2026-09-09T01:58:06.557500",
+    "primary_source": "FINANCIAL POST",
+    "source_url": "https://financialpost.com/globe-newswire/82-of-organizations-had-to-explain-an-identity-decision-and-one-third-could-provide-only-limited-evidence",
+    "source_title": "82% of Organizations Had to Explain an Identity Decision, and One-Third Could Provide Only Limited Evidence",
+    "source_summary": "RESTON, Va., Sept. 09, 2026 (GLOBE NEWSWIRE) \u2014 82% of organizations have been asked to document or explain an identity-related decision to a regulator, court, or external auditor, according to a global study by Regula of 850 fraud prevention and financial crime decision-makers. Among that group, 32% could provide only limited or indirect evidence, making [\u2026]",
+    "drafted_at": "2026-09-09T06:58:25.395480",
     "data": {
-      "ticker": "SUJA",
-      "type": "P",
-      "dollar_value": 3126250.0,
-      "pct_since": -5.086369066000442
+      "source": "FINANCIAL POST"
     },
-    "content_hash": "229e787b79a16f0a"
+    "content_hash": "95c9d36dbe2539e2"
   },
   {
-    "id": "eea11ea9",
+    "id": "b88cb7d8",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "OFAC labels Iran's crypto sector sanctionable, citing Bitcoin and USDT-driven sanctions evasion to prop up the rial.\n\nThe post US Treasury's Office Targeting Iran's Sanctions Evasion Through Bitcoin and USDT appeared first on BeInCrypto.\n\nhttps://beincrypto.com/iran-sanctions-evasion-bitcoin-usdt/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "BEINCRYPTO",
+    "source_url": "https://beincrypto.com/iran-sanctions-evasion-bitcoin-usdt/",
+    "source_title": "US Treasury's Office Targeting Iran's Sanctions Evasion Through Bitcoin and USDT",
+    "source_summary": "OFAC labels Iran's crypto sector sanctionable, citing Bitcoin and USDT-driven sanctions evasion to prop up the rial. The post US Treasury's Office Targeting Iran's Sanctions Evasion Through Bitcoin and USDT appeared first on BeInCrypto .",
+    "drafted_at": "2026-09-09T06:58:25.395756",
+    "data": {
+      "source": "BEINCRYPTO"
+    },
+    "content_hash": "2d5a4d0b0ae28e8d"
+  },
+  {
+    "id": "58db71d8",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Malone Lam admitted to teaming up with friends to steal $245m (\u00a3181m) of bitcoin and laundering the proceeds.\n\nThe 22-year-old and his associates used the money to spend up to $500,000 a visit to nightclubs, according to the US Department of Justice (DOJ).\n\nIt also said they bought a fleet of exotic cars, ranging in value from $100,000 to $3.8m.\n\nhttps://www.bbc.co.uk/news/articles/crl6z03pr0do?at_medium=RSS&at_campaign=rss",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "BBC",
+    "source_url": "https://www.bbc.co.uk/news/articles/crl6z03pr0do?at_medium=RSS&at_campaign=rss",
+    "source_title": "Singaporean man pleads guilty in US to massive crypto heist",
+    "source_summary": "Malone Lam and his associates used the proceeds of their crimes to fund a luxurious lifestyle, US authorities said.",
+    "drafted_at": "2026-09-09T06:58:25.396576",
+    "data": {
+      "source": "BBC"
+    },
+    "content_hash": "493f36b2cc5ee3a4"
+  },
+  {
+    "id": "f0bd2291",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "US prosecutors said Lam organized an international network that targeted cryptocurrency holders through social engineering and home break-ins.\n\nhttps://cointelegraph.com/news/malone-lam-pleads-guilty-245m-crypto-theft-conspiracy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "COINTELEGRAPH",
+    "source_url": "https://cointelegraph.com/news/malone-lam-pleads-guilty-245m-crypto-theft-conspiracy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source_title": "Cybercrime ringleader Malone Lam pleads guilty in $245M crypto theft conspiracy",
+    "source_summary": "US prosecutors said Lam organized an international network that targeted cryptocurrency holders through social engineering and home break-ins.",
+    "drafted_at": "2026-09-09T06:58:25.396747",
+    "data": {
+      "source": "COINTELEGRAPH"
+    },
+    "content_hash": "6324845fc113a1b2"
+  },
+  {
+    "id": "03116708",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The announcement drew swift criticism on Crypto Twitter, where users expressed fatigue with memecoin-linked \u201crug pulls.\u201d.\n\nhttps://fortune.com/2026/09/08/hunter-biden-launches-laptop-memecoin-trolls-trump-by-promising-that-20-will-be-reserved-for-traders-who-lost-money-on-presidents-token/",
@@ -233,82 +303,14 @@
     "source_url": "https://fortune.com/2026/09/08/hunter-biden-launches-laptop-memecoin-trolls-trump-by-promising-that-20-will-be-reserved-for-traders-who-lost-money-on-presidents-token/",
     "source_title": "Hunter Biden launches $LAPTOP memecoin, trolls Trump by promising that 20% will be reserved for traders who lost money on president\u2019s token",
     "source_summary": "The announcement drew swift criticism on Crypto Twitter, where users expressed fatigue with memecoin-linked \u201crug pulls.\u201d",
-    "drafted_at": "2026-09-09T01:58:06.561283",
+    "drafted_at": "2026-09-09T06:58:25.396934",
     "data": {
       "source": "FORTUNE"
     },
     "content_hash": "512fbf49eec2e54e"
   },
   {
-    "id": "d05939c4",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "The rollback reversed legitimate activity alongside the attack, while $9.19 million remains unrecovered, according to Cronos.\n\nhttps://decrypt.co/377686/cronos-erased-two-hours-transactions-defi-exploit",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "DECRYPT",
-    "source_url": "https://decrypt.co/377686/cronos-erased-two-hours-transactions-defi-exploit",
-    "source_title": "Cronos Erased Two Hours of Transactions to Reverse $111 Million DeFi Exploit",
-    "source_summary": "The rollback reversed legitimate activity alongside the attack, while $9.19 million remains unrecovered, according to Cronos.",
-    "drafted_at": "2026-09-09T01:58:06.561461",
-    "data": {
-      "source": "DECRYPT"
-    },
-    "content_hash": "9e378cb49edef5c6"
-  },
-  {
-    "id": "2d29c3a8",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "ICIJ\u2019s 2020 FinCEN Files revealed that major banks flagged suspicious payments involving one of the Venezuelan tycoon's companies, which remains at the heart of embezzlement investigations in Europe.\n\nhttps://www.icij.org/investigations/fincen-files/white-house-pick-to-run-venezuela-oil-deal-under-investigation-in-two-countries/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "ICIJ",
-    "source_url": "https://www.icij.org/investigations/fincen-files/white-house-pick-to-run-venezuela-oil-deal-under-investigation-in-two-countries/",
-    "source_title": "White House pick to run Venezuela oil deal under investigation in two countries",
-    "source_summary": "ICIJ\u2019s 2020 FinCEN Files revealed that major banks flagged suspicious payments involving one of the Venezuelan tycoon's companies, which remains at the heart of embezzlement investigations in Europe.",
-    "drafted_at": "2026-09-09T01:58:06.561709",
-    "data": {
-      "source": "ICIJ"
-    },
-    "content_hash": "595e1145c36e41f0"
-  },
-  {
-    "id": "09c53c8a",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "An ICIJ review found nearly $1.7 billion in settlements and fines over a 15 year period.\n\nBut experts said many companies see the payouts as the cost of doing business.\n\nhttps://www.icij.org/investigations/cancer-calculus/big-fines-and-settlements-barely-dent-cancer-drugmakers-revenues-fail-to-deter-wrongdoing/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "ICIJ",
-    "source_url": "https://www.icij.org/investigations/cancer-calculus/big-fines-and-settlements-barely-dent-cancer-drugmakers-revenues-fail-to-deter-wrongdoing/",
-    "source_title": "Big fines and settlements barely dent cancer drugmakers\u2019 revenues, fail to deter wrongdoing",
-    "source_summary": "An ICIJ review found nearly $1.7 billion in settlements and fines over a 15 year period. But experts said many companies see the payouts as the cost of doing business.",
-    "drafted_at": "2026-09-09T01:58:06.561919",
-    "data": {
-      "source": "ICIJ"
-    },
-    "content_hash": "2bb33397806c5f72"
-  },
-  {
-    "id": "1b524b3a",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Financial records obtained by ICIJ show that they included individuals later accused of or sanctioned for money laundering and other financial crimes.\n\nhttps://www.icij.org/investigations/coin-laundry/crypto-giant-tether-promised-careful-vetting-some-early-customers-were-later-implicated-in-financial-crimes/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "ICIJ",
-    "source_url": "https://www.icij.org/investigations/coin-laundry/crypto-giant-tether-promised-careful-vetting-some-early-customers-were-later-implicated-in-financial-crimes/",
-    "source_title": "Crypto giant Tether promised careful vetting. Some early customers were later implicated in financial crimes.",
-    "source_summary": "Financial records obtained by ICIJ show that they included individuals later accused of or sanctioned for money laundering and other financial crimes.",
-    "drafted_at": "2026-09-09T01:58:06.562107",
-    "data": {
-      "source": "ICIJ"
-    },
-    "content_hash": "b5dc549473d7ec96"
-  },
-  {
-    "id": "6800633f",
+    "id": "aaf14478",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "6 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 David J. Taylor (R)\n\u2022 John Boozman (R)\n\u2022 Cleo Fields (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 John Fetterman (D)\n\u2022 John McGuire (R)\n\nLargest disclosed here: David J. Taylor, $1,001 - $15,000 on Feb 26.\n\nPrice since the first buy in this group: +24.4%.\n\nSTOCK Act disclosures. Public record.",
@@ -318,7 +320,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034138.pdf",
     "source_title": "6 Congress members bought $MSFT",
     "source_summary": "6 politicians bought $MSFT; largest $1,001 - $15,000 by David J. Taylor.",
-    "drafted_at": "2026-09-09T01:58:06.562682",
+    "drafted_at": "2026-09-09T06:58:25.398344",
     "data": {
       "ticker": "MSFT",
       "member_count": 6,
@@ -327,7 +329,7 @@
     "content_hash": "7c24415ac3c0b542"
   },
   {
-    "id": "469bc0b6",
+    "id": "87ec518b",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "5 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Markwayne Mullin (D)\n\u2022 Josh Gottheimer (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Markwayne Mullin, $50,001 - $100,000 on Feb 25.\n\nPrice since the first buy in this group: +47.9%.\n\nSTOCK Act disclosures. Public record.",
@@ -337,7 +339,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/f586922d-6083-44e5-8a32-769290389416/",
     "source_title": "5 Congress members bought $UNH",
     "source_summary": "5 politicians bought $UNH; largest $50,001 - $100,000 by Markwayne Mullin.",
-    "drafted_at": "2026-09-09T01:58:06.563015",
+    "drafted_at": "2026-09-09T06:58:25.398690",
     "data": {
       "ticker": "UNH",
       "member_count": 5,
@@ -346,7 +348,7 @@
     "content_hash": "7cbacf41d412a41b"
   },
   {
-    "id": "2a4945c0",
+    "id": "b4ea05ed",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 Cleo Fields (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 John Fetterman (D)\n\u2022 John McGuire (R)\n\nLargest disclosed here: Cleo Fields, $1,001 - $15,000 on Mar 12.\n\nPrice since the first buy in this group: +24.3%.\n\nSTOCK Act disclosures. Public record.",
@@ -356,7 +358,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034179.pdf",
     "source_title": "4 Congress members bought $MSFT",
     "source_summary": "4 politicians bought $MSFT; largest $1,001 - $15,000 by Cleo Fields.",
-    "drafted_at": "2026-09-09T01:58:06.563346",
+    "drafted_at": "2026-09-09T06:58:25.398990",
     "data": {
       "ticker": "MSFT",
       "member_count": 4,
@@ -365,7 +367,7 @@
     "content_hash": "4ff8eafa69ce40c2"
   },
   {
-    "id": "00db6e11",
+    "id": "ca4cb7c5",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Richard Dean Dr McCormick, $1,001 - $15,000 on Mar 19.\n\nPrice since the first buy in this group: +41.6%.\n\nSTOCK Act disclosures. Public record.",
@@ -375,7 +377,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033648.pdf",
     "source_title": "3 Congress members bought $UNH",
     "source_summary": "3 politicians bought $UNH; largest $1,001 - $15,000 by Richard Dean Dr McCormick.",
-    "drafted_at": "2026-09-09T01:58:06.563648",
+    "drafted_at": "2026-09-09T06:58:25.399300",
     "data": {
       "ticker": "UNH",
       "member_count": 3,
@@ -384,7 +386,7 @@
     "content_hash": "ef6027c31bcd522a"
   },
   {
-    "id": "e78e2b8b",
+    "id": "ce46e015",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $HD this year \u2014 and these filings don't show them selling:\n\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Lloyd Doggett (D)\n\u2022 Jared Moskowitz (D)\n\nLargest disclosed here: Richard Dean Dr McCormick, $1,001 - $15,000 on Mar 19.\n\nPrice since the first buy in this group: -2.2%.\n\nSTOCK Act disclosures. Public record.",
@@ -394,7 +396,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033648.pdf",
     "source_title": "3 Congress members bought $HD",
     "source_summary": "3 politicians bought $HD; largest $1,001 - $15,000 by Richard Dean Dr McCormick.",
-    "drafted_at": "2026-09-09T01:58:06.563937",
+    "drafted_at": "2026-09-09T06:58:25.399592",
     "data": {
       "ticker": "HD",
       "member_count": 3,
@@ -403,177 +405,177 @@
     "content_hash": "8c0eaad1e4da4036"
   },
   {
-    "id": "858b233c",
+    "id": "0f692f99",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Mainland wire: The AUD/USD pair sticks to its positive bias through the Asian session on Wednesday and trades around the 0.7220-0.7225 area, just below its highest level since May 14, touched the previous day.\n\nSpot prices, meanwhile, moved little following the release of China's inflation figures.\n\nhttps://www.fxstreet.com/news/australian-dollar-remains-on-the-front-foot-vs-weak-usd-after-chinas-inflation-data-202609090154",
+    "draft_text": "From the international wire: MUFG\u2019s Michael Wan highlights ongoing strength in the Japanese Yen, with recent USD/JPY volatility seeing the pair drop toward 152.88 before stabilizing near 153.26.\n\nhttps://www.fxstreet.com/news/japanese-yen-focus-on-strength-and-boj-path-mufg-202609090651",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/australian-dollar-remains-on-the-front-foot-vs-weak-usd-after-chinas-inflation-data-202609090154",
-    "source_title": "Australian Dollar remains on the front foot vs weak USD after China's inflation data",
-    "source_summary": "The AUD/USD pair sticks to its positive bias through the Asian session on Wednesday and trades around the 0.7220-0.7225 area, just below its highest level since May 14, touched the previous day. Spot prices, meanwhile, moved little following the release of China's inflation figures.",
-    "drafted_at": "2026-09-09T01:58:06.565079",
+    "source_url": "https://www.fxstreet.com/news/japanese-yen-focus-on-strength-and-boj-path-mufg-202609090651",
+    "source_title": "Japanese Yen: Focus on strength and BoJ path \u2013 MUFG",
+    "source_summary": "MUFG\u2019s Michael Wan highlights ongoing strength in the Japanese Yen, with recent USD/JPY volatility seeing the pair drop toward 152.88 before stabilizing near 153.26.",
+    "drafted_at": "2026-09-09T06:58:25.400711",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "0cc82a69d1fc4292"
+    "content_hash": "c6d41f195982e0fc"
   },
   {
-    "id": "36a23a9f",
+    "id": "d34a5615",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Mainland wire: AUD/JPY pares its daily losses following the release of key economic data from China, Australia's primary trading partner.\n\nHowever, the currency cross remains in negative territory and is trading around 111.00 during Asian hours on Wednesday.\n\nhttps://www.fxstreet.com/news/australian-dollar-inches-higher-against-japanese-yen-following-chinas-inflation-data-202609090154",
+    "draft_text": "From Tokyo to Hong Kong: 09, 2026 (GLOBE NEWSWIRE) -- Micware Co., Ltd. (Nasdaq: MWC) (the \u201cCompany\u201d or \u201cMicware\u201d), a Japan-based provider of software development services and innovative IT solutions mainly focused on the automotive and mobility sectors, today announced the signing of a Memorandum of Understanding (\u201cMOU\u201d) with MulticoreWare, Inc. (\u201cMultiCoreWare\u201d) to explore potential collaboration on next-generation artificial intelligence (\u201cAI\u201d) solutions, with a focus on advanced driver assistance systems (\u201cADAS\u201d) performance optimization and integration, AI-powered in-vehicle user experience, and physical AI at the edge.\n\nhttps://www.globenewswire.com/news-release/2026/09/09/3358313/0/en/multicoreware-and-micware-sign-mou-to-explore-potential-collaboration-in-adas-performance-optimization-and-physical-ai-at-the-edge.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "GLOBENEWSWIRE",
+    "source_url": "https://www.globenewswire.com/news-release/2026/09/09/3358313/0/en/multicoreware-and-micware-sign-mou-to-explore-potential-collaboration-in-adas-performance-optimization-and-physical-ai-at-the-edge.html",
+    "source_title": "MulticoreWare\u00a0and\u00a0Micware\u00a0Sign MOU to Explore Potential Collaboration in ADAS Performance Optimization and Physical AI at the Edge",
+    "source_summary": "KOBE, Japan, Sept. 09, 2026 (GLOBE NEWSWIRE) -- Micware Co., Ltd. (Nasdaq: MWC) (the \u201cCompany\u201d or \u201cMicware\u201d), a Japan-based provider of software development services and innovative IT solutions mainly focused on the automotive and mobility sectors, today announced the signing of a Memorandum of Understanding (\u201cMOU\u201d) with MulticoreWare, Inc. (\u201cMultiCoreWare\u201d) to explore potential collaboration on n",
+    "drafted_at": "2026-09-09T06:58:25.401839",
+    "data": {
+      "source": "GLOBENEWSWIRE"
+    },
+    "content_hash": "56335bc7635fad3b"
+  },
+  {
+    "id": "d6156d9e",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Asia overnight: The British Pound (GBP) extends losses on Wednesday as the Japanese Yen (JPY) rallies across the board, with investors bracing for a quarter-point rate hike by the Bank of Japan (BoJ) at next week\u2019s monetary policy meeting.\n\nhttps://www.fxstreet.com/news/british-pound-dips-to-20750-as-japanese-yen-rallies-unfazed-by-oil-prices-202609090625",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/australian-dollar-inches-higher-against-japanese-yen-following-chinas-inflation-data-202609090154",
-    "source_title": "Australian Dollar inches higher against Japanese Yen following China\u2019s inflation data",
-    "source_summary": "AUD/JPY pares its daily losses following the release of key economic data from China, Australia's primary trading partner. However, the currency cross remains in negative territory and is trading around 111.00 during Asian hours on Wednesday.",
-    "drafted_at": "2026-09-09T01:58:06.565409",
+    "source_url": "https://www.fxstreet.com/news/british-pound-dips-to-20750-as-japanese-yen-rallies-unfazed-by-oil-prices-202609090625",
+    "source_title": "British Pound dips to 207.50 as Japanese Yen rallies, unfazed by Oil prices",
+    "source_summary": "The British Pound (GBP) extends losses on Wednesday as the Japanese Yen (JPY) rallies across the board, with investors bracing for a quarter-point rate hike by the Bank of Japan (BoJ) at next week\u2019s monetary policy meeting.",
+    "drafted_at": "2026-09-09T06:58:25.402378",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "7d2ab2be91a1f29c"
+    "content_hash": "b9575a06ce709394"
   },
   {
-    "id": "5a06151a",
+    "id": "9c017d8e",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 CHINA: China\u2019s Consumer Price Index (CPI) climbed 0.8% in August from a year ago after arriving at a rise of 0.5% in Juuly, the National Bureau of Statistics of China reported on Wednesday.\n\nThe market consensus was for 0.8% in the reported period.\n\nhttps://www.fxstreet.com/news/08-chinas-cpi-inflation-rises-in-august-202609090131",
+    "draft_text": "Cross-border read: EUROPEAN SESSION In the European session, we don't have anything on the agenda other than the French industrial production report.\n\nThe data is not going to change anything for the ECB, so the market reaction will likely be muted.\n\nAs a reminder, the ECB is widely expected to hike interest rates by 25 bps tomorrow, bringing the policy rate to 2.50%.\n\nAccording to \"ECB sources\", the central bank will also signal less appetite for further tightening, raising the bar for additional rate hikes.\n\nThe market, on the other hand, is still pricing in high chances of another rate hike in December.\n\nAMERICAN SESSION In the American session, there's only the weekly US ADP employment change data, but this is not a market-moving release.\n\nAs a reminder, the US NFP report showed job growth in August almost tripling the consensus estimate of 56K, with the unemployment rate remaining unchanged at 4.1%.\n\nThe US labour market data has been stable in recent months and not a source of concern.\n\nhttps://investinglive.com/news/what-are-the-main-events-for-today-38/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/what-are-the-main-events-for-today-38/",
+    "source_title": "What are the main events for today?",
+    "source_summary": "EUROPEAN SESSION In the European session, we don't have anything on the agenda other than the French industrial production report. The data is not going to change anything for the ECB, so the market reaction will likely be muted. As a reminder, the ECB is widely expected to hike interest rates by 25 bps tomorrow, bringing the policy rate to 2.50%. According to \"ECB sources\" , the central bank will",
+    "drafted_at": "2026-09-09T06:58:25.404133",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "7ff9d95f01de32ac"
+  },
+  {
+    "id": "a17a2f7d",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "World wire: Commerzbank\u2019s Antje Praefcke notes that EUR/USD is likely to stay relatively quiet until later in the week, when the European Central Bank (ECB) meeting and US inflation data could trigger stronger moves.\n\nhttps://www.fxstreet.com/news/euro-volatility-eyed-into-late-week-commerzbank-202609090621",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/08-chinas-cpi-inflation-rises-in-august-202609090131",
-    "source_title": "0.8%: China\u2019s CPI inflation rises in August",
-    "source_summary": "China\u2019s Consumer Price Index (CPI) climbed 0.8% in August from a year ago after arriving at a rise of 0.5% in Juuly, the National Bureau of Statistics of China reported on Wednesday. The market consensus was for 0.8% in the reported period.",
-    "drafted_at": "2026-09-09T01:58:06.566015",
+    "source_url": "https://www.fxstreet.com/news/euro-volatility-eyed-into-late-week-commerzbank-202609090621",
+    "source_title": "Euro: Volatility eyed into late week \u2013 Commerzbank",
+    "source_summary": "Commerzbank\u2019s Antje Praefcke notes that EUR/USD is likely to stay relatively quiet until later in the week, when the European Central Bank (ECB) meeting and US inflation data could trigger stronger moves.",
+    "drafted_at": "2026-09-09T06:58:25.404578",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "d36ed8653327ab45"
+    "content_hash": "5ad94fc8fe729cc6"
   },
   {
-    "id": "b921c992",
-    "format": "GLOBAL_DESK",
+    "id": "e892f4e6",
+    "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "CHINA DESK: CPI YY 0.8%, National Bureau of Statistics (NBS) cite rising energy prices expected 0.8%, prior 0.5% CPI MM 0.4% expected 0.3%, prior -0.1% PPI YY 3.8% expected 3.7%, prior 3.5% PPI MM +0.4% I'll have more to come on this separately, details and implications for markets.\n\nBackground: China August inflation seen rebounding as trade data flags demand gap This article was written by Eamonn Sheridan at investinglive.com.\n\nhttps://investinglive.com/news/china-august-cpi-y-y-expected-0-8-prior-0-5/",
+    "draft_text": "LABOR MARKET READ: EUROPEAN SESSION In the European session, we don't have anything on the agenda other than the French industrial production report.\n\nThe data is not going to change anything for the ECB, so the market reaction will likely be muted.\n\nAs a reminder, the ECB is widely expected to hike interest rates by 25 bps tomorrow, bringing the policy rate to 2.50%.\n\nAccording to \"ECB sources\", the central bank will also signal less appetite for further tightening, raising the bar for additional rate hikes.\n\nThe market, on the other hand, is still pricing in high chances of another rate hike in December.\n\nAMERICAN SESSION In the American session, there's only the weekly US ADP employment change data, but this is not a market-moving release.\n\nAs a reminder, the US NFP report showed job growth in August almost tripling the consensus estimate of 56K, with the unemployment rate remaining unchanged at 4.1%.\n\nThe US labour market data has been stable in recent months and not a source of concern.\n\nhttps://investinglive.com/news/what-are-the-main-events-for-today-38/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/what-are-the-main-events-for-today-38/",
+    "source_title": "What are the main events for today?",
+    "source_summary": "EUROPEAN SESSION In the European session, we don't have anything on the agenda other than the French industrial production report. The data is not going to change anything for the ECB, so the market reaction will likely be muted. As a reminder, the ECB is widely expected to hike interest rates by 25 bps tomorrow, bringing the policy rate to 2.50%. According to \"ECB sources\" , the central bank will",
+    "drafted_at": "2026-09-09T06:58:25.473348",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "7ff9d95f01de32ac"
+  },
+  {
+    "id": "4afc29e7",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "PPI just dropped. Rising production costs in Norway's energy sector may drive global oil prices higher, impacting economic forecasts and market strategies.\n\nThe post Norway\u2019s August PPI surges, driven by oil and gas sector appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/norways-august-ppi-surges-driven-by-oil-and-gas-sector/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/norways-august-ppi-surges-driven-by-oil-and-gas-sector/",
+    "source_title": "Norway\u2019s August PPI surges, driven by oil and gas sector",
+    "source_summary": "Rising production costs in Norway's energy sector may drive global oil prices higher, impacting economic forecasts and market strategies. The post Norway\u2019s August PPI surges, driven by oil and gas sector appeared first on Crypto Briefing .",
+    "drafted_at": "2026-09-09T06:58:25.473706",
+    "data": {
+      "source": "CRYPTO BRIEFING"
+    },
+    "content_hash": "156c6cb257c60ad5"
+  },
+  {
+    "id": "dd05ea15",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "CPI just printed. China inflation rebounds on energy costs, but the demand story hasn't changed - recap KOSPI tops 7,000 on AI optimism even as Middle East risk weighs Iran claims strikes on US destroyers, tankers crossing Hormuz Central bank buying keeps UBS bullish on gold's long game Gold's Iran-war paradox: why bullion keeps stumbling as the conflict widens China August CPI 0.8% y/y (expected 0.8%, prior 0.5%) PBOC sets USD/ CNY mid-point today at 6.7769 (vs. estimate at 6.7042) Trump bans Canadian autos, dairy and alcohol in trade war escalation Why a Gulf oil shock moves Brent harder than WTI, and what that reveals Dorsey's Block applies for federal bank charter to custody bitcoin and stablecoins RBA weighing further rate rise this month as Dep gov Hauser cites three-headed risk Japan factory mood hits near 5-year high as chip demand lifts Reuters Tankan US and Iran continue to trade strikes.\n\nBitcoin isn't a weekend hedge, it's just the only market still open investingLive Americas FX news wrap 8 Sept: USD mixed, yields rise.\n\nSummary: CENTCOM says US forces destroyed five Iranian crude oil tankers in response to an IRGC ballistic missile attack on a US aircraft carrier, up from three tankers struck on September 5 Secretary of State Marco Rubio said Iran will continue losing tankers for every attempt to strike US naval vessels Iran fired a ballistic missile attack on a US base near Al Azraq in Jordan; Jordan says its air defences intercepted 18 of 20 missiles, with two landing in unpopulated areas and no casualties reported Iran claimed it struck two US Navy destroyers and 18 vessels attempting to cross the Strait of Hormuz, these claims remian unconfirmed The US banned a range of Canadian alcoholic beverages, motorcycles and dairy products from import, effective September 29, after Canada's retaliatory tariffs took effect USD/CAD and broader FX markets are quiet, with traders citing the upcoming US CPI release as the near-term focus Asia-Pacific equities opened mostly higher despite a weak Wall Street lead, where indices fell on returning from the long weekend amid rising oil prices and the geopolitical escalation; South Korea's KOSPI led gains, up 2% on AI and chip stock optimism China's August CPI rose 0.8% y/y and PPI rose 3.8% y/y, both above forecasts and July's readings, with the NBS citing rising energy prices, even as economists caution the rebound doesn't reflect a genuine recovery in domestic demand The US Central Command said American forces destroyed five Iranian crude oil tankers overnigh in what officials described as a response to an Iranian ballistic missile attack on a US aircraft carrier.\n\nThe strike marks an increase from the three tankers hit on September 5.\n\nIran had responded to that earlier strike within a day with its largest single attack in the Strait of Hormuz since the conflict began, hitting six vessels, three of them oil tankers.\n\nSecretary of State Marco Rubio, speaking to reporters during a visit to Colombia, said Iran would continue to lose tankers for as long as it kept attempting to strike US naval vessels.\n\nIran subsequently fired a ballistic missile attack on a US base in Jordan, according to an IRGC statement carried on state media, which also published video it said showed the missiles being launched.\n\nJordan said its air defences intercepted 18 of the 20 missiles fired, with the remaining two landing in unpopulated areas and no casualties reported, a lower toll than Iran's own claim of heavy damage inflicted.\n\nhttps://investinglive.com/news/investinglive-asia-pacific-market-news-war-escalation-supports-oil/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-war-escalation-supports-oil/",
+    "source_title": "investingLive Asia-Pacific market news: War escalation supports oil",
+    "source_summary": "China inflation rebounds on energy costs, but the demand story hasn't changed - recap KOSPI tops 7,000 on AI optimism even as Middle East risk weighs Iran claims strikes on US destroyers, tankers crossing Hormuz Central bank buying keeps UBS bullish on gold's long game Gold's Iran-war paradox: why bullion keeps stumbling as the conflict widens China August CPI 0.8% y/y (expected 0.8%, prior 0.5%) ",
+    "drafted_at": "2026-09-09T06:58:25.477682",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "cfc8938b928d1ba4"
+  },
+  {
+    "id": "035d6aa6",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "Inflation update: Both readings landing in line with or above forecast removes the immediate deflation-scare risk that was in play after July's shortfall, but the composition of the beat matters more than the headline.\n\nNBS attributing the CPI rebound to rising energy prices rather than a broad pickup in consumption keeps the underlying demand story unchanged from the preview: this looks like a cost-side rebound layered on top of the same soft consumption picture flagged by yesterday's import miss and the still-contractionary services PMI.\n\nThe PPI beat is the more constructive leg for traders watching industrial demand, since factory-gate deflation easing faster than expected supports the case that the manufacturing recovery signalled by the private PMI gauge has some pricing power behind it.\n\nOverall, this is unlikely to shift the broader policy debate materially, since the rebound is being read by economists as consistent with, not a reversal of, the domestic demand weakness Beijing is already trying to address.\n\nChina's inflation data beat forecasts in August, but the rebound looks like a cost-side story rather than a genuine turn in domestic demand.\n\nSummary: August CPI rose 0.8% y/y, matching consensus and up from July's 0.5%; on a monthly basis CPI rose 0.4%, ahead of the 0.3% forecast and a reversal from July's -0.1% August PPI rose 3.8% y/y, beating the 3.7% forecast and accelerating from July's 3.5%; PPI rose 0.4% on the month NBS attributed the rebound to rising energy prices Economists have separately flagged that China's domestic economy remains stuck in a negative feedback loop of falling home prices, high savings, weak employment and slow consumer spending, and expect household confidence to stay soft until housing shows a genuine recovery The print follows yesterday's trade data, where exports rose 25% y/y but imports missed consensus at 28.2% y/y, and this week's PMI data, where manufacturing improved to 49.8 but services held flat and soft at 49.0 Taken together, the data supports a cost-side rebound in prices rather than a broad-based recovery in domestic demand China's August inflation data beat forecasts on both the consumer and producer side, with the National Bureau of Statistics attributing the pickup to rising energy prices rather than pointing to any broader recovery in domestic demand.\n\nHeadline CPI rose 0.8% year on year, matching consensus and up from July's five-month low of 0.5%.\n\nOn a monthly basis, CPI rose 0.4%, ahead of the 0.3% forecast and a clear reversal from July's -0.1% monthly decline.\n\nhttps://investinglive.com/news/china-inflation-rebounds-on-energy-costs-but-the-demand-story-hasn-t-changed-recap/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/china-inflation-rebounds-on-energy-costs-but-the-demand-story-hasn-t-changed-recap/",
+    "source_title": "China inflation rebounds on energy costs, but the demand story hasn't changed",
+    "source_summary": "Both readings landing in line with or above forecast removes the immediate deflation-scare risk that was in play after July's shortfall, but the composition of the beat matters more than the headline. NBS attributing the CPI rebound to rising energy prices rather than a broad pickup in consumption keeps the underlying demand story unchanged from the preview: this looks like a cost-side rebound lay",
+    "drafted_at": "2026-09-09T06:58:25.480830",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "838da3791dee812e"
+  },
+  {
+    "id": "d94f198f",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "How sticky is inflation? Let's see: CPI YY 0.8%, National Bureau of Statistics (NBS) cite rising energy prices expected 0.8%, prior 0.5% CPI MM 0.4% expected 0.3%, prior -0.1% PPI YY 3.8% expected 3.7%, prior 3.5% PPI MM +0.4% I'll have more to come on this separately, details and implications for markets.\n\nADDED: China inflation rebounds on energy costs, but the demand story hasn't changed - recap Background: China August inflation seen rebounding as trade data flags demand gap This article was written by Eamonn Sheridan at investinglive.com.\n\nhttps://investinglive.com/news/china-august-cpi-y-y-expected-0-8-prior-0-5/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
     "source_url": "https://investinglive.com/news/china-august-cpi-y-y-expected-0-8-prior-0-5/",
     "source_title": "China August CPI 0.8% y/y (expected 0.8%, prior 0.5%)",
-    "source_summary": "China August 2026 inflation data. CPI YY 0.8%, National Bureau of Statistics (NBS) cite rising energy prices expected 0.8%, prior 0.5% CPI MM 0.4% expected 0.3%, prior -0.1% PPI YY 3.8% expected 3.7%, prior 3.5% PPI MM +0.4% I'll have more to come on this separately, details and implications for markets. Background: China August inflation seen rebounding as trade data flags demand gap This article",
-    "drafted_at": "2026-09-09T01:58:06.566519",
+    "source_summary": "China August 2026 inflation data. CPI YY 0.8%, National Bureau of Statistics (NBS) cite rising energy prices expected 0.8%, prior 0.5% CPI MM 0.4% expected 0.3%, prior -0.1% PPI YY 3.8% expected 3.7%, prior 3.5% PPI MM +0.4% I'll have more to come on this separately, details and implications for markets. ADDED: China inflation rebounds on energy costs, but the demand story hasn't changed - recap B",
+    "drafted_at": "2026-09-09T06:58:25.481442",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "636faa5e14c2220f"
   },
   {
-    "id": "9df8b1d2",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "CHINA DESK: On Wednesday, the People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7769 compared to the previous day's fix of 6.7804 and 6.7042 Reuters estimate.\n\nhttps://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67769-vs-67804-previous-202609090115",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67769-vs-67804-previous-202609090115",
-    "source_title": "PBOC sets USD/CNY reference rate at 6.7769 vs. 6.7804 previous",
-    "source_summary": "On Wednesday, the People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7769 compared to the previous day's fix of 6.7804 and 6.7042 Reuters estimate.",
-    "drafted_at": "2026-09-09T01:58:06.567111",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "8afd8b3bbf1472cb"
-  },
-  {
-    "id": "e93596e4",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "The CPI scoreboard: China\u2019s Consumer Price Index (CPI) climbed 0.8% in August from a year ago after arriving at a rise of 0.5% in Juuly, the National Bureau of Statistics of China reported on Wednesday.\n\nThe market consensus was for 0.8% in the reported period.\n\nhttps://www.fxstreet.com/news/08-chinas-cpi-inflation-rises-in-august-202609090131",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/08-chinas-cpi-inflation-rises-in-august-202609090131",
-    "source_title": "0.8%: China\u2019s CPI inflation rises in August",
-    "source_summary": "China\u2019s Consumer Price Index (CPI) climbed 0.8% in August from a year ago after arriving at a rise of 0.5% in Juuly, the National Bureau of Statistics of China reported on Wednesday. The market consensus was for 0.8% in the reported period.",
-    "drafted_at": "2026-09-09T01:58:06.632172",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "d36ed8653327ab45"
-  },
-  {
-    "id": "d7cd3ba6",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "How sticky is inflation? Let's see: CPI YY 0.8%, National Bureau of Statistics (NBS) cite rising energy prices expected 0.8%, prior 0.5% CPI MM 0.4% expected 0.3%, prior -0.1% PPI YY 3.8% expected 3.7%, prior 3.5% PPI MM +0.4% I'll have more to come on this separately, details and implications for markets.\n\nBackground: China August inflation seen rebounding as trade data flags demand gap This article was written by Eamonn Sheridan at investinglive.com.\n\nhttps://investinglive.com/news/china-august-cpi-y-y-expected-0-8-prior-0-5/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/china-august-cpi-y-y-expected-0-8-prior-0-5/",
-    "source_title": "China August CPI 0.8% y/y (expected 0.8%, prior 0.5%)",
-    "source_summary": "China August 2026 inflation data. CPI YY 0.8%, National Bureau of Statistics (NBS) cite rising energy prices expected 0.8%, prior 0.5% CPI MM 0.4% expected 0.3%, prior -0.1% PPI YY 3.8% expected 3.7%, prior 3.5% PPI MM +0.4% I'll have more to come on this separately, details and implications for markets. Background: China August inflation seen rebounding as trade data flags demand gap This article",
-    "drafted_at": "2026-09-09T01:58:06.632692",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "636faa5e14c2220f"
-  },
-  {
-    "id": "8595454f",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "Inflation update: A rebound in headline CPI toward consensus would ease immediate deflation concerns without altering the broader policy picture, given the move is expected to be driven by a food price base effect rather than a genuine demand recovery.\n\nA miss, echoing July's shortfall against forecasts, would revive questions about the durability of domestic consumption and keep pressure on Beijing to lean further into stimulus.\n\nPPI is the more closely watched leg for traders positioning around industrial demand, with a firmer print supporting the narrative that factory-gate deflation is easing even as second-round pass-through to consumer prices remains weak.\n\nThe yuan is the most directly exposed currency to the print, while the Australian dollar carries some indirect sensitivity as a China growth proxy ( check this out for China impact!), though the reaction in both is likely modest given the numbers are largely priced. --- Economists expect China's inflation gauges to firm in August, but the rebound looks more like a food-price base effect than a genuine turn in demand.\n\nSummary: August CPI forecast to rise to around 0.9% y/y, up from July's five-month low of 0.5%, on a pork and vegetable price recovery August PPI forecast to firm to around 3.2% y/y, continuing the gradual easing in factory-gate deflation Comes a day after customs data showed August exports up 25% y/y, in line with forecasts and quickening from July's 23.9% pace Imports rose 28.2% y/y, faster than July but short of the 30% consensus, keeping the trade surplus widening to $119.1 billion NBS manufacturing PMI improved to 49.8 in August, still below the 50 expansion line but with output and new orders back in growth NBS non-manufacturing PMI held flat and soft at 49.0, weighed down by a construction slowdown attributed partly to weather China's National Bureau of Statistics is due to release August inflation data, with economists expecting a rebound in the headline consumer price index to around 0.9% year on year, up from July's five-month low of 0.5%, which itself had undershot forecasts.\n\nThe anticipated pickup is being attributed largely to a recovery in food prices, particularly pork and vegetables, alongside firmer domestic refined oil prices, rather than any broad-based strengthening in consumer demand.\n\nProducer prices are forecast to firm to around 3.2% year on year, extending a gradual easing in factory-gate deflation.\n\nForward guidance from economists points to headline inflation settling near 1% in September before easing again to around 0.8% in October, suggesting today's expected rebound is being read as a near-term bounce rather than a durable shift in the inflation trend.\n\nhttps://investinglive.com/news/china-august-inflation-seen-rebounding-as-trade-data-flags-demand-gap/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/china-august-inflation-seen-rebounding-as-trade-data-flags-demand-gap/",
-    "source_title": "China August inflation seen rebounding as trade data flags demand gap",
-    "source_summary": "A rebound in headline CPI toward consensus would ease immediate deflation concerns without altering the broader policy picture, given the move is expected to be driven by a food price base effect rather than a genuine demand recovery. A miss, echoing July's shortfall against forecasts, would revive questions about the durability of domestic consumption and keep pressure on Beijing to lean further ",
-    "drafted_at": "2026-09-09T01:58:06.635889",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "bee345d34c69c56b"
-  },
-  {
-    "id": "aac4001e",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "How sticky is inflation? Let's see: Intel shares are soaring by 10% in trading today.\n\nSeveral explosions heard on Kharg Island - report Oil gives back gains as the breakout fails to sustain U.S. Treasury sells $58 billion of 3 or notes at a high yield of 4.474% Flights reportedly suspended at Jeddah airport in Saudi Arabia NY Fed survey: Expectations for rising unemployment rise to highest since April 2020 The S&P and Nasdaq Technicals: What are the charts telling traders in the broader US stock indices NOW?\n\nUS Conference Board August employment trends 108.53 vs 107.71 prior Bitcoin technicals: The price of bitcoin is lower on the day and the technical tilt is modestly lower Bank of England comments highlight worries about energy inflation Canadian dollar shrugs off the trade escalation Morning Kickstart Video North American traders return as oil surges on Middle East tensions investingLive European news wrap: Oil prices rise as Houthis escalate attacks on Saudi targets The U.S. dollar is ending the North American session mixed and little changed against most of the major currencies.\n\nThe greenback is near unchanged against the EUR, GBP, AUD and CHF.\n\nIt is lower against the JPY and CAD, while gaining against the NZD.\n\nThe relatively subdued currency-market action comes as traders prepare for the next round of U.S. inflation data.\n\nThe Producer Price Index will be released Thursday at 8:30 AM ET, followed by the Consumer Price Index on Friday.\n\nThose reports will help shape expectations for the Federal Reserve.\n\nhttps://investinglive.com/news/investinglive-americas-fx-news-wrap-8-sept-usd-mixed-yields-rise-trader-await-inflation-data/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-8-sept-usd-mixed-yields-rise-trader-await-inflation-data/",
-    "source_title": "investingLive Americas FX news wrap 8 Sept: USD mixed, yields rise. Trader await inflation data.",
-    "source_summary": "Intel shares are soaring by 10% in trading today. Several explosions heard on Kharg Island - report Oil gives back gains as the breakout fails to sustain U.S. Treasury sells $58 billion of 3 or notes at a high yield of 4.474% Flights reportedly suspended at Jeddah airport in Saudi Arabia NY Fed survey: Expectations for rising unemployment rise to highest since April 2020 The S&P and Nasdaq Technic",
-    "drafted_at": "2026-09-09T01:58:06.638916",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "ac9360398b53069c"
-  },
-  {
-    "id": "13a64fd6",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "RETAIL-SALES READ: Beyond its historical roots as a day to honor the achievements and contributions of workers, Labor Day has emerged as one of the largest retail sales weekends of the year in the U.S., second only to Black Friday.\n\nPeople usually travel in large numbers, too, with the Transportation Security Administration (TSA) expected to screen more than 17 million passengers over the holiday.\n\nHowever, motorists were feeling plenty of pain at the pump this time around: the national average cost of unleaded gasoline clocked in at $4.15 per gallon on Monday, 30%\u2026\n\nhttps://oilprice.com/Energy/Energy-General/Labor-Day-Gasoline-Just-Hit-a-Record-Heres-What-Comes-Next.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "OILPRICE",
-    "source_url": "https://oilprice.com/Energy/Energy-General/Labor-Day-Gasoline-Just-Hit-a-Record-Heres-What-Comes-Next.html",
-    "source_title": "Labor Day Gasoline Just Hit a Record. Here\u2019s What Comes Next",
-    "source_summary": "Beyond its historical roots as a day to honor the achievements and contributions of workers, Labor Day has emerged as one of the largest retail sales weekends of the year in the U.S., second only to Black Friday. People usually travel in large numbers, too, with the Transportation Security Administration (TSA) expected to screen more than 17 million passengers over the holiday. However, motorists ",
-    "drafted_at": "2026-09-09T01:58:06.639698",
-    "data": {
-      "source": "OILPRICE"
-    },
-    "content_hash": "64d2560ab233146b"
-  },
-  {
-    "id": "9dce46df",
+    "id": "6facadb2",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -583,7 +585,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-09-09T01:58:06.644963",
+    "drafted_at": "2026-09-09T06:58:25.489906",
     "data": {
       "manual": true,
       "via": "manual_news.md"
