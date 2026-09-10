@@ -1,23 +1,42 @@
 [
   {
-    "id": "6411c4b4",
+    "id": "3d44059c",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "Danske Research Team expects the European Central Bank (ECB) to raise its deposit rate by 25bp to 2.50%, in line with consensus and market pricing, while President Lagarde is expected to retain full optionality on future moves.\n\nhttps://www.fxstreet.com/news/euro-firms-against-us-dollar-as-ecb-hike-in-focus-danske-bank-202609100614",
+    "draft_text": "The developer of the Claude large language model may unseat SpaceX as Wall Street\u2019s largest-ever initial public offering (IPO).\n\nhttps://www.fool.com/investing/2026/09/10/thinking-of-buying-anthropic-ipo-more-than-decade-tech-based-ipo-history-change-your-mind/?source=iedfolrf0000001",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/euro-firms-against-us-dollar-as-ecb-hike-in-focus-danske-bank-202609100614",
-    "source_title": "Euro: Firms against US Dollar as ECB hike in focus \u2013 Danske Bank",
-    "source_summary": "Danske Research Team expects the European Central Bank (ECB) to raise its deposit rate by 25bp to 2.50%, in line with consensus and market pricing, while President Lagarde is expected to retain full optionality on future moves.",
-    "drafted_at": "2026-09-10T06:47:54.453994",
+    "primary_source": "MOTLEY FOOL",
+    "source_url": "https://www.fool.com/investing/2026/09/10/thinking-of-buying-anthropic-ipo-more-than-decade-tech-based-ipo-history-change-your-mind/?source=iedfolrf0000001",
+    "source_title": "Thinking of Buying the Anthropic IPO? More Than a Decade of Tech-Based IPO History May Change Your Mind.",
+    "source_summary": "The developer of the Claude large language model may unseat SpaceX as Wall Street\u2019s largest-ever initial public offering (IPO).",
+    "drafted_at": "2026-09-10T11:57:35.202592",
     "data": {
-      "source": "FXSTREET"
+      "source": "MOTLEY FOOL"
     },
-    "content_hash": "5c0e2f6d4c2d2711"
+    "content_hash": "79b7676b6bcc7454"
   },
   {
-    "id": "779a8e20",
+    "id": "5322be68",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Look at this number. Then look again. VIX surges 11.6% in 5 sessions to 16.65.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CBOE \u00b7 ^VIX",
+    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "source_title": "VIX (S&P 500 volatility)",
+    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "drafted_at": "2026-09-10T11:57:35.202927",
+    "data": {
+      "signal_id": "^VIX:move:2026-09-10",
+      "kind": "move_up",
+      "current": "16.65"
+    },
+    "content_hash": "995f4d67e7e875d2"
+  },
+  {
+    "id": "d4cdaeeb",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Quick one for you. VIX surges 14.1% in 5 sessions to 16.46.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
@@ -27,7 +46,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EVIX",
     "source_title": "VIX (S&P 500 volatility)",
     "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-09-10T06:47:54.454167",
+    "drafted_at": "2026-09-10T11:57:35.203161",
     "data": {
       "signal_id": "^VIX:move:2026-09-09",
       "kind": "move_up",
@@ -36,7 +55,7 @@
     "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "83b7cdd7",
+    "id": "d5e5457c",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "This is the kind of move that hits twice. WTI crude surges 11.3% in 5 sessions to $95.48.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
@@ -46,7 +65,7 @@
     "source_url": "https://finance.yahoo.com/quote/CL%3DF",
     "source_title": "WTI crude oil futures",
     "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-09-10T06:47:54.454302",
+    "drafted_at": "2026-09-10T11:57:35.203419",
     "data": {
       "signal_id": "CL=F:move:2026-09-10",
       "kind": "move_up",
@@ -55,7 +74,7 @@
     "content_hash": "c272de0720a2f459"
   },
   {
-    "id": "d4b66d81",
+    "id": "7c57280e",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Read this twice. WTI crude rips 16.0% in 5 sessions to $96.76.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
@@ -65,7 +84,7 @@
     "source_url": "https://finance.yahoo.com/quote/CL%3DF",
     "source_title": "WTI crude oil futures",
     "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-09-10T06:47:54.454458",
+    "drafted_at": "2026-09-10T11:57:35.203646",
     "data": {
       "signal_id": "CL=F:move:2026-09-09",
       "kind": "move_up",
@@ -74,60 +93,41 @@
     "content_hash": "c272de0720a2f459"
   },
   {
-    "id": "ebdc3b46",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "Nobody on TV said this today. VIX jumps 8.9% in 5 sessions to 15.72.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CBOE \u00b7 ^VIX",
-    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "source_title": "VIX (S&P 500 volatility)",
-    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-09-10T06:47:54.454580",
-    "data": {
-      "signal_id": "^VIX:move:2026-09-08",
-      "kind": "move_up",
-      "current": "15.72"
-    },
-    "content_hash": "995f4d67e7e875d2"
-  },
-  {
-    "id": "da866d92",
+    "id": "5f5459af",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "Eurozone policy update: The Euro (EUR) edges up against the US Dollar (USD) on Thursday, but remains capped below Wednesday\u2019s highs, at the 1.1650 area so far.\n\nhttps://www.fxstreet.com/news/euro-holds-recent-gains-despite-high-oil-prices-with-ecb-decision-on-focus-202609100627",
+    "draft_text": "Powell on the wire. UBS's revised rate hike forecast signals potential challenges for equities, emphasizing the need for strategic diversification and caution.\n\nThe post UBS\u2019s Kurt Reiman expects two Federal Reserve rate hikes this year appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/ubs-reiman-two-fed-rate-hikes-2026/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Federal Reserve",
+    "source_url": "https://cryptobriefing.com/ubs-reiman-two-fed-rate-hikes-2026/",
+    "source_title": "UBS\u2019s Kurt Reiman expects two Federal Reserve rate hikes this year",
+    "source_summary": "UBS's revised rate hike forecast signals potential challenges for equities, emphasizing the need for strategic diversification and caution. The post UBS\u2019s Kurt Reiman expects two Federal Reserve rate hikes this year appeared first on Crypto Briefing .",
+    "drafted_at": "2026-09-10T11:57:35.215194",
+    "data": {
+      "actor": "Federal Reserve"
+    },
+    "content_hash": "f20245e0c519753f"
+  },
+  {
+    "id": "1692111a",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "Eurozone policy update: The Euro (EUR) has given away previous gains against the US Dollar (USD) on Thursday, pulling back to the 1.1620 area, from session highs above 1.1640.\n\nhttps://www.fxstreet.com/news/euro-holds-recent-gains-despite-high-oil-prices-with-ecb-decision-on-focus-202609100627",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "ECB",
     "source_url": "https://www.fxstreet.com/news/euro-holds-recent-gains-despite-high-oil-prices-with-ecb-decision-on-focus-202609100627",
-    "source_title": "Euro holds recent gains despite high Oil prices with ECB decision in focus",
-    "source_summary": "The Euro (EUR) edges up against the US Dollar (USD) on Thursday, but remains capped below Wednesday\u2019s highs, at the 1.1650 area so far.",
-    "drafted_at": "2026-09-10T06:47:54.460872",
+    "source_title": "Euro ticks down from session highs ahead of the ECB monetary policy decision",
+    "source_summary": "The Euro (EUR) has given away previous gains against the US Dollar (USD) on Thursday, pulling back to the 1.1620 area, from session highs above 1.1640.",
+    "drafted_at": "2026-09-10T11:57:35.215491",
     "data": {
       "actor": "ECB"
     },
-    "content_hash": "4f8110be3ca70f2f"
+    "content_hash": "5b2fe66a66c68cc8"
   },
   {
-    "id": "b7075ade",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "The ECB just moved. Danske Research Team expects the European Central Bank (ECB) to raise its deposit rate by 25bp to 2.50%, in line with consensus and market pricing, while President Lagarde is expected to retain full optionality on future moves.\n\nhttps://www.fxstreet.com/news/euro-firms-against-us-dollar-as-ecb-hike-in-focus-danske-bank-202609100614",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "ECB",
-    "source_url": "https://www.fxstreet.com/news/euro-firms-against-us-dollar-as-ecb-hike-in-focus-danske-bank-202609100614",
-    "source_title": "Euro: Firms against US Dollar as ECB hike in focus \u2013 Danske Bank",
-    "source_summary": "Danske Research Team expects the European Central Bank (ECB) to raise its deposit rate by 25bp to 2.50%, in line with consensus and market pricing, while President Lagarde is expected to retain full optionality on future moves.",
-    "drafted_at": "2026-09-10T06:47:54.461056",
-    "data": {
-      "actor": "ECB"
-    },
-    "content_hash": "5c0e2f6d4c2d2711"
-  },
-  {
-    "id": "a747f06e",
+    "id": "7251e1e7",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Policy update for the pack: The Board's process for setting the discount rate is distinct from the process the Federal Open Market Committee follows in setting the target range for the federal funds rate.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
@@ -137,14 +137,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
     "source_title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
     "source_summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
-    "drafted_at": "2026-09-10T06:47:54.461390",
+    "drafted_at": "2026-09-10T11:57:35.216048",
     "data": {
       "actor": "FED"
     },
     "content_hash": "da9833991b6c87c5"
   },
   {
-    "id": "e96fa294",
+    "id": "c08f91b6",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "POWELL POSTCARD: Consent prohibition against Stephanie R.\n\nConsent prohibition against Crystal A.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm",
@@ -154,14 +154,54 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm",
     "source_title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
     "source_summary": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
-    "drafted_at": "2026-09-10T06:47:54.461594",
+    "drafted_at": "2026-09-10T11:57:35.216414",
     "data": {
       "actor": "FED"
     },
     "content_hash": "1899c878ef68bdd8"
   },
   {
-    "id": "704f222e",
+    "id": "3e0b0b87",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$DY \u2014 2 company insiders bought $453,090 on Sep 09.\n\nDycom Industries Inc. 1,550 shares at $292.32.\n\nStock is -0.6% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/DY_P_20260909.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=DY",
+    "source_title": "Dycom Industries Inc (DY) insider bought $453,090",
+    "source_summary": "2 insider(s) bought 1,550 shares at $292.32 on 2026-09-09.",
+    "drafted_at": "2026-09-10T11:57:35.216724",
+    "data": {
+      "ticker": "DY",
+      "type": "P",
+      "dollar_value": 453090.0,
+      "pct_since": -0.6260296133090425
+    },
+    "content_hash": "7ac159ad6b659046"
+  },
+  {
+    "id": "beba839e",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$UAMY \u2014 4 company insiders bought $384,761 on Sep 01.\n\nUnited States Antimony Corp. 73,800 shares at $5.21.\n\nStock is +1.9% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/UAMY_P_20260901.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=UAMY",
+    "source_title": "United States Antimony Corp (UAMY) insider bought $384,761",
+    "source_summary": "4 insider(s) bought 73,800 shares at $5.21 on 2026-09-01.",
+    "drafted_at": "2026-09-10T11:57:35.216994",
+    "data": {
+      "ticker": "UAMY",
+      "type": "P",
+      "dollar_value": 384761.0,
+      "pct_since": 1.9193846982637437
+    },
+    "content_hash": "9bad8c8a0b6bb46a"
+  },
+  {
+    "id": "8b0baccb",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$SRTS \u2014 2 company insiders bought $563,538 on Aug 28.\n\nSensus Healthcare, Inc. 171,171 shares at $3.29.\n\nStock is -5.2% since the purchase. This is a public SEC Form 4 filing.",
@@ -171,7 +211,7 @@
     "source_url": "http://openinsider.com/screener?s=SRTS",
     "source_title": "Sensus Healthcare, Inc. (SRTS) insider bought $563,538",
     "source_summary": "2 insider(s) bought 171,171 shares at $3.29 on 2026-08-28.",
-    "drafted_at": "2026-09-10T06:47:54.461792",
+    "drafted_at": "2026-09-10T11:57:35.217210",
     "data": {
       "ticker": "SRTS",
       "type": "P",
@@ -181,7 +221,7 @@
     "content_hash": "06894cc6c10cecec"
   },
   {
-    "id": "7f2283d4",
+    "id": "73742e2c",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$ALMS \u2014 a company insider bought $10.7M on Sep 04.\n\nAlumis Inc. 986,721 shares at $10.87.\n\nStock is -9.8% since the purchase. This is a public SEC Form 4 filing.",
@@ -191,7 +231,7 @@
     "source_url": "http://openinsider.com/screener?s=ALMS",
     "source_title": "Alumis Inc. (ALMS) insider bought $10.7M",
     "source_summary": "1 insider(s) bought 986,721 shares at $10.87 on 2026-09-04.",
-    "drafted_at": "2026-09-10T06:47:54.461893",
+    "drafted_at": "2026-09-10T11:57:35.217402",
     "data": {
       "ticker": "ALMS",
       "type": "P",
@@ -201,7 +241,7 @@
     "content_hash": "0d90c103fbc57757"
   },
   {
-    "id": "5aecb0d6",
+    "id": "65312728",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$ANGX \u2014 3 company insiders bought $2.8M on Sep 01.\n\nAngel Studios, Inc. 711,025 shares at $4.01.\n\nStock is +22.9% since the purchase. This is a public SEC Form 4 filing.",
@@ -211,7 +251,7 @@
     "source_url": "http://openinsider.com/screener?s=ANGX",
     "source_title": "Angel Studios, Inc. (ANGX) insider bought $2.8M",
     "source_summary": "3 insider(s) bought 711,025 shares at $4.01 on 2026-09-01.",
-    "drafted_at": "2026-09-10T06:47:54.461987",
+    "drafted_at": "2026-09-10T11:57:35.217596",
     "data": {
       "ticker": "ANGX",
       "type": "P",
@@ -221,98 +261,41 @@
     "content_hash": "2d9860e33e20c48e"
   },
   {
-    "id": "0e2b6f40",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$PRTS \u2014 3 company insiders bought $1.7M on Sep 04.\n\nCarparts.Com, Inc. 193,323 shares at $8.97.\n\nStock is +11.5% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/PRTS_P_20260904.png",
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=PRTS",
-    "source_title": "Carparts.Com, Inc. (PRTS) insider bought $1.7M",
-    "source_summary": "3 insider(s) bought 193,323 shares at $8.97 on 2026-09-04.",
-    "drafted_at": "2026-09-10T06:47:54.462079",
-    "data": {
-      "ticker": "PRTS",
-      "type": "P",
-      "dollar_value": 1734059.0,
-      "pct_since": 11.482720178372343
-    },
-    "content_hash": "d26ff5490ca09bc5"
-  },
-  {
-    "id": "74ff9b5a",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$SLGL \u2014 a company insider bought $687,160 on Sep 04.\n\nSol-Gel Technologies Ltd. 9,976 shares at $68.88.\n\nStock is +0.4% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/SLGL_P_20260904.png",
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=SLGL",
-    "source_title": "Sol-Gel Technologies Ltd. (SLGL) insider bought $687,160",
-    "source_summary": "1 insider(s) bought 9,976 shares at $68.88 on 2026-09-04.",
-    "drafted_at": "2026-09-10T06:47:54.462172",
-    "data": {
-      "ticker": "SLGL",
-      "type": "P",
-      "dollar_value": 687160.0,
-      "pct_since": 0.4355405127406879
-    },
-    "content_hash": "0ab8d33e12c0bfc7"
-  },
-  {
-    "id": "ae31d2f0",
+    "id": "3dd12b88",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "With the class action lawsuit out of the picture, Solana holders now face a lot less risk than before.\n\nhttps://www.fool.com/investing/2026/09/10/one-of-solanas-biggest-risks-just-disappeared-is-i/?source=iedfolrf0000001",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "MOTLEY FOOL",
-    "source_url": "https://www.fool.com/investing/2026/09/10/one-of-solanas-biggest-risks-just-disappeared-is-i/?source=iedfolrf0000001",
-    "source_title": "One of Solana's Biggest Risks Just Disappeared. Is It a Buy With $1,000?",
-    "source_summary": "With the class action lawsuit out of the picture, Solana holders now face a lot less risk than before.",
-    "drafted_at": "2026-09-10T06:47:54.464569",
-    "data": {
-      "source": "MOTLEY FOOL"
-    },
-    "content_hash": "16a62e674d7a0bba"
-  },
-  {
-    "id": "18750c8e",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "President Donald Trump believes he can defy history and maintain control of Congress in the midterms \u2014 and he just announced the policy that could pull it off.\n\nThe president was in high spirits as he championed his first two years in office, especially his economic success, at the Republican Midterm Convention in Dallas on Wednesday night.\n\nIn fact, Trump said the country is doing so well that he'd be returning the profits to the American people.\n\nhttps://www.theblaze.com/news/trump-dividend-5000-dollars-midterms",
+    "draft_text": "BlazeTV host Sara Gonzales\u2019 war on H-1B abuse is bearing fruit: Department of Labor Inspector General Anthony D\u2019Esposito just clamped down on two major visa sponsors.\n\nD\u2019Esposito suspended Cognizant and Cloudera\u2019s Program Electronic Review Management pipelines and H-1B applications on Tuesday.\n\nHe sat down with Gonzales to break down the Trump administration\u2019s progress on the foreign labor issue. \u2018Handcuffs await.\u2019 PERM is a regulatory hurdle employers must clear before they are allowed to sponsor employees\u2019 green cards.\n\nhttps://www.theblaze.com/news/h-1b-visas-sara-gonzales",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "THE BLAZE",
-    "source_url": "https://www.theblaze.com/news/trump-dividend-5000-dollars-midterms",
-    "source_title": "Trump promises $5,000 checks for all",
-    "source_summary": "President Donald Trump believes he can defy history and maintain control of Congress in the midterms \u2014 and he just announced the policy that could pull it off. The president was in high spirits as he championed his first two years in office, especially his economic success , at the Republican Midterm Convention in Dallas on Wednesday night. In fact, Trump said the country is doing so well that he'",
-    "drafted_at": "2026-09-10T06:47:54.465158",
+    "source_url": "https://www.theblaze.com/news/h-1b-visas-sara-gonzales",
+    "source_title": "H-1B visa sponsors put on ice by Labor Department after Sara Gonzales' investigative reporting",
+    "source_summary": "BlazeTV host Sara Gonzales\u2019 war on H-1B abuse is bearing fruit: Department of Labor Inspector General Anthony D\u2019Esposito just clamped down on two major visa sponsors . D\u2019Esposito suspended Cognizant and Cloudera\u2019s Program Electronic Review Management pipelines and H-1B applications on Tuesday. He sat down with Gonzales to break down the Trump administration\u2019s progress on the foreign labor issue. \u2018",
+    "drafted_at": "2026-09-10T11:57:35.224625",
     "data": {
       "source": "THE BLAZE"
     },
-    "content_hash": "c6fc8c88985f67e3"
+    "content_hash": "6c751b7dcba5012b"
   },
   {
-    "id": "c9f3a1b2",
+    "id": "55048732",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "Jon Husted (R-Ohio) took the stage at the Republican Midterm Convention to represent hard-working Ohio families.\n\nDuring his speech, he touted his conservative record while slamming his 2026 Democratic opponent, former Sen.\n\nSherrod Brown, for allocating constituents\u2019 money to illegal immigrants and other Democrat programs. \u2018A job isn\u2019t just a paycheck.\n\nhttps://www.theblaze.com/news/jon-husted-rnc-2026",
+    "draft_text": "Four out of five people who bought into Hunter Biden's new meme coin saw their investments go up in smoke during the cryptocurrency's spectacular launch-day collapse.\n\nhttps://nypost.com/2026/09/10/business/hunter-bidens-meme-coin-crushed-4-out-of-5-buyers-while-one-mystery-trader-raked-in-1m/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "THE BLAZE",
-    "source_url": "https://www.theblaze.com/news/jon-husted-rnc-2026",
-    "source_title": "Sen. Jon Husted believes you should keep the money you earn",
-    "source_summary": "On Wednesday, Sen. Jon Husted (R-Ohio) took the stage at the Republican Midterm Convention to represent hard-working Ohio families. During his speech, he touted his conservative record while slamming his 2026 Democratic opponent, former Sen. Sherrod Brown, for allocating constituents\u2019 money to illegal immigrants and other Democrat programs. \u2018A job isn\u2019t just a paycheck. It\u2019s dignity.\u2019 Husted remin",
-    "drafted_at": "2026-09-10T06:47:54.465948",
+    "primary_source": "NY POST",
+    "source_url": "https://nypost.com/2026/09/10/business/hunter-bidens-meme-coin-crushed-4-out-of-5-buyers-while-one-mystery-trader-raked-in-1m/",
+    "source_title": "Hunter Biden\u2019s meme coin crushed 4 out of 5 buyers while one mystery trader raked in $1M: \u2018classic rug pull\u2019",
+    "source_summary": "Four out of five people who bought into Hunter Biden's new meme coin saw their investments go up in smoke during the cryptocurrency's spectacular launch-day collapse",
+    "drafted_at": "2026-09-10T11:57:35.224848",
     "data": {
-      "source": "THE BLAZE"
+      "source": "NY POST"
     },
-    "content_hash": "9c54df6da1dd16e0"
+    "content_hash": "b4765df3bdf7816a"
   },
   {
-    "id": "c3a96e8f",
+    "id": "abb04663",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "ICIJ\u2019s 2020 FinCEN Files revealed that major banks flagged suspicious payments involving one of the Venezuelan tycoon's companies, which remains at the heart of embezzlement investigations in Europe.\n\nhttps://www.icij.org/investigations/fincen-files/white-house-pick-to-run-venezuela-oil-deal-under-investigation-in-two-countries/",
@@ -322,14 +305,14 @@
     "source_url": "https://www.icij.org/investigations/fincen-files/white-house-pick-to-run-venezuela-oil-deal-under-investigation-in-two-countries/",
     "source_title": "White House pick to run Venezuela oil deal under investigation in two countries",
     "source_summary": "ICIJ\u2019s 2020 FinCEN Files revealed that major banks flagged suspicious payments involving one of the Venezuelan tycoon's companies, which remains at the heart of embezzlement investigations in Europe.",
-    "drafted_at": "2026-09-10T06:47:54.466081",
+    "drafted_at": "2026-09-10T11:57:35.225137",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "595e1145c36e41f0"
   },
   {
-    "id": "1fa12ada",
+    "id": "abb5e401",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "An ICIJ review found nearly $1.7 billion in settlements and fines over a 15 year period.\n\nBut experts said many companies see the payouts as the cost of doing business.\n\nhttps://www.icij.org/investigations/cancer-calculus/big-fines-and-settlements-barely-dent-cancer-drugmakers-revenues-fail-to-deter-wrongdoing/",
@@ -339,14 +322,31 @@
     "source_url": "https://www.icij.org/investigations/cancer-calculus/big-fines-and-settlements-barely-dent-cancer-drugmakers-revenues-fail-to-deter-wrongdoing/",
     "source_title": "Big fines and settlements barely dent cancer drugmakers\u2019 revenues, fail to deter wrongdoing",
     "source_summary": "An ICIJ review found nearly $1.7 billion in settlements and fines over a 15 year period. But experts said many companies see the payouts as the cost of doing business.",
-    "drafted_at": "2026-09-10T06:47:54.466197",
+    "drafted_at": "2026-09-10T11:57:35.225352",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "2bb33397806c5f72"
   },
   {
-    "id": "2ba0f1b5",
+    "id": "3fcbc081",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Financial records obtained by ICIJ show that they included individuals later accused of or sanctioned for money laundering and other financial crimes.\n\nhttps://www.icij.org/investigations/coin-laundry/crypto-giant-tether-promised-careful-vetting-some-early-customers-were-later-implicated-in-financial-crimes/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "ICIJ",
+    "source_url": "https://www.icij.org/investigations/coin-laundry/crypto-giant-tether-promised-careful-vetting-some-early-customers-were-later-implicated-in-financial-crimes/",
+    "source_title": "Crypto giant Tether promised careful vetting. Some early customers were later implicated in financial crimes.",
+    "source_summary": "Financial records obtained by ICIJ show that they included individuals later accused of or sanctioned for money laundering and other financial crimes.",
+    "drafted_at": "2026-09-10T11:57:35.225544",
+    "data": {
+      "source": "ICIJ"
+    },
+    "content_hash": "b5dc549473d7ec96"
+  },
+  {
+    "id": "6dcca211",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "6 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 David J. Taylor (R)\n\u2022 John Boozman (R)\n\u2022 Cleo Fields (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 John Fetterman (D)\n\u2022 John McGuire (R)\n\nLargest disclosed here: David J. Taylor, $1,001 - $15,000 on Feb 26.\n\nPrice since the first buy in this group: +24.4%.\n\nSTOCK Act disclosures. Public record.",
@@ -356,7 +356,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034138.pdf",
     "source_title": "6 Congress members bought $MSFT",
     "source_summary": "6 politicians bought $MSFT; largest $1,001 - $15,000 by David J. Taylor.",
-    "drafted_at": "2026-09-10T06:47:54.466630",
+    "drafted_at": "2026-09-10T11:57:35.226155",
     "data": {
       "ticker": "MSFT",
       "member_count": 6,
@@ -365,7 +365,7 @@
     "content_hash": "7c24415ac3c0b542"
   },
   {
-    "id": "2979ac4a",
+    "id": "bc5dedb5",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "5 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Markwayne Mullin (D)\n\u2022 Josh Gottheimer (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Markwayne Mullin, $50,001 - $100,000 on Feb 25.\n\nPrice since the first buy in this group: +47.9%.\n\nSTOCK Act disclosures. Public record.",
@@ -375,7 +375,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/f586922d-6083-44e5-8a32-769290389416/",
     "source_title": "5 Congress members bought $UNH",
     "source_summary": "5 politicians bought $UNH; largest $50,001 - $100,000 by Markwayne Mullin.",
-    "drafted_at": "2026-09-10T06:47:54.466803",
+    "drafted_at": "2026-09-10T11:57:35.226519",
     "data": {
       "ticker": "UNH",
       "member_count": 5,
@@ -384,7 +384,7 @@
     "content_hash": "7cbacf41d412a41b"
   },
   {
-    "id": "466dcd98",
+    "id": "fe24e159",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $NVDA this year \u2014 and these filings don't show them selling:\n\n\u2022 Michael Rulli (R)\n\u2022 Cleo Fields (D)\n\u2022 Gilbert Cisneros (D)\n\u2022 John J Mr McGuire (R)\n\nLargest disclosed here: Michael Rulli, $1,001 - $15,000 on Jun 25.\n\nPrice since the first buy in this group: +14.3%.\n\nSTOCK Act disclosures. Public record.",
@@ -394,7 +394,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035147.pdf",
     "source_title": "4 Congress members bought $NVDA",
     "source_summary": "4 politicians bought $NVDA; largest $1,001 - $15,000 by Michael Rulli.",
-    "drafted_at": "2026-09-10T06:47:54.466953",
+    "drafted_at": "2026-09-10T11:57:35.226835",
     "data": {
       "ticker": "NVDA",
       "member_count": 4,
@@ -403,7 +403,7 @@
     "content_hash": "f6cf25ab3c00fb6f"
   },
   {
-    "id": "ad8b3699",
+    "id": "4d54ff02",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Markwayne Mullin (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Markwayne Mullin, $50,001 - $100,000 on Feb 25.\n\nPrice since the first buy in this group: +38.3%.\n\nSTOCK Act disclosures. Public record.",
@@ -413,7 +413,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/f586922d-6083-44e5-8a32-769290389416/",
     "source_title": "4 Congress members bought $UNH",
     "source_summary": "4 politicians bought $UNH; largest $50,001 - $100,000 by Markwayne Mullin.",
-    "drafted_at": "2026-09-10T06:47:54.467108",
+    "drafted_at": "2026-09-10T11:57:35.227167",
     "data": {
       "ticker": "UNH",
       "member_count": 4,
@@ -422,7 +422,7 @@
     "content_hash": "029ae5a8d0ca395b"
   },
   {
-    "id": "71e49eb8",
+    "id": "4d4a5380",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 Cleo Fields (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 John Fetterman (D)\n\u2022 John McGuire (R)\n\nLargest disclosed here: Cleo Fields, $1,001 - $15,000 on Mar 12.\n\nPrice since the first buy in this group: +24.3%.\n\nSTOCK Act disclosures. Public record.",
@@ -432,7 +432,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034179.pdf",
     "source_title": "4 Congress members bought $MSFT",
     "source_summary": "4 politicians bought $MSFT; largest $1,001 - $15,000 by Cleo Fields.",
-    "drafted_at": "2026-09-10T06:47:54.467254",
+    "drafted_at": "2026-09-10T11:57:35.227464",
     "data": {
       "ticker": "MSFT",
       "member_count": 4,
@@ -441,143 +441,143 @@
     "content_hash": "4ff8eafa69ce40c2"
   },
   {
-    "id": "261c9690",
+    "id": "d45e6c57",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "ASIA DESK: Michael Pfister highlights that comments from the US Treasury Secretary about having \u201casymmetric information\u201d on Bank of Japan (BoJ) moves are intended to deter speculative positioning for further Japanese Yen (JPY) weakness.\n\nhttps://www.fxstreet.com/news/japanese-yen-intervention-risk-supports-against-us-dollar-commerzbank-202609100641",
+    "draft_text": "From the international wire: GBP/JPY edges higher on Wednesday as the Japanese Yen (JPY) weakens across the board, likely reflecting some profit-taking after the currency\u2019s strong run since the start of the month.\n\nhttps://www.fxstreet.com/news/gbp-jpy-price-forecast-rsi-signals-exhaustion-after-a-steep-4-decline-202609101156",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/japanese-yen-intervention-risk-supports-against-us-dollar-commerzbank-202609100641",
-    "source_title": "Japanese Yen: Intervention risk supports against US Dollar \u2013 Commerzbank",
-    "source_summary": "Michael Pfister highlights that comments from the US Treasury Secretary about having \u201casymmetric information\u201d on Bank of Japan (BoJ) moves are intended to deter speculative positioning for further Japanese Yen (JPY) weakness.",
-    "drafted_at": "2026-09-10T06:47:54.468592",
+    "source_url": "https://www.fxstreet.com/news/gbp-jpy-price-forecast-rsi-signals-exhaustion-after-a-steep-4-decline-202609101156",
+    "source_title": "GBP/JPY Price Forecast: RSI signals exhaustion after a steep 4% decline",
+    "source_summary": "GBP/JPY edges higher on Wednesday as the Japanese Yen (JPY) weakens across the board, likely reflecting some profit-taking after the currency\u2019s strong run since the start of the month.",
+    "drafted_at": "2026-09-10T11:57:35.230092",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "e8c9023a89f54b57"
+    "content_hash": "daa542d13eda4f60"
   },
   {
-    "id": "ddf1add6",
+    "id": "2b9fb92e",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "MIDDLE EAST DESK: Eligible customers can invest in companies listed on Dubai Financial Market and Abu Dhabi Securities Exchange through baraka, with local investments funded in AED.\n\nMore than 70% of baraka investors are under 35, highlighting the growing participation of younger investors in regional...\n\nhttps://www.prnewswire.com/news-releases/baraka-launches-investments-on-dfm-and-adx-for-uae-investors-302874084.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "PR NEWSWIRE",
-    "source_url": "https://www.prnewswire.com/news-releases/baraka-launches-investments-on-dfm-and-adx-for-uae-investors-302874084.html",
-    "source_title": "baraka launches investments on DFM and ADX for UAE investors",
-    "source_summary": "Eligible customers can invest in companies listed on Dubai Financial Market and Abu Dhabi Securities Exchange through baraka, with local investments funded in AED. More than 70% of baraka investors are under 35, highlighting the growing participation of younger investors in regional...",
-    "drafted_at": "2026-09-10T06:47:54.468828",
-    "data": {
-      "source": "PR NEWSWIRE"
-    },
-    "content_hash": "f4e684a5da045c4f"
-  },
-  {
-    "id": "7a6ea122",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "MIDDLE EAST DESK: ING analysts Warren Patterson and Ewa Manthey note that Brent has broken above $100/bbl for the first time since July, driven by persistent geopolitical risk in the Persian Gulf and limited prospects for de-escalation between the US and Iran.\n\nhttps://www.fxstreet.com/news/brent-geopolitics-keep-rally-supported-ing-202609100629",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/brent-geopolitics-keep-rally-supported-ing-202609100629",
-    "source_title": "Brent: Geopolitics keep rally supported \u2013 ING",
-    "source_summary": "ING analysts Warren Patterson and Ewa Manthey note that Brent has broken above $100/bbl for the first time since July, driven by persistent geopolitical risk in the Persian Gulf and limited prospects for de-escalation between the US and Iran.",
-    "drafted_at": "2026-09-10T06:47:54.469071",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "59c5413f085e2e68"
-  },
-  {
-    "id": "6b437047",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "GLOBAL DESK: The Euro (EUR) edges up against the US Dollar (USD) on Thursday, but remains capped below Wednesday\u2019s highs, at the 1.1650 area so far.\n\nhttps://www.fxstreet.com/news/euro-holds-recent-gains-despite-high-oil-prices-with-ecb-decision-on-focus-202609100627",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/euro-holds-recent-gains-despite-high-oil-prices-with-ecb-decision-on-focus-202609100627",
-    "source_title": "Euro holds recent gains despite high Oil prices with ECB decision in focus",
-    "source_summary": "The Euro (EUR) edges up against the US Dollar (USD) on Thursday, but remains capped below Wednesday\u2019s highs, at the 1.1650 area so far.",
-    "drafted_at": "2026-09-10T06:47:54.469274",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "4f8110be3ca70f2f"
-  },
-  {
-    "id": "ceda92f7",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 CHINA: Iran's barter trade with China may bolster its economic resilience, reducing immediate conflict risks but affecting global market dynamics.\n\nThe post Iran dodges sanctions using barter system to buy billions of dollars of Chinese goods appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iran-dodges-sanctions-using-barter-system-to-buy-billions-of-dollars-of-chinese/",
+    "draft_text": "MIDDLE EAST DESK: Iran's missile rebuilding signals potential for prolonged conflict, impacting regional stability and energy markets, complicating diplomacy.\n\nThe post Iran rebuilds missile systems amid US tensions appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iran-rebuilds-missile-systems-amid-us-tensions/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/iran-dodges-sanctions-using-barter-system-to-buy-billions-of-dollars-of-chinese/",
-    "source_title": "Iran dodges sanctions using barter system to buy billions of dollars of Chinese goods",
-    "source_summary": "Iran's barter trade with China may bolster its economic resilience, reducing immediate conflict risks but affecting global market dynamics. The post Iran dodges sanctions using barter system to buy billions of dollars of Chinese goods appeared first on Crypto Briefing .",
-    "drafted_at": "2026-09-10T06:47:54.469478",
+    "source_url": "https://cryptobriefing.com/iran-rebuilds-missile-systems-amid-us-tensions/",
+    "source_title": "Iran rebuilds missile systems amid US tensions",
+    "source_summary": "Iran's missile rebuilding signals potential for prolonged conflict, impacting regional stability and energy markets, complicating diplomacy. The post Iran rebuilds missile systems amid US tensions appeared first on Crypto Briefing .",
+    "drafted_at": "2026-09-10T11:57:35.230973",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "e8725e4bff1e4bd6"
+    "content_hash": "c594738129723824"
   },
   {
-    "id": "1c19f4ab",
+    "id": "ddd88353",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "PACK BRIEFING \u2014 EUROPE: Bybit's strategic regulatory pursuit in Europe could redefine the competitive landscape, merging crypto and traditional finance under one platform.\n\nThe post Bybit to offer European super-app with stocks, derivatives appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/bybit-european-super-app-stocks-derivatives/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/bybit-european-super-app-stocks-derivatives/",
+    "source_title": "Bybit to offer European super-app with stocks, derivatives",
+    "source_summary": "Bybit's strategic regulatory pursuit in Europe could redefine the competitive landscape, merging crypto and traditional finance under one platform. The post Bybit to offer European super-app with stocks, derivatives appeared first on Crypto Briefing .",
+    "drafted_at": "2026-09-10T11:57:35.231412",
+    "data": {
+      "source": "CRYPTO BRIEFING"
+    },
+    "content_hash": "d16ed2c75ed6033b"
+  },
+  {
+    "id": "a70b8e86",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Levant update: The IAEA's findings could strain diplomatic relations, impact global markets, and increase geopolitical tensions over Iran's nuclear ambitions.\n\nThe post IAEA reports activity at Iran\u2019s Pickaxe Mountain, raising nuclear concerns appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iaea-reports-activity-at-irans-pickaxe-mountain-raising-nuclear-concerns/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/iaea-reports-activity-at-irans-pickaxe-mountain-raising-nuclear-concerns/",
+    "source_title": "IAEA reports activity at Iran\u2019s Pickaxe Mountain, raising nuclear concerns",
+    "source_summary": "The IAEA's findings could strain diplomatic relations, impact global markets, and increase geopolitical tensions over Iran's nuclear ambitions. The post IAEA reports activity at Iran\u2019s Pickaxe Mountain, raising nuclear concerns appeared first on Crypto Briefing .",
+    "drafted_at": "2026-09-10T11:57:35.231799",
+    "data": {
+      "source": "CRYPTO BRIEFING"
+    },
+    "content_hash": "d5467466f226a7af"
+  },
+  {
+    "id": "7a521b9c",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "From Tokyo to Hong Kong: 10, 2026 (GLOBE NEWSWIRE) -- Scientist Home Future Health LTD (OTCID: SHFH ) (Scientist home or \u2018The Company\u2019) is pleased to announce Researchers at Scientist Home have announced promising results from a landmark clinical trial, showing a significant reduction in the severity and duration of symptoms for patients suffering from Severe Eczema.\n\nThe findings in the significant reduction of symptoms mark a potential turning point in the management of this challenging condition.\n\nhttps://www.globenewswire.com/news-release/2026/09/10/3359403/0/en/scientist-home-future-health-trial-demonstrates-significant-reduction-in-eczema-symptoms-using-evidence-based-nutritional-therapy.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "GLOBENEWSWIRE",
+    "source_url": "https://www.globenewswire.com/news-release/2026/09/10/3359403/0/en/scientist-home-future-health-trial-demonstrates-significant-reduction-in-eczema-symptoms-using-evidence-based-nutritional-therapy.html",
+    "source_title": "Scientist Home Future Health Trial Demonstrates Significant Reduction in Eczema Symptoms using Evidence-based Nutritional Therapy",
+    "source_summary": "HONG KONG, Sept. 10, 2026 (GLOBE NEWSWIRE) -- Scientist Home Future Health LTD (OTCID: SHFH ) (Scientist home or \u2018The Company\u2019) is pleased to announce Researchers at Scientist Home have announced promising results from a landmark clinical trial, showing a significant reduction in the severity and duration of symptoms for patients suffering from Severe Eczema. The findings in the significant reduct",
+    "drafted_at": "2026-09-10T11:57:35.232843",
+    "data": {
+      "source": "GLOBENEWSWIRE"
+    },
+    "content_hash": "212099d5491691a9"
+  },
+  {
+    "id": "5ef2456a",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "PPI just dropped. The Canadian Dollar (CAD) trades sideways at around 1.3810 against the US Dollar (USD) during the European trading session on Thursday.\n\nThe Loonie pair consolidates as investors await the United States (US) Producer Price Index (PPI) data for August, which will be published at 12:30 GMT.\n\nhttps://www.fxstreet.com/news/usd-cad-price-forecast-wobbles-around-13800-ahead-of-us-ppi-data-202609100640",
+    "draft_text": "PPI just dropped. The US Dollar (USD) claws back its early losses and turns positive ahead of the United States (US) Producer Price Index (PPI) data for August, which will be published at 12:30 GMT.\n\nhttps://www.fxstreet.com/news/united-states-dollar-index-turns-positive-ahead-of-us-ppi-data-202609101144",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/usd-cad-price-forecast-wobbles-around-13800-ahead-of-us-ppi-data-202609100640",
-    "source_title": "USD/CAD Price Forecast: Wobbles around 1.3800 ahead of US PPI data",
-    "source_summary": "The Canadian Dollar (CAD) trades sideways at around 1.3810 against the US Dollar (USD) during the European trading session on Thursday. The Loonie pair consolidates as investors await the United States (US) Producer Price Index (PPI) data for August, which will be published at 12:30 GMT.",
-    "drafted_at": "2026-09-10T06:47:54.508244",
+    "source_url": "https://www.fxstreet.com/news/united-states-dollar-index-turns-positive-ahead-of-us-ppi-data-202609101144",
+    "source_title": "United States Dollar Index turns positive ahead of US PPI data",
+    "source_summary": "The US Dollar (USD) claws back its early losses and turns positive ahead of the United States (US) Producer Price Index (PPI) data for August, which will be published at 12:30 GMT.",
+    "drafted_at": "2026-09-10T11:57:35.296976",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "55ae30ffc0236821"
+    "content_hash": "b482deffcdc7afaa"
   },
   {
-    "id": "40fe2270",
+    "id": "1d9bef06",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "Inflation update: The GBP/USD pair gains traction to near 1.3555 during the early European session on Thursday, bolstered by a weaker US Dollar (USD).\n\nMarkets might turn cautious later in the day ahead of the release of the US Producer Price Index (PPI) data.\n\nhttps://www.fxstreet.com/news/british-pound-strengthens-above-13550-all-eyes-on-us-ppi-inflation-release-202609100624",
+    "draft_text": "How sticky is inflation? Let's see: Brown Brothers Harriman (BBH) Elias Haddad highlights that the US Dollar Index (DXY) is trading just above recent lows and below its 200-day moving average, with the upcoming United States (US) August Consumer Price Index (CPI) seen as the key driver for the Federal Reserve\u2019s (Fed) September 16 deci.\n\nhttps://www.fxstreet.com/news/us-dollar-cpi-and-fed-path-guide-greenback-bbh-202609101138",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/british-pound-strengthens-above-13550-all-eyes-on-us-ppi-inflation-release-202609100624",
-    "source_title": "British Pound strengthens above 1.3550, all eyes on US PPI inflation release",
-    "source_summary": "The GBP/USD pair gains traction to near 1.3555 during the early European session on Thursday, bolstered by a weaker US Dollar (USD). Markets might turn cautious later in the day ahead of the release of the US Producer Price Index (PPI) data.",
-    "drafted_at": "2026-09-10T06:47:54.508421",
+    "source_url": "https://www.fxstreet.com/news/us-dollar-cpi-and-fed-path-guide-greenback-bbh-202609101138",
+    "source_title": "US Dollar: CPI and Fed path guide Greenback \u2013 BBH",
+    "source_summary": "Brown Brothers Harriman (BBH) Elias Haddad highlights that the US Dollar Index (DXY) is trading just above recent lows and below its 200-day moving average, with the upcoming United States (US) August Consumer Price Index (CPI) seen as the key driver for the Federal Reserve\u2019s (Fed) September 16 deci",
+    "drafted_at": "2026-09-10T11:57:35.297425",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "2fc81f66e305bee0"
+    "content_hash": "9ddee8a0383d48b3"
   },
   {
-    "id": "58662ffb",
+    "id": "f64e9aec",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "INFLATION READ: Germany August final CPI +2.9% vs +2.9% y/y prelim Prior +2.8% Germany August final HICP +2.9% vs +2.9% y/y prelim Prior +2.8% Germany August final core CPI +2.4% vs +2.4% y/y prelim Prior +2.4% The breakdownThere are no changes to the preliminary data as headline annual inflation in Germany nudges up in August.\n\nThat comes as the energy shock keeps inflation pressures more elevated.\n\nThe details show that energy price inflation increased by 10.5% year-on-year, marking the strongest reading in more than three years.\n\nAnd that is a notable jump from the 8.3% estimate in July.\n\nBesides that, core annual inflation is seen holding steady at 2.4%.\n\nSo, that is at least a positive as services inflation is seen easing to 2.8% with food price inflation also remaining subuded at 0.1%.\n\nThat suggests the headline acceleration was not driven by a broad-based resurgence in underlying inflation, but rather an energy story.\n\nWhat does the data measure?Germany\u2019s CPI tracks changes in prices paid by households for goods and services.\n\nhttps://investinglive.com/news/germany-august-cpi-energy-shock-keeps-inflation-pressures-elevated/",
+    "draft_text": "How is the consumer holding up? Let's see: Deloitte's annual holiday retail forecast, released today, is predicting holiday sales of $1.7 trillion or more, and year-over-year growth of bw.\n\nhttps://www.forbes.com/sites/joanverdon/2026/09/10/holiday-retail-sales-expected-to-hit-17-trillion-this-year/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/germany-august-cpi-energy-shock-keeps-inflation-pressures-elevated/",
-    "source_title": "Germany August CPI: Energy shock keeps inflation pressures elevated",
-    "source_summary": "Germany August final CPI +2.9% vs +2.9% y/y prelim Prior +2.8% Germany August final HICP +2.9% vs +2.9% y/y prelim Prior +2.8% Germany August final core CPI +2.4% vs +2.4% y/y prelim Prior +2.4% The breakdownThere are no changes to the preliminary data as headline annual inflation in Germany nudges up in August. That comes as the energy shock keeps inflation pressures more elevated. The details sh",
-    "drafted_at": "2026-09-10T06:47:54.509245",
+    "primary_source": "FORBES",
+    "source_url": "https://www.forbes.com/sites/joanverdon/2026/09/10/holiday-retail-sales-expected-to-hit-17-trillion-this-year/",
+    "source_title": "Holiday Retail Sales Expected To Hit $1.7 Trillion This Year",
+    "source_summary": "Deloitte's annual holiday retail forecast, released today, is predicting holiday sales of $1.7 trillion or more, and year-over-year growth of bw",
+    "drafted_at": "2026-09-10T11:57:35.297664",
     "data": {
-      "source": "FOREXLIVE"
+      "source": "FORBES"
     },
-    "content_hash": "6e9ce70cac9b2456"
+    "content_hash": "2152f2d455a8e64b"
   },
   {
-    "id": "2f1ea99f",
+    "id": "e3c05dfe",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "From the inflation desk: The most important price in America is one most drivers never pay \u2014 and it reaches the CPI, the Fed and the European Central Bank in the same week.\n\nhttps://www.marketwatch.com/story/diesel-prices-hit-another-record-high-if-youre-shocked-wait-until-you-see-your-grocery-bill-afee7076?mod=mw_rss_topstories",
@@ -587,31 +587,31 @@
     "source_url": "https://www.marketwatch.com/story/diesel-prices-hit-another-record-high-if-youre-shocked-wait-until-you-see-your-grocery-bill-afee7076?mod=mw_rss_topstories",
     "source_title": "Diesel prices hit another record high. If you\u2019re shocked, wait until you see your grocery bill.",
     "source_summary": "The most important price in America is one most drivers never pay \u2014 and it reaches the CPI, the Fed and the European Central Bank in the same week.",
-    "drafted_at": "2026-09-10T06:47:54.509410",
+    "drafted_at": "2026-09-10T11:57:35.297972",
     "data": {
       "source": "MARKETWATCH"
     },
     "content_hash": "b7c41f7b2ecd26ba"
   },
   {
-    "id": "9f57e7e2",
+    "id": "1c966f0a",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "The CPI scoreboard: US stocks close lower for the third consecutive day as oil and yields rise USD/JPY and the \"I am the House now\" trade Gold Technicals: Buyers and sellers battle between key support and resistance as the market awaits the next shove Trump says oil prices won't come down until after the midterms US sells 10-year notes at 4.834% vs 4.849% WI The endgame for the AI bubble is taking an unexpected twist European indices: Prices of major European indices move lower as Brent passes $100 US Treasury announces $6 billion buyback, less than expected The oil price breakout is confirming and that's a big problem Kickstart the NA session: A technical look at the EURUSD, USDJPY and GBPUSD to start the day investingLive European markets wrap: Brent crude hits $100, equities fall Oil was the dominant market story today, with Brent crude moving back above the psychologically important $100 level.\n\nBrent crude is trading at $101.60, up $3.68 or 3.76%.\n\nWTI crude oil is up $3.63 or 3.90% at $96.70.\n\nPresident Trump acknowledged that getting oil prices lower would \u201ctake a little longer,\u201d but said they would come tumbling down shortly after the midterm elections.\n\nHe also predicted that gasoline prices would eventually fall below $2 per gallon.\n\nThat comes after gasoline prices reached a Labor Day weekend record above $4.\n\nRepublicans involved in close election races probably will not want to hear that relief may not come until after the election.\n\nFor oil traders, the comments can also be interpreted as a bullish signal.\n\nhttps://investinglive.com/news/investinglive-americas-fx-news-wrap-9-sept-oil-is-a-problem-as-war-likely-to-continue/",
+    "draft_text": "INFLATION READ: A CPI, central-bank or oil deviation could decide whether Bitcoin breaks its current range.\n\nThe post Bitcoin holds near $78K as markets confront the macro shocks they may have underpriced this week appeared first on CryptoSlate.\n\nhttps://cryptoslate.com/bitcoin-holds-near-78k-as-markets-confront-the-macro-shocks-they-may-have-underpriced-this-week/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-9-sept-oil-is-a-problem-as-war-likely-to-continue/",
-    "source_title": "investingLive Americas FX news wrap 9 Sept: Oil is a problem as war likely to continue",
-    "source_summary": "US stocks close lower for the third consecutive day as oil and yields rise USD/JPY and the \"I am the House now\" trade Gold Technicals: Buyers and sellers battle between key support and resistance as the market awaits the next shove Trump says oil prices won't come down until after the midterms US sells 10-year notes at 4.834% vs 4.849% WI The endgame for the AI bubble is taking an unexpected twist",
-    "drafted_at": "2026-09-10T06:47:54.511316",
+    "primary_source": "CRYPTOSLATE",
+    "source_url": "https://cryptoslate.com/bitcoin-holds-near-78k-as-markets-confront-the-macro-shocks-they-may-have-underpriced-this-week/",
+    "source_title": "Bitcoin holds near $78K as markets confront the macro shocks they may have underpriced this week",
+    "source_summary": "The baseline is already hostile. A CPI, central-bank or oil deviation could decide whether Bitcoin breaks its current range. The post Bitcoin holds near $78K as markets confront the macro shocks they may have underpriced this week appeared first on CryptoSlate .",
+    "drafted_at": "2026-09-10T11:57:35.298312",
     "data": {
-      "source": "FOREXLIVE"
+      "source": "CRYPTOSLATE"
     },
-    "content_hash": "e08f402d3dbafa51"
+    "content_hash": "b5a7df87edfec3fd"
   },
   {
-    "id": "7afb2479",
+    "id": "a480710b",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -621,7 +621,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-09-10T06:47:54.512852",
+    "drafted_at": "2026-09-10T11:57:35.303562",
     "data": {
       "manual": true,
       "via": "manual_news.md"
