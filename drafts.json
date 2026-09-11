@@ -1,23 +1,61 @@
 [
   {
-    "id": "729dbaed",
+    "id": "6a0f92fa",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "The USD/JPY pair struggles to capitalize on the previous day's recovery momentum and edges lower during the Asian session on Friday.\n\nhttps://www.fxstreet.com/news/japanese-yen-edges-higher-as-ppi-reaffirms-boj-rate-hike-bets-and-usd-bulls-await-us-cpi-202609110131",
+    "draft_text": "The Ring is Euronews\u2019 weekly political showdown, where Europe\u2019s toughest debates meet their boldest voices.\n\nIn each episode, two political heavyweights from across the EU face off to propose a diversity of opinions and spark conversations around the most important issues of EU affairs and the wider European political life.\n\nEuronews Tech Talks goes beyond discussions to explore the impact of new technologies on our lives.\n\nhttps://www.euronews.com/business/2026/09/11/can-the-ecb-rate-hike-stop-an-inflation-shock-driven-by-energy-costs",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/japanese-yen-edges-higher-as-ppi-reaffirms-boj-rate-hike-bets-and-usd-bulls-await-us-cpi-202609110131",
-    "source_title": "Japanese Yen edges higher as PPI reaffirms BoJ rate hike bets and USD bulls await US CPI",
-    "source_summary": "The USD/JPY pair struggles to capitalize on the previous day's recovery momentum and edges lower during the Asian session on Friday.",
-    "drafted_at": "2026-09-11T01:53:09.175720",
+    "primary_source": "EURONEWS",
+    "source_url": "https://www.euronews.com/business/2026/09/11/can-the-ecb-rate-hike-stop-an-inflation-shock-driven-by-energy-costs",
+    "source_title": "Can the ECB rate hike stop an inflation shock driven by energy costs?",
+    "source_summary": "The ECB is raising borrowing costs to stop expensive energy from fuelling lasting inflation. Economists disagree on how far rates must rise and how much growth could suffer.",
+    "drafted_at": "2026-09-11T06:47:15.523912",
     "data": {
-      "source": "FXSTREET"
+      "source": "EURONEWS"
     },
-    "content_hash": "f55bccb524b07018"
+    "content_hash": "6821f1f178368a8c"
   },
   {
-    "id": "ca55df4b",
+    "id": "910ac973",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Look at this number. Then look again. VIX rips 19.6% in 5 sessions to 17.84.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CBOE \u00b7 ^VIX",
+    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "source_title": "VIX (S&P 500 volatility)",
+    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "drafted_at": "2026-09-11T06:47:15.524229",
+    "data": {
+      "signal_id": "^VIX:move:2026-09-10",
+      "kind": "move_up",
+      "current": "17.84"
+    },
+    "content_hash": "995f4d67e7e875d2"
+  },
+  {
+    "id": "2c849f84",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Wake up \u2014 here's the tape: WTI crude surges 12.0% in 5 sessions to $101.01.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NYMEX \u00b7 CL=F",
+    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "source_title": "WTI crude oil futures",
+    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "drafted_at": "2026-09-11T06:47:15.524482",
+    "data": {
+      "signal_id": "CL=F:move:2026-09-11",
+      "kind": "move_up",
+      "current": "$101.01"
+    },
+    "content_hash": "c272de0720a2f459"
+  },
+  {
+    "id": "97d07ebf",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "This is the kind of move that hits twice. WTI crude rips 19.4% in 5 sessions to $102.36.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
@@ -27,7 +65,7 @@
     "source_url": "https://finance.yahoo.com/quote/CL%3DF",
     "source_title": "WTI crude oil futures",
     "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-09-11T01:53:09.176044",
+    "drafted_at": "2026-09-11T06:47:15.524734",
     "data": {
       "signal_id": "CL=F:move:2026-09-10",
       "kind": "move_up",
@@ -36,26 +74,7 @@
     "content_hash": "c272de0720a2f459"
   },
   {
-    "id": "07f2c7f6",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "Look at this number. Then look again. VIX surges 11.6% in 5 sessions to 16.65.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CBOE \u00b7 ^VIX",
-    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "source_title": "VIX (S&P 500 volatility)",
-    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-09-11T01:53:09.176306",
-    "data": {
-      "signal_id": "^VIX:move:2026-09-10",
-      "kind": "move_up",
-      "current": "16.65"
-    },
-    "content_hash": "995f4d67e7e875d2"
-  },
-  {
-    "id": "af38d969",
+    "id": "6a6fb63e",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Quick one for you. VIX surges 14.1% in 5 sessions to 16.46.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
@@ -65,7 +84,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EVIX",
     "source_title": "VIX (S&P 500 volatility)",
     "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-09-11T01:53:09.176568",
+    "drafted_at": "2026-09-11T06:47:15.524950",
     "data": {
       "signal_id": "^VIX:move:2026-09-09",
       "kind": "move_up",
@@ -74,211 +93,209 @@
     "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "026c571a",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "Read this twice. WTI crude rips 16.0% in 5 sessions to $96.76.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "NYMEX \u00b7 CL=F",
-    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
-    "source_title": "WTI crude oil futures",
-    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-09-11T01:53:09.176803",
-    "data": {
-      "signal_id": "CL=F:move:2026-09-09",
-      "kind": "move_up",
-      "current": "$96.76"
-    },
-    "content_hash": "c272de0720a2f459"
-  },
-  {
-    "id": "6d93f97b",
+    "id": "97940559",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "Ueda on the wire. The USD/JPY pair struggles to capitalize on the previous day's recovery momentum and edges lower during the Asian session on Friday.\n\nhttps://www.fxstreet.com/news/japanese-yen-edges-higher-as-ppi-reaffirms-boj-rate-hike-bets-and-usd-bulls-await-us-cpi-202609110131",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "BoJ",
-    "source_url": "https://www.fxstreet.com/news/japanese-yen-edges-higher-as-ppi-reaffirms-boj-rate-hike-bets-and-usd-bulls-await-us-cpi-202609110131",
-    "source_title": "Japanese Yen edges higher as PPI reaffirms BoJ rate hike bets and USD bulls await US CPI",
-    "source_summary": "The USD/JPY pair struggles to capitalize on the previous day's recovery momentum and edges lower during the Asian session on Friday.",
-    "drafted_at": "2026-09-11T01:53:09.187002",
-    "data": {
-      "actor": "BoJ"
-    },
-    "content_hash": "f55bccb524b07018"
-  },
-  {
-    "id": "58975ed7",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "PBOC DESK: On Friday, the People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7743 compared to the previous day's fix of 6.7766 and 6.7174 Reuters estimate.\n\nhttps://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67743-vs-67766-previous-202609110115",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "PBOC",
-    "source_url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67743-vs-67766-previous-202609110115",
-    "source_title": "PBOC sets USD/CNY reference rate at 6.7743 vs. 6.7766 previous",
-    "source_summary": "On Friday, the People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7743 compared to the previous day's fix of 6.7766 and 6.7174 Reuters estimate.",
-    "drafted_at": "2026-09-11T01:53:09.187360",
-    "data": {
-      "actor": "PBOC"
-    },
-    "content_hash": "3b45b46191af28f7"
-  },
-  {
-    "id": "ac3c2924",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "EURO RATES READ: The EUR/USD pair holds steady around 1.1610 during the early Asian session on Friday.\n\nTraders continue to assess a hawkish hike from the European Central Bank (ECB).\n\nhttps://www.fxstreet.com/news/euro-flatlines-above-11600-despite-ecb-hawkish-hike-traders-brace-for-us-cpi-data-202609110042",
+    "draft_text": "ECB POSTCARD: The European Central Bank (ECB) Governing Council member Joachim Nagel said on Friday that its\u2019 too early to speculate on rate hikes.\n\nhttps://www.fxstreet.com/news/ecbs-nagel-too-early-to-speculate-on-rate-hikes-202609110640",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "ECB",
-    "source_url": "https://www.fxstreet.com/news/euro-flatlines-above-11600-despite-ecb-hawkish-hike-traders-brace-for-us-cpi-data-202609110042",
-    "source_title": "Euro flatlines above 1.1600 despite ECB hawkish hike, traders brace for US CPI data",
-    "source_summary": "The EUR/USD pair holds steady around 1.1610 during the early Asian session on Friday. Traders continue to assess a hawkish hike from the European Central Bank (ECB).",
-    "drafted_at": "2026-09-11T01:53:09.187643",
+    "source_url": "https://www.fxstreet.com/news/ecbs-nagel-too-early-to-speculate-on-rate-hikes-202609110640",
+    "source_title": "ECB\u2019s Nagel: Too early to speculate on rate hikes",
+    "source_summary": "The European Central Bank (ECB) Governing Council member Joachim Nagel said on Friday that its\u2019 too early to speculate on rate hikes.",
+    "drafted_at": "2026-09-11T06:47:15.534997",
     "data": {
       "actor": "ECB"
     },
-    "content_hash": "7911be22d0ae8ecf"
+    "content_hash": "29515ca39fe61a08"
   },
   {
-    "id": "c47efe9e",
+    "id": "0e66ea1d",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "BoJ just printed. August's corporate goods price index reinforces what markets had already priced in, that the Bank of Japan is close to certain to raise rates to 1.25% at next week's meeting, so the immediate surprise value for JPY crosses is limited.\n\nThe more interesting detail is the import price index, up 24.8% year on year, which points to continued yen weakness feeding directly into domestic cost pressures rather than easing as some had hoped.\n\nThat keeps alive the more hawkish end of rate expectations, with analysts now pencilling in a further hike to 1.75% in the second quarter of 2027, earlier than previously anticipated.\n\nFor JPY, the data supports the broader narrative of a BOJ playing catch-up on inflation, which should continue to underpin the currency against peers still years away from their own tightening cycles, though a hike that's already near fully priced tends to produce a smaller reaction on the day itself than the scale of the move might suggest. --- Earlier: Nikkei, Kospi fall as US bond yields and inflation data spook markets --- Japan's wholesale prices came in hotter than expected again, leaving the Bank of Japan with little room to avoid a rate hike next week.\n\nSummary: Japan's corporate goods price index (CGPI) rose 7.6% year on year in August, above the 7.4% forecast, following a revised 7.7% gain in July On a month-on-month basis, the index fell 0.2% in August, against expectations for a flat reading, after a revised 0.4% increase in July The yen-based import price index rose 24.8% year on year in August, easing from a revised 29.3% surge in July but still reflecting the impact of yen weakness on import costs Rising fuel costs linked to the Middle East conflict and higher import prices from a weak yen have added to inflation pressure on Japanese firms Markets are near fully pricing in a BOJ rate hike to 1.25% from 1% at next week's (16\u201317 September) policy meeting, following June's hike to a 31-year high of 1% and a hold in July Analysts polled by Reuters now expect a further hike to 1.75% in the second quarter of 2027, earlier than previously forecast Japan's wholesale inflation remained elevated in August, data released Friday showed, adding to the pressure on the Bank of Japan to raise interest rates at its policy meeting next week.\n\nThe corporate goods price index, which tracks the prices companies charge each other for goods and services, rose 7.6% from a year earlier, ahead of a median market forecast for a 7.4% increase and following a revised 7.7% gain in July.\n\nOn a monthly basis, the index slipped 0.2% in August after a revised 0.4% rise the previous month.\n\nThe data follows a run of hawkish signalling from the BOJ that has already pushed markets close to fully pricing in a rate increase to 1.25% from the current 1% at next week's meeting.\n\nhttps://investinglive.com/news/japan-wholesale-inflation-stays-hot-in-august-cements-case-for-boj-hike/",
+    "draft_text": "FOMC update. Sustained Fed rate hikes could stall market growth, strengthen the dollar, and diminish gold's appeal, impacting investment strategies.\n\nThe post Wall Street wary of sustained Fed rate hikes impacting market rally appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/wall-street-wary-of-sustained-fed-rate-hikes-impacting-market-rally/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Fed",
+    "source_url": "https://cryptobriefing.com/wall-street-wary-of-sustained-fed-rate-hikes-impacting-market-rally/",
+    "source_title": "Wall Street wary of sustained Fed rate hikes impacting market rally",
+    "source_summary": "Sustained Fed rate hikes could stall market growth, strengthen the dollar, and diminish gold's appeal, impacting investment strategies. The post Wall Street wary of sustained Fed rate hikes impacting market rally appeared first on Crypto Briefing .",
+    "drafted_at": "2026-09-11T06:47:15.535352",
+    "data": {
+      "actor": "Fed"
+    },
+    "content_hash": "c358d61481a01b3a"
+  },
+  {
+    "id": "981d0bf8",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "Lagarde on the wire. The Ring is Euronews\u2019 weekly political showdown, where Europe\u2019s toughest debates meet their boldest voices.\n\nIn each episode, two political heavyweights from across the EU face off to propose a diversity of opinions and spark conversations around the most important issues of EU affairs and the wider European political life.\n\nEuronews Tech Talks goes beyond discussions to explore the impact of new technologies on our lives.\n\nWith explanations, engaging Q&As, and lively conversations, the podcast provides valuable insights into the intersection of technology and society.\n\nEurope's best food experts are joining forces to crack down on fraud.\n\nhttps://www.euronews.com/business/2026/09/11/can-the-ecb-rate-hike-stop-an-inflation-shock-driven-by-energy-costs",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "ECB",
+    "source_url": "https://www.euronews.com/business/2026/09/11/can-the-ecb-rate-hike-stop-an-inflation-shock-driven-by-energy-costs",
+    "source_title": "Can the ECB rate hike stop an inflation shock driven by energy costs?",
+    "source_summary": "The ECB is raising borrowing costs to stop expensive energy from fuelling lasting inflation. Economists disagree on how far rates must rise and how much growth could suffer.",
+    "drafted_at": "2026-09-11T06:47:15.536951",
+    "data": {
+      "actor": "ECB"
+    },
+    "content_hash": "6821f1f178368a8c"
+  },
+  {
+    "id": "4a2c75d6",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "BoJ just printed. August's corporate goods price index reinforces what markets had already priced in, that the Bank of Japan is close to certain to raise rates to 1.25% at next week's meeting, so the immediate surprise value for JPY crosses is limited.\n\nThe more interesting detail is the import price index, up 24.8% year on year, which points to continued yen weakness feeding directly into domestic cost pressures rather than easing as some had hoped.\n\nThat keeps alive the more hawkish end of rate expectations, with analysts now pencilling in a further hike to 1.75% in the second quarter of 2027, earlier than previously anticipated.\n\nFor JPY, the data supports the broader narrative of a BOJ playing catch-up on inflation, which should continue to underpin the currency against peers still years away from their own tightening cycles, though a hike that's already near fully priced tends to produce a smaller reaction on the day itself than the scale of the move might suggest. --- Earlier: Nikkei, Kospi fall as US bond yields and inflation data spook markets --- Japan's wholesale prices came in hotter than expected again, leaving the Bank of Japan with little room to avoid a rate hike next week.\n\nSummary: Japan's corporate goods price index (CGPI) rose 7.6% year on year in August, above the 7.4% forecast, following a revised 7.7% gain in July On a month-on-month basis, the index fell 0.2% in August, against expectations for a flat reading, after a revised 0.4% increase in July The yen-based import price index rose 24.8% year on year in August, easing from a revised 29.3% surge in July but still reflecting the impact of yen weakness on import costs Rising fuel costs linked to the Middle East conflict and higher import prices from a weak yen have added to inflation pressure on Japanese firms Markets are near fully pricing in a BOJ rate hike to 1.25% from 1% at next week's (17\u201318 September) policy meeting, following June's hike to a 31-year high of 1% and a hold in July Analysts polled by Reuters now expect a further hike to 1.75% in the second quarter of 2027, earlier than previously forecast Japan's wholesale inflation remained elevated in August, data released Friday showed, adding to the pressure on the Bank of Japan to raise interest rates at its policy meeting next week.\n\nThe corporate goods price index, which tracks the prices companies charge each other for goods and services, rose 7.6% from a year earlier, ahead of a median market forecast for a 7.4% increase and following a revised 7.7% gain in July.\n\nOn a monthly basis, the index slipped 0.2% in August after a revised 0.4% rise the previous month.\n\nThe data follows a run of hawkish signalling from the BOJ that has already pushed markets close to fully pricing in a rate increase to 1.25% from the current 1% at next week's meeting.\n\nhttps://investinglive.com/news/japan-wholesale-inflation-stays-hot-in-august-cements-case-for-boj-hike/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "BOJ",
     "source_url": "https://investinglive.com/news/japan-wholesale-inflation-stays-hot-in-august-cements-case-for-boj-hike/",
     "source_title": "Japan wholesale inflation stays hot in August, cements case for BOJ hike",
     "source_summary": "August's corporate goods price index reinforces what markets had already priced in, that the Bank of Japan is close to certain to raise rates to 1.25% at next week's meeting, so the immediate surprise value for JPY crosses is limited. The more interesting detail is the import price index, up 24.8% year on year, which points to continued yen weakness feeding directly into domestic cost pressures ra",
-    "drafted_at": "2026-09-11T01:53:09.191591",
+    "drafted_at": "2026-09-11T06:47:15.541166",
     "data": {
       "actor": "BOJ"
     },
     "content_hash": "78edf0a0acf15bc3"
   },
   {
-    "id": "effc47ef",
+    "id": "2e0b790c",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "Powell on the wire. Rising oil and inflation heighten Fed rate hike expectations, potentially suppressing gold prices and impacting investment strategies.\n\nThe post Gold prices subdued as oil, inflation bolster Fed rate hike bets appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/gold-prices-subdued-as-oil-inflation-bolster-fed-rate-hike-bets/",
+    "draft_text": "POLICY READ: The 21st Century ROAD to Housing Act increased the total asset threshold from $3 billion to $6 billion for certain supervised institutions to qualify for an extended 18-month on-site exam cycle.\n\nExtending the exam cycle for these small non-complex firms from 12 months to 18 months appropriately reduces burden, including time and resources spent, for these low-risk institutions.\n\nBy law, to be eligible for the extended exam cycle, these institutions must meet certain criteria, including that they are considered well managed and well capitalized.\n\nThe interim final rule incorporates the increase into the agencies' regulations for well-rated institutions.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260910a.htm",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://cryptobriefing.com/gold-prices-subdued-as-oil-inflation-bolster-fed-rate-hike-bets/",
-    "source_title": "Gold prices subdued as oil, inflation bolster Fed rate hike bets",
-    "source_summary": "Rising oil and inflation heighten Fed rate hike expectations, potentially suppressing gold prices and impacting investment strategies. The post Gold prices subdued as oil, inflation bolster Fed rate hike bets appeared first on Crypto Briefing .",
-    "drafted_at": "2026-09-11T01:53:09.191922",
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260910a.htm",
+    "source_title": "Agencies reduce regulatory burden for community banks, increase eligibility for 18-month exam cycle",
+    "source_summary": "Agencies reduce regulatory burden for community banks, increase eligibility for 18-month exam cycle",
+    "drafted_at": "2026-09-11T06:47:15.542357",
     "data": {
-      "actor": "Fed"
+      "actor": "FED"
     },
-    "content_hash": "89cc1c2b7a57828d"
+    "content_hash": "9c1abb0348e23ed6"
   },
   {
-    "id": "95a5baf9",
+    "id": "ddf37380",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$RSG \u2014 a company insider bought $159.6M on Sep 08.\n\nRepublic Services, Inc. 720,804 shares at $221.41.\n\nStock is -0.1% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/RSG_P_20260908.png",
+    "draft_text": "$GME \u2014 3 company insiders bought $21.6M on Sep 08.\n\nGamestop Corp. 1,065,255 shares at $20.28.\n\nStock is +0.5% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/GME_P_20260908.png",
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=RSG",
-    "source_title": "Republic Services, Inc. (RSG) insider bought $159.6M",
-    "source_summary": "1 insider(s) bought 720,804 shares at $221.41 on 2026-09-08.",
-    "drafted_at": "2026-09-11T01:53:09.194150",
+    "source_url": "http://openinsider.com/screener?s=GME",
+    "source_title": "Gamestop Corp. (GME) insider bought $21.6M",
+    "source_summary": "3 insider(s) bought 1,065,255 shares at $20.28 on 2026-09-08.",
+    "drafted_at": "2026-09-11T06:47:15.543392",
     "data": {
-      "ticker": "RSG",
+      "ticker": "GME",
       "type": "P",
-      "dollar_value": 159593041.0,
-      "pct_since": -0.14904393159537016
+      "dollar_value": 21605932.0,
+      "pct_since": 0.5424033020139859
     },
-    "content_hash": "75f79757433567a3"
+    "content_hash": "d8b953686b28c2b5"
   },
   {
-    "id": "b343d802",
+    "id": "5af10757",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$UBER \u2014 2 company insiders bought $15.3M on Sep 04.\n\nUber Technologies, Inc. 211,000 shares at $72.58.\n\nStock is -0.0% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/UBER_P_20260904.png",
+    "draft_text": "$GME \u2014 a company insider bought $20.4M on Sep 10.\n\nGamestop Corp. 1,000,000 shares at $20.38.\n\nStock is +0.0% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/GME_P_20260910.png",
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=UBER",
-    "source_title": "Uber Technologies, Inc (UBER) insider bought $15.3M",
-    "source_summary": "2 insider(s) bought 211,000 shares at $72.58 on 2026-09-04.",
-    "drafted_at": "2026-09-11T01:53:09.194351",
+    "source_url": "http://openinsider.com/screener?s=GME",
+    "source_title": "Gamestop Corp. (GME) insider bought $20.4M",
+    "source_summary": "1 insider(s) bought 1,000,000 shares at $20.38 on 2026-09-10.",
+    "drafted_at": "2026-09-11T06:47:15.543585",
     "data": {
-      "ticker": "UBER",
+      "ticker": "GME",
       "type": "P",
-      "dollar_value": 15314016.0,
-      "pct_since": -0.027559164241179795
+      "dollar_value": 20375900.0,
+      "pct_since": 0.04906471858900145
     },
-    "content_hash": "2195c99d587fedc0"
+    "content_hash": "7bb27c76e334041b"
   },
   {
-    "id": "eaf8d60c",
+    "id": "6240b4ec",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$INBX \u2014 2 company insiders bought $2.9M on Sep 08.\n\nInhibrx Biosciences, Inc. 27,500 shares at $106.62.\n\nStock is +4.5% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/INBX_P_20260908.png",
+    "draft_text": "$PRTS \u2014 3 company insiders bought $2.0M on Sep 10.\n\nCarparts.Com, Inc. 219,823 shares at $9.10.\n\nStock is -4.5% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/PRTS_P_20260910.png",
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=INBX",
-    "source_title": "Inhibrx Biosciences, Inc. (INBX) insider bought $2.9M",
-    "source_summary": "2 insider(s) bought 27,500 shares at $106.62 on 2026-09-08.",
-    "drafted_at": "2026-09-11T01:53:09.194577",
+    "source_url": "http://openinsider.com/screener?s=PRTS",
+    "source_title": "Carparts.Com, Inc. (PRTS) insider bought $2.0M",
+    "source_summary": "3 insider(s) bought 219,823 shares at $9.10 on 2026-09-10.",
+    "drafted_at": "2026-09-11T06:47:15.543760",
     "data": {
-      "ticker": "INBX",
+      "ticker": "PRTS",
       "type": "P",
-      "dollar_value": 2932016.0,
-      "pct_since": 4.50196789434
+      "dollar_value": 2000649.0,
+      "pct_since": -4.50549911666702
     },
-    "content_hash": "1b20ea8e0a00c30b"
+    "content_hash": "8158a007d0015a80"
   },
   {
-    "id": "df326226",
+    "id": "14bbefad",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$CELH \u2014 a company insider bought $493,843 on Sep 10.\n\nCelsius Holdings, Inc. 18,000 shares at $27.44.\n\nStock is -3.0% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/CELH_P_20260910.png",
+    "draft_text": "$PNFP \u2014 2 company insiders bought $1.3M on Sep 01.\n\nPinnacle Financial Partners, Inc. 12,578 shares at $99.41.\n\nStock is -0.3% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/PNFP_P_20260901.png",
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=CELH",
-    "source_title": "Celsius Holdings, Inc. (CELH) insider bought $493,843",
-    "source_summary": "1 insider(s) bought 18,000 shares at $27.44 on 2026-09-10.",
-    "drafted_at": "2026-09-11T01:53:09.194771",
+    "source_url": "http://openinsider.com/screener?s=PNFP",
+    "source_title": "Pinnacle Financial Partners, Inc. (PNFP) insider bought $1.3M",
+    "source_summary": "2 insider(s) bought 12,578 shares at $99.41 on 2026-09-01.",
+    "drafted_at": "2026-09-11T06:47:15.543940",
     "data": {
-      "ticker": "CELH",
+      "ticker": "PNFP",
       "type": "P",
-      "dollar_value": 493843.0,
-      "pct_since": -2.9518981021625352
+      "dollar_value": 1250335.0,
+      "pct_since": -0.27160306845544624
     },
-    "content_hash": "92950dfb97fd5de8"
+    "content_hash": "9bb07ef0da2ea94e"
   },
   {
-    "id": "35364e7b",
+    "id": "0b39d6e5",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$CYBN \u2014 a company insider bought $1.2M on Sep 04.\n\nCybin Inc. 100,000 shares at $12.09.\n\nStock is +0.0% since the purchase. This is a public SEC Form 4 filing.\n\nhttp://openinsider.com/screener?s=CYBN",
+    "draft_text": "$ATEC \u2014 a company insider bought $1.0M on Sep 10.\n\nAlphatec Holdings, Inc. 115,000 shares at $8.81.\n\nStock is +0.3% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/ATEC_P_20260910.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=ATEC",
+    "source_title": "Alphatec Holdings, Inc. (ATEC) insider bought $1.0M",
+    "source_summary": "1 insider(s) bought 115,000 shares at $8.81 on 2026-09-10.",
+    "drafted_at": "2026-09-11T06:47:15.544127",
+    "data": {
+      "ticker": "ATEC",
+      "type": "P",
+      "dollar_value": 1013150.0,
+      "pct_since": 0.340523865923838
+    },
+    "content_hash": "fc609d5186d5ed69"
+  },
+  {
+    "id": "70100722",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Bankman-Fried says he was unfairly barred from providing evidence that FTX had more than enough assets to cover losses from the collapse.\n\nhttps://www.theblock.co/news/regulation/2026-09-11-sam-bankman-fried-supreme-court-petition-414226",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=CYBN",
-    "source_title": "Cybin Inc. (CYBN) insider bought $1.2M",
-    "source_summary": "1 insider(s) bought 100,000 shares at $12.09 on 2026-09-04.",
-    "drafted_at": "2026-09-11T01:53:09.194930",
+    "primary_source": "THE BLOCK",
+    "source_url": "https://www.theblock.co/news/regulation/2026-09-11-sam-bankman-fried-supreme-court-petition-414226",
+    "source_title": "Sam Bankman-Fried asks Supreme Court to overturn fraud conviction and $11 billion forfeiture",
+    "source_summary": "Bankman-Fried says he was unfairly barred from providing evidence that FTX had more than enough assets to cover losses from the collapse.",
+    "drafted_at": "2026-09-11T06:47:15.548054",
     "data": {
-      "ticker": "CYBN",
-      "type": "P",
-      "dollar_value": 1208900.0,
-      "pct_since": 0
+      "source": "THE BLOCK"
     },
-    "content_hash": "d16cfb8791faacb5"
+    "content_hash": "df8d77f70138b340"
   },
   {
-    "id": "bfe25c32",
+    "id": "4185cb10",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Ross Ulbricht spent 11 years in prison after founding an alternative online marketplace called the Silk Road.\n\nHe would have lost his entire life behind bars if not for a pardon from President Donald Trump.\n\nThursday, he walked across the stage at the Republican Midterm Convention to hammer home the delicate fragility of freedom when corrupt politicians are in control. \u2018This is how a free country falls to tyranny.\u2019 Ulbricht was convicted of seven offenses, including distributing narcotics, engaging in a continuing criminal enterprise, and conspiring to commit money laundering.\n\nhttps://www.theblaze.com/news/ross-ulbricht-rnc-2026",
@@ -288,31 +305,14 @@
     "source_url": "https://www.theblaze.com/news/ross-ulbricht-rnc-2026",
     "source_title": "Ross Ulbricht reminds the world about Trump's quiet wins in the criminal justice system",
     "source_summary": "Ross Ulbricht spent 11 years in prison after founding an alternative online marketplace called the Silk Road. He would have lost his entire life behind bars if not for a pardon from President Donald Trump . Thursday, he walked across the stage at the Republican Midterm Convention to hammer home the delicate fragility of freedom when corrupt politicians are in control. \u2018This is how a free country f",
-    "drafted_at": "2026-09-11T01:53:09.199721",
+    "drafted_at": "2026-09-11T06:47:15.549142",
     "data": {
       "source": "THE BLAZE"
     },
     "content_hash": "d1c287a84237b4bc"
   },
   {
-    "id": "f6ef732a",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Singapore National Pleads Guilty to Running $245M Crypto Theft Ring\n\nhttps://townhall.com/news/scott-mcclallen/2026/09/10/singapore-national-pleads-guilty-to-running-245m-crypto-theft-ring-n2682792",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "TOWNHALL FIN",
-    "source_url": "https://townhall.com/news/scott-mcclallen/2026/09/10/singapore-national-pleads-guilty-to-running-245m-crypto-theft-ring-n2682792",
-    "source_title": "Singapore National Pleads Guilty to Running $245M Crypto Theft Ring",
-    "source_summary": "",
-    "drafted_at": "2026-09-11T01:53:09.199797",
-    "data": {
-      "source": "TOWNHALL FIN"
-    },
-    "content_hash": "bfbedda80bd4fa55"
-  },
-  {
-    "id": "132d2813",
+    "id": "f206a2c2",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Bitcoin Magazine Ringleader of $245M Crypto Theft Pleads Guilty The 22-year-old criminal ringleader led one of the biggest bitcoin heists in U.S. history.\n\nThis post Ringleader of $245M Crypto Theft Pleads Guilty first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.\n\nhttps://bitcoinmagazine.com/news/ringleader-in-bitcoin-theft-guilty",
@@ -322,31 +322,14 @@
     "source_url": "https://bitcoinmagazine.com/news/ringleader-in-bitcoin-theft-guilty",
     "source_title": "Ringleader of $245M Crypto Theft Pleads Guilty",
     "source_summary": "Bitcoin Magazine Ringleader of $245M Crypto Theft Pleads Guilty The 22-year-old criminal ringleader led one of the biggest bitcoin heists in U.S. history. This post Ringleader of $245M Crypto Theft Pleads Guilty first appeared on Bitcoin Magazine and is written by Mathew Di Salvo .",
-    "drafted_at": "2026-09-11T01:53:09.200118",
+    "drafted_at": "2026-09-11T06:47:15.549455",
     "data": {
       "source": "BITCOIN MAG"
     },
     "content_hash": "156338e67c964fd9"
   },
   {
-    "id": "e8248217",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Skid Row Signature Scandal: Three Indicted in Alleged California Ballot Petition Fraud\n\nhttps://townhall.com/news/scott-mcclallen/2026/09/10/california-man-indicted-for-paying-skid-row-homeless-to-forge-voter-signatures-on-ballot-petitions-n2682782",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "TOWNHALL FIN",
-    "source_url": "https://townhall.com/news/scott-mcclallen/2026/09/10/california-man-indicted-for-paying-skid-row-homeless-to-forge-voter-signatures-on-ballot-petitions-n2682782",
-    "source_title": "Skid Row Signature Scandal: Three Indicted in Alleged California Ballot Petition Fraud",
-    "source_summary": "",
-    "drafted_at": "2026-09-11T01:53:09.200209",
-    "data": {
-      "source": "TOWNHALL FIN"
-    },
-    "content_hash": "7af8780ecd87879a"
-  },
-  {
-    "id": "3acbe042",
+    "id": "6926230d",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "ICIJ\u2019s 2020 FinCEN Files revealed that major banks flagged suspicious payments involving one of the Venezuelan tycoon's companies, which remains at the heart of embezzlement investigations in Europe.\n\nhttps://www.icij.org/investigations/fincen-files/white-house-pick-to-run-venezuela-oil-deal-under-investigation-in-two-countries/",
@@ -356,14 +339,31 @@
     "source_url": "https://www.icij.org/investigations/fincen-files/white-house-pick-to-run-venezuela-oil-deal-under-investigation-in-two-countries/",
     "source_title": "White House pick to run Venezuela oil deal under investigation in two countries",
     "source_summary": "ICIJ\u2019s 2020 FinCEN Files revealed that major banks flagged suspicious payments involving one of the Venezuelan tycoon's companies, which remains at the heart of embezzlement investigations in Europe.",
-    "drafted_at": "2026-09-11T01:53:09.200489",
+    "drafted_at": "2026-09-11T06:47:15.549713",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "595e1145c36e41f0"
   },
   {
-    "id": "c579f71b",
+    "id": "3ad102ef",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "An ICIJ review found nearly $1.7 billion in settlements and fines over a 15 year period.\n\nBut experts said many companies see the payouts as the cost of doing business.\n\nhttps://www.icij.org/investigations/cancer-calculus/big-fines-and-settlements-barely-dent-cancer-drugmakers-revenues-fail-to-deter-wrongdoing/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "ICIJ",
+    "source_url": "https://www.icij.org/investigations/cancer-calculus/big-fines-and-settlements-barely-dent-cancer-drugmakers-revenues-fail-to-deter-wrongdoing/",
+    "source_title": "Big fines and settlements barely dent cancer drugmakers\u2019 revenues, fail to deter wrongdoing",
+    "source_summary": "An ICIJ review found nearly $1.7 billion in settlements and fines over a 15 year period. But experts said many companies see the payouts as the cost of doing business.",
+    "drafted_at": "2026-09-11T06:47:15.549916",
+    "data": {
+      "source": "ICIJ"
+    },
+    "content_hash": "2bb33397806c5f72"
+  },
+  {
+    "id": "10c0ddf1",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $SPCX this year \u2014 and these filings don't show them selling:\n\n\u2022 Daniel Meuser (R)\n\u2022 Jared Moskowitz (D)\n\u2022 John McGuire (R)\n\u2022 Gilbert Cisneros (D)\n\nLargest disclosed here: Daniel Meuser, $15,001 - $50,000 on Jun 15.\n\nPrice since the first buy in this group: -7.9%.\n\nSTOCK Act disclosures. Public record.",
@@ -373,7 +373,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034774.pdf",
     "source_title": "4 Congress members bought $SPCX",
     "source_summary": "4 politicians bought $SPCX; largest $15,001 - $50,000 by Daniel Meuser.",
-    "drafted_at": "2026-09-11T01:53:09.201447",
+    "drafted_at": "2026-09-11T06:47:15.550645",
     "data": {
       "ticker": "SPCX",
       "member_count": 4,
@@ -382,7 +382,7 @@
     "content_hash": "585711bf88956fa9"
   },
   {
-    "id": "e8ce8ba2",
+    "id": "477d3e02",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $MU this year \u2014 and these filings don't show them selling:\n\n\u2022 Josh Gottheimer (D)\n\u2022 Sheldon Whitehouse (D)\n\u2022 Michael Rulli (R)\n\u2022 Dan Newhouse (R)\n\nLargest disclosed here: Josh Gottheimer, $1,001 - $15,000 on May 21.\n\nPrice since the first buy in this group: +28.3%.\n\nSTOCK Act disclosures. Public record.",
@@ -392,7 +392,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034693.pdf",
     "source_title": "4 Congress members bought $MU",
     "source_summary": "4 politicians bought $MU; largest $1,001 - $15,000 by Josh Gottheimer.",
-    "drafted_at": "2026-09-11T01:53:09.201780",
+    "drafted_at": "2026-09-11T06:47:15.550947",
     "data": {
       "ticker": "MU",
       "member_count": 4,
@@ -401,7 +401,7 @@
     "content_hash": "7c265a3a54605da1"
   },
   {
-    "id": "6e9bd2ba",
+    "id": "536d5a27",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $NVDA this year \u2014 and these filings don't show them selling:\n\n\u2022 Michael Rulli (R)\n\u2022 Cleo Fields (D)\n\u2022 Gilbert Cisneros (D)\n\u2022 John J Mr McGuire (R)\n\nLargest disclosed here: Michael Rulli, $1,001 - $15,000 on Jun 25.\n\nPrice since the first buy in this group: +14.3%.\n\nSTOCK Act disclosures. Public record.",
@@ -411,7 +411,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035147.pdf",
     "source_title": "4 Congress members bought $NVDA",
     "source_summary": "4 politicians bought $NVDA; largest $1,001 - $15,000 by Michael Rulli.",
-    "drafted_at": "2026-09-11T01:53:09.202095",
+    "drafted_at": "2026-09-11T06:47:15.551255",
     "data": {
       "ticker": "NVDA",
       "member_count": 4,
@@ -420,7 +420,7 @@
     "content_hash": "f6cf25ab3c00fb6f"
   },
   {
-    "id": "195ab8d3",
+    "id": "cab752f1",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $UNH this year \u2014 and these filings don't show them selling:\n\n\u2022 Markwayne Mullin (D)\n\u2022 Richard Dean Dr McCormick (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Markwayne Mullin, $50,001 - $100,000 on Feb 25.\n\nPrice since the first buy in this group: +38.3%.\n\nSTOCK Act disclosures. Public record.",
@@ -430,7 +430,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/f586922d-6083-44e5-8a32-769290389416/",
     "source_title": "4 Congress members bought $UNH",
     "source_summary": "4 politicians bought $UNH; largest $50,001 - $100,000 by Markwayne Mullin.",
-    "drafted_at": "2026-09-11T01:53:09.202416",
+    "drafted_at": "2026-09-11T06:47:15.551562",
     "data": {
       "ticker": "UNH",
       "member_count": 4,
@@ -439,7 +439,7 @@
     "content_hash": "029ae5a8d0ca395b"
   },
   {
-    "id": "6b9f7d4f",
+    "id": "59223dd0",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 Gilbert Cisneros (D)\n\u2022 Cleo Fields (D)\n\u2022 Jared Moskowitz (D)\n\nLargest disclosed here: Gilbert Cisneros, $50,001 - $100,000 on May 15.\n\nPrice since the first buy in this group: +16.7%.\n\nSTOCK Act disclosures. Public record.",
@@ -449,7 +449,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034713.pdf",
     "source_title": "3 Congress members bought $MSFT",
     "source_summary": "3 politicians bought $MSFT; largest $50,001 - $100,000 by Gilbert Cisneros.",
-    "drafted_at": "2026-09-11T01:53:09.202733",
+    "drafted_at": "2026-09-11T06:47:15.551836",
     "data": {
       "ticker": "MSFT",
       "member_count": 3,
@@ -458,177 +458,177 @@
     "content_hash": "568a39394ccac4dc"
   },
   {
-    "id": "a224d5b9",
+    "id": "43f71c09",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Asia overnight: The USD/JPY pair struggles to capitalize on the previous day's recovery momentum and edges lower during the Asian session on Friday.\n\nhttps://www.fxstreet.com/news/japanese-yen-edges-higher-as-ppi-reaffirms-boj-rate-hike-bets-and-usd-bulls-await-us-cpi-202609110131",
+    "draft_text": "From the international wire: Danske Research Team notes that global equities fell around 0.5% despite a hawkish European Central Bank message and sharp yield curve moves.\n\nhttps://www.fxstreet.com/news/equities-oil-shock-and-ecb-hawkishness-keep-selloff-contained-danske-bank-202609110643",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/japanese-yen-edges-higher-as-ppi-reaffirms-boj-rate-hike-bets-and-usd-bulls-await-us-cpi-202609110131",
-    "source_title": "Japanese Yen edges higher as PPI reaffirms BoJ rate hike bets and USD bulls await US CPI",
-    "source_summary": "The USD/JPY pair struggles to capitalize on the previous day's recovery momentum and edges lower during the Asian session on Friday.",
-    "drafted_at": "2026-09-11T01:53:09.205639",
+    "source_url": "https://www.fxstreet.com/news/equities-oil-shock-and-ecb-hawkishness-keep-selloff-contained-danske-bank-202609110643",
+    "source_title": "Equities: Oil shock and ECB hawkishness keep selloff contained \u2013 Danske Bank",
+    "source_summary": "Danske Research Team notes that global equities fell around 0.5% despite a hawkish European Central Bank message and sharp yield curve moves.",
+    "drafted_at": "2026-09-11T06:47:15.553973",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "f55bccb524b07018"
+    "content_hash": "0c987e316557484b"
   },
   {
-    "id": "7b3557a3",
+    "id": "e5d82db7",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: West Texas Intermediate (WTI) halts its four-day winning streak, trading around $99.00 per barrel during Asian hours on Friday.\n\nHowever, crude oil prices may rebound as the escalating conflict between the US and Iran has fueled concerns over prolonged disruptions to global energy supplies.\n\nhttps://www.fxstreet.com/news/wti-falls-to-near-9900-despite-escalating-us-iran-conflict-202609110123",
+    "draft_text": "GLOBAL DESK: The European Central Bank (ECB) Governing Council member Joachim Nagel said on Friday that its\u2019 too early to speculate on rate hikes.\n\nhttps://www.fxstreet.com/news/ecbs-nagel-too-early-to-speculate-on-rate-hikes-202609110640",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/wti-falls-to-near-9900-despite-escalating-us-iran-conflict-202609110123",
-    "source_title": "WTI trades near $99.00 after pulling back from nearly four-month highs",
-    "source_summary": "West Texas Intermediate (WTI) halts its four-day winning streak, trading around $99.00 per barrel during Asian hours on Friday. However, crude oil prices may rebound as the escalating conflict between the US and Iran has fueled concerns over prolonged disruptions to global energy supplies.",
-    "drafted_at": "2026-09-11T01:53:09.206156",
+    "source_url": "https://www.fxstreet.com/news/ecbs-nagel-too-early-to-speculate-on-rate-hikes-202609110640",
+    "source_title": "ECB\u2019s Nagel: Too early to speculate on rate hikes",
+    "source_summary": "The European Central Bank (ECB) Governing Council member Joachim Nagel said on Friday that its\u2019 too early to speculate on rate hikes.",
+    "drafted_at": "2026-09-11T06:47:15.554350",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "b6998bcb923a3481"
+    "content_hash": "29515ca39fe61a08"
   },
   {
-    "id": "04f280e9",
+    "id": "927fc414",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "CHINA DESK: On Friday, the People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7743 compared to the previous day's fix of 6.7766 and 6.7174 Reuters estimate.\n\nhttps://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67743-vs-67766-previous-202609110115",
+    "draft_text": "Levant update: ING analysts Warren Patterson and Ewa Manthey note that Brent and WTI have rallied sharply as Middle East tensions escalate and Saudi Arabia reports a steep drop in output.\n\nhttps://www.fxstreet.com/news/brent-supply-risks-and-saudi-cuts-support-prices-ing-202609110632",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67743-vs-67766-previous-202609110115",
-    "source_title": "PBOC sets USD/CNY reference rate at 6.7743 vs. 6.7766 previous",
-    "source_summary": "On Friday, the People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7743 compared to the previous day's fix of 6.7766 and 6.7174 Reuters estimate.",
-    "drafted_at": "2026-09-11T01:53:09.206613",
+    "source_url": "https://www.fxstreet.com/news/brent-supply-risks-and-saudi-cuts-support-prices-ing-202609110632",
+    "source_title": "Brent: Supply risks and Saudi cuts support prices \u2013 ING",
+    "source_summary": "ING analysts Warren Patterson and Ewa Manthey note that Brent and WTI have rallied sharply as Middle East tensions escalate and Saudi Arabia reports a steep drop in output.",
+    "drafted_at": "2026-09-11T06:47:15.554657",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "3b45b46191af28f7"
+    "content_hash": "906142bebfeece69"
   },
   {
-    "id": "85bf6067",
+    "id": "297ec856",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "ASIA DESK: The EUR/USD pair holds steady around 1.1610 during the early Asian session on Friday.\n\nTraders continue to assess a hawkish hike from the European Central Bank (ECB).\n\nhttps://www.fxstreet.com/news/euro-flatlines-above-11600-despite-ecb-hawkish-hike-traders-brace-for-us-cpi-data-202609110042",
+    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: The potential shift towards diplomacy could stabilize regional tensions, influencing geopolitical dynamics and market perceptions significantly.\n\nThe post Iran foreign minister, army chief discuss US talks amid regional tensions appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iran-foreign-minister-army-chief-discuss-us-talks-amid-regional-tensions/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/iran-foreign-minister-army-chief-discuss-us-talks-amid-regional-tensions/",
+    "source_title": "Iran foreign minister, army chief discuss US talks amid regional tensions",
+    "source_summary": "The potential shift towards diplomacy could stabilize regional tensions, influencing geopolitical dynamics and market perceptions significantly. The post Iran foreign minister, army chief discuss US talks amid regional tensions appeared first on Crypto Briefing .",
+    "drafted_at": "2026-09-11T06:47:15.555425",
+    "data": {
+      "source": "CRYPTO BRIEFING"
+    },
+    "content_hash": "42c42ce1b2c34563"
+  },
+  {
+    "id": "88b26b6f",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "PACK BRIEFING \u2014 CHINA: Anthropic said Alibaba, Moonshot, Zhipu, DeepSeek, and Xiaomi all tried to use Claude to train their models in various ways.\n\nhttps://www.businessinsider.com/china-ai-labs-millions-distillation-attacks-anthropic-claude-2026-9",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "BUSINESS INSIDER",
+    "source_url": "https://www.businessinsider.com/china-ai-labs-millions-distillation-attacks-anthropic-claude-2026-9",
+    "source_title": "China's star AI labs routed user requests to Claude at least 35 million times in the summer: Anthropic",
+    "source_summary": "Anthropic said Alibaba, Moonshot, Zhipu, DeepSeek, and Xiaomi all tried to use Claude to train their models in various ways.",
+    "drafted_at": "2026-09-11T06:47:15.556180",
+    "data": {
+      "source": "BUSINESS INSIDER"
+    },
+    "content_hash": "988d3a2cd3de9e3d"
+  },
+  {
+    "id": "68c1437d",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "Growth read just printed. UK data released on Friday showed that Gross Domestic Product (GDP) rose 0.4% in July, above expectations of a flat reading and following a 0.3% rise in June.\n\nhttps://www.fxstreet.com/news/euro-retreats-from-weekly-highs-against-british-pound-as-uk-data-beats-expectations-202609110622",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/euro-flatlines-above-11600-despite-ecb-hawkish-hike-traders-brace-for-us-cpi-data-202609110042",
-    "source_title": "Euro flatlines above 1.1600 despite ECB hawkish hike, traders brace for US CPI data",
-    "source_summary": "The EUR/USD pair holds steady around 1.1610 during the early Asian session on Friday. Traders continue to assess a hawkish hike from the European Central Bank (ECB).",
-    "drafted_at": "2026-09-11T01:53:09.207582",
+    "source_url": "https://www.fxstreet.com/news/euro-retreats-from-weekly-highs-against-british-pound-as-uk-data-beats-expectations-202609110622",
+    "source_title": "Euro retreats from weekly highs against British Pound as UK data beats expectations",
+    "source_summary": "UK data released on Friday showed that Gross Domestic Product (GDP) rose 0.4% in July, above expectations of a flat reading and following a 0.3% rise in June.",
+    "drafted_at": "2026-09-11T06:47:15.615006",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "7911be22d0ae8ecf"
+    "content_hash": "f7886454dbed82b8"
   },
   {
-    "id": "5203655b",
-    "format": "GLOBAL_DESK",
+    "id": "ce37c7e7",
+    "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: August's corporate goods price index reinforces what markets had already priced in, that the Bank of Japan is close to certain to raise rates to 1.25% at next week's meeting, so the immediate surprise value for JPY crosses is limited.\n\nThe more interesting detail is the import price index, up 24.8% year on year, which points to continued yen weakness feeding directly into domestic cost pressures rather than easing as some had hoped.\n\nThat keeps alive the more hawkish end of rate expectations, with analysts now pencilling in a further hike to 1.75% in the second quarter of 2027, earlier than previously anticipated.\n\nFor JPY, the data supports the broader narrative of a BOJ playing catch-up on inflation, which should continue to underpin the currency against peers still years away from their own tightening cycles, though a hike that's already near fully priced tends to produce a smaller reaction on the day itself than the scale of the move might suggest. --- Earlier: Nikkei, Kospi fall as US bond yields and inflation data spook markets --- Japan's wholesale prices came in hotter than expected again, leaving the Bank of Japan with little room to avoid a rate hike next week.\n\nSummary: Japan's corporate goods price index (CGPI) rose 7.6% year on year in August, above the 7.4% forecast, following a revised 7.7% gain in July On a month-on-month basis, the index fell 0.2% in August, against expectations for a flat reading, after a revised 0.4% increase in July The yen-based import price index rose 24.8% year on year in August, easing from a revised 29.3% surge in July but still reflecting the impact of yen weakness on import costs Rising fuel costs linked to the Middle East conflict and higher import prices from a weak yen have added to inflation pressure on Japanese firms Markets are near fully pricing in a BOJ rate hike to 1.25% from 1% at next week's (16\u201317 September) policy meeting, following June's hike to a 31-year high of 1% and a hold in July Analysts polled by Reuters now expect a further hike to 1.75% in the second quarter of 2027, earlier than previously forecast Japan's wholesale inflation remained elevated in August, data released Friday showed, adding to the pressure on the Bank of Japan to raise interest rates at its policy meeting next week.\n\nThe corporate goods price index, which tracks the prices companies charge each other for goods and services, rose 7.6% from a year earlier, ahead of a median market forecast for a 7.4% increase and following a revised 7.7% gain in July.\n\nOn a monthly basis, the index slipped 0.2% in August after a revised 0.4% rise the previous month.\n\nThe data follows a run of hawkish signalling from the BOJ that has already pushed markets close to fully pricing in a rate increase to 1.25% from the current 1% at next week's meeting.\n\nhttps://investinglive.com/news/japan-wholesale-inflation-stays-hot-in-august-cements-case-for-boj-hike/",
+    "draft_text": "Growth read just printed. The British Pound (GBP) attracts significant bids against its peers, with the GBP/USD pair rising to near 1.3518, as the United Kingdom (UK) Office for National Statistics (ONS) has reported strong monthly Gross Domestic Product (GDP) data for July.\n\nhttps://www.fxstreet.com/news/british-pound-jumps-after-strong-uk-monthly-gdp-data-202609110608",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/british-pound-jumps-after-strong-uk-monthly-gdp-data-202609110608",
+    "source_title": "British Pound jumps after strong UK monthly GDP data",
+    "source_summary": "The British Pound (GBP) attracts significant bids against its peers, with the GBP/USD pair rising to near 1.3518, as the United Kingdom (UK) Office for National Statistics (ONS) has reported strong monthly Gross Domestic Product (GDP) data for July. Th",
+    "drafted_at": "2026-09-11T06:47:15.615332",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "ead13bde5824f213"
+  },
+  {
+    "id": "8b6b8110",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "How fast is the economy moving? Now we know: Prior +0.3% GDP Y/Y +1.6% vs +1.0% expected Prior +1.1% Full report here The UK economy maintained its recent pace of growth in the three months to July, with real GDP rising 0.4% compared with the three months to April.\n\nThe increase marks the eighth consecutive three-month period of growth, although momentum has eased from the 0.6% expansion recorded in the three months to May.\n\nServices remained the main driver of growth, with output increasing 0.6% over the three-month period.\n\nIn contrast, production and construction both contracted by 0.5%.\n\nThe monthly figures were more encouraging.\n\nUK GDP grew 0.4% in July, accelerating from 0.3% in June and no growth in May.\n\nGrowth was broad-based, with services output rising 0.4%, production increasing 0.2% and construction growing 0.1%.\n\nOn an annual basis, GDP was 1.6% higher in July than a year earlier.\n\nhttps://investinglive.com/news/uk-july-monthly-gdp-xx-vs-0-0-m-m-expected/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/japan-wholesale-inflation-stays-hot-in-august-cements-case-for-boj-hike/",
-    "source_title": "Japan wholesale inflation stays hot in August, cements case for BOJ hike",
-    "source_summary": "August's corporate goods price index reinforces what markets had already priced in, that the Bank of Japan is close to certain to raise rates to 1.25% at next week's meeting, so the immediate surprise value for JPY crosses is limited. The more interesting detail is the import price index, up 24.8% year on year, which points to continued yen weakness feeding directly into domestic cost pressures ra",
-    "drafted_at": "2026-09-11T01:53:09.211479",
+    "source_url": "https://investinglive.com/news/uk-july-monthly-gdp-xx-vs-0-0-m-m-expected/",
+    "source_title": "UK July monthly GDP +0.4% vs 0.0% m/m expected",
+    "source_summary": "Prior +0.3% GDP Y/Y +1.6% vs +1.0% expected Prior +1.1% Full report here The UK economy maintained its recent pace of growth in the three months to July, with real GDP rising 0.4% compared with the three months to April. The increase marks the eighth consecutive three-month period of growth, although momentum has eased from the 0.6% expansion recorded in the three months to May. Services remained ",
+    "drafted_at": "2026-09-11T06:47:15.616413",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "78edf0a0acf15bc3"
+    "content_hash": "59f1863397b80ec6"
   },
   {
-    "id": "3762dc4f",
+    "id": "c0d4b4c6",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "The CPI scoreboard: The GBP/USD pair trades on a flat note near 1.3510 during the early Asian session on Friday.\n\nTraders prefer to wait on the sidelines ahead of the key US August Consumer Price Index (CPI) inflation report later on Friday.\n\nhttps://www.fxstreet.com/news/british-pound-holds-steady-above-13500-ahead-of-us-cpi-inflation-release-202609110146",
+    "draft_text": "GROWTH POSTCARD: The Ring is Euronews\u2019 weekly political showdown, where Europe\u2019s toughest debates meet their boldest voices.\n\nIn each episode, two political heavyweights from across the EU face off to propose a diversity of opinions and spark conversations around the most important issues of EU affairs and the wider European political life.\n\nEuronews Tech Talks goes beyond discussions to explore the impact of new technologies on our lives.\n\nWith explanations, engaging Q&As, and lively conversations, the podcast provides valuable insights into the intersection of technology and society.\n\nEurope's best food experts are joining forces to crack down on fraud.\n\nhttps://www.euronews.com/business/2026/09/11/anthropic-says-ai-could-bring-both-15-growth-and-mass-unemployment-by-2030",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/british-pound-holds-steady-above-13500-ahead-of-us-cpi-inflation-release-202609110146",
-    "source_title": "British Pound holds steady above 1.3500 ahead of US CPI inflation release",
-    "source_summary": "The GBP/USD pair trades on a flat note near 1.3510 during the early Asian session on Friday. Traders prefer to wait on the sidelines ahead of the key US August Consumer Price Index (CPI) inflation report later on Friday.",
-    "drafted_at": "2026-09-11T01:53:09.263833",
+    "primary_source": "EURONEWS",
+    "source_url": "https://www.euronews.com/business/2026/09/11/anthropic-says-ai-could-bring-both-15-growth-and-mass-unemployment-by-2030",
+    "source_title": "Anthropic says AI could bring both 15% growth and mass unemployment by 2030",
+    "source_summary": "Anthropic has published an economic model projecting how AI might reshape the US economy by 2030, and its three scenarios range from barely perceptible to a boom with no historical precedent, including one in which GDP grows 15% a year while nearly a fifth of office workers are out of a job.",
+    "drafted_at": "2026-09-11T06:47:15.618074",
     "data": {
-      "source": "FXSTREET"
+      "source": "EURONEWS"
     },
-    "content_hash": "1907de84435e13bd"
+    "content_hash": "2fb47847d02c973c"
   },
   {
-    "id": "5f8e0543",
+    "id": "981b99f9",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "CPI POSTCARD: The USD/JPY pair struggles to capitalize on the previous day's recovery momentum and edges lower during the Asian session on Friday.\n\nhttps://www.fxstreet.com/news/japanese-yen-edges-higher-as-ppi-reaffirms-boj-rate-hike-bets-and-usd-bulls-await-us-cpi-202609110131",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/japanese-yen-edges-higher-as-ppi-reaffirms-boj-rate-hike-bets-and-usd-bulls-await-us-cpi-202609110131",
-    "source_title": "Japanese Yen edges higher as PPI reaffirms BoJ rate hike bets and USD bulls await US CPI",
-    "source_summary": "The USD/JPY pair struggles to capitalize on the previous day's recovery momentum and edges lower during the Asian session on Friday.",
-    "drafted_at": "2026-09-11T01:53:09.264055",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "f55bccb524b07018"
-  },
-  {
-    "id": "ab223c54",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "CPI POSTCARD: The EUR/USD pair holds steady around 1.1610 during the early Asian session on Friday.\n\nTraders continue to assess a hawkish hike from the European Central Bank (ECB).\n\nhttps://www.fxstreet.com/news/euro-flatlines-above-11600-despite-ecb-hawkish-hike-traders-brace-for-us-cpi-data-202609110042",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/euro-flatlines-above-11600-despite-ecb-hawkish-hike-traders-brace-for-us-cpi-data-202609110042",
-    "source_title": "Euro flatlines above 1.1600 despite ECB hawkish hike, traders brace for US CPI data",
-    "source_summary": "The EUR/USD pair holds steady around 1.1610 during the early Asian session on Friday. Traders continue to assess a hawkish hike from the European Central Bank (ECB).",
-    "drafted_at": "2026-09-11T01:53:09.264290",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "7911be22d0ae8ecf"
-  },
-  {
-    "id": "99875029",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "PRODUCER-PRICE READ: ADDED: Follow up post with more here Japan wholesale inflation stays hot in August, cements case for BOJ hike This article was written by Eamonn Sheridan at investinglive.com.\n\nhttps://investinglive.com/news/japan-august-ppi-surges-7-6-y-y-expected-7-4-prior-7-2/",
+    "draft_text": "The CPI scoreboard: EUROPEAN SESSION In the European session, the only highlight is the monthly UK GDP data which is expected to show a 0.0% growth in July.\n\nThe data is unlikely to change much for the BoE, though, as the majority of policymakers continue to exercise patience.\n\nThe market, on the other hand, has been increasing rate hike bets following the surge in oil prices, with two rate hikes priced in by year-end starting in November.\n\nAMERICAN SESSION In the American session, all eyes will be on the US CPI report.\n\nThe headline CPI Y/Y is expected at 3.4% vs 3.4% prior, while the M/M measure is seen at 0.4% vs 0.1% prior.\n\nThe Core CPI Y/Y is expected at 2.4% vs 2.5% prior, while the M/M reading is seen at 0.2% vs 0.2% prior.\n\nThe Core M/M measure will be the one to watch, as that's what the Fed members have been focusing on.\n\nFed's Waller recently said that he would consider a rate hike in September if the monthly core reading surprises to the upside.\n\nhttps://investinglive.com/news/what-are-the-main-events-for-today-40/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/japan-august-ppi-surges-7-6-y-y-expected-7-4-prior-7-2/",
-    "source_title": "Japan August PPI surges +7.6% y/y (expected +7.4%, prior +7.2%)",
-    "source_summary": "ADDED: Follow up post with more here Japan wholesale inflation stays hot in August, cements case for BOJ hike This article was written by Eamonn Sheridan at investinglive.com.",
-    "drafted_at": "2026-09-11T01:53:09.264562",
+    "source_url": "https://investinglive.com/news/what-are-the-main-events-for-today-40/",
+    "source_title": "What are the main events for today?",
+    "source_summary": "EUROPEAN SESSION In the European session, the only highlight is the monthly UK GDP data which is expected to show a 0.0% growth in July. The data is unlikely to change much for the BoE, though, as the majority of policymakers continue to exercise patience. The market, on the other hand, has been increasing rate hike bets following the surge in oil prices, with two rate hikes priced in by year-end ",
+    "drafted_at": "2026-09-11T06:47:15.619340",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "e124c454090959ad"
+    "content_hash": "6fa703234c5c29ae"
   },
   {
-    "id": "4e9fa603",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "INFLATION READ: The Australian Dollar ended Thursday\u2019s session with a 0.80% loss against the US Dollar after US producer inflation exceeded estimates, triggering pricing for a more hawkish Federal Reserve.\n\nThe AUD/USD trades at 0.7159 after reaching a peak of 0.7223.\n\nhttps://www.fxstreet.com/news/australian-dollar-slides-as-us-yields-jump-before-pivotal-cpi-202609102348",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/australian-dollar-slides-as-us-yields-jump-before-pivotal-cpi-202609102348",
-    "source_title": "Australian Dollar slides as US yields jump before pivotal CPI",
-    "source_summary": "The Australian Dollar ended Thursday\u2019s session with a 0.80% loss against the US Dollar after US producer inflation exceeded estimates, triggering pricing for a more hawkish Federal Reserve. The AUD/USD trades at 0.7159 after reaching a peak of 0.7223.",
-    "drafted_at": "2026-09-11T01:53:09.264907",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "0d2b94623438b918"
-  },
-  {
-    "id": "7f805a22",
+    "id": "7e65db78",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -638,7 +638,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-09-11T01:53:09.269707",
+    "drafted_at": "2026-09-11T06:47:15.626995",
     "data": {
       "manual": true,
       "via": "manual_news.md"
