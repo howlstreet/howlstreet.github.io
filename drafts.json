@@ -1,23 +1,61 @@
 [
   {
-    "id": "d94a5b52",
+    "id": "7bcc0186",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "Oil prices jump more than 2% after new strikes on Saudi, Strait of Hormuz reuters.com\n\nhttps://news.google.com/rss/articles/CBMiuAFBVV95cUxOcXNvWlpHUEh2bzNITUYtX04zUG1vclFCeDZ1NVdQTkNXUk5OTmRESElsUXUyQjNsYVU1d2tEMFlNRjB1VXVnenR4UHZzd3F3dEZWR2tWSVZMREFiZXF6NjR5SlB5VmdaNXpTWHQ3UF9POFRGanpoR0NxZUV3ZUU4alAycW9mcGdLak5lQ2NXdlpHQ3I3eDVRM3JDWmI3SGdYUjZsbnJSaUVySHk3UFl4Y3AxVGFZbmg5?oc=5",
+    "draft_text": "The recent spike in crude oil prices will likely result in a fresh rate hike by the Fed this week, according to data from CME Group, cited by The National today.\n\nAs much as 90% of respondents from trading circles expect a rate hike of 25 basis points, after last week, the European Central Bank hiked interest rates by the same amount.\n\n\u201cThe conflict in the Middle East continues to generate inflation pressures, and inflation is set to remain well above target for an extended period,\u201d the ECB said in its decision.\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Soaring-Oil-Prices-Put-Fed-on-Track-for-September-Rate-Hike.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "REUTERS",
-    "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcXNvWlpHUEh2bzNITUYtX04zUG1vclFCeDZ1NVdQTkNXUk5OTmRESElsUXUyQjNsYVU1d2tEMFlNRjB1VXVnenR4UHZzd3F3dEZWR2tWSVZMREFiZXF6NjR5SlB5VmdaNXpTWHQ3UF9POFRGanpoR0NxZUV3ZUU4alAycW9mcGdLak5lQ2NXdlpHQ3I3eDVRM3JDWmI3SGdYUjZsbnJSaUVySHk3UFl4Y3AxVGFZbmg5?oc=5",
-    "source_title": "Oil prices jump more than 2% after new strikes on Saudi, Strait of Hormuz",
-    "source_summary": "Oil prices jump more than 2% after new strikes on Saudi, Strait of Hormuz reuters.com",
-    "drafted_at": "2026-09-14T02:08:37.870408",
+    "primary_source": "OILPRICE",
+    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Soaring-Oil-Prices-Put-Fed-on-Track-for-September-Rate-Hike.html",
+    "source_title": "Soaring Oil Prices Put Fed on Track for September Rate Hike",
+    "source_summary": "The recent spike in crude oil prices will likely result in a fresh rate hike by the Fed this week, according to data from CME Group, cited by The National today. As much as 90% of respondents from trading circles expect a rate hike of 25 basis points, after last week, the European Central Bank hiked interest rates by the same amount. \u201cThe conflict in the Middle East continues to generate inflation",
+    "drafted_at": "2026-09-14T08:13:37.606415",
     "data": {
-      "source": "REUTERS"
+      "source": "OILPRICE"
     },
-    "content_hash": "daa5a9947ded2105"
+    "content_hash": "e4e7b76498ea21fd"
   },
   {
-    "id": "e6baab11",
+    "id": "49c60dfc",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Two seconds, trust me. VIX rips 22.1% in 5 sessions to 17.74.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CBOE \u00b7 ^VIX",
+    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "source_title": "VIX (S&P 500 volatility)",
+    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "drafted_at": "2026-09-14T08:13:37.606731",
+    "data": {
+      "signal_id": "^VIX:move:2026-09-14",
+      "kind": "move_up",
+      "current": "17.74"
+    },
+    "content_hash": "995f4d67e7e875d2"
+  },
+  {
+    "id": "e6814eb8",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Numbers don't lie. Look: WTI crude surges 12.0% in 5 sessions to $102.44.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NYMEX \u00b7 CL=F",
+    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "source_title": "WTI crude oil futures",
+    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "drafted_at": "2026-09-14T08:13:37.606969",
+    "data": {
+      "signal_id": "CL=F:move:2026-09-14",
+      "kind": "move_up",
+      "current": "$102.44"
+    },
+    "content_hash": "c272de0720a2f459"
+  },
+  {
+    "id": "3abdb6e7",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "I don't say this often, but pay attention: WTI crude surges 12.2% in 5 sessions to $102.42.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
@@ -27,7 +65,7 @@
     "source_url": "https://finance.yahoo.com/quote/CL%3DF",
     "source_title": "WTI crude oil futures",
     "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-09-14T02:08:37.870792",
+    "drafted_at": "2026-09-14T08:13:37.607219",
     "data": {
       "signal_id": "CL=F:move:2026-09-13",
       "kind": "move_up",
@@ -36,94 +74,58 @@
     "content_hash": "c272de0720a2f459"
   },
   {
-    "id": "acaf75bd",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "Caught a move. Bitcoin drops 5.1% in 5 sessions to $77,101.\n\nBitcoin is now treated as a macro asset alongside gold and tech.\n\nIts swings move alt-coins, public miners, and crypto-exposed stocks.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/BTC-USD",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Yahoo Finance \u00b7 BTC-USD",
-    "source_url": "https://finance.yahoo.com/quote/BTC-USD",
-    "source_title": "Bitcoin",
-    "source_summary": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
-    "drafted_at": "2026-09-14T02:08:37.871068",
-    "data": {
-      "signal_id": "BTC-USD:move:2026-09-13",
-      "kind": "move_down",
-      "current": "$77,101"
-    },
-    "content_hash": "0e3396ceb3da7211"
-  },
-  {
-    "id": "d5171de1",
+    "id": "85f3c728",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "The Fed just spoke. Here's what matters: Gold price (XAU/USD) loses ground to near $4,340 during the early Asian trading hours on Monday.\n\nThe precious metal remains under selling pressure as hotter-than-expected US inflation data raised prospects that the Federal Reserve (Fed) will hike interest rates later this week.\n\nhttps://www.fxstreet.com/news/gold-edges-lower-below-4-350-on-imminent-fed-rate-hike-202609140200",
+    "draft_text": "Live from the Federal Reserve: Dow Jones futures decline by 0.17% to trade near 52,500 during European hours on Monday.\n\nMeanwhile, S&P 500 futures fall by 0.64% to trade around 7,610, while Nasdaq 100 futures experienced a sharper drop of 1.46% to trade near 28,960.\n\nhttps://www.fxstreet.com/news/dow-jones-futures-dip-as-fed-hike-bets-ai-safety-concerns-weigh-on-markets-202609140811",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "Fed",
-    "source_url": "https://www.fxstreet.com/news/gold-edges-lower-below-4-350-on-imminent-fed-rate-hike-202609140200",
-    "source_title": "Gold edges lower below $4,350 on imminent Fed rate hike",
-    "source_summary": "Gold price (XAU/USD) loses ground to near $4,340 during the early Asian trading hours on Monday. The precious metal remains under selling pressure as hotter-than-expected US inflation data raised prospects that the Federal Reserve (Fed) will hike interest rates later this week.",
-    "drafted_at": "2026-09-14T02:08:37.883189",
+    "source_url": "https://www.fxstreet.com/news/dow-jones-futures-dip-as-fed-hike-bets-ai-safety-concerns-weigh-on-markets-202609140811",
+    "source_title": "Dow Jones futures dip as Fed hike bets, AI safety concerns weigh on markets",
+    "source_summary": "Dow Jones futures decline by 0.17% to trade near 52,500 during European hours on Monday. Meanwhile, S&P 500 futures fall by 0.64% to trade around 7,610, while Nasdaq 100 futures experienced a sharper drop of 1.46% to trade near 28,960.",
+    "drafted_at": "2026-09-14T08:13:37.619436",
     "data": {
       "actor": "Fed"
     },
-    "content_hash": "ca47b34be507a7fb"
+    "content_hash": "ca88c979f29fc6e1"
   },
   {
-    "id": "059fdfaf",
+    "id": "61b7f9aa",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "PBOC postcard: On Monday, the People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7698 compared to Friday's fix of 6.7743 and 6.7083 Reuters estimate.\n\nhttps://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67698-vs-67743-previous-202609140115",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "PBOC",
-    "source_url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67698-vs-67743-previous-202609140115",
-    "source_title": "PBOC sets USD/CNY reference rate at 6.7698 vs. 6.7743 previous",
-    "source_summary": "On Monday, the People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7698 compared to Friday's fix of 6.7743 and 6.7083 Reuters estimate.",
-    "drafted_at": "2026-09-14T02:08:37.883572",
-    "data": {
-      "actor": "PBOC"
-    },
-    "content_hash": "3f5f52560932fa93"
-  },
-  {
-    "id": "aefc5ff9",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "Live from the Federal Reserve: The EUR/USD pair declines to near 1.1585 during the early Asian session on Monday.\n\nThe pair extends the decline amid aggressive Federal Reserve (Fed) rate-hike bets following hotter US inflation reports.\n\nTraders brace for the Fed interest rate decision later on Wednesday.\n\nhttps://www.fxstreet.com/news/euro-softens-below-11600-as-markets-price-in-fed-rate-hike-202609140047",
+    "draft_text": "If you trade rates, read this: The recent spike in crude oil prices will likely result in a fresh rate hike by the Fed this week, according to data from CME Group, cited by The National today.\n\nAs much as 90% of respondents from trading circles expect a rate hike of 25 basis points, after last week, the European Central Bank hiked interest rates by the same amount.\n\n\u201cThe conflict in the Middle East continues to generate inflation pressures, and inflation is set to remain well above target for an extended period,\u201d the ECB said in its decision.\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Soaring-Oil-Prices-Put-Fed-on-Track-for-September-Rate-Hike.html",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "Fed",
-    "source_url": "https://www.fxstreet.com/news/euro-softens-below-11600-as-markets-price-in-fed-rate-hike-202609140047",
-    "source_title": "Euro softens below 1.1600 as markets price in Fed rate hike",
-    "source_summary": "The EUR/USD pair declines to near 1.1585 during the early Asian session on Monday. The pair extends the decline amid aggressive Federal Reserve (Fed) rate-hike bets following hotter US inflation reports. Traders brace for the Fed interest rate decision later on Wednesday.",
-    "drafted_at": "2026-09-14T02:08:37.883932",
+    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Soaring-Oil-Prices-Put-Fed-on-Track-for-September-Rate-Hike.html",
+    "source_title": "Soaring Oil Prices Put Fed on Track for September Rate Hike",
+    "source_summary": "The recent spike in crude oil prices will likely result in a fresh rate hike by the Fed this week, according to data from CME Group, cited by The National today. As much as 90% of respondents from trading circles expect a rate hike of 25 basis points, after last week, the European Central Bank hiked interest rates by the same amount. \u201cThe conflict in the Middle East continues to generate inflation",
+    "drafted_at": "2026-09-14T08:13:37.620204",
     "data": {
       "actor": "Fed"
     },
-    "content_hash": "ee7a39e3a2afe756"
+    "content_hash": "e4e7b76498ea21fd"
   },
   {
-    "id": "58db9c30",
+    "id": "c25fec8d",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "FOMC desk: Traders price an 87% chance of a Fed rate hike Wednesday as Caitlin Long argues Treasury now holds the real power.\n\nThe post Bitcoin Faces 87% Fed Hike Odds Wednesday: Will Treasury Save the Rally? appeared first on BeInCrypto.\n\nhttps://beincrypto.com/bitcoin-fed-rate-hike-odds-wednesday/",
+    "draft_text": "FOMC update. Silver price (XAG/USD) loses its gains from the previous day, trading around $63.50 per troy ounce during Asian hours on Monday.\n\nNon-yielding Silver is currently facing significant headwinds driven by rising Federal Reserve (Fed) rate-hike expectations for the upcoming September decision.\n\nhttps://www.fxstreet.com/news/silver-price-forecast-xag-usd-falls-to-near-6350-amid-fed-hike-bets-higher-oil-prices-202609140747",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "Fed",
-    "source_url": "https://beincrypto.com/bitcoin-fed-rate-hike-odds-wednesday/",
-    "source_title": "Bitcoin Faces 87% Fed Hike Odds Wednesday: Will Treasury Save the Rally?",
-    "source_summary": "Traders price an 87% chance of a Fed rate hike Wednesday as Caitlin Long argues Treasury now holds the real power. The post Bitcoin Faces 87% Fed Hike Odds Wednesday: Will Treasury Save the Rally? appeared first on BeInCrypto .",
-    "drafted_at": "2026-09-14T02:08:37.884220",
+    "source_url": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-falls-to-near-6350-amid-fed-hike-bets-higher-oil-prices-202609140747",
+    "source_title": "Silver Price Forecast: XAG/USD falls to near $63.50 amid Fed hike bets, higher oil prices",
+    "source_summary": "Silver price (XAG/USD) loses its gains from the previous day, trading around $63.50 per troy ounce during Asian hours on Monday. Non-yielding Silver is currently facing significant headwinds driven by rising Federal Reserve (Fed) rate-hike expectations for the upcoming September decision.",
+    "drafted_at": "2026-09-14T08:13:37.620570",
     "data": {
       "actor": "Fed"
     },
-    "content_hash": "3bc278985fd96518"
+    "content_hash": "75503657610552f1"
   },
   {
-    "id": "a8d89f3b",
+    "id": "383f728f",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FOMC update. President Donald Trump again called on the Federal Reserve to lower interest rates, even as the market expects the first rate hike under Chairman Kevin Warsh.\n\nThe post Trump Urges Federal Reserve To Cut Rates As Market Bets On Warsh Hike appeared first on Investor's Business Daily.\n\nhttps://www.investors.com/news/trump-urges-federal-reserve-to-cut-rates-market-bets-warsh-hike/",
@@ -133,14 +135,31 @@
     "source_url": "https://www.investors.com/news/trump-urges-federal-reserve-to-cut-rates-market-bets-warsh-hike/",
     "source_title": "Trump Urges Federal Reserve To Cut Rates As Market Bets On Warsh Hike",
     "source_summary": "President Donald Trump again called on the Federal Reserve to lower interest rates, even as the market expects the first rate hike under Chairman Kevin Warsh. The post Trump Urges Federal Reserve To Cut Rates As Market Bets On Warsh Hike appeared first on Investor's Business Daily .",
-    "drafted_at": "2026-09-14T02:08:37.884582",
+    "drafted_at": "2026-09-14T08:13:37.620957",
     "data": {
       "actor": "Federal Reserve"
     },
     "content_hash": "65bab6318c400319"
   },
   {
-    "id": "ddb17917",
+    "id": "b98ed4f3",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "If you trade rates, read this: InvestorPlace - Stock Market News, Stock Advice & Trading Tips There\u2019s an important distinction between a rate hike and a new rate-hiking cycle.\n\nThat\u2019s the point I wouldn\u2019t lose sight of next week.\n\nOur experts may differ on some of the details, but none are arguing that investors should run for the exits.\n\nThe post The Fed\u2019s No-Win Decision Next Week appeared first on InvestorPlace.\n\nhttps://investorplace.com/2026/09/the-feds-no-win-decision-next-week/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Fed",
+    "source_url": "https://investorplace.com/2026/09/the-feds-no-win-decision-next-week/",
+    "source_title": "The Fed\u2019s No-Win Decision Next Week",
+    "source_summary": "InvestorPlace - Stock Market News, Stock Advice & Trading Tips There\u2019s an important distinction between a rate hike and a new rate-hiking cycle. That\u2019s the point I wouldn\u2019t lose sight of next week. Our experts may differ on some of the details, but none are arguing that investors should run for the exits. The post The Fed\u2019s No-Win Decision Next Week appeared first on InvestorPlace .",
+    "drafted_at": "2026-09-14T08:13:37.621522",
+    "data": {
+      "actor": "Fed"
+    },
+    "content_hash": "7e15b84f7fefe1a4"
+  },
+  {
+    "id": "4ae8a7c4",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$LUCK \u2014 3 company insiders bought $869,701 on Sep 09.\n\nLucky Strike Entertainment Corp. 43,550 shares at $19.97.\n\nStock is -71.8% since the purchase. This is a public SEC Form 4 filing.",
@@ -150,7 +169,7 @@
     "source_url": "http://openinsider.com/screener?s=LUCK",
     "source_title": "Lucky Strike Entertainment Corp (LUCK) insider bought $869,701",
     "source_summary": "3 insider(s) bought 43,550 shares at $19.97 on 2026-09-09.",
-    "drafted_at": "2026-09-14T02:08:37.893847",
+    "drafted_at": "2026-09-14T08:13:37.630735",
     "data": {
       "ticker": "LUCK",
       "type": "P",
@@ -160,7 +179,7 @@
     "content_hash": "07a0c38e2b9a8c1c"
   },
   {
-    "id": "53e7db88",
+    "id": "c4b41554",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$ANGX \u2014 3 company insiders bought $5.4M on Sep 09.\n\nAngel Studios, Inc. 1,199,662 shares at $4.49.\n\nStock is +21.4% since the purchase. This is a public SEC Form 4 filing.",
@@ -170,7 +189,7 @@
     "source_url": "http://openinsider.com/screener?s=ANGX",
     "source_title": "Angel Studios, Inc. (ANGX) insider bought $5.4M",
     "source_summary": "3 insider(s) bought 1,199,662 shares at $4.49 on 2026-09-09.",
-    "drafted_at": "2026-09-14T02:08:37.894048",
+    "drafted_at": "2026-09-14T08:13:37.630944",
     "data": {
       "ticker": "ANGX",
       "type": "P",
@@ -180,7 +199,7 @@
     "content_hash": "4b4e5080d584f3cf"
   },
   {
-    "id": "d150ec17",
+    "id": "b38f761f",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$GREE \u2014 a company insider bought $5.0M on Sep 10.\n\nVulcan Infrastructure & Power Inc. 2,923,976 shares at $1.71.\n\nStock is +0.0% since the purchase. This is a public SEC Form 4 filing.",
@@ -190,7 +209,7 @@
     "source_url": "http://openinsider.com/screener?s=GREE",
     "source_title": "Vulcan Infrastructure & Power Inc. (GREE) insider bought $5.0M",
     "source_summary": "1 insider(s) bought 2,923,976 shares at $1.71 on 2026-09-10.",
-    "drafted_at": "2026-09-14T02:08:37.894248",
+    "drafted_at": "2026-09-14T08:13:37.631141",
     "data": {
       "ticker": "GREE",
       "type": "P",
@@ -200,7 +219,7 @@
     "content_hash": "15ddd5c4d5683e23"
   },
   {
-    "id": "05fc2c94",
+    "id": "2d42c460",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$CYBN \u2014 2 company insiders bought $4.9M on Sep 08.\n\nCybin Inc. 400,000 shares at $12.35.\n\nStock is +0.0% since the purchase. This is a public SEC Form 4 filing.\n\nhttp://openinsider.com/screener?s=CYBN",
@@ -210,7 +229,7 @@
     "source_url": "http://openinsider.com/screener?s=CYBN",
     "source_title": "Cybin Inc. (CYBN) insider bought $4.9M",
     "source_summary": "2 insider(s) bought 400,000 shares at $12.35 on 2026-09-08.",
-    "drafted_at": "2026-09-14T02:08:37.894405",
+    "drafted_at": "2026-09-14T08:13:37.631297",
     "data": {
       "ticker": "CYBN",
       "type": "P",
@@ -220,7 +239,7 @@
     "content_hash": "7ff4597a5bf7e727"
   },
   {
-    "id": "aaacd006",
+    "id": "3fd48884",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$PVH \u2014 a company insider bought $1.0M on Sep 11.\n\nPvh Corp. /De/. 14,179 shares at $70.53.\n\nStock is +0.2% since the purchase. This is a public SEC Form 4 filing.",
@@ -230,7 +249,7 @@
     "source_url": "http://openinsider.com/screener?s=PVH",
     "source_title": "Pvh Corp. /De/ (PVH) insider bought $1.0M",
     "source_summary": "1 insider(s) bought 14,179 shares at $70.53 on 2026-09-11.",
-    "drafted_at": "2026-09-14T02:08:37.894608",
+    "drafted_at": "2026-09-14T08:13:37.631468",
     "data": {
       "ticker": "PVH",
       "type": "P",
@@ -240,7 +259,7 @@
     "content_hash": "3c120429b4864abe"
   },
   {
-    "id": "b3ada434",
+    "id": "3563f6ab",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Blockchain security firm Blockaid said roughly 46.1 billion syBTC were minted but the attacker realized only about $336,000 in proceeds.\n\nhttps://www.theblock.co/news/defi/2026-09-13-symbiosis-says-it-recovered-15-btc-after-bitcoin-bridge-exploit-offers-attacker-20-bounty-414568",
@@ -250,14 +269,14 @@
     "source_url": "https://www.theblock.co/news/defi/2026-09-13-symbiosis-says-it-recovered-15-btc-after-bitcoin-bridge-exploit-offers-attacker-20-bounty-414568",
     "source_title": "Symbiosis says it recovered 15 BTC after Bitcoin bridge exploit, offers attacker 20% bounty",
     "source_summary": "Blockchain security firm Blockaid said roughly 46.1 billion syBTC were minted but the attacker realized only about $336,000 in proceeds.",
-    "drafted_at": "2026-09-14T02:08:37.896152",
+    "drafted_at": "2026-09-14T08:13:37.632977",
     "data": {
       "source": "THE BLOCK"
     },
     "content_hash": "212ec46b6e745ac7"
   },
   {
-    "id": "3b285e6a",
+    "id": "7c627310",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Reuters reported that the site was the fourth crypto farm discovered in the area since early 2025, near a local hydroelectric dam.\n\nhttps://www.theblock.co/news/ecosystems/2026-09-13-mexican-authorities-raid-hidden-crypto-mine-suspecting-power-theft-and-money-laundering-414564",
@@ -267,31 +286,14 @@
     "source_url": "https://www.theblock.co/news/ecosystems/2026-09-13-mexican-authorities-raid-hidden-crypto-mine-suspecting-power-theft-and-money-laundering-414564",
     "source_title": "Mexican authorities raid hidden crypto mine, suspecting power theft and money laundering",
     "source_summary": "Reuters reported that the site was the fourth crypto farm discovered in the area since early 2025, near a local hydroelectric dam.",
-    "drafted_at": "2026-09-14T02:08:37.896332",
+    "drafted_at": "2026-09-14T08:13:37.633147",
     "data": {
       "source": "THE BLOCK"
     },
     "content_hash": "380436650a53ddb9"
   },
   {
-    "id": "239fa654",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "California Man Sentenced for Laundering $46 Million in COVID-19 Fraud\n\nhttps://townhall.com/news/scott-mcclallen/2026/09/13/california-man-sentenced-for-laundering-46-million-in-covid-19-fraud-n2682896",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "TOWNHALL FIN",
-    "source_url": "https://townhall.com/news/scott-mcclallen/2026/09/13/california-man-sentenced-for-laundering-46-million-in-covid-19-fraud-n2682896",
-    "source_title": "California Man Sentenced for Laundering $46 Million in COVID-19 Fraud",
-    "source_summary": "",
-    "drafted_at": "2026-09-14T02:08:37.896409",
-    "data": {
-      "source": "TOWNHALL FIN"
-    },
-    "content_hash": "86341428c976fdbe"
-  },
-  {
-    "id": "f584461f",
+    "id": "39a100ea",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The fintech company fulfilled a fraudulent information request sent from a government agency's own email domain, exposing ID documents and full crypto transaction histories for a \"limited\" number of users.\n\nhttps://decrypt.co/378114/revolut-passports-bitcoin-activity-data-breach",
@@ -301,14 +303,14 @@
     "source_url": "https://decrypt.co/378114/revolut-passports-bitcoin-activity-data-breach",
     "source_title": "Revolut Leaks Passports, Bitcoin Transaction Histories to Fake Government Request",
     "source_summary": "The fintech company fulfilled a fraudulent information request sent from a government agency's own email domain, exposing ID documents and full crypto transaction histories for a \"limited\" number of users.",
-    "drafted_at": "2026-09-14T02:08:37.896677",
+    "drafted_at": "2026-09-14T08:13:37.633381",
     "data": {
       "source": "DECRYPT"
     },
     "content_hash": "04d5a3510dc2e2e3"
   },
   {
-    "id": "f8732ec4",
+    "id": "0d1e9130",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The post EPA to Loosen Methane Rules, Boosting Pollution From Oil and Gas Wells appeared first on ProPublica.\n\nhttps://www.propublica.org/article/methane-gas-epa-proposal-stripper-wells",
@@ -318,14 +320,31 @@
     "source_url": "https://www.propublica.org/article/methane-gas-epa-proposal-stripper-wells",
     "source_title": "EPA to Loosen Methane Rules, Boosting Pollution From Oil and Gas Wells",
     "source_summary": "The post EPA to Loosen Methane Rules, Boosting Pollution From Oil and Gas Wells appeared first on ProPublica .",
-    "drafted_at": "2026-09-14T02:08:37.896833",
+    "drafted_at": "2026-09-14T08:13:37.633538",
     "data": {
       "source": "PROPUBLICA"
     },
     "content_hash": "326ae3fe537aa594"
   },
   {
-    "id": "524aa7e8",
+    "id": "caf4bdf3",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Bitcoin Magazine Ringleader of $245M Crypto Theft Pleads Guilty The 22-year-old criminal ringleader led one of the biggest bitcoin heists in U.S. history.\n\nThis post Ringleader of $245M Crypto Theft Pleads Guilty first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.\n\nhttps://bitcoinmagazine.com/news/ringleader-in-bitcoin-theft-guilty",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "BITCOIN MAG",
+    "source_url": "https://bitcoinmagazine.com/news/ringleader-in-bitcoin-theft-guilty",
+    "source_title": "Ringleader of $245M Crypto Theft Pleads Guilty",
+    "source_summary": "Bitcoin Magazine Ringleader of $245M Crypto Theft Pleads Guilty The 22-year-old criminal ringleader led one of the biggest bitcoin heists in U.S. history. This post Ringleader of $245M Crypto Theft Pleads Guilty first appeared on Bitcoin Magazine and is written by Mathew Di Salvo .",
+    "drafted_at": "2026-09-14T08:13:37.633836",
+    "data": {
+      "source": "BITCOIN MAG"
+    },
+    "content_hash": "156338e67c964fd9"
+  },
+  {
+    "id": "3419e7c7",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $SPCX this year \u2014 and these filings don't show them selling:\n\n\u2022 Daniel Meuser (R)\n\u2022 Jared Moskowitz (D)\n\u2022 John McGuire (R)\n\u2022 Gilbert Cisneros (D)\n\nLargest disclosed here: Daniel Meuser, $15,001 - $50,000 on Jun 15.\n\nPrice since the first buy in this group: -6.1%.\n\nSTOCK Act disclosures. Public record.",
@@ -335,7 +354,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034774.pdf",
     "source_title": "4 Congress members bought $SPCX",
     "source_summary": "4 politicians bought $SPCX; largest $15,001 - $50,000 by Daniel Meuser.",
-    "drafted_at": "2026-09-14T02:08:37.898379",
+    "drafted_at": "2026-09-14T08:13:37.635040",
     "data": {
       "ticker": "SPCX",
       "member_count": 4,
@@ -344,7 +363,7 @@
     "content_hash": "585711bf88956fa9"
   },
   {
-    "id": "bbb6d992",
+    "id": "832266f0",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $NVDA this year \u2014 and these filings don't show them selling:\n\n\u2022 Michael Rulli (R)\n\u2022 Cleo Fields (D)\n\u2022 Gilbert Cisneros (D)\n\u2022 John J Mr McGuire (R)\n\nLargest disclosed here: Michael Rulli, $1,001 - $15,000 on Jun 25.\n\nPrice since the first buy in this group: +11.5%.\n\nSTOCK Act disclosures. Public record.",
@@ -354,7 +373,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035147.pdf",
     "source_title": "4 Congress members bought $NVDA",
     "source_summary": "4 politicians bought $NVDA; largest $1,001 - $15,000 by Michael Rulli.",
-    "drafted_at": "2026-09-14T02:08:37.898717",
+    "drafted_at": "2026-09-14T08:13:37.635357",
     "data": {
       "ticker": "NVDA",
       "member_count": 4,
@@ -363,7 +382,7 @@
     "content_hash": "f6cf25ab3c00fb6f"
   },
   {
-    "id": "74941fa6",
+    "id": "24b45d90",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $MU this year \u2014 and these filings don't show them selling:\n\n\u2022 Josh Gottheimer (D)\n\u2022 Sheldon Whitehouse (D)\n\u2022 Michael Rulli (R)\n\u2022 Dan Newhouse (R)\n\nLargest disclosed here: Josh Gottheimer, $1,001 - $15,000 on May 21.\n\nPrice since the first buy in this group: +28.0%.\n\nSTOCK Act disclosures. Public record.",
@@ -373,7 +392,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034693.pdf",
     "source_title": "4 Congress members bought $MU",
     "source_summary": "4 politicians bought $MU; largest $1,001 - $15,000 by Josh Gottheimer.",
-    "drafted_at": "2026-09-14T02:08:37.899027",
+    "drafted_at": "2026-09-14T08:13:37.635680",
     "data": {
       "ticker": "MU",
       "member_count": 4,
@@ -382,17 +401,17 @@
     "content_hash": "7c265a3a54605da1"
   },
   {
-    "id": "41c650b6",
+    "id": "d90af0a6",
     "format": "CONGRESS_WATCH",
     "status": "pending",
-    "draft_text": "3 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 Gilbert Cisneros (D)\n\u2022 Cleo Fields (D)\n\u2022 Jared Moskowitz (D)\n\nLargest disclosed here: Gilbert Cisneros, $50,001 - $100,000 on May 15.\n\nPrice since the first buy in this group: +17.5%.\n\nSTOCK Act disclosures. Public record.\n\nhttps://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034713.pdf",
-    "image_path": null,
+    "draft_text": "3 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 Gilbert Cisneros (D)\n\u2022 Cleo Fields (D)\n\u2022 Jared Moskowitz (D)\n\nLargest disclosed here: Gilbert Cisneros, $50,001 - $100,000 on May 15.\n\nPrice since the first buy in this group: +17.5%.\n\nSTOCK Act disclosures. Public record.",
+    "image_path": "charts/congress/MSFT_cluster.png",
     "og_image_url": null,
     "primary_source": "STOCK Act PTR filings",
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034713.pdf",
     "source_title": "3 Congress members bought $MSFT",
     "source_summary": "3 politicians bought $MSFT; largest $50,001 - $100,000 by Gilbert Cisneros.",
-    "drafted_at": "2026-09-14T02:08:37.899294",
+    "drafted_at": "2026-09-14T08:13:37.635968",
     "data": {
       "ticker": "MSFT",
       "member_count": 3,
@@ -401,7 +420,7 @@
     "content_hash": "568a39394ccac4dc"
   },
   {
-    "id": "b831d732",
+    "id": "7634ba46",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $BRK.B this year \u2014 and these filings don't show them selling:\n\n\u2022 Jerry Moran,\n\u2022 Maria Elvira Salazar (R)\n\u2022 Richard Dean Dr McCormick (R)\n\nLargest disclosed here: Jerry Moran,, $15,001 - $50,000 on Jun 23.\n\nPrice since the first buy in this group: +0.0%.\n\nSTOCK Act disclosures. Public record.\n\nhttps://efdsearch.senate.gov/search/view/ptr/cff197e2-b90b-4b53-b97d-eecf226a1980/",
@@ -411,7 +430,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/cff197e2-b90b-4b53-b97d-eecf226a1980/",
     "source_title": "3 Congress members bought $BRK.B",
     "source_summary": "3 politicians bought $BRK.B; largest $15,001 - $50,000 by Jerry Moran,.",
-    "drafted_at": "2026-09-14T02:08:37.899584",
+    "drafted_at": "2026-09-14T08:13:37.636239",
     "data": {
       "ticker": "BRK.B",
       "member_count": 3,
@@ -420,92 +439,160 @@
     "content_hash": "6f888df9bec37d4e"
   },
   {
-    "id": "a2926f2f",
+    "id": "de12736b",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From the Gulf: The USD/JPY pair attracts some buyers at the start of a new week and climbs closer to the 154.00 mark during the Asian session, reversing a part of Friday's losses.\n\nhttps://www.fxstreet.com/news/japanese-yen-edges-lower-vs-usd-amid-middle-east-jitters-as-fed-boj-meetings-loom-202609140204",
+    "draft_text": "From the Gulf: The recent spike in crude oil prices will likely result in a fresh rate hike by the Fed this week, according to data from CME Group, cited by The National today.\n\nAs much as 90% of respondents from trading circles expect a rate hike of 25 basis points, after last week, the European Central Bank hiked interest rates by the same amount.\n\n\u201cThe conflict in the Middle East continues to generate inflation pressures, and inflation is set to remain well above target for an extended period,\u201d the ECB said in its decision.\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Soaring-Oil-Prices-Put-Fed-on-Track-for-September-Rate-Hike.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "OILPRICE",
+    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Soaring-Oil-Prices-Put-Fed-on-Track-for-September-Rate-Hike.html",
+    "source_title": "Soaring Oil Prices Put Fed on Track for September Rate Hike",
+    "source_summary": "The recent spike in crude oil prices will likely result in a fresh rate hike by the Fed this week, according to data from CME Group, cited by The National today. As much as 90% of respondents from trading circles expect a rate hike of 25 basis points, after last week, the European Central Bank hiked interest rates by the same amount. \u201cThe conflict in the Middle East continues to generate inflation",
+    "drafted_at": "2026-09-14T08:13:37.638541",
+    "data": {
+      "source": "OILPRICE"
+    },
+    "content_hash": "e4e7b76498ea21fd"
+  },
+  {
+    "id": "235a55b7",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Gulf wire: Iran's Foreign Ministry Spokesperson said during the European trading session on Monday that reports about nuclear activity in Iran's Pickaxe mountain (Kolang Kouh) are baseless.\n\nThe spokesperson added, \u201cSaudi Arabia insisted for meeting between Tehran and Gulf powers in Oman not to take place.\u201d\n\nhttps://www.fxstreet.com/news/irans-foreign-ministry-reports-about-nuclear-activity-in-iran-are-baseless-202609140752",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/japanese-yen-edges-lower-vs-usd-amid-middle-east-jitters-as-fed-boj-meetings-loom-202609140204",
-    "source_title": "Japanese Yen edges lower vs USD amid Middle East jitters as Fed, BoJ meetings loom",
-    "source_summary": "The USD/JPY pair attracts some buyers at the start of a new week and climbs closer to the 154.00 mark during the Asian session, reversing a part of Friday's losses.",
-    "drafted_at": "2026-09-14T02:08:37.900684",
+    "source_url": "https://www.fxstreet.com/news/irans-foreign-ministry-reports-about-nuclear-activity-in-iran-are-baseless-202609140752",
+    "source_title": "Iran\u2019s Foreign Ministry: Reports about nuclear activity in Iran are baseless",
+    "source_summary": "Iran's Foreign Ministry Spokesperson said during the European trading session on Monday that reports about nuclear activity in Iran's Pickaxe mountain (Kolang Kouh) are baseless. The spokesperson added, \u201cSaudi Arabia insisted for meeting between Tehran and Gulf powers in Oman not to take place.\u201d",
+    "drafted_at": "2026-09-14T08:13:37.639464",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "aacc23336e9c742c"
+    "content_hash": "964dc093279f3c6c"
   },
   {
-    "id": "3bb459d4",
+    "id": "6b58448f",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From Beijing: The postponed Gulf State meeting highlights challenges in regional diplomacy, affecting market confidence in future U.S.-Iran negotiations.\n\nThe post Trump dismisses Chinese aid to Iran report, Gulf State meeting postponed appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/trump-dismisses-chinese-aid-to-iran-report-gulf-state-meeting-postponed/",
+    "draft_text": "From the Gulf: The question is whether those routes have enough capacity to replace what is being lost at sea.\n\nIranian authorities said in late 2025 that the country's northern ports had more than 30 million tons of nominal annual capacity, with less than one-third in use.\n\nIran is shifting trade toward northern ports and land routes as its southern shipping faces a US blockade.\n\nCan land corridors offset the impact of the maritime blockade on Iran?\n\nThe US-led maritime blockade targeting Iranian ports has severely disrupted trade through its southern ports, but it is also accelerating a strategy Tehran had discussed for years: moving more commerce through northern ports, railways and land corridors.\n\nhttps://www.dw.com/en/can-iran-replace-sea-trade-with-land-routes/a-79211179?maca=en-rss-en-bus-2091-rdf",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "DW",
+    "source_url": "https://www.dw.com/en/can-iran-replace-sea-trade-with-land-routes/a-79211179?maca=en-rss-en-bus-2091-rdf",
+    "source_title": "Can Iran replace sea trade with land routes?",
+    "source_summary": "Iran is shifting trade toward northern ports and land routes as its southern shipping faces a US blockade. Analysts say the corridors can keep essential goods moving, but cannot replace maritime trade.",
+    "drafted_at": "2026-09-14T08:13:37.640859",
+    "data": {
+      "source": "DW"
+    },
+    "content_hash": "c8863ed837a51728"
+  },
+  {
+    "id": "b1d477d3",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "MIDDLE EAST DESK: The Ring is Euronews\u2019 weekly political showdown, where Europe\u2019s toughest debates meet their boldest voices.\n\nIn each episode, two political heavyweights from across the EU face off to propose a diversity of opinions and spark conversations around the most important issues of EU affairs and the wider European political life.\n\nEuronews Tech Talks goes beyond discussions to explore the impact of new technologies on our lives.\n\nWith explanations, engaging Q&As, and lively conversations, the podcast provides valuable insights into the intersection of technology and society.\n\nEurope's best food experts are joining forces to crack down on fraud.\n\nhttps://www.euronews.com/business/2026/09/14/oil-surges-past-107-as-hormuz-attack-and-saudi-pipeline-shutdown-rattle-markets",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "EURONEWS",
+    "source_url": "https://www.euronews.com/business/2026/09/14/oil-surges-past-107-as-hormuz-attack-and-saudi-pipeline-shutdown-rattle-markets",
+    "source_title": "Oil surges past $108 as Hormuz attack and Saudi pipeline shutdown rattle markets",
+    "source_summary": "Brent crude climbed above $108 a barrel on Monday morning after a merchant vessel was struck in the Strait of Hormuz, killing one crew member, and Saudi Arabia shut its main pipeline bypassing the waterway, renewing fears that Middle East supply routes are closing.",
+    "drafted_at": "2026-09-14T08:13:37.642575",
+    "data": {
+      "source": "EURONEWS"
+    },
+    "content_hash": "3ce3f6a4d5b50096"
+  },
+  {
+    "id": "5f626a42",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Gulf wire: Saudi Arabia's move may hinder regional diplomacy, affecting Gulf security dynamics and complicating future US-Iran engagement efforts.\n\nThe post Saudi Arabia blocks Iran-Gulf meeting in Oman amid regional tensions appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/saudi-arabia-blocks-iran-gulf-meeting-in-oman-amid-regional-tensions/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/trump-dismisses-chinese-aid-to-iran-report-gulf-state-meeting-postponed/",
-    "source_title": "Trump dismisses Chinese aid to Iran report, Gulf State meeting postponed",
-    "source_summary": "The postponed Gulf State meeting highlights challenges in regional diplomacy, affecting market confidence in future U.S.-Iran negotiations. The post Trump dismisses Chinese aid to Iran report, Gulf State meeting postponed appeared first on Crypto Briefing .",
-    "drafted_at": "2026-09-14T02:08:37.901225",
+    "source_url": "https://cryptobriefing.com/saudi-arabia-blocks-iran-gulf-meeting-in-oman-amid-regional-tensions/",
+    "source_title": "Saudi Arabia blocks Iran-Gulf meeting in Oman amid regional tensions",
+    "source_summary": "Saudi Arabia's move may hinder regional diplomacy, affecting Gulf security dynamics and complicating future US-Iran engagement efforts. The post Saudi Arabia blocks Iran-Gulf meeting in Oman amid regional tensions appeared first on Crypto Briefing .",
+    "drafted_at": "2026-09-14T08:13:37.642953",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "b9e35c75bacf90a5"
+    "content_hash": "06fc605d6a5d9860"
   },
   {
-    "id": "cb16c715",
-    "format": "GLOBAL_DESK",
+    "id": "d6b82c15",
+    "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: West Texas Intermediate (WTI) oil price rebounds after falling nearly 4% in the previous trading day, hovering around $99.40 per barrel during Asian hours on Monday.\n\nhttps://www.fxstreet.com/news/wti-rebounds-toward-nearly-four-month-highs-after-saudi-pipeline-shutdown-202609140124",
+    "draft_text": "From the inflation desk: OCBC strategist Christopher Wong notes that firmer United States (US) Consumer Price Index (CPI) and a near-90% chance of a September Fed hike have not translated into lasting Dollar strength, with US Dollar Index (DXY) stuck around 99.1.\n\nhttps://www.fxstreet.com/news/us-dollar-index-fed-guidance-key-for-next-leg-ocbc-202609140800",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/wti-rebounds-toward-nearly-four-month-highs-after-saudi-pipeline-shutdown-202609140124",
-    "source_title": "WTI rebounds toward nearly four-month highs after Saudi pipeline shutdown",
-    "source_summary": "West Texas Intermediate (WTI) oil price rebounds after falling nearly 4% in the previous trading day, hovering around $99.40 per barrel during Asian hours on Monday.",
-    "drafted_at": "2026-09-14T02:08:37.901660",
+    "source_url": "https://www.fxstreet.com/news/us-dollar-index-fed-guidance-key-for-next-leg-ocbc-202609140800",
+    "source_title": "US Dollar Index: Fed guidance key for next leg \u2013 OCBC",
+    "source_summary": "OCBC strategist Christopher Wong notes that firmer United States (US) Consumer Price Index (CPI) and a near-90% chance of a September Fed hike have not translated into lasting Dollar strength, with US Dollar Index (DXY) stuck around 99.1.",
+    "drafted_at": "2026-09-14T08:13:37.709184",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "9f18b22d92c2f09d"
+    "content_hash": "5e652ee6a8fe5983"
   },
   {
-    "id": "02b94bb3",
-    "format": "GLOBAL_DESK",
+    "id": "f717a0ee",
+    "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 CHINA: On Monday, the People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7698 compared to Friday's fix of 6.7743 and 6.7083 Reuters estimate.\n\nhttps://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67698-vs-67743-previous-202609140115",
+    "draft_text": "INFLATION READ: Brown Brothers Harriman\u2019s (BBH) Elias Haddad notes that Canada\u2019s August Consumer Price Index (CPI) will test the Bank of Canada\u2019s (BoC) warning that upside inflation risks have increased.\n\nHeadline CPI is expected to remain at 3.0% y/y, while core measures are seen hovering around 2%.\n\nhttps://www.fxstreet.com/news/canadian-dollar-cpi-test-for-boc-inflation-warning-bbh-202609140742",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67698-vs-67743-previous-202609140115",
-    "source_title": "PBOC sets USD/CNY reference rate at 6.7698 vs. 6.7743 previous",
-    "source_summary": "On Monday, the People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7698 compared to Friday's fix of 6.7743 and 6.7083 Reuters estimate.",
-    "drafted_at": "2026-09-14T02:08:37.902004",
+    "source_url": "https://www.fxstreet.com/news/canadian-dollar-cpi-test-for-boc-inflation-warning-bbh-202609140742",
+    "source_title": "Canadian Dollar: CPI test for BoC inflation warning \u2013 BBH",
+    "source_summary": "Brown Brothers Harriman\u2019s (BBH) Elias Haddad notes that Canada\u2019s August Consumer Price Index (CPI) will test the Bank of Canada\u2019s (BoC) warning that upside inflation risks have increased. Headline CPI is expected to remain at 3.0% y/y, while core measures are seen hovering around 2%.",
+    "drafted_at": "2026-09-14T08:13:37.709601",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "3f5f52560932fa93"
+    "content_hash": "f24d7d7f57cdde9b"
   },
   {
-    "id": "9d21068e",
-    "format": "GLOBAL_DESK",
+    "id": "af5b9214",
+    "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "From Beijing: Most battery cells currently rely on raw materials from China.\n\nGM is seeking to establish domestic supply chains both for EVs and energy storage.\n\nhttps://www.cnbc.com/2026/09/12/gm-us-battery-development-ford-china-ties.html",
+    "draft_text": "Inflation update: EUROPEAN SESSION In the European session, we don't have much on the agenda other than the Swiss PPI report.\n\nThe data won't change anything for the SNB, so the market reaction will likely be muted.\n\nThe focus is currently on oil prices, with WTI and Brent both trading above the $100 level amid disruptions in the Strait of Hormuz, Bab-el Mandeb and increased supply concerns after Saudi Arabia shut a key oil pipeline following drone attacks.\n\nLooking ahead, the developments in the Middle East and the FOMC rate decision on Wednesday are going to be key for markets.\n\nAMERICAN SESSION In the American session, the only highlight is the Canadian CPI report.\n\nHeadline CPI Y/Y is expected at 3.0% vs 3.0% prior, while the Trimmed-Mean CPI (the core measure the BoC focuses on) is seen at 1.9% vs 1.9% prior.\n\nAs a reminder, the BoC surprised at the last policy meeting delivering a more hawkish than expected decision.\n\nThe central bank removed the reference to the policy rate being \"appropriate\" and downplayed tariffs headwinds as businesses adapted.\n\nhttps://investinglive.com/news/what-are-the-main-events-for-today-41/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CNBC",
-    "source_url": "https://www.cnbc.com/2026/09/12/gm-us-battery-development-ford-china-ties.html",
-    "source_title": "GM plans U.S. battery development as Trump's DOT attacks Ford for China ties",
-    "source_summary": "Most battery cells currently rely on raw materials from China. GM is seeking to establish domestic supply chains both for EVs and energy storage.",
-    "drafted_at": "2026-09-14T02:08:37.902259",
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/what-are-the-main-events-for-today-41/",
+    "source_title": "What are the main events for today?",
+    "source_summary": "EUROPEAN SESSION In the European session, we don't have much on the agenda other than the Swiss PPI report. The data won't change anything for the SNB, so the market reaction will likely be muted. The focus is currently on oil prices, with WTI and Brent both trading above the $100 level amid disruptions in the Strait of Hormuz, Bab-el Mandeb and increased supply concerns after Saudi Arabia shut a ",
+    "drafted_at": "2026-09-14T08:13:37.710944",
     "data": {
-      "source": "CNBC"
+      "source": "FOREXLIVE"
     },
-    "content_hash": "ce3485ea13c9b234"
+    "content_hash": "78b0039350af46b6"
   },
   {
-    "id": "0c921930",
+    "id": "5c0b485d",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "INFLATION READ: The heads of US frontier AI labs are terrified of China Anthropic, OpenAI and Google held talks on AI safety body, report says Ripple's RLUSD supply hits fresh all-time high as XRP price lags behind PBOC sets USD/ CNY reference rate for today at 6.7698 (vs. estimate at 6.7083) CICC warns $100 oil could bring demand destruction into view Musk highly confident SpaceX will launch Nvidia AI computers into orbit in 2027 Carney explores Canada as EU associate member, WSJ reports Trump wants future Iran talks focused on nuclear file, not Hormuz, sources say NZ services sector expands for third month as PSI rises to 51.2 Weekend: Tanker hit by projectile in Hormuz as fresh attacks reported at sea Oil gap higher: Saudi pipeline shut after drone attack as Hormuz meeting is postponed Globex is open and oil has jumped higher while stocks have slumped.\n\nTesla's flying Roadster demo to land after years of missed reveal dates Democrats meet ahead of Tuesday's crucial Clarity Act vote; BTC, ETH implications.\n\nECB chief Lagarde says euro-area inflation shock will last longer than expected Nasdaq futures set to open lower as Altman rules out 2026 OpenAI IPO Monday open indicative forex prices, 14 September 2026 Iran says Hormuz meeting with Gulf states postponed at request of regional countries investingLive Americas FX news wrap 11 Sept: US CPI raises odds for Fed rate hike Summary: Oil opened the week with a gap higher that held through the session, as the Middle East conflict continued to threaten global energy supply.\n\nSaudi Arabia's East-West pipeline remains shut after last week's attack, with initial reports citing sources inside Saudi Arabia describing catastrophic damage to pumping infrastructure at a minimum of eight locations, and repairs expected to take considerably longer than a month due to a shortage of spare parts.\n\nThree industry sources told Reuters Saudi Arabia is on track to exhaust its crude export stocks within five to seven days, potentially removing around 4 million barrels per day, roughly 4% of global supply, from the market.\n\nOman postponed the Persian Gulf foreign ministers meeting at which Iran had been expected to formally unveil an agreement on a temporary Hormuz shipping lane.\n\nGold traded around $4,340, and the US dollar was a little stronger on the session.\n\nUS equity index futures gapped lower and traded heavily, with analysts pointing to reports that Anthropic and OpenAI have been involved in discussions around pacing AI development as a factor weighing on sentiment.\n\nhttps://investinglive.com/news/investinglive-asia-pacific-market-news-oil-holds-gap-higher/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-oil-holds-gap-higher/",
+    "source_title": "investingLive Asia-Pacific market news: Oil holds gap higher",
+    "source_summary": "The heads of US frontier AI labs are terrified of China Anthropic, OpenAI and Google held talks on AI safety body, report says Ripple's RLUSD supply hits fresh all-time high as XRP price lags behind PBOC sets USD/ CNY reference rate for today at 6.7698 (vs. estimate at 6.7083) CICC warns $100 oil could bring demand destruction into view Musk highly confident SpaceX will launch Nvidia AI computers ",
+    "drafted_at": "2026-09-14T08:13:37.714436",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "4d109298ab46cea0"
+  },
+  {
+    "id": "9d034c5e",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "Consumer scoreboard: The stock market, including the Dow Jones index, ended Friday higher but fell to a weekly loss.\n\nThe Fed decision on interest rates now looms.\n\nThe post Stock Market Rebounds, Trims Weekly Losses; Fed Rate Decision, Retail Sales Due appeared first on Investor's Business Daily.\n\nhttps://www.investors.com/market-trend/the-big-picture/stock-market-rebounds-trims-weekly-loss-fed-rate-decision-retail-sales-due/",
@@ -515,48 +602,14 @@
     "source_url": "https://www.investors.com/market-trend/the-big-picture/stock-market-rebounds-trims-weekly-loss-fed-rate-decision-retail-sales-due/",
     "source_title": "Stock Market Rebounds, Trims Weekly Losses; Fed Rate Decision, Retail Sales Due",
     "source_summary": "The stock market, including the Dow Jones index, ended Friday higher but fell to a weekly loss. The Fed decision on interest rates now looms. The post Stock Market Rebounds, Trims Weekly Losses; Fed Rate Decision, Retail Sales Due appeared first on Investor's Business Daily .",
-    "drafted_at": "2026-09-14T02:08:37.969567",
+    "drafted_at": "2026-09-14T08:13:37.714834",
     "data": {
       "source": "IBD"
     },
     "content_hash": "e50e40e71d5f187f"
   },
   {
-    "id": "897950a1",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "From the inflation desk: US stocks rebound sharply, but major indices still close lower for the week Bitcoin sellers regain the short-term advantage ahead of weekend trading Why the Saudi Arabian pipeline strike is such a big deal JPMorgan now sees the Fed hiking in September and December US August Federal budget deficit $167 billion vs $404 billion expected ECB's Lane: If the rise in energy prices persists, maybe it will hit consumption Oil falls despite fresh attacks on Saudi energy infrastructure Meta stock surges on Muse AI launch\u2014but can it break key resistance?\n\nUMich September consumer sentiment 47.8 vs 51.0 expected Back up the garbage truck: A look at how AI will impact margins in AI Forex Kickstart: USD mixed as markets await the US CPI report US August CPI 3.4% vs 3.4% expected investingLive European news wrap: The calm before the storm?\n\nYemen's Iran-backed Houthis have completed the takeover of Bab el-Mandeb Strait The North American session featured plenty of crosscurrents on Friday.\n\nUS inflation remained elevated, consumer sentiment weakened, Treasury yields moved mostly higher and Middle East tensions continued to threaten global energy supplies.\n\nNevertheless, US stocks rebounded following four consecutive days of declines, helped by a sharp reversal lower in crude oil (go figure).\n\nUS inflation keeps the Fed on alert The August Consumer Price Index rose 0.4% month-over-month, accelerating from the 0.1% increase in July.\n\nHeadline inflation remained at 3.4% year-over-year.\n\nCore CPI, which excludes food and energy, increased 0.3% for the month and 2.4% from a year ago.\n\nhttps://investinglive.com/news/investinglive-americas-fx-news-wrap-11-sept-us-cpi-keeps-fed-raises-odds-for-fed-rate-hike/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-11-sept-us-cpi-keeps-fed-raises-odds-for-fed-rate-hike/",
-    "source_title": "investingLive Americas FX news wrap 11 Sept: US CPI raises odds for Fed rate hike",
-    "source_summary": "US stocks rebound sharply, but major indices still close lower for the week Bitcoin sellers regain the short-term advantage ahead of weekend trading Why the Saudi Arabian pipeline strike is such a big deal JPMorgan now sees the Fed hiking in September and December US August Federal budget deficit $167 billion vs $404 billion expected ECB's Lane: If the rise in energy prices persists, maybe it will",
-    "drafted_at": "2026-09-14T02:08:37.973344",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "3a77ac9efcbb390e"
-  },
-  {
-    "id": "0bd137b2",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "Inflation update: Priorwas 51.0 Current conditions 50.9 vs 51.3 exp Expectations 45.8 vs 50.5 exp One-year inflation 4.6% vs 4.0% exp Five-year inflation 3.4% vs 3.3% exp Those inflation expectations numbers will further tilt the Fed towards hiking rates next week.\n\nI think it's a done deal now and the market has it at 82%.\n\nThis article was written by Adam Button at investinglive.com.\n\nhttps://investinglive.com/news/umich-september-consumer-sentiment-47-8-vs-51-0-expected/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/umich-september-consumer-sentiment-47-8-vs-51-0-expected/",
-    "source_title": "UMich September consumer sentiment 47.8 vs 51.0 expected",
-    "source_summary": "Priorwas 51.0 Current conditions 50.9 vs 51.3 exp Expectations 45.8 vs 50.5 exp One-year inflation 4.6% vs 4.0% exp Five-year inflation 3.4% vs 3.3% exp Those inflation expectations numbers will further tilt the Fed towards hiking rates next week. I think it's a done deal now and the market has it at 82%. This article was written by Adam Button at investinglive.com.",
-    "drafted_at": "2026-09-14T02:08:37.973803",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "edde912c6d5c30ae"
-  },
-  {
-    "id": "2dd2237b",
+    "id": "66d3422c",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -566,7 +619,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-09-14T02:08:37.975423",
+    "drafted_at": "2026-09-14T08:13:37.720544",
     "data": {
       "manual": true,
       "via": "manual_news.md"

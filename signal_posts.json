@@ -1,18 +1,4 @@
 {
-  "BTC-USD:move:2026-09-13": {
-    "headline": "Bitcoin drops 5.1% in 5 sessions to $77,101",
-    "matters": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
-    "source": "Yahoo Finance \u00b7 BTC-USD",
-    "chart_path": null,
-    "signal_id": "BTC-USD:move:2026-09-13",
-    "current_str": "$77,101",
-    "label": "Bitcoin",
-    "hashtags": "#Bitcoin #BTC #Crypto",
-    "kind": "move_down",
-    "badge": "-5.1%",
-    "data_url": "https://finance.yahoo.com/quote/BTC-USD",
-    "fired_at": "2026-09-13T06:56:14.192371"
-  },
   "CL=F:move:2026-09-13": {
     "headline": "WTI crude surges 12.2% in 5 sessions to $102.42",
     "matters": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
@@ -26,5 +12,33 @@
     "badge": "+12.2%",
     "data_url": "https://finance.yahoo.com/quote/CL%3DF",
     "fired_at": "2026-09-13T23:44:56.754989"
+  },
+  "^VIX:move:2026-09-14": {
+    "headline": "VIX rips 22.1% in 5 sessions to 17.74",
+    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "source": "CBOE \u00b7 ^VIX",
+    "chart_path": null,
+    "signal_id": "^VIX:move:2026-09-14",
+    "current_str": "17.74",
+    "label": "VIX (S&P 500 volatility)",
+    "hashtags": "#VIX #Volatility #Markets",
+    "kind": "move_up",
+    "badge": "+22.1%",
+    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "fired_at": "2026-09-14T08:13:35.183593"
+  },
+  "CL=F:move:2026-09-14": {
+    "headline": "WTI crude surges 12.0% in 5 sessions to $102.44",
+    "matters": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "source": "NYMEX \u00b7 CL=F",
+    "chart_path": null,
+    "signal_id": "CL=F:move:2026-09-14",
+    "current_str": "$102.44",
+    "label": "WTI crude oil futures",
+    "hashtags": "#Oil #WTI #Energy #Commodities",
+    "kind": "move_up",
+    "badge": "+12.0%",
+    "data_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "fired_at": "2026-09-14T08:13:35.183593"
   }
 }
