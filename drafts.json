@@ -1,42 +1,44 @@
 [
   {
-    "id": "b3b9de13",
-    "format": "LOUD_HOWL",
-    "status": "pending",
-    "draft_text": "Gold price (XAU/USD) tumbles to near $4,295 during the early Asian session on Tuesday.\n\nThe precious metal faces some selling pressure as rising bond yields and surging energy prices strengthen expectations that the US Federal Reserve (Fed) will raise interest rates this week.\n\nhttps://www.fxstreet.com/news/gold-falls-below-4-300-as-higher-us-yields-bolster-fed-rate-hike-bets-202609142314",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/gold-falls-below-4-300-as-higher-us-yields-bolster-fed-rate-hike-bets-202609142314",
-    "source_title": "Gold falls below $4,300 as higher US yields bolster Fed rate hike bets",
-    "source_summary": "Gold price (XAU/USD) tumbles to near $4,295 during the early Asian session on Tuesday. The precious metal faces some selling pressure as rising bond yields and surging energy prices strengthen expectations that the US Federal Reserve (Fed) will raise interest rates this week.",
-    "drafted_at": "2026-09-15T00:04:05.907549",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "cd42b7f41c2550ae"
-  },
-  {
-    "id": "64470c9a",
+    "id": "49b00820",
     "format": "MARKET_MOVE",
     "status": "pending",
-    "draft_text": "Two seconds, trust me. VIX rips 22.1% in 5 sessions to 17.74.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
+    "draft_text": "Two seconds, trust me. VIX rips 17.7% in 5 sessions to 17.10.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CBOE \u00b7 ^VIX",
     "source_url": "https://finance.yahoo.com/quote/%5EVIX",
     "source_title": "VIX (S&P 500 volatility)",
     "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-09-15T00:04:05.907835",
+    "drafted_at": "2026-09-15T05:34:04.340182",
     "data": {
       "signal_id": "^VIX:move:2026-09-14",
       "kind": "move_up",
-      "current": "17.74"
+      "current": "17.10"
     },
     "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "37cb499f",
+    "id": "bc161837",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Real-time update for the pack: WTI crude surges 12.9% in 5 sessions to $103.32.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NYMEX \u00b7 CL=F",
+    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "source_title": "WTI crude oil futures",
+    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "drafted_at": "2026-09-15T05:34:04.340408",
+    "data": {
+      "signal_id": "CL=F:move:2026-09-15",
+      "kind": "move_up",
+      "current": "$103.32"
+    },
+    "content_hash": "c272de0720a2f459"
+  },
+  {
+    "id": "05b019f1",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Numbers don't lie. Look: WTI crude surges 12.0% in 5 sessions to $102.44.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
@@ -46,7 +48,7 @@
     "source_url": "https://finance.yahoo.com/quote/CL%3DF",
     "source_title": "WTI crude oil futures",
     "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-09-15T00:04:05.908122",
+    "drafted_at": "2026-09-15T05:34:04.340575",
     "data": {
       "signal_id": "CL=F:move:2026-09-14",
       "kind": "move_up",
@@ -55,58 +57,7 @@
     "content_hash": "c272de0720a2f459"
   },
   {
-    "id": "ad843d12",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "FOMC update. Gold price (XAU/USD) tumbles to near $4,295 during the early Asian session on Tuesday.\n\nThe precious metal faces some selling pressure as rising bond yields and surging energy prices strengthen expectations that the US Federal Reserve (Fed) will raise interest rates this week.\n\nhttps://www.fxstreet.com/news/gold-falls-below-4-300-as-higher-us-yields-bolster-fed-rate-hike-bets-202609142314",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://www.fxstreet.com/news/gold-falls-below-4-300-as-higher-us-yields-bolster-fed-rate-hike-bets-202609142314",
-    "source_title": "Gold falls below $4,300 as higher US yields bolster Fed rate hike bets",
-    "source_summary": "Gold price (XAU/USD) tumbles to near $4,295 during the early Asian session on Tuesday. The precious metal faces some selling pressure as rising bond yields and surging energy prices strengthen expectations that the US Federal Reserve (Fed) will raise interest rates this week.",
-    "drafted_at": "2026-09-15T00:04:05.919628",
-    "data": {
-      "actor": "Fed"
-    },
-    "content_hash": "cd42b7f41c2550ae"
-  },
-  {
-    "id": "aca54e71",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "FOMC update. EUR/USD closed near 1.1550 on Monday, 0.42% lower, and beneath both of its moving averages for the first time since late July.\n\nThe 50-day and 200-day Exponential Moving Averages (EMA), the chart's two usual reference lines, now sit two pips apart, so the pair fell through one line rather than two.\n\nhttps://www.fxstreet.com/news/the-euro-breaks-both-its-moving-averages-as-the-feds-hike-becomes-certain-202609142226",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://www.fxstreet.com/news/the-euro-breaks-both-its-moving-averages-as-the-feds-hike-becomes-certain-202609142226",
-    "source_title": "The Euro breaks both its moving averages as the Fed's hike becomes certain",
-    "source_summary": "EUR/USD closed near 1.1550 on Monday, 0.42% lower, and beneath both of its moving averages for the first time since late July. The 50-day and 200-day Exponential Moving Averages (EMA), the chart's two usual reference lines, now sit two pips apart, so the pair fell through one line rather than two.",
-    "drafted_at": "2026-09-15T00:04:05.920055",
-    "data": {
-      "actor": "Fed"
-    },
-    "content_hash": "994e7acf6f0dd322"
-  },
-  {
-    "id": "60c68bfc",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "POWELL POSTCARD: GBP/USD closed just beneath 1.3500 on Monday, 0.19% lower, after trading to its lowest since August 14 in the London morning and buying back half of the drop by the close.\n\nhttps://www.fxstreet.com/news/the-pound-tests-an-august-low-on-the-feds-hike-odds-202609142206",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://www.fxstreet.com/news/the-pound-tests-an-august-low-on-the-feds-hike-odds-202609142206",
-    "source_title": "The Pound tests an August low on the Fed's hike odds",
-    "source_summary": "GBP/USD closed just beneath 1.3500 on Monday, 0.19% lower, after trading to its lowest since August 14 in the London morning and buying back half of the drop by the close.",
-    "drafted_at": "2026-09-15T00:04:05.920319",
-    "data": {
-      "actor": "Fed"
-    },
-    "content_hash": "924bdb48302dc101"
-  },
-  {
-    "id": "f867c787",
+    "id": "c18e3c07",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "POWELL POSTCARD: Dow Jones Futures: Nvidia stock, Micron and Sandisk dived on an AI warning ahead of a widely expected rate hike at this week's Fed meeting.\n\nThe post Dow Jones Futures: Nvidia, Micron, Sandisk Dive On AI Fears; Fed Rate Hike Looms appeared first on Investor's Business Daily.\n\nhttps://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-nvidia-nvda-micron-sandisk-ai-warning-fed-rate-hike/",
@@ -116,14 +67,14 @@
     "source_url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-nvidia-nvda-micron-sandisk-ai-warning-fed-rate-hike/",
     "source_title": "Dow Jones Futures: Nvidia, Micron, Sandisk Dive On AI Fears; Fed Rate Hike Looms",
     "source_summary": "Dow Jones Futures: Nvidia stock, Micron and Sandisk dived on an AI warning ahead of a widely expected rate hike at this week's Fed meeting. The post Dow Jones Futures: Nvidia, Micron, Sandisk Dive On AI Fears; Fed Rate Hike Looms appeared first on Investor's Business Daily .",
-    "drafted_at": "2026-09-15T00:04:05.920681",
+    "drafted_at": "2026-09-15T05:34:04.348161",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "a404f7a66aef3190"
   },
   {
-    "id": "c6fcd670",
+    "id": "fb5cd2d2",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FOMC desk: InvestorPlace - Stock Market News, Stock Advice & Trading Tips The bond market is flashing a warning.\n\nTreasury yields have been climbing as investors react to higher energy prices and the inflationary pressure that comes with them.\n\nAnd that is putting the Federal Reserve in a difficult spot.\n\nIn my view, the Fed should not raise interest rates simply because oil, diesel and jet fuel\u2026 The post 4 Stocks to Buy Now as the Fed Faces a Big Decision appeared first on InvestorPlace.\n\nhttps://investorplace.com/market360/2026/09/4-stocks-to-buy-now-as-the-fed-faces-a-big-decision/",
@@ -133,14 +84,65 @@
     "source_url": "https://investorplace.com/market360/2026/09/4-stocks-to-buy-now-as-the-fed-faces-a-big-decision/",
     "source_title": "4 Stocks to Buy Now as the Fed Faces a Big Decision",
     "source_summary": "InvestorPlace - Stock Market News, Stock Advice & Trading Tips The bond market is flashing a warning. Treasury yields have been climbing as investors react to higher energy prices and the inflationary pressure that comes with them. And that is putting the Federal Reserve in a difficult spot. In my view, the Fed should not raise interest rates simply because oil, diesel and jet fuel\u2026 The post 4 Sto",
-    "drafted_at": "2026-09-15T00:04:05.921280",
+    "drafted_at": "2026-09-15T05:34:04.348584",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "54c7948b6f376cd1"
   },
   {
-    "id": "a562f34a",
+    "id": "77ea0e95",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "FOMC desk: Bitcoin added 2.3% to $79,164 and set its session high in New York rather than overnight, while the S&P 500 held a 0.3% loss.\n\nSeventy-nine of the 121 largest non-stablecoin tokens rose.\n\nThe Senate votes at 2:15 p.m. Tuesday on whether to take up the CLARITY Act, and Polymarket traders price a\n\nhttps://thedefiant.io/news/markets/xrp-leads-broad-crypto-bid-senate-vote-fed-decision-sep-14-2026",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Fed",
+    "source_url": "https://thedefiant.io/news/markets/xrp-leads-broad-crypto-bid-senate-vote-fed-decision-sep-14-2026",
+    "source_title": "XRP Leads a Broad Crypto Bid on the Eve of a Senate Vote and a Fed Decision",
+    "source_summary": "Bitcoin added 2.3% to $79,164 and set its session high in New York rather than overnight, while the S&P 500 held a 0.3% loss. Seventy-nine of the 121 largest non-stablecoin tokens rose. The Senate votes at 2:15 p.m. Tuesday on whether to take up the CLARITY Act, and Polymarket traders price a",
+    "drafted_at": "2026-09-15T05:34:04.348832",
+    "data": {
+      "actor": "Fed"
+    },
+    "content_hash": "8d5299f287bd92de"
+  },
+  {
+    "id": "67d4c775",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "FOMC update. The 10-year Treasury yield touched 5% Monday for the first time since October 2023.\n\nWill the stock market continue to fall if the Fed raises interest rates?\n\nHow Will Stocks Respond To A Fed Rate Hike? appeared first on Investor's Business Daily.\n\nhttps://www.investors.com/news/stock-market-10-year-treasury-yield/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Fed",
+    "source_url": "https://www.investors.com/news/stock-market-10-year-treasury-yield/",
+    "source_title": "Benchmark Yield Hits 5%. How Will Stocks Respond To A Fed Rate Hike?",
+    "source_summary": "The 10-year Treasury yield touched 5% Monday for the first time since October 2023. Will the stock market continue to fall if the Fed raises interest rates? The post Benchmark Yield Hits 5%. How Will Stocks Respond To A Fed Rate Hike? appeared first on Investor's Business Daily .",
+    "drafted_at": "2026-09-15T05:34:04.349040",
+    "data": {
+      "actor": "Fed"
+    },
+    "content_hash": "87d7c025a04b3c26"
+  },
+  {
+    "id": "bd70b2f4",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "Central bank corner: The proposed guidance reflects the agencies' supervisory experience and lessons learned from examining financial institutions' third-party risk management practices.\n\nThe proposed guidance focuses on a principles-based approach and, as with all supervisory guidance, is non-binding.\n\nWhen finalized, the federal bank regulatory agencies plan to rescind existing third-party risk management guidance and replace it with the finalized guidance to promote consistency and prudent innovation in the banking industry.\n\nComments on the proposed guidance are due 60 days after publication in the Federal Register.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260911a.htm",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260911a.htm",
+    "source_title": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
+    "source_summary": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
+    "drafted_at": "2026-09-15T05:34:04.349747",
+    "data": {
+      "actor": "FED"
+    },
+    "content_hash": "abb2dd8004f9274f"
+  },
+  {
+    "id": "e111891b",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$RSG \u2014 a company insider bought $129.3M on Sep 10.\n\nRepublic Services, Inc. 580,810 shares at $222.63.\n\nStock is +0.0% since the purchase. This is a public SEC Form 4 filing.",
@@ -150,7 +152,7 @@
     "source_url": "http://openinsider.com/screener?s=RSG",
     "source_title": "Republic Services, Inc. (RSG) insider bought $129.3M",
     "source_summary": "1 insider(s) bought 580,810 shares at $222.63 on 2026-09-10.",
-    "drafted_at": "2026-09-15T00:04:05.927180",
+    "drafted_at": "2026-09-15T05:34:04.351002",
     "data": {
       "ticker": "RSG",
       "type": "P",
@@ -160,7 +162,7 @@
     "content_hash": "b398f12babcdca0f"
   },
   {
-    "id": "30d7f060",
+    "id": "9b3dc27e",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$UBER \u2014 2 company insiders bought $15.3M on Sep 04.\n\nUber Technologies, Inc. 211,000 shares at $72.58.\n\nStock is -1.3% since the purchase. This is a public SEC Form 4 filing.",
@@ -170,7 +172,7 @@
     "source_url": "http://openinsider.com/screener?s=UBER",
     "source_title": "Uber Technologies, Inc (UBER) insider bought $15.3M",
     "source_summary": "2 insider(s) bought 211,000 shares at $72.58 on 2026-09-04.",
-    "drafted_at": "2026-09-15T00:04:05.927383",
+    "drafted_at": "2026-09-15T05:34:04.351127",
     "data": {
       "ticker": "UBER",
       "type": "P",
@@ -180,7 +182,7 @@
     "content_hash": "2195c99d587fedc0"
   },
   {
-    "id": "b87072b9",
+    "id": "ea066365",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$PMTS \u2014 a company insider bought $11.3M on Sep 14.\n\nCpi Card Group Inc. 525,000 shares at $21.50.\n\nStock is +4.7% since the purchase. This is a public SEC Form 4 filing.",
@@ -190,7 +192,7 @@
     "source_url": "http://openinsider.com/screener?s=PMTS",
     "source_title": "Cpi Card Group Inc. (PMTS) insider bought $11.3M",
     "source_summary": "1 insider(s) bought 525,000 shares at $21.50 on 2026-09-14.",
-    "drafted_at": "2026-09-15T00:04:05.927574",
+    "drafted_at": "2026-09-15T05:34:04.351244",
     "data": {
       "ticker": "PMTS",
       "type": "P",
@@ -200,7 +202,7 @@
     "content_hash": "50b347722ea98a8a"
   },
   {
-    "id": "8f2af09b",
+    "id": "26124970",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$INBX \u2014 2 company insiders bought $2.9M on Sep 08.\n\nInhibrx Biosciences, Inc. 27,500 shares at $106.62.\n\nStock is +2.5% since the purchase. This is a public SEC Form 4 filing.",
@@ -210,7 +212,7 @@
     "source_url": "http://openinsider.com/screener?s=INBX",
     "source_title": "Inhibrx Biosciences, Inc. (INBX) insider bought $2.9M",
     "source_summary": "2 insider(s) bought 27,500 shares at $106.62 on 2026-09-08.",
-    "drafted_at": "2026-09-15T00:04:05.927764",
+    "drafted_at": "2026-09-15T05:34:04.351361",
     "data": {
       "ticker": "INBX",
       "type": "P",
@@ -220,7 +222,7 @@
     "content_hash": "1b20ea8e0a00c30b"
   },
   {
-    "id": "2e46c4b8",
+    "id": "6be6ffce",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$ANGX \u2014 3 company insiders bought $5.9M on Sep 11.\n\nAngel Studios, Inc. 1,288,309 shares at $4.55.\n\nStock is +20.4% since the purchase. This is a public SEC Form 4 filing.",
@@ -230,7 +232,7 @@
     "source_url": "http://openinsider.com/screener?s=ANGX",
     "source_title": "Angel Studios, Inc. (ANGX) insider bought $5.9M",
     "source_summary": "3 insider(s) bought 1,288,309 shares at $4.55 on 2026-09-11.",
-    "drafted_at": "2026-09-15T00:04:05.927975",
+    "drafted_at": "2026-09-15T05:34:04.351495",
     "data": {
       "ticker": "ANGX",
       "type": "P",
@@ -240,7 +242,75 @@
     "content_hash": "17f5a21771b676b3"
   },
   {
-    "id": "2cc53816",
+    "id": "796c35f4",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "U.S. DOJ seeks $61 million in what it calls Iran's crypto-laundered black market oil sales\n\nhttps://www.coindesk.com/markets/2026/09/15/u-s-doj-seeks-usd61-million-in-what-it-calls-crypto-laundered-iranian-oil-proceeds",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "COINDESK",
+    "source_url": "https://www.coindesk.com/markets/2026/09/15/u-s-doj-seeks-usd61-million-in-what-it-calls-crypto-laundered-iranian-oil-proceeds",
+    "source_title": "U.S. DOJ seeks $61 million in what it calls Iran's crypto-laundered black market oil sales",
+    "source_summary": "",
+    "drafted_at": "2026-09-15T05:34:04.352921",
+    "data": {
+      "source": "COINDESK"
+    },
+    "content_hash": "9208e4fe6ad36dff"
+  },
+  {
+    "id": "dcbb2411",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Prosecutors alleged that two Chinese companies used Binance to launder those funds to Iran and its proxies.\n\nhttps://www.theblock.co/news/regulation/2026-09-15-doj-61-million-crypto-proceeds-iranian-oil-sales-414768",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "THE BLOCK",
+    "source_url": "https://www.theblock.co/news/regulation/2026-09-15-doj-61-million-crypto-proceeds-iranian-oil-sales-414768",
+    "source_title": "US DOJ seeks $61 million in crypto proceeds from illicit Iranian oil sales laundered on Binance",
+    "source_summary": "Prosecutors alleged that two Chinese companies used Binance to launder those funds to Iran and its proxies.",
+    "drafted_at": "2026-09-15T05:34:04.353024",
+    "data": {
+      "source": "THE BLOCK"
+    },
+    "content_hash": "c42abcbe50b3e10b"
+  },
+  {
+    "id": "103f4a07",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "14, 2026 /PRNewswire/ -- Rosen Law Firm, a global investor rights law firm, reminds purchasers of ordinary shares of Pentair plc (NYSE: PNR) between March 11, 2025 and July 14, 2026, inclusive (the \"Class Period\"), of the important October 2, 2026 lead plaintiff deadline....\n\nhttps://www.prnewswire.com/news-releases/pnr-investors-have-opportunity-to-lead-pentair-plc-securities-fraud-lawsuit-302877038.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "PR NEWSWIRE",
+    "source_url": "https://www.prnewswire.com/news-releases/pnr-investors-have-opportunity-to-lead-pentair-plc-securities-fraud-lawsuit-302877038.html",
+    "source_title": "PNR Investors Have Opportunity to Lead Pentair plc Securities Fraud Lawsuit",
+    "source_summary": "NEW YORK, Sept. 14, 2026 /PRNewswire/ -- Rosen Law Firm, a global investor rights law firm, reminds purchasers of ordinary shares of Pentair plc (NYSE: PNR) between March 11, 2025 and July 14, 2026, inclusive (the \"Class Period\"), of the important October 2, 2026 lead plaintiff deadline....",
+    "drafted_at": "2026-09-15T05:34:04.353224",
+    "data": {
+      "source": "PR NEWSWIRE"
+    },
+    "content_hash": "f21f9418d0295e38"
+  },
+  {
+    "id": "81e92912",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "China targets overseas brokerages in crackdown on pay loopholes and corruption South China Morning Post\n\nhttps://news.google.com/rss/articles/CBMi2AFBVV95cUxPMlVOTjQ5bjJXMTE0eUQ1Q2tVbUEtTk10WVg0dkl3ZzJvMWQ2ZUtaS3FXM1NhRV9MU21ycGs3eW04UVpFSFZFSmg5VXZlbHZDelQ0NGFPM1I0Y203VExPcXVNa1EySkEtQmUxWmhqam51T0xDeFJGSC1GWDdNQUVYbk4zdFAtbGdna1ZnelY4LUtjLVBlY1J2aE13WnpIRHhxU1RrUlBkY2wxZU15TTZtZV9pSEhBZ0ROWk1QVnBDZkx4aTNOZHlVbTdjVlRuRVBaNXhTTGk5Wk7SAdgBQVVfeXFMUEV3eWZhM3JBd21pdUF5Q0ZsMnpiMTZRQUVUZDJKTzdtS2ZxRGpCWlM4ZlM5bHdlTm9EalUzeDJZOFdZUUx3QUNLajRKTXg4MTJ6NHlJcmVfZVVzaFhzTFpyaWo0T2ZlbnlFTUFRc2F0aDRCN29JVGNTNUxtaXowSFdkZVp3ZGtfN3ZTOC1IWmhnY0pUZUVJc2NzdkxMSnNEVmd2dHZlcXdjdUJtaWNjV3lWMmRCaWltQVlVcUs4XzNLWjR3LUJ4U0ZGVHZPRGdzdkpvVnlwV25s?oc=5",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "SCMP",
+    "source_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMlVOTjQ5bjJXMTE0eUQ1Q2tVbUEtTk10WVg0dkl3ZzJvMWQ2ZUtaS3FXM1NhRV9MU21ycGs3eW04UVpFSFZFSmg5VXZlbHZDelQ0NGFPM1I0Y203VExPcXVNa1EySkEtQmUxWmhqam51T0xDeFJGSC1GWDdNQUVYbk4zdFAtbGdna1ZnelY4LUtjLVBlY1J2aE13WnpIRHhxU1RrUlBkY2wxZU15TTZtZV9pSEhBZ0ROWk1QVnBDZkx4aTNOZHlVbTdjVlRuRVBaNXhTTGk5Wk7SAdgBQVVfeXFMUEV3eWZhM3JBd21pdUF5Q0ZsMnpiMTZRQUVUZDJKTzdtS2ZxRGpCWlM4ZlM5bHdlTm9EalUzeDJZOFdZUUx3QUNLajRKTXg4MTJ6NHlJcmVfZVVzaFhzTFpyaWo0T2ZlbnlFTUFRc2F0aDRCN29JVGNTNUxtaXowSFdkZVp3ZGtfN3ZTOC1IWmhnY0pUZUVJc2NzdkxMSnNEVmd2dHZlcXdjdUJtaWNjV3lWMmRCaWltQVlVcUs4XzNLWjR3LUJ4U0ZGVHZPRGdzdkpvVnlwV25s?oc=5",
+    "source_title": "China targets overseas brokerages in crackdown on pay loopholes and corruption",
+    "source_summary": "China targets overseas brokerages in crackdown on pay loopholes and corruption South China Morning Post",
+    "drafted_at": "2026-09-15T05:34:04.353299",
+    "data": {
+      "source": "SCMP"
+    },
+    "content_hash": "7b6e83a4762fbcec"
+  },
+  {
+    "id": "9a47ee24",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Confidential records reveal how the Industrial and Commercial Bank of China\u2019s London units courted high-risk clients to secure resources and alliances for Xi Jinping\u2019s regime.\n\nhttps://www.icij.org/investigations/china-capital/china-banking-icbc-oligarchs-sanctions-london/",
@@ -250,82 +320,14 @@
     "source_url": "https://www.icij.org/investigations/china-capital/china-banking-icbc-oligarchs-sanctions-london/",
     "source_title": "Chinese banking giant serves firms linked to oligarchs and autocrats to push Beijing\u2019s agenda",
     "source_summary": "Confidential records reveal how the Industrial and Commercial Bank of China\u2019s London units courted high-risk clients to secure resources and alliances for Xi Jinping\u2019s regime.",
-    "drafted_at": "2026-09-15T00:04:05.930486",
+    "drafted_at": "2026-09-15T05:34:04.353465",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "f64715a76ccd13e0"
   },
   {
-    "id": "54119963",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "The urgent operation exposes how readily ICBC\u2019s local branch bypassed internal checks to boost a Beijing favorite.\n\nhttps://www.icij.org/investigations/china-capital/huawei-icbc-banking-us-court-beijing-london/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "ICIJ",
-    "source_url": "https://www.icij.org/investigations/china-capital/huawei-icbc-banking-us-court-beijing-london/",
-    "source_title": "Chinese bank helped Huawei spirit $1B out of London days after US indictment of the tech giant",
-    "source_summary": "The urgent operation exposes how readily ICBC\u2019s local branch bypassed internal checks to boost a Beijing favorite.",
-    "drafted_at": "2026-09-15T00:04:05.930651",
-    "data": {
-      "source": "ICIJ"
-    },
-    "content_hash": "f9aba65b83dfbcd5"
-  },
-  {
-    "id": "003959be",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "The Chinese banking giant turned a blind eye to alleged fraud and embezzlement within its ranks for years, according to a tranche of confidential files.\n\nhttps://www.icij.org/investigations/china-capital/zhang-hongli-icbc-executive-corruption-employee-misconduct/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "ICIJ",
-    "source_url": "https://www.icij.org/investigations/china-capital/zhang-hongli-icbc-executive-corruption-employee-misconduct/",
-    "source_title": "ICBC promoted corrupt executive, ignored employee misconduct as it pursued global expansion",
-    "source_summary": "The Chinese banking giant turned a blind eye to alleged fraud and embezzlement within its ranks for years, according to a tranche of confidential files.",
-    "drafted_at": "2026-09-15T00:04:05.930855",
-    "data": {
-      "source": "ICIJ"
-    },
-    "content_hash": "870b56bedef89fc3"
-  },
-  {
-    "id": "00a28793",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Based on a trove of 4.8 million records, China Capital reveals how ICBC used its U.K. operations to pursue explicitly political objectives for its majority shareholder, the Chinese government.\n\nhttps://www.icij.org/investigations/china-capital/icbc-china-capital-video/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "ICIJ",
-    "source_url": "https://www.icij.org/investigations/china-capital/icbc-china-capital-video/",
-    "source_title": "WATCH: How the world\u2019s biggest bank advances Beijing\u2019s interests",
-    "source_summary": "Based on a trove of 4.8 million records, China Capital reveals how ICBC used its U.K. operations to pursue explicitly political objectives for its majority shareholder, the Chinese government.",
-    "drafted_at": "2026-09-15T00:04:05.931123",
-    "data": {
-      "source": "ICIJ"
-    },
-    "content_hash": "64176218c48bc113"
-  },
-  {
-    "id": "d146aff4",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "How does the Industrial and Commercial Bank of China operate?\n\nWhat did ICIJ uncover in millions of confidential bank records?\n\nhttps://www.icij.org/investigations/china-capital/faqs-icbc-china-capital-bank/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "ICIJ",
-    "source_url": "https://www.icij.org/investigations/china-capital/faqs-icbc-china-capital-bank/",
-    "source_title": "Frequently asked questions about the China Capital investigation",
-    "source_summary": "How does the Industrial and Commercial Bank of China operate? What did ICIJ uncover in millions of confidential bank records? These questions and more, answered.",
-    "drafted_at": "2026-09-15T00:04:05.931297",
-    "data": {
-      "source": "ICIJ"
-    },
-    "content_hash": "df9c435077d6e99a"
-  },
-  {
-    "id": "ef1d5f1c",
+    "id": "12618fca",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $SPCX this year \u2014 and these filings don't show them selling:\n\n\u2022 Daniel Meuser (R)\n\u2022 Jared Moskowitz (D)\n\u2022 John McGuire (R)\n\u2022 Gilbert Cisneros (D)\n\nLargest disclosed here: Daniel Meuser, $15,001 - $50,000 on Jun 15.\n\nPrice since the first buy in this group: -6.1%.\n\nSTOCK Act disclosures. Public record.",
@@ -335,7 +337,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034774.pdf",
     "source_title": "4 Congress members bought $SPCX",
     "source_summary": "4 politicians bought $SPCX; largest $15,001 - $50,000 by Daniel Meuser.",
-    "drafted_at": "2026-09-15T00:04:05.934262",
+    "drafted_at": "2026-09-15T05:34:04.355543",
     "data": {
       "ticker": "SPCX",
       "member_count": 4,
@@ -344,7 +346,7 @@
     "content_hash": "585711bf88956fa9"
   },
   {
-    "id": "f7c0217a",
+    "id": "1dd34ad3",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $NVDA this year \u2014 and these filings don't show them selling:\n\n\u2022 Michael Rulli (R)\n\u2022 Cleo Fields (D)\n\u2022 Gilbert Cisneros (D)\n\u2022 John J Mr McGuire (R)\n\nLargest disclosed here: Michael Rulli, $1,001 - $15,000 on Jun 25.\n\nPrice since the first buy in this group: +11.5%.\n\nSTOCK Act disclosures. Public record.",
@@ -354,7 +356,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035147.pdf",
     "source_title": "4 Congress members bought $NVDA",
     "source_summary": "4 politicians bought $NVDA; largest $1,001 - $15,000 by Michael Rulli.",
-    "drafted_at": "2026-09-15T00:04:05.934568",
+    "drafted_at": "2026-09-15T05:34:04.355742",
     "data": {
       "ticker": "NVDA",
       "member_count": 4,
@@ -363,7 +365,7 @@
     "content_hash": "f6cf25ab3c00fb6f"
   },
   {
-    "id": "5a8c135f",
+    "id": "99636781",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $MU this year \u2014 and these filings don't show them selling:\n\n\u2022 Josh Gottheimer (D)\n\u2022 Sheldon Whitehouse (D)\n\u2022 Michael Rulli (R)\n\u2022 Dan Newhouse (R)\n\nLargest disclosed here: Josh Gottheimer, $1,001 - $15,000 on May 21.\n\nPrice since the first buy in this group: +28.0%.\n\nSTOCK Act disclosures. Public record.",
@@ -373,7 +375,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034693.pdf",
     "source_title": "4 Congress members bought $MU",
     "source_summary": "4 politicians bought $MU; largest $1,001 - $15,000 by Josh Gottheimer.",
-    "drafted_at": "2026-09-15T00:04:05.934865",
+    "drafted_at": "2026-09-15T05:34:04.355926",
     "data": {
       "ticker": "MU",
       "member_count": 4,
@@ -382,7 +384,7 @@
     "content_hash": "7c265a3a54605da1"
   },
   {
-    "id": "183accd5",
+    "id": "7635b75a",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 Gilbert Cisneros (D)\n\u2022 Cleo Fields (D)\n\u2022 Jared Moskowitz (D)\n\nLargest disclosed here: Gilbert Cisneros, $50,001 - $100,000 on May 15.\n\nPrice since the first buy in this group: +17.5%.\n\nSTOCK Act disclosures. Public record.",
@@ -392,7 +394,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034713.pdf",
     "source_title": "3 Congress members bought $MSFT",
     "source_summary": "3 politicians bought $MSFT; largest $50,001 - $100,000 by Gilbert Cisneros.",
-    "drafted_at": "2026-09-15T00:04:05.935170",
+    "drafted_at": "2026-09-15T05:34:04.356100",
     "data": {
       "ticker": "MSFT",
       "member_count": 3,
@@ -401,7 +403,7 @@
     "content_hash": "568a39394ccac4dc"
   },
   {
-    "id": "fcc9a6d3",
+    "id": "0af6431b",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $BRK.B this year \u2014 and these filings don't show them selling:\n\n\u2022 Jerry Moran,\n\u2022 Maria Elvira Salazar (R)\n\u2022 Richard Dean Dr McCormick (R)\n\nLargest disclosed here: Jerry Moran,, $15,001 - $50,000 on Jun 23.\n\nPrice since the first buy in this group: +0.0%.\n\nSTOCK Act disclosures. Public record.\n\nhttps://efdsearch.senate.gov/search/view/ptr/cff197e2-b90b-4b53-b97d-eecf226a1980/",
@@ -411,7 +413,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/cff197e2-b90b-4b53-b97d-eecf226a1980/",
     "source_title": "3 Congress members bought $BRK.B",
     "source_summary": "3 politicians bought $BRK.B; largest $15,001 - $50,000 by Jerry Moran,.",
-    "drafted_at": "2026-09-15T00:04:05.935441",
+    "drafted_at": "2026-09-15T05:34:04.356266",
     "data": {
       "ticker": "BRK.B",
       "member_count": 3,
@@ -420,92 +422,160 @@
     "content_hash": "6f888df9bec37d4e"
   },
   {
-    "id": "2b0c56d4",
+    "id": "e61a10f0",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Continental update: \u201cWhatever happens in the U.S. has global ramifications,\u201d says IDEA\u2019s Kevin Casas-Zamora.\n\nhttps://www.politico.eu/article/americas-democratic-slide-is-becoming-europes-problem/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "POLITICO EU",
-    "source_url": "https://www.politico.eu/article/americas-democratic-slide-is-becoming-europes-problem/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-    "source_title": "America\u2019s democratic decline is becoming Europe\u2019s problem, new report says",
-    "source_summary": "\u201cWhatever happens in the U.S. has global ramifications,\u201d says IDEA\u2019s Kevin Casas-Zamora.",
-    "drafted_at": "2026-09-15T00:04:05.936472",
-    "data": {
-      "source": "POLITICO EU"
-    },
-    "content_hash": "9a2e590a22d4c0a4"
-  },
-  {
-    "id": "16ba9a9f",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "From the Gulf: Iran's President Masoud Pezeshkian said on Monday that Tehran is not at war with Saudi Arabia.\n\nPezeshkian added that Iran\u2019s demands for negotiation with the United States (US) are the same as our previous demands.\n\nhttps://www.fxstreet.com/news/irans-president-pezeshkian-our-demands-are-the-same-as-our-previous-demands-202609142353",
+    "draft_text": "ASIA DESK: The AUD/JPY cross trades on a flat note around 110.20 during the early European trading hours on Tuesday.\n\nMarkets might turn cautious ahead of the Bank of Japan (BoJ) interest rate decision later on Friday.\n\nhttps://www.fxstreet.com/news/aud-jpy-price-forecast-flatlines-above-11000-bearish-outlook-persists-202609150529",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/irans-president-pezeshkian-our-demands-are-the-same-as-our-previous-demands-202609142353",
-    "source_title": "Iran's President Pezeshkian: Our demands are the same as our previous demands",
-    "source_summary": "Iran's President Masoud Pezeshkian said on Monday that Tehran is not at war with Saudi Arabia. Pezeshkian added that Iran\u2019s demands for negotiation with the United States (US) are the same as our previous demands.",
-    "drafted_at": "2026-09-15T00:04:05.937034",
+    "source_url": "https://www.fxstreet.com/news/aud-jpy-price-forecast-flatlines-above-11000-bearish-outlook-persists-202609150529",
+    "source_title": "AUD/JPY Price Forecast: Flatlines above 110.00, bearish outlook persists",
+    "source_summary": "The AUD/JPY cross trades on a flat note around 110.20 during the early European trading hours on Tuesday. Markets might turn cautious ahead of the Bank of Japan (BoJ) interest rate decision later on Friday.",
+    "drafted_at": "2026-09-15T05:34:04.357124",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "530e8f845662a6db"
+    "content_hash": "83b1d5a03c60b514"
   },
   {
-    "id": "710e600e",
+    "id": "d22b093e",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Levant update: DOJ moves to seize $61 million in crypto tied to Iranian oil sales moved through Binance accounts the exchange defended.\n\nThe post DOJ Seeks to Seize $61M in Iran Oil Funds From Binance Accounts It Vouched For appeared first on BeInCrypto.\n\nhttps://beincrypto.com/doj-61m-binance-iran-forfeiture/",
+    "draft_text": "Mainland wire: China's increased oil throughput amid geopolitical tensions may lead to supply constraints, influencing global oil prices and market dynamics.\n\nThe post China\u2019s August oil throughput rises as fuel exports rebound amid Iran conflict appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/chinas-august-oil-throughput-rises-as-fuel-exports-rebound-amid-iran-conflict/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "BEINCRYPTO",
-    "source_url": "https://beincrypto.com/doj-61m-binance-iran-forfeiture/",
-    "source_title": "DOJ Seeks to Seize $61M in Iran Oil Funds From Binance Accounts It Vouched For",
-    "source_summary": "DOJ moves to seize $61 million in crypto tied to Iranian oil sales moved through Binance accounts the exchange defended. The post DOJ Seeks to Seize $61M in Iran Oil Funds From Binance Accounts It Vouched For appeared first on BeInCrypto .",
-    "drafted_at": "2026-09-15T00:04:05.937579",
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/chinas-august-oil-throughput-rises-as-fuel-exports-rebound-amid-iran-conflict/",
+    "source_title": "China\u2019s August oil throughput rises as fuel exports rebound amid Iran conflict",
+    "source_summary": "China's increased oil throughput amid geopolitical tensions may lead to supply constraints, influencing global oil prices and market dynamics. The post China\u2019s August oil throughput rises as fuel exports rebound amid Iran conflict appeared first on Crypto Briefing .",
+    "drafted_at": "2026-09-15T05:34:04.357589",
     "data": {
-      "source": "BEINCRYPTO"
+      "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "6baef5e95677cf76"
+    "content_hash": "235089616e16342d"
   },
   {
-    "id": "1e80f87a",
+    "id": "7e32c3f4",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "MIDDLE EAST DESK: Saudi Arabia's Civil Defense on Monday issued emergency alerts for the Khamis Mushait Governorate and Abha City.\n\nThe officials then lifted the warnings shortly after, urging residents to continue following official instructions and avoid gathering, aljazeera reported.\n\nhttps://www.fxstreet.com/news/saudi-arabia-issues-emergency-alert-for-khamis-mushait-abha-202609142332",
+    "draft_text": "EUROPE DESK: The partnership brings e-invoicing technology and compliance expertise into TreviPay\u2019s B2B payments infrastructure as requirements expand across Europe and other markets RIJSWIJK, The Netherlands \u2014 TreviPay, a global B2B payments infrastructure partner, today announced a partnership with Dynatos to expand e-invoicing capabilities for TreviPay clients operating across Europe and other markets.\n\nhttps://financialpost.com/pmn/business-wire-news-releases-pmn/trevipay-partners-with-dynatos-to-add-e-invoicing-capabilities-to-its-b2b-payments-infrastructure",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FINANCIAL POST",
+    "source_url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/trevipay-partners-with-dynatos-to-add-e-invoicing-capabilities-to-its-b2b-payments-infrastructure",
+    "source_title": "TreviPay Partners with Dynatos to Add e-Invoicing Capabilities to its B2B Payments Infrastructure",
+    "source_summary": "The partnership brings e-invoicing technology and compliance expertise into TreviPay\u2019s B2B payments infrastructure as requirements expand across Europe and other markets RIJSWIJK, The Netherlands \u2014 TreviPay, a global B2B payments infrastructure partner, today announced a partnership with Dynatos to expand e-invoicing capabilities for TreviPay clients operating across Europe and other markets. Thro",
+    "drafted_at": "2026-09-15T05:34:04.358088",
+    "data": {
+      "source": "FINANCIAL POST"
+    },
+    "content_hash": "e60062acddd29e23"
+  },
+  {
+    "id": "a1a00f4f",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Cross-border read: Oracle layoffs are back in the news, and this time it\u2019s India that everyone keeps asking about.\n\nhttps://watcher.guru/news/oracle-layoffs-put-india-on-alert-after-21000-jobs-were-cut",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "WATCHER GURU",
+    "source_url": "https://watcher.guru/news/oracle-layoffs-put-india-on-alert-after-21000-jobs-were-cut",
+    "source_title": "Oracle Layoffs Put India on Alert After 21,000 Jobs Were Cut",
+    "source_summary": "Oracle layoffs are back in the news, and this time it\u2019s India that everyone keeps asking about. The\u2026",
+    "drafted_at": "2026-09-15T05:34:04.358459",
+    "data": {
+      "source": "WATCHER GURU"
+    },
+    "content_hash": "da5903eb75ff5e0c"
+  },
+  {
+    "id": "b872b126",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "From Tokyo to Hong Kong: The USD/JPY pair sticks to a positive bias for the second straight day and trades above mid-154.00s during the Asian session on Tuesday amid a broadly firmer US Dollar (USD).\n\nSpot prices, however, lack bullish conviction as traders seem hesitant ahead of this week's key central bank events.\n\nhttps://www.fxstreet.com/news/japanese-yen-sticks-to-losses-against-bullish-usd-as-traders-await-fed-boj-meetings-loom-202609150440",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/saudi-arabia-issues-emergency-alert-for-khamis-mushait-abha-202609142332",
-    "source_title": "Saudi Arabia issues emergency alert for Khamis Mushait, Abha",
-    "source_summary": "Saudi Arabia's Civil Defense on Monday issued emergency alerts for the Khamis Mushait Governorate and Abha City. The officials then lifted the warnings shortly after, urging residents to continue following official instructions and avoid gathering, aljazeera reported.",
-    "drafted_at": "2026-09-15T00:04:05.937917",
+    "source_url": "https://www.fxstreet.com/news/japanese-yen-sticks-to-losses-against-bullish-usd-as-traders-await-fed-boj-meetings-loom-202609150440",
+    "source_title": "Japanese Yen sticks to losses against bullish USD as traders await Fed, BoJ meetings loom",
+    "source_summary": "The USD/JPY pair sticks to a positive bias for the second straight day and trades above mid-154.00s during the Asian session on Tuesday amid a broadly firmer US Dollar (USD). Spot prices, however, lack bullish conviction as traders seem hesitant ahead of this week's key central bank events.",
+    "drafted_at": "2026-09-15T05:34:04.358818",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "e184936fdab7c4da"
+    "content_hash": "609352b1970ff35b"
   },
   {
-    "id": "55a5107a",
-    "format": "GLOBAL_DESK",
+    "id": "af6e6243",
+    "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "Levant update: The report noted that the U.S. war with Iran \u201chas resulted in strategic inventory shortfalls and revealed industrial base bottlenecks for munitions resupply.\u201d.\n\nhttps://fortune.com/2026/09/14/pentagon-damage-report-iran-war-hundreds-buildings-us-bases-aircraft/",
+    "draft_text": "From the inflation desk: Nikkei rebounds as Kospi slips, AI capex jitters split Asian markets China's factories outperform as consumption and investment lag behind BoE decision preview: Goldman sees hold, but watches for hawkish hints China August retail sales +0.4% y/y (expected +0.6%) Korea and Taiwan back in favour as BlackRock lifts emerging markets to overweight China home prices keep falling in August as property slump drags on Democrats split over Clarity Act as Senate vote nears PBOC sets USD/ CNY central rate at 6.7670 (vs. estimate at 6.7051) Why a Fed rate hike can't fix oil and diesel prices, but may still curb inflation WSJ: Oil executives warn a global fuel crisis has arrived as Hormuz closure bites Gold retests breakout support near $4,250 after pullback from August high.\n\nTrump-Iran war: Costco nearly doubles motor oil price and imposes purchase caps Ethereum hits record 203.9 million transactions in Q2 as active users slide Preview: Goldman Sachs sees yen and Nikkei risk building on faster BoJ rate path investingLive Americas FX news wrap 14 Sept: It\u2019s a Wrap: Oil tops $100 as higher yields and AI worries pressure stocks Oil catch-up: Iran says tanker hit mine in Hormuz; Centcom says drone struck it instead Summary: Oil prices held just below recent highs.\n\nSaudi Arabia's Civil Defence issued alerts for potential danger in six cities, including the key Red Sea oil export port of Yanbu, telling residents to take shelter, before later declaring the danger had passed in all affected areas.\n\nThe alerts came amid a broader increase in Houthi attacks on Saudi Arabia in recent weeks.\n\nCostco has introduced purchase limits on motor oil, capping members to one transaction and a maximum of two units every seven days.\n\nTwo automakers have warned of dwindling motor oil stock, raising concerns over availability for both consumer purchases and dealership service departments.\n\nChina's industrial output beat forecasts in August, while retail sales and fixed asset investment both missed and home prices kept falling, underscoring deepening imbalances in the economy.\n\nJapan's Nikkei rebounded on a SoftBank-led bounce while South Korea's Kospi fell as Samsung and SK Hynix extended losses, amid broader AI capex jitters.\n\nhttps://investinglive.com/news/investinglive-asia-pacific-market-news-oil-holds-near-highs-0/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FORTUNE",
-    "source_url": "https://fortune.com/2026/09/14/pentagon-damage-report-iran-war-hundreds-buildings-us-bases-aircraft/",
-    "source_title": "The Pentagon admits that\u00a0Iranian strikes damaged\u00a0and destroyed hundreds of buildings at U.S. bases across the Middle East",
-    "source_summary": "The report noted that the U.S. war with Iran \u201chas resulted in strategic inventory shortfalls and revealed industrial base bottlenecks for munitions resupply.\u201d",
-    "drafted_at": "2026-09-15T00:04:05.938431",
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-oil-holds-near-highs-0/",
+    "source_title": "investingLive Asia-Pacific market news: Oil holds near highs",
+    "source_summary": "Nikkei rebounds as Kospi slips, AI capex jitters split Asian markets China's factories outperform as consumption and investment lag behind BoE decision preview: Goldman sees hold, but watches for hawkish hints China August retail sales +0.4% y/y (expected +0.6%) Korea and Taiwan back in favour as BlackRock lifts emerging markets to overweight China home prices keep falling in August as property sl",
+    "drafted_at": "2026-09-15T05:34:04.399752",
     "data": {
-      "source": "FORTUNE"
+      "source": "FOREXLIVE"
     },
-    "content_hash": "c425c060be1b3072"
+    "content_hash": "e996a1f576858269"
   },
   {
-    "id": "86cdd780",
+    "id": "a428a6dd",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "Trade-deficit corner: The data reinforces a now familiar pattern in China's recovery: export-facing industry holding up while domestic demand and investment lag, a mix that tends to support producer-heavy sectors and China-exposed exporters more than domestically focused consumer names.\n\nThe investment miss, alongside retail sales undershooting forecasts, raises the likelihood of additional stimulus measures being unveiled before October's Golden Week, which markets are likely to watch for as the next catalyst.\n\nThe narrowing pace of the annual home price decline, and the tier-one city improvement in particular, offers a modest positive signal for sentiment, though the continued weakness in smaller cities suggests any property stabilisation remains narrow rather than broad-based.\n\nOverall, the mixed picture keeps pressure on policymakers without providing a clear enough deterioration to force an immediate, large-scale policy response. --- Earlier: China August retail sales +0.4% y/y (expected +0.6%) China home prices keep falling in August as property slump drags on Economic & event calendar Asia Tuesday, September 15, 2026: China set to report August activity --- China's factories are outrunning its shoppers and builders, and August's data shows the gap widening rather than closing.\n\nSummary: China's industrial output rose 5.2% year on year in August, quickening from 4.5% in July and beating a forecast 4.8% rise, according to National Bureau of Statistics data.\n\nRetail sales rose 0.4% year on year, slowing from 0.6% in July and missing an expected 0.8% gain.\n\nFixed asset investment fell 7.2% in the first eight months of the year, matching forecasts but worse than the 6.7% decline recorded through July.\n\nFour typhoons hit China in August, disrupting manufacturing and logistics activity along the east coast.\n\nhttps://investinglive.com/news/china-s-factories-outperform-as-consumption-and-investment-lag-behind/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/china-s-factories-outperform-as-consumption-and-investment-lag-behind/",
+    "source_title": "China's factories outperform as consumption and investment lag behind",
+    "source_summary": "The data reinforces a now familiar pattern in China's recovery: export-facing industry holding up while domestic demand and investment lag, a mix that tends to support producer-heavy sectors and China-exposed exporters more than domestically focused consumer names. The investment miss, alongside retail sales undershooting forecasts, raises the likelihood of additional stimulus measures being unvei",
+    "drafted_at": "2026-09-15T05:34:04.401824",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "0a028f1770dba642"
+  },
+  {
+    "id": "4ffc4a7e",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "From the consumption desk: I'll be back with details and implications soon.\n\nFixed Asset Investment (YTD) (YoY) (Aug) -7.2% expected -7.2%, prior -6.7% Retail Sales (YoY) (Aug) 0.4% expected 0.8%, prior 0.6% Industrial Production (YoY) (Aug) 5.2% expected 4.8%, prior 4.5% This article was written by Eamonn Sheridan at investinglive.com.\n\nhttps://investinglive.com/news/china-august-retail-sales-0-4-y-y-expected-0-6/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/china-august-retail-sales-0-4-y-y-expected-0-6/",
+    "source_title": "China August retail sales +0.4% y/y (expected +0.6%)",
+    "source_summary": "I'll be back with details and implications soon. Fixed Asset Investment (YTD) (YoY) (Aug) -7.2% expected -7.2%, prior -6.7% Retail Sales (YoY) (Aug) 0.4% expected 0.8%, prior 0.6% Industrial Production (YoY) (Aug) 5.2% expected 4.8%, prior 4.5% This article was written by Eamonn Sheridan at investinglive.com.",
+    "drafted_at": "2026-09-15T05:34:04.402078",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "2d05b15779e806fa"
+  },
+  {
+    "id": "f920b235",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "HOUSING READ: The modest easing in the annual rate of decline, from a 3.2% drop in July to 3.0% in August, is unlikely to shift the broader narrative that China's property correction remains a persistent drag on domestic demand rather than a market approaching stabilisation.\n\nWith real estate historically representing a large share of Chinese household wealth, continued price weakness keeps consumer sentiment and discretionary spending under pressure, reinforcing the deflationary dynamics policymakers have been trying to counter through targeted credit and easing measures.\n\nThe divergence between stronger tier-one markets, such as Shanghai's continued year on year gains, and weaker readings elsewhere underscores an uneven recovery rather than a broad-based one.\n\nFor markets watching China's growth trajectory, the data adds to the case that property will remain a headwind to consumption and GDP momentum rather than a tailwind in the near term. --- More importantly, still to come: Economic & event calendar Asia Tuesday, September 15, 2026: China set to report August activity --- China's property slump keeps grinding on, with national home prices still falling year on year in August even as the pace of decline eased slightly from July.\n\nSummary: New home prices across China fell 3.0% year on year in August, a slight improvement from July's 3.2% decline, according to Reuters calculations based on official data.\n\nOn a month on month basis, national prices fell 0.1% in August, unchanged from July's pace.\n\nBeijing new home prices fell 2.3% year on year in August, matching July's decline, with a 0.2% month on month drop compared with a 0.3% fall in July.\n\nShanghai remained an outlier with prices up 3.0% year on year and 0.4% month on month in August, extending gains seen in July.\n\nhttps://investinglive.com/news/china-home-prices-keep-falling-in-august-as-property-slump-drags-on/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/china-home-prices-keep-falling-in-august-as-property-slump-drags-on/",
+    "source_title": "China home prices keep falling in August as property slump drags on",
+    "source_summary": "The modest easing in the annual rate of decline, from a 3.2% drop in July to 3.0% in August, is unlikely to shift the broader narrative that China's property correction remains a persistent drag on domestic demand rather than a market approaching stabilisation. With real estate historically representing a large share of Chinese household wealth, continued price weakness keeps consumer sentiment an",
+    "drafted_at": "2026-09-15T05:34:04.404221",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "0473f400c6d07886"
+  },
+  {
+    "id": "35972f36",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "INFLATION READ: AI and chip stocks tumble as weekend warnings challenge the sector\u2019s growth assumptions Trump: AI will be the greatest economic development engine in history US seeks \u201cstep-by-step\u201d agreement with Iran citing Pakistani sources Trump: Military conflict with Iran \"will not be long\" Zelensky says Trump's deal to stop energy strikes is just a proposal Trump: Ukraine and Russia have agreed not to hit energy targets Is Institutional Money Rotating From Bitcoin to Ethereum?\n\nUS 10-year yield hits 5% for the first time since 2023 Crude oil Analysis: Technicals and the fundamentals are in synch.\n\nMove higher nears $105 Saudi east-west pipeline will be out of service for 3-5 weeks - report Canada August CPI 3.0% y/y vs 3.0% expected Morning Kickstart: Central-bank week begins with the USD higher and stocks under pressure investingLive European markets wrap: Oil surges, Fed rate hike bets rise as AI fears hit stocks The trading week began with several significant market themes competing for traders\u2019 attention: crude oil running up to near $105 rising.\n\nTreasury yields with the 10 year reaching above 5.0% (it reached 5.01%).\n\nRenewed selling in AI-related shares and continued uncertainty surrounding the Middle East.\n\nThe USD finished higher against all the major currencies.\n\nIts largest gains came against the NZD and JPY, while its smallest advances were against the GBP and CHF.\n\nThe percentage changes of the USD against the major currencies were: NZD: +0.69% JPY: +0.54% EUR: +0.45% AUD: +0.43% CAD: +0.25% GBP: +0.16% CHF: +0.16% The greenback benefited from higher Treasury yields and a risk-off tone in equities (probably because yields were going higher).\n\nhttps://investinglive.com/news/investinglive-americas-fx-news-wrap-14-sept-it-s-a-wrap-oil-tops-100-as-higher-yields-and-ai-worries-pressure-stocks/",
@@ -515,31 +585,14 @@
     "source_url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-14-sept-it-s-a-wrap-oil-tops-100-as-higher-yields-and-ai-worries-pressure-stocks/",
     "source_title": "investingLive Americas FX news wrap 14 Sept: It\u2019s a Wrap: Oil tops $100 as higher yields and AI worries pressure stocks",
     "source_summary": "AI and chip stocks tumble as weekend warnings challenge the sector\u2019s growth assumptions Trump: AI will be the greatest economic development engine in history US seeks \u201cstep-by-step\u201d agreement with Iran citing Pakistani sources Trump: Military conflict with Iran \"will not be long\" Zelensky says Trump's deal to stop energy strikes is just a proposal Trump: Ukraine and Russia have agreed not to hit e",
-    "drafted_at": "2026-09-15T00:04:06.003316",
+    "drafted_at": "2026-09-15T05:34:04.406365",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "38d8605ea5569f0f"
   },
   {
-    "id": "b13245aa",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "How is the consumer holding up? Let's see: China's National Bureau of Statistics is due to release August industrial production, retail sales and fixed asset investment data at 0200 GMT on Tuesday, September 15, offering the next read on whether Beijing's economy is stabilising or losing further ground.\n\nEconomists polled ahead of the release expect industrial output to rise 4.8% year on year, a rebound from July's 4.5% print, which itself undershot the same 4.8% forecast and slowed from June's 5.3% pace.\n\nRetail sales are expected to rise 0.8% year on year, up from July's 0.6% increase, which had missed a Reuters poll estimate of 1.5% and slowed from June's 1% growth.\n\nSome research notes are more cautious on consumption, forecasting retail sales growth unchanged at around 0.6% year on year, citing persistent weakness in goods demand even as services spending, particularly in leisure, entertainment and tourism, remains comparatively firm.\n\nFixed asset investment is expected to worsen further, with year-to-date growth forecast at around minus 7.2% year on year, down from minus 6.7% in the seven months to July.\n\nThe investment contraction has been driven in large part by a deepening property downturn, alongside softer private and infrastructure spending, even as authorities have widened interest-subsidy programs and begun channelling funds through a policy-backed financing facility to support local government projects.\n\nThe data lands at a sensitive moment for policymakers.\n\nFollowing July's across-the-board miss, several analysts have framed the August print as a test of whether Beijing needs to step up stimulus, with a further soft reading likely to intensify calls for more forceful fiscal support.\n\nhttps://investinglive.com/news/economic-event-calendar-asia-tuesday-september-15-2026-china-set-to-report-august-activity/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/economic-event-calendar-asia-tuesday-september-15-2026-china-set-to-report-august-activity/",
-    "source_title": "Economic & event calendar Asia Tuesday, September 15, 2026: China set to report August activity",
-    "source_summary": "China's National Bureau of Statistics is due to release August industrial production, retail sales and fixed asset investment data at 0200 GMT on Tuesday, September 15, offering the next read on whether Beijing's economy is stabilising or losing further ground. Economists polled ahead of the release expect industrial output to rise 4.8% year on year, a rebound from July's 4.5% print, which itself ",
-    "drafted_at": "2026-09-15T00:04:06.005591",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "ead995f691af945f"
-  },
-  {
-    "id": "fce0e843",
+    "id": "6e650707",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -549,7 +602,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-09-15T00:04:06.007243",
+    "drafted_at": "2026-09-15T05:34:04.407429",
     "data": {
       "manual": true,
       "via": "manual_news.md"
