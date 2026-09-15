@@ -1,6 +1,6 @@
 [
   {
-    "id": "99f110f9",
+    "id": "e5271e6c",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "Gold price (XAU/USD) declines to near $4,285 during the early Asian session on Wednesday.\n\nhttps://www.fxstreet.com/news/gold-declines-below-4-300-as-us-yields-climb-fed-rate-decision-looms-202609152313",
@@ -10,14 +10,33 @@
     "source_url": "https://www.fxstreet.com/news/gold-declines-below-4-300-as-us-yields-climb-fed-rate-decision-looms-202609152313",
     "source_title": "Gold declines below $4,300 as US yields climb, Fed rate decision looms",
     "source_summary": "Gold price (XAU/USD) declines to near $4,285 during the early Asian session on Wednesday.",
-    "drafted_at": "2026-09-15T23:30:41.108565",
+    "drafted_at": "2026-09-15T23:49:04.741069",
     "data": {
       "source": "FXSTREET"
     },
     "content_hash": "2b0877657abcb5fe"
   },
   {
-    "id": "3b847931",
+    "id": "f501dbbf",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Real-time update for the pack: WTI crude rips 15.2% in 5 sessions to $105.43.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NYMEX \u00b7 CL=F",
+    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "source_title": "WTI crude oil futures",
+    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "drafted_at": "2026-09-15T23:49:04.741249",
+    "data": {
+      "signal_id": "CL=F:move:2026-09-15",
+      "kind": "move_up",
+      "current": "$105.43"
+    },
+    "content_hash": "c272de0720a2f459"
+  },
+  {
+    "id": "16104622",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Eyes up. Bitcoin drops 5.3% in 5 sessions to $75,596.\n\nBitcoin is now treated as a macro asset alongside gold and tech.\n\nIts swings move alt-coins, public miners, and crypto-exposed stocks.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/BTC-USD",
@@ -27,7 +46,7 @@
     "source_url": "https://finance.yahoo.com/quote/BTC-USD",
     "source_title": "Bitcoin",
     "source_summary": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
-    "drafted_at": "2026-09-15T23:30:41.108909",
+    "drafted_at": "2026-09-15T23:49:04.741388",
     "data": {
       "signal_id": "BTC-USD:move:2026-09-15",
       "kind": "move_down",
@@ -36,7 +55,7 @@
     "content_hash": "0e3396ceb3da7211"
   },
   {
-    "id": "54960a26",
+    "id": "9ab9fcf6",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "If you're not watching this, you're behind. VIX rips 20.0% in 5 sessions to 17.44.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
@@ -46,7 +65,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EVIX",
     "source_title": "VIX (S&P 500 volatility)",
     "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-09-15T23:30:41.109145",
+    "drafted_at": "2026-09-15T23:49:04.741519",
     "data": {
       "signal_id": "^VIX:move:2026-09-15",
       "kind": "move_up",
@@ -55,7 +74,7 @@
     "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "83822dcd",
+    "id": "0f13b74e",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Two seconds, trust me. VIX rips 17.7% in 5 sessions to 17.10.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
@@ -65,7 +84,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EVIX",
     "source_title": "VIX (S&P 500 volatility)",
     "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-09-15T23:30:41.109351",
+    "drafted_at": "2026-09-15T23:49:04.741635",
     "data": {
       "signal_id": "^VIX:move:2026-09-14",
       "kind": "move_up",
@@ -74,26 +93,7 @@
     "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "adb10d02",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "Real-time update for the pack: WTI crude surges 12.9% in 5 sessions to $103.32.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "NYMEX \u00b7 CL=F",
-    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
-    "source_title": "WTI crude oil futures",
-    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-09-15T23:30:41.109564",
-    "data": {
-      "signal_id": "CL=F:move:2026-09-15",
-      "kind": "move_up",
-      "current": "$103.32"
-    },
-    "content_hash": "c272de0720a2f459"
-  },
-  {
-    "id": "01d43eb4",
+    "id": "d2200f42",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "From the Eccles Building: Gold price (XAU/USD) declines to near $4,285 during the early Asian session on Wednesday.\n\nhttps://www.fxstreet.com/news/gold-declines-below-4-300-as-us-yields-climb-fed-rate-decision-looms-202609152313",
@@ -103,14 +103,14 @@
     "source_url": "https://www.fxstreet.com/news/gold-declines-below-4-300-as-us-yields-climb-fed-rate-decision-looms-202609152313",
     "source_title": "Gold declines below $4,300 as US yields climb, Fed rate decision looms",
     "source_summary": "Gold price (XAU/USD) declines to near $4,285 during the early Asian session on Wednesday.",
-    "drafted_at": "2026-09-15T23:30:41.118689",
+    "drafted_at": "2026-09-15T23:49:04.747670",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "2b0877657abcb5fe"
   },
   {
-    "id": "31dda42c",
+    "id": "78ccbd23",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FOMC update. GBP/USD closed Tuesday near 1.3470, down 0.2%.\n\nWednesday's Asian and London hours are the last before the Fed is expected to raise its rate for the first time since July 2023.\n\nBy the New York close its ceiling should sit a quarter-point above Bank Rate.\n\nhttps://www.fxstreet.com/news/the-pound-drifts-lower-as-the-fed-lines-up-a-rate-above-the-bank-of-englands-202609152209",
@@ -120,14 +120,14 @@
     "source_url": "https://www.fxstreet.com/news/the-pound-drifts-lower-as-the-fed-lines-up-a-rate-above-the-bank-of-englands-202609152209",
     "source_title": "The Pound drifts lower as the Fed lines up a rate above the Bank of England's",
     "source_summary": "GBP/USD closed Tuesday near 1.3470, down 0.2%. Wednesday's Asian and London hours are the last before the Fed is expected to raise its rate for the first time since July 2023. By the New York close its ceiling should sit a quarter-point above Bank Rate.",
-    "drafted_at": "2026-09-15T23:30:41.119021",
+    "drafted_at": "2026-09-15T23:49:04.747886",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "99f9183c27da42e3"
   },
   {
-    "id": "0369243c",
+    "id": "df188504",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "If you trade rates, read this: Nearly every major bank now expects the Fed to raise rates for the first time in three years.\n\nMarkets have mostly priced it in, but the political fallout could run deeper than one hike.\n\nhttps://decrypt.co/378306/wall-street-fed-rate-hike-bitcoin-bonds-trump",
@@ -137,14 +137,14 @@
     "source_url": "https://decrypt.co/378306/wall-street-fed-rate-hike-bitcoin-bonds-trump",
     "source_title": "Wall Street Bets on Fed Rate Hike: Here's What It Means for Bitcoin, Bonds and Trump",
     "source_summary": "Nearly every major bank now expects the Fed to raise rates for the first time in three years. Markets have mostly priced it in, but the political fallout could run deeper than one hike.",
-    "drafted_at": "2026-09-15T23:30:41.119268",
+    "drafted_at": "2026-09-15T23:49:04.748031",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "18c78e9b7cb3ae39"
   },
   {
-    "id": "e438d86a",
+    "id": "646c129d",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Live from the Federal Reserve: The S&P 500 and Nasdaq undercut key support as oil prices and Treasury yields jumped.\n\nHow will bonds react to the Federal Reserve decision.\n\nThe post Dow Jones Futures Rise; ServiceNow, Twilio Lead New Buys As Fed Hike Looms appeared first on Investor's Business Daily.\n\nhttps://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp500-nasdaq-how-will-bonds-react-to-fed-rate-hike/",
@@ -154,14 +154,14 @@
     "source_url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp500-nasdaq-how-will-bonds-react-to-fed-rate-hike/",
     "source_title": "Dow Jones Futures Rise; ServiceNow, Twilio Lead New Buys As Fed Hike Looms",
     "source_summary": "The S&P 500 and Nasdaq undercut key support as oil prices and Treasury yields jumped. How will bonds react to the Federal Reserve decision. The post Dow Jones Futures Rise; ServiceNow, Twilio Lead New Buys As Fed Hike Looms appeared first on Investor's Business Daily .",
-    "drafted_at": "2026-09-15T23:30:41.119593",
+    "drafted_at": "2026-09-15T23:49:04.748216",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "60b01bad85e3c397"
   },
   {
-    "id": "f1db8c50",
+    "id": "8052d67e",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "RATE-PATH READ: Explosions heard in Saudi Arabia Canadians continued to spend through August - RBC spending tracker shows US 20-year bond auction tails by 2 bps Bessent: For a nominal amount, the US Treasury was able to signal support for Japanese policies Senate leader Thune: I am open to considering an export ban on diesel Oil jumps after Libya says may declare force majure as protests suspend production Carney: Canada to allow immediate expensing for most new capital investment Canada wholesale trade for the month of July 0.3% versus -0.5% estimate September US Empire Fed manufacturing +7.6 vs +15.0 expected US ADP weekly employment estimate rises to 16,250 vs 12,000 expected Markets: WTI crude oil up $4.56 to $105.99 Gold down $2 to $4295 US 10-year yields up 4.7 bps to 5.01% S&P 500 down 0.4% USD leads, JPY lags Bitcoin down 3.9% Oil rose for the 11th day in the past 12 and unsurprisingly, it pushed up yields and weighed on risk assets.\n\nThe market has now moved to price in a 92% chance of a hike tomorrow from the Federal Reserve and has fully priced in another cut before year end.\n\nThe question now for Warsh is how hawkish will he sounds.\n\nPushing up the front end may help him establish credibility on the long end but he also likes strategic ambiguity and that could ultimately read as dovish.\n\nIn any case, he will find himself in a tricky position on Wednesday afternoon in Washington.\n\nIn terms of oil, it was sliding early in New York trading but then Libya announced field closures due to protests.\n\nThat was quickly followed by Saudi Arabia suspending loadings at its lone Red Sea port in light of the pipeline attacks.\n\nThere are some rumors in the market that Saudis told customers not to expect oil until November.\n\nhttps://investinglive.com/news/investinglive-americas-market-news-wrap-rising-oil-overshadows-the-fed-decision/",
@@ -171,14 +171,34 @@
     "source_url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-rising-oil-overshadows-the-fed-decision/",
     "source_title": "investingLive Americas market news wrap: Rising oil overshadows the Fed decision",
     "source_summary": "Explosions heard in Saudi Arabia Canadians continued to spend through August - RBC spending tracker shows US 20-year bond auction tails by 2 bps Bessent: For a nominal amount, the US Treasury was able to signal support for Japanese policies Senate leader Thune: I am open to considering an export ban on diesel Oil jumps after Libya says may declare force majure as protests suspend production Carney",
-    "drafted_at": "2026-09-15T23:30:41.121508",
+    "drafted_at": "2026-09-15T23:49:04.749341",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "1f4ff04733d3896e"
   },
   {
-    "id": "68555888",
+    "id": "25c74245",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$CYBN \u2014 2 company insiders bought $4.9M on Sep 08.\n\nCybin Inc. 400,000 shares at $12.35.\n\nStock is +0.0% since the purchase. This is a public SEC Form 4 filing.\n\nhttp://openinsider.com/screener?s=CYBN",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=CYBN",
+    "source_title": "Cybin Inc. (CYBN) insider bought $4.9M",
+    "source_summary": "2 insider(s) bought 400,000 shares at $12.35 on 2026-09-08.",
+    "drafted_at": "2026-09-15T23:49:04.751573",
+    "data": {
+      "ticker": "CYBN",
+      "type": "P",
+      "dollar_value": 4941950.0,
+      "pct_since": 0
+    },
+    "content_hash": "7ff4597a5bf7e727"
+  },
+  {
+    "id": "3b3b36a8",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$RWT \u2014 3 company insiders bought $676,698 on Sep 15.\n\nRedwood Trust Inc. 176,065 shares at $3.84.\n\nStock is +1.8% since the purchase. This is a public SEC Form 4 filing.",
@@ -188,7 +208,7 @@
     "source_url": "http://openinsider.com/screener?s=RWT",
     "source_title": "Redwood Trust Inc (RWT) insider bought $676,698",
     "source_summary": "3 insider(s) bought 176,065 shares at $3.84 on 2026-09-15.",
-    "drafted_at": "2026-09-15T23:30:41.125415",
+    "drafted_at": "2026-09-15T23:49:04.751717",
     "data": {
       "ticker": "RWT",
       "type": "P",
@@ -198,7 +218,7 @@
     "content_hash": "ed725be16e5767a7"
   },
   {
-    "id": "bb799193",
+    "id": "e5188388",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$CRBG \u2014 a company insider bought $5.9M on Sep 11.\n\nCorebridge Financial, Inc. 171,144 shares at $34.61.\n\nStock is +1.2% since the purchase. This is a public SEC Form 4 filing.",
@@ -208,7 +228,7 @@
     "source_url": "http://openinsider.com/screener?s=CRBG",
     "source_title": "Corebridge Financial, Inc. (CRBG) insider bought $5.9M",
     "source_summary": "1 insider(s) bought 171,144 shares at $34.61 on 2026-09-11.",
-    "drafted_at": "2026-09-15T23:30:41.125624",
+    "drafted_at": "2026-09-15T23:49:04.751829",
     "data": {
       "ticker": "CRBG",
       "type": "P",
@@ -218,7 +238,7 @@
     "content_hash": "26240a53ab07e4ff"
   },
   {
-    "id": "8a616b8e",
+    "id": "b828f088",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$CELH \u2014 2 company insiders bought $1.5M on Sep 14.\n\nCelsius Holdings, Inc. 54,000 shares at $27.67.\n\nStock is -0.1% since the purchase. This is a public SEC Form 4 filing.",
@@ -228,7 +248,7 @@
     "source_url": "http://openinsider.com/screener?s=CELH",
     "source_title": "Celsius Holdings, Inc. (CELH) insider bought $1.5M",
     "source_summary": "2 insider(s) bought 54,000 shares at $27.67 on 2026-09-14.",
-    "drafted_at": "2026-09-15T23:30:41.125796",
+    "drafted_at": "2026-09-15T23:49:04.751926",
     "data": {
       "ticker": "CELH",
       "type": "P",
@@ -238,7 +258,7 @@
     "content_hash": "5350102dbb2a8464"
   },
   {
-    "id": "1afd1081",
+    "id": "f959bca7",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$GIII \u2014 a company insider bought $1.1M on Sep 14.\n\nG III Apparel Group Ltd /De/. 40,000 shares at $27.94.\n\nStock is -0.6% since the purchase. This is a public SEC Form 4 filing.",
@@ -248,7 +268,7 @@
     "source_url": "http://openinsider.com/screener?s=GIII",
     "source_title": "G III Apparel Group Ltd /De/ (GIII) insider bought $1.1M",
     "source_summary": "1 insider(s) bought 40,000 shares at $27.94 on 2026-09-14.",
-    "drafted_at": "2026-09-15T23:30:41.125964",
+    "drafted_at": "2026-09-15T23:49:04.752017",
     "data": {
       "ticker": "GIII",
       "type": "P",
@@ -258,27 +278,7 @@
     "content_hash": "0b31d94b917335af"
   },
   {
-    "id": "56b69b06",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$RLMD \u2014 2 company insiders bought $1.7M on Sep 09.\n\nRelmada Therapeutics, Inc. 400,000 shares at $4.18.\n\nStock is +4.4% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/RLMD_P_20260909.png",
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=RLMD",
-    "source_title": "Relmada Therapeutics, Inc. (RLMD) insider bought $1.7M",
-    "source_summary": "2 insider(s) bought 400,000 shares at $4.18 on 2026-09-09.",
-    "drafted_at": "2026-09-15T23:30:41.126133",
-    "data": {
-      "ticker": "RLMD",
-      "type": "P",
-      "dollar_value": 1671990.0,
-      "pct_since": 4.425831844932162
-    },
-    "content_hash": "1187a4bbaaa1fd43"
-  },
-  {
-    "id": "31e6dec2",
+    "id": "e570dc1e",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "ICIJ and its media partners found that Chinese bank ICBC served as a financing hub for infrastructure in the U.K. and Australia, prompting questions about Beijing\u2019s influence over public projects.\n\nhttps://www.icij.org/investigations/china-capital/uk-parliament-debates-infrastructure-security-after-china-capital-revelations/",
@@ -288,14 +288,14 @@
     "source_url": "https://www.icij.org/investigations/china-capital/uk-parliament-debates-infrastructure-security-after-china-capital-revelations/",
     "source_title": "UK Parliament debates infrastructure security after China Capital revelations",
     "source_summary": "ICIJ and its media partners found that Chinese bank ICBC served as a financing hub for infrastructure in the U.K. and Australia, prompting questions about Beijing\u2019s influence over public projects.",
-    "drafted_at": "2026-09-15T23:30:41.128841",
+    "drafted_at": "2026-09-15T23:49:04.753241",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "8d49fc78e535215e"
   },
   {
-    "id": "d2601146",
+    "id": "f712fc67",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The president once against lambasted the U.S. Supreme Court after a split ruling against his order on mail-in voting.\n\nPresident Donald Trump had ordered the U.S. Postal Service in April to help federal authorities prevent election fraud through voting by mail.\n\n'The damage done to America is incalculable, and they know this, just as everyone else does - It is an irreparable and unrecoverable harm!' The order involved the creation of a comprehensive list of U.S. citizens who are legally allowed to vote.\n\nhttps://www.theblaze.com/news/trump-supreme-court-ruling-midterm",
@@ -305,14 +305,14 @@
     "source_url": "https://www.theblaze.com/news/trump-supreme-court-ruling-midterm",
     "source_title": "Trump RIPS INTO Supreme Court over ruling on midterm elections",
     "source_summary": "The president once against lambasted the U.S. Supreme Court after a split ruling against his order on mail-in voting. President Donald Trump had ordered the U.S. Postal Service in April to help federal authorities prevent election fraud through voting by mail. 'The damage done to America is incalculable, and they know this, just as everyone else does - It is an irreparable and unrecoverable harm!'",
-    "drafted_at": "2026-09-15T23:30:41.130024",
+    "drafted_at": "2026-09-15T23:49:04.753937",
     "data": {
       "source": "THE BLAZE"
     },
     "content_hash": "9d2caad8250ec71f"
   },
   {
-    "id": "75bc22fe",
+    "id": "78cfaa20",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Feds Charged Six Election Fraudsters in Just One Week\n\nhttps://pjmedia.com/catherinesalgado/2026/09/15/feds-charged-six-election-fraudsters-in-just-one-week-n4957269",
@@ -322,14 +322,14 @@
     "source_url": "https://pjmedia.com/catherinesalgado/2026/09/15/feds-charged-six-election-fraudsters-in-just-one-week-n4957269",
     "source_title": "Feds Charged Six Election Fraudsters in Just One Week",
     "source_summary": "",
-    "drafted_at": "2026-09-15T23:30:41.130078",
+    "drafted_at": "2026-09-15T23:49:04.753970",
     "data": {
       "source": "PJ MEDIA"
     },
     "content_hash": "741811b68910b5b8"
   },
   {
-    "id": "26682c3c",
+    "id": "8163f828",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "According to prosecutors, the two took positions in tokens ahead of Robinhood\u2019s public listing announcements between 2025 and 2026.\n\nhttps://www.theblock.co/news/regulation/2026-09-15-doj-charges-robinhood-engineers-front-running-crypto-listings-hyperliquid-414865",
@@ -339,14 +339,14 @@
     "source_url": "https://www.theblock.co/news/regulation/2026-09-15-doj-charges-robinhood-engineers-front-running-crypto-listings-hyperliquid-414865",
     "source_title": "DOJ charges Robinhood former engineers with front-running crypto listings on Hyperliquid",
     "source_summary": "According to prosecutors, the two took positions in tokens ahead of Robinhood\u2019s public listing announcements between 2025 and 2026.",
-    "drafted_at": "2026-09-15T23:30:41.130239",
+    "drafted_at": "2026-09-15T23:49:04.754063",
     "data": {
       "source": "THE BLOCK"
     },
     "content_hash": "01252fb9b38ea688"
   },
   {
-    "id": "989c8d87",
+    "id": "bd65fa4a",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Two employees allegedly earned more than $50,000 each by trading Hyperliquid perpetual futures before Robinhood announced new token listings.\n\nhttps://decrypt.co/378267/robinhood-engineers-charged-fraud-over-crypto-listing-trades",
@@ -356,14 +356,14 @@
     "source_url": "https://decrypt.co/378267/robinhood-engineers-charged-fraud-over-crypto-listing-trades",
     "source_title": "Robinhood Engineers Charged With Fraud Over Alleged Crypto Listing Trades",
     "source_summary": "Two employees allegedly earned more than $50,000 each by trading Hyperliquid perpetual futures before Robinhood announced new token listings.",
-    "drafted_at": "2026-09-15T23:30:41.130398",
+    "drafted_at": "2026-09-15T23:49:04.754157",
     "data": {
       "source": "DECRYPT"
     },
     "content_hash": "ceb5c8ea9df94f96"
   },
   {
-    "id": "1409ca80",
+    "id": "ba82bac7",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $SPCX this year \u2014 and these filings don't show them selling:\n\n\u2022 Daniel Meuser (R)\n\u2022 Jared Moskowitz (D)\n\u2022 John McGuire (R)\n\u2022 Gilbert Cisneros (D)\n\nLargest disclosed here: Daniel Meuser, $15,001 - $50,000 on Jun 15.\n\nPrice since the first buy in this group: -6.1%.\n\nSTOCK Act disclosures. Public record.",
@@ -373,7 +373,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034774.pdf",
     "source_title": "4 Congress members bought $SPCX",
     "source_summary": "4 politicians bought $SPCX; largest $15,001 - $50,000 by Daniel Meuser.",
-    "drafted_at": "2026-09-15T23:30:41.132235",
+    "drafted_at": "2026-09-15T23:49:04.755227",
     "data": {
       "ticker": "SPCX",
       "member_count": 4,
@@ -382,7 +382,7 @@
     "content_hash": "585711bf88956fa9"
   },
   {
-    "id": "4fec13f9",
+    "id": "107d18d7",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $NVDA this year \u2014 and these filings don't show them selling:\n\n\u2022 Michael Rulli (R)\n\u2022 Cleo Fields (D)\n\u2022 Gilbert Cisneros (D)\n\u2022 John J Mr McGuire (R)\n\nLargest disclosed here: Michael Rulli, $1,001 - $15,000 on Jun 25.\n\nPrice since the first buy in this group: +11.5%.\n\nSTOCK Act disclosures. Public record.",
@@ -392,7 +392,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035147.pdf",
     "source_title": "4 Congress members bought $NVDA",
     "source_summary": "4 politicians bought $NVDA; largest $1,001 - $15,000 by Michael Rulli.",
-    "drafted_at": "2026-09-15T23:30:41.132509",
+    "drafted_at": "2026-09-15T23:49:04.755381",
     "data": {
       "ticker": "NVDA",
       "member_count": 4,
@@ -401,7 +401,7 @@
     "content_hash": "f6cf25ab3c00fb6f"
   },
   {
-    "id": "74cfe960",
+    "id": "2a22280f",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $MU this year \u2014 and these filings don't show them selling:\n\n\u2022 Josh Gottheimer (D)\n\u2022 Sheldon Whitehouse (D)\n\u2022 Michael Rulli (R)\n\u2022 Dan Newhouse (R)\n\nLargest disclosed here: Josh Gottheimer, $1,001 - $15,000 on May 21.\n\nPrice since the first buy in this group: +28.0%.\n\nSTOCK Act disclosures. Public record.",
@@ -411,7 +411,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034693.pdf",
     "source_title": "4 Congress members bought $MU",
     "source_summary": "4 politicians bought $MU; largest $1,001 - $15,000 by Josh Gottheimer.",
-    "drafted_at": "2026-09-15T23:30:41.132782",
+    "drafted_at": "2026-09-15T23:49:04.755528",
     "data": {
       "ticker": "MU",
       "member_count": 4,
@@ -420,7 +420,7 @@
     "content_hash": "7c265a3a54605da1"
   },
   {
-    "id": "b1484e58",
+    "id": "f278f9ea",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 Gilbert Cisneros (D)\n\u2022 Cleo Fields (D)\n\u2022 Jared Moskowitz (D)\n\nLargest disclosed here: Gilbert Cisneros, $50,001 - $100,000 on May 15.\n\nPrice since the first buy in this group: +17.5%.\n\nSTOCK Act disclosures. Public record.",
@@ -430,7 +430,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034713.pdf",
     "source_title": "3 Congress members bought $MSFT",
     "source_summary": "3 politicians bought $MSFT; largest $50,001 - $100,000 by Gilbert Cisneros.",
-    "drafted_at": "2026-09-15T23:30:41.133031",
+    "drafted_at": "2026-09-15T23:49:04.755666",
     "data": {
       "ticker": "MSFT",
       "member_count": 3,
@@ -439,7 +439,7 @@
     "content_hash": "568a39394ccac4dc"
   },
   {
-    "id": "89e243d6",
+    "id": "346cf334",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $BRK.B this year \u2014 and these filings don't show them selling:\n\n\u2022 Jerry Moran,\n\u2022 Maria Elvira Salazar (R)\n\u2022 Richard Dean Dr McCormick (R)\n\nLargest disclosed here: Jerry Moran,, $15,001 - $50,000 on Jun 23.\n\nPrice since the first buy in this group: +0.0%.\n\nSTOCK Act disclosures. Public record.\n\nhttps://efdsearch.senate.gov/search/view/ptr/cff197e2-b90b-4b53-b97d-eecf226a1980/",
@@ -449,7 +449,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/cff197e2-b90b-4b53-b97d-eecf226a1980/",
     "source_title": "3 Congress members bought $BRK.B",
     "source_summary": "3 politicians bought $BRK.B; largest $15,001 - $50,000 by Jerry Moran,.",
-    "drafted_at": "2026-09-15T23:30:41.133272",
+    "drafted_at": "2026-09-15T23:49:04.755798",
     "data": {
       "ticker": "BRK.B",
       "member_count": 3,
@@ -458,7 +458,7 @@
     "content_hash": "6f888df9bec37d4e"
   },
   {
-    "id": "c4998ec6",
+    "id": "c8392a5a",
     "format": "GLOBAL_DESK",
     "status": "pending",
     "draft_text": "Mainland wire: The Middle East represents a key step in FREELANDER's global expansion, with the UAE serving as the brand's first international market.\n\nhttps://www.globenewswire.com/news-release/2026/09/15/3362782/0/en/from-china-trials-to-abu-dhabi-freelander-8-builds-momentum-for-global-brand-launch.html",
@@ -468,14 +468,14 @@
     "source_url": "https://www.globenewswire.com/news-release/2026/09/15/3362782/0/en/from-china-trials-to-abu-dhabi-freelander-8-builds-momentum-for-global-brand-launch.html",
     "source_title": "From China Trials to Abu Dhabi: FREELANDER 8 Builds Momentum for Global Brand Launch",
     "source_summary": "The Middle East represents a key step in FREELANDER's global expansion, with the UAE serving as the brand's first international market.",
-    "drafted_at": "2026-09-15T23:30:41.134321",
+    "drafted_at": "2026-09-15T23:49:04.756617",
     "data": {
       "source": "GLOBENEWSWIRE"
     },
     "content_hash": "93eb7ce2d0002c9f"
   },
   {
-    "id": "abb9f5ad",
+    "id": "0b57dfe2",
     "format": "GLOBAL_DESK",
     "status": "pending",
     "draft_text": "Gulf wire: Rising diesel prices could exacerbate inflation, impacting freight costs and potentially driving crude oil to new highs amid geopolitical tensions.\n\nThe post US diesel prices hit record $6.27 amid Iran conflict, supply constraints appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/us-diesel-prices-hit-record-627-amid-iran-conflict-supply-constraints/",
@@ -485,14 +485,14 @@
     "source_url": "https://cryptobriefing.com/us-diesel-prices-hit-record-627-amid-iran-conflict-supply-constraints/",
     "source_title": "US diesel prices hit record $6.27 amid Iran conflict, supply constraints",
     "source_summary": "Rising diesel prices could exacerbate inflation, impacting freight costs and potentially driving crude oil to new highs amid geopolitical tensions. The post US diesel prices hit record $6.27 amid Iran conflict, supply constraints appeared first on Crypto Briefing .",
-    "drafted_at": "2026-09-15T23:30:41.134711",
+    "drafted_at": "2026-09-15T23:49:04.756858",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
     "content_hash": "36014c464b916805"
   },
   {
-    "id": "e3e28417",
+    "id": "653730a2",
     "format": "GLOBAL_DESK",
     "status": "pending",
     "draft_text": "From the Americas: Government says new legal complaints to be filed against firms exploring for oil near the Falkland Islands.\n\nhttps://www.aljazeera.com/economy/2026/9/15/argentina-intensifies-campaign-against-falklands-oil-companies?traffic_source=rss",
@@ -502,14 +502,14 @@
     "source_url": "https://www.aljazeera.com/economy/2026/9/15/argentina-intensifies-campaign-against-falklands-oil-companies?traffic_source=rss",
     "source_title": "Argentina intensifies campaign against Falklands oil companies",
     "source_summary": "Government says new legal complaints to be filed against firms exploring for oil near the Falkland Islands.",
-    "drafted_at": "2026-09-15T23:30:41.134984",
+    "drafted_at": "2026-09-15T23:49:04.757022",
     "data": {
       "source": "AL JAZEERA"
     },
     "content_hash": "828ebea4626d380d"
   },
   {
-    "id": "221871e2",
+    "id": "0eda8a63",
     "format": "GLOBAL_DESK",
     "status": "pending",
     "draft_text": "Levant update: The September 14 complaint targets ten Tron addresses frozen in 2025 and outlines a planned transfer into FBI custody.\n\nThe post Tether, Binance and a $1.5 billion Iran oil network converge in new US forfeiture case appeared first on CryptoSlate.\n\nhttps://cryptoslate.com/tether-binance-and-a-1-5-billion-iran-oil-network-converge-in-new-us-forfeiture-case/",
@@ -519,14 +519,14 @@
     "source_url": "https://cryptoslate.com/tether-binance-and-a-1-5-billion-iran-oil-network-converge-in-new-us-forfeiture-case/",
     "source_title": "Tether, Binance and a $1.5 billion Iran oil network converge in new US forfeiture case",
     "source_summary": "The September 14 complaint targets ten Tron addresses frozen in 2025 and outlines a planned transfer into FBI custody. The post Tether, Binance and a $1.5 billion Iran oil network converge in new US forfeiture case appeared first on CryptoSlate .",
-    "drafted_at": "2026-09-15T23:30:41.135329",
+    "drafted_at": "2026-09-15T23:49:04.757223",
     "data": {
       "source": "CRYPTOSLATE"
     },
     "content_hash": "751995138fff1df5"
   },
   {
-    "id": "67df53fb",
+    "id": "4af7818b",
     "format": "GLOBAL_DESK",
     "status": "pending",
     "draft_text": "Gulf wire: GOP Representative Thomas Massie has emerged as outspoken critic of war on Iran and overseas military interventions.\n\nhttps://www.aljazeera.com/news/2026/9/15/republican-congressman-calls-to-impeach-us-defence-secretary-pete-hegseth?traffic_source=rss",
@@ -536,14 +536,14 @@
     "source_url": "https://www.aljazeera.com/news/2026/9/15/republican-congressman-calls-to-impeach-us-defence-secretary-pete-hegseth?traffic_source=rss",
     "source_title": "Republican congressman calls to impeach US Defence Secretary Pete Hegseth",
     "source_summary": "GOP Representative Thomas Massie has emerged as outspoken critic of war on Iran and overseas military interventions.",
-    "drafted_at": "2026-09-15T23:30:41.136025",
+    "drafted_at": "2026-09-15T23:49:04.757596",
     "data": {
       "source": "AL JAZEERA"
     },
     "content_hash": "19ff82389490bbe1"
   },
   {
-    "id": "90062c38",
+    "id": "480c3b74",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "How sticky is inflation? Let's see: Futures pricing now puts the odds of a rate hike from Warsh and Co. at tomorrow\u2019s FOMC meeting at 93%.\n\nWith odds that high, the market would be shocked if the Fed didn\u2019t hike rates tomorrow.\n\nNew Fed Chair Warsh was appointed by a President who aggressively hounded the prior Fed Chair \u2014 Powell \u2014 [\u2026] The post Core CPI Trends Lower first appeared on Bespoke Investment Group.\n\nhttps://www.bespokepremium.com/think-big-blog/core-cpi-trends-lower/",
@@ -553,14 +553,14 @@
     "source_url": "https://www.bespokepremium.com/think-big-blog/core-cpi-trends-lower/",
     "source_title": "Core CPI Trends Lower",
     "source_summary": "Futures pricing now puts the odds of a rate hike from Warsh and Co. at tomorrow\u2019s FOMC meeting at 93%. With odds that high, the market would be shocked if the Fed didn\u2019t hike rates tomorrow. New Fed Chair Warsh was appointed by a President who aggressively hounded the prior Fed Chair \u2014 Powell \u2014 [\u2026] The post Core CPI Trends Lower first appeared on Bespoke Investment Group .",
-    "drafted_at": "2026-09-15T23:30:41.186450",
+    "drafted_at": "2026-09-15T23:49:04.788803",
     "data": {
       "source": "BESPOKE"
     },
     "content_hash": "7b88fdd506e1f556"
   },
   {
-    "id": "907f3f7a",
+    "id": "47848775",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "From the consumption desk: The Ring is Euronews\u2019 weekly political showdown, where Europe\u2019s toughest debates meet their boldest voices.\n\nIn each episode, two political heavyweights from across the EU face off to propose a diversity of opinions and spark conversations around the most important issues of EU affairs and the wider European political life.\n\nEuronews Tech Talks goes beyond discussions to explore the impact of new technologies on our lives.\n\nWith explanations, engaging Q&As, and lively conversations, the podcast provides valuable insights into the intersection of technology and society.\n\nEurope's best food experts are joining forces to crack down on fraud.\n\nhttps://www.euronews.com/business/2026/09/15/chinas-retail-sales-slow-again-as-beijing-struggles-to-revive-consumer-spending",
@@ -570,14 +570,14 @@
     "source_url": "https://www.euronews.com/business/2026/09/15/chinas-retail-sales-slow-again-as-beijing-struggles-to-revive-consumer-spending",
     "source_title": "China's retail sales slow again as Beijing struggles to revive consumer spending",
     "source_summary": "Retail sales in China grew just 0.4% in August, the slowest pace since growth resumed and the second consecutive monthly slowdown, underlining how little progress Beijing has made in reviving consumer spending even as factory output accelerates.",
-    "drafted_at": "2026-09-15T23:30:41.187863",
+    "drafted_at": "2026-09-15T23:49:04.789638",
     "data": {
       "source": "EURONEWS"
     },
     "content_hash": "d980f6e2603558d2"
   },
   {
-    "id": "38052c14",
+    "id": "e1f93ecb",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -587,7 +587,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-09-15T23:30:41.189301",
+    "drafted_at": "2026-09-15T23:49:04.790604",
     "data": {
       "manual": true,
       "via": "manual_news.md"
