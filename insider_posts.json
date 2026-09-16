@@ -1,21 +1,4 @@
 {
-  "TISI_P_2026-09-03": {
-    "ticker": "TISI",
-    "company": "Team Inc",
-    "industry": "Miscellaneous Repair Services",
-    "num_insiders": 3,
-    "type": "P",
-    "price": 24.4,
-    "qty": 25000,
-    "dollar_value": 610080.0,
-    "trade_date": "2026-09-03",
-    "category": "CLUSTER_BUY",
-    "link": "http://openinsider.com/screener?s=TISI",
-    "post_id": "TISI_P_2026-09-03",
-    "chart_path": "charts/insider/TISI_P_20260903.png",
-    "pct_since": 7.1311450395427824,
-    "fired_at": "2026-09-14T15:22:22.537476"
-  },
   "DGICA_P_2026-09-11": {
     "ticker": "DGICA",
     "company": "Donegal Group Inc",
@@ -321,5 +304,39 @@
     "chart_path": "charts/insider/CELH_P_20260915.png",
     "pct_since": -0.36062329330472004,
     "fired_at": "2026-09-16T13:12:23.974152"
+  },
+  "ARDC_P_2026-09-14": {
+    "ticker": "ARDC",
+    "company": "Ares Dynamic Credit Allocation Fund, Inc.",
+    "industry": "Thrivent Financial For Lutherans",
+    "num_insiders": 0,
+    "type": "P",
+    "price": 25.0,
+    "qty": 240000,
+    "dollar_value": 6000000.0,
+    "trade_date": "2026-09-14",
+    "category": "BIG_SALE",
+    "link": "http://openinsider.com/screener?s=ARDC",
+    "post_id": "ARDC_P_2026-09-14",
+    "chart_path": "charts/insider/ARDC_P_20260914.png",
+    "pct_since": -51.879600524902344,
+    "fired_at": "2026-09-16T17:32:32.355720"
+  },
+  "TLAC_P_2026-09-02": {
+    "ticker": "TLAC",
+    "company": "Three Lions Acquisition Corp.",
+    "industry": "Three Lions Sponsor, LLC",
+    "num_insiders": 0,
+    "type": "P",
+    "price": 10.0,
+    "qty": 200000,
+    "dollar_value": 2000000.0,
+    "trade_date": "2026-09-02",
+    "category": "BIG_SALE",
+    "link": "http://openinsider.com/screener?s=TLAC",
+    "post_id": "TLAC_P_2026-09-02",
+    "chart_path": null,
+    "pct_since": 0.0,
+    "fired_at": "2026-09-16T17:32:32.355720"
   }
 }
