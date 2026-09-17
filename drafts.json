@@ -1,23 +1,61 @@
 [
   {
-    "id": "585c333e",
+    "id": "290f447b",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "The European Central Bank (ECB) raised its deposit rate to 2.50% on September 10, and the Euro has fallen every session since.\n\nThe Fed raised its own rate to 3.75-4.00% on Wednesday, by the same quarter point, and the day's drop was the biggest of the run.\n\nhttps://www.fxstreet.com/news/the-euros-losing-streak-runs-on-as-the-fed-matches-the-ecbs-rate-hike-202609162201",
+    "draft_text": "The AUD/USD pair gains ground to around 0.7090 during the early Asian trading hours on Thursday.\n\nTraders continue to assess the Federal Reserve (Fed) interest rate hike and US President Donald Trump\u2019s comments.\n\nThe US Initial Jobless Claims data will be published later on Thursday.\n\nhttps://www.fxstreet.com/news/australian-dollar-holds-gains-near-07100-despite-fed-rate-hike-imf-urges-rba-to-stay-hawkish-202609170119",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/the-euros-losing-streak-runs-on-as-the-fed-matches-the-ecbs-rate-hike-202609162201",
-    "source_title": "The Euro's losing streak runs on as the Fed matches the ECB's rate hike",
-    "source_summary": "The European Central Bank (ECB) raised its deposit rate to 2.50% on September 10, and the Euro has fallen every session since. The Fed raised its own rate to 3.75-4.00% on Wednesday, by the same quarter point, and the day's drop was the biggest of the run.",
-    "drafted_at": "2026-09-16T23:57:40.700662",
+    "source_url": "https://www.fxstreet.com/news/australian-dollar-holds-gains-near-07100-despite-fed-rate-hike-imf-urges-rba-to-stay-hawkish-202609170119",
+    "source_title": "Australian Dollar holds gains near 0.7100 despite Fed rate hike, IMF urges RBA to stay hawkish",
+    "source_summary": "The AUD/USD pair gains ground to around 0.7090 during the early Asian trading hours on Thursday. Traders continue to assess the Federal Reserve (Fed) interest rate hike and US President Donald Trump\u2019s comments. The US Initial Jobless Claims data will be published later on Thursday.",
+    "drafted_at": "2026-09-17T02:49:30.913758",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "21b137ad1c490604"
+    "content_hash": "17d77e5fc2680668"
   },
   {
-    "id": "77e1162b",
+    "id": "fd855284",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "The chart told me. Now I'm telling you. VIX rips 21.9% in 5 sessions to 17.71.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CBOE \u00b7 ^VIX",
+    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "source_title": "VIX (S&P 500 volatility)",
+    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "drafted_at": "2026-09-17T02:49:30.914052",
+    "data": {
+      "signal_id": "^VIX:move:2026-09-16",
+      "kind": "move_up",
+      "current": "17.71"
+    },
+    "content_hash": "995f4d67e7e875d2"
+  },
+  {
+    "id": "13820c3f",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Hot tape: WTI crude surges 11.5% in 5 sessions to $101.99.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NYMEX \u00b7 CL=F",
+    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "source_title": "WTI crude oil futures",
+    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "drafted_at": "2026-09-17T02:49:30.914275",
+    "data": {
+      "signal_id": "CL=F:move:2026-09-16",
+      "kind": "move_up",
+      "current": "$101.99"
+    },
+    "content_hash": "c272de0720a2f459"
+  },
+  {
+    "id": "fb096d55",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Tracks in the snow. Bitcoin drops 5.3% in 5 sessions to $76,098.\n\nBitcoin is now treated as a macro asset alongside gold and tech.\n\nIts swings move alt-coins, public miners, and crypto-exposed stocks.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/BTC-USD",
@@ -27,7 +65,7 @@
     "source_url": "https://finance.yahoo.com/quote/BTC-USD",
     "source_title": "Bitcoin",
     "source_summary": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
-    "drafted_at": "2026-09-16T23:57:40.700984",
+    "drafted_at": "2026-09-17T02:49:30.914538",
     "data": {
       "signal_id": "BTC-USD:move:2026-09-16",
       "kind": "move_down",
@@ -36,79 +74,75 @@
     "content_hash": "0e3396ceb3da7211"
   },
   {
-    "id": "d5768cc6",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "The chart told me. Now I'm telling you. VIX rips 16.7% in 5 sessions to 16.95.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CBOE \u00b7 ^VIX",
-    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "source_title": "VIX (S&P 500 volatility)",
-    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-09-16T23:57:40.701259",
-    "data": {
-      "signal_id": "^VIX:move:2026-09-16",
-      "kind": "move_up",
-      "current": "16.95"
-    },
-    "content_hash": "995f4d67e7e875d2"
-  },
-  {
-    "id": "8f9cff3f",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "Hot tape: WTI crude surges 13.8% in 5 sessions to $104.12.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "NYMEX \u00b7 CL=F",
-    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
-    "source_title": "WTI crude oil futures",
-    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-09-16T23:57:40.701504",
-    "data": {
-      "signal_id": "CL=F:move:2026-09-16",
-      "kind": "move_up",
-      "current": "$104.12"
-    },
-    "content_hash": "c272de0720a2f459"
-  },
-  {
-    "id": "a2d14344",
+    "id": "3756f96d",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "FED WATCH: Gold price (XAU/USD) attracts some sellers to around $4,265 during the early Asian session on Thursday.\n\nThe precious metal extends its downside after the US Federal Reserve (Fed) raises interest rates and signals another rate increase is likely this year.\n\nhttps://www.fxstreet.com/news/gold-falls-to-near-4-250-after-fed-delivers-rate-hike-202609162325",
+    "draft_text": "If you trade rates, read this: The EUR/USD pair declines to around 1.1460 during Asian trading hours on Thursday.\n\nThe Euro (EUR) weakens against the US Dollar (USD) following an interest rate hike from the US Federal Reserve (Fed).\n\nThe US Initial Jobless Claims data will be released later on Thursday.\n\nhttps://www.fxstreet.com/news/euro-weakens-to-near-11450-as-fed-raises-rate-for-first-time-in-three-years-202609170226",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "Fed",
-    "source_url": "https://www.fxstreet.com/news/gold-falls-to-near-4-250-after-fed-delivers-rate-hike-202609162325",
-    "source_title": "Gold falls to near $4,250 after Fed delivers rate hike",
-    "source_summary": "Gold price (XAU/USD) attracts some sellers to around $4,265 during the early Asian session on Thursday. The precious metal extends its downside after the US Federal Reserve (Fed) raises interest rates and signals another rate increase is likely this year.",
-    "drafted_at": "2026-09-16T23:57:40.712070",
+    "source_url": "https://www.fxstreet.com/news/euro-weakens-to-near-11450-as-fed-raises-rate-for-first-time-in-three-years-202609170226",
+    "source_title": "Euro weakens to near 1.1450 as Fed raises rate for first time in three years",
+    "source_summary": "The EUR/USD pair declines to around 1.1460 during Asian trading hours on Thursday. The Euro (EUR) weakens against the US Dollar (USD) following an interest rate hike from the US Federal Reserve (Fed). The US Initial Jobless Claims data will be released later on Thursday.",
+    "drafted_at": "2026-09-17T02:49:30.925467",
     "data": {
       "actor": "Fed"
     },
-    "content_hash": "c10eb03765720bf4"
+    "content_hash": "812000746bb54920"
   },
   {
-    "id": "ea2503fe",
+    "id": "77eeb1b3",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "FED WATCH: The unanimous decision comes as prices have remained stubbornly high and despite Trump's demands for lower rates.\n\nhttps://www.aljazeera.com/news/2026/9/16/what-to-know-about-us-federal-reserves-first-interest-rate-hike-in-3-years?traffic_source=rss",
+    "draft_text": "FOMC desk: US President Donald Trump said that he counseled Federal Reserve (Fed) Chair Kevin Warsh to vote for an interest rate hike because other Fed policymakers were expected to vote that way anyway, the Washington post reported on Wednesday.\n\nhttps://www.fxstreet.com/news/us-president-donald-trump-says-he-told-fed-chair-to-do-what-you-want-ahead-of-rate-hike-202609170150",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "Federal Reserve",
-    "source_url": "https://www.aljazeera.com/news/2026/9/16/what-to-know-about-us-federal-reserves-first-interest-rate-hike-in-3-years?traffic_source=rss",
-    "source_title": "What to know about US Federal Reserve\u2019s first interest rate hike in 3 years",
-    "source_summary": "The unanimous decision comes as prices have remained stubbornly high and despite Trump's demands for lower rates.",
-    "drafted_at": "2026-09-16T23:57:40.712311",
+    "primary_source": "Fed",
+    "source_url": "https://www.fxstreet.com/news/us-president-donald-trump-says-he-told-fed-chair-to-do-what-you-want-ahead-of-rate-hike-202609170150",
+    "source_title": "US President Donald Trump says he told Fed Chair to 'do what you want' ahead of rate hike",
+    "source_summary": "US President Donald Trump said that he counseled Federal Reserve (Fed) Chair Kevin Warsh to vote for an interest rate hike because other Fed policymakers were expected to vote that way anyway, the Washington post reported on Wednesday.",
+    "drafted_at": "2026-09-17T02:49:30.925808",
     "data": {
-      "actor": "Federal Reserve"
+      "actor": "Fed"
     },
-    "content_hash": "9f81103a03bd43c4"
+    "content_hash": "61e051c098d60479"
   },
   {
-    "id": "8fef1e7c",
+    "id": "90eb3153",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "From the Eccles Building: The AUD/USD pair gains ground to around 0.7090 during the early Asian trading hours on Thursday.\n\nTraders continue to assess the Federal Reserve (Fed) interest rate hike and US President Donald Trump\u2019s comments.\n\nThe US Initial Jobless Claims data will be published later on Thursday.\n\nhttps://www.fxstreet.com/news/australian-dollar-holds-gains-near-07100-despite-fed-rate-hike-imf-urges-rba-to-stay-hawkish-202609170119",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Fed",
+    "source_url": "https://www.fxstreet.com/news/australian-dollar-holds-gains-near-07100-despite-fed-rate-hike-imf-urges-rba-to-stay-hawkish-202609170119",
+    "source_title": "Australian Dollar holds gains near 0.7100 despite Fed rate hike, IMF urges RBA to stay hawkish",
+    "source_summary": "The AUD/USD pair gains ground to around 0.7090 during the early Asian trading hours on Thursday. Traders continue to assess the Federal Reserve (Fed) interest rate hike and US President Donald Trump\u2019s comments. The US Initial Jobless Claims data will be published later on Thursday.",
+    "drafted_at": "2026-09-17T02:49:30.926218",
+    "data": {
+      "actor": "Fed"
+    },
+    "content_hash": "17d77e5fc2680668"
+  },
+  {
+    "id": "96e878f9",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "FOMC desk: The president also suggested that he doesn\u2019t expect Kevin Warsh to follow his directions, saying he wanted the Fed \u201cto be independent.\u201d.\n\nhttps://www.washingtonpost.com/business/2026/09/16/trump-says-he-told-fed-chief-do-what-you-want/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Fed",
+    "source_url": "https://www.washingtonpost.com/business/2026/09/16/trump-says-he-told-fed-chief-do-what-you-want/",
+    "source_title": "Trump says he told Fed chief to \u2018do what you want\u2019 ahead of interest rate hike",
+    "source_summary": "The president also suggested that he doesn\u2019t expect Kevin Warsh to follow his directions, saying he wanted the Fed \u201cto be independent.\u201d",
+    "drafted_at": "2026-09-17T02:49:30.926458",
+    "data": {
+      "actor": "Fed"
+    },
+    "content_hash": "e256c74a066e6bb4"
+  },
+  {
+    "id": "a2c3f8e5",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FED WATCH: The Federal Open Market Committee voted 12-0 to lift its target range a quarter point to 3.75%-4%, and the median projection now puts the rate at 4.1% at the end of 2026 against 3.8% in June.\n\nBitcoin spiked to $76,499.99 five minutes after the release and gave it back within half an hour.\n\nhttps://thedefiant.io/news/markets/bitcoin-round-trips-fed-rate-increase-zcash-sep-16-2026",
@@ -118,48 +152,74 @@
     "source_url": "https://thedefiant.io/news/markets/bitcoin-round-trips-fed-rate-increase-zcash-sep-16-2026",
     "source_title": "Bitcoin Round-Trips the First Fed Rate Increase Since 2023 as Zcash Runs to $1,383",
     "source_summary": "The Federal Open Market Committee voted 12-0 to lift its target range a quarter point to 3.75%-4%, and the median projection now puts the rate at 4.1% at the end of 2026 against 3.8% in June. Bitcoin spiked to $76,499.99 five minutes after the release and gave it back within half an hour. The S&P",
-    "drafted_at": "2026-09-16T23:57:40.712700",
+    "drafted_at": "2026-09-17T02:49:30.926883",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "4c1401be4f18f4f4"
   },
   {
-    "id": "f910fc85",
-    "format": "POLICY_READ",
+    "id": "e5207ed9",
+    "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "Live from the Federal Reserve: The Fed raised rates for the first time in three years, and smart voices in finance are weighing in on whether more hikes are coming.\n\nhttps://www.businessinsider.com/fed-hiked-interest-rates-what-economic-experts-say-comes-next-2026-9",
-    "image_path": null,
+    "draft_text": "$UBER \u2014 2 company insiders bought $15.3M on Sep 04.\n\nUber Technologies, Inc. 211,000 shares at $72.58.\n\nStock is -2.2% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/UBER_P_20260904.png",
     "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://www.businessinsider.com/fed-hiked-interest-rates-what-economic-experts-say-comes-next-2026-9",
-    "source_title": "What smart people in business and economics are saying about the Fed interest rate hike",
-    "source_summary": "The Fed raised rates for the first time in three years, and smart voices in finance are weighing in on whether more hikes are coming.",
-    "drafted_at": "2026-09-16T23:57:40.712936",
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=UBER",
+    "source_title": "Uber Technologies, Inc (UBER) insider bought $15.3M",
+    "source_summary": "2 insider(s) bought 211,000 shares at $72.58 on 2026-09-04.",
+    "drafted_at": "2026-09-17T02:49:30.932713",
     "data": {
-      "actor": "Fed"
+      "ticker": "UBER",
+      "type": "P",
+      "dollar_value": 15314016.0,
+      "pct_since": -2.2182402580557636
     },
-    "content_hash": "53091534ab30f6ee"
+    "content_hash": "2195c99d587fedc0"
   },
   {
-    "id": "40de3bef",
-    "format": "POLICY_READ",
+    "id": "4d962124",
+    "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "RATE-PATH READ: The Fed\u2019s policy-making committee was unanimous in its decision to hike, but forward guidance was split.\n\nhttps://www.marketwatch.com/story/warshs-fed-rolls-out-first-interest-rate-hike-in-3-years-with-one-more-increase-expected-cde3060d?mod=mw_rss_topstories",
-    "image_path": null,
+    "draft_text": "$INBX \u2014 2 company insiders bought $2.9M on Sep 08.\n\nInhibrx Biosciences, Inc. 27,500 shares at $106.62.\n\nStock is -4.5% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/INBX_P_20260908.png",
     "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://www.marketwatch.com/story/warshs-fed-rolls-out-first-interest-rate-hike-in-3-years-with-one-more-increase-expected-cde3060d?mod=mw_rss_topstories",
-    "source_title": "As Fed rolls out its first interest-rate hike in 3 years, market braces for more increases",
-    "source_summary": "The Fed\u2019s policy-making committee was unanimous in its decision to hike, but forward guidance was split.",
-    "drafted_at": "2026-09-16T23:57:40.713137",
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=INBX",
+    "source_title": "Inhibrx Biosciences, Inc. (INBX) insider bought $2.9M",
+    "source_summary": "2 insider(s) bought 27,500 shares at $106.62 on 2026-09-08.",
+    "drafted_at": "2026-09-17T02:49:30.932913",
     "data": {
-      "actor": "Fed"
+      "ticker": "INBX",
+      "type": "P",
+      "dollar_value": 2932016.0,
+      "pct_since": -4.548868276996434
     },
-    "content_hash": "619ad9d9702176ae"
+    "content_hash": "1b20ea8e0a00c30b"
   },
   {
-    "id": "615b8a5d",
+    "id": "33eeb0c3",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$MNR \u2014 a company insider bought $2.0M on Sep 14.\n\nMach Natural Resources LP. 172,413 shares at $11.60.\n\nStock is -6.0% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/MNR_P_20260914.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=MNR",
+    "source_title": "Mach Natural Resources LP (MNR) insider bought $2.0M",
+    "source_summary": "1 insider(s) bought 172,413 shares at $11.60 on 2026-09-14.",
+    "drafted_at": "2026-09-17T02:49:30.933096",
+    "data": {
+      "ticker": "MNR",
+      "type": "P",
+      "dollar_value": 1999991.0,
+      "pct_since": -6.034486047152813
+    },
+    "content_hash": "842f953bfb9f1bd3"
+  },
+  {
+    "id": "b28747d7",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$FOX \u2014 a company insider bought $10.3M on Sep 15.\n\nFox Corp. 149,934 shares at $68.53.\n\nStock is -13.7% since the purchase. This is a public SEC Form 4 filing.",
@@ -169,7 +229,7 @@
     "source_url": "http://openinsider.com/screener?s=FOX",
     "source_title": "Fox Corp (FOX) insider bought $10.3M",
     "source_summary": "1 insider(s) bought 149,934 shares at $68.53 on 2026-09-15.",
-    "drafted_at": "2026-09-16T23:57:40.719654",
+    "drafted_at": "2026-09-17T02:49:30.933263",
     "data": {
       "ticker": "FOX",
       "type": "P",
@@ -179,7 +239,7 @@
     "content_hash": "e612e3bd472dc664"
   },
   {
-    "id": "02ebe828",
+    "id": "308d6133",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$ANGX \u2014 3 company insiders bought $5.9M on Sep 11.\n\nAngel Studios, Inc. 1,288,309 shares at $4.55.\n\nStock is +16.5% since the purchase. This is a public SEC Form 4 filing.",
@@ -189,7 +249,7 @@
     "source_url": "http://openinsider.com/screener?s=ANGX",
     "source_title": "Angel Studios, Inc. (ANGX) insider bought $5.9M",
     "source_summary": "3 insider(s) bought 1,288,309 shares at $4.55 on 2026-09-11.",
-    "drafted_at": "2026-09-16T23:57:40.719862",
+    "drafted_at": "2026-09-17T02:49:30.933441",
     "data": {
       "ticker": "ANGX",
       "type": "P",
@@ -199,67 +259,24 @@
     "content_hash": "17f5a21771b676b3"
   },
   {
-    "id": "0f7ca24f",
-    "format": "CORRUPTION_WATCH_INSIDER",
+    "id": "656b9fd5",
+    "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "$ACOG \u2014 a company insider bought $1.1M on Sep 14.\n\nAlpha Cognition Inc. 123,918 shares at $8.57.\n\nStock is -2.0% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/ACOG_P_20260914.png",
+    "draft_text": "New Jersey Woman Sentenced to 24 Months for $882,000 PPP Fraud Scheme\n\nhttps://townhall.com/news/scott-mcclallen/2026/09/16/new-jersey-woman-sentenced-to-24-months-for-882k-ppp-fraud-scheme-n2683108",
+    "image_path": null,
     "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=ACOG",
-    "source_title": "Alpha Cognition Inc. (ACOG) insider bought $1.1M",
-    "source_summary": "1 insider(s) bought 123,918 shares at $8.57 on 2026-09-14.",
-    "drafted_at": "2026-09-16T23:57:40.720062",
+    "primary_source": "TOWNHALL FIN",
+    "source_url": "https://townhall.com/news/scott-mcclallen/2026/09/16/new-jersey-woman-sentenced-to-24-months-for-882k-ppp-fraud-scheme-n2683108",
+    "source_title": "New Jersey Woman Sentenced to 24 Months for $882,000 PPP Fraud Scheme",
+    "source_summary": "",
+    "drafted_at": "2026-09-17T02:49:30.936769",
     "data": {
-      "ticker": "ACOG",
-      "type": "P",
-      "dollar_value": 1062506.0,
-      "pct_since": -1.983668395212682
+      "source": "TOWNHALL FIN"
     },
-    "content_hash": "9db777a1530e4a76"
+    "content_hash": "e88c5291cab70f29"
   },
   {
-    "id": "f08a9871",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$USO \u2014 a company insider bought $16.6M on Sep 11.\n\nUnited States Oil Fund, LP. 105,195 shares at $157.88.\n\nStock is -1.1% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/USO_P_20260911.png",
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=USO",
-    "source_title": "United States Oil Fund, LP (USO) insider bought $16.6M",
-    "source_summary": "1 insider(s) bought 105,195 shares at $157.88 on 2026-09-11.",
-    "drafted_at": "2026-09-16T23:57:40.720293",
-    "data": {
-      "ticker": "USO",
-      "type": "P",
-      "dollar_value": 16608540.0,
-      "pct_since": -1.0831022492112257
-    },
-    "content_hash": "1b6a5d1de3f893c5"
-  },
-  {
-    "id": "132903ca",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$CRBG \u2014 a company insider bought $10.3M on Sep 14.\n\nCorebridge Financial, Inc. 295,967 shares at $34.86.\n\nStock is -0.0% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/CRBG_P_20260914.png",
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=CRBG",
-    "source_title": "Corebridge Financial, Inc. (CRBG) insider bought $10.3M",
-    "source_summary": "1 insider(s) bought 295,967 shares at $34.86 on 2026-09-14.",
-    "drafted_at": "2026-09-16T23:57:40.720497",
-    "data": {
-      "ticker": "CRBG",
-      "type": "P",
-      "dollar_value": 10318653.0,
-      "pct_since": -0.02869055042715342
-    },
-    "content_hash": "5d24ae6d57f328d2"
-  },
-  {
-    "id": "ce9d0928",
+    "id": "bb964a9f",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Man Who Fled to Amsterdam Returns to Face $1.3 Million Medicaid Fraud Charges\n\nhttps://townhall.com/news/scott-mcclallen/2026/09/16/man-who-fled-to-amsterdam-returns-to-face-13m-medicaid-fraud-charges-n2683076",
@@ -269,14 +286,14 @@
     "source_url": "https://townhall.com/news/scott-mcclallen/2026/09/16/man-who-fled-to-amsterdam-returns-to-face-13m-medicaid-fraud-charges-n2683076",
     "source_title": "Man Who Fled to Amsterdam Returns to Face $1.3 Million Medicaid Fraud Charges",
     "source_summary": "",
-    "drafted_at": "2026-09-16T23:57:40.724435",
+    "drafted_at": "2026-09-17T02:49:30.936844",
     "data": {
       "source": "TOWNHALL FIN"
     },
     "content_hash": "ab464b14cb1462ce"
   },
   {
-    "id": "8a835ef1",
+    "id": "7f747777",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Karen Bass Feels Heat From Feds Over Millions in Stolen and Laundered \u2018Homeless\u2019 Funds\n\nhttps://pjmedia.com/victoria-taft/2026/09/16/indictments-may-explain-why-la-mayor-karen-bass-just-quit-disastrous-government-homeless-authority-n4957304",
@@ -286,48 +303,14 @@
     "source_url": "https://pjmedia.com/victoria-taft/2026/09/16/indictments-may-explain-why-la-mayor-karen-bass-just-quit-disastrous-government-homeless-authority-n4957304",
     "source_title": "Karen Bass Feels Heat From Feds Over Millions in Stolen and Laundered \u2018Homeless\u2019 Funds",
     "source_summary": "",
-    "drafted_at": "2026-09-16T23:57:40.724530",
+    "drafted_at": "2026-09-17T02:49:30.936931",
     "data": {
       "source": "PJ MEDIA"
     },
     "content_hash": "455525a116930a11"
   },
   {
-    "id": "a76de4fa",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Brentwood Optometrist Sentenced to 42 Months for $6.9M Medicare Fraud\n\nhttps://townhall.com/news/scott-mcclallen/2026/09/16/brentwood-optometrist-sentenced-to-42-months-for-69m-medicare-fraud-n2683074",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "TOWNHALL FIN",
-    "source_url": "https://townhall.com/news/scott-mcclallen/2026/09/16/brentwood-optometrist-sentenced-to-42-months-for-69m-medicare-fraud-n2683074",
-    "source_title": "Brentwood Optometrist Sentenced to 42 Months for $6.9M Medicare Fraud",
-    "source_summary": "",
-    "drafted_at": "2026-09-16T23:57:40.724605",
-    "data": {
-      "source": "TOWNHALL FIN"
-    },
-    "content_hash": "97b5125b43ed4b6e"
-  },
-  {
-    "id": "7448bc27",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "The illegal migrant took in approximately $35 million, but only invested about $10 million.\n\nHe used the rest to repay older investors and living a luxurious lifestyle with private jets and luxury hotels.\n\nhttps://justthenews.com/nation/crime/travis-kelce-named-missouri-court-victim-35-million-ponzi-scheme?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "JUST THE NEWS",
-    "source_url": "https://justthenews.com/nation/crime/travis-kelce-named-missouri-court-victim-35-million-ponzi-scheme?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
-    "source_title": "Travis Kelce is named in a Missouri court as a victim of a $35 million Ponzi scheme",
-    "source_summary": "The illegal migrant took in approximately $35 million, but only invested about $10 million. He used the rest to repay older investors and living a luxurious lifestyle with private jets and luxury hotels.",
-    "drafted_at": "2026-09-16T23:57:40.724851",
-    "data": {
-      "source": "JUST THE NEWS"
-    },
-    "content_hash": "8af9d65c9e23e031"
-  },
-  {
-    "id": "6ef3ef95",
+    "id": "83e6d20d",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "ICIJ and its media partners found that Chinese bank ICBC served as a financing hub for infrastructure in the U.K. and Australia, prompting questions about Beijing\u2019s influence over public projects.\n\nhttps://www.icij.org/investigations/china-capital/uk-parliament-debates-infrastructure-security-after-china-capital-revelations/",
@@ -337,90 +320,107 @@
     "source_url": "https://www.icij.org/investigations/china-capital/uk-parliament-debates-infrastructure-security-after-china-capital-revelations/",
     "source_title": "UK Parliament debates infrastructure security after China Capital revelations",
     "source_summary": "ICIJ and its media partners found that Chinese bank ICBC served as a financing hub for infrastructure in the U.K. and Australia, prompting questions about Beijing\u2019s influence over public projects.",
-    "drafted_at": "2026-09-16T23:57:40.725113",
+    "drafted_at": "2026-09-17T02:49:30.937205",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "8d49fc78e535215e"
   },
   {
-    "id": "d9f019be",
+    "id": "92ec1c05",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Confidential records reveal how the Industrial and Commercial Bank of China\u2019s London units courted high-risk clients to secure resources and alliances for Xi Jinping\u2019s regime.\n\nhttps://www.icij.org/investigations/china-capital/china-banking-icbc-oligarchs-sanctions-london/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "ICIJ",
+    "source_url": "https://www.icij.org/investigations/china-capital/china-banking-icbc-oligarchs-sanctions-london/",
+    "source_title": "Chinese banking giant serves firms linked to oligarchs and autocrats to push Beijing\u2019s agenda",
+    "source_summary": "Confidential records reveal how the Industrial and Commercial Bank of China\u2019s London units courted high-risk clients to secure resources and alliances for Xi Jinping\u2019s regime.",
+    "drafted_at": "2026-09-17T02:49:30.937440",
+    "data": {
+      "source": "ICIJ"
+    },
+    "content_hash": "f64715a76ccd13e0"
+  },
+  {
+    "id": "2baa4c79",
     "format": "CONGRESS_WATCH",
     "status": "pending",
-    "draft_text": "4 members of Congress bought $SPCX this year \u2014 and these filings don't show them selling:\n\n\u2022 Daniel Meuser (R)\n\u2022 Jared Moskowitz (D)\n\u2022 John McGuire (R)\n\u2022 Gilbert Cisneros (D)\n\nLargest disclosed here: Daniel Meuser, $15,001 - $50,000 on Jun 15.\n\nPrice since the first buy in this group: -6.1%.\n\nSTOCK Act disclosures. Public record.",
+    "draft_text": "4 members of Congress bought $SPCX this year \u2014 and these filings don't show them selling:\n\n\u2022 Daniel Meuser (R)\n\u2022 Jared Moskowitz (D)\n\u2022 John McGuire (R)\n\u2022 Gilbert Cisneros (D)\n\nLargest disclosed here: Daniel Meuser, $15,001 - $50,000 on Jun 15.\n\nPrice since the first buy in this group: -6.3%.\n\nSTOCK Act disclosures. Public record.",
     "image_path": "charts/congress/SPCX_cluster.png",
     "og_image_url": null,
     "primary_source": "STOCK Act PTR filings",
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034774.pdf",
     "source_title": "4 Congress members bought $SPCX",
     "source_summary": "4 politicians bought $SPCX; largest $15,001 - $50,000 by Daniel Meuser.",
-    "drafted_at": "2026-09-16T23:57:40.726472",
+    "drafted_at": "2026-09-17T02:49:30.938495",
     "data": {
       "ticker": "SPCX",
       "member_count": 4,
-      "pct_since_first": -6.05156285744271
+      "pct_since_first": -6.256596617810415
     },
     "content_hash": "585711bf88956fa9"
   },
   {
-    "id": "19844138",
+    "id": "d0215775",
     "format": "CONGRESS_WATCH",
     "status": "pending",
-    "draft_text": "4 members of Congress bought $NVDA this year \u2014 and these filings don't show them selling:\n\n\u2022 Michael Rulli (R)\n\u2022 Cleo Fields (D)\n\u2022 Gilbert Cisneros (D)\n\u2022 John J Mr McGuire (R)\n\nLargest disclosed here: Michael Rulli, $1,001 - $15,000 on Jun 25.\n\nPrice since the first buy in this group: +11.5%.\n\nSTOCK Act disclosures. Public record.",
+    "draft_text": "4 members of Congress bought $NVDA this year \u2014 and these filings don't show them selling:\n\n\u2022 Michael Rulli (R)\n\u2022 Cleo Fields (D)\n\u2022 Gilbert Cisneros (D)\n\u2022 John J Mr McGuire (R)\n\nLargest disclosed here: Michael Rulli, $1,001 - $15,000 on Jun 25.\n\nPrice since the first buy in this group: +9.3%.\n\nSTOCK Act disclosures. Public record.",
     "image_path": "charts/congress/NVDA_cluster.png",
     "og_image_url": null,
     "primary_source": "STOCK Act PTR filings",
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035147.pdf",
     "source_title": "4 Congress members bought $NVDA",
     "source_summary": "4 politicians bought $NVDA; largest $1,001 - $15,000 by Michael Rulli.",
-    "drafted_at": "2026-09-16T23:57:40.726780",
+    "drafted_at": "2026-09-17T02:49:30.938817",
     "data": {
       "ticker": "NVDA",
       "member_count": 4,
-      "pct_since_first": 11.520377623447178
+      "pct_since_first": 9.277606975419506
     },
     "content_hash": "f6cf25ab3c00fb6f"
   },
   {
-    "id": "baa10c93",
+    "id": "08ccef28",
     "format": "CONGRESS_WATCH",
     "status": "pending",
-    "draft_text": "4 members of Congress bought $MU this year \u2014 and these filings don't show them selling:\n\n\u2022 Josh Gottheimer (D)\n\u2022 Sheldon Whitehouse (D)\n\u2022 Michael Rulli (R)\n\u2022 Dan Newhouse (R)\n\nLargest disclosed here: Josh Gottheimer, $1,001 - $15,000 on May 21.\n\nPrice since the first buy in this group: +28.0%.\n\nSTOCK Act disclosures. Public record.",
+    "draft_text": "4 members of Congress bought $MU this year \u2014 and these filings don't show them selling:\n\n\u2022 Josh Gottheimer (D)\n\u2022 Sheldon Whitehouse (D)\n\u2022 Michael Rulli (R)\n\u2022 Dan Newhouse (R)\n\nLargest disclosed here: Josh Gottheimer, $1,001 - $15,000 on May 21.\n\nPrice since the first buy in this group: +21.6%.\n\nSTOCK Act disclosures. Public record.",
     "image_path": "charts/congress/MU_cluster.png",
     "og_image_url": null,
     "primary_source": "STOCK Act PTR filings",
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034693.pdf",
     "source_title": "4 Congress members bought $MU",
     "source_summary": "4 politicians bought $MU; largest $1,001 - $15,000 by Josh Gottheimer.",
-    "drafted_at": "2026-09-16T23:57:40.727076",
+    "drafted_at": "2026-09-17T02:49:30.939121",
     "data": {
       "ticker": "MU",
       "member_count": 4,
-      "pct_since_first": 27.970088047280186
+      "pct_since_first": 21.578535293954644
     },
     "content_hash": "7c265a3a54605da1"
   },
   {
-    "id": "5101b453",
+    "id": "791b2303",
     "format": "CONGRESS_WATCH",
     "status": "pending",
-    "draft_text": "3 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 Gilbert Cisneros (D)\n\u2022 Cleo Fields (D)\n\u2022 Jared Moskowitz (D)\n\nLargest disclosed here: Gilbert Cisneros, $50,001 - $100,000 on May 15.\n\nPrice since the first buy in this group: +17.5%.\n\nSTOCK Act disclosures. Public record.",
-    "image_path": "charts/congress/MSFT_cluster.png",
+    "draft_text": "3 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 Gilbert Cisneros (D)\n\u2022 Cleo Fields (D)\n\u2022 Jared Moskowitz (D)\n\nLargest disclosed here: Gilbert Cisneros, $50,001 - $100,000 on May 15.\n\nPrice since the first buy in this group: +16.2%.\n\nSTOCK Act disclosures. Public record.\n\nhttps://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034713.pdf",
+    "image_path": null,
     "og_image_url": null,
     "primary_source": "STOCK Act PTR filings",
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034713.pdf",
     "source_title": "3 Congress members bought $MSFT",
     "source_summary": "3 politicians bought $MSFT; largest $50,001 - $100,000 by Gilbert Cisneros.",
-    "drafted_at": "2026-09-16T23:57:40.727377",
+    "drafted_at": "2026-09-17T02:49:30.939389",
     "data": {
       "ticker": "MSFT",
       "member_count": 3,
-      "pct_since_first": 17.470133937531983
+      "pct_since_first": 16.20685726891843
     },
     "content_hash": "568a39394ccac4dc"
   },
   {
-    "id": "3d42e8b1",
+    "id": "899edd1d",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $BRK.B this year \u2014 and these filings don't show them selling:\n\n\u2022 Jerry Moran,\n\u2022 Maria Elvira Salazar (R)\n\u2022 Richard Dean Dr McCormick (R)\n\nLargest disclosed here: Jerry Moran,, $15,001 - $50,000 on Jun 23.\n\nPrice since the first buy in this group: +0.0%.\n\nSTOCK Act disclosures. Public record.\n\nhttps://efdsearch.senate.gov/search/view/ptr/cff197e2-b90b-4b53-b97d-eecf226a1980/",
@@ -430,7 +430,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/cff197e2-b90b-4b53-b97d-eecf226a1980/",
     "source_title": "3 Congress members bought $BRK.B",
     "source_summary": "3 politicians bought $BRK.B; largest $15,001 - $50,000 by Jerry Moran,.",
-    "drafted_at": "2026-09-16T23:57:40.727643",
+    "drafted_at": "2026-09-17T02:49:30.939667",
     "data": {
       "ticker": "BRK.B",
       "member_count": 3,
@@ -439,143 +439,143 @@
     "content_hash": "6f888df9bec37d4e"
   },
   {
-    "id": "583e2696",
+    "id": "507f1083",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: The meeting underscores ongoing geopolitical tensions, with potential diplomatic progress impacting market perceptions and regional stability.\n\nThe post Trump to meet Gulf leaders in NY for Iran talks next week: Axios appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/trump-to-meet-gulf-leaders-in-ny-for-iran-talks-next-week-axios/",
+    "draft_text": "APAC wire: The USD/JPY pair edges lower during the Asian session on Thursday, snapping a three-day winning streak and eroding a part of the previous day's gains to a nearly two-week high.\n\nhttps://www.fxstreet.com/news/japanese-yen-edges-higher-vs-bullish-usd-amid-expectations-of-a-more-hawkish-boj-202609170154",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/japanese-yen-edges-higher-vs-bullish-usd-amid-expectations-of-a-more-hawkish-boj-202609170154",
+    "source_title": "Japanese Yen edges higher vs bullish USD amid expectations of a more hawkish BoJ",
+    "source_summary": "The USD/JPY pair edges lower during the Asian session on Thursday, snapping a three-day winning streak and eroding a part of the previous day's gains to a nearly two-week high.",
+    "drafted_at": "2026-09-17T02:49:30.941250",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "947aec0e6c619029"
+  },
+  {
+    "id": "41afb64f",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "From the Gulf: President Donald Trump said Wednesday that Iran has contacted the United States \u201cdirectly\u201d and \u201cvery much\u201d wants a deal, expressing hope that the nearly seven-month conflict is approaching its end after predicting last week that the fighting would conclude following November\u2019s midterm elections.\n\nThe post Trump: Iran \u2018Very Much\u2019 Wants a Deal, Reached Out \u2018Directly\u2019 \u2014 \u2018Hopefully\u2019 Nearing End of War appeared first on Breitbart.\n\nhttps://www.breitbart.com/politics/2026/09/16/trump-iran-wants-deal-reached-directly-hopefully-nearing-end-war/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "BREITBART",
+    "source_url": "https://www.breitbart.com/politics/2026/09/16/trump-iran-wants-deal-reached-directly-hopefully-nearing-end-war/",
+    "source_title": "Trump: Iran \u2018Very Much\u2019 Wants a Deal, Reached Out \u2018Directly\u2019 \u2014 \u2018Hopefully\u2019 Nearing End of War",
+    "source_summary": "President Donald Trump said Wednesday that Iran has contacted the United States \u201cdirectly\u201d and \u201cvery much\u201d wants a deal, expressing hope that the nearly seven-month conflict is approaching its end after predicting last week that the fighting would conclude following November\u2019s midterm elections. The post Trump: Iran \u2018Very Much\u2019 Wants a Deal, Reached Out \u2018Directly\u2019 \u2014 \u2018Hopefully\u2019 Nearing End of War ",
+    "drafted_at": "2026-09-17T02:49:30.942122",
+    "data": {
+      "source": "BREITBART"
+    },
+    "content_hash": "50e14a0a75d0e989"
+  },
+  {
+    "id": "7e470801",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "MIDDLE EAST DESK: West Texas Intermediate (WTI) oil price extends its losses for the second successive day, trading around $96.60 per barrel during the Asian hours on Thursday.\n\nhttps://www.fxstreet.com/news/wti-remains-below-9750-as-saudi-routes-recover-us-stocks-shrink-less-than-expected-202609170118",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/wti-remains-below-9750-as-saudi-routes-recover-us-stocks-shrink-less-than-expected-202609170118",
+    "source_title": "WTI remains below $97.50 as Saudi routes recover, US stocks shrink less than expected",
+    "source_summary": "West Texas Intermediate (WTI) oil price extends its losses for the second successive day, trading around $96.60 per barrel during the Asian hours on Thursday.",
+    "drafted_at": "2026-09-17T02:49:30.942538",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "b8b8cbaeb21d6ecc"
+  },
+  {
+    "id": "860d804e",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Levant update: FREELANDER today announced the appointment of Al Tayer Motors and Premier Motors as its authorised distributors in the UAE.\n\nhttps://www.globenewswire.com/news-release/2026/09/17/3363645/0/en/uae-chosen-as-freelander-s-first-international-market-with-al-tayer-motors-and-premier-motors.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "GLOBENEWSWIRE",
+    "source_url": "https://www.globenewswire.com/news-release/2026/09/17/3363645/0/en/uae-chosen-as-freelander-s-first-international-market-with-al-tayer-motors-and-premier-motors.html",
+    "source_title": "UAE Chosen as FREELANDER\u2019s First International Market with Al Tayer Motors and Premier Motors",
+    "source_summary": "FREELANDER today announced the appointment of Al Tayer Motors and Premier Motors as its authorised distributors in the UAE",
+    "drafted_at": "2026-09-17T02:49:30.942732",
+    "data": {
+      "source": "GLOBENEWSWIRE"
+    },
+    "content_hash": "b9c608b2292b61c6"
+  },
+  {
+    "id": "af685434",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Cross-border read: The sanctions bill may escalate U.S.-Russia tensions, complicating diplomatic efforts and reducing the likelihood of a near-term ceasefire.\n\nThe post Congress passes sweeping US sanctions bill targeting Russia appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/congress-passes-sweeping-us-sanctions-bill-targeting-russia/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/trump-to-meet-gulf-leaders-in-ny-for-iran-talks-next-week-axios/",
-    "source_title": "Trump to meet Gulf leaders in NY for Iran talks next week: Axios",
-    "source_summary": "The meeting underscores ongoing geopolitical tensions, with potential diplomatic progress impacting market perceptions and regional stability. The post Trump to meet Gulf leaders in NY for Iran talks next week: Axios appeared first on Crypto Briefing .",
-    "drafted_at": "2026-09-16T23:57:40.728764",
+    "source_url": "https://cryptobriefing.com/congress-passes-sweeping-us-sanctions-bill-targeting-russia/",
+    "source_title": "Congress passes sweeping US sanctions bill targeting Russia",
+    "source_summary": "The sanctions bill may escalate U.S.-Russia tensions, complicating diplomatic efforts and reducing the likelihood of a near-term ceasefire. The post Congress passes sweeping US sanctions bill targeting Russia appeared first on Crypto Briefing .",
+    "drafted_at": "2026-09-17T02:49:30.943269",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "8c39805fad88ebd3"
+    "content_hash": "fe9a91d62cd28140"
   },
   {
-    "id": "ec6b350b",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "GLOBAL DESK: The vote ends a nearly two-year pause in Ukraine assistance from Congress.\n\nhttps://www.politico.com/news/2026/09/16/house-russia-sanctions-bill-trump-01081210?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "POLITICO EU",
-    "source_url": "https://www.politico.com/news/2026/09/16/house-russia-sanctions-bill-trump-01081210?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-    "source_title": "US House passes Russia sanctions bill, handing Trump more leverage against Moscow",
-    "source_summary": "The vote ends a nearly two-year pause in Ukraine assistance from Congress.",
-    "drafted_at": "2026-09-16T23:57:40.729390",
-    "data": {
-      "source": "POLITICO EU"
-    },
-    "content_hash": "a9a091b56e127b80"
-  },
-  {
-    "id": "26820e65",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "GLOBAL DESK: The comments from a US CENTCOM spokesperson come amid continued tensions over shipping through the vital waterway.\n\nhttps://www.aljazeera.com/news/2026/9/16/us-military-claims-strait-of-hormuz-remains-open-amid-ongoing-blockade?traffic_source=rss",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/news/2026/9/16/us-military-claims-strait-of-hormuz-remains-open-amid-ongoing-blockade?traffic_source=rss",
-    "source_title": "US military claims Strait of Hormuz remains open amid ongoing blockade",
-    "source_summary": "The comments from a US CENTCOM spokesperson come amid continued tensions over shipping through the vital waterway.",
-    "drafted_at": "2026-09-16T23:57:40.729769",
-    "data": {
-      "source": "AL JAZEERA"
-    },
-    "content_hash": "10e89217a6d5f1a5"
-  },
-  {
-    "id": "bbd84434",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Mainland wire: The involvement of tech leaders in diplomatic events may signal a shift towards leveraging corporate influence in international relations.\n\nThe post Apple\u2019s Tim Cook to attend Trump-Xi state dinner amid US-China tensions appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/apples-tim-cook-to-attend-trump-xi-state-dinner-amid-us-china-tensions/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/apples-tim-cook-to-attend-trump-xi-state-dinner-amid-us-china-tensions/",
-    "source_title": "Apple\u2019s Tim Cook to attend Trump-Xi state dinner amid US-China tensions",
-    "source_summary": "The involvement of tech leaders in diplomatic events may signal a shift towards leveraging corporate influence in international relations. The post Apple\u2019s Tim Cook to attend Trump-Xi state dinner amid US-China tensions appeared first on Crypto Briefing .",
-    "drafted_at": "2026-09-16T23:57:40.730175",
-    "data": {
-      "source": "CRYPTO BRIEFING"
-    },
-    "content_hash": "bab76e57446d50ec"
-  },
-  {
-    "id": "05272314",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Levant update: The just-passed Graham Sanctioning Russia and Iran Act is a victory for Ukraine and the bipartisan coalition backing it.\n\nThe post The Graham sanctions act is a chance to punish Putin.\n\nHere\u2019s what the White House should do next. appeared first on Atlantic Council.\n\nhttps://www.atlanticcouncil.org/dispatches/the-graham-sanctions-act-is-a-chance-to-punish-putin-heres-what-the-white-house-should-do-next/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "ATLANTIC CNCL",
-    "source_url": "https://www.atlanticcouncil.org/dispatches/the-graham-sanctions-act-is-a-chance-to-punish-putin-heres-what-the-white-house-should-do-next/",
-    "source_title": "The Graham sanctions act is a chance to punish Putin. Here\u2019s what the White House should do next.",
-    "source_summary": "The just-passed Graham Sanctioning Russia and Iran Act is a victory for Ukraine and the bipartisan coalition backing it. The post The Graham sanctions act is a chance to punish Putin. Here\u2019s what the White House should do next. appeared first on Atlantic Council .",
-    "drafted_at": "2026-09-16T23:57:40.730654",
-    "data": {
-      "source": "ATLANTIC CNCL"
-    },
-    "content_hash": "36615a51acf21e94"
-  },
-  {
-    "id": "9656f233",
+    "id": "70c43496",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "From the BEA desk: New Zealand Q2 GDP +2.6% y/y expected +2.3%, prior +1.7% +0.2% q/q expected +0.1%, prior +0.9% I'll have more to come on this separately This article was written by Eamonn Sheridan at investinglive.com.\n\nhttps://investinglive.com/news/new-zealand-dollar-pops-a-little-on-better-than-expected-gdp-data/",
+    "draft_text": "From the unemployment desk: The EUR/USD pair declines to around 1.1460 during Asian trading hours on Thursday.\n\nThe Euro (EUR) weakens against the US Dollar (USD) following an interest rate hike from the US Federal Reserve (Fed).\n\nThe US Initial Jobless Claims data will be released later on Thursday.\n\nhttps://www.fxstreet.com/news/euro-weakens-to-near-11450-as-fed-raises-rate-for-first-time-in-three-years-202609170226",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/euro-weakens-to-near-11450-as-fed-raises-rate-for-first-time-in-three-years-202609170226",
+    "source_title": "Euro weakens to near 1.1450 as Fed raises rate for first time in three years",
+    "source_summary": "The EUR/USD pair declines to around 1.1460 during Asian trading hours on Thursday. The Euro (EUR) weakens against the US Dollar (USD) following an interest rate hike from the US Federal Reserve (Fed). The US Initial Jobless Claims data will be released later on Thursday.",
+    "drafted_at": "2026-09-17T02:49:30.994366",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "812000746bb54920"
+  },
+  {
+    "id": "05d4b0cb",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "Weekly claims just printed. The AUD/USD pair gains ground to around 0.7090 during the early Asian trading hours on Thursday.\n\nTraders continue to assess the Federal Reserve (Fed) interest rate hike and US President Donald Trump\u2019s comments.\n\nThe US Initial Jobless Claims data will be published later on Thursday.\n\nhttps://www.fxstreet.com/news/australian-dollar-holds-gains-near-07100-despite-fed-rate-hike-imf-urges-rba-to-stay-hawkish-202609170119",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/australian-dollar-holds-gains-near-07100-despite-fed-rate-hike-imf-urges-rba-to-stay-hawkish-202609170119",
+    "source_title": "Australian Dollar holds gains near 0.7100 despite Fed rate hike, IMF urges RBA to stay hawkish",
+    "source_summary": "The AUD/USD pair gains ground to around 0.7090 during the early Asian trading hours on Thursday. Traders continue to assess the Federal Reserve (Fed) interest rate hike and US President Donald Trump\u2019s comments. The US Initial Jobless Claims data will be published later on Thursday.",
+    "drafted_at": "2026-09-17T02:49:30.994868",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "17d77e5fc2680668"
+  },
+  {
+    "id": "37cefc4a",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "From the BEA desk: New Zealand Q2 GDP +2.6% y/y expected +2.3%, prior +1.7% +0.2% q/q expected +0.1%, prior +0.9% I'll have more to come on this separately... added, here: NZ Q2 GDP beats forecasts at 2.6% y/y, easing RBNZ growth concerns This article was written by Eamonn Sheridan at investinglive.com.\n\nhttps://investinglive.com/news/new-zealand-dollar-pops-a-little-on-better-than-expected-gdp-data/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
     "source_url": "https://investinglive.com/news/new-zealand-dollar-pops-a-little-on-better-than-expected-gdp-data/",
     "source_title": "New Zealand dollar pops a little on better than expected GDP data",
-    "source_summary": "New Zealand Q2 GDP +2.6% y/y expected +2.3%, prior +1.7% +0.2% q/q expected +0.1%, prior +0.9% I'll have more to come on this separately This article was written by Eamonn Sheridan at investinglive.com.",
-    "drafted_at": "2026-09-16T23:57:40.780384",
+    "source_summary": "New Zealand Q2 GDP +2.6% y/y expected +2.3%, prior +1.7% +0.2% q/q expected +0.1%, prior +0.9% I'll have more to come on this separately ... added, here: NZ Q2 GDP beats forecasts at 2.6% y/y, easing RBNZ growth concerns This article was written by Eamonn Sheridan at investinglive.com.",
+    "drafted_at": "2026-09-17T02:49:30.995254",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "2ad36a8bb4a2deb1"
   },
   {
-    "id": "59a96fbc",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "Growth read just printed. New Zealand's Gross Domestic Product (GDP) grew by 0.2% QoQ in the second quarter (Q2) of 2026, compared with a 0.9% expansion in the first quarter (revised from 0.8%), Statistics New Zealand showed on Thursday.\n\nThis reading came in stronger than the expectation of a rise of 0.1%.\n\nhttps://www.fxstreet.com/news/02-new-zealands-gross-domestic-product-grows-more-than-expected-in-q2-202609162246",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/02-new-zealands-gross-domestic-product-grows-more-than-expected-in-q2-202609162246",
-    "source_title": "0.2%: New Zealand\u2019s Gross Domestic Product grows more than expected in Q2",
-    "source_summary": "New Zealand's Gross Domestic Product (GDP) grew by 0.2% QoQ in the second quarter (Q2) of 2026, compared with a 0.9% expansion in the first quarter (revised from 0.8%), Statistics New Zealand showed on Thursday. This reading came in stronger than the expectation of a rise of 0.1%.",
-    "drafted_at": "2026-09-16T23:57:40.780839",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "a35d96e5ef0f3ad5"
-  },
-  {
-    "id": "a01aa2e0",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "From the BEA desk: New Zealand reports second-quarter growth later on Wednesday, or early on Thursday depending on where you are relative to the international date line, and the forecast is 0.1% for the quarter, down from 0.8% in the first three months of the year.\n\nhttps://www.fxstreet.com/news/new-zealand-gdp-in-the-barrel-with-the-kiwi-at-july-lows-202609162114",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/new-zealand-gdp-in-the-barrel-with-the-kiwi-at-july-lows-202609162114",
-    "source_title": "New Zealand GDP in the barrel with the Kiwi at July lows",
-    "source_summary": "New Zealand reports second-quarter growth later on Wednesday, or early on Thursday depending on where you are relative to the international date line, and the forecast is 0.1% for the quarter, down from 0.8% in the first three months of the year.",
-    "drafted_at": "2026-09-16T23:57:40.781177",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "d184eae08f4db820"
-  },
-  {
-    "id": "370d9f4d",
+    "id": "b968137d",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "RETAIL-SALES READ: After a dismal July, spending the following month jumped back up.\n\nhttps://www.washingtonpost.com/business/2026/09/16/retail-sales-rebound-strongly-august-even-people-feel-wary-over-economy/",
@@ -585,14 +585,14 @@
     "source_url": "https://www.washingtonpost.com/business/2026/09/16/retail-sales-rebound-strongly-august-even-people-feel-wary-over-economy/",
     "source_title": "Retail sales rebound strongly in August, even as people are wary over economy",
     "source_summary": "After a dismal July, spending the following month jumped back up.",
-    "drafted_at": "2026-09-16T23:57:40.781334",
+    "drafted_at": "2026-09-17T02:49:30.995385",
     "data": {
       "source": "WAPO"
     },
     "content_hash": "5853ebe3c11d2a25"
   },
   {
-    "id": "44b59968",
+    "id": "0733d19f",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "Growth read just printed. NZD/USD reaction is likely to hinge less on the more upbeat bank forecasts and more on how far the actual print diverges from the RBNZ's own flat, 0.0% q/q baseline, since that is the figure underpinning the central bank's current policy guidance.\n\nA print in line with or above that flat forecast would likely be read as mildly reassuring for the recovery without materially shifting rate expectations, given the RBNZ has already signalled room to defer its next OCR move until December.\n\nA downside miss would revive the softer growth narrative and add weight to that easing timeline.\n\nWith more top tier data, particularly inflation, still to come before the October OCR review, this print alone is unlikely to be the deciding input for the Kiwi's near term direction. --- NZD got slammed\n\nSummary: Q2 GDP preview due Thursday 10:45am NZT (2245 GMT Wednesday, 6:45pm ET Wednesday) RBNZ's own forecast is for flat growth, 0.0% q/q; ANZ's house estimate is slightly firmer at 0.1% q/q Annual growth expected to firm to around 2.1% to 2.2%, up from 1.5% in Q1, when the economy grew 0.8% q/q Higher fuel prices are seen weighing on discretionary spending, while construction and business facing services are expected to offset the drag Balance of payments data, due a day earlier, is expected to show the annual current account deficit widening to 3.9% of GDP on higher fuel import costs RBNZ has signalled it can defer its next OCR move until December, with inflation data due before the October review seen as more decisive New Zealand's Q2 GDP preview points to a stalling but not shrinking economy, with the release due Thursday at 10:45am NZT (2245 GMT Wednesday, 6:45pm ET Wednesday).\n\nThe Reserve Bank of New Zealand's own September Monetary Policy Statement forecast has growth flat at 0.0% quarter on quarter, while ANZ Research expects a slightly firmer 0.1% q/q print, an upward revision from its earlier estimate of a 0.2% contraction.\n\nBoth estimates would leave annual growth firming to around 2.1% to 2.2%, up from 1.5% in the year to Q1, when the economy grew 0.8% q/q.\n\nThe expected softening in the quarterly pace reflects higher fuel prices, which\n\nhttps://investinglive.com/news/new-zealand-q2-gdp-preview-as-rbnz-weighs-timing-of-its-next-rate-hike/",
@@ -602,14 +602,14 @@
     "source_url": "https://investinglive.com/news/new-zealand-q2-gdp-preview-as-rbnz-weighs-timing-of-its-next-rate-hike/",
     "source_title": "New Zealand Q2 GDP preview as RBNZ weighs timing of its next rate hike",
     "source_summary": "NZD/USD reaction is likely to hinge less on the more upbeat bank forecasts and more on how far the actual print diverges from the RBNZ's own flat, 0.0% q/q baseline, since that is the figure underpinning the central bank's current policy guidance. A print in line with or above that flat forecast would likely be read as mildly reassuring for the recovery without materially shifting rate expectation",
-    "drafted_at": "2026-09-16T23:57:40.784260",
+    "drafted_at": "2026-09-17T02:49:30.998254",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "64a848c60b4f53aa"
   },
   {
-    "id": "83485e7c",
+    "id": "ea8600be",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -619,7 +619,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-09-16T23:57:40.789225",
+    "drafted_at": "2026-09-17T02:49:31.003051",
     "data": {
       "manual": true,
       "via": "manual_news.md"
