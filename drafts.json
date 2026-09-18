@@ -1,6 +1,6 @@
 [
   {
-    "id": "d646595f",
+    "id": "9ed207ce",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "For the first time, hiring an oil tanker costs more than $1 million per day as rocketing insurance premiums and a consolidating market drive up shipping costs.\n\nhttps://fortune.com/2026/09/18/iran-war-minting-new-one-day-millionaires-oil-tankers-crossing-strait-of-hormuz-1-million-dollars-per-day/",
@@ -10,14 +10,14 @@
     "source_url": "https://fortune.com/2026/09/18/iran-war-minting-new-one-day-millionaires-oil-tankers-crossing-strait-of-hormuz-1-million-dollars-per-day/",
     "source_title": "The Iran war is minting new one-day millionaires: oil tankers brave enough to sail across the Strait of Hormuz",
     "source_summary": "For the first time, hiring an oil tanker costs more than $1 million per day as rocketing insurance premiums and a consolidating market drive up shipping costs.",
-    "drafted_at": "2026-09-18T22:23:38.967986",
+    "drafted_at": "2026-09-18T23:44:17.697667",
     "data": {
       "source": "FORTUNE"
     },
     "content_hash": "8aa6e7c27e136ab6"
   },
   {
-    "id": "5e1b2189",
+    "id": "1a80986e",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Quick one for you. VIX drops 5.8% in 5 sessions to 14.81.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
@@ -27,7 +27,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EVIX",
     "source_title": "VIX (S&P 500 volatility)",
     "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-09-18T22:23:38.968344",
+    "drafted_at": "2026-09-18T23:44:17.697856",
     "data": {
       "signal_id": "^VIX:move:2026-09-18",
       "kind": "move_down",
@@ -36,7 +36,7 @@
     "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "01a77d3a",
+    "id": "9f23be29",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Read this twice. WTI crude jumps 7.5% in 5 sessions to $100.04.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
@@ -46,7 +46,7 @@
     "source_url": "https://finance.yahoo.com/quote/CL%3DF",
     "source_title": "WTI crude oil futures",
     "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-09-18T22:23:38.968622",
+    "drafted_at": "2026-09-18T23:44:17.698025",
     "data": {
       "signal_id": "CL=F:move:2026-09-18",
       "kind": "move_up",
@@ -55,7 +55,24 @@
     "content_hash": "c272de0720a2f459"
   },
   {
-    "id": "23098389",
+    "id": "28988c83",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "BoJ just printed. Scotiabank strategists Shaun Osborne and Eric Theoret note the Japanese Yen (JPY) is down sharply versus the US Dollar (USD) after a dovishly delivered 25 bps Bank of Japan (BoJ) hike and Governor Ueda\u2019s cautious guidance.\n\nhttps://www.fxstreet.com/news/japanese-yen-dovish-boj-hike-weighs-on-yen-scotiabank-202609182307",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "BoJ",
+    "source_url": "https://www.fxstreet.com/news/japanese-yen-dovish-boj-hike-weighs-on-yen-scotiabank-202609182307",
+    "source_title": "Japanese Yen: Dovish BoJ hike weighs on yen \u2013 Scotiabank",
+    "source_summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note the Japanese Yen (JPY) is down sharply versus the US Dollar (USD) after a dovishly delivered 25 bps Bank of Japan (BoJ) hike and Governor Ueda\u2019s cautious guidance.",
+    "drafted_at": "2026-09-18T23:44:17.705300",
+    "data": {
+      "actor": "BoJ"
+    },
+    "content_hash": "8c4e5a9ffceb01a1"
+  },
+  {
+    "id": "07c92abe",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "JAPAN POLICY READ: The yen weakened after the decision, leaving immediate unwind pressure limited as higher funding costs move toward implementation.\n\nThe post Bitcoin rallies after BOJ\u2019s 1.25% hike, but the real yen-carry test starts next week appeared first on CryptoSlate.\n\nhttps://cryptoslate.com/bitcoin-rallies-after-bojs-1-25-hike-but-the-real-yen-carry-test-starts-next-week/",
@@ -65,14 +82,14 @@
     "source_url": "https://cryptoslate.com/bitcoin-rallies-after-bojs-1-25-hike-but-the-real-yen-carry-test-starts-next-week/",
     "source_title": "Bitcoin rallies after BOJ\u2019s 1.25% hike, but the real yen-carry test starts next week",
     "source_summary": "The yen weakened after the decision, leaving immediate unwind pressure limited as higher funding costs move toward implementation. The post Bitcoin rallies after BOJ\u2019s 1.25% hike, but the real yen-carry test starts next week appeared first on CryptoSlate .",
-    "drafted_at": "2026-09-18T22:23:38.979499",
+    "drafted_at": "2026-09-18T23:44:17.705552",
     "data": {
       "actor": "BOJ"
     },
     "content_hash": "5e8f7400fe44f925"
   },
   {
-    "id": "80bbbffb",
+    "id": "3143e84a",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "If you trade rates, read this: Consent prohibition order against Stephanie K.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
@@ -82,14 +99,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
     "source_title": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
     "source_summary": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
-    "drafted_at": "2026-09-18T22:23:38.979850",
+    "drafted_at": "2026-09-18T23:44:17.705769",
     "data": {
       "actor": "FED"
     },
     "content_hash": "140b0fd2a09d0598"
   },
   {
-    "id": "0623647c",
+    "id": "78743011",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Powell on the wire. Headlines: USD/JPY jumps to 157 after BOJ rate hike as dovish dissents weigh on yen BOJ governor Ueda says will continue to tighten policy in response to economic, price developments BOJ governor Ueda says spring wage talks key to judging inflation trend ECB president Lagarde pushes back on automatic rate hikes as energy prices cloud outlook Gold price claws back toward $4,400 after dodging a deeper technical breakdown - what's next?\n\nSilver soars by more than 7% as the Fed's dot plot shows low appetite for rate hikes Ethereum is approaching the key $2,560 resistance again: Will it finally break out of the range?\n\nThis simple ETH technical analysis today shows bulls are still good UK retail sales unexpectedly rise in August, backed by recovery in department stores, non-store retailers Market update: AUD leads, JPY lags on the day Brent crude -1.3% to $103.37 WTI crude -0.5% to $101.35 Gold +0.9% to $4,378 10-year Treasury yields +1.6 bps to 4.963% European equities lower; S&P 500 futures +0.1% Bitcoin +2.0% to $78,029 The main event today was the BOJ policy decision, and the Japanese central bank delivered a 25 bps rate hike as expected by markets.\n\nThat brought the policy rate to 1.25%, its highest in 31 years.\n\nWhile the BOJ did signal that it will stay on course to tighten policy further, there was nothing in the language to suggest a quicker pace than before.\n\nBOJ governor Ueda's press conference also fell short in that regard.\n\nAnd that disappointed markets alongside the two dovish dissents from prime minister Takaichi's appointed board members.\n\nUSD/JPY moved up initially in Asia to 157.10 before falling back to 156.60 during Ueda's press conference but then raced higher to test the 158.00 level afterwards.\n\nhttps://investinglive.com/news/investinglive-european-session-wrap-yen-slides-after-boj-hike-as-markets-stay-on-edge/",
@@ -99,14 +116,14 @@
     "source_url": "https://investinglive.com/news/investinglive-european-session-wrap-yen-slides-after-boj-hike-as-markets-stay-on-edge/",
     "source_title": "investingLive European session wrap: Yen slides after BOJ hike as markets stay on edge",
     "source_summary": "Headlines: USD/JPY jumps to 157 after BOJ rate hike as dovish dissents weigh on yen BOJ governor Ueda says will continue to tighten policy in response to economic, price developments BOJ governor Ueda says spring wage talks key to judging inflation trend ECB president Lagarde pushes back on automatic rate hikes as energy prices cloud outlook Gold price claws back toward $4,400 after dodging a deep",
-    "drafted_at": "2026-09-18T22:23:38.982163",
+    "drafted_at": "2026-09-18T23:44:17.707169",
     "data": {
       "actor": "BOJ"
     },
     "content_hash": "0bc1fa4dfffe194c"
   },
   {
-    "id": "af4d96d0",
+    "id": "1616279b",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Bailey on the wire. On the face of it, you could be fooled into thinking that nothing had changed.\n\nhttps://news.sky.com/story/bank-of-england-issues-stark-warning-on-energy-hit-ahead-13588828",
@@ -116,31 +133,14 @@
     "source_url": "https://news.sky.com/story/bank-of-england-issues-stark-warning-on-energy-hit-ahead-13588828",
     "source_title": "Bank of England issues stark warning on energy price hike ahead",
     "source_summary": "On the face of it, you could be fooled into thinking that nothing had changed.",
-    "drafted_at": "2026-09-18T22:23:38.982412",
+    "drafted_at": "2026-09-18T23:44:17.707316",
     "data": {
       "actor": "Bank of England"
     },
     "content_hash": "b6e2a2822ec205ba"
   },
   {
-    "id": "2ec71ee6",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "FED WATCH: The Committee decided to raise the target range for the federal funds rate by 1/4 percentage point to 3-3/4 to 4 percent, in support of the Federal Reserve's dual mandate.\n\nJob gains have kept pace with the workforce, and the unemployment rate has changed little.\n\nToday's policy action will support a timelier return to the Committee's 2 percent goal.\n\nThe Committee is continuing its policy of maintaining ample reserves in the banking system.\n\nEconomic activity is expanding at a solid pace.\n\nWhile uncertainty remains elevated owing, in part, to geopolitical developments, domestic spending has been resilient.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FED",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-    "source_title": "Federal Reserve issues FOMC statement",
-    "source_summary": "Federal Reserve issues FOMC statement",
-    "drafted_at": "2026-09-18T22:23:38.983298",
-    "data": {
-      "actor": "FED"
-    },
-    "content_hash": "5d2f5ae91098e170"
-  },
-  {
-    "id": "a291304a",
+    "id": "e9a7be8c",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$CRBG \u2014 a company insider bought $11.2M on Sep 16.\n\nCorebridge Financial, Inc. 320,785 shares at $35.02.\n\nStock is -0.6% since the purchase. This is a public SEC Form 4 filing.",
@@ -150,7 +150,7 @@
     "source_url": "http://openinsider.com/screener?s=CRBG",
     "source_title": "Corebridge Financial, Inc. (CRBG) insider bought $11.2M",
     "source_summary": "1 insider(s) bought 320,785 shares at $35.02 on 2026-09-16.",
-    "drafted_at": "2026-09-18T22:23:38.985871",
+    "drafted_at": "2026-09-18T23:44:17.709460",
     "data": {
       "ticker": "CRBG",
       "type": "P",
@@ -160,7 +160,7 @@
     "content_hash": "e586259f21300de2"
   },
   {
-    "id": "c50f2e8a",
+    "id": "3439bce1",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$CV \u2014 a company insider bought $5.0M on Sep 15.\n\nCapsovision, Inc. 878,734 shares at $5.69.\n\nStock is +17.8% since the purchase. This is a public SEC Form 4 filing.",
@@ -170,7 +170,7 @@
     "source_url": "http://openinsider.com/screener?s=CV",
     "source_title": "Capsovision, Inc (CV) insider bought $5.0M",
     "source_summary": "1 insider(s) bought 878,734 shares at $5.69 on 2026-09-15.",
-    "drafted_at": "2026-09-18T22:23:38.986087",
+    "drafted_at": "2026-09-18T23:44:17.709580",
     "data": {
       "ticker": "CV",
       "type": "P",
@@ -180,7 +180,7 @@
     "content_hash": "896d1ba16c7d800b"
   },
   {
-    "id": "d8f46e66",
+    "id": "80cde8d8",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$CELH \u2014 3 company insiders bought $1.8M on Sep 15.\n\nCelsius Holdings, Inc. 66,000 shares at $27.73.\n\nStock is +2.2% since the purchase. This is a public SEC Form 4 filing.",
@@ -190,7 +190,7 @@
     "source_url": "http://openinsider.com/screener?s=CELH",
     "source_title": "Celsius Holdings, Inc. (CELH) insider bought $1.8M",
     "source_summary": "3 insider(s) bought 66,000 shares at $27.73 on 2026-09-15.",
-    "drafted_at": "2026-09-18T22:23:38.986284",
+    "drafted_at": "2026-09-18T23:44:17.709695",
     "data": {
       "ticker": "CELH",
       "type": "P",
@@ -200,7 +200,7 @@
     "content_hash": "9521e825e6c4fa5d"
   },
   {
-    "id": "4b037bfc",
+    "id": "0a4fa9a1",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$KRMN \u2014 a company insider bought $1.0M on Sep 16.\n\nKarman Holdings Inc. 27,000 shares at $37.32.\n\nStock is -2.6% since the purchase. This is a public SEC Form 4 filing.",
@@ -210,7 +210,7 @@
     "source_url": "http://openinsider.com/screener?s=KRMN",
     "source_title": "Karman Holdings Inc. (KRMN) insider bought $1.0M",
     "source_summary": "1 insider(s) bought 27,000 shares at $37.32 on 2026-09-16.",
-    "drafted_at": "2026-09-18T22:23:38.986468",
+    "drafted_at": "2026-09-18T23:44:17.709808",
     "data": {
       "ticker": "KRMN",
       "type": "P",
@@ -220,7 +220,7 @@
     "content_hash": "f09bbb3dd3aac465"
   },
   {
-    "id": "36164b09",
+    "id": "3ee8a44b",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$TFC \u2014 a company insider bought $1.0M on Sep 17.\n\nTruist Financial Corp. 21,000 shares at $48.36.\n\nStock is +0.2% since the purchase. This is a public SEC Form 4 filing.",
@@ -230,7 +230,7 @@
     "source_url": "http://openinsider.com/screener?s=TFC",
     "source_title": "Truist Financial Corp (TFC) insider bought $1.0M",
     "source_summary": "1 insider(s) bought 21,000 shares at $48.36 on 2026-09-17.",
-    "drafted_at": "2026-09-18T22:23:38.986653",
+    "drafted_at": "2026-09-18T23:44:17.709934",
     "data": {
       "ticker": "TFC",
       "type": "P",
@@ -240,7 +240,7 @@
     "content_hash": "e89fe875a3f72cdb"
   },
   {
-    "id": "051f81e0",
+    "id": "e689b50b",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The convicted fraudster says his new app would enable women to find love safely.\n\nThe lead trade group for online dating disagrees.\n\nhttps://www.icij.org/news/2026/09/tinder-swindlers-plan-for-a-dating-app-sparks-industry-backlash/",
@@ -250,14 +250,14 @@
     "source_url": "https://www.icij.org/news/2026/09/tinder-swindlers-plan-for-a-dating-app-sparks-industry-backlash/",
     "source_title": "\u2018Tinder Swindler\u2019s\u2019 plan for a dating app sparks industry backlash",
     "source_summary": "The convicted fraudster says his new app would enable women to find love safely. The lead trade group for online dating disagrees.",
-    "drafted_at": "2026-09-18T22:23:38.990585",
+    "drafted_at": "2026-09-18T23:44:17.712317",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "52d6063492b28f18"
   },
   {
-    "id": "6f69b188",
+    "id": "a9a14a45",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Using software from a company in Israel, scammers reel in gullible investors and steal all their money.\n\nDER SPIEGEL dove deep into this world of greed-fueled criminal networks - and found a hero.\n\nhttps://www.spiegel.de/international/world/online-scams-the-shady-world-of-fraudulent-investment-sites-a-36d59b48-23ea-4ae5-9532-7a6d3fb086d3#ref=rss",
@@ -267,14 +267,14 @@
     "source_url": "https://www.spiegel.de/international/world/online-scams-the-shady-world-of-fraudulent-investment-sites-a-36d59b48-23ea-4ae5-9532-7a6d3fb086d3#ref=rss",
     "source_title": "Online Scams: The Shady World of Fraudulent Investment Sites",
     "source_summary": "Using software from a company in Israel, scammers reel in gullible investors and steal all their money. DER SPIEGEL dove deep into this world of greed-fueled criminal networks - and found a hero.",
-    "drafted_at": "2026-09-18T22:23:38.990822",
+    "drafted_at": "2026-09-18T23:44:17.712458",
     "data": {
       "source": "SPIEGEL"
     },
     "content_hash": "f90d8f417ae73de2"
   },
   {
-    "id": "b0be2372",
+    "id": "41ca0d83",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "ICIJ and its media partners found that Chinese bank ICBC served as a financing hub for infrastructure in the U.K. and Australia, prompting questions about Beijing\u2019s influence over public projects.\n\nhttps://www.icij.org/investigations/china-capital/uk-parliament-debates-infrastructure-security-after-china-capital-revelations/",
@@ -284,14 +284,14 @@
     "source_url": "https://www.icij.org/investigations/china-capital/uk-parliament-debates-infrastructure-security-after-china-capital-revelations/",
     "source_title": "UK Parliament debates infrastructure security after China Capital revelations",
     "source_summary": "ICIJ and its media partners found that Chinese bank ICBC served as a financing hub for infrastructure in the U.K. and Australia, prompting questions about Beijing\u2019s influence over public projects.",
-    "drafted_at": "2026-09-18T22:23:38.991103",
+    "drafted_at": "2026-09-18T23:44:17.712622",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "8d49fc78e535215e"
   },
   {
-    "id": "d59504bc",
+    "id": "e6cdd1c1",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Confidential records reveal how the Industrial and Commercial Bank of China\u2019s London units courted high-risk clients to secure resources and alliances for Xi Jinping\u2019s regime.\n\nhttps://www.icij.org/investigations/china-capital/china-banking-icbc-oligarchs-sanctions-london/",
@@ -301,14 +301,14 @@
     "source_url": "https://www.icij.org/investigations/china-capital/china-banking-icbc-oligarchs-sanctions-london/",
     "source_title": "Chinese banking giant serves firms linked to oligarchs and autocrats to push Beijing\u2019s agenda",
     "source_summary": "Confidential records reveal how the Industrial and Commercial Bank of China\u2019s London units courted high-risk clients to secure resources and alliances for Xi Jinping\u2019s regime.",
-    "drafted_at": "2026-09-18T22:23:38.991332",
+    "drafted_at": "2026-09-18T23:44:17.712765",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "f64715a76ccd13e0"
   },
   {
-    "id": "a5bf3b51",
+    "id": "abe0233a",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The urgent operation exposes how readily ICBC\u2019s local branch bypassed internal checks to boost a Beijing favorite.\n\nhttps://www.icij.org/investigations/china-capital/huawei-icbc-banking-us-court-beijing-london/",
@@ -318,14 +318,14 @@
     "source_url": "https://www.icij.org/investigations/china-capital/huawei-icbc-banking-us-court-beijing-london/",
     "source_title": "Chinese bank helped Huawei spirit $1B out of London days after US indictment of the tech giant",
     "source_summary": "The urgent operation exposes how readily ICBC\u2019s local branch bypassed internal checks to boost a Beijing favorite.",
-    "drafted_at": "2026-09-18T22:23:38.991492",
+    "drafted_at": "2026-09-18T23:44:17.712867",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "f9aba65b83dfbcd5"
   },
   {
-    "id": "44b08793",
+    "id": "9af3d8d0",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $SPCX this year \u2014 and these filings don't show them selling:\n\n\u2022 Daniel Meuser (R)\n\u2022 Jared Moskowitz (D)\n\u2022 John McGuire (R)\n\u2022 Gilbert Cisneros (D)\n\nLargest disclosed here: Daniel Meuser, $15,001 - $50,000 on Jun 15.\n\nPrice since the first buy in this group: -6.3%.\n\nSTOCK Act disclosures. Public record.",
@@ -335,7 +335,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034774.pdf",
     "source_title": "4 Congress members bought $SPCX",
     "source_summary": "4 politicians bought $SPCX; largest $15,001 - $50,000 by Daniel Meuser.",
-    "drafted_at": "2026-09-18T22:23:38.992017",
+    "drafted_at": "2026-09-18T23:44:17.713201",
     "data": {
       "ticker": "SPCX",
       "member_count": 4,
@@ -344,7 +344,7 @@
     "content_hash": "585711bf88956fa9"
   },
   {
-    "id": "c239b914",
+    "id": "dc5ddd1a",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $NVDA this year \u2014 and these filings don't show them selling:\n\n\u2022 Michael Rulli (R)\n\u2022 Cleo Fields (D)\n\u2022 Gilbert Cisneros (D)\n\u2022 John J Mr McGuire (R)\n\nLargest disclosed here: Michael Rulli, $1,001 - $15,000 on Jun 25.\n\nPrice since the first buy in this group: +9.3%.\n\nSTOCK Act disclosures. Public record.",
@@ -354,7 +354,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035147.pdf",
     "source_title": "4 Congress members bought $NVDA",
     "source_summary": "4 politicians bought $NVDA; largest $1,001 - $15,000 by Michael Rulli.",
-    "drafted_at": "2026-09-18T22:23:38.992327",
+    "drafted_at": "2026-09-18T23:44:17.713394",
     "data": {
       "ticker": "NVDA",
       "member_count": 4,
@@ -363,7 +363,7 @@
     "content_hash": "f6cf25ab3c00fb6f"
   },
   {
-    "id": "233ec5c0",
+    "id": "c5677d50",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $MU this year \u2014 and these filings don't show them selling:\n\n\u2022 Josh Gottheimer (D)\n\u2022 Sheldon Whitehouse (D)\n\u2022 Michael Rulli (R)\n\u2022 Dan Newhouse (R)\n\nLargest disclosed here: Josh Gottheimer, $1,001 - $15,000 on May 21.\n\nPrice since the first buy in this group: +21.6%.\n\nSTOCK Act disclosures. Public record.",
@@ -373,7 +373,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034693.pdf",
     "source_title": "4 Congress members bought $MU",
     "source_summary": "4 politicians bought $MU; largest $1,001 - $15,000 by Josh Gottheimer.",
-    "drafted_at": "2026-09-18T22:23:38.992619",
+    "drafted_at": "2026-09-18T23:44:17.713579",
     "data": {
       "ticker": "MU",
       "member_count": 4,
@@ -382,7 +382,7 @@
     "content_hash": "7c265a3a54605da1"
   },
   {
-    "id": "2216034f",
+    "id": "743a44e1",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 Gilbert Cisneros (D)\n\u2022 Cleo Fields (D)\n\u2022 Jared Moskowitz (D)\n\nLargest disclosed here: Gilbert Cisneros, $50,001 - $100,000 on May 15.\n\nPrice since the first buy in this group: +16.2%.\n\nSTOCK Act disclosures. Public record.",
@@ -392,7 +392,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034713.pdf",
     "source_title": "3 Congress members bought $MSFT",
     "source_summary": "3 politicians bought $MSFT; largest $50,001 - $100,000 by Gilbert Cisneros.",
-    "drafted_at": "2026-09-18T22:23:38.992894",
+    "drafted_at": "2026-09-18T23:44:17.713759",
     "data": {
       "ticker": "MSFT",
       "member_count": 3,
@@ -401,7 +401,7 @@
     "content_hash": "568a39394ccac4dc"
   },
   {
-    "id": "d054ccab",
+    "id": "6b17cb3e",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $BRK.B this year \u2014 and these filings don't show them selling:\n\n\u2022 Jerry Moran,\n\u2022 Maria Elvira Salazar (R)\n\u2022 Richard Dean Dr McCormick (R)\n\nLargest disclosed here: Jerry Moran,, $15,001 - $50,000 on Jun 23.\n\nPrice since the first buy in this group: +0.0%.\n\nSTOCK Act disclosures. Public record.\n\nhttps://efdsearch.senate.gov/search/view/ptr/cff197e2-b90b-4b53-b97d-eecf226a1980/",
@@ -411,7 +411,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/cff197e2-b90b-4b53-b97d-eecf226a1980/",
     "source_title": "3 Congress members bought $BRK.B",
     "source_summary": "3 politicians bought $BRK.B; largest $15,001 - $50,000 by Jerry Moran,.",
-    "drafted_at": "2026-09-18T22:23:38.993175",
+    "drafted_at": "2026-09-18T23:44:17.713929",
     "data": {
       "ticker": "BRK.B",
       "member_count": 3,
@@ -420,24 +420,58 @@
     "content_hash": "6f888df9bec37d4e"
   },
   {
-    "id": "b903989b",
+    "id": "21e00bf9",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From the Gulf: Turkey's move may signal increased geopolitical tension and economic isolation for Iran, potentially affecting regional stability and leadership.\n\nThe post Turkey revokes Mellat Bank\u2019s license amid US pressure on Iran appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/turkey-revokes-mellat-banks-license-amid-us-pressure-on-iran/",
+    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: The war in Yemen intensifies with mounting clashes and reciprocal attacks between Saudi forces and the Houthis.\n\nhttps://www.aljazeera.com/news/2026/9/18/houthis-accuse-saudi-arabia-of-launching-26-strikes-in-24-hours?traffic_source=rss",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/turkey-revokes-mellat-banks-license-amid-us-pressure-on-iran/",
-    "source_title": "Turkey revokes Mellat Bank\u2019s license amid US pressure on Iran",
-    "source_summary": "Turkey's move may signal increased geopolitical tension and economic isolation for Iran, potentially affecting regional stability and leadership. The post Turkey revokes Mellat Bank\u2019s license amid US pressure on Iran appeared first on Crypto Briefing .",
-    "drafted_at": "2026-09-18T22:23:38.994682",
+    "primary_source": "AL JAZEERA",
+    "source_url": "https://www.aljazeera.com/news/2026/9/18/houthis-accuse-saudi-arabia-of-launching-26-strikes-in-24-hours?traffic_source=rss",
+    "source_title": "Houthis accuse Saudi Arabia of launching 26 strikes in 24 hours",
+    "source_summary": "The war in Yemen intensifies with mounting clashes and reciprocal attacks between Saudi forces and the Houthis.",
+    "drafted_at": "2026-09-18T23:44:17.714951",
     "data": {
-      "source": "CRYPTO BRIEFING"
+      "source": "AL JAZEERA"
     },
-    "content_hash": "49b8009224e42e25"
+    "content_hash": "beb1d7d070502e87"
   },
   {
-    "id": "57e22341",
+    "id": "1a9aff9a",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "PACK BRIEFING \u2014 ASIA: Scotiabank strategists Shaun Osborne and Eric Theoret note the Japanese Yen (JPY) is down sharply versus the US Dollar (USD) after a dovishly delivered 25 bps Bank of Japan (BoJ) hike and Governor Ueda\u2019s cautious guidance.\n\nhttps://www.fxstreet.com/news/japanese-yen-dovish-boj-hike-weighs-on-yen-scotiabank-202609182307",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/japanese-yen-dovish-boj-hike-weighs-on-yen-scotiabank-202609182307",
+    "source_title": "Japanese Yen: Dovish BoJ hike weighs on yen \u2013 Scotiabank",
+    "source_summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note the Japanese Yen (JPY) is down sharply versus the US Dollar (USD) after a dovishly delivered 25 bps Bank of Japan (BoJ) hike and Governor Ueda\u2019s cautious guidance.",
+    "drafted_at": "2026-09-18T23:44:17.715231",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "8c4e5a9ffceb01a1"
+  },
+  {
+    "id": "f026e6d4",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "PACK BRIEFING \u2014 CHINA: After Iran struck out with BRICS and China this week in its search for international support, China reportedly privately told the Iranians to rein in their proxies in Yemen, the Houthi insurgents, who have repeatedly attacked Saudi Arabia and sought to block Saudi shipping through the Bab el Mandeb Strait.\n\nThe post Report: China Pushes Iran to Rein In Houthis, Reopen Strait of Hormuz appeared first on Breitbart.\n\nhttps://www.breitbart.com/middle-east/2026/09/18/report-china-pushes-iran-to-rein-in-houthis-reopen-strait-of-hormuz/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "BREITBART",
+    "source_url": "https://www.breitbart.com/middle-east/2026/09/18/report-china-pushes-iran-to-rein-in-houthis-reopen-strait-of-hormuz/",
+    "source_title": "Report: China Pushes Iran to Rein In Houthis, Reopen Strait of Hormuz",
+    "source_summary": "After Iran struck out with BRICS and China this week in its search for international support, China reportedly privately told the Iranians to rein in their proxies in Yemen, the Houthi insurgents, who have repeatedly attacked Saudi Arabia and sought to block Saudi shipping through the Bab el Mandeb Strait. The post Report: China Pushes Iran to Rein In Houthis, Reopen Strait of Hormuz appeared firs",
+    "drafted_at": "2026-09-18T23:44:17.717278",
+    "data": {
+      "source": "BREITBART"
+    },
+    "content_hash": "86cd4e4b015f0a60"
+  },
+  {
+    "id": "f0bc43c3",
     "format": "GLOBAL_DESK",
     "status": "pending",
     "draft_text": "From the Americas: Boasts of meeting with 'comrades' who are standing up to empires and corporations.\n\nhttps://www.wnd.com/2026/09/treason-congressional-candidate-vows-carry-mexicos-fight-while/",
@@ -447,14 +481,14 @@
     "source_url": "https://www.wnd.com/2026/09/treason-congressional-candidate-vows-carry-mexicos-fight-while/",
     "source_title": "\u2018Treason\u2019: Congressional candidate vows to carry on Mexico\u2019s \u2018fight\u2019 while in the House",
     "source_summary": "Boasts of meeting with 'comrades' who are standing up to empires and corporations",
-    "drafted_at": "2026-09-18T22:23:38.995861",
+    "drafted_at": "2026-09-18T23:44:17.717452",
     "data": {
       "source": "WND"
     },
     "content_hash": "cee78b8e82504418"
   },
   {
-    "id": "46aa7e36",
+    "id": "81e7ccd6",
     "format": "GLOBAL_DESK",
     "status": "pending",
     "draft_text": "Gulf wire: More US military personnel have reportedly died during the ongoing Iran war than the Pentagon has shared publicly, the latest and most serious evidence of the Trump administration\u2019s ongoing cover-up around disastrous military failures in that conflict.\n\nIn a Washington Post report released Friday, six US officials with knowledge of internal Defense Department data on [\u2026]\n\nhttps://www.motherjones.com/politics/2026/09/pentagon-dod-hegseth-trump-iran-casualties-military-deaths/",
@@ -464,48 +498,14 @@
     "source_url": "https://www.motherjones.com/politics/2026/09/pentagon-dod-hegseth-trump-iran-casualties-military-deaths/",
     "source_title": "What Else Is the Pentagon Hiding From Us?",
     "source_summary": "More US military personnel have reportedly died during the ongoing Iran war than the Pentagon has shared publicly, the latest and most serious evidence of the Trump administration\u2019s ongoing cover-up around disastrous military failures in that conflict. In a Washington Post report released Friday, six US officials with knowledge of internal Defense Department data on [\u2026]",
-    "drafted_at": "2026-09-18T22:23:38.996608",
+    "drafted_at": "2026-09-18T23:44:17.717819",
     "data": {
       "source": "MOTHER JONES"
     },
     "content_hash": "bb7496b3e77f9776"
   },
   {
-    "id": "33761157",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: The Middle East crisis has reverberated through key global shipping chokepoints thousands of miles away from the Strait of Hormuz.\n\nFollowing the crippled tanker traffic through the Middle East\u2019s main oil and LNG export outlet, the Panama Canal and the Suez Canal have seen an increase in energy commodity cargo traffic in the past half year.\n\nAs a result, shipping costs have soared to record highs, and some vessel operators are willing to pay $4-5 million in an auction to secure a single passage through the Panama Canal on a certain date.\n\nhttps://oilprice.com/Energy/Crude-Oil/Global-Shipping-Costs-Explode-as-Hormuz-Disruptions-Hit-Key-Trade-Routes.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "OILPRICE",
-    "source_url": "https://oilprice.com/Energy/Crude-Oil/Global-Shipping-Costs-Explode-as-Hormuz-Disruptions-Hit-Key-Trade-Routes.html",
-    "source_title": "Global Shipping Costs Explode as Hormuz Disruptions Hit Key Trade Routes",
-    "source_summary": "The Middle East crisis has reverberated through key global shipping chokepoints thousands of miles away from the Strait of Hormuz. Following the crippled tanker traffic through the Middle East\u2019s main oil and LNG export outlet, the Panama Canal and the Suez Canal have seen an increase in energy commodity cargo traffic in the past half year. As a result, shipping costs have soared to record highs, a",
-    "drafted_at": "2026-09-18T22:23:38.998221",
-    "data": {
-      "source": "OILPRICE"
-    },
-    "content_hash": "928a8947eca8fe0d"
-  },
-  {
-    "id": "eb3839ac",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Gulf wire: French President Emmanuel Macron is calling the G7 back to the table to discuss another release of emergency oil stocks as Europe loses Saudi crude deliveries and diesel prices push deeper into record territory.\n\nMacron said Friday that he will convene G7 countries in the coming weeks to coordinate stock levels, exports and production capacity and consider tapping strategic reserves.\n\nFrance is also working to secure diesel, jet fuel and natural gas supplies for the coming months.\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Macron-Calls-for-Another-Emergency-Oil-Release-as-Europe-Loses-Supply.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "OILPRICE",
-    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Macron-Calls-for-Another-Emergency-Oil-Release-as-Europe-Loses-Supply.html",
-    "source_title": "Macron Calls for Another Emergency Oil Release as Europe Loses Supply",
-    "source_summary": "French President Emmanuel Macron is calling the G7 back to the table to discuss another release of emergency oil stocks as Europe loses Saudi crude deliveries and diesel prices push deeper into record territory. Macron said Friday that he will convene G7 countries in the coming weeks to coordinate stock levels, exports and production capacity and consider tapping strategic reserves. France is also",
-    "drafted_at": "2026-09-18T22:23:38.998935",
-    "data": {
-      "source": "OILPRICE"
-    },
-    "content_hash": "791e849cf4be5f0b"
-  },
-  {
-    "id": "526d4c82",
+    "id": "129e769f",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "CPI POSTCARD: US industrial production 0.0% versus 0.3% expected Kansas City Fed's Schmid: recent data suggest inflation trending above 3% Japan conducted an FX rate check earlier - report How have interest rate expectations changed after this week's events?\n\nMarkets: Gold up $41 to $4381 US 10-year yields up 6 bps to 5.01% WTI crude oil down $1.66 to $95.56 AUD leads, JPY lags US stocks finish flat Bitcoin up 6% The newsflow was fairly light in North America but the market moves weren't.\n\nEyes remained on bonds in the aftermath of the FOMC decision and the tug-of-war continued, this time pushing yields back close to 19-year highs.\n\nThe front end stepped up again, with 2s to 4.75%, the highest since 2024 and close enough to 10s to start thinking about yield curve inversion if the Fed meets the 2-3 further rate hikes priced in.\n\nThe pressure on the short end helped to lift USD/JPY but that ran into trouble at a high of 158.05.\n\nThat's when the BOJ did a rate check, according to a Nikkei report.\n\nThe BOJ hiked rates earlier but the 7-2 vote suggested it might be done sooner rather than later.\n\nWith that Japanese stock markets put in a strong day as well.\n\nhttps://investinglive.com/news/investinglive-americas-market-news-wrap-bonds-slump-again-yen-rate-check-adds-intrigue-after-boj/",
@@ -515,14 +515,14 @@
     "source_url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-bonds-slump-again-yen-rate-check-adds-intrigue-after-boj/",
     "source_title": "investingLive Americas market news wrap: Bonds slump again, yen rate check adds intrigue after BOJ",
     "source_summary": "US industrial production 0.0% versus 0.3% expected Kansas City Fed's Schmid: recent data suggest inflation trending above 3% Japan conducted an FX rate check earlier - report How have interest rate expectations changed after this week's events? Markets: Gold up $41 to $4381 US 10-year yields up 6 bps to 5.01% WTI crude oil down $1.66 to $95.56 AUD leads, JPY lags US stocks finish flat Bitcoin up 6",
-    "drafted_at": "2026-09-18T22:23:39.055956",
+    "drafted_at": "2026-09-18T23:44:17.752161",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "abba261de0c14a11"
   },
   {
-    "id": "957b8cc1",
+    "id": "ad7ae9dc",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "How sticky is inflation? Let's see: Prior month 0.2% US August industrial production and capacity utilization data: Industrial production MoM: 0.0% vs +0.3% expected.\n\nPrior +0.2% Manufacturing output MoM: -0.3% vs +0.3% expected.\n\nPrior +0.2% Capacity utilization: 76.3% vs 76.4% expected.\n\nPrior 76.3% US industrial activity was weaker than expected in August.\n\nOverall production was unchanged, missing expectations for a 0.3% increase, while manufacturing output fell 0.3% against expectations for a 0.3% gain.\n\nThe manufacturing figure is the softest part of the report.\n\nThe 0.6-percentage-point miss suggests factory activity lost momentum during the month.\n\nCapacity utilization held at 76.3%, just below the estimate and unchanged from July.\n\nhttps://investinglive.com/news/us-industrial-production-0-0-versus-0-3-expected/",
@@ -532,14 +532,14 @@
     "source_url": "https://investinglive.com/news/us-industrial-production-0-0-versus-0-3-expected/",
     "source_title": "US industrial production 0.0% versus 0.3% expected",
     "source_summary": "Prior month 0.2% US August industrial production and capacity utilization data: Industrial production MoM: 0.0% vs +0.3% expected. Prior +0.2% Manufacturing output MoM: -0.3% vs +0.3% expected. Prior +0.2% Capacity utilization: 76.3% vs 76.4% expected. Prior 76.3% US industrial activity was weaker than expected in August. Overall production was unchanged, missing expectations for a 0.3% increase, ",
-    "drafted_at": "2026-09-18T22:23:39.057946",
+    "drafted_at": "2026-09-18T23:44:17.753316",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "4b5d87d09fbd986e"
   },
   {
-    "id": "76c61613",
+    "id": "1e08ab1b",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "CPI POSTCARD: Headlines: USD/JPY jumps to 157 after BOJ rate hike as dovish dissents weigh on yen BOJ governor Ueda says will continue to tighten policy in response to economic, price developments BOJ governor Ueda says spring wage talks key to judging inflation trend ECB president Lagarde pushes back on automatic rate hikes as energy prices cloud outlook Gold price claws back toward $4,400 after dodging a deeper technical breakdown - what's next?\n\nSilver soars by more than 7% as the Fed's dot plot shows low appetite for rate hikes Ethereum is approaching the key $2,560 resistance again: Will it finally break out of the range?\n\nThis simple ETH technical analysis today shows bulls are still good UK retail sales unexpectedly rise in August, backed by recovery in department stores, non-store retailers Market update: AUD leads, JPY lags on the day Brent crude -1.3% to $103.37 WTI crude -0.5% to $101.35 Gold +0.9% to $4,378 10-year Treasury yields +1.6 bps to 4.963% European equities lower; S&P 500 futures +0.1% Bitcoin +2.0% to $78,029 The main event today was the BOJ policy decision, and the Japanese central bank delivered a 25 bps rate hike as expected by markets.\n\nThat brought the policy rate to 1.25%, its highest in 31 years.\n\nWhile the BOJ did signal that it will stay on course to tighten policy further, there was nothing in the language to suggest a quicker pace than before.\n\nBOJ governor Ueda's press conference also fell short in that regard.\n\nAnd that disappointed markets alongside the two dovish dissents from prime minister Takaichi's appointed board members.\n\nUSD/JPY moved up initially in Asia to 157.10 before falling back to 156.60 during Ueda's press conference but then raced higher to test the 158.00 level afterwards.\n\nhttps://investinglive.com/news/investinglive-european-session-wrap-yen-slides-after-boj-hike-as-markets-stay-on-edge/",
@@ -549,14 +549,14 @@
     "source_url": "https://investinglive.com/news/investinglive-european-session-wrap-yen-slides-after-boj-hike-as-markets-stay-on-edge/",
     "source_title": "investingLive European session wrap: Yen slides after BOJ hike as markets stay on edge",
     "source_summary": "Headlines: USD/JPY jumps to 157 after BOJ rate hike as dovish dissents weigh on yen BOJ governor Ueda says will continue to tighten policy in response to economic, price developments BOJ governor Ueda says spring wage talks key to judging inflation trend ECB president Lagarde pushes back on automatic rate hikes as energy prices cloud outlook Gold price claws back toward $4,400 after dodging a deep",
-    "drafted_at": "2026-09-18T22:23:39.060204",
+    "drafted_at": "2026-09-18T23:44:17.754665",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "0bc1fa4dfffe194c"
   },
   {
-    "id": "47b1a323",
+    "id": "50b52d97",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "INFLATION READ: EUROPEAN SESSION In the European session, we don't have much on the agenda other than a couple of low-tier releases like the Eurozone current account and Italian construction output.\n\nThe data won't change anything for the ECB, so the market reaction will likely be muted.\n\nAMERICAN SESSION In the American session, we get the US industrial production data but it's not going to change anything for the Fed, so the market reaction is going to be muted.\n\nThe focus now is on the Middle East, with Trump planning a meeting with Gulf leaders on the sidelines of the UN General Assembly in New York next Tuesday to discuss the next steps in the war with Iran.\n\nNotably, the Iranian delegation will be allowed to participate.\n\nAmid the Saudi Arabia and Houthis attacks and the disruptions in the Strait of Hormuz, there have been promising signs of de-escalation efforts being set in motion.\n\nSuch an outcome would send oil prices much lower, easing inflation and rate hikes concerns and improving significantly risk sentiment.\n\nCENTRAL BANK SPEAKERS 13:30 GMT/09:30 ET - Fed's Bowman (dovish - voter) 15:45 GMT/11:45 ET - Fed's Schmid (hawkish - non voter) This article was written by Giuseppe Dellamotta at investinglive.com.\n\nhttps://investinglive.com/news/what-are-the-main-events-for-today-45/",
@@ -566,14 +566,14 @@
     "source_url": "https://investinglive.com/news/what-are-the-main-events-for-today-45/",
     "source_title": "What are the main events for today?",
     "source_summary": "EUROPEAN SESSION In the European session, we don't have much on the agenda other than a couple of low-tier releases like the Eurozone current account and Italian construction output. The data won't change anything for the ECB, so the market reaction will likely be muted. AMERICAN SESSION In the American session, we get the US industrial production data but it's not going to change anything for the",
-    "drafted_at": "2026-09-18T22:23:39.061570",
+    "drafted_at": "2026-09-18T23:44:17.755483",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "541d119e4c32f09b"
   },
   {
-    "id": "f27e77d0",
+    "id": "b2d98d8d",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "RETAIL-SALES READ: UK August retail sales +0.5% vs -0.2% m/m expected Prior -0.5% UK August retail sales +2.4% vs +1.9% y/y expected Prior +1.6%; revised to +1.2% UK August retail sales (ex autos, fuel) +0.6% vs -0.2% m/m expected Prior -0.9% UK August retail sales (ex autos, fuel) +2.7% vs +1.9% y/y expected Prior +2.3%; revised to +1.8% The breakdownThat's a considerable beat on retail sales, with a modest rise in broader categories from July to August.\n\nDepartment store sales were up by 1.8% on the month, recovering from July in which retailers attributed to stock availability issues.\n\nMeanwhile, non-store retailers' sales volumes partially recovered in August from a fall in July - up by 1.7%.\n\nONS notes that it can be attributed to earlier promotional activity in June resulting in lower July sales, while some non-store retailers also reported that sales were strong in August.\n\nIt's a healthy mix overall to end the summer but after the World Cup boost and with now higher energy costs starting to feed through again\n\nWhat does the data measure?UK retail sales track the volume and value of goods sold by retailers in Great Britain, covering stores and online sales.\n\nThe volume measure is particularly useful for assessing real household consumption after accounting for price changes.\n\nWhy does it matter to markets?Consumer spending is a major part of the UK economy, so retail sales offer a timely read on whether households are still spending despite higher inflation, borrowing costs and weaker labour-market conditions.\n\nhttps://investinglive.com/news/uk-retail-sales-unexpectedly-rise-in-august-backed-by-recovery-in-department-stores-non-store-retailers/",
@@ -583,14 +583,14 @@
     "source_url": "https://investinglive.com/news/uk-retail-sales-unexpectedly-rise-in-august-backed-by-recovery-in-department-stores-non-store-retailers/",
     "source_title": "UK retail sales unexpectedly rise in August, backed by recovery in department stores, non-store retailers",
     "source_summary": "UK August retail sales +0.5% vs -0.2% m/m expected Prior -0.5% UK August retail sales +2.4% vs +1.9% y/y expected Prior +1.6%; revised to +1.2% UK August retail sales (ex autos, fuel) +0.6% vs -0.2% m/m expected Prior -0.9% UK August retail sales (ex autos, fuel) +2.7% vs +1.9% y/y expected Prior +2.3%; revised to +1.8% The breakdownThat's a considerable beat on retail sales, with a modest rise in",
-    "drafted_at": "2026-09-18T22:23:39.063469",
+    "drafted_at": "2026-09-18T23:44:17.756606",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "ee69da3b252100d9"
   },
   {
-    "id": "e773f0a5",
+    "id": "b3413d71",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -600,7 +600,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-09-18T22:23:39.065137",
+    "drafted_at": "2026-09-18T23:44:17.757612",
     "data": {
       "manual": true,
       "via": "manual_news.md"
