@@ -1,32 +1,4 @@
 {
-  "^VIX:move:2026-09-16": {
-    "headline": "VIX rips 21.9% in 5 sessions to 17.71",
-    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "source": "CBOE \u00b7 ^VIX",
-    "chart_path": null,
-    "signal_id": "^VIX:move:2026-09-16",
-    "current_str": "17.71",
-    "label": "VIX (S&P 500 volatility)",
-    "hashtags": "#VIX #Volatility #Markets",
-    "kind": "move_up",
-    "badge": "+21.9%",
-    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "fired_at": "2026-09-17T02:49:28.027992"
-  },
-  "CL=F:move:2026-09-16": {
-    "headline": "WTI crude surges 11.5% in 5 sessions to $101.99",
-    "matters": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "source": "NYMEX \u00b7 CL=F",
-    "chart_path": null,
-    "signal_id": "CL=F:move:2026-09-16",
-    "current_str": "$101.99",
-    "label": "WTI crude oil futures",
-    "hashtags": "#Oil #WTI #Energy #Commodities",
-    "kind": "move_up",
-    "badge": "+11.5%",
-    "data_url": "https://finance.yahoo.com/quote/CL%3DF",
-    "fired_at": "2026-09-17T02:49:28.027992"
-  },
   "CL=F:move:2026-09-17": {
     "headline": "WTI crude surges 11.1% in 5 sessions to $101.66",
     "matters": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
@@ -40,5 +12,19 @@
     "badge": "+11.1%",
     "data_url": "https://finance.yahoo.com/quote/CL%3DF",
     "fired_at": "2026-09-17T08:06:10.797680"
+  },
+  "CL=F:move:2026-09-18": {
+    "headline": "WTI crude jumps 7.5% in 5 sessions to $100.04",
+    "matters": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "source": "NYMEX \u00b7 CL=F",
+    "chart_path": null,
+    "signal_id": "CL=F:move:2026-09-18",
+    "current_str": "$100.04",
+    "label": "WTI crude oil futures",
+    "hashtags": "#Oil #WTI #Energy #Commodities",
+    "kind": "move_up",
+    "badge": "+7.5%",
+    "data_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "fired_at": "2026-09-18T07:01:37.750515"
   }
 }
