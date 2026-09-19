@@ -1,55 +1,4 @@
 {
-  "UBER_P_2026-09-04": {
-    "ticker": "UBER",
-    "company": "Uber Technologies, Inc",
-    "industry": "Business Services",
-    "num_insiders": 2,
-    "type": "P",
-    "price": 72.58,
-    "qty": 211000,
-    "dollar_value": 15314016.0,
-    "trade_date": "2026-09-04",
-    "category": "CLUSTER_BUY",
-    "link": "http://openinsider.com/screener?s=UBER",
-    "post_id": "UBER_P_2026-09-04",
-    "chart_path": "charts/insider/UBER_P_20260904.png",
-    "pct_since": -2.2182402580557636,
-    "fired_at": "2026-09-17T02:49:20.671300"
-  },
-  "INBX_P_2026-09-08": {
-    "ticker": "INBX",
-    "company": "Inhibrx Biosciences, Inc.",
-    "industry": "Biological Products, (No Diagnostic Substances)",
-    "num_insiders": 2,
-    "type": "P",
-    "price": 106.62,
-    "qty": 27500,
-    "dollar_value": 2932016.0,
-    "trade_date": "2026-09-08",
-    "category": "CLUSTER_BUY",
-    "link": "http://openinsider.com/screener?s=INBX",
-    "post_id": "INBX_P_2026-09-08",
-    "chart_path": "charts/insider/INBX_P_20260908.png",
-    "pct_since": -4.548868276996434,
-    "fired_at": "2026-09-17T02:49:20.671300"
-  },
-  "MNR_P_2026-09-14": {
-    "ticker": "MNR",
-    "company": "Mach Natural Resources LP",
-    "industry": "Ward Tom L.",
-    "num_insiders": 0,
-    "type": "P",
-    "price": 11.6,
-    "qty": 172413,
-    "dollar_value": 1999991.0,
-    "trade_date": "2026-09-14",
-    "category": "BIG_SALE",
-    "link": "http://openinsider.com/screener?s=MNR",
-    "post_id": "MNR_P_2026-09-14",
-    "chart_path": "charts/insider/MNR_P_20260914.png",
-    "pct_since": -6.034486047152813,
-    "fired_at": "2026-09-17T02:49:20.671300"
-  },
   "BORR_P_2026-09-16": {
     "ticker": "BORR",
     "company": "Borr Drilling Ltd",
@@ -627,5 +576,22 @@
     "chart_path": "charts/insider/ANGX_P_20260911.png",
     "pct_since": 7.692309788295206,
     "fired_at": "2026-09-19T02:03:42.856708"
+  },
+  "INBX_P_2026-09-08": {
+    "ticker": "INBX",
+    "company": "Inhibrx Biosciences, Inc.",
+    "industry": "Biological Products, (No Diagnostic Substances)",
+    "num_insiders": 2,
+    "type": "P",
+    "price": 106.62,
+    "qty": 27500,
+    "dollar_value": 2932016.0,
+    "trade_date": "2026-09-08",
+    "category": "CLUSTER_BUY",
+    "link": "http://openinsider.com/screener?s=INBX",
+    "post_id": "INBX_P_2026-09-08",
+    "chart_path": "charts/insider/INBX_P_20260908.png",
+    "pct_since": 2.560493785519686,
+    "fired_at": "2026-09-19T07:37:22.184505"
   }
 }
