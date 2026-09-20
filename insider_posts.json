@@ -1,38 +1,4 @@
 {
-  "CYBN_P_2026-09-08": {
-    "ticker": "CYBN",
-    "company": "Cybin Inc.",
-    "industry": "Pharmaceutical Preparations",
-    "num_insiders": 2,
-    "type": "P",
-    "price": 12.35,
-    "qty": 400000,
-    "dollar_value": 4941950.0,
-    "trade_date": "2026-09-08",
-    "category": "CLUSTER_BUY",
-    "link": "http://openinsider.com/screener?s=CYBN",
-    "post_id": "CYBN_P_2026-09-08",
-    "chart_path": null,
-    "pct_since": 0.0,
-    "fired_at": "2026-09-18T01:59:03.960203"
-  },
-  "RWT_P_2026-09-15": {
-    "ticker": "RWT",
-    "company": "Redwood Trust Inc",
-    "industry": "Real Estate Investment Trusts",
-    "num_insiders": 4,
-    "type": "P",
-    "price": 3.88,
-    "qty": 239276,
-    "dollar_value": 928278.0,
-    "trade_date": "2026-09-15",
-    "category": "CLUSTER_BUY",
-    "link": "http://openinsider.com/screener?s=RWT",
-    "post_id": "RWT_P_2026-09-15",
-    "chart_path": "charts/insider/RWT_P_20260915.png",
-    "pct_since": 0.25773466247873483,
-    "fired_at": "2026-09-18T01:59:03.960203"
-  },
   "TFC_P_2026-09-17": {
     "ticker": "TFC",
     "company": "Truist Financial Corp",
@@ -440,5 +406,39 @@
     "chart_path": "charts/insider/BWMX_P_20260916.png",
     "pct_since": 5.227960279285006,
     "fired_at": "2026-09-19T23:45:13.137237"
+  },
+  "CYBN_P_2026-09-08": {
+    "ticker": "CYBN",
+    "company": "Cybin Inc.",
+    "industry": "Pharmaceutical Preparations",
+    "num_insiders": 2,
+    "type": "P",
+    "price": 12.35,
+    "qty": 400000,
+    "dollar_value": 4941950.0,
+    "trade_date": "2026-09-08",
+    "category": "CLUSTER_BUY",
+    "link": "http://openinsider.com/screener?s=CYBN",
+    "post_id": "CYBN_P_2026-09-08",
+    "chart_path": null,
+    "pct_since": 0.0,
+    "fired_at": "2026-09-20T02:08:01.224484"
+  },
+  "RWT_P_2026-09-15": {
+    "ticker": "RWT",
+    "company": "Redwood Trust Inc",
+    "industry": "Real Estate Investment Trusts",
+    "num_insiders": 4,
+    "type": "P",
+    "price": 3.87,
+    "qty": 339276,
+    "dollar_value": 1312178.0,
+    "trade_date": "2026-09-15",
+    "category": "CLUSTER_BUY",
+    "link": "http://openinsider.com/screener?s=RWT",
+    "post_id": "RWT_P_2026-09-15",
+    "chart_path": "charts/insider/RWT_P_20260915.png",
+    "pct_since": 1.808787008280591,
+    "fired_at": "2026-09-20T02:08:01.224484"
   }
 }

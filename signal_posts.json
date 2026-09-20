@@ -11,7 +11,7 @@
     "kind": "move_up",
     "badge": "+7.8%",
     "data_url": "https://finance.yahoo.com/quote/CL%3DF",
-    "fired_at": "2026-09-19T07:37:24.173148"
+    "fired_at": "2026-09-20T02:08:04.975084"
   },
   "^VIX:move:2026-09-18": {
     "headline": "VIX drops 5.8% in 5 sessions to 14.81",
@@ -26,5 +26,19 @@
     "badge": "-5.8%",
     "data_url": "https://finance.yahoo.com/quote/%5EVIX",
     "fired_at": "2026-09-19T23:45:15.999956"
+  },
+  "BTC-USD:move:2026-09-20": {
+    "headline": "Bitcoin climbs 5.9% in 5 sessions to $81,081",
+    "matters": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
+    "source": "Yahoo Finance \u00b7 BTC-USD",
+    "chart_path": null,
+    "signal_id": "BTC-USD:move:2026-09-20",
+    "current_str": "$81,081",
+    "label": "Bitcoin",
+    "hashtags": "#Bitcoin #BTC #Crypto",
+    "kind": "move_up",
+    "badge": "+5.9%",
+    "data_url": "https://finance.yahoo.com/quote/BTC-USD",
+    "fired_at": "2026-09-20T02:08:04.975084"
   }
 }
