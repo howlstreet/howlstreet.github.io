@@ -25,20 +25,34 @@
     "kind": "move_down",
     "badge": "-5.8%",
     "data_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "fired_at": "2026-09-19T23:45:15.999956"
+    "fired_at": "2026-09-20T23:41:05.113009"
   },
   "BTC-USD:move:2026-09-20": {
-    "headline": "Bitcoin climbs 5.9% in 5 sessions to $81,081",
+    "headline": "Bitcoin climbs 6.0% in 5 sessions to $81,161",
     "matters": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
     "source": "Yahoo Finance \u00b7 BTC-USD",
     "chart_path": null,
     "signal_id": "BTC-USD:move:2026-09-20",
-    "current_str": "$81,081",
+    "current_str": "$81,161",
     "label": "Bitcoin",
     "hashtags": "#Bitcoin #BTC #Crypto",
     "kind": "move_up",
-    "badge": "+5.9%",
+    "badge": "+6.0%",
     "data_url": "https://finance.yahoo.com/quote/BTC-USD",
-    "fired_at": "2026-09-20T02:08:04.975084"
+    "fired_at": "2026-09-20T23:41:05.113009"
+  },
+  "CL=F:move:2026-09-20": {
+    "headline": "WTI crude drops 6.3% in 5 sessions to $96.02",
+    "matters": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "source": "NYMEX \u00b7 CL=F",
+    "chart_path": null,
+    "signal_id": "CL=F:move:2026-09-20",
+    "current_str": "$96.02",
+    "label": "WTI crude oil futures",
+    "hashtags": "#Oil #WTI #Energy #Commodities",
+    "kind": "move_down",
+    "badge": "-6.3%",
+    "data_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "fired_at": "2026-09-20T23:41:05.113009"
   }
 }
