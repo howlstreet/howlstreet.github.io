@@ -1,23 +1,61 @@
 [
   {
-    "id": "348bce3d",
+    "id": "467a4325",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "The USD/JPY pair attracts some sellers following a modest Asian session uptick to the 157.10 area and moves away from a two-week high, touched on Friday in reaction to the Bank of Japan's (BoJ) dovish rate hike.\n\nhttps://www.fxstreet.com/news/japanese-yen-bulls-seem-hesitant-amid-bojs-dovish-rate-hike-as-fed-bets-support-usd-202609210112",
+    "draft_text": "Commodity vessels traversing the Strait of Hormuz declined further, with just a dozen commodity vessels in total making the passage this weekend, Reuters has reported.\n\nThis compares to 35 tankers and other commodity carriers passing the chokepoint a week earlier.\n\nThe data includes only tankers that move with their transponders switched on.\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Strait-of-Hormuz-Shipping-Traffic-Falls-Further-as-Saudi-Oil-Flows-Rise.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/japanese-yen-bulls-seem-hesitant-amid-bojs-dovish-rate-hike-as-fed-bets-support-usd-202609210112",
-    "source_title": "Japanese Yen bulls seem hesitant amid BoJ's dovish rate hike as Fed bets support USD",
-    "source_summary": "The USD/JPY pair attracts some sellers following a modest Asian session uptick to the 157.10 area and moves away from a two-week high, touched on Friday in reaction to the Bank of Japan's (BoJ) dovish rate hike.",
-    "drafted_at": "2026-09-21T02:08:47.901562",
+    "primary_source": "OILPRICE",
+    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Strait-of-Hormuz-Shipping-Traffic-Falls-Further-as-Saudi-Oil-Flows-Rise.html",
+    "source_title": "Strait of Hormuz Shipping Traffic Falls Further as Saudi Oil Flows Rise",
+    "source_summary": "Commodity vessels traversing the Strait of Hormuz declined further, with just a dozen commodity vessels in total making the passage this weekend, Reuters has reported. This compares to 35 tankers and other commodity carriers passing the chokepoint a week earlier. The data includes only tankers that move with their transponders switched on. Many choose to turn these off to avoid detection, and not ",
+    "drafted_at": "2026-09-21T08:19:20.188123",
     "data": {
-      "source": "FXSTREET"
+      "source": "OILPRICE"
     },
-    "content_hash": "ffb2d1bbc809c55c"
+    "content_hash": "93266e76d5b4b290"
   },
   {
-    "id": "f6b56dd5",
+    "id": "9d51eac4",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Whatever you're doing, stop and read this. VIX drops 5.9% in 5 sessions to 14.91.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CBOE \u00b7 ^VIX",
+    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "source_title": "VIX (S&P 500 volatility)",
+    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "drafted_at": "2026-09-21T08:19:20.188313",
+    "data": {
+      "signal_id": "^VIX:move:2026-09-21",
+      "kind": "move_down",
+      "current": "14.91"
+    },
+    "content_hash": "995f4d67e7e875d2"
+  },
+  {
+    "id": "ccf4b0ba",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "You blink, you miss this: WTI crude drops 5.8% in 5 sessions to $94.22.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NYMEX \u00b7 CL=F",
+    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "source_title": "WTI crude oil futures",
+    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "drafted_at": "2026-09-21T08:19:20.188443",
+    "data": {
+      "signal_id": "CL=F:move:2026-09-21",
+      "kind": "move_down",
+      "current": "$94.22"
+    },
+    "content_hash": "c272de0720a2f459"
+  },
+  {
+    "id": "ef6b0564",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Heads up, pack. Bitcoin climbs 5.2% in 5 sessions to $81,207.\n\nBitcoin is now treated as a macro asset alongside gold and tech.\n\nIts swings move alt-coins, public miners, and crypto-exposed stocks.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/BTC-USD",
@@ -27,7 +65,7 @@
     "source_url": "https://finance.yahoo.com/quote/BTC-USD",
     "source_title": "Bitcoin",
     "source_summary": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
-    "drafted_at": "2026-09-21T02:08:47.901760",
+    "drafted_at": "2026-09-21T08:19:20.188614",
     "data": {
       "signal_id": "BTC-USD:move:2026-09-21",
       "kind": "move_up",
@@ -36,7 +74,7 @@
     "content_hash": "0e3396ceb3da7211"
   },
   {
-    "id": "2b15458e",
+    "id": "c66454d0",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Quick one for you. VIX drops 5.8% in 5 sessions to 14.81.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
@@ -46,7 +84,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EVIX",
     "source_title": "VIX (S&P 500 volatility)",
     "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-09-21T02:08:47.901879",
+    "drafted_at": "2026-09-21T08:19:20.188735",
     "data": {
       "signal_id": "^VIX:move:2026-09-18",
       "kind": "move_down",
@@ -55,7 +93,7 @@
     "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "1797869f",
+    "id": "ef0df3a6",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "The pack is watching. Bitcoin climbs 6.0% in 5 sessions to $81,161.\n\nBitcoin is now treated as a macro asset alongside gold and tech.\n\nIts swings move alt-coins, public miners, and crypto-exposed stocks.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/BTC-USD",
@@ -65,7 +103,7 @@
     "source_url": "https://finance.yahoo.com/quote/BTC-USD",
     "source_title": "Bitcoin",
     "source_summary": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
-    "drafted_at": "2026-09-21T02:08:47.902022",
+    "drafted_at": "2026-09-21T08:19:20.188876",
     "data": {
       "signal_id": "BTC-USD:move:2026-09-20",
       "kind": "move_up",
@@ -74,60 +112,7 @@
     "content_hash": "0e3396ceb3da7211"
   },
   {
-    "id": "c844879a",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "Wake up \u2014 here's the tape: WTI crude drops 6.3% in 5 sessions to $96.02.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "NYMEX \u00b7 CL=F",
-    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
-    "source_title": "WTI crude oil futures",
-    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-09-21T02:08:47.902166",
-    "data": {
-      "signal_id": "CL=F:move:2026-09-20",
-      "kind": "move_down",
-      "current": "$96.02"
-    },
-    "content_hash": "c272de0720a2f459"
-  },
-  {
-    "id": "7149741e",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "PBOC postcard: On Monday, the People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7487 compared to Friday's fix of 6.7521 and 6.6951 Reuters estimate.\n\nhttps://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67487-vs-67521-previous-202609210115",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "PBOC",
-    "source_url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67487-vs-67521-previous-202609210115",
-    "source_title": "PBOC sets USD/CNY reference rate at 6.7487 vs. 6.7521 previous",
-    "source_summary": "On Monday, the People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7487 compared to Friday's fix of 6.7521 and 6.6951 Reuters estimate.",
-    "drafted_at": "2026-09-21T02:08:47.908828",
-    "data": {
-      "actor": "PBOC"
-    },
-    "content_hash": "cea95aac46036881"
-  },
-  {
-    "id": "b42840be",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "The Fed just spoke. Here's what matters: The USD/JPY pair attracts some sellers following a modest Asian session uptick to the 157.10 area and moves away from a two-week high, touched on Friday in reaction to the Bank of Japan's (BoJ) dovish rate hike.\n\nhttps://www.fxstreet.com/news/japanese-yen-bulls-seem-hesitant-amid-bojs-dovish-rate-hike-as-fed-bets-support-usd-202609210112",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "BoJ",
-    "source_url": "https://www.fxstreet.com/news/japanese-yen-bulls-seem-hesitant-amid-bojs-dovish-rate-hike-as-fed-bets-support-usd-202609210112",
-    "source_title": "Japanese Yen bulls seem hesitant amid BoJ's dovish rate hike as Fed bets support USD",
-    "source_summary": "The USD/JPY pair attracts some sellers following a modest Asian session uptick to the 157.10 area and moves away from a two-week high, touched on Friday in reaction to the Bank of Japan's (BoJ) dovish rate hike.",
-    "drafted_at": "2026-09-21T02:08:47.909004",
-    "data": {
-      "actor": "BoJ"
-    },
-    "content_hash": "ffb2d1bbc809c55c"
-  },
-  {
-    "id": "84efabd4",
+    "id": "ca8b5e6a",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "The Fed just spoke. Here's what matters: The Federal Reserve just raised interest rates this week for the first time this year.\n\nAnd what does it mean for the economy \u2014 and the rest of us?\n\nhttps://www.npr.org/2026/09/19/nx-s1-5969816/federal-reserve-interest-rate-inflation-economy",
@@ -137,31 +122,14 @@
     "source_url": "https://www.npr.org/2026/09/19/nx-s1-5969816/federal-reserve-interest-rate-inflation-economy",
     "source_title": "Ever wonder how the Fed's interest rate actually works? We've got answers",
     "source_summary": "The Federal Reserve just raised interest rates this week for the first time this year. So how does it actually work? And what does it mean for the economy \u2014 and the rest of us? Here are some answers.",
-    "drafted_at": "2026-09-21T02:08:47.909201",
+    "drafted_at": "2026-09-21T08:19:20.195976",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "5bf40335692f4eaf"
   },
   {
-    "id": "8de2efea",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "FED WATCH: Steve Goldstein, MW A recession in words, at least.\n\nhttps://www.realclearmarkets.com/2026/09/19/what_feds_130-word_statement_means_for_market_stability_1207003.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://www.realclearmarkets.com/2026/09/19/what_feds_130-word_statement_means_for_market_stability_1207003.html",
-    "source_title": "What Fed's 130-Word Statement Means for Market Stability",
-    "source_summary": "Steve Goldstein, MW A recession in words, at least.",
-    "drafted_at": "2026-09-21T02:08:47.909268",
-    "data": {
-      "actor": "Fed"
-    },
-    "content_hash": "ae27938805e9a9b6"
-  },
-  {
-    "id": "1e582364",
+    "id": "788b27b5",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "If you trade rates, read this: Consent prohibition order against Stephanie K.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
@@ -171,14 +139,85 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
     "source_title": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
     "source_summary": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
-    "drafted_at": "2026-09-21T02:08:47.909444",
+    "drafted_at": "2026-09-21T08:19:20.196170",
     "data": {
       "actor": "FED"
     },
     "content_hash": "140b0fd2a09d0598"
   },
   {
-    "id": "48ae245f",
+    "id": "a1457ba6",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "FED WATCH: The Committee decided to raise the target range for the federal funds rate by 1/4 percentage point to 3-3/4 to 4 percent, in support of the Federal Reserve's dual mandate.\n\nJob gains have kept pace with the workforce, and the unemployment rate has changed little.\n\nToday's policy action will support a timelier return to the Committee's 2 percent goal.\n\nThe Committee is continuing its policy of maintaining ample reserves in the banking system.\n\nEconomic activity is expanding at a solid pace.\n\nWhile uncertainty remains elevated owing, in part, to geopolitical developments, domestic spending has been resilient.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+    "source_title": "Federal Reserve issues FOMC statement",
+    "source_summary": "Federal Reserve issues FOMC statement",
+    "drafted_at": "2026-09-21T08:19:20.196667",
+    "data": {
+      "actor": "FED"
+    },
+    "content_hash": "5d2f5ae91098e170"
+  },
+  {
+    "id": "5369caab",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "Central bank corner: The proposed guidance reflects the agencies' supervisory experience and lessons learned from examining financial institutions' third-party risk management practices.\n\nThe proposed guidance focuses on a principles-based approach and, as with all supervisory guidance, is non-binding.\n\nWhen finalized, the federal bank regulatory agencies plan to rescind existing third-party risk management guidance and replace it with the finalized guidance to promote consistency and prudent innovation in the banking industry.\n\nComments on the proposed guidance are due 60 days after publication in the Federal Register.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260911a.htm",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260911a.htm",
+    "source_title": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
+    "source_summary": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
+    "drafted_at": "2026-09-21T08:19:20.197306",
+    "data": {
+      "actor": "FED"
+    },
+    "content_hash": "abb2dd8004f9274f"
+  },
+  {
+    "id": "2e84ab31",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "POLICY READ: The 21st Century ROAD to Housing Act increased the total asset threshold from $3 billion to $6 billion for certain supervised institutions to qualify for an extended 18-month on-site exam cycle.\n\nExtending the exam cycle for these small non-complex firms from 12 months to 18 months appropriately reduces burden, including time and resources spent, for these low-risk institutions.\n\nBy law, to be eligible for the extended exam cycle, these institutions must meet certain criteria, including that they are considered well managed and well capitalized.\n\nThe interim final rule incorporates the increase into the agencies' regulations for well-rated institutions.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260910a.htm",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260910a.htm",
+    "source_title": "Agencies reduce regulatory burden for community banks, increase eligibility for 18-month exam cycle",
+    "source_summary": "Agencies reduce regulatory burden for community banks, increase eligibility for 18-month exam cycle",
+    "drafted_at": "2026-09-21T08:19:20.197943",
+    "data": {
+      "actor": "FED"
+    },
+    "content_hash": "9c1abb0348e23ed6"
+  },
+  {
+    "id": "10ff7de0",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$INBX \u2014 2 company insiders bought $2.9M on Sep 08.\n\nInhibrx Biosciences, Inc. 27,500 shares at $106.62.\n\nStock is +2.6% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/INBX_P_20260908.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=INBX",
+    "source_title": "Inhibrx Biosciences, Inc. (INBX) insider bought $2.9M",
+    "source_summary": "2 insider(s) bought 27,500 shares at $106.62 on 2026-09-08.",
+    "drafted_at": "2026-09-21T08:19:20.198147",
+    "data": {
+      "ticker": "INBX",
+      "type": "P",
+      "dollar_value": 2932016.0,
+      "pct_since": 2.560493785519686
+    },
+    "content_hash": "1b20ea8e0a00c30b"
+  },
+  {
+    "id": "954eaa19",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$ANGX \u2014 3 company insiders bought $5.9M on Sep 11.\n\nAngel Studios, Inc. 1,288,309 shares at $4.55.\n\nStock is +15.8% since the purchase. This is a public SEC Form 4 filing.",
@@ -188,7 +227,7 @@
     "source_url": "http://openinsider.com/screener?s=ANGX",
     "source_title": "Angel Studios, Inc. (ANGX) insider bought $5.9M",
     "source_summary": "3 insider(s) bought 1,288,309 shares at $4.55 on 2026-09-11.",
-    "drafted_at": "2026-09-21T02:08:47.912567",
+    "drafted_at": "2026-09-21T08:19:20.198253",
     "data": {
       "ticker": "ANGX",
       "type": "P",
@@ -198,7 +237,7 @@
     "content_hash": "17f5a21771b676b3"
   },
   {
-    "id": "40b4c0a9",
+    "id": "72146c2d",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$CV \u2014 a company insider bought $5.0M on Sep 15.\n\nCapsovision, Inc. 878,734 shares at $5.69.\n\nStock is +17.8% since the purchase. This is a public SEC Form 4 filing.",
@@ -208,7 +247,7 @@
     "source_url": "http://openinsider.com/screener?s=CV",
     "source_title": "Capsovision, Inc (CV) insider bought $5.0M",
     "source_summary": "1 insider(s) bought 878,734 shares at $5.69 on 2026-09-15.",
-    "drafted_at": "2026-09-21T02:08:47.912667",
+    "drafted_at": "2026-09-21T08:19:20.198348",
     "data": {
       "ticker": "CV",
       "type": "P",
@@ -218,7 +257,7 @@
     "content_hash": "896d1ba16c7d800b"
   },
   {
-    "id": "6be12a09",
+    "id": "7ce97198",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$CELH \u2014 3 company insiders bought $1.8M on Sep 15.\n\nCelsius Holdings, Inc. 66,000 shares at $27.73.\n\nStock is +1.0% since the purchase. This is a public SEC Form 4 filing.",
@@ -228,7 +267,7 @@
     "source_url": "http://openinsider.com/screener?s=CELH",
     "source_title": "Celsius Holdings, Inc. (CELH) insider bought $1.8M",
     "source_summary": "3 insider(s) bought 66,000 shares at $27.73 on 2026-09-15.",
-    "drafted_at": "2026-09-21T02:08:47.912761",
+    "drafted_at": "2026-09-21T08:19:20.198442",
     "data": {
       "ticker": "CELH",
       "type": "P",
@@ -238,7 +277,7 @@
     "content_hash": "9521e825e6c4fa5d"
   },
   {
-    "id": "c7cbecb4",
+    "id": "bef5f718",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$CYBN \u2014 2 company insiders bought $4.9M on Sep 08.\n\nCybin Inc. 400,000 shares at $12.35.\n\nStock is +0.0% since the purchase. This is a public SEC Form 4 filing.\n\nhttp://openinsider.com/screener?s=CYBN",
@@ -248,7 +287,7 @@
     "source_url": "http://openinsider.com/screener?s=CYBN",
     "source_title": "Cybin Inc. (CYBN) insider bought $4.9M",
     "source_summary": "2 insider(s) bought 400,000 shares at $12.35 on 2026-09-08.",
-    "drafted_at": "2026-09-21T02:08:47.912837",
+    "drafted_at": "2026-09-21T08:19:20.198534",
     "data": {
       "ticker": "CYBN",
       "type": "P",
@@ -258,27 +297,7 @@
     "content_hash": "7ff4597a5bf7e727"
   },
   {
-    "id": "540a0988",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$RWT \u2014 4 company insiders bought $1.3M on Sep 15.\n\nRedwood Trust Inc. 339,276 shares at $3.87.\n\nStock is +1.8% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/RWT_P_20260915.png",
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=RWT",
-    "source_title": "Redwood Trust Inc (RWT) insider bought $1.3M",
-    "source_summary": "4 insider(s) bought 339,276 shares at $3.87 on 2026-09-15.",
-    "drafted_at": "2026-09-21T02:08:47.912924",
-    "data": {
-      "ticker": "RWT",
-      "type": "P",
-      "dollar_value": 1312178.0,
-      "pct_since": 1.808787008280591
-    },
-    "content_hash": "5120f22b661958fe"
-  },
-  {
-    "id": "5951b453",
+    "id": "d018400b",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "\u2018Fur Lives Matter\u2019 and the COVID Fraud That Refuses to Die\n\nhttps://pjmedia.com/david-manney/2026/09/20/fur-lives-matter-and-the-covid-fraud-that-refuses-to-die-n4957464",
@@ -288,31 +307,14 @@
     "source_url": "https://pjmedia.com/david-manney/2026/09/20/fur-lives-matter-and-the-covid-fraud-that-refuses-to-die-n4957464",
     "source_title": "\u2018Fur Lives Matter\u2019 and the COVID Fraud That Refuses to Die",
     "source_summary": "",
-    "drafted_at": "2026-09-21T02:08:47.913625",
+    "drafted_at": "2026-09-21T08:19:20.199226",
     "data": {
       "source": "PJ MEDIA"
     },
     "content_hash": "41c92683c0b5757e"
   },
   {
-    "id": "eff7041d",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "DOJ Charges 16 in Nationwide Sweep Over Alleged Illegal Voting and Voter Registration\n\nhttps://townhall.com/news/scott-mcclallen/2026/09/20/doj-charges-16-in-nationwide-sweep-over-alleged-illegal-voting-and-voter-registration-n2683270",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "TOWNHALL FIN",
-    "source_url": "https://townhall.com/news/scott-mcclallen/2026/09/20/doj-charges-16-in-nationwide-sweep-over-alleged-illegal-voting-and-voter-registration-n2683270",
-    "source_title": "DOJ Charges 16 in Nationwide Sweep Over Alleged Illegal Voting and Voter Registration",
-    "source_summary": "",
-    "drafted_at": "2026-09-21T02:08:47.913671",
-    "data": {
-      "source": "TOWNHALL FIN"
-    },
-    "content_hash": "ad00f0355409afe7"
-  },
-  {
-    "id": "8f4d82c9",
+    "id": "63fa2ff3",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Almost 4,000 Bitcoin left Liquid's reserve on Sept.\n\n6 through a withdrawal the network approved, even though the private keys used to authorize it hadn't been stolen.\n\nSoftware had accepted a withdrawal that should never have qualified.\n\nhttps://cryptoslate.com/who-pays-when-bitcoin-disappears-without-anyone-stealing-the-keys/",
@@ -322,31 +324,14 @@
     "source_url": "https://cryptoslate.com/who-pays-when-bitcoin-disappears-without-anyone-stealing-the-keys/",
     "source_title": "Why keeping your private keys safe won\u2019t always stop crypto theft",
     "source_summary": "Almost 4,000 Bitcoin left Liquid's reserve on Sept. 6 through a withdrawal the network approved, even though the private keys used to authorize it hadn't been stolen. Software had accepted a withdrawal that should never have qualified. Liquid lets people move a Bitcoin-backed token on a separate blockchain designed for faster, more private transactions. Bitcoin [\u2026] The post Why keeping your privat",
-    "drafted_at": "2026-09-21T02:08:47.913868",
+    "drafted_at": "2026-09-21T08:19:20.199434",
     "data": {
       "source": "CRYPTOSLATE"
     },
     "content_hash": "63bac5e4e52f94db"
   },
   {
-    "id": "2562ae8f",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Michigan Man Indicted in Alleged $4.75M Medicare Psychotherapy Fraud\n\nhttps://townhall.com/news/scott-mcclallen/2026/09/20/michigan-man-indicted-in-alleged-475m-medicare-psychotherapy-fraud-n2683267",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "TOWNHALL FIN",
-    "source_url": "https://townhall.com/news/scott-mcclallen/2026/09/20/michigan-man-indicted-in-alleged-475m-medicare-psychotherapy-fraud-n2683267",
-    "source_title": "Michigan Man Indicted in Alleged $4.75M Medicare Psychotherapy Fraud",
-    "source_summary": "",
-    "drafted_at": "2026-09-21T02:08:47.913906",
-    "data": {
-      "source": "TOWNHALL FIN"
-    },
-    "content_hash": "43d7674ff5d930b2"
-  },
-  {
-    "id": "fbe40e02",
+    "id": "b8effff4",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "In a separate attack, hackers compromised nearly 500 users' accounts using stolen personal information, according to the report.\n\nhttps://www.theblock.co/news/regulation/2026-09-20-polymarket-faced-10-million-fraud-attempt-as-its-ceo-pushed-growth-over-compliance-concerns-wsj-415875",
@@ -356,14 +341,48 @@
     "source_url": "https://www.theblock.co/news/regulation/2026-09-20-polymarket-faced-10-million-fraud-attempt-as-its-ceo-pushed-growth-over-compliance-concerns-wsj-415875",
     "source_title": "Polymarket faced $10 million fraud attempt as its CEO pushed growth over compliance concerns: WSJ",
     "source_summary": "In a separate attack, hackers compromised nearly 500 users' accounts using stolen personal information, according to the report.",
-    "drafted_at": "2026-09-21T02:08:47.913998",
+    "drafted_at": "2026-09-21T08:19:20.199550",
     "data": {
       "source": "THE BLOCK"
     },
     "content_hash": "76ec29d95da4a7ec"
   },
   {
-    "id": "f385e515",
+    "id": "5c8a6bb3",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "The convicted fraudster says his new app would enable women to find love safely.\n\nThe lead trade group for online dating disagrees.\n\nhttps://www.icij.org/news/2026/09/tinder-swindlers-plan-for-a-dating-app-sparks-industry-backlash/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "ICIJ",
+    "source_url": "https://www.icij.org/news/2026/09/tinder-swindlers-plan-for-a-dating-app-sparks-industry-backlash/",
+    "source_title": "\u2018Tinder Swindler\u2019s\u2019 plan for a dating app sparks industry backlash",
+    "source_summary": "The convicted fraudster says his new app would enable women to find love safely. The lead trade group for online dating disagrees.",
+    "drafted_at": "2026-09-21T08:19:20.199645",
+    "data": {
+      "source": "ICIJ"
+    },
+    "content_hash": "52d6063492b28f18"
+  },
+  {
+    "id": "e32dada5",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Using software from a company in Israel, scammers reel in gullible investors and steal all their money.\n\nDER SPIEGEL dove deep into this world of greed-fueled criminal networks - and found a hero.\n\nhttps://www.spiegel.de/international/world/online-scams-the-shady-world-of-fraudulent-investment-sites-a-36d59b48-23ea-4ae5-9532-7a6d3fb086d3#ref=rss",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "SPIEGEL",
+    "source_url": "https://www.spiegel.de/international/world/online-scams-the-shady-world-of-fraudulent-investment-sites-a-36d59b48-23ea-4ae5-9532-7a6d3fb086d3#ref=rss",
+    "source_title": "Online Scams: The Shady World of Fraudulent Investment Sites",
+    "source_summary": "Using software from a company in Israel, scammers reel in gullible investors and steal all their money. DER SPIEGEL dove deep into this world of greed-fueled criminal networks - and found a hero.",
+    "drafted_at": "2026-09-21T08:19:20.199771",
+    "data": {
+      "source": "SPIEGEL"
+    },
+    "content_hash": "f90d8f417ae73de2"
+  },
+  {
+    "id": "1bfc1946",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $SPCX this year \u2014 and these filings don't show them selling:\n\n\u2022 Daniel Meuser (R)\n\u2022 Jared Moskowitz (D)\n\u2022 John McGuire (R)\n\u2022 Gilbert Cisneros (D)\n\nLargest disclosed here: Daniel Meuser, $15,001 - $50,000 on Jun 15.\n\nPrice since the first buy in this group: -5.1%.\n\nSTOCK Act disclosures. Public record.",
@@ -373,7 +392,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034774.pdf",
     "source_title": "4 Congress members bought $SPCX",
     "source_summary": "4 politicians bought $SPCX; largest $15,001 - $50,000 by Daniel Meuser.",
-    "drafted_at": "2026-09-21T02:08:47.915475",
+    "drafted_at": "2026-09-21T08:19:20.200296",
     "data": {
       "ticker": "SPCX",
       "member_count": 4,
@@ -382,7 +401,7 @@
     "content_hash": "585711bf88956fa9"
   },
   {
-    "id": "ce14e1a7",
+    "id": "c39984a3",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $NVDA this year \u2014 and these filings don't show them selling:\n\n\u2022 Michael Rulli (R)\n\u2022 Cleo Fields (D)\n\u2022 Gilbert Cisneros (D)\n\u2022 John J Mr McGuire (R)\n\nLargest disclosed here: Michael Rulli, $1,001 - $15,000 on Jun 25.\n\nPrice since the first buy in this group: +13.6%.\n\nSTOCK Act disclosures. Public record.",
@@ -392,7 +411,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035147.pdf",
     "source_title": "4 Congress members bought $NVDA",
     "source_summary": "4 politicians bought $NVDA; largest $1,001 - $15,000 by Michael Rulli.",
-    "drafted_at": "2026-09-21T02:08:47.915630",
+    "drafted_at": "2026-09-21T08:19:20.200454",
     "data": {
       "ticker": "NVDA",
       "member_count": 4,
@@ -401,7 +420,7 @@
     "content_hash": "f6cf25ab3c00fb6f"
   },
   {
-    "id": "7d136d56",
+    "id": "b17a9a28",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $MU this year \u2014 and these filings don't show them selling:\n\n\u2022 Josh Gottheimer (D)\n\u2022 Sheldon Whitehouse (D)\n\u2022 Michael Rulli (R)\n\u2022 Dan Newhouse (R)\n\nLargest disclosed here: Josh Gottheimer, $1,001 - $15,000 on May 21.\n\nPrice since the first buy in this group: +33.3%.\n\nSTOCK Act disclosures. Public record.",
@@ -411,7 +430,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034693.pdf",
     "source_title": "4 Congress members bought $MU",
     "source_summary": "4 politicians bought $MU; largest $1,001 - $15,000 by Josh Gottheimer.",
-    "drafted_at": "2026-09-21T02:08:47.915779",
+    "drafted_at": "2026-09-21T08:19:20.200620",
     "data": {
       "ticker": "MU",
       "member_count": 4,
@@ -420,17 +439,17 @@
     "content_hash": "7c265a3a54605da1"
   },
   {
-    "id": "a65d79c6",
+    "id": "1c5cb439",
     "format": "CONGRESS_WATCH",
     "status": "pending",
-    "draft_text": "3 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 Gilbert Cisneros (D)\n\u2022 Cleo Fields (D)\n\u2022 Jared Moskowitz (D)\n\nLargest disclosed here: Gilbert Cisneros, $50,001 - $100,000 on May 15.\n\nPrice since the first buy in this group: +17.0%.\n\nSTOCK Act disclosures. Public record.\n\nhttps://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034713.pdf",
-    "image_path": null,
+    "draft_text": "3 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 Gilbert Cisneros (D)\n\u2022 Cleo Fields (D)\n\u2022 Jared Moskowitz (D)\n\nLargest disclosed here: Gilbert Cisneros, $50,001 - $100,000 on May 15.\n\nPrice since the first buy in this group: +17.0%.\n\nSTOCK Act disclosures. Public record.",
+    "image_path": "charts/congress/MSFT_cluster.png",
     "og_image_url": null,
     "primary_source": "STOCK Act PTR filings",
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034713.pdf",
     "source_title": "3 Congress members bought $MSFT",
     "source_summary": "3 politicians bought $MSFT; largest $50,001 - $100,000 by Gilbert Cisneros.",
-    "drafted_at": "2026-09-21T02:08:47.915909",
+    "drafted_at": "2026-09-21T08:19:20.200764",
     "data": {
       "ticker": "MSFT",
       "member_count": 3,
@@ -439,7 +458,7 @@
     "content_hash": "568a39394ccac4dc"
   },
   {
-    "id": "18b29cee",
+    "id": "3c471d94",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $BRK.B this year \u2014 and these filings don't show them selling:\n\n\u2022 Jerry Moran,\n\u2022 Maria Elvira Salazar (R)\n\u2022 Richard Dean Dr McCormick (R)\n\nLargest disclosed here: Jerry Moran,, $15,001 - $50,000 on Jun 23.\n\nPrice since the first buy in this group: +0.0%.\n\nSTOCK Act disclosures. Public record.\n\nhttps://efdsearch.senate.gov/search/view/ptr/cff197e2-b90b-4b53-b97d-eecf226a1980/",
@@ -449,7 +468,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/cff197e2-b90b-4b53-b97d-eecf226a1980/",
     "source_title": "3 Congress members bought $BRK.B",
     "source_summary": "3 politicians bought $BRK.B; largest $15,001 - $50,000 by Jerry Moran,.",
-    "drafted_at": "2026-09-21T02:08:47.916040",
+    "drafted_at": "2026-09-21T08:19:20.200903",
     "data": {
       "ticker": "BRK.B",
       "member_count": 3,
@@ -458,92 +477,92 @@
     "content_hash": "6f888df9bec37d4e"
   },
   {
-    "id": "00b6ae54",
+    "id": "5be5e0e0",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Continental update: POLITICO spoke to party leaders Magdalena Andersson and Ulf Kristersson \u2014 and leading analysts \u2014 to understand the far-right Sweden Democrats' fall in support, and what it means.\n\nhttps://www.politico.eu/article/why-the-far-right-failed-11-lessons-for-europe-from-swedens-election/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+    "draft_text": "Asia overnight: Europe is reeling from a diesel supply crunch, and now another squeeze is looming on the horizon, as jet fuel supply tightens ahead of the final quarter of the year.\n\nPer Energy Aspects, the shortfall in jet fuel supply for Europe next quarter could reach 510,000 barrels daily, Reuters reported today, adding that the consultancy sees a jet fuel surplus of 18,000 barrels daily in the United States and a larger 419,000-bpd surplus in the Asia-Pacific.\n\nThe tighter supply situation in jet fuel comes as European stocks of the commodity dwindle to the\u2026\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Europes-Fuel-Crisis-Spreads-From-Diesel-to-Jet-Fuel.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "POLITICO EU",
-    "source_url": "https://www.politico.eu/article/why-the-far-right-failed-11-lessons-for-europe-from-swedens-election/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-    "source_title": "Why the far right lost: 11 lessons for Europe from Sweden\u2019s election",
-    "source_summary": "POLITICO spoke to party leaders Magdalena Andersson and Ulf Kristersson \u2014 and leading analysts \u2014 to understand the far-right Sweden Democrats' fall in support, and what it means.",
-    "drafted_at": "2026-09-21T02:08:47.916688",
+    "primary_source": "OILPRICE",
+    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Fuel-Crisis-Spreads-From-Diesel-to-Jet-Fuel.html",
+    "source_title": "Europe\u2019s Fuel Crisis Spreads From Diesel to Jet Fuel",
+    "source_summary": "Europe is reeling from a diesel supply crunch, and now another squeeze is looming on the horizon, as jet fuel supply tightens ahead of the final quarter of the year. Per Energy Aspects, the shortfall in jet fuel supply for Europe next quarter could reach 510,000 barrels daily, Reuters reported today, adding that the consultancy sees a jet fuel surplus of 18,000 barrels daily in the United States a",
+    "drafted_at": "2026-09-21T08:19:20.201818",
     "data": {
-      "source": "POLITICO EU"
+      "source": "OILPRICE"
     },
-    "content_hash": "8eb6f6a5664c80d5"
+    "content_hash": "ffabab77280ad099"
   },
   {
-    "id": "45bb1087",
+    "id": "335fe1c6",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From Beijing: Reviving US-China LNG trade could reshape global energy markets, influence geopolitical alliances, and impact long-term energy strategies.\n\nThe post Xi Jinping heads to Washington to revive a $6B US liquefied natural gas trade appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/xi-jinping-washington-us-lng-trade-talks/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/xi-jinping-washington-us-lng-trade-talks/",
-    "source_title": "Xi Jinping heads to Washington to revive a $6B US liquefied natural gas trade",
-    "source_summary": "Reviving US-China LNG trade could reshape global energy markets, influence geopolitical alliances, and impact long-term energy strategies. The post Xi Jinping heads to Washington to revive a $6B US liquefied natural gas trade appeared first on Crypto Briefing .",
-    "drafted_at": "2026-09-21T02:08:47.916912",
-    "data": {
-      "source": "CRYPTO BRIEFING"
-    },
-    "content_hash": "037af95e96131f24"
-  },
-  {
-    "id": "f05ec707",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "CHINA DESK: The PBOC's bill issuance in Hong Kong strengthens yuan stability, influences global currency markets, and enhances offshore yuan liquidity.\n\nThe post China\u2019s central bank to sell 60 billion yuan in bills through Hong Kong on September 23 appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/pboc-60b-yuan-bills-hong-kong/",
+    "draft_text": "Mainland wire: The Greenland deal could enhance NATO's Arctic strategy, potentially escalating geopolitical tensions with Russia and China in the region.\n\nThe post Denmark: NATO to share Arctic security responsibility under Greenland deal appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/denmark-nato-to-share-arctic-security-responsibility-under-greenland-deal/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/pboc-60b-yuan-bills-hong-kong/",
-    "source_title": "China\u2019s central bank to sell 60 billion yuan in bills through Hong Kong on September 23",
-    "source_summary": "The PBOC's bill issuance in Hong Kong strengthens yuan stability, influences global currency markets, and enhances offshore yuan liquidity. The post China\u2019s central bank to sell 60 billion yuan in bills through Hong Kong on September 23 appeared first on Crypto Briefing .",
-    "drafted_at": "2026-09-21T02:08:47.917145",
+    "source_url": "https://cryptobriefing.com/denmark-nato-to-share-arctic-security-responsibility-under-greenland-deal/",
+    "source_title": "Denmark: NATO to share Arctic security responsibility under Greenland deal",
+    "source_summary": "The Greenland deal could enhance NATO's Arctic strategy, potentially escalating geopolitical tensions with Russia and China in the region. The post Denmark: NATO to share Arctic security responsibility under Greenland deal appeared first on Crypto Briefing .",
+    "drafted_at": "2026-09-21T08:19:20.202006",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "175ee9823a0ae8d1"
+    "content_hash": "fdabeb90d740bf14"
   },
   {
-    "id": "244c0253",
+    "id": "9c83348f",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "CHINA DESK: The proposed AI incident notification mechanism could foster transparency and cooperation, potentially easing geopolitical tensions and enhancing global AI governance.\n\nThe post US Treasury proposes AI incident notification mechanism after talks with China appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/us-treasury-ai-notification-china/",
+    "draft_text": "From the Gulf: OCBC\u2019s Christopher Wong observes that weekend attacks targeting Saudi Arabia have revived supply and geopolitical concerns in Oil markets.\n\nhttps://www.fxstreet.com/news/oil-supply-risks-linger-despite-recovering-saudi-flows-ocbc-202609210734",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/oil-supply-risks-linger-despite-recovering-saudi-flows-ocbc-202609210734",
+    "source_title": "Oil: Supply risks linger despite recovering Saudi flows",
+    "source_summary": "OCBC\u2019s Christopher Wong observes that weekend attacks targeting Saudi Arabia have revived supply and geopolitical concerns in Oil markets.",
+    "drafted_at": "2026-09-21T08:19:20.202748",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "3d86efe527a43a51"
+  },
+  {
+    "id": "f76ddb73",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "MIDDLE EAST DESK: A potential Trump-Iran meeting in New York could reshape diplomatic dynamics, influencing global market perceptions and future negotiation venues.\n\nThe post Trump likely to meet Iran\u2019s President in New York during UN assembly appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/trump-likely-to-meet-irans-president-in-new-york-during-un-assembly/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/us-treasury-ai-notification-china/",
-    "source_title": "US Treasury proposes AI incident notification mechanism after talks with China",
-    "source_summary": "The proposed AI incident notification mechanism could foster transparency and cooperation, potentially easing geopolitical tensions and enhancing global AI governance. The post US Treasury proposes AI incident notification mechanism after talks with China appeared first on Crypto Briefing .",
-    "drafted_at": "2026-09-21T02:08:47.917325",
+    "source_url": "https://cryptobriefing.com/trump-likely-to-meet-irans-president-in-new-york-during-un-assembly/",
+    "source_title": "Trump likely to meet Iran\u2019s President in New York during UN assembly",
+    "source_summary": "A potential Trump-Iran meeting in New York could reshape diplomatic dynamics, influencing global market perceptions and future negotiation venues. The post Trump likely to meet Iran\u2019s President in New York during UN assembly appeared first on Crypto Briefing .",
+    "drafted_at": "2026-09-21T08:19:20.203057",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "53ba1e2875b50803"
+    "content_hash": "2984a70990fad309"
   },
   {
-    "id": "8be13f32",
+    "id": "7b591cbe",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Mainland wire: The PBOC's liquidity measures highlight its strategic focus on stability, using precise tools to manage market fluctuations without broad easing.\n\nThe post People\u2019s Bank of China injects 165B yuan through reverse repos to steady markets appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/pboc-injects-165b-yuan-reverse-repos/",
+    "draft_text": "Mainland wire: Bessent met with Chinese Vice Premier He Lifeng in New York on Sunday ahead of President Xi Jinping\u2019s visit to the U.S. later this week.\n\nhttps://www.forbes.com/sites/siladityaray/2026/09/21/bessent-touts-ai-dialogue-with-china-and-notification-mechanism-for-incidents/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/pboc-injects-165b-yuan-reverse-repos/",
-    "source_title": "People\u2019s Bank of China injects 165B yuan through reverse repos to steady markets",
-    "source_summary": "The PBOC's liquidity measures highlight its strategic focus on stability, using precise tools to manage market fluctuations without broad easing. The post People\u2019s Bank of China injects 165B yuan through reverse repos to steady markets appeared first on Crypto Briefing .",
-    "drafted_at": "2026-09-21T02:08:47.917575",
+    "primary_source": "FORBES",
+    "source_url": "https://www.forbes.com/sites/siladityaray/2026/09/21/bessent-touts-ai-dialogue-with-china-and-notification-mechanism-for-incidents/",
+    "source_title": "Bessent Touts AI Dialogue With China And \u2018Notification Mechanism\u2019 For Incidents",
+    "source_summary": "Bessent met with Chinese Vice Premier He Lifeng in New York on Sunday ahead of President Xi Jinping\u2019s visit to the U.S. later this week.",
+    "drafted_at": "2026-09-21T08:19:20.203250",
     "data": {
-      "source": "CRYPTO BRIEFING"
+      "source": "FORBES"
     },
-    "content_hash": "3789fa7566530d14"
+    "content_hash": "ac56972ab9d91049"
   },
   {
-    "id": "69b8c616",
+    "id": "79d3091a",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "GROWTH POSTCARD: Warsaw needs to justify the 4.8 percent of GDP being spent on war racket, but how far do some Cold War warriors want to go?\n\nhttps://www.nakedcapitalism.com/2026/09/polands-ruling-liberals-appear-to-be-plotting-a-major-escalation-against-russia.html",
@@ -553,14 +572,14 @@
     "source_url": "https://www.nakedcapitalism.com/2026/09/polands-ruling-liberals-appear-to-be-plotting-a-major-escalation-against-russia.html",
     "source_title": "Poland\u2019s Ruling Liberals Appear To Be Plotting A Major Escalation Against Russia",
     "source_summary": "Warsaw needs to justify the 4.8 percent of GDP being spent on war racket, but how far do some Cold War warriors want to go?",
-    "drafted_at": "2026-09-21T02:08:47.952628",
+    "drafted_at": "2026-09-21T08:19:20.242161",
     "data": {
       "source": "NAKED CAPITAL"
     },
     "content_hash": "567564cbb1582c5f"
   },
   {
-    "id": "8ca772f4",
+    "id": "3eb7714c",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "CPI POSTCARD: US industrial production 0.0% versus 0.3% expected Kansas City Fed's Schmid: recent data suggest inflation trending above 3% Japan conducted an FX rate check earlier - report How have interest rate expectations changed after this week's events?\n\nMarkets: Gold up $41 to $4381 US 10-year yields up 6 bps to 5.01% WTI crude oil down $1.66 to $95.56 AUD leads, JPY lags US stocks finish flat Bitcoin up 6% The newsflow was fairly light in North America but the market moves weren't.\n\nEyes remained on bonds in the aftermath of the FOMC decision and the tug-of-war continued, this time pushing yields back close to 19-year highs.\n\nThe front end stepped up again, with 2s to 4.75%, the highest since 2024 and close enough to 10s to start thinking about yield curve inversion if the Fed meets the 2-3 further rate hikes priced in.\n\nThe pressure on the short end helped to lift USD/JPY but that ran into trouble at a high of 158.05.\n\nThat's when the BOJ did a rate check, according to a Nikkei report.\n\nThe BOJ hiked rates earlier but the 7-2 vote suggested it might be done sooner rather than later.\n\nWith that Japanese stock markets put in a strong day as well.\n\nhttps://investinglive.com/news/investinglive-americas-market-news-wrap-bonds-slump-again-yen-rate-check-adds-intrigue-after-boj/",
@@ -570,65 +589,14 @@
     "source_url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-bonds-slump-again-yen-rate-check-adds-intrigue-after-boj/",
     "source_title": "investingLive Americas market news wrap: Bonds slump again, yen rate check adds intrigue after BOJ",
     "source_summary": "US industrial production 0.0% versus 0.3% expected Kansas City Fed's Schmid: recent data suggest inflation trending above 3% Japan conducted an FX rate check earlier - report How have interest rate expectations changed after this week's events? Markets: Gold up $41 to $4381 US 10-year yields up 6 bps to 5.01% WTI crude oil down $1.66 to $95.56 AUD leads, JPY lags US stocks finish flat Bitcoin up 6",
-    "drafted_at": "2026-09-21T02:08:47.953454",
+    "drafted_at": "2026-09-21T08:19:20.242985",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "abba261de0c14a11"
   },
   {
-    "id": "f02ceb3e",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "How sticky is inflation? Let's see: Prior month 0.2% US August industrial production and capacity utilization data: Industrial production MoM: 0.0% vs +0.3% expected.\n\nPrior +0.2% Manufacturing output MoM: -0.3% vs +0.3% expected.\n\nPrior +0.2% Capacity utilization: 76.3% vs 76.4% expected.\n\nPrior 76.3% US industrial activity was weaker than expected in August.\n\nOverall production was unchanged, missing expectations for a 0.3% increase, while manufacturing output fell 0.3% against expectations for a 0.3% gain.\n\nThe manufacturing figure is the softest part of the report.\n\nThe 0.6-percentage-point miss suggests factory activity lost momentum during the month.\n\nCapacity utilization held at 76.3%, just below the estimate and unchanged from July.\n\nhttps://investinglive.com/news/us-industrial-production-0-0-versus-0-3-expected/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/us-industrial-production-0-0-versus-0-3-expected/",
-    "source_title": "US industrial production 0.0% versus 0.3% expected",
-    "source_summary": "Prior month 0.2% US August industrial production and capacity utilization data: Industrial production MoM: 0.0% vs +0.3% expected. Prior +0.2% Manufacturing output MoM: -0.3% vs +0.3% expected. Prior +0.2% Capacity utilization: 76.3% vs 76.4% expected. Prior 76.3% US industrial activity was weaker than expected in August. Overall production was unchanged, missing expectations for a 0.3% increase, ",
-    "drafted_at": "2026-09-21T02:08:47.954516",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "4b5d87d09fbd986e"
-  },
-  {
-    "id": "91deceb7",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "CPI POSTCARD: Headlines: USD/JPY jumps to 157 after BOJ rate hike as dovish dissents weigh on yen BOJ governor Ueda says will continue to tighten policy in response to economic, price developments BOJ governor Ueda says spring wage talks key to judging inflation trend ECB president Lagarde pushes back on automatic rate hikes as energy prices cloud outlook Gold price claws back toward $4,400 after dodging a deeper technical breakdown - what's next?\n\nSilver soars by more than 7% as the Fed's dot plot shows low appetite for rate hikes Ethereum is approaching the key $2,560 resistance again: Will it finally break out of the range?\n\nThis simple ETH technical analysis today shows bulls are still good UK retail sales unexpectedly rise in August, backed by recovery in department stores, non-store retailers Market update: AUD leads, JPY lags on the day Brent crude -1.3% to $103.37 WTI crude -0.5% to $101.35 Gold +0.9% to $4,378 10-year Treasury yields +1.6 bps to 4.963% European equities lower; S&P 500 futures +0.1% Bitcoin +2.0% to $78,029 The main event today was the BOJ policy decision, and the Japanese central bank delivered a 25 bps rate hike as expected by markets.\n\nThat brought the policy rate to 1.25%, its highest in 31 years.\n\nWhile the BOJ did signal that it will stay on course to tighten policy further, there was nothing in the language to suggest a quicker pace than before.\n\nBOJ governor Ueda's press conference also fell short in that regard.\n\nAnd that disappointed markets alongside the two dovish dissents from prime minister Takaichi's appointed board members.\n\nUSD/JPY moved up initially in Asia to 157.10 before falling back to 156.60 during Ueda's press conference but then raced higher to test the 158.00 level afterwards.\n\nhttps://investinglive.com/news/investinglive-european-session-wrap-yen-slides-after-boj-hike-as-markets-stay-on-edge/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/investinglive-european-session-wrap-yen-slides-after-boj-hike-as-markets-stay-on-edge/",
-    "source_title": "investingLive European session wrap: Yen slides after BOJ hike as markets stay on edge",
-    "source_summary": "Headlines: USD/JPY jumps to 157 after BOJ rate hike as dovish dissents weigh on yen BOJ governor Ueda says will continue to tighten policy in response to economic, price developments BOJ governor Ueda says spring wage talks key to judging inflation trend ECB president Lagarde pushes back on automatic rate hikes as energy prices cloud outlook Gold price claws back toward $4,400 after dodging a deep",
-    "drafted_at": "2026-09-21T02:08:47.955754",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "0bc1fa4dfffe194c"
-  },
-  {
-    "id": "b64168d3",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "INFLATION READ: EUROPEAN SESSION In the European session, we don't have much on the agenda other than a couple of low-tier releases like the Eurozone current account and Italian construction output.\n\nThe data won't change anything for the ECB, so the market reaction will likely be muted.\n\nAMERICAN SESSION In the American session, we get the US industrial production data but it's not going to change anything for the Fed, so the market reaction is going to be muted.\n\nThe focus now is on the Middle East, with Trump planning a meeting with Gulf leaders on the sidelines of the UN General Assembly in New York next Tuesday to discuss the next steps in the war with Iran.\n\nNotably, the Iranian delegation will be allowed to participate.\n\nAmid the Saudi Arabia and Houthis attacks and the disruptions in the Strait of Hormuz, there have been promising signs of de-escalation efforts being set in motion.\n\nSuch an outcome would send oil prices much lower, easing inflation and rate hikes concerns and improving significantly risk sentiment.\n\nCENTRAL BANK SPEAKERS 13:30 GMT/09:30 ET - Fed's Bowman (dovish - voter) 15:45 GMT/11:45 ET - Fed's Schmid (hawkish - non voter) This article was written by Giuseppe Dellamotta at investinglive.com.\n\nhttps://investinglive.com/news/what-are-the-main-events-for-today-45/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/what-are-the-main-events-for-today-45/",
-    "source_title": "What are the main events for today?",
-    "source_summary": "EUROPEAN SESSION In the European session, we don't have much on the agenda other than a couple of low-tier releases like the Eurozone current account and Italian construction output. The data won't change anything for the ECB, so the market reaction will likely be muted. AMERICAN SESSION In the American session, we get the US industrial production data but it's not going to change anything for the",
-    "drafted_at": "2026-09-21T02:08:47.956494",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "541d119e4c32f09b"
-  },
-  {
-    "id": "5bc5d1b4",
+    "id": "f8b499f2",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -638,7 +606,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-09-21T02:08:47.957503",
+    "drafted_at": "2026-09-21T08:19:20.243913",
     "data": {
       "manual": true,
       "via": "manual_news.md"

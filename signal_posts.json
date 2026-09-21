@@ -54,5 +54,33 @@
     "badge": "+5.2%",
     "data_url": "https://finance.yahoo.com/quote/BTC-USD",
     "fired_at": "2026-09-21T02:08:45.036578"
+  },
+  "^VIX:move:2026-09-21": {
+    "headline": "VIX drops 5.9% in 5 sessions to 14.91",
+    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "source": "CBOE \u00b7 ^VIX",
+    "chart_path": null,
+    "signal_id": "^VIX:move:2026-09-21",
+    "current_str": "14.91",
+    "label": "VIX (S&P 500 volatility)",
+    "hashtags": "#VIX #Volatility #Markets",
+    "kind": "move_down",
+    "badge": "-5.9%",
+    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "fired_at": "2026-09-21T08:19:17.325362"
+  },
+  "CL=F:move:2026-09-21": {
+    "headline": "WTI crude drops 5.8% in 5 sessions to $94.22",
+    "matters": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "source": "NYMEX \u00b7 CL=F",
+    "chart_path": null,
+    "signal_id": "CL=F:move:2026-09-21",
+    "current_str": "$94.22",
+    "label": "WTI crude oil futures",
+    "hashtags": "#Oil #WTI #Energy #Commodities",
+    "kind": "move_down",
+    "badge": "-5.8%",
+    "data_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "fired_at": "2026-09-21T08:19:17.325362"
   }
 }
