@@ -1,23 +1,61 @@
 [
   {
-    "id": "3fb7f762",
+    "id": "e85b81eb",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "Gold price (XAU/USD) declines to near $4,365, snapping the two-day winning streak during the early Asian session on Tuesday.\n\nThe precious metal loses ground on the prospect of further monetary tightening by the US Federal Reserve (Fed).\n\nTraders will keep an eye on the Fedspeak later on Tuesday.\n\nhttps://www.fxstreet.com/news/gold-declines-to-near-4-350-on-rising-odds-of-fed-rate-hike-202609212317",
+    "draft_text": "Silver price (XAG/USD) inches lower after opening at a bullish gap, trading around $66.00 per troy ounce during Asian hours on Tuesday.\n\nhttps://www.fxstreet.com/news/silver-price-forecast-xag-usd-holds-losses-near-6600-amid-fed-rate-hike-bets-202609220525",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/gold-declines-to-near-4-350-on-rising-odds-of-fed-rate-hike-202609212317",
-    "source_title": "Gold declines to near $4,350 on rising odds of Fed rate hike",
-    "source_summary": "Gold price (XAU/USD) declines to near $4,365, snapping the two-day winning streak during the early Asian session on Tuesday. The precious metal loses ground on the prospect of further monetary tightening by the US Federal Reserve (Fed). Traders will keep an eye on the Fedspeak later on Tuesday.",
-    "drafted_at": "2026-09-22T00:21:35.855767",
+    "source_url": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-holds-losses-near-6600-amid-fed-rate-hike-bets-202609220525",
+    "source_title": "Silver Price Forecast: XAG/USD holds losses near $66.00 amid Fed rate hike bets",
+    "source_summary": "Silver price (XAG/USD) inches lower after opening at a bullish gap, trading around $66.00 per troy ounce during Asian hours on Tuesday.",
+    "drafted_at": "2026-09-22T05:34:18.141177",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "934cacd7c001db42"
+    "content_hash": "e629112a571a41dd"
   },
   {
-    "id": "5853a33f",
+    "id": "70c67508",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Whatever you're doing, stop and read this. VIX drops 6.1% in 5 sessions to 14.87.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CBOE \u00b7 ^VIX",
+    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "source_title": "VIX (S&P 500 volatility)",
+    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "drafted_at": "2026-09-22T05:34:18.141522",
+    "data": {
+      "signal_id": "^VIX:move:2026-09-21",
+      "kind": "move_down",
+      "current": "14.87"
+    },
+    "content_hash": "995f4d67e7e875d2"
+  },
+  {
+    "id": "7a510ccc",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "I don't say this often, but pay attention: WTI crude drops 6.7% in 5 sessions to $93.39.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NYMEX \u00b7 CL=F",
+    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "source_title": "WTI crude oil futures",
+    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "drafted_at": "2026-09-22T05:34:18.141775",
+    "data": {
+      "signal_id": "CL=F:move:2026-09-22",
+      "kind": "move_down",
+      "current": "$93.39"
+    },
+    "content_hash": "c272de0720a2f459"
+  },
+  {
+    "id": "6df74783",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Caught a move. Bitcoin surges 11.8% in 5 sessions to $86,367.\n\nBitcoin is now treated as a macro asset alongside gold and tech.\n\nIts swings move alt-coins, public miners, and crypto-exposed stocks.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/BTC-USD",
@@ -27,7 +65,7 @@
     "source_url": "https://finance.yahoo.com/quote/BTC-USD",
     "source_title": "Bitcoin",
     "source_summary": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
-    "drafted_at": "2026-09-22T00:21:35.856086",
+    "drafted_at": "2026-09-22T05:34:18.142095",
     "data": {
       "signal_id": "BTC-USD:move:2026-09-22",
       "kind": "move_up",
@@ -36,7 +74,7 @@
     "content_hash": "0e3396ceb3da7211"
   },
   {
-    "id": "18fbb33e",
+    "id": "d69eda9e",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Heads up, pack. Bitcoin surges 12.0% in 5 sessions to $86,412.\n\nBitcoin is now treated as a macro asset alongside gold and tech.\n\nIts swings move alt-coins, public miners, and crypto-exposed stocks.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/BTC-USD",
@@ -46,7 +84,7 @@
     "source_url": "https://finance.yahoo.com/quote/BTC-USD",
     "source_title": "Bitcoin",
     "source_summary": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
-    "drafted_at": "2026-09-22T00:21:35.856350",
+    "drafted_at": "2026-09-22T05:34:18.142357",
     "data": {
       "signal_id": "BTC-USD:move:2026-09-21",
       "kind": "move_up",
@@ -55,7 +93,7 @@
     "content_hash": "0e3396ceb3da7211"
   },
   {
-    "id": "0b66ac49",
+    "id": "b98d5978",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Eyes up. Nasdaq just hit 27,122.09 \u2014 highest in 9+ years.\n\nTech-heavy index.\n\nLeads risk appetite and is most sensitive to rate moves.\n\nMulti-year high. The pack remembers what comes after these.\n\nhttps://finance.yahoo.com/quote/%5EIXIC",
@@ -65,7 +103,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EIXIC",
     "source_title": "Nasdaq Composite",
     "source_summary": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
-    "drafted_at": "2026-09-22T00:21:35.856594",
+    "drafted_at": "2026-09-22T05:34:18.142556",
     "data": {
       "signal_id": "^IXIC:high:2026-09-21",
       "kind": "high",
@@ -74,96 +112,24 @@
     "content_hash": "ce08e8b71b40219b"
   },
   {
-    "id": "920d7ea1",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "Whatever you're doing, stop and read this. VIX drops 5.9% in 5 sessions to 14.91.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CBOE \u00b7 ^VIX",
-    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "source_title": "VIX (S&P 500 volatility)",
-    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-09-22T00:21:35.856837",
-    "data": {
-      "signal_id": "^VIX:move:2026-09-21",
-      "kind": "move_down",
-      "current": "14.91"
-    },
-    "content_hash": "995f4d67e7e875d2"
-  },
-  {
-    "id": "f5361bb8",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "You blink, you miss this: WTI crude drops 5.8% in 5 sessions to $94.22.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "NYMEX \u00b7 CL=F",
-    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
-    "source_title": "WTI crude oil futures",
-    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-09-22T00:21:35.857067",
-    "data": {
-      "signal_id": "CL=F:move:2026-09-21",
-      "kind": "move_down",
-      "current": "$94.22"
-    },
-    "content_hash": "c272de0720a2f459"
-  },
-  {
-    "id": "9dc65141",
+    "id": "57f192ab",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "The Fed just spoke. Here's what matters: The Aussie Dollar holds firm versus the Greenback at the start of the week, hovering near 0.7119 as risk appetite remains positive despite Fed officials turning more hawkish than expected, ahead of the Trump-Xi summit in the US, later this week.\n\nhttps://www.fxstreet.com/news/australian-dollar-holds-its-nerve-as-fed-hawks-meet-rba-hike-bets-202609212339",
+    "draft_text": "RATE-PATH READ: Silver price (XAG/USD) inches lower after opening at a bullish gap, trading around $66.00 per troy ounce during Asian hours on Tuesday.\n\nhttps://www.fxstreet.com/news/silver-price-forecast-xag-usd-holds-losses-near-6600-amid-fed-rate-hike-bets-202609220525",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "Fed",
-    "source_url": "https://www.fxstreet.com/news/australian-dollar-holds-its-nerve-as-fed-hawks-meet-rba-hike-bets-202609212339",
-    "source_title": "Australian Dollar holds its nerve as Fed hawks meet RBA hike bets",
-    "source_summary": "The Aussie Dollar holds firm versus the Greenback at the start of the week, hovering near 0.7119 as risk appetite remains positive despite Fed officials turning more hawkish than expected, ahead of the Trump-Xi summit in the US, later this week.",
-    "drafted_at": "2026-09-22T00:21:35.868134",
+    "source_url": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-holds-losses-near-6600-amid-fed-rate-hike-bets-202609220525",
+    "source_title": "Silver Price Forecast: XAG/USD holds losses near $66.00 amid Fed rate hike bets",
+    "source_summary": "Silver price (XAG/USD) inches lower after opening at a bullish gap, trading around $66.00 per troy ounce during Asian hours on Tuesday.",
+    "drafted_at": "2026-09-22T05:34:18.153900",
     "data": {
       "actor": "Fed"
     },
-    "content_hash": "2726319ae0057646"
+    "content_hash": "e629112a571a41dd"
   },
   {
-    "id": "4cf45069",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "If you trade rates, read this: Gold price (XAU/USD) declines to near $4,365, snapping the two-day winning streak during the early Asian session on Tuesday.\n\nThe precious metal loses ground on the prospect of further monetary tightening by the US Federal Reserve (Fed).\n\nTraders will keep an eye on the Fedspeak later on Tuesday.\n\nhttps://www.fxstreet.com/news/gold-declines-to-near-4-350-on-rising-odds-of-fed-rate-hike-202609212317",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://www.fxstreet.com/news/gold-declines-to-near-4-350-on-rising-odds-of-fed-rate-hike-202609212317",
-    "source_title": "Gold declines to near $4,350 on rising odds of Fed rate hike",
-    "source_summary": "Gold price (XAU/USD) declines to near $4,365, snapping the two-day winning streak during the early Asian session on Tuesday. The precious metal loses ground on the prospect of further monetary tightening by the US Federal Reserve (Fed). Traders will keep an eye on the Fedspeak later on Tuesday.",
-    "drafted_at": "2026-09-22T00:21:35.868557",
-    "data": {
-      "actor": "Fed"
-    },
-    "content_hash": "934cacd7c001db42"
-  },
-  {
-    "id": "879270a6",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "JAPAN POLICY READ: USD/JPY remains under pressure as the Japanese yen strengthens ahead of another potentially important Bank of Japan policy decision.\n\nThe pair has fallen toward the mid-155 region after breaking below key technical levels, while expectations for further Japanese monetary tightening have added to demand for the yen.\n\nThe latest USD/JPY forecast is increasingly centered on The post USD/JPY Forecast: Yen Strength Puts 152 Support in Focus as BoJ Tightening Looms appeared first on BeInCrypto.\n\nhttps://beincrypto.com/usd-jpy-forecast-yen-strength-puts-152-support-in-focus-as-boj-tightening-looms/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "BoJ",
-    "source_url": "https://beincrypto.com/usd-jpy-forecast-yen-strength-puts-152-support-in-focus-as-boj-tightening-looms/",
-    "source_title": "USD/JPY Forecast: Yen Strength Puts 152 Support in Focus as BoJ Tightening Looms",
-    "source_summary": "USD/JPY remains under pressure as the Japanese yen strengthens ahead of another potentially important Bank of Japan policy decision. The pair has fallen toward the mid-155 region after breaking below key technical levels, while expectations for further Japanese monetary tightening have added to demand for the yen. The latest USD/JPY forecast is increasingly centered on The post USD/JPY Forecast: Y",
-    "drafted_at": "2026-09-22T00:21:35.869184",
-    "data": {
-      "actor": "BoJ"
-    },
-    "content_hash": "0f4479c975d4bbb0"
-  },
-  {
-    "id": "08b8091c",
+    "id": "f536a197",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "The Fed just spoke. Here's what matters: The Federal Reserve just raised interest rates this week for the first time this year.\n\nAnd what does it mean for the economy \u2014 and the rest of us?\n\nhttps://www.npr.org/2026/09/19/nx-s1-5969816/federal-reserve-interest-rate-inflation-economy",
@@ -173,14 +139,14 @@
     "source_url": "https://www.npr.org/2026/09/19/nx-s1-5969816/federal-reserve-interest-rate-inflation-economy",
     "source_title": "Ever wonder how the Fed's interest rate actually works? We've got answers",
     "source_summary": "The Federal Reserve just raised interest rates this week for the first time this year. So how does it actually work? And what does it mean for the economy \u2014 and the rest of us? Here are some answers.",
-    "drafted_at": "2026-09-22T00:21:35.869538",
+    "drafted_at": "2026-09-22T05:34:18.154216",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "5bf40335692f4eaf"
   },
   {
-    "id": "72fd6524",
+    "id": "b4dfd9ce",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "If you trade rates, read this: Consent prohibition order against Stephanie K.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
@@ -190,14 +156,88 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
     "source_title": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
     "source_summary": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
-    "drafted_at": "2026-09-22T00:21:35.869850",
+    "drafted_at": "2026-09-22T05:34:18.154521",
     "data": {
       "actor": "FED"
     },
     "content_hash": "140b0fd2a09d0598"
   },
   {
-    "id": "a742c914",
+    "id": "c1d6c658",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "FED WATCH: The Committee decided to raise the target range for the federal funds rate by 1/4 percentage point to 3-3/4 to 4 percent, in support of the Federal Reserve's dual mandate.\n\nJob gains have kept pace with the workforce, and the unemployment rate has changed little.\n\nToday's policy action will support a timelier return to the Committee's 2 percent goal.\n\nThe Committee is continuing its policy of maintaining ample reserves in the banking system.\n\nEconomic activity is expanding at a solid pace.\n\nWhile uncertainty remains elevated owing, in part, to geopolitical developments, domestic spending has been resilient.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+    "source_title": "Federal Reserve issues FOMC statement",
+    "source_summary": "Federal Reserve issues FOMC statement",
+    "drafted_at": "2026-09-22T05:34:18.155384",
+    "data": {
+      "actor": "FED"
+    },
+    "content_hash": "5d2f5ae91098e170"
+  },
+  {
+    "id": "11dfec5a",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "Central bank corner: The proposed guidance reflects the agencies' supervisory experience and lessons learned from examining financial institutions' third-party risk management practices.\n\nThe proposed guidance focuses on a principles-based approach and, as with all supervisory guidance, is non-binding.\n\nWhen finalized, the federal bank regulatory agencies plan to rescind existing third-party risk management guidance and replace it with the finalized guidance to promote consistency and prudent innovation in the banking industry.\n\nComments on the proposed guidance are due 60 days after publication in the Federal Register.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260911a.htm",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260911a.htm",
+    "source_title": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
+    "source_summary": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
+    "drafted_at": "2026-09-22T05:34:18.156512",
+    "data": {
+      "actor": "FED"
+    },
+    "content_hash": "abb2dd8004f9274f"
+  },
+  {
+    "id": "b45793c4",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$LEN \u2014 a company insider bought $212.4M on Sep 17.\n\nLennar Corp /New/. 2,743,529 shares at $77.42.\n\nStock is +0.9% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/LEN_P_20260917.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=LEN",
+    "source_title": "Lennar Corp /New/ (LEN) insider bought $212.4M",
+    "source_summary": "1 insider(s) bought 2,743,529 shares at $77.42 on 2026-09-17.",
+    "drafted_at": "2026-09-22T05:34:18.157894",
+    "data": {
+      "ticker": "LEN",
+      "type": "P",
+      "dollar_value": 212395151.0,
+      "pct_since": 0.8524952609851276
+    },
+    "content_hash": "9800fde3bd3c4c62"
+  },
+  {
+    "id": "63cecaae",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$ENHA \u2014 a company insider bought $7.0M on Sep 17.\n\nEnhanced Group Inc. 6,080,047 shares at $1.15.\n\nStock is +24.3% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/ENHA_P_20260917.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=ENHA",
+    "source_title": "Enhanced Group Inc. (ENHA) insider bought $7.0M",
+    "source_summary": "1 insider(s) bought 6,080,047 shares at $1.15 on 2026-09-17.",
+    "drafted_at": "2026-09-22T05:34:18.158094",
+    "data": {
+      "ticker": "ENHA",
+      "type": "P",
+      "dollar_value": 6992054.0,
+      "pct_since": 24.347821525905452
+    },
+    "content_hash": "4dc99984afc1ac11"
+  },
+  {
+    "id": "941508c8",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$GME \u2014 3 company insiders bought $48.0M on Sep 08.\n\nGamestop Corp. 2,215,935 shares at $21.66.\n\nStock is +4.5% since the purchase. This is a public SEC Form 4 filing.",
@@ -207,7 +247,7 @@
     "source_url": "http://openinsider.com/screener?s=GME",
     "source_title": "Gamestop Corp. (GME) insider bought $48.0M",
     "source_summary": "3 insider(s) bought 2,215,935 shares at $21.66 on 2026-09-08.",
-    "drafted_at": "2026-09-22T00:21:35.873305",
+    "drafted_at": "2026-09-22T05:34:18.158284",
     "data": {
       "ticker": "GME",
       "type": "P",
@@ -217,7 +257,7 @@
     "content_hash": "f1715c781192f6e4"
   },
   {
-    "id": "c08ef7bc",
+    "id": "ff2a5a4b",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$SBLK \u2014 8 company insiders bought $6.9M on Sep 15.\n\nStar Bulk Carriers Corp. 244,800 shares at $28.27.\n\nStock is +14.9% since the purchase. This is a public SEC Form 4 filing.",
@@ -227,7 +267,7 @@
     "source_url": "http://openinsider.com/screener?s=SBLK",
     "source_title": "Star Bulk Carriers Corp. (SBLK) insider bought $6.9M",
     "source_summary": "8 insider(s) bought 244,800 shares at $28.27 on 2026-09-15.",
-    "drafted_at": "2026-09-22T00:21:35.873551",
+    "drafted_at": "2026-09-22T05:34:18.158477",
     "data": {
       "ticker": "SBLK",
       "type": "P",
@@ -237,7 +277,7 @@
     "content_hash": "7e95faa88b944cc9"
   },
   {
-    "id": "98640f01",
+    "id": "f4bbc94d",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$ADC \u2014 2 company insiders bought $4.1M on Sep 16.\n\nAgree Realty Corp. 57,496 shares at $70.88.\n\nStock is -4.0% since the purchase. This is a public SEC Form 4 filing.",
@@ -247,7 +287,7 @@
     "source_url": "http://openinsider.com/screener?s=ADC",
     "source_title": "Agree Realty Corp (ADC) insider bought $4.1M",
     "source_summary": "2 insider(s) bought 57,496 shares at $70.88 on 2026-09-16.",
-    "drafted_at": "2026-09-22T00:21:35.873748",
+    "drafted_at": "2026-09-22T05:34:18.158660",
     "data": {
       "ticker": "ADC",
       "type": "P",
@@ -257,47 +297,7 @@
     "content_hash": "89dafe326accfd4f"
   },
   {
-    "id": "bb7f782d",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$GSAT \u2014 a company insider bought $29.8M on Sep 18.\n\nGlobalstar, Inc. 361,600 shares at $82.52.\n\nStock is +0.6% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/GSAT_P_20260918.png",
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=GSAT",
-    "source_title": "Globalstar, Inc. (GSAT) insider bought $29.8M",
-    "source_summary": "1 insider(s) bought 361,600 shares at $82.52 on 2026-09-18.",
-    "drafted_at": "2026-09-22T00:21:35.873941",
-    "data": {
-      "ticker": "GSAT",
-      "type": "P",
-      "dollar_value": 29839232.0,
-      "pct_since": 0.630151376063194
-    },
-    "content_hash": "80a98f124da3fd4e"
-  },
-  {
-    "id": "ff8ee3f7",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$GME \u2014 a company insider bought $26.4M on Sep 21.\n\nGamestop Corp. 1,150,680 shares at $22.94.\n\nStock is -0.8% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/GME_P_20260921.png",
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=GME",
-    "source_title": "Gamestop Corp. (GME) insider bought $26.4M",
-    "source_summary": "1 insider(s) bought 1,150,680 shares at $22.94 on 2026-09-21.",
-    "drafted_at": "2026-09-22T00:21:35.874141",
-    "data": {
-      "ticker": "GME",
-      "type": "P",
-      "dollar_value": 26393723.0,
-      "pct_since": -0.7846546256240859
-    },
-    "content_hash": "8ba3e474993c8714"
-  },
-  {
-    "id": "4cf8874e",
+    "id": "9082e257",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Questions have swirled about Minnesota Democratic Rep.\n\nIlhan Omar\u2019s past for years, but one reporter from LindellTV finally had the guts to ask her these questions on camera.\n\nAlison Steinberg stopped Omar in a congressional hallway and pressed her on a claim that BlazeTV host Pat Gray\u2019s been waiting for.\n\nhttps://www.theblaze.com/shows/pat-gray-unleashed/reporter-confronts-ilhan-omar-on-marriage-scandal",
@@ -307,31 +307,14 @@
     "source_url": "https://www.theblaze.com/shows/pat-gray-unleashed/reporter-confronts-ilhan-omar-on-marriage-scandal",
     "source_title": "\u2018Did you marry your brother?\u2019 Reporter confronts Ilhan Omar on marriage scandal",
     "source_summary": "Questions have swirled about Minnesota Democratic Rep. Ilhan Omar\u2019s past for years, but one reporter from LindellTV finally had the guts to ask her these questions on camera. Alison Steinberg stopped Omar in a congressional hallway and pressed her on a claim that BlazeTV host Pat Gray\u2019s been waiting for. \u201cI have been waiting for this particular confrontation with Ilhan Omar for a long time. A long",
-    "drafted_at": "2026-09-22T00:21:35.877236",
+    "drafted_at": "2026-09-22T05:34:18.161700",
     "data": {
       "source": "THE BLAZE"
     },
     "content_hash": "d40ba6d0628503ed"
   },
   {
-    "id": "9d9a863d",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "DHS chief Markwayne Mullin has announced that the administration is probing 1,620 cases of voter fraud involving noncitizens casting ballots.\n\nThe post Trump Administration Has Made 151 Voter Fraud Arrests, Investigating 1,620 Additional Cases appeared first on Breitbart.\n\nhttps://www.breitbart.com/politics/2026/09/21/trump-administration-has-made-151-voter-fraud-arrests-investigating-1620-additional-cases/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "BREITBART",
-    "source_url": "https://www.breitbart.com/politics/2026/09/21/trump-administration-has-made-151-voter-fraud-arrests-investigating-1620-additional-cases/",
-    "source_title": "Trump Administration Has Made 151 Voter Fraud Arrests, Investigating 1,620 Additional Cases",
-    "source_summary": "DHS chief Markwayne Mullin has announced that the administration is probing 1,620 cases of voter fraud involving noncitizens casting ballots. The post Trump Administration Has Made 151 Voter Fraud Arrests, Investigating 1,620 Additional Cases appeared first on Breitbart .",
-    "drafted_at": "2026-09-22T00:21:35.877566",
-    "data": {
-      "source": "BREITBART"
-    },
-    "content_hash": "84d41b9a84783187"
-  },
-  {
-    "id": "8d7df76b",
+    "id": "f9821e8f",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Private equity investor Konstantin Sokolov was also appointed to run a government enterprise fund.\n\nhttps://www.icij.org/news/2026/09/trump-administration-gave-firm-with-ties-to-ballroom-donor-the-green-light-to-do-business-with-a-sanctioned-russian-bank/",
@@ -341,14 +324,14 @@
     "source_url": "https://www.icij.org/news/2026/09/trump-administration-gave-firm-with-ties-to-ballroom-donor-the-green-light-to-do-business-with-a-sanctioned-russian-bank/",
     "source_title": "Trump administration gave firm with ties to ballroom donor the green light to do business with a sanctioned Russian bank",
     "source_summary": "Private equity investor Konstantin Sokolov was also appointed to run a government enterprise fund.",
-    "drafted_at": "2026-09-22T00:21:35.877712",
+    "drafted_at": "2026-09-22T05:34:18.161867",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "9eb879568f999db6"
   },
   {
-    "id": "bdfa241c",
+    "id": "0d1b90d9",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The convicted fraudster says his new app would enable women to find love safely.\n\nThe lead trade group for online dating disagrees.\n\nhttps://www.icij.org/news/2026/09/tinder-swindlers-plan-for-a-dating-app-sparks-industry-backlash/",
@@ -358,14 +341,14 @@
     "source_url": "https://www.icij.org/news/2026/09/tinder-swindlers-plan-for-a-dating-app-sparks-industry-backlash/",
     "source_title": "\u2018Tinder Swindler\u2019s\u2019 plan for a dating app sparks industry backlash",
     "source_summary": "The convicted fraudster says his new app would enable women to find love safely. The lead trade group for online dating disagrees.",
-    "drafted_at": "2026-09-22T00:21:35.877886",
+    "drafted_at": "2026-09-22T05:34:18.162043",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "52d6063492b28f18"
   },
   {
-    "id": "62190cd3",
+    "id": "27e011de",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Using software from a company in Israel, scammers reel in gullible investors and steal all their money.\n\nDER SPIEGEL dove deep into this world of greed-fueled criminal networks - and found a hero.\n\nhttps://www.spiegel.de/international/world/online-scams-the-shady-world-of-fraudulent-investment-sites-a-36d59b48-23ea-4ae5-9532-7a6d3fb086d3#ref=rss",
@@ -375,14 +358,31 @@
     "source_url": "https://www.spiegel.de/international/world/online-scams-the-shady-world-of-fraudulent-investment-sites-a-36d59b48-23ea-4ae5-9532-7a6d3fb086d3#ref=rss",
     "source_title": "Online Scams: The Shady World of Fraudulent Investment Sites",
     "source_summary": "Using software from a company in Israel, scammers reel in gullible investors and steal all their money. DER SPIEGEL dove deep into this world of greed-fueled criminal networks - and found a hero.",
-    "drafted_at": "2026-09-22T00:21:35.878121",
+    "drafted_at": "2026-09-22T05:34:18.162271",
     "data": {
       "source": "SPIEGEL"
     },
     "content_hash": "f90d8f417ae73de2"
   },
   {
-    "id": "2e11dd25",
+    "id": "517bdd96",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "ICIJ and its media partners found that Chinese bank ICBC served as a financing hub for infrastructure in the U.K. and Australia, prompting questions about Beijing\u2019s influence over public projects.\n\nhttps://www.icij.org/investigations/china-capital/uk-parliament-debates-infrastructure-security-after-china-capital-revelations/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "ICIJ",
+    "source_url": "https://www.icij.org/investigations/china-capital/uk-parliament-debates-infrastructure-security-after-china-capital-revelations/",
+    "source_title": "UK Parliament debates infrastructure security after China Capital revelations",
+    "source_summary": "ICIJ and its media partners found that Chinese bank ICBC served as a financing hub for infrastructure in the U.K. and Australia, prompting questions about Beijing\u2019s influence over public projects.",
+    "drafted_at": "2026-09-22T05:34:18.162525",
+    "data": {
+      "source": "ICIJ"
+    },
+    "content_hash": "8d49fc78e535215e"
+  },
+  {
+    "id": "e826be5e",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $SPCX this year \u2014 and these filings don't show them selling:\n\n\u2022 Daniel Meuser (R)\n\u2022 Jared Moskowitz (D)\n\u2022 John McGuire (R)\n\u2022 Gilbert Cisneros (D)\n\nLargest disclosed here: Daniel Meuser, $15,001 - $50,000 on Jun 15.\n\nPrice since the first buy in this group: -5.1%.\n\nSTOCK Act disclosures. Public record.",
@@ -392,7 +392,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034774.pdf",
     "source_title": "4 Congress members bought $SPCX",
     "source_summary": "4 politicians bought $SPCX; largest $15,001 - $50,000 by Daniel Meuser.",
-    "drafted_at": "2026-09-22T00:21:35.878948",
+    "drafted_at": "2026-09-22T05:34:18.163099",
     "data": {
       "ticker": "SPCX",
       "member_count": 4,
@@ -401,7 +401,7 @@
     "content_hash": "585711bf88956fa9"
   },
   {
-    "id": "b14c4587",
+    "id": "8cb262a8",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $NVDA this year \u2014 and these filings don't show them selling:\n\n\u2022 Michael Rulli (R)\n\u2022 Cleo Fields (D)\n\u2022 Gilbert Cisneros (D)\n\u2022 John J Mr McGuire (R)\n\nLargest disclosed here: Michael Rulli, $1,001 - $15,000 on Jun 25.\n\nPrice since the first buy in this group: +13.6%.\n\nSTOCK Act disclosures. Public record.",
@@ -411,7 +411,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035147.pdf",
     "source_title": "4 Congress members bought $NVDA",
     "source_summary": "4 politicians bought $NVDA; largest $1,001 - $15,000 by Michael Rulli.",
-    "drafted_at": "2026-09-22T00:21:35.879259",
+    "drafted_at": "2026-09-22T05:34:18.163413",
     "data": {
       "ticker": "NVDA",
       "member_count": 4,
@@ -420,7 +420,7 @@
     "content_hash": "f6cf25ab3c00fb6f"
   },
   {
-    "id": "16b84740",
+    "id": "06c202f5",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $MU this year \u2014 and these filings don't show them selling:\n\n\u2022 Josh Gottheimer (D)\n\u2022 Sheldon Whitehouse (D)\n\u2022 Michael Rulli (R)\n\u2022 Dan Newhouse (R)\n\nLargest disclosed here: Josh Gottheimer, $1,001 - $15,000 on May 21.\n\nPrice since the first buy in this group: +33.3%.\n\nSTOCK Act disclosures. Public record.",
@@ -430,7 +430,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034693.pdf",
     "source_title": "4 Congress members bought $MU",
     "source_summary": "4 politicians bought $MU; largest $1,001 - $15,000 by Josh Gottheimer.",
-    "drafted_at": "2026-09-22T00:21:35.879586",
+    "drafted_at": "2026-09-22T05:34:18.163716",
     "data": {
       "ticker": "MU",
       "member_count": 4,
@@ -439,7 +439,7 @@
     "content_hash": "7c265a3a54605da1"
   },
   {
-    "id": "79c308a0",
+    "id": "80390d89",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 Gilbert Cisneros (D)\n\u2022 Cleo Fields (D)\n\u2022 Jared Moskowitz (D)\n\nLargest disclosed here: Gilbert Cisneros, $50,001 - $100,000 on May 15.\n\nPrice since the first buy in this group: +17.0%.\n\nSTOCK Act disclosures. Public record.",
@@ -449,7 +449,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034713.pdf",
     "source_title": "3 Congress members bought $MSFT",
     "source_summary": "3 politicians bought $MSFT; largest $50,001 - $100,000 by Gilbert Cisneros.",
-    "drafted_at": "2026-09-22T00:21:35.879876",
+    "drafted_at": "2026-09-22T05:34:18.164026",
     "data": {
       "ticker": "MSFT",
       "member_count": 3,
@@ -458,7 +458,7 @@
     "content_hash": "568a39394ccac4dc"
   },
   {
-    "id": "8b156829",
+    "id": "1c383b0b",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $BRK.B this year \u2014 and these filings don't show them selling:\n\n\u2022 Jerry Moran,\n\u2022 Maria Elvira Salazar (R)\n\u2022 Richard Dean Dr McCormick (R)\n\nLargest disclosed here: Jerry Moran,, $15,001 - $50,000 on Jun 23.\n\nPrice since the first buy in this group: +0.0%.\n\nSTOCK Act disclosures. Public record.\n\nhttps://efdsearch.senate.gov/search/view/ptr/cff197e2-b90b-4b53-b97d-eecf226a1980/",
@@ -468,7 +468,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/cff197e2-b90b-4b53-b97d-eecf226a1980/",
     "source_title": "3 Congress members bought $BRK.B",
     "source_summary": "3 politicians bought $BRK.B; largest $15,001 - $50,000 by Jerry Moran,.",
-    "drafted_at": "2026-09-22T00:21:35.880149",
+    "drafted_at": "2026-09-22T05:34:18.164303",
     "data": {
       "ticker": "BRK.B",
       "member_count": 3,
@@ -477,92 +477,109 @@
     "content_hash": "6f888df9bec37d4e"
   },
   {
-    "id": "2c2c2b5a",
+    "id": "cdad3ed6",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "MIDDLE EAST DESK: With 17% of Qatar\u2019s LNG export capacity disabled and Gulf shipments disrupted, buyers arrived at Gastech looking for gas from somewhere else.\n\nOrganizers valued the agreements announced or advanced in Bangkok at an estimated $60 billion, including a 20-year U.S. LNG contract and a 35-year production agreement in the Gulf of Thailand, while proposed projects in Argentina, Timor-Leste and Tanzania drew interest from buyers and investors.\n\nEnergy prices pulled back sharply on Monday, with oil falling below $100 per barrel for the first time in\u2026\n\nhttps://oilprice.com/Energy/Natural-Gas/Qatars-LNG-Loss-Revives-Projects-From-Argentina-to-Timor-Leste.html",
+    "draft_text": "Levant update: Crude oil prices, which had been falling since last week, today reversed course and made gains ahead of a UN General Assembly session that many hope will yield some progress on peace talks between the U.S. and Iran.\n\nAs indicated by the latest oil price move, not everyone shares that hope, with Brent crude trading at 101.69 per barrel at the time of writing, and West Texas Intermediate at $93.38 per barrel.\n\nHowever, some observers see oil\u2019s change of direction differently.\n\n\u201cThe move higher in WTI and the stronger open in Brent have the\u2026\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Reverse-Course-as-Traders-Watch-US-Iran-Diplomacy.html",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "OILPRICE",
-    "source_url": "https://oilprice.com/Energy/Natural-Gas/Qatars-LNG-Loss-Revives-Projects-From-Argentina-to-Timor-Leste.html",
-    "source_title": "Qatar\u2019s LNG Loss Revives Projects From Argentina to Timor-Leste",
-    "source_summary": "With 17% of Qatar\u2019s LNG export capacity disabled and Gulf shipments disrupted, buyers arrived at Gastech looking for gas from somewhere else. Organizers valued the agreements announced or advanced in Bangkok at an estimated $60 billion, including a 20-year U.S. LNG contract and a 35-year production agreement in the Gulf of Thailand, while proposed projects in Argentina, Timor-Leste and Tanzania dr",
-    "drafted_at": "2026-09-22T00:21:35.882339",
+    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Reverse-Course-as-Traders-Watch-US-Iran-Diplomacy.html",
+    "source_title": "Oil Prices Reverse Course as Traders Watch US-Iran Diplomacy",
+    "source_summary": "Crude oil prices, which had been falling since last week, today reversed course and made gains ahead of a UN General Assembly session that many hope will yield some progress on peace talks between the U.S. and Iran. As indicated by the latest oil price move, not everyone shares that hope, with Brent crude trading at 101.69 per barrel at the time of writing, and West Texas Intermediate at $93.38 pe",
+    "drafted_at": "2026-09-22T05:34:18.165767",
     "data": {
       "source": "OILPRICE"
     },
-    "content_hash": "ca66fddafc937fcf"
+    "content_hash": "7648880ee9350544"
   },
   {
-    "id": "fd39ee3b",
+    "id": "a98f66ea",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "World wire: The Macron-Trump talks highlight ongoing diplomatic efforts to mitigate conflict impacts, though a comprehensive ceasefire remains elusive.\n\nThe post Macron and Trump discuss pause on Ukraine-Russia energy strikes appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/macron-and-trump-discuss-pause-on-ukraine-russia-energy-strikes/",
+    "draft_text": "GLOBAL DESK: The escalation in military operations could hinder Ukraine's strategic objectives and alter regional economic and security dynamics.\n\nThe post Russia conducts large-scale strike on Ukrainian targets, says defence ministry appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/russia-conducts-large-scale-strike-on-ukrainian-targets-says-defence-ministry/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/macron-and-trump-discuss-pause-on-ukraine-russia-energy-strikes/",
-    "source_title": "Macron and Trump discuss pause on Ukraine-Russia energy strikes",
-    "source_summary": "The Macron-Trump talks highlight ongoing diplomatic efforts to mitigate conflict impacts, though a comprehensive ceasefire remains elusive. The post Macron and Trump discuss pause on Ukraine-Russia energy strikes appeared first on Crypto Briefing .",
-    "drafted_at": "2026-09-22T00:21:35.882810",
+    "source_url": "https://cryptobriefing.com/russia-conducts-large-scale-strike-on-ukrainian-targets-says-defence-ministry/",
+    "source_title": "Russia conducts large-scale strike on Ukrainian targets, says defence ministry",
+    "source_summary": "The escalation in military operations could hinder Ukraine's strategic objectives and alter regional economic and security dynamics. The post Russia conducts large-scale strike on Ukrainian targets, says defence ministry appeared first on Crypto Briefing .",
+    "drafted_at": "2026-09-22T05:34:18.166409",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "59920f9355239ccb"
+    "content_hash": "c8cf75005fe01291"
   },
   {
-    "id": "51d6af7b",
+    "id": "414f0716",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "MIDDLE EAST DESK: Yemen\u2019s Houthis pushed to seize strategic heights in Yemen on Monday to cut off the Red Sea coast from remaining areas held by Saudi-backed forces, after a report that US President Donald Trump had called off US strikes on the group at the last minute, Reuters reported.\n\nhttps://www.fxstreet.com/news/houthis-push-for-control-of-yemen-highlands-202609212353",
+    "draft_text": "MIDDLE EAST DESK: The EUR/USD pair trades in positive territory around 1.1475 during the early European session on Tuesday.\n\nThe Euro (EUR) edges higher against the US Dollar (USD) amid improved risk sentiment as traders pinned their hopes on US-Iran talks.\n\nhttps://www.fxstreet.com/news/eur-usd-price-forecast-holds-gains-above-11450-but-remains-technically-bearish-below-100-day-sma-202609220505",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/houthis-push-for-control-of-yemen-highlands-202609212353",
-    "source_title": "Houthis push for control of Yemen highlands",
-    "source_summary": "Yemen\u2019s Houthis pushed to seize strategic heights in Yemen on Monday to cut off the Red Sea coast from remaining areas held by Saudi-backed forces, after a report that US President Donald Trump had called off US strikes on the group at the last minute, Reuters reported.",
-    "drafted_at": "2026-09-22T00:21:35.883313",
+    "source_url": "https://www.fxstreet.com/news/eur-usd-price-forecast-holds-gains-above-11450-but-remains-technically-bearish-below-100-day-sma-202609220505",
+    "source_title": "EUR/USD Price Forecast: Holds gains above 1.1450, but remains technically bearish below 100-day SMA",
+    "source_summary": "The EUR/USD pair trades in positive territory around 1.1475 during the early European session on Tuesday. The Euro (EUR) edges higher against the US Dollar (USD) amid improved risk sentiment as traders pinned their hopes on US-Iran talks.",
+    "drafted_at": "2026-09-22T05:34:18.166953",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "def275fa9ab6d808"
+    "content_hash": "5bf27be6e5d8c385"
   },
   {
-    "id": "98bf9cf6",
+    "id": "2605fe77",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From the international wire: The European Central Bank (ECB) Chief Economist Philip Lane stated that the European economy will expand steadily at a moderate pace if the energy shocks ease, according to Le Temps.\n\nhttps://www.fxstreet.com/news/ecbs-lane-says-energy-shock-could-delay-inflations-return-to-2-202609212347",
+    "draft_text": "World wire: Gold prices fell in India on Tuesday, according to data compiled by FXStreet.\n\nhttps://www.fxstreet.com/news/india-gold-price-today-gold-falls-according-to-fxstreet-data-202609220435",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/ecbs-lane-says-energy-shock-could-delay-inflations-return-to-2-202609212347",
-    "source_title": "ECB\u2019s Lane says energy shock could delay inflation\u2019s return to 2%",
-    "source_summary": "The European Central Bank (ECB) Chief Economist Philip Lane stated that the European economy will expand steadily at a moderate pace if the energy shocks ease, according to Le Temps.",
-    "drafted_at": "2026-09-22T00:21:35.883754",
+    "source_url": "https://www.fxstreet.com/news/india-gold-price-today-gold-falls-according-to-fxstreet-data-202609220435",
+    "source_title": "India Gold price today: Gold falls, according to FXStreet data",
+    "source_summary": "Gold prices fell in India on Tuesday, according to data compiled by FXStreet.",
+    "drafted_at": "2026-09-22T05:34:18.167594",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "ae57ea652d1d6837"
+    "content_hash": "1277204d9e581d2e"
   },
   {
-    "id": "d7f951b5",
+    "id": "f902c9d8",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 AMERICAS: Karol G's Tropitour delivers a spectacular experience with fireworks, a giant macaw, and high-energy performances, but its core message lies in the intentional partnerships across the event.\n\nhttps://www.forbes.com/sites/oliviashalhoup/2026/09/21/karol-g-on-why-she-decided-to-partner-with-mexicos-first-maestra-tequilera-on-the-tropitour/",
+    "draft_text": "Levant update: The U.S. fund could shift Gulf energy dynamics, reducing Strait of Hormuz reliance and potentially stabilizing regional tensions with Iran.\n\nThe post US proposes $5B fund to aid Gulf nations\u2019 energy infrastructure rebuilding appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/us-proposes-5b-fund-to-aid-gulf-nations-energy-infrastructure-rebuilding/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FORBES",
-    "source_url": "https://www.forbes.com/sites/oliviashalhoup/2026/09/21/karol-g-on-why-she-decided-to-partner-with-mexicos-first-maestra-tequilera-on-the-tropitour/",
-    "source_title": "Karol G On Why She Decided To Partner With Mexico\u2019s First Maestra Tequilera On The Tropitour",
-    "source_summary": "Karol G's Tropitour delivers a spectacular experience with fireworks, a giant macaw, and high-energy performances, but its core message lies in the intentional partnerships across the event.",
-    "drafted_at": "2026-09-22T00:21:35.884076",
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/us-proposes-5b-fund-to-aid-gulf-nations-energy-infrastructure-rebuilding/",
+    "source_title": "US proposes $5B fund to aid Gulf nations\u2019 energy infrastructure rebuilding",
+    "source_summary": "The U.S. fund could shift Gulf energy dynamics, reducing Strait of Hormuz reliance and potentially stabilizing regional tensions with Iran. The post US proposes $5B fund to aid Gulf nations\u2019 energy infrastructure rebuilding appeared first on Crypto Briefing .",
+    "drafted_at": "2026-09-22T05:34:18.167980",
     "data": {
-      "source": "FORBES"
+      "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "d99e9876b2587cd2"
+    "content_hash": "a001b4b387b1fd0f"
   },
   {
-    "id": "6e8a1370",
+    "id": "9d9929c5",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "From the inflation desk: AARP, the Senior Citizens League and CRFB released estimates after August CPI-W inflation data showed prices up 3.5%.\n\nhttps://nypost.com/2026/09/21/business/social-security-recipients-may-get-bigger-benefit-boost-in-2027/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NY POST",
+    "source_url": "https://nypost.com/2026/09/21/business/social-security-recipients-may-get-bigger-benefit-boost-in-2027/",
+    "source_title": "Social Security recipients may get bigger benefit boost in 2027",
+    "source_summary": "AARP, the Senior Citizens League and CRFB released estimates after August CPI-W inflation data showed prices up 3.5%.",
+    "drafted_at": "2026-09-22T05:34:18.227154",
+    "data": {
+      "source": "NY POST"
+    },
+    "content_hash": "96c1a5e132926c90"
+  },
+  {
+    "id": "99982e44",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "Growth read just printed. A new GAO report puts a price tag on unpaid household labor and shows why family income can look better on paper than it feels in real life.\n\nhttps://fortune.com/2026/09/21/gdp-unpaid-labor-economy-women-men-household-work-productivity-growth/",
@@ -572,14 +589,14 @@
     "source_url": "https://fortune.com/2026/09/21/gdp-unpaid-labor-economy-women-men-household-work-productivity-growth/",
     "source_title": "$6 trillion a year in unpaid labor isn\u2019t counted in GDP. Its absence from official stats distorts how we see growth, living standards and productivity",
     "source_summary": "A new GAO report puts a price tag on unpaid household labor and shows why family income can look better on paper than it feels in real life",
-    "drafted_at": "2026-09-22T00:21:35.939708",
+    "drafted_at": "2026-09-22T05:34:18.227417",
     "data": {
       "source": "FORTUNE"
     },
     "content_hash": "d4225968af0f3bd4"
   },
   {
-    "id": "51c57dc6",
+    "id": "bd13e601",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -589,7 +606,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-09-22T00:21:35.941327",
+    "drafted_at": "2026-09-22T05:34:18.228953",
     "data": {
       "manual": true,
       "via": "manual_news.md"
