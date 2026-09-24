@@ -1,21 +1,4 @@
 {
-  "PRTS_P_2026-09-10": {
-    "ticker": "PRTS",
-    "company": "Carparts.Com, Inc.",
-    "industry": "Auto & Home Supply Stores",
-    "num_insiders": 3,
-    "type": "P",
-    "price": 9.1,
-    "qty": 219823,
-    "dollar_value": 2000649.0,
-    "trade_date": "2026-09-10",
-    "category": "CLUSTER_BUY",
-    "link": "http://openinsider.com/screener?s=PRTS",
-    "post_id": "PRTS_P_2026-09-10",
-    "chart_path": "charts/insider/PRTS_P_20260910.png",
-    "pct_since": -7.857140341957843,
-    "fired_at": "2026-09-22T15:13:55.926247"
-  },
   "CRBG_P_2026-09-18": {
     "ticker": "CRBG",
     "company": "Corebridge Financial, Inc.",
@@ -233,7 +216,7 @@
     "category": "BIG_SALE",
     "link": "http://openinsider.com/screener?s=ETRA",
     "post_id": "ETRA_P_2026-09-21",
-    "chart_path": null,
+    "chart_path": "charts/insider/ETRA_P_20260921.png",
     "pct_since": -15.53333282470703,
     "fired_at": "2026-09-23T23:53:55.310977"
   },
@@ -321,5 +304,22 @@
     "chart_path": "charts/insider/SBLK_P_20260915.png",
     "pct_since": 7.534487508066055,
     "fired_at": "2026-09-24T05:37:55.128175"
+  },
+  "PRTS_P_2026-09-10": {
+    "ticker": "PRTS",
+    "company": "Carparts.Com, Inc.",
+    "industry": "Auto & Home Supply Stores",
+    "num_insiders": 3,
+    "type": "P",
+    "price": 9.1,
+    "qty": 219823,
+    "dollar_value": 2000649.0,
+    "trade_date": "2026-09-10",
+    "category": "CLUSTER_BUY",
+    "link": "http://openinsider.com/screener?s=PRTS",
+    "post_id": "PRTS_P_2026-09-10",
+    "chart_path": "charts/insider/PRTS_P_20260910.png",
+    "pct_since": -9.505498278272018,
+    "fired_at": "2026-09-24T15:35:11.620145"
   }
 }
