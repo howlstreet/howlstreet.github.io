@@ -304,5 +304,51 @@
     "chart_path": "charts/congress/META_cluster.png",
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035147.pdf",
     "fired_at": "2026-09-24T05:37:56.587198"
+  },
+  "congress_MSFT_2026-06-11_3": {
+    "post_id": "congress_MSFT_2026-06-11_3",
+    "ticker": "MSFT",
+    "member_count": 3,
+    "members": [
+      {
+        "name": "Gilbert Cisneros",
+        "party": "D",
+        "chamber": "House",
+        "amount_label": "$15,001 - $50,000",
+        "amount_mid": 32500.5,
+        "tx_date": "2026-07-17",
+        "is_options": false,
+        "link": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf"
+      },
+      {
+        "name": "Cleo Fields",
+        "party": "D",
+        "chamber": "House",
+        "amount_label": "$1,001 - $15,000",
+        "amount_mid": 8000.5,
+        "tx_date": "2026-06-11",
+        "is_options": false,
+        "link": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034800.pdf"
+      },
+      {
+        "name": "Jared Moskowitz",
+        "party": "D",
+        "chamber": "House",
+        "amount_label": "$1,001 - $15,000",
+        "amount_mid": 8000.5,
+        "tx_date": "2026-06-17",
+        "is_options": false,
+        "link": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034963.pdf"
+      }
+    ],
+    "first_buy_date": "2026-06-11",
+    "biggest_name": "Gilbert Cisneros",
+    "biggest_amount": "$15,001 - $50,000",
+    "biggest_date": "2026-07-17",
+    "biggest_is_options": false,
+    "pct_since_first": 27.5631493947029,
+    "chart_path": "charts/congress/MSFT_cluster.png",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf",
+    "fired_at": "2026-09-24T23:58:28.989521"
   }
 }
