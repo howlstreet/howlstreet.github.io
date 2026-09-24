@@ -1,23 +1,42 @@
 [
   {
-    "id": "480d698c",
+    "id": "ab6b2a5d",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "Reuters, citing sources, reports on discussions over a phased arrangement between Washington and Tehran: Gulf states reject Iranian control of the strait.\n\nIran signals flexibility on fees, not on the Strait of Hormuz.\n\nNeither side wants to surrender leverage driving diplomacy.\n\nhttps://investinglive.com/news/us-iran-discussed-phasing-in-a-deal-to-reopen-hormuz-and-end-the-us-blockade/",
+    "draft_text": "Saudi Arabia\u2019s workaround for the Strait of Hormuz now carries a war-risk insurance bill nearly as expensive as sending tankers through Hormuz itself.\n\nQuoted premiums for Saudi-linked tankers calling at the Red Sea port of Yanbu have tripled to around 3% of a vessel\u2019s value from less than 1% in early July, according to Reuters.\n\nAt Saudi ports farther south, including Jizan, quoted premiums can reach 7%.\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Saudi-Oil-Export-Costs-Surge-as-Red-Sea-Risks-Mount.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/us-iran-discussed-phasing-in-a-deal-to-reopen-hormuz-and-end-the-us-blockade/",
-    "source_title": "US/Iran discussed phasing in a deal to reopen Hormuz and end the US blockade",
-    "source_summary": "Reuters, citing sources, reports on discussions over a phased arrangement between Washington and Tehran: Gulf states reject Iranian control of the strait. Iran signals flexibility on fees, not on the Strait of Hormuz. Neither side wants to surrender leverage driving diplomacy. A senior Iranian official said the most plausible way to end the impasse would be a phased arrangement, with Iran allowing",
-    "drafted_at": "2026-09-24T17:47:33.588492",
+    "primary_source": "OILPRICE",
+    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Oil-Export-Costs-Surge-as-Red-Sea-Risks-Mount.html",
+    "source_title": "Saudi Oil Export Costs Surge as Red Sea Risks Mount",
+    "source_summary": "Saudi Arabia\u2019s workaround for the Strait of Hormuz now carries a war-risk insurance bill nearly as expensive as sending tankers through Hormuz itself. Quoted premiums for Saudi-linked tankers calling at the Red Sea port of Yanbu have tripled to around 3% of a vessel\u2019s value from less than 1% in early July, according to Reuters. At Saudi ports farther south, including Jizan, quoted premiums can rea",
+    "drafted_at": "2026-09-24T21:17:40.362735",
     "data": {
-      "source": "FOREXLIVE"
+      "source": "OILPRICE"
     },
-    "content_hash": "791032c2cd775401"
+    "content_hash": "4fd69f4eca60b257"
   },
   {
-    "id": "a70841ef",
+    "id": "0b0a2df9",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Eyes up. Bitcoin jumps 8.0% in 5 sessions to $84,380.\n\nBitcoin is now treated as a macro asset alongside gold and tech.\n\nIts swings move alt-coins, public miners, and crypto-exposed stocks.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/BTC-USD",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Yahoo Finance \u00b7 BTC-USD",
+    "source_url": "https://finance.yahoo.com/quote/BTC-USD",
+    "source_title": "Bitcoin",
+    "source_summary": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
+    "drafted_at": "2026-09-24T21:17:40.363037",
+    "data": {
+      "signal_id": "BTC-USD:move:2026-09-24",
+      "kind": "move_up",
+      "current": "$84,380"
+    },
+    "content_hash": "0e3396ceb3da7211"
+  },
+  {
+    "id": "bad0e6fb",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "If you're not watching this, you're behind. VIX drops 5.6% in 5 sessions to 16.14.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
@@ -27,7 +46,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EVIX",
     "source_title": "VIX (S&P 500 volatility)",
     "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-09-24T17:47:33.588781",
+    "drafted_at": "2026-09-24T21:17:40.363308",
     "data": {
       "signal_id": "^VIX:move:2026-09-24",
       "kind": "move_down",
@@ -36,7 +55,7 @@
     "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "c17c197f",
+    "id": "965f1afc",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Real-time update for the pack: WTI crude slides 9.7% in 5 sessions to $91.59.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
@@ -46,7 +65,7 @@
     "source_url": "https://finance.yahoo.com/quote/CL%3DF",
     "source_title": "WTI crude oil futures",
     "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-09-24T17:47:33.589050",
+    "drafted_at": "2026-09-24T21:17:40.363564",
     "data": {
       "signal_id": "CL=F:move:2026-09-24",
       "kind": "move_down",
@@ -55,45 +74,24 @@
     "content_hash": "c272de0720a2f459"
   },
   {
-    "id": "5b15d8fc",
-    "format": "MARKET_MOVE",
+    "id": "49f0bc57",
+    "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "Eyes up. Bitcoin jumps 8.0% in 5 sessions to $84,454.\n\nBitcoin is now treated as a macro asset alongside gold and tech.\n\nIts swings move alt-coins, public miners, and crypto-exposed stocks.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/BTC-USD",
+    "draft_text": "RATE-PATH READ: The first proposal would require that Board-supervised payment stablecoin issuers fully back their stablecoins with certain permissible reserve assets, such as short-term Treasury bills and certain other high-quality, liquid assets.\n\nThe proposal would also establish standardized capital requirements to address certain credit and operational risks of payment stablecoin activities, as well as risk management standards, in accordance with the law.\n\nSeparately, the proposal would introduce rules for Board-supervised firms that safekeep the assets backing payment stablecoins.\n\nIt would also clarify the permissibility of stablecoin and related activities for Board-supervised banks.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "Yahoo Finance \u00b7 BTC-USD",
-    "source_url": "https://finance.yahoo.com/quote/BTC-USD",
-    "source_title": "Bitcoin",
-    "source_summary": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
-    "drafted_at": "2026-09-24T17:47:33.589324",
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
+    "source_title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
+    "source_summary": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
+    "drafted_at": "2026-09-24T21:17:40.374688",
     "data": {
-      "signal_id": "BTC-USD:move:2026-09-24",
-      "kind": "move_up",
-      "current": "$84,454"
+      "actor": "FED"
     },
-    "content_hash": "0e3396ceb3da7211"
+    "content_hash": "849f3138f022c1f3"
   },
   {
-    "id": "db14f413",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "On the prowl. Bitcoin jumps 9.8% in 5 sessions to $84,362.\n\nBitcoin is now treated as a macro asset alongside gold and tech.\n\nIts swings move alt-coins, public miners, and crypto-exposed stocks.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/BTC-USD",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Yahoo Finance \u00b7 BTC-USD",
-    "source_url": "https://finance.yahoo.com/quote/BTC-USD",
-    "source_title": "Bitcoin",
-    "source_summary": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
-    "drafted_at": "2026-09-24T17:47:33.589580",
-    "data": {
-      "signal_id": "BTC-USD:move:2026-09-23",
-      "kind": "move_up",
-      "current": "$84,362"
-    },
-    "content_hash": "0e3396ceb3da7211"
-  },
-  {
-    "id": "8210965a",
+    "id": "996ef706",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "ECB POSTCARD: The Ring is Euronews\u2019 weekly political showdown, where Europe\u2019s toughest debates meet their boldest voices.\n\nIn each episode, two political heavyweights from across the EU face off to propose a diversity of opinions and spark conversations around the most important issues of EU affairs and the wider European political life.\n\nEuronews Tech Talks goes beyond discussions to explore the impact of new technologies on our lives.\n\nWith explanations, engaging Q&As, and lively conversations, the podcast provides valuable insights into the intersection of technology and society.\n\nEurope's best food experts are joining forces to crack down on fraud.\n\nhttps://www.euronews.com/2026/09/24/ecb-speeches-and-interviews-move-markets-as-much-as-policy-decisions-study-finds",
@@ -103,31 +101,14 @@
     "source_url": "https://www.euronews.com/2026/09/24/ecb-speeches-and-interviews-move-markets-as-much-as-policy-decisions-study-finds",
     "source_title": "ECB speeches and interviews move markets as much as policy decisions, study finds",
     "source_summary": "Markets react not only to ECB policy decisions but also to policymaker speeches and interviews, whose cumulative impact can rival formal announcements, new research finds.",
-    "drafted_at": "2026-09-24T17:47:33.602112",
+    "drafted_at": "2026-09-24T21:17:40.376590",
     "data": {
       "actor": "ECB"
     },
     "content_hash": "c62435844d0898ef"
   },
   {
-    "id": "d9e46ede",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "POWELL POSTCARD: Bitcoin has slipped back below $85,000 after tagging an eight-month high near $87,400 last week, with rising odds of an October Fed hike taking some air out of the rally.\n\nhttps://decrypt.co/379189/bitcoins-breakout-cools-fed-rate-hike-bets-climb",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://decrypt.co/379189/bitcoins-breakout-cools-fed-rate-hike-bets-climb",
-    "source_title": "Bitcoin Breakout Cools as Fed Rate-Hike Bets Climb",
-    "source_summary": "Bitcoin has slipped back below $85,000 after tagging an eight-month high near $87,400 last week, with rising odds of an October Fed hike taking some air out of the rally.",
-    "drafted_at": "2026-09-24T17:47:33.602386",
-    "data": {
-      "actor": "Fed"
-    },
-    "content_hash": "d553023dba8ac751"
-  },
-  {
-    "id": "e14eccd6",
+    "id": "72537730",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "From the Eccles Building: The Board also gave its approval for BancFirst, of Oklahoma City, Oklahoma, to merge with SpiritBank and to establish and operate branches at the locations of SpiritBank.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/orders20260922a.htm",
@@ -137,14 +118,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260922a.htm",
     "source_title": "Federal Reserve Board announces approval of application by BancFirst Corporation",
     "source_summary": "Federal Reserve Board announces approval of application by BancFirst Corporation",
-    "drafted_at": "2026-09-24T17:47:33.602746",
+    "drafted_at": "2026-09-24T21:17:40.376942",
     "data": {
       "actor": "FED"
     },
     "content_hash": "2da92d996fa3b14f"
   },
   {
-    "id": "f8c3a5be",
+    "id": "1d38bf9a",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "If you trade rates, read this: Consent prohibition order against Stephanie K.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
@@ -154,14 +135,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
     "source_title": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
     "source_summary": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
-    "drafted_at": "2026-09-24T17:47:33.602987",
+    "drafted_at": "2026-09-24T21:17:40.377184",
     "data": {
       "actor": "FED"
     },
     "content_hash": "140b0fd2a09d0598"
   },
   {
-    "id": "124b19d5",
+    "id": "80fa5e25",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FED WATCH: The Committee decided to raise the target range for the federal funds rate by 1/4 percentage point to 3-3/4 to 4 percent, in support of the Federal Reserve's dual mandate.\n\nJob gains have kept pace with the workforce, and the unemployment rate has changed little.\n\nToday's policy action will support a timelier return to the Committee's 2 percent goal.\n\nThe Committee is continuing its policy of maintaining ample reserves in the banking system.\n\nEconomic activity is expanding at a solid pace.\n\nWhile uncertainty remains elevated owing, in part, to geopolitical developments, domestic spending has been resilient.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
@@ -171,14 +152,74 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
     "source_title": "Federal Reserve issues FOMC statement",
     "source_summary": "Federal Reserve issues FOMC statement",
-    "drafted_at": "2026-09-24T17:47:33.603949",
+    "drafted_at": "2026-09-24T21:17:40.378118",
     "data": {
       "actor": "FED"
     },
     "content_hash": "5d2f5ae91098e170"
   },
   {
-    "id": "ee486725",
+    "id": "1718c900",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$CRBG \u2014 a company insider bought $10.2M on Sep 22.\n\nCorebridge Financial, Inc. 296,868 shares at $34.31.\n\nStock is -0.6% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/CRBG_P_20260922.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=CRBG",
+    "source_title": "Corebridge Financial, Inc. (CRBG) insider bought $10.2M",
+    "source_summary": "1 insider(s) bought 296,868 shares at $34.31 on 2026-09-22.",
+    "drafted_at": "2026-09-24T21:17:40.378412",
+    "data": {
+      "ticker": "CRBG",
+      "type": "P",
+      "dollar_value": 10185396.0,
+      "pct_since": -0.6412120297642426
+    },
+    "content_hash": "f6ee9c8689c5e600"
+  },
+  {
+    "id": "3009a11a",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$GSHD \u2014 a company insider bought $7.1M on Sep 22.\n\nGoosehead Insurance, Inc. 150,000 shares at $47.32.\n\nStock is -7.8% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/GSHD_P_20260922.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=GSHD",
+    "source_title": "Goosehead Insurance, Inc. (GSHD) insider bought $7.1M",
+    "source_summary": "1 insider(s) bought 150,000 shares at $47.32 on 2026-09-22.",
+    "drafted_at": "2026-09-24T21:17:40.378619",
+    "data": {
+      "ticker": "GSHD",
+      "type": "P",
+      "dollar_value": 7098000.0,
+      "pct_since": -7.755702608032743
+    },
+    "content_hash": "159fbd62e9f997c8"
+  },
+  {
+    "id": "aea15f5a",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$DKS \u2014 6 company insiders bought $5.1M on Sep 23.\n\nDick'S Sporting Goods, Inc. 39,130 shares at $130.05.\n\nStock is +2.5% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/DKS_P_20260923.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=DKS",
+    "source_title": "Dick'S Sporting Goods, Inc. (DKS) insider bought $5.1M",
+    "source_summary": "6 insider(s) bought 39,130 shares at $130.05 on 2026-09-23.",
+    "drafted_at": "2026-09-24T21:17:40.378817",
+    "data": {
+      "ticker": "DKS",
+      "type": "P",
+      "dollar_value": 5088794.0,
+      "pct_since": 2.4605920799692336
+    },
+    "content_hash": "d7b947ea917be344"
+  },
+  {
+    "id": "612796a4",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$NYAX \u2014 a company insider bought $4.6M on Sep 24.\n\nNayax Ltd. 104,511 shares at $44.09.\n\nStock is +2.0% since the purchase. This is a public SEC Form 4 filing.",
@@ -188,7 +229,7 @@
     "source_url": "http://openinsider.com/screener?s=NYAX",
     "source_title": "Nayax Ltd. (NYAX) insider bought $4.6M",
     "source_summary": "1 insider(s) bought 104,511 shares at $44.09 on 2026-09-24.",
-    "drafted_at": "2026-09-24T17:47:33.604279",
+    "drafted_at": "2026-09-24T21:17:40.379002",
     "data": {
       "ticker": "NYAX",
       "type": "P",
@@ -198,7 +239,7 @@
     "content_hash": "281192e1e93caaab"
   },
   {
-    "id": "c03f002b",
+    "id": "16a3ac9a",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$PRTS \u2014 3 company insiders bought $2.0M on Sep 10.\n\nCarparts.Com, Inc. 219,823 shares at $9.10.\n\nStock is -9.5% since the purchase. This is a public SEC Form 4 filing.",
@@ -208,7 +249,7 @@
     "source_url": "http://openinsider.com/screener?s=PRTS",
     "source_title": "Carparts.Com, Inc. (PRTS) insider bought $2.0M",
     "source_summary": "3 insider(s) bought 219,823 shares at $9.10 on 2026-09-10.",
-    "drafted_at": "2026-09-24T17:47:33.604482",
+    "drafted_at": "2026-09-24T21:17:40.379192",
     "data": {
       "ticker": "PRTS",
       "type": "P",
@@ -218,152 +259,92 @@
     "content_hash": "8158a007d0015a80"
   },
   {
-    "id": "bd4020f5",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$CV \u2014 a company insider bought $10.0M on Sep 18.\n\nCapsovision, Inc. 1,757,469 shares at $5.69.\n\nStock is +6.3% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/CV_P_20260918.png",
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=CV",
-    "source_title": "Capsovision, Inc (CV) insider bought $10.0M",
-    "source_summary": "1 insider(s) bought 1,757,469 shares at $5.69 on 2026-09-18.",
-    "drafted_at": "2026-09-24T17:47:33.604673",
-    "data": {
-      "ticker": "CV",
-      "type": "P",
-      "dollar_value": 9999999.0,
-      "pct_since": 6.326892631544164
-    },
-    "content_hash": "17109783534c209a"
-  },
-  {
-    "id": "4c8b0c9c",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$SBLK \u2014 8 company insiders bought $6.9M on Sep 15.\n\nStar Bulk Carriers Corp. 244,800 shares at $28.27.\n\nStock is +7.5% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/SBLK_P_20260915.png",
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=SBLK",
-    "source_title": "Star Bulk Carriers Corp. (SBLK) insider bought $6.9M",
-    "source_summary": "8 insider(s) bought 244,800 shares at $28.27 on 2026-09-15.",
-    "drafted_at": "2026-09-24T17:47:33.604873",
-    "data": {
-      "ticker": "SBLK",
-      "type": "P",
-      "dollar_value": 6920496.0,
-      "pct_since": 7.534487508066055
-    },
-    "content_hash": "7e95faa88b944cc9"
-  },
-  {
-    "id": "32c39c19",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$KBDC \u2014 a company insider bought $1.5M on Sep 22.\n\nKayne Anderson Bdc, Inc. 114,961 shares at $13.09.\n\nStock is -0.1% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/KBDC_P_20260922.png",
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=KBDC",
-    "source_title": "Kayne Anderson Bdc, Inc. (KBDC) insider bought $1.5M",
-    "source_summary": "1 insider(s) bought 114,961 shares at $13.09 on 2026-09-22.",
-    "drafted_at": "2026-09-24T17:47:33.605086",
-    "data": {
-      "ticker": "KBDC",
-      "type": "P",
-      "dollar_value": 1504742.0,
-      "pct_since": -0.07639477688269802
-    },
-    "content_hash": "a172ad7c131f0933"
-  },
-  {
-    "id": "5610ef9e",
+    "id": "60dcbc5d",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "Elaine Luria Is Campaigning on an Insider Trading Ban. She Once Called the Same Idea \u2018Bulls**t.\u2019\n\nhttps://townhall.com/news/dmitri-bolt/2026/09/24/elaine-luria-net-worth-n2683537",
+    "draft_text": "24, 2026 /PRNewswire/ -- Pomerantz LLP announces that a class action lawsuit has been filed against DICK'S Sporting Goods, Inc. (\"Dick's\" or the \"Company\") (NYSE: DKS).\n\nSuch investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, (or...\n\nhttps://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-reminds-investors-with-losses-on-their-investment-in-dicks-sporting-goods-inc-of-class-action-lawsuit-and-upcoming-deadlines--dks-302889682.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "TOWNHALL FIN",
-    "source_url": "https://townhall.com/news/dmitri-bolt/2026/09/24/elaine-luria-net-worth-n2683537",
-    "source_title": "Elaine Luria Is Campaigning on an Insider Trading Ban. She Once Called the Same Idea \u2018Bulls**t.\u2019",
-    "source_summary": "",
-    "drafted_at": "2026-09-24T17:47:33.608024",
+    "primary_source": "PR NEWSWIRE",
+    "source_url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-reminds-investors-with-losses-on-their-investment-in-dicks-sporting-goods-inc-of-class-action-lawsuit-and-upcoming-deadlines--dks-302889682.html",
+    "source_title": "INVESTOR ALERT: Pomerantz Law Firm Reminds Investors with Losses on their Investment in DICK'S Sporting Goods, Inc. of Class Action Lawsuit and Upcoming Deadlines",
+    "source_summary": "NEW YORK, Sept. 24, 2026 /PRNewswire/ -- Pomerantz LLP announces that a class action lawsuit has been filed against DICK'S Sporting Goods, Inc. (\"Dick's\" or the \"Company\") (NYSE: DKS). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, (or...",
+    "drafted_at": "2026-09-24T21:17:40.382664",
     "data": {
-      "source": "TOWNHALL FIN"
+      "source": "PR NEWSWIRE"
     },
-    "content_hash": "b9a6754292791cc4"
+    "content_hash": "3fd7d8b368d47721"
   },
   {
-    "id": "77fda53f",
+    "id": "d1141bf3",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "\u201cI felt like I was talking to a robot,\u201d said one adviser about a client who was ensnared in a romance scam.\n\nhttps://www.marketwatch.com/story/do-this-one-thing-to-help-prevent-your-parents-from-being-scammed-27a0ca4b?mod=mw_rss_topstories",
+    "draft_text": "24, 2026 /PRNewswire/ -- Pomerantz LLP announces that a class action lawsuit has been filed against Hims & Hers Health, Inc. (\"Hims & Hers\" or the \"Company\") (NYSE: HIMS).\n\nSuch investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, (or...\n\nhttps://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-reminds-investors-with-losses-on-their-investment-in-hims--hers-health-inc-of-class-action-lawsuit-and-upcoming-deadlines--hims-302889679.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "MARKETWATCH",
-    "source_url": "https://www.marketwatch.com/story/do-this-one-thing-to-help-prevent-your-parents-from-being-scammed-27a0ca4b?mod=mw_rss_topstories",
-    "source_title": "Do this one thing to help prevent your parents from being scammed",
-    "source_summary": "\u201cI felt like I was talking to a robot,\u201d said one adviser about a client who was ensnared in a romance scam.",
-    "drafted_at": "2026-09-24T17:47:33.608218",
+    "primary_source": "PR NEWSWIRE",
+    "source_url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-reminds-investors-with-losses-on-their-investment-in-hims--hers-health-inc-of-class-action-lawsuit-and-upcoming-deadlines--hims-302889679.html",
+    "source_title": "INVESTOR ALERT: Pomerantz Law Firm Reminds Investors with Losses on their Investment in Hims & Hers Health, Inc. of Class Action Lawsuit and Upcoming Deadlines",
+    "source_summary": "NEW YORK, Sept. 24, 2026 /PRNewswire/ -- Pomerantz LLP announces that a class action lawsuit has been filed against Hims & Hers Health, Inc. (\"Hims & Hers\" or the \"Company\") (NYSE: HIMS). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, (or...",
+    "drafted_at": "2026-09-24T21:17:40.382990",
     "data": {
-      "source": "MARKETWATCH"
+      "source": "PR NEWSWIRE"
     },
-    "content_hash": "cd6b8a0a1b13740c"
+    "content_hash": "7b435b1860cf1fcf"
   },
   {
-    "id": "67bb2117",
+    "id": "3352c168",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "Calls at 9 p.m. from an unknown number annoy everyone, even government officials.\n\nIn fact, the massive fraud being perpetuated against Americans daily is enough to pay for their commute, groceries, or even the very cell phone bill they are being scammed through.\n\n'Twenty-five percent of the younger age group said they have been scammed more than once.' In response to the billions being stolen every year, the Federal Communications Commission is issuing guidance.\n\nhttps://www.theblaze.com/tech/fcc-robo-call-spam-texxt",
+    "draft_text": "24, 2026 /PRNewswire/ -- Pomerantz LLP announces that a class action lawsuit has been filed against York Space Systems, Inc. (\"York\" or the \"Company\") (NYSE: YSS).\n\nSuch investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, (or...\n\nhttps://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-reminds-investors-with-losses-on-their-investment-in-york-space-systems-inc-of-class-action-lawsuit-and-upcoming-deadlines--yss-302889675.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "THE BLAZE",
-    "source_url": "https://www.theblaze.com/tech/fcc-robo-call-spam-texxt",
-    "source_title": "Spam texts and robocalls cost Americans billions \u2014 the biggest victims are not those you suspect",
-    "source_summary": "Calls at 9 p.m. from an unknown number annoy everyone, even government officials. In fact, the massive fraud being perpetuated against Americans daily is enough to pay for their commute, groceries, or even the very cell phone bill they are being scammed through. 'Twenty-five percent of the younger age group said they have been scammed more than once.' In response to the billions being stolen every",
-    "drafted_at": "2026-09-24T17:47:33.609713",
+    "primary_source": "PR NEWSWIRE",
+    "source_url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-reminds-investors-with-losses-on-their-investment-in-york-space-systems-inc-of-class-action-lawsuit-and-upcoming-deadlines--yss-302889675.html",
+    "source_title": "INVESTOR ALERT: Pomerantz Law Firm Reminds Investors with Losses on their Investment in York Space Systems, Inc. of Class Action Lawsuit and Upcoming Deadlines",
+    "source_summary": "NEW YORK, Sept. 24, 2026 /PRNewswire/ -- Pomerantz LLP announces that a class action lawsuit has been filed against York Space Systems, Inc. (\"York\" or the \"Company\") (NYSE: YSS). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, (or...",
+    "drafted_at": "2026-09-24T21:17:40.383317",
     "data": {
-      "source": "THE BLAZE"
+      "source": "PR NEWSWIRE"
     },
-    "content_hash": "016e7eec60145227"
+    "content_hash": "56aa565286a79226"
   },
   {
-    "id": "5e01d2f4",
+    "id": "622d8a8a",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "24 policy update permits identity checks and withdrawals after trading ended, with asset minimums and sanctions rules still in force.\n\nThe post BitMEX opens fund recovery to customers it previously barred from the platform appeared first on CryptoSlate.\n\nhttps://cryptoslate.com/bitmex-opens-fund-recovery-to-customers-it-previously-barred-from-the-platform/",
+    "draft_text": "24, 2026 /PRNewswire/ -- Pomerantz LLP announces that a class action lawsuit has been filed against Innventure, Inc. (\"Innventure\" or the \"Company\") (NASDAQ: INV).\n\nSuch investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, (or...\n\nhttps://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-reminds-investors-with-losses-on-their-investment-in-innventure-inc-of-class-action-lawsuit-and-upcoming-deadlines--inv-302889687.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CRYPTOSLATE",
-    "source_url": "https://cryptoslate.com/bitmex-opens-fund-recovery-to-customers-it-previously-barred-from-the-platform/",
-    "source_title": "BitMEX opens fund recovery to customers it previously barred from the platform",
-    "source_summary": "A Sept. 24 policy update permits identity checks and withdrawals after trading ended, with asset minimums and sanctions rules still in force. The post BitMEX opens fund recovery to customers it previously barred from the platform appeared first on CryptoSlate .",
-    "drafted_at": "2026-09-24T17:47:33.609997",
+    "primary_source": "PR NEWSWIRE",
+    "source_url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-reminds-investors-with-losses-on-their-investment-in-innventure-inc-of-class-action-lawsuit-and-upcoming-deadlines--inv-302889687.html",
+    "source_title": "INVESTOR ALERT: Pomerantz Law Firm Reminds Investors with Losses on their Investment in Innventure, Inc. of Class Action Lawsuit and Upcoming Deadlines",
+    "source_summary": "NEW YORK, Sept. 24, 2026 /PRNewswire/ -- Pomerantz LLP announces that a class action lawsuit has been filed against Innventure, Inc. (\"Innventure\" or the \"Company\") (NASDAQ: INV). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, (or...",
+    "drafted_at": "2026-09-24T21:17:40.383625",
     "data": {
-      "source": "CRYPTOSLATE"
+      "source": "PR NEWSWIRE"
     },
-    "content_hash": "02ea68e938d8e653"
+    "content_hash": "cdd5c84b9f011f9b"
   },
   {
-    "id": "a6b7f6ec",
+    "id": "e2099023",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "ICIJ\u2019s media partners uncovered strategic deals and moves the Chinese bank made around the world to further the political priorities of the party-state.\n\nhttps://www.icij.org/investigations/china-capital/china-capital-stories-reveal-how-icbc-advanced-chinas-political-goals-across-four-continents/",
+    "draft_text": "\"We're in an environment where we all want to be looking to the founders, right?\".\n\nhttps://fortune.com/2026/09/24/over-50-federal-prosecutors-trump-100000-month-insider-trading/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "ICIJ",
-    "source_url": "https://www.icij.org/investigations/china-capital/china-capital-stories-reveal-how-icbc-advanced-chinas-political-goals-across-four-continents/",
-    "source_title": "China Capital stories reveal how ICBC advanced China\u2019s political goals across four continents",
-    "source_summary": "ICIJ\u2019s media partners uncovered strategic deals and moves the Chinese bank made around the world to further the political priorities of the party-state.",
-    "drafted_at": "2026-09-24T17:47:33.610225",
+    "primary_source": "FORTUNE",
+    "source_url": "https://fortune.com/2026/09/24/over-50-federal-prosecutors-trump-100000-month-insider-trading/",
+    "source_title": "\u2018It\u2019s so corrosive to democracy\u2019: Over 50 federal prosecutors speak out against Trump\u2019s $100,000 a month \u2018insider trading\u2019 scheme",
+    "source_summary": "\"We're in an environment where we all want to be looking to the founders, right?\"",
+    "drafted_at": "2026-09-24T21:17:40.383765",
     "data": {
-      "source": "ICIJ"
+      "source": "FORTUNE"
     },
-    "content_hash": "a12b87a5b294d89b"
+    "content_hash": "918c1a86402c5fdb"
   },
   {
-    "id": "97aa116c",
+    "id": "95731641",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $SPCX this year \u2014 and these filings don't show them selling:\n\n\u2022 Daniel Meuser (R)\n\u2022 Jared Moskowitz (D)\n\u2022 John McGuire (R)\n\u2022 Gilbert Cisneros (D)\n\nLargest disclosed here: Daniel Meuser, $15,001 - $50,000 on Jun 15.\n\nPrice since the first buy in this group: -7.8%.\n\nSTOCK Act disclosures. Public record.",
@@ -373,7 +354,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034774.pdf",
     "source_title": "4 Congress members bought $SPCX",
     "source_summary": "4 politicians bought $SPCX; largest $15,001 - $50,000 by Daniel Meuser.",
-    "drafted_at": "2026-09-24T17:47:33.611092",
+    "drafted_at": "2026-09-24T21:17:40.385047",
     "data": {
       "ticker": "SPCX",
       "member_count": 4,
@@ -382,7 +363,7 @@
     "content_hash": "585711bf88956fa9"
   },
   {
-    "id": "346e532f",
+    "id": "0002e6c9",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $NVDA this year \u2014 and these filings don't show them selling:\n\n\u2022 Michael Rulli (R)\n\u2022 Cleo Fields (D)\n\u2022 Gilbert Cisneros (D)\n\u2022 John J Mr McGuire (R)\n\nLargest disclosed here: Michael Rulli, $1,001 - $15,000 on Jun 25.\n\nPrice since the first buy in this group: +15.2%.\n\nSTOCK Act disclosures. Public record.",
@@ -392,7 +373,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035147.pdf",
     "source_title": "4 Congress members bought $NVDA",
     "source_summary": "4 politicians bought $NVDA; largest $1,001 - $15,000 by Michael Rulli.",
-    "drafted_at": "2026-09-24T17:47:33.611392",
+    "drafted_at": "2026-09-24T21:17:40.385389",
     "data": {
       "ticker": "NVDA",
       "member_count": 4,
@@ -401,7 +382,7 @@
     "content_hash": "f6cf25ab3c00fb6f"
   },
   {
-    "id": "86da0166",
+    "id": "b6ad4270",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $MU this year \u2014 and these filings don't show them selling:\n\n\u2022 Josh Gottheimer (D)\n\u2022 Sheldon Whitehouse (D)\n\u2022 Michael Rulli (R)\n\u2022 Dan Newhouse (R)\n\nLargest disclosed here: Josh Gottheimer, $1,001 - $15,000 on May 21.\n\nPrice since the first buy in this group: +40.6%.\n\nSTOCK Act disclosures. Public record.",
@@ -411,7 +392,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034693.pdf",
     "source_title": "4 Congress members bought $MU",
     "source_summary": "4 politicians bought $MU; largest $1,001 - $15,000 by Josh Gottheimer.",
-    "drafted_at": "2026-09-24T17:47:33.611686",
+    "drafted_at": "2026-09-24T21:17:40.385705",
     "data": {
       "ticker": "MU",
       "member_count": 4,
@@ -420,7 +401,7 @@
     "content_hash": "7c265a3a54605da1"
   },
   {
-    "id": "7ff765d9",
+    "id": "d6ee8b49",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 Gilbert Cisneros (D)\n\u2022 Cleo Fields (D)\n\u2022 Jared Moskowitz (D)\n\nLargest disclosed here: Gilbert Cisneros, $50,001 - $100,000 on May 15.\n\nPrice since the first buy in this group: +18.6%.\n\nSTOCK Act disclosures. Public record.",
@@ -430,7 +411,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034713.pdf",
     "source_title": "3 Congress members bought $MSFT",
     "source_summary": "3 politicians bought $MSFT; largest $50,001 - $100,000 by Gilbert Cisneros.",
-    "drafted_at": "2026-09-24T17:47:33.611965",
+    "drafted_at": "2026-09-24T21:17:40.386010",
     "data": {
       "ticker": "MSFT",
       "member_count": 3,
@@ -439,7 +420,7 @@
     "content_hash": "568a39394ccac4dc"
   },
   {
-    "id": "0228a631",
+    "id": "7ca7112e",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $BRK.B this year \u2014 and these filings don't show them selling:\n\n\u2022 Jerry Moran,\n\u2022 Maria Elvira Salazar (R)\n\u2022 Richard Dean Dr McCormick (R)\n\nLargest disclosed here: Jerry Moran,, $15,001 - $50,000 on Jun 23.\n\nPrice since the first buy in this group: +0.0%.\n\nSTOCK Act disclosures. Public record.\n\nhttps://efdsearch.senate.gov/search/view/ptr/cff197e2-b90b-4b53-b97d-eecf226a1980/",
@@ -449,7 +430,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/cff197e2-b90b-4b53-b97d-eecf226a1980/",
     "source_title": "3 Congress members bought $BRK.B",
     "source_summary": "3 politicians bought $BRK.B; largest $15,001 - $50,000 by Jerry Moran,.",
-    "drafted_at": "2026-09-24T17:47:33.612248",
+    "drafted_at": "2026-09-24T21:17:40.386312",
     "data": {
       "ticker": "BRK.B",
       "member_count": 3,
@@ -458,160 +439,109 @@
     "content_hash": "6f888df9bec37d4e"
   },
   {
-    "id": "cd4fc21b",
+    "id": "9be1e3c0",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From the Gulf: Mortgage rates in the United States have surpassed 7% for the first time in nearly two years, as the housing market continues to reel from the ongoing Iran war.\n\nThe average 30-year mortgage rate rose from 6.3% to 7.03% in the span of a year, mortgage-loan company Freddie Mac said Thursday.\n\nhttps://www.washingtonexaminer.com/policy/economy/4741532/mortgage-rates-surpass-7-blow-housing-market/",
+    "draft_text": "CHINA DESK: If you\u2019ve been forwarded this newsletter, you can sign up free here.\n\nConfide in me: Send your tips to this generic inbox, canberraplaybook@poltico.com.\n\nESSENTIALS \u2014 It\u2019s time to sort out human responsibility for AI agents \u2014 China\u2019s record nuclear expansion \u2014 Whyalla steelworks: The distressed plant has repaid more than $5 million in government grants [\u2026]\n\nhttps://www.politico.eu/article/openais-agents-went-rogue-its-human-response-caused-the-real-damage/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "WASH EXAMINER",
-    "source_url": "https://www.washingtonexaminer.com/policy/economy/4741532/mortgage-rates-surpass-7-blow-housing-market/",
-    "source_title": "Mortgage rates surpass 7% in blow to housing market",
-    "source_summary": "Mortgage rates in the United States have surpassed 7% for the first time in nearly two years, as the housing market continues to reel from the ongoing Iran war. The average 30-year mortgage rate rose from 6.3% to 7.03% in the span of a year, mortgage-loan company Freddie Mac said Thursday. The new data marks [\u2026]",
-    "drafted_at": "2026-09-24T17:47:33.614367",
+    "primary_source": "POLITICO EU",
+    "source_url": "https://www.politico.eu/article/openais-agents-went-rogue-its-human-response-caused-the-real-damage/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+    "source_title": "OpenAI\u2019s agents went rogue \u2014 its human response caused the real damage",
+    "source_summary": "If you\u2019ve been forwarded this newsletter, you can sign up free here. Confide in me: Send your tips to this generic inbox, canberraplaybook@poltico.com. ESSENTIALS \u2014 It\u2019s time to sort out human responsibility for AI agents \u2014 China\u2019s record nuclear expansion \u2014 Whyalla steelworks: The distressed plant has repaid more than $5 million in government grants [\u2026]",
+    "drafted_at": "2026-09-24T21:17:40.387585",
     "data": {
-      "source": "WASH EXAMINER"
+      "source": "POLITICO EU"
     },
-    "content_hash": "913294af023a42ac"
+    "content_hash": "1aafdafaa9136f33"
   },
   {
-    "id": "b2320aa7",
+    "id": "9707dbcf",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From the Americas: Charges it promotes pandemic lockdowns that are 'genocide' and protects 'bloodthirsty dictatorships'.\n\nhttps://www.wnd.com/2026/09/watch-argentina-president-blasts-u-n-s-arrogant/",
+    "draft_text": "From the international wire: The request could heighten NATO-Russia tensions, potentially escalating military involvement and impacting geopolitical stability.\n\nThe post Finnish president urges Musk to extend Starlink over Russia for Ukraine aid appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/finnish-president-urges-musk-to-extend-starlink-over-russia-for-ukraine-aid/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "WND",
-    "source_url": "https://www.wnd.com/2026/09/watch-argentina-president-blasts-u-n-s-arrogant/",
-    "source_title": "WATCH: Argentina president blasts U.N.\u2019s \u2018arrogant parasites\u2019 to their face in epic speech",
-    "source_summary": "Charges it promotes pandemic lockdowns that are 'genocide' and protects 'bloodthirsty dictatorships'",
-    "drafted_at": "2026-09-24T17:47:33.614564",
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/finnish-president-urges-musk-to-extend-starlink-over-russia-for-ukraine-aid/",
+    "source_title": "Finnish president urges Musk to extend Starlink over Russia for Ukraine aid",
+    "source_summary": "The request could heighten NATO-Russia tensions, potentially escalating military involvement and impacting geopolitical stability. The post Finnish president urges Musk to extend Starlink over Russia for Ukraine aid appeared first on Crypto Briefing .",
+    "drafted_at": "2026-09-24T21:17:40.388300",
     "data": {
-      "source": "WND"
+      "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "9e070fa474a0be1b"
+    "content_hash": "bd636a65cae026c1"
   },
   {
-    "id": "c06229de",
+    "id": "38a38d01",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "GLOBAL DESK: Vitol has bought at least 25 million barrels of Iraqi crude for September loading, making the world\u2019s largest independent oil trader Iraq\u2019s second-biggest buyer behind ADNOC as Baghdad pays steep discounts to keep barrels moving through the Strait of Hormuz.\n\nIraq\u2019s SOMO offered September crude at discounts of $15 to $20.80 per barrel to its official selling prices, according to a tender document reviewed by Reuters.\n\nTrading sources said some cargoes sold at even larger discounts.\n\nThe discount buys something Iraq badly needs right\u2026\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Vitol-Scoops-Up-25-Million-Barrels-of-Discounted-Iraqi-Crude.html",
+    "draft_text": "From the Gulf: The energy crisis caused by the United States and Israel\u2019s war in Iran could be just what the world needed to achieve 35 percent electrification by 2035.\n\nThis goal, \u201c35 by \u201835\u201d has emerged as a key platform of the upcoming COP31 United Nations climate conference, to be held in Antalya, T\u00fcrkiye, from November 9 to 20, 2026.\n\nAnd\u201d\u2026\n\nhttps://oilprice.com/Energy/Energy-General/Can-the-World-Hit-35-Electrification-by-2035.html",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "OILPRICE",
-    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Vitol-Scoops-Up-25-Million-Barrels-of-Discounted-Iraqi-Crude.html",
-    "source_title": "Vitol Scoops Up 25 Million Barrels of Discounted Iraqi Crude",
-    "source_summary": "Vitol has bought at least 25 million barrels of Iraqi crude for September loading, making the world\u2019s largest independent oil trader Iraq\u2019s second-biggest buyer behind ADNOC as Baghdad pays steep discounts to keep barrels moving through the Strait of Hormuz. Iraq\u2019s SOMO offered September crude at discounts of $15 to $20.80 per barrel to its official selling prices, according to a tender document r",
-    "drafted_at": "2026-09-24T17:47:33.615834",
+    "source_url": "https://oilprice.com/Energy/Energy-General/Can-the-World-Hit-35-Electrification-by-2035.html",
+    "source_title": "Can the World Hit 35% Electrification by 2035?",
+    "source_summary": "The energy crisis caused by the United States and Israel\u2019s war in Iran could be just what the world needed to achieve 35 percent electrification by 2035. This goal, \u201c35 by \u201835\u201d has emerged as a key platform of the upcoming COP31 United Nations climate conference, to be held in Antalya, T\u00fcrkiye, from November 9 to 20, 2026. And experts say that a number of factors, including volatile oil and gas ma",
+    "drafted_at": "2026-09-24T21:17:40.389518",
     "data": {
       "source": "OILPRICE"
     },
-    "content_hash": "db0e63fa569fd102"
+    "content_hash": "c9aad36ff391c77b"
   },
   {
-    "id": "add39ad7",
+    "id": "4b9abbcb",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: Oil prices rose after Saudi Arabia thwarted an attempted Houthi attack on a major export route.\n\nBrent crude increased by 4pc on Thursday to $107.90 a barrel after the country\u2019s military forces intercepted six ballistic missiles fired by Yemen\u2019s Iran-backed militia.\n\nYields on 30-year US Treasury bonds climbed to 5.43pc on Thursday, while the yield on 30-year UK gilts rose to 5.87pc, near its highest level since 1998.\n\nMeanwhile, US private sector activity jumped unexpectedly to a five-year high in September.\n\nThe attack had targeted the Taif and Yanbu area of the Red Sea, the primary alternative export route for crude, with Saudi Arabia\u2019s counterstrike raising hopes the country can keep oil flowing.\n\nhttps://www.telegraph.co.uk/business/2026/09/24/bond-sell-off-oil-prices-us-interest-rates-federal-reserve/",
+    "draft_text": "Mainland wire: A two-month extension avoids a November tariff cliff, but it gives markets no lasting relief, and the January 10 deadline now becomes the next risk event for trade-sensitive assets.\n\nThe Australian dollar, as a liquid proxy for China's growth, is likely to take its lead from progress at the Shenzhen and Miami summits more than from this week's ceremony.\n\nFarm purchases lagging and rare-earth deliveries falling short give Washington grounds to push harder, which keeps risk alive in soybeans and in supply chains that depend on critical minerals.\n\nXi's push for tougher US language on Taiwan adds a geopolitical tail risk that tends to support demand for safe havens if rhetoric escalates. --- Plenty of flyovers and marching bands, not much substance: the trade truce survives for two months, the hard questions roll into January, and Xi's pressure on Taiwan shows how much rivalry still lies under the ceremony.\n\nSummary: The US-China trade truce, due to expire in November, was extended by only two months, to January 10 Tariffs, Chinese purchases, rare earths and tech restrictions remain unresolved China is meeting its soybean commitment but lagging on $17 billion of other farm purchases, and rare-earth deliveries are also falling short Xi urged prudence on Taiwan and wants the US to oppose independence, which would be a tougher line than current US policy Xi raised the Thucydides Trap but said the risk could be overcome, calling for regular military dialogue Summits in Shenzhen and Miami before year-end offer further chances for a lasting deal US President Donald Trump and Chinese President Xi Jinping ended an elaborate state visit to Washington on Thursday with only a two-month extension to their trade truce, Reuters reported.\n\nTariffs, Chinese purchases, rare earths and technology curbs were left for later rounds of talks.\n\nTrade and artificial intelligence were on the agenda, but the deepening strategic rivalry between the two powers hung over the summit.\n\nUS Treasury Secretary Scott Bessent said the truce, which had been due to expire in November, now runs to January 10, giving both sides more time to work on the economic relationship.\n\nhttps://investinglive.com/news/trump-and-xi-buy-two-more-months-of-trade-truce-leaving-tariffs-and-rare-earths-in-limbo/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "TELEGRAPH",
-    "source_url": "https://www.telegraph.co.uk/business/2026/09/24/bond-sell-off-oil-prices-us-interest-rates-federal-reserve/",
-    "source_title": "Oil jumps after Saudi thwarts missile attack",
-    "source_summary": "Oil jumps after Saudi thwarts missile attack",
-    "drafted_at": "2026-09-24T17:47:33.618288",
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/trump-and-xi-buy-two-more-months-of-trade-truce-leaving-tariffs-and-rare-earths-in-limbo/",
+    "source_title": "Trump and Xi buy two more months of trade truce, leaving tariffs and rare earths in limbo",
+    "source_summary": "A two-month extension avoids a November tariff cliff, but it gives markets no lasting relief, and the January 10 deadline now becomes the next risk event for trade-sensitive assets. The Australian dollar , as a liquid proxy for China's growth, is likely to take its lead from progress at the Shenzhen and Miami summits more than from this week's ceremony. Farm purchases lagging and rare-earth delive",
+    "drafted_at": "2026-09-24T21:17:40.393044",
     "data": {
-      "source": "TELEGRAPH"
+      "source": "FOREXLIVE"
     },
-    "content_hash": "590c7f59eb1675f0"
+    "content_hash": "67814c5699c75991"
   },
   {
-    "id": "2c1ebc7d",
+    "id": "aa69df07",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Gulf wire: It was just this month that saw the Iran conflict spill over into a renewed fight between the Saudi coalition and Yemen's Houthi rebels.\n\nNow Iran is threatening to expand the fight further, even into the Indian Ocean.\n\nYahya Rahim Safavi, an adviser to Iran\u2019s Supreme Leader Mojtaba Khamenei, warned Thursday of another significant expansion of the war if the Islamic Republic suffers an attack again.\n\n\"Since the conflict has spread from the Persian Gulf and Strait of Hormuz to the Red Sea, it is possible that, in response to more war, the front\u2026\n\nhttps://oilprice.com/Energy/Energy-General/Iran-Warns-US-Strikes-Could-Push-War-Into-Indian-Ocean.html",
+    "draft_text": "From Brussels and beyond: Trump's threat to cut diesel exports could strain EU energy security, heightening market volatility and impacting transatlantic relations.\n\nThe post Trump threatens to cut off US diesel supplies to Europe amid tariff tensions appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/trump-threatens-to-cut-off-us-diesel-supplies-to-europe-amid-tariff-tensions/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "OILPRICE",
-    "source_url": "https://oilprice.com/Energy/Energy-General/Iran-Warns-US-Strikes-Could-Push-War-Into-Indian-Ocean.html",
-    "source_title": "Iran Warns U.S. Strikes Could Push War Into Indian Ocean",
-    "source_summary": "It was just this month that saw the Iran conflict spill over into a renewed fight between the Saudi coalition and Yemen's Houthi rebels. Now Iran is threatening to expand the fight further, even into the Indian Ocean. Yahya Rahim Safavi, an adviser to Iran\u2019s Supreme Leader Mojtaba Khamenei, warned Thursday of another significant expansion of the war if the Islamic Republic suffers an attack again.",
-    "drafted_at": "2026-09-24T17:47:33.619102",
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/trump-threatens-to-cut-off-us-diesel-supplies-to-europe-amid-tariff-tensions/",
+    "source_title": "Trump threatens to cut off US diesel supplies to Europe amid tariff tensions",
+    "source_summary": "Trump's threat to cut diesel exports could strain EU energy security, heightening market volatility and impacting transatlantic relations. The post Trump threatens to cut off US diesel supplies to Europe amid tariff tensions appeared first on Crypto Briefing .",
+    "drafted_at": "2026-09-24T21:17:40.393720",
     "data": {
-      "source": "OILPRICE"
+      "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "e639582cee0cd6d5"
+    "content_hash": "78a4c98cfefd2db9"
   },
   {
-    "id": "fe319959",
+    "id": "0f97b977",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "From the housing desk: The median new house price dropped 5.8% to $393,700 in August from a year earlier.\n\nhttps://nypost.com/2026/09/24/business/new-home-sales-jump-to-8-month-high-as-buyers-are-lured-by-price-cuts/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "NY POST",
-    "source_url": "https://nypost.com/2026/09/24/business/new-home-sales-jump-to-8-month-high-as-buyers-are-lured-by-price-cuts/",
-    "source_title": "New home sales jump to 8-month high as buyers are lured by price cuts",
-    "source_summary": "The median new house price dropped 5.8% to $393,700 in August from a year earlier.",
-    "drafted_at": "2026-09-24T17:47:33.665593",
-    "data": {
-      "source": "NY POST"
-    },
-    "content_hash": "ee1b42c47e33f404"
-  },
-  {
-    "id": "3c9d8463",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "Affordability scoreboard: Prior month 0.643 million revised from 0.607 million August new home sales beat expectations, according to figures released jointly by the U.S. Census Bureau and the Department of Housing and Urban Development.\n\nThe July revision also changes the picture: the 6.4% August gain is measured from 643,000, rather than the 607,000 initially reported for July.\n\nAugust details compared with July: Homes for sale:483,000 vs 483,000 last month.\n\nMonths\u2019 supply:8.5 months vs 9.0 months last month.\n\nMedian sales price:$393,700 vs $392,200 last month.\n\nAverage sales price:$478,700 vs $526,400 last month.\n\nInventory was unchanged, while the faster sales pace reduced months\u2019 supply.\n\nThe median price was little changed, but the average price fell 9.1%.\n\nhttps://investinglive.com/news/us-new-home-sales-for-the-month-of-august-0-684-million-versus-0-615-million-estimate/",
+    "draft_text": "The CPI scoreboard: US stocks finish mixed as Meta\u2019s Muse rally helps mask the losers.\n\nIran\u2019s Pezeshkian wants a deal with the US before the midterm elections, NBC reports Meta shares approach all-time highs as the Muse rally begins yet another leg higher US treasury sells $44 billion of 7 year notes at a high yield of 5.085% US/Iran discussed phasing in a deal to reopen Hormuz and end the US blockade Bitcoin trades lower but holds support near the high of a swing area target.\n\nTrump and Xi meet at the White House: What traders should watch Fed\u2019s Anna Paulson says another rate hike may be needed to lower inflation US new-home sales for the month of August 0.684 million versus 0.615 million estimate BOE\u2019s Breeden: Not at all obvious there is a path to lower energy prices.\n\nFed\u2019s Hammack says inflation risks are tilted to the upside Adam Button on Gold, Market Noise and Risk | What Traders Need to Know Before Q4 ECBs Schnabel expected to announce she will be stepping down to join IMF in a senior position Canada retail sales for the month of July -0.7% vs -0.8% estimate US initial jobless claims 197K vs 201K expected The dollar closed higher against every major currency Thursday.\n\nTreasury yields climbed across the curve, with the 10-year near 5.19%, while European shares finished lower.\n\nU.S. stocks recovered much of their earlier decline after reports that Washington and Tehran had discussed a phased arrangement to reopen the Strait of Hormuz and end the U.S. blockade.\n\nIranian President Masoud Pezeshkian also signaled interest in progress before the U.S. midterm elections.\n\nThose are encouraging words for a market watching oil supplies closely.\n\nhttps://investinglive.com/news/investinglive-americas-fx-news-wrap-24-sept-usd-and-treasury-yields-climb-as-iran-headlines-lift-stocks-off-their-lows/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/us-new-home-sales-for-the-month-of-august-0-684-million-versus-0-615-million-estimate/",
-    "source_title": "US new-home sales for the month of August 0.684 million versus 0.615 million estimate",
-    "source_summary": "Prior month 0.643 million revised from 0.607 million August new home sales beat expectations, according to figures released jointly by the U.S. Census Bureau and the Department of Housing and Urban Development. The July revision also changes the picture: the 6.4% August gain is measured from 643,000, rather than the 607,000 initially reported for July. August details compared with July: Homes for ",
-    "drafted_at": "2026-09-24T17:47:33.666877",
+    "source_url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-24-sept-usd-and-treasury-yields-climb-as-iran-headlines-lift-stocks-off-their-lows/",
+    "source_title": "investingLive Americas FX news wrap 24 Sept: USD and Treasury yields climb as Iran headlines lift stocks off their lows",
+    "source_summary": "US stocks finish mixed as Meta\u2019s Muse rally helps mask the losers. Iran\u2019s Pezeshkian wants a deal with the US before the midterm elections, NBC reports Meta shares approach all-time highs as the Muse rally begins yet another leg higher US treasury sells $44 billion of 7 year notes at a high yield of 5.085% US/Iran discussed phasing in a deal to reopen Hormuz and end the US blockade Bitcoin trades ",
+    "drafted_at": "2026-09-24T21:17:40.451449",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "48c6b98a25a7688b"
+    "content_hash": "7840ace5593c2306"
   },
   {
-    "id": "60b73a1d",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "From the consumption desk: Prior month 0.6% The advanced August reading comes in at 1.3% Details from Statistics Canada: Retail sales:\u22120.7% to C$73.7 billion vs \u22120.8% expected.\n\nRetail sales excluding autos:\u22120.7% vs \u22120.5% expected.\n\nCore retail sales:\u22120.7% after +1.2% in June.\n\nThis measure excludes both autos and gasoline.\n\nCanadian retail sales fell slightly less than expected in July, but the details were weaker.\n\nAccording to Statistics Canada\u2019s July retail sales report, sales declined in eight of nine subsectors.\n\nThe larger drop in volume than in dollar sales suggests consumers bought fewer goods, rather than the decline simply reflecting lower prices.\n\nJuly components compared with June: General merchandise retailers: \u22121.9% vs +2.5% Motor vehicle and parts dealers: \u22120.8%; new car dealers fell 1.3%, while used car dealers rose 2.9% Gasoline stations and fuel vendors: \u22120.9%; sales volume fell 3.5% Building material and garden equipment dealers: +0.8%, their fourth consecutive monthly gain Ontario posted the largest provincial decline in dollar terms, down 2.0%, while Alberta rose 1.4%.\n\nhttps://investinglive.com/news/canada-retail-sales-for-the-month-of-july-0-7-vs-0-8-estimate/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/canada-retail-sales-for-the-month-of-july-0-7-vs-0-8-estimate/",
-    "source_title": "Canada retail sales for the month of July -0.7% vs -0.8% estimate",
-    "source_summary": "Prior month 0.6% The advanced August reading comes in at 1.3% Details from Statistics Canada: Retail sales:\u22120.7% to C$73.7 billion vs \u22120.8% expected. Prior +0.6%. Retail sales excluding autos:\u22120.7% vs \u22120.5% expected. Prior +0.5%. Core retail sales:\u22120.7% after +1.2% in June. This measure excludes both autos and gasoline. Sales volume:\u22121.1%. Canadian retail sales fell slightly less than expected in ",
-    "drafted_at": "2026-09-24T17:47:33.668442",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "cf7409b2872450c6"
-  },
-  {
-    "id": "4f1f06e1",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "Labor-market thermometer: Prior was 196K (revised to 198K) Continuing claims 1719K vs 1745K expected Prior was 1730K (revised to 1717K) US initial jobless claims came in at 197K, below the 201K expected by economists, pointing to continued resilience in the US labor market.\n\nThe previous week's reading was revised higher to 198K from 196K, nevertheless, claims remain at historically low levels, indicating that layoffs remain contained.\n\nThe picture was even stronger in continuing claims, which fell to 1.719 million, well below the 1.745 million expected.\n\nThe previous reading was revised to 1.717 million from 1.730 million.\n\nTaken together, the data suggest that the US labor market remains healthy and the Fed can continue to focus solely on inflation.\n\nFor background, initial claims provide a high-frequency indication of how many people are newly applying for unemployment benefits.\n\nA low level of claims generally indicates that companies are not carrying out large-scale layoffs.\n\nThe decline in continuing claims is also notable because it suggests that people who have already lost their jobs are finding new employment relatively quickly.\n\nhttps://investinglive.com/news/us-initial-jobless-claims-197k-vs-201k-expected/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/us-initial-jobless-claims-197k-vs-201k-expected/",
-    "source_title": "US initial jobless claims 197K vs 201K expected",
-    "source_summary": "Prior was 196K (revised to 198K) Continuing claims 1719K vs 1745K expected Prior was 1730K (revised to 1717K) US initial jobless claims came in at 197K, below the 201K expected by economists, pointing to continued resilience in the US labor market. The previous week's reading was revised higher to 198K from 196K, nevertheless, claims remain at historically low levels, indicating that layoffs remai",
-    "drafted_at": "2026-09-24T17:47:33.669836",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "366fc8fdabd189d8"
-  },
-  {
-    "id": "efeb0dc4",
+    "id": "17dc12f0",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -621,7 +551,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-09-24T17:47:33.671441",
+    "drafted_at": "2026-09-24T21:17:40.453050",
     "data": {
       "manual": true,
       "via": "manual_news.md"
