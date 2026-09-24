@@ -13,48 +13,6 @@
     "data_url": "https://finance.yahoo.com/quote/BTC-USD",
     "fired_at": "2026-09-23T21:16:36.347715"
   },
-  "^VIX:move:2026-09-23": {
-    "headline": "VIX tumbles 10.6% in 5 sessions to 14.16",
-    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "source": "CBOE \u00b7 ^VIX",
-    "chart_path": null,
-    "signal_id": "^VIX:move:2026-09-23",
-    "current_str": "14.16",
-    "label": "VIX (S&P 500 volatility)",
-    "hashtags": "#VIX #Volatility #Markets",
-    "kind": "move_down",
-    "badge": "-10.6%",
-    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "fired_at": "2026-09-23T08:04:37.020242"
-  },
-  "^IXIC:high:2026-09-21": {
-    "headline": "Nasdaq just hit 27,122.09 \u2014 highest in 9+ years",
-    "matters": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
-    "source": "Yahoo Finance \u00b7 ^IXIC",
-    "chart_path": null,
-    "signal_id": "^IXIC:high:2026-09-21",
-    "current_str": "27,122.09",
-    "label": "Nasdaq Composite",
-    "hashtags": "#Nasdaq #Tech #Stocks",
-    "kind": "high",
-    "badge": "9Y HIGH",
-    "data_url": "https://finance.yahoo.com/quote/%5EIXIC",
-    "fired_at": "2026-09-23T08:04:37.020242"
-  },
-  "CL=F:move:2026-09-23": {
-    "headline": "WTI crude tumbles 10.2% in 5 sessions to $89.89",
-    "matters": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "source": "NYMEX \u00b7 CL=F",
-    "chart_path": null,
-    "signal_id": "CL=F:move:2026-09-23",
-    "current_str": "$89.89",
-    "label": "WTI crude oil futures",
-    "hashtags": "#Oil #WTI #Energy #Commodities",
-    "kind": "move_down",
-    "badge": "-10.2%",
-    "data_url": "https://finance.yahoo.com/quote/CL%3DF",
-    "fired_at": "2026-09-23T08:04:37.020242"
-  },
   "BTC-USD:move:2026-09-24": {
     "headline": "Bitcoin jumps 8.0% in 5 sessions to $84,454",
     "matters": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
