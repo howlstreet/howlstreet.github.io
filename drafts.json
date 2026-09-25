@@ -1,23 +1,42 @@
 [
   {
-    "id": "22b5fb4d",
+    "id": "4ad2ec46",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "For the first time since the Iran war began, JPMorgan says it no longer has a clear baseline for how the oil market gets out of it.\n\nThe bank had previously worked on the assumption that rising oil prices and the economic damage they caused would eventually put limits on how far the conflict could go.\n\nSix months into the war, JPMorgan says many of those thresholds have already been crossed without producing a clear exit.\n\nhttps://oilprice.com/Energy/Crude-Oil/5-Energy-Stocks-Positioned-for-a-Prolonged-Iran-War.html",
+    "draft_text": "Crude oil prices dipped from Thursday's close earlier today but Brent crude was on track for a weekly gain on continued concern about the security of supply from the Middle East.\n\nThe concern persists despite reports about a possible deal between the United States and Iran, as well as estimates of oil flows out of the Strait of Hormuz.\n\nAt the time of writing, Brent crude was trading at $105.65 per barrel, up from around $102 per barrel on Monday.\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Brent-Set-for-Weekly-Gain-as-Houthi-Attacks-Rattle-Saudi-Oil-Supply.html",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "OILPRICE",
-    "source_url": "https://oilprice.com/Energy/Crude-Oil/5-Energy-Stocks-Positioned-for-a-Prolonged-Iran-War.html",
-    "source_title": "5 Energy Stocks Positioned for a Prolonged Iran War",
-    "source_summary": "For the first time since the Iran war began, JPMorgan says it no longer has a clear baseline for how the oil market gets out of it. The bank had previously worked on the assumption that rising oil prices and the economic damage they caused would eventually put limits on how far the conflict could go. Six months into the war, JPMorgan says many of those thresholds have already been crossed without ",
-    "drafted_at": "2026-09-25T00:07:47.351830",
+    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Set-for-Weekly-Gain-as-Houthi-Attacks-Rattle-Saudi-Oil-Supply.html",
+    "source_title": "Brent Set for Weekly Gain as Houthi Attacks Rattle Saudi Oil Supply",
+    "source_summary": "Crude oil prices dipped from Thursday's close earlier today but Brent crude was on track for a weekly gain on continued concern about the security of supply from the Middle East. The concern persists despite reports about a possible deal between the United States and Iran, as well as estimates of oil flows out of the Strait of Hormuz. At the time of writing, Brent crude was trading at $105.65 per ",
+    "drafted_at": "2026-09-25T05:33:54.859343",
     "data": {
       "source": "OILPRICE"
     },
-    "content_hash": "a769efabb408cdbe"
+    "content_hash": "41e44c5027cb064f"
   },
   {
-    "id": "0973b656",
+    "id": "adb1dd86",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Hot tape: WTI crude tumbles 12.1% in 5 sessions to $93.02.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NYMEX \u00b7 CL=F",
+    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "source_title": "WTI crude oil futures",
+    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "drafted_at": "2026-09-25T05:33:54.859651",
+    "data": {
+      "signal_id": "CL=F:move:2026-09-25",
+      "kind": "move_down",
+      "current": "$93.02"
+    },
+    "content_hash": "c272de0720a2f459"
+  },
+  {
+    "id": "dc669f95",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Tracks in the snow. Bitcoin surges 11.8% in 5 sessions to $84,503.\n\nBitcoin is now treated as a macro asset alongside gold and tech.\n\nIts swings move alt-coins, public miners, and crypto-exposed stocks.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/BTC-USD",
@@ -27,7 +46,7 @@
     "source_url": "https://finance.yahoo.com/quote/BTC-USD",
     "source_title": "Bitcoin",
     "source_summary": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
-    "drafted_at": "2026-09-25T00:07:47.352157",
+    "drafted_at": "2026-09-25T05:33:54.859939",
     "data": {
       "signal_id": "BTC-USD:move:2026-09-25",
       "kind": "move_up",
@@ -36,7 +55,7 @@
     "content_hash": "0e3396ceb3da7211"
   },
   {
-    "id": "eb08ef8b",
+    "id": "2f277016",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Real-time update for the pack: WTI crude slides 7.3% in 5 sessions to $93.94.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
@@ -46,7 +65,7 @@
     "source_url": "https://finance.yahoo.com/quote/CL%3DF",
     "source_title": "WTI crude oil futures",
     "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-09-25T00:07:47.352398",
+    "drafted_at": "2026-09-25T05:33:54.860182",
     "data": {
       "signal_id": "CL=F:move:2026-09-24",
       "kind": "move_down",
@@ -55,7 +74,7 @@
     "content_hash": "c272de0720a2f459"
   },
   {
-    "id": "bae46432",
+    "id": "84ace69b",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Eyes up. Bitcoin jumps 8.0% in 5 sessions to $84,380.\n\nBitcoin is now treated as a macro asset alongside gold and tech.\n\nIts swings move alt-coins, public miners, and crypto-exposed stocks.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/BTC-USD",
@@ -65,7 +84,7 @@
     "source_url": "https://finance.yahoo.com/quote/BTC-USD",
     "source_title": "Bitcoin",
     "source_summary": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
-    "drafted_at": "2026-09-25T00:07:47.352660",
+    "drafted_at": "2026-09-25T05:33:54.860431",
     "data": {
       "signal_id": "BTC-USD:move:2026-09-24",
       "kind": "move_up",
@@ -74,7 +93,7 @@
     "content_hash": "0e3396ceb3da7211"
   },
   {
-    "id": "eee47dd6",
+    "id": "164eaac5",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "If you're not watching this, you're behind. VIX drops 5.6% in 5 sessions to 16.14.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
@@ -84,7 +103,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EVIX",
     "source_title": "VIX (S&P 500 volatility)",
     "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-09-25T00:07:47.352940",
+    "drafted_at": "2026-09-25T05:33:54.860688",
     "data": {
       "signal_id": "^VIX:move:2026-09-24",
       "kind": "move_down",
@@ -93,7 +112,7 @@
     "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "291511e8",
+    "id": "cb88debb",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "RATE-PATH READ: The first proposal would require that Board-supervised payment stablecoin issuers fully back their stablecoins with certain permissible reserve assets, such as short-term Treasury bills and certain other high-quality, liquid assets.\n\nThe proposal would also establish standardized capital requirements to address certain credit and operational risks of payment stablecoin activities, as well as risk management standards, in accordance with the law.\n\nSeparately, the proposal would introduce rules for Board-supervised firms that safekeep the assets backing payment stablecoins.\n\nIt would also clarify the permissibility of stablecoin and related activities for Board-supervised banks.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
@@ -103,14 +122,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
     "source_title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
     "source_summary": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
-    "drafted_at": "2026-09-25T00:07:47.364513",
+    "drafted_at": "2026-09-25T05:33:54.871936",
     "data": {
       "actor": "FED"
     },
     "content_hash": "849f3138f022c1f3"
   },
   {
-    "id": "ddba5835",
+    "id": "35b2390c",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "ECB POSTCARD: The Ring is Euronews\u2019 weekly political showdown, where Europe\u2019s toughest debates meet their boldest voices.\n\nIn each episode, two political heavyweights from across the EU face off to propose a diversity of opinions and spark conversations around the most important issues of EU affairs and the wider European political life.\n\nEuronews Tech Talks goes beyond discussions to explore the impact of new technologies on our lives.\n\nWith explanations, engaging Q&As, and lively conversations, the podcast provides valuable insights into the intersection of technology and society.\n\nEurope's best food experts are joining forces to crack down on fraud.\n\nhttps://www.euronews.com/2026/09/24/ecb-speeches-and-interviews-move-markets-as-much-as-policy-decisions-study-finds",
@@ -120,14 +139,14 @@
     "source_url": "https://www.euronews.com/2026/09/24/ecb-speeches-and-interviews-move-markets-as-much-as-policy-decisions-study-finds",
     "source_title": "ECB speeches and interviews move markets as much as policy decisions, study finds",
     "source_summary": "Markets react not only to ECB policy decisions but also to policymaker speeches and interviews, whose cumulative impact can rival formal announcements, new research finds.",
-    "drafted_at": "2026-09-25T00:07:47.366440",
+    "drafted_at": "2026-09-25T05:33:54.873896",
     "data": {
       "actor": "ECB"
     },
     "content_hash": "c62435844d0898ef"
   },
   {
-    "id": "e24ca251",
+    "id": "114f663c",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "From the Eccles Building: The Board also gave its approval for BancFirst, of Oklahoma City, Oklahoma, to merge with SpiritBank and to establish and operate branches at the locations of SpiritBank.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/orders20260922a.htm",
@@ -137,14 +156,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260922a.htm",
     "source_title": "Federal Reserve Board announces approval of application by BancFirst Corporation",
     "source_summary": "Federal Reserve Board announces approval of application by BancFirst Corporation",
-    "drafted_at": "2026-09-25T00:07:47.366829",
+    "drafted_at": "2026-09-25T05:33:54.874242",
     "data": {
       "actor": "FED"
     },
     "content_hash": "2da92d996fa3b14f"
   },
   {
-    "id": "f6bb6957",
+    "id": "913d8e29",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "If you trade rates, read this: Consent prohibition order against Stephanie K.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
@@ -154,14 +173,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
     "source_title": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
     "source_summary": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
-    "drafted_at": "2026-09-25T00:07:47.367078",
+    "drafted_at": "2026-09-25T05:33:54.874482",
     "data": {
       "actor": "FED"
     },
     "content_hash": "140b0fd2a09d0598"
   },
   {
-    "id": "108d8a9e",
+    "id": "2f31ac6a",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FED WATCH: The Committee decided to raise the target range for the federal funds rate by 1/4 percentage point to 3-3/4 to 4 percent, in support of the Federal Reserve's dual mandate.\n\nJob gains have kept pace with the workforce, and the unemployment rate has changed little.\n\nToday's policy action will support a timelier return to the Committee's 2 percent goal.\n\nThe Committee is continuing its policy of maintaining ample reserves in the banking system.\n\nEconomic activity is expanding at a solid pace.\n\nWhile uncertainty remains elevated owing, in part, to geopolitical developments, domestic spending has been resilient.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
@@ -171,14 +190,34 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
     "source_title": "Federal Reserve issues FOMC statement",
     "source_summary": "Federal Reserve issues FOMC statement",
-    "drafted_at": "2026-09-25T00:07:47.368032",
+    "drafted_at": "2026-09-25T05:33:54.875423",
     "data": {
       "actor": "FED"
     },
     "content_hash": "5d2f5ae91098e170"
   },
   {
-    "id": "1a495871",
+    "id": "b2da9110",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$ANGX \u2014 3 company insiders bought $5.9M on Sep 11.\n\nAngel Studios, Inc. 1,288,309 shares at $4.55.\n\nStock is +6.8% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/ANGX_P_20260911.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=ANGX",
+    "source_title": "Angel Studios, Inc. (ANGX) insider bought $5.9M",
+    "source_summary": "3 insider(s) bought 1,288,309 shares at $4.55 on 2026-09-11.",
+    "drafted_at": "2026-09-25T05:33:54.875730",
+    "data": {
+      "ticker": "ANGX",
+      "type": "P",
+      "dollar_value": 5857056.0,
+      "pct_since": 6.813189747569329
+    },
+    "content_hash": "17f5a21771b676b3"
+  },
+  {
+    "id": "fe0afc70",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$HHH \u2014 2 company insiders bought $1.7M on Sep 23.\n\nHoward Hughes Holdings Inc. 26,000 shares at $64.13.\n\nStock is -0.6% since the purchase. This is a public SEC Form 4 filing.",
@@ -188,7 +227,7 @@
     "source_url": "http://openinsider.com/screener?s=HHH",
     "source_title": "Howard Hughes Holdings Inc. (HHH) insider bought $1.7M",
     "source_summary": "2 insider(s) bought 26,000 shares at $64.13 on 2026-09-23.",
-    "drafted_at": "2026-09-25T00:07:47.368312",
+    "drafted_at": "2026-09-25T05:33:54.875941",
     "data": {
       "ticker": "HHH",
       "type": "P",
@@ -198,7 +237,7 @@
     "content_hash": "45c9935383910314"
   },
   {
-    "id": "c32260ec",
+    "id": "11c7c634",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$CELH \u2014 3 company insiders bought $1.8M on Sep 15.\n\nCelsius Holdings, Inc. 66,000 shares at $27.73.\n\nStock is +2.5% since the purchase. This is a public SEC Form 4 filing.",
@@ -208,7 +247,7 @@
     "source_url": "http://openinsider.com/screener?s=CELH",
     "source_title": "Celsius Holdings, Inc. (CELH) insider bought $1.8M",
     "source_summary": "3 insider(s) bought 66,000 shares at $27.73 on 2026-09-15.",
-    "drafted_at": "2026-09-25T00:07:47.368521",
+    "drafted_at": "2026-09-25T05:33:54.876136",
     "data": {
       "ticker": "CELH",
       "type": "P",
@@ -218,7 +257,7 @@
     "content_hash": "9521e825e6c4fa5d"
   },
   {
-    "id": "23661742",
+    "id": "99c0be8d",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$CRBG \u2014 a company insider bought $10.2M on Sep 22.\n\nCorebridge Financial, Inc. 296,868 shares at $34.31.\n\nStock is -0.6% since the purchase. This is a public SEC Form 4 filing.",
@@ -228,7 +267,7 @@
     "source_url": "http://openinsider.com/screener?s=CRBG",
     "source_title": "Corebridge Financial, Inc. (CRBG) insider bought $10.2M",
     "source_summary": "1 insider(s) bought 296,868 shares at $34.31 on 2026-09-22.",
-    "drafted_at": "2026-09-25T00:07:47.368724",
+    "drafted_at": "2026-09-25T05:33:54.876331",
     "data": {
       "ticker": "CRBG",
       "type": "P",
@@ -238,7 +277,7 @@
     "content_hash": "f6ee9c8689c5e600"
   },
   {
-    "id": "b4503c38",
+    "id": "d4b10a15",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$GSHD \u2014 a company insider bought $7.1M on Sep 22.\n\nGoosehead Insurance, Inc. 150,000 shares at $47.32.\n\nStock is -7.8% since the purchase. This is a public SEC Form 4 filing.",
@@ -248,7 +287,7 @@
     "source_url": "http://openinsider.com/screener?s=GSHD",
     "source_title": "Goosehead Insurance, Inc. (GSHD) insider bought $7.1M",
     "source_summary": "1 insider(s) bought 150,000 shares at $47.32 on 2026-09-22.",
-    "drafted_at": "2026-09-25T00:07:47.368947",
+    "drafted_at": "2026-09-25T05:33:54.876523",
     "data": {
       "ticker": "GSHD",
       "type": "P",
@@ -258,61 +297,75 @@
     "content_hash": "159fbd62e9f997c8"
   },
   {
-    "id": "5df9657a",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$DKS \u2014 6 company insiders bought $5.1M on Sep 23.\n\nDick'S Sporting Goods, Inc. 39,130 shares at $130.05.\n\nStock is +2.5% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/DKS_P_20260923.png",
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=DKS",
-    "source_title": "Dick'S Sporting Goods, Inc. (DKS) insider bought $5.1M",
-    "source_summary": "6 insider(s) bought 39,130 shares at $130.05 on 2026-09-23.",
-    "drafted_at": "2026-09-25T00:07:47.369150",
-    "data": {
-      "ticker": "DKS",
-      "type": "P",
-      "dollar_value": 5088794.0,
-      "pct_since": 2.4605920799692336
-    },
-    "content_hash": "d7b947ea917be344"
-  },
-  {
-    "id": "1198bbec",
+    "id": "577d8b55",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "Vance: Trump Admin Booting 750,000 From Obamacare Over Fraud, Saving $2.2 Billion\n\nhttps://townhall.com/news/scott-mcclallen/2026/09/24/vance-trump-admin-booting-750000-from-obamacare-over-fraud-saving-22b-n2683574",
+    "draft_text": "Bitget CEO Gracy Chen said North Korea was \u201cvery likely\u201d behind the $350 million Bitget hack.\n\nThe attackers breached a backend system and never obtained private keys, she added.\n\nWithdrawals remain suspended after the September 24 breach.\n\nhttps://beincrypto.com/bitget-hack-north-korea-gracy-chen/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "BEINCRYPTO",
+    "source_url": "https://beincrypto.com/bitget-hack-north-korea-gracy-chen/",
+    "source_title": "North Korean Hackers \u201cVery Likely\u201d Drained $350 Million From Bitget, CEO Says",
+    "source_summary": "Bitget CEO Gracy Chen said North Korea was \u201cvery likely\u201d behind the $350 million Bitget hack. The attackers breached a backend system and never obtained private keys, she added. Withdrawals remain suspended after the September 24 breach. DefiLlama data now ranks it as the largest crypto hack of 2026. Chen Follows a VPN Trail to The post North Korean Hackers \u201cVery Likely\u201d Drained $350 Million From ",
+    "drafted_at": "2026-09-25T05:33:54.879703",
+    "data": {
+      "source": "BEINCRYPTO"
+    },
+    "content_hash": "84f1786fd9aab3cd"
+  },
+  {
+    "id": "c6163f6d",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "California's High-Speed Money Laundering, and It's All Perfectly Legal\n\nhttps://townhall.com/columnists/jay-rogers/2026/09/25/californias-high-speed-money-laundering-and-its-all-perfectly-legal-n2683490",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "TOWNHALL FIN",
-    "source_url": "https://townhall.com/news/scott-mcclallen/2026/09/24/vance-trump-admin-booting-750000-from-obamacare-over-fraud-saving-22b-n2683574",
-    "source_title": "Vance: Trump Admin Booting 750,000 From Obamacare Over Fraud, Saving $2.2 Billion",
+    "source_url": "https://townhall.com/columnists/jay-rogers/2026/09/25/californias-high-speed-money-laundering-and-its-all-perfectly-legal-n2683490",
+    "source_title": "California's High-Speed Money Laundering, and It's All Perfectly Legal",
     "source_summary": "",
-    "drafted_at": "2026-09-25T00:07:47.372555",
+    "drafted_at": "2026-09-25T05:33:54.879783",
     "data": {
       "source": "TOWNHALL FIN"
     },
-    "content_hash": "521b203c3a825af9"
+    "content_hash": "22865739586d9aef"
   },
   {
-    "id": "7359fd27",
+    "id": "071bf795",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "Former Puerto Rico Bank CEO Gets 9+ Years for $24.9M Fraud, Sanctions Evasion\n\nhttps://townhall.com/news/scott-mcclallen/2026/09/24/former-puerto-rico-bank-ceo-gets-9-years-for-249m-fraud-sanctions-evasion-n2683557",
+    "draft_text": "Nikkei gains 1.2% as chip stocks and dividend buying lift Tokyo, SoftBank slips on Oracle Goldman stays bullish on AI as cloud giants' spending heads towards $1.2 trillion Katayama says Trump raised weak yen concerns with Takaichi, USD/JPY eases below 158.50 Recession signal flashes on Oxford Economics' US indicator, but spending shows no sign of cracking Tether confirms funds stuck at troubled offshore bank EQIBank, says exposure is tiny Bitget hack: attackers faked transfers, not keys, as CEO points to North Korea Goldman cuts USD/JPY forecasts, sees 150 in a year as BOJ tightening boosts yen case Tokenised deposits, stablecoins and CBDCs: three kinds of digital money explained Bitget loses $351.6 million to hackers, so why is BGB barely flinching?\n\nDaiwa sees next BOJ rate hike in December as Ueda signals shift in policy phase US 30-year Treasury yield nears 5.5%, highest since 2004, as global bond rout deepens Morgan Stanley says it's time to look beyond chips as AI benefits spread to Airbnb, Home Depot and more Trump, Johnson to meet tech CEOs on AI September 29 as pressure to regulate builds Hackers drain $351.6 million from Bitget in possibly 2026's biggest crypto heist China shuts for Mid-Autumn Festival holiday today, a preview of the week-long National Day gap to come UBS says Fed hike fears overdone as 10-year Treasury yield breaks above 5.1% Iran's Pezeshkian seeks US ceasefire deal before midterms, signals nuclear openness ICYMI: France to send troops and air defences to Saudi Arabia's Yanbu as Houthi attacks mount investingLive Americas FX news wrap 24 Sept: USD and Treasury yields climb as Iran headlines lift stocks off their lows Trump and Xi buy two more months of trade truce, leaving tariffs and rare earths in limbo Oil jumps to one-week high as Houthi strikes on Saudi Arabia outweigh Hormuz deal hopes Sticky core inflation pushes RBA towards its highest cash rate since 2011 Summary: Iran offered to reopen Hormuz and start nuclear talks within seven days of the US accepting its terms.\n\nThose terms are a return to the June memorandum, lifting the blockade, unfreezing some assets, restoring the oil sanctions waiver and ending Israel's war in southern Lebanon.\n\nhttps://investinglive.com/news/investinglive-asia-pacific-market-news-iran-offers-seven-day-hormuz-dea/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "TOWNHALL FIN",
-    "source_url": "https://townhall.com/news/scott-mcclallen/2026/09/24/former-puerto-rico-bank-ceo-gets-9-years-for-249m-fraud-sanctions-evasion-n2683557",
-    "source_title": "Former Puerto Rico Bank CEO Gets 9+ Years for $24.9M Fraud, Sanctions Evasion",
-    "source_summary": "",
-    "drafted_at": "2026-09-25T00:07:47.372640",
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-iran-offers-seven-day-hormuz-dea/",
+    "source_title": "investingLive Asia-Pacific market news: Iran offers seven-day Hormuz dea",
+    "source_summary": "Nikkei gains 1.2% as chip stocks and dividend buying lift Tokyo, SoftBank slips on Oracle Goldman stays bullish on AI as cloud giants' spending heads towards $1.2 trillion Katayama says Trump raised weak yen concerns with Takaichi, USD/JPY eases below 158.50 Recession signal flashes on Oxford Economics' US indicator, but spending shows no sign of cracking Tether confirms funds stuck at troubled of",
+    "drafted_at": "2026-09-25T05:33:54.883426",
     "data": {
-      "source": "TOWNHALL FIN"
+      "source": "FOREXLIVE"
     },
-    "content_hash": "5073e57c190a9d07"
+    "content_hash": "fc14a9bc70fa5512"
   },
   {
-    "id": "edc27e3c",
+    "id": "cd796b6c",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Cambodian Prime Minister Hun Manet promised that his country will \u201cnever be a safe haven for online scams\u201d at a global conference on cyber-fraud in Phnom Penh on Wednesday.\n\nThe post Cambodia Stages \u2018Cyber-Fraud\u2019 Summit to Address Global Scammers appeared first on Breitbart.\n\nhttps://www.breitbart.com/asia/2026/09/24/cambodia-stages-cyber-fraud-summit-to-address-global-scammers/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "BREITBART",
+    "source_url": "https://www.breitbart.com/asia/2026/09/24/cambodia-stages-cyber-fraud-summit-to-address-global-scammers/",
+    "source_title": "Cambodia Stages 'Cyber-Fraud' Summit to Address Global Scammers",
+    "source_summary": "Cambodian Prime Minister Hun Manet promised that his country will \u201cnever be a safe haven for online scams\u201d at a global conference on cyber-fraud in Phnom Penh on Wednesday. The post Cambodia Stages \u2018Cyber-Fraud\u2019 Summit to Address Global Scammers appeared first on Breitbart .",
+    "drafted_at": "2026-09-25T05:33:54.883774",
+    "data": {
+      "source": "BREITBART"
+    },
+    "content_hash": "216842603c444092"
+  },
+  {
+    "id": "3c8beecc",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "\"We're in an environment where we all want to be looking to the founders, right?\".\n\nhttps://fortune.com/2026/09/24/over-50-federal-prosecutors-trump-100000-month-insider-trading/",
@@ -322,48 +375,14 @@
     "source_url": "https://fortune.com/2026/09/24/over-50-federal-prosecutors-trump-100000-month-insider-trading/",
     "source_title": "\u2018It\u2019s so corrosive to democracy\u2019: Over 50 federal prosecutors speak out against Trump\u2019s $100,000 a month \u2018insider trading\u2019 scheme",
     "source_summary": "\"We're in an environment where we all want to be looking to the founders, right?\"",
-    "drafted_at": "2026-09-25T00:07:47.372799",
+    "drafted_at": "2026-09-25T05:33:54.883910",
     "data": {
       "source": "FORTUNE"
     },
     "content_hash": "918c1a86402c5fdb"
   },
   {
-    "id": "5b86695d",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Riyadh\u2019s bet on Trumpism has failed.\n\nhttps://foreignpolicy.com/2026/09/24/iran-trump-saudi-war-mbs-bad-bet/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREIGN POLICY",
-    "source_url": "https://foreignpolicy.com/2026/09/24/iran-trump-saudi-war-mbs-bad-bet/",
-    "source_title": "Saudi Arabia Bribed the Wrong People",
-    "source_summary": "Riyadh\u2019s bet on Trumpism has failed.",
-    "drafted_at": "2026-09-25T00:07:47.372892",
-    "data": {
-      "source": "FOREIGN POLICY"
-    },
-    "content_hash": "793c1527d7d88e80"
-  },
-  {
-    "id": "039adc45",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Riyadh\u2019s bet on Trumpism has failed.\n\nhttps://foreignpolicy.com/2026/09/24/iran-trump-saudi-war-mbs-bad-bet/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREIGN POLICY",
-    "source_url": "https://foreignpolicy.com/2026/09/24/iran-trump-saudi-war-mbs-bad-bet/",
-    "source_title": "Saudi Arabia Bribed the Wrong People",
-    "source_summary": "Riyadh\u2019s bet on Trumpism has failed.",
-    "drafted_at": "2026-09-25T00:07:47.372968",
-    "data": {
-      "source": "FOREIGN POLICY"
-    },
-    "content_hash": "793c1527d7d88e80"
-  },
-  {
-    "id": "231d9245",
+    "id": "a9851c8b",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $SPCX this year \u2014 and these filings don't show them selling:\n\n\u2022 Daniel Meuser (R)\n\u2022 Jared Moskowitz (D)\n\u2022 John McGuire (R)\n\u2022 Gilbert Cisneros (D)\n\nLargest disclosed here: Daniel Meuser, $15,001 - $50,000 on Jun 15.\n\nPrice since the first buy in this group: -7.8%.\n\nSTOCK Act disclosures. Public record.",
@@ -373,7 +392,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034774.pdf",
     "source_title": "4 Congress members bought $SPCX",
     "source_summary": "4 politicians bought $SPCX; largest $15,001 - $50,000 by Daniel Meuser.",
-    "drafted_at": "2026-09-25T00:07:47.374070",
+    "drafted_at": "2026-09-25T05:33:54.885157",
     "data": {
       "ticker": "SPCX",
       "member_count": 4,
@@ -382,7 +401,7 @@
     "content_hash": "585711bf88956fa9"
   },
   {
-    "id": "c9bde75b",
+    "id": "c6e88042",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $NVDA this year \u2014 and these filings don't show them selling:\n\n\u2022 Michael Rulli (R)\n\u2022 Cleo Fields (D)\n\u2022 Gilbert Cisneros (D)\n\u2022 John J Mr McGuire (R)\n\nLargest disclosed here: Michael Rulli, $1,001 - $15,000 on Jun 25.\n\nPrice since the first buy in this group: +15.2%.\n\nSTOCK Act disclosures. Public record.",
@@ -392,7 +411,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035147.pdf",
     "source_title": "4 Congress members bought $NVDA",
     "source_summary": "4 politicians bought $NVDA; largest $1,001 - $15,000 by Michael Rulli.",
-    "drafted_at": "2026-09-25T00:07:47.374391",
+    "drafted_at": "2026-09-25T05:33:54.885465",
     "data": {
       "ticker": "NVDA",
       "member_count": 4,
@@ -401,7 +420,7 @@
     "content_hash": "f6cf25ab3c00fb6f"
   },
   {
-    "id": "f1541471",
+    "id": "78c92de7",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $MU this year \u2014 and these filings don't show them selling:\n\n\u2022 Josh Gottheimer (D)\n\u2022 Sheldon Whitehouse (D)\n\u2022 Michael Rulli (R)\n\u2022 Dan Newhouse (R)\n\nLargest disclosed here: Josh Gottheimer, $1,001 - $15,000 on May 21.\n\nPrice since the first buy in this group: +40.6%.\n\nSTOCK Act disclosures. Public record.",
@@ -411,7 +430,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034693.pdf",
     "source_title": "4 Congress members bought $MU",
     "source_summary": "4 politicians bought $MU; largest $1,001 - $15,000 by Josh Gottheimer.",
-    "drafted_at": "2026-09-25T00:07:47.374701",
+    "drafted_at": "2026-09-25T05:33:54.885801",
     "data": {
       "ticker": "MU",
       "member_count": 4,
@@ -420,7 +439,7 @@
     "content_hash": "7c265a3a54605da1"
   },
   {
-    "id": "05312c3b",
+    "id": "adc3b272",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 Gilbert Cisneros (D)\n\u2022 Cleo Fields (D)\n\u2022 Jared Moskowitz (D)\n\nLargest disclosed here: Gilbert Cisneros, $15,001 - $50,000 on Jul 17.\n\nPrice since the first buy in this group: +27.6%.\n\nSTOCK Act disclosures. Public record.",
@@ -430,7 +449,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf",
     "source_title": "3 Congress members bought $MSFT",
     "source_summary": "3 politicians bought $MSFT; largest $15,001 - $50,000 by Gilbert Cisneros.",
-    "drafted_at": "2026-09-25T00:07:47.375018",
+    "drafted_at": "2026-09-25T05:33:54.886089",
     "data": {
       "ticker": "MSFT",
       "member_count": 3,
@@ -439,7 +458,7 @@
     "content_hash": "a21583cf45f73c88"
   },
   {
-    "id": "6c5f4c08",
+    "id": "9474afef",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 Gilbert Cisneros (D)\n\u2022 Cleo Fields (D)\n\u2022 Jared Moskowitz (D)\n\nLargest disclosed here: Gilbert Cisneros, $50,001 - $100,000 on May 15.\n\nPrice since the first buy in this group: +18.6%.\n\nSTOCK Act disclosures. Public record.",
@@ -449,7 +468,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034713.pdf",
     "source_title": "3 Congress members bought $MSFT",
     "source_summary": "3 politicians bought $MSFT; largest $50,001 - $100,000 by Gilbert Cisneros.",
-    "drafted_at": "2026-09-25T00:07:47.375314",
+    "drafted_at": "2026-09-25T05:33:54.886369",
     "data": {
       "ticker": "MSFT",
       "member_count": 3,
@@ -458,109 +477,109 @@
     "content_hash": "568a39394ccac4dc"
   },
   {
-    "id": "16ad7139",
+    "id": "01639f79",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: Yemen's Houthi claimed on Thursday that it launched dozens of ballistic missiles and drones at Saudi military installations in the kingdom's southwestern Jazan region, the Saudi-led coalition in Yemen said were aimed at Taif in western Saudi Arabia and the Yanbu area on the Red Sea.\n\nhttps://www.fxstreet.com/news/saudi-civil-defence-issues-warning-over-possible-threat-in-jazan-202609250006",
+    "draft_text": "From the international wire: The Indian Rupee (INR) gains a temporary ground against the US Dollar (USD) on Friday after remaining under pressure in the past few days.\n\nThe USD/INR pair struggles to extend gains above 95.96 on the likely Reserve Bank of India\u2019s (RBI) intervention.\n\nhttps://www.fxstreet.com/news/indian-rupee-cushioned-by-rbis-likely-intervention-outlook-remain-fragile-202609250528",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/saudi-civil-defence-issues-warning-over-possible-threat-in-jazan-202609250006",
-    "source_title": "Saudi Civil Defence issues warning over possible threat in Jazan",
-    "source_summary": "Yemen's Houthi claimed on Thursday that it launched dozens of ballistic missiles and drones at Saudi military installations in the kingdom's southwestern Jazan region, the Saudi-led coalition in Yemen said were aimed at Taif in western Saudi Arabia and the Yanbu area on the Red Sea.",
-    "drafted_at": "2026-09-25T00:07:47.376709",
+    "source_url": "https://www.fxstreet.com/news/indian-rupee-cushioned-by-rbis-likely-intervention-outlook-remain-fragile-202609250528",
+    "source_title": "Indian Rupee cushioned by RBI\u2019s likely intervention, outlook remain fragile",
+    "source_summary": "The Indian Rupee (INR) gains a temporary ground against the US Dollar (USD) on Friday after remaining under pressure in the past few days. The USD/INR pair struggles to extend gains above 95.96 on the likely Reserve Bank of India\u2019s (RBI) intervention.",
+    "drafted_at": "2026-09-25T05:33:54.888095",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "2a28edbd28f21fb5"
+    "content_hash": "b80eb47a7e2d103f"
   },
   {
-    "id": "56812ff1",
+    "id": "688eaa86",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: The ongoing conflict's impact on oil markets could lead to prolonged global energy supply instability, influencing strategic market decisions.\n\nThe post JPMorgan sees ongoing US-Israeli conflict with Iran impacting oil markets appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/jpmorgan-sees-ongoing-us-israeli-conflict-with-iran-impacting-oil-markets/",
+    "draft_text": "From the international wire: Ukraine has targeted an industrial plant in Russia's Perm region with a massive drone swarm.\n\nhttps://www.aljazeera.com/video/newsfeed/2026/9/25/multiple-regions-in-russia-come-under-ukrainian-drone-attacks?traffic_source=rss",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "AL JAZEERA",
+    "source_url": "https://www.aljazeera.com/video/newsfeed/2026/9/25/multiple-regions-in-russia-come-under-ukrainian-drone-attacks?traffic_source=rss",
+    "source_title": "Multiple regions in Russia come under Ukrainian drone attacks",
+    "source_summary": "Ukraine has targeted an industrial plant in Russia's Perm region with a massive drone swarm.",
+    "drafted_at": "2026-09-25T05:33:54.888435",
+    "data": {
+      "source": "AL JAZEERA"
+    },
+    "content_hash": "036d246316ca7c2e"
+  },
+  {
+    "id": "f1c80c25",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "GLOBAL DESK: Lightspeed's strategic shift to early-stage AI investments in India reflects a broader industry trend prioritizing AI innovation and agility.\n\nThe post Lightspeed targets $300\u2013$350M for new early-stage AI fund in India appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/lightspeed-india-ai-fund-early-stage/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/jpmorgan-sees-ongoing-us-israeli-conflict-with-iran-impacting-oil-markets/",
-    "source_title": "JPMorgan sees ongoing US-Israeli conflict with Iran impacting oil markets",
-    "source_summary": "The ongoing conflict's impact on oil markets could lead to prolonged global energy supply instability, influencing strategic market decisions. The post JPMorgan sees ongoing US-Israeli conflict with Iran impacting oil markets appeared first on Crypto Briefing .",
-    "drafted_at": "2026-09-25T00:07:47.377081",
+    "source_url": "https://cryptobriefing.com/lightspeed-india-ai-fund-early-stage/",
+    "source_title": "Lightspeed targets $300\u2013$350M for new early-stage AI fund in India",
+    "source_summary": "Lightspeed's strategic shift to early-stage AI investments in India reflects a broader industry trend prioritizing AI innovation and agility. The post Lightspeed targets $300\u2013$350M for new early-stage AI fund in India appeared first on Crypto Briefing .",
+    "drafted_at": "2026-09-25T05:33:54.889092",
     "data": {
       "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "e05354ee3ea5ca93"
+    "content_hash": "3fc8644fb923d1cd"
   },
   {
-    "id": "73312c2f",
+    "id": "5a669cd3",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: For the first time since the Iran war began, JPMorgan says it no longer has a clear baseline for how the oil market gets out of it.\n\nThe bank had previously worked on the assumption that rising oil prices and the economic damage they caused would eventually put limits on how far the conflict could go.\n\nSix months into the war, JPMorgan says many of those thresholds have already been crossed without producing a clear exit.\n\nRoughly 10 million barrels per day of oil supply has been disrupted, while the bank puts Brent\u2019s September fair value at\u2026\n\nhttps://oilprice.com/Energy/Crude-Oil/5-Energy-Stocks-Positioned-for-a-Prolonged-Iran-War.html",
+    "draft_text": "MIDDLE EAST DESK: Crude oil prices dipped from Thursday's close earlier today but Brent crude was on track for a weekly gain on continued concern about the security of supply from the Middle East.\n\nThe concern persists despite reports about a possible deal between the United States and Iran, as well as estimates of oil flows out of the Strait of Hormuz.\n\nAt the time of writing, Brent crude was trading at $105.65 per barrel, up from around $102 per barrel on Monday.\n\nWest Texas Intermediate, on the other hand, is ending the week with a dip, trading at $93.11\u2026\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Brent-Set-for-Weekly-Gain-as-Houthi-Attacks-Rattle-Saudi-Oil-Supply.html",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "OILPRICE",
-    "source_url": "https://oilprice.com/Energy/Crude-Oil/5-Energy-Stocks-Positioned-for-a-Prolonged-Iran-War.html",
-    "source_title": "5 Energy Stocks Positioned for a Prolonged Iran War",
-    "source_summary": "For the first time since the Iran war began, JPMorgan says it no longer has a clear baseline for how the oil market gets out of it. The bank had previously worked on the assumption that rising oil prices and the economic damage they caused would eventually put limits on how far the conflict could go. Six months into the war, JPMorgan says many of those thresholds have already been crossed without ",
-    "drafted_at": "2026-09-25T00:07:47.377965",
+    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Set-for-Weekly-Gain-as-Houthi-Attacks-Rattle-Saudi-Oil-Supply.html",
+    "source_title": "Brent Set for Weekly Gain as Houthi Attacks Rattle Saudi Oil Supply",
+    "source_summary": "Crude oil prices dipped from Thursday's close earlier today but Brent crude was on track for a weekly gain on continued concern about the security of supply from the Middle East. The concern persists despite reports about a possible deal between the United States and Iran, as well as estimates of oil flows out of the Strait of Hormuz. At the time of writing, Brent crude was trading at $105.65 per ",
+    "drafted_at": "2026-09-25T05:33:54.889780",
     "data": {
       "source": "OILPRICE"
     },
-    "content_hash": "a769efabb408cdbe"
+    "content_hash": "41e44c5027cb064f"
   },
   {
-    "id": "5bddab09",
+    "id": "2cf2b174",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Gulf wire: Iranian President Masoud Pezeshkian said that it is for the United States (US) to decide whether to end its war against the Islamic Republic, as Tehran does not wish to continue fighting, Fox News reported on Thursday.\n\nhttps://www.fxstreet.com/news/irans-president-says-us-must-choose-whether-to-end-war-202609242353",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/irans-president-says-us-must-choose-whether-to-end-war-202609242353",
-    "source_title": "Iran\u2019s President\u00a0says US \u2018must choose\u2019 whether to end war",
-    "source_summary": "Iranian President Masoud Pezeshkian said that it is for the United States (US) to decide whether to end its war against the Islamic Republic, as Tehran does not wish to continue fighting, Fox News reported on Thursday.",
-    "drafted_at": "2026-09-25T00:07:47.378332",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "94f8917d3a485818"
-  },
-  {
-    "id": "8387d45c",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Gulf wire: Iran's readiness for a uranium deal may stabilize regional tensions and foster diplomatic engagement, impacting global nuclear policy dynamics.\n\nThe post Iran ready for uranium deal, Pezeshkian tells Fox News appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/iran-ready-for-uranium-deal-pezeshkian-tells-fox-news/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/iran-ready-for-uranium-deal-pezeshkian-tells-fox-news/",
-    "source_title": "Iran ready for uranium deal, Pezeshkian tells Fox News",
-    "source_summary": "Iran's readiness for a uranium deal may stabilize regional tensions and foster diplomatic engagement, impacting global nuclear policy dynamics. The post Iran ready for uranium deal, Pezeshkian tells Fox News appeared first on Crypto Briefing .",
-    "drafted_at": "2026-09-25T00:07:47.378872",
-    "data": {
-      "source": "CRYPTO BRIEFING"
-    },
-    "content_hash": "8eccebb86cc0cb71"
-  },
-  {
-    "id": "5a759861",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "The CPI scoreboard: US stocks finish mixed as Meta\u2019s Muse rally helps mask the losers.\n\nIran\u2019s Pezeshkian wants a deal with the US before the midterm elections, NBC reports Meta shares approach all-time highs as the Muse rally begins yet another leg higher US treasury sells $44 billion of 7 year notes at a high yield of 5.085% US/Iran discussed phasing in a deal to reopen Hormuz and end the US blockade Bitcoin trades lower but holds support near the high of a swing area target.\n\nTrump and Xi meet at the White House: What traders should watch Fed\u2019s Anna Paulson says another rate hike may be needed to lower inflation US new-home sales for the month of August 0.684 million versus 0.615 million estimate BOE\u2019s Breeden: Not at all obvious there is a path to lower energy prices.\n\nFed\u2019s Hammack says inflation risks are tilted to the upside Adam Button on Gold, Market Noise and Risk | What Traders Need to Know Before Q4 ECBs Schnabel expected to announce she will be stepping down to join IMF in a senior position Canada retail sales for the month of July -0.7% vs -0.8% estimate US initial jobless claims 197K vs 201K expected The dollar closed higher against every major currency Thursday.\n\nTreasury yields climbed across the curve, with the 10-year near 5.19%, while European shares finished lower.\n\nU.S. stocks recovered much of their earlier decline after reports that Washington and Tehran had discussed a phased arrangement to reopen the Strait of Hormuz and end the U.S. blockade.\n\nIranian President Masoud Pezeshkian also signaled interest in progress before the U.S. midterm elections.\n\nThose are encouraging words for a market watching oil supplies closely.\n\nhttps://investinglive.com/news/investinglive-americas-fx-news-wrap-24-sept-usd-and-treasury-yields-climb-as-iran-headlines-lift-stocks-off-their-lows/",
+    "draft_text": "CHINA DESK: And so the Trump-Xi summit this week delivered what markets probably needed most.\n\nThat being no fresh escalation between the two largest economies in the world.\n\nBut beyond that, there wasn't much of any breakthrough either.\n\nThe clearest takeaway is the extension of the existing US-China trade truce by another two months to 10 January.\n\nThat keeps the existing tariffs regime in place and gives both sides more time to negotiate what Bessent has described as a potentially broader agreement.\n\nSo for now though, the difficult issues haven't really gone anywhere.\n\nThe US still wants China to step up agricultural purchases and to meet its commitments, while also raising concerns that China's rare earth deliveries have fallen short.\n\nAnd honestly, that is hardly surprising given China's previous track record and how we saw the Phase One trade deal unfolded back in 2018-19.\n\nhttps://investinglive.com/news/trump-xi-summit-extends-the-trade-truce-but-leaves-the-biggest-market-questions-unresolved/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-24-sept-usd-and-treasury-yields-climb-as-iran-headlines-lift-stocks-off-their-lows/",
-    "source_title": "investingLive Americas FX news wrap 24 Sept: USD and Treasury yields climb as Iran headlines lift stocks off their lows",
-    "source_summary": "US stocks finish mixed as Meta\u2019s Muse rally helps mask the losers. Iran\u2019s Pezeshkian wants a deal with the US before the midterm elections, NBC reports Meta shares approach all-time highs as the Muse rally begins yet another leg higher US treasury sells $44 billion of 7 year notes at a high yield of 5.085% US/Iran discussed phasing in a deal to reopen Hormuz and end the US blockade Bitcoin trades ",
-    "drafted_at": "2026-09-25T00:07:47.441087",
+    "source_url": "https://investinglive.com/news/trump-xi-summit-extends-the-trade-truce-but-leaves-the-biggest-market-questions-unresolved/",
+    "source_title": "Trump-Xi summit extends the trade truce but leaves the biggest market questions unresolved",
+    "source_summary": "And so the Trump-Xi summit this week delivered what markets probably needed most. That being no fresh escalation between the two largest economies in the world. But beyond that, there wasn't much of any breakthrough either. The clearest takeaway is the extension of the existing US-China trade truce by another two months to 10 January. That keeps the existing tariffs regime in place and gives both ",
+    "drafted_at": "2026-09-25T05:33:54.891158",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "7840ace5593c2306"
+    "content_hash": "440c6c050dd43305"
   },
   {
-    "id": "eb1a22c2",
+    "id": "d515afca",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "From the inflation desk: A recession signal against a backdrop of strong data makes it a useful counterpoint for bond markets.\n\nIt gives Treasury bulls an argument just as 10-year yields sit above 5.2% and Fed hike odds are rising.\n\nMarkets are unlikely to react much for now, because Oxford itself plays down the signal and current data points the other way.\n\nThe warning matters more as a sign of what could go wrong if energy prices stay high and borrowing costs keep rising.\n\nAny softening in spending data would give it far more weight quickly. --- Oxford Economics' US indicator says recession, but consumers and AI spending say otherwise.\n\nIt's a reminder that energy costs and a shrinking labour pool are building pressure beneath some very strong headline data.\n\nSummary: Oxford Economics' US business-cycle indicator has fallen into the recession zone Higher energy prices squeezing real incomes and slower immigration weighing on job growth are the main drivers The firm warns the signal may not be definitive, citing strong productivity and a wealth effect supporting spending Households have not shown the shift to cheaper spending that typically comes with recessions AI infrastructure spending, high profit margins and recent tax cuts are underpinning business investment Tariffs and policy uncertainty remain the key downside risks Oxford Economics says its US business-cycle indicator has slipped into recession territory.\n\nThe forecaster stresses the signal may not be conclusive, with strong productivity, resilient consumers and AI-driven investment still supporting the economy.\n\nhttps://investinglive.com/news/recession-signal-flashes-on-oxford-economics-us-indicator-but-spending-shows-no-sign-of-cracking/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/recession-signal-flashes-on-oxford-economics-us-indicator-but-spending-shows-no-sign-of-cracking/",
+    "source_title": "Recession signal flashes on Oxford Economics' US indicator, but spending shows no sign of cracking",
+    "source_summary": "A recession signal against a backdrop of strong data makes it a useful counterpoint for bond markets. It gives Treasury bulls an argument just as 10-year yields sit above 5.2% and Fed hike odds are rising. Markets are unlikely to react much for now, because Oxford itself plays down the signal and current data points the other way. The warning matters more as a sign of what could go wrong if energy",
+    "drafted_at": "2026-09-25T05:33:54.951313",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "3588a4cced3e0a5d"
+  },
+  {
+    "id": "f846568c",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -570,7 +589,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-09-25T00:07:47.442659",
+    "drafted_at": "2026-09-25T05:33:54.952968",
     "data": {
       "manual": true,
       "via": "manual_news.md"
