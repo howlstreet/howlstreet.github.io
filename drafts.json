@@ -1,23 +1,42 @@
 [
   {
-    "id": "4ad2ec46",
+    "id": "69c7b19d",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "Crude oil prices dipped from Thursday's close earlier today but Brent crude was on track for a weekly gain on continued concern about the security of supply from the Middle East.\n\nThe concern persists despite reports about a possible deal between the United States and Iran, as well as estimates of oil flows out of the Strait of Hormuz.\n\nAt the time of writing, Brent crude was trading at $105.65 per barrel, up from around $102 per barrel on Monday.\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Brent-Set-for-Weekly-Gain-as-Houthi-Attacks-Rattle-Saudi-Oil-Supply.html",
+    "draft_text": "Only nine commodity carriers passed through the Strait of Hormuz on Thursday, eight of them exiting the waterway, Reuters reported in its now regular update on tanker numbers in the strait.\n\nThe Thursday total is a further decline on already depressed numbers that have now gone from double to single digits, with the 10-day average at 18.\n\nThe nine tankers that passed through Hormuz yesterday included one very large crude carrier, several Panamaxes and Supramaxes, short- and medium-range smaller carriers, and one ballast very large gas carrier, the\u2026\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Hormuz-Tanker-Transits-Crash-to-Single-Digits-as-Crisis-Deepens.html",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "OILPRICE",
-    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Set-for-Weekly-Gain-as-Houthi-Attacks-Rattle-Saudi-Oil-Supply.html",
-    "source_title": "Brent Set for Weekly Gain as Houthi Attacks Rattle Saudi Oil Supply",
-    "source_summary": "Crude oil prices dipped from Thursday's close earlier today but Brent crude was on track for a weekly gain on continued concern about the security of supply from the Middle East. The concern persists despite reports about a possible deal between the United States and Iran, as well as estimates of oil flows out of the Strait of Hormuz. At the time of writing, Brent crude was trading at $105.65 per ",
-    "drafted_at": "2026-09-25T05:33:54.859343",
+    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Tanker-Transits-Crash-to-Single-Digits-as-Crisis-Deepens.html",
+    "source_title": "Hormuz Tanker Transits Crash to Single Digits as Crisis Deepens",
+    "source_summary": "Only nine commodity carriers passed through the Strait of Hormuz on Thursday, eight of them exiting the waterway, Reuters reported in its now regular update on tanker numbers in the strait. The Thursday total is a further decline on already depressed numbers that have now gone from double to single digits, with the 10-day average at 18. The nine tankers that passed through Hormuz yesterday include",
+    "drafted_at": "2026-09-25T10:45:15.995565",
     "data": {
       "source": "OILPRICE"
     },
-    "content_hash": "41e44c5027cb064f"
+    "content_hash": "c885654f240bac35"
   },
   {
-    "id": "adb1dd86",
+    "id": "b5b4148a",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "The chart told me. Now I'm telling you. VIX tumbles 10.9% in 5 sessions to 15.32.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CBOE \u00b7 ^VIX",
+    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "source_title": "VIX (S&P 500 volatility)",
+    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "drafted_at": "2026-09-25T10:45:15.995865",
+    "data": {
+      "signal_id": "^VIX:move:2026-09-25",
+      "kind": "move_down",
+      "current": "15.32"
+    },
+    "content_hash": "995f4d67e7e875d2"
+  },
+  {
+    "id": "eda0c5fb",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Hot tape: WTI crude tumbles 12.1% in 5 sessions to $93.02.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
@@ -27,7 +46,7 @@
     "source_url": "https://finance.yahoo.com/quote/CL%3DF",
     "source_title": "WTI crude oil futures",
     "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-09-25T05:33:54.859651",
+    "drafted_at": "2026-09-25T10:45:15.996092",
     "data": {
       "signal_id": "CL=F:move:2026-09-25",
       "kind": "move_down",
@@ -36,7 +55,7 @@
     "content_hash": "c272de0720a2f459"
   },
   {
-    "id": "dc669f95",
+    "id": "fc91315e",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Tracks in the snow. Bitcoin surges 11.8% in 5 sessions to $84,503.\n\nBitcoin is now treated as a macro asset alongside gold and tech.\n\nIts swings move alt-coins, public miners, and crypto-exposed stocks.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/BTC-USD",
@@ -46,7 +65,7 @@
     "source_url": "https://finance.yahoo.com/quote/BTC-USD",
     "source_title": "Bitcoin",
     "source_summary": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
-    "drafted_at": "2026-09-25T05:33:54.859939",
+    "drafted_at": "2026-09-25T10:45:15.996354",
     "data": {
       "signal_id": "BTC-USD:move:2026-09-25",
       "kind": "move_up",
@@ -55,7 +74,7 @@
     "content_hash": "0e3396ceb3da7211"
   },
   {
-    "id": "2f277016",
+    "id": "28f1ce54",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Real-time update for the pack: WTI crude slides 7.3% in 5 sessions to $93.94.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
@@ -65,7 +84,7 @@
     "source_url": "https://finance.yahoo.com/quote/CL%3DF",
     "source_title": "WTI crude oil futures",
     "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-09-25T05:33:54.860182",
+    "drafted_at": "2026-09-25T10:45:15.996608",
     "data": {
       "signal_id": "CL=F:move:2026-09-24",
       "kind": "move_down",
@@ -74,7 +93,7 @@
     "content_hash": "c272de0720a2f459"
   },
   {
-    "id": "84ace69b",
+    "id": "1794920e",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Eyes up. Bitcoin jumps 8.0% in 5 sessions to $84,380.\n\nBitcoin is now treated as a macro asset alongside gold and tech.\n\nIts swings move alt-coins, public miners, and crypto-exposed stocks.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/BTC-USD",
@@ -84,7 +103,7 @@
     "source_url": "https://finance.yahoo.com/quote/BTC-USD",
     "source_title": "Bitcoin",
     "source_summary": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
-    "drafted_at": "2026-09-25T05:33:54.860431",
+    "drafted_at": "2026-09-25T10:45:15.996848",
     "data": {
       "signal_id": "BTC-USD:move:2026-09-24",
       "kind": "move_up",
@@ -93,26 +112,41 @@
     "content_hash": "0e3396ceb3da7211"
   },
   {
-    "id": "164eaac5",
-    "format": "MARKET_MOVE",
+    "id": "f55e8887",
+    "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "If you're not watching this, you're behind. VIX drops 5.6% in 5 sessions to 16.14.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
+    "draft_text": "BoE update: Bank of England (BoE) Governor Andrew Bailey said on Friday that the pass-through from higher energy prices remains \u201cquite subdued\u201d so far, while stressing that it is still early days.\n\nhttps://www.fxstreet.com/news/boes-bailey-warns-persistent-high-energy-prices-could-challenge-rate-stance-202609251005",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CBOE \u00b7 ^VIX",
-    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "source_title": "VIX (S&P 500 volatility)",
-    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-09-25T05:33:54.860688",
+    "primary_source": "BoE",
+    "source_url": "https://www.fxstreet.com/news/boes-bailey-warns-persistent-high-energy-prices-could-challenge-rate-stance-202609251005",
+    "source_title": "BoE\u2019s Bailey warns persistent high energy prices could challenge rate stance",
+    "source_summary": "Bank of England (BoE) Governor Andrew Bailey said on Friday that the pass-through from higher energy prices remains \u201cquite subdued\u201d so far, while stressing that it is still early days.",
+    "drafted_at": "2026-09-25T10:45:16.008435",
     "data": {
-      "signal_id": "^VIX:move:2026-09-24",
-      "kind": "move_down",
-      "current": "16.14"
+      "actor": "BoE"
     },
-    "content_hash": "995f4d67e7e875d2"
+    "content_hash": "6fdab0a03991ff92"
   },
   {
-    "id": "cb88debb",
+    "id": "c3d09048",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "Bailey on the wire. A potential rate hike could tighten monetary policy, impacting borrowing costs and economic growth amid persistent inflationary pressures.\n\nThe post Bailey signals potential Bank of England rate hike amid high energy prices appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/bailey-signals-potential-bank-of-england-rate-hike-amid-high-energy-prices/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Bailey",
+    "source_url": "https://cryptobriefing.com/bailey-signals-potential-bank-of-england-rate-hike-amid-high-energy-prices/",
+    "source_title": "Bailey signals potential Bank of England rate hike amid high energy prices",
+    "source_summary": "A potential rate hike could tighten monetary policy, impacting borrowing costs and economic growth amid persistent inflationary pressures. The post Bailey signals potential Bank of England rate hike amid high energy prices appeared first on Crypto Briefing .",
+    "drafted_at": "2026-09-25T10:45:16.008798",
+    "data": {
+      "actor": "Bailey"
+    },
+    "content_hash": "d887d4a861965215"
+  },
+  {
+    "id": "a5e5500e",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "RATE-PATH READ: The first proposal would require that Board-supervised payment stablecoin issuers fully back their stablecoins with certain permissible reserve assets, such as short-term Treasury bills and certain other high-quality, liquid assets.\n\nThe proposal would also establish standardized capital requirements to address certain credit and operational risks of payment stablecoin activities, as well as risk management standards, in accordance with the law.\n\nSeparately, the proposal would introduce rules for Board-supervised firms that safekeep the assets backing payment stablecoins.\n\nIt would also clarify the permissibility of stablecoin and related activities for Board-supervised banks.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
@@ -122,14 +156,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
     "source_title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
     "source_summary": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
-    "drafted_at": "2026-09-25T05:33:54.871936",
+    "drafted_at": "2026-09-25T10:45:16.009944",
     "data": {
       "actor": "FED"
     },
     "content_hash": "849f3138f022c1f3"
   },
   {
-    "id": "35b2390c",
+    "id": "270260b9",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "ECB POSTCARD: The Ring is Euronews\u2019 weekly political showdown, where Europe\u2019s toughest debates meet their boldest voices.\n\nIn each episode, two political heavyweights from across the EU face off to propose a diversity of opinions and spark conversations around the most important issues of EU affairs and the wider European political life.\n\nEuronews Tech Talks goes beyond discussions to explore the impact of new technologies on our lives.\n\nWith explanations, engaging Q&As, and lively conversations, the podcast provides valuable insights into the intersection of technology and society.\n\nEurope's best food experts are joining forces to crack down on fraud.\n\nhttps://www.euronews.com/2026/09/24/ecb-speeches-and-interviews-move-markets-as-much-as-policy-decisions-study-finds",
@@ -139,14 +173,14 @@
     "source_url": "https://www.euronews.com/2026/09/24/ecb-speeches-and-interviews-move-markets-as-much-as-policy-decisions-study-finds",
     "source_title": "ECB speeches and interviews move markets as much as policy decisions, study finds",
     "source_summary": "Markets react not only to ECB policy decisions but also to policymaker speeches and interviews, whose cumulative impact can rival formal announcements, new research finds.",
-    "drafted_at": "2026-09-25T05:33:54.873896",
+    "drafted_at": "2026-09-25T10:45:16.011583",
     "data": {
       "actor": "ECB"
     },
     "content_hash": "c62435844d0898ef"
   },
   {
-    "id": "114f663c",
+    "id": "ae23d4e6",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "From the Eccles Building: The Board also gave its approval for BancFirst, of Oklahoma City, Oklahoma, to merge with SpiritBank and to establish and operate branches at the locations of SpiritBank.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/orders20260922a.htm",
@@ -156,48 +190,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260922a.htm",
     "source_title": "Federal Reserve Board announces approval of application by BancFirst Corporation",
     "source_summary": "Federal Reserve Board announces approval of application by BancFirst Corporation",
-    "drafted_at": "2026-09-25T05:33:54.874242",
+    "drafted_at": "2026-09-25T10:45:16.011915",
     "data": {
       "actor": "FED"
     },
     "content_hash": "2da92d996fa3b14f"
   },
   {
-    "id": "913d8e29",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "If you trade rates, read this: Consent prohibition order against Stephanie K.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FED",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
-    "source_title": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
-    "source_summary": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
-    "drafted_at": "2026-09-25T05:33:54.874482",
-    "data": {
-      "actor": "FED"
-    },
-    "content_hash": "140b0fd2a09d0598"
-  },
-  {
-    "id": "2f31ac6a",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "FED WATCH: The Committee decided to raise the target range for the federal funds rate by 1/4 percentage point to 3-3/4 to 4 percent, in support of the Federal Reserve's dual mandate.\n\nJob gains have kept pace with the workforce, and the unemployment rate has changed little.\n\nToday's policy action will support a timelier return to the Committee's 2 percent goal.\n\nThe Committee is continuing its policy of maintaining ample reserves in the banking system.\n\nEconomic activity is expanding at a solid pace.\n\nWhile uncertainty remains elevated owing, in part, to geopolitical developments, domestic spending has been resilient.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FED",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-    "source_title": "Federal Reserve issues FOMC statement",
-    "source_summary": "Federal Reserve issues FOMC statement",
-    "drafted_at": "2026-09-25T05:33:54.875423",
-    "data": {
-      "actor": "FED"
-    },
-    "content_hash": "5d2f5ae91098e170"
-  },
-  {
-    "id": "b2da9110",
+    "id": "0c168c7d",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$ANGX \u2014 3 company insiders bought $5.9M on Sep 11.\n\nAngel Studios, Inc. 1,288,309 shares at $4.55.\n\nStock is +6.8% since the purchase. This is a public SEC Form 4 filing.",
@@ -207,7 +207,7 @@
     "source_url": "http://openinsider.com/screener?s=ANGX",
     "source_title": "Angel Studios, Inc. (ANGX) insider bought $5.9M",
     "source_summary": "3 insider(s) bought 1,288,309 shares at $4.55 on 2026-09-11.",
-    "drafted_at": "2026-09-25T05:33:54.875730",
+    "drafted_at": "2026-09-25T10:45:16.013350",
     "data": {
       "ticker": "ANGX",
       "type": "P",
@@ -217,7 +217,7 @@
     "content_hash": "17f5a21771b676b3"
   },
   {
-    "id": "fe0afc70",
+    "id": "0540ef29",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$HHH \u2014 2 company insiders bought $1.7M on Sep 23.\n\nHoward Hughes Holdings Inc. 26,000 shares at $64.13.\n\nStock is -0.6% since the purchase. This is a public SEC Form 4 filing.",
@@ -227,7 +227,7 @@
     "source_url": "http://openinsider.com/screener?s=HHH",
     "source_title": "Howard Hughes Holdings Inc. (HHH) insider bought $1.7M",
     "source_summary": "2 insider(s) bought 26,000 shares at $64.13 on 2026-09-23.",
-    "drafted_at": "2026-09-25T05:33:54.875941",
+    "drafted_at": "2026-09-25T10:45:16.013571",
     "data": {
       "ticker": "HHH",
       "type": "P",
@@ -237,7 +237,7 @@
     "content_hash": "45c9935383910314"
   },
   {
-    "id": "11c7c634",
+    "id": "ff2b7e5f",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$CELH \u2014 3 company insiders bought $1.8M on Sep 15.\n\nCelsius Holdings, Inc. 66,000 shares at $27.73.\n\nStock is +2.5% since the purchase. This is a public SEC Form 4 filing.",
@@ -247,7 +247,7 @@
     "source_url": "http://openinsider.com/screener?s=CELH",
     "source_title": "Celsius Holdings, Inc. (CELH) insider bought $1.8M",
     "source_summary": "3 insider(s) bought 66,000 shares at $27.73 on 2026-09-15.",
-    "drafted_at": "2026-09-25T05:33:54.876136",
+    "drafted_at": "2026-09-25T10:45:16.013765",
     "data": {
       "ticker": "CELH",
       "type": "P",
@@ -257,7 +257,7 @@
     "content_hash": "9521e825e6c4fa5d"
   },
   {
-    "id": "99c0be8d",
+    "id": "1e6b7d8b",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$CRBG \u2014 a company insider bought $10.2M on Sep 22.\n\nCorebridge Financial, Inc. 296,868 shares at $34.31.\n\nStock is -0.6% since the purchase. This is a public SEC Form 4 filing.",
@@ -267,7 +267,7 @@
     "source_url": "http://openinsider.com/screener?s=CRBG",
     "source_title": "Corebridge Financial, Inc. (CRBG) insider bought $10.2M",
     "source_summary": "1 insider(s) bought 296,868 shares at $34.31 on 2026-09-22.",
-    "drafted_at": "2026-09-25T05:33:54.876331",
+    "drafted_at": "2026-09-25T10:45:16.013950",
     "data": {
       "ticker": "CRBG",
       "type": "P",
@@ -277,7 +277,7 @@
     "content_hash": "f6ee9c8689c5e600"
   },
   {
-    "id": "d4b10a15",
+    "id": "1cc666eb",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$GSHD \u2014 a company insider bought $7.1M on Sep 22.\n\nGoosehead Insurance, Inc. 150,000 shares at $47.32.\n\nStock is -7.8% since the purchase. This is a public SEC Form 4 filing.",
@@ -287,7 +287,7 @@
     "source_url": "http://openinsider.com/screener?s=GSHD",
     "source_title": "Goosehead Insurance, Inc. (GSHD) insider bought $7.1M",
     "source_summary": "1 insider(s) bought 150,000 shares at $47.32 on 2026-09-22.",
-    "drafted_at": "2026-09-25T05:33:54.876523",
+    "drafted_at": "2026-09-25T10:45:16.014130",
     "data": {
       "ticker": "GSHD",
       "type": "P",
@@ -297,92 +297,92 @@
     "content_hash": "159fbd62e9f997c8"
   },
   {
-    "id": "577d8b55",
+    "id": "7186f0c3",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "Bitget CEO Gracy Chen said North Korea was \u201cvery likely\u201d behind the $350 million Bitget hack.\n\nThe attackers breached a backend system and never obtained private keys, she added.\n\nWithdrawals remain suspended after the September 24 breach.\n\nhttps://beincrypto.com/bitget-hack-north-korea-gracy-chen/",
+    "draft_text": "The seizure highlights vulnerabilities in crypto banking partnerships, potentially deterring small banks from engaging with crypto firms.\n\nThe post US seizes Capstone\u2019s bank accounts over alleged illegal transfers for Tether and Bitfinex appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/us-seizes-capstone-accounts-tether-bitfinex/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/us-seizes-capstone-accounts-tether-bitfinex/",
+    "source_title": "US seizes Capstone\u2019s bank accounts over alleged illegal transfers for Tether and Bitfinex",
+    "source_summary": "The seizure highlights vulnerabilities in crypto banking partnerships, potentially deterring small banks from engaging with crypto firms. The post US seizes Capstone\u2019s bank accounts over alleged illegal transfers for Tether and Bitfinex appeared first on Crypto Briefing .",
+    "drafted_at": "2026-09-25T10:45:16.017158",
+    "data": {
+      "source": "CRYPTO BRIEFING"
+    },
+    "content_hash": "6201a1806065b2d7"
+  },
+  {
+    "id": "7e08bc35",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Deep-red states keep electing Republicans who govern against their voters.\n\nDemocrats campaign on anti-corruption and inflation in swing states while delivering nothing but leftism in their bluest states.\n\nRepublican voters should expect their reddest states to govern just as aggressively on the right.\n\nhttps://www.theblaze.com/columns/opinion/want-fewer-rinos-give-gop-conventions-more-power",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "THE BLAZE",
+    "source_url": "https://www.theblaze.com/columns/opinion/want-fewer-rinos-give-gop-conventions-more-power",
+    "source_title": "Want fewer RINOs? Give GOP conventions more power",
+    "source_summary": "Deep-red states keep electing Republicans who govern against their voters. Democrats campaign on anti-corruption and inflation in swing states while delivering nothing but leftism in their bluest states. Republican voters should expect their reddest states to govern just as aggressively on the right. Instead, Republicans-in-name-only dominate. Whenever I demand action against red-state RINOs, the ",
+    "drafted_at": "2026-09-25T10:45:16.019547",
+    "data": {
+      "source": "THE BLAZE"
+    },
+    "content_hash": "1c1a15d7f34fc795"
+  },
+  {
+    "id": "5f52bfa9",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Back in April, BlazeTV host Sara Gonzales confronted Indian national Nagarjuna Reddy Sakam regarding numerous indicators of H-1B fraud in his business, Great America Technologies.\n\nTheir exchange was deeply contentious, with Sakam threatening Sara with a lawsuit.\n\nOn this episode of \u201cSara Gonzales Unfiltered,\u201d Sara shares the latest updates on Nagarjuna Reddy Sakam.\n\nhttps://www.theblaze.com/shows/sara-gonzales-unfiltered/he-got-afraid-former-employee-of-alleged-h-1b-fraudster-reveals-what-happened-after-sara-gonzales-expose",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "THE BLAZE",
+    "source_url": "https://www.theblaze.com/shows/sara-gonzales-unfiltered/he-got-afraid-former-employee-of-alleged-h-1b-fraudster-reveals-what-happened-after-sara-gonzales-expose",
+    "source_title": "\u2018He got afraid\u2019: Former employee of alleged H-1B fraudster reveals what happened after Sara Gonzales expos\u00e9",
+    "source_summary": "Back in April, BlazeTV host Sara Gonzales confronted Indian national Nagarjuna Reddy Sakam regarding numerous indicators of H-1B fraud in his business, Great America Technologies. Their exchange was deeply contentious, with Sakam threatening Sara with a lawsuit. Four months later, the tide has turned. On this episode of \u201cSara Gonzales Unfiltered,\u201d Sara shares the latest updates on Nagarjuna Reddy ",
+    "drafted_at": "2026-09-25T10:45:16.020725",
+    "data": {
+      "source": "THE BLAZE"
+    },
+    "content_hash": "5ffc379185c6821e"
+  },
+  {
+    "id": "4b8a4576",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "KelpDAO says LayerZero endorsed its bridge setup before the attack, while CEO Bryan Pellegrino has dismissed the lawsuit as meritless.\n\nhttps://cointelegraph.com/news/kelpdao-layerzero-lawsuit-rseth-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "COINTELEGRAPH",
+    "source_url": "https://cointelegraph.com/news/kelpdao-layerzero-lawsuit-rseth-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source_title": "KelpDAO sues LayerZero, CEO over $292M rsETH bridge exploit",
+    "source_summary": "KelpDAO says LayerZero endorsed its bridge setup before the attack, while CEO Bryan Pellegrino has dismissed the lawsuit as meritless.",
+    "drafted_at": "2026-09-25T10:45:16.020901",
+    "data": {
+      "source": "COINTELEGRAPH"
+    },
+    "content_hash": "b207e24b00a20c7c"
+  },
+  {
+    "id": "fe595465",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Kelp DAO sues LayerZero and Bryan Pellegrino, blaming them for the $292 million rsETH bridge exploit in April.\n\nThe post Kelp DAO Sues LayerZero and Co-Founder Over $292 Million rsETH Exploit appeared first on BeInCrypto.\n\nhttps://beincrypto.com/kelp-dao-sues-layerzero-rseth-exploit/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "BEINCRYPTO",
-    "source_url": "https://beincrypto.com/bitget-hack-north-korea-gracy-chen/",
-    "source_title": "North Korean Hackers \u201cVery Likely\u201d Drained $350 Million From Bitget, CEO Says",
-    "source_summary": "Bitget CEO Gracy Chen said North Korea was \u201cvery likely\u201d behind the $350 million Bitget hack. The attackers breached a backend system and never obtained private keys, she added. Withdrawals remain suspended after the September 24 breach. DefiLlama data now ranks it as the largest crypto hack of 2026. Chen Follows a VPN Trail to The post North Korean Hackers \u201cVery Likely\u201d Drained $350 Million From ",
-    "drafted_at": "2026-09-25T05:33:54.879703",
+    "source_url": "https://beincrypto.com/kelp-dao-sues-layerzero-rseth-exploit/",
+    "source_title": "Kelp DAO Sues LayerZero and Co-Founder Over $292 Million rsETH Exploit",
+    "source_summary": "Kelp DAO sues LayerZero and Bryan Pellegrino, blaming them for the $292 million rsETH bridge exploit in April. The post Kelp DAO Sues LayerZero and Co-Founder Over $292 Million rsETH Exploit appeared first on BeInCrypto .",
+    "drafted_at": "2026-09-25T10:45:16.021142",
     "data": {
       "source": "BEINCRYPTO"
     },
-    "content_hash": "84f1786fd9aab3cd"
+    "content_hash": "fb869aa5d5ef5014"
   },
   {
-    "id": "c6163f6d",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "California's High-Speed Money Laundering, and It's All Perfectly Legal\n\nhttps://townhall.com/columnists/jay-rogers/2026/09/25/californias-high-speed-money-laundering-and-its-all-perfectly-legal-n2683490",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "TOWNHALL FIN",
-    "source_url": "https://townhall.com/columnists/jay-rogers/2026/09/25/californias-high-speed-money-laundering-and-its-all-perfectly-legal-n2683490",
-    "source_title": "California's High-Speed Money Laundering, and It's All Perfectly Legal",
-    "source_summary": "",
-    "drafted_at": "2026-09-25T05:33:54.879783",
-    "data": {
-      "source": "TOWNHALL FIN"
-    },
-    "content_hash": "22865739586d9aef"
-  },
-  {
-    "id": "071bf795",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Nikkei gains 1.2% as chip stocks and dividend buying lift Tokyo, SoftBank slips on Oracle Goldman stays bullish on AI as cloud giants' spending heads towards $1.2 trillion Katayama says Trump raised weak yen concerns with Takaichi, USD/JPY eases below 158.50 Recession signal flashes on Oxford Economics' US indicator, but spending shows no sign of cracking Tether confirms funds stuck at troubled offshore bank EQIBank, says exposure is tiny Bitget hack: attackers faked transfers, not keys, as CEO points to North Korea Goldman cuts USD/JPY forecasts, sees 150 in a year as BOJ tightening boosts yen case Tokenised deposits, stablecoins and CBDCs: three kinds of digital money explained Bitget loses $351.6 million to hackers, so why is BGB barely flinching?\n\nDaiwa sees next BOJ rate hike in December as Ueda signals shift in policy phase US 30-year Treasury yield nears 5.5%, highest since 2004, as global bond rout deepens Morgan Stanley says it's time to look beyond chips as AI benefits spread to Airbnb, Home Depot and more Trump, Johnson to meet tech CEOs on AI September 29 as pressure to regulate builds Hackers drain $351.6 million from Bitget in possibly 2026's biggest crypto heist China shuts for Mid-Autumn Festival holiday today, a preview of the week-long National Day gap to come UBS says Fed hike fears overdone as 10-year Treasury yield breaks above 5.1% Iran's Pezeshkian seeks US ceasefire deal before midterms, signals nuclear openness ICYMI: France to send troops and air defences to Saudi Arabia's Yanbu as Houthi attacks mount investingLive Americas FX news wrap 24 Sept: USD and Treasury yields climb as Iran headlines lift stocks off their lows Trump and Xi buy two more months of trade truce, leaving tariffs and rare earths in limbo Oil jumps to one-week high as Houthi strikes on Saudi Arabia outweigh Hormuz deal hopes Sticky core inflation pushes RBA towards its highest cash rate since 2011 Summary: Iran offered to reopen Hormuz and start nuclear talks within seven days of the US accepting its terms.\n\nThose terms are a return to the June memorandum, lifting the blockade, unfreezing some assets, restoring the oil sanctions waiver and ending Israel's war in southern Lebanon.\n\nhttps://investinglive.com/news/investinglive-asia-pacific-market-news-iran-offers-seven-day-hormuz-dea/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-iran-offers-seven-day-hormuz-dea/",
-    "source_title": "investingLive Asia-Pacific market news: Iran offers seven-day Hormuz dea",
-    "source_summary": "Nikkei gains 1.2% as chip stocks and dividend buying lift Tokyo, SoftBank slips on Oracle Goldman stays bullish on AI as cloud giants' spending heads towards $1.2 trillion Katayama says Trump raised weak yen concerns with Takaichi, USD/JPY eases below 158.50 Recession signal flashes on Oxford Economics' US indicator, but spending shows no sign of cracking Tether confirms funds stuck at troubled of",
-    "drafted_at": "2026-09-25T05:33:54.883426",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "fc14a9bc70fa5512"
-  },
-  {
-    "id": "cd796b6c",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Cambodian Prime Minister Hun Manet promised that his country will \u201cnever be a safe haven for online scams\u201d at a global conference on cyber-fraud in Phnom Penh on Wednesday.\n\nThe post Cambodia Stages \u2018Cyber-Fraud\u2019 Summit to Address Global Scammers appeared first on Breitbart.\n\nhttps://www.breitbart.com/asia/2026/09/24/cambodia-stages-cyber-fraud-summit-to-address-global-scammers/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "BREITBART",
-    "source_url": "https://www.breitbart.com/asia/2026/09/24/cambodia-stages-cyber-fraud-summit-to-address-global-scammers/",
-    "source_title": "Cambodia Stages 'Cyber-Fraud' Summit to Address Global Scammers",
-    "source_summary": "Cambodian Prime Minister Hun Manet promised that his country will \u201cnever be a safe haven for online scams\u201d at a global conference on cyber-fraud in Phnom Penh on Wednesday. The post Cambodia Stages \u2018Cyber-Fraud\u2019 Summit to Address Global Scammers appeared first on Breitbart .",
-    "drafted_at": "2026-09-25T05:33:54.883774",
-    "data": {
-      "source": "BREITBART"
-    },
-    "content_hash": "216842603c444092"
-  },
-  {
-    "id": "3c8beecc",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "\"We're in an environment where we all want to be looking to the founders, right?\".\n\nhttps://fortune.com/2026/09/24/over-50-federal-prosecutors-trump-100000-month-insider-trading/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FORTUNE",
-    "source_url": "https://fortune.com/2026/09/24/over-50-federal-prosecutors-trump-100000-month-insider-trading/",
-    "source_title": "\u2018It\u2019s so corrosive to democracy\u2019: Over 50 federal prosecutors speak out against Trump\u2019s $100,000 a month \u2018insider trading\u2019 scheme",
-    "source_summary": "\"We're in an environment where we all want to be looking to the founders, right?\"",
-    "drafted_at": "2026-09-25T05:33:54.883910",
-    "data": {
-      "source": "FORTUNE"
-    },
-    "content_hash": "918c1a86402c5fdb"
-  },
-  {
-    "id": "a9851c8b",
+    "id": "9d8e8abc",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $SPCX this year \u2014 and these filings don't show them selling:\n\n\u2022 Daniel Meuser (R)\n\u2022 Jared Moskowitz (D)\n\u2022 John McGuire (R)\n\u2022 Gilbert Cisneros (D)\n\nLargest disclosed here: Daniel Meuser, $15,001 - $50,000 on Jun 15.\n\nPrice since the first buy in this group: -7.8%.\n\nSTOCK Act disclosures. Public record.",
@@ -392,7 +392,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034774.pdf",
     "source_title": "4 Congress members bought $SPCX",
     "source_summary": "4 politicians bought $SPCX; largest $15,001 - $50,000 by Daniel Meuser.",
-    "drafted_at": "2026-09-25T05:33:54.885157",
+    "drafted_at": "2026-09-25T10:45:16.026573",
     "data": {
       "ticker": "SPCX",
       "member_count": 4,
@@ -401,7 +401,7 @@
     "content_hash": "585711bf88956fa9"
   },
   {
-    "id": "c6e88042",
+    "id": "5068c5e5",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $NVDA this year \u2014 and these filings don't show them selling:\n\n\u2022 Michael Rulli (R)\n\u2022 Cleo Fields (D)\n\u2022 Gilbert Cisneros (D)\n\u2022 John J Mr McGuire (R)\n\nLargest disclosed here: Michael Rulli, $1,001 - $15,000 on Jun 25.\n\nPrice since the first buy in this group: +15.2%.\n\nSTOCK Act disclosures. Public record.",
@@ -411,7 +411,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035147.pdf",
     "source_title": "4 Congress members bought $NVDA",
     "source_summary": "4 politicians bought $NVDA; largest $1,001 - $15,000 by Michael Rulli.",
-    "drafted_at": "2026-09-25T05:33:54.885465",
+    "drafted_at": "2026-09-25T10:45:16.026904",
     "data": {
       "ticker": "NVDA",
       "member_count": 4,
@@ -420,7 +420,7 @@
     "content_hash": "f6cf25ab3c00fb6f"
   },
   {
-    "id": "78c92de7",
+    "id": "c8a7196f",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $MU this year \u2014 and these filings don't show them selling:\n\n\u2022 Josh Gottheimer (D)\n\u2022 Sheldon Whitehouse (D)\n\u2022 Michael Rulli (R)\n\u2022 Dan Newhouse (R)\n\nLargest disclosed here: Josh Gottheimer, $1,001 - $15,000 on May 21.\n\nPrice since the first buy in this group: +40.6%.\n\nSTOCK Act disclosures. Public record.",
@@ -430,7 +430,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034693.pdf",
     "source_title": "4 Congress members bought $MU",
     "source_summary": "4 politicians bought $MU; largest $1,001 - $15,000 by Josh Gottheimer.",
-    "drafted_at": "2026-09-25T05:33:54.885801",
+    "drafted_at": "2026-09-25T10:45:16.027223",
     "data": {
       "ticker": "MU",
       "member_count": 4,
@@ -439,7 +439,7 @@
     "content_hash": "7c265a3a54605da1"
   },
   {
-    "id": "adc3b272",
+    "id": "4615ed2d",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 Gilbert Cisneros (D)\n\u2022 Cleo Fields (D)\n\u2022 Jared Moskowitz (D)\n\nLargest disclosed here: Gilbert Cisneros, $15,001 - $50,000 on Jul 17.\n\nPrice since the first buy in this group: +27.6%.\n\nSTOCK Act disclosures. Public record.",
@@ -449,7 +449,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf",
     "source_title": "3 Congress members bought $MSFT",
     "source_summary": "3 politicians bought $MSFT; largest $15,001 - $50,000 by Gilbert Cisneros.",
-    "drafted_at": "2026-09-25T05:33:54.886089",
+    "drafted_at": "2026-09-25T10:45:16.027537",
     "data": {
       "ticker": "MSFT",
       "member_count": 3,
@@ -458,7 +458,7 @@
     "content_hash": "a21583cf45f73c88"
   },
   {
-    "id": "9474afef",
+    "id": "c06b3648",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 Gilbert Cisneros (D)\n\u2022 Cleo Fields (D)\n\u2022 Jared Moskowitz (D)\n\nLargest disclosed here: Gilbert Cisneros, $50,001 - $100,000 on May 15.\n\nPrice since the first buy in this group: +18.6%.\n\nSTOCK Act disclosures. Public record.",
@@ -468,7 +468,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034713.pdf",
     "source_title": "3 Congress members bought $MSFT",
     "source_summary": "3 politicians bought $MSFT; largest $50,001 - $100,000 by Gilbert Cisneros.",
-    "drafted_at": "2026-09-25T05:33:54.886369",
+    "drafted_at": "2026-09-25T10:45:16.027831",
     "data": {
       "ticker": "MSFT",
       "member_count": 3,
@@ -477,109 +477,160 @@
     "content_hash": "568a39394ccac4dc"
   },
   {
-    "id": "01639f79",
+    "id": "667030f8",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From the international wire: The Indian Rupee (INR) gains a temporary ground against the US Dollar (USD) on Friday after remaining under pressure in the past few days.\n\nThe USD/INR pair struggles to extend gains above 95.96 on the likely Reserve Bank of India\u2019s (RBI) intervention.\n\nhttps://www.fxstreet.com/news/indian-rupee-cushioned-by-rbis-likely-intervention-outlook-remain-fragile-202609250528",
+    "draft_text": "APAC wire: Japanese Finance Minister (FM) Satsuki Katayama stresses on Bank of Japan\u2019s (BoJ) independence while speaking during the European trading session on Friday.\n\nThis is the second time in the day when Katayama has delivered remarks on economy and currency.\n\nhttps://www.fxstreet.com/news/japans-katayama-takaichi-very-much-respects-the-independence-of-the-boj-202609251035",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/indian-rupee-cushioned-by-rbis-likely-intervention-outlook-remain-fragile-202609250528",
-    "source_title": "Indian Rupee cushioned by RBI\u2019s likely intervention, outlook remain fragile",
-    "source_summary": "The Indian Rupee (INR) gains a temporary ground against the US Dollar (USD) on Friday after remaining under pressure in the past few days. The USD/INR pair struggles to extend gains above 95.96 on the likely Reserve Bank of India\u2019s (RBI) intervention.",
-    "drafted_at": "2026-09-25T05:33:54.888095",
+    "source_url": "https://www.fxstreet.com/news/japans-katayama-takaichi-very-much-respects-the-independence-of-the-boj-202609251035",
+    "source_title": "Japan\u2019s Katayama: Takaichi very much respects the independence of the BoJ",
+    "source_summary": "Japanese Finance Minister (FM) Satsuki Katayama stresses on Bank of Japan\u2019s (BoJ) independence while speaking during the European trading session on Friday. This is the second time in the day when Katayama has delivered remarks on economy and currency.",
+    "drafted_at": "2026-09-25T10:45:16.029353",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "b80eb47a7e2d103f"
+    "content_hash": "5b0b1079a4dc7a50"
   },
   {
-    "id": "688eaa86",
+    "id": "6a0f943e",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From the international wire: Ukraine has targeted an industrial plant in Russia's Perm region with a massive drone swarm.\n\nhttps://www.aljazeera.com/video/newsfeed/2026/9/25/multiple-regions-in-russia-come-under-ukrainian-drone-attacks?traffic_source=rss",
+    "draft_text": "PACK BRIEFING \u2014 CHINA: 25, 2026 (GLOBE NEWSWIRE) -- Bilibili Inc. (\u201cBilibili\u201d or the \u201cCompany\u201d) (Nasdaq: BILI and HKEX: 9626), an iconic brand and a leading video community for young generations in China, today published a circular (the \u201cEGM Circular\u201d) to provide shareholders with information on the proposals that will be put forward at the Company\u2019s upcoming extraordinary general meeting of the shareholders (the \u201cEGM\u201d) for shareholders\u2019 approval and a notice of the EGM (the \u201cEGM Notice\u201d).\n\nThe EGM will be held at Building 3, Guozheng Center, No.\n\n485 Zhengli Road, Yangpu District, Shanghai, People\u2019s Republic of China, on October 28, 2026 at 4:30 p.m. (Beijing time).\n\nThe EGM Circular, the EGM Notice and the form of proxy for the EGM are available on the Company\u2019s investor relations website at http://ir.bilibili.com.\n\nhttps://www.globenewswire.com/news-release/2026/09/25/3369003/0/en/bilibili-inc-to-hold-extraordinary-general-meeting-on-october-28-2026.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "GLOBENEWSWIRE",
+    "source_url": "https://www.globenewswire.com/news-release/2026/09/25/3369003/0/en/bilibili-inc-to-hold-extraordinary-general-meeting-on-october-28-2026.html",
+    "source_title": "Bilibili Inc. to Hold Extraordinary General Meeting on October 28, 2026",
+    "source_summary": "SHANGHAI, Sept. 25, 2026 (GLOBE NEWSWIRE) -- Bilibili Inc. (\u201cBilibili\u201d or the \u201cCompany\u201d) (Nasdaq: BILI and HKEX: 9626), an iconic brand and a leading video community for young generations in China, today published a circular (the \u201cEGM Circular\u201d) to provide shareholders with information on the proposals that will be put forward at the Company\u2019s upcoming extraordinary general meeting of the sharehol",
+    "drafted_at": "2026-09-25T10:45:16.030760",
+    "data": {
+      "source": "GLOBENEWSWIRE"
+    },
+    "content_hash": "2c0fed23efe50335"
+  },
+  {
+    "id": "98ab9268",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "From the Gulf: The war on Iran is raising the cost of living in Nigeria.\n\nhttps://www.aljazeera.com/video/newsfeed/2026/9/25/rising-malnutrition-in-nigeria-as-us-war-on-iran-raises-food-costs?traffic_source=rss",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/video/newsfeed/2026/9/25/multiple-regions-in-russia-come-under-ukrainian-drone-attacks?traffic_source=rss",
-    "source_title": "Multiple regions in Russia come under Ukrainian drone attacks",
-    "source_summary": "Ukraine has targeted an industrial plant in Russia's Perm region with a massive drone swarm.",
-    "drafted_at": "2026-09-25T05:33:54.888435",
+    "source_url": "https://www.aljazeera.com/video/newsfeed/2026/9/25/rising-malnutrition-in-nigeria-as-us-war-on-iran-raises-food-costs?traffic_source=rss",
+    "source_title": "Rising malnutrition in Nigeria as US war on Iran raises food costs",
+    "source_summary": "The war on Iran is raising the cost of living in Nigeria.",
+    "drafted_at": "2026-09-25T10:45:16.031078",
     "data": {
       "source": "AL JAZEERA"
     },
-    "content_hash": "036d246316ca7c2e"
+    "content_hash": "dc8e7e1e9342f0c9"
   },
   {
-    "id": "f1c80c25",
+    "id": "df8a7b3b",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "GLOBAL DESK: Lightspeed's strategic shift to early-stage AI investments in India reflects a broader industry trend prioritizing AI innovation and agility.\n\nThe post Lightspeed targets $300\u2013$350M for new early-stage AI fund in India appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/lightspeed-india-ai-fund-early-stage/",
+    "draft_text": "World wire: Commerzbank\u2019s India section notes September flash PMIs pointing to stronger end-Q3 activity, with both manufacturing and services indices well above 50.\n\nDomestic demand is robust, but elevated input and output prices, especially in manufacturing, keep upside inflation risks high.\n\nhttps://www.fxstreet.com/news/indian-rupee-pmis-show-growth-and-inflation-risks-commerzbank-202609251003",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/lightspeed-india-ai-fund-early-stage/",
-    "source_title": "Lightspeed targets $300\u2013$350M for new early-stage AI fund in India",
-    "source_summary": "Lightspeed's strategic shift to early-stage AI investments in India reflects a broader industry trend prioritizing AI innovation and agility. The post Lightspeed targets $300\u2013$350M for new early-stage AI fund in India appeared first on Crypto Briefing .",
-    "drafted_at": "2026-09-25T05:33:54.889092",
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/indian-rupee-pmis-show-growth-and-inflation-risks-commerzbank-202609251003",
+    "source_title": "Indian Rupee: PMIs show growth and inflation risks \u2013 Commerzbank",
+    "source_summary": "Commerzbank\u2019s India section notes September flash PMIs pointing to stronger end-Q3 activity, with both manufacturing and services indices well above 50. Domestic demand is robust, but elevated input and output prices, especially in manufacturing, keep upside inflation risks high.",
+    "drafted_at": "2026-09-25T10:45:16.032685",
     "data": {
-      "source": "CRYPTO BRIEFING"
+      "source": "FXSTREET"
     },
-    "content_hash": "3fc8644fb923d1cd"
+    "content_hash": "1bcdbfe1ff022ae4"
   },
   {
-    "id": "5a669cd3",
+    "id": "f96b7342",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "MIDDLE EAST DESK: Crude oil prices dipped from Thursday's close earlier today but Brent crude was on track for a weekly gain on continued concern about the security of supply from the Middle East.\n\nThe concern persists despite reports about a possible deal between the United States and Iran, as well as estimates of oil flows out of the Strait of Hormuz.\n\nAt the time of writing, Brent crude was trading at $105.65 per barrel, up from around $102 per barrel on Monday.\n\nWest Texas Intermediate, on the other hand, is ending the week with a dip, trading at $93.11\u2026\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Brent-Set-for-Weekly-Gain-as-Houthi-Attacks-Rattle-Saudi-Oil-Supply.html",
+    "draft_text": "From the Gulf: Benjamin Netanyahu spoke at the UN, bragging about Israel's many victories in its 8 front war, Iran issued warnings aplenty, and Ansar Allah hit the Saudis hard and deep.\n\nhttps://www.nakedcapitalism.com/2026/09/iran-war-netanyahu-un-iran-threatens-regional-airports-yemen-hits-saudis-hard.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "OILPRICE",
-    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Set-for-Weekly-Gain-as-Houthi-Attacks-Rattle-Saudi-Oil-Supply.html",
-    "source_title": "Brent Set for Weekly Gain as Houthi Attacks Rattle Saudi Oil Supply",
-    "source_summary": "Crude oil prices dipped from Thursday's close earlier today but Brent crude was on track for a weekly gain on continued concern about the security of supply from the Middle East. The concern persists despite reports about a possible deal between the United States and Iran, as well as estimates of oil flows out of the Strait of Hormuz. At the time of writing, Brent crude was trading at $105.65 per ",
-    "drafted_at": "2026-09-25T05:33:54.889780",
+    "primary_source": "NAKED CAPITAL",
+    "source_url": "https://www.nakedcapitalism.com/2026/09/iran-war-netanyahu-un-iran-threatens-regional-airports-yemen-hits-saudis-hard.html",
+    "source_title": "Iran War: Netanyahu Brags About His Crimes at the UN, Iran Threatens Regional Airports, Yemen Hits Saudis Hard",
+    "source_summary": "Benjamin Netanyahu spoke at the UN, bragging about Israel's many victories in its 8 front war, Iran issued warnings aplenty, and Ansar Allah hit the Saudis hard and deep.",
+    "drafted_at": "2026-09-25T10:45:16.032935",
     "data": {
-      "source": "OILPRICE"
+      "source": "NAKED CAPITAL"
     },
-    "content_hash": "41e44c5027cb064f"
+    "content_hash": "a65b52304cfa80af"
   },
   {
-    "id": "2cf2b174",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "CHINA DESK: And so the Trump-Xi summit this week delivered what markets probably needed most.\n\nThat being no fresh escalation between the two largest economies in the world.\n\nBut beyond that, there wasn't much of any breakthrough either.\n\nThe clearest takeaway is the extension of the existing US-China trade truce by another two months to 10 January.\n\nThat keeps the existing tariffs regime in place and gives both sides more time to negotiate what Bessent has described as a potentially broader agreement.\n\nSo for now though, the difficult issues haven't really gone anywhere.\n\nThe US still wants China to step up agricultural purchases and to meet its commitments, while also raising concerns that China's rare earth deliveries have fallen short.\n\nAnd honestly, that is hardly surprising given China's previous track record and how we saw the Phase One trade deal unfolded back in 2018-19.\n\nhttps://investinglive.com/news/trump-xi-summit-extends-the-trade-truce-but-leaves-the-biggest-market-questions-unresolved/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/trump-xi-summit-extends-the-trade-truce-but-leaves-the-biggest-market-questions-unresolved/",
-    "source_title": "Trump-Xi summit extends the trade truce but leaves the biggest market questions unresolved",
-    "source_summary": "And so the Trump-Xi summit this week delivered what markets probably needed most. That being no fresh escalation between the two largest economies in the world. But beyond that, there wasn't much of any breakthrough either. The clearest takeaway is the extension of the existing US-China trade truce by another two months to 10 January. That keeps the existing tariffs regime in place and gives both ",
-    "drafted_at": "2026-09-25T05:33:54.891158",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "440c6c050dd43305"
-  },
-  {
-    "id": "d515afca",
+    "id": "73b1350f",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "From the inflation desk: A recession signal against a backdrop of strong data makes it a useful counterpoint for bond markets.\n\nIt gives Treasury bulls an argument just as 10-year yields sit above 5.2% and Fed hike odds are rising.\n\nMarkets are unlikely to react much for now, because Oxford itself plays down the signal and current data points the other way.\n\nThe warning matters more as a sign of what could go wrong if energy prices stay high and borrowing costs keep rising.\n\nAny softening in spending data would give it far more weight quickly. --- Oxford Economics' US indicator says recession, but consumers and AI spending say otherwise.\n\nIt's a reminder that energy costs and a shrinking labour pool are building pressure beneath some very strong headline data.\n\nSummary: Oxford Economics' US business-cycle indicator has fallen into the recession zone Higher energy prices squeezing real incomes and slower immigration weighing on job growth are the main drivers The firm warns the signal may not be definitive, citing strong productivity and a wealth effect supporting spending Households have not shown the shift to cheaper spending that typically comes with recessions AI infrastructure spending, high profit margins and recent tax cuts are underpinning business investment Tariffs and policy uncertainty remain the key downside risks Oxford Economics says its US business-cycle indicator has slipped into recession territory.\n\nThe forecaster stresses the signal may not be conclusive, with strong productivity, resilient consumers and AI-driven investment still supporting the economy.\n\nhttps://investinglive.com/news/recession-signal-flashes-on-oxford-economics-us-indicator-but-spending-shows-no-sign-of-cracking/",
+    "draft_text": "Growth read just printed. Market Minder, Fisher Investments After oil's spike early this year failed to upend global GDP growth and stocks, diesel's recent rise to record highs has fears of energy costs once again...\n\nhttps://www.realclearmarkets.com/2026/09/25/record_high_diesel_prices_wont_stall_econ_growth_1208148.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "REALCLEAR",
+    "source_url": "https://www.realclearmarkets.com/2026/09/25/record_high_diesel_prices_wont_stall_econ_growth_1208148.html",
+    "source_title": "Record High Diesel Prices Won't Stall Econ. Growth",
+    "source_summary": "Market Minder, Fisher Investments After oil's spike early this year failed to upend global GDP growth and stocks, diesel's recent rise to record highs has fears of energy costs once again...",
+    "drafted_at": "2026-09-25T10:45:16.099890",
+    "data": {
+      "source": "REALCLEAR"
+    },
+    "content_hash": "fd01469d7283ecf4"
+  },
+  {
+    "id": "6bb1f67e",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "How fast is the economy moving? Now we know: Spain Q2 final GDP +0.7% vs +0.7% q/q expected Prior +0.6% The breakdownThe final estimate confirms that the Spanish economy grew by 0.7% in the second quarter, accelerating slightly from 0.6% growth in Q1. Domestic demand remains the main engine of the economy, contributing 1.1% to quarterly GDP growth.\n\nBy aggregate demand, household consumption increased by 1.2% and government consumption by 0.5%.\n\nMeanwhile, gross fixed capital formation registered a variation of 1.7%.\n\nExternal demand remains the weak spot, subtracting 0.5% from quarterly GDP growth as imports continued to outpace exports.\n\nWhat does the data measure?GDP measures the total value of goods and services produced in Spain.\n\nThe quarterly reading offers the clearest broad measure of how quickly the economy is expanding or contracting.\n\nWhy does it matter to markets?Spain has continued to outperform much of the euro area, so the figures provide another gauge of whether that growth advantage is being maintained.\n\nHow does this fit the broader economic picture?The preliminary numbers pointed to relatively broad-based growth.\n\nhttps://investinglive.com/news/spain-q2-gdp-confirmed-at-0-7-as-domestic-demand-keeps-growth-resilient/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/recession-signal-flashes-on-oxford-economics-us-indicator-but-spending-shows-no-sign-of-cracking/",
-    "source_title": "Recession signal flashes on Oxford Economics' US indicator, but spending shows no sign of cracking",
-    "source_summary": "A recession signal against a backdrop of strong data makes it a useful counterpoint for bond markets. It gives Treasury bulls an argument just as 10-year yields sit above 5.2% and Fed hike odds are rising. Markets are unlikely to react much for now, because Oxford itself plays down the signal and current data points the other way. The warning matters more as a sign of what could go wrong if energy",
-    "drafted_at": "2026-09-25T05:33:54.951313",
+    "source_url": "https://investinglive.com/news/spain-q2-gdp-confirmed-at-0-7-as-domestic-demand-keeps-growth-resilient/",
+    "source_title": "Spain Q2 GDP confirmed at 0.7% as domestic demand keeps growth resilient",
+    "source_summary": "Spain Q2 final GDP +0.7% vs +0.7% q/q expected Prior +0.6% The breakdownThe final estimate confirms that the Spanish economy grew by 0.7% in the second quarter, accelerating slightly from 0.6% growth in Q1. Domestic demand remains the main engine of the economy, contributing 1.1% to quarterly GDP growth. By aggregate demand, household consumption increased by 1.2% and government consumption by 0.5",
+    "drafted_at": "2026-09-25T10:45:16.101279",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "3588a4cced3e0a5d"
+    "content_hash": "29352356ed0064bf"
   },
   {
-    "id": "f846568c",
+    "id": "0dc8ee0d",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "GDP DAY. EUROPEAN SESSION In the European session, we have the final Spain's Q2 GDP which is expected to confirm a 0.7% quarterly growth vs 0.7% in the preliminary reading.\n\nThe data won't change anything for the ECB, though, so the market reaction will likely be muted.\n\nThe markets are currently focused on renewed hopes for quick de-escalation and the reopening of the Strait of Hormuz following yesterday's news that Iran has put a fast-track offer on the table, promising to reopen the Strait of Hormuz within seven days if the US meets its terms.\n\nIran's Foreign Minister Araghchi is staying in New York over the weekend to await a US response.\n\nThis has, of course, reversed the negative sentiment and risk assets started to get bid ahead of the weekend.\n\nAMERICAN SESSION In the American session, we don't have much on the agenda other than a couple a low-tier releases like the US durable goods orders and the final UMich consumer sentiment report.\n\nNone of the data is going to change anything for the Fed, so the market reaction will likely be muted.\n\nAgain, the focus will remain solely on US-Iran developments as pretty much everything has been driven by oil prices in the past months.\n\nhttps://investinglive.com/news/what-are-the-main-events-for-today-50/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/what-are-the-main-events-for-today-50/",
+    "source_title": "What are the main events for today?",
+    "source_summary": "EUROPEAN SESSION In the European session, we have the final Spain's Q2 GDP which is expected to confirm a 0.7% quarterly growth vs 0.7% in the preliminary reading. The data won't change anything for the ECB, though, so the market reaction will likely be muted. The markets are currently focused on renewed hopes for quick de-escalation and the reopening of the Strait of Hormuz following yesterday's ",
+    "drafted_at": "2026-09-25T10:45:16.102866",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "88e089d7007739db"
+  },
+  {
+    "id": "a5d5193f",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "Inflation update: Germany October GfK consumer climate -30.6 vs -27.4 expected Prior -26.6; revised to -26.8 The breakdownThat is a notable miss on estimates as German consumer sentiment weakens more sharply than expected heading into October.\n\nThe main culprit is rising energy prices and that is weighing on purchasing power of households especially.\n\nBesides that, the sub-index for income expectations also fell sharply from 1.7 to -15.0 in the latest survey.\n\nThat marks the lowest level since April, shortly before a fuel discount was introduced.\n\nMeanwhile, the sub-index measuring households' willingness to save also shot up from 15.5 to 21.5 - its highest level since the 2008 financial crisis.\n\nThe survey notes that consumers are seen responding to elevated energy costs in particular.\n\nWhat does the data measure?The GfK/NIM consumer climate gauges German households\u2019 confidence and likely consumption behaviour, based mainly on income expectations, willingness to buy and willingness to save.\n\nIt is based on roughly 2,000 consumer interviews and acts as a leading indicator for private consumption.\n\nhttps://investinglive.com/news/german-consumer-climate-darkens-ahead-of-october-as-higher-energy-costs-bite/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/german-consumer-climate-darkens-ahead-of-october-as-higher-energy-costs-bite/",
+    "source_title": "German consumer climate darkens ahead of October as higher energy costs bite",
+    "source_summary": "Germany October GfK consumer climate -30.6 vs -27.4 expected Prior -26.6; revised to -26.8 The breakdownThat is a notable miss on estimates as German consumer sentiment weakens more sharply than expected heading into October. The main culprit is rising energy prices and that is weighing on purchasing power of households especially. Besides that, the sub-index for income expectations also fell shar",
+    "drafted_at": "2026-09-25T10:45:16.104534",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "7769bcfab4a33fc9"
+  },
+  {
+    "id": "1e129b09",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -589,7 +640,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-09-25T05:33:54.952968",
+    "drafted_at": "2026-09-25T10:45:16.106125",
     "data": {
       "manual": true,
       "via": "manual_news.md"
