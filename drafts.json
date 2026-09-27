@@ -1,6 +1,23 @@
 [
   {
-    "id": "30af9e24",
+    "id": "708727c6",
+    "format": "LOUD_HOWL",
+    "status": "pending",
+    "draft_text": "Jobs report, inflation data to test US rate path, economic strength\n\nhttps://www.investing.com/news/economy-news/jobs-report-inflation-data-to-test-us-rate-path-economic-strength-4918909",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "INVESTING",
+    "source_url": "https://www.investing.com/news/economy-news/jobs-report-inflation-data-to-test-us-rate-path-economic-strength-4918909",
+    "source_title": "Jobs report, inflation data to test US rate path, economic strength",
+    "source_summary": "",
+    "drafted_at": "2026-09-27T10:16:29.089982",
+    "data": {
+      "source": "INVESTING"
+    },
+    "content_hash": "89bb57b81eb86971"
+  },
+  {
+    "id": "17ba0d6c",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Hot tape: WTI crude tumbles 12.7% in 5 sessions to $92.41.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
@@ -10,7 +27,7 @@
     "source_url": "https://finance.yahoo.com/quote/CL%3DF",
     "source_title": "WTI crude oil futures",
     "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-09-27T04:16:44.883288",
+    "drafted_at": "2026-09-27T10:16:29.090222",
     "data": {
       "signal_id": "CL=F:move:2026-09-25",
       "kind": "move_down",
@@ -19,7 +36,7 @@
     "content_hash": "c272de0720a2f459"
   },
   {
-    "id": "8b1fba75",
+    "id": "7f994415",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "The chart told me. Now I'm telling you. VIX tumbles 13.5% in 5 sessions to 14.87.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
@@ -29,7 +46,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EVIX",
     "source_title": "VIX (S&P 500 volatility)",
     "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-09-27T04:16:44.883579",
+    "drafted_at": "2026-09-27T10:16:29.090408",
     "data": {
       "signal_id": "^VIX:move:2026-09-25",
       "kind": "move_down",
@@ -38,7 +55,7 @@
     "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "9b26fa07",
+    "id": "23a45d7a",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Don't sleep on this. Bitcoin surges 10.5% in 5 sessions to $84,418.\n\nBitcoin is now treated as a macro asset alongside gold and tech.\n\nIts swings move alt-coins, public miners, and crypto-exposed stocks.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/BTC-USD",
@@ -48,7 +65,7 @@
     "source_url": "https://finance.yahoo.com/quote/BTC-USD",
     "source_title": "Bitcoin",
     "source_summary": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
-    "drafted_at": "2026-09-27T04:16:44.883827",
+    "drafted_at": "2026-09-27T10:16:29.090614",
     "data": {
       "signal_id": "BTC-USD:move:2026-09-27",
       "kind": "move_up",
@@ -57,7 +74,7 @@
     "content_hash": "0e3396ceb3da7211"
   },
   {
-    "id": "f23f2958",
+    "id": "a87381b8",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Live from the Federal Reserve: The Board also gave its approval for Peoples Bank, of Marietta, Ohio, to merge with Citizens Bank of Kentucky, Inc., and to establish and operate branches at the locations of Citizens Bank of Kentucky, Inc.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/orders20260925a.htm",
@@ -67,14 +84,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260925a.htm",
     "source_title": "Federal Reserve Board announces approval of application by Peoples Bancorp Inc.",
     "source_summary": "Federal Reserve Board announces approval of application by Peoples Bancorp Inc.",
-    "drafted_at": "2026-09-27T04:16:44.894069",
+    "drafted_at": "2026-09-27T10:16:29.098781",
     "data": {
       "actor": "FED"
     },
     "content_hash": "2523829cc6991506"
   },
   {
-    "id": "a124f892",
+    "id": "d163f2a8",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "RATE-PATH READ: Cleveland Federal Reserve (Fed) President Beth Hammack said on Friday the two sides of the Fed's dual mandate are not in conflict.\n\nShe said that \u201chigh inflation complicates economic planning,\u201d and that she doesn\u2019t see current policy as restraining the economy.\n\nhttps://www.fxstreet.com/news/feds-hammack-says-policy-still-isnt-restrictive-despite-high-inflation-202609251900",
@@ -84,14 +101,14 @@
     "source_url": "https://www.fxstreet.com/news/feds-hammack-says-policy-still-isnt-restrictive-despite-high-inflation-202609251900",
     "source_title": "Fed\u2019s Hammack says policy still isn\u2019t restrictive despite high inflation",
     "source_summary": "Cleveland Federal Reserve (Fed) President Beth Hammack said on Friday the two sides of the Fed's dual mandate are not in conflict. She said that \u201chigh inflation complicates economic planning,\u201d and that she doesn\u2019t see current policy as restraining the economy.",
-    "drafted_at": "2026-09-27T04:16:44.894683",
+    "drafted_at": "2026-09-27T10:16:29.099339",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "c5b7786b063e2873"
   },
   {
-    "id": "e8dbfec5",
+    "id": "8228ad81",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "RATE-PATH READ: The first proposal would require that Board-supervised payment stablecoin issuers fully back their stablecoins with certain permissible reserve assets, such as short-term Treasury bills and certain other high-quality, liquid assets.\n\nThe proposal would also establish standardized capital requirements to address certain credit and operational risks of payment stablecoin activities, as well as risk management standards, in accordance with the law.\n\nSeparately, the proposal would introduce rules for Board-supervised firms that safekeep the assets backing payment stablecoins.\n\nIt would also clarify the permissibility of stablecoin and related activities for Board-supervised banks.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
@@ -101,31 +118,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
     "source_title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
     "source_summary": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
-    "drafted_at": "2026-09-27T04:16:44.895689",
+    "drafted_at": "2026-09-27T10:16:29.100236",
     "data": {
       "actor": "FED"
     },
     "content_hash": "849f3138f022c1f3"
   },
   {
-    "id": "7af6bf5c",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "ECB POSTCARD: The Ring is Euronews\u2019 weekly political showdown, where Europe\u2019s toughest debates meet their boldest voices.\n\nIn each episode, two political heavyweights from across the EU face off to propose a diversity of opinions and spark conversations around the most important issues of EU affairs and the wider European political life.\n\nEuronews Tech Talks goes beyond discussions to explore the impact of new technologies on our lives.\n\nWith explanations, engaging Q&As, and lively conversations, the podcast provides valuable insights into the intersection of technology and society.\n\nEurope's best food experts are joining forces to crack down on fraud.\n\nhttps://www.euronews.com/2026/09/24/ecb-speeches-and-interviews-move-markets-as-much-as-policy-decisions-study-finds",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "ECB",
-    "source_url": "https://www.euronews.com/2026/09/24/ecb-speeches-and-interviews-move-markets-as-much-as-policy-decisions-study-finds",
-    "source_title": "ECB speeches and interviews move markets as much as policy decisions, study finds",
-    "source_summary": "Markets react not only to ECB policy decisions but also to policymaker speeches and interviews, whose cumulative impact can rival formal announcements, new research finds.",
-    "drafted_at": "2026-09-27T04:16:44.897063",
-    "data": {
-      "actor": "ECB"
-    },
-    "content_hash": "c62435844d0898ef"
-  },
-  {
-    "id": "2a4dd17a",
+    "id": "d45b8e22",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "From the Eccles Building: The Board also gave its approval for BancFirst, of Oklahoma City, Oklahoma, to merge with SpiritBank and to establish and operate branches at the locations of SpiritBank.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/orders20260922a.htm",
@@ -135,14 +135,31 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260922a.htm",
     "source_title": "Federal Reserve Board announces approval of application by BancFirst Corporation",
     "source_summary": "Federal Reserve Board announces approval of application by BancFirst Corporation",
-    "drafted_at": "2026-09-27T04:16:44.897355",
+    "drafted_at": "2026-09-27T10:16:29.100500",
     "data": {
       "actor": "FED"
     },
     "content_hash": "2da92d996fa3b14f"
   },
   {
-    "id": "d25d506b",
+    "id": "1d0d64a4",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "If you trade rates, read this: Consent prohibition order against Stephanie K.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
+    "source_title": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
+    "source_summary": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
+    "drafted_at": "2026-09-27T10:16:29.100685",
+    "data": {
+      "actor": "FED"
+    },
+    "content_hash": "140b0fd2a09d0598"
+  },
+  {
+    "id": "99243435",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$HHH \u2014 2 company insiders bought $1.7M on Sep 23.\n\nHoward Hughes Holdings Inc. 26,000 shares at $64.13.\n\nStock is +6.7% since the purchase. This is a public SEC Form 4 filing.",
@@ -152,7 +169,7 @@
     "source_url": "http://openinsider.com/screener?s=HHH",
     "source_title": "Howard Hughes Holdings Inc. (HHH) insider bought $1.7M",
     "source_summary": "2 insider(s) bought 26,000 shares at $64.13 on 2026-09-23.",
-    "drafted_at": "2026-09-27T04:16:44.897902",
+    "drafted_at": "2026-09-27T10:16:29.100987",
     "data": {
       "ticker": "HHH",
       "type": "P",
@@ -162,7 +179,7 @@
     "content_hash": "45c9935383910314"
   },
   {
-    "id": "5b89a1c3",
+    "id": "a907cc59",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$DKS \u2014 6 company insiders bought $5.1M on Sep 23.\n\nDick'S Sporting Goods, Inc. 39,130 shares at $130.05.\n\nStock is +4.9% since the purchase. This is a public SEC Form 4 filing.",
@@ -172,7 +189,7 @@
     "source_url": "http://openinsider.com/screener?s=DKS",
     "source_title": "Dick'S Sporting Goods, Inc. (DKS) insider bought $5.1M",
     "source_summary": "6 insider(s) bought 39,130 shares at $130.05 on 2026-09-23.",
-    "drafted_at": "2026-09-27T04:16:44.898079",
+    "drafted_at": "2026-09-27T10:16:29.101143",
     "data": {
       "ticker": "DKS",
       "type": "P",
@@ -182,7 +199,7 @@
     "content_hash": "d7b947ea917be344"
   },
   {
-    "id": "4f3a86ce",
+    "id": "54a849e6",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$CELH \u2014 3 company insiders bought $1.8M on Sep 15.\n\nCelsius Holdings, Inc. 66,000 shares at $27.73.\n\nStock is +0.9% since the purchase. This is a public SEC Form 4 filing.",
@@ -192,7 +209,7 @@
     "source_url": "http://openinsider.com/screener?s=CELH",
     "source_title": "Celsius Holdings, Inc. (CELH) insider bought $1.8M",
     "source_summary": "3 insider(s) bought 66,000 shares at $27.73 on 2026-09-15.",
-    "drafted_at": "2026-09-27T04:16:44.898241",
+    "drafted_at": "2026-09-27T10:16:29.101281",
     "data": {
       "ticker": "CELH",
       "type": "P",
@@ -202,7 +219,7 @@
     "content_hash": "9521e825e6c4fa5d"
   },
   {
-    "id": "548e633a",
+    "id": "ae0fa78e",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$SBLK \u2014 8 company insiders bought $6.9M on Sep 15.\n\nStar Bulk Carriers Corp. 244,800 shares at $28.27.\n\nStock is +4.5% since the purchase. This is a public SEC Form 4 filing.",
@@ -212,7 +229,7 @@
     "source_url": "http://openinsider.com/screener?s=SBLK",
     "source_title": "Star Bulk Carriers Corp. (SBLK) insider bought $6.9M",
     "source_summary": "8 insider(s) bought 244,800 shares at $28.27 on 2026-09-15.",
-    "drafted_at": "2026-09-27T04:16:44.898401",
+    "drafted_at": "2026-09-27T10:16:29.101416",
     "data": {
       "ticker": "SBLK",
       "type": "P",
@@ -222,7 +239,7 @@
     "content_hash": "7e95faa88b944cc9"
   },
   {
-    "id": "04309c2c",
+    "id": "62d85d9b",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$LEN \u2014 a company insider bought $136.4M on Sep 23.\n\nLennar Corp /New/. 1,679,700 shares at $81.19.\n\nStock is +0.3% since the purchase. This is a public SEC Form 4 filing.",
@@ -232,7 +249,7 @@
     "source_url": "http://openinsider.com/screener?s=LEN",
     "source_title": "Lennar Corp /New/ (LEN) insider bought $136.4M",
     "source_summary": "1 insider(s) bought 1,679,700 shares at $81.19 on 2026-09-23.",
-    "drafted_at": "2026-09-27T04:16:44.898572",
+    "drafted_at": "2026-09-27T10:16:29.101548",
     "data": {
       "ticker": "LEN",
       "type": "P",
@@ -242,7 +259,7 @@
     "content_hash": "8cc51516120db6e8"
   },
   {
-    "id": "22c1bd71",
+    "id": "370cca4e",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Not that long ago, Washington fined Tether for misleading people about the dollars behind its tokens.\n\nToday, the company's insatiable appetite for American debt is the main argument for sending those tokens further around the world.\n\nThe distance between those two positions tells us a great deal about where crypto ended up.\n\nhttps://cryptoslate.com/washington-has-114-billion-reasons-to-want-tether-around/",
@@ -252,14 +269,14 @@
     "source_url": "https://cryptoslate.com/washington-has-114-billion-reasons-to-want-tether-around/",
     "source_title": "Washington has $114 billion reasons to want Tether around",
     "source_summary": "Not that long ago, Washington fined Tether for misleading people about the dollars behind its tokens. Today, the company's insatiable appetite for American debt is the main argument for sending those tokens further around the world. The distance between those two positions tells us a great deal about where crypto ended up. Tether built a [\u2026] The post Washington has $114 billion reasons to want Tet",
-    "drafted_at": "2026-09-27T04:16:44.900665",
+    "drafted_at": "2026-09-27T10:16:29.103168",
     "data": {
       "source": "CRYPTOSLATE"
     },
     "content_hash": "66da7809bbe41cdc"
   },
   {
-    "id": "dea9a731",
+    "id": "d4c6b1db",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "A man was charged for his role in defrauding someone of millions of dollars' worth of crypto in a \"massive pig butchering\" scam.\n\nhttps://www.theblock.co/news/regulation/2026-09-25-man-charged-in-16-million-crypto-massive-pig-butchering-scam-416895",
@@ -269,14 +286,14 @@
     "source_url": "https://www.theblock.co/news/regulation/2026-09-25-man-charged-in-16-million-crypto-massive-pig-butchering-scam-416895",
     "source_title": "Man charged in $16 million crypto \u2018massive pig butchering\u2019 scam",
     "source_summary": "A man was charged for his role in defrauding someone of millions of dollars' worth of crypto in a \"massive pig butchering\" scam.",
-    "drafted_at": "2026-09-27T04:16:44.900818",
+    "drafted_at": "2026-09-27T10:16:29.103304",
     "data": {
       "source": "THE BLOCK"
     },
     "content_hash": "8f17fa1f5b8a9ae6"
   },
   {
-    "id": "d7756883",
+    "id": "a9e05f7a",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Secretary of State Marco Rubio has launched a new visa restriction policy targeting everyone who knowingly engages in or has engaged in facilitating birth tourism to the U.S.\n\nhttps://justthenews.com/nation/states/center-square/feds-launch-more-efforts-against-birth-tourism-visa-fraud?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
@@ -286,14 +303,14 @@
     "source_url": "https://justthenews.com/nation/states/center-square/feds-launch-more-efforts-against-birth-tourism-visa-fraud?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
     "source_title": "Feds launch more efforts against birth tourism, visa fraud",
     "source_summary": "Secretary of State Marco Rubio has launched a new visa restriction policy targeting everyone who knowingly engages in or has engaged in facilitating birth tourism to the U.S.",
-    "drafted_at": "2026-09-27T04:16:44.901007",
+    "drafted_at": "2026-09-27T10:16:29.103468",
     "data": {
       "source": "JUST THE NEWS"
     },
     "content_hash": "fd0f9cca968308aa"
   },
   {
-    "id": "f8df4906",
+    "id": "e9c7f63d",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "ICIJ\u2019s media partners uncovered strategic deals and moves the Chinese bank made around the world to further the political priorities of the party-state.\n\nhttps://www.icij.org/investigations/china-capital/china-capital-stories-reveal-how-icbc-advanced-chinas-political-goals-across-four-continents/",
@@ -303,14 +320,14 @@
     "source_url": "https://www.icij.org/investigations/china-capital/china-capital-stories-reveal-how-icbc-advanced-chinas-political-goals-across-four-continents/",
     "source_title": "China Capital stories reveal how ICBC advanced China\u2019s political goals across four continents",
     "source_summary": "ICIJ\u2019s media partners uncovered strategic deals and moves the Chinese bank made around the world to further the political priorities of the party-state.",
-    "drafted_at": "2026-09-27T04:16:44.901194",
+    "drafted_at": "2026-09-27T10:16:29.103631",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "a12b87a5b294d89b"
   },
   {
-    "id": "2eaebc3d",
+    "id": "496eb490",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Private equity investor Konstantin Sokolov was also appointed to run a government enterprise fund.\n\nhttps://www.icij.org/news/2026/09/trump-administration-gave-firm-with-ties-to-ballroom-donor-the-green-light-to-do-business-with-a-sanctioned-russian-bank/",
@@ -320,211 +337,211 @@
     "source_url": "https://www.icij.org/news/2026/09/trump-administration-gave-firm-with-ties-to-ballroom-donor-the-green-light-to-do-business-with-a-sanctioned-russian-bank/",
     "source_title": "Trump administration gave firm with ties to ballroom donor the green light to do business with a sanctioned Russian bank",
     "source_summary": "Private equity investor Konstantin Sokolov was also appointed to run a government enterprise fund.",
-    "drafted_at": "2026-09-27T04:16:44.901316",
+    "drafted_at": "2026-09-27T10:16:29.103737",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "9eb879568f999db6"
   },
   {
-    "id": "df3fc3ab",
+    "id": "1e7627e3",
     "format": "CONGRESS_WATCH",
     "status": "pending",
-    "draft_text": "4 members of Congress bought $SPCX this year \u2014 and these filings don't show them selling:\n\n\u2022 Daniel Meuser (R)\n\u2022 Jared Moskowitz (D)\n\u2022 John McGuire (R)\n\u2022 Gilbert Cisneros (D)\n\nLargest disclosed here: Daniel Meuser, $15,001 - $50,000 on Jun 15.\n\nPrice since the first buy in this group: -7.8%.\n\nSTOCK Act disclosures. Public record.",
+    "draft_text": "4 members of Congress bought $SPCX this year \u2014 and these filings don't show them selling:\n\n\u2022 Daniel Meuser (R)\n\u2022 Jared Moskowitz (D)\n\u2022 John McGuire (R)\n\u2022 Gilbert Cisneros (D)\n\nLargest disclosed here: Daniel Meuser, $15,001 - $50,000 on Jun 15.\n\nPrice since the first buy in this group: -7.6%.\n\nSTOCK Act disclosures. Public record.",
     "image_path": "charts/congress/SPCX_cluster.png",
     "og_image_url": null,
     "primary_source": "STOCK Act PTR filings",
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034774.pdf",
     "source_title": "4 Congress members bought $SPCX",
     "source_summary": "4 politicians bought $SPCX; largest $15,001 - $50,000 by Daniel Meuser.",
-    "drafted_at": "2026-09-27T04:16:44.901953",
+    "drafted_at": "2026-09-27T10:16:29.104297",
     "data": {
       "ticker": "SPCX",
       "member_count": 4,
-      "pct_since_first": -7.82230293669361
+      "pct_since_first": -7.623488353595116
     },
     "content_hash": "585711bf88956fa9"
   },
   {
-    "id": "0070c93d",
+    "id": "1b8b9e2f",
     "format": "CONGRESS_WATCH",
     "status": "pending",
-    "draft_text": "4 members of Congress bought $NVDA this year \u2014 and these filings don't show them selling:\n\n\u2022 Michael Rulli (R)\n\u2022 Cleo Fields (D)\n\u2022 Gilbert Cisneros (D)\n\u2022 John J Mr McGuire (R)\n\nLargest disclosed here: Michael Rulli, $1,001 - $15,000 on Jun 25.\n\nPrice since the first buy in this group: +15.2%.\n\nSTOCK Act disclosures. Public record.",
+    "draft_text": "4 members of Congress bought $NVDA this year \u2014 and these filings don't show them selling:\n\n\u2022 Michael Rulli (R)\n\u2022 Cleo Fields (D)\n\u2022 Gilbert Cisneros (D)\n\u2022 John J Mr McGuire (R)\n\nLargest disclosed here: Michael Rulli, $1,001 - $15,000 on Jun 25.\n\nPrice since the first buy in this group: +15.0%.\n\nSTOCK Act disclosures. Public record.",
     "image_path": "charts/congress/NVDA_cluster.png",
     "og_image_url": null,
     "primary_source": "STOCK Act PTR filings",
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035147.pdf",
     "source_title": "4 Congress members bought $NVDA",
     "source_summary": "4 politicians bought $NVDA; largest $1,001 - $15,000 by Michael Rulli.",
-    "drafted_at": "2026-09-27T04:16:44.902229",
+    "drafted_at": "2026-09-27T10:16:29.104533",
     "data": {
       "ticker": "NVDA",
       "member_count": 4,
-      "pct_since_first": 15.208944609287625
+      "pct_since_first": 14.984163179702678
     },
     "content_hash": "f6cf25ab3c00fb6f"
   },
   {
-    "id": "8df3d48c",
+    "id": "d0908ddd",
     "format": "CONGRESS_WATCH",
     "status": "pending",
-    "draft_text": "4 members of Congress bought $MU this year \u2014 and these filings don't show them selling:\n\n\u2022 Josh Gottheimer (D)\n\u2022 Sheldon Whitehouse (D)\n\u2022 Michael Rulli (R)\n\u2022 Dan Newhouse (R)\n\nLargest disclosed here: Josh Gottheimer, $1,001 - $15,000 on May 21.\n\nPrice since the first buy in this group: +40.6%.\n\nSTOCK Act disclosures. Public record.",
+    "draft_text": "4 members of Congress bought $MU this year \u2014 and these filings don't show them selling:\n\n\u2022 Josh Gottheimer (D)\n\u2022 Sheldon Whitehouse (D)\n\u2022 Michael Rulli (R)\n\u2022 Dan Newhouse (R)\n\nLargest disclosed here: Josh Gottheimer, $1,001 - $15,000 on May 21.\n\nPrice since the first buy in this group: +42.0%.\n\nSTOCK Act disclosures. Public record.",
     "image_path": "charts/congress/MU_cluster.png",
     "og_image_url": null,
     "primary_source": "STOCK Act PTR filings",
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034693.pdf",
     "source_title": "4 Congress members bought $MU",
     "source_summary": "4 politicians bought $MU; largest $1,001 - $15,000 by Josh Gottheimer.",
-    "drafted_at": "2026-09-27T04:16:44.902510",
+    "drafted_at": "2026-09-27T10:16:29.104759",
     "data": {
       "ticker": "MU",
       "member_count": 4,
-      "pct_since_first": 40.64821404287566
+      "pct_since_first": 42.01286759847596
     },
     "content_hash": "7c265a3a54605da1"
   },
   {
-    "id": "163c464a",
+    "id": "e7931db5",
     "format": "CONGRESS_WATCH",
     "status": "pending",
-    "draft_text": "3 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 Gilbert Cisneros (D)\n\u2022 Cleo Fields (D)\n\u2022 Jared Moskowitz (D)\n\nLargest disclosed here: Gilbert Cisneros, $15,001 - $50,000 on Jul 17.\n\nPrice since the first buy in this group: +27.6%.\n\nSTOCK Act disclosures. Public record.",
-    "image_path": "charts/congress/MSFT_cluster.png",
-    "og_image_url": null,
-    "primary_source": "STOCK Act PTR filings",
-    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf",
-    "source_title": "3 Congress members bought $MSFT",
-    "source_summary": "3 politicians bought $MSFT; largest $15,001 - $50,000 by Gilbert Cisneros.",
-    "drafted_at": "2026-09-27T04:16:44.902760",
-    "data": {
-      "ticker": "MSFT",
-      "member_count": 3,
-      "pct_since_first": 27.5631493947029
-    },
-    "content_hash": "a21583cf45f73c88"
-  },
-  {
-    "id": "dad5fe9b",
-    "format": "CONGRESS_WATCH",
-    "status": "pending",
-    "draft_text": "3 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 Gilbert Cisneros (D)\n\u2022 Cleo Fields (D)\n\u2022 Jared Moskowitz (D)\n\nLargest disclosed here: Gilbert Cisneros, $50,001 - $100,000 on May 15.\n\nPrice since the first buy in this group: +18.6%.\n\nSTOCK Act disclosures. Public record.",
-    "image_path": "charts/congress/MSFT_cluster.png",
+    "draft_text": "3 members of Congress bought $MSFT this year \u2014 and these filings don't show them selling:\n\n\u2022 Gilbert Cisneros (D)\n\u2022 Cleo Fields (D)\n\u2022 Jared Moskowitz (D)\n\nLargest disclosed here: Gilbert Cisneros, $50,001 - $100,000 on May 15.\n\nPrice since the first buy in this group: +22.3%.\n\nSTOCK Act disclosures. Public record.\n\nhttps://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034713.pdf",
+    "image_path": null,
     "og_image_url": null,
     "primary_source": "STOCK Act PTR filings",
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034713.pdf",
     "source_title": "3 Congress members bought $MSFT",
     "source_summary": "3 politicians bought $MSFT; largest $50,001 - $100,000 by Gilbert Cisneros.",
-    "drafted_at": "2026-09-27T04:16:44.903009",
+    "drafted_at": "2026-09-27T10:16:29.104968",
     "data": {
       "ticker": "MSFT",
       "member_count": 3,
-      "pct_since_first": 18.64571018355608
+      "pct_since_first": 22.33835003860627
     },
     "content_hash": "568a39394ccac4dc"
   },
   {
-    "id": "fdd9d90a",
-    "format": "GLOBAL_DESK",
+    "id": "5f2d3aad",
+    "format": "CONGRESS_WATCH",
     "status": "pending",
-    "draft_text": "From Brussels and beyond: Russia's Lavrov dismisses Wadephul's call to abandon 'dangerous path of escalation' with Europe.\n\nhttps://www.aljazeera.com/news/2026/9/27/german-russian-foreign-ministers-hold-rare-talks-amid-rising-tensions?traffic_source=rss",
+    "draft_text": "3 members of Congress bought $BRK.B this year \u2014 and these filings don't show them selling:\n\n\u2022 Jerry Moran,\n\u2022 Maria Elvira Salazar (R)\n\u2022 Richard Dean Dr McCormick (R)\n\nLargest disclosed here: Jerry Moran,, $15,001 - $50,000 on Jun 23.\n\nPrice since the first buy in this group: +0.0%.\n\nSTOCK Act disclosures. Public record.\n\nhttps://efdsearch.senate.gov/search/view/ptr/cff197e2-b90b-4b53-b97d-eecf226a1980/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/news/2026/9/27/german-russian-foreign-ministers-hold-rare-talks-amid-rising-tensions?traffic_source=rss",
-    "source_title": "German, Russian foreign ministers hold rare talks amid rising tensions",
-    "source_summary": "Russia's Lavrov dismisses Wadephul's call to abandon 'dangerous path of escalation' with Europe.",
-    "drafted_at": "2026-09-27T04:16:44.904148",
+    "primary_source": "STOCK Act PTR filings",
+    "source_url": "https://efdsearch.senate.gov/search/view/ptr/cff197e2-b90b-4b53-b97d-eecf226a1980/",
+    "source_title": "3 Congress members bought $BRK.B",
+    "source_summary": "3 politicians bought $BRK.B; largest $15,001 - $50,000 by Jerry Moran,.",
+    "drafted_at": "2026-09-27T10:16:29.105176",
     "data": {
-      "source": "AL JAZEERA"
+      "ticker": "BRK.B",
+      "member_count": 3,
+      "pct_since_first": 0
     },
-    "content_hash": "556a9f65e4d27d16"
+    "content_hash": "6f888df9bec37d4e"
   },
   {
-    "id": "a538a12d",
+    "id": "0e7a6482",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From the Gulf: The UN General Assembly wraps up with mixed diplomatic outcomes.\n\nhttps://www.aljazeera.com/video/newsfeed/2026/9/27/did-the-biggest-week-of-diplomacy-make-headway-in-ending-the-us-iran-war?traffic_source=rss",
+    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: Iran appears to have wasted no time responding to Trump's rejection of its ceasefire offer by firing on tankers in the Strait of Hormuz.\n\nhttps://www.nakedcapitalism.com/2026/09/iran-war-iran-opens-fire-in-the-strait-world-braces-for-us-response.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/did-the-biggest-week-of-diplomacy-make-headway-in-ending-the-us-iran-war?traffic_source=rss",
-    "source_title": "Did the biggest week of diplomacy make headway in ending the US-Iran war?",
-    "source_summary": "The UN General Assembly wraps up with mixed diplomatic outcomes.",
-    "drafted_at": "2026-09-27T04:16:44.904639",
+    "primary_source": "NAKED CAPITAL",
+    "source_url": "https://www.nakedcapitalism.com/2026/09/iran-war-iran-opens-fire-in-the-strait-world-braces-for-us-response.html",
+    "source_title": "Iran War: Iran Opens Fire in the Strait, World Braces for US Response or Another TACO",
+    "source_summary": "Iran appears to have wasted no time responding to Trump's rejection of its ceasefire offer by firing on tankers in the Strait of Hormuz.",
+    "drafted_at": "2026-09-27T10:16:29.106609",
     "data": {
-      "source": "AL JAZEERA"
+      "source": "NAKED CAPITAL"
     },
-    "content_hash": "6441082da2e7dad5"
+    "content_hash": "97c6fd5f9cc3d317"
   },
   {
-    "id": "c4fa16eb",
+    "id": "1672a8b5",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "World wire: Google's integration of direct purchases via Gemini in India could revolutionize e-commerce by streamlining transactions and enhancing user convenience.\n\nThe post Google tests direct purchases from Flipkart through Gemini in India appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/google-gemini-flipkart-direct-purchases-india/",
+    "draft_text": "From Brussels and beyond: Daydreaming about sensible approaches off the warpath ignore the fact that Europe\u2019s ruling class doesn\u2019t do sensible anymore.\n\nhttps://www.nakedcapitalism.com/2026/09/russia-could-make-an-energy-truce-conditional-on-resuming-pipeline-exports-to-europe.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/google-gemini-flipkart-direct-purchases-india/",
-    "source_title": "Google tests direct purchases from Flipkart through Gemini in India",
-    "source_summary": "Google's integration of direct purchases via Gemini in India could revolutionize e-commerce by streamlining transactions and enhancing user convenience. The post Google tests direct purchases from Flipkart through Gemini in India appeared first on Crypto Briefing .",
-    "drafted_at": "2026-09-27T04:16:44.905064",
+    "primary_source": "NAKED CAPITAL",
+    "source_url": "https://www.nakedcapitalism.com/2026/09/russia-could-make-an-energy-truce-conditional-on-resuming-pipeline-exports-to-europe.html",
+    "source_title": "Russia Could Make An Energy Truce Conditional On Resuming Pipeline Exports To Europe",
+    "source_summary": "Daydreaming about sensible approaches off the warpath ignore the fact that Europe\u2019s ruling class doesn\u2019t do sensible anymore.",
+    "drafted_at": "2026-09-27T10:16:29.106999",
     "data": {
-      "source": "CRYPTO BRIEFING"
+      "source": "NAKED CAPITAL"
     },
-    "content_hash": "dfd6c7b1424d5c22"
+    "content_hash": "d2f46786e8bfe7d9"
   },
   {
-    "id": "8b6dd0bf",
+    "id": "6c3d71ff",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Asia overnight: Global natural gas supply is likely to remain tighter than it should be until next summer at least, and it could cause prolonged demand destruction.\n\nShould this scenario materialize, it would deliver a severe blow to Europe, as it already struggles to cover its winter gas needs ahead of the official start of heating season\u2014but Asia won\u2019t be happy about it, either.\n\nThe prediction comes from the International Gas Union, an industry association that covers 90% of the world\u2019s gas producers.\n\nhttps://oilprice.com/Energy/Natural-Gas/Global-Gas-Squeeze-Could-Last-Through-Next-Summer.html",
+    "draft_text": "PACK BRIEFING \u2014 EUROPE: As Pope Leo XIV visits France, the number of converts is growing in secular Western countries, and some in Gen Z are rediscovering the faith of their grandparents.\n\nhttps://www.washingtonpost.com/world/2026/09/27/rise-young-catholic-converts-points-spiritual-longing-us-europe/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "OILPRICE",
-    "source_url": "https://oilprice.com/Energy/Natural-Gas/Global-Gas-Squeeze-Could-Last-Through-Next-Summer.html",
-    "source_title": "Global Gas Squeeze Could Last Through Next Summer",
-    "source_summary": "Global natural gas supply is likely to remain tighter than it should be until next summer at least, and it could cause prolonged demand destruction. Should this scenario materialize, it would deliver a severe blow to Europe, as it already struggles to cover its winter gas needs ahead of the official start of heating season\u2014but Asia won\u2019t be happy about it, either. The prediction comes from the Int",
-    "drafted_at": "2026-09-27T04:16:44.906622",
+    "primary_source": "WAPO",
+    "source_url": "https://www.washingtonpost.com/world/2026/09/27/rise-young-catholic-converts-points-spiritual-longing-us-europe/",
+    "source_title": "Rise in young Catholic converts points to spiritual longing in U.S. and Europe",
+    "source_summary": "As Pope Leo XIV visits France, the number of converts is growing in secular Western countries, and some in Gen Z are rediscovering the faith of their grandparents.",
+    "drafted_at": "2026-09-27T10:16:29.108285",
     "data": {
-      "source": "OILPRICE"
+      "source": "WAPO"
     },
-    "content_hash": "458cbf5d95134ddb"
+    "content_hash": "94dfb95fa5f0abd2"
   },
   {
-    "id": "729a4133",
+    "id": "029a37dc",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: ABU DHABI, United Arab Emirates \u2014 The 15th United Nations Congress on Crime Prevention and Criminal Justice \u2013 Abu Dhabi 2026 kicked off today at ADNEC Centre Abu Dhabi.\n\nSet to run until 1 October, the Congress attracts representatives from over 97 countries, including over 32 ministers of justice and interior ministers, alongside senior officials, [\u2026]\n\nhttps://financialpost.com/pmn/business-wire-news-releases-pmn/uae-opens-15th-un-congress-on-crime-prevention-and-criminal-justice-and-launches-pledge4justice-with-first-pledge-of-up-to-usd-5-million",
+    "draft_text": "From the Gulf: Britain authorized the U.S. to use the base for \u201cdefensive\u201d strikes on Iran earlier this year.\n\nhttps://www.politico.eu/article/major-incident-uk-air-base-us-forces-raf-fairford/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/uae-opens-15th-un-congress-on-crime-prevention-and-criminal-justice-and-launches-pledge4justice-with-first-pledge-of-up-to-usd-5-million",
-    "source_title": "UAE Opens 15th UN Congress on Crime Prevention and Criminal Justice and Launches Pledge4Justice with First Pledge of Up to USD 5 Million",
-    "source_summary": "ABU DHABI, United Arab Emirates \u2014 The 15th United Nations Congress on Crime Prevention and Criminal Justice \u2013 Abu Dhabi 2026 kicked off today at ADNEC Centre Abu Dhabi. Set to run until 1 October, the Congress attracts representatives from over 97 countries, including over 32 ministers of justice and interior ministers, alongside senior officials, [\u2026]",
-    "drafted_at": "2026-09-27T04:16:44.907242",
+    "primary_source": "POLITICO EU",
+    "source_url": "https://www.politico.eu/article/major-incident-uk-air-base-us-forces-raf-fairford/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+    "source_title": "Men arrested for explosive offenses at UK airbase used for US strikes on Iran",
+    "source_summary": "Britain authorized the U.S. to use the base for \u201cdefensive\u201d strikes on Iran earlier this year.",
+    "drafted_at": "2026-09-27T10:16:29.108767",
     "data": {
-      "source": "FINANCIAL POST"
+      "source": "POLITICO EU"
     },
-    "content_hash": "874a18a2f1258e81"
+    "content_hash": "7fb02351e8cba042"
   },
   {
-    "id": "d0bbc9aa",
+    "id": "4ffa83ee",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "From the Americas: El portero, cinco veces campe\u00f3n del mundo, explica la debida diligencia que existe detr\u00e1s de su alianza, al tiempo que BC.GAME refuerza sus operaciones con licencia de SEGOB, sus sistemas de pago locales y sus pagos r\u00e1pidos para los jugadores mexicanos MEXICO CITY, 27 de septiembre de...\n\nhttps://www.prnewswire.com/news-releases/guillermo-ochoa-encabeza-una-nueva-campana-en-apoyo-al-compromiso-de-bcgame-con-un-mercado-mexicano-regulado-302890846.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "PR NEWSWIRE",
+    "source_url": "https://www.prnewswire.com/news-releases/guillermo-ochoa-encabeza-una-nueva-campana-en-apoyo-al-compromiso-de-bcgame-con-un-mercado-mexicano-regulado-302890846.html",
+    "source_title": "Guillermo Ochoa encabeza una nueva campa\u00f1a en apoyo al compromiso de BC.Game con un mercado mexicano regulado",
+    "source_summary": "El portero, cinco veces campe\u00f3n del mundo, explica la debida diligencia que existe detr\u00e1s de su alianza, al tiempo que BC.GAME refuerza sus operaciones con licencia de SEGOB, sus sistemas de pago locales y sus pagos r\u00e1pidos para los jugadores mexicanos MEXICO CITY, 27 de septiembre de...",
+    "drafted_at": "2026-09-27T10:16:29.110323",
+    "data": {
+      "source": "PR NEWSWIRE"
+    },
+    "content_hash": "4ab0d96d7f15169c"
+  },
+  {
+    "id": "cd0d1af9",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "From the BEA desk: Publicly held debt would explode to 222% of GDP by 2056, under a scenario where interest rates rise by 1 percentage point.\n\nhttps://fortune.com/2026/09/26/us-debt-outlook-cbo-10-year-treasury-bond-yields-highest-two-decades/",
+    "draft_text": "From the consumption desk: A NASA engineer testing a homemade heat pump in his bathroom stumbled onto an invention worth a billion dollars in retail sales, but getting his fair cut required something the patent alone could never guarantee.\n\nhttps://247wallst.com/investing/2026/09/27/a-nasa-engineers-bathroom-experiment-with-a-new-kind-of-heat-pump-accidentally-created-a-childrens-toy-that-generated-over-1-billion-in-sales-this-is-the-wild-story-of-how-lonnie-johnson-invente/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FORTUNE",
-    "source_url": "https://fortune.com/2026/09/26/us-debt-outlook-cbo-10-year-treasury-bond-yields-highest-two-decades/",
-    "source_title": "Here\u2019s how much worse U.S. debt could get as Treasury yields surge to the highest levels in two decades",
-    "source_summary": "Publicly held debt would explode to 222% of GDP by 2056, under a scenario where interest rates rise by 1 percentage point.",
-    "drafted_at": "2026-09-27T04:16:44.949276",
+    "primary_source": "247 WALL ST",
+    "source_url": "https://247wallst.com/investing/2026/09/27/a-nasa-engineers-bathroom-experiment-with-a-new-kind-of-heat-pump-accidentally-created-a-childrens-toy-that-generated-over-1-billion-in-sales-this-is-the-wild-story-of-how-lonnie-johnson-invente/",
+    "source_title": "A NASA Engineer\u2019s Bathroom Experiment With a New Kind of Heat Pump Accidentally Created a Children\u2019s Toy That Generated Over $1 Billion in Sales. This Is the Wild Story of How Lonnie Johnson Invented the Super Soaker.",
+    "source_summary": "A NASA engineer testing a homemade heat pump in his bathroom stumbled onto an invention worth a billion dollars in retail sales, but getting his fair cut required something the patent alone could never guarantee.",
+    "drafted_at": "2026-09-27T10:16:29.148946",
     "data": {
-      "source": "FORTUNE"
+      "source": "247 WALL ST"
     },
-    "content_hash": "436cd1ee9dec10fa"
+    "content_hash": "03f8b983ed0bc124"
   },
   {
-    "id": "db11281a",
+    "id": "dc484641",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "How sticky is inflation? Let's see: The stock market ended a challenging week higher.\n\nThe latest U.S. jobs report and a fresh PCE inflation report are now due.\n\nThe post Stock Market Ends Week Higher Despite Spiking Yields; Jobs Report, Inflation Data Due appeared first on Investor's Business Daily.\n\nhttps://www.investors.com/market-trend/the-big-picture/stock-market-ends-week-higher-despite-spiking-yields-jobs-report-inflation-data-due/",
@@ -534,14 +551,14 @@
     "source_url": "https://www.investors.com/market-trend/the-big-picture/stock-market-ends-week-higher-despite-spiking-yields-jobs-report-inflation-data-due/",
     "source_title": "Stock Market Ends Week Higher Despite Spiking Yields; Jobs Report, Inflation Data Due",
     "source_summary": "The stock market ended a challenging week higher. The latest U.S. jobs report and a fresh PCE inflation report are now due. The post Stock Market Ends Week Higher Despite Spiking Yields; Jobs Report, Inflation Data Due appeared first on Investor's Business Daily .",
-    "drafted_at": "2026-09-27T04:16:44.949604",
+    "drafted_at": "2026-09-27T10:16:29.149238",
     "data": {
       "source": "IBD"
     },
     "content_hash": "de67c7e8bebeb559"
   },
   {
-    "id": "dba5df16",
+    "id": "443f698e",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "The CPI scoreboard: Trump will meet with Xi again in November Xi: US-China relationship will be one of strategic stability based on respect, fairness and reciprocity September final UMich consumer sentiment 48.1 vs 47.6 expected USTR's Greer: We have reached agreements with China on a sub-set of goods we can trade US August durable goods orders 0.0% vs -0.4% expected Plan for your new trading week ahead in the forex with a technical look at some of the major pairs Markets: US 10-year yields up 2.6 bps 5.16% WTI crude oil down $2.15 to $92.44 Gold up $8 to $4286 JPY leads, NZD lags S&P 500 up 0.5% The main market moving events were verbal intervention on the yen, sending USD/JPY down more than 150 pips on the day.\n\nThat didn't appear to be followed by any actions so it's a bit of a game of chicken at the moment.\n\nThe market was surely wary of a late-Friday round of USD/JPY official selling, similar to the one we saw earlier this year.\n\nIn any case, there were no late buyers as there is also the threat of intervention at the open on Sunday.\n\nIn general, the dollar was a touch softer as inflation worries eased.\n\nThe main reason for that was yet-another set of headlines about Iran peace talks.\n\nThere's plenty of skepticism but oil fell more than $3 from the highs, so there are believers out there.\n\nThis seems like the final effort at diplomacy for the US side as the midterms provide something of a deadline, and Republican polling numbers are poor due to inflation and an unpopular war.\n\nhttps://investinglive.com/news/investinglive-americas-market-news-wrap-iran-hopes-spring-eternal/",
@@ -551,14 +568,14 @@
     "source_url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-iran-hopes-spring-eternal/",
     "source_title": "investingLive Americas market news wrap: Iran hopes spring eternal",
     "source_summary": "Trump will meet with Xi again in November Xi: US-China relationship will be one of strategic stability based on respect, fairness and reciprocity September final UMich consumer sentiment 48.1 vs 47.6 expected USTR's Greer: We have reached agreements with China on a sub-set of goods we can trade US August durable goods orders 0.0% vs -0.4% expected Plan for your new trading week ahead in the forex ",
-    "drafted_at": "2026-09-27T04:16:44.951149",
+    "drafted_at": "2026-09-27T10:16:29.150555",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "425f7378638d4a36"
   },
   {
-    "id": "c546ab78",
+    "id": "e4744bda",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "From the trade desk: ING\u2019s Asia-Pacific research notes that South Korea\u2019s upcoming data should show stronger industrial production and a widening trade surplus, even as export and import growth moderates.\n\nTechnology and semiconductor exports are expected to underpin the surplus.\n\nhttps://www.fxstreet.com/news/south-korean-won-trade-surplus-seen-widening-ing-202609252012",
@@ -568,14 +585,14 @@
     "source_url": "https://www.fxstreet.com/news/south-korean-won-trade-surplus-seen-widening-ing-202609252012",
     "source_title": "South Korean Won: Trade surplus seen widening \u2013 ING",
     "source_summary": "ING\u2019s Asia-Pacific research notes that South Korea\u2019s upcoming data should show stronger industrial production and a widening trade surplus, even as export and import growth moderates. Technology and semiconductor exports are expected to underpin the surplus.",
-    "drafted_at": "2026-09-27T04:16:44.951474",
+    "drafted_at": "2026-09-27T10:16:29.150836",
     "data": {
       "source": "FXSTREET"
     },
     "content_hash": "c1cb4c311f70086d"
   },
   {
-    "id": "c30930bf",
+    "id": "8bd18793",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "CPI just printed. Prelim was 47.8 Prior was 51.7 Current conditions 50.9 vs 50.9 prelim (51.9 prior) Expectations 46.3 vs 45.8 prelim (51.5 prior) One-year inflation expectations 4.6% vs 4.6% prelim (prior 4.0%) Five-year inflation expectations 3.4% vs 3.4% prelim (prior 3.4%) These 'beat' the consensus but these are thinly-forecast indicators so the prelim numbers are a better metric to go by.\n\nThere was a slight improvement on the headline and expectations but the inflation numbers -- more important right now -- stayed high.\n\nThat's not a surprise given there's a correlation with gasoline prices.\n\nIn any case, US 10-year yields are at the highs of the day, up 4.2 bps to 5.20%.\n\nThis article was written by Adam Button at investinglive.com.\n\nhttps://investinglive.com/news/september-final-umich-consumer-sentiment-48-1-vs-47-6-expected/",
@@ -585,14 +602,14 @@
     "source_url": "https://investinglive.com/news/september-final-umich-consumer-sentiment-48-1-vs-47-6-expected/",
     "source_title": "September final UMich consumer sentiment 48.1 vs 47.6 expected",
     "source_summary": "Prelim was 47.8 Prior was 51.7 Current conditions 50.9 vs 50.9 prelim (51.9 prior) Expectations 46.3 vs 45.8 prelim (51.5 prior) One-year inflation expectations 4.6% vs 4.6% prelim (prior 4.0%) Five-year inflation expectations 3.4% vs 3.4% prelim (prior 3.4%) These 'beat' the consensus but these are thinly-forecast indicators so the prelim numbers are a better metric to go by. There was a slight i",
-    "drafted_at": "2026-09-27T04:16:44.952205",
+    "drafted_at": "2026-09-27T10:16:29.151434",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "a88a04bd148cf73c"
   },
   {
-    "id": "0cba9699",
+    "id": "dcf029cf",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -602,7 +619,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-09-27T04:16:44.953605",
+    "drafted_at": "2026-09-27T10:16:29.152684",
     "data": {
       "manual": true,
       "via": "manual_news.md"
