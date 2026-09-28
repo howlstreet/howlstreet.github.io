@@ -692,5 +692,51 @@
     "chart_path": "charts/congress/HD_cluster.png",
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034650.pdf",
     "fired_at": "2026-09-28T00:06:45.956274"
+  },
+  "congress_MU_2026-06-25_3": {
+    "post_id": "congress_MU_2026-06-25_3",
+    "ticker": "MU",
+    "member_count": 3,
+    "members": [
+      {
+        "name": "Sheldon Whitehouse",
+        "party": "D",
+        "chamber": "Senate",
+        "amount_label": "$1,001 - $15,000",
+        "amount_mid": 8000.5,
+        "tx_date": "2026-06-25",
+        "is_options": false,
+        "link": "https://efdsearch.senate.gov/search/view/ptr/5d9b1b8e-2ae1-442b-860c-e79b8a701dc6/"
+      },
+      {
+        "name": "Michael Rulli",
+        "party": "R",
+        "chamber": "House",
+        "amount_label": "$1,001 - $15,000",
+        "amount_mid": 8000.5,
+        "tx_date": "2026-06-25",
+        "is_options": false,
+        "link": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035147.pdf"
+      },
+      {
+        "name": "Dan Newhouse",
+        "party": "R",
+        "chamber": "House",
+        "amount_label": "$1,001 - $15,000",
+        "amount_mid": 8000.5,
+        "tx_date": "2026-07-10",
+        "is_options": false,
+        "link": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf"
+      }
+    ],
+    "first_buy_date": "2026-06-25",
+    "biggest_name": "Sheldon Whitehouse",
+    "biggest_amount": "$1,001 - $15,000",
+    "biggest_date": "2026-06-25",
+    "biggest_is_options": false,
+    "pct_since_first": -10.817761211505244,
+    "chart_path": "charts/congress/MU_cluster.png",
+    "source_url": "https://efdsearch.senate.gov/search/view/ptr/5d9b1b8e-2ae1-442b-860c-e79b8a701dc6/",
+    "fired_at": "2026-09-28T06:04:43.755558"
   }
 }
