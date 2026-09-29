@@ -1,23 +1,80 @@
 [
   {
-    "id": "b60752be",
+    "id": "a32f5b09",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "A relatively quiet calendar but we do have an expected Reserve Bank of Australia rate hike.\n\nI'll get a preview posted but for how: RBA preview: A 25 bps rate hike is priced in, but what comes after that?\n\nThis article was written by Eamonn Sheridan at investinglive.com.\n\nhttps://investinglive.com/news/economic-and-event-calendar-in-asia-tuesday-september-29-2026-rba-rate-hike-expected/",
+    "draft_text": "Crude oil prices extended a climb that began on Monday, despite reports that oil flows via the Strait of Hormuz have improved considerably since the start of September.\n\nAt the time of writing, Brent crude was trading at $107.37 per barrel, and West Texas Intermediate was trading at $94.31 per barrel.\n\nThe widening gap between the two has been driven by reports about a possible U.S. ban on diesel fuel exports.\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Oil-Extends-Rally-Despite-Higher-Hormuz-Volume-Reports.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/economic-and-event-calendar-in-asia-tuesday-september-29-2026-rba-rate-hike-expected/",
-    "source_title": "Economic and event calendar in Asia Tuesday, September 29, 2026: RBA rate hike expected",
-    "source_summary": "A relatively quiet calendar but we do have an expected Reserve Bank of Australia rate hike. I'll get a preview posted but for how: RBA preview: A 25 bps rate hike is priced in, but what comes after that? This article was written by Eamonn Sheridan at investinglive.com.",
-    "drafted_at": "2026-09-29T01:20:53.841538",
+    "primary_source": "OILPRICE",
+    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Extends-Rally-Despite-Higher-Hormuz-Volume-Reports.html",
+    "source_title": "Oil Extends Rally Despite Higher Hormuz Volume Reports",
+    "source_summary": "Crude oil prices extended a climb that began on Monday, despite reports that oil flows via the Strait of Hormuz have improved considerably since the start of September. At the time of writing, Brent crude was trading at $107.37 per barrel, and West Texas Intermediate was trading at $94.31 per barrel. The widening gap between the two has been driven by reports about a possible U.S. ban on diesel fu",
+    "drafted_at": "2026-09-29T07:38:36.804630",
     "data": {
-      "source": "FOREXLIVE"
+      "source": "OILPRICE"
     },
-    "content_hash": "312381cbb2486ce3"
+    "content_hash": "7a0283e9054640b1"
   },
   {
-    "id": "996c61c6",
+    "id": "8c558f44",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Numbers walked into the room. VIX jumps 9.0% in 5 sessions to 16.14.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CBOE \u00b7 ^VIX",
+    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "source_title": "VIX (S&P 500 volatility)",
+    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "drafted_at": "2026-09-29T07:38:36.804899",
+    "data": {
+      "signal_id": "^VIX:move:2026-09-29",
+      "kind": "move_up",
+      "current": "16.14"
+    },
+    "content_hash": "995f4d67e7e875d2"
+  },
+  {
+    "id": "bcbbbe07",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Real-time update for the pack: Gold drops 5.6% in 5 sessions to $4,178.40.\n\nGold tracks real yields and central bank demand.\n\nMulti-year highs flag debasement or geopolitical hedging flows.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/GC%3DF",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "COMEX \u00b7 GC=F",
+    "source_url": "https://finance.yahoo.com/quote/GC%3DF",
+    "source_title": "Gold futures",
+    "source_summary": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
+    "drafted_at": "2026-09-29T07:38:36.805176",
+    "data": {
+      "signal_id": "GC=F:move:2026-09-29",
+      "kind": "move_down",
+      "current": "$4,178.40"
+    },
+    "content_hash": "514096a7b4f87c16"
+  },
+  {
+    "id": "e3d98063",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "The pack is watching. WTI crude drops 6.8% in 5 sessions to $93.48.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NYMEX \u00b7 CL=F",
+    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "source_title": "WTI crude oil futures",
+    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "drafted_at": "2026-09-29T07:38:36.805413",
+    "data": {
+      "signal_id": "CL=F:move:2026-09-29",
+      "kind": "move_down",
+      "current": "$93.48"
+    },
+    "content_hash": "c272de0720a2f459"
+  },
+  {
+    "id": "b7347fb3",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "If your alerts didn't go off, mine did. WTI crude drops 6.8% in 5 sessions to $93.49.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
@@ -27,7 +84,7 @@
     "source_url": "https://finance.yahoo.com/quote/CL%3DF",
     "source_title": "WTI crude oil futures",
     "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-09-29T01:20:53.841881",
+    "drafted_at": "2026-09-29T07:38:36.805646",
     "data": {
       "signal_id": "CL=F:move:2026-09-28",
       "kind": "move_down",
@@ -36,7 +93,7 @@
     "content_hash": "c272de0720a2f459"
   },
   {
-    "id": "d96262b2",
+    "id": "05c1a6b1",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "You don't need to be a quant to see this. VIX climbs 6.9% in 5 sessions to 15.83.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
@@ -46,7 +103,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EVIX",
     "source_title": "VIX (S&P 500 volatility)",
     "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-09-29T01:20:53.842131",
+    "drafted_at": "2026-09-29T07:38:36.805869",
     "data": {
       "signal_id": "^VIX:move:2026-09-28",
       "kind": "move_up",
@@ -55,43 +112,7 @@
     "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "75f71a83",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "Numbers don't lie. Look: Gold drops 5.8% in 5 sessions to $4,170.10.\n\nGold tracks real yields and central bank demand.\n\nMulti-year highs flag debasement or geopolitical hedging flows.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/GC%3DF",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "COMEX \u00b7 GC=F",
-    "source_url": "https://finance.yahoo.com/quote/GC%3DF",
-    "source_title": "Gold futures",
-    "source_summary": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
-    "drafted_at": "2026-09-29T01:20:53.842381",
-    "data": {
-      "signal_id": "GC=F:move:2026-09-28",
-      "kind": "move_down",
-      "current": "$4,170.10"
-    },
-    "content_hash": "514096a7b4f87c16"
-  },
-  {
-    "id": "c679ef9b",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "PBOC postcard: The People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Tuesday at 6.7411 compared to the previous day's fix of 6.7399 and 6.7177 Reuters estimate.\n\nhttps://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67411-vs-67399-previous-202609290115",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "PBOC",
-    "source_url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67411-vs-67399-previous-202609290115",
-    "source_title": "PBOC sets USD/CNY reference rate at 6.7411 vs. 6.7399 previous",
-    "source_summary": "The People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Tuesday at 6.7411 compared to the previous day's fix of 6.7399 and 6.7177 Reuters estimate.",
-    "drafted_at": "2026-09-29T01:20:53.853351",
-    "data": {
-      "actor": "PBOC"
-    },
-    "content_hash": "092be648dba48447"
-  },
-  {
-    "id": "073cbc62",
+    "id": "8a832e61",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Live from the Federal Reserve: The Board also gave its approval for Peoples Bank, of Marietta, Ohio, to merge with Citizens Bank of Kentucky, Inc., and to establish and operate branches at the locations of Citizens Bank of Kentucky, Inc.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/orders20260925a.htm",
@@ -101,14 +122,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260925a.htm",
     "source_title": "Federal Reserve Board announces approval of application by Peoples Bancorp Inc.",
     "source_summary": "Federal Reserve Board announces approval of application by Peoples Bancorp Inc.",
-    "drafted_at": "2026-09-29T01:20:53.853752",
+    "drafted_at": "2026-09-29T07:38:36.816546",
     "data": {
       "actor": "FED"
     },
     "content_hash": "2523829cc6991506"
   },
   {
-    "id": "cd1f6115",
+    "id": "ef8a0006",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "RATE-PATH READ: The first proposal would require that Board-supervised payment stablecoin issuers fully back their stablecoins with certain permissible reserve assets, such as short-term Treasury bills and certain other high-quality, liquid assets.\n\nThe proposal would also establish standardized capital requirements to address certain credit and operational risks of payment stablecoin activities, as well as risk management standards, in accordance with the law.\n\nSeparately, the proposal would introduce rules for Board-supervised firms that safekeep the assets backing payment stablecoins.\n\nIt would also clarify the permissibility of stablecoin and related activities for Board-supervised banks.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
@@ -118,14 +139,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
     "source_title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
     "source_summary": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
-    "drafted_at": "2026-09-29T01:20:53.854903",
+    "drafted_at": "2026-09-29T07:38:36.817683",
     "data": {
       "actor": "FED"
     },
     "content_hash": "849f3138f022c1f3"
   },
   {
-    "id": "aa7c6b76",
+    "id": "d926d6e3",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "From the Eccles Building: The Board also gave its approval for BancFirst, of Oklahoma City, Oklahoma, to merge with SpiritBank and to establish and operate branches at the locations of SpiritBank.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/orders20260922a.htm",
@@ -135,14 +156,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260922a.htm",
     "source_title": "Federal Reserve Board announces approval of application by BancFirst Corporation",
     "source_summary": "Federal Reserve Board announces approval of application by BancFirst Corporation",
-    "drafted_at": "2026-09-29T01:20:53.855241",
+    "drafted_at": "2026-09-29T07:38:36.818015",
     "data": {
       "actor": "FED"
     },
     "content_hash": "2da92d996fa3b14f"
   },
   {
-    "id": "dd97aa65",
+    "id": "6c67c6c7",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "If you trade rates, read this: Consent prohibition order against Stephanie K.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
@@ -152,14 +173,34 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
     "source_title": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
     "source_summary": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
-    "drafted_at": "2026-09-29T01:20:53.855475",
+    "drafted_at": "2026-09-29T07:38:36.818280",
     "data": {
       "actor": "FED"
     },
     "content_hash": "140b0fd2a09d0598"
   },
   {
-    "id": "5027c389",
+    "id": "a70865a7",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$HHH \u2014 2 company insiders bought $1.7M on Sep 23.\n\nHoward Hughes Holdings Inc. 26,000 shares at $64.13.\n\nStock is +15.3% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/HHH_P_20260923.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=HHH",
+    "source_title": "Howard Hughes Holdings Inc. (HHH) insider bought $1.7M",
+    "source_summary": "2 insider(s) bought 26,000 shares at $64.13 on 2026-09-23.",
+    "drafted_at": "2026-09-29T07:38:36.818620",
+    "data": {
+      "ticker": "HHH",
+      "type": "P",
+      "dollar_value": 1667428.0,
+      "pct_since": 15.312641428726327
+    },
+    "content_hash": "45c9935383910314"
+  },
+  {
+    "id": "e502b5fb",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$GPI \u2014 a company insider bought $31.5M on Sep 24.\n\nGroup 1 Automotive Inc. 126,288 shares at $249.62.\n\nStock is +1.0% since the purchase. This is a public SEC Form 4 filing.",
@@ -169,7 +210,7 @@
     "source_url": "http://openinsider.com/screener?s=GPI",
     "source_title": "Group 1 Automotive Inc (GPI) insider bought $31.5M",
     "source_summary": "1 insider(s) bought 126,288 shares at $249.62 on 2026-09-24.",
-    "drafted_at": "2026-09-29T01:20:53.855853",
+    "drafted_at": "2026-09-29T07:38:36.818821",
     "data": {
       "ticker": "GPI",
       "type": "P",
@@ -179,7 +220,7 @@
     "content_hash": "8e24983f05e0b043"
   },
   {
-    "id": "157438c1",
+    "id": "0d559a39",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$CRBG \u2014 a company insider bought $8.8M on Sep 24.\n\nCorebridge Financial, Inc. 258,878 shares at $33.85.\n\nStock is +3.0% since the purchase. This is a public SEC Form 4 filing.",
@@ -189,7 +230,7 @@
     "source_url": "http://openinsider.com/screener?s=CRBG",
     "source_title": "Corebridge Financial, Inc. (CRBG) insider bought $8.8M",
     "source_summary": "1 insider(s) bought 258,878 shares at $33.85 on 2026-09-24.",
-    "drafted_at": "2026-09-29T01:20:53.856067",
+    "drafted_at": "2026-09-29T07:38:36.819016",
     "data": {
       "ticker": "CRBG",
       "type": "P",
@@ -199,7 +240,7 @@
     "content_hash": "649d7cebd2bf8768"
   },
   {
-    "id": "81a0c7e3",
+    "id": "519dec24",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$DKS \u2014 6 company insiders bought $5.1M on Sep 23.\n\nDick'S Sporting Goods, Inc. 39,130 shares at $130.05.\n\nStock is +4.9% since the purchase. This is a public SEC Form 4 filing.",
@@ -209,7 +250,7 @@
     "source_url": "http://openinsider.com/screener?s=DKS",
     "source_title": "Dick'S Sporting Goods, Inc. (DKS) insider bought $5.1M",
     "source_summary": "6 insider(s) bought 39,130 shares at $130.05 on 2026-09-23.",
-    "drafted_at": "2026-09-29T01:20:53.856272",
+    "drafted_at": "2026-09-29T07:38:36.819235",
     "data": {
       "ticker": "DKS",
       "type": "P",
@@ -219,7 +260,7 @@
     "content_hash": "d7b947ea917be344"
   },
   {
-    "id": "90688a10",
+    "id": "a6ff633d",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$INBX \u2014 2 company insiders bought $3.9M on Sep 25.\n\nInhibrx Biosciences, Inc. 37,500 shares at $104.82.\n\nStock is -5.0% since the purchase. This is a public SEC Form 4 filing.",
@@ -229,7 +270,7 @@
     "source_url": "http://openinsider.com/screener?s=INBX",
     "source_title": "Inhibrx Biosciences, Inc. (INBX) insider bought $3.9M",
     "source_summary": "2 insider(s) bought 37,500 shares at $104.82 on 2026-09-25.",
-    "drafted_at": "2026-09-29T01:20:53.856472",
+    "drafted_at": "2026-09-29T07:38:36.819430",
     "data": {
       "ticker": "INBX",
       "type": "P",
@@ -239,27 +280,41 @@
     "content_hash": "11770b9cda9e358a"
   },
   {
-    "id": "0493a1cc",
-    "format": "CORRUPTION_WATCH_INSIDER",
+    "id": "eb3b2ff2",
+    "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "$LLYVK \u2014 a company insider bought $2.9M on Sep 24.\n\nLiberty Live Holdings, Inc. 28,333 shares at $102.53.\n\nStock is -3.1% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/LLYVK_P_20260924.png",
+    "draft_text": "The Left is outraged that one of Philadelphia\u2019s \u201cleading antisemites\u201d is not Palestinian but Jewish.\n\nhttps://spectator.org/philly-fraud-what-woke-wrought/",
+    "image_path": null,
     "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=LLYVK",
-    "source_title": "Liberty Live Holdings, Inc. (LLYVK) insider bought $2.9M",
-    "source_summary": "1 insider(s) bought 28,333 shares at $102.53 on 2026-09-24.",
-    "drafted_at": "2026-09-29T01:20:53.856692",
+    "primary_source": "AM SPECTATOR",
+    "source_url": "https://spectator.org/philly-fraud-what-woke-wrought/",
+    "source_title": "Philly Fraud: What Woke Wrought",
+    "source_summary": "The Left is outraged that one of Philadelphia\u2019s \u201cleading antisemites\u201d is not Palestinian but Jewish. The reason for the outcry...",
+    "drafted_at": "2026-09-29T07:38:36.821946",
     "data": {
-      "ticker": "LLYVK",
-      "type": "P",
-      "dollar_value": 2904982.0,
-      "pct_since": -3.0917774208996764
+      "source": "AM SPECTATOR"
     },
-    "content_hash": "831314b3477feb04"
+    "content_hash": "a00d04f5b011332e"
   },
   {
-    "id": "783390e1",
+    "id": "9bc1f97b",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "The cross-chain protocol said it actively prevents stolen funds from being laundered, drawing a contrast with THORChain\u2019s position that it does not selectively censor transactions.\n\nhttps://cointelegraph.com/news/near-intents-says-it-blocked-50m-tied-to-bitget-hackers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "COINTELEGRAPH",
+    "source_url": "https://cointelegraph.com/news/near-intents-says-it-blocked-50m-tied-to-bitget-hackers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source_title": "NEAR Intents says it blocked $50M tied to Bitget hackers",
+    "source_summary": "The cross-chain protocol said it actively prevents stolen funds from being laundered, drawing a contrast with THORChain\u2019s position that it does not selectively censor transactions.",
+    "drafted_at": "2026-09-29T07:38:36.822307",
+    "data": {
+      "source": "COINTELEGRAPH"
+    },
+    "content_hash": "91cd266ba2bf1253"
+  },
+  {
+    "id": "869f42a8",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "A second suspected memecoin rug factory has surfaced on Robinhood Chain as the fast-growing network attracts increasingly coordinated scam activity.\n\n28, blockchain security firm GoPlus said it identified a high-risk operation behind hundreds of memecoins that routed more than $9 million through a common fund-consolidation network over the past 30 days.\n\nThe operation [\u2026] The post Robinhood Chain\u2019s $1.5 billion boom is attracting memecoin rug factories appeared first on CryptoSlate.\n\nhttps://cryptoslate.com/robinhood-chains-1-5-billion-boom-is-attracting-memecoin-rug-factories/",
@@ -269,14 +324,14 @@
     "source_url": "https://cryptoslate.com/robinhood-chains-1-5-billion-boom-is-attracting-memecoin-rug-factories/",
     "source_title": "Robinhood Chain\u2019s $1.5 billion boom is attracting memecoin rug factories",
     "source_summary": "A second suspected memecoin rug factory has surfaced on Robinhood Chain as the fast-growing network attracts increasingly coordinated scam activity. On Sept. 28, blockchain security firm GoPlus said it identified a high-risk operation behind hundreds of memecoins that routed more than $9 million through a common fund-consolidation network over the past 30 days. The operation [\u2026] The post Robinhood",
-    "drafted_at": "2026-09-29T01:20:53.859562",
+    "drafted_at": "2026-09-29T07:38:36.823294",
     "data": {
       "source": "CRYPTOSLATE"
     },
     "content_hash": "9323af732e3351af"
   },
   {
-    "id": "750c29be",
+    "id": "bb30d66f",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "'When I voted and showed my ID, the woman was angry and hit it away'.\n\nhttps://www.wnd.com/2026/09/they-made-election-fraud-mandatory-elon-musk-explodes/",
@@ -286,14 +341,14 @@
     "source_url": "https://www.wnd.com/2026/09/they-made-election-fraud-mandatory-elon-musk-explodes/",
     "source_title": "\u2018They made election fraud mandatory\u2019: Elon Musk explodes after his mother says a New York poll worker whacked away her identification",
     "source_summary": "'When I voted and showed my ID, the woman was angry and hit it away'",
-    "drafted_at": "2026-09-29T01:20:53.859717",
+    "drafted_at": "2026-09-29T07:38:36.823519",
     "data": {
       "source": "WND"
     },
     "content_hash": "198a2468e100f741"
   },
   {
-    "id": "bf6c2f06",
+    "id": "192a7c88",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Bitcoin Magazine Belarus Approves the Country\u2019s First Crypto Banks: Report Belarus earlier this year signed a legal framework for crypto banks in the country.\n\nThis post Belarus Approves the Country\u2019s First Crypto Banks: Report first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.\n\nhttps://bitcoinmagazine.com/news/belarus-approves-first-crypto-banks",
@@ -303,48 +358,14 @@
     "source_url": "https://bitcoinmagazine.com/news/belarus-approves-first-crypto-banks",
     "source_title": "Belarus Approves the Country\u2019s First Crypto Banks: Report",
     "source_summary": "Bitcoin Magazine Belarus Approves the Country\u2019s First Crypto Banks: Report Belarus earlier this year signed a legal framework for crypto banks in the country. This post Belarus Approves the Country\u2019s First Crypto Banks: Report first appeared on Bitcoin Magazine and is written by Mathew Di Salvo .",
-    "drafted_at": "2026-09-29T01:20:53.860089",
+    "drafted_at": "2026-09-29T07:38:36.823897",
     "data": {
       "source": "BITCOIN MAG"
     },
     "content_hash": "5960a80499002830"
   },
   {
-    "id": "6b7147a0",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Aiden Pleterski was allegedly behind a crypto Ponzi scheme between 2021 and 2022 that resulted in a kidnapping and related criminal charges.\n\nhttps://cointelegraph.com/news/canada-aiden-pleterski-fraud-trial-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "COINTELEGRAPH",
-    "source_url": "https://cointelegraph.com/news/canada-aiden-pleterski-fraud-trial-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "source_title": "Canadian \u2018crypto king\u2019 set to represent himself at fraud trial",
-    "source_summary": "Aiden Pleterski was allegedly behind a crypto Ponzi scheme between 2021 and 2022 that resulted in a kidnapping and related criminal charges.",
-    "drafted_at": "2026-09-29T01:20:53.860275",
-    "data": {
-      "source": "COINTELEGRAPH"
-    },
-    "content_hash": "2cfa1644624a5597"
-  },
-  {
-    "id": "6c0c9a6d",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "The Department of Justice (DOJ) announced charges against 10 migrants, including illegal aliens, for alleged illegal voting and other election crimes in a nationwide bust.\n\nThe post DOJ Charges 10 Migrants with Illegal Voting, Election Crimes in Nationwide Bust appeared first on Breitbart.\n\nhttps://www.breitbart.com/politics/2026/09/28/doj-charges-migrants-with-illegal-voting-nationwide-bust/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "BREITBART",
-    "source_url": "https://www.breitbart.com/politics/2026/09/28/doj-charges-migrants-with-illegal-voting-nationwide-bust/",
-    "source_title": "DOJ Charges 10 Migrants with Illegal Voting, Election Crimes in Nationwide Bust",
-    "source_summary": "The Department of Justice (DOJ) announced charges against 10 migrants, including illegal aliens, for alleged illegal voting and other election crimes in a nationwide bust. The post DOJ Charges 10 Migrants with Illegal Voting, Election Crimes in Nationwide Bust appeared first on Breitbart .",
-    "drafted_at": "2026-09-29T01:20:53.860598",
-    "data": {
-      "source": "BREITBART"
-    },
-    "content_hash": "5dbfd3437089612c"
-  },
-  {
-    "id": "bafc2fa6",
+    "id": "c6739db5",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "5 members of Congress bought $SPCX this year \u2014 and these filings don't show them selling:\n\n\u2022 Daniel Meuser (R)\n\u2022 Jared Moskowitz (D)\n\u2022 John McGuire (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Daniel Meuser, $15,001 - $50,000 on Jun 15.\n\nPrice since the first buy in this group: -7.6%.\n\nSTOCK Act disclosures. Public record.",
@@ -354,7 +375,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034774.pdf",
     "source_title": "5 Congress members bought $SPCX",
     "source_summary": "5 politicians bought $SPCX; largest $15,001 - $50,000 by Daniel Meuser.",
-    "drafted_at": "2026-09-29T01:20:53.861962",
+    "drafted_at": "2026-09-29T07:38:36.826146",
     "data": {
       "ticker": "SPCX",
       "member_count": 5,
@@ -363,7 +384,7 @@
     "content_hash": "51463ed55dda905c"
   },
   {
-    "id": "b898fe49",
+    "id": "87eb9e58",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $SPCX this year \u2014 and these filings don't show them selling:\n\n\u2022 Daniel Meuser (R)\n\u2022 Jared Moskowitz (D)\n\u2022 John McGuire (R)\n\u2022 Gilbert Cisneros (D)\n\nLargest disclosed here: Daniel Meuser, $15,001 - $50,000 on Jun 15.\n\nPrice since the first buy in this group: -7.6%.\n\nSTOCK Act disclosures. Public record.",
@@ -373,7 +394,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034774.pdf",
     "source_title": "4 Congress members bought $SPCX",
     "source_summary": "4 politicians bought $SPCX; largest $15,001 - $50,000 by Daniel Meuser.",
-    "drafted_at": "2026-09-29T01:20:53.862276",
+    "drafted_at": "2026-09-29T07:38:36.826465",
     "data": {
       "ticker": "SPCX",
       "member_count": 4,
@@ -382,7 +403,7 @@
     "content_hash": "585711bf88956fa9"
   },
   {
-    "id": "a8ded8ac",
+    "id": "7f1d3fe5",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $NVDA this year \u2014 and these filings don't show them selling:\n\n\u2022 Michael Rulli (R)\n\u2022 Cleo Fields (D)\n\u2022 Gilbert Cisneros (D)\n\u2022 John J Mr McGuire (R)\n\nLargest disclosed here: Michael Rulli, $1,001 - $15,000 on Jun 25.\n\nPrice since the first buy in this group: +15.0%.\n\nSTOCK Act disclosures. Public record.",
@@ -392,7 +413,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035147.pdf",
     "source_title": "4 Congress members bought $NVDA",
     "source_summary": "4 politicians bought $NVDA; largest $1,001 - $15,000 by Michael Rulli.",
-    "drafted_at": "2026-09-29T01:20:53.862581",
+    "drafted_at": "2026-09-29T07:38:36.826888",
     "data": {
       "ticker": "NVDA",
       "member_count": 4,
@@ -401,7 +422,7 @@
     "content_hash": "f6cf25ab3c00fb6f"
   },
   {
-    "id": "20b33bf0",
+    "id": "a211284f",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $MU this year \u2014 and these filings don't show them selling:\n\n\u2022 Josh Gottheimer (D)\n\u2022 Sheldon Whitehouse (D)\n\u2022 Michael Rulli (R)\n\u2022 Dan Newhouse (R)\n\nLargest disclosed here: Josh Gottheimer, $1,001 - $15,000 on May 21.\n\nPrice since the first buy in this group: +42.0%.\n\nSTOCK Act disclosures. Public record.",
@@ -411,7 +432,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034693.pdf",
     "source_title": "4 Congress members bought $MU",
     "source_summary": "4 politicians bought $MU; largest $1,001 - $15,000 by Josh Gottheimer.",
-    "drafted_at": "2026-09-29T01:20:53.862906",
+    "drafted_at": "2026-09-29T07:38:36.827462",
     "data": {
       "ticker": "MU",
       "member_count": 4,
@@ -420,7 +441,7 @@
     "content_hash": "7c265a3a54605da1"
   },
   {
-    "id": "c00b0f6d",
+    "id": "f22a9157",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $MU this year \u2014 and these filings don't show them selling:\n\n\u2022 Sheldon Whitehouse (D)\n\u2022 Michael Rulli (R)\n\u2022 Dan Newhouse (R)\n\nLargest disclosed here: Sheldon Whitehouse, $1,001 - $15,000 on Jun 25.\n\nPrice since the first buy in this group: -10.8%.\n\nSTOCK Act disclosures. Public record.",
@@ -430,7 +451,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/5d9b1b8e-2ae1-442b-860c-e79b8a701dc6/",
     "source_title": "3 Congress members bought $MU",
     "source_summary": "3 politicians bought $MU; largest $1,001 - $15,000 by Sheldon Whitehouse.",
-    "drafted_at": "2026-09-29T01:20:53.863195",
+    "drafted_at": "2026-09-29T07:38:36.827907",
     "data": {
       "ticker": "MU",
       "member_count": 3,
@@ -439,92 +460,126 @@
     "content_hash": "78d90ba61af22eb7"
   },
   {
-    "id": "06efb29d",
+    "id": "19b1852a",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 CHINA: The People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Tuesday at 6.7411 compared to the previous day's fix of 6.7399 and 6.7177 Reuters estimate.\n\nhttps://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67411-vs-67399-previous-202609290115",
+    "draft_text": "From the Gulf: ING\u2019s Francesco Pesole notes fading optimism on US\u2013Iran talks and rising Oil prices are reinforcing support for the Dollar, with Brent near $107 and equities at risk from rapidly rising rates.\n\nHe sees upcoming US consumer confidence and JOLTS data as key for Dollar direction.\n\nhttps://www.fxstreet.com/news/usd-data-risks-support-dollar-gains-ing-202609290733",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67411-vs-67399-previous-202609290115",
-    "source_title": "PBOC sets USD/CNY reference rate at 6.7411 vs. 6.7399 previous",
-    "source_summary": "The People\u2019s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Tuesday at 6.7411 compared to the previous day's fix of 6.7399 and 6.7177 Reuters estimate.",
-    "drafted_at": "2026-09-29T01:20:53.866834",
+    "source_url": "https://www.fxstreet.com/news/usd-data-risks-support-dollar-gains-ing-202609290733",
+    "source_title": "USD: Data risks support Dollar gains \u2013 ING",
+    "source_summary": "ING\u2019s Francesco Pesole notes fading optimism on US\u2013Iran talks and rising Oil prices are reinforcing support for the Dollar, with Brent near $107 and equities at risk from rapidly rising rates. He sees upcoming US consumer confidence and JOLTS data as key for Dollar direction.",
+    "drafted_at": "2026-09-29T07:38:36.833819",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "092be648dba48447"
+    "content_hash": "5a9cdf0c6cf38868"
   },
   {
-    "id": "765818d9",
+    "id": "5ff59334",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: West Texas Intermediate (WTI), the US crude oil benchmark, is trading around $92.05 during the early Asian trading hours on Tuesday.\n\nhttps://www.fxstreet.com/news/wti-inches-up-above-9200-on-qatari-mediated-us-iran-talks-saudi-pipeline-restart-202609290037",
+    "draft_text": "Mainland wire: As U.S.-China relations thaw, Peking University\u2019s Yu Tiejun argues that Washington's fears of losing the tech race are misplaced.\n\nhttps://fortune.com/2026/09/29/us-china-rivalry-over-securitization-1930s/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/wti-inches-up-above-9200-on-qatari-mediated-us-iran-talks-saudi-pipeline-restart-202609290037",
-    "source_title": "WTI inches up above $92.00 on Qatari-mediated US-Iran talks, Saudi pipeline restart",
-    "source_summary": "West Texas Intermediate (WTI), the US crude oil benchmark, is trading around $92.05 during the early Asian trading hours on Tuesday.",
-    "drafted_at": "2026-09-29T01:20:53.867711",
+    "primary_source": "FORTUNE",
+    "source_url": "https://fortune.com/2026/09/29/us-china-rivalry-over-securitization-1930s/",
+    "source_title": "The U.S. should be \u2018more confident\u2019 and less worried about losing ground to China, says Peking University expert",
+    "source_summary": "As U.S.-China relations thaw, Peking University\u2019s Yu Tiejun argues that Washington's fears of losing the tech race are misplaced.",
+    "drafted_at": "2026-09-29T07:38:36.834787",
     "data": {
-      "source": "FXSTREET"
+      "source": "FORTUNE"
     },
-    "content_hash": "7648276e1680e457"
+    "content_hash": "ec91f9b4cadc3191"
   },
   {
-    "id": "739823f1",
+    "id": "53111fd3",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From Beijing: 28, 2026 (GLOBE NEWSWIRE) -- Julong Holding Limited (\u201cJulong\u201d or the \u201cCompany\u201d) (Nasdaq: JLHL), a growth-oriented provider of intelligent integrated solutions, today announced that, on September 28, 2026, it entered into a securities purchase agreement (the \u201cSecurities Purchase Agreement\u201d) with certain investors for a private placement (the \u201cPrivate Placement\u201d) of the Company\u2019s securities.\n\nhttps://www.globenewswire.com/news-release/2026/09/29/3370356/0/en/julong-holding-limited-announces-private-placement.html",
+    "draft_text": "APAC wire: Transporting athletes to the wrong location has emerged as a recurring issue at the Asian Games in Japan.\n\nhttps://www.aljazeera.com/sports/2026/9/29/asian-games-2026-aichi-nagoya-south-korea-volley-team-bus-wrong-location?traffic_source=rss",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "GLOBENEWSWIRE",
-    "source_url": "https://www.globenewswire.com/news-release/2026/09/29/3370356/0/en/julong-holding-limited-announces-private-placement.html",
-    "source_title": "Julong Holding Limited Announces Private Placement",
-    "source_summary": "BEIJING, Sept. 28, 2026 (GLOBE NEWSWIRE) -- Julong Holding Limited (\u201cJulong\u201d or the \u201cCompany\u201d) (Nasdaq: JLHL), a growth-oriented provider of intelligent integrated solutions, today announced that, on September 28, 2026, it entered into a securities purchase agreement (the \u201cSecurities Purchase Agreement\u201d) with certain investors for a private placement (the \u201cPrivate Placement\u201d) of the Company\u2019s secu",
-    "drafted_at": "2026-09-29T01:20:53.868271",
+    "primary_source": "AL JAZEERA",
+    "source_url": "https://www.aljazeera.com/sports/2026/9/29/asian-games-2026-aichi-nagoya-south-korea-volley-team-bus-wrong-location?traffic_source=rss",
+    "source_title": "Asian Games: South Korea volleyball team latest to be taken to wrong venue",
+    "source_summary": "Transporting athletes to the wrong location has emerged as a recurring issue at the Asian Games in Japan.",
+    "drafted_at": "2026-09-29T07:38:36.835177",
     "data": {
-      "source": "GLOBENEWSWIRE"
+      "source": "AL JAZEERA"
     },
-    "content_hash": "985c78893939fee9"
+    "content_hash": "c9dc88c3a32563c4"
   },
   {
-    "id": "79e4fc48",
+    "id": "ac50036a",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Canada/LatAm wire: Agreement Signals a New Northern Gateway for Western Canadian Critical Minerals, Energy and More Winnipeg, Manitoba, Sept.\n\n28, 2026 (GLOBE NEWSWIRE) \u2014 Arctic Gateway Group (AGG), operator of the Port of Churchill, and the Port of Rotterdam have signed an agreement to attract business and strengthen supply chains linking Western Canada and Europe.\n\nhttps://financialpost.com/globe-newswire/port-of-churchill-and-port-of-rotterdam-have-signed-agreement-to-strengthen-transatlantic-trade",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/globe-newswire/port-of-churchill-and-port-of-rotterdam-have-signed-agreement-to-strengthen-transatlantic-trade",
-    "source_title": "PORT OF CHURCHILL AND PORT OF ROTTERDAM HAVE SIGNED AGREEMENT TO STRENGTHEN TRANSATLANTIC TRADE",
-    "source_summary": "Agreement Signals a New Northern Gateway for Western Canadian Critical Minerals, Energy and More Winnipeg, Manitoba, Sept. 28, 2026 (GLOBE NEWSWIRE) \u2014 Arctic Gateway Group (AGG), operator of the Port of Churchill, and the Port of Rotterdam have signed an agreement to attract business and strengthen supply chains linking Western Canada and Europe. The agreement [\u2026]",
-    "drafted_at": "2026-09-29T01:20:53.869227",
-    "data": {
-      "source": "FINANCIAL POST"
-    },
-    "content_hash": "7a099e4db77ee9b8"
-  },
-  {
-    "id": "60956612",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "From the Gulf: The BRC gauge is a narrow, backward-looking snapshot, so the market is likely to look past the small dip in shop prices and focus on the official inflation path, which is forecast to climb above 4% next year.\n\nEnergy is the swing factor: oil and gas prices tied to the Iran conflict feed directly into retailers' costs and into the inflation outlook, so diplomacy headlines can move UK rate and sterling expectations quickly.\n\nA budget that eases business rates would offer retailers some relief, but it would not remove the wider energy-driven cost pressure. --- Shop price inflation eased again in September, but retailers say they are close to their limit as war-driven costs mount and the budget approaches.\n\nSummary: Annual UK shop price inflation slowed to 1.4% in September from 1.5% in August, a little above the three-month average of 1.3%, according to the British Retail Consortium.\n\nFood inflation eased to 2.5% from 2.8% as promotions cut meat and dairy prices, although poor European harvests lifted fruit prices and high commodity prices kept chocolate and confectionery elevated.\n\nNon-food inflation slowed to 0.8% from 0.9% as heavy discounting lowered the cost of back-to-school essentials.\n\nThe BRC's chief executive said retailers have absorbed successive cost increases and cited higher business rates in April, rising employment costs, energy bills and packaging taxes.\n\nThe BRC wants finance minister John Healey to help with business rates in his October 28 tax and spending plan.\n\nhttps://investinglive.com/news/uk-shop-price-inflation-slows-to-1-4-in-september-as-brc-urges-business-rates-help/",
+    "draft_text": "EU/UK wire: Spain September preliminary CPI +4.9% vs +4.6% y/y expected Prior +4.3% Spain September preliminary HICP +5.0% vs +4.9% y/y expected Prior +4.6% The breakdownThe numbers are running hotter than expected with headline annual inflation climbing to 4.9%, its highest since February 2023.\n\nMeanwhile, core annual inflation is also seen accelerating further from 2.9% to 3.1% in September.\n\nThat suggests the rise in price pressures is starting to become broader, and not just isolated within energy prices.\n\nThe jump here marks the highest level for core annual inflation since March 2024.\n\nThis may just be one reading but if the trend in Spain feeds through to the region more broadly, it could very well push expectations for a quicker move by the ECB on their next policy step.\n\nAs things stand, markets are pricing in roughly 50% odds of a 25 bps rate hike for October next.\n\nThe upcoming inflation data from the region this week might very well have some influence in affecting how that changes next.\n\nEUR/USD remains lightly changed on the day, sitting at 1.1360 currently.\n\nhttps://investinglive.com/news/spain-inflation-climbs-to-near-5-the-highest-in-over-three-years/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/uk-shop-price-inflation-slows-to-1-4-in-september-as-brc-urges-business-rates-help/",
-    "source_title": "UK shop price inflation slows to 1.4% in September as BRC urges business rates help",
-    "source_summary": "The BRC gauge is a narrow, backward-looking snapshot, so the market is likely to look past the small dip in shop prices and focus on the official inflation path, which is forecast to climb above 4% next year. Energy is the swing factor: oil and gas prices tied to the Iran conflict feed directly into retailers' costs and into the inflation outlook, so diplomacy headlines can move UK rate and sterli",
-    "drafted_at": "2026-09-29T01:20:53.871614",
+    "source_url": "https://investinglive.com/news/spain-inflation-climbs-to-near-5-the-highest-in-over-three-years/",
+    "source_title": "Spain inflation climbs to near 5%, the highest in over three years",
+    "source_summary": "Spain September preliminary CPI +4.9% vs +4.6% y/y expected Prior +4.3% Spain September preliminary HICP +5.0% vs +4.9% y/y expected Prior +4.6% The breakdownThe numbers are running hotter than expected with headline annual inflation climbing to 4.9%, its highest since February 2023. Meanwhile, core annual inflation is also seen accelerating further from 2.9% to 3.1% in September. That suggests th",
+    "drafted_at": "2026-09-29T07:38:36.840034",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "31681f0b859c9120"
+    "content_hash": "6eb69b4cefbb7de4"
   },
   {
-    "id": "5ffc4f59",
+    "id": "95356ea5",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "From Beijing: China's imports of liquefied natural gas are on course to book their second consecutive monthly decline because of significantly higher prices driven by the war in the Middle East.\n\nSeptember LNG flows to China are seen at 5.3 million tons, according to Kpler data cited by Bloomberg today.\n\nThis would be 8% lower than LNG imports for September 2025, but slightly higher than August flows, which Kpler estimated last month at 5.2 million tons.\n\nChina is one of the biggest buyers of liquefied natural gas globally but has curbed purchases as prices on\u2026\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Chinas-LNG-Imports-Set-for-Second-Straight-Monthly-Drop.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "OILPRICE",
+    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-LNG-Imports-Set-for-Second-Straight-Monthly-Drop.html",
+    "source_title": "China's LNG Imports Set for Second Straight Monthly Drop",
+    "source_summary": "China's imports of liquefied natural gas are on course to book their second consecutive monthly decline because of significantly higher prices driven by the war in the Middle East. September LNG flows to China are seen at 5.3 million tons, according to Kpler data cited by Bloomberg today. This would be 8% lower than LNG imports for September 2025, but slightly higher than August flows, which Kpler",
+    "drafted_at": "2026-09-29T07:38:36.841388",
+    "data": {
+      "source": "OILPRICE"
+    },
+    "content_hash": "e57ddf0c19aa5634"
+  },
+  {
+    "id": "af5af651",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "CPI just printed. Spain September preliminary CPI +4.9% vs +4.6% y/y expected Prior +4.3% Spain September preliminary HICP +5.0% vs +4.9% y/y expected Prior +4.6% The breakdownThe numbers are running hotter than expected with headline annual inflation climbing to 4.9%, its highest since February 2023.\n\nMeanwhile, core annual inflation is also seen accelerating further from 2.9% to 3.1% in September.\n\nThat suggests the rise in price pressures is starting to become broader, and not just isolated within energy prices.\n\nThe jump here marks the highest level for core annual inflation since March 2024.\n\nThis may just be one reading but if the trend in Spain feeds through to the region more broadly, it could very well push expectations for a quicker move by the ECB on their next policy step.\n\nAs things stand, markets are pricing in roughly 50% odds of a 25 bps rate hike for October next.\n\nThe upcoming inflation data from the region this week might very well have some influence in affecting how that changes next.\n\nEUR/USD remains lightly changed on the day, sitting at 1.1360 currently.\n\nhttps://investinglive.com/news/spain-inflation-climbs-to-near-5-the-highest-in-over-three-years/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/spain-inflation-climbs-to-near-5-the-highest-in-over-three-years/",
+    "source_title": "Spain inflation climbs to near 5%, the highest in over three years",
+    "source_summary": "Spain September preliminary CPI +4.9% vs +4.6% y/y expected Prior +4.3% Spain September preliminary HICP +5.0% vs +4.9% y/y expected Prior +4.6% The breakdownThe numbers are running hotter than expected with headline annual inflation climbing to 4.9%, its highest since February 2023. Meanwhile, core annual inflation is also seen accelerating further from 2.9% to 3.1% in September. That suggests th",
+    "drafted_at": "2026-09-29T07:38:36.920981",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "6eb69b4cefbb7de4"
+  },
+  {
+    "id": "bc74b67b",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "From the inflation desk: EUROPEAN SESSION In the European session, the main highlight is the Spanish CPI report.\n\nHeadline CPI Y/Y is expected to rise further to 4.6% vs 4.3% prior, but the focus will be on the Core measure which has ticked lower to 2.9% in the prior reading.\n\nThe market is currently pricing roughly a 31% chance of an ECB rate hike in October, so if we get hot inflation numbers this week, we should see those odds rising above 50% and the central bank following suit.\n\nIf we get a surprising breakthrough in US-Iran relations before the next ECB meeting, then we might see a dovish repricing across the board, with the central bank holding off from raising rates in October.\n\nAMERICAN SESSION In the American session, we have the Canadian monthly GDP, the US Consumer Confidence report and the US Job Openings data.\n\nNone of the data is going to change much for the respective central banks, as both the BoC and the Fed are mainly focused on inflation.\n\nThe more important event should actually be a potential additional round of US-Iran talks as mediators try to bridge the gap between the two sides to reopen the Strait of Hormuz.\n\nWe've already got a taste of the volatility around these talks yesterday, with positive and negative headlines triggering spikes in the markets.\n\nhttps://investinglive.com/news/what-are-the-main-events-for-today-52/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/what-are-the-main-events-for-today-52/",
+    "source_title": "What are the main events for today?",
+    "source_summary": "EUROPEAN SESSION In the European session, the main highlight is the Spanish CPI report. Headline CPI Y/Y is expected to rise further to 4.6% vs 4.3% prior, but the focus will be on the Core measure which has ticked lower to 2.9% in the prior reading. The market is currently pricing roughly a 31% chance of an ECB rate hike in October, so if we get hot inflation numbers this week, we should see thos",
+    "drafted_at": "2026-09-29T07:38:36.922616",
+    "data": {
+      "source": "FOREXLIVE"
+    },
+    "content_hash": "b657a2aa9e5281fe"
+  },
+  {
+    "id": "8a445870",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "DATA DROP: InvestorPlace - Stock Market News, Stock Advice & Trading Tips Trump rejects Iran's deal as oil spikes\u2026 the 10-year rockets up to 5.25%\u2026 what's cracking beneath the surface?\u2026 the PCE double-whammy The post 5% Was the Line \u2013 We\u2019re Now at 5.25% appeared first on InvestorPlace.\n\nhttps://investorplace.com/2026/09/5-was-the-line-were-now-at-5-25/",
@@ -534,14 +589,14 @@
     "source_url": "https://investorplace.com/2026/09/5-was-the-line-were-now-at-5-25/",
     "source_title": "5% Was the Line \u2013 We\u2019re Now at 5.25%",
     "source_summary": "InvestorPlace - Stock Market News, Stock Advice & Trading Tips Trump rejects Iran's deal as oil spikes\u2026 the 10-year rockets up to 5.25%\u2026 what's cracking beneath the surface?\u2026 the PCE double-whammy The post 5% Was the Line \u2013 We\u2019re Now at 5.25% appeared first on InvestorPlace .",
-    "drafted_at": "2026-09-29T01:20:53.931347",
+    "drafted_at": "2026-09-29T07:38:36.923099",
     "data": {
       "source": "INVESTORPLACE"
     },
     "content_hash": "4206ce2f74ba790b"
   },
   {
-    "id": "cdabbfc7",
+    "id": "8a05a7ec",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -551,7 +606,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-09-29T01:20:53.932949",
+    "drafted_at": "2026-09-29T07:38:36.924664",
     "data": {
       "manual": true,
       "via": "manual_news.md"
