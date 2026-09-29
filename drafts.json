@@ -1,23 +1,42 @@
 [
   {
-    "id": "bf993e30",
+    "id": "3ada779e",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "USD/JPY trades little changed around 157.25 on Monday as the US Dollar (USD) also holds steady near recent highs, with traders weighing Middle East developments and the risk of Japanese intervention.\n\nhttps://www.fxstreet.com/news/japanese-yen-trades-cautiously-as-intervention-risk-clashes-with-fed-rate-hike-bets-202609281816",
+    "draft_text": "AMD to buy Fei-Fei Li's World Labs in $8.2 billion bet on 'physical AI' Reuters\n\nhttps://news.google.com/rss/articles/CBMingFBVV95cUxOUEpLOGExLXd6b0dKeXJadmdubW9zdWZzTDB6eVhLb0RSN3RSQTYyenBJdTVRdmR6Vm5jRnp4VHVQQ1NEbGFQb1J0V08xcThIRUs1aG5NQ0piLXhEQTRhcXZQNEZkMUVuaHVyLTRNVjhjbDEtZmxuTGpuR2d1ZDU2b1pGdkxqS1o2TUNDcUMyaFUzRVdmUUpPQndkdEZMZw?oc=5",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/japanese-yen-trades-cautiously-as-intervention-risk-clashes-with-fed-rate-hike-bets-202609281816",
-    "source_title": "Japanese Yen trades cautiously as intervention risk clashes with Fed rate hike bets",
-    "source_summary": "USD/JPY trades little changed around 157.25 on Monday as the US Dollar (USD) also holds steady near recent highs, with traders weighing Middle East developments and the risk of Japanese intervention.",
-    "drafted_at": "2026-09-28T20:02:49.103936",
+    "primary_source": "REUTERS",
+    "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUEpLOGExLXd6b0dKeXJadmdubW9zdWZzTDB6eVhLb0RSN3RSQTYyenBJdTVRdmR6Vm5jRnp4VHVQQ1NEbGFQb1J0V08xcThIRUs1aG5NQ0piLXhEQTRhcXZQNEZkMUVuaHVyLTRNVjhjbDEtZmxuTGpuR2d1ZDU2b1pGdkxqS1o2TUNDcUMyaFUzRVdmUUpPQndkdEZMZw?oc=5",
+    "source_title": "AMD to buy Fei-Fei Li's World Labs in $8.2 billion bet on 'physical AI'",
+    "source_summary": "AMD to buy Fei-Fei Li's World Labs in $8.2 billion bet on 'physical AI' Reuters",
+    "drafted_at": "2026-09-29T00:29:21.238880",
     "data": {
-      "source": "FXSTREET"
+      "source": "REUTERS"
     },
-    "content_hash": "aa3fdd6b3ae4fdfa"
+    "content_hash": "f3d32a2dab402ee9"
   },
   {
-    "id": "4a12b5fe",
+    "id": "daf42ec1",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "If your alerts didn't go off, mine did. WTI crude drops 6.8% in 5 sessions to $93.49.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NYMEX \u00b7 CL=F",
+    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "source_title": "WTI crude oil futures",
+    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "drafted_at": "2026-09-29T00:29:21.239132",
+    "data": {
+      "signal_id": "CL=F:move:2026-09-28",
+      "kind": "move_down",
+      "current": "$93.49"
+    },
+    "content_hash": "c272de0720a2f459"
+  },
+  {
+    "id": "cfe266b4",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "You don't need to be a quant to see this. VIX climbs 6.9% in 5 sessions to 15.83.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
@@ -27,7 +46,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EVIX",
     "source_title": "VIX (S&P 500 volatility)",
     "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-09-28T20:02:49.104253",
+    "drafted_at": "2026-09-29T00:29:21.239318",
     "data": {
       "signal_id": "^VIX:move:2026-09-28",
       "kind": "move_up",
@@ -36,7 +55,7 @@
     "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "09f18dcc",
+    "id": "e57e848c",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Numbers don't lie. Look: Gold drops 5.8% in 5 sessions to $4,170.10.\n\nGold tracks real yields and central bank demand.\n\nMulti-year highs flag debasement or geopolitical hedging flows.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/GC%3DF",
@@ -46,7 +65,7 @@
     "source_url": "https://finance.yahoo.com/quote/GC%3DF",
     "source_title": "Gold futures",
     "source_summary": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
-    "drafted_at": "2026-09-28T20:02:49.104499",
+    "drafted_at": "2026-09-29T00:29:21.239506",
     "data": {
       "signal_id": "GC=F:move:2026-09-28",
       "kind": "move_down",
@@ -55,81 +74,7 @@
     "content_hash": "514096a7b4f87c16"
   },
   {
-    "id": "7847bf69",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "If your alerts didn't go off, mine did. WTI crude drops 5.9% in 5 sessions to $94.39.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "NYMEX \u00b7 CL=F",
-    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
-    "source_title": "WTI crude oil futures",
-    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-09-28T20:02:49.104753",
-    "data": {
-      "signal_id": "CL=F:move:2026-09-28",
-      "kind": "move_down",
-      "current": "$94.39"
-    },
-    "content_hash": "c272de0720a2f459"
-  },
-  {
-    "id": "f4acad71",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "The chart told me. Now I'm telling you. VIX tumbles 13.5% in 5 sessions to 14.87.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CBOE \u00b7 ^VIX",
-    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "source_title": "VIX (S&P 500 volatility)",
-    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-09-28T20:02:49.105027",
-    "data": {
-      "signal_id": "^VIX:move:2026-09-25",
-      "kind": "move_down",
-      "current": "14.87"
-    },
-    "content_hash": "995f4d67e7e875d2"
-  },
-  {
-    "id": "f59a355e",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "Read this twice. WTI crude slides 8.4% in 5 sessions to $93.30.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "NYMEX \u00b7 CL=F",
-    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
-    "source_title": "WTI crude oil futures",
-    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-09-28T20:02:49.105263",
-    "data": {
-      "signal_id": "CL=F:move:2026-09-27",
-      "kind": "move_down",
-      "current": "$93.30"
-    },
-    "content_hash": "c272de0720a2f459"
-  },
-  {
-    "id": "ba7252cc",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "The Fed just spoke. Here's what matters: USD/JPY trades little changed around 157.25 on Monday as the US Dollar (USD) also holds steady near recent highs, with traders weighing Middle East developments and the risk of Japanese intervention.\n\nhttps://www.fxstreet.com/news/japanese-yen-trades-cautiously-as-intervention-risk-clashes-with-fed-rate-hike-bets-202609281816",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://www.fxstreet.com/news/japanese-yen-trades-cautiously-as-intervention-risk-clashes-with-fed-rate-hike-bets-202609281816",
-    "source_title": "Japanese Yen trades cautiously as intervention risk clashes with Fed rate hike bets",
-    "source_summary": "USD/JPY trades little changed around 157.25 on Monday as the US Dollar (USD) also holds steady near recent highs, with traders weighing Middle East developments and the risk of Japanese intervention.",
-    "drafted_at": "2026-09-28T20:02:49.115887",
-    "data": {
-      "actor": "Fed"
-    },
-    "content_hash": "aa3fdd6b3ae4fdfa"
-  },
-  {
-    "id": "54718b22",
+    "id": "bef1f08c",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Live from the Federal Reserve: The Board also gave its approval for Peoples Bank, of Marietta, Ohio, to merge with Citizens Bank of Kentucky, Inc., and to establish and operate branches at the locations of Citizens Bank of Kentucky, Inc.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/orders20260925a.htm",
@@ -139,14 +84,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260925a.htm",
     "source_title": "Federal Reserve Board announces approval of application by Peoples Bancorp Inc.",
     "source_summary": "Federal Reserve Board announces approval of application by Peoples Bancorp Inc.",
-    "drafted_at": "2026-09-28T20:02:49.116286",
+    "drafted_at": "2026-09-29T00:29:21.248244",
     "data": {
       "actor": "FED"
     },
     "content_hash": "2523829cc6991506"
   },
   {
-    "id": "12267829",
+    "id": "45aa9f50",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "RATE-PATH READ: The first proposal would require that Board-supervised payment stablecoin issuers fully back their stablecoins with certain permissible reserve assets, such as short-term Treasury bills and certain other high-quality, liquid assets.\n\nThe proposal would also establish standardized capital requirements to address certain credit and operational risks of payment stablecoin activities, as well as risk management standards, in accordance with the law.\n\nSeparately, the proposal would introduce rules for Board-supervised firms that safekeep the assets backing payment stablecoins.\n\nIt would also clarify the permissibility of stablecoin and related activities for Board-supervised banks.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
@@ -156,14 +101,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
     "source_title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
     "source_summary": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
-    "drafted_at": "2026-09-28T20:02:49.117435",
+    "drafted_at": "2026-09-29T00:29:21.249145",
     "data": {
       "actor": "FED"
     },
     "content_hash": "849f3138f022c1f3"
   },
   {
-    "id": "11c4399d",
+    "id": "3a07144c",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "From the Eccles Building: The Board also gave its approval for BancFirst, of Oklahoma City, Oklahoma, to merge with SpiritBank and to establish and operate branches at the locations of SpiritBank.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/orders20260922a.htm",
@@ -173,14 +118,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260922a.htm",
     "source_title": "Federal Reserve Board announces approval of application by BancFirst Corporation",
     "source_summary": "Federal Reserve Board announces approval of application by BancFirst Corporation",
-    "drafted_at": "2026-09-28T20:02:49.117766",
+    "drafted_at": "2026-09-29T00:29:21.249399",
     "data": {
       "actor": "FED"
     },
     "content_hash": "2da92d996fa3b14f"
   },
   {
-    "id": "918ecfa5",
+    "id": "deb269fe",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "If you trade rates, read this: Consent prohibition order against Stephanie K.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
@@ -190,199 +135,199 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
     "source_title": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
     "source_summary": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
-    "drafted_at": "2026-09-28T20:02:49.118022",
+    "drafted_at": "2026-09-29T00:29:21.249581",
     "data": {
       "actor": "FED"
     },
     "content_hash": "140b0fd2a09d0598"
   },
   {
-    "id": "ae1ff53a",
+    "id": "8e446c74",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$BCBP \u2014 2 company insiders bought $1.3M on Sep 18.\n\nBcb Bancorp Inc. 170,000 shares at $7.75.\n\nStock is +10.3% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/BCBP_P_20260918.png",
+    "draft_text": "$GPI \u2014 a company insider bought $31.5M on Sep 24.\n\nGroup 1 Automotive Inc. 126,288 shares at $249.62.\n\nStock is +1.0% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/GPI_P_20260924.png",
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=BCBP",
-    "source_title": "Bcb Bancorp Inc (BCBP) insider bought $1.3M",
-    "source_summary": "2 insider(s) bought 170,000 shares at $7.75 on 2026-09-18.",
-    "drafted_at": "2026-09-28T20:02:49.118366",
+    "source_url": "http://openinsider.com/screener?s=GPI",
+    "source_title": "Group 1 Automotive Inc (GPI) insider bought $31.5M",
+    "source_summary": "1 insider(s) bought 126,288 shares at $249.62 on 2026-09-24.",
+    "drafted_at": "2026-09-29T00:29:21.249887",
     "data": {
-      "ticker": "BCBP",
+      "ticker": "GPI",
       "type": "P",
-      "dollar_value": 1317500.0,
-      "pct_since": 10.3225831062563
+      "dollar_value": 31524452.0,
+      "pct_since": 1.02555591530376
     },
-    "content_hash": "7e2a9ee93d2fa867"
+    "content_hash": "8e24983f05e0b043"
   },
   {
-    "id": "f712287e",
+    "id": "451b95f1",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$LEN \u2014 a company insider bought $136.4M on Sep 23.\n\nLennar Corp /New/. 1,679,700 shares at $81.19.\n\nStock is +1.2% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/LEN_P_20260923.png",
+    "draft_text": "$CRBG \u2014 a company insider bought $8.8M on Sep 24.\n\nCorebridge Financial, Inc. 258,878 shares at $33.85.\n\nStock is +3.0% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/CRBG_P_20260924.png",
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=LEN",
-    "source_title": "Lennar Corp /New/ (LEN) insider bought $136.4M",
-    "source_summary": "1 insider(s) bought 1,679,700 shares at $81.19 on 2026-09-23.",
-    "drafted_at": "2026-09-28T20:02:49.118565",
+    "source_url": "http://openinsider.com/screener?s=CRBG",
+    "source_title": "Corebridge Financial, Inc. (CRBG) insider bought $8.8M",
+    "source_summary": "1 insider(s) bought 258,878 shares at $33.85 on 2026-09-24.",
+    "drafted_at": "2026-09-29T00:29:21.250044",
     "data": {
-      "ticker": "LEN",
+      "ticker": "CRBG",
       "type": "P",
-      "dollar_value": 136382789.0,
-      "pct_since": 1.1824135064403358
+      "dollar_value": 8763849.0,
+      "pct_since": 3.013290788433572
     },
-    "content_hash": "8cc51516120db6e8"
+    "content_hash": "649d7cebd2bf8768"
   },
   {
-    "id": "dadd9340",
+    "id": "e8a5b78e",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$SBLK \u2014 8 company insiders bought $6.9M on Sep 15.\n\nStar Bulk Carriers Corp. 244,800 shares at $28.27.\n\nStock is +4.5% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/SBLK_P_20260915.png",
+    "draft_text": "$DKS \u2014 6 company insiders bought $5.1M on Sep 23.\n\nDick'S Sporting Goods, Inc. 39,130 shares at $130.05.\n\nStock is +4.9% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/DKS_P_20260923.png",
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=SBLK",
-    "source_title": "Star Bulk Carriers Corp. (SBLK) insider bought $6.9M",
-    "source_summary": "8 insider(s) bought 244,800 shares at $28.27 on 2026-09-15.",
-    "drafted_at": "2026-09-28T20:02:49.118760",
+    "source_url": "http://openinsider.com/screener?s=DKS",
+    "source_title": "Dick'S Sporting Goods, Inc. (DKS) insider bought $5.1M",
+    "source_summary": "6 insider(s) bought 39,130 shares at $130.05 on 2026-09-23.",
+    "drafted_at": "2026-09-29T00:29:21.250191",
     "data": {
-      "ticker": "SBLK",
+      "ticker": "DKS",
       "type": "P",
-      "dollar_value": 6920496.0,
-      "pct_since": 4.492398003280312
+      "dollar_value": 5088794.0,
+      "pct_since": 4.905799827590341
     },
-    "content_hash": "7e95faa88b944cc9"
+    "content_hash": "d7b947ea917be344"
   },
   {
-    "id": "ae092944",
+    "id": "f956d362",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$BBD \u2014 21 company insiders bought $29.0M on Sep 18.\n\nBank Bradesco. 1,609,508 shares at $17.99.\n\nStock is -81.0% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/BBD_P_20260918.png",
+    "draft_text": "$INBX \u2014 2 company insiders bought $3.9M on Sep 25.\n\nInhibrx Biosciences, Inc. 37,500 shares at $104.82.\n\nStock is -5.0% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/INBX_P_20260925.png",
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=BBD",
-    "source_title": "Bank Bradesco (BBD) insider bought $29.0M",
-    "source_summary": "21 insider(s) bought 1,609,508 shares at $17.99 on 2026-09-18.",
-    "drafted_at": "2026-09-28T20:02:49.118973",
+    "source_url": "http://openinsider.com/screener?s=INBX",
+    "source_title": "Inhibrx Biosciences, Inc. (INBX) insider bought $3.9M",
+    "source_summary": "2 insider(s) bought 37,500 shares at $104.82 on 2026-09-25.",
+    "drafted_at": "2026-09-29T00:29:21.250329",
     "data": {
-      "ticker": "BBD",
+      "ticker": "INBX",
       "type": "P",
-      "dollar_value": 28952210.0,
-      "pct_since": -81.0450245367944
+      "dollar_value": 3930800.0,
+      "pct_since": -4.970424909033039
     },
-    "content_hash": "7cfa8d9c6b28dbd7"
+    "content_hash": "11770b9cda9e358a"
   },
   {
-    "id": "845220c3",
+    "id": "766b1adf",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
-    "draft_text": "$BORR \u2014 3 company insiders bought $14.1M on Sep 18.\n\nBorr Drilling Ltd. 3,370,500 shares at $4.19.\n\nStock is +0.2% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/BORR_P_20260918.png",
+    "draft_text": "$LLYVK \u2014 a company insider bought $2.9M on Sep 24.\n\nLiberty Live Holdings, Inc. 28,333 shares at $102.53.\n\nStock is -3.1% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/LLYVK_P_20260924.png",
     "og_image_url": null,
     "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=BORR",
-    "source_title": "Borr Drilling Ltd (BORR) insider bought $14.1M",
-    "source_summary": "3 insider(s) bought 3,370,500 shares at $4.19 on 2026-09-18.",
-    "drafted_at": "2026-09-28T20:02:49.119161",
+    "source_url": "http://openinsider.com/screener?s=LLYVK",
+    "source_title": "Liberty Live Holdings, Inc. (LLYVK) insider bought $2.9M",
+    "source_summary": "1 insider(s) bought 28,333 shares at $102.53 on 2026-09-24.",
+    "drafted_at": "2026-09-29T00:29:21.250470",
     "data": {
-      "ticker": "BORR",
+      "ticker": "LLYVK",
       "type": "P",
-      "dollar_value": 14106108.0,
-      "pct_since": 0.2386589323421558
+      "dollar_value": 2904982.0,
+      "pct_since": -3.0917774208996764
     },
-    "content_hash": "678e1d577f15339f"
+    "content_hash": "831314b3477feb04"
   },
   {
-    "id": "707af244",
+    "id": "60e59995",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "A former Pacific Palisades resident was found guilty by a federal jury in Orange County Thursday of running a Ponzi scheme that stole nearly $2 million from investors.\n\nhttps://www.latimes.com/california/story/2026-09-27/palisades-resident-misled-smart-ring-investors-in-ponzi-scheme",
+    "draft_text": "A second suspected memecoin rug factory has surfaced on Robinhood Chain as the fast-growing network attracts increasingly coordinated scam activity.\n\n28, blockchain security firm GoPlus said it identified a high-risk operation behind hundreds of memecoins that routed more than $9 million through a common fund-consolidation network over the past 30 days.\n\nThe operation [\u2026] The post Robinhood Chain\u2019s $1.5 billion boom is attracting memecoin rug factories appeared first on CryptoSlate.\n\nhttps://cryptoslate.com/robinhood-chains-1-5-billion-boom-is-attracting-memecoin-rug-factories/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "LA TIMES",
-    "source_url": "https://www.latimes.com/california/story/2026-09-27/palisades-resident-misled-smart-ring-investors-in-ponzi-scheme",
-    "source_title": "Former Palisades resident misled smart ring investors in $2-million Ponzi scheme",
-    "source_summary": "A former Pacific Palisades resident was found guilty by a federal jury in Orange County Thursday of running a Ponzi scheme that stole nearly $2 million from investors.",
-    "drafted_at": "2026-09-28T20:02:49.120921",
+    "primary_source": "CRYPTOSLATE",
+    "source_url": "https://cryptoslate.com/robinhood-chains-1-5-billion-boom-is-attracting-memecoin-rug-factories/",
+    "source_title": "Robinhood Chain\u2019s $1.5 billion boom is attracting memecoin rug factories",
+    "source_summary": "A second suspected memecoin rug factory has surfaced on Robinhood Chain as the fast-growing network attracts increasingly coordinated scam activity. On Sept. 28, blockchain security firm GoPlus said it identified a high-risk operation behind hundreds of memecoins that routed more than $9 million through a common fund-consolidation network over the past 30 days. The operation [\u2026] The post Robinhood",
+    "drafted_at": "2026-09-29T00:29:21.252519",
     "data": {
-      "source": "LA TIMES"
+      "source": "CRYPTOSLATE"
     },
-    "content_hash": "fe57e3f810664e62"
+    "content_hash": "9323af732e3351af"
   },
   {
-    "id": "eab10c16",
+    "id": "b59663f2",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "ICIJ\u2019s media partners uncovered strategic deals and moves the Chinese bank made around the world to further the political priorities of the party-state.\n\nhttps://www.icij.org/investigations/china-capital/china-capital-stories-reveal-how-icbc-advanced-chinas-political-goals-across-four-continents/",
+    "draft_text": "28, 2026 /PRNewswire/ -- Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Hyliion Holdings Corp. (NYSE American: HYLN) between May 12, 2026 and June 23, 2026, both dates inclusive (the \"Class Period\"), of the important October 27, 2026...\n\nhttps://www.prnewswire.com/news-releases/hyln-deadline-hyln-investors-have-opportunity-to-lead-hyliion-holdings-corp-securities-fraud-lawsuit-302891760.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "ICIJ",
-    "source_url": "https://www.icij.org/investigations/china-capital/china-capital-stories-reveal-how-icbc-advanced-chinas-political-goals-across-four-continents/",
-    "source_title": "China Capital stories reveal how ICBC advanced China\u2019s political goals across four continents",
-    "source_summary": "ICIJ\u2019s media partners uncovered strategic deals and moves the Chinese bank made around the world to further the political priorities of the party-state.",
-    "drafted_at": "2026-09-28T20:02:49.121142",
+    "primary_source": "PR NEWSWIRE",
+    "source_url": "https://www.prnewswire.com/news-releases/hyln-deadline-hyln-investors-have-opportunity-to-lead-hyliion-holdings-corp-securities-fraud-lawsuit-302891760.html",
+    "source_title": "HYLN Deadline: HYLN Investors Have Opportunity to Lead Hyliion Holdings Corp. Securities Fraud Lawsuit",
+    "source_summary": "NEW YORK, Sept. 28, 2026 /PRNewswire/ -- Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Hyliion Holdings Corp. (NYSE American: HYLN) between May 12, 2026 and June 23, 2026, both dates inclusive (the \"Class Period\"), of the important October 27, 2026...",
+    "drafted_at": "2026-09-29T00:29:21.252768",
     "data": {
-      "source": "ICIJ"
+      "source": "PR NEWSWIRE"
     },
-    "content_hash": "a12b87a5b294d89b"
+    "content_hash": "b69a8f640ab109a5"
   },
   {
-    "id": "1cbf86ec",
+    "id": "42a14f5f",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "Private equity investor Konstantin Sokolov was also appointed to run a government enterprise fund.\n\nhttps://www.icij.org/news/2026/09/trump-administration-gave-firm-with-ties-to-ballroom-donor-the-green-light-to-do-business-with-a-sanctioned-russian-bank/",
+    "draft_text": "'When I voted and showed my ID, the woman was angry and hit it away'.\n\nhttps://www.wnd.com/2026/09/they-made-election-fraud-mandatory-elon-musk-explodes/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "ICIJ",
-    "source_url": "https://www.icij.org/news/2026/09/trump-administration-gave-firm-with-ties-to-ballroom-donor-the-green-light-to-do-business-with-a-sanctioned-russian-bank/",
-    "source_title": "Trump administration gave firm with ties to ballroom donor the green light to do business with a sanctioned Russian bank",
-    "source_summary": "Private equity investor Konstantin Sokolov was also appointed to run a government enterprise fund.",
-    "drafted_at": "2026-09-28T20:02:49.121287",
+    "primary_source": "WND",
+    "source_url": "https://www.wnd.com/2026/09/they-made-election-fraud-mandatory-elon-musk-explodes/",
+    "source_title": "\u2018They made election fraud mandatory\u2019: Elon Musk explodes after his mother says a New York poll worker whacked away her identification",
+    "source_summary": "'When I voted and showed my ID, the woman was angry and hit it away'",
+    "drafted_at": "2026-09-29T00:29:21.252872",
     "data": {
-      "source": "ICIJ"
+      "source": "WND"
     },
-    "content_hash": "9eb879568f999db6"
+    "content_hash": "198a2468e100f741"
   },
   {
-    "id": "1aeaa55b",
+    "id": "7489867f",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "The convicted fraudster says his new app would enable women to find love safely.\n\nThe lead trade group for online dating disagrees.\n\nhttps://www.icij.org/news/2026/09/tinder-swindlers-plan-for-a-dating-app-sparks-industry-backlash/",
+    "draft_text": "Bitcoin Magazine Belarus Approves the Country\u2019s First Crypto Banks: Report Belarus earlier this year signed a legal framework for crypto banks in the country.\n\nThis post Belarus Approves the Country\u2019s First Crypto Banks: Report first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.\n\nhttps://bitcoinmagazine.com/news/belarus-approves-first-crypto-banks",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "ICIJ",
-    "source_url": "https://www.icij.org/news/2026/09/tinder-swindlers-plan-for-a-dating-app-sparks-industry-backlash/",
-    "source_title": "\u2018Tinder Swindler\u2019s\u2019 plan for a dating app sparks industry backlash",
-    "source_summary": "The convicted fraudster says his new app would enable women to find love safely. The lead trade group for online dating disagrees.",
-    "drafted_at": "2026-09-28T20:02:49.121459",
+    "primary_source": "BITCOIN MAG",
+    "source_url": "https://bitcoinmagazine.com/news/belarus-approves-first-crypto-banks",
+    "source_title": "Belarus Approves the Country\u2019s First Crypto Banks: Report",
+    "source_summary": "Bitcoin Magazine Belarus Approves the Country\u2019s First Crypto Banks: Report Belarus earlier this year signed a legal framework for crypto banks in the country. This post Belarus Approves the Country\u2019s First Crypto Banks: Report first appeared on Bitcoin Magazine and is written by Mathew Di Salvo .",
+    "drafted_at": "2026-09-29T00:29:21.253147",
     "data": {
-      "source": "ICIJ"
+      "source": "BITCOIN MAG"
     },
-    "content_hash": "52d6063492b28f18"
+    "content_hash": "5960a80499002830"
   },
   {
-    "id": "27273f57",
+    "id": "82e6894b",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "Using software from a company in Israel, scammers reel in gullible investors and steal all their money.\n\nDER SPIEGEL dove deep into this world of greed-fueled criminal networks - and found a hero.\n\nhttps://www.spiegel.de/international/world/online-scams-the-shady-world-of-fraudulent-investment-sites-a-36d59b48-23ea-4ae5-9532-7a6d3fb086d3#ref=rss",
+    "draft_text": "Aiden Pleterski was allegedly behind a crypto Ponzi scheme between 2021 and 2022 that resulted in a kidnapping and related criminal charges.\n\nhttps://cointelegraph.com/news/canada-aiden-pleterski-fraud-trial-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "SPIEGEL",
-    "source_url": "https://www.spiegel.de/international/world/online-scams-the-shady-world-of-fraudulent-investment-sites-a-36d59b48-23ea-4ae5-9532-7a6d3fb086d3#ref=rss",
-    "source_title": "Online Scams: The Shady World of Fraudulent Investment Sites",
-    "source_summary": "Using software from a company in Israel, scammers reel in gullible investors and steal all their money. DER SPIEGEL dove deep into this world of greed-fueled criminal networks - and found a hero.",
-    "drafted_at": "2026-09-28T20:02:49.121688",
+    "primary_source": "COINTELEGRAPH",
+    "source_url": "https://cointelegraph.com/news/canada-aiden-pleterski-fraud-trial-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source_title": "Canadian \u2018crypto king\u2019 set to represent himself at fraud trial",
+    "source_summary": "Aiden Pleterski was allegedly behind a crypto Ponzi scheme between 2021 and 2022 that resulted in a kidnapping and related criminal charges.",
+    "drafted_at": "2026-09-29T00:29:21.253283",
     "data": {
-      "source": "SPIEGEL"
+      "source": "COINTELEGRAPH"
     },
-    "content_hash": "f90d8f417ae73de2"
+    "content_hash": "2cfa1644624a5597"
   },
   {
-    "id": "75509c7b",
+    "id": "49f7d1a7",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "5 members of Congress bought $SPCX this year \u2014 and these filings don't show them selling:\n\n\u2022 Daniel Meuser (R)\n\u2022 Jared Moskowitz (D)\n\u2022 John McGuire (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Daniel Meuser, $15,001 - $50,000 on Jun 15.\n\nPrice since the first buy in this group: -7.6%.\n\nSTOCK Act disclosures. Public record.",
@@ -392,7 +337,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034774.pdf",
     "source_title": "5 Congress members bought $SPCX",
     "source_summary": "5 politicians bought $SPCX; largest $15,001 - $50,000 by Daniel Meuser.",
-    "drafted_at": "2026-09-28T20:02:49.122048",
+    "drafted_at": "2026-09-29T00:29:21.254515",
     "data": {
       "ticker": "SPCX",
       "member_count": 5,
@@ -401,7 +346,7 @@
     "content_hash": "51463ed55dda905c"
   },
   {
-    "id": "44e28913",
+    "id": "f44e5dbc",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $SPCX this year \u2014 and these filings don't show them selling:\n\n\u2022 Daniel Meuser (R)\n\u2022 Jared Moskowitz (D)\n\u2022 John McGuire (R)\n\u2022 Gilbert Cisneros (D)\n\nLargest disclosed here: Daniel Meuser, $15,001 - $50,000 on Jun 15.\n\nPrice since the first buy in this group: -7.6%.\n\nSTOCK Act disclosures. Public record.",
@@ -411,7 +356,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034774.pdf",
     "source_title": "4 Congress members bought $SPCX",
     "source_summary": "4 politicians bought $SPCX; largest $15,001 - $50,000 by Daniel Meuser.",
-    "drafted_at": "2026-09-28T20:02:49.122361",
+    "drafted_at": "2026-09-29T00:29:21.254745",
     "data": {
       "ticker": "SPCX",
       "member_count": 4,
@@ -420,7 +365,7 @@
     "content_hash": "585711bf88956fa9"
   },
   {
-    "id": "4f5a01b8",
+    "id": "ccd69d23",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $NVDA this year \u2014 and these filings don't show them selling:\n\n\u2022 Michael Rulli (R)\n\u2022 Cleo Fields (D)\n\u2022 Gilbert Cisneros (D)\n\u2022 John J Mr McGuire (R)\n\nLargest disclosed here: Michael Rulli, $1,001 - $15,000 on Jun 25.\n\nPrice since the first buy in this group: +15.0%.\n\nSTOCK Act disclosures. Public record.",
@@ -430,7 +375,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035147.pdf",
     "source_title": "4 Congress members bought $NVDA",
     "source_summary": "4 politicians bought $NVDA; largest $1,001 - $15,000 by Michael Rulli.",
-    "drafted_at": "2026-09-28T20:02:49.122662",
+    "drafted_at": "2026-09-29T00:29:21.254979",
     "data": {
       "ticker": "NVDA",
       "member_count": 4,
@@ -439,7 +384,7 @@
     "content_hash": "f6cf25ab3c00fb6f"
   },
   {
-    "id": "69736c5e",
+    "id": "ffd7fffa",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "4 members of Congress bought $MU this year \u2014 and these filings don't show them selling:\n\n\u2022 Josh Gottheimer (D)\n\u2022 Sheldon Whitehouse (D)\n\u2022 Michael Rulli (R)\n\u2022 Dan Newhouse (R)\n\nLargest disclosed here: Josh Gottheimer, $1,001 - $15,000 on May 21.\n\nPrice since the first buy in this group: +42.0%.\n\nSTOCK Act disclosures. Public record.",
@@ -449,7 +394,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034693.pdf",
     "source_title": "4 Congress members bought $MU",
     "source_summary": "4 politicians bought $MU; largest $1,001 - $15,000 by Josh Gottheimer.",
-    "drafted_at": "2026-09-28T20:02:49.122988",
+    "drafted_at": "2026-09-29T00:29:21.255208",
     "data": {
       "ticker": "MU",
       "member_count": 4,
@@ -458,7 +403,7 @@
     "content_hash": "7c265a3a54605da1"
   },
   {
-    "id": "c2f4c8b3",
+    "id": "a474f4c6",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $MU this year \u2014 and these filings don't show them selling:\n\n\u2022 Sheldon Whitehouse (D)\n\u2022 Michael Rulli (R)\n\u2022 Dan Newhouse (R)\n\nLargest disclosed here: Sheldon Whitehouse, $1,001 - $15,000 on Jun 25.\n\nPrice since the first buy in this group: -10.8%.\n\nSTOCK Act disclosures. Public record.",
@@ -468,7 +413,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/5d9b1b8e-2ae1-442b-860c-e79b8a701dc6/",
     "source_title": "3 Congress members bought $MU",
     "source_summary": "3 politicians bought $MU; largest $1,001 - $15,000 by Sheldon Whitehouse.",
-    "drafted_at": "2026-09-28T20:02:49.123278",
+    "drafted_at": "2026-09-29T00:29:21.255422",
     "data": {
       "ticker": "MU",
       "member_count": 3,
@@ -477,109 +422,109 @@
     "content_hash": "78d90ba61af22eb7"
   },
   {
-    "id": "585e47be",
+    "id": "9a850cfe",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Levant update: The U.S.\u2013Iran and Russia\u2013Ukraine wars are more than regional or military conflicts.\n\nThey are exposing weaknesses in the global energy and economic system and demonstrating that energy security can no longer be seen as independent of financial security, transportation, military security, strategic autonomy, and even ties with world power hegemonies.\n\nThe Russia\u2013Ukraine war disrupted Europe's long-standing dependence on Russian pipeline gas.\n\nThe U.S.\u2013Iran conflict has exposed another vulnerability: the concentration of global\u2026\n\nhttps://oilprice.com/Energy/Energy-General/The-World-Is-Entering-a-New-Era-of-Energy-Security.html",
+    "draft_text": "Canada/LatAm wire: Agreement Signals a New Northern Gateway for Western Canadian Critical Minerals, Energy and More Winnipeg, Manitoba, Sept.\n\n28, 2026 (GLOBE NEWSWIRE) \u2014 Arctic Gateway Group (AGG), operator of the Port of Churchill, and the Port of Rotterdam have signed an agreement to attract business and strengthen supply chains linking Western Canada and Europe.\n\nhttps://financialpost.com/globe-newswire/port-of-churchill-and-port-of-rotterdam-have-signed-agreement-to-strengthen-transatlantic-trade",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "OILPRICE",
-    "source_url": "https://oilprice.com/Energy/Energy-General/The-World-Is-Entering-a-New-Era-of-Energy-Security.html",
-    "source_title": "The World Is Entering a New Era of Energy Security",
-    "source_summary": "The U.S.\u2013Iran and Russia\u2013Ukraine wars are more than regional or military conflicts. They are exposing weaknesses in the global energy and economic system and demonstrating that energy security can no longer be seen as independent of financial security, transportation, military security, strategic autonomy, and even ties with world power hegemonies. The Russia\u2013Ukraine war disrupted Europe's long-st",
-    "drafted_at": "2026-09-28T20:02:49.127177",
+    "primary_source": "FINANCIAL POST",
+    "source_url": "https://financialpost.com/globe-newswire/port-of-churchill-and-port-of-rotterdam-have-signed-agreement-to-strengthen-transatlantic-trade",
+    "source_title": "PORT OF CHURCHILL AND PORT OF ROTTERDAM HAVE SIGNED AGREEMENT TO STRENGTHEN TRANSATLANTIC TRADE",
+    "source_summary": "Agreement Signals a New Northern Gateway for Western Canadian Critical Minerals, Energy and More Winnipeg, Manitoba, Sept. 28, 2026 (GLOBE NEWSWIRE) \u2014 Arctic Gateway Group (AGG), operator of the Port of Churchill, and the Port of Rotterdam have signed an agreement to attract business and strengthen supply chains linking Western Canada and Europe. The agreement [\u2026]",
+    "drafted_at": "2026-09-29T00:29:21.258628",
     "data": {
-      "source": "OILPRICE"
+      "source": "FINANCIAL POST"
     },
-    "content_hash": "ecb5d42e0d463742"
+    "content_hash": "7a099e4db77ee9b8"
   },
   {
-    "id": "90f4e3d6",
+    "id": "6a95a544",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Gulf wire: Collins' voting record may sway voter sentiment, impacting her reelection chances and highlighting the economic effects of foreign policy.\n\nThe post Susan Collins voted to keep the Iran war going five times, affecting Mainers\u2019 fuel prices appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/susan-collins-voted-to-keep-the-iran-war-going-five-times-affecting-mainers/",
+    "draft_text": "From the Gulf: The BRC gauge is a narrow, backward-looking snapshot, so the market is likely to look past the small dip in shop prices and focus on the official inflation path, which is forecast to climb above 4% next year.\n\nEnergy is the swing factor: oil and gas prices tied to the Iran conflict feed directly into retailers' costs and into the inflation outlook, so diplomacy headlines can move UK rate and sterling expectations quickly.\n\nA budget that eases business rates would offer retailers some relief, but it would not remove the wider energy-driven cost pressure. --- Shop price inflation eased again in September, but retailers say they are close to their limit as war-driven costs mount and the budget approaches.\n\nSummary: Annual UK shop price inflation slowed to 1.4% in September from 1.5% in August, a little above the three-month average of 1.3%, according to the British Retail Consortium.\n\nFood inflation eased to 2.5% from 2.8% as promotions cut meat and dairy prices, although poor European harvests lifted fruit prices and high commodity prices kept chocolate and confectionery elevated.\n\nNon-food inflation slowed to 0.8% from 0.9% as heavy discounting lowered the cost of back-to-school essentials.\n\nThe BRC's chief executive said retailers have absorbed successive cost increases and cited higher business rates in April, rising employment costs, energy bills and packaging taxes.\n\nThe BRC wants finance minister John Healey to help with business rates in his October 28 tax and spending plan.\n\nhttps://investinglive.com/news/uk-shop-price-inflation-slows-to-1-4-in-september-as-brc-urges-business-rates-help/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "CRYPTO BRIEFING",
-    "source_url": "https://cryptobriefing.com/susan-collins-voted-to-keep-the-iran-war-going-five-times-affecting-mainers/",
-    "source_title": "Susan Collins voted to keep the Iran war going five times, affecting Mainers\u2019 fuel prices",
-    "source_summary": "Collins' voting record may sway voter sentiment, impacting her reelection chances and highlighting the economic effects of foreign policy. The post Susan Collins voted to keep the Iran war going five times, affecting Mainers\u2019 fuel prices appeared first on Crypto Briefing .",
-    "drafted_at": "2026-09-28T20:02:49.127820",
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/uk-shop-price-inflation-slows-to-1-4-in-september-as-brc-urges-business-rates-help/",
+    "source_title": "UK shop price inflation slows to 1.4% in September as BRC urges business rates help",
+    "source_summary": "The BRC gauge is a narrow, backward-looking snapshot, so the market is likely to look past the small dip in shop prices and focus on the official inflation path, which is forecast to climb above 4% next year. Energy is the swing factor: oil and gas prices tied to the Iran conflict feed directly into retailers' costs and into the inflation outlook, so diplomacy headlines can move UK rate and sterli",
+    "drafted_at": "2026-09-29T00:29:21.260436",
     "data": {
-      "source": "CRYPTO BRIEFING"
+      "source": "FOREXLIVE"
     },
-    "content_hash": "6c1707ed34202829"
+    "content_hash": "31681f0b859c9120"
   },
   {
-    "id": "6c64d1cc",
+    "id": "5b78f452",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From the Gulf: Algeria's severing of diplomatic ties with the UAE reflects a broader struggle over regional influence and sovereignty.\n\nThe post What\u2019s behind the Algeria-UAE rupture appeared first on Atlantic Council.\n\nhttps://www.atlanticcouncil.org/blogs/menasource/whats-behind-the-algeria-uae-rupture/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "ATLANTIC CNCL",
-    "source_url": "https://www.atlanticcouncil.org/blogs/menasource/whats-behind-the-algeria-uae-rupture/",
-    "source_title": "What\u2019s behind the Algeria-UAE rupture",
-    "source_summary": "Algeria's severing of diplomatic ties with the UAE reflects a broader struggle over regional influence and sovereignty. The post What\u2019s behind the Algeria-UAE rupture appeared first on Atlantic Council .",
-    "drafted_at": "2026-09-28T20:02:49.128227",
-    "data": {
-      "source": "ATLANTIC CNCL"
-    },
-    "content_hash": "1d8ab6e8dded67d5"
-  },
-  {
-    "id": "f15ae0e1",
-    "format": "GLOBAL_DESK",
-    "status": "pending",
-    "draft_text": "Gulf wire: The visit takes place as the Israeli prime minister battles domestic turmoil ahead of October's Knesset elections.\n\nhttps://www.aljazeera.com/news/2026/9/28/uae-confirms-netanyahu-visit-to-abu-dhabi?traffic_source=rss",
+    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: US President Trump rejects a news report claiming his administration offered Iran sanctions relief and frozen funds.\n\nhttps://www.aljazeera.com/news/liveblog/2026/9/29/iran-war-live-trump-says-he-did-not-offer-tehran-sanctions-relief?traffic_source=rss",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "AL JAZEERA",
-    "source_url": "https://www.aljazeera.com/news/2026/9/28/uae-confirms-netanyahu-visit-to-abu-dhabi?traffic_source=rss",
-    "source_title": "UAE confirms Netanyahu visit to Abu Dhabi",
-    "source_summary": "The visit takes place as the Israeli prime minister battles domestic turmoil ahead of October's Knesset elections",
-    "drafted_at": "2026-09-28T20:02:49.128792",
+    "source_url": "https://www.aljazeera.com/news/liveblog/2026/9/29/iran-war-live-trump-says-he-did-not-offer-tehran-sanctions-relief?traffic_source=rss",
+    "source_title": "Iran war live: Trump says he did not offer Tehran sanctions relief",
+    "source_summary": "US President Trump rejects a news report claiming his administration offered Iran sanctions relief and frozen funds.",
+    "drafted_at": "2026-09-29T00:29:21.260669",
     "data": {
       "source": "AL JAZEERA"
     },
-    "content_hash": "95779b1a1c54d031"
+    "content_hash": "86891913cc86fbde"
   },
   {
-    "id": "4b54ac7f",
+    "id": "8b5553cd",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Levant update: Tether and its stablecoin have become central in \"Iran's shadow banking system,\" according to a new Senate investigation.\n\nhttps://www.theblock.co/news/regulation/2026-09-28-tethers-usdt-center-iran-shadow-banking-network-new-senate-report-says-417094",
+    "draft_text": "From the Gulf: Over the past seven months, shipping traffic through the Strait of Hormuz has dwindled to a trickle, with Iran effectively closing the critical maritime chokepoint ever since the U.S. and Israel launched attacks against it.\n\nConsequently, major global shipping companies rerouted their vessels via South Africa\u2019s Cape of Good Hope, with traffic around the southern tip of Africa having doubled since the war erupted in February.\n\nUnfortunately, the projected Southern African economic windfall in the form of surging demand for bunkering (fuel),\u2026\n\nhttps://oilprice.com/Energy/Energy-General/Hormuz-Rerouting-Doubles-Cape-Traffic-Without-Delivering-a-Windfall.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "THE BLOCK",
-    "source_url": "https://www.theblock.co/news/regulation/2026-09-28-tethers-usdt-center-iran-shadow-banking-network-new-senate-report-says-417094",
-    "source_title": "Tether\u2019s USDT at center of Iran\u2019s shadow banking network, new Senate Report says",
-    "source_summary": "Tether and its stablecoin have become central in \"Iran's shadow banking system,\" according to a new Senate investigation.",
-    "drafted_at": "2026-09-28T20:02:49.130995",
+    "primary_source": "OILPRICE",
+    "source_url": "https://oilprice.com/Energy/Energy-General/Hormuz-Rerouting-Doubles-Cape-Traffic-Without-Delivering-a-Windfall.html",
+    "source_title": "Hormuz Rerouting Doubles Cape Traffic Without Delivering a Windfall",
+    "source_summary": "Over the past seven months, shipping traffic through the Strait of Hormuz has dwindled to a trickle, with Iran effectively closing the critical maritime chokepoint ever since the U.S. and Israel launched attacks against it. Consequently, major global shipping companies rerouted their vessels via South Africa\u2019s Cape of Good Hope, with traffic around the southern tip of Africa having doubled since t",
+    "drafted_at": "2026-09-29T00:29:21.261187",
     "data": {
-      "source": "THE BLOCK"
+      "source": "OILPRICE"
     },
-    "content_hash": "6913eeddbefdb53e"
+    "content_hash": "e85482b72a941f8a"
   },
   {
-    "id": "d298e035",
+    "id": "04a6f675",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Levant update: Iran's Foreign Minister Abbas Araghchi said on Monday that Tehran discussed proposals with Qatari mediators that are to be put to the United States (US), IRNA reported.\n\nHe added that the US response will be conveyed to Iran through the Qatari mediators.\n\nhttps://www.fxstreet.com/news/irans-araghchi-says-if-us-wants-deal-or-peace-tehran-has-offered-solution-202609282338",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/irans-araghchi-says-if-us-wants-deal-or-peace-tehran-has-offered-solution-202609282338",
+    "source_title": "Iran\u2019s Araghchi\u00a0says if US wants deal or peace, Tehran has offered solution",
+    "source_summary": "Iran's Foreign Minister Abbas Araghchi said on Monday that Tehran discussed proposals with Qatari mediators that are to be put to the United States (US), IRNA reported. He added that the US response will be conveyed to Iran through the Qatari mediators.",
+    "drafted_at": "2026-09-29T00:29:21.262067",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "4c54075e0129d009"
+  },
+  {
+    "id": "41b7b364",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "Fresh print: Bitcoin extends last week's pullback as Trump rejects Iran's ceasefire plan, sending oil above $100 and yields higher ahead of Wednesday's PCE report.\n\nhttps://decrypt.co/379438/bitcoin-price-falls-trump-iran-oil-yields",
+    "draft_text": "DATA DROP: InvestorPlace - Stock Market News, Stock Advice & Trading Tips Trump rejects Iran's deal as oil spikes\u2026 the 10-year rockets up to 5.25%\u2026 what's cracking beneath the surface?\u2026 the PCE double-whammy The post 5% Was the Line \u2013 We\u2019re Now at 5.25% appeared first on InvestorPlace.\n\nhttps://investorplace.com/2026/09/5-was-the-line-were-now-at-5-25/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "DECRYPT",
-    "source_url": "https://decrypt.co/379438/bitcoin-price-falls-trump-iran-oil-yields",
-    "source_title": "Bitcoin Falls Lower as Trump's Iran Snub Sends Oil, Yields Higher",
-    "source_summary": "Bitcoin extends last week's pullback as Trump rejects Iran's ceasefire plan, sending oil above $100 and yields higher ahead of Wednesday's PCE report.",
-    "drafted_at": "2026-09-28T20:02:49.190776",
+    "primary_source": "INVESTORPLACE",
+    "source_url": "https://investorplace.com/2026/09/5-was-the-line-were-now-at-5-25/",
+    "source_title": "5% Was the Line \u2013 We\u2019re Now at 5.25%",
+    "source_summary": "InvestorPlace - Stock Market News, Stock Advice & Trading Tips Trump rejects Iran's deal as oil spikes\u2026 the 10-year rockets up to 5.25%\u2026 what's cracking beneath the surface?\u2026 the PCE double-whammy The post 5% Was the Line \u2013 We\u2019re Now at 5.25% appeared first on InvestorPlace .",
+    "drafted_at": "2026-09-29T00:29:21.305985",
     "data": {
-      "source": "DECRYPT"
+      "source": "INVESTORPLACE"
     },
-    "content_hash": "656f322829af051e"
+    "content_hash": "4206ce2f74ba790b"
   },
   {
-    "id": "ffc63a82",
+    "id": "0959ad1a",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -589,7 +534,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-09-28T20:02:49.192368",
+    "drafted_at": "2026-09-29T00:29:21.307236",
     "data": {
       "manual": true,
       "via": "manual_news.md"
