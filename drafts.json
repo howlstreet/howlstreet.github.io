@@ -1,23 +1,61 @@
 [
   {
-    "id": "9a9b1209",
+    "id": "ecd92643",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "Oil is once again moving through the strait, writes Aaron MacLean.\n\nCan the Trump administration turn a winning Iran strategy into lasting victory?\n\nhttps://www.thefp.com/p/the-strait-of-hormuz-is-open",
+    "draft_text": "Bitcoin's surge amid cooling inflation may signal increased investor confidence and potential shifts in monetary policy expectations.\n\nThe post Bitcoin rallies as US PCE inflation cools to 3.4% appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/bitcoin-rallies-as-august-pce-inflation-cools-to-3-4/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FREE PRESS",
-    "source_url": "https://www.thefp.com/p/the-strait-of-hormuz-is-open",
-    "source_title": "The Strait of Hormuz Is Open",
-    "source_summary": "Oil is once again moving through the strait, writes Aaron MacLean. Can the Trump administration turn a winning Iran strategy into lasting victory?",
-    "drafted_at": "2026-09-30T06:06:59.112753",
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/bitcoin-rallies-as-august-pce-inflation-cools-to-3-4/",
+    "source_title": "Bitcoin rallies as US PCE inflation cools to 3.4%",
+    "source_summary": "Bitcoin's surge amid cooling inflation may signal increased investor confidence and potential shifts in monetary policy expectations. The post Bitcoin rallies as US PCE inflation cools to 3.4% appeared first on Crypto Briefing .",
+    "drafted_at": "2026-09-30T13:07:54.382428",
     "data": {
-      "source": "FREE PRESS"
+      "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "b1a309ee8da5d421"
+    "content_hash": "aa80c50904b5dda4"
   },
   {
-    "id": "aa45848e",
+    "id": "a95ef5ce",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Whatever you're doing, stop and read this. VIX jumps 7.0% in 5 sessions to 15.85.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CBOE \u00b7 ^VIX",
+    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "source_title": "VIX (S&P 500 volatility)",
+    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "drafted_at": "2026-09-30T13:07:54.382760",
+    "data": {
+      "signal_id": "^VIX:move:2026-09-30",
+      "kind": "move_up",
+      "current": "15.85"
+    },
+    "content_hash": "995f4d67e7e875d2"
+  },
+  {
+    "id": "93eba087",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Heads up, pack. Bitcoin climbs 5.1% in 5 sessions to $85,279.\n\nBitcoin is now treated as a macro asset alongside gold and tech.\n\nIts swings move alt-coins, public miners, and crypto-exposed stocks.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/BTC-USD",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Yahoo Finance \u00b7 BTC-USD",
+    "source_url": "https://finance.yahoo.com/quote/BTC-USD",
+    "source_title": "Bitcoin",
+    "source_summary": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
+    "drafted_at": "2026-09-30T13:07:54.383032",
+    "data": {
+      "signal_id": "BTC-USD:move:2026-09-30",
+      "kind": "move_up",
+      "current": "$85,279"
+    },
+    "content_hash": "0e3396ceb3da7211"
+  },
+  {
+    "id": "e838f640",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Numbers walked into the room. VIX jumps 8.3% in 5 sessions to 16.04.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
@@ -27,7 +65,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EVIX",
     "source_title": "VIX (S&P 500 volatility)",
     "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-09-30T06:06:59.113046",
+    "drafted_at": "2026-09-30T13:07:54.383265",
     "data": {
       "signal_id": "^VIX:move:2026-09-29",
       "kind": "move_up",
@@ -36,7 +74,7 @@
     "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "c1f553fb",
+    "id": "1efa656e",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "You blink, you miss this: WTI crude tumbles 10.6% in 5 sessions to $89.63.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
@@ -46,7 +84,7 @@
     "source_url": "https://finance.yahoo.com/quote/CL%3DF",
     "source_title": "WTI crude oil futures",
     "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-09-30T06:06:59.113368",
+    "drafted_at": "2026-09-30T13:07:54.383536",
     "data": {
       "signal_id": "CL=F:move:2026-09-30",
       "kind": "move_down",
@@ -55,62 +93,24 @@
     "content_hash": "c272de0720a2f459"
   },
   {
-    "id": "dc56a84d",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "Real-time update for the pack: Gold drops 5.6% in 5 sessions to $4,178.40.\n\nGold tracks real yields and central bank demand.\n\nMulti-year highs flag debasement or geopolitical hedging flows.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/GC%3DF",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "COMEX \u00b7 GC=F",
-    "source_url": "https://finance.yahoo.com/quote/GC%3DF",
-    "source_title": "Gold futures",
-    "source_summary": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
-    "drafted_at": "2026-09-30T06:06:59.113631",
-    "data": {
-      "signal_id": "GC=F:move:2026-09-29",
-      "kind": "move_down",
-      "current": "$4,178.40"
-    },
-    "content_hash": "514096a7b4f87c16"
-  },
-  {
-    "id": "ba59c2f0",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "The pack is watching. WTI crude drops 6.8% in 5 sessions to $93.48.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "NYMEX \u00b7 CL=F",
-    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
-    "source_title": "WTI crude oil futures",
-    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-09-30T06:06:59.113863",
-    "data": {
-      "signal_id": "CL=F:move:2026-09-29",
-      "kind": "move_down",
-      "current": "$93.48"
-    },
-    "content_hash": "c272de0720a2f459"
-  },
-  {
-    "id": "5e9444bb",
+    "id": "641472b7",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "From the Eccles Building: Gold (XAU/USD) edges lower during the Asian session on Wednesday, reversing part of the previous day's modest recovery gains from the $4,100 neighborhood, or the lowest level since August 5, touched earlier this week.\n\nhttps://www.fxstreet.com/news/gold-holds-steady-below-4-200-as-retreating-bond-yields-and-softer-usd-lend-support-202609300349",
+    "draft_text": "Powell on the wire. Together, the changes are likely to reduce year-over-year volatility in capital requirements by approximately 50 percent and are not expected to materially affect aggregate capital requirements.\n\nThe Board conducts stress tests to ensure that large banks are sufficiently capitalized and able to lend to households and businesses even in a severe recession.\n\nIn December 2024, the Board announced it would modify the test to improve its resilience.\n\n\"The stress test is an essential component of our regulatory capital framework,\" said Vice Chair for Supervision Michelle W.\n\nBowman.\n\n\"Today's changes preserve its resilience by ensuring that it is transparent, granular, and risk-sensitive.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://www.fxstreet.com/news/gold-holds-steady-below-4-200-as-retreating-bond-yields-and-softer-usd-lend-support-202609300349",
-    "source_title": "Gold edges lower as Fed hike bets and Middle East jitters underpin USD",
-    "source_summary": "Gold (XAU/USD) edges lower during the Asian session on Wednesday, reversing part of the previous day's modest recovery gains from the $4,100 neighborhood, or the lowest level since August 5, touched earlier this week.",
-    "drafted_at": "2026-09-30T06:06:59.125076",
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm",
+    "source_title": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
+    "source_summary": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
+    "drafted_at": "2026-09-30T13:07:54.396325",
     "data": {
-      "actor": "Fed"
+      "actor": "FED"
     },
-    "content_hash": "b5722f215ffd23c3"
+    "content_hash": "3a286ad31143a82d"
   },
   {
-    "id": "cdebe662",
+    "id": "4fe2a6d8",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "POLICY READ: The agencies conducted a joint review of the 2025 resolution plan submissions from 15 banking organizations with over $250 billion in assets.\n\nResolution plans, also known as living wills, describe a banking organization's strategy for orderly resolution in the event of material financial distress or failure.\n\nIn addition, the agencies determined that the shortcoming previously identified in the 2021 BNP Paribas resolution plan has been satisfactorily addressed.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260929a.htm",
@@ -120,14 +120,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260929a.htm",
     "source_title": "Agencies publish resolution plan feedback letters for 15 banking organizations",
     "source_summary": "Agencies publish resolution plan feedback letters for 15 banking organizations",
-    "drafted_at": "2026-09-30T06:06:59.125784",
+    "drafted_at": "2026-09-30T13:07:54.397058",
     "data": {
       "actor": "FED"
     },
     "content_hash": "3669122a1dcef914"
   },
   {
-    "id": "a313bbab",
+    "id": "d0605456",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Live from the Federal Reserve: The Board also gave its approval for Peoples Bank, of Marietta, Ohio, to merge with Citizens Bank of Kentucky, Inc., and to establish and operate branches at the locations of Citizens Bank of Kentucky, Inc.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/orders20260925a.htm",
@@ -137,14 +137,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260925a.htm",
     "source_title": "Federal Reserve Board announces approval of application by Peoples Bancorp Inc.",
     "source_summary": "Federal Reserve Board announces approval of application by Peoples Bancorp Inc.",
-    "drafted_at": "2026-09-30T06:06:59.126123",
+    "drafted_at": "2026-09-30T13:07:54.397399",
     "data": {
       "actor": "FED"
     },
     "content_hash": "2523829cc6991506"
   },
   {
-    "id": "3be200d6",
+    "id": "19ee8ded",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "RATE-PATH READ: The first proposal would require that Board-supervised payment stablecoin issuers fully back their stablecoins with certain permissible reserve assets, such as short-term Treasury bills and certain other high-quality, liquid assets.\n\nThe proposal would also establish standardized capital requirements to address certain credit and operational risks of payment stablecoin activities, as well as risk management standards, in accordance with the law.\n\nSeparately, the proposal would introduce rules for Board-supervised firms that safekeep the assets backing payment stablecoins.\n\nIt would also clarify the permissibility of stablecoin and related activities for Board-supervised banks.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
@@ -154,14 +154,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
     "source_title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
     "source_summary": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
-    "drafted_at": "2026-09-30T06:06:59.127261",
+    "drafted_at": "2026-09-30T13:07:54.398531",
     "data": {
       "actor": "FED"
     },
     "content_hash": "849f3138f022c1f3"
   },
   {
-    "id": "1b0930cc",
+    "id": "ca93d673",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "From the Eccles Building: The Board also gave its approval for BancFirst, of Oklahoma City, Oklahoma, to merge with SpiritBank and to establish and operate branches at the locations of SpiritBank.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/orders20260922a.htm",
@@ -171,14 +171,14 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260922a.htm",
     "source_title": "Federal Reserve Board announces approval of application by BancFirst Corporation",
     "source_summary": "Federal Reserve Board announces approval of application by BancFirst Corporation",
-    "drafted_at": "2026-09-30T06:06:59.127595",
+    "drafted_at": "2026-09-30T13:07:54.398859",
     "data": {
       "actor": "FED"
     },
     "content_hash": "2da92d996fa3b14f"
   },
   {
-    "id": "3a3f7520",
+    "id": "bb582987",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$ADRX \u2014 a company insider bought $27.2M on Sep 28.\n\nAdarx Pharmaceuticals, Inc. 1,600,000 shares at $17.00.\n\nStock is +21.4% since the purchase. This is a public SEC Form 4 filing.\n\nhttp://openinsider.com/screener?s=ADRX",
@@ -188,7 +188,7 @@
     "source_url": "http://openinsider.com/screener?s=ADRX",
     "source_title": "Adarx Pharmaceuticals, Inc. (ADRX) insider bought $27.2M",
     "source_summary": "1 insider(s) bought 1,600,000 shares at $17.00 on 2026-09-28.",
-    "drafted_at": "2026-09-30T06:06:59.128060",
+    "drafted_at": "2026-09-30T13:07:54.399108",
     "data": {
       "ticker": "ADRX",
       "type": "P",
@@ -198,7 +198,7 @@
     "content_hash": "920be29d224f2e9c"
   },
   {
-    "id": "f470d72c",
+    "id": "3cd328d3",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$BBD \u2014 21 company insiders bought $29.0M on Sep 18.\n\nBank Bradesco. 1,609,508 shares at $17.99.\n\nStock is -81.4% since the purchase. This is a public SEC Form 4 filing.",
@@ -208,7 +208,7 @@
     "source_url": "http://openinsider.com/screener?s=BBD",
     "source_title": "Bank Bradesco (BBD) insider bought $29.0M",
     "source_summary": "21 insider(s) bought 1,609,508 shares at $17.99 on 2026-09-18.",
-    "drafted_at": "2026-09-30T06:06:59.128304",
+    "drafted_at": "2026-09-30T13:07:54.399354",
     "data": {
       "ticker": "BBD",
       "type": "P",
@@ -218,7 +218,7 @@
     "content_hash": "7cfa8d9c6b28dbd7"
   },
   {
-    "id": "6030999e",
+    "id": "7294056e",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$BORR \u2014 3 company insiders bought $14.1M on Sep 18.\n\nBorr Drilling Ltd. 3,370,500 shares at $4.19.\n\nStock is -4.3% since the purchase. This is a public SEC Form 4 filing.",
@@ -228,7 +228,7 @@
     "source_url": "http://openinsider.com/screener?s=BORR",
     "source_title": "Borr Drilling Ltd (BORR) insider bought $14.1M",
     "source_summary": "3 insider(s) bought 3,370,500 shares at $4.19 on 2026-09-18.",
-    "drafted_at": "2026-09-30T06:06:59.128507",
+    "drafted_at": "2026-09-30T13:07:54.399601",
     "data": {
       "ticker": "BORR",
       "type": "P",
@@ -238,7 +238,7 @@
     "content_hash": "678e1d577f15339f"
   },
   {
-    "id": "39df238f",
+    "id": "de87e201",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$CYBN \u2014 3 company insiders bought $6.3M on Sep 21.\n\nCybin Inc. 500,000 shares at $12.58.\n\nStock is +0.0% since the purchase. This is a public SEC Form 4 filing.\n\nhttp://openinsider.com/screener?s=CYBN",
@@ -248,7 +248,7 @@
     "source_url": "http://openinsider.com/screener?s=CYBN",
     "source_title": "Cybin Inc. (CYBN) insider bought $6.3M",
     "source_summary": "3 insider(s) bought 500,000 shares at $12.58 on 2026-09-21.",
-    "drafted_at": "2026-09-30T06:06:59.128671",
+    "drafted_at": "2026-09-30T13:07:54.399774",
     "data": {
       "ticker": "CYBN",
       "type": "P",
@@ -258,7 +258,7 @@
     "content_hash": "325fa747bdeae025"
   },
   {
-    "id": "925eb157",
+    "id": "d51b5a9c",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$ADC \u2014 3 company insiders bought $4.1M on Sep 21.\n\nAgree Realty Corp. 58,496 shares at $70.82.\n\nStock is -5.0% since the purchase. This is a public SEC Form 4 filing.",
@@ -268,7 +268,7 @@
     "source_url": "http://openinsider.com/screener?s=ADC",
     "source_title": "Agree Realty Corp (ADC) insider bought $4.1M",
     "source_summary": "3 insider(s) bought 58,496 shares at $70.82 on 2026-09-21.",
-    "drafted_at": "2026-09-30T06:06:59.128854",
+    "drafted_at": "2026-09-30T13:07:54.399962",
     "data": {
       "ticker": "ADC",
       "type": "P",
@@ -278,92 +278,92 @@
     "content_hash": "89dafe326accfd4f"
   },
   {
-    "id": "57fbccef",
+    "id": "39f7c49e",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "A Washington, D.C., councilman is celebrating a mistrial over allegations that he was involved in a $156,000 bribery scheme.\n\nJeanine Pirro said Tuesday that her office will retry Trayon White after a jury said they could not reach a verdict despite deliberating for four days.\n\n'We want to accept the jury's decision today, regroup, get back to work, because there's a lot of work to do in the city to ensure equity and inclusion in the $20 billion budget.' White was charged with bribery after prosecutors said they had recordings of his conversations with an informant of the Federal Bureau of Investigation about his receiving cash on four separate occasions.\n\nhttps://www.theblaze.com/news/bribery-dc-councilman-mistrial-jury",
+    "draft_text": "28, 2027, while existing money laundering registrations will not convert into FCA authorization.\n\nhttps://cointelegraph.com/news/fca-crypto-authorization-2027-uk-regime?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "COINTELEGRAPH",
+    "source_url": "https://cointelegraph.com/news/fca-crypto-authorization-2027-uk-regime?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source_title": "FCA opens crypto authorization window ahead of 2027 UK regime",
+    "source_summary": "Crypto businesses should apply by Feb. 28, 2027, while existing money laundering registrations will not convert into FCA authorization.",
+    "drafted_at": "2026-09-30T13:07:54.402795",
+    "data": {
+      "source": "COINTELEGRAPH"
+    },
+    "content_hash": "4672442729c603e1"
+  },
+  {
+    "id": "8674786a",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Minnesota Ranks No. 1 in the Nation for Subjects Tied to Healthcare Fraud\n\nhttps://townhall.com/news/amy-curtis/2026/09/30/minnesota-leads-nation-in-fraud-n2683765",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "TOWNHALL FIN",
+    "source_url": "https://townhall.com/news/amy-curtis/2026/09/30/minnesota-leads-nation-in-fraud-n2683765",
+    "source_title": "Minnesota Ranks No. 1 in the Nation for Subjects Tied to Healthcare Fraud",
+    "source_summary": "",
+    "drafted_at": "2026-09-30T13:07:54.402876",
+    "data": {
+      "source": "TOWNHALL FIN"
+    },
+    "content_hash": "9b1b515b3a22a08d"
+  },
+  {
+    "id": "a30c3e0b",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "Voters were not confused about what they were choosing in 2024.\n\n\"Mass deportation\" was not a line buried in a white paper.\n\nIt was printed on signs, chanted at rallies, and repeated by the candidate himself.\n\nhttps://www.theblaze.com/columns/opinion/the-promise-was-mass-deportation-the-policy-is-carve-outs",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "THE BLAZE",
-    "source_url": "https://www.theblaze.com/news/bribery-dc-councilman-mistrial-jury",
-    "source_title": "'Come on': Democrat DC councilman makes BIZARRE comment after beating bribery charge in mistrial",
-    "source_summary": "A Washington, D.C., councilman is celebrating a mistrial over allegations that he was involved in a $156,000 bribery scheme. U.S. Attorney for D.C. Jeanine Pirro said Tuesday that her office will retry Trayon White after a jury said they could not reach a verdict despite deliberating for four days. 'We want to accept the jury's decision today, regroup, get back to work, because there's a lot of wo",
-    "drafted_at": "2026-09-30T06:06:59.133003",
+    "source_url": "https://www.theblaze.com/columns/opinion/the-promise-was-mass-deportation-the-policy-is-carve-outs",
+    "source_title": "The promise was mass deportation. The policy is carve-outs.",
+    "source_summary": "Voters were not confused about what they were choosing in 2024. \"Mass deportation\" was not a line buried in a white paper. It was printed on signs, chanted at rallies, and repeated by the candidate himself. Americans who cast their ballots on that promise had every reason to believe it meant what it said. Nearly two years into this administration, it is fair to ask whether that promise is being ke",
+    "drafted_at": "2026-09-30T13:07:54.404420",
     "data": {
       "source": "THE BLAZE"
     },
-    "content_hash": "124143309cbed24a"
+    "content_hash": "eef6c9c1a56de2c9"
   },
   {
-    "id": "50886f64",
+    "id": "5ee5a8f6",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "Handouts were for community groups to provide alternatives to law enforcement after George Floyd's death.\n\nhttps://www.wnd.com/2026/09/another-fraud-industry-uncovered-minnesota-losses-reach-tens/",
+    "draft_text": "Kinzinger Bet on His Own Pardon! Under Investigation for Insider Trading.\n\nhttps://hotair.com/david-strom/2026/09/30/kinzinger-bet-on-his-own-pardon-under-investigation-for-insider-trading-n3819451",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "WND",
-    "source_url": "https://www.wnd.com/2026/09/another-fraud-industry-uncovered-minnesota-losses-reach-tens/",
-    "source_title": "Another fraud industry uncovered in Minnesota, losses reach tens of millions of dollars",
-    "source_summary": "Handouts were for community groups to provide alternatives to law enforcement after George Floyd's death",
-    "drafted_at": "2026-09-30T06:06:59.133150",
+    "primary_source": "HOT AIR",
+    "source_url": "https://hotair.com/david-strom/2026/09/30/kinzinger-bet-on-his-own-pardon-under-investigation-for-insider-trading-n3819451",
+    "source_title": "Kinzinger Bet on His Own Pardon! Under Investigation for Insider Trading.",
+    "source_summary": "",
+    "drafted_at": "2026-09-30T13:07:54.404520",
     "data": {
-      "source": "WND"
+      "source": "HOT AIR"
     },
-    "content_hash": "83d165f2db8789b8"
+    "content_hash": "8d537409d4d5e4b4"
   },
   {
-    "id": "ea62f4f4",
+    "id": "edad4428",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "Two New York lawsuits allege investors were shown fictitious profits and pressed for more money when they tried to withdraw.\n\nhttps://thedefiant.io/news/regulation/sec-sues-cryptoaiml-and-tsai-over-alleged-15-million-ai-trading-scams",
+    "draft_text": "The Connecticut Senator's subcommittee released its report on Monday and referred the findings to Treasury and the Justice Department.\n\nhttps://decrypt.co/379624/us-senator-blumenthal-calls-tethers-usdt-a-superhighway-for-iranian-sanctions-evasion",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "THE DEFIANT",
-    "source_url": "https://thedefiant.io/news/regulation/sec-sues-cryptoaiml-and-tsai-over-alleged-15-million-ai-trading-scams",
-    "source_title": "SEC Sues Cryptoaiml and TSAI Over Alleged $15 Million AI Trading Scams",
-    "source_summary": "Two New York lawsuits allege investors were shown fictitious profits and pressed for more money when they tried to withdraw.",
-    "drafted_at": "2026-09-30T06:06:59.133331",
+    "primary_source": "DECRYPT",
+    "source_url": "https://decrypt.co/379624/us-senator-blumenthal-calls-tethers-usdt-a-superhighway-for-iranian-sanctions-evasion",
+    "source_title": "US Senator Blumenthal Calls Tether's USDT a 'Superhighway' for Iranian Sanctions Evasion",
+    "source_summary": "The Connecticut Senator's subcommittee released its report on Monday and referred the findings to Treasury and the Justice Department.",
+    "drafted_at": "2026-09-30T13:07:54.404700",
     "data": {
-      "source": "THE DEFIANT"
+      "source": "DECRYPT"
     },
-    "content_hash": "c889db7b376759c5"
+    "content_hash": "f43e52234797c130"
   },
   {
-    "id": "cb243d26",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "ICIJ\u2019s media partners uncovered strategic deals and moves the Chinese bank made around the world to further the political priorities of the party-state.\n\nhttps://www.icij.org/investigations/china-capital/china-capital-stories-reveal-how-icbc-advanced-chinas-political-goals-across-four-continents/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "ICIJ",
-    "source_url": "https://www.icij.org/investigations/china-capital/china-capital-stories-reveal-how-icbc-advanced-chinas-political-goals-across-four-continents/",
-    "source_title": "China Capital stories reveal how ICBC advanced China\u2019s political goals across four continents",
-    "source_summary": "ICIJ\u2019s media partners uncovered strategic deals and moves the Chinese bank made around the world to further the political priorities of the party-state.",
-    "drafted_at": "2026-09-30T06:06:59.133545",
-    "data": {
-      "source": "ICIJ"
-    },
-    "content_hash": "a12b87a5b294d89b"
-  },
-  {
-    "id": "30d85d40",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Private equity investor Konstantin Sokolov was also appointed to run a government enterprise fund.\n\nhttps://www.icij.org/news/2026/09/trump-administration-gave-firm-with-ties-to-ballroom-donor-the-green-light-to-do-business-with-a-sanctioned-russian-bank/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "ICIJ",
-    "source_url": "https://www.icij.org/news/2026/09/trump-administration-gave-firm-with-ties-to-ballroom-donor-the-green-light-to-do-business-with-a-sanctioned-russian-bank/",
-    "source_title": "Trump administration gave firm with ties to ballroom donor the green light to do business with a sanctioned Russian bank",
-    "source_summary": "Private equity investor Konstantin Sokolov was also appointed to run a government enterprise fund.",
-    "drafted_at": "2026-09-30T06:06:59.133684",
-    "data": {
-      "source": "ICIJ"
-    },
-    "content_hash": "9eb879568f999db6"
-  },
-  {
-    "id": "fed839b3",
+    "id": "886804de",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "5 members of Congress bought $SPCX this year \u2014 and these filings don't show them selling:\n\n\u2022 Daniel Meuser (R)\n\u2022 Jared Moskowitz (D)\n\u2022 John McGuire (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Daniel Meuser, $15,001 - $50,000 on Jun 15.\n\nPrice since the first buy in this group: -7.6%.\n\nSTOCK Act disclosures. Public record.",
@@ -373,7 +373,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034774.pdf",
     "source_title": "5 Congress members bought $SPCX",
     "source_summary": "5 politicians bought $SPCX; largest $15,001 - $50,000 by Daniel Meuser.",
-    "drafted_at": "2026-09-30T06:06:59.134437",
+    "drafted_at": "2026-09-30T13:07:54.406140",
     "data": {
       "ticker": "SPCX",
       "member_count": 5,
@@ -382,64 +382,26 @@
     "content_hash": "51463ed55dda905c"
   },
   {
-    "id": "d14fb85d",
+    "id": "0946303c",
     "format": "CONGRESS_WATCH",
     "status": "pending",
-    "draft_text": "4 members of Congress bought $SPCX this year \u2014 and these filings don't show them selling:\n\n\u2022 Daniel Meuser (R)\n\u2022 Jared Moskowitz (D)\n\u2022 John McGuire (R)\n\u2022 Gilbert Cisneros (D)\n\nLargest disclosed here: Daniel Meuser, $15,001 - $50,000 on Jun 15.\n\nPrice since the first buy in this group: -7.6%.\n\nSTOCK Act disclosures. Public record.",
-    "image_path": "charts/congress/SPCX_cluster.png",
+    "draft_text": "3 members of Congress bought $BRK.B this year \u2014 and these filings don't show them selling:\n\n\u2022 Jerry Moran,\n\u2022 Maria Elvira Salazar (R)\n\u2022 Richard Dean Dr McCormick (R)\n\nLargest disclosed here: Jerry Moran,, $15,001 - $50,000 on Jun 23.\n\nPrice since the first buy in this group: +0.0%.\n\nSTOCK Act disclosures. Public record.\n\nhttps://efdsearch.senate.gov/search/view/ptr/cff197e2-b90b-4b53-b97d-eecf226a1980/",
+    "image_path": null,
     "og_image_url": null,
     "primary_source": "STOCK Act PTR filings",
-    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034774.pdf",
-    "source_title": "4 Congress members bought $SPCX",
-    "source_summary": "4 politicians bought $SPCX; largest $15,001 - $50,000 by Daniel Meuser.",
-    "drafted_at": "2026-09-30T06:06:59.134752",
+    "source_url": "https://efdsearch.senate.gov/search/view/ptr/cff197e2-b90b-4b53-b97d-eecf226a1980/",
+    "source_title": "3 Congress members bought $BRK.B",
+    "source_summary": "3 politicians bought $BRK.B; largest $15,001 - $50,000 by Jerry Moran,.",
+    "drafted_at": "2026-09-30T13:07:54.406431",
     "data": {
-      "ticker": "SPCX",
-      "member_count": 4,
-      "pct_since_first": -7.623488353595116
+      "ticker": "BRK.B",
+      "member_count": 3,
+      "pct_since_first": 0
     },
-    "content_hash": "585711bf88956fa9"
+    "content_hash": "6f888df9bec37d4e"
   },
   {
-    "id": "c8219a13",
-    "format": "CONGRESS_WATCH",
-    "status": "pending",
-    "draft_text": "4 members of Congress bought $NVDA this year \u2014 and these filings don't show them selling:\n\n\u2022 Michael Rulli (R)\n\u2022 Cleo Fields (D)\n\u2022 Gilbert Cisneros (D)\n\u2022 John J Mr McGuire (R)\n\nLargest disclosed here: Michael Rulli, $1,001 - $15,000 on Jun 25.\n\nPrice since the first buy in this group: +15.0%.\n\nSTOCK Act disclosures. Public record.",
-    "image_path": "charts/congress/NVDA_cluster.png",
-    "og_image_url": null,
-    "primary_source": "STOCK Act PTR filings",
-    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035147.pdf",
-    "source_title": "4 Congress members bought $NVDA",
-    "source_summary": "4 politicians bought $NVDA; largest $1,001 - $15,000 by Michael Rulli.",
-    "drafted_at": "2026-09-30T06:06:59.135061",
-    "data": {
-      "ticker": "NVDA",
-      "member_count": 4,
-      "pct_since_first": 14.984163179702678
-    },
-    "content_hash": "f6cf25ab3c00fb6f"
-  },
-  {
-    "id": "13a2ed20",
-    "format": "CONGRESS_WATCH",
-    "status": "pending",
-    "draft_text": "4 members of Congress bought $MU this year \u2014 and these filings don't show them selling:\n\n\u2022 Josh Gottheimer (D)\n\u2022 Sheldon Whitehouse (D)\n\u2022 Michael Rulli (R)\n\u2022 Dan Newhouse (R)\n\nLargest disclosed here: Josh Gottheimer, $1,001 - $15,000 on May 21.\n\nPrice since the first buy in this group: +42.0%.\n\nSTOCK Act disclosures. Public record.",
-    "image_path": "charts/congress/MU_cluster.png",
-    "og_image_url": null,
-    "primary_source": "STOCK Act PTR filings",
-    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034693.pdf",
-    "source_title": "4 Congress members bought $MU",
-    "source_summary": "4 politicians bought $MU; largest $1,001 - $15,000 by Josh Gottheimer.",
-    "drafted_at": "2026-09-30T06:06:59.135391",
-    "data": {
-      "ticker": "MU",
-      "member_count": 4,
-      "pct_since_first": 42.01286759847596
-    },
-    "content_hash": "7c265a3a54605da1"
-  },
-  {
-    "id": "b4b1f175",
+    "id": "4753242c",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $MU this year \u2014 and these filings don't show them selling:\n\n\u2022 Sheldon Whitehouse (D)\n\u2022 Michael Rulli (R)\n\u2022 Dan Newhouse (R)\n\nLargest disclosed here: Sheldon Whitehouse, $1,001 - $15,000 on Jun 25.\n\nPrice since the first buy in this group: -10.8%.\n\nSTOCK Act disclosures. Public record.",
@@ -449,7 +411,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/5d9b1b8e-2ae1-442b-860c-e79b8a701dc6/",
     "source_title": "3 Congress members bought $MU",
     "source_summary": "3 politicians bought $MU; largest $1,001 - $15,000 by Sheldon Whitehouse.",
-    "drafted_at": "2026-09-30T06:06:59.135685",
+    "drafted_at": "2026-09-30T13:07:54.406738",
     "data": {
       "ticker": "MU",
       "member_count": 3,
@@ -458,177 +420,215 @@
     "content_hash": "78d90ba61af22eb7"
   },
   {
-    "id": "170c14de",
-    "format": "GLOBAL_DESK",
+    "id": "c317a7c3",
+    "format": "CONGRESS_WATCH",
     "status": "pending",
-    "draft_text": "Levant update: Crude oil prices ticked higher today, after dipping on Tuesday, following reports that President Trump has no intention of easing sanction pressure on Iran, which has decimated exports from one of OPEC\u2019s biggest producers.\n\nAt the time of writing, Brent crude was trading at $103.13 per barrel, and West Texas Intermediate was trading at $89.53, both set to end the month with a gain.\n\nFor Brent, the gain is more pronounced, at around $10 per barrel, while for WTI, the gain would be about $3 per barrel.\n\nEarlier in the week, prices dipped slightly\u2026\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-as-Trump-Rules-Out-Easing-Iran-Sanctions.html",
-    "image_path": null,
+    "draft_text": "3 members of Congress bought $ACN this year \u2014 and these filings don't show them selling:\n\n\u2022 Dan Newhouse (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Scott Scott Franklin (R)\n\nLargest disclosed here: Dan Newhouse, $1,001 - $15,000 on Jul 10.\n\nPrice since the first buy in this group: +30.2%.\n\nSTOCK Act disclosures. Public record.",
+    "image_path": "charts/congress/ACN_cluster.png",
     "og_image_url": null,
-    "primary_source": "OILPRICE",
-    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-as-Trump-Rules-Out-Easing-Iran-Sanctions.html",
-    "source_title": "Oil Prices Climb as Trump Rules Out Easing Iran Sanctions",
-    "source_summary": "Crude oil prices ticked higher today, after dipping on Tuesday, following reports that President Trump has no intention of easing sanction pressure on Iran, which has decimated exports from one of OPEC\u2019s biggest producers. At the time of writing, Brent crude was trading at $103.13 per barrel, and West Texas Intermediate was trading at $89.53, both set to end the month with a gain. For Brent, the g",
-    "drafted_at": "2026-09-30T06:06:59.140337",
+    "primary_source": "STOCK Act PTR filings",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf",
+    "source_title": "3 Congress members bought $ACN",
+    "source_summary": "3 politicians bought $ACN; largest $1,001 - $15,000 by Dan Newhouse.",
+    "drafted_at": "2026-09-30T13:07:54.407020",
     "data": {
-      "source": "OILPRICE"
+      "ticker": "ACN",
+      "member_count": 3,
+      "pct_since_first": 30.22998312088791
     },
-    "content_hash": "626cf61a49b95c0e"
+    "content_hash": "917a09452eb9679c"
   },
   {
-    "id": "1611939f",
+    "id": "76366386",
+    "format": "CONGRESS_WATCH",
+    "status": "pending",
+    "draft_text": "3 members of Congress bought $NVDA this year \u2014 and these filings don't show them selling:\n\n\u2022 Michael Rulli (R)\n\u2022 Cleo Fields (D)\n\u2022 John J Mr McGuire (R)\n\nLargest disclosed here: Michael Rulli, $1,001 - $15,000 on Jun 25.\n\nPrice since the first buy in this group: +15.0%.\n\nSTOCK Act disclosures. Public record.",
+    "image_path": "charts/congress/NVDA_cluster.png",
+    "og_image_url": null,
+    "primary_source": "STOCK Act PTR filings",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035147.pdf",
+    "source_title": "3 Congress members bought $NVDA",
+    "source_summary": "3 politicians bought $NVDA; largest $1,001 - $15,000 by Michael Rulli.",
+    "drafted_at": "2026-09-30T13:07:54.407297",
+    "data": {
+      "ticker": "NVDA",
+      "member_count": 3,
+      "pct_since_first": 14.984163179702678
+    },
+    "content_hash": "d816bd0d170915c5"
+  },
+  {
+    "id": "ccda1dbf",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "ASIA DESK: 5,000mAh power bank in a 6.83mm stainless steel body, now live on Kickstarter OSAKA, Japan \u2014 CIO, a Japan based charging accessories brand, has launched its Kickstarter campaign for SmartCoby Ultra Slim SS5K, a 5,000mAh wireless power bank in a 6.83mm stainless steel body.\n\nThe campaign is live now on Kickstarter, with Super Early [\u2026]\n\nhttps://financialpost.com/pmn/business-wire-news-releases-pmn/cio-launches-smartcoby-ultra-slim-ss5k-on-kickstarter-building-on-ultra-slim-3ks-breakout-crowdfunding-success",
+    "draft_text": "From the international wire: SoundHound AI Powers Next-Generation AI Assistant with Real-Time Generative AI for the Kia Sorento, Launched in India.\n\nhttps://www.globenewswire.com/news-release/2026/09/30/3372003/0/en/soundhound-ai-powers-next-generation-voice-assistant-with-real-time-generative-ai-for-the-kia-sorento-launched-in-india.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "GLOBENEWSWIRE",
+    "source_url": "https://www.globenewswire.com/news-release/2026/09/30/3372003/0/en/soundhound-ai-powers-next-generation-voice-assistant-with-real-time-generative-ai-for-the-kia-sorento-launched-in-india.html",
+    "source_title": "SoundHound AI Powers Next-Generation Voice Assistant with Real-Time Generative AI for the Kia Sorento, Launched in India",
+    "source_summary": "SoundHound AI Powers Next-Generation AI Assistant with Real-Time Generative AI for the Kia Sorento, Launched in India",
+    "drafted_at": "2026-09-30T13:07:54.409485",
+    "data": {
+      "source": "GLOBENEWSWIRE"
+    },
+    "content_hash": "1a4f8fd7c8a9c44f"
+  },
+  {
+    "id": "82dad1be",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "GLOBAL DESK: Trump Towers Hyderabad Will Feature Two 65-Storey Towers Rising Approximately 800 Feet, Connected by a State-of-the-Art Suspended Sky Bridge The 2.2 Million-Square-Foot Development is Being Jointly Developed by IRA Realty and Tribeca Developers MIAMI, Sept.\n\n30, 2026 (GLOBE NEWSWIRE) \u2014 SKYX Platforms Corp. (NASDAQ: SKYX) (d/b/a SKYX Technologies) (the \u201cCompany\u201d or \u201cSKYX\u201d), an award-winning advanced, [\u2026]\n\nhttps://financialpost.com/globe-newswire/skyx-signs-agreement-to-supply-its-safe-advanced-smart-technologies-to-trump-towers-landmark-luxury-development-in-hyderabad-india-one-of-indias-leading-tech-hubs",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FINANCIAL POST",
-    "source_url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/cio-launches-smartcoby-ultra-slim-ss5k-on-kickstarter-building-on-ultra-slim-3ks-breakout-crowdfunding-success",
-    "source_title": "CIO Launches SmartCoby Ultra Slim SS5K on Kickstarter, Building on Ultra Slim 3K\u2019s Breakout Crowdfunding Success",
-    "source_summary": "5,000mAh power bank in a 6.83mm stainless steel body, now live on Kickstarter OSAKA, Japan \u2014 CIO, a Japan based charging accessories brand, has launched its Kickstarter campaign for SmartCoby Ultra Slim SS5K, a 5,000mAh wireless power bank in a 6.83mm stainless steel body. The campaign is live now on Kickstarter, with Super Early [\u2026]",
-    "drafted_at": "2026-09-30T06:06:59.140896",
+    "source_url": "https://financialpost.com/globe-newswire/skyx-signs-agreement-to-supply-its-safe-advanced-smart-technologies-to-trump-towers-landmark-luxury-development-in-hyderabad-india-one-of-indias-leading-tech-hubs",
+    "source_title": "SKYX Signs Agreement to Supply Its Safe-Advanced & Smart Technologies to Trump Towers Landmark Luxury Development in Hyderabad, India, One of India\u2019s Leading Tech Hubs",
+    "source_summary": "Trump Towers Hyderabad Will Feature Two 65-Storey Towers Rising Approximately 800 Feet, Connected by a State-of-the-Art Suspended Sky Bridge The 2.2 Million-Square-Foot Development is Being Jointly Developed by IRA Realty and Tribeca Developers MIAMI, Sept. 30, 2026 (GLOBE NEWSWIRE) \u2014 SKYX Platforms Corp. (NASDAQ: SKYX) (d/b/a SKYX Technologies) (the \u201cCompany\u201d or \u201cSKYX\u201d), an award-winning advanced",
+    "drafted_at": "2026-09-30T13:07:54.411873",
     "data": {
       "source": "FINANCIAL POST"
     },
-    "content_hash": "40fb00cf1bf65c93"
+    "content_hash": "cbf95b429aef0017"
   },
   {
-    "id": "52f4f76f",
+    "id": "ee0843d3",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Cross-border read: Six of the seven crew members on board died in the crash in Far Eastern Amur, the defense ministry said.\n\nhttps://www.businessinsider.com/russia-loses-irreplaceable-nuclaer-bomber-tu-95-training-crash-2026-9",
+    "draft_text": "LATAM DESK: Lula's potential re-election could reshape Brazil's global alliances, impacting its diplomatic stance and relations with the U.S. significantly.\n\nThe post Lula announces bid for fourth term in Brazil\u2019s 2026 presidential election appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/lula-announces-bid-for-fourth-term-in-brazils-2026-presidential-election/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "BUSINESS INSIDER",
-    "source_url": "https://www.businessinsider.com/russia-loses-irreplaceable-nuclaer-bomber-tu-95-training-crash-2026-9",
-    "source_title": "Russia lost one of its irreplaceable Tu-95 nuclear-capable bombers in a deadly training crash",
-    "source_summary": "Six of the seven crew members on board died in the crash in Far Eastern Amur, the defense ministry said.",
-    "drafted_at": "2026-09-30T06:06:59.141234",
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/lula-announces-bid-for-fourth-term-in-brazils-2026-presidential-election/",
+    "source_title": "Lula announces bid for fourth term in Brazil\u2019s 2026 presidential election",
+    "source_summary": "Lula's potential re-election could reshape Brazil's global alliances, impacting its diplomatic stance and relations with the U.S. significantly. The post Lula announces bid for fourth term in Brazil\u2019s 2026 presidential election appeared first on Crypto Briefing .",
+    "drafted_at": "2026-09-30T13:07:54.412319",
     "data": {
-      "source": "BUSINESS INSIDER"
+      "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "710a184c34d8f550"
+    "content_hash": "83fb044e16a87236"
   },
   {
-    "id": "5d23ca24",
+    "id": "c80293cb",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 EUROPE: The Ring is Euronews\u2019 weekly political showdown, where Europe\u2019s toughest debates meet their boldest voices.\n\nIn each episode, two political heavyweights from across the EU face off to propose a diversity of opinions and spark conversations around the most important issues of EU affairs and the wider European political life.\n\nEuronews Tech Talks goes beyond discussions to explore the impact of new technologies on our lives.\n\nWith explanations, engaging Q&As, and lively conversations, the podcast provides valuable insights into the intersection of technology and society.\n\nEurope's best food experts are joining forces to crack down on fraud.\n\nhttps://www.euronews.com/2026/09/30/diesel-taxes-in-europe-which-countries-charge-the-most",
+    "draft_text": "GLOBAL DESK: Russia\u2019s government on Wednesday extended the ban on exports of diesel, marine fuel, and gasoil for all fuel producers by October 31, which effectively extends the period in which the tightening global market will have to cope without Russian diesel shipments for another month.\n\nThe government took the decision to extend the ban, which has been in place since the summer, \u201cto maintain a stable situation on the domestic fuel market, including to meet higher demand for fuel during the harvest season.\u201d Russia has been extending the\u2026\n\nhttps://oilprice.com/Latest-Energy-News/World-News/Russia-Extends-Diesel-Export-Ban-Through-Oct-31.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "EURONEWS",
-    "source_url": "https://www.euronews.com/2026/09/30/diesel-taxes-in-europe-which-countries-charge-the-most",
-    "source_title": "Diesel taxes in Europe: Which countries charge the most?",
-    "source_summary": "Diesel has overtaken petrol as Europe's most expensive fuel, at a record \u20ac2.226 per litre. Yet EU governments still tax it about 12 cents less than petrol.",
-    "drafted_at": "2026-09-30T06:06:59.143195",
+    "primary_source": "OILPRICE",
+    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Extends-Diesel-Export-Ban-Through-Oct-31.html",
+    "source_title": "Russia Extends Diesel Export Ban Through Oct. 31",
+    "source_summary": "Russia\u2019s government on Wednesday extended the ban on exports of diesel, marine fuel, and gasoil for all fuel producers by October 31, which effectively extends the period in which the tightening global market will have to cope without Russian diesel shipments for another month. The government took the decision to extend the ban, which has been in place since the summer, \u201cto maintain a stable situa",
+    "drafted_at": "2026-09-30T13:07:54.414740",
     "data": {
-      "source": "EURONEWS"
+      "source": "OILPRICE"
     },
-    "content_hash": "d7f1a3fc6a70516a"
+    "content_hash": "876803cd32477d2d"
   },
   {
-    "id": "9a119835",
+    "id": "c26ebeb6",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From Brussels and beyond: Want to receive this newsletter straight to your inbox?\n\nSign up here to receive the reporting and intel from the Gastein Health Forum.\n\nSNEAK PEEK \u2014 Don\u2019t shy away from regulating food, alcohol and tobacco to tackle Europe\u2019s biggest threat to society \u2014 chronic diseases \u2014 says the head of Austria\u2019s food and drugs agency. [\u2026]\n\nhttps://www.politico.eu/article/time-to-get-tough-on-food-booze-and-tobacco/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "POLITICO EU",
-    "source_url": "https://www.politico.eu/article/time-to-get-tough-on-food-booze-and-tobacco/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-    "source_title": "Time to get tough on food, booze and tobacco",
-    "source_summary": "Want to receive this newsletter straight to your inbox? Sign up here to receive the reporting and intel from the Gastein Health Forum. SNEAK PEEK \u2014 Don\u2019t shy away from regulating food, alcohol and tobacco to tackle Europe\u2019s biggest threat to society \u2014 chronic diseases \u2014 says the head of Austria\u2019s food and drugs agency. [\u2026]",
-    "drafted_at": "2026-09-30T06:06:59.143815",
-    "data": {
-      "source": "POLITICO EU"
-    },
-    "content_hash": "67cc432e843ea0fb"
-  },
-  {
-    "id": "d83b4c42",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "GDP DAY. The EUR/USD pair remains under some selling pressure for the third straight day and trades around the 1.1330 region during the Asian session on Wednesday, near its lowest level since May 2025, which it touched the previous day.\n\nhttps://www.fxstreet.com/news/euro-stays-pressured-below-11350-near-ytd-low-vs-bullish-usd-ahead-of-us-pce-q2-gdp-202609300501",
+    "draft_text": "APAC wire: GBP/JPY rebounds sharply on Wednesday as the British Pound (GBP) strengthens across the board following an upward revision to UK economic growth.\n\nAt the time of writing, the cross trades around 208.65 after recovering from 206.89 earlier in Asian trading hours, the lowest since December 2025.\n\nhttps://www.fxstreet.com/news/british-pound-rebounds-against-japanese-yen-as-uk-growth-beats-expectations-202609301227",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/euro-stays-pressured-below-11350-near-ytd-low-vs-bullish-usd-ahead-of-us-pce-q2-gdp-202609300501",
-    "source_title": "Euro stays pressured below 1.1350, near YTD low vs bullish USD ahead of US PCE, Q2 GDP",
-    "source_summary": "The EUR/USD pair remains under some selling pressure for the third straight day and trades around the 1.1330 region during the Asian session on Wednesday, near its lowest level since May 2025, which it touched the previous day.",
-    "drafted_at": "2026-09-30T06:06:59.203165",
+    "source_url": "https://www.fxstreet.com/news/british-pound-rebounds-against-japanese-yen-as-uk-growth-beats-expectations-202609301227",
+    "source_title": "British Pound rebounds against Japanese Yen as UK growth beats expectations",
+    "source_summary": "GBP/JPY rebounds sharply on Wednesday as the British Pound (GBP) strengthens across the board following an upward revision to UK economic growth. At the time of writing, the cross trades around 208.65 after recovering from 206.89 earlier in Asian trading hours, the lowest since December 2025.",
+    "drafted_at": "2026-09-30T13:07:54.415713",
     "data": {
       "source": "FXSTREET"
     },
-    "content_hash": "3a03aec79d3dc4bc"
+    "content_hash": "3d58af8b2a1ef3bb"
   },
   {
-    "id": "7e8ec44e",
+    "id": "a470f92d",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "How sticky is inflation? Let's see: German inflation will be one of the main economic data points to watch out for in European trading today, with the September reading expected to show a further pick up in price pressures.\n\nHere's what markets are looking for: CPI +3.1% y/y expected; Prior +2.9% HICP +3.2% y/y expected; Prior +2.9% The August report already showed inflation accelerating to 2.9%, with energy prices rising 10.5% on the year and doing much of the heavy lifting.\n\nThe key metric to keep an eye out for though is core CPI, and that was comparatively steadier at 2.4% in August.\n\nOverall, another move higher in September would reinforce the narrative that headline inflation pressures are not going away just yet - particularly with elevated energy costs still feeding through.\n\nThat matters for the ECB, even if policymakers have been reluctant to react mechanically to the energy shock.\n\nBut more importantly, the read on core inflation will be what provides a better signals for markets and the ECB reaction function.\n\nAn uptick in core prices could signal that inflation pressures are broadening and that raises the risks of second-round effects, which is what the ECB is placing heavy emphasis on.\n\nBefore we get the national figure, the state CPI readings will give us an early indication of how things are shaping up.\n\nhttps://investinglive.com/news/heads-up-germany-september-cpi-expected-to-show-inflation-back-above-3/",
+    "draft_text": "INFLATION READ: Bitcoin's surge amid cooling inflation may signal increased investor confidence and potential shifts in monetary policy expectations.\n\nThe post Bitcoin rallies as US PCE inflation cools to 3.4% appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/bitcoin-rallies-as-august-pce-inflation-cools-to-3-4/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/bitcoin-rallies-as-august-pce-inflation-cools-to-3-4/",
+    "source_title": "Bitcoin rallies as US PCE inflation cools to 3.4%",
+    "source_summary": "Bitcoin's surge amid cooling inflation may signal increased investor confidence and potential shifts in monetary policy expectations. The post Bitcoin rallies as US PCE inflation cools to 3.4% appeared first on Crypto Briefing .",
+    "drafted_at": "2026-09-30T13:07:54.476634",
+    "data": {
+      "source": "CRYPTO BRIEFING"
+    },
+    "content_hash": "aa80c50904b5dda4"
+  },
+  {
+    "id": "a3291792",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "GDP DAY. RaboResearch Global Economics & Markets\u2019 FX Strategy team assesses EUR/GBP in light of UK politics, growth and monetary policy.\n\nThey note the Pound\u2019s recent support from stronger UK GDP, but expect GBP bulls to stay cautious ahead of the October 28 budget.\n\nhttps://www.fxstreet.com/news/eur-gbp-range-set-to-persist-rabobank-202609301258",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/eur-gbp-range-set-to-persist-rabobank-202609301258",
+    "source_title": "EUR/GBP: Range set to persist \u2013 Rabobank",
+    "source_summary": "RaboResearch Global Economics & Markets\u2019 FX Strategy team assesses EUR/GBP in light of UK politics, growth and monetary policy. They note the Pound\u2019s recent support from stronger UK GDP, but expect GBP bulls to stay cautious ahead of the October 28 budget.",
+    "drafted_at": "2026-09-30T13:07:54.477064",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "ec79e41dc83a6560"
+  },
+  {
+    "id": "65e04fed",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "Inflation update: Holiday retail sales are expected to grow this holiday season and top $1 trillion for the first time, though that growth is boosted by inflation.\n\nhttps://www.cnbc.com/2026/09/30/holiday-retail-sales-inflation.html",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/09/30/holiday-retail-sales-inflation.html",
+    "source_title": "Holiday retail sales are expected to top $1 trillion as inflation boosts growth",
+    "source_summary": "Holiday retail sales are expected to grow this holiday season and top $1 trillion for the first time, though that growth is boosted by inflation.",
+    "drafted_at": "2026-09-30T13:07:54.477275",
+    "data": {
+      "source": "CNBC"
+    },
+    "content_hash": "92a689e0ab7393e3"
+  },
+  {
+    "id": "7aafecf4",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "GDP DAY. Prior estimate 1.5% revised higher to 2.2% US Q2 GDP revised to 2.2% vs 1.5% expected; inflation measures soften Real GDP: +2.2% annualized vs +1.5% expected.\n\nReal final sales: +2.8% vs +2.3% expected.\n\nCore PCE prices: +3.3% vs +3.6% expected.\n\nPCE prices excluding food, energy and housing: +3.1%.\n\nPCE services prices excluding energy and housing: +3.6%.\n\nAdditional second-quarter details, compared with the previous estimate: Real final sales to private domestic purchasers: +4.6% vs +4.2%.\n\nReal gross domestic income: +2.6% vs +2.2%.\n\nAverage of real GDP and real gross domestic income: +2.4% vs +1.8%.\n\nhttps://investinglive.com/news/us-gdp-final-for-q2-2-2-vs-1-5-estimate/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/heads-up-germany-september-cpi-expected-to-show-inflation-back-above-3/",
-    "source_title": "Heads up: Germany September CPI expected to show inflation back above 3%",
-    "source_summary": "German inflation will be one of the main economic data points to watch out for in European trading today, with the September reading expected to show a further pick up in price pressures. Here's what markets are looking for: CPI +3.1% y/y expected; Prior +2.9% HICP +3.2% y/y expected; Prior +2.9% The August report already showed inflation accelerating to 2.9%, with energy prices rising 10.5% on th",
-    "drafted_at": "2026-09-30T06:06:59.204842",
+    "source_url": "https://investinglive.com/news/us-gdp-final-for-q2-2-2-vs-1-5-estimate/",
+    "source_title": "US GDP Final for Q2 2.2% vs 1.5% estimate",
+    "source_summary": "Prior estimate 1.5% revised higher to 2.2% US Q2 GDP revised to 2.2% vs 1.5% expected; inflation measures soften Real GDP: +2.2% annualized vs +1.5% expected. Previous estimate +1.5%. Real final sales: +2.8% vs +2.3% expected. Previous estimate +2.2%. Consumer spending: +3.8%. Previous estimate +3.4%. GDP deflator: +6.1% vs +6.4% expected. Previous estimate +6.4%. Core PCE prices: +3.3% vs +3.6% e",
+    "drafted_at": "2026-09-30T13:07:54.479086",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "9a263fd0377f3b08"
+    "content_hash": "2ed05d78fa7cef64"
   },
   {
-    "id": "f5ca7726",
+    "id": "87821f5a",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "INFLATION READ: Goldman: Persian Gulf oil exports back at 2025 average after doubling in September USD/JPY slips to around 156.4 as half-year-end flows and Fed comments weigh China official manufacturing PMI returns to growth at 50.1, non-manufacturing 50.2 RatingDog China manufacturing PMI 52.1 tops forecast, services 51.6 also beats Australia August CPI 4.0% as fuel jumps, trimmed mean below forecast at 0.2% m/m PBOC sets USD/ CNY mid-point today at 6.7351 (vs. estimate at 6.7025) ANZ survey: NZ business confidence eases to +52 as oil rise hits late responses Japan August factory output falls 1.7% against forecast rise, retail sales slow ICYMI: BlackRock says AI agents could be an overlooked source of crypto demand Oil: OPEC+ seen holding November quotas steady at Sunday meeting, delegates say Westpac sees RBA hiking again in November after 25bp move to 4.6% yesterday Citi sees Starship flight as step toward $900 SpaceX target US-Iran talks stall as Qatar mediation yields little, raising risk of renewed combat Boeing shares rise on $20 billion Navy fighter win as Northrop Grumman slips Trump, tech leaders sign voluntary \"morally binding\" AI accord at White House Fed officials lean hawkish, though Williams sees no urgency for another hike Summary: Oil extended some of Tuesday's losses after several downside catalysts, including a report that Trump backs easing Russia sanctions for the release of political prisoners and a US offer of up to 40 million barrels from the Strategic Petroleum Reserve.\n\nOn the other hand, Axios reported that Qatari mediation this week produced little progress between the US and Iran, and that US officials think Trump could order a return to major combat after the midterms.\n\nJapan's August industrial output fell 1.7% m/m against a forecast rise of 1.7%, and retail sales slowed to 2.7% y/y against 3.3% expected.\n\nUSD/JPY fell from around 157.5 to around 156.4 on Japanese half-year-end flows.\n\nAustralian CPI rose 4.0% y/y in August as expected, with fuel driving the rise, while trimmed mean rose 0.2% m/m against 0.3% forecast and held at 3.6% y/y.\n\nMarket pricing implies around a 25% chance of an RBA hike in November, and the Australian dollar was lower.\n\nChina's official manufacturing PMI rose to 50.1 and non-manufacturing to 50.2.\n\nRatingDog manufacturing was 52.1, services 51.6 and composite 52.4.\n\nhttps://investinglive.com/news/investinglive-asia-pacific-market-news-yen-nikkei-firmer/",
+    "draft_text": "How sticky is inflation? Let's see: Prior was 3.3% Headline y/y 3.4% vs 3.7% expected (3.7% prior) Headline m/m +0.3% vs +0.4% expected (+0.2% prior) Core PCE (excluding food & energy): Core m/m +0.2% vs +0.3% expected Prior +0.2% Consumer spending and income for August: Personal income +0.2% vs +0.4% expected.\n\nPrior month +0.4% Personal spending +0.9% vs +0.8% expected.\n\nPrior month +0.2% Real personal spending % vs +0.0% prior This is a big sigh of relief for the Federal Reserve and takes away the pressure to hike rates in October.\n\nThe US dollar is falling across the baord and Treasury yields are 4-5 bps lower across the curve.\n\nWe're seeing bids in stocks and gold as well.\n\nThe US dollar is down around 25 pips quickly across the board.\n\nFor background, the Personal Consumption Expenditures report, commonly called the PCE report, is part of the Bureau of Economic Analysis\u2019s monthly Personal Income and Outlays release.\n\nIt provides information on household income, consumer spending and saving, alongside the PCE price index, which measures changes in the prices of goods and services consumed in the United States.\n\nhttps://investinglive.com/news/us-july-core-pce-3-0-y-y-vs-3-3-expected/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-yen-nikkei-firmer/",
-    "source_title": "investingLive Asia-Pacific market news: Yen, Nikkei firmer",
-    "source_summary": "Goldman: Persian Gulf oil exports back at 2025 average after doubling in September USD/JPY slips to around 156.4 as half-year-end flows and Fed comments weigh China official manufacturing PMI returns to growth at 50.1, non-manufacturing 50.2 RatingDog China manufacturing PMI 52.1 tops forecast, services 51.6 also beats Australia August CPI 4.0% as fuel jumps, trimmed mean below forecast at 0.2% m/",
-    "drafted_at": "2026-09-30T06:06:59.208315",
+    "source_url": "https://investinglive.com/news/us-july-core-pce-3-0-y-y-vs-3-3-expected/",
+    "source_title": "US July core PCE 3.0% y/y vs 3.3% expected",
+    "source_summary": "Prior was 3.3% Headline y/y 3.4% vs 3.7% expected (3.7% prior) Headline m/m +0.3% vs +0.4% expected (+0.2% prior) Core PCE (excluding food & energy): Core m/m +0.2% vs +0.3% expected Prior +0.2% Consumer spending and income for August: Personal income +0.2% vs +0.4% expected. Prior month +0.4% Personal spending +0.9% vs +0.8% expected. Prior month +0.2% Real personal spending % vs +0.0% prior This",
+    "drafted_at": "2026-09-30T13:07:54.480908",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "59317a119be16a03"
+    "content_hash": "4376fb43009d78a1"
   },
   {
-    "id": "25950e1f",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "INFLATION READ: A return to growth in the official manufacturing survey, alongside a jump in the non-manufacturing index, gives China-sensitive assets a supportive final data point before the holiday.\n\nFactory strength matters for industrial commodities, including oil, and RatingDog's finding that manufacturers' input costs are being pushed up by metals and oil suggests demand for those inputs is holding up.\n\nStill, the official readings sit close to the 50 line and domestic demand remains weak, so the market is likely to keep looking to policy support for further upside.\n\nThe gap between the official 50.1 and the private-sector 52.1 will also draw attention, since it leaves the strength of the recovery open to debate. -- China's official PMIs moved back above 50 in September as factories resumed and AI demand helped, though weak domestic demand keeps pressure on Beijing for more support.\n\nSummary: China's official manufacturing PMI rose to 50.1 in September from 49.8, matching the Reuters poll forecast and ending two straight months of contraction.\n\nThe manufacturing new orders sub-index was 50.5 and production was 51.7.\n\nThe official non-manufacturing PMI, covering services and construction, rose to 50.2 from 49.0, above the forecast of 49.3.\n\nThe RatingDog manufacturing PMI rose to 52.1 from 51.5 (forecast 51.6), services rose to 51.6 from 51.4 (forecast 51.1), and composite rose to 52.4 from 52.1.\n\nhttps://investinglive.com/news/china-official-manufacturing-pmi-returns-to-growth-at-50-1-non-manufacturing-50-2/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/china-official-manufacturing-pmi-returns-to-growth-at-50-1-non-manufacturing-50-2/",
-    "source_title": "China official manufacturing PMI returns to growth at 50.1, non-manufacturing 50.2",
-    "source_summary": "A return to growth in the official manufacturing survey, alongside a jump in the non-manufacturing index, gives China-sensitive assets a supportive final data point before the holiday. Factory strength matters for industrial commodities, including oil, and RatingDog's finding that manufacturers' input costs are being pushed up by metals and oil suggests demand for those inputs is holding up. Still",
-    "drafted_at": "2026-09-30T06:06:59.210830",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "37725639929dd191"
-  },
-  {
-    "id": "412a5a5b",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "From the inflation desk: Stronger readings from both surveys, ahead of a week-long Chinese holiday, give China-sensitive assets a supportive last data point before mainland markets close.\n\nThe rise in manufacturers' input costs, driven by metals and oil, is the detail most relevant to commodity markets, since it suggests firms are absorbing higher energy and raw material prices rather than cutting purchases.\n\nServices firms cut selling prices at the fastest rate in almost four and a half years, which points to margin pressure and to deflationary competition in the sector even as activity picks up.\n\nTraders are likely to weigh these private-sector readings against the official surveys, and the gap between the two sets of data will matter for how much of the improvement the market believes. --- China's private-sector PMIs all rose in September, with manufacturing at a five-month high and services growth quickening, though services firms cut prices at the fastest pace in almost four and a half years.\n\nSummary: The RatingDog China General Manufacturing PMI rose to 52.1 from 51.5, above the 51.6 forecast and the highest in five months, the tenth month above 50.\n\nThe Services PMI rose to 51.6 from 51.4, above the 51.1 forecast, and marked the fastest growth in three months.\n\nThe Composite PMI rose to 52.4 from 52.1, the strongest in three months but slightly below the 2026 average.\n\nManufacturers reported the strongest input price inflation in four months, driven by metals and oil, and lifted selling prices slightly after a marginal cut in August.\n\nhttps://investinglive.com/news/ratingdog-china-manufacturing-pmi-52-1-tops-forecast-services-51-6-also-beats/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/ratingdog-china-manufacturing-pmi-52-1-tops-forecast-services-51-6-also-beats/",
-    "source_title": "RatingDog China manufacturing PMI 52.1 tops forecast, services 51.6 also beats",
-    "source_summary": "Stronger readings from both surveys, ahead of a week-long Chinese holiday, give China-sensitive assets a supportive last data point before mainland markets close. The rise in manufacturers' input costs, driven by metals and oil, is the detail most relevant to commodity markets, since it suggests firms are absorbing higher energy and raw material prices rather than cutting purchases. Services firms",
-    "drafted_at": "2026-09-30T06:06:59.213544",
-    "data": {
-      "source": "FOREXLIVE"
-    },
-    "content_hash": "34b9aaa659c7464f"
-  },
-  {
-    "id": "cfc3572d",
+    "id": "1138ab2e",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -638,7 +638,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-09-30T06:06:59.219681",
+    "drafted_at": "2026-09-30T13:07:54.493329",
     "data": {
       "manual": true,
       "via": "manual_news.md"
