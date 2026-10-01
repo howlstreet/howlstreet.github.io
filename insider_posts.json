@@ -1,21 +1,4 @@
 {
-  "HHH_P_2026-09-23": {
-    "ticker": "HHH",
-    "company": "Howard Hughes Holdings Inc.",
-    "industry": "Real Estate Investment Trusts",
-    "num_insiders": 2,
-    "type": "P",
-    "price": 64.13,
-    "qty": 26000,
-    "dollar_value": 1667428.0,
-    "trade_date": "2026-09-23",
-    "category": "CLUSTER_BUY",
-    "link": "http://openinsider.com/screener?s=HHH",
-    "post_id": "HHH_P_2026-09-23",
-    "chart_path": "charts/insider/HHH_P_20260923.png",
-    "pct_since": 15.312641428726327,
-    "fired_at": "2026-09-29T07:38:32.193624"
-  },
   "CRAFX_P_2026-09-25": {
     "ticker": "CRAFX",
     "company": "Cascade Real Assets Fund",
@@ -199,7 +182,7 @@
     "category": "BIG_SALE",
     "link": "http://openinsider.com/screener?s=ADRX",
     "post_id": "ADRX_P_2026-09-28",
-    "chart_path": null,
+    "chart_path": "charts/insider/ADRX_P_20260928.png",
     "pct_since": 21.411761115579043,
     "fired_at": "2026-09-30T06:06:55.107431"
   },
@@ -355,5 +338,22 @@
     "chart_path": "charts/insider/DKS_P_20260923.png",
     "pct_since": 3.575545519601827,
     "fired_at": "2026-10-01T00:54:15.550803"
+  },
+  "GPUS_P_2026-09-29": {
+    "ticker": "GPUS",
+    "company": "Hyperscale Data, Inc.",
+    "industry": "Ault Milton C III",
+    "num_insiders": 0,
+    "type": "P",
+    "price": 0.49,
+    "qty": 10313474,
+    "dollar_value": 5051382.0,
+    "trade_date": "2026-09-29",
+    "category": "BIG_SALE",
+    "link": "http://openinsider.com/screener?s=GPUS",
+    "post_id": "GPUS_P_2026-09-29",
+    "chart_path": "charts/insider/GPUS_P_20260929.png",
+    "pct_since": -65.48979562156055,
+    "fired_at": "2026-10-01T14:00:16.068036"
   }
 }

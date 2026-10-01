@@ -13,34 +13,6 @@
     "data_url": "https://finance.yahoo.com/quote/CL%3DF",
     "fired_at": "2026-10-01T00:54:22.610392"
   },
-  "^VIX:move:2026-09-30": {
-    "headline": "VIX jumps 7.0% in 5 sessions to 15.85",
-    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "source": "CBOE \u00b7 ^VIX",
-    "chart_path": null,
-    "signal_id": "^VIX:move:2026-09-30",
-    "current_str": "15.85",
-    "label": "VIX (S&P 500 volatility)",
-    "hashtags": "#VIX #Volatility #Markets",
-    "kind": "move_up",
-    "badge": "+7.0%",
-    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "fired_at": "2026-09-30T13:07:51.419667"
-  },
-  "BTC-USD:move:2026-09-30": {
-    "headline": "Bitcoin climbs 5.1% in 5 sessions to $85,279",
-    "matters": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
-    "source": "Yahoo Finance \u00b7 BTC-USD",
-    "chart_path": null,
-    "signal_id": "BTC-USD:move:2026-09-30",
-    "current_str": "$85,279",
-    "label": "Bitcoin",
-    "hashtags": "#Bitcoin #BTC #Crypto",
-    "kind": "move_up",
-    "badge": "+5.1%",
-    "data_url": "https://finance.yahoo.com/quote/BTC-USD",
-    "fired_at": "2026-09-30T13:07:51.419667"
-  },
   "GC=F:move:2026-09-30": {
     "headline": "Gold drops 5.5% in 5 sessions to $4,180.30",
     "matters": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
@@ -68,5 +40,19 @@
     "badge": "-6.6%",
     "data_url": "https://finance.yahoo.com/quote/CL%3DF",
     "fired_at": "2026-10-01T06:40:13.480825"
+  },
+  "^VIX:move:2026-10-01": {
+    "headline": "VIX surges 12.8% in 5 sessions to 16.77",
+    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "source": "CBOE \u00b7 ^VIX",
+    "chart_path": null,
+    "signal_id": "^VIX:move:2026-10-01",
+    "current_str": "16.77",
+    "label": "VIX (S&P 500 volatility)",
+    "hashtags": "#VIX #Volatility #Markets",
+    "kind": "move_up",
+    "badge": "+12.8%",
+    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "fired_at": "2026-10-01T14:00:19.267983"
   }
 }
