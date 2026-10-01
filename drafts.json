@@ -1,6 +1,6 @@
 [
   {
-    "id": "b6af1746",
+    "id": "02787495",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "The Fed\u2019s watchdog found cost overruns but no evidence of criminal violations after the Justice Department dropped an investigation into the renovations earlier this year.\n\nhttps://www.washingtonpost.com/business/2026/09/30/watchdog-finds-fed-mishandled-renovations-that-trump-tried-oust-powell-over/",
@@ -10,14 +10,33 @@
     "source_url": "https://www.washingtonpost.com/business/2026/09/30/watchdog-finds-fed-mishandled-renovations-that-trump-tried-oust-powell-over/",
     "source_title": "Watchdog finds Fed mishandled renovations that Trump tried to oust Powell over",
     "source_summary": "The Fed\u2019s watchdog found cost overruns but no evidence of criminal violations after the Justice Department dropped an investigation into the renovations earlier this year.",
-    "drafted_at": "2026-09-30T22:29:44.763549",
+    "drafted_at": "2026-10-01T00:54:25.935543",
     "data": {
       "source": "WAPO"
     },
     "content_hash": "7a179ad2705c52b5"
   },
   {
-    "id": "2a13a18c",
+    "id": "a13945c9",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "You blink, you miss this: WTI crude slides 9.9% in 5 sessions to $90.39.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NYMEX \u00b7 CL=F",
+    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "source_title": "WTI crude oil futures",
+    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "drafted_at": "2026-10-01T00:54:25.935770",
+    "data": {
+      "signal_id": "CL=F:move:2026-09-30",
+      "kind": "move_down",
+      "current": "$90.39"
+    },
+    "content_hash": "c272de0720a2f459"
+  },
+  {
+    "id": "d04b2c21",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Boring? Maybe. Actionable? Definitely. Gold drops 5.5% in 5 sessions to $4,180.30.\n\nGold tracks real yields and central bank demand.\n\nMulti-year highs flag debasement or geopolitical hedging flows.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/GC%3DF",
@@ -27,7 +46,7 @@
     "source_url": "https://finance.yahoo.com/quote/GC%3DF",
     "source_title": "Gold futures",
     "source_summary": "Gold tracks real yields and central bank demand. Multi-year highs flag debasement or geopolitical hedging flows.",
-    "drafted_at": "2026-09-30T22:29:44.763787",
+    "drafted_at": "2026-10-01T00:54:25.935959",
     "data": {
       "signal_id": "GC=F:move:2026-09-30",
       "kind": "move_down",
@@ -36,7 +55,7 @@
     "content_hash": "514096a7b4f87c16"
   },
   {
-    "id": "b79ba62e",
+    "id": "e551f27e",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Whatever you're doing, stop and read this. VIX jumps 7.0% in 5 sessions to 15.85.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
@@ -46,7 +65,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EVIX",
     "source_title": "VIX (S&P 500 volatility)",
     "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-09-30T22:29:44.763996",
+    "drafted_at": "2026-10-01T00:54:25.936146",
     "data": {
       "signal_id": "^VIX:move:2026-09-30",
       "kind": "move_up",
@@ -55,7 +74,7 @@
     "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "0c80dfef",
+    "id": "2e31c6fa",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Heads up, pack. Bitcoin climbs 5.1% in 5 sessions to $85,279.\n\nBitcoin is now treated as a macro asset alongside gold and tech.\n\nIts swings move alt-coins, public miners, and crypto-exposed stocks.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/BTC-USD",
@@ -65,7 +84,7 @@
     "source_url": "https://finance.yahoo.com/quote/BTC-USD",
     "source_title": "Bitcoin",
     "source_summary": "Bitcoin is now treated as a macro asset alongside gold and tech. Its swings move alt-coins, public miners, and crypto-exposed stocks.",
-    "drafted_at": "2026-09-30T22:29:44.764206",
+    "drafted_at": "2026-10-01T00:54:25.936362",
     "data": {
       "signal_id": "BTC-USD:move:2026-09-30",
       "kind": "move_up",
@@ -74,7 +93,7 @@
     "content_hash": "0e3396ceb3da7211"
   },
   {
-    "id": "360b3b0b",
+    "id": "73557f47",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Numbers walked into the room. VIX jumps 8.3% in 5 sessions to 16.04.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
@@ -84,7 +103,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EVIX",
     "source_title": "VIX (S&P 500 volatility)",
     "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-09-30T22:29:44.764374",
+    "drafted_at": "2026-10-01T00:54:25.936528",
     "data": {
       "signal_id": "^VIX:move:2026-09-29",
       "kind": "move_up",
@@ -93,43 +112,7 @@
     "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "588185aa",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "You blink, you miss this: WTI crude tumbles 10.6% in 5 sessions to $89.63.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "NYMEX \u00b7 CL=F",
-    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
-    "source_title": "WTI crude oil futures",
-    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "drafted_at": "2026-09-30T22:29:44.764549",
-    "data": {
-      "signal_id": "CL=F:move:2026-09-30",
-      "kind": "move_down",
-      "current": "$89.63"
-    },
-    "content_hash": "c272de0720a2f459"
-  },
-  {
-    "id": "f73827fa",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "FED WATCH: Minneapolis Fed President Neel Kashkari said, \u201cInflation is still too high, about 3%, new data doesn't alter outlook,\u201d he said at a Q&A at the Council on Foreign Relations.\n\nhttps://www.fxstreet.com/news/feds-kashkari-questions-policy-tightness-as-economy-stays-strong-202609302210",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://www.fxstreet.com/news/feds-kashkari-questions-policy-tightness-as-economy-stays-strong-202609302210",
-    "source_title": "Fed\u2019s Kashkari questions policy tightness as economy stays strong",
-    "source_summary": "Minneapolis Fed President Neel Kashkari said, \u201cInflation is still too high, about 3%, new data doesn't alter outlook,\u201d he said at a Q&A at the Council on Foreign Relations.",
-    "drafted_at": "2026-09-30T22:29:44.773440",
-    "data": {
-      "actor": "Fed"
-    },
-    "content_hash": "38ef82be2ccf221b"
-  },
-  {
-    "id": "cd34eff8",
+    "id": "491a3464",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FED WATCH: Peter Navarro, RC The latest Trumpnomics data just ran over the Federal Reserve's rate-hike karma.\n\nhttps://www.realclearmarkets.com/2026/09/30/growth_up_core_inflation_down_fed_rate_case_just_got_harder_1209061.html",
@@ -139,14 +122,14 @@
     "source_url": "https://www.realclearmarkets.com/2026/09/30/growth_up_core_inflation_down_fed_rate_case_just_got_harder_1209061.html",
     "source_title": "Growth Up, Core Inflation Down: Fed Rate Case Just Got Harder",
     "source_summary": "Peter Navarro, RC The latest Trumpnomics data just ran over the Federal Reserve's rate-hike karma. Growth was revised sharply upward....",
-    "drafted_at": "2026-09-30T22:29:44.773618",
+    "drafted_at": "2026-10-01T00:54:25.945149",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "9040929586ba9064"
   },
   {
-    "id": "0fd7a519",
+    "id": "b1b19210",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "FED WATCH: Core PCE rose just 0.2% in August, easing pressure for an October Fed hike.\n\nBitcoin trades near $83,700 as rising Treasury yields cap gains.\n\nhttps://www.theblock.co/news/markets/2026-09-30-bitcoin-pce-inflation-october-rate-hike-417335",
@@ -156,14 +139,14 @@
     "source_url": "https://www.theblock.co/news/markets/2026-09-30-bitcoin-pce-inflation-october-rate-hike-417335",
     "source_title": "Bitcoin steadies as soft PCE cools October Fed rate hike bets",
     "source_summary": "Core PCE rose just 0.2% in August, easing pressure for an October Fed hike. Bitcoin trades near $83,700 as rising Treasury yields cap gains.",
-    "drafted_at": "2026-09-30T22:29:44.773785",
+    "drafted_at": "2026-10-01T00:54:25.945317",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "be991108e47f1aa8"
   },
   {
-    "id": "0f04c825",
+    "id": "3310b492",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "From the Eccles Building: Separately, second-quarter GDP data \u2013 the broadest measure of the economy\u2019s health \u2013 showed that the US economy grew at a solid clip, driven \u2060by robust consumer spending and business investment related to the buildout of AI infrastructure.\n\nThe Federal Reserve is under pressure to cut rates from the White House after raising them earlier this month for the first time since 2023.\n\nGood economic news boosted Wall Street\u2019s main indexes on Wednesday, as a softer-than-anticipated inflation reading buoyed up hopes that the Federal Reserve might not hike rates as soon \u2060as next month.\n\nA commerce department report \u2060showed the personal consumption expenditures (PCE) \u200bprice index stood at 3.4% on an annual basis in August against estimates of 3.7%, per economists polled by Reuters.\n\nhttps://www.theguardian.com/business/2026/sep/30/inflation-report-interest-rates-fed",
@@ -173,14 +156,14 @@
     "source_url": "https://www.theguardian.com/business/2026/sep/30/inflation-report-interest-rates-fed",
     "source_title": "Good news in US inflation report boosts chances Fed won\u2019t hike rates",
     "source_summary": "Traders see about a 35% chance of an October rate hike, down from \u200babout 45% following White House pressure Good economic news boosted Wall Street\u2019s main indexes on Wednesday, as a softer-than-anticipated inflation reading buoyed up hopes that the Federal Reserve might not hike rates as soon \u2060as next month. A commerce department report \u2060showed the personal consumption expenditures (PCE) \u200bprice ind",
-    "drafted_at": "2026-09-30T22:29:44.774978",
+    "drafted_at": "2026-10-01T00:54:25.946488",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "05aa7a5891817c2b"
   },
   {
-    "id": "2a2b3e6b",
+    "id": "ea457e4e",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Powell on the wire. Together, the changes are likely to reduce year-over-year volatility in capital requirements by approximately 50 percent and are not expected to materially affect aggregate capital requirements.\n\nThe Board conducts stress tests to ensure that large banks are sufficiently capitalized and able to lend to households and businesses even in a severe recession.\n\nIn December 2024, the Board announced it would modify the test to improve its resilience.\n\n\"The stress test is an essential component of our regulatory capital framework,\" said Vice Chair for Supervision Michelle W.\n\nBowman.\n\n\"Today's changes preserve its resilience by ensuring that it is transparent, granular, and risk-sensitive.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm",
@@ -190,14 +173,111 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm",
     "source_title": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
     "source_summary": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
-    "drafted_at": "2026-09-30T22:29:44.776324",
+    "drafted_at": "2026-10-01T00:54:25.947787",
     "data": {
       "actor": "FED"
     },
     "content_hash": "3a286ad31143a82d"
   },
   {
-    "id": "874b5782",
+    "id": "118bb060",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "POLICY READ: The agencies conducted a joint review of the 2025 resolution plan submissions from 15 banking organizations with over $250 billion in assets.\n\nResolution plans, also known as living wills, describe a banking organization's strategy for orderly resolution in the event of material financial distress or failure.\n\nIn addition, the agencies determined that the shortcoming previously identified in the 2021 BNP Paribas resolution plan has been satisfactorily addressed.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260929a.htm",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260929a.htm",
+    "source_title": "Agencies publish resolution plan feedback letters for 15 banking organizations",
+    "source_summary": "Agencies publish resolution plan feedback letters for 15 banking organizations",
+    "drafted_at": "2026-10-01T00:54:25.948288",
+    "data": {
+      "actor": "FED"
+    },
+    "content_hash": "3669122a1dcef914"
+  },
+  {
+    "id": "bb9a1b11",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$GPI \u2014 a company insider bought $66.3M on Sep 28.\n\nGroup 1 Automotive Inc. 273,712 shares at $242.15.\n\nStock is -0.5% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/GPI_P_20260928.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=GPI",
+    "source_title": "Group 1 Automotive Inc (GPI) insider bought $66.3M",
+    "source_summary": "1 insider(s) bought 273,712 shares at $242.15 on 2026-09-28.",
+    "drafted_at": "2026-10-01T00:54:25.949956",
+    "data": {
+      "ticker": "GPI",
+      "type": "P",
+      "dollar_value": 66278316.0,
+      "pct_since": -0.5038229709761535
+    },
+    "content_hash": "25305eb669eda9c9"
+  },
+  {
+    "id": "36dfdc3c",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$LEN \u2014 a company insider bought $53.9M on Sep 28.\n\nLennar Corp /New/. 660,410 shares at $81.59.\n\nStock is +1.7% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/LEN_P_20260928.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=LEN",
+    "source_title": "Lennar Corp /New/ (LEN) insider bought $53.9M",
+    "source_summary": "1 insider(s) bought 660,410 shares at $81.59 on 2026-09-28.",
+    "drafted_at": "2026-10-01T00:54:25.950100",
+    "data": {
+      "ticker": "LEN",
+      "type": "P",
+      "dollar_value": 53882588.0,
+      "pct_since": 1.7404119821429895
+    },
+    "content_hash": "8413fb98fc0d91f4"
+  },
+  {
+    "id": "f5344753",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$BPRE \u2014 3 company insiders bought $9.5M on Sep 28.\n\nBluerock Private Real Estate Fund. 762,522 shares at $12.50.\n\nStock is +0.3% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/BPRE_P_20260928.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=BPRE",
+    "source_title": "Bluerock Private Real Estate Fund (BPRE) insider bought $9.5M",
+    "source_summary": "3 insider(s) bought 762,522 shares at $12.50 on 2026-09-28.",
+    "drafted_at": "2026-10-01T00:54:25.950241",
+    "data": {
+      "ticker": "BPRE",
+      "type": "P",
+      "dollar_value": 9528391.0,
+      "pct_since": 0.31999969482421875
+    },
+    "content_hash": "e43a116a1a103197"
+  },
+  {
+    "id": "47733f89",
+    "format": "CORRUPTION_WATCH_INSIDER",
+    "status": "pending",
+    "draft_text": "$DKS \u2014 6 company insiders bought $5.1M on Sep 23.\n\nDick'S Sporting Goods, Inc. 39,130 shares at $130.05.\n\nStock is +3.6% since the purchase. This is a public SEC Form 4 filing.",
+    "image_path": "charts/insider/DKS_P_20260923.png",
+    "og_image_url": null,
+    "primary_source": "SEC Form 4 via openinsider",
+    "source_url": "http://openinsider.com/screener?s=DKS",
+    "source_title": "Dick'S Sporting Goods, Inc. (DKS) insider bought $5.1M",
+    "source_summary": "6 insider(s) bought 39,130 shares at $130.05 on 2026-09-23.",
+    "drafted_at": "2026-10-01T00:54:25.950393",
+    "data": {
+      "ticker": "DKS",
+      "type": "P",
+      "dollar_value": 5088794.0,
+      "pct_since": 3.575545519601827
+    },
+    "content_hash": "d7b947ea917be344"
+  },
+  {
+    "id": "04889c54",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$KOD \u2014 a company insider bought $63.4M on Sep 28.\n\nKodiak Sciences Inc. 715,592 shares at $88.59.\n\nStock is +7.0% since the purchase. This is a public SEC Form 4 filing.",
@@ -207,7 +287,7 @@
     "source_url": "http://openinsider.com/screener?s=KOD",
     "source_title": "Kodiak Sciences Inc. (KOD) insider bought $63.4M",
     "source_summary": "1 insider(s) bought 715,592 shares at $88.59 on 2026-09-28.",
-    "drafted_at": "2026-09-30T22:29:44.778437",
+    "drafted_at": "2026-10-01T00:54:25.950525",
     "data": {
       "ticker": "KOD",
       "type": "P",
@@ -217,87 +297,41 @@
     "content_hash": "f1e394bcda278e07"
   },
   {
-    "id": "a81b070d",
-    "format": "CORRUPTION_WATCH_INSIDER",
+    "id": "a07467ca",
+    "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "$BBD \u2014 22 company insiders bought $28.0M on Sep 28.\n\nBank Bradesco. 1,556,227 shares at $17.97.\n\nStock is -80.4% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/BBD_P_20260928.png",
+    "draft_text": "30, 2026 /PRNewswire/ -- Robbins Geller Rudman & Dowd LLP announces that purchasers or acquirers of AST SpaceMobile, Inc. (NASDAQ: ASTS) securities between March 4, 2025 and July 15, 2026, inclusive (the \"Class Period\"), have until November 13, 2026 to seek appointment as...\n\nhttps://www.prnewswire.com/news-releases/asts-alert-ast-spacemobile-inc-investors-with-substantial-losses-may-seek-to-lead-class-action-lawsuit-robbins-geller-rudman--dowd-llp-announces---november-13-2026-deadline-302893969.html",
+    "image_path": null,
     "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=BBD",
-    "source_title": "Bank Bradesco (BBD) insider bought $28.0M",
-    "source_summary": "22 insider(s) bought 1,556,227 shares at $17.97 on 2026-09-28.",
-    "drafted_at": "2026-09-30T22:29:44.778594",
+    "primary_source": "PR NEWSWIRE",
+    "source_url": "https://www.prnewswire.com/news-releases/asts-alert-ast-spacemobile-inc-investors-with-substantial-losses-may-seek-to-lead-class-action-lawsuit-robbins-geller-rudman--dowd-llp-announces---november-13-2026-deadline-302893969.html",
+    "source_title": "ASTS ALERT: AST SpaceMobile, Inc. Investors with Substantial Losses May Seek to Lead Class Action Lawsuit, Robbins Geller Rudman & Dowd LLP Announces - November 13, 2026 Deadline",
+    "source_summary": "SAN DIEGO, Sept. 30, 2026 /PRNewswire/ -- Robbins Geller Rudman & Dowd LLP announces that purchasers or acquirers of AST SpaceMobile, Inc. (NASDAQ: ASTS) securities between March 4, 2025 and July 15, 2026, inclusive (the \"Class Period\"), have until November 13, 2026 to seek appointment as...",
+    "drafted_at": "2026-10-01T00:54:25.952795",
     "data": {
-      "ticker": "BBD",
-      "type": "P",
-      "dollar_value": 27962071.0,
-      "pct_since": -80.41179754631878
+      "source": "PR NEWSWIRE"
     },
-    "content_hash": "bc974fc6dc43af9e"
+    "content_hash": "4fe395e917c82129"
   },
   {
-    "id": "f61d9bf9",
-    "format": "CORRUPTION_WATCH_INSIDER",
+    "id": "934c18b8",
+    "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "$CRBG \u2014 a company insider bought $27.5M on Sep 28.\n\nCorebridge Financial, Inc. 805,782 shares at $34.15.\n\nStock is -3.0% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/CRBG_P_20260928.png",
+    "draft_text": "The DOJ probe into Texas Majority PAC could destabilize Democratic strategies, impacting election dynamics and market confidence in Texas.\n\nThe post DOJ investigates Texas Majority PAC over alleged vote-buying claims appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/doj-investigates-texas-majority-pac-over-alleged-vote-buying-claims/",
+    "image_path": null,
     "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=CRBG",
-    "source_title": "Corebridge Financial, Inc. (CRBG) insider bought $27.5M",
-    "source_summary": "1 insider(s) bought 805,782 shares at $34.15 on 2026-09-28.",
-    "drafted_at": "2026-09-30T22:29:44.778741",
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/doj-investigates-texas-majority-pac-over-alleged-vote-buying-claims/",
+    "source_title": "DOJ investigates Texas Majority PAC over alleged vote-buying claims",
+    "source_summary": "The DOJ probe into Texas Majority PAC could destabilize Democratic strategies, impacting election dynamics and market confidence in Texas. The post DOJ investigates Texas Majority PAC over alleged vote-buying claims appeared first on Crypto Briefing .",
+    "drafted_at": "2026-10-01T00:54:25.953007",
     "data": {
-      "ticker": "CRBG",
-      "type": "P",
-      "dollar_value": 27519616.0,
-      "pct_since": -3.0161085449933616
+      "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "28c7b476696b0052"
+    "content_hash": "92467b93bd35f720"
   },
   {
-    "id": "d2c97640",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$NYAX \u2014 a company insider bought $2.1M on Sep 28.\n\nNayax Ltd. 46,935 shares at $44.90.\n\nStock is +6.3% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/NYAX_P_20260928.png",
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=NYAX",
-    "source_title": "Nayax Ltd. (NYAX) insider bought $2.1M",
-    "source_summary": "1 insider(s) bought 46,935 shares at $44.90 on 2026-09-28.",
-    "drafted_at": "2026-09-30T22:29:44.778887",
-    "data": {
-      "ticker": "NYAX",
-      "type": "P",
-      "dollar_value": 2107580.0,
-      "pct_since": 6.258349854059371
-    },
-    "content_hash": "503c2d3ee77a0655"
-  },
-  {
-    "id": "87d3aac3",
-    "format": "CORRUPTION_WATCH_INSIDER",
-    "status": "pending",
-    "draft_text": "$KBDC \u2014 a company insider bought $1.9M on Sep 28.\n\nKayne Anderson Bdc, Inc. 146,755 shares at $13.03.\n\nStock is -3.6% since the purchase. This is a public SEC Form 4 filing.",
-    "image_path": "charts/insider/KBDC_P_20260928.png",
-    "og_image_url": null,
-    "primary_source": "SEC Form 4 via openinsider",
-    "source_url": "http://openinsider.com/screener?s=KBDC",
-    "source_title": "Kayne Anderson Bdc, Inc. (KBDC) insider bought $1.9M",
-    "source_summary": "1 insider(s) bought 146,755 shares at $13.03 on 2026-09-28.",
-    "drafted_at": "2026-09-30T22:29:44.779028",
-    "data": {
-      "ticker": "KBDC",
-      "type": "P",
-      "dollar_value": 1912658.0,
-      "pct_since": -3.6070574089278598
-    },
-    "content_hash": "069c06fdc24bb69f"
-  },
-  {
-    "id": "814f9482",
+    "id": "120f2c33",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Chainalysis says the wallets\u2019 counterparties had exposure to laundering networks used by Mexican and Colombian cartels and Venezuelan launderers.\n\nhttps://thedefiant.io/news/regulation/ofac-sanctions-tren-de-aragua-atm-network-lists-seven-tron-addresses",
@@ -307,14 +341,14 @@
     "source_url": "https://thedefiant.io/news/regulation/ofac-sanctions-tren-de-aragua-atm-network-lists-seven-tron-addresses",
     "source_title": "OFAC Sanctions Tren de Aragua ATM Network, Lists Seven Tron Addresses",
     "source_summary": "Chainalysis says the wallets\u2019 counterparties had exposure to laundering networks used by Mexican and Colombian cartels and Venezuelan launderers.",
-    "drafted_at": "2026-09-30T22:29:44.781607",
+    "drafted_at": "2026-10-01T00:54:25.953158",
     "data": {
       "source": "THE DEFIANT"
     },
     "content_hash": "bfa725d1c451e286"
   },
   {
-    "id": "e741d91c",
+    "id": "538d1ff6",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "The CFTC secured a win in court after the agency said two defendants participated in a crypto scheme that they then tried to walk back.\n\nhttps://www.theblock.co/news/regulation/2026-09-30-cftc-secures-over-30-million-judgment-against-defendants-in-fundsz-fraud-case-417365",
@@ -324,14 +358,14 @@
     "source_url": "https://www.theblock.co/news/regulation/2026-09-30-cftc-secures-over-30-million-judgment-against-defendants-in-fundsz-fraud-case-417365",
     "source_title": "CFTC secures over $30 million judgment against defendants in Fundsz fraud case",
     "source_summary": "The CFTC secured a win in court after the agency said two defendants participated in a crypto scheme that they then tried to walk back.",
-    "drafted_at": "2026-09-30T22:29:44.781745",
+    "drafted_at": "2026-10-01T00:54:25.953287",
     "data": {
       "source": "THE BLOCK"
     },
     "content_hash": "2f1ddce09151eff2"
   },
   {
-    "id": "c5830303",
+    "id": "7f439851",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Minority party refused to approve measure that included nationwide voter ID mandate.\n\nhttps://www.wnd.com/2026/09/every-senate-democrat-just-voted-against-ban-insider/",
@@ -341,228 +375,194 @@
     "source_url": "https://www.wnd.com/2026/09/every-senate-democrat-just-voted-against-ban-insider/",
     "source_title": "Every Senate Democrat just voted against a ban on insider trading due to \u2018poison pill\u2019",
     "source_summary": "Minority party refused to approve measure that included nationwide voter ID mandate",
-    "drafted_at": "2026-09-30T22:29:44.781849",
+    "drafted_at": "2026-10-01T00:54:25.953388",
     "data": {
       "source": "WND"
     },
     "content_hash": "bb84db77e0d56d1a"
   },
   {
-    "id": "9006a9ad",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Norway Wealth Fund Owned Turkish Stocks Swept Up In Fraud Probe Bloomberg.com\n\nhttps://news.google.com/rss/articles/CBMitAFBVV95cUxPUFVZQXR4S2IyNy1aNDd0T2R2eFBZSDJlSlBVVVpMUW4weEp3T2RJZXNQNGItbHVuU3hzRkpMVUpITll5a1cxdmhXRVNUckwxdi0yLXBfWWFmWTk0WXBITVhsWnZORFg3blZSZDVkNjdBZ2tXRnZwQlAtYS1Za29aSjFkS0lBOXE3ZzlIY2o4b1FPM1RsX2FFZXljLWg4ajFuNnE4Rm9BMXFDR0Q1NUtrWlVUSkU?oc=5",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "BLOOMBERG",
-    "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUFVZQXR4S2IyNy1aNDd0T2R2eFBZSDJlSlBVVVpMUW4weEp3T2RJZXNQNGItbHVuU3hzRkpMVUpITll5a1cxdmhXRVNUckwxdi0yLXBfWWFmWTk0WXBITVhsWnZORFg3blZSZDVkNjdBZ2tXRnZwQlAtYS1Za29aSjFkS0lBOXE3ZzlIY2o4b1FPM1RsX2FFZXljLWg4ajFuNnE4Rm9BMXFDR0Q1NUtrWlVUSkU?oc=5",
-    "source_title": "Norway Wealth Fund Owned Turkish Stocks Swept Up In Fraud Probe",
-    "source_summary": "Norway Wealth Fund Owned Turkish Stocks Swept Up In Fraud Probe Bloomberg.com",
-    "drafted_at": "2026-09-30T22:29:44.781923",
-    "data": {
-      "source": "BLOOMBERG"
-    },
-    "content_hash": "6a30ca93ee247774"
-  },
-  {
-    "id": "1790e26c",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "ICIJ\u2019s media partners uncovered strategic deals and moves the Chinese bank made around the world to further the political priorities of the party-state.\n\nhttps://www.icij.org/investigations/china-capital/china-capital-stories-reveal-how-icbc-advanced-chinas-political-goals-across-four-continents/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "ICIJ",
-    "source_url": "https://www.icij.org/investigations/china-capital/china-capital-stories-reveal-how-icbc-advanced-chinas-political-goals-across-four-continents/",
-    "source_title": "China Capital stories reveal how ICBC advanced China\u2019s political goals across four continents",
-    "source_summary": "ICIJ\u2019s media partners uncovered strategic deals and moves the Chinese bank made around the world to further the political priorities of the party-state.",
-    "drafted_at": "2026-09-30T22:29:44.782090",
-    "data": {
-      "source": "ICIJ"
-    },
-    "content_hash": "a12b87a5b294d89b"
-  },
-  {
-    "id": "cc407d6e",
+    "id": "cd5af3c4",
     "format": "CONGRESS_WATCH",
     "status": "pending",
-    "draft_text": "5 members of Congress bought $SPCX this year \u2014 and these filings don't show them selling:\n\n\u2022 Daniel Meuser (R)\n\u2022 Jared Moskowitz (D)\n\u2022 John McGuire (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Daniel Meuser, $15,001 - $50,000 on Jun 15.\n\nPrice since the first buy in this group: -7.6%.\n\nSTOCK Act disclosures. Public record.",
+    "draft_text": "5 members of Congress bought $SPCX this year \u2014 and these filings don't show them selling:\n\n\u2022 Daniel Meuser (R)\n\u2022 Jared Moskowitz (D)\n\u2022 John McGuire (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Daniel Meuser, $15,001 - $50,000 on Jun 15.\n\nPrice since the first buy in this group: -7.3%.\n\nSTOCK Act disclosures. Public record.",
     "image_path": "charts/congress/SPCX_cluster.png",
     "og_image_url": null,
     "primary_source": "STOCK Act PTR filings",
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034774.pdf",
     "source_title": "5 Congress members bought $SPCX",
     "source_summary": "5 politicians bought $SPCX; largest $15,001 - $50,000 by Daniel Meuser.",
-    "drafted_at": "2026-09-30T22:29:44.782750",
+    "drafted_at": "2026-10-01T00:54:25.954201",
     "data": {
       "ticker": "SPCX",
       "member_count": 5,
-      "pct_since_first": -7.623488353595116
+      "pct_since_first": -7.27554624237973
     },
     "content_hash": "51463ed55dda905c"
   },
   {
-    "id": "f3f2287c",
+    "id": "4823fe46",
     "format": "CONGRESS_WATCH",
     "status": "pending",
-    "draft_text": "3 members of Congress bought $BRK.B this year \u2014 and these filings don't show them selling:\n\n\u2022 Jerry Moran,\n\u2022 Maria Elvira Salazar (R)\n\u2022 Richard Dean Dr McCormick (R)\n\nLargest disclosed here: Jerry Moran,, $15,001 - $50,000 on Jun 23.\n\nPrice since the first buy in this group: +0.0%.\n\nSTOCK Act disclosures. Public record.\n\nhttps://efdsearch.senate.gov/search/view/ptr/cff197e2-b90b-4b53-b97d-eecf226a1980/",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "STOCK Act PTR filings",
-    "source_url": "https://efdsearch.senate.gov/search/view/ptr/cff197e2-b90b-4b53-b97d-eecf226a1980/",
-    "source_title": "3 Congress members bought $BRK.B",
-    "source_summary": "3 politicians bought $BRK.B; largest $15,001 - $50,000 by Jerry Moran,.",
-    "drafted_at": "2026-09-30T22:29:44.782979",
-    "data": {
-      "ticker": "BRK.B",
-      "member_count": 3,
-      "pct_since_first": 0
-    },
-    "content_hash": "6f888df9bec37d4e"
-  },
-  {
-    "id": "8ff94f34",
-    "format": "CONGRESS_WATCH",
-    "status": "pending",
-    "draft_text": "3 members of Congress bought $MU this year \u2014 and these filings don't show them selling:\n\n\u2022 Sheldon Whitehouse (D)\n\u2022 Michael Rulli (R)\n\u2022 Dan Newhouse (R)\n\nLargest disclosed here: Sheldon Whitehouse, $1,001 - $15,000 on Jun 25.\n\nPrice since the first buy in this group: -10.8%.\n\nSTOCK Act disclosures. Public record.",
-    "image_path": "charts/congress/MU_cluster.png",
-    "og_image_url": null,
-    "primary_source": "STOCK Act PTR filings",
-    "source_url": "https://efdsearch.senate.gov/search/view/ptr/5d9b1b8e-2ae1-442b-860c-e79b8a701dc6/",
-    "source_title": "3 Congress members bought $MU",
-    "source_summary": "3 politicians bought $MU; largest $1,001 - $15,000 by Sheldon Whitehouse.",
-    "drafted_at": "2026-09-30T22:29:44.783200",
-    "data": {
-      "ticker": "MU",
-      "member_count": 3,
-      "pct_since_first": -10.817761211505244
-    },
-    "content_hash": "78d90ba61af22eb7"
-  },
-  {
-    "id": "8ee08717",
-    "format": "CONGRESS_WATCH",
-    "status": "pending",
-    "draft_text": "3 members of Congress bought $ACN this year \u2014 and these filings don't show them selling:\n\n\u2022 Dan Newhouse (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Scott Scott Franklin (R)\n\nLargest disclosed here: Dan Newhouse, $1,001 - $15,000 on Jul 10.\n\nPrice since the first buy in this group: +30.2%.\n\nSTOCK Act disclosures. Public record.",
+    "draft_text": "3 members of Congress bought $ACN this year \u2014 and these filings don't show them selling:\n\n\u2022 Dan Newhouse (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Scott Scott Franklin (R)\n\nLargest disclosed here: Dan Newhouse, $1,001 - $15,000 on Jul 10.\n\nPrice since the first buy in this group: +31.0%.\n\nSTOCK Act disclosures. Public record.",
     "image_path": "charts/congress/ACN_cluster.png",
     "og_image_url": null,
     "primary_source": "STOCK Act PTR filings",
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf",
     "source_title": "3 Congress members bought $ACN",
     "source_summary": "3 politicians bought $ACN; largest $1,001 - $15,000 by Dan Newhouse.",
-    "drafted_at": "2026-09-30T22:29:44.783425",
+    "drafted_at": "2026-10-01T00:54:25.954434",
     "data": {
       "ticker": "ACN",
       "member_count": 3,
-      "pct_since_first": 30.22998312088791
+      "pct_since_first": 30.976854775658108
     },
     "content_hash": "917a09452eb9679c"
   },
   {
-    "id": "80f94345",
+    "id": "d08a348f",
     "format": "CONGRESS_WATCH",
     "status": "pending",
-    "draft_text": "3 members of Congress bought $NVDA this year \u2014 and these filings don't show them selling:\n\n\u2022 Michael Rulli (R)\n\u2022 Cleo Fields (D)\n\u2022 John J Mr McGuire (R)\n\nLargest disclosed here: Michael Rulli, $1,001 - $15,000 on Jun 25.\n\nPrice since the first buy in this group: +15.0%.\n\nSTOCK Act disclosures. Public record.",
+    "draft_text": "3 members of Congress bought $NVDA this year \u2014 and these filings don't show them selling:\n\n\u2022 Michael Rulli (R)\n\u2022 Cleo Fields (D)\n\u2022 John J Mr McGuire (R)\n\nLargest disclosed here: Michael Rulli, $1,001 - $15,000 on Jun 25.\n\nPrice since the first buy in this group: +16.1%.\n\nSTOCK Act disclosures. Public record.",
     "image_path": "charts/congress/NVDA_cluster.png",
     "og_image_url": null,
     "primary_source": "STOCK Act PTR filings",
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035147.pdf",
     "source_title": "3 Congress members bought $NVDA",
     "source_summary": "3 politicians bought $NVDA; largest $1,001 - $15,000 by Michael Rulli.",
-    "drafted_at": "2026-09-30T22:29:44.783642",
+    "drafted_at": "2026-10-01T00:54:25.954648",
     "data": {
       "ticker": "NVDA",
       "member_count": 3,
-      "pct_since_first": 14.984163179702678
+      "pct_since_first": 16.077449850588753
     },
     "content_hash": "d816bd0d170915c5"
   },
   {
-    "id": "88e51831",
-    "format": "GLOBAL_DESK",
+    "id": "4fe4ebdd",
+    "format": "CONGRESS_WATCH",
     "status": "pending",
-    "draft_text": "Canada/LatAm wire: 30, 2026 (GLOBE NEWSWIRE) -- Aerovias de Mexico, S.A. de C.V., a subsidiary of Grupo Aeromexico, S.A.B. de C.V. (Aeromexico), renewed and expanded its revolving syndicated credit facility to USD 250 million with a three-year term.\n\nThis transaction increases the original USD 200 million facility secured in November 2024 and significantly strengthens the company's financial position by protecting and enhancing its available liquidity.\n\nBBVA Mexico acted as Sole Global Coordinator, Sole Bookrunner, and Administrative Agent, structuring, syndicating, and increasing the financing, which received active participation from leading domestic and international financial institutions.\n\nThrough this agreement, Aeromexico not only secures robust support for its ordinary operations but also enhances its financial flexibility, enabling the company to allocate resources toward new strategic investments and the successful execution of its long-term business plan.\n\nhttps://www.globenewswire.com/news-release/2026/09/30/3372453/0/en/grupo-aeromexico-and-bbva-mexico-successfully-complete-the-renewal-and-expansion-of-a-usd-250-million-syndicated-credit-facility.html",
+    "draft_text": "3 members of Congress bought $APH this year \u2014 and these filings don't show them selling:\n\n\u2022 Rick Larsen (D)\n\u2022 Dan Newhouse (R)\n\u2022 Gilbert Cisneros (D)\n\nLargest disclosed here: Rick Larsen, $1,001 - $15,000 on Jul 08.\n\nPrice since the first buy in this group: +6.6%.\n\nSTOCK Act disclosures. Public record.\n\nhttps://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034977.pdf",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "GLOBENEWSWIRE",
-    "source_url": "https://www.globenewswire.com/news-release/2026/09/30/3372453/0/en/grupo-aeromexico-and-bbva-mexico-successfully-complete-the-renewal-and-expansion-of-a-usd-250-million-syndicated-credit-facility.html",
-    "source_title": "Grupo Aeromexico and BBVA Mexico Successfully Complete the Renewal and Expansion of a USD $250 Million Syndicated Credit Facility",
-    "source_summary": "MEXICO CITY, Sept. 30, 2026 (GLOBE NEWSWIRE) -- Aerovias de Mexico, S.A. de C.V., a subsidiary of Grupo Aeromexico, S.A.B. de C.V. (Aeromexico), renewed and expanded its revolving syndicated credit facility to USD 250 million with a three-year term. This transaction increases the original USD 200 million facility secured in November 2024 and significantly strengthens the company's financial positi",
-    "drafted_at": "2026-09-30T22:29:44.786620",
+    "primary_source": "STOCK Act PTR filings",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034977.pdf",
+    "source_title": "3 Congress members bought $APH",
+    "source_summary": "3 politicians bought $APH; largest $1,001 - $15,000 by Rick Larsen.",
+    "drafted_at": "2026-10-01T00:54:25.954836",
     "data": {
-      "source": "GLOBENEWSWIRE"
+      "ticker": "APH",
+      "member_count": 3,
+      "pct_since_first": 6.611042456312048
     },
-    "content_hash": "4350a1bf8afd48a4"
+    "content_hash": "bab6b0ee77d6754e"
   },
   {
-    "id": "216800f0",
-    "format": "GLOBAL_DESK",
+    "id": "23e341db",
+    "format": "CONGRESS_WATCH",
     "status": "pending",
-    "draft_text": "Cross-border read: In August, Pirojsha Godrej took on the mantle of chairperson of Godrej Industries Group.\n\nhttps://www.forbes.com/sites/gloriaharaito/2026/09/30/next-generation-drives-growth-at-indias-storied-godrej-industries-group/",
+    "draft_text": "3 members of Congress bought $AAPL this year \u2014 and these filings don't show them selling:\n\n\u2022 Gilbert Cisneros (D)\n\u2022 Ed Case (D)\n\u2022 Cleo Fields (D)\n\nLargest disclosed here: Gilbert Cisneros, $1,001 - $15,000 on Jun 05.\n\nPrice since the first buy in this group: +7.2%.\n\nSTOCK Act disclosures. Public record.\n\nhttps://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034906.pdf",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FORBES",
-    "source_url": "https://www.forbes.com/sites/gloriaharaito/2026/09/30/next-generation-drives-growth-at-indias-storied-godrej-industries-group/",
-    "source_title": "Next Generation Drives Growth At India\u2019s Storied Godrej Industries Group",
-    "source_summary": "In August, Pirojsha Godrej took on the mantle of chairperson of Godrej Industries Group.",
-    "drafted_at": "2026-09-30T22:29:44.787697",
+    "primary_source": "STOCK Act PTR filings",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034906.pdf",
+    "source_title": "3 Congress members bought $AAPL",
+    "source_summary": "3 politicians bought $AAPL; largest $1,001 - $15,000 by Gilbert Cisneros.",
+    "drafted_at": "2026-10-01T00:54:25.955024",
     "data": {
-      "source": "FORBES"
+      "ticker": "AAPL",
+      "member_count": 3,
+      "pct_since_first": 7.177717778827885
     },
-    "content_hash": "c3ef978b98216196"
+    "content_hash": "0079dbb829bc9c63"
   },
   {
-    "id": "33c76d92",
+    "id": "66e7ac8c",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "World wire: Krishna Chivukula debuts on India\u2019s 100 richest list at No.\n\n66 with a $4.4 billion fortune stemming from his 78% stake in Bangalore-based Indo-MIM.\n\nhttps://www.forbes.com/sites/anuraghunathan/2026/09/30/aerospace-engineer-behind-maker-of-precision-metal-parts-joins-the-ranks-of-indias-richest/",
+    "draft_text": "EUROPE DESK: As Russia expands the bombardment of Ukraine\u2019s civilian infrastructure, changes are taking place in the country's energy sector with implications for the United States and the future shape of European gas markets, writes Stephen Blank.\n\nThe post Ukraine can play a key role enabling US energy exports to Europe appeared first on Atlantic Council.\n\nhttps://www.atlanticcouncil.org/blogs/ukrainealert/ukraine-can-play-a-key-role-enabling-us-energy-exports-to-europe/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FORBES",
-    "source_url": "https://www.forbes.com/sites/anuraghunathan/2026/09/30/aerospace-engineer-behind-maker-of-precision-metal-parts-joins-the-ranks-of-indias-richest/",
-    "source_title": "Aerospace Engineer Behind Maker Of Precision Metal Parts Joins The Ranks Of India\u2019s Richest",
-    "source_summary": "Krishna Chivukula debuts on India\u2019s 100 richest list at No. 66 with a $4.4 billion fortune stemming from his 78% stake in Bangalore-based Indo-MIM.",
-    "drafted_at": "2026-09-30T22:29:44.787975",
+    "primary_source": "ATLANTIC CNCL",
+    "source_url": "https://www.atlanticcouncil.org/blogs/ukrainealert/ukraine-can-play-a-key-role-enabling-us-energy-exports-to-europe/",
+    "source_title": "Ukraine can play a key role enabling US energy exports to Europe",
+    "source_summary": "As Russia expands the bombardment of Ukraine\u2019s civilian infrastructure, changes are taking place in the country's energy sector with implications for the United States and the future shape of European gas markets, writes Stephen Blank. The post Ukraine can play a key role enabling US energy exports to Europe appeared first on Atlantic Council .",
+    "drafted_at": "2026-10-01T00:54:25.956379",
     "data": {
-      "source": "FORBES"
+      "source": "ATLANTIC CNCL"
     },
-    "content_hash": "496a9dbff2c8e489"
+    "content_hash": "d9136ce7bb821961"
   },
   {
-    "id": "a903151d",
+    "id": "76e3b6a5",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "World wire: With skittish investors driving down shares of Indian IT firms, billionaires whose fortunes are tied to the sector have all seen their net worths take a hit.\n\nhttps://www.forbes.com/sites/gloriaharaito/2026/09/30/ai-reckoning-weighs-on-fortunes-of-indias-tech-billionaires/",
+    "draft_text": "PACK BRIEFING \u2014 MIDDLE EAST: The reading is still well above the 50 line, so the story is slower growth rather than a downturn, but the drop to a six-month low in a sector reliant on overseas demand will keep attention on how long export strength can last.\n\nSharp cost increases tied to energy, transport and a weak yen, with the Middle East war cited by firms, show that oil and currency moves are still feeding straight into factory prices.\n\nPersistent selling price increases are also relevant to the Bank of Japan's assessment of inflation.\n\nReferences to semiconductors and AI-related demand will matter for Asian chip and technology shares, while shortages of electronic components are a risk to output.\n\nThis is a single survey, so traders will want confirmation from other activity data. --- Earlier: Japanese firms expect consumer prices to rise 2.6% a year from now, down from 2.7% BOJ opinions show members open to faster hikes if inflation risks overshooting 2% target --- Japanese factories are still expanding strongly, but slower orders, supply shortages and persistent cost pressure show that momentum is softening from August's high.\n\nSummary: The S&P Global Japan Manufacturing PMI slipped to 54.1 in September from 54.9 in August, its lowest in six months but still a solid expansion.\n\nOutput rose at the slowest pace in three months, and new order growth eased from August's multi-year record to its slowest since May.\n\nNew export orders rose sharply, close to August's eight-and-a-half-year high, and employment rose at the second-fastest rate since April 2018.\n\nhttps://investinglive.com/news/japan-manufacturing-pmi-slips-to-54-1-a-six-month-low-as-new-order-growth-slows/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FORBES",
-    "source_url": "https://www.forbes.com/sites/gloriaharaito/2026/09/30/ai-reckoning-weighs-on-fortunes-of-indias-tech-billionaires/",
-    "source_title": "AI Reckoning Weighs On Fortunes Of India\u2019s Tech Billionaires",
-    "source_summary": "With skittish investors driving down shares of Indian IT firms, billionaires whose fortunes are tied to the sector have all seen their net worths take a hit.",
-    "drafted_at": "2026-09-30T22:29:44.788250",
+    "primary_source": "FOREXLIVE",
+    "source_url": "https://investinglive.com/news/japan-manufacturing-pmi-slips-to-54-1-a-six-month-low-as-new-order-growth-slows/",
+    "source_title": "Japan manufacturing PMI slips to 54.1, a six-month low, as new order growth slows",
+    "source_summary": "The reading is still well above the 50 line, so the story is slower growth rather than a downturn, but the drop to a six-month low in a sector reliant on overseas demand will keep attention on how long export strength can last. Sharp cost increases tied to energy, transport and a weak yen, with the Middle East war cited by firms, show that oil and currency moves are still feeding straight into fac",
+    "drafted_at": "2026-10-01T00:54:25.958715",
     "data": {
-      "source": "FORBES"
+      "source": "FOREXLIVE"
     },
-    "content_hash": "3d23004ffd82d178"
+    "content_hash": "9d2c8b072980dd43"
   },
   {
-    "id": "93fe1f5d",
+    "id": "2f5ba822",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "World wire: The race to make India a data center hub geared up this year as Gautam Adani and Mukesh Ambani made multibillion-dollar pledges to support a nationwide buildout.\n\nhttps://www.forbes.com/sites/yessarrosendar/2026/09/30/the-billionaires-backing-indias-massive-ai-infrastructure-buildout/",
+    "draft_text": "PACK BRIEFING \u2014 CHINA: China's AI regulations may set a global precedent, influencing how nations balance technological innovation with mental health safeguards.\n\nThe post China enacts strict regulations on AI relationships to curb emotional dependency appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/china-regulates-ai-companion-relationships/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FORBES",
-    "source_url": "https://www.forbes.com/sites/yessarrosendar/2026/09/30/the-billionaires-backing-indias-massive-ai-infrastructure-buildout/",
-    "source_title": "The Billionaires Backing India\u2019s Massive AI Infrastructure Buildout",
-    "source_summary": "The race to make India a data center hub geared up this year as Gautam Adani and Mukesh Ambani made multibillion-dollar pledges to support a nationwide buildout.",
-    "drafted_at": "2026-09-30T22:29:44.788490",
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/china-regulates-ai-companion-relationships/",
+    "source_title": "China enacts strict regulations on AI relationships to curb emotional dependency",
+    "source_summary": "China's AI regulations may set a global precedent, influencing how nations balance technological innovation with mental health safeguards. The post China enacts strict regulations on AI relationships to curb emotional dependency appeared first on Crypto Briefing .",
+    "drafted_at": "2026-10-01T00:54:25.959222",
     "data": {
-      "source": "FORBES"
+      "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "c242681bf9282845"
+    "content_hash": "9e86ac9dde37c0df"
   },
   {
-    "id": "5a39e128",
+    "id": "5e1b9814",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "From Tokyo to Hong Kong: JPY 11.4 billion investment establishes strategic partnership around Pet World International and accelerates Umios\u2019s Asia strategy TOKYO & KUALA LUMPUR, Malaysia \u2014 Umios Corporation (TOKYO Prime: 1333; formerly Maruha Nichiro) and Wah Kong Corporation have completed the establishment of a strategic joint venture centered on Pet World International Sdn.\n\nBhd. (\u201cPWI\u201d), one of Malaysia\u2019s leading [\u2026]\n\nhttps://financialpost.com/pmn/business-wire-news-releases-pmn/umios-and-wah-kong-complete-strategic-pet-food-joint-venture-in-southeast-asia-japan-corporate-advisory-institute-advised-on-the-transaction",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FINANCIAL POST",
+    "source_url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/umios-and-wah-kong-complete-strategic-pet-food-joint-venture-in-southeast-asia-japan-corporate-advisory-institute-advised-on-the-transaction",
+    "source_title": "Umios and Wah Kong Complete Strategic Pet Food Joint Venture in Southeast Asia; Japan Corporate Advisory Institute Advised on the Transaction",
+    "source_summary": "JPY 11.4 billion investment establishes strategic partnership around Pet World International and accelerates Umios\u2019s Asia strategy TOKYO & KUALA LUMPUR, Malaysia \u2014 Umios Corporation (TOKYO Prime: 1333; formerly Maruha Nichiro) and Wah Kong Corporation have completed the establishment of a strategic joint venture centered on Pet World International Sdn. Bhd. (\u201cPWI\u201d), one of Malaysia\u2019s leading [\u2026]",
+    "drafted_at": "2026-10-01T00:54:25.959841",
+    "data": {
+      "source": "FINANCIAL POST"
+    },
+    "content_hash": "19d4b3d19cacb39d"
+  },
+  {
+    "id": "84c74f30",
+    "format": "GLOBAL_DESK",
+    "status": "pending",
+    "draft_text": "Asia overnight: The Bank of Japan (BoJ) published the Summary of Opinions from the September monetary policy meeting, with the key findings noted below.\n\nhttps://www.fxstreet.com/news/boj-summary-of-opinions-member-says-appropriate-to-keep-raising-rates-in-line-with-economy-price-202610010002",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FXSTREET",
+    "source_url": "https://www.fxstreet.com/news/boj-summary-of-opinions-member-says-appropriate-to-keep-raising-rates-in-line-with-economy-price-202610010002",
+    "source_title": "BoJ Summary of Opinions: Member says appropriate to keep raising rates in line with economy, price",
+    "source_summary": "The Bank of Japan (BoJ) published the Summary of Opinions from the September monetary policy meeting, with the key findings noted below.",
+    "drafted_at": "2026-10-01T00:54:25.960090",
+    "data": {
+      "source": "FXSTREET"
+    },
+    "content_hash": "3ec3a175dfba4ad1"
+  },
+  {
+    "id": "0099ab31",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "How sticky is inflation? Let's see: Softer inflation gave markets some breathing room early Wednesday.\n\nBut by the end of the session, Treasury yields were higher, the dollar had strengthened against most major currencies, and the stock market\u2019s gains were concentrated in the Nasdaq indices.\n\nAugust PCE inflation came in below expectations, second-quarter growth was revised higher, and a larger goods trade deficit contributed to a sharp downgrade in the Atlanta Fed\u2019s third-quarter growth estimate.\n\nFor traders, the message was that the Fed has room to wait, but inflation and growth risks have not disappeared.\n\nDollar gains against most major currencies The dollar finished the supplied late-session snapshot higher against six of the seven major currencies.\n\nIts biggest gain came against the Australian dollar.\n\nSterling was the exception, rising 0.26% against the greenback.\n\nThe dollar\u2019s recovery shows that the initial reaction to softer inflation did not define the entire session.\n\nhttps://investinglive.com/news/investinglive-americas-fx-news-wrap-30-sept-softer-pce-fails-to-hold-yields-down-dow-ends-september-at-june-lows/",
@@ -572,14 +572,14 @@
     "source_url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-30-sept-softer-pce-fails-to-hold-yields-down-dow-ends-september-at-june-lows/",
     "source_title": "investingLive Americas FX news wrap 30 Sept: Softer PCE fails to hold yields down; Dow ends September at June lows",
     "source_summary": "Softer inflation gave markets some breathing room early Wednesday. But by the end of the session, Treasury yields were higher, the dollar had strengthened against most major currencies, and the stock market\u2019s gains were concentrated in the Nasdaq indices. The economic picture was mixed. August PCE inflation came in below expectations, second-quarter growth was revised higher, and a larger goods tr",
-    "drafted_at": "2026-09-30T22:29:44.834572",
+    "drafted_at": "2026-10-01T00:54:26.005002",
     "data": {
       "source": "FOREXLIVE"
     },
     "content_hash": "b878dc3c228a30f4"
   },
   {
-    "id": "11df03f2",
+    "id": "6ed944ec",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "The CPI scoreboard: InvestorPlace - Stock Market News, Stock Advice & Trading Tips PCE inflation comes in cooler than expected\u2026 why tonight's Micron print is important\u2026 the AI \"security tax\" that could be a tailwind\u2026 Eric Fry's safer way to play the boom The post AI\u2019s $204 Billion \u201cSecurity\u201d Tax appeared first on InvestorPlace.\n\nhttps://investorplace.com/2026/09/ais-204-billion-security-tax/",
@@ -589,31 +589,14 @@
     "source_url": "https://investorplace.com/2026/09/ais-204-billion-security-tax/",
     "source_title": "AI\u2019s $204 Billion \u201cSecurity\u201d Tax",
     "source_summary": "InvestorPlace - Stock Market News, Stock Advice & Trading Tips PCE inflation comes in cooler than expected\u2026 why tonight's Micron print is important\u2026 the AI \"security tax\" that could be a tailwind\u2026 Eric Fry's safer way to play the boom The post AI\u2019s $204 Billion \u201cSecurity\u201d Tax appeared first on InvestorPlace .",
-    "drafted_at": "2026-09-30T22:29:44.834954",
+    "drafted_at": "2026-10-01T00:54:26.005360",
     "data": {
       "source": "INVESTORPLACE"
     },
     "content_hash": "335e5ff077827a4a"
   },
   {
-    "id": "2f1983e7",
-    "format": "DATA_DROP",
-    "status": "pending",
-    "draft_text": "From the unemployment desk: The US Dollar (USD) has traded with marginal gains, coming under pressure following daily tops near 101.50 as investors evaluated softer-than-expected PCE data in August and trimmed some bets on extra tightening by the Federal Reserve (Fed) in the following months.\n\nhttps://www.fxstreet.com/news/forex-today-fedspeak-claims-and-the-ism-data-steal-the-show-202609301830",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/forex-today-fedspeak-claims-and-the-ism-data-steal-the-show-202609301830",
-    "source_title": "Forex Today: Fedspeak, Jobless Claims and ISM data steal the show",
-    "source_summary": "The US Dollar (USD) has traded with marginal gains, coming under pressure following daily tops near 101.50 as investors evaluated softer-than-expected PCE data in August and trimmed some bets on extra tightening by the Federal Reserve (Fed) in the following months.",
-    "drafted_at": "2026-09-30T22:29:44.835219",
-    "data": {
-      "source": "FXSTREET"
-    },
-    "content_hash": "d1c9a3809fca4b9c"
-  },
-  {
-    "id": "3e4afaee",
+    "id": "322e3dc4",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "From the data desk: BTC slipped back below $84,000 after briefly topping $85,000 following August PCE data, while oil recovered and gold eased.\n\nThe post Bitcoin fails to sustain $85,000 breakout, and bond yield spikes are blamed appeared first on CryptoSlate.\n\nhttps://cryptoslate.com/bitcoin-fails-to-sustain-85000-breakout-and-bond-yield-spikes-are-blamed/",
@@ -623,14 +606,14 @@
     "source_url": "https://cryptoslate.com/bitcoin-fails-to-sustain-85000-breakout-and-bond-yield-spikes-are-blamed/",
     "source_title": "Bitcoin fails to sustain $85,000 breakout, and bond yield spikes are blamed",
     "source_summary": "BTC slipped back below $84,000 after briefly topping $85,000 following August PCE data, while oil recovered and gold eased. The post Bitcoin fails to sustain $85,000 breakout, and bond yield spikes are blamed appeared first on CryptoSlate .",
-    "drafted_at": "2026-09-30T22:29:44.835503",
+    "drafted_at": "2026-10-01T00:54:26.005638",
     "data": {
       "source": "CRYPTOSLATE"
     },
     "content_hash": "90297be5ac564a65"
   },
   {
-    "id": "e4c60239",
+    "id": "078beeda",
     "format": "DATA_DROP",
     "status": "pending",
     "draft_text": "DATA DROP: Core PCE rose just 0.2% in August, easing pressure for an October Fed hike.\n\nBitcoin trades near $83,700 as rising Treasury yields cap gains.\n\nhttps://www.theblock.co/news/markets/2026-09-30-bitcoin-pce-inflation-october-rate-hike-417335",
@@ -640,14 +623,31 @@
     "source_url": "https://www.theblock.co/news/markets/2026-09-30-bitcoin-pce-inflation-october-rate-hike-417335",
     "source_title": "Bitcoin steadies as soft PCE cools October Fed rate hike bets",
     "source_summary": "Core PCE rose just 0.2% in August, easing pressure for an October Fed hike. Bitcoin trades near $83,700 as rising Treasury yields cap gains.",
-    "drafted_at": "2026-09-30T22:29:44.835684",
+    "drafted_at": "2026-10-01T00:54:26.005819",
     "data": {
       "source": "THE BLOCK"
     },
     "content_hash": "be991108e47f1aa8"
   },
   {
-    "id": "931a1c88",
+    "id": "b886c4a0",
+    "format": "DATA_DROP",
+    "status": "pending",
+    "draft_text": "How sticky is inflation? Let's see: Separately, second-quarter GDP data \u2013 the broadest measure of the economy\u2019s health \u2013 showed that the US economy grew at a solid clip, driven \u2060by robust consumer spending and business investment related to the buildout of AI infrastructure.\n\nThe Federal Reserve is under pressure to cut rates from the White House after raising them earlier this month for the first time since 2023.\n\nGood economic news boosted Wall Street\u2019s main indexes on Wednesday, as a softer-than-anticipated inflation reading buoyed up hopes that the Federal Reserve might not hike rates as soon \u2060as next month.\n\nA commerce department report \u2060showed the personal consumption expenditures (PCE) \u200bprice index stood at 3.4% on an annual basis in August against estimates of 3.7%, per economists polled by Reuters.\n\nhttps://www.theguardian.com/business/2026/sep/30/inflation-report-interest-rates-fed",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "GUARDIAN",
+    "source_url": "https://www.theguardian.com/business/2026/sep/30/inflation-report-interest-rates-fed",
+    "source_title": "Good news in US inflation report boosts chances Fed won\u2019t hike rates",
+    "source_summary": "Traders see about a 35% chance of an October rate hike, down from \u200babout 45% following White House pressure Good economic news boosted Wall Street\u2019s main indexes on Wednesday, as a softer-than-anticipated inflation reading buoyed up hopes that the Federal Reserve might not hike rates as soon \u2060as next month. A commerce department report \u2060showed the personal consumption expenditures (PCE) \u200bprice ind",
+    "drafted_at": "2026-10-01T00:54:26.006961",
+    "data": {
+      "source": "GUARDIAN"
+    },
+    "content_hash": "05aa7a5891817c2b"
+  },
+  {
+    "id": "0d830c73",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -657,7 +657,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-09-30T22:29:44.842144",
+    "drafted_at": "2026-10-01T00:54:26.009869",
     "data": {
       "manual": true,
       "via": "manual_news.md"
