@@ -1,23 +1,61 @@
 [
   {
-    "id": "4404cf5e",
+    "id": "0d72a195",
     "format": "LOUD_HOWL",
     "status": "pending",
-    "draft_text": "Here is what you need to know on Friday, October 2.\n\nhttps://www.fxstreet.com/news/forex-today-us-dollar-consolidates-weekly-gains-ahead-of-critical-nonfarm-payrolls-data-202610020714",
+    "draft_text": "EXCLUSIVE: OPEC+ delays oil capacity review after Iran war disrupts expansion plans, sources say Reuters\n\nhttps://news.google.com/rss/articles/CBMiywFBVV95cUxQT2J4Zm9OdTE5aTNUN1dqemFJaWxyamJKSXQ2WGpLeWhLMkgxbkVPU01vS2hVbXd5WEFhMDh5a21lcVNacXUyV0M5cEljbkJfRUdkcHJ0YTNBQVpHRENNRVVfZzQ3S3lwT3F0eUJNUmF5OGpXN1BKbG9Jc28tRGdZM0xVZFhMcFhTTktYbnVWQThvSXRjZ250enQ0Y1N2RHBSTTFZRkY5U2RJQ3Q0Zmk1X19yRDlrQ0phaUlkSDg2V3dTSXg2VzBqc2tacw?oc=5",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/forex-today-us-dollar-consolidates-weekly-gains-ahead-of-critical-nonfarm-payrolls-data-202610020714",
-    "source_title": "Forex Today: US Dollar consolidates weekly gains ahead of critical Nonfarm Payrolls data",
-    "source_summary": "Here is what you need to know on Friday, October 2:",
-    "drafted_at": "2026-10-02T07:41:42.177460",
+    "primary_source": "REUTERS",
+    "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQT2J4Zm9OdTE5aTNUN1dqemFJaWxyamJKSXQ2WGpLeWhLMkgxbkVPU01vS2hVbXd5WEFhMDh5a21lcVNacXUyV0M5cEljbkJfRUdkcHJ0YTNBQVpHRENNRVVfZzQ3S3lwT3F0eUJNUmF5OGpXN1BKbG9Jc28tRGdZM0xVZFhMcFhTTktYbnVWQThvSXRjZ250enQ0Y1N2RHBSTTFZRkY5U2RJQ3Q0Zmk1X19yRDlrQ0phaUlkSDg2V3dTSXg2VzBqc2tacw?oc=5",
+    "source_title": "EXCLUSIVE: OPEC+ delays oil capacity review after Iran war disrupts expansion plans, sources say",
+    "source_summary": "EXCLUSIVE: OPEC+ delays oil capacity review after Iran war disrupts expansion plans, sources say Reuters",
+    "drafted_at": "2026-10-02T14:16:43.230030",
     "data": {
-      "source": "FXSTREET"
+      "source": "REUTERS"
     },
-    "content_hash": "378c4784fd4de180"
+    "content_hash": "458d8ea530e9d87c"
   },
   {
-    "id": "2b8ec617",
+    "id": "9764ede5",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Real-time update for the pack: Nasdaq just hit 27,317.31 \u2014 highest in 9+ years.\n\nTech-heavy index.\n\nLeads risk appetite and is most sensitive to rate moves.\n\nMulti-year high. The pack remembers what comes after these.\n\nhttps://finance.yahoo.com/quote/%5EIXIC",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "Yahoo Finance \u00b7 ^IXIC",
+    "source_url": "https://finance.yahoo.com/quote/%5EIXIC",
+    "source_title": "Nasdaq Composite",
+    "source_summary": "Tech-heavy index. Leads risk appetite and is most sensitive to rate moves.",
+    "drafted_at": "2026-10-02T14:16:43.230412",
+    "data": {
+      "signal_id": "^IXIC:high:2026-10-02",
+      "kind": "high",
+      "current": "27,317.31"
+    },
+    "content_hash": "ce08e8b71b40219b"
+  },
+  {
+    "id": "04fe1965",
+    "format": "MARKET_MOVE",
+    "status": "pending",
+    "draft_text": "Pop quiz \u2014 when's the last time you saw this? WTI crude drops 5.8% in 5 sessions to $89.08.\n\nFront-month WTI is the live oil market.\n\nInflation, energy stocks, and airline P&L all key off this.\n\nSharpest drop on this tape in a while. Stay nimble.\n\nhttps://finance.yahoo.com/quote/CL%3DF",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "NYMEX \u00b7 CL=F",
+    "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+    "source_title": "WTI crude oil futures",
+    "source_summary": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
+    "drafted_at": "2026-10-02T14:16:43.230746",
+    "data": {
+      "signal_id": "CL=F:move:2026-10-02",
+      "kind": "move_down",
+      "current": "$89.08"
+    },
+    "content_hash": "c272de0720a2f459"
+  },
+  {
+    "id": "4a78dd9f",
     "format": "MARKET_MOVE",
     "status": "pending",
     "draft_text": "Don't sleep on this. VIX surges 14.1% in 5 sessions to 16.21.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
@@ -27,7 +65,7 @@
     "source_url": "https://finance.yahoo.com/quote/%5EVIX",
     "source_title": "VIX (S&P 500 volatility)",
     "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-10-02T07:41:42.177755",
+    "drafted_at": "2026-10-02T14:16:43.230981",
     "data": {
       "signal_id": "^VIX:move:2026-10-02",
       "kind": "move_up",
@@ -36,43 +74,24 @@
     "content_hash": "995f4d67e7e875d2"
   },
   {
-    "id": "74bf9d67",
-    "format": "MARKET_MOVE",
-    "status": "pending",
-    "draft_text": "Sniff this. VIX surges 12.8% in 5 sessions to 16.77.\n\nThe market's fear gauge.\n\nAbove 30 signals stress, above 40 is panic, below 12 is complacency.\n\nSharpest move on this tape in a while. Stay sharp.\n\nhttps://finance.yahoo.com/quote/%5EVIX",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "CBOE \u00b7 ^VIX",
-    "source_url": "https://finance.yahoo.com/quote/%5EVIX",
-    "source_title": "VIX (S&P 500 volatility)",
-    "source_summary": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
-    "drafted_at": "2026-10-02T07:41:42.177994",
-    "data": {
-      "signal_id": "^VIX:move:2026-10-01",
-      "kind": "move_up",
-      "current": "16.77"
-    },
-    "content_hash": "995f4d67e7e875d2"
-  },
-  {
-    "id": "773e6e6e",
+    "id": "f8587f34",
     "format": "POLICY_READ",
     "status": "pending",
-    "draft_text": "Powell on the wire. Jim Cramer said the impact of higher interest rates is his big fear for the stock market right now.\n\nThe Mad Money host raised the concern about 2 weeks after the Federal Reserve resumed hiking.\n\nHis warning came during a Thursday review of the third quarter, when software stocks rebounded and chip names cooled.\n\nHe The post Your Stocks Could Feel the Fed's Rate Hike Next, Jim Cramer Warns appeared first on BeInCrypto.\n\nhttps://beincrypto.com/jim-cramer-interest-rates-stock-market-fear/",
+    "draft_text": "From Frankfurt: Standard Chartered Global Research team discusses Euro area monetary policy, noting that core inflation has only edged up slightly since January and that higher yields pose downside risks to both growth and inflation.\n\nThe authors judge that these factors reduce the chances of an October rate hike and expect the Governing Council to wait for new macroeconomic projections at the December policy meeting.\n\nhttps://www.fxstreet.com/news/euro-october-ecb-hike-odds-seen-limited-standard-chartered-202610021302",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://beincrypto.com/jim-cramer-interest-rates-stock-market-fear/",
-    "source_title": "Your Stocks Could Feel the Fed's Rate Hike Next, Jim Cramer Warns",
-    "source_summary": "Jim Cramer said the impact of higher interest rates is his big fear for the stock market right now. The Mad Money host raised the concern about 2 weeks after the Federal Reserve resumed hiking. His warning came during a Thursday review of the third quarter, when software stocks rebounded and chip names cooled. He The post Your Stocks Could Feel the Fed's Rate Hike Next, Jim Cramer Warns appeared f",
-    "drafted_at": "2026-10-02T07:41:42.188907",
+    "primary_source": "ECB",
+    "source_url": "https://www.fxstreet.com/news/euro-october-ecb-hike-odds-seen-limited-standard-chartered-202610021302",
+    "source_title": "Euro: October ECB hike odds seen limited \u2013 Standard Chartered",
+    "source_summary": "Standard Chartered Global Research team discusses Euro area monetary policy, noting that core inflation has only edged up slightly since January and that higher yields pose downside risks to both growth and inflation. The authors judge that these factors reduce the chances of an October rate hike and expect the Governing Council to wait for new macroeconomic projections at the December policy meet",
+    "drafted_at": "2026-10-02T14:16:43.241753",
     "data": {
-      "actor": "Fed"
+      "actor": "ECB"
     },
-    "content_hash": "47eb0291040aa50d"
+    "content_hash": "f382256c174e2c77"
   },
   {
-    "id": "316685cc",
+    "id": "f6c57a84",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Powell on the wire. The Federal Reserve is no longer projected to hike interest rates at the next FOMC meeting later this\u2026.\n\nhttps://watcher.guru/news/polymarket-federal-reserve-no-longer-projected-to-hike-interest-rates-this-month",
@@ -82,31 +101,14 @@
     "source_url": "https://watcher.guru/news/polymarket-federal-reserve-no-longer-projected-to-hike-interest-rates-this-month",
     "source_title": "Polymarket No Longer Projects Fed Reserve to Hike Interest Rates",
     "source_summary": "The Federal Reserve is no longer projected to hike interest rates at the next FOMC meeting later this\u2026",
-    "drafted_at": "2026-10-02T07:41:42.189135",
+    "drafted_at": "2026-10-02T14:16:43.241999",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "4dfcbffcd0dfce68"
   },
   {
-    "id": "4b400202",
-    "format": "POLICY_READ",
-    "status": "pending",
-    "draft_text": "The Fed just spoke. Here's what matters: Peter Navarro, RealClearMarkets The latest Trumpnomics data just ran over the Federal Reserve's rate-hike karma.\n\nCore inflation came in below expectations....\n\nhttps://www.realclearmarkets.com/2026/10/01/the_feds_case_for_next_rate_hike_just_got_weaker_1209104.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "Fed",
-    "source_url": "https://www.realclearmarkets.com/2026/10/01/the_feds_case_for_next_rate_hike_just_got_weaker_1209104.html",
-    "source_title": "The Fed's Case For Next Rate Hike Just Got Weaker",
-    "source_summary": "Peter Navarro, RealClearMarkets The latest Trumpnomics data just ran over the Federal Reserve's rate-hike karma. Growth was revised sharply upward. Core inflation came in below expectations....",
-    "drafted_at": "2026-10-02T07:41:42.189434",
-    "data": {
-      "actor": "Fed"
-    },
-    "content_hash": "e05514d20cbfbc84"
-  },
-  {
-    "id": "6b889522",
+    "id": "a480e7b8",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "From the Eccles Building: Separately, second-quarter GDP data \u2013 the broadest measure of the economy\u2019s health \u2013 showed that the US economy grew at a solid clip, driven \u2060by robust consumer spending and business investment related to the buildout of AI infrastructure.\n\nThe Federal Reserve is under pressure to cut rates from the White House after raising them earlier this month for the first time since 2023.\n\nGood economic news boosted Wall Street\u2019s main indexes on Wednesday, as a softer-than-anticipated inflation reading buoyed up hopes that the Federal Reserve might not hike rates as soon \u2060as next month.\n\nA commerce department report \u2060showed the personal consumption expenditures (PCE) \u200bprice index stood at 3.4% on an annual basis in August against estimates of 3.7%, per economists polled by Reuters.\n\nhttps://www.theguardian.com/business/2026/sep/30/inflation-report-interest-rates-fed",
@@ -116,14 +118,14 @@
     "source_url": "https://www.theguardian.com/business/2026/sep/30/inflation-report-interest-rates-fed",
     "source_title": "Good news in US inflation report boosts chances Fed won\u2019t hike rates",
     "source_summary": "Traders see about a 35% chance of an October rate hike, down from \u200babout 45% following White House pressure Good economic news boosted Wall Street\u2019s main indexes on Wednesday, as a softer-than-anticipated inflation reading buoyed up hopes that the Federal Reserve might not hike rates as soon \u2060as next month. A commerce department report \u2060showed the personal consumption expenditures (PCE) \u200bprice ind",
-    "drafted_at": "2026-10-02T07:41:42.190851",
+    "drafted_at": "2026-10-02T14:16:43.243431",
     "data": {
       "actor": "Fed"
     },
     "content_hash": "05aa7a5891817c2b"
   },
   {
-    "id": "2a2d6641",
+    "id": "6f514ebc",
     "format": "POLICY_READ",
     "status": "pending",
     "draft_text": "Powell on the wire. Together, the changes are likely to reduce year-over-year volatility in capital requirements by approximately 50 percent and are not expected to materially affect aggregate capital requirements.\n\nThe Board conducts stress tests to ensure that large banks are sufficiently capitalized and able to lend to households and businesses even in a severe recession.\n\nIn December 2024, the Board announced it would modify the test to improve its resilience.\n\n\"The stress test is an essential component of our regulatory capital framework,\" said Vice Chair for Supervision Michelle W.\n\nBowman.\n\n\"Today's changes preserve its resilience by ensuring that it is transparent, granular, and risk-sensitive.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm",
@@ -133,14 +135,31 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm",
     "source_title": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
     "source_summary": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
-    "drafted_at": "2026-10-02T07:41:42.192626",
+    "drafted_at": "2026-10-02T14:16:43.245232",
     "data": {
       "actor": "FED"
     },
     "content_hash": "3a286ad31143a82d"
   },
   {
-    "id": "67a541c5",
+    "id": "12a9fced",
+    "format": "POLICY_READ",
+    "status": "pending",
+    "draft_text": "POLICY READ: The agencies conducted a joint review of the 2025 resolution plan submissions from 15 banking organizations with over $250 billion in assets.\n\nResolution plans, also known as living wills, describe a banking organization's strategy for orderly resolution in the event of material financial distress or failure.\n\nIn addition, the agencies determined that the shortcoming previously identified in the 2021 BNP Paribas resolution plan has been satisfactorily addressed.\n\nhttps://www.federalreserve.gov/newsevents/pressreleases/bcreg20260929a.htm",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "FED",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260929a.htm",
+    "source_title": "Agencies publish resolution plan feedback letters for 15 banking organizations",
+    "source_summary": "Agencies publish resolution plan feedback letters for 15 banking organizations",
+    "drafted_at": "2026-10-02T14:16:43.245903",
+    "data": {
+      "actor": "FED"
+    },
+    "content_hash": "3669122a1dcef914"
+  },
+  {
+    "id": "b13217af",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$BORR \u2014 3 company insiders bought $14.1M on Sep 18.\n\nBorr Drilling Ltd. 3,370,500 shares at $4.19.\n\nStock is -7.2% since the purchase. This is a public SEC Form 4 filing.",
@@ -150,7 +169,7 @@
     "source_url": "http://openinsider.com/screener?s=BORR",
     "source_title": "Borr Drilling Ltd (BORR) insider bought $14.1M",
     "source_summary": "3 insider(s) bought 3,370,500 shares at $4.19 on 2026-09-18.",
-    "drafted_at": "2026-10-02T07:41:42.195449",
+    "drafted_at": "2026-10-02T14:16:43.248064",
     "data": {
       "ticker": "BORR",
       "type": "P",
@@ -160,7 +179,7 @@
     "content_hash": "678e1d577f15339f"
   },
   {
-    "id": "a30fb2ab",
+    "id": "291502d3",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$HELP \u2014 4 company insiders bought $6.3M on Sep 29.\n\nHelus Pharma Inc. 503,000 shares at $12.58.\n\nStock is -2.3% since the purchase. This is a public SEC Form 4 filing.",
@@ -170,7 +189,7 @@
     "source_url": "http://openinsider.com/screener?s=HELP",
     "source_title": "Helus Pharma Inc. (HELP) insider bought $6.3M",
     "source_summary": "4 insider(s) bought 503,000 shares at $12.58 on 2026-09-29.",
-    "drafted_at": "2026-10-02T07:41:42.195649",
+    "drafted_at": "2026-10-02T14:16:43.248293",
     "data": {
       "ticker": "HELP",
       "type": "P",
@@ -180,7 +199,7 @@
     "content_hash": "6ff9926f2ec025ab"
   },
   {
-    "id": "29f5703b",
+    "id": "3abbd8ec",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$ADC \u2014 3 company insiders bought $4.1M on Sep 21.\n\nAgree Realty Corp. 58,496 shares at $70.82.\n\nStock is -5.7% since the purchase. This is a public SEC Form 4 filing.",
@@ -190,7 +209,7 @@
     "source_url": "http://openinsider.com/screener?s=ADC",
     "source_title": "Agree Realty Corp (ADC) insider bought $4.1M",
     "source_summary": "3 insider(s) bought 58,496 shares at $70.82 on 2026-09-21.",
-    "drafted_at": "2026-10-02T07:41:42.195838",
+    "drafted_at": "2026-10-02T14:16:43.248494",
     "data": {
       "ticker": "ADC",
       "type": "P",
@@ -200,7 +219,7 @@
     "content_hash": "89dafe326accfd4f"
   },
   {
-    "id": "174cdfab",
+    "id": "c734a749",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$SLBT \u2014 a company insider bought $2147.5M on Sep 29.\n\nSl Science Holding Ltd. 4,545,306 shares at $2,272,650.00.\n\nStock is -100.0% since the purchase. This is a public SEC Form 4 filing.",
@@ -210,7 +229,7 @@
     "source_url": "http://openinsider.com/screener?s=SLBT",
     "source_title": "Sl Science Holding Ltd (SLBT) insider bought $2147.5M",
     "source_summary": "1 insider(s) bought 4,545,306 shares at $2,272,650.00 on 2026-09-29.",
-    "drafted_at": "2026-10-02T07:41:42.196038",
+    "drafted_at": "2026-10-02T14:16:43.248704",
     "data": {
       "ticker": "SLBT",
       "type": "P",
@@ -220,7 +239,7 @@
     "content_hash": "90cf91bb16131322"
   },
   {
-    "id": "7eb94f2b",
+    "id": "4f971782",
     "format": "CORRUPTION_WATCH_INSIDER",
     "status": "pending",
     "draft_text": "$PAM \u2014 2 company insiders bought $10.8M on Sep 25.\n\nPampa Energy Inc. 2,649,925 shares at $4.08.\n\nStock is +1765.0% since the purchase. This is a public SEC Form 4 filing.",
@@ -230,7 +249,7 @@
     "source_url": "http://openinsider.com/screener?s=PAM",
     "source_title": "Pampa Energy Inc. (PAM) insider bought $10.8M",
     "source_summary": "2 insider(s) bought 2,649,925 shares at $4.08 on 2026-09-25.",
-    "drafted_at": "2026-10-02T07:41:42.196225",
+    "drafted_at": "2026-10-02T14:16:43.248903",
     "data": {
       "ticker": "PAM",
       "type": "P",
@@ -240,75 +259,75 @@
     "content_hash": "e8a84b4ee6499ea8"
   },
   {
-    "id": "424308e2",
+    "id": "0efc464a",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "In mid-September, the benchmark BIST 100 index plummeted by 6% in a single day and lost about 12% within just a few trading days.\n\nTwo Tera funds alone held assets totaling around \u20ac6.5 billion ($6.37 billion).\n\nNearly half a million investors are affected, arrests have been made, and a female politician from the ruling party has resigned.\n\nhttps://www.dw.com/en/turkey-s-stock-market-scandal-affects-nearly-half-a-million-investors-police-have-made-several-arrests-and-an-akp-politician-has-resigned/a-79494710?maca=en-rss-en-bus-2091-rdf",
+    "draft_text": "2, 2026 /PRNewswire/ -- Berger Montague PC, a leading national plaintiffs' law firm, announces a class action lawsuit against Hyliion Holdings Corp. (NYSE: HYLN) (\"Hyliion\" or the \"Company\") on behalf of investors who purchased or acquired Hyliion securities during the...\n\nhttps://www.prnewswire.com/news-releases/nyse-hyln-investor-alert-berger-montague-advises-hyliion-holdings-corp-nyse-hyln-investors-of-an-october-27-2026-deadline-302896801.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "DW",
-    "source_url": "https://www.dw.com/en/turkey-s-stock-market-scandal-affects-nearly-half-a-million-investors-police-have-made-several-arrests-and-an-akp-politician-has-resigned/a-79494710?maca=en-rss-en-bus-2091-rdf",
-    "source_title": "Turkey's stock market scandal affects nearly half a million investors. Police have made several arrests and an AKP politician has resigned.",
-    "source_summary": "Nearly half a million investors are affected, arrests have been made, and a female politician from the ruling party has resigned. What is behind the stock market manipulation scandal in Turkey?",
-    "drafted_at": "2026-10-02T07:41:42.200263",
+    "primary_source": "PR NEWSWIRE",
+    "source_url": "https://www.prnewswire.com/news-releases/nyse-hyln-investor-alert-berger-montague-advises-hyliion-holdings-corp-nyse-hyln-investors-of-an-october-27-2026-deadline-302896801.html",
+    "source_title": "NYSE: HYLN INVESTOR ALERT: Berger Montague Advises Hyliion Holdings Corp. (NYSE: HYLN) Investors of an October 27, 2026 Deadline",
+    "source_summary": "PHILADELPHIA, Oct. 2, 2026 /PRNewswire/ -- Berger Montague PC, a leading national plaintiffs' law firm, announces a class action lawsuit against Hyliion Holdings Corp. (NYSE: HYLN) (\"Hyliion\" or the \"Company\") on behalf of investors who purchased or acquired Hyliion securities during the...",
+    "drafted_at": "2026-10-02T14:16:43.252252",
     "data": {
-      "source": "DW"
+      "source": "PR NEWSWIRE"
     },
-    "content_hash": "f48015b20b2b36d9"
+    "content_hash": "2bdc6d2387cf84e8"
   },
   {
-    "id": "9b335ab8",
+    "id": "901305eb",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "DOJ Charges Energy Department Employee for Helping Houthi Terrorists\n\nhttps://pjmedia.com/catherinesalgado/2026/10/01/doj-charges-energy-department-employee-for-helping-houthi-terrorists-n4957865",
+    "draft_text": "The $TRUMP memecoin's decline and concentrated ownership highlight risks of market manipulation and investor losses, impacting crypto trust.\n\nThe post $TRUMP memecoin plans third gala for top holders as token sits 97% below peak appeared first on Crypto Briefing.\n\nhttps://cryptobriefing.com/trump-memecoin-third-gala-top-holders/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "PJ MEDIA",
-    "source_url": "https://pjmedia.com/catherinesalgado/2026/10/01/doj-charges-energy-department-employee-for-helping-houthi-terrorists-n4957865",
-    "source_title": "DOJ Charges Energy Department Employee for Helping Houthi Terrorists",
-    "source_summary": "",
-    "drafted_at": "2026-10-02T07:41:42.200366",
+    "primary_source": "CRYPTO BRIEFING",
+    "source_url": "https://cryptobriefing.com/trump-memecoin-third-gala-top-holders/",
+    "source_title": "$TRUMP memecoin plans third gala for top holders as token sits 97% below peak",
+    "source_summary": "The $TRUMP memecoin's decline and concentrated ownership highlight risks of market manipulation and investor losses, impacting crypto trust. The post $TRUMP memecoin plans third gala for top holders as token sits 97% below peak appeared first on Crypto Briefing .",
+    "drafted_at": "2026-10-02T14:16:43.252566",
     "data": {
-      "source": "PJ MEDIA"
+      "source": "CRYPTO BRIEFING"
     },
-    "content_hash": "e24ae85fc2b06cff"
+    "content_hash": "bc5ee6a916df0657"
   },
   {
-    "id": "bd788c12",
+    "id": "99e8f287",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
-    "draft_text": "The Trump administration has revoked visas for more than a quarter of a million people over violations that included birth tourism and endangering national security.\n\nState Department spokesperson Tommy Pigott called the 250,000+ visa revocations a \"historic milestone\" in the administration's efforts to protect the American people, Fox News reported Wednesday.\n\n'We will not stop until every foreign national who threatens the safety of our communities is held accountable.' \"Every visa decision is a national security decision.\n\nhttps://www.theblaze.com/news/trump-revokes-visa-birth-tourism",
+    "draft_text": "Bill Pulte, the head of the Federal Housing Finance Agency, said last year that the agency, which oversees federal mortgage regulators Fannie Mae and Freddie Mac, had launched a \u201cwide crackdown on mortgage fraud.\u201d That was never a persuasive claim.\n\nPulte announced his campaign after drawing criticism for urging the Justice Department to prosecute officials [\u2026]\n\nhttps://www.motherjones.com/politics/2026/10/bill-pulte-fhfa-fraud-federal-mortage-inspectors-office-budget-cut/",
+    "image_path": null,
+    "og_image_url": null,
+    "primary_source": "MOTHER JONES",
+    "source_url": "https://www.motherjones.com/politics/2026/10/bill-pulte-fhfa-fraud-federal-mortage-inspectors-office-budget-cut/",
+    "source_title": "Bill Pulte Said He Was Cracking Down on Fraud. Now He\u2019s Firing the Investigators.",
+    "source_summary": "Bill Pulte, the head of the Federal Housing Finance Agency, said last year that the agency, which oversees federal mortgage regulators Fannie Mae and Freddie Mac, had launched a \u201cwide crackdown on mortgage fraud.\u201d That was never a persuasive claim. Pulte announced his campaign after drawing criticism for urging the Justice Department to prosecute officials [\u2026]",
+    "drafted_at": "2026-10-02T14:16:43.252988",
+    "data": {
+      "source": "MOTHER JONES"
+    },
+    "content_hash": "48f84e18acaa8c65"
+  },
+  {
+    "id": "a232ef90",
+    "format": "CORRUPTION_WATCH",
+    "status": "pending",
+    "draft_text": "B lazeTV host Sara Gonzales ' crusade against H-1B visa abuse in Texas not only has alleged fraudsters panicking and closing up shop but has prompted meaningful crackdowns by state and federal officials.\n\nThose officials poised to nab the kinds of fraudsters targeted by Gonzales' investigations might soon be able to hit them with greater penalties.\n\n'Hopefully we'll make them think twice about doing this.' On Thursday, just days after lauding Gonzales for \"bringing this to the surface,\" Rep.\n\nhttps://www.theblaze.com/news/exclusive-rep-van-duyne-reinforces-blazetv-host-sara-gonzales-in-war-on-h-1b-fraudsters",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "THE BLAZE",
-    "source_url": "https://www.theblaze.com/news/trump-revokes-visa-birth-tourism",
-    "source_title": "Trump administration revokes visas for HISTORIC number of noncitizens",
-    "source_summary": "The Trump administration has revoked visas for more than a quarter of a million people over violations that included birth tourism and endangering national security. State Department spokesperson Tommy Pigott called the 250,000+ visa revocations a \"historic milestone\" in the administration's efforts to protect the American people, Fox News reported Wednesday. 'We will not stop until every foreign ",
-    "drafted_at": "2026-10-02T07:41:42.201516",
+    "source_url": "https://www.theblaze.com/news/exclusive-rep-van-duyne-reinforces-blazetv-host-sara-gonzales-in-war-on-h-1b-fraudsters",
+    "source_title": "Exclusive: Rep. Van Duyne reinforces BlazeTV host Sara Gonzales in war on H-1B fraudsters",
+    "source_summary": "B lazeTV host Sara Gonzales ' crusade against H-1B visa abuse in Texas not only has alleged fraudsters panicking and closing up shop but has prompted meaningful crackdowns by state and federal officials. Those officials poised to nab the kinds of fraudsters targeted by Gonzales' investigations might soon be able to hit them with greater penalties. 'Hopefully we'll make them think twice about doing",
+    "drafted_at": "2026-10-02T14:16:43.254755",
     "data": {
       "source": "THE BLAZE"
     },
-    "content_hash": "7691ee4a2511e447"
+    "content_hash": "088891ca8b2fd8c5"
   },
   {
-    "id": "78a837a7",
-    "format": "CORRUPTION_WATCH",
-    "status": "pending",
-    "draft_text": "Jamelle Bouie, The New York Times Since March, Vice President JD Vance has been tasked with rooting out any fraud perpetrated against the federal government.\n\nhttps://www.realclearmarkets.com/2026/10/01/trump_wants_his_hands_on_power_of_the_purse_1209106.html",
-    "image_path": null,
-    "og_image_url": null,
-    "primary_source": "REALCLEAR",
-    "source_url": "https://www.realclearmarkets.com/2026/10/01/trump_wants_his_hands_on_power_of_the_purse_1209106.html",
-    "source_title": "Trump Wants His Hands On Power Of the Purse",
-    "source_summary": "Jamelle Bouie, The New York Times Since March, Vice President JD Vance has been tasked with rooting out any fraud perpetrated against the federal government. \"This is a very big thing that...",
-    "drafted_at": "2026-10-02T07:41:42.201716",
-    "data": {
-      "source": "REALCLEAR"
-    },
-    "content_hash": "c3a9f285bdfc4c90"
-  },
-  {
-    "id": "14b358a0",
+    "id": "d3a4de78",
     "format": "CORRUPTION_WATCH",
     "status": "pending",
     "draft_text": "Even as the trading giant publicly claimed to be winding down its Russia business, Gunvor privately acknowledged the deals to its bank, the Industrial and Commercial Bank of China, saying they complied with sanctions laws.\n\nhttps://www.icij.org/investigations/china-capital/gunvor-publicly-condemned-russias-war-but-continued-to-do-business-with-russian-energy-firms-records-show/",
@@ -318,14 +337,14 @@
     "source_url": "https://www.icij.org/investigations/china-capital/gunvor-publicly-condemned-russias-war-but-continued-to-do-business-with-russian-energy-firms-records-show/",
     "source_title": "Gunvor publicly condemned Russia\u2019s war but continued to do business with Russian energy firms, records show",
     "source_summary": "Even as the trading giant publicly claimed to be winding down its Russia business, Gunvor privately acknowledged the deals to its bank, the Industrial and Commercial Bank of China, saying they complied with sanctions laws.",
-    "drafted_at": "2026-10-02T07:41:42.201983",
+    "drafted_at": "2026-10-02T14:16:43.255043",
     "data": {
       "source": "ICIJ"
     },
     "content_hash": "971268b1ac591e30"
   },
   {
-    "id": "f26c1171",
+    "id": "2b6bd055",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "5 members of Congress bought $SPCX this year \u2014 and these filings don't show them selling:\n\n\u2022 Daniel Meuser (R)\n\u2022 Jared Moskowitz (D)\n\u2022 John McGuire (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Maria Elvira Salazar (R)\n\nLargest disclosed here: Daniel Meuser, $15,001 - $50,000 on Jun 15.\n\nPrice since the first buy in this group: -7.3%.\n\nSTOCK Act disclosures. Public record.",
@@ -335,7 +354,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034774.pdf",
     "source_title": "5 Congress members bought $SPCX",
     "source_summary": "5 politicians bought $SPCX; largest $15,001 - $50,000 by Daniel Meuser.",
-    "drafted_at": "2026-10-02T07:41:42.203102",
+    "drafted_at": "2026-10-02T14:16:43.256190",
     "data": {
       "ticker": "SPCX",
       "member_count": 5,
@@ -344,7 +363,26 @@
     "content_hash": "51463ed55dda905c"
   },
   {
-    "id": "11ad1112",
+    "id": "304eb23d",
+    "format": "CONGRESS_WATCH",
+    "status": "pending",
+    "draft_text": "3 members of Congress bought $HD this year \u2014 and these filings don't show them selling:\n\n\u2022 Jared Moskowitz (D)\n\u2022 Lloyd Doggett (D)\n\u2022 David J. Taylor (R)\n\nLargest disclosed here: Jared Moskowitz, $1,001 - $15,000 on Jun 17.\n\nPrice since the first buy in this group: -13.1%.\n\nSTOCK Act disclosures. Public record.",
+    "image_path": "charts/congress/HD_cluster.png",
+    "og_image_url": null,
+    "primary_source": "STOCK Act PTR filings",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034963.pdf",
+    "source_title": "3 Congress members bought $HD",
+    "source_summary": "3 politicians bought $HD; largest $1,001 - $15,000 by Jared Moskowitz.",
+    "drafted_at": "2026-10-02T14:16:43.256495",
+    "data": {
+      "ticker": "HD",
+      "member_count": 3,
+      "pct_since_first": -13.090883167386785
+    },
+    "content_hash": "6b03c89136a7e5a2"
+  },
+  {
+    "id": "eea87c2e",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $MU this year \u2014 and these filings don't show them selling:\n\n\u2022 Sheldon Whitehouse (D)\n\u2022 Michael Rulli (R)\n\u2022 Dan Newhouse (R)\n\nLargest disclosed here: Sheldon Whitehouse, $1,001 - $15,000 on Jun 25.\n\nPrice since the first buy in this group: -12.2%.\n\nSTOCK Act disclosures. Public record.",
@@ -354,7 +392,7 @@
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/5d9b1b8e-2ae1-442b-860c-e79b8a701dc6/",
     "source_title": "3 Congress members bought $MU",
     "source_summary": "3 politicians bought $MU; largest $1,001 - $15,000 by Sheldon Whitehouse.",
-    "drafted_at": "2026-10-02T07:41:42.203417",
+    "drafted_at": "2026-10-02T14:16:43.256789",
     "data": {
       "ticker": "MU",
       "member_count": 3,
@@ -363,7 +401,7 @@
     "content_hash": "78d90ba61af22eb7"
   },
   {
-    "id": "90f7aec0",
+    "id": "08c8956e",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $ACN this year \u2014 and these filings don't show them selling:\n\n\u2022 Dan Newhouse (R)\n\u2022 Gilbert Cisneros (D)\n\u2022 Scott Scott Franklin (R)\n\nLargest disclosed here: Dan Newhouse, $1,001 - $15,000 on Jul 10.\n\nPrice since the first buy in this group: +31.0%.\n\nSTOCK Act disclosures. Public record.",
@@ -373,7 +411,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf",
     "source_title": "3 Congress members bought $ACN",
     "source_summary": "3 politicians bought $ACN; largest $1,001 - $15,000 by Dan Newhouse.",
-    "drafted_at": "2026-10-02T07:41:42.203714",
+    "drafted_at": "2026-10-02T14:16:43.257078",
     "data": {
       "ticker": "ACN",
       "member_count": 3,
@@ -382,7 +420,7 @@
     "content_hash": "917a09452eb9679c"
   },
   {
-    "id": "1697070f",
+    "id": "86bda9ab",
     "format": "CONGRESS_WATCH",
     "status": "pending",
     "draft_text": "3 members of Congress bought $NVDA this year \u2014 and these filings don't show them selling:\n\n\u2022 Michael Rulli (R)\n\u2022 Cleo Fields (D)\n\u2022 John J Mr McGuire (R)\n\nLargest disclosed here: Michael Rulli, $1,001 - $15,000 on Jun 25.\n\nPrice since the first buy in this group: +16.1%.\n\nSTOCK Act disclosures. Public record.",
@@ -392,7 +430,7 @@
     "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035147.pdf",
     "source_title": "3 Congress members bought $NVDA",
     "source_summary": "3 politicians bought $NVDA; largest $1,001 - $15,000 by Michael Rulli.",
-    "drafted_at": "2026-10-02T07:41:42.203999",
+    "drafted_at": "2026-10-02T14:16:43.257385",
     "data": {
       "ticker": "NVDA",
       "member_count": 3,
@@ -401,196 +439,177 @@
     "content_hash": "d816bd0d170915c5"
   },
   {
-    "id": "7c1ec220",
-    "format": "CONGRESS_WATCH",
-    "status": "pending",
-    "draft_text": "3 members of Congress bought $APH this year \u2014 and these filings don't show them selling:\n\n\u2022 Rick Larsen (D)\n\u2022 Dan Newhouse (R)\n\u2022 Gilbert Cisneros (D)\n\nLargest disclosed here: Rick Larsen, $1,001 - $15,000 on Jul 08.\n\nPrice since the first buy in this group: +6.6%.\n\nSTOCK Act disclosures. Public record.",
-    "image_path": "charts/congress/APH_cluster.png",
-    "og_image_url": null,
-    "primary_source": "STOCK Act PTR filings",
-    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034977.pdf",
-    "source_title": "3 Congress members bought $APH",
-    "source_summary": "3 politicians bought $APH; largest $1,001 - $15,000 by Rick Larsen.",
-    "drafted_at": "2026-10-02T07:41:42.204279",
-    "data": {
-      "ticker": "APH",
-      "member_count": 3,
-      "pct_since_first": 6.611042456312048
-    },
-    "content_hash": "bab6b0ee77d6754e"
-  },
-  {
-    "id": "276d069a",
+    "id": "23362a0d",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Asia overnight: Commerzbank\u2019s Michael Pfister and Volkmar Baur highlight that the Japanese Yen is struggling as a safe haven despite risk-off conditions.\n\nRising Japanese debt concerns and the Bank of Japan\u2019s (BoJ) rate hikes are seen eroding its traditional crisis appeal.\n\nhttps://www.fxstreet.com/news/japanese-yen-safe-haven-status-questioned-commerzbank-202610020734",
+    "draft_text": "From Brussels and beyond: With Western European investment becoming less dependable, Central and Eastern Europe faces a choice: attract new foreign capital, or do more to mobilize the investment potential within the region itself.\n\nThe post Investing in Europe\u2019s next growth engine appeared first on Atlantic Council.\n\nhttps://www.atlanticcouncil.org/blogs/econographics/investing-in-europes-next-growth-engine/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/japanese-yen-safe-haven-status-questioned-commerzbank-202610020734",
-    "source_title": "Japanese Yen: Safe-haven status questioned \u2013 Commerzbank",
-    "source_summary": "Commerzbank\u2019s Michael Pfister and Volkmar Baur highlight that the Japanese Yen is struggling as a safe haven despite risk-off conditions. Rising Japanese debt concerns and the Bank of Japan\u2019s (BoJ) rate hikes are seen eroding its traditional crisis appeal.",
-    "drafted_at": "2026-10-02T07:41:42.205975",
+    "primary_source": "ATLANTIC CNCL",
+    "source_url": "https://www.atlanticcouncil.org/blogs/econographics/investing-in-europes-next-growth-engine/",
+    "source_title": "Investing in Europe\u2019s next growth engine",
+    "source_summary": "With Western European investment becoming less dependable, Central and Eastern Europe faces a choice: attract new foreign capital, or do more to mobilize the investment potential within the region itself. The post Investing in Europe\u2019s next growth engine appeared first on Atlantic Council .",
+    "drafted_at": "2026-10-02T14:16:43.259455",
     "data": {
-      "source": "FXSTREET"
+      "source": "ATLANTIC CNCL"
     },
-    "content_hash": "4a52a0f03abc3de6"
+    "content_hash": "19156ac69be0121d"
   },
   {
-    "id": "2f72d278",
+    "id": "e7d31a6e",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "From Brussels and beyond: Deutsche Bank notes that Gold prices edged higher alongside broader risk-off moves and rising financial stress in Europe.\n\nWhile the report focuses more on bonds, equities and energy, Gold\u2019s advance came as volatility ticked up and investors digested geopolitical risks and shifting central bank expectations ahead of key US and Euro Area data releases.\n\nhttps://www.fxstreet.com/news/gold-modest-gains-in-risk-off-backdrop-deutsche-bank-202610020732",
+    "draft_text": "CHINA DESK: Der EU-Handelskommissar erkl\u00e4rt gegen\u00fcber POLITICO, China habe verstanden, dass eine Einigung dringend notwendig ist.\n\nEr hofft auf Ergebnisse zu drei Hauptthemen.\n\nhttps://www.politico.eu/article/sefcovic-verhandlung-mit-china-noch-ohne-ergebnisse/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/gold-modest-gains-in-risk-off-backdrop-deutsche-bank-202610020732",
-    "source_title": "Gold: Modest gains in risk-off backdrop \u2013 Deutsche Bank",
-    "source_summary": "Deutsche Bank notes that Gold prices edged higher alongside broader risk-off moves and rising financial stress in Europe. While the report focuses more on bonds, equities and energy, Gold\u2019s advance came as volatility ticked up and investors digested geopolitical risks and shifting central bank expectations ahead of key US and Euro Area data releases.",
-    "drafted_at": "2026-10-02T07:41:42.206598",
+    "primary_source": "POLITICO EU",
+    "source_url": "https://www.politico.eu/article/sefcovic-verhandlung-mit-china-noch-ohne-ergebnisse/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+    "source_title": "\u0160ef\u010dovi\u010d: Verhandlung mit China noch ohne  Ergebnisse",
+    "source_summary": "Der EU-Handelskommissar erkl\u00e4rt gegen\u00fcber POLITICO, China habe verstanden, dass eine Einigung dringend notwendig ist. Er hofft auf Ergebnisse zu drei Hauptthemen.",
+    "drafted_at": "2026-10-02T14:16:43.260851",
     "data": {
-      "source": "FXSTREET"
+      "source": "POLITICO EU"
     },
-    "content_hash": "8f419d64557ad576"
+    "content_hash": "1d08bf4fef563865"
   },
   {
-    "id": "766309e1",
+    "id": "17fa0249",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 EUROPE: US Treasury Secretary Scott Bessent has urged Europe to get ready to release diesel supplies immediately, arguing that US farmers, truckers, and businesses \"should not be left carrying the burden\" as prices soar.\n\nThe US is a vital supplier of diesel to the world, exporting between 1.2 and 1.5 million barrels per day.\n\nDonald Trump has said he may ask European countries to release some of their diesel reserves as he considers banning US exports of the fuel.\n\nHis comment comes after diesel prices hit record highs on UK forecourts this week, as the Iran war puts pressure on the supply of refined fuels.\n\nhttps://www.bbc.co.uk/news/articles/c5zjzjgdeneeo?at_medium=RSS&at_campaign=rss",
+    "draft_text": "PACK BRIEFING \u2014 EUROPE: Gas prices remain punishingly high across the continent as Europeans stare down the barrel of a long winter.\n\nIn response to back-to-back-to-back energy crises stemming from Europe\u2019s continued reliance on imported liquefied natural gas against the backdrop of ongoing global geopolitical volatility, Europe\u2019s leaders are pushing to diversify the bloc\u2019s energy mix.\n\nWhile this means that Europe is rapidly expanding its renewable energy capacity, it also marks a significant return to the\u2026\n\nhttps://oilprice.com/Energy/Energy-General/Europes-Soaring-Gas-Bill-Is-Sending-Utilities-Back-to-Coal.html",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "BBC",
-    "source_url": "https://www.bbc.co.uk/news/articles/c5zjzjgdeneeo?at_medium=RSS&at_campaign=rss",
-    "source_title": "US pressures Europe to release diesel reserves as Trump threatens export ban",
-    "source_summary": "President Donald Trump has threatened to ban diesel exports in a bid to ease prices in the US ahead of the November elections.",
-    "drafted_at": "2026-10-02T07:41:42.207680",
+    "primary_source": "OILPRICE",
+    "source_url": "https://oilprice.com/Energy/Energy-General/Europes-Soaring-Gas-Bill-Is-Sending-Utilities-Back-to-Coal.html",
+    "source_title": "Europe's Soaring Gas Bill Is Sending Utilities Back to Coal",
+    "source_summary": "Europe\u2019s energy crisis isn\u2019t over. Gas prices remain punishingly high across the continent as Europeans stare down the barrel of a long winter. In response to back-to-back-to-back energy crises stemming from Europe\u2019s continued reliance on imported liquefied natural gas against the backdrop of ongoing global geopolitical volatility, Europe\u2019s leaders are pushing to diversify the bloc\u2019s energy mix. W",
+    "drafted_at": "2026-10-02T14:16:43.262105",
     "data": {
-      "source": "BBC"
+      "source": "OILPRICE"
     },
-    "content_hash": "6640c14cdc56bcf4"
+    "content_hash": "2b021526eb153d6f"
   },
   {
-    "id": "05e3ae89",
+    "id": "799b0c7d",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "Levant update: Crude Oil prices show a moderate pullback on Friday as news of increased exports from Gulf countries offsets concerns about stalled US-Iran peace negotiations.\n\nhttps://www.fxstreet.com/news/wti-oil-edges-down-below-9100-amid-reports-of-higher-flows-from-the-gulf-202610020721",
+    "draft_text": "Mainland wire: On MS NOW, \"Deadline\" host Nicolle Wallace took viewers through a montage of Trump\u2019s past tough-on-China remarks, before excitedly suggesting that Trump had asked Chinese President Xi Jinping whether or not China wanted to buy American weapons.\n\n\u201cSo much for Mr. Tough Guy,\u201d Wallace scoffed.\n\n\u201cOver the last few days, we saw Donald Trump roll out an actual red carpet for China\u2019s President Xi Jinping when he came to the White House, a visit which Reuters called, quote, \u2018a stalemate summit that was a glitzy gift to China,\u2019 end quote.\u201d \u201cAnd then there was this moment on Fox News yesterday, courtesy of America\u2019s ambassador to China, David Purdue,\u201d she added.\n\nIn the clip, Purdue said, \u201cPresident Trump continues to say, \u2018Hey, we sell arms to other people around the world.\u2019 He actually asked President Xi would he like to buy some at one point.\u201d \u201cYou heard that correctly.\n\nThat was the ambassador to China saying that the United States president offered to sell arms to China,\u201d Wallace said, laughing.\n\nThe State Department responded to the claim with a statement that read, \u201cU.S. law prohibits arm sales to China, and there is no offer or plan to sell arms to China.\u201d Wallace called the statement \u201cbackpedaling,\u201d but BlazeTV host Pat Gray points out that she\u2019s supposed to be reporting the news.\n\nSo the president and his team denied everything you just presented in the clip, and your response is a sarcastic, belittling, dismissive heh-heh,\u201d he says, mimicking her laugh.\n\n\u201cThat\u2019s some good news broadcast right there.\n\nhttps://www.theblaze.com/shows/pat-gray-unleashed/this-china-bombshell-is-blowing-up-in-ms-nows-face",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/wti-oil-edges-down-below-9100-amid-reports-of-higher-flows-from-the-gulf-202610020721",
-    "source_title": "WTI Oil edges down below $91.00 amid reports of higher flows from the Gulf",
-    "source_summary": "Crude Oil prices show a moderate pullback on Friday as news of increased exports from Gulf countries offsets concerns about stalled US-Iran peace negotiations.",
-    "drafted_at": "2026-10-02T07:41:42.207953",
+    "primary_source": "THE BLAZE",
+    "source_url": "https://www.theblaze.com/shows/pat-gray-unleashed/this-china-bombshell-is-blowing-up-in-ms-nows-face",
+    "source_title": "This China bombshell is blowing up in MS NOW's face",
+    "source_summary": "On MS NOW, \"Deadline\" host Nicolle Wallace took viewers through a montage of Trump\u2019s past tough-on-China remarks, before excitedly suggesting that Trump had asked Chinese President Xi Jinping whether or not China wanted to buy American weapons. \u201cSo much for Mr. Tough Guy,\u201d Wallace scoffed. \u201cOver the last few days, we saw Donald Trump roll out an actual red carpet for China\u2019s President Xi Jinping w",
+    "drafted_at": "2026-10-02T14:16:43.264140",
     "data": {
-      "source": "FXSTREET"
+      "source": "THE BLAZE"
     },
-    "content_hash": "42d2a277251e7941"
+    "content_hash": "a9c451bc714a79b6"
   },
   {
-    "id": "95067c07",
+    "id": "0bb56d98",
     "format": "GLOBAL_DESK",
     "status": "pending",
-    "draft_text": "PACK BRIEFING \u2014 AMERICAS: EUR/CAD rises after posting modest losses in the previous day, trading around 1.6010 during the early European hours on Friday.\n\nTraders are turning their attention to the upcoming preliminary Eurozone Harmonized Index of Consumer Prices (HICP) data for September, set to be released later in the day.\n\nhttps://www.fxstreet.com/news/euro-gains-against-canadian-dollar-ahead-of-eurozone-hicp-data-202610020708",
+    "draft_text": "Cross-border read: India's youth protests return to streets, eyeing PM Modi's prized bureaucrat who oversees the world's biggest elections.\n\nhttps://www.aljazeera.com/features/2026/10/2/can-indias-cockroach-movement-oust-modis-election-chief?traffic_source=rss",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/euro-gains-against-canadian-dollar-ahead-of-eurozone-hicp-data-202610020708",
-    "source_title": "Euro gains against Canadian Dollar ahead of Eurozone HICP data",
-    "source_summary": "EUR/CAD rises after posting modest losses in the previous day, trading around 1.6010 during the early European hours on Friday. Traders are turning their attention to the upcoming preliminary Eurozone Harmonized Index of Consumer Prices (HICP) data for September, set to be released later in the day.",
-    "drafted_at": "2026-10-02T07:41:42.208573",
+    "primary_source": "AL JAZEERA",
+    "source_url": "https://www.aljazeera.com/features/2026/10/2/can-indias-cockroach-movement-oust-modis-election-chief?traffic_source=rss",
+    "source_title": "Can India\u2019s \u2018cockroach\u2019 movement oust Modi\u2019s election chief?",
+    "source_summary": "India's youth protests return to streets, eyeing PM Modi's prized bureaucrat who oversees the world's biggest elections.",
+    "drafted_at": "2026-10-02T14:16:43.264950",
     "data": {
-      "source": "FXSTREET"
+      "source": "AL JAZEERA"
     },
-    "content_hash": "7ea32e3ac06986ac"
+    "content_hash": "dc0e6fc4cfbc9459"
   },
   {
-    "id": "b59a5526",
+    "id": "beb58416",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "From the BLS desk: Here is what you need to know on Friday, October 2.\n\nhttps://www.fxstreet.com/news/forex-today-us-dollar-consolidates-weekly-gains-ahead-of-critical-nonfarm-payrolls-data-202610020714",
+    "draft_text": "NFP just dropped. US employers added just 29,000 jobs in September, a sharp drop from last month\u2019s gains, and unemployment rose slightly to 4.2%, a sign of a cooling labor market in the final jobs report before the midterm election.\n\nEarlier jobs figures were also revised down: Initial reports from July and August altogether dropped by 60,000.\n\nGrowth in average hourly earnings slumped to 3%, the lowest rate in over five years.\n\nThe unemployment rate has remained relatively steady since last year, when it hit 4.5% in November.\n\nUS jobless claims also inched lower for the fourth week in a row, the labor department said on Thursday.\n\nhttps://www.theguardian.com/business/2026/oct/02/september-jobs-report",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FXSTREET",
-    "source_url": "https://www.fxstreet.com/news/forex-today-us-dollar-consolidates-weekly-gains-ahead-of-critical-nonfarm-payrolls-data-202610020714",
-    "source_title": "Forex Today: US Dollar consolidates weekly gains ahead of critical Nonfarm Payrolls data",
-    "source_summary": "Here is what you need to know on Friday, October 2:",
-    "drafted_at": "2026-10-02T07:41:42.266683",
+    "primary_source": "GUARDIAN",
+    "source_url": "https://www.theguardian.com/business/2026/oct/02/september-jobs-report",
+    "source_title": "US added just 29,000 jobs in September in sharp drop from last month\u2019s gains",
+    "source_summary": "Final jobs report before the midterm elections also shows the US unemployment rate rose slightly to 4.2% US employers added just 29,000 jobs in September, a sharp drop from last month\u2019s gains, and unemployment rose slightly to 4.2%, a sign of a cooling labor market in the final jobs report before the midterm election. The numbers were under half of economists\u2019 expectations of just under 70,000 new",
+    "drafted_at": "2026-10-02T14:16:43.321347",
     "data": {
-      "source": "FXSTREET"
+      "source": "GUARDIAN"
     },
-    "content_hash": "378c4784fd4de180"
+    "content_hash": "d27b069b4cd70a05"
   },
   {
-    "id": "77545336",
+    "id": "c0df54d5",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "Payrolls hit the wire. The ranges of estimates are important in terms of market reaction because when the actual data deviates from the expectations, it creates a surprise effect.\n\nAnother important input in market's reaction is the distribution of forecasts.\n\nIn fact, although we can have a range of estimates, most forecasts might be clustered on the upper bound of the range, so even if the data comes out inside the range of estimates but on the lower bound of the range, it can still create a surprise effect.\n\nNon-Farm Payrolls 35K to 180K range of estimates 60K-100K range most clustered 90K consensus Unemployment Rate 4.2% (20%) 4.1% (70%) - consensus 4.0% (10%) Average Hourly Earnings Y/Y 3.4% (3%) 3.2% (52%) - consensus 3.1% (36%) 3.0% (9%) Average Hourly Earnings M/M 0.4% (2%) 0.3% (65%) - consensus 0.2% (31%) 0.1% (2%) Although the NFP report is generally one of the most market-moving economic releases, the US CPI has been more important because the Fed has been focusing on it.\n\nToday's release might be even less important because Fed's Williams and Fed's Jefferson have already poured cold water on expectations of a rate hike in October, so we will likely need a blockbuster report to raise the probabilities again.\n\nAs expected or weaker than expected data, on the other hand, might not change much in the bigger picture, because the totality of the US jobs data has been strong, but it might further reduce the odds for an October hike in the short-term.\n\nThis article was written by Giuseppe Dellamotta at investinglive.com.\n\nhttps://investinglive.com/news/what-is-the-distribution-of-forecasts-for-the-us-nfp-1/",
+    "draft_text": "Fresh print: Prior month factory orders 0.8% down from 0.9% previously Factory orders: +0.1% vs +0.1% expected.\n\nFactory orders excluding transportation: +0.3%.\n\nDurable goods orders: revised to \u22120.1% from 0.0% initially reported.\n\nDurable goods excluding transportation: revised to +0.2% from +0.3%.\n\nDurable goods excluding defense: revised to 0.0% from +0.1%.\n\nNondefense capital goods orders excluding aircraft: +1.6%, unchanged from the preliminary reading.\n\nUS factory orders increased 0.1% in August, matching expectations but slowing from July\u2019s 0.9% gain, according to the supplied release table.\n\nOrders excluding transportation increased 0.3%, down from 0.6% in the prior month.\n\nhttps://investinglive.com/news/us-factory-orders-for-the-month-of-august-0-1-versus-0-1-estimate/",
     "image_path": null,
     "og_image_url": null,
     "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/what-is-the-distribution-of-forecasts-for-the-us-nfp-1/",
-    "source_title": "What is the distribution of forecasts for the US NFP?",
-    "source_summary": "The ranges of estimates are important in terms of market reaction because when the actual data deviates from the expectations, it creates a surprise effect. Another important input in market's reaction is the distribution of forecasts. In fact, although we can have a range of estimates, most forecasts might be clustered on the upper bound of the range, so even if the data comes out inside the rang",
-    "drafted_at": "2026-10-02T07:41:42.268350",
+    "source_url": "https://investinglive.com/news/us-factory-orders-for-the-month-of-august-0-1-versus-0-1-estimate/",
+    "source_title": "US factory orders for the month of August 0.1% versus 0.1% estimate",
+    "source_summary": "Prior month factory orders 0.8% down from 0.9% previously Factory orders: +0.1% vs +0.1% expected. Prior +0.9% revised to 0.8%. Factory orders excluding transportation: +0.3%. Prior +0.7%. Durable goods orders: revised to \u22120.1% from 0.0% initially reported. Durable goods excluding transportation: revised to +0.2% from +0.3%. Durable goods excluding defense: revised to 0.0% from +0.1%. Nondefense c",
+    "drafted_at": "2026-10-02T14:16:43.322922",
     "data": {
       "source": "FOREXLIVE"
     },
-    "content_hash": "343a658615538884"
+    "content_hash": "23667c4af718c09f"
   },
   {
-    "id": "a9ec859d",
+    "id": "8f6ea5c8",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "CPI just printed. EUROPEAN SESSION In the European session, we get the Eurozone Flash CPI report.\n\nThe headline CPI Y/Y is expected at 3.6% vs 3.2% prior, while the Core CPI Y/Y is seen at 2.5% vs 2.4% prior.\n\nGiven the recent ECB commentary, we will likely need an upside surprise for the central bank to consider a rate hike in October.\n\nAn in-line or even lower than expected figures will give the ECB enough reasons to keep the policy rate steady.\n\nAMERICAN SESSION In the American session, we have the US NFP report.\n\nThe NFP is expected at 90K vs 162K prior, while the unemployment rate is seen remaining unchanged at 4.1%.\n\nThe Average Hourly Earnings Y/Y is expected at 3.2% vs 3.1% prior, while the M/M measure is seen at 0.3% vs 0.3% prior.\n\nThe expectations for a rate hike in October have fallen to 23% following the dovish comments from Fed's Williams and Fed's Jefferson.\n\nhttps://investinglive.com/news/what-are-the-main-events-for-today-55/",
+    "draft_text": "Numbers just hit: U.S. employers added 29,000 jobs in September as the unemployment rate inched up to 4.2%.\n\nJob gains for July and August were revised down by a total of 60,000 jobs, extending a lackluster run for the job market.\n\nhttps://www.npr.org/2026/10/02/nx-s1-5989140/jobs-labor-wages-federal-reserve",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/what-are-the-main-events-for-today-55/",
-    "source_title": "What are the main events for today?",
-    "source_summary": "EUROPEAN SESSION In the European session, we get the Eurozone Flash CPI report. The headline CPI Y/Y is expected at 3.6% vs 3.2% prior, while the Core CPI Y/Y is seen at 2.5% vs 2.4% prior. Given the recent ECB commentary, we will likely need an upside surprise for the central bank to consider a rate hike in October. An in-line or even lower than expected figures will give the ECB enough reasons t",
-    "drafted_at": "2026-10-02T07:41:42.269538",
+    "primary_source": "NPR",
+    "source_url": "https://www.npr.org/2026/10/02/nx-s1-5989140/jobs-labor-wages-federal-reserve",
+    "source_title": "The U.S. added only 29,000 jobs in September as job market lacks spark",
+    "source_summary": "U.S. employers added 29,000 jobs in September as the unemployment rate inched up to 4.2%. Job gains for July and August were revised down by a total of 60,000 jobs, extending a lackluster run for the job market.",
+    "drafted_at": "2026-10-02T14:16:43.323299",
     "data": {
-      "source": "FOREXLIVE"
+      "source": "NPR"
     },
-    "content_hash": "8aec190235fde8c3"
+    "content_hash": "721a296c27dfe937"
   },
   {
-    "id": "26c08ec3",
+    "id": "1e7424f5",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "Payrolls hit the wire. Welcome to another edition of NFP Friday.\n\nTypically, the US jobs report starts off with one question for markets.\n\nAnd that is how many jobs did the economy add during the month?\n\nBut this time around, I would argue the bar is a little higher than that.\n\nMarkets are heading into Friday's non-farm payrolls report with inflation concerns already running hot, and yesterday's ISM manufacturing report didn't exactly help with that.\n\nWhile the headline index held steady at 54.5, it was the surge in prices paid from 71.1 to 77.9 that really caught the eye.\n\nAs such, it puts a slightly different complexion ahead of the jobs report later today.\n\nThe non-farm payrolls figure is expected to rise by around 90K in September, with the unemployment rate holding at 4.1%.\n\nhttps://investinglive.com/news/us-jobs-report-faces-a-higher-bar-as-bond-market-tensions-raise-the-stakes/",
+    "draft_text": "The CPI scoreboard: Cooler inflation and two dovish Fed speakers have shifted the odds toward a rate hold, with payrolls due and CPI landing on October 14.\n\nhttps://decrypt.co/379932/uptober-off-with-a-bang-as-bitcoin-surges-to-86k",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/us-jobs-report-faces-a-higher-bar-as-bond-market-tensions-raise-the-stakes/",
-    "source_title": "US jobs report faces a higher bar as bond market tensions raise the stakes",
-    "source_summary": "Welcome to another edition of NFP Friday. Typically, the US jobs report starts off with one question for markets. And that is how many jobs did the economy add during the month? But this time around, I would argue the bar is a little higher than that. Markets are heading into Friday's non-farm payrolls report with inflation concerns already running hot, and yesterday's ISM manufacturing report did",
-    "drafted_at": "2026-10-02T07:41:42.270853",
+    "primary_source": "DECRYPT",
+    "source_url": "https://decrypt.co/379932/uptober-off-with-a-bang-as-bitcoin-surges-to-86k",
+    "source_title": "'Uptober' Off With a Bang as Bitcoin Surges to $86K",
+    "source_summary": "Cooler inflation and two dovish Fed speakers have shifted the odds toward a rate hold, with payrolls due and CPI landing on October 14.",
+    "drafted_at": "2026-10-02T14:16:43.323536",
     "data": {
-      "source": "FOREXLIVE"
+      "source": "DECRYPT"
     },
-    "content_hash": "750d12474172b4fc"
+    "content_hash": "14e2b22ba8026124"
   },
   {
-    "id": "1b47b1ce",
+    "id": "b80afc19",
     "format": "DATA_DROP",
     "status": "pending",
-    "draft_text": "Hiring scoreboard: SEC proposes letting investment advisers and funds self-custody Bitcoin and other crypto Dollar hits highest since May 2025 before payrolls; Asia FX slips despite strong data Katayama eyes 7 trillion yen of idle funds as Kiuchi says Japan needs no excessive easing UBS sees three catalysts to steady Treasuries, says Fed hike pricing is too aggressive Reminder: India and mainland China markets shut Friday as Hong Kong reopens without Stock Connect Morgan Stanley: S&P 500 masks weak market as over half of US stocks fall 20% since June IMF waives El Salvador's Bitcoin breach: why it's not the bullish signal it looks like Tokyo core CPI jumps to 2.7%, fastest in 10 months, strengthening BOJ rate hike case Lubin-linked wallet moves $356M in ETH: Beware, any sell hype doesn't add up yet.\n\nFed's Logan says rates need to rise another 50 bps or more to restore price stability ICYMI: US threatens diesel export ban unless Europe taps reserves, seeks 120 million barrels Reminder: Hong Kong reopens as mainland China markets and Stock Connect stay shut until October 8 ICYMI: Goldman pushes next Fed hike to December, sees strong chance no more hikes are needed Citadel Securities turns constructive on US stocks for Q4, citing five tailwinds Oil is gold's biggest enemy right now, Bank of America warns.\n\nNZ consumer confidence slips to 97.6 as oil spike weighs, inflation expectations ease Fed's Cook names two inflation worries: the AI buildout and persistent supply shocks US stocks edge higher after a two-way session Nike beats Q1 profit estimates but sees fiscal 2027 revenue falling high single digits Oil Tanker struck by unknown projectile in Strait of Hormuz, fire reported, crew safe AUDUSD falls to lowest level since early July.\n\nSummary: Markets were in a holding pattern ahead of US nonfarm payrolls, expected at about 90,000 jobs with unemployment steady at 4.1% The US dollar stayed firm near its highest since May 2025; the Australian and New Zealand dollars held their ground Gold dipped to around $4,140 before recovering; oil prices were little changed after Thursday's surge above $100 Tokyo core CPI rose 2.7% in September, its fastest in 10 months, and the core-core measure hit 3% Japan's economy minister said the country no longer needs excessively loose policy; the finance minister targeted about 7 trillion yen in idle funds Mainland China and India were closed; Hong Kong reopened without Stock Connect Markets Asian trading was subdued on Friday as investors waited for the US September jobs report, due later in the day, which is expected to show payroll growth of about 90,000 and an unchanged unemployment rate of 4.1%.\n\nThe US dollar remained firm after the dollar index touched its highest level since May 2025 overnight, though the Australian and New Zealand dollars held their ground.\n\nGold slipped to around $4,140 an ounce before recovering, while oil prices barely moved after Brent settled above $102 on Thursday on China's fuel export halt and reports of further US troop deployments to the Middle East.\n\nJapan Tokyo inflation surged in September.\n\nCore CPI rose 2.7% from a year earlier, well above the 2.4% forecast and the fastest pace in 10 months, while the measure excluding fresh food and energy jumped to 3.0%.\n\nhttps://investinglive.com/news/investinglive-asia-pacific-market-news-markets-mark-time-before-payrolls/",
+    "draft_text": "DATA DROP: The unemployment rate ticked up to 4.2% from 4.1% the previous month.\n\nhttps://nypost.com/2026/10/02/business/job-growth-cools-in-september-sorely-missing-forecasts/",
     "image_path": null,
     "og_image_url": null,
-    "primary_source": "FOREXLIVE",
-    "source_url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-markets-mark-time-before-payrolls/",
-    "source_title": "investingLive Asia-Pacific market news: Markets mark time before payrolls",
-    "source_summary": "SEC proposes letting investment advisers and funds self-custody Bitcoin and other crypto Dollar hits highest since May 2025 before payrolls; Asia FX slips despite strong data Katayama eyes 7 trillion yen of idle funds as Kiuchi says Japan needs no excessive easing UBS sees three catalysts to steady Treasuries, says Fed hike pricing is too aggressive Reminder: India and mainland China markets shut ",
-    "drafted_at": "2026-10-02T07:41:42.274731",
+    "primary_source": "NY POST",
+    "source_url": "https://nypost.com/2026/10/02/business/job-growth-cools-in-september-sorely-missing-forecasts/",
+    "source_title": "Job growth cools in September \u2014 sorely missing forecasts as unemployment ticks up",
+    "source_summary": "The unemployment rate ticked up to 4.2% from 4.1% the previous month.",
+    "drafted_at": "2026-10-02T14:16:43.323708",
     "data": {
-      "source": "FOREXLIVE"
+      "source": "NY POST"
     },
-    "content_hash": "184fd8d8d8e727f9"
+    "content_hash": "804edd8c161f72c7"
   },
   {
-    "id": "eeed9130",
+    "id": "c3ae95e5",
     "format": "LOUD_HOWL",
     "status": "pending",
     "draft_text": "TODAY'S LOUDEST HOWL: # Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg).\n\nEach entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n# ---ENTRY---\n# title: Headline of the story\n# source_url: https://link-to-source-tweet-or-article\n# source: KOBEISSI LETTER (optional, displayed in queue meta)\n# format: LOUD_HOWL (optional, default LOUD_HOWL)\n#\n# First paragraph of the news body.\n#\n# Second paragraph with the numbers / details.\n#\n# Third paragraph if there's more.\n#\n# When you're done with an entry, delete it (or move to a \"posted\"\n# section below the active entries) so the cron stops re-drafting.\n#\n# NOTE: The cron now scrapes Kobeissi Letter's substack feed directly\n# along with Watcher Guru, TLDR Finance, The Transcript, and Bespoke,\n# so most viral-finance news should surface automatically.\n\nUse this\n# file only for stories that those feeds miss.",
@@ -600,7 +619,7 @@
     "source_url": "",
     "source_title": "",
     "source_summary": "# Manual News Injections\n#\n# Drop entries here when the cron's RSS feeds miss something viral\n# (e.g. news that breaks on X first via Kobeissi Letter, Watcher Guru,\n# Walter Bloomberg). Each entry becomes a draft on the next cron tick.\n#\n# Format per entry (separator: '---ENTRY---' on its own line):\n#\n#   ---ENTRY---\n#   title: Headline of the story\n#   source_url: https://link-to-source-tweet-or-",
-    "drafted_at": "2026-10-02T07:41:42.278292",
+    "drafted_at": "2026-10-02T14:16:43.334087",
     "data": {
       "manual": true,
       "via": "manual_news.md"

@@ -386,5 +386,51 @@
     "chart_path": "charts/congress/MU_cluster.png",
     "source_url": "https://efdsearch.senate.gov/search/view/ptr/5d9b1b8e-2ae1-442b-860c-e79b8a701dc6/",
     "fired_at": "2026-10-01T06:40:12.152769"
+  },
+  "congress_HD_2026-06-17_3": {
+    "post_id": "congress_HD_2026-06-17_3",
+    "ticker": "HD",
+    "member_count": 3,
+    "members": [
+      {
+        "name": "Jared Moskowitz",
+        "party": "D",
+        "chamber": "House",
+        "amount_label": "$1,001 - $15,000",
+        "amount_mid": 8000.5,
+        "tx_date": "2026-06-17",
+        "is_options": false,
+        "link": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034963.pdf"
+      },
+      {
+        "name": "Lloyd Doggett",
+        "party": "D",
+        "chamber": "House",
+        "amount_label": "$1,001 - $15,000",
+        "amount_mid": 8000.5,
+        "tx_date": "2026-06-18",
+        "is_options": false,
+        "link": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034923.pdf"
+      },
+      {
+        "name": "David J. Taylor",
+        "party": "R",
+        "chamber": "House",
+        "amount_label": "$1,001 - $15,000",
+        "amount_mid": 8000.5,
+        "tx_date": "2026-09-22",
+        "is_options": false,
+        "link": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035549.pdf"
+      }
+    ],
+    "first_buy_date": "2026-06-17",
+    "biggest_name": "Jared Moskowitz",
+    "biggest_amount": "$1,001 - $15,000",
+    "biggest_date": "2026-06-17",
+    "biggest_is_options": false,
+    "pct_since_first": -13.090883167386785,
+    "chart_path": "charts/congress/HD_cluster.png",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034963.pdf",
+    "fired_at": "2026-10-02T14:16:38.324187"
   }
 }
