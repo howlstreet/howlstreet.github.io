@@ -1,18 +1,4 @@
 {
-  "CL=F:move:2026-10-01": {
-    "headline": "WTI crude drops 6.6% in 5 sessions to $89.44",
-    "matters": "Front-month WTI is the live oil market. Inflation, energy stocks, and airline P&L all key off this.",
-    "source": "NYMEX \u00b7 CL=F",
-    "chart_path": null,
-    "signal_id": "CL=F:move:2026-10-01",
-    "current_str": "$89.44",
-    "label": "WTI crude oil futures",
-    "hashtags": "#Oil #WTI #Energy #Commodities",
-    "kind": "move_down",
-    "badge": "-6.6%",
-    "data_url": "https://finance.yahoo.com/quote/CL%3DF",
-    "fired_at": "2026-10-01T06:40:13.480825"
-  },
   "^VIX:move:2026-10-01": {
     "headline": "VIX surges 12.8% in 5 sessions to 16.77",
     "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
@@ -26,5 +12,19 @@
     "badge": "+12.8%",
     "data_url": "https://finance.yahoo.com/quote/%5EVIX",
     "fired_at": "2026-10-01T14:00:19.267983"
+  },
+  "^VIX:move:2026-10-02": {
+    "headline": "VIX surges 14.1% in 5 sessions to 16.21",
+    "matters": "The market's fear gauge. Above 30 signals stress, above 40 is panic, below 12 is complacency.",
+    "source": "CBOE \u00b7 ^VIX",
+    "chart_path": null,
+    "signal_id": "^VIX:move:2026-10-02",
+    "current_str": "16.21",
+    "label": "VIX (S&P 500 volatility)",
+    "hashtags": "#VIX #Volatility #Markets",
+    "kind": "move_up",
+    "badge": "+14.1%",
+    "data_url": "https://finance.yahoo.com/quote/%5EVIX",
+    "fired_at": "2026-10-02T07:41:38.902658"
   }
 }
